@@ -1,0 +1,23 @@
+var group__vector =
+[
+    [ "absmax", "group__vector.html#gae5532c1e34e00828acea14c6a74ad8a3", null ],
+    [ "absmax", "group__vector.html#ga2d24b2636aa48a372c470554bedb8686", null ],
+    [ "cross", "group__vector.html#ga3fc639209e2326f84fd2ed9b5ecf1472", null ],
+    [ "cross", "group__vector.html#ga7fc94cdedcd2a89bec6500b677451c20", null ],
+    [ "dot", "group__vector.html#gab538c68da1b13307fd8808db637e064b", null ],
+    [ "dot", "group__vector.html#ga8d1b072300d0968ddc52d39b6a98af1a", null ],
+    [ "max", "group__vector.html#ga6a16c3d09eb0f4128e5bb8bc266a635f", null ],
+    [ "max", "group__vector.html#ga288efb9dc205188c695f22197b834a71", null ],
+    [ "mean", "group__vector.html#gae54fb7d77252cd5d9ce1865e52ad7041", null ],
+    [ "mean", "group__vector.html#ga8a41fd746fd0df6d26bf9b1fbe1c4c31", null ],
+    [ "min", "group__vector.html#gae1923a6b7a79393a93c8a3f95e80f58f", null ],
+    [ "min", "group__vector.html#gac341b515d8450526c83d4be1b00122d5", null ],
+    [ "norm", "group__vector.html#gae1b76f40fca05ea4ca715ea5e4792486", null ],
+    [ "norm", "group__vector.html#gacc9b31eebb9c2c2bcaac81e5adfd26b2", null ],
+    [ "norm2", "group__vector.html#ga3f74d56683b807ed91995780b36937ee", null ],
+    [ "norm2", "group__vector.html#ga8a56b8f8d4df08e2b8b1078382b46d63", null ],
+    [ "norm_diff2", "group__vector.html#gaa819dde54a1ed53774a12822b436414a", null ],
+    [ "norm_diff2", "group__vector.html#ga027b5e2d360171e576d1b75d0d3fe8e2", null ],
+    [ "normalise", "group__vector.html#ga9fad171b21c61d8b6f29aa1b4f89e0bf", null ],
+    [ "normalise", "group__vector.html#ga568f4facec88714fd45171bcd34ad93a", null ]
+];

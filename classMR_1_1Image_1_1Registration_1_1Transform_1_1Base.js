@@ -1,0 +1,27 @@
+var classMR_1_1Image_1_1Registration_1_1Transform_1_1Base =
+[
+    [ "ParameterType", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Base.html#a82ad62d2b3fc72fa0bdb6666254262a2", null ],
+    [ "Base", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Base.html#a0abca85c892f415a0aad04d3cb3fe0a2", null ],
+    [ "compute_offset", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Base.html#ac4c5999f84fe7f2e59d06b72f060b67c", null ],
+    [ "get_centre", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Base.html#ad8178c50bc52983b0e4dd6e0a6b33101", null ],
+    [ "get_matrix", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Base.html#ac9fffb92ae75b543fb0e94cfc6a35c18", null ],
+    [ "get_offset", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Base.html#ac263dde4fa615eb57f59a12f99b40a8f", null ],
+    [ "get_optimiser_weights", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Base.html#a8f42a0d02edadf6f4c3822d15b88c1b2", null ],
+    [ "get_transform", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Base.html#a4d3a58f7c009003730a4d5b9825678a5", null ],
+    [ "get_transform", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Base.html#a8d823abc44a55e5ee130681d17da91f8", null ],
+    [ "get_translation", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Base.html#ac25930fc828a176a1f704a25d7025857", null ],
+    [ "set_centre", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Base.html#af325136848f7dd00817e4d5069b90dc5", null ],
+    [ "set_matrix", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Base.html#a2cf26645551e3902330b717f63f5268c", null ],
+    [ "set_offset", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Base.html#a23720197d19da19db84d1a03dcef6761", null ],
+    [ "set_optimiser_weights", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Base.html#a65b4977f3ba0db07a56a18bf7c5d4823", null ],
+    [ "set_transform", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Base.html#ad0d3da5491d534153c4c67dd28c5bfe4", null ],
+    [ "set_translation", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Base.html#a62d6a435b9c398cb9c4d2f3331da953a", null ],
+    [ "size", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Base.html#a2db27130ff0cfebac18c5c64191dc0a6", null ],
+    [ "transform", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Base.html#ab0389d9bcd4ad186a0f58ef41a704c0c", null ],
+    [ "centre", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Base.html#ad0f11a7af5199d0549a931a26d226fd6", null ],
+    [ "matrix", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Base.html#a2ff99a7c5e62b431624cbf5f73ad9336", null ],
+    [ "number_of_parameters", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Base.html#ae5a10279714d1871ac9664c61295895d", null ],
+    [ "offset", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Base.html#a992b224d9a1b742a04066f21f9b75a05", null ],
+    [ "optimiser_weights", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Base.html#ad3be165ffe92c8bcc0d110fb4fa105dc", null ],
+    [ "translation", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Base.html#a051e4038caf51a64c5dcba35250aa421", null ]
+];

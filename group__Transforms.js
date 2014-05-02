@@ -1,0 +1,65 @@
+var group__Transforms =
+[
+    [ "Affine", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Affine.html", [
+      [ "ParameterType", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Affine.html#a2fb88f0baaf254946c3388963f947a4a", null ],
+      [ "UpdateType", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Affine.html#ad893796659be55fe57874a0e692173a4", null ],
+      [ "Affine", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Affine.html#aa1a0205878e118ad3d759e9592670621", null ],
+      [ "get_gradient_descent_updator", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Affine.html#a1a76f5495bcab50dd867ee4b6ea404d7", null ],
+      [ "get_jacobian_wrt_params", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Affine.html#ab0d2feb5d2700f44fe00a83d1e940c2a", null ],
+      [ "get_parameter_vector", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Affine.html#ac1c3ea07b9757862b51c5e14c4471237", null ],
+      [ "set_parameter_vector", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Affine.html#a5c3875c884cb4d9054750398a1f4c712", null ],
+      [ "gradient_descent_updator", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Affine.html#aecb9350c0c8c2836699a2df61eaebdfe", null ]
+    ] ],
+    [ "Base", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Base.html", [
+      [ "ParameterType", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Base.html#a82ad62d2b3fc72fa0bdb6666254262a2", null ],
+      [ "Base", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Base.html#a0abca85c892f415a0aad04d3cb3fe0a2", null ],
+      [ "compute_offset", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Base.html#ac4c5999f84fe7f2e59d06b72f060b67c", null ],
+      [ "get_centre", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Base.html#ad8178c50bc52983b0e4dd6e0a6b33101", null ],
+      [ "get_matrix", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Base.html#ac9fffb92ae75b543fb0e94cfc6a35c18", null ],
+      [ "get_offset", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Base.html#ac263dde4fa615eb57f59a12f99b40a8f", null ],
+      [ "get_optimiser_weights", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Base.html#a8f42a0d02edadf6f4c3822d15b88c1b2", null ],
+      [ "get_transform", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Base.html#a4d3a58f7c009003730a4d5b9825678a5", null ],
+      [ "get_transform", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Base.html#a8d823abc44a55e5ee130681d17da91f8", null ],
+      [ "get_translation", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Base.html#ac25930fc828a176a1f704a25d7025857", null ],
+      [ "set_centre", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Base.html#af325136848f7dd00817e4d5069b90dc5", null ],
+      [ "set_matrix", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Base.html#a2cf26645551e3902330b717f63f5268c", null ],
+      [ "set_offset", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Base.html#a23720197d19da19db84d1a03dcef6761", null ],
+      [ "set_optimiser_weights", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Base.html#a65b4977f3ba0db07a56a18bf7c5d4823", null ],
+      [ "set_transform", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Base.html#ad0d3da5491d534153c4c67dd28c5bfe4", null ],
+      [ "set_translation", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Base.html#a62d6a435b9c398cb9c4d2f3331da953a", null ],
+      [ "size", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Base.html#a2db27130ff0cfebac18c5c64191dc0a6", null ],
+      [ "transform", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Base.html#ab0389d9bcd4ad186a0f58ef41a704c0c", null ],
+      [ "centre", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Base.html#ad0f11a7af5199d0549a931a26d226fd6", null ],
+      [ "matrix", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Base.html#a2ff99a7c5e62b431624cbf5f73ad9336", null ],
+      [ "number_of_parameters", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Base.html#ae5a10279714d1871ac9664c61295895d", null ],
+      [ "offset", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Base.html#a992b224d9a1b742a04066f21f9b75a05", null ],
+      [ "optimiser_weights", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Base.html#ad3be165ffe92c8bcc0d110fb4fa105dc", null ],
+      [ "translation", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Base.html#a051e4038caf51a64c5dcba35250aa421", null ]
+    ] ],
+    [ "Rigid", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Rigid.html", [
+      [ "ParameterType", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Rigid.html#a3434503c9f453971ffb8d4379e4cf0ab", null ],
+      [ "UpdateType", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Rigid.html#a42ac7e2e23587dedad6b59623d69254a", null ],
+      [ "Rigid", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Rigid.html#acb2f91b9ef8f7c0b673f2162fc2cff91", null ],
+      [ "compute_matrix", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Rigid.html#a40c2f1d54dddcf10957e4aff9fb878ed", null ],
+      [ "get_gradient_descent_updator", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Rigid.html#aee27e83b9d011e9214d63e508cefac99", null ],
+      [ "get_jacobian_wrt_params", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Rigid.html#a00e0ea53d3043f5887d8a13ff5541c5f", null ],
+      [ "get_parameter_vector", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Rigid.html#a0dd7c4444e41559e6ef9c880e607db6a", null ],
+      [ "set_parameter_vector", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Rigid.html#a8b7925feed9b6bda12d8364573035c0e", null ],
+      [ "set_rotation", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Rigid.html#ad52a841f0b00b66c5e52ced210f2218a", null ],
+      [ "gradient_descent_updator", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Rigid.html#a4734b4ff34a292ab3d1b1e9d9a29553c", null ],
+      [ "versor_", "classMR_1_1Image_1_1Registration_1_1Transform_1_1Rigid.html#af820f4124f70a99aae825ccac1dd8582", null ]
+    ] ],
+    [ "RigidTest", "classMR_1_1Image_1_1Registration_1_1Transform_1_1RigidTest.html", [
+      [ "ParameterType", "classMR_1_1Image_1_1Registration_1_1Transform_1_1RigidTest.html#a0dd0b36e67b45cc4af5fbcaf590ccf48", null ],
+      [ "UpdateType", "classMR_1_1Image_1_1Registration_1_1Transform_1_1RigidTest.html#ac2c00436c5611f72d868d91deb03c451", null ],
+      [ "RigidTest", "classMR_1_1Image_1_1Registration_1_1Transform_1_1RigidTest.html#a93c608e6114460e9b8a70d5dec67fd81", null ],
+      [ "compute_matrix", "classMR_1_1Image_1_1Registration_1_1Transform_1_1RigidTest.html#acaf6b13418afbf21444c5335f715d80b", null ],
+      [ "get_gradient_descent_updator", "classMR_1_1Image_1_1Registration_1_1Transform_1_1RigidTest.html#a65f6be81b508d84763053a129591fcf4", null ],
+      [ "get_jacobian_wrt_params", "classMR_1_1Image_1_1Registration_1_1Transform_1_1RigidTest.html#a697706a22407a6ddaab82bc2ce9cec5d", null ],
+      [ "get_parameter_vector", "classMR_1_1Image_1_1Registration_1_1Transform_1_1RigidTest.html#a103141181de4c15bf084f038d23be5a4", null ],
+      [ "set_parameter_vector", "classMR_1_1Image_1_1Registration_1_1Transform_1_1RigidTest.html#ae7a3c546d774c27c391194abbf595a66", null ],
+      [ "set_rotation", "classMR_1_1Image_1_1Registration_1_1Transform_1_1RigidTest.html#ac596a66bc7c6a31d199d08062e047644", null ],
+      [ "gradient_descent_updator", "classMR_1_1Image_1_1Registration_1_1Transform_1_1RigidTest.html#af1dbb9d1488c1d21ae2a113016e0a309", null ],
+      [ "versor_", "classMR_1_1Image_1_1Registration_1_1Transform_1_1RigidTest.html#a6d2e427c2963804ce5128b6372038d84", null ]
+    ] ]
+];

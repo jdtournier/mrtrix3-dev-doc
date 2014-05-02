@@ -1,0 +1,27 @@
+var classMR_1_1Math_1_1Versor =
+[
+    [ "value_type", "classMR_1_1Math_1_1Versor.html#a0dd321fd1c72216476a8bc1f0a2f1907", null ],
+    [ "Versor", "classMR_1_1Math_1_1Versor.html#a901f2b6e00c9d869abee4474feb3b088", null ],
+    [ "Versor", "classMR_1_1Math_1_1Versor.html#a05c254702406030bbd9e42a6c8a0577f", null ],
+    [ "Versor", "classMR_1_1Math_1_1Versor.html#a4c6a469daa760e08e824bce769b6b578", null ],
+    [ "Versor", "classMR_1_1Math_1_1Versor.html#a4b7f2c409bf72aba25a4dc68a8cd9a7b", null ],
+    [ "Versor", "classMR_1_1Math_1_1Versor.html#a7f3e4819a461781478f865ffef065857", null ],
+    [ "Versor", "classMR_1_1Math_1_1Versor.html#af4d4b06f948de2b616eaf375dbdfda86", null ],
+    [ "from_matrix", "classMR_1_1Math_1_1Versor.html#a21964145eaee4cd911a501e5f3a6ca70", null ],
+    [ "invalidate", "classMR_1_1Math_1_1Versor.html#a579516daa6776b99bbb62523bcd3058f", null ],
+    [ "normalise", "classMR_1_1Math_1_1Versor.html#a8ed48722f3831890cb66c279e3996c68", null ],
+    [ "operator bool", "classMR_1_1Math_1_1Versor.html#a0e1f6e6ca4d6a81b21e44194b9933fbc", null ],
+    [ "operator!", "classMR_1_1Math_1_1Versor.html#a3b0bdb646e95bbb070cfa605d4156b3b", null ],
+    [ "operator!=", "classMR_1_1Math_1_1Versor.html#a14012a7ba2d00cb6427b8c8e9d073b5f", null ],
+    [ "operator*", "classMR_1_1Math_1_1Versor.html#acedccdad240bc365f2203e78edaa73db", null ],
+    [ "operator*=", "classMR_1_1Math_1_1Versor.html#af92e72ccc00c57ff1a66640c0fecc243", null ],
+    [ "operator==", "classMR_1_1Math_1_1Versor.html#a1362ac88cffc13d6a042fb3d54a9a2a0", null ],
+    [ "operator[]", "classMR_1_1Math_1_1Versor.html#a237c7588536102f6cda1a81f5900143c", null ],
+    [ "operator[]", "classMR_1_1Math_1_1Versor.html#a109d82da58d1c68642e19ff64bbb11c3", null ],
+    [ "reset", "classMR_1_1Math_1_1Versor.html#a6ab918730f73663575b825acb3ea9f67", null ],
+    [ "set", "classMR_1_1Math_1_1Versor.html#a163118ae4541c2f544c9eb5a2dcea4df", null ],
+    [ "set", "classMR_1_1Math_1_1Versor.html#a8dd4611f34507b777a86ed6fd0fcdbad", null ],
+    [ "slerp", "classMR_1_1Math_1_1Versor.html#acd31c718d2e4964050ac0172e2509177", null ],
+    [ "to_matrix", "classMR_1_1Math_1_1Versor.html#a257beb9816f0dd1207d02fe1b8ed30ea", null ],
+    [ "x", "classMR_1_1Math_1_1Versor.html#a0a88ce0baed1d8e65efe9496554795cf", null ]
+];

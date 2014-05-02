@@ -1,0 +1,25 @@
+var classMR_1_1DWI_1_1CSDeconv_1_1Shared =
+[
+    [ "Shared", "classMR_1_1DWI_1_1CSDeconv_1_1Shared.html#a6d6d05161c53bf9d8d548cbedac30218", null ],
+    [ "init", "classMR_1_1DWI_1_1CSDeconv_1_1Shared.html#a2d95746a2dc193108e7e8b21233d6917", null ],
+    [ "nSH", "classMR_1_1DWI_1_1CSDeconv_1_1Shared.html#ad8826bf5f43da7f877305ab1f2206e3a", null ],
+    [ "parse_cmdline_options", "classMR_1_1DWI_1_1CSDeconv_1_1Shared.html#aed87f3d6feb609507d754d94130f0064", null ],
+    [ "set_response", "classMR_1_1DWI_1_1CSDeconv_1_1Shared.html#aac05567efeec1ad740a2152de1d962e8", null ],
+    [ "set_response", "classMR_1_1DWI_1_1CSDeconv_1_1Shared.html#ac16d83d6a0c6b5e7fd41b57470f149f4", null ],
+    [ "DW_dirs", "classMR_1_1DWI_1_1CSDeconv_1_1Shared.html#ac77ef1bab73888676a5ff771eec49a77", null ],
+    [ "dwis", "classMR_1_1DWI_1_1CSDeconv_1_1Shared.html#abe8e217348f1782d7292c16006e62155", null ],
+    [ "grad", "classMR_1_1DWI_1_1CSDeconv_1_1Shared.html#a1ee091778e7852ea97329d1e874a316f", null ],
+    [ "HR_dirs", "classMR_1_1DWI_1_1CSDeconv_1_1Shared.html#ade202389978e5cc599d6445756a2b36d", null ],
+    [ "HR_trans", "classMR_1_1DWI_1_1CSDeconv_1_1Shared.html#abd22218543292002f203246fb954bf0f", null ],
+    [ "init_filter", "classMR_1_1DWI_1_1CSDeconv_1_1Shared.html#a0a2de7045667266ad5770559ba3bae73", null ],
+    [ "lmax", "classMR_1_1DWI_1_1CSDeconv_1_1Shared.html#a9c3dce3f31a8703bd7953fb9933cccb4", null ],
+    [ "lmax_data", "classMR_1_1DWI_1_1CSDeconv_1_1Shared.html#a20af49888f6225cb42d37e739d7c66dd", null ],
+    [ "M", "classMR_1_1DWI_1_1CSDeconv_1_1Shared.html#af1304077e5171030eb789f8eb99759de", null ],
+    [ "Mt_M", "classMR_1_1DWI_1_1CSDeconv_1_1Shared.html#a02fc39d81b616622151d11f5723bd979", null ],
+    [ "neg_lambda", "classMR_1_1DWI_1_1CSDeconv_1_1Shared.html#aad3e5b6b060d4e89c1ba74f99ea4786b", null ],
+    [ "niter", "classMR_1_1DWI_1_1CSDeconv_1_1Shared.html#a10e075ad98e13daec8c8cd3519ff1da1", null ],
+    [ "norm_lambda", "classMR_1_1DWI_1_1CSDeconv_1_1Shared.html#ad4ba6615b6cf3674cd773430f4cad032", null ],
+    [ "rconv", "classMR_1_1DWI_1_1CSDeconv_1_1Shared.html#ab30455fb9a05f5ed46e21e10ec0a2a90", null ],
+    [ "response", "classMR_1_1DWI_1_1CSDeconv_1_1Shared.html#a52f83aa3adef809d07615b1b65bc8944", null ],
+    [ "threshold", "classMR_1_1DWI_1_1CSDeconv_1_1Shared.html#ac5c77577e97707490d1fb6643aaae8d6", null ]
+];
