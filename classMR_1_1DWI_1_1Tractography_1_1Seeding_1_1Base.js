@@ -1,7 +1,8 @@
 var classMR_1_1DWI_1_1Tractography_1_1Seeding_1_1Base =
 [
-    [ "Base", "classMR_1_1DWI_1_1Tractography_1_1Seeding_1_1Base.html#af72d442ccd75877823d75dbf1e082657", null ],
+    [ "Base", "classMR_1_1DWI_1_1Tractography_1_1Seeding_1_1Base.html#a4e773b5acddfb7b96737c3950dc78d78", null ],
     [ "~Base", "classMR_1_1DWI_1_1Tractography_1_1Seeding_1_1Base.html#af45a6505fadf1f4f31823faba24c7f5f", null ],
+    [ "get_max_attempts", "classMR_1_1DWI_1_1Tractography_1_1Seeding_1_1Base.html#ac5ccdf1560d921b98e104170414da8ed", null ],
     [ "get_name", "classMR_1_1DWI_1_1Tractography_1_1Seeding_1_1Base.html#acbbc489b0cf87952617ce72f30f5dd6c", null ],
     [ "get_seed", "classMR_1_1DWI_1_1Tractography_1_1Seeding_1_1Base.html#a35dbb31a3263ca54db863edd41340c99", null ],
     [ "get_seed", "classMR_1_1DWI_1_1Tractography_1_1Seeding_1_1Base.html#a042e0acf95eed21d1362104ebbf95d2f", null ],

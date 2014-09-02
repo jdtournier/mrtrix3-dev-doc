@@ -13,6 +13,7 @@ var searchData=
   ['alpha',['ALPHA',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2ca9f87864f640ffe73129112013430b79a',1,'gl']]],
   ['already_5fsignaled',['ALREADY_SIGNALED',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2ca8d58b60522b000465bcf9f295c40cd57',1,'gl']]],
   ['always',['ALWAYS',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2cadec62eea157bad9db0f4e8686cf67fc7',1,'gl']]],
+  ['amplitude',['Amplitude',['../namespaceMR_1_1GUI_1_1MRView_1_1Tool.html#a408750a8aad3442af457e2caecb7a7f1a680f87261b24a75f60f6f8e0d2b53730',1,'MR::GUI::MRView::Tool']]],
   ['and',['AND',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2cab009cda777f585db0e5a6af66b861d87',1,'gl']]],
   ['and_5finverted',['AND_INVERTED',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2ca1d433bef0d632a7d8b76cfdd6a9808d3',1,'gl']]],
   ['and_5freverse',['AND_REVERSE',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2ca74d80cc76148fc1e070e2d53c504ee72',1,'gl']]],

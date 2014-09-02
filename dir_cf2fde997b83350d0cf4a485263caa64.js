@@ -26,14 +26,14 @@ var dir_cf2fde997b83350d0cf4a485263caa64 =
       [ "Seedtest", "classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1Seedtest.html", "classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1Seedtest" ],
       [ "Shared", "classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1Seedtest_1_1Shared.html", "classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1Seedtest_1_1Shared" ]
     ] ],
-    [ "vecstream.h", "vecstream_8h.html", [
-      [ "VecStream", "classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1VecStream.html", "classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1VecStream" ],
-      [ "Shared", "classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1VecStream_1_1Shared.html", "classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1VecStream_1_1Shared" ]
+    [ "tensor_det.h", "tensor__det_8h.html", [
+      [ "Tensor_Det", "classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1Tensor__Det.html", "classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1Tensor__Det" ],
+      [ "Shared", "classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1Tensor__Det_1_1Shared.html", "classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1Tensor__Det_1_1Shared" ]
     ] ],
-    [ "wbfact.h", "wbfact_8h.html", [
-      [ "WBFACT", "classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1WBFACT.html", "classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1WBFACT" ],
-      [ "Shared", "classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1WBFACT_1_1Shared.html", "classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1WBFACT_1_1Shared" ],
-      [ "WildBootstrap", "classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1WBFACT_1_1WildBootstrap.html", "classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1WBFACT_1_1WildBootstrap" ],
-      [ "Interp", "classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1WBFACT_1_1Interp.html", "classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1WBFACT_1_1Interp" ]
+    [ "tensor_prob.h", "tensor__prob_8h.html", [
+      [ "Tensor_Prob", "classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1Tensor__Prob.html", "classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1Tensor__Prob" ],
+      [ "Shared", "classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1Tensor__Prob_1_1Shared.html", "classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1Tensor__Prob_1_1Shared" ],
+      [ "WildBootstrap", "classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1Tensor__Prob_1_1WildBootstrap.html", "classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1Tensor__Prob_1_1WildBootstrap" ],
+      [ "Interp", "classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1Tensor__Prob_1_1Interp.html", "classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1Tensor__Prob_1_1Interp" ]
     ] ]
 ];

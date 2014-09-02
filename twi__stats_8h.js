@@ -2,8 +2,6 @@ var twi__stats_8h =
 [
     [ "contrast_t", "twi__stats_8h.html#a6d8085a00765609c3f8ee435f8cdf31d", [
       [ "TDI", "twi__stats_8h.html#a6d8085a00765609c3f8ee435f8cdf31da5840d95b6be1bd9468bf319001467ae3", null ],
-      [ "PRECISE_TDI", "twi__stats_8h.html#a6d8085a00765609c3f8ee435f8cdf31da6607743a5d556433c60c3d4b0247a3ed", null ],
-      [ "ENDPOINT", "twi__stats_8h.html#a6d8085a00765609c3f8ee435f8cdf31dab16ca715b15346cb57bab3a6f30c0938", null ],
       [ "LENGTH", "twi__stats_8h.html#a6d8085a00765609c3f8ee435f8cdf31dad39a020f76c41c542cb2d68db9ddc471", null ],
       [ "INVLENGTH", "twi__stats_8h.html#a6d8085a00765609c3f8ee435f8cdf31da20d64a752070d12cd531a1bc5961876f", null ],
       [ "SCALAR_MAP", "twi__stats_8h.html#a6d8085a00765609c3f8ee435f8cdf31daacfcd743eb2709ea6f0620e405ce6b88", null ],
@@ -22,8 +20,7 @@ var twi__stats_8h =
       [ "ENDS_MIN", "twi__stats_8h.html#a3fa21a08c7f0bffb34976f520d129275a42a640c1b024c1e984b97c0624eee127", null ],
       [ "ENDS_MEAN", "twi__stats_8h.html#a3fa21a08c7f0bffb34976f520d129275a2076ca4962a860d6e7f5218c721d66ac", null ],
       [ "ENDS_MAX", "twi__stats_8h.html#a3fa21a08c7f0bffb34976f520d129275a2031db12ec3540ec05257f9693ccb0e3", null ],
-      [ "ENDS_PROD", "twi__stats_8h.html#a3fa21a08c7f0bffb34976f520d129275aec34e0a2d59fd234b7030f7a870b454e", null ],
-      [ "ENDS_CORR", "twi__stats_8h.html#a3fa21a08c7f0bffb34976f520d129275aee5a197b57738c2b0c86c779ad467f87", null ]
+      [ "ENDS_PROD", "twi__stats_8h.html#a3fa21a08c7f0bffb34976f520d129275aec34e0a2d59fd234b7030f7a870b454e", null ]
     ] ],
     [ "vox_stat_t", "twi__stats_8h.html#a11697b8a24621d1aab532b3f6af729bb", [
       [ "V_SUM", "twi__stats_8h.html#a11697b8a24621d1aab532b3f6af729bba6a371889661981da84b47550a804d1e7", null ],

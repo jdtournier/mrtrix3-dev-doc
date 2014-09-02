@@ -10,6 +10,7 @@ var classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1SIFTer =
     [ "calc_gradient", "classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1SIFTer.html#a8bc1a8de5de5e6e2bc0692cac6d53a60", null ],
     [ "calc_roc_cost_function", "classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1SIFTer.html#ac08c417d5162bb9b3fd4cbdd6a693d6a", null ],
     [ "output_filtered_tracks", "classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1SIFTer.html#a01956d42a88eb15a0b78b6424d92c8f3", null ],
+    [ "output_selection", "classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1SIFTer.html#a4e377d564915d0fc586efb3aa4907ce4", null ],
     [ "perform_filtering", "classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1SIFTer.html#ad7f22e1958aa51cd45358e3b667ecc48", null ],
     [ "set_csv_path", "classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1SIFTer.html#af5fdceeb09d560021c2dbc57affd9d05", null ],
     [ "set_regular_outputs", "classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1SIFTer.html#a2fd44687fab36646bc0d5213a14d2588", null ],

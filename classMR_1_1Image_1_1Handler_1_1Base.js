@@ -13,7 +13,7 @@ var classMR_1_1Image_1_1Handler_1_1Base =
     [ "set_image_is_new", "classMR_1_1Image_1_1Handler_1_1Base.html#afd5a5e321520680e801169c7563b340e", null ],
     [ "set_name", "classMR_1_1Image_1_1Handler_1_1Base.html#a342cab94c3f56fa23df885a50f6071aa", null ],
     [ "set_readwrite", "classMR_1_1Image_1_1Handler_1_1Base.html#a261659fec05921cb76b975930b555b0b", null ],
-    [ "unload", "classMR_1_1Image_1_1Handler_1_1Base.html#a74c7bdbf369b8e8927c2b66d9f71d3ad", null ],
+    [ "unload", "classMR_1_1Image_1_1Handler_1_1Base.html#a75cfa78779ba5e6e34cef854a3919ae2", null ],
     [ "operator<<", "classMR_1_1Image_1_1Handler_1_1Base.html#aa5e6d201196e6594fecabb13bd51ec6f", null ],
     [ "addresses", "classMR_1_1Image_1_1Handler_1_1Base.html#acd8cd013ac2be5b48125ffac7f4079a5", null ],
     [ "datatype", "classMR_1_1Image_1_1Handler_1_1Base.html#adaf8fe8ce49056d8d6f318b21e3d049a", null ],

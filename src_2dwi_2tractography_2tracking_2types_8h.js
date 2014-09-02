@@ -2,12 +2,12 @@ var src_2dwi_2tractography_2tracking_2types_8h =
 [
     [ "container_cast", "structMR_1_1container__cast.html", "structMR_1_1container__cast" ],
     [ "Interpolator", "classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1Interpolator.html", "classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1Interpolator" ],
-    [ "NON_POD_VLA", "src_2dwi_2tractography_2tracking_2types_8h.html#gafdeb6bac959b6c3716e6ea242e5bfd8c", null ],
-    [ "NON_POD_VLA_MAX", "src_2dwi_2tractography_2tracking_2types_8h.html#gac4b223848b0e85a7cc733ae8261181cd", null ],
+    [ "NON_POD_VLA", "group__VLA.html#gafdeb6bac959b6c3716e6ea242e5bfd8c", null ],
+    [ "NON_POD_VLA_MAX", "group__VLA.html#gac4b223848b0e85a7cc733ae8261181cd", null ],
     [ "REJECTION_REASON_COUNT", "src_2dwi_2tractography_2tracking_2types_8h.html#a8b24e73a0437a8c6b813f55548c68929", null ],
     [ "TERMINATION_REASON_COUNT", "src_2dwi_2tractography_2tracking_2types_8h.html#a869113fb71998652e5032c2aaf80acd0", null ],
-    [ "VLA", "src_2dwi_2tractography_2tracking_2types_8h.html#ga587ba4d66cf53e7de57f71997aaa1993", null ],
-    [ "VLA_MAX", "src_2dwi_2tractography_2tracking_2types_8h.html#ga5b4337ca14d00af715a3548de3d9bb84", null ],
+    [ "VLA", "group__VLA.html#ga587ba4d66cf53e7de57f71997aaa1993", null ],
+    [ "VLA_MAX", "group__VLA.html#ga5b4337ca14d00af715a3548de3d9bb84", null ],
     [ "cdouble", "src_2dwi_2tractography_2tracking_2types_8h.html#a99adc8169db44e1dc7e351feb7e8041e", null ],
     [ "cfloat", "src_2dwi_2tractography_2tracking_2types_8h.html#ad3a6907cd4a6612defc12dee0928a713", null ],
     [ "float32", "src_2dwi_2tractography_2tracking_2types_8h.html#ae56c72247af15ef1ffc326c6ed4b7ac5", null ],
@@ -34,7 +34,8 @@ var src_2dwi_2tractography_2tracking_2types_8h =
       [ "TERM_IN_SGM", "src_2dwi_2tractography_2tracking_2types_8h.html#a1c30c67185585a9f27b5a581050292f5a1eb2310a7998da4f8a297228b5be1393", null ],
       [ "EXIT_SGM", "src_2dwi_2tractography_2tracking_2types_8h.html#a1c30c67185585a9f27b5a581050292f5aa848b265aba6446e2454c8262740ac47", null ],
       [ "EXIT_MASK", "src_2dwi_2tractography_2tracking_2types_8h.html#a1c30c67185585a9f27b5a581050292f5ac22cdc8e9af290d32c1755f8805306c7", null ],
-      [ "ENTER_EXCLUDE", "src_2dwi_2tractography_2tracking_2types_8h.html#a1c30c67185585a9f27b5a581050292f5abec0556f0c620b426ac707278523450b", null ]
+      [ "ENTER_EXCLUDE", "src_2dwi_2tractography_2tracking_2types_8h.html#a1c30c67185585a9f27b5a581050292f5abec0556f0c620b426ac707278523450b", null ],
+      [ "TRAVERSE_ALL_INCLUDE", "src_2dwi_2tractography_2tracking_2types_8h.html#a1c30c67185585a9f27b5a581050292f5a763bf8bed07f3e965b6a3a054a48987f", null ]
     ] ],
-    [ "term_add_to_tck", "src_2dwi_2tractography_2tracking_2types_8h.html#ad354392229b71b125a4b8eb5c28fb806", null ]
+    [ "term_add_to_tck", "src_2dwi_2tractography_2tracking_2types_8h.html#ae5152527c1230048300e584eeaea3b29", null ]
 ];

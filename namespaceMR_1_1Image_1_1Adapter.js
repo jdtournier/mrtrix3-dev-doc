@@ -1,7 +1,7 @@
 var namespaceMR_1_1Image_1_1Adapter =
 [
-    [ "Extract1D", "classMR_1_1Image_1_1Adapter_1_1Extract1D.html", "classMR_1_1Image_1_1Adapter_1_1Extract1D" ],
     [ "Extract", "classMR_1_1Image_1_1Adapter_1_1Extract.html", "classMR_1_1Image_1_1Adapter_1_1Extract" ],
+    [ "Extract1D", "classMR_1_1Image_1_1Adapter_1_1Extract1D.html", "classMR_1_1Image_1_1Adapter_1_1Extract1D" ],
     [ "Gaussian1D", "classMR_1_1Image_1_1Adapter_1_1Gaussian1D.html", "classMR_1_1Image_1_1Adapter_1_1Gaussian1D" ],
     [ "Gradient1D", "classMR_1_1Image_1_1Adapter_1_1Gradient1D.html", "classMR_1_1Image_1_1Adapter_1_1Gradient1D" ],
     [ "Info", "classMR_1_1Image_1_1Adapter_1_1Info.html", "classMR_1_1Image_1_1Adapter_1_1Info" ],

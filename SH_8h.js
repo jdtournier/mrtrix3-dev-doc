@@ -27,6 +27,7 @@ var SH_8h =
     [ "sconv", "SH_8h.html#a249710b212708808ddb3572646a5f789", null ],
     [ "SH2RH", "SH_8h.html#a0ac260c19f11534bfd6f8c61e25a78a6", null ],
     [ "SH2RH", "SH_8h.html#ad46c7c3b8975c854800465cf87e5d9ae", null ],
+    [ "value", "SH_8h.html#abed74e8e329a907299fa666f1327fb25", null ],
     [ "value", "SH_8h.html#aa8cf559cd72edc71a33270cc992278e4", null ],
     [ "value", "SH_8h.html#a7e61b7a9672b34edbc8319fe7fbe833c", null ],
     [ "value", "SH_8h.html#adb4ee624a2ea9a4ae3bed9e51726c810", null ],

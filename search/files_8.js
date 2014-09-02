@@ -9,9 +9,7 @@ var searchData=
   ['image_2eh',['image.h',['../src_2gui_2mrview_2image_8h.html',1,'']]],
   ['image_5faccess_2eh',['image_access.h',['../image__access_8h.html',1,'']]],
   ['image_5fproperties_2eh',['image_properties.h',['../image__properties_8h.html',1,'']]],
-  ['info_2eh',['info.h',['../adapter_2info_8h.html',1,'']]],
   ['info_2eh',['info.h',['../info_8h.html',1,'']]],
-  ['init_2eh',['init.h',['../init_8h.html',1,'']]],
-  ['initialiser_2eh',['initialiser.h',['../initialiser_8h.html',1,'']]],
+  ['info_2eh',['info.h',['../adapter_2info_8h.html',1,'']]],
   ['iterator_2eh',['iterator.h',['../iterator_8h.html',1,'']]]
 ];

@@ -4,6 +4,7 @@ var searchData=
   ['clipplane',['ClipPlane',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1ClipPlane.html',1,'MR::GUI::MRView::Tool']]],
   ['cluster',['cluster',['../classMR_1_1Image_1_1Filter_1_1cluster.html',1,'MR::Image::Filter']]],
   ['clustersize',['ClusterSize',['../classMR_1_1Stats_1_1TFCE_1_1ClusterSize.html',1,'MR::Stats::TFCE']]],
+  ['comboboxwitherrormsg',['ComboBoxWithErrorMsg',['../classMR_1_1GUI_1_1MRView_1_1ComboBoxWithErrorMsg.html',1,'MR::GUI::MRView']]],
   ['cond',['Cond',['../classMR_1_1Thread_1_1Cond.html',1,'MR::Thread']]],
   ['config',['Config',['../classMR_1_1File_1_1Config.html',1,'MR::File']]],
   ['connectedcomponents',['ConnectedComponents',['../classMR_1_1Image_1_1Filter_1_1ConnectedComponents.html',1,'MR::Image::Filter']]],
@@ -20,6 +21,5 @@ var searchData=
   ['csdeconv',['CSDeconv',['../classMR_1_1DWI_1_1CSDeconv.html',1,'MR::DWI']]],
   ['csdeconv_3c_20float_20_3e',['CSDeconv&lt; float &gt;',['../classMR_1_1DWI_1_1CSDeconv.html',1,'MR::DWI']]],
   ['cubic',['Cubic',['../classMR_1_1Image_1_1Interp_1_1Cubic.html',1,'MR::Image::Interp']]],
-  ['cubic_3c_20secondwarpvoxeltype_20_3e',['Cubic&lt; SecondWarpVoxelType &gt;',['../classMR_1_1Image_1_1Interp_1_1Cubic.html',1,'MR::Image::Interp']]],
   ['cursor',['Cursor',['../classMR_1_1GUI_1_1Cursor.html',1,'MR::GUI']]]
 ];

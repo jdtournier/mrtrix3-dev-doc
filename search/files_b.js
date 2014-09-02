@@ -1,17 +1,17 @@
 var searchData=
 [
   ['mapper_2eh',['mapper.h',['../lib_2file_2dicom_2mapper_8h.html',1,'']]],
+  ['mapper_2eh',['mapper.h',['../src_2dwi_2tractography_2mapping_2gaussian_2mapper_8h.html',1,'']]],
   ['mapper_2eh',['mapper.h',['../src_2dwi_2tractography_2mapping_2mapper_8h.html',1,'']]],
+  ['mapper_5fplugins_2eh',['mapper_plugins.h',['../mapper__plugins_8h.html',1,'']]],
   ['mapping_2eh',['mapping.h',['../mapping_8h.html',1,'']]],
   ['mask_2eh',['mask.h',['../mask_8h.html',1,'']]],
   ['math_2eh',['math.h',['../math_8h.html',1,'']]],
   ['matrix_2eh',['matrix.h',['../matrix_8h.html',1,'']]],
   ['matrix_5fmultiply_2eh',['matrix_multiply.h',['../matrix__multiply_8h.html',1,'']]],
-  ['mean_5fsquared_2eh',['mean_squared.h',['../mean__squared_8h.html',1,'']]],
-  ['mean_5fsquared_5f4d_2eh',['mean_squared_4D.h',['../mean__squared__4D_8h.html',1,'']]],
-  ['median_2eh',['median.h',['../median_8h.html',1,'']]],
-  ['median3d_2eh',['median3D.h',['../adapter_2median3D_8h.html',1,'']]],
-  ['median3d_2eh',['median3D.h',['../filter_2median3D_8h.html',1,'']]],
+  ['median_2eh',['median.h',['../image_2filter_2median_8h.html',1,'']]],
+  ['median_2eh',['median.h',['../math_2median_8h.html',1,'']]],
+  ['median3d_2eh',['median3D.h',['../median3D_8h.html',1,'']]],
   ['mesh_2eh',['mesh.h',['../mesh_8h.html',1,'']]],
   ['method_2eh',['method.h',['../ACT_2method_8h.html',1,'']]],
   ['method_2eh',['method.h',['../tracking_2method_8h.html',1,'']]],
@@ -28,6 +28,5 @@ var searchData=
   ['mrtrix_5futils_2eh',['mrtrix_utils.h',['../mrtrix__utils_8h.html',1,'']]],
   ['multithread_2eh',['multithread.h',['../multithread_8h.html',1,'']]],
   ['multithreading_2eh',['multithreading.h',['../multithreading_8h.html',1,'']]],
-  ['mutex_2eh',['mutex.h',['../mutex_8h.html',1,'']]],
-  ['mutual_5finformation_2eh',['mutual_information.h',['../mutual__information_8h.html',1,'']]]
+  ['mutex_2eh',['mutex.h',['../mutex_8h.html',1,'']]]
 ];

@@ -22,7 +22,7 @@ var dir_13e8a48d08fcaa7b4240d896973d108e =
     [ "LU.h", "LU_8h.html", "LU_8h" ],
     [ "math.h", "math_8h.html", "math_8h" ],
     [ "matrix.h", "matrix_8h.html", "matrix_8h" ],
-    [ "median.h", "median_8h.html", "median_8h" ],
+    [ "median.h", "math_2median_8h.html", "math_2median_8h" ],
     [ "permutation.h", "permutation_8h.html", [
       [ "Permutation", "classMR_1_1Math_1_1Permutation.html", "classMR_1_1Math_1_1Permutation" ]
     ] ],
@@ -33,6 +33,6 @@ var dir_13e8a48d08fcaa7b4240d896973d108e =
     [ "sinc.h", "math_2sinc_8h.html", [
       [ "Sinc", "classMR_1_1Math_1_1Sinc.html", "classMR_1_1Math_1_1Sinc" ]
     ] ],
-    [ "vector.h", "vector_8h.html", "vector_8h" ],
+    [ "vector.h", "lib_2math_2vector_8h.html", "lib_2math_2vector_8h" ],
     [ "versor.h", "versor_8h.html", "versor_8h" ]
 ];

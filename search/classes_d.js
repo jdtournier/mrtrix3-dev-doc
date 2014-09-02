@@ -2,6 +2,7 @@ var searchData=
 [
   ['object',['Object',['../classMR_1_1GUI_1_1GL_1_1Shader_1_1Object.html',1,'MR::GUI::GL::Shader']]],
   ['odf',['ODF',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1ODF.html',1,'MR::GUI::MRView::Tool']]],
+  ['ofstream',['OFStream',['../classMR_1_1File_1_1OFStream.html',1,'MR::File']]],
   ['opengl',['OpenGL',['../classMR_1_1GUI_1_1Dialog_1_1OpenGL.html',1,'MR::GUI::Dialog']]],
   ['opt',['Opt',['../classMR_1_1App_1_1Options_1_1Opt.html',1,'MR::App::Options']]],
   ['optimalthreshold',['OptimalThreshold',['../classMR_1_1Image_1_1Filter_1_1OptimalThreshold.html',1,'MR::Image::Filter']]],

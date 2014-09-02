@@ -38,6 +38,7 @@ var classMR_1_1GUI_1_1MRView_1_1Window =
     [ "show_crosshairs", "classMR_1_1GUI_1_1MRView_1_1Window.html#ac2462efc18e1a437c6e06b52e777f2ea", null ],
     [ "show_orientation_labels", "classMR_1_1GUI_1_1MRView_1_1Window.html#a9aaa1a303beba1bf1f4b5785d68b23dc", null ],
     [ "show_voxel_info", "classMR_1_1GUI_1_1MRView_1_1Window.html#a147116f1492f1bcc6c57dc96902b9015", null ],
+    [ "slice", "classMR_1_1GUI_1_1MRView_1_1Window.html#ac0d4ee5819592ef0dc181c4182bf8ba9", null ],
     [ "sliceChanged", "classMR_1_1GUI_1_1MRView_1_1Window.html#afeb75eecc4c102a6f53d7899e624e119", null ],
     [ "snap_to_image", "classMR_1_1GUI_1_1MRView_1_1Window.html#aac6d1c6748cb50beb11e01b9f1223007", null ],
     [ "target", "classMR_1_1GUI_1_1MRView_1_1Window.html#ad651354791347b0cfe94b9f55838c536", null ],

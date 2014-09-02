@@ -2,9 +2,7 @@ var searchData=
 [
   ['element_5farray_5fbuffer',['ELEMENT_ARRAY_BUFFER',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2ca2454cf04b4bcf98f4b33b7b3aa25f96b',1,'gl']]],
   ['element_5farray_5fbuffer_5fbinding',['ELEMENT_ARRAY_BUFFER_BINDING',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2ca2c4feea7ddb3379c94b3566659f4a2a6',1,'gl']]],
-  ['endpoint',['ENDPOINT',['../namespaceMR_1_1DWI_1_1Tractography_1_1Mapping.html#a6d8085a00765609c3f8ee435f8cdf31dab16ca715b15346cb57bab3a6f30c0938',1,'MR::DWI::Tractography::Mapping']]],
-  ['ends',['Ends',['../namespaceMR_1_1GUI_1_1MRView_1_1Tool.html#a6b2599d4d006ad5291c66bf7ac46eac5ac3a2f7726d8569c540983adc644e042e',1,'MR::GUI::MRView::Tool']]],
-  ['ends_5fcorr',['ENDS_CORR',['../namespaceMR_1_1DWI_1_1Tractography_1_1Mapping.html#a3fa21a08c7f0bffb34976f520d129275aee5a197b57738c2b0c86c779ad467f87',1,'MR::DWI::Tractography::Mapping']]],
+  ['ends',['Ends',['../namespaceMR_1_1GUI_1_1MRView_1_1Tool.html#aaaad2794ce9a61c10224a1e448785ed7ac3a2f7726d8569c540983adc644e042e',1,'MR::GUI::MRView::Tool']]],
   ['ends_5fmax',['ENDS_MAX',['../namespaceMR_1_1DWI_1_1Tractography_1_1Mapping.html#a3fa21a08c7f0bffb34976f520d129275a2031db12ec3540ec05257f9693ccb0e3',1,'MR::DWI::Tractography::Mapping']]],
   ['ends_5fmean',['ENDS_MEAN',['../namespaceMR_1_1DWI_1_1Tractography_1_1Mapping.html#a3fa21a08c7f0bffb34976f520d129275a2076ca4962a860d6e7f5218c721d66ac',1,'MR::DWI::Tractography::Mapping']]],
   ['ends_5fmin',['ENDS_MIN',['../namespaceMR_1_1DWI_1_1Tractography_1_1Mapping.html#a3fa21a08c7f0bffb34976f520d129275a42a640c1b024c1e984b97c0624eee127',1,'MR::DWI::Tractography::Mapping']]],

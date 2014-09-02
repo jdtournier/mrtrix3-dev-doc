@@ -4,7 +4,7 @@ var dir_e92b04800ee021c5345a7a820aa8425f =
     [ "image", "dir_ffad00826946406341255704729e31bf.html", "dir_ffad00826946406341255704729e31bf" ],
     [ "math", "dir_13e8a48d08fcaa7b4240d896973d108e.html", "dir_13e8a48d08fcaa7b4240d896973d108e" ],
     [ "thread", "dir_80492a00434bab6a4af69950e685292a.html", "dir_80492a00434bab6a4af69950e685292a" ],
-    [ "app.h", "app_8h.html", "app_8h" ],
+    [ "app.h", "lib_2app_8h.html", null ],
     [ "args.h", "args_8h.html", "args_8h" ],
     [ "bitset.h", "bitset_8h.html", [
       [ "BitSet", "classMR_1_1BitSet.html", "classMR_1_1BitSet" ],

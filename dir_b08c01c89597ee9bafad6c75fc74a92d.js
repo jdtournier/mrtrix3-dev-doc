@@ -1,6 +1,6 @@
 var dir_b08c01c89597ee9bafad6c75fc74a92d =
 [
-    [ "fixel.h", "fixel_8h.html", [
+    [ "fixel.h", "dwi_2tractography_2SIFT_2fixel_8h.html", [
       [ "Fixel", "classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1Fixel.html", "classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1Fixel" ]
     ] ],
     [ "gradient_sort.h", "gradient__sort_8h.html", [

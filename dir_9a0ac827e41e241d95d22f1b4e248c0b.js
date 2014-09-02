@@ -2,6 +2,7 @@ var dir_9a0ac827e41e241d95d22f1b4e248c0b =
 [
     [ "tractography", "dir_19d0a3e4e28b88a23d7db3189135a27d.html", "dir_19d0a3e4e28b88a23d7db3189135a27d" ],
     [ "base.h", "src_2gui_2mrview_2tool_2base_8h.html", "src_2gui_2mrview_2tool_2base_8h" ],
+    [ "fixel.h", "gui_2mrview_2tool_2fixel_8h.html", "gui_2mrview_2tool_2fixel_8h" ],
     [ "list.h", "src_2gui_2mrview_2tool_2list_8h.html", null ],
     [ "list_model_base.h", "list__model__base_8h.html", [
       [ "ListModelBase", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ListModelBase.html", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ListModelBase" ]
@@ -17,6 +18,9 @@ var dir_9a0ac827e41e241d95d22f1b4e248c0b =
     ] ],
     [ "screen_capture.h", "screen__capture_8h.html", [
       [ "ScreenCapture", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ScreenCapture.html", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ScreenCapture" ]
+    ] ],
+    [ "vector.h", "src_2gui_2mrview_2tool_2vector_8h.html", [
+      [ "Vector", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Vector.html", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Vector" ]
     ] ],
     [ "view.h", "view_8h.html", [
       [ "ClipPlane", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ClipPlane.html", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ClipPlane" ],

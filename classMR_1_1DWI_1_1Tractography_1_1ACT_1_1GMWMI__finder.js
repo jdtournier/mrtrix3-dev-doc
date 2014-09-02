@@ -1,5 +1,6 @@
 var classMR_1_1DWI_1_1Tractography_1_1ACT_1_1GMWMI__finder =
 [
+    [ "Interp", "classMR_1_1DWI_1_1Tractography_1_1ACT_1_1GMWMI__finder.html#ae7fe8e1965256de440a9c11b309dadf8", null ],
     [ "GMWMI_finder", "classMR_1_1DWI_1_1Tractography_1_1ACT_1_1GMWMI__finder.html#a3beffad9d718fe2e9ce87785c31eb2a9", null ],
     [ "GMWMI_finder", "classMR_1_1DWI_1_1Tractography_1_1ACT_1_1GMWMI__finder.html#aad27a951b4d040c19abbd7de4d6e8305", null ],
     [ "crop_track", "classMR_1_1DWI_1_1Tractography_1_1ACT_1_1GMWMI__finder.html#a4c6f18c49363ed162932d4c9bb0e1b9f", null ],

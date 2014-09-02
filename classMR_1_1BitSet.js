@@ -9,6 +9,7 @@ var classMR_1_1BitSet =
     [ "count", "classMR_1_1BitSet.html#a4516d22e256c475c02f445e92ed0f69f", null ],
     [ "empty", "classMR_1_1BitSet.html#a4d063b81ef7070714bb5e9167876d533", null ],
     [ "full", "classMR_1_1BitSet.html#ac35db64859f70b0ffb1d73d6dfa62e31", null ],
+    [ "get_data_ptr", "classMR_1_1BitSet.html#a6a812bef4285a8e33183512f50496f17", null ],
     [ "operator!=", "classMR_1_1BitSet.html#a6f9d71a1e13579d7d564cd4ce4150fed", null ],
     [ "operator&", "classMR_1_1BitSet.html#a16330f2f1679092e748ad1ff5f5263ca", null ],
     [ "operator&=", "classMR_1_1BitSet.html#ac014647e296157ac0bd372e5995cd43d", null ],

@@ -1,13 +1,13 @@
 var writer_8h =
 [
-    [ "BufferScratchDump", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1BufferScratchDump.html", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1BufferScratchDump" ],
     [ "MapWriterBase", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1MapWriterBase.html", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1MapWriterBase" ],
     [ "MapWriter", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1MapWriter.html", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1MapWriter" ],
-    [ "MapWriterColour", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1MapWriterColour.html", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1MapWriterColour" ],
-    [ "get_factor", "writer_8h.html#a8d8227ed654d95a927888fe9b12bc637", null ],
-    [ "get_factor< SetVoxel >", "writer_8h.html#a15bb1e6e029904b538f19d892c6a8039", null ],
-    [ "get_factor< SetVoxelDEC >", "writer_8h.html#a9164d6f6783df7de7d8f5e26fd123513", null ],
-    [ "get_factor< SetVoxelDECFactor >", "writer_8h.html#a91b680c2d60b5e47c5e700466ef83ad0", null ],
-    [ "get_factor< SetVoxelDir >", "writer_8h.html#a3187ce100a0c61556d20d1eac99f259f", null ],
-    [ "get_factor< SetVoxelFactor >", "writer_8h.html#aa669ed37b4c154e4acc00e93134cb023", null ]
+    [ "writer_dim", "writer_8h.html#a89a945a433c16dd9dec81f827d6226b9", [
+      [ "UNDEFINED", "writer_8h.html#a89a945a433c16dd9dec81f827d6226b9a752f5817980e85fdb87743f4289f23e6", null ],
+      [ "GREYSCALE", "writer_8h.html#a89a945a433c16dd9dec81f827d6226b9a244513a3736c9ff9efc50f1a9694023d", null ],
+      [ "DEC", "writer_8h.html#a89a945a433c16dd9dec81f827d6226b9a6089739bde8a2ebf8ce94018a39c9bb7", null ],
+      [ "DIXEL", "writer_8h.html#a89a945a433c16dd9dec81f827d6226b9a3faecc51d21221fd45d2d564764806ac", null ],
+      [ "TOD", "writer_8h.html#a89a945a433c16dd9dec81f827d6226b9af0c84c695211721a958d030309b97209", null ]
+    ] ],
+    [ "writer_dims", "writer_8h.html#a2cbbd3a994105136663e41c9183f4437", null ]
 ];

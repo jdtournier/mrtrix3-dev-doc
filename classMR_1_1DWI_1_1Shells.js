@@ -6,6 +6,7 @@ var classMR_1_1DWI_1_1Shells =
     [ "is_single_shell", "classMR_1_1DWI_1_1Shells.html#aa75c34e259d626c98dcb08f7ff8e5885", null ],
     [ "largest", "classMR_1_1DWI_1_1Shells.html#a6d92bfe5f8a541b966cb868c8043b40f", null ],
     [ "operator[]", "classMR_1_1DWI_1_1Shells.html#a6933e36da0da1779f588f238c0dd3c04", null ],
+    [ "reject_small_shells", "classMR_1_1DWI_1_1Shells.html#af0aa5be3a9d492e799e7e58d5bb8e309", null ],
     [ "select_shells", "classMR_1_1DWI_1_1Shells.html#a4ba1e3c1e3dad4607d6850dea6c0adbe", null ],
     [ "smallest", "classMR_1_1DWI_1_1Shells.html#a493dfcc149da64afebf0bb43310e179a", null ],
     [ "operator<<", "classMR_1_1DWI_1_1Shells.html#a34a9932f1b0c0a42c7f414fd629f4da5", null ],

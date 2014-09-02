@@ -3,7 +3,7 @@ var classMR_1_1GUI_1_1MRView_1_1Tool_1_1Tractography =
     [ "Tractography", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Tractography.html#a0eef571631850f72e7ba2fa17921d41a", null ],
     [ "~Tractography", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Tractography.html#ad4e7490b3eb289ce471848b3e950a153", null ],
     [ "crop_to_slab", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Tractography.html#a17890c0f328abed77a49974255e92cc8", null ],
-    [ "draw", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Tractography.html#aa77d63183e6035d10f232e7c36bcff1c", null ],
+    [ "draw", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Tractography.html#a75487d6c17d561bb0a509b52f947fecb", null ],
     [ "drawOverlays", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Tractography.html#a6a90ac55eb64d4faeb3403f29a819c4b", null ],
     [ "process_batch_command", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Tractography.html#a93246d3d99eb6fbba48d5c11552e3e9a", null ],
     [ "do_crop_to_slab", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Tractography.html#a2d4dcf4a6229a2dabd5f2b2faac94688", null ],

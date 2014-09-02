@@ -2,9 +2,9 @@ var classMR_1_1Image_1_1Handler_1_1Sparse =
 [
     [ "Sparse", "classMR_1_1Image_1_1Handler_1_1Sparse.html#ade6d9f393c46d1da9df9cdebaf43292a", null ],
     [ "~Sparse", "classMR_1_1Image_1_1Handler_1_1Sparse.html#a8f503bfc446aa5bb29bd96c36172b6b5", null ],
-    [ "get", "classMR_1_1Image_1_1Handler_1_1Sparse.html#aed4e93027b09316948a5f3c85f677f44", null ],
+    [ "get", "classMR_1_1Image_1_1Handler_1_1Sparse.html#aaa5087c649082341869e088ea17b9944", null ],
     [ "get_class_name", "classMR_1_1Image_1_1Handler_1_1Sparse.html#a019535b3acdc40f751fe9dba762bcac8", null ],
-    [ "get_class_size", "classMR_1_1Image_1_1Handler_1_1Sparse.html#adb0834748d83c784b1473fafef0a302e", null ],
+    [ "get_class_size", "classMR_1_1Image_1_1Handler_1_1Sparse.html#a6f86b27b2fcc4cc8f6ff99399440dba0", null ],
     [ "get_numel", "classMR_1_1Image_1_1Handler_1_1Sparse.html#a6afbced0c2b5c005ab9e5709cc11aa36", null ],
     [ "load", "classMR_1_1Image_1_1Handler_1_1Sparse.html#a4d95932208dfa8964a76e3c490987530", null ],
     [ "off2mem", "classMR_1_1Image_1_1Handler_1_1Sparse.html#a8470093f64b8dd525a5639b09d07f8bc", null ],

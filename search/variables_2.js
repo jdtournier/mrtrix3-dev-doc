@@ -17,7 +17,7 @@ var searchData=
   ['bindsampler',['BindSampler',['../namespacegl.html#a799220928999147bf185c2369338887b',1,'gl']]],
   ['bindtexture',['BindTexture',['../namespacegl.html#a5fa01009e3254f1f93538293b2832519',1,'gl']]],
   ['bindvertexarray',['BindVertexArray',['../namespacegl.html#a6389a4262cea3e9a2288fc2efdd4bf12',1,'gl']]],
-  ['binv',['binv',['../classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1FACT_1_1Shared.html#a15b61d8e4d60799de6ed6865724cb842',1,'MR::DWI::Tractography::Algorithms::FACT::Shared']]],
+  ['binv',['binv',['../classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1Tensor__Det_1_1Shared.html#a769c893b10a3daafeed43cdd99a82675',1,'MR::DWI::Tractography::Algorithms::Tensor_Det::Shared']]],
   ['bit',['Bit',['../classMR_1_1DataType.html#a919f65f2da32b5f8ec66923c4e0c9b6a',1,'MR::DataType']]],
   ['bits_5falloc',['bits_alloc',['../classMR_1_1File_1_1Dicom_1_1Frame.html#a5a3aa7358bc4cac77139b9c8319b2dcf',1,'MR::File::Dicom::Frame::bits_alloc()'],['../classMR_1_1File_1_1Dicom_1_1QuickScan.html#a0a3e5f0b651f6bf19bea0d32c7a109b4',1,'MR::File::Dicom::QuickScan::bits_alloc()']]],
   ['blendcolor',['BlendColor',['../namespacegl.html#aaee782f8d37f9f0a40060cff3025d76d',1,'gl']]],
@@ -26,7 +26,7 @@ var searchData=
   ['blendfunc',['BlendFunc',['../namespacegl.html#ab81ac9947c970eec271e686c32dea7fd',1,'gl']]],
   ['blendfuncseparate',['BlendFuncSeparate',['../namespacegl.html#ad36e5d30379e25e57ecd6474134d246c',1,'gl']]],
   ['blitframebuffer',['BlitFramebuffer',['../namespacegl.html#af73c581b7d2a69baa0aef1cd15fbd074',1,'gl']]],
-  ['bmat',['bmat',['../classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1FACT_1_1Shared.html#ab173f00528860b65cda49f07bbbb0e02',1,'MR::DWI::Tractography::Algorithms::FACT::Shared']]],
+  ['bmat',['bmat',['../classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1Tensor__Det_1_1Shared.html#a3245e4b4e9a4bb2c599192280a827d62',1,'MR::DWI::Tractography::Algorithms::Tensor_Det::Shared']]],
   ['bottomedge',['BottomEdge',['../namespaceMR_1_1GUI.html#a2c841acd3b2d23a953280b8de62248ad',1,'MR::GUI']]],
   ['bounds',['bounds',['../classMR_1_1Image_1_1Transform.html#aa65068ef8c06a5aefb8f4bbcf514a039',1,'MR::Image::Transform']]],
   ['buffer',['buffer',['../classMR_1_1DWI_1_1Tractography_1_1Writer.html#adf01bc19b43d507f36b262ff5a809ac4',1,'MR::DWI::Tractography::Writer::buffer()'],['../classMR_1_1DWI_1_1Tractography_1_1ScalarWriter.html#a7ae67084723765e352896c0b824f466c',1,'MR::DWI::Tractography::ScalarWriter::buffer()']]],
@@ -36,6 +36,7 @@ var searchData=
   ['buffersubdata',['BufferSubData',['../namespacegl.html#ab747b0add27862b56a52370f2d5bd07b',1,'gl']]],
   ['build_5fdate',['build_date',['../namespaceMR_1_1App.html#af0aeea45aeb00a652d21e8a4d7b21ef8',1,'MR::App']]],
   ['bvalue',['bvalue',['../classMR_1_1File_1_1Dicom_1_1Frame.html#a6a4aabaf58119b029e9b85ca62dd827f',1,'MR::File::Dicom::Frame']]],
+  ['bytes_5f',['bytes_',['../classMR_1_1Image_1_1BufferScratch_3_01bool_01_4.html#aac9776f42b543901e7ad233c60ebaeb3',1,'MR::Image::BufferScratch&lt; bool &gt;']]],
   ['bytes_5fper_5fsegment',['bytes_per_segment',['../classMR_1_1Image_1_1Handler_1_1Default.html#ac62eb9c40cc59622df45a76cdd3e066a',1,'MR::Image::Handler::Default::bytes_per_segment()'],['../classMR_1_1Image_1_1Handler_1_1GZ.html#a9a35a4570cfdae475c0b56272cdc9b74',1,'MR::Image::Handler::GZ::bytes_per_segment()']]],
   ['bzero_5fthreshold',['bzero_threshold',['../namespaceMR_1_1DWI.html#a7c04b88da81356b29cab4e09305ca68a',1,'MR::DWI']]]
 ];

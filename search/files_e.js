@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['params_2eh',['params.h',['../params_8h.html',1,'']]],
   ['path_2eh',['path.h',['../path_8h.html',1,'']]],
   ['patient_2eh',['patient.h',['../patient_8h.html',1,'']]],
   ['permutation_2eh',['permutation.h',['../permutation_8h.html',1,'']]],

@@ -3,7 +3,7 @@ var dir_382cc327ed00323efa78f3464f7d41a1 =
     [ "base.h", "src_2dwi_2tractography_2seeding_2base_8h.html", "src_2dwi_2tractography_2seeding_2base_8h" ],
     [ "basic.h", "basic_8h.html", [
       [ "Sphere", "classMR_1_1DWI_1_1Tractography_1_1Seeding_1_1Sphere.html", "classMR_1_1DWI_1_1Tractography_1_1Seeding_1_1Sphere" ],
-      [ "Default", "classMR_1_1DWI_1_1Tractography_1_1Seeding_1_1Default.html", "classMR_1_1DWI_1_1Tractography_1_1Seeding_1_1Default" ],
+      [ "SeedMask", "classMR_1_1DWI_1_1Tractography_1_1Seeding_1_1SeedMask.html", "classMR_1_1DWI_1_1Tractography_1_1Seeding_1_1SeedMask" ],
       [ "Random_per_voxel", "classMR_1_1DWI_1_1Tractography_1_1Seeding_1_1Random__per__voxel.html", "classMR_1_1DWI_1_1Tractography_1_1Seeding_1_1Random__per__voxel" ],
       [ "Grid_per_voxel", "classMR_1_1DWI_1_1Tractography_1_1Seeding_1_1Grid__per__voxel.html", "classMR_1_1DWI_1_1Tractography_1_1Seeding_1_1Grid__per__voxel" ],
       [ "Rejection", "classMR_1_1DWI_1_1Tractography_1_1Seeding_1_1Rejection.html", "classMR_1_1DWI_1_1Tractography_1_1Seeding_1_1Rejection" ]

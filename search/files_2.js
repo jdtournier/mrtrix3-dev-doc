@@ -8,6 +8,7 @@ var searchData=
   ['cmdlineparsing_2eh',['cmdlineparsing.h',['../cmdlineparsing_8h.html',1,'']]],
   ['color_5fbutton_2eh',['color_button.h',['../color__button_8h.html',1,'']]],
   ['colourmap_2eh',['colourmap.h',['../colourmap_8h.html',1,'']]],
+  ['combo_5fbox_5ferror_2eh',['combo_box_error.h',['../combo__box__error_8h.html',1,'']]],
   ['command_2eh',['command.h',['../command_8h.html',1,'']]],
   ['complex_2eh',['complex.h',['../complex_8h.html',1,'']]],
   ['condition_2eh',['condition.h',['../condition_8h.html',1,'']]],

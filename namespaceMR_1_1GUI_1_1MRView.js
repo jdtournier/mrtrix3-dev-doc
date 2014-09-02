@@ -4,6 +4,7 @@ var namespaceMR_1_1GUI_1_1MRView =
     [ "Mode", "namespaceMR_1_1GUI_1_1MRView_1_1Mode.html", "namespaceMR_1_1GUI_1_1MRView_1_1Mode" ],
     [ "Tool", "namespaceMR_1_1GUI_1_1MRView_1_1Tool.html", "namespaceMR_1_1GUI_1_1MRView_1_1Tool" ],
     [ "AdjustButton", "classMR_1_1GUI_1_1MRView_1_1AdjustButton.html", "classMR_1_1GUI_1_1MRView_1_1AdjustButton" ],
+    [ "ComboBoxWithErrorMsg", "classMR_1_1GUI_1_1MRView_1_1ComboBoxWithErrorMsg.html", "classMR_1_1GUI_1_1MRView_1_1ComboBoxWithErrorMsg" ],
     [ "Displayable", "classMR_1_1GUI_1_1MRView_1_1Displayable.html", "classMR_1_1GUI_1_1MRView_1_1Displayable" ],
     [ "Image", "classMR_1_1GUI_1_1MRView_1_1Image.html", "classMR_1_1GUI_1_1MRView_1_1Image" ],
     [ "Window", "classMR_1_1GUI_1_1MRView_1_1Window.html", "classMR_1_1GUI_1_1MRView_1_1Window" ]

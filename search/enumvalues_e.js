@@ -28,7 +28,6 @@ var searchData=
   ['polygon_5foffset_5funits',['POLYGON_OFFSET_UNITS',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2ca395babfadc59c1107d0503dff6775ab9',1,'gl']]],
   ['polygon_5fsmooth',['POLYGON_SMOOTH',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2cafcf21c3f2a1f3cc4fb52a1555547a41f',1,'gl']]],
   ['polygon_5fsmooth_5fhint',['POLYGON_SMOOTH_HINT',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2ca77897d07e3b6dbba8a39403953969ba2',1,'gl']]],
-  ['precise_5ftdi',['PRECISE_TDI',['../namespaceMR_1_1DWI_1_1Tractography_1_1Mapping.html#a6d8085a00765609c3f8ee435f8cdf31da6607743a5d556433c60c3d4b0247a3ed',1,'MR::DWI::Tractography::Mapping']]],
   ['primitive_5frestart',['PRIMITIVE_RESTART',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2cab7db7fbc3b72082ce0a77457e95e8454',1,'gl']]],
   ['primitive_5frestart_5findex',['PRIMITIVE_RESTART_INDEX',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2caf18e92c4a17ee0e3c6780c2fec672193',1,'gl']]],
   ['primitives_5fgenerated',['PRIMITIVES_GENERATED',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2caee5347cbbb0144c8ecd271920050c785',1,'gl']]],

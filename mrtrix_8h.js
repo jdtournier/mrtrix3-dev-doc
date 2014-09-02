@@ -40,6 +40,7 @@ var mrtrix_8h =
     [ "str< cfloat >", "mrtrix_8h.html#abf7a9d5cf0c28b1ada565992ec749917", null ],
     [ "strip", "mrtrix_8h.html#a9fd727652ef9cc1ba0b553cfb57f6dd9", null ],
     [ "to", "mrtrix_8h.html#ad5a737bfbb3fcb51accf1a329da6fb7c", null ],
+    [ "to< bool >", "mrtrix_8h.html#a7a3f228024f9079f1cfbb57f5588f294", null ],
     [ "to< cdouble >", "mrtrix_8h.html#a3110479a6319030fd248dfcc3b277da6", null ],
     [ "to< cfloat >", "mrtrix_8h.html#a68611edfac7f1f97a928906edc376f70", null ],
     [ "uppercase", "mrtrix_8h.html#a7d035b6b9b940dbd90c1d8a7e75fef73", null ],

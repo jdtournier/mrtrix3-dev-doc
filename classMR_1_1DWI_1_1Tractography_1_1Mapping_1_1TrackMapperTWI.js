@@ -1,12 +1,13 @@
 var classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TrackMapperTWI =
 [
-    [ "TrackMapperTWI", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TrackMapperTWI.html#aebd21235cd6d64eef728fc28cacf5541", null ],
-    [ "TrackMapperTWI", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TrackMapperTWI.html#ac3a5dfb7b8fcc2bbb4d9638d6b732595", null ],
-    [ "~TrackMapperTWI", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TrackMapperTWI.html#a7f237f68621283bdb321ac31f8f16bfa", null ],
-    [ "gaussian_smooth_factors", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TrackMapperTWI.html#aa54d57a75da07ee8f065e8bd45fca16c", null ],
-    [ "load_factors", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TrackMapperTWI.html#aaf18fdf2ded1473fcb3721687d5160f9", null ],
-    [ "contrast", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TrackMapperTWI.html#a8d6b3a8bd68ea0c4c2c3280947bc44c8", null ],
-    [ "factors", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TrackMapperTWI.html#a3861fae0777fe1a2999b74d2feb61e2d", null ],
-    [ "gaussian_denominator", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TrackMapperTWI.html#a3787c151a71010ef7bf8aff221e91cf7", null ],
-    [ "track_statistic", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TrackMapperTWI.html#a1b86867d16894ec78ecdbca58ef68c16", null ]
+    [ "TrackMapperTWI", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TrackMapperTWI.html#a87e2e6296985ffb047f58b5cb0399c0f", null ],
+    [ "TrackMapperTWI", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TrackMapperTWI.html#aa12ebf8090b0a727c6cde53ff8e12394", null ],
+    [ "~TrackMapperTWI", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TrackMapperTWI.html#ad1934f25ed9e8071ee9ec759d70889c9", null ],
+    [ "add_fod_image", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TrackMapperTWI.html#a873cc058cf5819eb466f1043e90c33f8", null ],
+    [ "add_scalar_image", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TrackMapperTWI.html#afded56ccec470eabe43cee9b12d2448f", null ],
+    [ "load_factors", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TrackMapperTWI.html#a378c8e575b531923cb21102d7d9d7e45", null ],
+    [ "contrast", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TrackMapperTWI.html#aa628f9927e0b1a72c1fb2117ba8514e3", null ],
+    [ "factors", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TrackMapperTWI.html#a4681cf9a78f3cd3ce13a2afb52de4157", null ],
+    [ "image_plugin", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TrackMapperTWI.html#a8efbe5975537f9d028631472b126f3e8", null ],
+    [ "track_statistic", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TrackMapperTWI.html#acada0bc5176f68e7b61c17921711f197", null ]
 ];

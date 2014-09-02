@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['inittype',['InitType',['../namespaceMR_1_1Image_1_1Registration_1_1Transform_1_1Init.html#a438e086d5d1e700a70220b457ab89707',1,'MR::Image::Registration::Transform::Init']]]
+  ['fixelcolourtype',['FixelColourType',['../namespaceMR_1_1GUI_1_1MRView_1_1Tool.html#a22348cc42517686fa6f064cc14af1f80',1,'MR::GUI::MRView::Tool']]],
+  ['fixellengthtype',['FixelLengthType',['../namespaceMR_1_1GUI_1_1MRView_1_1Tool.html#a408750a8aad3442af457e2caecb7a7f1',1,'MR::GUI::MRView::Tool']]]
 ];

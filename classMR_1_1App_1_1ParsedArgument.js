@@ -1,6 +1,7 @@
 var classMR_1_1App_1_1ParsedArgument =
 [
     [ "c_str", "group__CmdParse.html#ga3866f757fe23cab0bf033fc414a18429", null ],
+    [ "operator bool", "group__CmdParse.html#ga970f7f5b97343ad5da3338d5f9b4bc0b", null ],
     [ "operator double", "group__CmdParse.html#gabc5107404dce698c2e4e0117833250e8", null ],
     [ "operator float", "group__CmdParse.html#gae53df8c5c4003341a5ffc0ea36bc799b", null ],
     [ "operator int", "group__CmdParse.html#ga5be62b41a0da1f036ff3cc1b64d4ccb2", null ],

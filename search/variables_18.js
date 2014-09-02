@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['x',['x',['../classMR_1_1Image_1_1Voxel.html#af13ef94b87fba67532420fd271f68bd0',1,'MR::Image::Voxel::x()'],['../classMR_1_1Math_1_1GradientDescent.html#aaa0cf7379932c8e08dbea093dade4b1f',1,'MR::Math::GradientDescent::x()'],['../classMR_1_1Math_1_1Versor.html#a0a88ce0baed1d8e65efe9496554795cf',1,'MR::Math::Versor::x()'],['../classMR_1_1Math_1_1Stats_1_1GLMTTest.html#a043aaab87c73ee3fdedf71f473c78d8d',1,'MR::Math::Stats::GLMTTest::X()']]],
-  ['x2',['x2',['../classMR_1_1Math_1_1GradientDescent.html#a21c1aed848a4105698b8823810122479',1,'MR::Math::GradientDescent']]],
-  ['x_5fa',['x_a',['../structmgh__header.html#a8a1c0538068e323228a6e0fa5cb6dc10',1,'mgh_header']]],
-  ['x_5fr',['x_r',['../structmgh__header.html#a2040a7541368537b91bd750b095aad1d',1,'mgh_header']]],
-  ['x_5fs',['x_s',['../structmgh__header.html#ac14dd614b5843087c34e5f2a88c81969',1,'mgh_header']]],
-  ['xdim',['xdim',['../classMR_1_1Image_1_1Handler_1_1Mosaic.html#a688ff4d65c703aebcc1eaf731118fced',1,'MR::Image::Handler::Mosaic']]]
+  ['y',['y',['../classMR_1_1Math_1_1Stats_1_1GLMTTest.html#a5c5d32c7760ac70d5a45a2a8e0b225e9',1,'MR::Math::Stats::GLMTTest']]],
+  ['y_5fa',['y_a',['../structmgh__header.html#ae7028caf709e002d8688e10306e4f5f8',1,'mgh_header']]],
+  ['y_5fr',['y_r',['../structmgh__header.html#a1a7e1c6bf65ba37f15652548230a455b',1,'mgh_header']]],
+  ['y_5fs',['y_s',['../structmgh__header.html#a64c779b98739154f4902739545419c5b',1,'mgh_header']]],
+  ['y_5fvalues',['y_values',['../classMR_1_1Image_1_1Interp_1_1Sinc.html#a52837c5375a7c012459caaca088410f8',1,'MR::Image::Interp::Sinc']]],
+  ['ydim',['ydim',['../classMR_1_1Image_1_1Handler_1_1Mosaic.html#aece47c7ddf6b9664ebdd6ef772ba091e',1,'MR::Image::Handler::Mosaic']]]
 ];

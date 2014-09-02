@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['params',['Params',['../classMR_1_1Image_1_1Registration_1_1Metric_1_1Params.html',1,'MR::Image::Registration::Metric']]],
   ['parsedargument',['ParsedArgument',['../classMR_1_1App_1_1ParsedArgument.html',1,'MR::App']]],
   ['parsedname',['ParsedName',['../classMR_1_1Image_1_1ParsedName.html',1,'MR::Image']]],
   ['parsedoption',['ParsedOption',['../classMR_1_1App_1_1ParsedOption.html',1,'MR::App']]],
@@ -18,7 +17,6 @@ var searchData=
   ['polygon',['Polygon',['../classMR_1_1Mesh_1_1Polygon.html',1,'MR::Mesh']]],
   ['position',['Position',['../classMR_1_1Image_1_1Position.html',1,'MR::Image']]],
   ['precomputedal',['PrecomputedAL',['../classMR_1_1Math_1_1SH_1_1PrecomputedAL.html',1,'MR::Math::SH']]],
-  ['precomputedal_3c_20float_20_3e',['PrecomputedAL&lt; float &gt;',['../classMR_1_1Math_1_1SH_1_1PrecomputedAL.html',1,'MR::Math::SH']]],
   ['precomputedal_3c_20value_5ftype_20_3e',['PrecomputedAL&lt; value_type &gt;',['../classMR_1_1Math_1_1SH_1_1PrecomputedAL.html',1,'MR::Math::SH']]],
   ['precomputedfraction',['PrecomputedFraction',['../classMR_1_1Math_1_1SH_1_1PrecomputedFraction.html',1,'MR::Math::SH']]],
   ['processor',['Processor',['../classMR_1_1Stats_1_1TFCE_1_1Processor.html',1,'MR::Stats::TFCE']]],
@@ -30,14 +28,13 @@ var searchData=
   ['ptr',['Ptr',['../classMR_1_1Ptr.html',1,'MR']]],
   ['ptr_3c_20act_3a_3aact_5fmethod_5fadditions_20_3e',['Ptr&lt; ACT::ACT_Method_additions &gt;',['../classMR_1_1Ptr.html',1,'MR']]],
   ['ptr_3c_20act_3a_3aact_5fshared_5fadditions_20_3e',['Ptr&lt; ACT::ACT_Shared_additions &gt;',['../classMR_1_1Ptr.html',1,'MR']]],
+  ['ptr_3c_20bufferscratch_3c_20float_20_3e_20_3e',['Ptr&lt; BufferScratch&lt; float &gt; &gt;',['../classMR_1_1Ptr.html',1,'MR']]],
   ['ptr_3c_20file_3a_3ammap_20_3e',['Ptr&lt; File::MMap &gt;',['../classMR_1_1Ptr.html',1,'MR']]],
   ['ptr_3c_20file_3a_3amr_3a_3afile_3a_3ammap_20_3e',['Ptr&lt; File::MR::File::MMap &gt;',['../classMR_1_1Ptr.html',1,'MR']]],
+  ['ptr_3c_20file_3a_3aofstream_20_3e',['Ptr&lt; File::OFStream &gt;',['../classMR_1_1Ptr.html',1,'MR']]],
   ['ptr_3c_20image_3a_3abufferscratch_3c_20float_20_3e_20_3e',['Ptr&lt; Image::BufferScratch&lt; float &gt; &gt;',['../classMR_1_1Ptr.html',1,'MR']]],
-  ['ptr_3c_20image_3a_3ainterp_3a_3amr_3a_3aimage_3a_3aregistration_3a_3alinear_3c_20image_3a_3amr_3a_3aimage_3a_3abufferscratch_3c_20float_20_3e_3a_3avoxel_5ftype_20_3e_20_3e',['Ptr&lt; Image::Interp::MR::Image::Registration::Linear&lt; Image::MR::Image::BufferScratch&lt; float &gt;::voxel_type &gt; &gt;',['../classMR_1_1Ptr.html',1,'MR']]],
   ['ptr_3c_20maskvoxeltype_20_3e',['Ptr&lt; MaskVoxelType &gt;',['../classMR_1_1Ptr.html',1,'MR']]],
   ['ptr_3c_20mode_3a_3abase_20_3e',['Ptr&lt; Mode::Base &gt;',['../classMR_1_1Ptr.html',1,'MR']]],
-  ['ptr_3c_20movingimageinterpolatortype_20_3e',['Ptr&lt; MovingImageInterpolatorType &gt;',['../classMR_1_1Ptr.html',1,'MR']]],
-  ['ptr_3c_20movingmaskinterpolatortype_20_3e',['Ptr&lt; MovingMaskInterpolatorType &gt;',['../classMR_1_1Ptr.html',1,'MR']]],
   ['ptr_3c_20mr_3a_3adwi_3a_3atractography_3a_3aact_3a_3agmwmi_5ffinder_20_3e',['Ptr&lt; MR::DWI::Tractography::ACT::GMWMI_finder &gt;',['../classMR_1_1Ptr.html',1,'MR']]],
   ['ptr_3c_20mr_3a_3adwi_3a_3atractography_3a_3aseeding_3a_3adynamic_5fact_5fadditions_20_3e',['Ptr&lt; MR::DWI::Tractography::Seeding::Dynamic_ACT_additions &gt;',['../classMR_1_1Ptr.html',1,'MR']]],
   ['ptr_3c_20mr_3a_3aimage_3a_3avoxel_20_3e',['Ptr&lt; MR::Image::Voxel &gt;',['../classMR_1_1Ptr.html',1,'MR']]],
@@ -45,9 +42,9 @@ var searchData=
   ['ptr_3c_20mr_3a_3aprogressbar_20_3e',['Ptr&lt; MR::ProgressBar &gt;',['../classMR_1_1Ptr.html',1,'MR']]],
   ['ptr_3c_20path_3a_3adir_20_3e',['Ptr&lt; Path::Dir &gt;',['../classMR_1_1Ptr.html',1,'MR']]],
   ['ptr_3c_20qimage_20_3e',['Ptr&lt; QImage &gt;',['../classMR_1_1Ptr.html',1,'MR']]],
-  ['ptr_3c_20std_3a_3aofstream_20_3e',['Ptr&lt; std::ofstream &gt;',['../classMR_1_1Ptr.html',1,'MR']]],
-  ['ptr_3c_20templatemaskinterpolatortype_20_3e',['Ptr&lt; TemplateMaskInterpolatorType &gt;',['../classMR_1_1Ptr.html',1,'MR']]],
+  ['ptr_3c_20std_3a_3aifstream_20_3e',['Ptr&lt; std::ifstream &gt;',['../classMR_1_1Ptr.html',1,'MR']]],
   ['ptr_3c_20tractography_3a_3amr_3a_3adwi_3a_3atractography_3a_3areader_3c_3e_20_3e',['Ptr&lt; Tractography::MR::DWI::Tractography::Reader&lt;&gt; &gt;',['../classMR_1_1Ptr.html',1,'MR']]],
+  ['ptr_3c_20uint8_5ft_2c_20true_20_3e',['Ptr&lt; uint8_t, true &gt;',['../classMR_1_1Ptr.html',1,'MR']]],
   ['ptr_3c_20value_5ftype_2c_20true_20_3e',['Ptr&lt; value_type, true &gt;',['../classMR_1_1Ptr.html',1,'MR']]],
   ['ptrcomp',['PtrComp',['../classMR_1_1PtrComp.html',1,'MR']]]
 ];

@@ -14,6 +14,7 @@ var classMR_1_1Image_1_1ConstHeader =
     [ "intensity_scale", "classMR_1_1Image_1_1ConstHeader.html#a33f36f36e401221d3647d1aa0a60f782", null ],
     [ "name", "classMR_1_1Image_1_1ConstHeader.html#a978912fe2fd128afdf2c88d4868d315c", null ],
     [ "ndim", "classMR_1_1Image_1_1ConstHeader.html#a6b4fa0db4e2fcf5fe7fa06d67504a46b", null ],
+    [ "operator=", "classMR_1_1Image_1_1ConstHeader.html#a7bfb13188f5239d1e3c64b533155210c", null ],
     [ "stride", "classMR_1_1Image_1_1ConstHeader.html#a9ba867dcd37d0755aaae3d2b9a67d0f7", null ],
     [ "transform", "classMR_1_1Image_1_1ConstHeader.html#a7d77c947dac30bf18196783aa5128598", null ],
     [ "vox", "classMR_1_1Image_1_1ConstHeader.html#a7e32299ba4bed3768e4b5e7adb495939", null ],

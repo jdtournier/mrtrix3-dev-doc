@@ -7,7 +7,7 @@ var searchData=
   ['never',['NEVER',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2caf77465e3c982ffa8e4b36c521a194ad2',1,'gl']]],
   ['nicest',['NICEST',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2ca6e64f5f6c82eac724c23cf0736517d0c',1,'gl']]],
   ['no_5ferror_5f',['NO_ERROR_',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2ca93fc54b56ba8128288e8e60d0a4d7851',1,'gl']]],
-  ['none',['none',['../namespaceMR_1_1Image_1_1Registration_1_1Transform_1_1Init.html#a438e086d5d1e700a70220b457ab89707af9d583c281554f502458d472c2b8bb46',1,'MR::Image::Registration::Transform::Init::none()'],['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2ca3c0321ee263a6534704c692eaa9c023a',1,'gl::NONE()']]],
+  ['none',['NONE',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2ca3c0321ee263a6534704c692eaa9c023a',1,'gl']]],
   ['noop',['NOOP',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2ca8d0de1e6663dad7d0aa7352766767b7c',1,'gl']]],
   ['nor',['NOR',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2ca3acae809d685169e017ea7096c98d6d7',1,'gl']]],
   ['notequal',['NOTEQUAL',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2ca511d57072dc4d1f199231039ce0df4ec',1,'gl']]],

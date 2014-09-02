@@ -35,7 +35,6 @@ var searchData=
   ['color_5fclear_5fvalue',['COLOR_CLEAR_VALUE',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2ca310affb2b2090a3aefe2d495ba4376ce',1,'gl']]],
   ['color_5flogic_5fop',['COLOR_LOGIC_OP',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2cad0403992ced6521d8d2c07c9558e3fee',1,'gl']]],
   ['color_5fwritemask',['COLOR_WRITEMASK',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2ca12ba06d7ec2abf2f793f5c145c4ed78b',1,'gl']]],
-  ['colour',['Colour',['../namespaceMR_1_1GUI_1_1MRView_1_1Tool.html#a6b2599d4d006ad5291c66bf7ac46eac5aa8c8b9749a7768c2f7b4d6c6b85cd583',1,'MR::GUI::MRView::Tool']]],
   ['compare_5fref_5fto_5ftexture',['COMPARE_REF_TO_TEXTURE',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2caf925507602f425febf6ffde600eb7e95',1,'gl']]],
   ['compile_5fstatus',['COMPILE_STATUS',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2cade5a66172d48ec1c81effdf9bdde22ae',1,'gl']]],
   ['compressed_5fred',['COMPRESSED_RED',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2cad2c659ee1fd9427672a8b2e2b133096d',1,'gl']]],
@@ -68,5 +67,6 @@ var searchData=
   ['current_5fquery',['CURRENT_QUERY',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2ca0931bbfa9a27029cbdf2323d1fc6a130',1,'gl']]],
   ['current_5fvertex_5fattrib',['CURRENT_VERTEX_ATTRIB',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2ca4667e9f8c343e7e0a665d69566f8d1c3',1,'gl']]],
   ['curvature',['CURVATURE',['../namespaceMR_1_1DWI_1_1Tractography_1_1Mapping.html#a6d8085a00765609c3f8ee435f8cdf31dad4ed358a17c47ed03519203a9ecccd32',1,'MR::DWI::Tractography::Mapping']]],
+  ['cvalue',['CValue',['../namespaceMR_1_1GUI_1_1MRView_1_1Tool.html#a22348cc42517686fa6f064cc14af1f80a9a6956001eca206a84c339209c9da0bc',1,'MR::GUI::MRView::Tool']]],
   ['cw',['CW',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2ca5d56188aced1202192b134264e1a843c',1,'gl']]]
 ];

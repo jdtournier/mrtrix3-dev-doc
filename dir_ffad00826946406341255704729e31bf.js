@@ -17,7 +17,8 @@ var dir_ffad00826946406341255704729e31bf =
       [ "BufferPreload", "classMR_1_1Image_1_1BufferPreload.html", "classMR_1_1Image_1_1BufferPreload" ]
     ] ],
     [ "buffer_scratch.h", "buffer__scratch_8h.html", [
-      [ "BufferScratch", "classMR_1_1Image_1_1BufferScratch.html", "classMR_1_1Image_1_1BufferScratch" ]
+      [ "BufferScratch", "classMR_1_1Image_1_1BufferScratch.html", "classMR_1_1Image_1_1BufferScratch" ],
+      [ "BufferScratch< bool >", "classMR_1_1Image_1_1BufferScratch_3_01bool_01_4.html", "classMR_1_1Image_1_1BufferScratch_3_01bool_01_4" ]
     ] ],
     [ "buffer_sparse.h", "buffer__sparse_8h.html", [
       [ "Voxel", "classMR_1_1Image_1_1Sparse_1_1Voxel.html", "classMR_1_1Image_1_1Sparse_1_1Voxel" ],
@@ -56,7 +57,7 @@ var dir_ffad00826946406341255704729e31bf =
     [ "transform.h", "transform_8h.html", [
       [ "Transform", "classMR_1_1Image_1_1Transform.html", "classMR_1_1Image_1_1Transform" ]
     ] ],
-    [ "utils.h", "lib_2image_2utils_8h.html", "lib_2image_2utils_8h" ],
+    [ "utils.h", "image_2utils_8h.html", "image_2utils_8h" ],
     [ "value.h", "value_8h.html", [
       [ "Value", "classMR_1_1Image_1_1Value.html", "classMR_1_1Image_1_1Value" ]
     ] ],

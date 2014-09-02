@@ -19,12 +19,14 @@ var classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1SharedBase =
     [ "max_num_attempts", "classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1SharedBase.html#ac1afec968443b41508ea7d244dd49797", null ],
     [ "max_num_points", "classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1SharedBase.html#aab456f10c000c4577a6abcb1ecd1ae63", null ],
     [ "max_num_tracks", "classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1SharedBase.html#ab63cbf7e5abcf032e53a13f5a8d294f4", null ],
+    [ "max_seed_attempts", "classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1SharedBase.html#acc9fec9e02053dbedba147cd950b6b04", null ],
     [ "min_num_points", "classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1SharedBase.html#ab782d659cc72dfbf7dea0c2213618d48", null ],
     [ "properties", "classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1SharedBase.html#a5848c481c1f7a81ccd970979b82ddd82", null ],
     [ "rk4", "classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1SharedBase.html#ad4b77d2e7ec6558eeefbd1d940d6f0b1", null ],
     [ "source_buffer", "classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1SharedBase.html#a681c698b789ce112a143a11e035f0472", null ],
     [ "source_voxel", "classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1SharedBase.html#a17a3e4326c806a59e3ee32bd07f9cf63", null ],
     [ "step_size", "classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1SharedBase.html#a211a2834f940e53e362451273729bb58", null ],
+    [ "stop_on_all_include", "classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1SharedBase.html#acec7bd4b0ea6feed29e07668e5bc8fe5", null ],
     [ "threshold", "classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1SharedBase.html#a5b9b7c2362a532c4894259c7b21d1541", null ],
     [ "unidirectional", "classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1SharedBase.html#a3abf5349589404b2b9a8afaf28b507bc", null ]
 ];

@@ -11,7 +11,7 @@ var classMR_1_1GUI_1_1MRView_1_1Tool_1_1Tractogram =
     [ "renderColourBar", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Tractogram.html#a6989d466f5721447f79c1e09635f4fbe", null ],
     [ "scalingChanged", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Tractogram.html#a6cb45b3e41e5ca023bfa38bdacfd8882", null ],
     [ "set_colour", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Tractogram.html#a94bd9f608bc61fc08014855ff2a67aed", null ],
-    [ "color_type", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Tractogram.html#aa2f8db65777f36735f5651c8dd4fa554", null ],
+    [ "color_type", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Tractogram.html#ab4e6874cf14647c2e691eb019886a401", null ],
     [ "colour", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Tractogram.html#a06a8f9cb1257968455f52c7ebc739206", null ],
     [ "scalar_filename", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Tractogram.html#a3c11836c863149c7c01359c7279959cd", null ],
     [ "scalarfile_by_direction", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Tractogram.html#ade453d9ad55750b4144003e101017c0c", null ],

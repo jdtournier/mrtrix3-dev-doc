@@ -2,7 +2,7 @@ var classMR_1_1GUI_1_1MRView_1_1Tool_1_1ODF =
 [
     [ "ODF", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ODF.html#afcd54b88131c9266fdd72ced973d0994", null ],
     [ "closeEvent", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ODF.html#a14fa3e98f0736bab7a2c1943ef8312b6", null ],
-    [ "draw", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ODF.html#a4c40fd2c5d28a5a1ba6884c439d6f459", null ],
+    [ "draw", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ODF.html#ab696e34fd1f85b46db583ff84062d0e8", null ],
     [ "get_image", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ODF.html#a82a0dd435095b3ceb1e4a38103882f50", null ],
     [ "get_values", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ODF.html#a7c73d2144111fb4e67817d33d17a5091", null ],
     [ "showEvent", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ODF.html#a505dda1e75371e301ff135d95416dd8e", null ],

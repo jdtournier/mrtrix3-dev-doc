@@ -1,14 +1,12 @@
 var searchData=
 [
-  ['base',['Base',['../classMR_1_1DWI_1_1Tractography_1_1Seeding_1_1Base.html',1,'MR::DWI::Tractography::Seeding']]],
-  ['base',['Base',['../classMR_1_1File_1_1ImageSlice_1_1Base.html',1,'MR::File::ImageSlice']]],
-  ['base',['Base',['../classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base.html',1,'MR::GUI::MRView::Mode']]],
-  ['base',['Base',['../classMR_1_1Image_1_1Registration_1_1Metric_1_1Base.html',1,'MR::Image::Registration::Metric']]],
-  ['base',['Base',['../classMR_1_1Image_1_1Registration_1_1Transform_1_1Base.html',1,'MR::Image::Registration::Transform']]],
-  ['base',['Base',['../classMR_1_1Image_1_1Filter_1_1Base.html',1,'MR::Image::Filter']]],
   ['base',['Base',['../classMR_1_1Image_1_1Format_1_1Base.html',1,'MR::Image::Format']]],
+  ['base',['Base',['../classMR_1_1DWI_1_1Tractography_1_1Seeding_1_1Base.html',1,'MR::DWI::Tractography::Seeding']]],
+  ['base',['Base',['../classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base.html',1,'MR::GUI::MRView::Mode']]],
   ['base',['Base',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html',1,'MR::GUI::MRView::Tool']]],
+  ['base',['Base',['../classMR_1_1File_1_1ImageSlice_1_1Base.html',1,'MR::File::ImageSlice']]],
   ['base',['Base',['../classMR_1_1Image_1_1Handler_1_1Base.html',1,'MR::Image::Handler']]],
+  ['base',['Base',['../classMR_1_1Image_1_1Filter_1_1Base.html',1,'MR::Image::Filter']]],
   ['bitset',['BitSet',['../classMR_1_1BitSet.html',1,'MR']]],
   ['bootstrap',['Bootstrap',['../classMR_1_1DWI_1_1Bootstrap.html',1,'MR::DWI']]],
   ['buffer',['Buffer',['../classMR_1_1Image_1_1Buffer.html',1,'MR::Image']]],
@@ -19,12 +17,12 @@ var searchData=
   ['bufferpreload',['BufferPreload',['../classMR_1_1Image_1_1BufferPreload.html',1,'MR::Image']]],
   ['bufferpreload_3c_20float_20_3e',['BufferPreload&lt; float &gt;',['../classMR_1_1Image_1_1BufferPreload.html',1,'MR::Image']]],
   ['bufferscratch',['BufferScratch',['../classMR_1_1Image_1_1BufferScratch.html',1,'MR::Image']]],
-  ['bufferscratch_3c_20bool_20_3e',['BufferScratch&lt; bool &gt;',['../classMR_1_1Image_1_1BufferScratch.html',1,'MR::Image']]],
+  ['bufferscratch_3c_20bool_20_3e',['BufferScratch&lt; bool &gt;',['../classMR_1_1Image_1_1BufferScratch_3_01bool_01_4.html',1,'MR::Image']]],
   ['bufferscratch_3c_20float_20_3e',['BufferScratch&lt; float &gt;',['../classMR_1_1Image_1_1BufferScratch.html',1,'MR::Image']]],
   ['bufferscratch_3c_20mr_3a_3adwi_3a_3afixel_5fmap_3a_3amapvoxel_20_2a_20_3e',['BufferScratch&lt; MR::DWI::Fixel_map::MapVoxel * &gt;',['../classMR_1_1Image_1_1BufferScratch.html',1,'MR::Image']]],
   ['bufferscratch_3c_20value_5ftype_20_3e',['BufferScratch&lt; value_type &gt;',['../classMR_1_1Image_1_1BufferScratch.html',1,'MR::Image']]],
   ['bufferscratchdump',['BufferScratchDump',['../classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1BufferScratchDump.html',1,'MR::DWI::Tractography::Mapping']]],
-  ['bufferscratchdump_3c_20float_20_3e',['BufferScratchDump&lt; float &gt;',['../classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1BufferScratchDump.html',1,'MR::DWI::Tractography::Mapping']]],
   ['buffersparse',['BufferSparse',['../classMR_1_1Image_1_1BufferSparse.html',1,'MR::Image']]],
+  ['buffersparse_3c_20mr_3a_3amr_3a_3agui_3a_3amrview_3a_3aimage_3a_3asparse_3a_3afixelmetric_20_3e',['BufferSparse&lt; MR::MR::GUI::MRView::Image::Sparse::FixelMetric &gt;',['../classMR_1_1Image_1_1BufferSparse.html',1,'MR::Image']]],
   ['buffertype',['BufferType',['../classMR_1_1BufferType.html',1,'MR']]]
 ];

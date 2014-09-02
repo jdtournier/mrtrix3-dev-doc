@@ -1,7 +1,7 @@
 var searchData=
 [
   ['e',['E',['../classMR_1_1Stats_1_1TFCE_1_1Spatial.html#a56dac0b1a734201858226664bfaa4361',1,'MR::Stats::TFCE::Spatial::E()'],['../classMR_1_1Stats_1_1TFCE_1_1Connectivity.html#a02e97cac8f94fafb01e04804cdbc6808',1,'MR::Stats::TFCE::Connectivity::E()']]],
-  ['eig',['eig',['../classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1FACT.html#a1c4a480856d326808d9a51dac1ab07ff',1,'MR::DWI::Tractography::Algorithms::FACT']]],
+  ['eig',['eig',['../classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1Tensor__Det.html#a98e8ef0f095f87de002d710d3d29c19f',1,'MR::DWI::Tractography::Algorithms::Tensor_Det']]],
   ['el',['el',['../calibrator_8h.html#a56c1e3ed39c2285dbbd0fafac7b45abf',1,'calibrator.h']]],
   ['electrostatic_5frepulsion_5f300_5fdata',['electrostatic_repulsion_300_data',['../namespaceMR_1_1DWI_1_1Directions.html#a3a1e456ab30d68543f9037f7e0072c98',1,'MR::DWI::Directions']]],
   ['electrostatic_5frepulsion_5f60_5fdata',['electrostatic_repulsion_60_data',['../namespaceMR_1_1DWI_1_1Directions.html#a9cb2f4db9c31df0195deebc51ea174d8',1,'MR::DWI::Directions']]],
@@ -15,11 +15,13 @@ var searchData=
   ['end_5fseq',['end_seq',['../classMR_1_1File_1_1Dicom_1_1Element.html#aa15c287d9f4e549f819312dc18cab74e',1,'MR::File::Dicom::Element']]],
   ['endconditionalrender',['EndConditionalRender',['../namespacegl.html#a51a96a4038c73d31001cd28770e495dc',1,'gl']]],
   ['endquery',['EndQuery',['../namespacegl.html#ae50a401c37daf94d418c67bcbf6b863a',1,'gl']]],
+  ['ends_5fonly',['ends_only',['../classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TrackMapperBase.html#aaade66e8ff838a4441c0f9be7981b592',1,'MR::DWI::Tractography::Mapping::TrackMapperBase']]],
   ['endtransformfeedback',['EndTransformFeedback',['../namespacegl.html#a7761ce81ded18d1e6fc0b5528d3c3435',1,'gl']]],
   ['enforce_5fquantisation',['enforce_quantisation',['../classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1SIFTer.html#afba11e79b3c6a32470d62631e8164288',1,'MR::DWI::Tractography::SIFT::SIFTer']]],
-  ['error_5ftolerance',['error_tolerance',['../classMR_1_1Image_1_1Registration_1_1Transform_1_1WarpInverter.html#a9e9385b8d4ac0c650736d2df5161e159',1,'MR::Image::Registration::Transform::WarpInverter::error_tolerance()'],['../warp__inverter_8h.html#a493be060b0e29f22c4550470b3e356e6',1,'error_tolerance():&#160;warp_inverter.h']]],
-  ['ev',['ev',['../classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1FACT.html#ab32c1487ec919892b8b9f6308db50ddf',1,'MR::DWI::Tractography::Algorithms::FACT']]],
+  ['error_5findex',['error_index',['../classMR_1_1GUI_1_1MRView_1_1ComboBoxWithErrorMsg.html#acb1c7443226fa56f02988fe7f18be1d6',1,'MR::GUI::MRView::ComboBoxWithErrorMsg']]],
+  ['error_5fmessage',['error_message',['../classMR_1_1GUI_1_1MRView_1_1ComboBoxWithErrorMsg.html#a1eaf502deb40d47293f73fbff23d9af6',1,'MR::GUI::MRView::ComboBoxWithErrorMsg']]],
+  ['ev',['ev',['../classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1Tensor__Det.html#aa74e56dfd92209933e40db1c1ba7ee9f',1,'MR::DWI::Tractography::Algorithms::Tensor_Det']]],
   ['exclude',['exclude',['../classMR_1_1DWI_1_1Tractography_1_1Properties.html#a7d6ee148e125b66c1f881e7de8d10d60',1,'MR::DWI::Tractography::Properties']]],
-  ['extent',['extent',['../classMR_1_1Image_1_1Filter_1_1GaussianSmooth.html#a37386029868c8f5bfe18162e7c0249dc',1,'MR::Image::Filter::GaussianSmooth']]],
-  ['extent_5f',['extent_',['../classMR_1_1Image_1_1Adapter_1_1Median3D.html#ae09dfc2ee78319e6e0e4987bcab74137',1,'MR::Image::Adapter::Median3D::extent_()'],['../classMR_1_1Image_1_1Filter_1_1Median3D.html#a7bef45c0f36cd46824da3b27427f90bd',1,'MR::Image::Filter::Median3D::extent_()']]]
+  ['extent',['extent',['../classMR_1_1Image_1_1Filter_1_1Smooth.html#aaf67f426105019d4f4a17e72e1db792c',1,'MR::Image::Filter::Smooth']]],
+  ['extent_5f',['extent_',['../classMR_1_1Image_1_1Adapter_1_1Median3D.html#ae09dfc2ee78319e6e0e4987bcab74137',1,'MR::Image::Adapter::Median3D::extent_()'],['../classMR_1_1Image_1_1Filter_1_1Median.html#ab7212f80535f0bbcad2279a3771a7e96',1,'MR::Image::Filter::Median::extent_()']]]
 ];

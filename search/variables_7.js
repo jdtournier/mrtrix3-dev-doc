@@ -2,7 +2,7 @@ var searchData=
 [
   ['g',['G',['../classMR_1_1File_1_1Dicom_1_1Frame.html#aaff0ac4fc04cd07dfccd6c8ae070b729',1,'MR::File::Dicom::Frame::G()'],['../classMR_1_1Math_1_1GradientDescent.html#af0e071df10df430df907f50bcc7d673d',1,'MR::Math::GradientDescent::g()']]],
   ['g2',['g2',['../classMR_1_1Math_1_1GradientDescent.html#a9a1a0a48879c8c6748537dc079ad1b76',1,'MR::Math::GradientDescent']]],
-  ['gaussian_5fdenominator',['gaussian_denominator',['../classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TrackMapperTWI.html#a3787c151a71010ef7bf8aff221e91cf7',1,'MR::DWI::Tractography::Mapping::TrackMapperTWI']]],
+  ['gaussian_5fdenominator',['gaussian_denominator',['../classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1Gaussian_1_1TrackMapper.html#a35483e34995eccba077b1d90b4ac59aa',1,'MR::DWI::Tractography::Mapping::Gaussian::TrackMapper']]],
   ['genbuffers',['GenBuffers',['../namespacegl.html#a318c95c4d2194290dffacb4bf8a650f0',1,'gl']]],
   ['generatemipmap',['GenerateMipmap',['../namespacegl.html#a03106d8b1d9237e8bcfdeb20695e094c',1,'gl']]],
   ['generator',['generator',['../classMR_1_1Math_1_1RNG.html#a56a7ab18b2eac3085bf0efb230a0605a',1,'MR::Math::RNG']]],
@@ -79,14 +79,10 @@ var searchData=
   ['getvertexattribpointerv',['GetVertexAttribPointerv',['../namespacegl.html#af96ed0d1d4a4eb5a92f00cf8188177df',1,'gl']]],
   ['glarea',['glarea',['../classMR_1_1GUI_1_1Projection.html#aace8c62f9fc21c095cd813f71f74ed36',1,'MR::GUI::Projection']]],
   ['goodrasflag',['goodRASFlag',['../structmgh__header.html#a92c7c5eee1ab9a22e1d64b6d7dcb6949',1,'mgh_header']]],
-  ['grad',['grad',['../classMR_1_1DWI_1_1CSDeconv_1_1Shared.html#a1ee091778e7852ea97329d1e874a316f',1,'MR::DWI::CSDeconv::Shared']]],
-  ['gradient',['gradient',['../classMR_1_1Image_1_1Registration_1_1Metric_1_1ThreadKernel.html#a2824c77640fb2a2b875ed602e9caf37f',1,'MR::Image::Registration::Metric::ThreadKernel']]],
-  ['gradient_5fdata',['gradient_data',['../classMR_1_1Image_1_1Registration_1_1Metric_1_1Base.html#a22c595ec15ebbc5f15c6d4aab2197b68',1,'MR::Image::Registration::Metric::Base']]],
-  ['gradient_5fdescent_5fupdator',['gradient_descent_updator',['../classMR_1_1Image_1_1Registration_1_1Transform_1_1Affine.html#aecb9350c0c8c2836699a2df61eaebdfe',1,'MR::Image::Registration::Transform::Affine::gradient_descent_updator()'],['../classMR_1_1Image_1_1Registration_1_1Transform_1_1Rigid.html#a4734b4ff34a292ab3d1b1e9d9a29553c',1,'MR::Image::Registration::Transform::Rigid::gradient_descent_updator()'],['../classMR_1_1Image_1_1Registration_1_1Transform_1_1RigidTest.html#af1dbb9d1488c1d21ae2a113016e0a309',1,'MR::Image::Registration::Transform::RigidTest::gradient_descent_updator()']]],
-  ['gradient_5finterp',['gradient_interp',['../classMR_1_1Image_1_1Registration_1_1Metric_1_1Base.html#a293e2dd2365bfb5e9694efe1d5bb2d40',1,'MR::Image::Registration::Metric::Base']]],
-  ['gradient_5fsmooth_5fstdev',['gradient_smooth_stdev',['../classMR_1_1Image_1_1Registration_1_1NonLinear.html#a50a862ff421ae7a72b3a29146dbf1f56',1,'MR::Image::Registration::NonLinear']]],
+  ['grad',['grad',['../classMR_1_1Image_1_1Filter_1_1DWIBrainMask.html#a2d8eb564755b5db4aa64a09366ac7b1f',1,'MR::Image::Filter::DWIBrainMask::grad()'],['../classMR_1_1DWI_1_1CSDeconv_1_1Shared.html#a1ee091778e7852ea97329d1e874a316f',1,'MR::DWI::CSDeconv::Shared::grad()']]],
   ['gradoption',['GradOption',['../namespaceMR_1_1DWI.html#aa95d57317f1e5ca1516604f15099372a',1,'MR::DWI']]],
   ['greaterthan',['greaterthan',['../classMR_1_1GUI_1_1MRView_1_1Displayable.html#a69b03d1e46baa292909f66af127ba4fd',1,'MR::GUI::MRView::Displayable']]],
+  ['greyscale_5f',['greyscale_',['../classMR_1_1Image_1_1Filter_1_1Gradient.html#a9b4b559e688028d51a12b844a91068b0',1,'MR::Image::Filter::Gradient']]],
   ['group',['group',['../classMR_1_1File_1_1Dicom_1_1Sequence.html#af689db7b408ce8aeb5df0014efbec8be',1,'MR::File::Dicom::Sequence::group()'],['../classMR_1_1File_1_1Dicom_1_1Element.html#a87112ae58a5c73dbd1868228ae320388',1,'MR::File::Dicom::Element::group()']]],
   ['gz',['gz',['../classMR_1_1File_1_1GZ.html#abd6fc408d208b328178ef90b72ed66a4',1,'MR::File::GZ']]]
 ];

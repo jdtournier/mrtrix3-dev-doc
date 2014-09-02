@@ -22,6 +22,10 @@ var NAVTREE =
     [ "The configure script", "configure_page.html", [
       [ "Using multiple co-existing configurations", "configure_page.html#multiconfig", null ]
     ] ],
+    [ "Example applications", "examples.html", [
+      [ "Running a per-datum operation in a multi-threaded loop", "examples.html#per_datum_example", null ],
+      [ "Running a per-voxel operation on a 4D dataset in a multi-threaded loop", "examples.html#per_voxel_4D_example", null ]
+    ] ],
     [ "Accessing image data", "image_access.html", [
       [ "Image::Info", "image_access.html#image_info_class", null ],
       [ "Image::Header", "image_access.html#image_header_class", null ],
@@ -96,38 +100,37 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "ACT_2gmwmi_8h.html",
-"classMR_1_1BitSet_1_1ConstValue.html#a565d41d5ba7379d7d002f361c1602048",
-"classMR_1_1DWI_1_1Shell.html#ae75bda8159e813126bb55e632731a66e",
-"classMR_1_1DWI_1_1Tractography_1_1Connectomics_1_1Metric__meanlength.html#a485cfe61d860c7e501efa11744c5676d",
-"classMR_1_1DWI_1_1Tractography_1_1ROISet.html#a98ab15940ffb181395ae082038006a79",
-"classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1MethodBase.html#a0f5a0ee06905607202d64571a657792e",
-"classMR_1_1File_1_1Dicom_1_1QuickScan.html#a238f323e050e420735a3e6cbb58ab533",
-"classMR_1_1GUI_1_1Dialog_1_1TreeItem.html",
-"classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base.html#a1b855aa8622b34be1b87c46d92983f97",
-"classMR_1_1GUI_1_1MRView_1_1Tool_1_1Tractography.html#a0b387214b9dc7f65c7aef6b682e20d15",
-"classMR_1_1Image_1_1Adapter_1_1Voxel.html#a50c08975fd66937f82351df1e4f26987",
-"classMR_1_1Image_1_1Format_1_1MRtrix.html#ad3251827c359b6f66c3bfddaeaa84ef8",
-"classMR_1_1Image_1_1Iterator.html#ae8a06de3a8bbeeb7ba82af940a1a3e55",
-"classMR_1_1Image_1_1Registration_1_1Transform_1_1Rigid.html#ad52a841f0b00b66c5e52ced210f2218a",
-"classMR_1_1Math_1_1GradientDescent.html#a8c8797259c3cdbaaa62b1bf752162d29",
-"classMR_1_1Math_1_1Versor.html#a257beb9816f0dd1207d02fe1b8ed30ea",
-"classMR_1_1VecPtr.html#ae4bd7ca4102800735e33398e2a522637",
-"file_2gz_8h_source.html",
-"gl__core__3__3_8h.html#a258f2555e07e8112f8c8a3ea010e9467",
-"gl__core__3__3_8h.html#aca68887efcab748217ece75309c33af6",
-"gl__core__3__3_8h.html#ae5454dcd08d3ddf312c20fb27b54bf2ca4655548bd7a79b29145549fe6b9e41a4",
-"gl__core__3__3_8h.html#ae5454dcd08d3ddf312c20fb27b54bf2ca8f3c3b8ad4dd19561aedc4755b7520b2",
-"gl__core__3__3_8h.html#ae5454dcd08d3ddf312c20fb27b54bf2cae523a93714132fe4c40082157ef93f41",
-"group__debug.html#ga5666ac5930c9f903698073ab1fa694f7",
-"legendre_8h.html#a23a2d9de170be01f4d8894b636b0f7c4",
-"modules.html",
-"namespacemembers_func_f.html",
-"sd__stream_8h.html",
-"tfce_8h.html#a9fc9e1e0d708a8d62128ea1e522e6464"
+"classMR_1_1DWI_1_1Bootstrap.html#a7d3d0d71081817b13a759d5a159ac8f8",
+"classMR_1_1DWI_1_1Tractography_1_1ACT_1_1ACT__Method__additions.html#aa4bdb52262e4cb33a850d6c1fec832a1",
+"classMR_1_1DWI_1_1Tractography_1_1Connectomics_1_1NodeExtractWriter_1_1NodeSelector.html#a25068c66137c001f61f06413383cbf0e",
+"classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TWIImagePluginBase.html#ac0b9a6e7292e223fb8dda815ba15c90f",
+"classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1SIFTer.html#af6fea2799e2084b65caa1d26033f492b",
+"classMR_1_1DataType.html#abae02b8693a88f0b3d19ea5b3352c6af",
+"classMR_1_1File_1_1MMap.html#aed9ece4c3e9ab71c464c04c950e9d6cc",
+"classMR_1_1GUI_1_1GL_1_1mat4.html#a38a1e3a0be485bd93d53d4d83017076f",
+"classMR_1_1GUI_1_1MRView_1_1Mode_1_1Volume_1_1Shader.html#a8251d6b845fa3d34f88cc22bd7092737",
+"classMR_1_1GUI_1_1MRView_1_1Window.html#a33e9953240aab856313ab8c26b7a5216",
+"classMR_1_1Image_1_1Buffer.html#ad83b0816eccfd12c472b5b11dd6de0d5",
+"classMR_1_1Image_1_1Format_1_1NIfTI__GZ.html#aed0f1faa784922c86a4734f98e252840",
+"classMR_1_1Image_1_1LoopInOrder.html#a70b0d102a2d76149631505aae777cc51",
+"classMR_1_1Image_1_1Voxel.html#ad49ec4a9742b250ee653fbfda7c2ba34",
+"classMR_1_1Math_1_1Vector.html#a5dd29d806d0223ee26777a23cf9dc548",
+"classMR_1_1Thread_1_1Mutex.html#ae3156916af66b1a2c5fd80c38f938828",
+"displayable_8h_source.html",
+"gl__core__3__3_8h.html#a033f56a6762759d2b1fe5e9063d5e239",
+"gl__core__3__3_8h.html#a9f961e845dfb1283ab50e3f36b9409ef",
+"gl__core__3__3_8h.html#ae5454dcd08d3ddf312c20fb27b54bf2ca336e9bc3105271fbe4a1600724712cd4",
+"gl__core__3__3_8h.html#ae5454dcd08d3ddf312c20fb27b54bf2ca7eeb3d1dd5c1479a46d1817e611eaf60",
+"gl__core__3__3_8h.html#ae5454dcd08d3ddf312c20fb27b54bf2cad0403992ced6521d8d2c07c9558e3fee",
+"group__CmdParse.html#ga5be62b41a0da1f036ff3cc1b64d4ccb2",
+"group__vector.html#ga288efb9dc205188c695f22197b834a71",
+"math_8h.html#ga411ea9b4f4e11be21c8968df072fbcbd",
+"namespaceMR_1_1GUI_1_1Dialog.html",
+"predefined_8h.html#a07058d1c3cfa5b6e5fb1fab90669a3c9",
+"src_2gui_2app_8h.html#af23780445b3268cd62f606a1e435198d",
+"writer_8h.html#a2cbbd3a994105136663e41c9183f4437"
 ];
 
-var SYNCONMSG = 'click to disable panel synchronisation';
-var SYNCOFFMSG = 'click to enable panel synchronisation';
 var SYNCONMSG = 'click to disable panel synchronisation';
 var SYNCOFFMSG = 'click to enable panel synchronisation';
 var navTreeSubIndices = new Array();
@@ -152,6 +155,21 @@ function stripPath2(uri)
   return m ? uri.substring(i-6) : s;
 }
 
+function hashValue()
+{
+  return $(location).attr('hash').substring(1).replace(/[^\w\-]/g,'');
+}
+
+function hashUrl()
+{
+  return '#'+hashValue();
+}
+
+function pathName()
+{
+  return $(location).attr('pathname').replace(/[^-A-Za-z0-9+&@#/%?=~_|!:,.;\(\)]/g, '');
+}
+
 function localStorageSupported()
 {
   try {
@@ -174,7 +192,7 @@ function deleteLink()
 {
   if (localStorageSupported()) {
     window.localStorage.setItem('navpath','');
-  } 
+  }
 }
 
 function cachedLink()
@@ -246,11 +264,13 @@ var animationInProgress = false;
 function gotoAnchor(anchor,aname,updateLocation)
 {
   var pos, docContent = $('#doc-content');
-  if (anchor.parent().attr('class')=='memItemLeft' ||
-      anchor.parent().attr('class')=='fieldtype' ||
-      anchor.parent().is(':header')) 
+  var ancParent = $(anchor.parent());
+  if (ancParent.hasClass('memItemLeft') ||
+      ancParent.hasClass('fieldname') ||
+      ancParent.hasClass('fieldtype') ||
+      ancParent.is(':header'))
   {
-    pos = anchor.parent().position().top;
+    pos = ancParent.position().top;
   } else if (anchor.position()) {
     pos = anchor.position().top;
   }
@@ -308,7 +328,7 @@ function newNode(o, po, text, link, childrenData, lastNode)
     a.className = stripPath(link.replace('#',':'));
     if (link.indexOf('#')!=-1) {
       var aname = '#'+link.split('#')[1];
-      var srcPage = stripPath($(location).attr('pathname'));
+      var srcPage = stripPath(pathName());
       var targetPage = stripPath(link.split('#')[0]);
       a.href = srcPage!=targetPage ? url : "javascript:void(0)"; 
       a.onclick = function(){
@@ -402,14 +422,13 @@ function glowEffect(n,duration)
 
 function highlightAnchor()
 {
-  var aname = $(location).attr('hash');
+  var aname = hashUrl();
   var anchor = $(aname);
   if (anchor.parent().attr('class')=='memItemLeft'){
-    var rows = $('.memberdecls tr[class$="'+
-               window.location.hash.substring(1)+'"]');
+    var rows = $('.memberdecls tr[class$="'+hashValue()+'"]');
     glowEffect(rows.children(),300); // member without details
-  } else if (anchor.parents().slice(2).prop('tagName')=='TR') {
-    glowEffect(anchor.parents('div.memitem'),1000); // enum value
+  } else if (anchor.parent().attr('class')=='fieldname'){
+    glowEffect(anchor.parent().parent(),1000); // enum value
   } else if (anchor.parent().attr('class')=='fieldtype'){
     glowEffect(anchor.parent().parent(),1000); // struct field
   } else if (anchor.parent().is(":header")) {
@@ -424,7 +443,7 @@ function selectAndHighlight(hash,n)
 {
   var a;
   if (hash) {
-    var link=stripPath($(location).attr('pathname'))+':'+hash.substring(1);
+    var link=stripPath(pathName())+':'+hash.substring(1);
     a=$('.item a[class$="'+link+'"]');
   }
   if (a && a.length) {
@@ -535,14 +554,13 @@ function navTo(o,root,hash,relpath)
   if (link) {
     var parts = link.split('#');
     root = parts[0];
-    if (parts.length>1) hash = '#'+parts[1];
+    if (parts.length>1) hash = '#'+parts[1].replace(/[^\w\-]/g,'');
     else hash='';
   }
   if (hash.match(/^#l\d+$/)) {
     var anchor=$('a[name='+hash.substring(1)+']');
     glowEffect(anchor.parent(),1000); // line number
     hash=''; // strip line number anchors
-    //root=root.replace(/_source\./,'.'); // source link to doc link
   }
   var url=root+hash;
   var i=-1;
@@ -576,7 +594,7 @@ function toggleSyncButton(relpath)
   if (navSync.hasClass('sync')) {
     navSync.removeClass('sync');
     showSyncOff(navSync,relpath);
-    storeLink(stripPath2($(location).attr('pathname'))+$(location).attr('hash'));
+    storeLink(stripPath2(pathName())+hashUrl());
   } else {
     navSync.addClass('sync');
     showSyncOn(navSync,relpath);
@@ -616,7 +634,7 @@ function initNavTree(toroot,relpath)
   }
 
   $(window).load(function(){
-    navTo(o,toroot,window.location.hash,relpath);
+    navTo(o,toroot,hashUrl(),relpath);
     showRoot();
   });
 
@@ -624,21 +642,20 @@ function initNavTree(toroot,relpath)
      if (window.location.hash && window.location.hash.length>1){
        var a;
        if ($(location).attr('hash')){
-         var clslink=stripPath($(location).attr('pathname'))+':'+
-                               $(location).attr('hash').substring(1);
-         a=$('.item a[class$="'+clslink+'"]');
+         var clslink=stripPath(pathName())+':'+hashValue();
+         a=$('.item a[class$="'+clslink.replace(/</g,'\\3c ')+'"]');
        }
        if (a==null || !$(a).parent().parent().hasClass('selected')){
          $('.item').removeClass('selected');
          $('.item').removeAttr('id');
        }
-       var link=stripPath2($(location).attr('pathname'));
-       navTo(o,link,$(location).attr('hash'),relpath);
+       var link=stripPath2(pathName());
+       navTo(o,link,hashUrl(),relpath);
      } else if (!animationInProgress) {
        $('#doc-content').scrollTop(0);
        $('.item').removeClass('selected');
        $('.item').removeAttr('id');
-       navTo(o,toroot,window.location.hash,relpath);
+       navTo(o,toroot,hashUrl(),relpath);
      }
   })
 }

@@ -1,6 +1,7 @@
 var searchData=
 [
   ['uint',['UINT',['../classMR_1_1File_1_1Dicom_1_1Element.html#ae9217c91240fb8e69f77bf9f6a973173a4ef5e2c1f2253b1a1e9d807bef6c8d35',1,'MR::File::Dicom::Element']]],
+  ['undefined',['UNDEFINED',['../namespaceMR_1_1DWI_1_1Tractography_1_1Mapping.html#a89a945a433c16dd9dec81f827d6226b9a752f5817980e85fdb87743f4289f23e6',1,'MR::DWI::Tractography::Mapping']]],
   ['uniform_5farray_5fstride',['UNIFORM_ARRAY_STRIDE',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2ca5d207a0205102090d5d88617fa6754c4',1,'gl']]],
   ['uniform_5fblock_5factive_5funiform_5findices',['UNIFORM_BLOCK_ACTIVE_UNIFORM_INDICES',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2ca4e8bb86a407002602b4f7e2613e9ec8e',1,'gl']]],
   ['uniform_5fblock_5factive_5funiforms',['UNIFORM_BLOCK_ACTIVE_UNIFORMS',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2caa28dbad668d687803bcf6d9c08e71cac',1,'gl']]],
@@ -21,6 +22,7 @@ var searchData=
   ['uniform_5foffset',['UNIFORM_OFFSET',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2ca5f58c0ca9a7a778c7d96508a1bfa6ecc',1,'gl']]],
   ['uniform_5fsize',['UNIFORM_SIZE',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2ca4a21f437804c2954a44a5b684bde8cfa',1,'gl']]],
   ['uniform_5ftype',['UNIFORM_TYPE',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2cab78da7baa604feb3a2cc801ae39407a3',1,'gl']]],
+  ['unity',['Unity',['../namespaceMR_1_1GUI_1_1MRView_1_1Tool.html#a408750a8aad3442af457e2caecb7a7f1ad6bc906f68322d238ae91e4bad6b5fda',1,'MR::GUI::MRView::Tool']]],
   ['unpack_5falignment',['UNPACK_ALIGNMENT',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2cae02a4601bd62904db2426d851b7a37d7',1,'gl']]],
   ['unpack_5fimage_5fheight',['UNPACK_IMAGE_HEIGHT',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2ca84d24f26e6c30a4e62d09830f83af923',1,'gl']]],
   ['unpack_5flsb_5ffirst',['UNPACK_LSB_FIRST',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2cabae4ff8fc8d52a32164c5a3c6ef9b64b',1,'gl']]],

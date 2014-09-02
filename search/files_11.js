@@ -10,18 +10,18 @@ var searchData=
   ['set_2eh',['set.h',['../set_8h.html',1,'']]],
   ['sh_2eh',['SH.h',['../SH_8h.html',1,'']]],
   ['shader_2eh',['shader.h',['../shader_8h.html',1,'']]],
-  ['shared_2eh',['shared.h',['../tracking_2shared_8h.html',1,'']]],
   ['shared_2eh',['shared.h',['../ACT_2shared_8h.html',1,'']]],
+  ['shared_2eh',['shared.h',['../tracking_2shared_8h.html',1,'']]],
   ['shells_2eh',['shells.h',['../shells_8h.html',1,'']]],
   ['sift_2eh',['sift.h',['../sift_8h.html',1,'']]],
   ['sifter_2eh',['sifter.h',['../sifter_8h.html',1,'']]],
   ['sinc_2eh',['sinc.h',['../image_2interp_2sinc_8h.html',1,'']]],
   ['sinc_2eh',['sinc.h',['../math_2sinc_8h.html',1,'']]],
   ['slice_2eh',['slice.h',['../slice_8h.html',1,'']]],
+  ['smooth_2eh',['smooth.h',['../smooth_8h.html',1,'']]],
   ['sparse_2eh',['sparse.h',['../sparse_8h.html',1,'']]],
   ['streamline_2eh',['streamline.h',['../streamline_8h.html',1,'']]],
   ['stride_2eh',['stride.h',['../stride_8h.html',1,'']]],
   ['study_2eh',['study.h',['../study_8h.html',1,'']]],
-  ['subset_2eh',['subset.h',['../subset_8h.html',1,'']]],
-  ['syn_2eh',['syn.h',['../syn_8h.html',1,'']]]
+  ['subset_2eh',['subset.h',['../subset_8h.html',1,'']]]
 ];

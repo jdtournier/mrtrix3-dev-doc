@@ -19,6 +19,9 @@ var dir_5ee1bb7ece029c510057b4b4b41e28b8 =
       [ "MMap", "classMR_1_1File_1_1MMap.html", "classMR_1_1File_1_1MMap" ]
     ] ],
     [ "nifti1_utils.h", "nifti1__utils_8h.html", "nifti1__utils_8h" ],
+    [ "ofstream.h", "ofstream_8h.html", [
+      [ "OFStream", "classMR_1_1File_1_1OFStream.html", "classMR_1_1File_1_1OFStream" ]
+    ] ],
     [ "path.h", "path_8h.html", "path_8h" ],
-    [ "utils.h", "lib_2file_2utils_8h.html", "lib_2file_2utils_8h" ]
+    [ "utils.h", "file_2utils_8h.html", "file_2utils_8h" ]
 ];

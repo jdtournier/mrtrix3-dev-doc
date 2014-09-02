@@ -2,8 +2,11 @@ var searchData=
 [
   ['fact',['FACT',['../classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1FACT.html',1,'MR::DWI::Tractography::Algorithms']]],
   ['fastlookupset',['FastLookupSet',['../classMR_1_1DWI_1_1Directions_1_1FastLookupSet.html',1,'MR::DWI::Directions']]],
+  ['fft',['FFT',['../classMR_1_1Image_1_1Filter_1_1FFT.html',1,'MR::Image::Filter']]],
   ['fft',['FFT',['../classMR_1_1Math_1_1FFT.html',1,'MR::Math']]],
+  ['fftkernel',['FFTKernel',['../classMR_1_1Image_1_1Filter_1_1FFT_1_1FFTKernel.html',1,'MR::Image::Filter::FFT']]],
   ['fixel',['Fixel',['../classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1Fixel.html',1,'MR::DWI::Tractography::SIFT']]],
+  ['fixel',['Fixel',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1Fixel.html',1,'MR::GUI::MRView::Tool']]],
   ['fixel_5fmap',['Fixel_map',['../classMR_1_1DWI_1_1Fixel__map.html',1,'MR::DWI']]],
   ['fixel_5fmap_3c_20fixel_5ftd_5fseed_20_3e',['Fixel_map&lt; Fixel_TD_seed &gt;',['../classMR_1_1DWI_1_1Fixel__map.html',1,'MR::DWI']]],
   ['fixel_5ftd_5fmap',['Fixel_TD_map',['../classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1Fixel__TD__map.html',1,'MR::DWI::Tractography::Mapping']]],

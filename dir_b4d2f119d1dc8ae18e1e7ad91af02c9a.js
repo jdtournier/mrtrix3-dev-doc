@@ -13,7 +13,7 @@ var dir_b4d2f119d1dc8ae18e1e7ad91af02c9a =
     [ "info.h", "adapter_2info_8h.html", [
       [ "Info", "classMR_1_1Image_1_1Adapter_1_1Info.html", "classMR_1_1Image_1_1Adapter_1_1Info" ]
     ] ],
-    [ "median3D.h", "adapter_2median3D_8h.html", [
+    [ "median3D.h", "median3D_8h.html", [
       [ "Median3D", "classMR_1_1Image_1_1Adapter_1_1Median3D.html", "classMR_1_1Image_1_1Adapter_1_1Median3D" ]
     ] ],
     [ "permute_axes.h", "permute__axes_8h.html", [

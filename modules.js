@@ -13,7 +13,5 @@ var modules =
     [ "Interp", "group__interp.html", "group__interp" ],
     [ "Filters", "group__Filters.html", "group__Filters" ],
     [ "Optimisation", "group__Optimisation.html", "group__Optimisation" ],
-    [ "Statistics", "group__Statistics.html", "group__Statistics" ],
-    [ "Transforms", "group__Transforms.html", "group__Transforms" ],
-    [ "Registration", "group__Registration.html", "group__Registration" ]
+    [ "Statistics", "group__Statistics.html", "group__Statistics" ]
 ];

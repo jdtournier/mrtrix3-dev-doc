@@ -1,8 +1,10 @@
 var namespaceMR_1_1GUI_1_1MRView_1_1Tool =
 [
-    [ "Dock", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Dock.html", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Dock" ],
-    [ "Base", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base" ],
     [ "Action", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Action.html", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Action" ],
+    [ "Base", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base" ],
+    [ "ClipPlane", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ClipPlane.html", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ClipPlane" ],
+    [ "Dock", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Dock.html", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Dock" ],
+    [ "Fixel", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Fixel.html", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Fixel" ],
     [ "ListModelBase", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ListModelBase.html", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ListModelBase" ],
     [ "ODF", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ODF.html", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ODF" ],
     [ "Overlay", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Overlay.html", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Overlay" ],
@@ -11,6 +13,6 @@ var namespaceMR_1_1GUI_1_1MRView_1_1Tool =
     [ "TrackScalarFile", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1TrackScalarFile.html", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1TrackScalarFile" ],
     [ "Tractogram", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Tractogram.html", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Tractogram" ],
     [ "Tractography", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Tractography.html", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Tractography" ],
-    [ "ClipPlane", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ClipPlane.html", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ClipPlane" ],
+    [ "Vector", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Vector.html", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Vector" ],
     [ "View", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1View.html", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1View" ]
 ];

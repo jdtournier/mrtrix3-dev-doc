@@ -6,9 +6,8 @@ var searchData=
   ['mapvoxel',['MapVoxel',['../classMR_1_1DWI_1_1Fixel__map_1_1MapVoxel.html',1,'MR::DWI::Fixel_map']]],
   ['mapwriter',['MapWriter',['../classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1MapWriter.html',1,'MR::DWI::Tractography::Mapping']]],
   ['mapwriterbase',['MapWriterBase',['../classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1MapWriterBase.html',1,'MR::DWI::Tractography::Mapping']]],
-  ['mapwritercolour',['MapWriterColour',['../classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1MapWriterColour.html',1,'MR::DWI::Tractography::Mapping']]],
-  ['mask',['Mask',['../classMR_1_1DWI_1_1Tractography_1_1Mask.html',1,'MR::DWI::Tractography']]],
   ['mask',['Mask',['../classMR_1_1DWI_1_1Directions_1_1Mask.html',1,'MR::DWI::Directions']]],
+  ['mask',['Mask',['../classMR_1_1DWI_1_1Tractography_1_1Mask.html',1,'MR::DWI::Tractography']]],
   ['mat4',['mat4',['../classMR_1_1GUI_1_1GL_1_1mat4.html',1,'MR::GUI::GL']]],
   ['matrix',['Matrix',['../classMR_1_1Math_1_1Matrix.html',1,'MR::Math']]],
   ['matrix_3c_20double_20_3e',['Matrix&lt; double &gt;',['../classMR_1_1Math_1_1Matrix.html',1,'MR::Math']]],
@@ -16,9 +15,7 @@ var searchData=
   ['matrix_3c_20t_20_3e',['Matrix&lt; T &gt;',['../classMR_1_1Math_1_1Matrix.html',1,'MR::Math']]],
   ['matrix_3c_20value_5ftype_20_3e',['Matrix&lt; value_type &gt;',['../classMR_1_1Math_1_1Matrix.html',1,'MR::Math']]],
   ['matrixmultiply',['MatrixMultiply',['../classMR_1_1Image_1_1MatrixMultiply.html',1,'MR::Image']]],
-  ['meansquared',['MeanSquared',['../classMR_1_1Image_1_1Registration_1_1Metric_1_1MeanSquared.html',1,'MR::Image::Registration::Metric']]],
-  ['meansquared4d',['MeanSquared4D',['../classMR_1_1Image_1_1Registration_1_1Metric_1_1MeanSquared4D.html',1,'MR::Image::Registration::Metric']]],
-  ['median3d',['Median3D',['../classMR_1_1Image_1_1Filter_1_1Median3D.html',1,'MR::Image::Filter']]],
+  ['median',['Median',['../classMR_1_1Image_1_1Filter_1_1Median.html',1,'MR::Image::Filter']]],
   ['median3d',['Median3D',['../classMR_1_1Image_1_1Adapter_1_1Median3D.html',1,'MR::Image::Adapter']]],
   ['mesh',['Mesh',['../classMR_1_1Mesh_1_1Mesh.html',1,'MR::Mesh']]],
   ['methodbase',['MethodBase',['../classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1MethodBase.html',1,'MR::DWI::Tractography::Tracking']]],
@@ -45,6 +42,5 @@ var searchData=
   ['mrtrix_5fgz',['MRtrix_GZ',['../classMR_1_1Image_1_1Format_1_1MRtrix__GZ.html',1,'MR::Image::Format']]],
   ['mrtrix_5fsparse',['MRtrix_sparse',['../classMR_1_1Image_1_1Format_1_1MRtrix__sparse.html',1,'MR::Image::Format']]],
   ['mt_5fgradient_5fvector_5fsorter',['MT_gradient_vector_sorter',['../classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1MT__gradient__vector__sorter.html',1,'MR::DWI::Tractography::SIFT']]],
-  ['mutex',['Mutex',['../classMR_1_1Thread_1_1Mutex.html',1,'MR::Thread']]],
-  ['mutualinformation',['MutualInformation',['../classMR_1_1Image_1_1Registration_1_1Metric_1_1MutualInformation.html',1,'MR::Image::Registration::Metric']]]
+  ['mutex',['Mutex',['../classMR_1_1Thread_1_1Mutex.html',1,'MR::Thread']]]
 ];

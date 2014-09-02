@@ -12,7 +12,7 @@ var searchData=
   ['infotype',['InfoType',['../classMR_1_1InfoType.html',1,'MR']]],
   ['input',['Input',['../classMR_1_1Input.html',1,'MR']]],
   ['inputoutput',['InputOutput',['../classMR_1_1InputOutput.html',1,'MR']]],
-  ['interp',['Interp',['../classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1WBFACT_1_1Interp.html',1,'MR::DWI::Tractography::Algorithms::WBFACT']]],
+  ['interp',['Interp',['../classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1Tensor__Prob_1_1Interp.html',1,'MR::DWI::Tractography::Algorithms::Tensor_Prob']]],
   ['interpolator',['Interpolator',['../classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1Interpolator.html',1,'MR::DWI::Tractography::Tracking']]],
   ['interpolator_3c_20mr_3a_3aimage_3a_3abufferpreload_3a_3avoxel_5ftype_20_3e',['Interpolator&lt; MR::Image::BufferPreload::voxel_type &gt;',['../classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1Interpolator.html',1,'MR::DWI::Tractography::Tracking']]],
   ['intervaltimer',['IntervalTimer',['../classMR_1_1IntervalTimer.html',1,'MR']]],

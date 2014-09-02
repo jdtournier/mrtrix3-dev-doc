@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['dec',['DEC',['../namespaceMR_1_1DWI_1_1Tractography_1_1Mapping.html#a89a945a433c16dd9dec81f827d6226b9a6089739bde8a2ebf8ce94018a39c9bb7',1,'MR::DWI::Tractography::Mapping']]],
   ['decr',['DECR',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2ca5fa1bc03dc840eb31a5bb51df399d0be',1,'gl']]],
   ['decr_5fwrap',['DECR_WRAP',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2ca753db797039dc5b0b5d8721dcfc09a84',1,'gl']]],
   ['default',['Default',['../namespaceMR_1_1Image.html#ac21d72c0a8287f0ec0fe76008fe9c0bfa5f6b30b3a62e8d63dd894334b61d52b3',1,'MR::Image']]],
@@ -22,8 +23,9 @@ var searchData=
   ['depth_5fstencil_5fattachment',['DEPTH_STENCIL_ATTACHMENT',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2ca3b5a567344da9547fafdc3cdfd4f6df1',1,'gl']]],
   ['depth_5ftest',['DEPTH_TEST',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2cad9bf40289590933d864c2e63a31be7ed',1,'gl']]],
   ['depth_5fwritemask',['DEPTH_WRITEMASK',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2ca1a36cc242864d3e90c6ce85f731a484a',1,'gl']]],
-  ['direction',['Direction',['../namespaceMR_1_1GUI_1_1MRView_1_1Tool.html#a6b2599d4d006ad5291c66bf7ac46eac5a6abba1d41ef6f443ed72694191fd83ad',1,'MR::GUI::MRView::Tool']]],
+  ['direction',['Direction',['../namespaceMR_1_1GUI_1_1MRView_1_1Tool.html#aaaad2794ce9a61c10224a1e448785ed7ab0470b53583ca0ed693a5e53bc8620c4',1,'MR::GUI::MRView::Tool']]],
   ['dither',['DITHER',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2ca3e4f2a0d939b029cbfe3a90f4b474a13',1,'gl']]],
+  ['dixel',['DIXEL',['../namespaceMR_1_1DWI_1_1Tractography_1_1Mapping.html#a89a945a433c16dd9dec81f827d6226b9a3faecc51d21221fd45d2d564764806ac',1,'MR::DWI::Tractography::Mapping']]],
   ['dont_5fcare',['DONT_CARE',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2caeb2bb6b4ed049d2708add090ac58a3ee',1,'gl']]],
   ['double',['DOUBLE',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2ca49c6f949721b3690e040833b7fbb773a',1,'gl']]],
   ['doublebuffer',['DOUBLEBUFFER',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2ca224dba3c270032f04a7db476fdf7cdfd',1,'gl']]],

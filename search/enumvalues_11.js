@@ -30,7 +30,7 @@ var searchData=
   ['samples_5fpassed',['SAMPLES_PASSED',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2ca9ca3044afe9371d5d2981b1be7a0bd22',1,'gl']]],
   ['scalar_5fmap',['SCALAR_MAP',['../namespaceMR_1_1DWI_1_1Tractography_1_1Mapping.html#a6d8085a00765609c3f8ee435f8cdf31daacfcd743eb2709ea6f0620e405ce6b88',1,'MR::DWI::Tractography::Mapping']]],
   ['scalar_5fmap_5fcount',['SCALAR_MAP_COUNT',['../namespaceMR_1_1DWI_1_1Tractography_1_1Mapping.html#a6d8085a00765609c3f8ee435f8cdf31da2cc3957f725b6542ba92c9a8472786bc',1,'MR::DWI::Tractography::Mapping']]],
-  ['scalarfile',['ScalarFile',['../namespaceMR_1_1GUI_1_1MRView_1_1Tool.html#a6b2599d4d006ad5291c66bf7ac46eac5a9411998e2a5bfbf4a9ea11d86cce1c29',1,'MR::GUI::MRView::Tool']]],
+  ['scalarfile',['ScalarFile',['../namespaceMR_1_1GUI_1_1MRView_1_1Tool.html#aaaad2794ce9a61c10224a1e448785ed7a9411998e2a5bfbf4a9ea11d86cce1c29',1,'MR::GUI::MRView::Tool']]],
   ['scissor_5fbox',['SCISSOR_BOX',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2cac7ab0782922814880c15f8f4016e8453',1,'gl']]],
   ['scissor_5ftest',['SCISSOR_TEST',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2caf65b1923ee2793a8fc57696506b0f3d3',1,'gl']]],
   ['separate_5fattribs',['SEPARATE_ATTRIBS',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2ca42771430b767ed2a237f101c4fc7a201',1,'gl']]],

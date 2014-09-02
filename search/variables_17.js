@@ -1,18 +1,9 @@
 var searchData=
 [
-  ['waitsync',['WaitSync',['../namespacegl.html#aca3d2c087a8fb7e17bf8333a484a7d35',1,'gl']]],
-  ['warped_5fmoving_5fpositions',['warped_moving_positions',['../warp__inverter_8h.html#af35a2ff676cbfc45ede74d2178373eb7',1,'warp_inverter.h']]],
-  ['wavetable',['wavetable',['../classMR_1_1Math_1_1FFT.html#ac6c99b975849e03e3509d8f26f816c86',1,'MR::Math::FFT']]],
-  ['weight',['weight',['../classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1SetVoxelExtras.html#ade74f5e1ba151da1174e7456c38748fe',1,'MR::DWI::Tractography::Mapping::SetVoxelExtras::weight()'],['../classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1FixelBase.html#ad83c6c8a7df9f3f611786980bda50c8a',1,'MR::DWI::Tractography::SIFT::FixelBase::weight()'],['../classMR_1_1DWI_1_1Tractography_1_1Streamline.html#a54985211abb8c056fd73a5b18e42e692',1,'MR::DWI::Tractography::Streamline::weight()']]],
-  ['weights',['weights',['../classMR_1_1DWI_1_1Tractography_1_1Reader.html#a30a326d892db840d4f724fa426f5322e',1,'MR::DWI::Tractography::Reader']]],
-  ['weights_5fbuffer',['weights_buffer',['../classMR_1_1DWI_1_1Tractography_1_1Writer.html#a1614003c835174bace4d530f548c8865',1,'MR::DWI::Tractography::Writer']]],
-  ['weights_5fname',['weights_name',['../classMR_1_1DWI_1_1Tractography_1_1WriterUnbuffered.html#a926d99efd3022f102a7ce58ce3a821e5',1,'MR::DWI::Tractography::WriterUnbuffered']]],
-  ['weightsoption',['WeightsOption',['../namespaceMR_1_1DWI_1_1Tractography_1_1Editing.html#a80b42790d4310f20c3a057547de22dfe',1,'MR::DWI::Tractography::Editing']]],
-  ['width',['width',['../structmgh__header.html#a123e44959c11ac0c0fe71ad6071c32c4',1,'mgh_header::width()'],['../classMR_1_1GUI_1_1MRView_1_1ColourMap_1_1Renderer.html#af1ae5ba7e2d00bfde53f5549dade6bd7',1,'MR::GUI::MRView::ColourMap::Renderer::width()']]],
-  ['window',['window',['../classMR_1_1GUI_1_1Cursor.html#a5f69feed677bde45e12ac6c0a86066a4',1,'MR::GUI::Cursor::window()'],['../classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base.html#a1b855aa8622b34be1b87c46d92983f97',1,'MR::GUI::MRView::Mode::Base::window()'],['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html#ab82014a4021d015a10d04153796111ee',1,'MR::GUI::MRView::Tool::Base::window()']]],
-  ['window_5fsize',['window_size',['../classMR_1_1Image_1_1Interp_1_1Sinc.html#ac096455d4a85faa0afb92a133e106985',1,'MR::Image::Interp::Sinc']]],
-  ['work',['work',['../classMR_1_1Math_1_1Eigen_1_1Symm.html#aa4265e3b988e86db19829b4d00c55b76',1,'MR::Math::Eigen::Symm::work()'],['../classMR_1_1Math_1_1Eigen_1_1SymmV.html#abdaf28d2d3d238ad61cef54b8d6a3937',1,'MR::Math::Eigen::SymmV::work()'],['../classMR_1_1DWI_1_1CSDeconv.html#ad2f1fa70375d31d62c13ba61f2b3beef',1,'MR::DWI::CSDeconv::work()']]],
-  ['workspace',['workspace',['../classMR_1_1Math_1_1FFT.html#a3ff5f31b362570b5613d5c975fd7efb2',1,'MR::Math::FFT']]],
-  ['writable',['writable',['../classMR_1_1Image_1_1Handler_1_1Base.html#a7ea69b248c27afa298ea7cd80b635c17',1,'MR::Image::Handler::Base']]],
-  ['wrt_5fscanner_5f',['wrt_scanner_',['../classMR_1_1Image_1_1Filter_1_1Gradient.html#a4dd03ff78dc890933acee45c585d291c',1,'MR::Image::Filter::Gradient']]]
+  ['x',['X',['../classMR_1_1Math_1_1Stats_1_1GLMTTest.html#a043aaab87c73ee3fdedf71f473c78d8d',1,'MR::Math::Stats::GLMTTest::X()'],['../classMR_1_1Image_1_1Voxel.html#af13ef94b87fba67532420fd271f68bd0',1,'MR::Image::Voxel::x()'],['../classMR_1_1Math_1_1GradientDescent.html#aaa0cf7379932c8e08dbea093dade4b1f',1,'MR::Math::GradientDescent::x()'],['../classMR_1_1Math_1_1Versor.html#a0a88ce0baed1d8e65efe9496554795cf',1,'MR::Math::Versor::x()']]],
+  ['x2',['x2',['../classMR_1_1Math_1_1GradientDescent.html#a21c1aed848a4105698b8823810122479',1,'MR::Math::GradientDescent']]],
+  ['x_5fa',['x_a',['../structmgh__header.html#a8a1c0538068e323228a6e0fa5cb6dc10',1,'mgh_header']]],
+  ['x_5fr',['x_r',['../structmgh__header.html#a2040a7541368537b91bd750b095aad1d',1,'mgh_header']]],
+  ['x_5fs',['x_s',['../structmgh__header.html#ac14dd614b5843087c34e5f2a88c81969',1,'mgh_header']]],
+  ['xdim',['xdim',['../classMR_1_1Image_1_1Handler_1_1Mosaic.html#a688ff4d65c703aebcc1eaf731118fced',1,'MR::Image::Handler::Mosaic']]]
 ];
