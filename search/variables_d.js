@@ -25,7 +25,7 @@ var searchData=
   ['num',['num',['../classMR_1_1File_1_1Dicom_1_1CSAEntry.html#a3359aa5044e772299f03d333ff9d2d9c',1,'MR::File::Dicom::CSAEntry']]],
   ['num_5findices',['num_indices',['../classMR_1_1GUI_1_1DWI_1_1Renderer.html#a5477708de87ccbf523186b24fe406b01',1,'MR::GUI::DWI::Renderer']]],
   ['num_5fof_5fcolourmaps',['num_of_colourmaps',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1TrackScalarFile.html#a2907958ee9cfdd8071feff4599cd67f4',1,'MR::GUI::MRView::Tool::TrackScalarFile']]],
-  ['num_5fpermutations',['num_permutations',['../classMR_1_1Stats_1_1TFCE_1_1PermutationStack.html#a2b53518e9e94c9c601351c1a8fbbbdb8',1,'MR::Stats::TFCE::PermutationStack']]],
+  ['num_5fpermutations',['num_permutations',['../classMR_1_1Stats_1_1PermTest_1_1PermutationStack.html#a4946a89d657c72e7a9853c605b9280ce',1,'MR::Stats::PermTest::PermutationStack']]],
   ['num_5fsample_5fruns',['num_sample_runs',['../classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1iFOD1.html#a15d0648f79c98dec164a2acf08e08a85',1,'MR::DWI::Tractography::Algorithms::iFOD1']]],
   ['num_5fsamples',['num_samples',['../classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1iFOD2_1_1Shared.html#a6d8717eb0d8cc562eaedc34b68bd94cd',1,'MR::DWI::Tractography::Algorithms::iFOD2::Shared']]],
   ['num_5ftruncations',['num_truncations',['../classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1iFOD1.html#a760eedd1ba48996bc39d36350c39a916',1,'MR::DWI::Tractography::Algorithms::iFOD1']]],

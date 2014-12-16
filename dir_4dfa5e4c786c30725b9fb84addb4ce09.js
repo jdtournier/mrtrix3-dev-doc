@@ -1,9 +1,9 @@
 var dir_4dfa5e4c786c30725b9fb84addb4ce09 =
 [
+    [ "examples", "dir_60b24f702b1eb179bda2b03c8cb79190.html", "dir_60b24f702b1eb179bda2b03c8cb79190" ],
     [ "build.h", "build_8h.html", null ],
     [ "cmdlineparsing.h", "cmdlineparsing_8h.html", null ],
     [ "configure.h", "configure_8h.html", null ],
-    [ "examples.h", "examples_8h.html", null ],
     [ "filter.h", "filter_8h.html", null ],
     [ "image_access.h", "image__access_8h.html", [
       [ "InfoType", "classMR_1_1InfoType.html", null ],

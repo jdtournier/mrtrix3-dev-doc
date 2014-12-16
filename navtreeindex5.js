@@ -1,5 +1,6 @@
 var NAVTREEINDEX5 =
 {
+"classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1SIFTer.html#af5fdceeb09d560021c2dbc57affd9d05":[12,0,1,1,3,6,7,12],
 "classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1SIFTer.html#af6fea2799e2084b65caa1d26033f492b":[12,0,1,1,3,6,7,24],
 "classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1SIFTer.html#afba11e79b3c6a32470d62631e8164288":[12,0,1,1,3,6,7,19],
 "classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1SIFTer_1_1TrackGradientCalculator.html":[12,0,1,1,3,6,7,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX5 =
 "classMR_1_1DataType.html#a9b04559feae22dbde08b543b267c447a":[12,0,1,13,31],
 "classMR_1_1DataType.html#aaac91a34d709b36fe4071c3ff68b4b97":[12,0,1,13,7],
 "classMR_1_1DataType.html#ab49acfdebdacb72b8ce908e6268a7d51":[12,0,1,13,5],
-"classMR_1_1DataType.html#ab5c8bcb804511ba1815a75de7f1d5c8a":[12,0,1,13,43],
-"classMR_1_1DataType.html#ab6e5d9dfac6e1ac5081d584697b34359":[12,0,1,13,37]
+"classMR_1_1DataType.html#ab5c8bcb804511ba1815a75de7f1d5c8a":[12,0,1,13,43]
 };

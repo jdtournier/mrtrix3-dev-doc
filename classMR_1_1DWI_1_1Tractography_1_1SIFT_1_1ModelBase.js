@@ -27,7 +27,7 @@ var classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1ModelBase =
     [ "output_tdi_sh", "classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1ModelBase.html#a20e720085f9708db45a8429ff5c65d02", null ],
     [ "output_untracked_fixels", "classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1ModelBase.html#aab6aaaecc41aa5771c26b00874756533", null ],
     [ "perform_FOD_segmentation", "classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1ModelBase.html#a0d0c67b70e910faaa57b1fe3c0b72f8a", null ],
-    [ "scale_FODs_by_GM", "classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1ModelBase.html#adb43cd38e29bcf024389ab4c07bfd2ef", null ],
+    [ "scale_FDs_by_GM", "classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1ModelBase.html#adce556824c469cf6f389356270650d28", null ],
     [ "act_5tt", "classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1ModelBase.html#a02e829963b090ccbd8c470d74c787fee", null ],
     [ "FOD_sum", "classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1ModelBase.html#a48e5c00fdcbfc9e4d7f2e1fef8090442", null ],
     [ "H", "classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1ModelBase.html#a7520ae794370e687eac546ec2bc9916e", null ],

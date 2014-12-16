@@ -1,6 +1,8 @@
 var classMR_1_1GUI_1_1DWI_1_1RenderFrame =
 [
     [ "RenderFrame", "classMR_1_1GUI_1_1DWI_1_1RenderFrame.html#a419dd3018d548006e7dff71f573ff01f", null ],
+    [ "~RenderFrame", "classMR_1_1GUI_1_1DWI_1_1RenderFrame.html#a75ad1f91b4f9e9efbc1ccc2b3559ffc4", null ],
+    [ "base_updateGL", "classMR_1_1GUI_1_1DWI_1_1RenderFrame.html#acdfad1dc29d6e7cf5e0809710bdaba2d", null ],
     [ "get_color_by_dir", "classMR_1_1GUI_1_1DWI_1_1RenderFrame.html#aa6771184c38d0be233170b81595619e9", null ],
     [ "get_hide_neg_lobes", "classMR_1_1GUI_1_1DWI_1_1RenderFrame.html#ae4cdd9b8c3500c818c970397e2a086e2", null ],
     [ "get_lmax", "classMR_1_1GUI_1_1DWI_1_1RenderFrame.html#ab82fc88646b2199fb50758c04eaf9fe5", null ],
@@ -26,6 +28,7 @@ var classMR_1_1GUI_1_1DWI_1_1RenderFrame =
     [ "set_show_axes", "classMR_1_1GUI_1_1DWI_1_1RenderFrame.html#a9757332b048b76c84093d3fa4038087c", null ],
     [ "set_use_lighting", "classMR_1_1GUI_1_1DWI_1_1RenderFrame.html#a7f176f8ddbcb6b55e94bdb9640042eae", null ],
     [ "snapshot", "classMR_1_1GUI_1_1DWI_1_1RenderFrame.html#ad810c40c75248b990e4209b9ef3647e3", null ],
+    [ "updateGL", "classMR_1_1GUI_1_1DWI_1_1RenderFrame.html#aa3c9f08cd12e3f7ef93bae0d079ed22e", null ],
     [ "wheelEvent", "classMR_1_1GUI_1_1DWI_1_1RenderFrame.html#a89a415b1184491c72031068f0621174f", null ],
     [ "axes_shader", "classMR_1_1GUI_1_1DWI_1_1RenderFrame.html#a3a47022babfa4da39a012f2d9791737f", null ],
     [ "axes_VAO", "classMR_1_1GUI_1_1DWI_1_1RenderFrame.html#a64fde36ff31ac73c111a72d4e633995c", null ],
@@ -35,6 +38,7 @@ var classMR_1_1GUI_1_1DWI_1_1RenderFrame =
     [ "focus", "classMR_1_1GUI_1_1DWI_1_1RenderFrame.html#a7d65d4660418c7b4dbe89f2b741bbcbc", null ],
     [ "font", "classMR_1_1GUI_1_1DWI_1_1RenderFrame.html#aff150d8f84f1f3f292f75e7daf5ab7e5", null ],
     [ "framebuffer", "classMR_1_1GUI_1_1DWI_1_1RenderFrame.html#adc6e80bf3c4c7d22c6e4c0fd607c2417", null ],
+    [ "glrefresh_timer", "classMR_1_1GUI_1_1DWI_1_1RenderFrame.html#a94be8d4799a182657a224b6980df8b48", null ],
     [ "hide_neg_lobes", "classMR_1_1GUI_1_1DWI_1_1RenderFrame.html#aa133fee8db26f1a412958b4c6ee638f1", null ],
     [ "last_pos", "classMR_1_1GUI_1_1DWI_1_1RenderFrame.html#a4f1c907916848e3787aa12a129a0bd54", null ],
     [ "lighting", "classMR_1_1GUI_1_1DWI_1_1RenderFrame.html#acacc5c2effa69f28c1e5b3c4c5eb8151", null ],

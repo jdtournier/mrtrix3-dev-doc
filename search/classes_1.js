@@ -19,6 +19,7 @@ var searchData=
   ['bufferscratch',['BufferScratch',['../classMR_1_1Image_1_1BufferScratch.html',1,'MR::Image']]],
   ['bufferscratch_3c_20bool_20_3e',['BufferScratch&lt; bool &gt;',['../classMR_1_1Image_1_1BufferScratch_3_01bool_01_4.html',1,'MR::Image']]],
   ['bufferscratch_3c_20float_20_3e',['BufferScratch&lt; float &gt;',['../classMR_1_1Image_1_1BufferScratch.html',1,'MR::Image']]],
+  ['bufferscratch_3c_20int32_5ft_20_3e',['BufferScratch&lt; int32_t &gt;',['../classMR_1_1Image_1_1BufferScratch.html',1,'MR::Image']]],
   ['bufferscratch_3c_20mr_3a_3adwi_3a_3afixel_5fmap_3a_3amapvoxel_20_2a_20_3e',['BufferScratch&lt; MR::DWI::Fixel_map::MapVoxel * &gt;',['../classMR_1_1Image_1_1BufferScratch.html',1,'MR::Image']]],
   ['bufferscratch_3c_20value_5ftype_20_3e',['BufferScratch&lt; value_type &gt;',['../classMR_1_1Image_1_1BufferScratch.html',1,'MR::Image']]],
   ['bufferscratchdump',['BufferScratchDump',['../classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1BufferScratchDump.html',1,'MR::DWI::Tractography::Mapping']]],

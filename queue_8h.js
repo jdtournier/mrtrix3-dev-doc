@@ -1,8 +1,5 @@
 var queue_8h =
 [
-    [ "Writer", "classMR_1_1Thread_1_1Queue_1_1Writer.html", "classMR_1_1Thread_1_1Queue_1_1Writer" ],
-    [ "Item", "classMR_1_1Thread_1_1Queue_1_1Writer_1_1Item.html", "classMR_1_1Thread_1_1Queue_1_1Writer_1_1Item" ],
-    [ "Reader", "classMR_1_1Thread_1_1Queue_1_1Reader.html", "classMR_1_1Thread_1_1Queue_1_1Reader" ],
     [ "Item", "classMR_1_1Thread_1_1Queue_1_1Reader_1_1Item.html", "classMR_1_1Thread_1_1Queue_1_1Reader_1_1Item" ],
     [ "MRTRIX_QUEUE_DEFAULT_BATCH_SIZE", "queue_8h.html#a62376d0ebde62dc99133121cec75e9bf", null ],
     [ "MRTRIX_QUEUE_DEFAULT_CAPACITY", "queue_8h.html#a5d6010ef52ccc0b08a310e6a141c3e79", null ],

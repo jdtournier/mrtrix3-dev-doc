@@ -21,5 +21,7 @@ var lib_2math_2vector_8h =
     [ "norm_diff2", "lib_2math_2vector_8h.html#gaa819dde54a1ed53774a12822b436414a", null ],
     [ "norm_diff2", "lib_2math_2vector_8h.html#ga027b5e2d360171e576d1b75d0d3fe8e2", null ],
     [ "normalise", "lib_2math_2vector_8h.html#ga9fad171b21c61d8b6f29aa1b4f89e0bf", null ],
-    [ "normalise", "lib_2math_2vector_8h.html#ga568f4facec88714fd45171bcd34ad93a", null ]
+    [ "normalise", "lib_2math_2vector_8h.html#ga568f4facec88714fd45171bcd34ad93a", null ],
+    [ "sum", "lib_2math_2vector_8h.html#ga22be96efd5e552906f65a35db92100ca", null ],
+    [ "sum", "lib_2math_2vector_8h.html#gaed13e8cf05d6c321cb67e89be1df5058", null ]
 ];

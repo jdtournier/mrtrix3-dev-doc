@@ -22,10 +22,7 @@ var NAVTREE =
     [ "The configure script", "configure_page.html", [
       [ "Using multiple co-existing configurations", "configure_page.html#multiconfig", null ]
     ] ],
-    [ "Example applications", "examples.html", [
-      [ "Running a per-datum operation in a multi-threaded loop", "examples.html#per_datum_example", null ],
-      [ "Running a per-voxel operation on a 4D dataset in a multi-threaded loop", "examples.html#per_voxel_4D_example", null ]
-    ] ],
+    [ "Example applications", "examples.html", "examples" ],
     [ "Accessing image data", "image_access.html", [
       [ "Image::Info", "image_access.html#image_info_class", null ],
       [ "Image::Header", "image_access.html#image_header_class", null ],
@@ -80,7 +77,6 @@ var NAVTREE =
         [ "Typedefs", "functions_type.html", null ],
         [ "Enumerations", "functions_enum.html", null ],
         [ "Enumerator", "functions_eval.html", null ],
-        [ "Properties", "functions_prop.html", null ],
         [ "Related Functions", "functions_rela.html", null ]
       ] ]
     ] ],
@@ -100,35 +96,35 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "ACT_2gmwmi_8h.html",
-"classMR_1_1DWI_1_1Bootstrap.html#a7d3d0d71081817b13a759d5a159ac8f8",
-"classMR_1_1DWI_1_1Tractography_1_1ACT_1_1ACT__Method__additions.html#aa4bdb52262e4cb33a850d6c1fec832a1",
-"classMR_1_1DWI_1_1Tractography_1_1Connectomics_1_1NodeExtractWriter_1_1NodeSelector.html#a25068c66137c001f61f06413383cbf0e",
-"classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TWIImagePluginBase.html#ac0b9a6e7292e223fb8dda815ba15c90f",
-"classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1SIFTer.html#af6fea2799e2084b65caa1d26033f492b",
-"classMR_1_1DataType.html#abae02b8693a88f0b3d19ea5b3352c6af",
-"classMR_1_1File_1_1MMap.html#aed9ece4c3e9ab71c464c04c950e9d6cc",
-"classMR_1_1GUI_1_1GL_1_1mat4.html#a38a1e3a0be485bd93d53d4d83017076f",
-"classMR_1_1GUI_1_1MRView_1_1Mode_1_1Volume_1_1Shader.html#a8251d6b845fa3d34f88cc22bd7092737",
-"classMR_1_1GUI_1_1MRView_1_1Window.html#a33e9953240aab856313ab8c26b7a5216",
-"classMR_1_1Image_1_1Buffer.html#ad83b0816eccfd12c472b5b11dd6de0d5",
+"classMR_1_1DWI_1_1Bootstrap.html#a2bdac636c92e7e53788b9cfabded06ff",
+"classMR_1_1DWI_1_1Tractography_1_1ACT_1_1ACT__Method__additions.html#a1f7926482cc361fd1893da7e23a9102f",
+"classMR_1_1DWI_1_1Tractography_1_1Connectomics_1_1NodeExtractWriter.html#ab5ac8363f381ea7ade5711fa74c31bb3",
+"classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TWIImagePluginBase.html#a5ed85a9e491ebd5f8540a69fc298c3c8",
+"classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1SIFTer.html#af5fdceeb09d560021c2dbc57affd9d05",
+"classMR_1_1DataType.html#ab6e5d9dfac6e1ac5081d584697b34359",
+"classMR_1_1File_1_1MMap.html#ae9ef479fb63e9eff7ae8f7cc308e5f34",
+"classMR_1_1GUI_1_1GL_1_1VertexBuffer.html#ac09150f253d36225965f4f991a35f975",
+"classMR_1_1GUI_1_1MRView_1_1Mode_1_1Volume.html#aec7d86b0b2f8e55699522e072b23e8a5",
+"classMR_1_1GUI_1_1MRView_1_1Window.html#a1de5128048faaf207a08533f4fada69a",
+"classMR_1_1Image_1_1Buffer.html#a8121e52d7bdc48e7cf524d1b28fba684",
 "classMR_1_1Image_1_1Format_1_1NIfTI__GZ.html#aed0f1faa784922c86a4734f98e252840",
 "classMR_1_1Image_1_1LoopInOrder.html#a70b0d102a2d76149631505aae777cc51",
-"classMR_1_1Image_1_1Voxel.html#ad49ec4a9742b250ee653fbfda7c2ba34",
-"classMR_1_1Math_1_1Vector.html#a5dd29d806d0223ee26777a23cf9dc548",
-"classMR_1_1Thread_1_1Mutex.html#ae3156916af66b1a2c5fd80c38f938828",
-"displayable_8h_source.html",
-"gl__core__3__3_8h.html#a033f56a6762759d2b1fe5e9063d5e239",
-"gl__core__3__3_8h.html#a9f961e845dfb1283ab50e3f36b9409ef",
-"gl__core__3__3_8h.html#ae5454dcd08d3ddf312c20fb27b54bf2ca336e9bc3105271fbe4a1600724712cd4",
-"gl__core__3__3_8h.html#ae5454dcd08d3ddf312c20fb27b54bf2ca7eeb3d1dd5c1479a46d1817e611eaf60",
-"gl__core__3__3_8h.html#ae5454dcd08d3ddf312c20fb27b54bf2cad0403992ced6521d8d2c07c9558e3fee",
-"group__CmdParse.html#ga5be62b41a0da1f036ff3cc1b64d4ccb2",
-"group__vector.html#ga288efb9dc205188c695f22197b834a71",
-"math_8h.html#ga411ea9b4f4e11be21c8968df072fbcbd",
-"namespaceMR_1_1GUI_1_1Dialog.html",
-"predefined_8h.html#a07058d1c3cfa5b6e5fb1fab90669a3c9",
-"src_2gui_2app_8h.html#af23780445b3268cd62f606a1e435198d",
-"writer_8h.html#a2cbbd3a994105136663e41c9183f4437"
+"classMR_1_1InputOutput.html",
+"classMR_1_1Math_1_1Vector.html#a6f0f40283cd4abdac324a17f35c431a9",
+"classMR_1_1Thread_1_1Queue_1_1Reader.html#a516b06a7ffbb605650ea7aec8717b4a4",
+"dwi_2tractography_2tracking_2tractography_8h.html#a81f5feaac85eccf848e0a63c7b43edd6",
+"gl__core__3__3_8h.html#a07043cd730f61a566ace662cb33333da",
+"gl__core__3__3_8h.html#aa3c323753afbe803f81e9ab959c5a6fb",
+"gl__core__3__3_8h.html#ae5454dcd08d3ddf312c20fb27b54bf2ca34a7b5691e2e5b1263395982543a64a5",
+"gl__core__3__3_8h.html#ae5454dcd08d3ddf312c20fb27b54bf2ca80accce2591cc5cfb198ed4d26555aff",
+"gl__core__3__3_8h.html#ae5454dcd08d3ddf312c20fb27b54bf2cad2c659ee1fd9427672a8b2e2b133096d",
+"group__CmdParse.html#ga6af9c71b18687c8f31fcc13754275bb1",
+"group__vector.html#ga7fc94cdedcd2a89bec6500b677451c20",
+"math_8h.html#ga4c8b6ee9e17854b592dde441bdad2bf4",
+"namespaceMR_1_1GUI_1_1GL.html",
+"permute__axes_8h.html",
+"src_2dwi_2tractography_2seeding_2list_8h.html",
+"twi__stats_8h.html#a11697b8a24621d1aab532b3f6af729bba6a371889661981da84b47550a804d1e7"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

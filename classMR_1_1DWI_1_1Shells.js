@@ -9,6 +9,7 @@ var classMR_1_1DWI_1_1Shells =
     [ "reject_small_shells", "classMR_1_1DWI_1_1Shells.html#af0aa5be3a9d492e799e7e58d5bb8e309", null ],
     [ "select_shells", "classMR_1_1DWI_1_1Shells.html#a4ba1e3c1e3dad4607d6850dea6c0adbe", null ],
     [ "smallest", "classMR_1_1DWI_1_1Shells.html#a493dfcc149da64afebf0bb43310e179a", null ],
+    [ "volumecount", "classMR_1_1DWI_1_1Shells.html#af347f1dc74ff56828ea7c28f6956e36d", null ],
     [ "operator<<", "classMR_1_1DWI_1_1Shells.html#a34a9932f1b0c0a42c7f414fd629f4da5", null ],
     [ "shells", "classMR_1_1DWI_1_1Shells.html#a4c7dacec1a0850914ec9a57bca4b3687", null ]
 ];

@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['h',['H',['../classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1MapWriterBase.html#aa33f975bb58934d84b2e9da5e022705e',1,'MR::DWI::Tractography::Mapping::MapWriterBase::H()'],['../classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1ModelBase.html#a7520ae794370e687eac546ec2bc9916e',1,'MR::DWI::Tractography::SIFT::ModelBase::H()'],['../classMR_1_1Stats_1_1TFCE_1_1Spatial.html#a4e63c32489f4477cfd496d2240e2bf19',1,'MR::Stats::TFCE::Spatial::H()'],['../classMR_1_1Stats_1_1TFCE_1_1Connectivity.html#aadeb7f664d921840512b5caedebfe88a',1,'MR::Stats::TFCE::Connectivity::H()']]],
+  ['h',['H',['../classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1MapWriterBase.html#aa33f975bb58934d84b2e9da5e022705e',1,'MR::DWI::Tractography::Mapping::MapWriterBase::H()'],['../classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1ModelBase.html#a7520ae794370e687eac546ec2bc9916e',1,'MR::DWI::Tractography::SIFT::ModelBase::H()'],['../classMR_1_1Stats_1_1CFE_1_1Enhancer.html#a3041a4acf9da8e2fd142e70930f1657a',1,'MR::Stats::CFE::Enhancer::H()'],['../classMR_1_1Stats_1_1TFCE_1_1Enhancer.html#a4a4b870d908b2da99729eea92b0d53eb',1,'MR::Stats::TFCE::Enhancer::H()']]],
   ['half_5ffloat',['HALF_FLOAT',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2ca8af611cff0cf6cb7617003c3ce99435e',1,'gl']]],
-  ['handler_5f',['handler_',['../classMR_1_1Image_1_1Header.html#a58e385f6c7cb1ae310d3b593f68f1baf',1,'MR::Image::Header::handler_()'],['../classMR_1_1Image_1_1Sparse_1_1Voxel.html#a3788126cd05276624e39522d733f252d',1,'MR::Image::Sparse::Voxel::handler_()']]],
+  ['handler_5f',['handler_',['../classMR_1_1Image_1_1Header.html#a58e385f6c7cb1ae310d3b593f68f1baf',1,'MR::Image::Header::handler_()'],['../singletonMR_1_1Image_1_1Sparse_1_1Voxel.html#a3788126cd05276624e39522d733f252d',1,'MR::Image::Sparse::Voxel::handler_()']]],
   ['handlers',['handlers',['../namespaceMR_1_1Image_1_1Format.html#af5926021463ad2cc5aa63433c9d8312d',1,'MR::Image::Format']]],
   ['has_5fsuffix',['has_suffix',['../namespaceMR_1_1Path.html#aec71ef62d6df55a69e640af475ae3057',1,'MR::Path']]],
   ['hash_5fmap_2eh',['hash_map.h',['../hash__map_8h.html',1,'']]],

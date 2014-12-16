@@ -10,6 +10,8 @@ var searchData=
   ['uint64be',['UInt64BE',['../classMR_1_1DataType.html#afc3ea9400ec093b335bdfcff2aabf2be',1,'MR::DataType']]],
   ['uint64le',['UInt64LE',['../classMR_1_1DataType.html#a68e54d047c714bab105386ea83b0934a',1,'MR::DataType']]],
   ['uint8',['UInt8',['../classMR_1_1DataType.html#a47a79ffb02b6f08208bfe40edd208bce',1,'MR::DataType']]],
+  ['uncorrected_5fpvalue_5fcounter',['uncorrected_pvalue_counter',['../classMR_1_1Stats_1_1PermTest_1_1Processor.html#a821b9988a63a7a6a68a48b29ab97428b',1,'MR::Stats::PermTest::Processor']]],
+  ['uncorrected_5fpvalue_5fcounter_5fneg',['uncorrected_pvalue_counter_neg',['../classMR_1_1Stats_1_1PermTest_1_1Processor.html#a2c8cb018746159eb6b3aed955be8e139',1,'MR::Stats::PermTest::Processor']]],
   ['undefined',['Undefined',['../classMR_1_1DataType.html#a91107cd9b336e0dad4e006209fb53bff',1,'MR::DataType']]],
   ['unidirectional',['unidirectional',['../classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1SharedBase.html#a3abf5349589404b2b9a8afaf28b507bc',1,'MR::DWI::Tractography::Tracking::SharedBase']]],
   ['uniform1f',['Uniform1f',['../namespacegl.html#a16628171c77aede8aa36f6d8361a586a',1,'gl']]],

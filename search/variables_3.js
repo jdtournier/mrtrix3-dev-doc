@@ -30,7 +30,7 @@ var searchData=
   ['clip_5fedit_5fbutton',['clip_edit_button',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1View.html#acb232b1c2be2b02c4fb4a1e5f0f05214',1,'MR::GUI::MRView::Tool::View']]],
   ['clip_5fmodify_5fbutton',['clip_modify_button',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1View.html#a4065cb313bdadae6840f440f7b32bea8',1,'MR::GUI::MRView::Tool::View']]],
   ['clip_5fon_5fbutton',['clip_on_button',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1View.html#a2868ec28381ea0558685ffdaec124799',1,'MR::GUI::MRView::Tool::View']]],
-  ['cluster_5fforming_5fthreshold',['cluster_forming_threshold',['../classMR_1_1Stats_1_1TFCE_1_1ClusterSize.html#a17a876d6a1e97223496a4268a160deb4',1,'MR::Stats::TFCE::ClusterSize']]],
+  ['cluster_5fforming_5fthreshold',['cluster_forming_threshold',['../classMR_1_1Stats_1_1Cluster_1_1ClusterSize.html#a5d176e513969d6d092c8e1a3c20a47ed',1,'MR::Stats::Cluster::ClusterSize']]],
   ['cnum',['cnum',['../classMR_1_1File_1_1Dicom_1_1CSAEntry.html#a4a4670e3852fae9d24196a30745177af',1,'MR::File::Dicom::CSAEntry']]],
   ['coef_5fai0',['coef_aI0',['../namespaceMR_1_1Math_1_1Bessel.html#ac9e4add26f811e9c03d0e6be53546c62',1,'MR::Math::Bessel']]],
   ['coef_5fai1',['coef_aI1',['../namespaceMR_1_1Math_1_1Bessel.html#abc7bf52971e184a784a5acb6f463d7e5',1,'MR::Math::Bessel']]],
@@ -64,8 +64,8 @@ var searchData=
   ['compressedtexsubimage2d',['CompressedTexSubImage2D',['../namespacegl.html#ad2a98975d1fbeb6352055441fe120944',1,'gl']]],
   ['compressedtexsubimage3d',['CompressedTexSubImage3D',['../namespacegl.html#a69524d6ae62c275eee1e0eaf95a606bc',1,'gl']]],
   ['computed_5fonce',['computed_once',['../classMR_1_1DWI_1_1CSDeconv.html#ae05307b52a2261a74aea138f123429bb',1,'MR::DWI::CSDeconv']]],
-  ['connectivity_5fmap',['connectivity_map',['../classMR_1_1Stats_1_1TFCE_1_1Connectivity.html#a9904f358500b5408169f3e9fc2845eb1',1,'MR::Stats::TFCE::Connectivity']]],
-  ['connector',['connector',['../classMR_1_1Stats_1_1TFCE_1_1ClusterSize.html#ae949209b0b8b6dd30345ffcf1448fd3c',1,'MR::Stats::TFCE::ClusterSize::connector()'],['../classMR_1_1Stats_1_1TFCE_1_1Spatial.html#aabe3292ef94574f908a06eb1a8112a95',1,'MR::Stats::TFCE::Spatial::connector()']]],
+  ['connectivity_5fmap',['connectivity_map',['../classMR_1_1Stats_1_1CFE_1_1Enhancer.html#a41aabaa51d7199f1b09c36cbbc8b70f2',1,'MR::Stats::CFE::Enhancer']]],
+  ['connector',['connector',['../classMR_1_1Stats_1_1Cluster_1_1ClusterSize.html#ad236cf8b3e90b46d404a67aaa1d4b3f9',1,'MR::Stats::Cluster::ClusterSize::connector()'],['../classMR_1_1Stats_1_1TFCE_1_1Enhancer.html#aeb092c335170ad0a0fc4535f7a1f7bc1',1,'MR::Stats::TFCE::Enhancer::connector()']]],
   ['contrast',['contrast',['../classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TrackMapperTWI.html#aa628f9927e0b1a72c1fb2117ba8514e3',1,'MR::DWI::Tractography::Mapping::TrackMapperTWI']]],
   ['contrasts',['contrasts',['../namespaceMR_1_1DWI_1_1Tractography_1_1Mapping.html#aabab0b14dee9b810620d2afea898e964',1,'MR::DWI::Tractography::Mapping']]],
   ['contributions',['contributions',['../classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1Model.html#aa349b6f170adb1fa3ade4c637c48888c',1,'MR::DWI::Tractography::SIFT::Model']]],
@@ -95,6 +95,6 @@ var searchData=
   ['current_5findex',['current_index',['../classMR_1_1DWI_1_1Tractography_1_1Reader.html#aefedbbfab6bafeb35d85de55a5f34e85',1,'MR::DWI::Tractography::Reader::current_index()'],['../classMR_1_1GUI_1_1MRView_1_1ColourMap_1_1Renderer.html#ad1c0ab126e29d46a2449dbfaf456c6d0',1,'MR::GUI::MRView::ColourMap::Renderer::current_index()']]],
   ['current_5finverted',['current_inverted',['../classMR_1_1GUI_1_1MRView_1_1ColourMap_1_1Renderer.html#aaab641b860afc2b4de9dae19f01b4599',1,'MR::GUI::MRView::ColourMap::Renderer']]],
   ['current_5foffset',['current_offset',['../classMR_1_1DWI_1_1Tractography_1_1ScalarWriter.html#a4438d62d074122a907ff7b41ff60737b',1,'MR::DWI::Tractography::ScalarWriter']]],
-  ['current_5fpermutation',['current_permutation',['../classMR_1_1Stats_1_1TFCE_1_1PermutationStack.html#a1d49ec0f1a62e103ca9e55da9342f4f8',1,'MR::Stats::TFCE::PermutationStack']]],
+  ['current_5fpermutation',['current_permutation',['../classMR_1_1Stats_1_1PermTest_1_1PermutationStack.html#a7ae6884eadca849cdc239a8a77ddc633',1,'MR::Stats::PermTest::PermutationStack']]],
   ['current_5fplane',['current_plane',['../classMR_1_1GUI_1_1MRView_1_1Mode_1_1Ortho.html#a459e1c69b1e2deeaa74a19ee2ba8217a',1,'MR::GUI::MRView::Mode::Ortho']]]
 ];

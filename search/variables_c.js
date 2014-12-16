@@ -11,7 +11,7 @@ var searchData=
   ['mapping',['mapping',['../classMR_1_1GUI_1_1MRView_1_1ColourMap_1_1Entry.html#a206f99795f1709adc363609aa6aef0c4',1,'MR::GUI::MRView::ColourMap::Entry']]],
   ['maps',['maps',['../namespaceMR_1_1GUI_1_1MRView_1_1ColourMap.html#a1fe6aef9948b83afd063cf1fa2488f08',1,'MR::GUI::MRView::ColourMap']]],
   ['mask',['mask',['../classMR_1_1DWI_1_1Tractography_1_1Properties.html#a1dc5a5d3492ffb2632316e2075373750',1,'MR::DWI::Tractography::Properties']]],
-  ['mask_5findices_5f',['mask_indices_',['../classMR_1_1Image_1_1Filter_1_1Connector.html#a39ec2c69c39db15bf6906f312a96c8fb',1,'MR::Image::Filter::Connector']]],
+  ['mask_5findices',['mask_indices',['../classMR_1_1Image_1_1Filter_1_1Connector.html#aea934967ce92a9d817d7fecab96a52a7',1,'MR::Image::Filter::Connector']]],
   ['matrix',['matrix',['../classMR_1_1Image_1_1MatrixMultiply.html#a06f86c533079fddbb786d56d9804275a',1,'MR::Image::MatrixMultiply']]],
   ['max',['max',['../classMR_1_1App_1_1Argument.html#a0c5ebbf16cae9ada9b75b51fa388854a',1,'MR::App::Argument::max()'],['../classMR_1_1App_1_1Argument.html#ab91c350a9dd2ed686ef88b24c6945e64',1,'MR::App::Argument::max()'],['../classMR_1_1DWI_1_1Shell.html#a21e0320d3f13ca8ba9fb0c3df3d01049',1,'MR::DWI::Shell::max()'],['../classMR_1_1GUI_1_1MRView_1_1AdjustButton.html#a3c1eddd81277f8518f74bc867df048af',1,'MR::GUI::MRView::AdjustButton::max()']]],
   ['max_5fangle',['max_angle',['../classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1SharedBase.html#a1c6f2db1189ce46da6f026113922d102',1,'MR::DWI::Tractography::Tracking::SharedBase']]],

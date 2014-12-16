@@ -1,5 +1,10 @@
 var NAVTREEINDEX9 =
 {
+"classMR_1_1GUI_1_1MRView_1_1Mode_1_1Volume.html#aec7d86b0b2f8e55699522e072b23e8a5":[12,0,1,3,3,1,4,17],
+"classMR_1_1GUI_1_1MRView_1_1Mode_1_1Volume.html#aed5836f7555f6306b62256e412121bf3":[12,0,1,3,3,1,4,6],
+"classMR_1_1GUI_1_1MRView_1_1Mode_1_1Volume_1_1Shader.html":[12,0,1,3,3,1,4,0],
+"classMR_1_1GUI_1_1MRView_1_1Mode_1_1Volume_1_1Shader.html#a42973265bee56abfd5be695c4d27c2b5":[12,0,1,3,3,1,4,0,0],
+"classMR_1_1GUI_1_1MRView_1_1Mode_1_1Volume_1_1Shader.html#a813bfa5339a57b6bb11252adb6b84031":[12,0,1,3,3,1,4,0,6],
 "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Volume_1_1Shader.html#a8251d6b845fa3d34f88cc22bd7092737":[12,0,1,3,3,1,4,0,2],
 "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Volume_1_1Shader.html#a956e87096586b16b26b31e66dc3b82aa":[12,0,1,3,3,1,4,0,5],
 "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Volume_1_1Shader.html#ab8c56cb0165a1a4d0c50d9c2fe12ad38":[12,0,1,3,3,1,4,0,4],
@@ -244,10 +249,5 @@ var NAVTREEINDEX9 =
 "classMR_1_1GUI_1_1MRView_1_1Window.html#a147116f1492f1bcc6c57dc96902b9015":[12,0,1,3,3,7,37],
 "classMR_1_1GUI_1_1MRView_1_1Window.html#a14c8ce1cee144d555ec8efe1b7f26155":[12,0,1,3,3,7,28],
 "classMR_1_1GUI_1_1MRView_1_1Window.html#a1547cc32f2c75253bc652a051783a4c0":[12,0,1,3,3,7,1],
-"classMR_1_1GUI_1_1MRView_1_1Window.html#a1b6784e5f91b1e515dece4b653a07be8":[12,0,1,3,3,7,5],
-"classMR_1_1GUI_1_1MRView_1_1Window.html#a1de5128048faaf207a08533f4fada69a":[12,0,1,3,3,7,10],
-"classMR_1_1GUI_1_1MRView_1_1Window.html#a2135e8df92f9220f19cfc045248d522a":[12,0,1,3,3,7,18],
-"classMR_1_1GUI_1_1MRView_1_1Window.html#a27cd50d02f46cf7419368fa5d5cdd3df":[12,0,1,3,3,7,32],
-"classMR_1_1GUI_1_1MRView_1_1Window.html#a298fb85a2475e6846fed4a1d0c6cc663":[12,0,1,3,3,7,17],
-"classMR_1_1GUI_1_1MRView_1_1Window.html#a2ec16c131e00a243bb4971b2e9c863bc":[12,0,1,3,3,7,42]
+"classMR_1_1GUI_1_1MRView_1_1Window.html#a1b6784e5f91b1e515dece4b653a07be8":[12,0,1,3,3,7,5]
 };

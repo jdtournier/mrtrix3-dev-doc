@@ -8,11 +8,9 @@ var classMR_1_1Image_1_1Filter_1_1Connector =
     [ "precompute_adjacency", "classMR_1_1Image_1_1Filter_1_1Connector.html#a4ae996cc90919d4baed4f040f6d95ca3", null ],
     [ "run", "classMR_1_1Image_1_1Filter_1_1Connector.html#aaa7d7e312ede419766cdfcc34313571b", null ],
     [ "run", "classMR_1_1Image_1_1Filter_1_1Connector.html#a89102a48681b5b016910e1d1cdf4015f", null ],
-    [ "set_dim_to_ignore", "classMR_1_1Image_1_1Filter_1_1Connector.html#ae1a4247b04f7d81d1203726440b4f92d", null ],
-    [ "set_directions", "classMR_1_1Image_1_1Filter_1_1Connector.html#af3c94f1fe8dfe3d3255b71e05e7d6a97", null ],
-    [ "adjacent_indices_", "classMR_1_1Image_1_1Filter_1_1Connector.html#a264353896ed9b485847b587d0cb91fd3", null ],
-    [ "dim_to_ignore_", "classMR_1_1Image_1_1Filter_1_1Connector.html#a73e643d9337f800b39433d9f1440c4bf", null ],
-    [ "dir_adjacency_matrix_", "classMR_1_1Image_1_1Filter_1_1Connector.html#a882be8290232f1c6fc9b7fb9da8a2d45", null ],
-    [ "do_26_connectivity_", "classMR_1_1Image_1_1Filter_1_1Connector.html#a991c26c08bbbc60706eb724884380f0f", null ],
-    [ "mask_indices_", "classMR_1_1Image_1_1Filter_1_1Connector.html#a39ec2c69c39db15bf6906f312a96c8fb", null ]
+    [ "set_dim_to_ignore", "classMR_1_1Image_1_1Filter_1_1Connector.html#a30a286405a78bdb5264f41ab293bf2d2", null ],
+    [ "adjacent_indices", "classMR_1_1Image_1_1Filter_1_1Connector.html#a9f8539c2371ecf825ac091965ef27720", null ],
+    [ "dim_to_ignore", "classMR_1_1Image_1_1Filter_1_1Connector.html#ac6a6e8e6d2c3513218a3322588e777cd", null ],
+    [ "do_26_connectivity", "classMR_1_1Image_1_1Filter_1_1Connector.html#ac22179628c61dd54f17114deba7ec25c", null ],
+    [ "mask_indices", "classMR_1_1Image_1_1Filter_1_1Connector.html#aea934967ce92a9d817d7fecab96a52a7", null ]
 ];

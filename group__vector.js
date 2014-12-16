@@ -19,5 +19,7 @@ var group__vector =
     [ "norm_diff2", "group__vector.html#gaa819dde54a1ed53774a12822b436414a", null ],
     [ "norm_diff2", "group__vector.html#ga027b5e2d360171e576d1b75d0d3fe8e2", null ],
     [ "normalise", "group__vector.html#ga9fad171b21c61d8b6f29aa1b4f89e0bf", null ],
-    [ "normalise", "group__vector.html#ga568f4facec88714fd45171bcd34ad93a", null ]
+    [ "normalise", "group__vector.html#ga568f4facec88714fd45171bcd34ad93a", null ],
+    [ "sum", "group__vector.html#ga22be96efd5e552906f65a35db92100ca", null ],
+    [ "sum", "group__vector.html#gaed13e8cf05d6c321cb67e89be1df5058", null ]
 ];
