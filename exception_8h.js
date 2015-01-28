@@ -10,6 +10,6 @@ var exception_8h =
     [ "cmdline_print_func", "exception_8h.html#a216a4bc64b7566f00a376a785b4da933", null ],
     [ "cmdline_report_to_user_func", "exception_8h.html#ae6350eef04c795dc4d33e8b1f93c1d23", null ],
     [ "display_exception_cmdline", "exception_8h.html#aa2381ad83e3931d655425b22507d1634", null ],
-    [ "print", "exception_8h.html#ab2edead6b0149f4e24123416d345a18c", null ],
-    [ "report_to_user_func", "exception_8h.html#aadf4fa6239e18d3dc1316ed7874a76f3", null ]
+    [ "print", "exception_8h.html#a66792f7e70e2ea8b404314eeebcd4dbb", null ],
+    [ "report_to_user_func", "exception_8h.html#a3ba6eec998a8bb2f380416291babbf63", null ]
 ];

@@ -17,6 +17,7 @@ var classMR_1_1Image_1_1BufferPreload =
     [ "operator=", "classMR_1_1Image_1_1BufferPreload.html#ada7eb771e075945400bae8fcbe0244d1", null ],
     [ "set_value", "classMR_1_1Image_1_1BufferPreload.html#a66b0e80780f4fe688f2ebeca87f54ae0", null ],
     [ "set_value", "classMR_1_1Image_1_1BufferPreload.html#a5bad6f2e0a832da5166b73d4cf9029be", null ],
+    [ "voxel", "classMR_1_1Image_1_1BufferPreload.html#a5ed1282de5ac58a4c06839ac8e8f3a88", null ],
     [ "operator<<", "classMR_1_1Image_1_1BufferPreload.html#a80fc6b0147ca1dabd1632681b3b92466", null ],
     [ "data_", "classMR_1_1Image_1_1BufferPreload.html#a85c164cd075fde0822c0f6ccdf7f3aa6", null ]
 ];

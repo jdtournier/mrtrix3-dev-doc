@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['_5f_5fbackend',['__Backend',['../classMR_1_1Thread_1_1____Backend.html',1,'MR::Thread']]],
+  ['_5f_5fbackend',['__Backend',['../classMR_1_1Thread_1_1____Backend.html#a40852fdb2de98c2cba8bb85e90bda19e',1,'MR::Thread::__Backend::__Backend()'],['../namespaceMR_1_1Thread.html#a2df112528747ab79d7ee964262b2d1fb',1,'MR::Thread::__backend()']]],
   ['_5f_5fget_5faxes_5fin_5fthread',['__get_axes_in_thread',['../classMR_1_1Image_1_1ThreadedLoop.html#ae601140b34f2c41452931a6d109c57bf',1,'MR::Image::ThreadedLoop::__get_axes_in_thread(const std::vector&lt; size_t &gt; &amp;axes_in_loop, size_t num_inner_axes)'],['../classMR_1_1Image_1_1ThreadedLoop.html#afe2ac32b2215515d119c66d5d3ba0283',1,'MR::Image::ThreadedLoop::__get_axes_in_thread(const InfoType &amp;source, size_t num_inner_axes, size_t from_axis, size_t to_axis)']]],
   ['_5f_5fget_5faxes_5fout_5fof_5fthread',['__get_axes_out_of_thread',['../classMR_1_1Image_1_1ThreadedLoop.html#a683a458d778b59bc7a3a01148b3944c9',1,'MR::Image::ThreadedLoop::__get_axes_out_of_thread(const std::vector&lt; size_t &gt; &amp;axes_in_loop, size_t num_inner_axes)'],['../classMR_1_1Image_1_1ThreadedLoop.html#a61cc05b52d88b3079b6d4f6771063bbf',1,'MR::Image::ThreadedLoop::__get_axes_out_of_thread(const InfoType &amp;source, size_t num_inner_axes, size_t from_axis, size_t to_axis)']]],
   ['_5f_5fget_5fhandler',['__get_handler',['../classMR_1_1Image_1_1Header.html#abaf010db98ae96f7fb1a766a5361156a',1,'MR::Image::Header']]],
@@ -13,5 +15,9 @@ var searchData=
   ['_5f_5fstandard_5foptions',['__standard_options',['../namespaceMR_1_1App.html#af23780445b3268cd62f606a1e435198d',1,'MR::App']]],
   ['_5f_5fstr',['__STR',['../src_2gui_2mrview_2tool_2base_8h.html#af3192660ce6b091819a6f5db69b8d54f',1,'base.h']]],
   ['_5f_5fstr_5f_5f',['__STR__',['../src_2gui_2mrview_2tool_2base_8h.html#ab1c719d72953053ecea4915641ad3567',1,'base.h']]],
+  ['_5finfo',['_info',['../classMR_1_1GUI_1_1MRView_1_1Volume.html#a63697f0427faee1e69178a5719024ba4',1,'MR::GUI::MRView::Volume']]],
+  ['_5fscale_5ffactor',['_scale_factor',['../classMR_1_1GUI_1_1MRView_1_1Volume.html#a70c87255611eaf8b7da3fea5a85c4cf7',1,'MR::GUI::MRView::Volume']]],
+  ['_5ftexture',['_texture',['../classMR_1_1GUI_1_1MRView_1_1Volume.html#a4047779b8586ab259a029311e299e717',1,'MR::GUI::MRView::Volume']]],
+  ['_5ftransform',['_transform',['../classMR_1_1GUI_1_1MRView_1_1Volume.html#a921c97f3e528305ea359d8dbe2aa17c7',1,'MR::GUI::MRView::Volume']]],
   ['_5ftype',['_Type',['../classMR_1_1File_1_1Dicom_1_1Element.html#ae9217c91240fb8e69f77bf9f6a973173',1,'MR::File::Dicom::Element']]]
 ];

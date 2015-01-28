@@ -19,7 +19,7 @@ var dir_ab1544a3765a61840ebbbf4f7cb14674 =
       [ "Upsampler", "classMR_1_1DWI_1_1Tractography_1_1Upsampler.html", "classMR_1_1DWI_1_1Tractography_1_1Upsampler" ],
       [ "Downsampler", "classMR_1_1DWI_1_1Tractography_1_1Downsampler.html", "classMR_1_1DWI_1_1Tractography_1_1Downsampler" ]
     ] ],
-    [ "roi.h", "roi_8h.html", "roi_8h" ],
+    [ "roi.h", "dwi_2tractography_2roi_8h.html", "dwi_2tractography_2roi_8h" ],
     [ "scalar_file.h", "scalar__file_8h.html", "scalar__file_8h" ],
     [ "streamline.h", "streamline_8h.html", [
       [ "Streamline", "classMR_1_1DWI_1_1Tractography_1_1Streamline.html", "classMR_1_1DWI_1_1Tractography_1_1Streamline" ]

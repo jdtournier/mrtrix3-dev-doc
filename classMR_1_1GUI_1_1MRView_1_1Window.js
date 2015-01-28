@@ -47,6 +47,7 @@ var classMR_1_1GUI_1_1MRView_1_1Window =
     [ "updateGL", "classMR_1_1GUI_1_1MRView_1_1Window.html#a0d510dcd29931fd125b25d21e23f0410", null ],
     [ "Image", "classMR_1_1GUI_1_1MRView_1_1Window.html#a5d6b29a75202aeeaef335faca9eb55e2", null ],
     [ "Mode::Base", "classMR_1_1GUI_1_1MRView_1_1Window.html#a541f5151b9797d5d2f63d750cce7e10e", null ],
+    [ "Tool::Base", "classMR_1_1GUI_1_1MRView_1_1Window.html#a6cec03f9255f2345b175a02adb6236d9", null ],
     [ "Window::GLArea", "classMR_1_1GUI_1_1MRView_1_1Window.html#aa629c283a5e06e8edbfb6f1cbcdba24f", null ],
     [ "colourbar_renderer", "classMR_1_1GUI_1_1MRView_1_1Window.html#ad4d227f634252e164bd125a5f9660d72", null ]
 ];

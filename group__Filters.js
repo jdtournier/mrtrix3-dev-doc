@@ -40,15 +40,6 @@ var group__Filters =
       [ "set_npass", "classMR_1_1Image_1_1Filter_1_1Erode.html#aee77a687ff9cbb1430aac25371ac9b52", null ],
       [ "npass_", "classMR_1_1Image_1_1Filter_1_1Erode.html#abfd6c38908df4f44188a41f86ab2a941", null ]
     ] ],
-    [ "FFT", "classMR_1_1Image_1_1Filter_1_1FFT.html", [
-      [ "FFT", "group__Filters.html#gad124e94ed7ca4025376015785ab9e776", null ],
-      [ "operator()", "group__Filters.html#gadec2304dd4e41ac52da0555ffe4a5acc", null ],
-      [ "set_axes", "group__Filters.html#ga3e479a8086231b36067d2fbfdfd52b37", null ],
-      [ "set_centre_zero", "group__Filters.html#ga8524b47bb8f369739d895770f3226246", null ],
-      [ "axes_to_process", "group__Filters.html#ga21f695dd487905f6061ae46d435a1d8d", null ],
-      [ "centre_zero_", "group__Filters.html#ga67c290a519ac84d2a8c1df944d57f20d", null ],
-      [ "inverse", "group__Filters.html#gae4235a271c07f07416110e22eba206d7", null ]
-    ] ],
     [ "FFTKernel", "classMR_1_1Image_1_1Filter_1_1FFT_1_1FFTKernel.html", [
       [ "FFTKernel", "group__Filters.html#ga30076af234eaf4f0dde0298313dea04e", null ],
       [ "operator()", "group__Filters.html#gae64ea76eace7999bef940de7001c740e", null ],
@@ -57,6 +48,15 @@ var group__Filters =
       [ "fft", "group__Filters.html#ga9ed61e36db7f638cd54737cc32ffdb84", null ],
       [ "inverse", "group__Filters.html#gaaa78f6131713de372a1b84a874faa5e6", null ],
       [ "vox", "group__Filters.html#ga197fb81890adb9e5dc0a99c5443320c6", null ]
+    ] ],
+    [ "FFT", "classMR_1_1Image_1_1Filter_1_1FFT.html", [
+      [ "FFT", "group__Filters.html#gad124e94ed7ca4025376015785ab9e776", null ],
+      [ "operator()", "group__Filters.html#gadec2304dd4e41ac52da0555ffe4a5acc", null ],
+      [ "set_axes", "group__Filters.html#ga3e479a8086231b36067d2fbfdfd52b37", null ],
+      [ "set_centre_zero", "group__Filters.html#ga8524b47bb8f369739d895770f3226246", null ],
+      [ "axes_to_process", "group__Filters.html#ga21f695dd487905f6061ae46d435a1d8d", null ],
+      [ "centre_zero_", "group__Filters.html#ga67c290a519ac84d2a8c1df944d57f20d", null ],
+      [ "inverse", "group__Filters.html#gae4235a271c07f07416110e22eba206d7", null ]
     ] ],
     [ "Gradient", "classMR_1_1Image_1_1Filter_1_1Gradient.html", [
       [ "Gradient", "classMR_1_1Image_1_1Filter_1_1Gradient.html#a53a58a8d25a241e672e3bfbd05f4cd95", null ],
@@ -83,8 +83,7 @@ var group__Filters =
     ] ],
     [ "OptimalThreshold", "classMR_1_1Image_1_1Filter_1_1OptimalThreshold.html", [
       [ "OptimalThreshold", "classMR_1_1Image_1_1Filter_1_1OptimalThreshold.html#a67feca1b5f04bed8fc57892029bfc155", null ],
-      [ "operator()", "classMR_1_1Image_1_1Filter_1_1OptimalThreshold.html#adcac2be8ac6a7130beedf0c0438dcc13", null ],
-      [ "operator()", "classMR_1_1Image_1_1Filter_1_1OptimalThreshold.html#adfa26bd13c8602c931a4f65ef566f4cc", null ]
+      [ "operator()", "classMR_1_1Image_1_1Filter_1_1OptimalThreshold.html#ab641fabee72ffdd54dede0d8cde9e10b", null ]
     ] ],
     [ "Resize", "classMR_1_1Image_1_1Filter_1_1Resize.html", [
       [ "Resize", "classMR_1_1Image_1_1Filter_1_1Resize.html#a3425f42a443ce9bcf7f995ee56bc1a28", null ],
@@ -100,7 +99,7 @@ var group__Filters =
     [ "Smooth", "classMR_1_1Image_1_1Filter_1_1Smooth.html", [
       [ "Smooth", "classMR_1_1Image_1_1Filter_1_1Smooth.html#a7c8d332421a62e45b008a33655dd36b6", null ],
       [ "Smooth", "classMR_1_1Image_1_1Filter_1_1Smooth.html#a7835c280280bcc5e1967517c889e8902", null ],
-      [ "operator()", "classMR_1_1Image_1_1Filter_1_1Smooth.html#a38c4ad6002bfb83586cf87fd85341425", null ],
+      [ "operator()", "classMR_1_1Image_1_1Filter_1_1Smooth.html#a6df670c2bcadafae72382a04de7d1a78", null ],
       [ "set_extent", "classMR_1_1Image_1_1Filter_1_1Smooth.html#a432e3f0d5f29827e5f23143213ba814f", null ],
       [ "set_stdev", "classMR_1_1Image_1_1Filter_1_1Smooth.html#a92bc0cdb951f69316db69301632817a0", null ],
       [ "set_stdev", "classMR_1_1Image_1_1Filter_1_1Smooth.html#ad442f4dbf3e396a410ba096a8b3a3da8", null ],
@@ -109,6 +108,7 @@ var group__Filters =
     ] ],
     [ "voxel_type", "group__Filters.html#ga18e0b82ca5bbb2083ab34e01faff8a16", null ],
     [ "FFT", "group__Filters.html#gad124e94ed7ca4025376015785ab9e776", null ],
+    [ "fft", "group__Filters.html#gac1bce4330fcf70e798d4514572dab4f5", null ],
     [ "FFTKernel", "group__Filters.html#ga30076af234eaf4f0dde0298313dea04e", null ],
     [ "LargestConnectedComponent", "group__Filters.html#ga0c154678bb3850d986ef0d1e503c1f35", null ],
     [ "operator()", "group__Filters.html#gab3b5c3428f3c82bbdd19aae7ebcc3ac5", null ],

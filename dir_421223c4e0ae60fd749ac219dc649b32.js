@@ -12,6 +12,9 @@ var dir_421223c4e0ae60fd749ac219dc649b32 =
     [ "image.h", "src_2gui_2mrview_2image_8h.html", [
       [ "Image", "classMR_1_1GUI_1_1MRView_1_1Image.html", "classMR_1_1GUI_1_1MRView_1_1Image" ]
     ] ],
+    [ "volume.h", "volume_8h.html", [
+      [ "Volume", "classMR_1_1GUI_1_1MRView_1_1Volume.html", "classMR_1_1GUI_1_1MRView_1_1Volume" ]
+    ] ],
     [ "window.h", "window_8h.html", [
       [ "Window", "classMR_1_1GUI_1_1MRView_1_1Window.html", "classMR_1_1GUI_1_1MRView_1_1Window" ]
     ] ]

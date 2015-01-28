@@ -1,8 +1,9 @@
 var searchData=
 [
   ['fact_2eh',['fact.h',['../fact_8h.html',1,'']]],
-  ['fft_2eh',['fft.h',['../math_2fft_8h.html',1,'']]],
   ['fft_2eh',['fft.h',['../image_2filter_2fft_8h.html',1,'']]],
+  ['fft_2eh',['fft.h',['../math_2fft_8h.html',1,'']]],
+  ['file_2eh',['file.h',['../dwi_2directions_2file_8h.html',1,'']]],
   ['file_2eh',['file.h',['../dwi_2tractography_2file_8h.html',1,'']]],
   ['file_2eh',['file.h',['../gui_2dialog_2file_8h.html',1,'']]],
   ['file_5fbase_2eh',['file_base.h',['../file__base_8h.html',1,'']]],

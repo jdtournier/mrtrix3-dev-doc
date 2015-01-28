@@ -1,6 +1,5 @@
 var lib_2math_2vector_8h =
 [
-    [ "View", "classMR_1_1Math_1_1Vector_1_1View.html", "classMR_1_1Math_1_1Vector_1_1View" ],
     [ "LOOP", "lib_2math_2vector_8h.html#ae64a4513808c96827afb90d8abb72135", null ],
     [ "absmax", "lib_2math_2vector_8h.html#gae5532c1e34e00828acea14c6a74ad8a3", null ],
     [ "absmax", "lib_2math_2vector_8h.html#ga2d24b2636aa48a372c470554bedb8686", null ],

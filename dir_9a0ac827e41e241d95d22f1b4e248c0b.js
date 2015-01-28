@@ -1,5 +1,6 @@
 var dir_9a0ac827e41e241d95d22f1b4e248c0b =
 [
+    [ "roi_analysis", "dir_67dfe0dbbfe3c461599f3a5873e21e24.html", "dir_67dfe0dbbfe3c461599f3a5873e21e24" ],
     [ "tractography", "dir_19d0a3e4e28b88a23d7db3189135a27d.html", "dir_19d0a3e4e28b88a23d7db3189135a27d" ],
     [ "base.h", "src_2gui_2mrview_2tool_2base_8h.html", "src_2gui_2mrview_2tool_2base_8h" ],
     [ "fixel.h", "gui_2mrview_2tool_2fixel_8h.html", "gui_2mrview_2tool_2fixel_8h" ],
@@ -12,9 +13,6 @@ var dir_9a0ac827e41e241d95d22f1b4e248c0b =
     ] ],
     [ "overlay.h", "overlay_8h.html", [
       [ "Overlay", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Overlay.html", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Overlay" ]
-    ] ],
-    [ "roi_analysis.h", "roi__analysis_8h.html", [
-      [ "ROI", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI.html", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI" ]
     ] ],
     [ "screen_capture.h", "screen__capture_8h.html", [
       [ "ScreenCapture", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ScreenCapture.html", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ScreenCapture" ]

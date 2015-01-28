@@ -5,7 +5,7 @@ var dir_2e1156d5cdabb194692d0449be2f7071 =
     [ "dilate.h", "dilate_8h.html", null ],
     [ "dwi_brain_mask.h", "dwi__brain__mask_8h.html", null ],
     [ "erode.h", "erode_8h.html", null ],
-    [ "fft.h", "image_2filter_2fft_8h.html", null ],
+    [ "fft.h", "image_2filter_2fft_8h.html", "image_2filter_2fft_8h" ],
     [ "gradient.h", "lib_2image_2filter_2gradient_8h.html", null ],
     [ "lcc.h", "lcc_8h.html", null ],
     [ "median.h", "image_2filter_2median_8h.html", null ],

@@ -3,7 +3,7 @@ var searchData=
   ['object_5fcolor',['object_color',['../classMR_1_1GUI_1_1GL_1_1Lighting.html#a510a7c39344d21e2ec903719a4ede3aa',1,'MR::GUI::GL::Lighting']]],
   ['offset_5f',['offset_',['../classMR_1_1Image_1_1Header.html#adb028c403b3cbba3fd2ea9a65270f431',1,'MR::Image::Header::offset_()'],['../classMR_1_1Image_1_1Voxel.html#a59d8ec3c73871c6bbac4fec0c440e602',1,'MR::Image::Voxel::offset_()']]],
   ['old_5fneg',['old_neg',['../classMR_1_1DWI_1_1CSDeconv.html#a226630d63b40a72fa758a4ddb629af71',1,'MR::DWI::CSDeconv']]],
-  ['opacity_5fslider',['opacity_slider',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1Overlay.html#afd94eb0412d319dbe230f05676f2b73c',1,'MR::GUI::MRView::Tool::Overlay::opacity_slider()'],['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1Vector.html#ad7df826ff466e0ca653a951de5ee2ad2',1,'MR::GUI::MRView::Tool::Vector::opacity_slider()']]],
+  ['opacity_5fslider',['opacity_slider',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1Overlay.html#afd94eb0412d319dbe230f05676f2b73c',1,'MR::GUI::MRView::Tool::Overlay::opacity_slider()'],['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI.html#a95109420f55e19e818a14dac63aa97e3',1,'MR::GUI::MRView::Tool::ROI::opacity_slider()'],['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1Vector.html#ad7df826ff466e0ca653a951de5ee2ad2',1,'MR::GUI::MRView::Tool::Vector::opacity_slider()']]],
   ['opaque_5fintensity',['opaque_intensity',['../classMR_1_1GUI_1_1MRView_1_1Displayable.html#acba4193a50251d6436309b711073957d',1,'MR::GUI::MRView::Displayable']]],
   ['opt',['opt',['../group__CmdParse.html#gabad6a8342c9037c226bb82ec03f21dbf',1,'MR::App::ParsedOption']]],
   ['option',['option',['../group__CmdParse.html#ga6a0ea4e6be0eb2c0f07085b1dd3ee7ae',1,'MR::App']]],

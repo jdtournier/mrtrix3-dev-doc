@@ -15,6 +15,6 @@ var searchData=
   ['rf_5festimation_2eh',['rf_estimation.h',['../rf__estimation_8h.html',1,'']]],
   ['rician_2eh',['rician.h',['../rician_8h.html',1,'']]],
   ['rng_2eh',['rng.h',['../rng_8h.html',1,'']]],
-  ['roi_2eh',['roi.h',['../roi_8h.html',1,'']]],
-  ['roi_5fanalysis_2eh',['roi_analysis.h',['../roi__analysis_8h.html',1,'']]]
+  ['roi_2eh',['roi.h',['../dwi_2tractography_2roi_8h.html',1,'']]],
+  ['roi_2eh',['roi.h',['../gui_2mrview_2tool_2roi__analysis_2roi_8h.html',1,'']]]
 ];

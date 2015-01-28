@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['exec',['Exec',['../classMR_1_1Thread_1_1Array.html#a7ad4cfa65a9b76713587951e77ccec58',1,'MR::Thread::Array']]]
+  ['get_5foptions',['get_options',['../group__CmdParse.html#ga1389075e9edd32c0c9cb902ea38b6e03',1,'MR::App::Options']]]
 ];

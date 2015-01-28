@@ -27,6 +27,7 @@ var mrtrix_8h =
     [ "minvalue", "mrtrix_8h.html#ad3180b0ad671e074cbef40f80e5f7990", null ],
     [ "minvalue", "mrtrix_8h.html#af27b94c22a55a9ce5b2b2fc36df4816a", null ],
     [ "operator<<", "mrtrix_8h.html#a8033a8f741f11e3d52c4743763cb686f", null ],
+    [ "operator<<", "mrtrix_8h.html#ac70c53041e26a47a9d4d65b195777893", null ],
     [ "parse_floats", "mrtrix_8h.html#a51b57887d0a964a3b3fa9ea8bd10f972", null ],
     [ "parse_ints", "mrtrix_8h.html#aa8585886b506d23996a75e690f12631c", null ],
     [ "printf", "mrtrix_8h.html#abdf39e7ac1a9bf50af2a20eb69b0bb89", null ],

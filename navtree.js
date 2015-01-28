@@ -1,134 +1,3 @@
-var NAVTREE =
-[
-  [ "MRtrix", "index.html", [
-    [ "Overview", "index.html", null ],
-    [ "The build process", "build_page.html", [
-      [ "Using the MRtrix build process", "build_page.html#build_process_usage", null ],
-      [ "The configure script", "build_page.html#configure_section", null ],
-      [ "The build script", "build_page.html#build_section", null ]
-    ] ],
-    [ "Command-line parsing", "command_line_parsing.html", [
-      [ "Overview", "command_line_parsing.html#command_line_overview", null ],
-      [ "Specifying the description and syntax", "command_line_parsing.html#command_line_usage", [
-        [ "The DESCRIPTION", "command_line_parsing.html#command_line_description", null ],
-        [ "The ARGUMENTS", "command_line_parsing.html#command_line_arguments", null ],
-        [ "The OPTIONS", "command_line_parsing.html#command_line_options", null ],
-        [ "Defining option groups", "command_line_parsing.html#command_line_option_group", [
-          [ "Breaking up an option group into multiple lists", "command_line_parsing.html#command_line_option_group_broken_up", null ]
-        ] ]
-      ] ],
-      [ "Retrieving command-line argument and option values", "command_line_parsing.html#command_line_retrieve", null ]
-    ] ],
-    [ "The configure script", "configure_page.html", [
-      [ "Using multiple co-existing configurations", "configure_page.html#multiconfig", null ]
-    ] ],
-    [ "Example applications", "examples.html", "examples" ],
-    [ "Accessing image data", "image_access.html", [
-      [ "Image::Info", "image_access.html#image_info_class", null ],
-      [ "Image::Header", "image_access.html#image_header_class", null ],
-      [ "Image::Buffer", "image_access.html#image_buffer_class", null ],
-      [ "Image::Voxel", "image_access.html#image_voxel_class", null ],
-      [ "Image::Adapter", "image_access.html#image_adapter_class", null ],
-      [ "Image::Filter", "image_access.html#image_filter_class", null ],
-      [ "Image::Loop & Image::ThreadedLoop", "image_access.html#image_loop", null ],
-      [ "An example application", "image_access.html#image_example", null ]
-    ] ],
-    [ "Writing separate modules", "module_howto.html", null ],
-    [ "Writing multi-threaded applications", "multithreading.html", [
-      [ "Overview", "multithreading.html#multithreading_overview", null ],
-      [ "How to design a multi-threading application", "multithreading.html#multithreading_planning", [
-        [ "Sharing read-only data", "multithreading.html#multithreading_shared", null ],
-        [ "Sharing read/write data", "multithreading.html#multithreading_concurrent", null ],
-        [ "Achieving maximum performance", "multithreading.html#multithreading_performance", null ]
-      ] ],
-      [ "Multi-threading API in MRtrix", "multithreading.html#multithreading_in_mrtrix", [
-        [ "Launching threads", "multithreading.html#multithreading_exec", null ],
-        [ "The Image::ThreadedLoop", "multithreading.html#multithreading_loop", null ],
-        [ "The Thread::Queue", "multithreading.html#multithreading_queue", null ],
-        [ "Simple POSIX wrappers", "multithreading.html#multithreading_posix", null ]
-      ] ]
-    ] ],
-    [ "Creating a new MRtrix command", "command_howto.html", [
-      [ "The anatomy of a command", "command_howto.html#command_layout", null ],
-      [ "Error handling", "command_howto.html#error_handling", null ],
-      [ "Header search path", "command_howto.html#include_path", null ]
-    ] ],
-    [ "Todo List", "todo.html", null ],
-    [ "Modules", "modules.html", "modules" ],
-    [ "Namespaces", null, [
-      [ "Namespace List", "namespaces.html", "namespaces" ],
-      [ "Namespace Members", "namespacemembers.html", [
-        [ "All", "namespacemembers.html", "namespacemembers_dup" ],
-        [ "Functions", "namespacemembers_func.html", "namespacemembers_func" ],
-        [ "Variables", "namespacemembers_vars.html", "namespacemembers_vars" ],
-        [ "Typedefs", "namespacemembers_type.html", null ],
-        [ "Enumerations", "namespacemembers_enum.html", null ],
-        [ "Enumerator", "namespacemembers_eval.html", "namespacemembers_eval" ]
-      ] ]
-    ] ],
-    [ "Classes", null, [
-      [ "Class List", "annotated.html", "annotated" ],
-      [ "Class Index", "classes.html", null ],
-      [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
-      [ "Class Members", "functions.html", [
-        [ "All", "functions.html", "functions_dup" ],
-        [ "Functions", "functions_func.html", "functions_func" ],
-        [ "Variables", "functions_vars.html", "functions_vars" ],
-        [ "Typedefs", "functions_type.html", null ],
-        [ "Enumerations", "functions_enum.html", null ],
-        [ "Enumerator", "functions_eval.html", null ],
-        [ "Related Functions", "functions_rela.html", null ]
-      ] ]
-    ] ],
-    [ "Files", null, [
-      [ "File List", "files.html", "files" ],
-      [ "File Members", "globals.html", [
-        [ "All", "globals.html", null ],
-        [ "Functions", "globals_func.html", null ],
-        [ "Variables", "globals_vars.html", null ],
-        [ "Typedefs", "globals_type.html", null ],
-        [ "Macros", "globals_defs.html", null ]
-      ] ]
-    ] ]
-  ] ]
-];
-
-var NAVTREEINDEX =
-[
-"ACT_2gmwmi_8h.html",
-"classMR_1_1DWI_1_1Bootstrap.html#a2bdac636c92e7e53788b9cfabded06ff",
-"classMR_1_1DWI_1_1Tractography_1_1ACT_1_1ACT__Method__additions.html#a1f7926482cc361fd1893da7e23a9102f",
-"classMR_1_1DWI_1_1Tractography_1_1Connectomics_1_1NodeExtractWriter.html#ab5ac8363f381ea7ade5711fa74c31bb3",
-"classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TWIImagePluginBase.html#a5ed85a9e491ebd5f8540a69fc298c3c8",
-"classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1SIFTer.html#af5fdceeb09d560021c2dbc57affd9d05",
-"classMR_1_1DataType.html#ab6e5d9dfac6e1ac5081d584697b34359",
-"classMR_1_1File_1_1MMap.html#ae9ef479fb63e9eff7ae8f7cc308e5f34",
-"classMR_1_1GUI_1_1GL_1_1VertexBuffer.html#ac09150f253d36225965f4f991a35f975",
-"classMR_1_1GUI_1_1MRView_1_1Mode_1_1Volume.html#aec7d86b0b2f8e55699522e072b23e8a5",
-"classMR_1_1GUI_1_1MRView_1_1Window.html#a1de5128048faaf207a08533f4fada69a",
-"classMR_1_1Image_1_1Buffer.html#a8121e52d7bdc48e7cf524d1b28fba684",
-"classMR_1_1Image_1_1Format_1_1NIfTI__GZ.html#aed0f1faa784922c86a4734f98e252840",
-"classMR_1_1Image_1_1LoopInOrder.html#a70b0d102a2d76149631505aae777cc51",
-"classMR_1_1InputOutput.html",
-"classMR_1_1Math_1_1Vector.html#a6f0f40283cd4abdac324a17f35c431a9",
-"classMR_1_1Thread_1_1Queue_1_1Reader.html#a516b06a7ffbb605650ea7aec8717b4a4",
-"dwi_2tractography_2tracking_2tractography_8h.html#a81f5feaac85eccf848e0a63c7b43edd6",
-"gl__core__3__3_8h.html#a07043cd730f61a566ace662cb33333da",
-"gl__core__3__3_8h.html#aa3c323753afbe803f81e9ab959c5a6fb",
-"gl__core__3__3_8h.html#ae5454dcd08d3ddf312c20fb27b54bf2ca34a7b5691e2e5b1263395982543a64a5",
-"gl__core__3__3_8h.html#ae5454dcd08d3ddf312c20fb27b54bf2ca80accce2591cc5cfb198ed4d26555aff",
-"gl__core__3__3_8h.html#ae5454dcd08d3ddf312c20fb27b54bf2cad2c659ee1fd9427672a8b2e2b133096d",
-"group__CmdParse.html#ga6af9c71b18687c8f31fcc13754275bb1",
-"group__vector.html#ga7fc94cdedcd2a89bec6500b677451c20",
-"math_8h.html#ga4c8b6ee9e17854b592dde441bdad2bf4",
-"namespaceMR_1_1GUI_1_1GL.html",
-"permute__axes_8h.html",
-"src_2dwi_2tractography_2seeding_2list_8h.html",
-"twi__stats_8h.html#a11697b8a24621d1aab532b3f6af729bba6a371889661981da84b47550a804d1e7"
-];
-
-var SYNCONMSG = 'click to disable panel synchronisation';
-var SYNCOFFMSG = 'click to enable panel synchronisation';
 var navTreeSubIndices = new Array();
 
 function getData(varName)
@@ -236,7 +105,7 @@ function createIndent(o,domNode,node,level)
     node.expandToggle.onclick = function() {
       if (node.expanded) {
         $(node.getChildrenUL()).slideUp("fast");
-        node.plus_img.src = node.relpath+"ftv2pnode.png";
+        node.plus_img.src = node.relpath+"arrowright.png";
         node.expanded = false;
       } else {
         expandNode(o, node, false, false);
@@ -244,7 +113,7 @@ function createIndent(o,domNode,node,level)
     }
     node.expandToggle.appendChild(imgNode);
     domNode.appendChild(node.expandToggle);
-    imgNode.src = node.relpath+"ftv2pnode.png";
+    imgNode.src = node.relpath+"arrowright.png";
   } else {
     var span = document.createElement("span");
     span.style.display = 'inline-block';
@@ -400,9 +269,9 @@ function expandNode(o, node, imm, showRoot)
         $(node.getChildrenUL()).slideDown("fast");
       }
       if (node.isLast) {
-        node.plus_img.src = node.relpath+"ftv2mlastnode.png";
+        node.plus_img.src = node.relpath+"arrowdown.png";
       } else {
-        node.plus_img.src = node.relpath+"ftv2mnode.png";
+        node.plus_img.src = node.relpath+"arrowdown.png";
       }
       node.expanded = true;
     }
@@ -472,11 +341,7 @@ function showNode(o, node, index, hash)
         getNode(o, node);
       }
       $(node.getChildrenUL()).css({'display':'block'});
-      if (node.isLast) {
-        node.plus_img.src = node.relpath+"ftv2mlastnode.png";
-      } else {
-        node.plus_img.src = node.relpath+"ftv2mnode.png";
-      }
+      node.plus_img.src = node.relpath+"arrowdown.png";
       node.expanded = true;
       var n = node.children[o.breadcrumbs[index]];
       if (index+1<o.breadcrumbs.length) {
@@ -614,7 +479,7 @@ function initNavTree(toroot,relpath)
   o.node.expanded = false;
   o.node.isLast = true;
   o.node.plus_img = document.createElement("img");
-  o.node.plus_img.src = relpath+"ftv2pnode.png";
+  o.node.plus_img.src = relpath+"arrowright.png";
   o.node.plus_img.width = 16;
   o.node.plus_img.height = 22;
 

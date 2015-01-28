@@ -8,6 +8,13 @@ var group__linalg =
     [ "General matrix-matrix multiplication", "group__gemm.html", "group__gemm" ],
     [ "Symmetric matrix-matrix multiplication", "group__symm.html", "group__symm" ],
     [ "Vector functions", "group__vector.html", "group__vector" ],
+    [ "View", "classMR_1_1Math_1_1Matrix_1_1View.html", [
+      [ "View", "classMR_1_1Math_1_1Matrix_1_1View.html#a73a48f33f3d4696ad4973d09b174996e", null ],
+      [ "operator=", "classMR_1_1Math_1_1Matrix_1_1View.html#ae4b5912e3699a9cf13ea45476d53829e", null ],
+      [ "operator=", "classMR_1_1Math_1_1Matrix_1_1View.html#a322f833108f146146b7860d54a16b516", null ],
+      [ "operator=", "classMR_1_1Math_1_1Matrix_1_1View.html#a1ae976654f1bf5e68d006a130b89f5d6", null ],
+      [ "Matrix< ValueType >", "classMR_1_1Math_1_1Matrix_1_1View.html#add07df7f07b75281260db4b3d822625c", null ]
+    ] ],
     [ "Matrix", "classMR_1_1Math_1_1Matrix.html", [
       [ "value_type", "classMR_1_1Math_1_1Matrix.html#a12740f0d75e93c77e8b944f2c94723a2", null ],
       [ "VectorView", "classMR_1_1Math_1_1Matrix.html#a3961f3f0caa2d16012f2b2b1742a52ea", null ],
@@ -75,22 +82,15 @@ var group__linalg =
       [ "operator<<", "classMR_1_1Math_1_1Matrix.html#ab8bca9c6bf7fd087fc6f2be47ddb2285", null ],
       [ "operator>>", "classMR_1_1Math_1_1Matrix.html#a954503a0b8fe6706200b5091de60c61e", null ]
     ] ],
-    [ "View", "classMR_1_1Math_1_1Matrix_1_1View.html", [
-      [ "View", "classMR_1_1Math_1_1Matrix_1_1View.html#a73a48f33f3d4696ad4973d09b174996e", null ],
-      [ "operator=", "classMR_1_1Math_1_1Matrix_1_1View.html#ae4b5912e3699a9cf13ea45476d53829e", null ],
-      [ "operator=", "classMR_1_1Math_1_1Matrix_1_1View.html#a322f833108f146146b7860d54a16b516", null ],
-      [ "operator=", "classMR_1_1Math_1_1Matrix_1_1View.html#a1ae976654f1bf5e68d006a130b89f5d6", null ],
-      [ "Matrix< ValueType >", "classMR_1_1Math_1_1Matrix_1_1View.html#add07df7f07b75281260db4b3d822625c", null ]
+    [ "View", "classMR_1_1Math_1_1Vector_1_1View.html", [
+      [ "View", "classMR_1_1Math_1_1Vector_1_1View.html#a37b780df9653216ca2ee83efe14a02eb", null ],
+      [ "operator=", "classMR_1_1Math_1_1Vector_1_1View.html#a6f2af83988470205e745412f69775d78", null ],
+      [ "operator=", "classMR_1_1Math_1_1Vector_1_1View.html#a2a29211d79ab3f331ca6cac2ecf4e9a6", null ],
+      [ "operator=", "classMR_1_1Math_1_1Vector_1_1View.html#afd49706de4ffece64ab9fd8eaa10ea32", null ],
+      [ "Matrix< ValueType >", "classMR_1_1Math_1_1Vector_1_1View.html#add07df7f07b75281260db4b3d822625c", null ],
+      [ "Vector< ValueType >", "classMR_1_1Math_1_1Vector_1_1View.html#a9ebe7e27fac23aab3be03ea8b7a2ca54", null ]
     ] ],
     [ "Vector", "classMR_1_1Math_1_1Vector.html", [
-      [ "View", "classMR_1_1Math_1_1Vector_1_1View.html", [
-        [ "View", "classMR_1_1Math_1_1Vector_1_1View.html#a37b780df9653216ca2ee83efe14a02eb", null ],
-        [ "operator=", "classMR_1_1Math_1_1Vector_1_1View.html#a6f2af83988470205e745412f69775d78", null ],
-        [ "operator=", "classMR_1_1Math_1_1Vector_1_1View.html#a2a29211d79ab3f331ca6cac2ecf4e9a6", null ],
-        [ "operator=", "classMR_1_1Math_1_1Vector_1_1View.html#afd49706de4ffece64ab9fd8eaa10ea32", null ],
-        [ "Matrix< ValueType >", "classMR_1_1Math_1_1Vector_1_1View.html#add07df7f07b75281260db4b3d822625c", null ],
-        [ "Vector< ValueType >", "classMR_1_1Math_1_1Vector_1_1View.html#a9ebe7e27fac23aab3be03ea8b7a2ca54", null ]
-      ] ],
       [ "value_type", "classMR_1_1Math_1_1Vector.html#ac1c0a875f8b3f589a98d3cb947005ad1", null ],
       [ "Vector", "classMR_1_1Math_1_1Vector.html#aee14b3df7a3344407f14bdc7bada73ec", null ],
       [ "Vector", "classMR_1_1Math_1_1Vector.html#a91ba59a043858fda91768c52e86cb3c8", null ],

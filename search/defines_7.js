@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['gl_5fdebug',['GL_DEBUG',['../gl_8h.html#a8a31ac6dd0e201fd95db18657c964219',1,'gl.h']]],
   ['gl_5fload_5fgen_5fbasic_5fopengl_5ftypedefs',['GL_LOAD_GEN_BASIC_OPENGL_TYPEDEFS',['../gl__core__3__3_8h.html#a58ed63087f841c8e6b0c696996440e27',1,'gl_core_3_3.h']]],
   ['glapi',['GLAPI',['../gl__core__3__3_8h.html#abad5ea874b73fa802c9ac0f5488bf9b5',1,'gl_core_3_3.h']]],
   ['glext_5f64_5ftypes_5fdefined',['GLEXT_64_TYPES_DEFINED',['../gl__core__3__3_8h.html#ae5ae8f2a7fffbb79e4c4562d6f3ff015',1,'gl_core_3_3.h']]],

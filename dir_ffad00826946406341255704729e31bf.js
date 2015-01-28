@@ -21,7 +21,7 @@ var dir_ffad00826946406341255704729e31bf =
       [ "BufferScratch< bool >", "classMR_1_1Image_1_1BufferScratch_3_01bool_01_4.html", "classMR_1_1Image_1_1BufferScratch_3_01bool_01_4" ]
     ] ],
     [ "buffer_sparse.h", "buffer__sparse_8h.html", [
-      [ "Voxel", "singletonMR_1_1Image_1_1Sparse_1_1Voxel.html", "singletonMR_1_1Image_1_1Sparse_1_1Voxel" ],
+      [ "Voxel", "classMR_1_1Image_1_1Sparse_1_1Voxel.html", "classMR_1_1Image_1_1Sparse_1_1Voxel" ],
       [ "BufferSparse", "classMR_1_1Image_1_1BufferSparse.html", "classMR_1_1Image_1_1BufferSparse" ]
     ] ],
     [ "copy.h", "image_2copy_8h.html", "image_2copy_8h" ],

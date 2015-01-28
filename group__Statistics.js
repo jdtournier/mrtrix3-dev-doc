@@ -32,6 +32,14 @@ var group__Statistics =
       [ "cluster_forming_threshold", "classMR_1_1Stats_1_1Cluster_1_1ClusterSize.html#a5d176e513969d6d092c8e1a3c20a47ed", null ],
       [ "connector", "classMR_1_1Stats_1_1Cluster_1_1ClusterSize.html#ad236cf8b3e90b46d404a67aaa1d4b3f9", null ]
     ] ],
+    [ "Enhancer", "classMR_1_1Stats_1_1TFCE_1_1Enhancer.html", [
+      [ "Enhancer", "classMR_1_1Stats_1_1TFCE_1_1Enhancer.html#a650da8533f4af80578bbb1fb999ba216", null ],
+      [ "operator()", "classMR_1_1Stats_1_1TFCE_1_1Enhancer.html#ad52781753809205c0b3dab868d685f0b", null ],
+      [ "connector", "classMR_1_1Stats_1_1TFCE_1_1Enhancer.html#aeb092c335170ad0a0fc4535f7a1f7bc1", null ],
+      [ "dh", "classMR_1_1Stats_1_1TFCE_1_1Enhancer.html#adc7d3cc37d2be08c776a614cfc24802b", null ],
+      [ "E", "classMR_1_1Stats_1_1TFCE_1_1Enhancer.html#a194df1c582c3aea7e1e2c0098c16e0a0", null ],
+      [ "H", "classMR_1_1Stats_1_1TFCE_1_1Enhancer.html#a4a4b870d908b2da99729eea92b0d53eb", null ]
+    ] ],
     [ "abs_effect_size", "group__Statistics.html#ga4c4286ef49e1f25fe3345517607c9a8f", null ],
     [ "solve_betas", "group__Statistics.html#ga75724aca0bc26c13d7e63f02ca5918db", null ],
     [ "std_effect_size", "group__Statistics.html#ga42f60248d8fcae21ee655df1b5ef4e5d", null ],

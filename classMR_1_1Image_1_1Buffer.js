@@ -8,12 +8,13 @@ var classMR_1_1Image_1_1Buffer =
     [ "Buffer", "classMR_1_1Image_1_1Buffer.html#a31a217f870a4a35f7a7355b3f81dd8c8", null ],
     [ "Buffer", "classMR_1_1Image_1_1Buffer.html#a9428e6886aacb2ac20f49f82720f621a", null ],
     [ "get_value", "classMR_1_1Image_1_1Buffer.html#a2b9d2d6876deff90c561c0107b8cac9f", null ],
-    [ "operator=", "classMR_1_1Image_1_1Buffer.html#a754c28351988c71cfd225959856611dd", null ],
+    [ "operator=", "classMR_1_1Image_1_1Buffer.html#aebc405102f68069874a40639660e6297", null ],
     [ "scale_from_storage", "classMR_1_1Image_1_1Buffer.html#ad83b0816eccfd12c472b5b11dd6de0d5", null ],
     [ "scale_to_storage", "classMR_1_1Image_1_1Buffer.html#aff860e1c94aa82e0ae6f207fcd677229", null ],
     [ "set_get_put_functions", "classMR_1_1Image_1_1Buffer.html#a64c88ac4f95353346d4cf27b20440f6e", null ],
     [ "set_value", "classMR_1_1Image_1_1Buffer.html#a0b912051e3fa8abe93a43eba5d32473a", null ],
+    [ "voxel", "classMR_1_1Image_1_1Buffer.html#a1f62ff5af1c19f451d9e77ab60768541", null ],
     [ "operator<<", "classMR_1_1Image_1_1Buffer.html#af9a2a606184bd378fb466362c0b5c1a3", null ],
-    [ "get_func", "classMR_1_1Image_1_1Buffer.html#ab713e50cbdd07d1cdb0a5ca74308f767", null ],
-    [ "put_func", "classMR_1_1Image_1_1Buffer.html#a1fa33b79c54e653deed2f8bc10d13e59", null ]
+    [ "get_func", "classMR_1_1Image_1_1Buffer.html#addf461fda23c13e70797939ac7ce1f34", null ],
+    [ "put_func", "classMR_1_1Image_1_1Buffer.html#a662dd4deb4ce7d97fe108db1fa787b7f", null ]
 ];

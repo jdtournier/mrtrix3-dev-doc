@@ -1,15 +1,15 @@
 var group__CmdParse =
 [
     [ "App", "namespaceMR_1_1App.html", null ],
-    [ "Options", "classMR_1_1App_1_1Options.html", [
-      [ "operator[]", "group__CmdParse.html#ga5601e4f9369afb4004e893b3628c753d", null ],
-      [ "size", "group__CmdParse.html#ga15e51cdc8ea53fe3840d67cb607bf208", null ],
-      [ "get_options", "group__CmdParse.html#ga1389075e9edd32c0c9cb902ea38b6e03", null ]
-    ] ],
     [ "Opt", "classMR_1_1App_1_1Options_1_1Opt.html", [
       [ "operator[]", "group__CmdParse.html#ga97a29072fd6f71eb63e30f3a502db4f5", null ],
       [ "Options", "group__CmdParse.html#gabfa275a2475993fcbc4c531048fac09a", null ],
       [ "ParsedArgument", "group__CmdParse.html#ga371861e5e0b143ebfe3eaef33bd6dfc1", null ]
+    ] ],
+    [ "Options", "classMR_1_1App_1_1Options.html", [
+      [ "operator[]", "group__CmdParse.html#ga5601e4f9369afb4004e893b3628c753d", null ],
+      [ "size", "group__CmdParse.html#ga15e51cdc8ea53fe3840d67cb607bf208", null ],
+      [ "get_options", "group__CmdParse.html#ga1389075e9edd32c0c9cb902ea38b6e03", null ]
     ] ],
     [ "ParsedArgument", "classMR_1_1App_1_1ParsedArgument.html", [
       [ "c_str", "group__CmdParse.html#ga3866f757fe23cab0bf033fc414a18429", null ],
@@ -17,11 +17,14 @@ var group__CmdParse =
       [ "operator double", "group__CmdParse.html#gabc5107404dce698c2e4e0117833250e8", null ],
       [ "operator float", "group__CmdParse.html#gae53df8c5c4003341a5ffc0ea36bc799b", null ],
       [ "operator int", "group__CmdParse.html#ga5be62b41a0da1f036ff3cc1b64d4ccb2", null ],
-      [ "operator size_t", "group__CmdParse.html#ga113928df42abea8c63913a624219360e", null ],
-      [ "operator ssize_t", "group__CmdParse.html#ga762dbf0d3eea222bf76c0aa0c44f7ae1", null ],
+      [ "operator long int", "group__CmdParse.html#ga1f317560c97c8bd9c94703d6a8e55b02", null ],
+      [ "operator long long int", "group__CmdParse.html#gae247880269e107bf06dabc1aa34c1fac", null ],
+      [ "operator long long unsigned int", "group__CmdParse.html#ga0a22568a13f975e8a13c85f979548870", null ],
+      [ "operator long unsigned int", "group__CmdParse.html#ga21c03a5bad67cd05882da15696cc571d", null ],
       [ "operator std::string", "group__CmdParse.html#gae12eaee039757a6eaadc11d6b83ca88a", null ],
       [ "operator std::vector< float >", "group__CmdParse.html#ga62372592b0bce7d057807d50a2ab0ef1", null ],
       [ "operator std::vector< int >", "group__CmdParse.html#ga0d141a62ac4802fa23409941a14ec283", null ],
+      [ "operator unsigned int", "group__CmdParse.html#ga5cc3f6d143c97ec170ebfe8f81f82461", null ],
       [ "MR::App::init", "group__CmdParse.html#ga6af9c71b18687c8f31fcc13754275bb1", null ],
       [ "MR::App::parse", "group__CmdParse.html#gacd667bae8e58e84cebfee6161523a3ed", null ],
       [ "MR::App::sort_arguments", "group__CmdParse.html#gaafcccf4b681421ea61aeda0af29a3164", null ],
@@ -116,11 +119,14 @@ var group__CmdParse =
     [ "operator double", "group__CmdParse.html#gabc5107404dce698c2e4e0117833250e8", null ],
     [ "operator float", "group__CmdParse.html#gae53df8c5c4003341a5ffc0ea36bc799b", null ],
     [ "operator int", "group__CmdParse.html#ga5be62b41a0da1f036ff3cc1b64d4ccb2", null ],
-    [ "operator size_t", "group__CmdParse.html#ga113928df42abea8c63913a624219360e", null ],
-    [ "operator ssize_t", "group__CmdParse.html#ga762dbf0d3eea222bf76c0aa0c44f7ae1", null ],
+    [ "operator long int", "group__CmdParse.html#ga1f317560c97c8bd9c94703d6a8e55b02", null ],
+    [ "operator long long int", "group__CmdParse.html#gae247880269e107bf06dabc1aa34c1fac", null ],
+    [ "operator long long unsigned int", "group__CmdParse.html#ga0a22568a13f975e8a13c85f979548870", null ],
+    [ "operator long unsigned int", "group__CmdParse.html#ga21c03a5bad67cd05882da15696cc571d", null ],
     [ "operator std::string", "group__CmdParse.html#gae12eaee039757a6eaadc11d6b83ca88a", null ],
     [ "operator std::vector< float >", "group__CmdParse.html#ga62372592b0bce7d057807d50a2ab0ef1", null ],
     [ "operator std::vector< int >", "group__CmdParse.html#ga0d141a62ac4802fa23409941a14ec283", null ],
+    [ "operator unsigned int", "group__CmdParse.html#ga5cc3f6d143c97ec170ebfe8f81f82461", null ],
     [ "operator+", "group__CmdParse.html#ga33348e73a57ff4cad29f8500177acc35", null ],
     [ "operator<<", "group__CmdParse.html#ga4c91e340905228301cc590fcb9c0f8f3", null ],
     [ "operator==", "group__CmdParse.html#ga30198c7ed2b57d5d1df19436eea17a97", null ],

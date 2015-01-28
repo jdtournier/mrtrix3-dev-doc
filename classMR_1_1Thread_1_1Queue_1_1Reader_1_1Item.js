@@ -1,9 +1,0 @@
-var classMR_1_1Thread_1_1Queue_1_1Reader_1_1Item =
-[
-    [ "Item", "classMR_1_1Thread_1_1Queue_1_1Reader_1_1Item.html#a6e1f260cea540f925bb6e7f00bb130ac", null ],
-    [ "~Item", "classMR_1_1Thread_1_1Queue_1_1Reader_1_1Item.html#af603380dfa49ff70003fcafee5500d9e", null ],
-    [ "operator!", "classMR_1_1Thread_1_1Queue_1_1Reader_1_1Item.html#a9f6a24c6ad881c07188666edc50c5301", null ],
-    [ "operator*", "classMR_1_1Thread_1_1Queue_1_1Reader_1_1Item.html#a2a814c8475718f408f81307bd6c81afe", null ],
-    [ "operator->", "classMR_1_1Thread_1_1Queue_1_1Reader_1_1Item.html#ac5d27404016f76a1bc4955aa2fe588b3", null ],
-    [ "read", "classMR_1_1Thread_1_1Queue_1_1Reader_1_1Item.html#acaab061ec72604e032106e6bcc1ea007", null ]
-];

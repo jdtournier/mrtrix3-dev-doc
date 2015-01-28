@@ -1,16 +1,13 @@
 var searchData=
 [
-  ['object',['Object',['../classMR_1_1GUI_1_1GL_1_1Shader_1_1Object.html',1,'MR::GUI::GL::Shader']]],
-  ['odf',['ODF',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1ODF.html',1,'MR::GUI::MRView::Tool']]],
-  ['ofstream',['OFStream',['../classMR_1_1File_1_1OFStream.html',1,'MR::File']]],
-  ['opengl',['OpenGL',['../classMR_1_1GUI_1_1Dialog_1_1OpenGL.html',1,'MR::GUI::Dialog']]],
-  ['opt',['Opt',['../classMR_1_1App_1_1Options_1_1Opt.html',1,'MR::App::Options']]],
-  ['optimalthreshold',['OptimalThreshold',['../classMR_1_1Image_1_1Filter_1_1OptimalThreshold.html',1,'MR::Image::Filter']]],
-  ['option',['Option',['../classMR_1_1App_1_1Option.html',1,'MR::App']]],
-  ['optiongroup',['OptionGroup',['../classMR_1_1App_1_1OptionGroup.html',1,'MR::App']]],
-  ['optionlist',['OptionList',['../classMR_1_1App_1_1OptionList.html',1,'MR::App']]],
-  ['options',['Options',['../classMR_1_1App_1_1Options.html',1,'MR::App']]],
-  ['ortho',['Ortho',['../classMR_1_1GUI_1_1MRView_1_1Mode_1_1Ortho.html',1,'MR::GUI::MRView::Mode']]],
-  ['output',['Output',['../classMR_1_1Output.html',1,'MR']]],
-  ['overlay',['Overlay',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1Overlay.html',1,'MR::GUI::MRView::Tool']]]
+  ['nameparser',['NameParser',['../classMR_1_1Image_1_1NameParser.html',1,'MR::Image']]],
+  ['nearest',['Nearest',['../classMR_1_1Image_1_1Interp_1_1Nearest.html',1,'MR::Image::Interp']]],
+  ['nearest_3c_20mr_3a_3aimage_3a_3abufferpreload_3a_3avoxel_5ftype_20_3e',['Nearest&lt; MR::Image::BufferPreload::voxel_type &gt;',['../classMR_1_1Image_1_1Interp_1_1Nearest.html',1,'MR::Image::Interp']]],
+  ['nifti',['NIfTI',['../classMR_1_1Image_1_1Format_1_1NIfTI.html',1,'MR::Image::Format']]],
+  ['nifti_5fgz',['NIfTI_GZ',['../classMR_1_1Image_1_1Format_1_1NIfTI__GZ.html',1,'MR::Image::Format']]],
+  ['node_5finfo',['Node_info',['../classMR_1_1DWI_1_1Tractography_1_1Connectomics_1_1Node__info.html',1,'MR::DWI::Tractography::Connectomics']]],
+  ['nodeextractmapper',['NodeExtractMapper',['../classMR_1_1DWI_1_1Tractography_1_1Connectomics_1_1NodeExtractMapper.html',1,'MR::DWI::Tractography::Connectomics']]],
+  ['nodeextractwriter',['NodeExtractWriter',['../classMR_1_1DWI_1_1Tractography_1_1Connectomics_1_1NodeExtractWriter.html',1,'MR::DWI::Tractography::Connectomics']]],
+  ['nodeselector',['NodeSelector',['../classMR_1_1DWI_1_1Tractography_1_1Connectomics_1_1NodeExtractWriter_1_1NodeSelector.html',1,'MR::DWI::Tractography::Connectomics::NodeExtractWriter']]],
+  ['nulldist',['NullDist',['../classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1NullDist.html',1,'MR::DWI::Tractography::Algorithms']]]
 ];

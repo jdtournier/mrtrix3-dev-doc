@@ -8,7 +8,6 @@ var searchData=
   ['erode_2eh',['erode.h',['../erode_8h.html',1,'']]],
   ['examples_2eh',['examples.h',['../examples_8h.html',1,'']]],
   ['exception_2eh',['exception.h',['../exception_8h.html',1,'']]],
-  ['exec_2eh',['exec.h',['../lib_2thread_2exec_8h.html',1,'']]],
-  ['exec_2eh',['exec.h',['../src_2dwi_2tractography_2tracking_2exec_8h.html',1,'']]],
+  ['exec_2eh',['exec.h',['../exec_8h.html',1,'']]],
   ['extract_2eh',['extract.h',['../extract_8h.html',1,'']]]
 ];

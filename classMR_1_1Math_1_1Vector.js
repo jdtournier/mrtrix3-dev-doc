@@ -1,6 +1,5 @@
 var classMR_1_1Math_1_1Vector =
 [
-    [ "View", "classMR_1_1Math_1_1Vector_1_1View.html", "classMR_1_1Math_1_1Vector_1_1View" ],
     [ "value_type", "classMR_1_1Math_1_1Vector.html#ac1c0a875f8b3f589a98d3cb947005ad1", null ],
     [ "Vector", "classMR_1_1Math_1_1Vector.html#aee14b3df7a3344407f14bdc7bada73ec", null ],
     [ "Vector", "classMR_1_1Math_1_1Vector.html#a91ba59a043858fda91768c52e86cb3c8", null ],

@@ -7,7 +7,7 @@ var dir_b08c01c89597ee9bafad6c75fc74a92d =
       [ "Cost_fn_gradient_sort", "classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1Cost__fn__gradient__sort.html", "classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1Cost__fn__gradient__sort" ],
       [ "MT_gradient_vector_sorter", "classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1MT__gradient__vector__sorter.html", "classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1MT__gradient__vector__sorter" ]
     ] ],
-    [ "model.h", "model_8h.html", [
+    [ "model.h", "dwi_2tractography_2SIFT_2model_8h.html", [
       [ "Model", "classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1Model.html", "classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1Model" ]
     ] ],
     [ "model_base.h", "model__base_8h.html", "model__base_8h" ],

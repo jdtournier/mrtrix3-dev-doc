@@ -37,5 +37,8 @@ var src_2dwi_2tractography_2tracking_2types_8h =
       [ "ENTER_EXCLUDE", "src_2dwi_2tractography_2tracking_2types_8h.html#a1c30c67185585a9f27b5a581050292f5abec0556f0c620b426ac707278523450b", null ],
       [ "TRAVERSE_ALL_INCLUDE", "src_2dwi_2tractography_2tracking_2types_8h.html#a1c30c67185585a9f27b5a581050292f5a763bf8bed07f3e965b6a3a054a48987f", null ]
     ] ],
+    [ "abs", "src_2dwi_2tractography_2tracking_2types_8h.html#a91be51640ed06aa50e92247a4d945cf0", null ],
+    [ "abs", "src_2dwi_2tractography_2tracking_2types_8h.html#ab7c200cc7c846acf0de19c96405363f7", null ],
+    [ "abs", "src_2dwi_2tractography_2tracking_2types_8h.html#a1690cc9ad6e93e9c6b6356f762623a28", null ],
     [ "term_add_to_tck", "src_2dwi_2tractography_2tracking_2types_8h.html#ae5152527c1230048300e584eeaea3b29", null ]
 ];

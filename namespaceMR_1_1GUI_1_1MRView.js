@@ -7,5 +7,6 @@ var namespaceMR_1_1GUI_1_1MRView =
     [ "ComboBoxWithErrorMsg", "classMR_1_1GUI_1_1MRView_1_1ComboBoxWithErrorMsg.html", "classMR_1_1GUI_1_1MRView_1_1ComboBoxWithErrorMsg" ],
     [ "Displayable", "classMR_1_1GUI_1_1MRView_1_1Displayable.html", "classMR_1_1GUI_1_1MRView_1_1Displayable" ],
     [ "Image", "classMR_1_1GUI_1_1MRView_1_1Image.html", "classMR_1_1GUI_1_1MRView_1_1Image" ],
+    [ "Volume", "classMR_1_1GUI_1_1MRView_1_1Volume.html", "classMR_1_1GUI_1_1MRView_1_1Volume" ],
     [ "Window", "classMR_1_1GUI_1_1MRView_1_1Window.html", "classMR_1_1GUI_1_1MRView_1_1Window" ]
 ];

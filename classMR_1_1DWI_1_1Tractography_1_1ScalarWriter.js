@@ -3,7 +3,7 @@ var classMR_1_1DWI_1_1Tractography_1_1ScalarWriter =
     [ "value_type", "classMR_1_1DWI_1_1Tractography_1_1ScalarWriter.html#a4fcfa83955f0e7b040c825e65858aa7f", null ],
     [ "ScalarWriter", "classMR_1_1DWI_1_1Tractography_1_1ScalarWriter.html#a978e28e19074f1ea2095cd1fa497a363", null ],
     [ "~ScalarWriter", "classMR_1_1DWI_1_1Tractography_1_1ScalarWriter.html#ac0910df3abbb139c47e057a0ec6fbfe8", null ],
-    [ "ScalarWriter", "classMR_1_1DWI_1_1Tractography_1_1ScalarWriter.html#aa73f70de20ab3354d117fa5d3f4a0d93", null ],
+    [ "ScalarWriter", "classMR_1_1DWI_1_1Tractography_1_1ScalarWriter.html#a0d93517398dbfdaa83f3f13044432d69", null ],
     [ "add_scalar", "classMR_1_1DWI_1_1Tractography_1_1ScalarWriter.html#a34c0bc9f9d57dbf19eaec3b8423c2b23", null ],
     [ "commit", "classMR_1_1DWI_1_1Tractography_1_1ScalarWriter.html#a10c3655d1dce29bce30a6624f34b015d", null ],
     [ "delimiter", "classMR_1_1DWI_1_1Tractography_1_1ScalarWriter.html#a0389a34b531f2ca7dcb4b2387daa0f37", null ],

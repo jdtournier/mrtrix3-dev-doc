@@ -9,5 +9,6 @@ var classMR_1_1Image_1_1BufferSparse =
     [ "BufferSparse", "classMR_1_1Image_1_1BufferSparse.html#a5d9b470c88411d0e10a62f5a2eb2e643", null ],
     [ "BufferSparse", "classMR_1_1Image_1_1BufferSparse.html#af78cf2248f2fa140d7b1ff33a525c5be", null ],
     [ "check", "classMR_1_1Image_1_1BufferSparse.html#ade56fb748701e5732241ea3fef7391b7", null ],
-    [ "operator=", "classMR_1_1Image_1_1BufferSparse.html#a7dbf97f774b17a36fcf8d42c4f2b918c", null ]
+    [ "operator=", "classMR_1_1Image_1_1BufferSparse.html#aa7ff484ac9a20adb4a118bd1eafa04b1", null ],
+    [ "voxel", "classMR_1_1Image_1_1BufferSparse.html#accd4ce03d059c51e611264a541d176f0", null ]
 ];

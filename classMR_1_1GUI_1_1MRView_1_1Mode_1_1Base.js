@@ -29,7 +29,6 @@ var classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base =
     [ "pan_event", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base.html#a69a817cec9859c42a29892c4b1e0a326", null ],
     [ "panthrough_event", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base.html#a21849d0b5b49d5e382fee3ab7ea48a2b", null ],
     [ "plane", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base.html#a6e8c4776b8d6689cf844897ec34f7695", null ],
-    [ "project_target_onto_current_slice", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base.html#a14c8de3c17cb8e6ae5ce0cd3eb951cbe", null ],
     [ "render_tools", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base.html#a21da14a02650d8eafaa9fe77822e683b", null ],
     [ "reset_event", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base.html#ad1e11133afbd6bc53a7f66bea207837f", null ],
     [ "reset_orientation", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base.html#a2e02837db64e9a8b7f6d598c88efc1b6", null ],

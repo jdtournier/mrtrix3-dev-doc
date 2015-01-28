@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['waitsync',['WaitSync',['../namespacegl.html#aca3d2c087a8fb7e17bf8333a484a7d35',1,'gl']]],
+  ['waitsync',['WaitSync',['../namespacegl.html#adc853c3741da9eb8e1431dc5e66c9660',1,'gl']]],
   ['wavetable',['wavetable',['../classMR_1_1Math_1_1FFT.html#ac6c99b975849e03e3509d8f26f816c86',1,'MR::Math::FFT']]],
   ['weight',['weight',['../classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1SetVoxelExtras.html#ade74f5e1ba151da1174e7456c38748fe',1,'MR::DWI::Tractography::Mapping::SetVoxelExtras::weight()'],['../classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1FixelBase.html#ad83c6c8a7df9f3f611786980bda50c8a',1,'MR::DWI::Tractography::SIFT::FixelBase::weight()'],['../classMR_1_1DWI_1_1Tractography_1_1Streamline.html#a54985211abb8c056fd73a5b18e42e692',1,'MR::DWI::Tractography::Streamline::weight()']]],
   ['weights_5fbuffer',['weights_buffer',['../classMR_1_1DWI_1_1Tractography_1_1Writer.html#a1614003c835174bace4d530f548c8865',1,'MR::DWI::Tractography::Writer']]],

@@ -4,7 +4,7 @@ var searchData=
   ['max_5fdir_5fchange',['MAX_DIR_CHANGE',['../SH_8h.html#a4ee2d519e14dc95a5ed11efa93fe465f',1,'SH.h']]],
   ['max_5ffiles_5fper_5fimage',['MAX_FILES_PER_IMAGE',['../lib_2image_2handler_2base_8h.html#a7193549885ce5a853a54e36686211fcd',1,'base.h']]],
   ['max_5flod',['MAX_LOD',['../render__frame_8h.html#ad1a06b5c4c6181f46fd25cbd4ec71112',1,'render_frame.h']]],
-  ['max_5fnum_5fseed_5fattempts',['MAX_NUM_SEED_ATTEMPTS',['../src_2dwi_2tractography_2tracking_2exec_8h.html#a2e4e7d03a17f6a7ec4c9af9613940b3a',1,'exec.h']]],
+  ['max_5fnum_5fseed_5fattempts',['MAX_NUM_SEED_ATTEMPTS',['../exec_8h.html#a2e4e7d03a17f6a7ec4c9af9613940b3a',1,'exec.h']]],
   ['max_5ftracking_5fseed_5fattempts_5fdynamic',['MAX_TRACKING_SEED_ATTEMPTS_DYNAMIC',['../src_2dwi_2tractography_2seeding_2base_8h.html#a31d19a2dd79f595a21f898c72b515357',1,'base.h']]],
   ['max_5ftracking_5fseed_5fattempts_5ffixed',['MAX_TRACKING_SEED_ATTEMPTS_FIXED',['../src_2dwi_2tractography_2seeding_2base_8h.html#aa3cf37d9ed697f9c8843155e84d8513d',1,'base.h']]],
   ['max_5ftracking_5fseed_5fattempts_5fgmwmi',['MAX_TRACKING_SEED_ATTEMPTS_GMWMI',['../src_2dwi_2tractography_2seeding_2base_8h.html#ac1903244c31138ed978e7349dad834bb',1,'base.h']]],
@@ -20,8 +20,9 @@ var searchData=
   ['min',['MIN',['../mrtrix_8h.html#a3acffbd305ee72dcd4593c0d8af64a4f',1,'mrtrix.h']]],
   ['modifiers',['MODIFIERS',['../mrtrix_8h.html#aa3696cca82d1421bac6bbb7b96c151c4',1,'mrtrix.h']]],
   ['move_5fin_5fout_5ffov_5fmultiplier',['MOVE_IN_OUT_FOV_MULTIPLIER',['../src_2gui_2mrview_2mode_2base_8h.html#a08d8e96d624c1d2ce648318bfe726000',1,'base.h']]],
+  ['mrtrix_5fgit_5fversion',['MRTRIX_GIT_VERSION',['../version_8h.html#ac73dbddd3b7df8f2bd12cce4562d96b5',1,'version.h']]],
   ['mrtrix_5fhash_5fmap_5ftype',['MRTRIX_HASH_MAP_TYPE',['../hash__map_8h.html#a8036e21d2f1600c019565e9090f7f087',1,'hash_map.h']]],
   ['mrtrix_5fis_5fbig_5fendian',['MRTRIX_IS_BIG_ENDIAN',['../get__set_8h.html#aa8a7b49754688429d8dd84275cafc067',1,'get_set.h']]],
-  ['mrtrix_5fqueue_5fdefault_5fbatch_5fsize',['MRTRIX_QUEUE_DEFAULT_BATCH_SIZE',['../queue_8h.html#a62376d0ebde62dc99133121cec75e9bf',1,'queue.h']]],
-  ['mrtrix_5fqueue_5fdefault_5fcapacity',['MRTRIX_QUEUE_DEFAULT_CAPACITY',['../queue_8h.html#a5d6010ef52ccc0b08a310e6a141c3e79',1,'queue.h']]]
+  ['mrtrix_5fqueue_5fdefault_5fbatch_5fsize',['MRTRIX_QUEUE_DEFAULT_BATCH_SIZE',['../thread__queue_8h.html#a62376d0ebde62dc99133121cec75e9bf',1,'thread_queue.h']]],
+  ['mrtrix_5fqueue_5fdefault_5fcapacity',['MRTRIX_QUEUE_DEFAULT_CAPACITY',['../thread__queue_8h.html#a5d6010ef52ccc0b08a310e6a141c3e79',1,'thread_queue.h']]]
 ];

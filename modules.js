@@ -6,6 +6,7 @@ var modules =
     [ "Image access", "group__ImageAPI.html", "group__ImageAPI" ],
     [ "Looping functions", "group__loop.html", "group__loop" ],
     [ "Multi-threading", "group__Thread.html", "group__Thread" ],
+    [ "Mathematical constants", "group__mathconstants.html", "group__mathconstants" ],
     [ "Elementary Functions", "group__elfun.html", "group__elfun" ],
     [ "Linear Algebra", "group__linalg.html", "group__linalg" ],
     [ "Memory management", "group__Memory.html", "group__Memory" ],

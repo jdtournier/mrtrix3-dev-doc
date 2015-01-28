@@ -2,6 +2,8 @@ var classMR_1_1GUI_1_1MRView_1_1AdjustButton =
 [
     [ "AdjustButton", "classMR_1_1GUI_1_1MRView_1_1AdjustButton.html#a2183b022d4c21d4170375d38e68deb79", null ],
     [ "eventFilter", "classMR_1_1GUI_1_1MRView_1_1AdjustButton.html#ae875a2f4e832bdb25f8c643b752a9439", null ],
+    [ "getMax", "classMR_1_1GUI_1_1MRView_1_1AdjustButton.html#ae300e50bbce02dd841f47d25af1de36b", null ],
+    [ "getMin", "classMR_1_1GUI_1_1MRView_1_1AdjustButton.html#a2a94abdfc17154e8a5fa222f27a760fd", null ],
     [ "onSetValue", "classMR_1_1GUI_1_1MRView_1_1AdjustButton.html#a57bf87db45aa3d9891102b30918a369d", null ],
     [ "setMax", "classMR_1_1GUI_1_1MRView_1_1AdjustButton.html#acd818b5da9cabfb7cc4dbf0d2c575871", null ],
     [ "setMin", "classMR_1_1GUI_1_1MRView_1_1AdjustButton.html#aecc51313d7bab8b0c2a511b3440535ad", null ],

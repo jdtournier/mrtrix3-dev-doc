@@ -1,5 +1,16 @@
 var NAVTREEINDEX1 =
 {
+"classMR_1_1BitSet_1_1Value.html#a8681c2538633e1878f265c21b492b53d":[12,0,1,10,1,1],
+"classMR_1_1BitSet_1_1Value.html#a9dcbdd7ffa1bff66b405a3de89a39ad5":[12,0,1,10,1,0],
+"classMR_1_1BitSet_1_1Value.html#ac93e308c7bc3d9e948fc70f1caeb8b4c":[12,0,1,10,1,4],
+"classMR_1_1BitSet_1_1Value.html#ad3f950386f8034c37c6a1da384b5f8ab":[12,0,1,10,1,5],
+"classMR_1_1BitSet_1_1Value.html#ad8616587653a199848ee65b9da0ec15e":[12,0,1,10,1,6],
+"classMR_1_1BitSet_1_1Value.html#ae99a22169118f5a4c73682ec6948c414":[12,0,1,10,1,3],
+"classMR_1_1BufferType.html":[12,0,1,11],
+"classMR_1_1DWI_1_1Bootstrap.html":[12,0,1,1,4],
+"classMR_1_1DWI_1_1Bootstrap.html#a0123424a4723c056d98ea53b5a65335b":[12,0,1,1,4,8],
+"classMR_1_1DWI_1_1Bootstrap.html#a16d0f5fd6078c0229a926d16e46a5bd8":[12,0,1,1,4,12],
+"classMR_1_1DWI_1_1Bootstrap.html#a19e9f85900439206bdd9a665d9e5b691":[12,0,1,1,4,13],
 "classMR_1_1DWI_1_1Bootstrap.html#a2bdac636c92e7e53788b9cfabded06ff":[12,0,1,1,4,1],
 "classMR_1_1DWI_1_1Bootstrap.html#a4f7c4d8709db5a19556145669c854abf":[12,0,1,1,4,3],
 "classMR_1_1DWI_1_1Bootstrap.html#a4f901c0c3bce61ab7ea06169d8f1c5a1":[12,0,1,1,4,5],
@@ -237,17 +248,6 @@ var NAVTREEINDEX1 =
 "classMR_1_1DWI_1_1Shell.html#ae75bda8159e813126bb55e632731a66e":[12,0,1,1,7,13],
 "classMR_1_1DWI_1_1Shell.html#aeaea81b8ca4f321ea15fb2a9da88d4d8":[12,0,1,1,7,0],
 "classMR_1_1DWI_1_1Shells.html":[12,0,1,1,8],
-"classMR_1_1DWI_1_1Shells.html#a34a9932f1b0c0a42c7f414fd629f4da5":[12,0,1,1,8,10],
-"classMR_1_1DWI_1_1Shells.html#a493dfcc149da64afebf0bb43310e179a":[12,0,1,1,8,8],
-"classMR_1_1DWI_1_1Shells.html#a4ba1e3c1e3dad4607d6850dea6c0adbe":[12,0,1,1,8,7],
-"classMR_1_1DWI_1_1Shells.html#a4c7dacec1a0850914ec9a57bca4b3687":[12,0,1,1,8,11],
-"classMR_1_1DWI_1_1Shells.html#a6933e36da0da1779f588f238c0dd3c04":[12,0,1,1,8,5],
-"classMR_1_1DWI_1_1Shells.html#a6d92bfe5f8a541b966cb868c8043b40f":[12,0,1,1,8,4],
-"classMR_1_1DWI_1_1Shells.html#a730501731f045e525b9457e1d56a343b":[12,0,1,1,8,0],
-"classMR_1_1DWI_1_1Shells.html#a8c0b770f138dc2fd221d60f83c918f58":[12,0,1,1,8,1],
-"classMR_1_1DWI_1_1Shells.html#aa75c34e259d626c98dcb08f7ff8e5885":[12,0,1,1,8,3],
-"classMR_1_1DWI_1_1Shells.html#aeb9b1443b1d06a6c8a867e2d9c0e0fd4":[12,0,1,1,8,2],
-"classMR_1_1DWI_1_1Shells.html#af0aa5be3a9d492e799e7e58d5bb8e309":[12,0,1,1,8,6],
-"classMR_1_1DWI_1_1Shells.html#af347f1dc74ff56828ea7c28f6956e36d":[12,0,1,1,8,9],
-"classMR_1_1DWI_1_1Tractography_1_1ACT_1_1ACT__Method__additions.html":[12,0,1,1,3,0,0]
+"classMR_1_1DWI_1_1Shells.html#a2a7e6a142cc0930af4a791573d981840":[12,0,1,1,8,4],
+"classMR_1_1DWI_1_1Shells.html#a34a9932f1b0c0a42c7f414fd629f4da5":[12,0,1,1,8,12]
 };

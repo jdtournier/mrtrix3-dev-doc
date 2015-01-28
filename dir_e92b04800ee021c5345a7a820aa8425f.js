@@ -3,8 +3,8 @@ var dir_e92b04800ee021c5345a7a820aa8425f =
     [ "file", "dir_5ee1bb7ece029c510057b4b4b41e28b8.html", "dir_5ee1bb7ece029c510057b4b4b41e28b8" ],
     [ "image", "dir_ffad00826946406341255704729e31bf.html", "dir_ffad00826946406341255704729e31bf" ],
     [ "math", "dir_13e8a48d08fcaa7b4240d896973d108e.html", "dir_13e8a48d08fcaa7b4240d896973d108e" ],
-    [ "thread", "dir_80492a00434bab6a4af69950e685292a.html", "dir_80492a00434bab6a4af69950e685292a" ],
     [ "app.h", "lib_2app_8h.html", null ],
+    [ "apply.h", "apply_8h.html", "apply_8h" ],
     [ "args.h", "args_8h.html", "args_8h" ],
     [ "bitset.h", "bitset_8h.html", [
       [ "BitSet", "classMR_1_1BitSet.html", "classMR_1_1BitSet" ],
@@ -23,9 +23,12 @@ var dir_e92b04800ee021c5345a7a820aa8425f =
     [ "point.h", "point_8h.html", "point_8h" ],
     [ "progressbar.h", "progressbar_8h.html", "progressbar_8h" ],
     [ "ptr.h", "ptr_8h.html", null ],
+    [ "thread.h", "thread_8h.html", "thread_8h" ],
+    [ "thread_queue.h", "thread__queue_8h.html", "thread__queue_8h" ],
     [ "timer.h", "timer_8h.html", [
       [ "Timer", "classMR_1_1Timer.html", "classMR_1_1Timer" ],
       [ "IntervalTimer", "classMR_1_1IntervalTimer.html", "classMR_1_1IntervalTimer" ]
     ] ],
-    [ "types.h", "lib_2types_8h.html", null ]
+    [ "types.h", "lib_2types_8h.html", null ],
+    [ "version.h", "version_8h.html", "version_8h" ]
 ];

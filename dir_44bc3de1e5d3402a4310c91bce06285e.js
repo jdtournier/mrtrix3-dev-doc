@@ -9,7 +9,7 @@ var dir_44bc3de1e5d3402a4310c91bce06285e =
       [ "Slice", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Slice.html", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Slice" ],
       [ "Shader", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Slice_1_1Shader.html", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Slice_1_1Shader" ]
     ] ],
-    [ "volume.h", "volume_8h.html", [
+    [ "volume.h", "mode_2volume_8h.html", [
       [ "Volume", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Volume.html", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Volume" ],
       [ "Shader", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Volume_1_1Shader.html", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Volume_1_1Shader" ]
     ] ]

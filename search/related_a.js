@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['refptr',['RefPtr',['../singletonMR_1_1RefPtr.html#ab2b7eda0716a0ff6825e08a45b9216ff',1,'MR::RefPtr']]]
+  ['value_3c_20voxel_20_3e',['Value&lt; Voxel &gt;',['../classMR_1_1Image_1_1Sparse_1_1Voxel.html#a279cd9e839316258c9a710a584bf58d0',1,'MR::Image::Sparse::Voxel']]]
 ];

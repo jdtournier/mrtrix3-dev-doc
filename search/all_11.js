@@ -10,10 +10,9 @@ var searchData=
   ['query_5fresult',['QUERY_RESULT',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2ca77885cd4844b4c41e936a5cc3d0b28a4',1,'gl']]],
   ['query_5fresult_5favailable',['QUERY_RESULT_AVAILABLE',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2ca43ee8415bc3ae503b9f7492fc4f42760',1,'gl']]],
   ['query_5fwait',['QUERY_WAIT',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2cac351c1c6bbf5d0ade119d1a426fd9a89',1,'gl']]],
-  ['querycounter',['QueryCounter',['../namespacegl.html#a409f6b87cc6791021190c4af35b660dc',1,'gl']]],
+  ['querycounter',['QueryCounter',['../namespacegl.html#a218af61dde4166d7717971d2a64afed1',1,'gl']]],
   ['queue',['Queue',['../classMR_1_1Thread_1_1Queue.html#aba4475ce84874c2591ef62f6300e0577',1,'MR::Thread::Queue::Queue(const std::string &amp;description=&quot;unnamed&quot;, size_t buffer_size=128)'],['../classMR_1_1Thread_1_1Queue.html#a35e0d1bbe8f16063f6ebe6ad0680628a',1,'MR::Thread::Queue::Queue(const T &amp;item_type, const std::string &amp;description=&quot;unnamed&quot;, size_t buffer_size=128)']]],
   ['queue',['Queue',['../classMR_1_1Thread_1_1Queue.html',1,'MR::Thread']]],
-  ['queue_2eh',['queue.h',['../queue_8h.html',1,'']]],
   ['quick_5fscan_2eh',['quick_scan.h',['../quick__scan_8h.html',1,'']]],
   ['quickscan',['QuickScan',['../classMR_1_1File_1_1Dicom_1_1QuickScan.html',1,'MR::File::Dicom']]]
 ];
