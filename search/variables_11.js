@@ -13,7 +13,7 @@ var searchData=
   ['rectangle_5fbutton',['rectangle_button',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI.html#a89d8f1fd8304653134a6eb94c1e7e957',1,'MR::GUI::MRView::Tool::ROI']]],
   ['redo_5fbutton',['redo_button',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI.html#afd864b90d782c5f7735c258c7ef99784',1,'MR::GUI::MRView::Tool::ROI']]],
   ['refcount',['refcount',['../classMR_1_1Thread_1_1____Backend.html#a32b050d52f7ad1365bc0af727bea4d0a',1,'MR::Thread::__Backend']]],
-  ['references',['REFERENCES',['../namespaceMR_1_1App.html#ac3b29810252c3dd640d1364d0da92dc7',1,'MR::App']]],
+  ['references',['REFERENCES',['../namespaceMR_1_1App.html#aacc0939705855fbe9a4374679b40ad87',1,'MR::App']]],
   ['render_5fframe',['render_frame',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1ODF.html#af2544fd6460beefecf9870250da33348',1,'MR::GUI::MRView::Tool::ODF::render_frame()'],['../classMR_1_1GUI_1_1DWI_1_1Window.html#ab734b638fcc2a897163acab5c2da727d',1,'MR::GUI::DWI::Window::render_frame()']]],
   ['renderbufferstorage',['RenderbufferStorage',['../namespacegl.html#ab6e5a50917e1851ec055b839ab55ba9f',1,'gl']]],
   ['renderbufferstoragemultisample',['RenderbufferStorageMultisample',['../namespacegl.html#a906b2bdd246f0caaf3789b106211b8bc',1,'gl']]],

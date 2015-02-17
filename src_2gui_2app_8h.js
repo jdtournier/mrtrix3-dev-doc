@@ -27,6 +27,6 @@ var src_2gui_2app_8h =
     [ "option", "src_2gui_2app_8h.html#ga6a0ea4e6be0eb2c0f07085b1dd3ee7ae", null ],
     [ "OPTIONS", "src_2gui_2app_8h.html#a35c7c52f630a8bbc6ea7147c8860ec01", null ],
     [ "overwrite_files", "src_2gui_2app_8h.html#adcb9d0edb4ae63d08f3a121b87ef5d7b", null ],
-    [ "REFERENCES", "src_2gui_2app_8h.html#ac3b29810252c3dd640d1364d0da92dc7", null ],
+    [ "REFERENCES", "src_2gui_2app_8h.html#aacc0939705855fbe9a4374679b40ad87", null ],
     [ "REQUIRES_AT_LEAST_ONE_ARGUMENT", "src_2gui_2app_8h.html#ab96c7fb47f8bff5c76d5d1a521381bd6", null ]
 ];

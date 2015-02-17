@@ -69,7 +69,7 @@ var searchData=
   ['redo_5fbutton',['redo_button',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI.html#afd864b90d782c5f7735c258c7ef99784',1,'MR::GUI::MRView::Tool::ROI']]],
   ['refcount',['refcount',['../classMR_1_1Thread_1_1____Backend.html#a32b050d52f7ad1365bc0af727bea4d0a',1,'MR::Thread::__Backend']]],
   ['reference',['reference',['../classMR_1_1VecPtr.html#a0bd00ba9a1d3befcdfacafa8d4a05330',1,'MR::VecPtr']]],
-  ['references',['REFERENCES',['../namespaceMR_1_1App.html#ac3b29810252c3dd640d1364d0da92dc7',1,'MR::App']]],
+  ['references',['REFERENCES',['../namespaceMR_1_1App.html#aacc0939705855fbe9a4374679b40ad87',1,'MR::App']]],
   ['refptr',['RefPtr',['../classMR_1_1RefPtr.html#ab2b7eda0716a0ff6825e08a45b9216ff',1,'MR::RefPtr::RefPtr()'],['../classMR_1_1RefPtr.html#a8fc6d380291f7a0797c41db1a3cb41a9',1,'MR::RefPtr::RefPtr(T *p=NULL)'],['../classMR_1_1RefPtr.html#a275097b950bd9002f0622fb80969d8bb',1,'MR::RefPtr::RefPtr(const RefPtr &amp;R)'],['../classMR_1_1RefPtr.html#ac95a8eec2075713833d218579d72bcc7',1,'MR::RefPtr::RefPtr(const RefPtr&lt; U, is_array &gt; &amp;R)']]],
   ['refptr',['RefPtr',['../classMR_1_1RefPtr.html',1,'MR']]],
   ['refptr_3c_20dwi_3a_3afmls_3a_3asegmenter_20_3e',['RefPtr&lt; DWI::FMLS::Segmenter &gt;',['../classMR_1_1RefPtr.html',1,'MR']]],
