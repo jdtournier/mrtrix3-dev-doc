@@ -33,7 +33,7 @@ var classMR_1_1GUI_1_1Projection =
     [ "set", "classMR_1_1GUI_1_1Projection.html#ae9a11233690493114cd2544b7ab8c60f", null ],
     [ "set", "classMR_1_1GUI_1_1Projection.html#a84a2b7cf14ed98004e9530d65324a224", null ],
     [ "set_viewport", "classMR_1_1GUI_1_1Projection.html#aed42bfb5a4867fb56f4b8782bd93f736", null ],
-    [ "set_viewport", "classMR_1_1GUI_1_1Projection.html#a7de12cbb22710d2b244a6b1555b6ee29", null ],
+    [ "set_viewport", "classMR_1_1GUI_1_1Projection.html#a41f241c76a8b17e7a5a88f7c7e54e915", null ],
     [ "setup_render_text", "classMR_1_1GUI_1_1Projection.html#ad8d7c39373c9f4d111bacc2b3954633d", null ],
     [ "width", "classMR_1_1GUI_1_1Projection.html#a46cf1e50270b994d8455ff09ed668b01", null ],
     [ "x_position", "classMR_1_1GUI_1_1Projection.html#ac91398e3f4cc866d79d8adf1645f81fa", null ],

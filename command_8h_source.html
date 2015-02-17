@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">MRtrix
-   &#160;<span id="projectnumber">0.3.12-158-g9a338db5</span>
+   &#160;<span id="projectnumber">0.3.11-263-gdd9ed2c2</span>
    </div>
    <div id="projectbrief">MRtrix provides a set of tools to perform diffusion-weighted MR white-matter tractography in a manner robust to crossing fibres, using constrained spherical deconvolution (CSD) and probabilistic streamlines.</div>
   </td>
@@ -144,19 +144,19 @@ $(document).ready(function(){initNavTree('command_8h_source.html','');});
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> <span class="keywordtype">void</span> R_main (<span class="keywordtype">int</span>* cmdline_argc, <span class="keywordtype">char</span>** cmdline_argv) </div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;{ </div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  <a class="code" href="namespaceMR_1_1App.html#af0aeea45aeb00a652d21e8a4d7b21ef8">MR::App::build_date</a> = __DATE__; </div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  <a class="code" href="namespaceMR_1_1App.html#af0aeea45aeb00a652d21e8a4d7b21ef8">::MR::App::build_date</a> = __DATE__; </div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">#ifdef MRTRIX_PROJECT_VERSION</span></div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  <a class="code" href="namespaceMR_1_1App.html#aac29ab240475b73bf131d8e647f183a2">MR::App::project_version</a> = MRTRIX_PROJECT_VERSION;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  <a class="code" href="namespaceMR_1_1App.html#aac29ab240475b73bf131d8e647f183a2">::MR::App::project_version</a> = MRTRIX_PROJECT_VERSION;</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;  SET_MRTRIX_PROJECT_VERSION </div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  <a class="code" href="namespaceMR_1_1App.html#a56b22fa8e19eb68dacf817b185d0b386">MR::App::AUTHOR</a> = <span class="stringliteral">&quot;J-Donald Tournier (d.tournier@brain.org.au)&quot;</span>; </div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  <a class="code" href="namespaceMR_1_1App.html#a90b52f988a728c86e793f645d3a4ef3a">MR::App::DESCRIPTION</a>.clear(); </div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  <a class="code" href="namespaceMR_1_1App.html#aebb09da9ab1a53e73b575b2e52b4dbc0">MR::App::ARGUMENTS</a>.clear(); </div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;  <a class="code" href="namespaceMR_1_1App.html#a35c7c52f630a8bbc6ea7147c8860ec01">MR::App::OPTIONS</a>.clear(); </div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;  <a class="code" href="namespaceMR_1_1App.html#a56b22fa8e19eb68dacf817b185d0b386">SET_MRTRIX_PROJECT_VERSION </a></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<a class="code" href="namespaceMR_1_1App.html#a56b22fa8e19eb68dacf817b185d0b386">  ::MR::App::AUTHOR</a> = <span class="stringliteral">&quot;J-Donald Tournier (d.tournier@brain.org.au)&quot;</span>; </div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  <a class="code" href="namespaceMR_1_1App.html#a90b52f988a728c86e793f645d3a4ef3a">::MR::App::DESCRIPTION</a>.clear(); </div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  <a class="code" href="namespaceMR_1_1App.html#aebb09da9ab1a53e73b575b2e52b4dbc0">::MR::App::ARGUMENTS</a>.clear(); </div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;  <a class="code" href="namespaceMR_1_1App.html#a35c7c52f630a8bbc6ea7147c8860ec01">::MR::App::OPTIONS</a>.clear(); </div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  <span class="keywordflow">try</span> { </div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <a class="code" href="src_2gui_2app_8h.html#a2ef30c42cbc289d899a8be5d2d8f77d0">usage</a>(); </div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <a class="code" href="group__CmdParse.html#gadcf0190d4dc5b77cd99dd6ab5b731f2c">MR::App::init</a> (*cmdline_argc, cmdline_argv); </div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <a class="code" href="group__CmdParse.html#gaf1a74841efd2f897d660092ce08607de">MR::App::parse</a> (); </div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <a class="code" href="group__CmdParse.html#gadcf0190d4dc5b77cd99dd6ab5b731f2c">::MR::App::init</a> (*cmdline_argc, cmdline_argv); </div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <a class="code" href="group__CmdParse.html#gaf1a74841efd2f897d660092ce08607de">::MR::App::parse</a> (); </div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <a class="code" href="src_2gui_2app_8h.html#a13a43e6d814de94978c515cb084873b1">run</a> (); </div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  } </div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  <span class="keywordflow">catch</span> (<a class="code" href="classMR_1_1Exception.html">MR::Exception</a>&amp; E) { </div>
@@ -170,9 +170,9 @@ $(document).ready(function(){initNavTree('command_8h_source.html','');});
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> <span class="keywordtype">void</span> R_usage (<span class="keywordtype">char</span>** output) </div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;{ </div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;  <a class="code" href="namespaceMR_1_1App.html#a90b52f988a728c86e793f645d3a4ef3a">MR::App::DESCRIPTION</a>.clear(); </div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;  <a class="code" href="namespaceMR_1_1App.html#aebb09da9ab1a53e73b575b2e52b4dbc0">MR::App::ARGUMENTS</a>.clear(); </div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;  <a class="code" href="namespaceMR_1_1App.html#a35c7c52f630a8bbc6ea7147c8860ec01">MR::App::OPTIONS</a>.clear(); </div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;  <a class="code" href="namespaceMR_1_1App.html#a90b52f988a728c86e793f645d3a4ef3a">::MR::App::DESCRIPTION</a>.clear(); </div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;  <a class="code" href="namespaceMR_1_1App.html#aebb09da9ab1a53e73b575b2e52b4dbc0">::MR::App::ARGUMENTS</a>.clear(); </div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;  <a class="code" href="namespaceMR_1_1App.html#a35c7c52f630a8bbc6ea7147c8860ec01">::MR::App::OPTIONS</a>.clear(); </div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;  <a class="code" href="src_2gui_2app_8h.html#a2ef30c42cbc289d899a8be5d2d8f77d0">usage</a>(); </div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;  std::string s = <a class="code" href="group__CmdParse.html#ga0842c1db4881f89fe7fcdbbeb9fbf9f2">MR::App::full_usage</a>(); </div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  *output = <span class="keyword">new</span> <span class="keywordtype">char</span> [s.size()+1]; </div>
@@ -183,32 +183,36 @@ $(document).ready(function(){initNavTree('command_8h_source.html','');});
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
 <div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="command_8h.html#a558a5670651db8d88c53414a9aee22ce">   71</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="command_8h.html#a558a5670651db8d88c53414a9aee22ce">main</a> (<span class="keywordtype">int</span> cmdline_argc, <span class="keywordtype">char</span>** cmdline_argv) </div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;{ </div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;  <a class="code" href="namespaceMR_1_1App.html#af0aeea45aeb00a652d21e8a4d7b21ef8">MR::App::build_date</a> = __DATE__; </div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="preprocessor">#ifdef MRTRIX_PROJECT_VERSION</span></div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;  <a class="code" href="namespaceMR_1_1App.html#aac29ab240475b73bf131d8e647f183a2">MR::App::project_version</a> = MRTRIX_PROJECT_VERSION;</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;  <span class="keywordflow">try</span> {</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <a class="code" href="group__CmdParse.html#gadcf0190d4dc5b77cd99dd6ab5b731f2c">MR::App::init</a> (cmdline_argc, cmdline_argv); </div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <a class="code" href="src_2gui_2app_8h.html#a2ef30c42cbc289d899a8be5d2d8f77d0">usage</a> (); </div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <a class="code" href="group__CmdParse.html#gaf1a74841efd2f897d660092ce08607de">MR::App::parse</a> (); </div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <a class="code" href="src_2gui_2app_8h.html#a13a43e6d814de94978c515cb084873b1">run</a> (); </div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;  } </div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;  <span class="keywordflow">catch</span> (<a class="code" href="classMR_1_1Exception.html">MR::Exception</a>&amp; E) { </div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    E.<a class="code" href="classMR_1_1Exception.html#adab282a594bdb71250404da72582006d">display</a>(); </div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keywordflow">return</span> 1;</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;  } </div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;  <span class="keywordflow">catch</span> (<span class="keywordtype">int</span> retval) { </div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <span class="keywordflow">return</span> retval; </div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="preprocessor">#ifdef __gui_app_h__</span></div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;  <a class="code" href="classMR_1_1GUI_1_1App.html">::MR::GUI::App</a> app (cmdline_argc, cmdline_argv);</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;  <a class="code" href="namespaceMR_1_1App.html#af0aeea45aeb00a652d21e8a4d7b21ef8">::MR::App::build_date</a> = __DATE__; </div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="preprocessor">#ifdef MRTRIX_PROJECT_VERSION</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;  <a class="code" href="namespaceMR_1_1App.html#aac29ab240475b73bf131d8e647f183a2">::MR::App::project_version</a> = MRTRIX_PROJECT_VERSION;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;  <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <a class="code" href="group__CmdParse.html#gadcf0190d4dc5b77cd99dd6ab5b731f2c">::MR::App::init</a> (cmdline_argc, cmdline_argv); </div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <a class="code" href="src_2gui_2app_8h.html#a2ef30c42cbc289d899a8be5d2d8f77d0">usage</a> (); </div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <a class="code" href="group__CmdParse.html#gaf1a74841efd2f897d660092ce08607de">::MR::App::parse</a> (); </div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <a class="code" href="src_2gui_2app_8h.html#a13a43e6d814de94978c515cb084873b1">run</a> (); </div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;  } </div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;  <span class="keywordflow">catch</span> (::<a class="code" href="classMR_1_1Exception.html">MR::Exception</a>&amp; E) { </div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    E.<a class="code" href="classMR_1_1Exception.html#adab282a594bdb71250404da72582006d">display</a>(); </div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <span class="keywordflow">return</span> 1;</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;  } </div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;  <span class="keywordflow">return</span> 0; </div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;}</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;  <span class="keywordflow">catch</span> (<span class="keywordtype">int</span> retval) { </div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="keywordflow">return</span> retval; </div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;  } </div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;  <span class="keywordflow">return</span> 0; </div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;}</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div>
 <div class="ttc" id="namespaceMR_1_1App_html_a35c7c52f630a8bbc6ea7147c8860ec01"><div class="ttname"><a href="namespaceMR_1_1App.html#a35c7c52f630a8bbc6ea7147c8860ec01">MR::App::OPTIONS</a></div><div class="ttdeci">OptionList OPTIONS</div></div>
+<div class="ttc" id="classMR_1_1GUI_1_1App_html"><div class="ttname"><a href="classMR_1_1GUI_1_1App.html">MR::GUI::App</a></div><div class="ttdef"><b>Definition:</b> <a href="src_2gui_2app_8h_source.html#l00039">app.h:39</a></div></div>
 <div class="ttc" id="classMR_1_1Exception_html_adab282a594bdb71250404da72582006d"><div class="ttname"><a href="classMR_1_1Exception.html#adab282a594bdb71250404da72582006d">MR::Exception::display</a></div><div class="ttdeci">void display(int log_level=0) const </div><div class="ttdef"><b>Definition:</b> <a href="exception_8h_source.html#l00080">exception.h:80</a></div></div>
 <div class="ttc" id="src_2gui_2app_8h_html_a2ef30c42cbc289d899a8be5d2d8f77d0"><div class="ttname"><a href="src_2gui_2app_8h.html#a2ef30c42cbc289d899a8be5d2d8f77d0">usage</a></div><div class="ttdeci">void usage()</div></div>
 <div class="ttc" id="group__CmdParse_html_ga0842c1db4881f89fe7fcdbbeb9fbf9f2"><div class="ttname"><a href="group__CmdParse.html#ga0842c1db4881f89fe7fcdbbeb9fbf9f2">MR::App::full_usage</a></div><div class="ttdeci">std::string full_usage()</div></div>
@@ -228,8 +232,8 @@ $(document).ready(function(){initNavTree('command_8h_source.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_e92b04800ee021c5345a7a820aa8425f.html">lib</a></li><li class="navelem"><a class="el" href="command_8h.html">command.h</a></li>
-    <li class="footer">Generated on Wed Jan 28 2015 14:35:05 for MRtrix by
+    <li class="navelem"><a class="el" href="dir_1ff1d3eb5e102c70cb17aa49d70752fc.html">lib</a></li><li class="navelem"><a class="el" href="command_8h.html">command.h</a></li>
+    <li class="footer">Generated on Tue Feb 17 2015 15:05:41 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

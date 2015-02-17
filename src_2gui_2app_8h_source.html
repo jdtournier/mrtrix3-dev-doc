@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">MRtrix
-   &#160;<span id="projectnumber">0.3.12-158-g9a338db5</span>
+   &#160;<span id="projectnumber">0.3.11-263-gdd9ed2c2</span>
    </div>
    <div id="projectbrief">MRtrix provides a set of tools to perform diffusion-weighted MR white-matter tractography in a manner robust to crossing fibres, using constrained spherical deconvolution (CSD) and probabilistic streamlines.</div>
   </td>
@@ -136,36 +136,74 @@ $(document).ready(function(){initNavTree('src_2gui_2app_8h_source.html','');});
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#ifndef __gui_app_h__</span></div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#define __gui_app_h__</span></div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="gl_8h.html">gui/opengl/gl.h</a>&quot;</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceMR.html">MR</a></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;{</div>
-<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="namespaceMR_1_1GUI.html">   30</a></span>&#160;  <span class="keyword">namespace </span>GUI</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  {</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
-<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classMR_1_1GUI_1_1App.html">   33</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classMR_1_1GUI_1_1App.html">App</a> {</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;      <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <a class="code" href="classMR_1_1GUI_1_1App.html#a9a924003ae590271ab9f8c1d5c7ddb46">App</a>();</div>
-<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="namespaceMR.html">   36</a></span>&#160;        <a class="code" href="classMR_1_1GUI_1_1App.html#ac0c2f3857a205adacb764f7819bb2bc9">~App</a>();</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    };</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="progressbar_8h.html">progressbar.h</a>&quot;</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="lib_2file_2config_8h.html">file/config.h</a>&quot;</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="gl_8h.html">gui/opengl/gl.h</a>&quot;</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="progress_8h.html">gui/dialog/progress.h</a>&quot;</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="report__exception_8h.html">gui/dialog/report_exception.h</a>&quot;</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="dicom_8h.html">gui/dialog/dicom.h</a>&quot;</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="gui_2dialog_2file_8h.html">gui/dialog/file.h</a>&quot;</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceMR.html">MR</a></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;{</div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="namespaceMR_1_1GUI.html">   36</a></span>&#160;  <span class="keyword">namespace </span>GUI</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  {</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  }</div>
-<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="namespaceMR_1_1App.html">   40</a></span>&#160;}</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="classMR_1_1GUI_1_1App.html">   39</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classMR_1_1GUI_1_1App.html">App</a> {</div>
+<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="namespaceMR_1_1App.html">   40</a></span>&#160;      <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="classMR_1_1GUI_1_1App.html#a0d91eafdeecb5dc969aafb27f11d77c7">   41</a></span>&#160;        <a class="code" href="classMR_1_1GUI_1_1App.html#a0d91eafdeecb5dc969aafb27f11d77c7">App</a> (<span class="keywordtype">int</span>&amp; cmdline_argc, <span class="keywordtype">char</span>** cmdline_argv) {</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;          <span class="keyword">new</span> QApplication (cmdline_argc, cmdline_argv);</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;          <a class="code" href="classMR_1_1ProgressInfo.html#a62522cd051763c67ffb6174da5bb1eba">::MR::ProgressInfo::display_func</a> = <a class="code" href="namespaceMR_1_1GUI_1_1Dialog_1_1ProgressBar.html#a698431b912b22d70599de25076032ae9">Dialog::ProgressBar::display</a>;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;          <a class="code" href="classMR_1_1ProgressInfo.html#a5de30a4358fdfa42bae710fb3c6f7469">::MR::ProgressInfo::done_func</a> = <a class="code" href="namespaceMR_1_1GUI_1_1Dialog_1_1ProgressBar.html#aec09cdb39b724877539116b0f635146f">Dialog::ProgressBar::done</a>;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;          <a class="code" href="namespaceMR_1_1File_1_1Dicom.html#a00102146ec1dfd6d5d20c5695a8cd407">::MR::File::Dicom::select_func</a> = <a class="code" href="namespaceMR_1_1GUI_1_1Dialog.html#acf72832582253a417997e0a25037566f">Dialog::select_dicom</a>;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;          <a class="code" href="classMR_1_1Exception.html#abf24874d1ecf58bb4d18c8c845011dd1">::MR::Exception::display_func</a> = <a class="code" href="namespaceMR_1_1GUI_1_1Dialog.html#addd64ec5b2b39596cdea9b8a03e5093f">Dialog::display_exception</a>;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;          <a class="code" href="namespaceMR_1_1App.html#aa87eb63cffd5e40c2e76aa4da4f56772">::MR::App::check_overwrite_files_func</a> = <a class="code" href="namespaceMR_1_1GUI_1_1Dialog_1_1File.html#a0ab4b988f48a40d6163fcf37eee7042a">Dialog::File::check_overwrite_files_func</a>;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        }</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
+<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="classMR_1_1GUI_1_1App.html#ac0c2f3857a205adacb764f7819bb2bc9">   52</a></span>&#160;        <a class="code" href="classMR_1_1GUI_1_1App.html#ac0c2f3857a205adacb764f7819bb2bc9">~App</a> () {</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;          <span class="keyword">delete</span> qApp;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        }</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    };</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  }</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;}</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="command_8h.html">./command.h</a>&quot;</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="namespaceMR_1_1App.html#a31ff5096a56fe94238dcda848272936a">   62</a></span>&#160;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
 <div class="ttc" id="namespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> <a href="src_2gui_2app_8h_source.html#l00036">app.h:36</a></div></div>
-<div class="ttc" id="classMR_1_1GUI_1_1App_html"><div class="ttname"><a href="classMR_1_1GUI_1_1App.html">MR::GUI::App</a></div><div class="ttdef"><b>Definition:</b> <a href="src_2gui_2app_8h_source.html#l00033">app.h:33</a></div></div>
-<div class="ttc" id="classMR_1_1GUI_1_1App_html_a9a924003ae590271ab9f8c1d5c7ddb46"><div class="ttname"><a href="classMR_1_1GUI_1_1App.html#a9a924003ae590271ab9f8c1d5c7ddb46">MR::GUI::App::App</a></div><div class="ttdeci">App()</div></div>
-<div class="ttc" id="classMR_1_1GUI_1_1App_html_ac0c2f3857a205adacb764f7819bb2bc9"><div class="ttname"><a href="classMR_1_1GUI_1_1App.html#ac0c2f3857a205adacb764f7819bb2bc9">MR::GUI::App::~App</a></div><div class="ttdeci">~App()</div></div>
+<div class="ttc" id="command_8h_html"><div class="ttname"><a href="command_8h.html">command.h</a></div></div>
+<div class="ttc" id="namespaceMR_1_1GUI_1_1Dialog_1_1ProgressBar_html_aec09cdb39b724877539116b0f635146f"><div class="ttname"><a href="namespaceMR_1_1GUI_1_1Dialog_1_1ProgressBar.html#aec09cdb39b724877539116b0f635146f">MR::GUI::Dialog::ProgressBar::done</a></div><div class="ttdeci">void done(ProgressInfo &amp;p)</div></div>
+<div class="ttc" id="namespaceMR_1_1App_html_aa87eb63cffd5e40c2e76aa4da4f56772"><div class="ttname"><a href="namespaceMR_1_1App.html#aa87eb63cffd5e40c2e76aa4da4f56772">MR::App::check_overwrite_files_func</a></div><div class="ttdeci">void(* check_overwrite_files_func)(const std::string &amp;name)</div></div>
+<div class="ttc" id="classMR_1_1GUI_1_1App_html"><div class="ttname"><a href="classMR_1_1GUI_1_1App.html">MR::GUI::App</a></div><div class="ttdef"><b>Definition:</b> <a href="src_2gui_2app_8h_source.html#l00039">app.h:39</a></div></div>
+<div class="ttc" id="classMR_1_1ProgressInfo_html_a5de30a4358fdfa42bae710fb3c6f7469"><div class="ttname"><a href="classMR_1_1ProgressInfo.html#a5de30a4358fdfa42bae710fb3c6f7469">MR::ProgressInfo::done_func</a></div><div class="ttdeci">static void(* done_func)(ProgressInfo &amp;p)</div><div class="ttdef"><b>Definition:</b> <a href="progressbar_8h_source.html#l00138">progressbar.h:138</a></div></div>
+<div class="ttc" id="namespaceMR_1_1GUI_1_1Dialog_1_1ProgressBar_html_a698431b912b22d70599de25076032ae9"><div class="ttname"><a href="namespaceMR_1_1GUI_1_1Dialog_1_1ProgressBar.html#a698431b912b22d70599de25076032ae9">MR::GUI::Dialog::ProgressBar::display</a></div><div class="ttdeci">void display(ProgressInfo &amp;p)</div></div>
+<div class="ttc" id="progress_8h_html"><div class="ttname"><a href="progress_8h.html">progress.h</a></div></div>
+<div class="ttc" id="progressbar_8h_html"><div class="ttname"><a href="progressbar_8h.html">progressbar.h</a></div></div>
+<div class="ttc" id="namespaceMR_1_1GUI_1_1Dialog_1_1File_html_a0ab4b988f48a40d6163fcf37eee7042a"><div class="ttname"><a href="namespaceMR_1_1GUI_1_1Dialog_1_1File.html#a0ab4b988f48a40d6163fcf37eee7042a">MR::GUI::Dialog::File::check_overwrite_files_func</a></div><div class="ttdeci">void check_overwrite_files_func(const std::string &amp;name)</div></div>
+<div class="ttc" id="lib_2file_2config_8h_html"><div class="ttname"><a href="lib_2file_2config_8h.html">config.h</a></div></div>
+<div class="ttc" id="dicom_8h_html"><div class="ttname"><a href="dicom_8h.html">dicom.h</a></div></div>
+<div class="ttc" id="report__exception_8h_html"><div class="ttname"><a href="report__exception_8h.html">report_exception.h</a></div></div>
+<div class="ttc" id="classMR_1_1Exception_html_abf24874d1ecf58bb4d18c8c845011dd1"><div class="ttname"><a href="classMR_1_1Exception.html#abf24874d1ecf58bb4d18c8c845011dd1">MR::Exception::display_func</a></div><div class="ttdeci">static void(* display_func)(const Exception &amp;E, int log_level)</div><div class="ttdef"><b>Definition:</b> <a href="exception_8h_source.html#l00091">exception.h:91</a></div></div>
+<div class="ttc" id="namespaceMR_1_1GUI_1_1Dialog_html_addd64ec5b2b39596cdea9b8a03e5093f"><div class="ttname"><a href="namespaceMR_1_1GUI_1_1Dialog.html#addd64ec5b2b39596cdea9b8a03e5093f">MR::GUI::Dialog::display_exception</a></div><div class="ttdeci">void display_exception(const Exception &amp;E, int log_level)</div></div>
+<div class="ttc" id="classMR_1_1ProgressInfo_html_a62522cd051763c67ffb6174da5bb1eba"><div class="ttname"><a href="classMR_1_1ProgressInfo.html#a62522cd051763c67ffb6174da5bb1eba">MR::ProgressInfo::display_func</a></div><div class="ttdeci">static void(* display_func)(ProgressInfo &amp;p)</div><div class="ttdef"><b>Definition:</b> <a href="progressbar_8h_source.html#l00137">progressbar.h:137</a></div></div>
+<div class="ttc" id="classMR_1_1GUI_1_1App_html_a0d91eafdeecb5dc969aafb27f11d77c7"><div class="ttname"><a href="classMR_1_1GUI_1_1App.html#a0d91eafdeecb5dc969aafb27f11d77c7">MR::GUI::App::App</a></div><div class="ttdeci">App(int &amp;cmdline_argc, char **cmdline_argv)</div><div class="ttdef"><b>Definition:</b> <a href="src_2gui_2app_8h_source.html#l00041">app.h:41</a></div></div>
+<div class="ttc" id="classMR_1_1GUI_1_1App_html_ac0c2f3857a205adacb764f7819bb2bc9"><div class="ttname"><a href="classMR_1_1GUI_1_1App.html#ac0c2f3857a205adacb764f7819bb2bc9">MR::GUI::App::~App</a></div><div class="ttdeci">~App()</div><div class="ttdef"><b>Definition:</b> <a href="src_2gui_2app_8h_source.html#l00052">app.h:52</a></div></div>
+<div class="ttc" id="namespaceMR_1_1File_1_1Dicom_html_a00102146ec1dfd6d5d20c5695a8cd407"><div class="ttname"><a href="namespaceMR_1_1File_1_1Dicom.html#a00102146ec1dfd6d5d20c5695a8cd407">MR::File::Dicom::select_func</a></div><div class="ttdeci">std::vector&lt; RefPtr&lt; Series &gt; &gt;(* select_func)(const Tree &amp;tree)</div></div>
+<div class="ttc" id="gui_2dialog_2file_8h_html"><div class="ttname"><a href="gui_2dialog_2file_8h.html">file.h</a></div></div>
 <div class="ttc" id="gl_8h_html"><div class="ttname"><a href="gl_8h.html">gl.h</a></div></div>
+<div class="ttc" id="namespaceMR_1_1GUI_1_1Dialog_html_acf72832582253a417997e0a25037566f"><div class="ttname"><a href="namespaceMR_1_1GUI_1_1Dialog.html#acf72832582253a417997e0a25037566f">MR::GUI::Dialog::select_dicom</a></div><div class="ttdeci">std::vector&lt; RefPtr&lt; Series &gt; &gt; select_dicom(const Tree &amp;tree)</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_1f00b9a397251d0bc3da598bfcac866b.html">src</a></li><li class="navelem"><a class="el" href="dir_07a5b824d725edc0d22208a370530ff7.html">gui</a></li><li class="navelem"><a class="el" href="src_2gui_2app_8h.html">app.h</a></li>
-    <li class="footer">Generated on Wed Jan 28 2015 14:35:05 for MRtrix by
+    <li class="navelem"><a class="el" href="dir_9d8a5831c503bef18c8b11d5426cd56b.html">src</a></li><li class="navelem"><a class="el" href="dir_e9a99a004d216483c012647f55858945.html">gui</a></li><li class="navelem"><a class="el" href="src_2gui_2app_8h.html">app.h</a></li>
+    <li class="footer">Generated on Tue Feb 17 2015 15:05:41 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">MRtrix
-   &#160;<span id="projectnumber">0.3.12-158-g9a338db5</span>
+   &#160;<span id="projectnumber">0.3.11-263-gdd9ed2c2</span>
    </div>
    <div id="projectbrief">MRtrix provides a set of tools to perform diffusion-weighted MR white-matter tractography in a manner robust to crossing fibres, using constrained spherical deconvolution (CSD) and probabilistic streamlines.</div>
   </td>
@@ -121,33 +121,59 @@ $(document).ready(function(){initNavTree('classMR_1_1GUI_1_1App.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a9a924003ae590271ab9f8c1d5c7ddb46"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1App.html#a9a924003ae590271ab9f8c1d5c7ddb46">App</a> ()</td></tr>
-<tr class="separator:a9a924003ae590271ab9f8c1d5c7ddb46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d91eafdeecb5dc969aafb27f11d77c7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1App.html#a0d91eafdeecb5dc969aafb27f11d77c7">App</a> (int &amp;cmdline_argc, char **cmdline_argv)</td></tr>
+<tr class="separator:a0d91eafdeecb5dc969aafb27f11d77c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0c2f3857a205adacb764f7819bb2bc9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1App.html#ac0c2f3857a205adacb764f7819bb2bc9">~App</a> ()</td></tr>
 <tr class="separator:ac0c2f3857a205adacb764f7819bb2bc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p>Definition at line <a class="el" href="src_2gui_2app_8h_source.html#l00033">33</a> of file <a class="el" href="src_2gui_2app_8h_source.html">app.h</a>.</p>
+<p>Definition at line <a class="el" href="src_2gui_2app_8h_source.html#l00039">39</a> of file <a class="el" href="src_2gui_2app_8h_source.html">app.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a9a924003ae590271ab9f8c1d5c7ddb46"></a>
+<a class="anchor" id="a0d91eafdeecb5dc969aafb27f11d77c7"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">MR::GUI::App::App </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>cmdline_argc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">char **&#160;</td>
+          <td class="paramname"><em>cmdline_argv</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="src_2gui_2app_8h_source.html#l00041">41</a> of file <a class="el" href="src_2gui_2app_8h_source.html">app.h</a>.</p>
+
+<p>References <a class="el" href="namespaceMR_1_1GUI_1_1Dialog_1_1File.html#a0ab4b988f48a40d6163fcf37eee7042a">MR::GUI::Dialog::File::check_overwrite_files_func()</a>, <a class="el" href="namespaceMR_1_1App.html#aa87eb63cffd5e40c2e76aa4da4f56772">MR::App::check_overwrite_files_func</a>, <a class="el" href="namespaceMR_1_1GUI_1_1Dialog_1_1ProgressBar.html#a698431b912b22d70599de25076032ae9">MR::GUI::Dialog::ProgressBar::display()</a>, <a class="el" href="namespaceMR_1_1GUI_1_1Dialog.html#addd64ec5b2b39596cdea9b8a03e5093f">MR::GUI::Dialog::display_exception()</a>, <a class="el" href="exception_8h_source.html#l00091">MR::Exception::display_func</a>, <a class="el" href="progressbar_8h_source.html#l00137">MR::ProgressInfo::display_func</a>, <a class="el" href="namespaceMR_1_1GUI_1_1Dialog_1_1ProgressBar.html#aec09cdb39b724877539116b0f635146f">MR::GUI::Dialog::ProgressBar::done()</a>, <a class="el" href="progressbar_8h_source.html#l00138">MR::ProgressInfo::done_func</a>, <a class="el" href="namespaceMR_1_1GUI_1_1Dialog.html#acf72832582253a417997e0a25037566f">MR::GUI::Dialog::select_dicom()</a>, and <a class="el" href="namespaceMR_1_1File_1_1Dicom.html#a00102146ec1dfd6d5d20c5695a8cd407">MR::File::Dicom::select_func</a>.</p>
 
 </div>
 </div>
 <a class="anchor" id="ac0c2f3857a205adacb764f7819bb2bc9"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">MR::GUI::App::~App </td>
@@ -156,7 +182,14 @@ Public Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="src_2gui_2app_8h_source.html#l00052">52</a> of file <a class="el" href="src_2gui_2app_8h_source.html">app.h</a>.</p>
 
 </div>
 </div>
@@ -169,7 +202,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="namespaceMR_1_1GUI.html">GUI</a></li><li class="navelem"><a class="el" href="classMR_1_1GUI_1_1App.html">App</a></li>
-    <li class="footer">Generated on Wed Jan 28 2015 14:35:07 for MRtrix by
+    <li class="footer">Generated on Tue Feb 17 2015 15:05:42 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

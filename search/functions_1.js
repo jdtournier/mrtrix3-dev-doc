@@ -31,7 +31,7 @@ var searchData=
   ['allow_5fmultiple',['allow_multiple',['../classMR_1_1App_1_1Argument.html#a0e4af3973f05e5ba88093a823f02eb9f',1,'MR::App::Argument::allow_multiple()'],['../classMR_1_1App_1_1Option.html#acb87f73566421a3b62e5d7588b6c9716',1,'MR::App::Option::allow_multiple()']]],
   ['ambient_5fintensity_5fslot',['ambient_intensity_slot',['../classMR_1_1GUI_1_1Dialog_1_1LightingSettings.html#ac56b4f0edf5b772c7a0d66a92edbeec3',1,'MR::GUI::Dialog::LightingSettings']]],
   ['analyse',['Analyse',['../classMR_1_1Image_1_1Format_1_1Analyse.html#a9906685f2e84fdd275c75c77aed0f8a9',1,'MR::Image::Format::Analyse']]],
-  ['app',['App',['../classMR_1_1GUI_1_1App.html#a9a924003ae590271ab9f8c1d5c7ddb46',1,'MR::GUI::App']]],
+  ['app',['App',['../classMR_1_1GUI_1_1App.html#a0d91eafdeecb5dc969aafb27f11d77c7',1,'MR::GUI::App']]],
   ['appendchild',['appendChild',['../classMR_1_1GUI_1_1Dialog_1_1TreeItem.html#a1036856459c055d2f467f6c9402a1928',1,'MR::GUI::Dialog::TreeItem']]],
   ['apply',['apply',['../classMR_1_1Math_1_1Permutation.html#af50529299139c4019c9b4c482a68b3db',1,'MR::Math::Permutation::apply()'],['../namespaceMR.html#a15480a6dbbc2093c734f8493abb1af5c',1,'MR::apply()']]],
   ['apply_5fintensity_5fscaling',['apply_intensity_scaling',['../classMR_1_1Image_1_1Header.html#a77e9556362837d20f647005d311960a2',1,'MR::Image::Header']]],

@@ -20,7 +20,6 @@ var searchData=
   ['min',['MIN',['../mrtrix_8h.html#a3acffbd305ee72dcd4593c0d8af64a4f',1,'mrtrix.h']]],
   ['modifiers',['MODIFIERS',['../mrtrix_8h.html#aa3696cca82d1421bac6bbb7b96c151c4',1,'mrtrix.h']]],
   ['move_5fin_5fout_5ffov_5fmultiplier',['MOVE_IN_OUT_FOV_MULTIPLIER',['../src_2gui_2mrview_2mode_2base_8h.html#a08d8e96d624c1d2ce648318bfe726000',1,'base.h']]],
-  ['mrtrix_5fgit_5fversion',['MRTRIX_GIT_VERSION',['../version_8h.html#ac73dbddd3b7df8f2bd12cce4562d96b5',1,'version.h']]],
   ['mrtrix_5fhash_5fmap_5ftype',['MRTRIX_HASH_MAP_TYPE',['../hash__map_8h.html#a8036e21d2f1600c019565e9090f7f087',1,'hash_map.h']]],
   ['mrtrix_5fis_5fbig_5fendian',['MRTRIX_IS_BIG_ENDIAN',['../get__set_8h.html#aa8a7b49754688429d8dd84275cafc067',1,'get_set.h']]],
   ['mrtrix_5fqueue_5fdefault_5fbatch_5fsize',['MRTRIX_QUEUE_DEFAULT_BATCH_SIZE',['../thread__queue_8h.html#a62376d0ebde62dc99133121cec75e9bf',1,'thread_queue.h']]],

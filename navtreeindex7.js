@@ -24,7 +24,7 @@ var NAVTREEINDEX7 =
 "classMR_1_1File_1_1OFStream.html#ad73a01beb966e114d16d0e9090aaad45":[12,0,1,2,7,2],
 "classMR_1_1File_1_1OFStream.html#af657658c90700a01ad01853e32521837":[12,0,1,2,7,1],
 "classMR_1_1GUI_1_1App.html":[12,0,1,3,4],
-"classMR_1_1GUI_1_1App.html#a9a924003ae590271ab9f8c1d5c7ddb46":[12,0,1,3,4,0],
+"classMR_1_1GUI_1_1App.html#a0d91eafdeecb5dc969aafb27f11d77c7":[12,0,1,3,4,0],
 "classMR_1_1GUI_1_1App.html#ac0c2f3857a205adacb764f7819bb2bc9":[12,0,1,3,4,1],
 "classMR_1_1GUI_1_1Cursor.html":[12,0,1,3,5],
 "classMR_1_1GUI_1_1Cursor.html#a42865a75a297016f4e4bf883a6eefa00":[12,0,1,3,5,0],

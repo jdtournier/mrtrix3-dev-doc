@@ -140,7 +140,7 @@ var searchData=
   ['invalid_5fvalue',['INVALID_VALUE',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2ca0ecb7f449fbec939e7f0fbcde9126f3c',1,'gl']]],
   ['invalidate',['invalidate',['../classMR_1_1Math_1_1Versor.html#a579516daa6776b99bbb62523bcd3058f',1,'MR::Math::Versor::invalidate()'],['../classMR_1_1Point.html#a91e1f31025d03af2d43d6f69ad42a7cf',1,'MR::Point::invalidate()']]],
   ['inverse',['inverse',['../group__Filters.html#gae4235a271c07f07416110e22eba206d7',1,'MR::Image::Filter::FFT::inverse()'],['../group__Filters.html#gaaa78f6131713de372a1b84a874faa5e6',1,'MR::Image::Filter::FFT::FFTKernel::inverse()']]],
-  ['invert',['invert',['../namespaceMR_1_1Math_1_1SH.html#a1dff4fb1bbd23c7d96c339329c72af2d',1,'MR::Math::SH::invert()'],['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2ca58af54ed43b39b39390b66d79ae7fa88',1,'gl::INVERT()']]],
+  ['invert',['INVERT',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2ca58af54ed43b39b39390b66d79ae7fa88',1,'gl::INVERT()'],['../namespaceMR_1_1Math_1_1SH.html#a1dff4fb1bbd23c7d96c339329c72af2d',1,'MR::Math::SH::invert()']]],
   ['invert_5fscale',['invert_scale',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1TrackScalarFile.html#a8657b144cbeaddb0711c2f1c7e58ffd9',1,'MR::GUI::MRView::Tool::TrackScalarFile::invert_scale()'],['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1Vector.html#a6fb8c4b10a4b51a550e60d012f1dd9d1',1,'MR::GUI::MRView::Tool::Vector::invert_scale()']]],
   ['invertscale',['InvertScale',['../namespaceMR_1_1GUI_1_1MRView.html#a15345431602229915db9725e894e7998',1,'MR::GUI::MRView']]],
   ['invlength',['INVLENGTH',['../namespaceMR_1_1DWI_1_1Tractography_1_1Mapping.html#a6d8085a00765609c3f8ee435f8cdf31da20d64a752070d12cd531a1bc5961876f',1,'MR::DWI::Tractography::Mapping']]],

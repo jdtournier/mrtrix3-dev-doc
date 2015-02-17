@@ -79,7 +79,7 @@ var searchData=
   ['angle_5ftolerance',['ANGLE_TOLERANCE',['../SH_8h.html#a5835d2253221816d4f18e65f9796d3c6',1,'SH.h']]],
   ['any_5fsamples_5fpassed',['ANY_SAMPLES_PASSED',['../namespacegl.html#ae5454dcd08d3ddf312c20fb27b54bf2ca57a412a4cd35f287d446ee7f34f2a0b6',1,'gl']]],
   ['apientry',['APIENTRY',['../gl__core__3__3_8h.html#a428a91acf2c2439dc1a257708ee1f805',1,'gl_core_3_3.h']]],
-  ['app',['App',['../classMR_1_1GUI_1_1App.html#a9a924003ae590271ab9f8c1d5c7ddb46',1,'MR::GUI::App']]],
+  ['app',['App',['../classMR_1_1GUI_1_1App.html#a0d91eafdeecb5dc969aafb27f11d77c7',1,'MR::GUI::App']]],
   ['app',['App',['../classMR_1_1GUI_1_1App.html',1,'MR::GUI']]],
   ['app_2eh',['app.h',['../lib_2app_8h.html',1,'']]],
   ['app_2eh',['app.h',['../src_2gui_2app_8h.html',1,'']]],
