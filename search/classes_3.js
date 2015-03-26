@@ -4,6 +4,8 @@ var searchData=
   ['clipplane',['ClipPlane',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1ClipPlane.html',1,'MR::GUI::MRView::Tool']]],
   ['cluster',['cluster',['../classMR_1_1Image_1_1Filter_1_1cluster.html',1,'MR::Image::Filter']]],
   ['clustersize',['ClusterSize',['../classMR_1_1Stats_1_1Cluster_1_1ClusterSize.html',1,'MR::Stats::Cluster']]],
+  ['colourmapbutton',['ColourMapButton',['../classMR_1_1GUI_1_1MRView_1_1ColourMapButton.html',1,'MR::GUI::MRView']]],
+  ['colourmapbuttonobserver',['ColourMapButtonObserver',['../classMR_1_1GUI_1_1MRView_1_1ColourMapButtonObserver.html',1,'MR::GUI::MRView']]],
   ['comboboxwitherrormsg',['ComboBoxWithErrorMsg',['../classMR_1_1GUI_1_1MRView_1_1ComboBoxWithErrorMsg.html',1,'MR::GUI::MRView']]],
   ['config',['Config',['../classMR_1_1File_1_1Config.html',1,'MR::File']]],
   ['connectedcomponents',['ConnectedComponents',['../classMR_1_1Image_1_1Filter_1_1ConnectedComponents.html',1,'MR::Image::Filter']]],

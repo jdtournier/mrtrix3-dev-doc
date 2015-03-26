@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">MRtrix
-   &#160;<span id="projectnumber">0.3.11-267-g100badaa</span>
+   &#160;<span id="projectnumber">0.3.12-287-g98196f47</span>
    </div>
    <div id="projectbrief">MRtrix provides a set of tools to perform diffusion-weighted MR white-matter tractography in a manner robust to crossing fibres, using constrained spherical deconvolution (CSD) and probabilistic streamlines.</div>
   </td>
@@ -138,7 +138,7 @@ $(document).ready(function(){initNavTree('command_8h_source.html','');});
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="project__version_8h.html">project_version.h</a>&quot;</span></div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#include &quot;app.h&quot;</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="app_8h.html">app.h</a>&quot;</span></div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#ifdef MRTRIX_AS_R_LIBRARY</span></div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
@@ -154,10 +154,10 @@ $(document).ready(function(){initNavTree('command_8h_source.html','');});
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  <a class="code" href="namespaceMR_1_1App.html#aebb09da9ab1a53e73b575b2e52b4dbc0">::MR::App::ARGUMENTS</a>.clear(); </div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;  <a class="code" href="namespaceMR_1_1App.html#a35c7c52f630a8bbc6ea7147c8860ec01">::MR::App::OPTIONS</a>.clear(); </div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  <span class="keywordflow">try</span> { </div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <a class="code" href="src_2gui_2app_8h.html#a2ef30c42cbc289d899a8be5d2d8f77d0">usage</a>(); </div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <a class="code" href="app_8h.html#a2ef30c42cbc289d899a8be5d2d8f77d0">usage</a>(); </div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <a class="code" href="group__CmdParse.html#gadcf0190d4dc5b77cd99dd6ab5b731f2c">::MR::App::init</a> (*cmdline_argc, cmdline_argv); </div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <a class="code" href="group__CmdParse.html#gaf1a74841efd2f897d660092ce08607de">::MR::App::parse</a> (); </div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <a class="code" href="src_2gui_2app_8h.html#a13a43e6d814de94978c515cb084873b1">run</a> (); </div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <a class="code" href="app_8h.html#a13a43e6d814de94978c515cb084873b1">run</a> (); </div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  } </div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  <span class="keywordflow">catch</span> (<a class="code" href="classMR_1_1Exception.html">MR::Exception</a>&amp; E) { </div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    E.<a class="code" href="classMR_1_1Exception.html#adab282a594bdb71250404da72582006d">display</a>(); </div>
@@ -173,7 +173,7 @@ $(document).ready(function(){initNavTree('command_8h_source.html','');});
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;  <a class="code" href="namespaceMR_1_1App.html#a90b52f988a728c86e793f645d3a4ef3a">::MR::App::DESCRIPTION</a>.clear(); </div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;  <a class="code" href="namespaceMR_1_1App.html#aebb09da9ab1a53e73b575b2e52b4dbc0">::MR::App::ARGUMENTS</a>.clear(); </div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;  <a class="code" href="namespaceMR_1_1App.html#a35c7c52f630a8bbc6ea7147c8860ec01">::MR::App::OPTIONS</a>.clear(); </div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;  <a class="code" href="src_2gui_2app_8h.html#a2ef30c42cbc289d899a8be5d2d8f77d0">usage</a>(); </div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;  <a class="code" href="app_8h.html#a2ef30c42cbc289d899a8be5d2d8f77d0">usage</a>(); </div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;  std::string s = <a class="code" href="group__CmdParse.html#ga0842c1db4881f89fe7fcdbbeb9fbf9f2">MR::App::full_usage</a>(); </div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  *output = <span class="keyword">new</span> <span class="keywordtype">char</span> [s.size()+1]; </div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;  strncpy(*output, s.c_str(), s.size()+1); </div>
@@ -192,11 +192,11 @@ $(document).ready(function(){initNavTree('command_8h_source.html','');});
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;  <span class="keywordflow">try</span> {</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <a class="code" href="group__CmdParse.html#gadcf0190d4dc5b77cd99dd6ab5b731f2c">::MR::App::init</a> (cmdline_argc, cmdline_argv); </div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <a class="code" href="src_2gui_2app_8h.html#a2ef30c42cbc289d899a8be5d2d8f77d0">usage</a> (); </div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <a class="code" href="app_8h.html#a2ef30c42cbc289d899a8be5d2d8f77d0">usage</a> (); </div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <a class="code" href="group__CmdParse.html#gaf1a74841efd2f897d660092ce08607de">::MR::App::parse</a> (); </div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <a class="code" href="src_2gui_2app_8h.html#a13a43e6d814de94978c515cb084873b1">run</a> (); </div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <a class="code" href="app_8h.html#a13a43e6d814de94978c515cb084873b1">run</a> ();</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;  } </div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;  <span class="keywordflow">catch</span> (::<a class="code" href="classMR_1_1Exception.html">MR::Exception</a>&amp; E) { </div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;  <span class="keywordflow">catch</span> (::<a class="code" href="classMR_1_1Exception.html">MR::Exception</a>&amp; E) {</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    E.<a class="code" href="classMR_1_1Exception.html#adab282a594bdb71250404da72582006d">display</a>(); </div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <span class="keywordflow">return</span> 1;</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;  } </div>
@@ -212,28 +212,29 @@ $(document).ready(function(){initNavTree('command_8h_source.html','');});
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div>
 <div class="ttc" id="namespaceMR_1_1App_html_a35c7c52f630a8bbc6ea7147c8860ec01"><div class="ttname"><a href="namespaceMR_1_1App.html#a35c7c52f630a8bbc6ea7147c8860ec01">MR::App::OPTIONS</a></div><div class="ttdeci">OptionList OPTIONS</div></div>
-<div class="ttc" id="classMR_1_1GUI_1_1App_html"><div class="ttname"><a href="classMR_1_1GUI_1_1App.html">MR::GUI::App</a></div><div class="ttdef"><b>Definition:</b> <a href="src_2gui_2app_8h_source.html#l00039">app.h:39</a></div></div>
-<div class="ttc" id="classMR_1_1Exception_html_adab282a594bdb71250404da72582006d"><div class="ttname"><a href="classMR_1_1Exception.html#adab282a594bdb71250404da72582006d">MR::Exception::display</a></div><div class="ttdeci">void display(int log_level=0) const </div><div class="ttdef"><b>Definition:</b> <a href="exception_8h_source.html#l00080">exception.h:80</a></div></div>
-<div class="ttc" id="src_2gui_2app_8h_html_a2ef30c42cbc289d899a8be5d2d8f77d0"><div class="ttname"><a href="src_2gui_2app_8h.html#a2ef30c42cbc289d899a8be5d2d8f77d0">usage</a></div><div class="ttdeci">void usage()</div></div>
+<div class="ttc" id="classMR_1_1GUI_1_1App_html"><div class="ttname"><a href="classMR_1_1GUI_1_1App.html">MR::GUI::App</a></div><div class="ttdef"><b>Definition:</b> <a href="gui_8h_source.html#l00040">gui.h:40</a></div></div>
+<div class="ttc" id="app_8h_html_a2ef30c42cbc289d899a8be5d2d8f77d0"><div class="ttname"><a href="app_8h.html#a2ef30c42cbc289d899a8be5d2d8f77d0">usage</a></div><div class="ttdeci">void usage()</div></div>
+<div class="ttc" id="classMR_1_1Exception_html_adab282a594bdb71250404da72582006d"><div class="ttname"><a href="classMR_1_1Exception.html#adab282a594bdb71250404da72582006d">MR::Exception::display</a></div><div class="ttdeci">void display(int log_level=0) const </div><div class="ttdef"><b>Definition:</b> <a href="exception_8h_source.html#l00098">exception.h:98</a></div></div>
 <div class="ttc" id="group__CmdParse_html_ga0842c1db4881f89fe7fcdbbeb9fbf9f2"><div class="ttname"><a href="group__CmdParse.html#ga0842c1db4881f89fe7fcdbbeb9fbf9f2">MR::App::full_usage</a></div><div class="ttdeci">std::string full_usage()</div></div>
 <div class="ttc" id="project__version_8h_html"><div class="ttname"><a href="project__version_8h.html">project_version.h</a></div></div>
-<div class="ttc" id="src_2gui_2app_8h_html_a13a43e6d814de94978c515cb084873b1"><div class="ttname"><a href="src_2gui_2app_8h.html#a13a43e6d814de94978c515cb084873b1">run</a></div><div class="ttdeci">void run()</div></div>
 <div class="ttc" id="namespaceMR_1_1App_html_af0aeea45aeb00a652d21e8a4d7b21ef8"><div class="ttname"><a href="namespaceMR_1_1App.html#af0aeea45aeb00a652d21e8a4d7b21ef8">MR::App::build_date</a></div><div class="ttdeci">const char * build_date</div></div>
 <div class="ttc" id="group__CmdParse_html_gadcf0190d4dc5b77cd99dd6ab5b731f2c"><div class="ttname"><a href="group__CmdParse.html#gadcf0190d4dc5b77cd99dd6ab5b731f2c">MR::App::init</a></div><div class="ttdeci">void init(int argc, char **argv)</div><div class="ttdoc">initialise MRtrix and parse command-line arguments </div></div>
 <div class="ttc" id="namespaceMR_1_1App_html_a56b22fa8e19eb68dacf817b185d0b386"><div class="ttname"><a href="namespaceMR_1_1App.html#a56b22fa8e19eb68dacf817b185d0b386">MR::App::AUTHOR</a></div><div class="ttdeci">const char * AUTHOR</div></div>
 <div class="ttc" id="namespaceMR_1_1App_html_a90b52f988a728c86e793f645d3a4ef3a"><div class="ttname"><a href="namespaceMR_1_1App.html#a90b52f988a728c86e793f645d3a4ef3a">MR::App::DESCRIPTION</a></div><div class="ttdeci">Description DESCRIPTION</div></div>
-<div class="ttc" id="classMR_1_1Exception_html"><div class="ttname"><a href="classMR_1_1Exception.html">MR::Exception</a></div><div class="ttdef"><b>Definition:</b> <a href="exception_8h_source.html#l00069">exception.h:69</a></div></div>
+<div class="ttc" id="app_8h_html_a13a43e6d814de94978c515cb084873b1"><div class="ttname"><a href="app_8h.html#a13a43e6d814de94978c515cb084873b1">run</a></div><div class="ttdeci">void run()</div></div>
+<div class="ttc" id="classMR_1_1Exception_html"><div class="ttname"><a href="classMR_1_1Exception.html">MR::Exception</a></div><div class="ttdef"><b>Definition:</b> <a href="exception_8h_source.html#l00087">exception.h:87</a></div></div>
 <div class="ttc" id="command_8h_html_a558a5670651db8d88c53414a9aee22ce"><div class="ttname"><a href="command_8h.html#a558a5670651db8d88c53414a9aee22ce">main</a></div><div class="ttdeci">int main(int cmdline_argc, char **cmdline_argv)</div><div class="ttdef"><b>Definition:</b> <a href="command_8h_source.html#l00071">command.h:71</a></div></div>
 <div class="ttc" id="namespaceMR_1_1App_html_aac29ab240475b73bf131d8e647f183a2"><div class="ttname"><a href="namespaceMR_1_1App.html#aac29ab240475b73bf131d8e647f183a2">MR::App::project_version</a></div><div class="ttdeci">const char * project_version</div></div>
 <div class="ttc" id="namespaceMR_1_1App_html_aebb09da9ab1a53e73b575b2e52b4dbc0"><div class="ttname"><a href="namespaceMR_1_1App.html#aebb09da9ab1a53e73b575b2e52b4dbc0">MR::App::ARGUMENTS</a></div><div class="ttdeci">ArgumentList ARGUMENTS</div></div>
+<div class="ttc" id="app_8h_html"><div class="ttname"><a href="app_8h.html">app.h</a></div></div>
 <div class="ttc" id="group__CmdParse_html_gaf1a74841efd2f897d660092ce08607de"><div class="ttname"><a href="group__CmdParse.html#gaf1a74841efd2f897d660092ce08607de">MR::App::parse</a></div><div class="ttdeci">void parse()</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_3ff11c75192253d59f20edbd8b15594c.html">lib</a></li><li class="navelem"><a class="el" href="command_8h.html">command.h</a></li>
-    <li class="footer">Generated on Tue Feb 17 2015 15:11:42 for MRtrix by
+    <li class="navelem"><a class="el" href="dir_d12fee8a0c3e82a28db0b11ebab0386d.html">lib</a></li><li class="navelem"><a class="el" href="command_8h.html">command.h</a></li>
+    <li class="footer">Generated on Thu Mar 26 2015 23:23:40 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

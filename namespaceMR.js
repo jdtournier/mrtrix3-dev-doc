@@ -17,6 +17,7 @@ var namespaceMR =
     [ "Exception", "classMR_1_1Exception.html", "classMR_1_1Exception" ],
     [ "InfoType", "classMR_1_1InfoType.html", null ],
     [ "IntervalTimer", "classMR_1_1IntervalTimer.html", "classMR_1_1IntervalTimer" ],
+    [ "InvalidImageException", "classMR_1_1InvalidImageException.html", "classMR_1_1InvalidImageException" ],
     [ "LogLevelLatch", "classMR_1_1LogLevelLatch.html", "classMR_1_1LogLevelLatch" ],
     [ "Min_mem_array", "classMR_1_1Min__mem__array.html", "classMR_1_1Min__mem__array" ],
     [ "Point", "classMR_1_1Point.html", "classMR_1_1Point" ],

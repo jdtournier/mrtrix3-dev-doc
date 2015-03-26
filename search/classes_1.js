@@ -1,9 +1,10 @@
 var searchData=
 [
+  ['abstractfixel',['AbstractFixel',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1AbstractFixel.html',1,'MR::GUI::MRView::Tool']]],
   ['act_5fmethod_5fadditions',['ACT_Method_additions',['../classMR_1_1DWI_1_1Tractography_1_1ACT_1_1ACT__Method__additions.html',1,'MR::DWI::Tractography::ACT']]],
   ['act_5fshared_5fadditions',['ACT_Shared_additions',['../classMR_1_1DWI_1_1Tractography_1_1ACT_1_1ACT__Shared__additions.html',1,'MR::DWI::Tractography::ACT']]],
-  ['action',['Action',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1Action.html',1,'MR::GUI::MRView::Tool']]],
   ['action',['Action',['../classMR_1_1GUI_1_1MRView_1_1Mode_1_1Action.html',1,'MR::GUI::MRView::Mode']]],
+  ['action',['Action',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1Action.html',1,'MR::GUI::MRView::Tool']]],
   ['adjustbutton',['AdjustButton',['../classMR_1_1GUI_1_1MRView_1_1AdjustButton.html',1,'MR::GUI::MRView']]],
   ['analyse',['Analyse',['../classMR_1_1Image_1_1Format_1_1Analyse.html',1,'MR::Image::Format']]],
   ['app',['App',['../classMR_1_1GUI_1_1App.html',1,'MR::GUI']]],

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['m',['m',['../classMR_1_1GUI_1_1GL_1_1mat4.html#a38a1e3a0be485bd93d53d4d83017076f',1,'MR::GUI::GL::mat4::m()'],['../classMR_1_1Math_1_1SH_1_1Rotate.html#a97c89163f4d84babc61a4e5a97344901',1,'MR::Math::SH::Rotate::M()'],['../classMR_1_1DWI_1_1CSDeconv_1_1Shared.html#af1304077e5171030eb789f8eb99759de',1,'MR::DWI::CSDeconv::Shared::M()'],['../classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1Tensor__Det.html#a809aa4ad2e928a6496ebb8dc8f22382f',1,'MR::DWI::Tractography::Algorithms::Tensor_Det::M()']]],
+  ['m',['m',['../classMR_1_1GUI_1_1GL_1_1mat4.html#a38a1e3a0be485bd93d53d4d83017076f',1,'MR::GUI::GL::mat4::m()'],['../classMR_1_1DWI_1_1CSDeconv_1_1Shared.html#af1304077e5171030eb789f8eb99759de',1,'MR::DWI::CSDeconv::Shared::M()'],['../classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1Tensor__Det.html#a809aa4ad2e928a6496ebb8dc8f22382f',1,'MR::DWI::Tractography::Algorithms::Tensor_Det::M()']]],
   ['m_5fxdim',['m_xdim',['../classMR_1_1Image_1_1Handler_1_1Mosaic.html#ab01a0f1b7d34b4ca0a30a5d56cfd195f',1,'MR::Image::Handler::Mosaic']]],
   ['m_5fydim',['m_ydim',['../classMR_1_1Image_1_1Handler_1_1Mosaic.html#a06116e1633b2944ad35fce544d4d37e3',1,'MR::Image::Handler::Mosaic']]],
   ['main_5fbox',['main_box',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1TrackScalarFile.html#af7e8f39e203805decf34620fe3b5f593',1,'MR::GUI::MRView::Tool::TrackScalarFile']]],
@@ -45,6 +45,7 @@ var searchData=
   ['modes',['modes',['../namespaceMR_1_1DWI_1_1Tractography_1_1Connectomics.html#a35ec5c7a76652e183b0411da367dd10b',1,'MR::DWI::Tractography::Connectomics']]],
   ['moveslice',['MoveSlice',['../namespaceMR_1_1GUI_1_1MRView_1_1Mode.html#a6c846d46c8762c5cb97c464a0067d770',1,'MR::GUI::MRView::Mode']]],
   ['movetarget',['MoveTarget',['../namespaceMR_1_1GUI_1_1MRView_1_1Mode.html#a2a398d76a1242d2e22f671387ca703c0',1,'MR::GUI::MRView::Mode']]],
+  ['mrtrix_5fversion',['mrtrix_version',['../namespaceMR_1_1App.html#a3b993447da07796fda5a22bb0b8d932d',1,'MR::App']]],
   ['msize',['msize',['../classMR_1_1File_1_1MMap.html#a1137fff078e38e4dc1996cb99ae28891',1,'MR::File::MMap']]],
   ['mt_5fb',['Mt_b',['../classMR_1_1DWI_1_1CSDeconv.html#ae57fb23608f475f217a0a17d98799848',1,'MR::DWI::CSDeconv']]],
   ['mt_5fm',['Mt_M',['../classMR_1_1DWI_1_1CSDeconv_1_1Shared.html#a02fc39d81b616622151d11f5723bd979',1,'MR::DWI::CSDeconv::Shared']]],

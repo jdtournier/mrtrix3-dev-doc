@@ -24,8 +24,8 @@ var searchData=
   ['refptr_3c_20std_3a_3avector_3c_20size_5ft_20_3e_20_3e',['RefPtr&lt; std::vector&lt; size_t &gt; &gt;',['../classMR_1_1RefPtr.html',1,'MR']]],
   ['refptr_3c_20std_3a_3avector_3c_20value_5ftype_20_3e_20_3e',['RefPtr&lt; std::vector&lt; value_type &gt; &gt;',['../classMR_1_1RefPtr.html',1,'MR']]],
   ['rejection',['Rejection',['../classMR_1_1DWI_1_1Tractography_1_1Seeding_1_1Rejection.html',1,'MR::DWI::Tractography::Seeding']]],
-  ['renderer',['Renderer',['../classMR_1_1GUI_1_1DWI_1_1Renderer.html',1,'MR::GUI::DWI']]],
   ['renderer',['Renderer',['../classMR_1_1GUI_1_1MRView_1_1ColourMap_1_1Renderer.html',1,'MR::GUI::MRView::ColourMap']]],
+  ['renderer',['Renderer',['../classMR_1_1GUI_1_1DWI_1_1Renderer.html',1,'MR::GUI::DWI']]],
   ['renderframe',['RenderFrame',['../classMR_1_1GUI_1_1DWI_1_1RenderFrame.html',1,'MR::GUI::DWI']]],
   ['replicate',['Replicate',['../classMR_1_1Image_1_1Adapter_1_1Replicate.html',1,'MR::Image::Adapter']]],
   ['resamplefunctor',['ResampleFunctor',['../classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1ResampleFunctor.html',1,'MR::DWI::Tractography::SIFT']]],
@@ -39,6 +39,5 @@ var searchData=
   ['roi_5fitem',['ROI_Item',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI__Item.html',1,'MR::GUI::MRView::Tool']]],
   ['roi_5fmodel',['ROI_Model',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI__Model.html',1,'MR::GUI::MRView::Tool']]],
   ['roi_5fundoentry',['ROI_UndoEntry',['../structMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI__UndoEntry.html',1,'MR::GUI::MRView::Tool']]],
-  ['roiset',['ROISet',['../classMR_1_1DWI_1_1Tractography_1_1ROISet.html',1,'MR::DWI::Tractography']]],
-  ['rotate',['Rotate',['../classMR_1_1Math_1_1SH_1_1Rotate.html',1,'MR::Math::SH']]]
+  ['roiset',['ROISet',['../classMR_1_1DWI_1_1Tractography_1_1ROISet.html',1,'MR::DWI::Tractography']]]
 ];

@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">MRtrix
-   &#160;<span id="projectnumber">0.3.11-267-g100badaa</span>
+   &#160;<span id="projectnumber">0.3.12-287-g98196f47</span>
    </div>
    <div id="projectbrief">MRtrix provides a set of tools to perform diffusion-weighted MR white-matter tractography in a manner robust to crossing fibres, using constrained spherical deconvolution (CSD) and probabilistic streamlines.</div>
   </td>
@@ -222,19 +222,19 @@ $(document).ready(function(){initNavTree('nav_8h_source.html','');});
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;</div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;</div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">class</span> Set, <span class="keyword">class</span> Nav&gt;</div>
-<div class="line"><a name="l00112"></a><span class="lineno"><a class="line" href="namespaceMR_1_1Image_1_1Nav.html#a6a68a1b156969a4691560138b31cc8a6">  112</a></span>&#160;<span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="namespaceMR_1_1Image_1_1Nav.html#a6a68a1b156969a4691560138b31cc8a6">set_value_at_pos</a> (Set&amp; data, <span class="keyword">const</span> Nav&amp; pos, <span class="keyword">const</span> <span class="keyword">typename</span> <a class="code" href="namespaceMR_1_1Math_1_1Stats.html#a7ffd8a70ac77ce44ee325f3544b0bddc">Set::value_type</a> <a class="code" href="namespaceMR_1_1Math_1_1SH.html#abed74e8e329a907299fa666f1327fb25">value</a>)</div>
+<div class="line"><a name="l00112"></a><span class="lineno"><a class="line" href="namespaceMR_1_1Image_1_1Nav.html#a6a68a1b156969a4691560138b31cc8a6">  112</a></span>&#160;<span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="namespaceMR_1_1Image_1_1Nav.html#a6a68a1b156969a4691560138b31cc8a6">set_value_at_pos</a> (Set&amp; data, <span class="keyword">const</span> Nav&amp; pos, <span class="keyword">const</span> <span class="keyword">typename</span> <a class="code" href="namespaceMR_1_1Math_1_1Stats.html#a7ffd8a70ac77ce44ee325f3544b0bddc">Set::value_type</a> <a class="code" href="group__spherical__harmonics.html#gabed74e8e329a907299fa666f1327fb25">value</a>)</div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;{</div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> axis = 0; axis != data.ndim(); ++axis)</div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;      data[axis] = pos[axis];</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    data.value() = <a class="code" href="namespaceMR_1_1Math_1_1SH.html#abed74e8e329a907299fa666f1327fb25">value</a>;</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    data.value() = <a class="code" href="group__spherical__harmonics.html#gabed74e8e329a907299fa666f1327fb25">value</a>;</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;}</div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;</div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">class</span> Set, <span class="keyword">class</span> Po<span class="keywordtype">int</span>_type&gt;</div>
-<div class="line"><a name="l00120"></a><span class="lineno"><a class="line" href="namespaceMR_1_1Image_1_1Nav.html#abe4c69e4960ee1e3921bf751b574d700">  120</a></span>&#160;<span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="namespaceMR_1_1Image_1_1Nav.html#a6a68a1b156969a4691560138b31cc8a6">set_value_at_pos</a> (Set&amp; data, <span class="keyword">const</span> <a class="code" href="classMR_1_1Point.html">Point&lt;Point_type&gt;</a>&amp; pos, <span class="keyword">const</span> <span class="keyword">typename</span> <a class="code" href="namespaceMR_1_1Math_1_1Stats.html#a7ffd8a70ac77ce44ee325f3544b0bddc">Set::value_type</a> <a class="code" href="namespaceMR_1_1Math_1_1SH.html#abed74e8e329a907299fa666f1327fb25">value</a>)</div>
+<div class="line"><a name="l00120"></a><span class="lineno"><a class="line" href="namespaceMR_1_1Image_1_1Nav.html#abe4c69e4960ee1e3921bf751b574d700">  120</a></span>&#160;<span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="namespaceMR_1_1Image_1_1Nav.html#a6a68a1b156969a4691560138b31cc8a6">set_value_at_pos</a> (Set&amp; data, <span class="keyword">const</span> <a class="code" href="classMR_1_1Point.html">Point&lt;Point_type&gt;</a>&amp; pos, <span class="keyword">const</span> <span class="keyword">typename</span> <a class="code" href="namespaceMR_1_1Math_1_1Stats.html#a7ffd8a70ac77ce44ee325f3544b0bddc">Set::value_type</a> <a class="code" href="group__spherical__harmonics.html#gabed74e8e329a907299fa666f1327fb25">value</a>)</div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;{</div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> axis = 0; axis != 3; ++axis)</div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;      data[axis] = pos[axis];</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    data.value() = <a class="code" href="namespaceMR_1_1Math_1_1SH.html#abed74e8e329a907299fa666f1327fb25">value</a>;</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    data.value() = <a class="code" href="group__spherical__harmonics.html#gabed74e8e329a907299fa666f1327fb25">value</a>;</div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;}</div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;</div>
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;</div>
@@ -277,23 +277,23 @@ $(document).ready(function(){initNavTree('nav_8h_source.html','');});
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;</div>
 <div class="ttc" id="namespaceMR_1_1Image_1_1Nav_html_aa92d102023f13fa596a011744eea7414"><div class="ttname"><a href="namespaceMR_1_1Image_1_1Nav.html#aa92d102023f13fa596a011744eea7414">MR::Image::Nav::step_pos</a></div><div class="ttdeci">void step_pos(Set &amp;data, const Nav &amp;step)</div><div class="ttdef"><b>Definition:</b> <a href="nav_8h_source.html#l00078">nav.h:78</a></div></div>
-<div class="ttc" id="namespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> <a href="src_2gui_2app_8h_source.html#l00036">app.h:36</a></div></div>
+<div class="ttc" id="namespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> <a href="app_8h_source.html#l00036">app.h:36</a></div></div>
 <div class="ttc" id="classMR_1_1Point_html"><div class="ttname"><a href="classMR_1_1Point.html">MR::Point</a></div><div class="ttdef"><b>Definition:</b> <a href="point_8h_source.html#l00034">point.h:34</a></div></div>
 <div class="ttc" id="point_8h_html"><div class="ttname"><a href="point_8h.html">point.h</a></div></div>
 <div class="ttc" id="namespaceMR_1_1Image_1_1Nav_html_a6ace643018277088889417696a2e12e4"><div class="ttname"><a href="namespaceMR_1_1Image_1_1Nav.html#a6ace643018277088889417696a2e12e4">MR::Image::Nav::within_bounds</a></div><div class="ttdeci">bool within_bounds(const Set &amp;data, const Nav &amp;pos)</div><div class="ttdef"><b>Definition:</b> <a href="nav_8h_source.html#l00130">nav.h:130</a></div></div>
 <div class="ttc" id="namespaceMR_1_1Image_1_1Nav_html_a551074b5779b37a1c90e02753b49297a"><div class="ttname"><a href="namespaceMR_1_1Image_1_1Nav.html#a551074b5779b37a1c90e02753b49297a">MR::Image::Nav::get_pos</a></div><div class="ttdeci">void get_pos(const Set &amp;data, Nav &amp;pos)</div><div class="ttdef"><b>Definition:</b> <a href="nav_8h_source.html#l00063">nav.h:63</a></div></div>
-<div class="ttc" id="namespaceMR_1_1Math_1_1SH_html_abed74e8e329a907299fa666f1327fb25"><div class="ttname"><a href="namespaceMR_1_1Math_1_1SH.html#abed74e8e329a907299fa666f1327fb25">MR::Math::SH::value</a></div><div class="ttdeci">ValueType value(const CoefType &amp;coefs, ValueType cos_elevation, ValueType cos_azimuth, ValueType sin_azimuth, int lmax)</div><div class="ttdef"><b>Definition:</b> <a href="SH_8h_source.html#l00186">SH.h:186</a></div></div>
 <div class="ttc" id="namespaceMR_1_1Image_1_1Nav_html_a4559d1ec4ce3997ed974a294b54aee00"><div class="ttname"><a href="namespaceMR_1_1Image_1_1Nav.html#a4559d1ec4ce3997ed974a294b54aee00">MR::Image::Nav::set_pos</a></div><div class="ttdeci">void set_pos(Set &amp;data, const Nav &amp;pos)</div><div class="ttdef"><b>Definition:</b> <a href="nav_8h_source.html#l00041">nav.h:41</a></div></div>
 <div class="ttc" id="namespaceMR_1_1Image_1_1Nav_html_a6a68a1b156969a4691560138b31cc8a6"><div class="ttname"><a href="namespaceMR_1_1Image_1_1Nav.html#a6a68a1b156969a4691560138b31cc8a6">MR::Image::Nav::set_value_at_pos</a></div><div class="ttdeci">void set_value_at_pos(Set &amp;data, const Nav &amp;pos, const typename Set::value_type value)</div><div class="ttdef"><b>Definition:</b> <a href="nav_8h_source.html#l00112">nav.h:112</a></div></div>
 <div class="ttc" id="namespaceMR_1_1Image_1_1Nav_html_ac3a401a739cbd52df41e1ff81f1ed1e2"><div class="ttname"><a href="namespaceMR_1_1Image_1_1Nav.html#ac3a401a739cbd52df41e1ff81f1ed1e2">MR::Image::Nav::get_value_at_pos</a></div><div class="ttdeci">Set::value_type get_value_at_pos(Set &amp;data, const Nav &amp;pos)</div><div class="ttdef"><b>Definition:</b> <a href="nav_8h_source.html#l00095">nav.h:95</a></div></div>
 <div class="ttc" id="namespaceMR_1_1Math_1_1Stats_html_a7ffd8a70ac77ce44ee325f3544b0bddc"><div class="ttname"><a href="namespaceMR_1_1Math_1_1Stats.html#a7ffd8a70ac77ce44ee325f3544b0bddc">MR::Math::Stats::value_type</a></div><div class="ttdeci">float value_type</div><div class="ttdef"><b>Definition:</b> <a href="glm_8h_source.html#l00038">glm.h:38</a></div></div>
+<div class="ttc" id="group__spherical__harmonics_html_gabed74e8e329a907299fa666f1327fb25"><div class="ttname"><a href="group__spherical__harmonics.html#gabed74e8e329a907299fa666f1327fb25">MR::Math::SH::value</a></div><div class="ttdeci">ValueType value(const CoefType &amp;coefs, ValueType cos_elevation, ValueType cos_azimuth, ValueType sin_azimuth, int lmax)</div><div class="ttdef"><b>Definition:</b> <a href="SH_8h_source.html#l00211">SH.h:211</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_3ff11c75192253d59f20edbd8b15594c.html">lib</a></li><li class="navelem"><a class="el" href="dir_cde16f1bd045ff096cd18749a99f0d28.html">image</a></li><li class="navelem"><a class="el" href="nav_8h.html">nav.h</a></li>
-    <li class="footer">Generated on Tue Feb 17 2015 15:11:42 for MRtrix by
+    <li class="navelem"><a class="el" href="dir_d12fee8a0c3e82a28db0b11ebab0386d.html">lib</a></li><li class="navelem"><a class="el" href="dir_ddbe5ec406ab5e365c584d1584bed2cc.html">image</a></li><li class="navelem"><a class="el" href="nav_8h.html">nav.h</a></li>
+    <li class="footer">Generated on Thu Mar 26 2015 23:23:40 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

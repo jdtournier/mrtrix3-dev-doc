@@ -14,6 +14,7 @@ var classMR_1_1GUI_1_1MRView_1_1Displayable =
     [ "intensity_max", "classMR_1_1GUI_1_1MRView_1_1Displayable.html#aeb06e27616f088c91bf92075ecb9288c", null ],
     [ "intensity_min", "classMR_1_1GUI_1_1MRView_1_1Displayable.html#aebe2b6df96e4037530bb640f407073bf", null ],
     [ "lighting_enabled", "classMR_1_1GUI_1_1MRView_1_1Displayable.html#a83f4692baea5fe337200b753d351311d", null ],
+    [ "request_render_colourbar", "classMR_1_1GUI_1_1MRView_1_1Displayable.html#a80cb6190ffc9b23be560faff26867cbd", null ],
     [ "reset_windowing", "classMR_1_1GUI_1_1MRView_1_1Displayable.html#a5d2efff4103fa4235f7a17e7758e2ad3", null ],
     [ "scale_inverted", "classMR_1_1GUI_1_1MRView_1_1Displayable.html#a7f3016927daede820ddbe5e387ce97c6", null ],
     [ "scaling_max", "classMR_1_1GUI_1_1MRView_1_1Displayable.html#a85e60fd44b8ae4eb2435bc217fd74726", null ],
@@ -23,6 +24,7 @@ var classMR_1_1GUI_1_1MRView_1_1Displayable =
     [ "set_allowed_features", "classMR_1_1GUI_1_1MRView_1_1Displayable.html#a7a6ae5b65077ef000835462b8971598a", null ],
     [ "set_bit", "classMR_1_1GUI_1_1MRView_1_1Displayable.html#ab22f83213aae2b32f4bb93100aefa7bc", null ],
     [ "set_bit", "classMR_1_1GUI_1_1MRView_1_1Displayable.html#a95fae6ab5bd9c7aeca25ed5550ae079e", null ],
+    [ "set_colour", "classMR_1_1GUI_1_1MRView_1_1Displayable.html#a77a64262c9f210fb3c0b9e49a830f10f", null ],
     [ "set_invert_scale", "classMR_1_1GUI_1_1MRView_1_1Displayable.html#a0ec7c7a22e060eac8c88de7f780396a5", null ],
     [ "set_shader_variables", "classMR_1_1GUI_1_1MRView_1_1Displayable.html#a8a29349f54574f67646aaf78c67dc3d0", null ],
     [ "set_use_discard_lower", "classMR_1_1GUI_1_1MRView_1_1Displayable.html#adde585616c7ad0fe248003914b853f66", null ],
@@ -49,6 +51,7 @@ var classMR_1_1GUI_1_1MRView_1_1Displayable =
     [ "lessthan", "classMR_1_1GUI_1_1MRView_1_1Displayable.html#ace1a1152b27d23ed412be8e752daf4a5", null ],
     [ "opaque_intensity", "classMR_1_1GUI_1_1MRView_1_1Displayable.html#acba4193a50251d6436309b711073957d", null ],
     [ "show", "classMR_1_1GUI_1_1MRView_1_1Displayable.html#a5b047fb5bb3d7af044c00b240cd11c0b", null ],
+    [ "show_colour_bar", "classMR_1_1GUI_1_1MRView_1_1Displayable.html#ad63fd248ff1e6c3b9ceceeed13075e5c", null ],
     [ "transparent_intensity", "classMR_1_1GUI_1_1MRView_1_1Displayable.html#aec354493bb593ef098f893eb4feeccf7", null ],
     [ "value_max", "classMR_1_1GUI_1_1MRView_1_1Displayable.html#a29eaf9c18bad2115a062606f9fbbe202", null ],
     [ "value_min", "classMR_1_1GUI_1_1MRView_1_1Displayable.html#afc49cfff61f8c3109f61b9ad48727e55", null ]

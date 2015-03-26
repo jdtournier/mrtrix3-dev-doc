@@ -2,10 +2,10 @@ var searchData=
 [
   ['base',['Base',['../classMR_1_1Image_1_1Filter_1_1Base.html',1,'MR::Image::Filter']]],
   ['base',['Base',['../classMR_1_1DWI_1_1Tractography_1_1Seeding_1_1Base.html',1,'MR::DWI::Tractography::Seeding']]],
-  ['base',['Base',['../classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base.html',1,'MR::GUI::MRView::Mode']]],
-  ['base',['Base',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html',1,'MR::GUI::MRView::Tool']]],
-  ['base',['Base',['../classMR_1_1Image_1_1Format_1_1Base.html',1,'MR::Image::Format']]],
   ['base',['Base',['../classMR_1_1File_1_1ImageSlice_1_1Base.html',1,'MR::File::ImageSlice']]],
+  ['base',['Base',['../classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base.html',1,'MR::GUI::MRView::Mode']]],
+  ['base',['Base',['../classMR_1_1Image_1_1Format_1_1Base.html',1,'MR::Image::Format']]],
+  ['base',['Base',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html',1,'MR::GUI::MRView::Tool']]],
   ['base',['Base',['../classMR_1_1Image_1_1Handler_1_1Base.html',1,'MR::Image::Handler']]],
   ['bitset',['BitSet',['../classMR_1_1BitSet.html',1,'MR']]],
   ['bootstrap',['Bootstrap',['../classMR_1_1DWI_1_1Bootstrap.html',1,'MR::DWI']]],

@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">MRtrix
-   &#160;<span id="projectnumber">0.3.11-267-g100badaa</span>
+   &#160;<span id="projectnumber">0.3.12-287-g98196f47</span>
    </div>
    <div id="projectbrief">MRtrix provides a set of tools to perform diffusion-weighted MR white-matter tractography in a manner robust to crossing fibres, using constrained spherical deconvolution (CSD) and probabilistic streamlines.</div>
   </td>
@@ -232,7 +232,7 @@ $(document).ready(function(){initNavTree('bitset_8h_source.html','');});
 <div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;      <span class="keyword">static</span> <span class="keyword">const</span> uint8_t masks[8];</div>
 <div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;</div>
 <div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;</div>
-<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;      <span class="keywordtype">bool</span> test  (<span class="keyword">const</span> <span class="keywordtype">size_t</span> <a class="code" href="namespaceMR_1_1Math_1_1SH.html#a12049806261f71471fea43484670d8f5">index</a>)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;      <span class="keywordtype">bool</span> test  (<span class="keyword">const</span> <span class="keywordtype">size_t</span> <a class="code" href="group__spherical__harmonics.html#ga12049806261f71471fea43484670d8f5">index</a>)<span class="keyword"> const</span></div>
 <div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;<span class="keyword">      </span>{</div>
 <div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;        assert (index &lt; bits);</div>
 <div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;        <span class="keywordflow">return</span> (data[index&gt;&gt;3] &amp; masks[index&amp;7]);</div>
@@ -243,15 +243,15 @@ $(document).ready(function(){initNavTree('bitset_8h_source.html','');});
 <div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;        assert (index &lt; bits);</div>
 <div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;        std::atomic&lt;uint8_t&gt;* at = <span class="keyword">reinterpret_cast&lt;</span>std::atomic&lt;uint8_t&gt;*<span class="keyword">&gt;</span> (((uint8_t*) data) + (index&gt;&gt;3));</div>
 <div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;        uint8_t prev = *at, new_value;</div>
-<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;        <span class="keywordflow">do</span> { new_value = prev | masks[<a class="code" href="namespaceMR_1_1Math_1_1SH.html#a12049806261f71471fea43484670d8f5">index</a>&amp;7]; } <span class="keywordflow">while</span> (!at-&gt;compare_exchange_weak (prev, new_value));</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;        <span class="keywordflow">do</span> { new_value = prev | masks[<a class="code" href="group__spherical__harmonics.html#ga12049806261f71471fea43484670d8f5">index</a>&amp;7]; } <span class="keywordflow">while</span> (!at-&gt;compare_exchange_weak (prev, new_value));</div>
 <div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;      }</div>
 <div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;</div>
-<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;      <span class="keywordtype">void</span> reset (<span class="keyword">const</span> <span class="keywordtype">size_t</span> <a class="code" href="namespaceMR_1_1Math_1_1SH.html#a12049806261f71471fea43484670d8f5">index</a>)</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;      <span class="keywordtype">void</span> reset (<span class="keyword">const</span> <span class="keywordtype">size_t</span> <a class="code" href="group__spherical__harmonics.html#ga12049806261f71471fea43484670d8f5">index</a>)</div>
 <div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;      {</div>
 <div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;        assert (index &lt; bits);</div>
-<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;        std::atomic&lt;uint8_t&gt;* at = <span class="keyword">reinterpret_cast&lt;</span>std::atomic&lt;uint8_t&gt;*<span class="keyword">&gt;</span> (((uint8_t*) data) + (<a class="code" href="namespaceMR_1_1Math_1_1SH.html#a12049806261f71471fea43484670d8f5">index</a>&gt;&gt;3));</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;        std::atomic&lt;uint8_t&gt;* at = <span class="keyword">reinterpret_cast&lt;</span>std::atomic&lt;uint8_t&gt;*<span class="keyword">&gt;</span> (((uint8_t*) data) + (<a class="code" href="group__spherical__harmonics.html#ga12049806261f71471fea43484670d8f5">index</a>&gt;&gt;3));</div>
 <div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;        uint8_t prev = *at, new_value;</div>
-<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;        <span class="keywordflow">do</span> { new_value = prev &amp; ~masks[<a class="code" href="namespaceMR_1_1Math_1_1SH.html#a12049806261f71471fea43484670d8f5">index</a>&amp;7]; } <span class="keywordflow">while</span> (!at-&gt;compare_exchange_weak (prev, new_value));</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;        <span class="keywordflow">do</span> { new_value = prev &amp; ~masks[<a class="code" href="group__spherical__harmonics.html#ga12049806261f71471fea43484670d8f5">index</a>&amp;7]; } <span class="keywordflow">while</span> (!at-&gt;compare_exchange_weak (prev, new_value));</div>
 <div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;      }</div>
 <div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;</div>
 <div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;  };</div>
@@ -263,7 +263,7 @@ $(document).ready(function(){initNavTree('bitset_8h_source.html','');});
 <div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="classMR_1_1BitSet_1_1ConstValue_html_a565d41d5ba7379d7d002f361c1602048"><div class="ttname"><a href="classMR_1_1BitSet_1_1ConstValue.html#a565d41d5ba7379d7d002f361c1602048">MR::BitSet::ConstValue::operator==</a></div><div class="ttdeci">bool operator==(const bool i) const </div><div class="ttdef"><b>Definition:</b> <a href="bitset_8h_source.html#l00074">bitset.h:74</a></div></div>
 <div class="ttc" id="classMR_1_1BitSet_html"><div class="ttname"><a href="classMR_1_1BitSet.html">MR::BitSet</a></div><div class="ttdoc">a class for storing bitwise information </div><div class="ttdef"><b>Definition:</b> <a href="bitset_8h_source.html#l00049">bitset.h:49</a></div></div>
-<div class="ttc" id="namespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> <a href="src_2gui_2app_8h_source.html#l00036">app.h:36</a></div></div>
+<div class="ttc" id="namespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> <a href="app_8h_source.html#l00036">app.h:36</a></div></div>
 <div class="ttc" id="classMR_1_1BitSet_html_a6f9d71a1e13579d7d564cd4ce4150fed"><div class="ttname"><a href="classMR_1_1BitSet.html#a6f9d71a1e13579d7d564cd4ce4150fed">MR::BitSet::operator!=</a></div><div class="ttdeci">bool operator!=(const BitSet &amp;) const </div></div>
 <div class="ttc" id="classMR_1_1BitSet_1_1ConstValue_html_abaebb9e5f480d35b3a3d2d5c3e98c81d"><div class="ttname"><a href="classMR_1_1BitSet_1_1ConstValue.html#abaebb9e5f480d35b3a3d2d5c3e98c81d">MR::BitSet::ConstValue::operator&lt;&lt;</a></div><div class="ttdeci">friend std::ostream &amp; operator&lt;&lt;(std::ostream &amp;stream, const ConstValue &amp;V)</div><div class="ttdef"><b>Definition:</b> <a href="bitset_8h_source.html#l00075">bitset.h:75</a></div></div>
 <div class="ttc" id="mrtrix_8h_html"><div class="ttname"><a href="mrtrix_8h.html">mrtrix.h</a></div></div>
@@ -282,8 +282,8 @@ $(document).ready(function(){initNavTree('bitset_8h_source.html','');});
 <div class="ttc" id="classMR_1_1BitSet_html_a2756f7d62ec0b72ffe61db0b40be0a2d"><div class="ttname"><a href="classMR_1_1BitSet.html#a2756f7d62ec0b72ffe61db0b40be0a2d">MR::BitSet::operator==</a></div><div class="ttdeci">bool operator==(const BitSet &amp;) const </div></div>
 <div class="ttc" id="classMR_1_1BitSet_html_abe455b0f85923915cabd4ac62f81445a"><div class="ttname"><a href="classMR_1_1BitSet.html#abe455b0f85923915cabd4ac62f81445a">MR::BitSet::operator~</a></div><div class="ttdeci">BitSet operator~() const </div></div>
 <div class="ttc" id="classMR_1_1BitSet_html_acc2c5657eeb7c94c1998993c881925f6"><div class="ttname"><a href="classMR_1_1BitSet.html#acc2c5657eeb7c94c1998993c881925f6">MR::BitSet::operator|</a></div><div class="ttdeci">BitSet operator|(const BitSet &amp;) const </div></div>
+<div class="ttc" id="group__spherical__harmonics_html_ga12049806261f71471fea43484670d8f5"><div class="ttname"><a href="group__spherical__harmonics.html#ga12049806261f71471fea43484670d8f5">MR::Math::SH::index</a></div><div class="ttdeci">size_t index(int l, int m)</div><div class="ttdoc">compute the index for coefficient (l,m) </div><div class="ttdef"><b>Definition:</b> <a href="SH_8h_source.html#l00065">SH.h:65</a></div></div>
 <div class="ttc" id="classMR_1_1BitSet_html_ac014647e296157ac0bd372e5995cd43d"><div class="ttname"><a href="classMR_1_1BitSet.html#ac014647e296157ac0bd372e5995cd43d">MR::BitSet::operator&amp;=</a></div><div class="ttdeci">BitSet &amp; operator&amp;=(const BitSet &amp;)</div></div>
-<div class="ttc" id="namespaceMR_1_1Math_1_1SH_html_a12049806261f71471fea43484670d8f5"><div class="ttname"><a href="namespaceMR_1_1Math_1_1SH.html#a12049806261f71471fea43484670d8f5">MR::Math::SH::index</a></div><div class="ttdeci">size_t index(int l, int m)</div><div class="ttdef"><b>Definition:</b> <a href="SH_8h_source.html#l00052">SH.h:52</a></div></div>
 <div class="ttc" id="classMR_1_1BitSet_1_1Value_html_a9dcbdd7ffa1bff66b405a3de89a39ad5"><div class="ttname"><a href="classMR_1_1BitSet_1_1Value.html#a9dcbdd7ffa1bff66b405a3de89a39ad5">MR::BitSet::Value::Value</a></div><div class="ttdeci">Value(BitSet &amp;master, const size_t offset)</div><div class="ttdef"><b>Definition:</b> <a href="bitset_8h_source.html#l00058">bitset.h:58</a></div></div>
 <div class="ttc" id="classMR_1_1BitSet_1_1Value_html_a5a847dbd8a668d8f836b5aa8803a4824"><div class="ttname"><a href="classMR_1_1BitSet_1_1Value.html#a5a847dbd8a668d8f836b5aa8803a4824">MR::BitSet::Value::operator&amp;=</a></div><div class="ttdeci">Value &amp; operator&amp;=(const bool i)</div><div class="ttdef"><b>Definition:</b> <a href="bitset_8h_source.html#l00063">bitset.h:63</a></div></div>
 <div class="ttc" id="classMR_1_1BitSet_html_ac35db64859f70b0ffb1d73d6dfa62e31"><div class="ttname"><a href="classMR_1_1BitSet.html#ac35db64859f70b0ffb1d73d6dfa62e31">MR::BitSet::full</a></div><div class="ttdeci">bool full() const </div><div class="ttdoc">whether or not the bitset is &#39;full&#39; i.e. all elements are true </div></div>
@@ -302,8 +302,8 @@ $(document).ready(function(){initNavTree('bitset_8h_source.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_3ff11c75192253d59f20edbd8b15594c.html">lib</a></li><li class="navelem"><a class="el" href="bitset_8h.html">bitset.h</a></li>
-    <li class="footer">Generated on Tue Feb 17 2015 15:11:42 for MRtrix by
+    <li class="navelem"><a class="el" href="dir_d12fee8a0c3e82a28db0b11ebab0386d.html">lib</a></li><li class="navelem"><a class="el" href="bitset_8h.html">bitset.h</a></li>
+    <li class="footer">Generated on Thu Mar 26 2015 23:23:40 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">MRtrix
-   &#160;<span id="projectnumber">0.3.11-267-g100badaa</span>
+   &#160;<span id="projectnumber">0.3.12-287-g98196f47</span>
    </div>
    <div id="projectbrief">MRtrix provides a set of tools to perform diffusion-weighted MR white-matter tractography in a manner robust to crossing fibres, using constrained spherical deconvolution (CSD) and probabilistic streamlines.</div>
   </td>
@@ -137,32 +137,39 @@ $(document).ready(function(){initNavTree('debug_8h_source.html','');});
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#ifndef __debug_h__</span></div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#define __debug_h__</span></div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="mrtrix_8h.html">mrtrix.h</a>&quot;</span></div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#include &quot;app.h&quot;</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#include &lt;string.h&gt;</span></div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
-<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="group__debug.html#gaad9cc64d45a76ba0d37c00f8cd9caa37">   37</a></span>&#160;<span class="preprocessor">#define TRACE \</span></div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">  std::cerr &lt;&lt; MR::App::NAME &lt;&lt; &quot;: at &quot; &lt;&lt; __FILE__ &lt;&lt; &quot;: &quot; &lt;&lt; __LINE__ &lt;&lt; &quot;\n&quot;;</span></div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
-<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="group__debug.html#ga594d8eb85d705a1e71de075c9209cdf3">   42</a></span>&#160;<span class="preprocessor">#define VAR(variable) \</span></div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor">  std::cerr &lt;&lt; MR::App::NAME &lt;&lt; &quot; [&quot; &lt;&lt; __FILE__  &lt;&lt; &quot;: &quot; &lt;&lt; __LINE__ &lt;&lt; &quot;]: &quot; &lt;&lt; #variable &lt;&lt; &quot; = &quot; &lt;&lt; (variable) &lt;&lt; &quot;\n&quot;;</span></div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceMR.html">MR</a> {</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  <span class="keyword">namespace </span>App { </div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="namespaceMR_1_1App.html#ac6a0d42e4a8aa8335837c2fa53a448ab">   32</a></span>&#160;    <span class="keyword">extern</span> std::string <a class="code" href="namespaceMR_1_1App.html#ac6a0d42e4a8aa8335837c2fa53a448ab">NAME</a>;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  } </div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;}</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
+<div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="group__debug.html#gaad9cc64d45a76ba0d37c00f8cd9caa37">   43</a></span>&#160;<span class="preprocessor">#define TRACE \</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">  std::cerr &lt;&lt; MR::App::NAME &lt;&lt; &quot;: at &quot; &lt;&lt; __FILE__ &lt;&lt; &quot;: &quot; &lt;&lt; __LINE__ &lt;&lt; &quot;\n&quot;;</span></div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
-<div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="group__debug.html#ga5666ac5930c9f903698073ab1fa694f7">   48</a></span>&#160;<span class="preprocessor">#define PAUSE { \</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="preprocessor">  std::cerr &lt;&lt; MR::App::NAME &lt;&lt; &quot; [&quot; &lt;&lt; __FILE__  &lt;&lt; &quot;: &quot; &lt;&lt; __LINE__ &lt;&lt; &quot;]: paused (press any key to resume)\n&quot;; \</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor">  std::string __n__; std::getline (std::cin, __n__); \</span></div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="preprocessor">}</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
-<div class="ttc" id="mrtrix_8h_html"><div class="ttname"><a href="mrtrix_8h.html">mrtrix.h</a></div></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
+<div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="group__debug.html#ga594d8eb85d705a1e71de075c9209cdf3">   48</a></span>&#160;<span class="preprocessor">#define VAR(variable) \</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="preprocessor">  std::cerr &lt;&lt; MR::App::NAME &lt;&lt; &quot; [&quot; &lt;&lt; __FILE__  &lt;&lt; &quot;: &quot; &lt;&lt; __LINE__ &lt;&lt; &quot;]: &quot; &lt;&lt; #variable &lt;&lt; &quot; = &quot; &lt;&lt; (variable) &lt;&lt; &quot;\n&quot;;</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
+<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="group__debug.html#ga5666ac5930c9f903698073ab1fa694f7">   54</a></span>&#160;<span class="preprocessor">#define PAUSE { \</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="preprocessor">  std::cerr &lt;&lt; MR::App::NAME &lt;&lt; &quot; [&quot; &lt;&lt; __FILE__  &lt;&lt; &quot;: &quot; &lt;&lt; __LINE__ &lt;&lt; &quot;]: paused (press any key to resume)\n&quot;; \</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor">  std::string __n__; std::getline (std::cin, __n__); \</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">}</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
+<div class="ttc" id="namespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> <a href="app_8h_source.html#l00036">app.h:36</a></div></div>
+<div class="ttc" id="namespaceMR_1_1App_html_ac6a0d42e4a8aa8335837c2fa53a448ab"><div class="ttname"><a href="namespaceMR_1_1App.html#ac6a0d42e4a8aa8335837c2fa53a448ab">MR::App::NAME</a></div><div class="ttdeci">std::string NAME</div><div class="ttdef"><b>Definition:</b> <a href="debug_8h_source.html#l00032">debug.h:32</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_3ff11c75192253d59f20edbd8b15594c.html">lib</a></li><li class="navelem"><a class="el" href="debug_8h.html">debug.h</a></li>
-    <li class="footer">Generated on Tue Feb 17 2015 15:11:42 for MRtrix by
+    <li class="navelem"><a class="el" href="dir_d12fee8a0c3e82a28db0b11ebab0386d.html">lib</a></li><li class="navelem"><a class="el" href="debug_8h.html">debug.h</a></li>
+    <li class="footer">Generated on Thu Mar 26 2015 23:23:40 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

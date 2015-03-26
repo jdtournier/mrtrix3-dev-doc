@@ -23,6 +23,7 @@ var searchData=
   ['exec',['Exec',['../classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1Exec.html#a16c54ba92d6e5ac3c3d34c7ee81bf8c4',1,'MR::DWI::Tractography::Tracking::Exec']]],
   ['execute',['execute',['../classMR_1_1Stats_1_1PermTest_1_1PreProcessor.html#afe96b4c2f6328201fde1309d458841c5',1,'MR::Stats::PermTest::PreProcessor::execute()'],['../classMR_1_1Stats_1_1PermTest_1_1Processor.html#a0989cac41ea87a7a96221ad76bbf656b',1,'MR::Stats::PermTest::Processor::execute()']]],
   ['exists',['exists',['../namespaceMR_1_1Path.html#ab56f281cb393838f296856fc4b794ad1',1,'MR::Path']]],
+  ['export_5fgrad_5fcommandline',['export_grad_commandline',['../namespaceMR_1_1DWI.html#a7b16f20d63f81a9c45eb981c29fd675f',1,'MR::DWI']]],
   ['extract',['Extract',['../classMR_1_1Image_1_1Adapter_1_1Extract.html#a5f0b8a8b66c1c4e04de9de3222b7808d',1,'MR::Image::Adapter::Extract']]],
   ['extract1d',['Extract1D',['../classMR_1_1Image_1_1Adapter_1_1Extract1D.html#ab9a2ac39fac94b8dbe2efb2768b2aefc',1,'MR::Image::Adapter::Extract1D']]]
 ];

@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">MRtrix
-   &#160;<span id="projectnumber">0.3.11-267-g100badaa</span>
+   &#160;<span id="projectnumber">0.3.12-287-g98196f47</span>
    </div>
    <div id="projectbrief">MRtrix provides a set of tools to perform diffusion-weighted MR white-matter tractography in a manner robust to crossing fibres, using constrained spherical deconvolution (CSD) and probabilistic streamlines.</div>
   </td>
@@ -111,7 +111,7 @@ The anatomy of a command</h1>
 <p>First, the relevant headers should be #include'd. This will include at least <code><a class="el" href="command_8h.html">lib/command.h</a></code> file, which includes the relevant code for executables. </p><div class="fragment"><div class="line"><span class="preprocessor">#include &quot;<a class="code" href="command_8h.html">command.h</a>&quot;</span></div>
 </div><!-- fragment --><p>Note that the <code>lib/</code> folder is in the default search path. See <a class="el" href="command_howto.html#include_path">Header search path</a> for details. At this point, it is helpful to bring the <a class="el" href="namespaceMR.html">MR</a> &amp; <a class="el" href="namespaceMR_1_1App.html">MR::App</a> namespaces within the current scope: </p><div class="fragment"><div class="line"><span class="keyword">using namespace </span><a class="code" href="namespaceMR.html">MR</a>;</div>
 <div class="line"><span class="keyword">using namespace </span>App;</div>
-</div><!-- fragment --><p>Information about the application and its syntax is provided in the <a class="el" href="src_2gui_2app_8h.html#a2ef30c42cbc289d899a8be5d2d8f77d0">usage()</a> function: </p><div class="fragment"><div class="line"><span class="keywordtype">void</span> <a class="code" href="src_2gui_2app_8h.html#a2ef30c42cbc289d899a8be5d2d8f77d0">usage</a> () {</div>
+</div><!-- fragment --><p>Information about the application and its syntax is provided in the <a class="el" href="app_8h.html#a2ef30c42cbc289d899a8be5d2d8f77d0">usage()</a> function: </p><div class="fragment"><div class="line"><span class="keywordtype">void</span> <a class="code" href="app_8h.html#a2ef30c42cbc289d899a8be5d2d8f77d0">usage</a> () {</div>
 </div><!-- fragment --><p>In this function, you can optionally set the author and copyright fields, which will be displayed when the command is invoked with the -version option. If ommitted, the author field will default to "J-Donald Tournier", and the copyright notice will default to that of the MRtrix core.</p>
 <div class="fragment"><div class="line"><a class="code" href="namespaceMR_1_1App.html#a56b22fa8e19eb68dacf817b185d0b386">AUTHOR</a> = <span class="stringliteral">&quot;Joe Bloggs&quot;</span>; </div>
 <div class="line"></div>
@@ -143,8 +143,8 @@ The anatomy of a command</h1>
 <div class="line"></div>
 <div class="line">+ Option (<span class="stringliteral">&quot;option2&quot;</span>, <span class="stringliteral">&quot;an option that does not take arguments&quot;</span>);</div>
 <div class="line">}</div>
-</div><!-- fragment --><p> This marks the end of the <a class="el" href="src_2gui_2app_8h.html#a2ef30c42cbc289d899a8be5d2d8f77d0">usage()</a> function.</p>
-<p>Actual processing will take place in the <a class="el" href="src_2gui_2app_8h.html#a13a43e6d814de94978c515cb084873b1">run()</a> function. This function is declared <code>void</code>, and should not return any value. Any errors should be handled using C++ exceptions as described below. Note that any unhandled exception will cause the program to terminate with a non-zero return value. Arguments and options can be retrieved using the argument vector and <a class="el" href="group__CmdParse.html#gaa5c1ac9ee16243842c4c68fb2fa068f1" title="return all command-line options matching name ">get_options()</a> function: </p><div class="fragment"><div class="line"><span class="keywordtype">void</span> <a class="code" href="src_2gui_2app_8h.html#a13a43e6d814de94978c515cb084873b1">run</a> ()</div>
+</div><!-- fragment --><p> This marks the end of the <a class="el" href="app_8h.html#a2ef30c42cbc289d899a8be5d2d8f77d0">usage()</a> function.</p>
+<p>Actual processing will take place in the <a class="el" href="app_8h.html#a13a43e6d814de94978c515cb084873b1">run()</a> function. This function is declared <code>void</code>, and should not return any value. Any errors should be handled using C++ exceptions as described below. Note that any unhandled exception will cause the program to terminate with a non-zero return value. Arguments and options can be retrieved using the argument vector and <a class="el" href="group__CmdParse.html#gaa5c1ac9ee16243842c4c68fb2fa068f1" title="return all command-line options matching name ">get_options()</a> function: </p><div class="fragment"><div class="line"><span class="keywordtype">void</span> <a class="code" href="app_8h.html#a13a43e6d814de94978c515cb084873b1">run</a> ()</div>
 <div class="line">{</div>
 <div class="line">  Image::Buffer buffer_in (<a class="code" href="group__CmdParse.html#gaaa19a69ac07d1173c6bd3e667600fb6a">argument</a>[0]);</div>
 <div class="line"></div>
@@ -222,7 +222,7 @@ Header search path</h1>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Feb 17 2015 15:11:43 for MRtrix by
+    <li class="footer">Generated on Thu Mar 26 2015 23:23:41 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

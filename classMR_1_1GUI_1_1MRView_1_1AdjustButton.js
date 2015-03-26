@@ -11,6 +11,7 @@ var classMR_1_1GUI_1_1MRView_1_1AdjustButton =
     [ "setValue", "classMR_1_1GUI_1_1MRView_1_1AdjustButton.html#a4458a5cdf91c0d606b2c86a0297d7718", null ],
     [ "value", "classMR_1_1GUI_1_1MRView_1_1AdjustButton.html#a595c464abe08cbbf348eff584f8c9571", null ],
     [ "valueChanged", "classMR_1_1GUI_1_1MRView_1_1AdjustButton.html#a93286066dea2ca879ee2693c02b63a24", null ],
+    [ "valueChanged", "classMR_1_1GUI_1_1MRView_1_1AdjustButton.html#a32d77bb2e70b63a04d66fae27af6ed09", null ],
     [ "deadzone_value", "classMR_1_1GUI_1_1MRView_1_1AdjustButton.html#a4e871c220c27d4757ccfaf6cd8cb2655", null ],
     [ "deadzone_y", "classMR_1_1GUI_1_1MRView_1_1AdjustButton.html#a97666cbda46e2e36158fb9dc6dc739f6", null ],
     [ "max", "classMR_1_1GUI_1_1MRView_1_1AdjustButton.html#a3c1eddd81277f8518f74bc867df048af", null ],

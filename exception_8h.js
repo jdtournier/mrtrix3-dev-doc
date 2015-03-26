@@ -1,6 +1,7 @@
 var exception_8h =
 [
     [ "Exception", "classMR_1_1Exception.html", "classMR_1_1Exception" ],
+    [ "InvalidImageException", "classMR_1_1InvalidImageException.html", "classMR_1_1InvalidImageException" ],
     [ "LogLevelLatch", "classMR_1_1LogLevelLatch.html", "classMR_1_1LogLevelLatch" ],
     [ "CONSOLE", "exception_8h.html#af531cf8fc8f1277c97e662f5c10d4678", null ],
     [ "DEBUG", "exception_8h.html#aecc1f7a8a2493b9e021e5bff76a00a5b", null ],

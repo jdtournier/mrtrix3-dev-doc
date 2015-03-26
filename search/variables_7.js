@@ -85,7 +85,6 @@ var searchData=
   ['glrefresh_5ftimer',['glrefresh_timer',['../classMR_1_1GUI_1_1DWI_1_1RenderFrame.html#a94be8d4799a182657a224b6980df8b48',1,'MR::GUI::DWI::RenderFrame']]],
   ['goodrasflag',['goodRASFlag',['../structmgh__header.html#a92c7c5eee1ab9a22e1d64b6d7dcb6949',1,'mgh_header']]],
   ['grad',['grad',['../classMR_1_1Image_1_1Filter_1_1DWIBrainMask.html#a2d8eb564755b5db4aa64a09366ac7b1f',1,'MR::Image::Filter::DWIBrainMask::grad()'],['../classMR_1_1DWI_1_1CSDeconv_1_1Shared.html#a1ee091778e7852ea97329d1e874a316f',1,'MR::DWI::CSDeconv::Shared::grad()']]],
-  ['gradoption',['GradOption',['../namespaceMR_1_1DWI.html#aa95d57317f1e5ca1516604f15099372a',1,'MR::DWI']]],
   ['greaterthan',['greaterthan',['../classMR_1_1GUI_1_1MRView_1_1Displayable.html#a69b03d1e46baa292909f66af127ba4fd',1,'MR::GUI::MRView::Displayable']]],
   ['greyscale_5f',['greyscale_',['../classMR_1_1Image_1_1Filter_1_1Gradient.html#a9b4b559e688028d51a12b844a91068b0',1,'MR::Image::Filter::Gradient']]],
   ['group',['group',['../classMR_1_1File_1_1Dicom_1_1Sequence.html#af689db7b408ce8aeb5df0014efbec8be',1,'MR::File::Dicom::Sequence::group()'],['../classMR_1_1File_1_1Dicom_1_1Element.html#a87112ae58a5c73dbd1868228ae320388',1,'MR::File::Dicom::Element::group()']]],

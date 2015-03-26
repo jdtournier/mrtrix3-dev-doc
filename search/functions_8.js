@@ -1,7 +1,7 @@
 var searchData=
 [
   ['has_5fredo',['has_redo',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI__Item.html#a1a9927b190b988c7e300d38b2f8b27bd',1,'MR::GUI::MRView::Tool::ROI_Item']]],
-  ['has_5fsuffix',['has_suffix',['../namespaceMR_1_1Path.html#aec71ef62d6df55a69e640af475ae3057',1,'MR::Path']]],
+  ['has_5fsuffix',['has_suffix',['../namespaceMR_1_1Path.html#aec71ef62d6df55a69e640af475ae3057',1,'MR::Path::has_suffix(const std::string &amp;name, const std::string &amp;suffix)'],['../namespaceMR_1_1Path.html#ab14271e383bdc70db1e02b9913fd3e9d',1,'MR::Path::has_suffix(const std::string &amp;name, const std::initializer_list&lt; const std::string &gt; &amp;suffix_list)']]],
   ['has_5fundo',['has_undo',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI__Item.html#a424475b630b3e78768a53b852b0a4637',1,'MR::GUI::MRView::Tool::ROI_Item']]],
   ['have_5fact_5fdata',['have_act_data',['../classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1ModelBase.html#affbe63824ceb048fb4d0bb9db35dc4ac',1,'MR::DWI::Tractography::SIFT::ModelBase']]],
   ['hboxlayout',['HBoxLayout',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base_1_1HBoxLayout.html#a740676a9b37bd88c0c1d37ecc0a7073d',1,'MR::GUI::MRView::Tool::Base::HBoxLayout::HBoxLayout()'],['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base_1_1HBoxLayout.html#adb6879988ee9ce4ab6e90092fa55ac7e',1,'MR::GUI::MRView::Tool::Base::HBoxLayout::HBoxLayout(QWidget *parent)']]],

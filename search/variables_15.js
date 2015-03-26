@@ -100,5 +100,5 @@ var searchData=
   ['voxel_5fstatistics',['voxel_statistics',['../namespaceMR_1_1DWI_1_1Tractography_1_1Mapping.html#a1bc27cc64ba468710dc6d893b026e7c7',1,'MR::DWI::Tractography::Mapping']]],
   ['voxels',['voxels',['../classMR_1_1DWI_1_1Bootstrap.html#a7d3d0d71081817b13a759d5a159ac8f8',1,'MR::DWI::Bootstrap']]],
   ['voxelsize',['voxelsize',['../classMR_1_1Image_1_1Transform.html#a3ce1302dfe9f081ab008959b08acb045',1,'MR::Image::Transform']]],
-  ['vr',['vr',['../classMR_1_1File_1_1Dicom_1_1CSAEntry.html#a0817613b4dd1ef5f9deca03c93cf19e1',1,'MR::File::Dicom::CSAEntry::vr()'],['../classMR_1_1File_1_1Dicom_1_1Element.html#a13740d6f2c5a67940448889058302c08',1,'MR::File::Dicom::Element::VR()']]]
+  ['vr',['VR',['../classMR_1_1File_1_1Dicom_1_1Element.html#a13740d6f2c5a67940448889058302c08',1,'MR::File::Dicom::Element::VR()'],['../classMR_1_1File_1_1Dicom_1_1CSAEntry.html#a0817613b4dd1ef5f9deca03c93cf19e1',1,'MR::File::Dicom::CSAEntry::vr()']]]
 ];

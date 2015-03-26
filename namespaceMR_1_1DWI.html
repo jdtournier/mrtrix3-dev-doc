@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">MRtrix
-   &#160;<span id="projectnumber">0.3.11-267-g100badaa</span>
+   &#160;<span id="projectnumber">0.3.12-287-g98196f47</span>
    </div>
    <div id="projectbrief">MRtrix provides a set of tools to perform diffusion-weighted MR white-matter tractography in a manner robust to crossing fibres, using constrained spherical deconvolution (CSD) and probabilistic streamlines.</div>
   </td>
@@ -143,14 +143,21 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a613894718b2446b2df225c7d0e3075a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1App_1_1OptionGroup.html">App::OptionGroup</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1DWI.html#a613894718b2446b2df225c7d0e3075a9">GradImportOptions</a> (bool include_bvalue_scaling=true)</td></tr>
+<tr class="separator:a613894718b2446b2df225c7d0e3075a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad41fcb7f4fb99ba9616914f7c901319f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1App_1_1OptionGroup.html">App::OptionGroup</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1DWI.html#ad41fcb7f4fb99ba9616914f7c901319f">GradExportOptions</a> ()</td></tr>
+<tr class="separator:ad41fcb7f4fb99ba9616914f7c901319f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a97b9dfe336c9252529e75be0af1430f3"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
 <tr class="memitem:a97b9dfe336c9252529e75be0af1430f3"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Math_1_1Matrix.html">Math::Matrix</a>&lt; ValueType &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1DWI.html#a97b9dfe336c9252529e75be0af1430f3">normalise_grad</a> (<a class="el" href="classMR_1_1Math_1_1Matrix.html">Math::Matrix</a>&lt; ValueType &gt; &amp;grad)</td></tr>
 <tr class="memdesc:a97b9dfe336c9252529e75be0af1430f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">ensure each non-b=0 gradient vector is normalised to unit amplitude  <a href="#a97b9dfe336c9252529e75be0af1430f3">More...</a><br /></td></tr>
 <tr class="separator:a97b9dfe336c9252529e75be0af1430f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a387a471ec6f945f119069bd058c06873"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
-<tr class="memitem:a387a471ec6f945f119069bd058c06873"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Math_1_1Matrix.html">Math::Matrix</a>&lt; ValueType &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1DWI.html#a387a471ec6f945f119069bd058c06873">gen_direction_matrix</a> (<a class="el" href="classMR_1_1Math_1_1Matrix.html">Math::Matrix</a>&lt; ValueType &gt; &amp;dirs, const <a class="el" href="classMR_1_1Math_1_1Matrix.html">Math::Matrix</a>&lt; ValueType &gt; &amp;grad, const std::vector&lt; size_t &gt; &amp;dwi)</td></tr>
-<tr class="memdesc:a387a471ec6f945f119069bd058c06873"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert the DW encoding matrix in <em>grad</em> into a azimuth/elevation direction set, using only the <a class="el" href="namespaceMR_1_1DWI.html">DWI</a> volumes as per <em>dwi</em>  <a href="#a387a471ec6f945f119069bd058c06873">More...</a><br /></td></tr>
-<tr class="separator:a387a471ec6f945f119069bd058c06873"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf8c3d453c94ea6c42cadd458287b740"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
+<tr class="memitem:acf8c3d453c94ea6c42cadd458287b740"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Math_1_1Matrix.html">Math::Matrix</a>&lt; ValueType &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1DWI.html#acf8c3d453c94ea6c42cadd458287b740">gen_direction_matrix</a> (const <a class="el" href="classMR_1_1Math_1_1Matrix.html">Math::Matrix</a>&lt; ValueType &gt; &amp;grad, const std::vector&lt; size_t &gt; &amp;dwi)</td></tr>
+<tr class="memdesc:acf8c3d453c94ea6c42cadd458287b740"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert the DW encoding matrix in <em>grad</em> into a azimuth/elevation direction set, using only the <a class="el" href="namespaceMR_1_1DWI.html">DWI</a> volumes as per <em>dwi</em>  <a href="#acf8c3d453c94ea6c42cadd458287b740">More...</a><br /></td></tr>
+<tr class="separator:acf8c3d453c94ea6c42cadd458287b740"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a74b51e88f18ad0fdfcbf10d1633c11"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
+<tr class="memitem:a9a74b51e88f18ad0fdfcbf10d1633c11"><td class="memTemplItemLeft" align="right" valign="top">ValueType&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1DWI.html#a9a74b51e88f18ad0fdfcbf10d1633c11">condition_number_for_lmax</a> (const <a class="el" href="classMR_1_1Math_1_1Matrix.html">Math::Matrix</a>&lt; ValueType &gt; &amp;dirs, int lmax)</td></tr>
+<tr class="separator:a9a74b51e88f18ad0fdfcbf10d1633c11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afbb86a7831784d45bfba8c987a943108"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
 <tr class="memitem:afbb86a7831784d45bfba8c987a943108"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1DWI.html#afbb86a7831784d45bfba8c987a943108">load_bvecs_bvals</a> (<a class="el" href="classMR_1_1Math_1_1Matrix.html">Math::Matrix</a>&lt; ValueType &gt; &amp;grad, const <a class="el" href="classMR_1_1Image_1_1Header.html">Image::Header</a> &amp;header, const std::string &amp;bvecs_path, const std::string &amp;bvals_path)</td></tr>
 <tr class="memdesc:afbb86a7831784d45bfba8c987a943108"><td class="mdescLeft">&#160;</td><td class="mdescRight">load and rectify FSL-style bvecs/bvals DW encoding files  <a href="#afbb86a7831784d45bfba8c987a943108">More...</a><br /></td></tr>
@@ -170,17 +177,19 @@ Functions</h2></td></tr>
 <tr class="memitem:a091d77b52efd3d7da89564245362d8ab"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1DWI.html#a091d77b52efd3d7da89564245362d8ab">check_DW_scheme</a> (const <a class="el" href="classMR_1_1Image_1_1Header.html">Image::Header</a> &amp;header, const <a class="el" href="classMR_1_1Math_1_1Matrix.html">Math::Matrix</a>&lt; ValueType &gt; &amp;grad)</td></tr>
 <tr class="memdesc:a091d77b52efd3d7da89564245362d8ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">check that the DW scheme matches the <a class="el" href="namespaceMR_1_1DWI.html">DWI</a> data in <em>header</em>  <a href="#a091d77b52efd3d7da89564245362d8ab">More...</a><br /></td></tr>
 <tr class="separator:a091d77b52efd3d7da89564245362d8ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b16f20d63f81a9c45eb981c29fd675f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1DWI.html#a7b16f20d63f81a9c45eb981c29fd675f">export_grad_commandline</a> (const <a class="el" href="classMR_1_1Image_1_1Header.html">Image::Header</a> &amp;header)</td></tr>
+<tr class="memdesc:a7b16f20d63f81a9c45eb981c29fd675f"><td class="mdescLeft">&#160;</td><td class="mdescRight">process GradExportOptions command-line options  <a href="#a7b16f20d63f81a9c45eb981c29fd675f">More...</a><br /></td></tr>
+<tr class="separator:a7b16f20d63f81a9c45eb981c29fd675f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc165c4d9f47cf76f32ca5f7e7a59270"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
 <tr class="memitem:adc165c4d9f47cf76f32ca5f7e7a59270"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Math_1_1Matrix.html">Math::Matrix</a>&lt; ValueType &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1DWI.html#adc165c4d9f47cf76f32ca5f7e7a59270">get_valid_DW_scheme</a> (const <a class="el" href="classMR_1_1Image_1_1Header.html">Image::Header</a> &amp;header)</td></tr>
 <tr class="memdesc:adc165c4d9f47cf76f32ca5f7e7a59270"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the DW encoding matrix as per <a class="el" href="namespaceMR_1_1DWI.html#ac9eb81e3f16d520da80ae8187396b89a" title="get the DW gradient encoding matrix ">get_DW_scheme()</a>, and check that it matches the DW header in <em>header</em>  <a href="#adc165c4d9f47cf76f32ca5f7e7a59270">More...</a><br /></td></tr>
 <tr class="separator:adc165c4d9f47cf76f32ca5f7e7a59270"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4cc17ddb196b10a8347322027804540e"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
-<tr class="memitem:a4cc17ddb196b10a8347322027804540e"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Math_1_1Matrix.html">Math::Matrix</a>&lt; ValueType &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1DWI.html#a4cc17ddb196b10a8347322027804540e">get_SH2amp_mapping</a> (const <a class="el" href="classMR_1_1Image_1_1Header.html">Image::Header</a> &amp;header, <a class="el" href="classMR_1_1Math_1_1Matrix.html">Math::Matrix</a>&lt; ValueType &gt; &amp;grad, <a class="el" href="classMR_1_1Math_1_1Matrix.html">Math::Matrix</a>&lt; ValueType &gt; &amp;directions, std::vector&lt; size_t &gt; &amp;dwis, std::vector&lt; size_t &gt; &amp;bzeros, bool lmax_from_command_line=true, int lmax=-1, int max_lmax=8, ValueType bvalue_threshold=NAN)</td></tr>
-<tr class="memdesc:a4cc17ddb196b10a8347322027804540e"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the matrix mapping SH coefficients to directions  <a href="#a4cc17ddb196b10a8347322027804540e">More...</a><br /></td></tr>
-<tr class="separator:a4cc17ddb196b10a8347322027804540e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91c5c958ea6acdbc54889837ca6144a1"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
-<tr class="memitem:a91c5c958ea6acdbc54889837ca6144a1"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Math_1_1Matrix.html">Math::Matrix</a>&lt; ValueType &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1DWI.html#a91c5c958ea6acdbc54889837ca6144a1">get_SH2amp_mapping</a> (const <a class="el" href="classMR_1_1Image_1_1Header.html">Image::Header</a> &amp;header, bool lmax_from_command_line=true, int lmax=-1, int max_lmax=8, ValueType bvalue_threshold=NAN)</td></tr>
-<tr class="separator:a91c5c958ea6acdbc54889837ca6144a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a624016e92c3eb27bf4e2bd9cf1673c51"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
+<tr class="memitem:a624016e92c3eb27bf4e2bd9cf1673c51"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Math_1_1Matrix.html">Math::Matrix</a>&lt; ValueType &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1DWI.html#a624016e92c3eb27bf4e2bd9cf1673c51">compute_SH2amp_mapping</a> (const <a class="el" href="classMR_1_1Math_1_1Matrix.html">Math::Matrix</a>&lt; ValueType &gt; &amp;directions, bool lmax_from_command_line=true, int default_lmax=8, ValueType max_cond=2.0)</td></tr>
+<tr class="memdesc:a624016e92c3eb27bf4e2bd9cf1673c51"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the matrix mapping SH coefficients to amplitudes  <a href="#a624016e92c3eb27bf4e2bd9cf1673c51">More...</a><br /></td></tr>
+<tr class="separator:a624016e92c3eb27bf4e2bd9cf1673c51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3a329ee40e06185e8190c33dac42d50"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1DWI.html#ad3a329ee40e06185e8190c33dac42d50">bzero_threshold</a> ()</td></tr>
+<tr class="separator:ad3a329ee40e06185e8190c33dac42d50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab39580cea0e71e9df8464b0f8c0783f6"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ab39580cea0e71e9df8464b0f8c0783f6"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Math_1_1Matrix.html">Math::Matrix</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1DWI.html#ab39580cea0e71e9df8464b0f8c0783f6">grad2bmatrix</a> (<a class="el" href="classMR_1_1Math_1_1Matrix.html">Math::Matrix</a>&lt; T &gt; &amp;bmat, const <a class="el" href="classMR_1_1Math_1_1Matrix.html">Math::Matrix</a>&lt; T &gt; &amp;grad)</td></tr>
 <tr class="separator:ab39580cea0e71e9df8464b0f8c0783f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -199,16 +208,41 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:aa95d57317f1e5ca1516604f15099372a"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classMR_1_1App_1_1OptionGroup.html">App::OptionGroup</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1DWI.html#aa95d57317f1e5ca1516604f15099372a">GradOption</a></td></tr>
-<tr class="separator:aa95d57317f1e5ca1516604f15099372a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae82cb125ff7c3bc1c336c10087ec9c0b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classMR_1_1App_1_1OptionGroup.html">App::OptionGroup</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1DWI.html#ae82cb125ff7c3bc1c336c10087ec9c0b">CSD_options</a></td></tr>
 <tr class="separator:ae82cb125ff7c3bc1c336c10087ec9c0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c929fcd572aa04a8c1f6bceebc7fc2c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classMR_1_1App_1_1OptionGroup.html">App::OptionGroup</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1DWI.html#a2c929fcd572aa04a8c1f6bceebc7fc2c">ShellOption</a></td></tr>
 <tr class="separator:a2c929fcd572aa04a8c1f6bceebc7fc2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c04b88da81356b29cab4e09305ca68a"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1DWI.html#a7c04b88da81356b29cab4e09305ca68a">bzero_threshold</a></td></tr>
-<tr class="separator:a7c04b88da81356b29cab4e09305ca68a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="ad3a329ee40e06185e8190c33dac42d50"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::DWI::bzero_threshold </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="shells_8h_source.html#l00071">71</a> of file <a class="el" href="shells_8h_source.html">shells.h</a>.</p>
+
+<p>References <a class="el" href="classMR_1_1File_1_1Config.html#a90ba55798ac0b6372b81e41e03ef87d7">MR::File::Config::get_float()</a>, and <a class="el" href="SH_8h_source.html#l00211">MR::Math::SH::value()</a>.</p>
+
+<p>Referenced by <a class="el" href="shells_8h_source.html#l00106">MR::DWI::Shell::is_bzero()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a091d77b52efd3d7da89564245362d8ab"></a>
 <div class="memitem">
 <div class="memproto">
@@ -245,11 +279,99 @@ template&lt;typename ValueType &gt; </div>
 
 <p>check that the DW scheme matches the <a class="el" href="namespaceMR_1_1DWI.html">DWI</a> data in <em>header</em> </p>
 
-<p>Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00204">204</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
+<p>Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00219">219</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
 
 <p>References <a class="el" href="info_8h_source.html#l00103">MR::Image::Info::dim()</a>, <a class="el" href="info_8h_source.html#l00096">MR::Image::Info::ndim()</a>, and <a class="el" href="matrix_8h_source.html#l00387">MR::Math::Matrix&lt; ValueType &gt;::rows()</a>.</p>
 
-<p>Referenced by <a class="el" href="src_2dwi_2gradient_8h_source.html#l00231">get_valid_DW_scheme()</a>.</p>
+<p>Referenced by <a class="el" href="src_2dwi_2gradient_8h_source.html#l00250">get_valid_DW_scheme()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a624016e92c3eb27bf4e2bd9cf1673c51"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Math_1_1Matrix.html">Math::Matrix</a>&lt;ValueType&gt; MR::DWI::compute_SH2amp_mapping </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Math_1_1Matrix.html">Math::Matrix</a>&lt; ValueType &gt; &amp;&#160;</td>
+          <td class="paramname"><em>directions</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>lmax_from_command_line</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>default_lmax</em> = <code>8</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ValueType&#160;</td>
+          <td class="paramname"><em>max_cond</em> = <code>2.0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>get the matrix mapping SH coefficients to amplitudes </p>
+<p>Computes the matrix mapping SH coefficients to the directions specified in <em>directions</em> (in spherical coordinates), up to a given lmax. By default, this is computed from the number of DW directions, up to a maximum value of <em>default_lmax</em> (defaults to 8), or the value specified using c -lmax command-line option (if <em>lmax_from_command_line</em> is true). If the resulting DW scheme is ill-posed (condition number less than <em>max_cond</em>, default 2), lmax will be reduced until it becomes sufficiently well conditioned (unless overridden on the command-line).</p>
+<p>Note that this uses <a class="el" href="namespaceMR_1_1DWI.html#adc165c4d9f47cf76f32ca5f7e7a59270" title="get the DW encoding matrix as per get_DW_scheme(), and check that it matches the DW header in header ...">get_valid_DW_scheme()</a> to get the DW_scheme, so will check for the -grad option as required. </p>
+
+<p>Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00282">282</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
+
+<p>References <a class="el" href="matrix_8h_source.html#l01183">MR::Math::cond()</a>, <a class="el" href="group__CmdParse.html#gaa5c1ac9ee16243842c4c68fb2fa068f1">MR::App::get_options()</a>, <a class="el" href="exception_8h_source.html#l00081">INFO</a>, <a class="el" href="SH_8h_source.html#l00093">MR::Math::SH::init_transform()</a>, <a class="el" href="SH_8h_source.html#l00083">MR::Math::SH::LforN()</a>, <a class="el" href="matrix_8h_source.html#l00387">MR::Math::Matrix&lt; ValueType &gt;::rows()</a>, <a class="el" href="app_8h_source.html#l00112">MR::App::Options::size()</a>, <a class="el" href="mrtrix_8h_source.html#l00126">MR::str()</a>, and <a class="el" href="exception_8h_source.html#l00080">WARN</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9a74b51e88f18ad0fdfcbf10d1633c11"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">ValueType MR::DWI::condition_number_for_lmax </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Math_1_1Matrix.html">Math::Matrix</a>&lt; ValueType &gt; &amp;&#160;</td>
+          <td class="paramname"><em>dirs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>lmax</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00088">88</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
+
+<p>References <a class="el" href="SH_8h_source.html#l00398">MR::Math::SH::C2S()</a>, <a class="el" href="matrix_8h_source.html#l00392">MR::Math::Matrix&lt; ValueType &gt;::columns()</a>, <a class="el" href="matrix_8h_source.html#l01183">MR::Math::cond()</a>, <a class="el" href="SH_8h_source.html#l00093">MR::Math::SH::init_transform()</a>, and <a class="el" href="matrix_8h_source.html#l00387">MR::Math::Matrix&lt; ValueType &gt;::rows()</a>.</p>
 
 </div>
 </div>
@@ -295,7 +417,26 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a387a471ec6f945f119069bd058c06873"></a>
+<a class="anchor" id="a7b16f20d63f81a9c45eb981c29fd675f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::DWI::export_grad_commandline </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Image_1_1Header.html">Image::Header</a> &amp;&#160;</td>
+          <td class="paramname"><em>header</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>process GradExportOptions command-line options </p>
+<p>this checks for the <code>-export_grad_mrtrix</code> &amp; <code>-export_grad_fsl</code> options, and exports the DW schemes if and as requested. </p>
+
+</div>
+</div>
+<a class="anchor" id="acf8c3d453c94ea6c42cadd458287b740"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -305,14 +446,8 @@ template&lt;typename ValueType &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMR_1_1Math_1_1Matrix.html">Math::Matrix</a>&lt;ValueType&gt;&amp; MR::DWI::gen_direction_matrix </td>
+          <td class="memname"><a class="el" href="classMR_1_1Math_1_1Matrix.html">Math::Matrix</a>&lt;ValueType&gt; MR::DWI::gen_direction_matrix </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classMR_1_1Math_1_1Matrix.html">Math::Matrix</a>&lt; ValueType &gt; &amp;&#160;</td>
-          <td class="paramname"><em>dirs</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">const <a class="el" href="classMR_1_1Math_1_1Matrix.html">Math::Matrix</a>&lt; ValueType &gt; &amp;&#160;</td>
           <td class="paramname"><em>grad</em>, </td>
         </tr>
@@ -337,11 +472,11 @@ template&lt;typename ValueType &gt; </div>
 
 <p>convert the DW encoding matrix in <em>grad</em> into a azimuth/elevation direction set, using only the <a class="el" href="namespaceMR_1_1DWI.html">DWI</a> volumes as per <em>dwi</em> </p>
 
-<p>Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00068">68</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
+<p>Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00069">69</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
 
-<p>References <a class="el" href="matrix_8h_source.html#l00231">MR::Math::Matrix&lt; ValueType &gt;::allocate()</a>, <a class="el" href="lib_2math_2vector_8h_source.html#l00669">MR::Math::norm()</a>, <a class="el" href="math_8h_source.html#l00040">MR::Math::pi</a>, and <a class="el" href="matrix_8h_source.html#l00534">MR::Math::Matrix&lt; ValueType &gt;::row()</a>.</p>
+<p>References <a class="el" href="lib_2math_2vector_8h_source.html#l00669">MR::Math::norm()</a>, <a class="el" href="math_8h_source.html#l00040">MR::Math::pi</a>, and <a class="el" href="matrix_8h_source.html#l00534">MR::Math::Matrix&lt; ValueType &gt;::row()</a>.</p>
 
-<p>Referenced by <a class="el" href="src_2dwi_2gradient_8h_source.html#l00262">get_SH2amp_mapping()</a>, and <a class="el" href="constrained_8h_source.html#l00051">MR::DWI::CSDeconv&lt; T &gt;::Shared::Shared()</a>.</p>
+<p>Referenced by <a class="el" href="constrained_8h_source.html#l00051">MR::DWI::CSDeconv&lt; T &gt;::Shared::Shared()</a>.</p>
 
 </div>
 </div>
@@ -369,155 +504,9 @@ template&lt;typename ValueType &gt; </div>
 <li>if no source of gradient encoding is found, return an empty matrix. </li>
 </ul>
 
-<p>Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00166">166</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
+<p>Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00181">181</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
 
-<p>References <a class="el" href="matrix_8h_source.html#l00392">MR::Math::Matrix&lt; ValueType &gt;::columns()</a>, <a class="el" href="exception_8h_source.html#l00064">DEBUG</a>, <a class="el" href="exception_8h_source.html#l00080">MR::Exception::display()</a>, <a class="el" href="header_8h_source.html#l00140">MR::Image::Header::DW_scheme()</a>, <a class="el" href="group__CmdParse.html#gaa5c1ac9ee16243842c4c68fb2fa068f1">MR::App::get_options()</a>, <a class="el" href="exception_8h_source.html#l00063">INFO</a>, <a class="el" href="matrix_8h_source.html#l00397">MR::Math::Matrix&lt; ValueType &gt;::is_set()</a>, <a class="el" href="matrix_8h_source.html#l00303">MR::Math::Matrix&lt; ValueType &gt;::load()</a>, <a class="el" href="src_2dwi_2gradient_8h_source.html#l00096">load_bvecs_bvals()</a>, <a class="el" href="info_8h_source.html#l00082">MR::Image::Info::name()</a>, <a class="el" href="matrix_8h_source.html#l00387">MR::Math::Matrix&lt; ValueType &gt;::rows()</a>, and <a class="el" href="mrtrix_8h_source.html#l00126">MR::str()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a4cc17ddb196b10a8347322027804540e"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename ValueType &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classMR_1_1Math_1_1Matrix.html">Math::Matrix</a>&lt;ValueType&gt; MR::DWI::get_SH2amp_mapping </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1Image_1_1Header.html">Image::Header</a> &amp;&#160;</td>
-          <td class="paramname"><em>header</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classMR_1_1Math_1_1Matrix.html">Math::Matrix</a>&lt; ValueType &gt; &amp;&#160;</td>
-          <td class="paramname"><em>grad</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classMR_1_1Math_1_1Matrix.html">Math::Matrix</a>&lt; ValueType &gt; &amp;&#160;</td>
-          <td class="paramname"><em>directions</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::vector&lt; size_t &gt; &amp;&#160;</td>
-          <td class="paramname"><em>dwis</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::vector&lt; size_t &gt; &amp;&#160;</td>
-          <td class="paramname"><em>bzeros</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>lmax_from_command_line</em> = <code>true</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>lmax</em> = <code>-1</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>max_lmax</em> = <code>8</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ValueType&#160;</td>
-          <td class="paramname"><em>bvalue_threshold</em> = <code>NAN</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>get the matrix mapping SH coefficients to directions </p>
-<p>Computes the matrix mapping SH coefficients to the directions specified in the DW_scheme of <em>header</em>, up to a given lmax. By default, this is read from the -lmax command-line option (if <em>lmax_from_command_line</em> is true), or otherwise computed from the number of DW directions in the DW_scheme, up to a maximum value of <em>max_lmax</em> (defaults to 8). If <em>lmax</em> is specified, this is the value used, unless overriden by the command-line (if <em>lmax_from_command_line</em> is true).</p>
-<p>Note that this uses <a class="el" href="namespaceMR_1_1DWI.html#adc165c4d9f47cf76f32ca5f7e7a59270" title="get the DW encoding matrix as per get_DW_scheme(), and check that it matches the DW header in header ...">get_valid_DW_scheme()</a> to get the DW_scheme, so will check for the -grad option as required. </p>
-
-<p>Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00262">262</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
-
-<p>References <a class="el" href="src_2dwi_2gradient_8h_source.html#l00068">gen_direction_matrix()</a>, <a class="el" href="group__CmdParse.html#gaa5c1ac9ee16243842c4c68fb2fa068f1">MR::App::get_options()</a>, <a class="el" href="exception_8h_source.html#l00063">INFO</a>, <a class="el" href="SH_8h_source.html#l00072">MR::Math::SH::init_transform()</a>, <a class="el" href="SH_8h_source.html#l00066">MR::Math::SH::LforN()</a>, <a class="el" href="src_2gui_2app_8h_source.html#l00109">MR::App::Options::size()</a>, <a class="el" href="mrtrix_8h_source.html#l00126">MR::str()</a>, and <a class="el" href="exception_8h_source.html#l00062">WARN</a>.</p>
-
-<p>Referenced by <a class="el" href="src_2dwi_2gradient_8h_source.html#l00311">get_SH2amp_mapping()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a91c5c958ea6acdbc54889837ca6144a1"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename ValueType &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classMR_1_1Math_1_1Matrix.html">Math::Matrix</a>&lt;ValueType&gt; MR::DWI::get_SH2amp_mapping </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1Image_1_1Header.html">Image::Header</a> &amp;&#160;</td>
-          <td class="paramname"><em>header</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>lmax_from_command_line</em> = <code>true</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>lmax</em> = <code>-1</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>max_lmax</em> = <code>8</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ValueType&#160;</td>
-          <td class="paramname"><em>bvalue_threshold</em> = <code>NAN</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00311">311</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
-
-<p>References <a class="el" href="src_2dwi_2gradient_8h_source.html#l00262">get_SH2amp_mapping()</a>.</p>
+<p>References <a class="el" href="matrix_8h_source.html#l00392">MR::Math::Matrix&lt; ValueType &gt;::columns()</a>, <a class="el" href="exception_8h_source.html#l00082">DEBUG</a>, <a class="el" href="exception_8h_source.html#l00098">MR::Exception::display()</a>, <a class="el" href="header_8h_source.html#l00140">MR::Image::Header::DW_scheme()</a>, <a class="el" href="group__CmdParse.html#gaa5c1ac9ee16243842c4c68fb2fa068f1">MR::App::get_options()</a>, <a class="el" href="exception_8h_source.html#l00081">INFO</a>, <a class="el" href="matrix_8h_source.html#l00397">MR::Math::Matrix&lt; ValueType &gt;::is_set()</a>, <a class="el" href="matrix_8h_source.html#l00303">MR::Math::Matrix&lt; ValueType &gt;::load()</a>, <a class="el" href="src_2dwi_2gradient_8h_source.html#l00111">load_bvecs_bvals()</a>, <a class="el" href="info_8h_source.html#l00082">MR::Image::Info::name()</a>, <a class="el" href="matrix_8h_source.html#l00387">MR::Math::Matrix&lt; ValueType &gt;::rows()</a>, and <a class="el" href="mrtrix_8h_source.html#l00126">MR::str()</a>.</p>
 
 </div>
 </div>
@@ -548,9 +537,9 @@ template&lt;typename ValueType &gt; </div>
 <p>get the DW encoding matrix as per <a class="el" href="namespaceMR_1_1DWI.html#ac9eb81e3f16d520da80ae8187396b89a" title="get the DW gradient encoding matrix ">get_DW_scheme()</a>, and check that it matches the DW header in <em>header</em> </p>
 <p>This is the version that should be used in any application that processes the <a class="el" href="namespaceMR_1_1DWI.html">DWI</a> raw data. </p>
 
-<p>Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00231">231</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
+<p>Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00250">250</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
 
-<p>References <a class="el" href="src_2dwi_2gradient_8h_source.html#l00204">check_DW_scheme()</a>, <a class="el" href="classMR_1_1File_1_1Config.html#a217db5ef39beffaf5fede3f0f2dd9c60">MR::File::Config::get_bool()</a>, <a class="el" href="group__CmdParse.html#gaa5c1ac9ee16243842c4c68fb2fa068f1">MR::App::get_options()</a>, <a class="el" href="src_2dwi_2gradient_8h_source.html#l00051">normalise_grad()</a>, <a class="el" href="src_2dwi_2gradient_8h_source.html#l00143">scale_bvalue_by_G_squared()</a>, and <a class="el" href="src_2gui_2app_8h_source.html#l00109">MR::App::Options::size()</a>.</p>
+<p>References <a class="el" href="src_2dwi_2gradient_8h_source.html#l00219">check_DW_scheme()</a>, <a class="el" href="classMR_1_1File_1_1Config.html#a217db5ef39beffaf5fede3f0f2dd9c60">MR::File::Config::get_bool()</a>, <a class="el" href="group__CmdParse.html#gaa5c1ac9ee16243842c4c68fb2fa068f1">MR::App::get_options()</a>, <a class="el" href="src_2dwi_2gradient_8h_source.html#l00052">normalise_grad()</a>, <a class="el" href="src_2dwi_2gradient_8h_source.html#l00158">scale_bvalue_by_G_squared()</a>, and <a class="el" href="app_8h_source.html#l00112">MR::App::Options::size()</a>.</p>
 
 </div>
 </div>
@@ -596,6 +585,37 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="ad41fcb7f4fb99ba9616914f7c901319f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1App_1_1OptionGroup.html">App::OptionGroup</a> MR::DWI::GradExportOptions </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a613894718b2446b2df225c7d0e3075a9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1App_1_1OptionGroup.html">App::OptionGroup</a> MR::DWI::GradImportOptions </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>include_bvalue_scaling</em> = <code>true</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="afbb86a7831784d45bfba8c987a943108"></a>
 <div class="memitem">
 <div class="memproto">
@@ -637,11 +657,11 @@ template&lt;typename ValueType &gt; </div>
 <p>load and rectify FSL-style bvecs/bvals DW encoding files </p>
 <p>This will load the bvecs/bvals files at the path specified, and convert them to the format expected by MRtrix. This involves rotating the vectors into the scanner frame of reference, and may also involve re-ordering and/or inverting of the vector elements to match the re-ordering performed by MRtrix for non-axial scans. </p>
 
-<p>Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00096">96</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
+<p>Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00111">111</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
 
 <p>References <a class="el" href="matrix_8h_source.html#l00231">MR::Math::Matrix&lt; ValueType &gt;::allocate()</a>, <a class="el" href="matrix_8h_source.html#l00545">MR::Math::Matrix&lt; ValueType &gt;::column()</a>, <a class="el" href="matrix_8h_source.html#l00392">MR::Math::Matrix&lt; ValueType &gt;::columns()</a>, <a class="el" href="info_8h_source.html#l00103">MR::Image::Info::dim()</a>, <a class="el" href="matrix_8h_source.html#l00303">MR::Math::Matrix&lt; ValueType &gt;::load()</a>, <a class="el" href="matrix_8h_source.html#l00888">MR::Math::mult()</a>, <a class="el" href="stride_8h_source.html#l00191">MR::Image::Stride::order()</a>, <a class="el" href="matrix_8h_source.html#l00534">MR::Math::Matrix&lt; ValueType &gt;::row()</a>, <a class="el" href="matrix_8h_source.html#l00387">MR::Math::Matrix&lt; ValueType &gt;::rows()</a>, <a class="el" href="info_8h_source.html#l00117">MR::Image::Info::stride()</a>, <a class="el" href="matrix_8h_source.html#l00518">MR::Math::Matrix&lt; ValueType &gt;::sub()</a>, and <a class="el" href="info_8h_source.html#l00124">MR::Image::Info::transform()</a>.</p>
 
-<p>Referenced by <a class="el" href="src_2dwi_2gradient_8h_source.html#l00166">get_DW_scheme()</a>.</p>
+<p>Referenced by <a class="el" href="src_2dwi_2gradient_8h_source.html#l00181">get_DW_scheme()</a>.</p>
 
 </div>
 </div>
@@ -663,11 +683,11 @@ template&lt;typename ValueType &gt; </div>
 
 <p>ensure each non-b=0 gradient vector is normalised to unit amplitude </p>
 
-<p>Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00051">51</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
+<p>Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00052">52</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
 
 <p>References <a class="el" href="matrix_8h_source.html#l00392">MR::Math::Matrix&lt; ValueType &gt;::columns()</a>, <a class="el" href="lib_2math_2vector_8h_source.html#l00669">MR::Math::norm()</a>, <a class="el" href="matrix_8h_source.html#l00534">MR::Math::Matrix&lt; ValueType &gt;::row()</a>, and <a class="el" href="matrix_8h_source.html#l00387">MR::Math::Matrix&lt; ValueType &gt;::rows()</a>.</p>
 
-<p>Referenced by <a class="el" href="src_2dwi_2gradient_8h_source.html#l00231">get_valid_DW_scheme()</a>.</p>
+<p>Referenced by <a class="el" href="src_2dwi_2gradient_8h_source.html#l00250">get_valid_DW_scheme()</a>.</p>
 
 </div>
 </div>
@@ -724,11 +744,11 @@ template&lt;typename ValueType &gt; </div>
 
 <p>scale b-values by square of gradient norm </p>
 
-<p>Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00143">143</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
+<p>Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00158">158</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
 
-<p>References <a class="el" href="exception_8h_source.html#l00063">INFO</a>, <a class="el" href="lib_2math_2vector_8h_source.html#l00669">MR::Math::norm()</a>, <a class="el" href="matrix_8h_source.html#l00534">MR::Math::Matrix&lt; ValueType &gt;::row()</a>, and <a class="el" href="matrix_8h_source.html#l00387">MR::Math::Matrix&lt; ValueType &gt;::rows()</a>.</p>
+<p>References <a class="el" href="exception_8h_source.html#l00081">INFO</a>, <a class="el" href="lib_2math_2vector_8h_source.html#l00669">MR::Math::norm()</a>, <a class="el" href="matrix_8h_source.html#l00534">MR::Math::Matrix&lt; ValueType &gt;::row()</a>, and <a class="el" href="matrix_8h_source.html#l00387">MR::Math::Matrix&lt; ValueType &gt;::rows()</a>.</p>
 
-<p>Referenced by <a class="el" href="src_2dwi_2gradient_8h_source.html#l00231">get_valid_DW_scheme()</a>.</p>
+<p>Referenced by <a class="el" href="src_2dwi_2gradient_8h_source.html#l00250">get_valid_DW_scheme()</a>.</p>
 
 </div>
 </div>
@@ -825,36 +845,12 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a class="anchor" id="a7c04b88da81356b29cab4e09305ca68a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const float MR::DWI::bzero_threshold</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="ae82cb125ff7c3bc1c336c10087ec9c0b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">const <a class="el" href="classMR_1_1App_1_1OptionGroup.html">App::OptionGroup</a> MR::DWI::CSD_options</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="aa95d57317f1e5ca1516604f15099372a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="classMR_1_1App_1_1OptionGroup.html">App::OptionGroup</a> MR::DWI::GradOption</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -879,7 +875,7 @@ template&lt;typename T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="namespaceMR_1_1DWI.html">DWI</a></li>
-    <li class="footer">Generated on Tue Feb 17 2015 15:11:43 for MRtrix by
+    <li class="footer">Generated on Thu Mar 26 2015 23:23:41 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

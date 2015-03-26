@@ -1,5 +1,6 @@
 var displayable_8h =
 [
+    [ "DisplayableVisitor", "classMR_1_1GUI_1_1MRView_1_1DisplayableVisitor.html", "classMR_1_1GUI_1_1MRView_1_1DisplayableVisitor" ],
     [ "Displayable", "classMR_1_1GUI_1_1MRView_1_1Displayable.html", "classMR_1_1GUI_1_1MRView_1_1Displayable" ],
     [ "Shader", "classMR_1_1GUI_1_1MRView_1_1Displayable_1_1Shader.html", "classMR_1_1GUI_1_1MRView_1_1Displayable_1_1Shader" ],
     [ "DiscardLower", "displayable_8h.html#a683527d5da16b4c4515f5ffee810f821", null ],

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['i',['i',['../classMR_1_1App_1_1Argument.html#a373be362bf90a110061ae92f4a46d6ea',1,'MR::App::Argument::i()'],['../classMR_1_1ProgressInfo.html#a663692c0a6aeb22576ce424b6ffbcc4a',1,'MR::ProgressInfo::i()']]],
+  ['i',['i',['../classMR_1_1App_1_1Argument.html#a373be362bf90a110061ae92f4a46d6ea',1,'MR::App::Argument']]],
   ['i2s',['I2S',['../classMR_1_1Image_1_1Transform.html#aac050f6ba314b6bc33480c1e58dd855f',1,'MR::Image::Transform']]],
   ['id',['ID',['../classMR_1_1File_1_1Dicom_1_1Patient.html#af030fedce17e81b5829c53dbf65264e6',1,'MR::File::Dicom::Patient::ID()'],['../classMR_1_1File_1_1Dicom_1_1Study.html#ac9b07f9329ba9d576c739abefcd6e194',1,'MR::File::Dicom::Study::ID()'],['../classMR_1_1App_1_1Argument.html#aee6541dfc0a15046c056e832bad2a021',1,'MR::App::Argument::id()'],['../classMR_1_1App_1_1Option.html#ad8bbd0d899003e774af4f4931076273f',1,'MR::App::Option::id()'],['../classMR_1_1GUI_1_1GL_1_1Texture.html#a61c8a67fc335a9f4851e7773ad36c391',1,'MR::GUI::GL::Texture::id()'],['../classMR_1_1GUI_1_1GL_1_1VertexBuffer.html#af4ccc081f676ab616a79a22cc80c6e40',1,'MR::GUI::GL::VertexBuffer::id()'],['../classMR_1_1GUI_1_1GL_1_1VertexArrayObject.html#a240e913f86a7fb5519f0b72c773a4559',1,'MR::GUI::GL::VertexArrayObject::id()'],['../classMR_1_1GUI_1_1GL_1_1FrameBuffer.html#a16dfbd13fa8243a682e17930aa950f0d',1,'MR::GUI::GL::FrameBuffer::id()']]],
   ['identifiers',['identifiers',['../classMR_1_1DataType.html#abe590d28f0fa677a29aee05eb7a1fa7e',1,'MR::DataType']]],
@@ -45,7 +45,7 @@ var searchData=
   ['interp',['interp',['../classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TWIImagePluginBase.html#a61168869b2c11db3afe4567e6b786c80',1,'MR::DWI::Tractography::Mapping::TWIImagePluginBase::interp()'],['../classMR_1_1GUI_1_1MRView_1_1Image.html#a7d649648d3cb3bb47f6b591cc43ee5bf',1,'MR::GUI::MRView::Image::interp()']]],
   ['interp_5ftemplate',['interp_template',['../classMR_1_1DWI_1_1Tractography_1_1ACT_1_1GMWMI__finder.html#a07b58ee6f4b5fd755ecd0c7001d65173',1,'MR::DWI::Tractography::ACT::GMWMI_finder']]],
   ['interp_5ftype',['interp_type',['../classMR_1_1Image_1_1Filter_1_1Resize.html#abef0f24331865fe6cc6e326ffdcc1bf2',1,'MR::Image::Filter::Resize']]],
-  ['interpolate_5fcheck_5fbox',['interpolate_check_box',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1Overlay.html#af3b4514e19958c8ca69138d12320ef18',1,'MR::GUI::MRView::Tool::Overlay']]],
+  ['interpolate_5fcheck_5fbox',['interpolate_check_box',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1Overlay.html#ac334f25b77b64c18f8d2ae86cf0b1c04',1,'MR::GUI::MRView::Tool::Overlay']]],
   ['interpolation',['interpolation',['../classMR_1_1GUI_1_1MRView_1_1Volume.html#a1b22a0a8cc2c464daf01cdf3c9b3be5b',1,'MR::GUI::MRView::Volume']]],
   ['interpolation_5fbox',['interpolation_box',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1ODF.html#ab2bdf7d0a71c589e3e197105afab8691',1,'MR::GUI::MRView::Tool::ODF']]],
   ['interval',['interval',['../classMR_1_1IntervalTimer.html#a8a812b78b06c22fa78e9064ecfe6813a',1,'MR::IntervalTimer']]],

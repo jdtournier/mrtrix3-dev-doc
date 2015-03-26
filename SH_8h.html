@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">MRtrix
-   &#160;<span id="projectnumber">0.3.11-267-g100badaa</span>
+   &#160;<span id="projectnumber">0.3.12-287-g98196f47</span>
    </div>
    <div id="projectbrief">MRtrix provides a set of tools to perform diffusion-weighted MR white-matter tractography in a manner robust to crossing fibres, using constrained spherical deconvolution (CSD) and probabilistic streamlines.</div>
   </td>
@@ -129,13 +129,14 @@ $(document).ready(function(){initNavTree('SH_8h.html','');});
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Math_1_1SH_1_1Transform.html">MR::Math::SH::Transform&lt; ValueType &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Math_1_1SH_1_1Rotate.html">MR::Math::SH::Rotate&lt; ValueType &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Math_1_1SH_1_1PrecomputedFraction.html">MR::Math::SH::PrecomputedFraction&lt; ValueType &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">used to speed up <a class="el" href="namespaceMR_1_1Math_1_1SH.html">SH</a> calculation  <a href="classMR_1_1Math_1_1SH_1_1PrecomputedFraction.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Math_1_1SH_1_1PrecomputedAL.html">MR::Math::SH::PrecomputedAL&lt; ValueType &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Precomputed Associated Legrendre Polynomials - used to speed up <a class="el" href="namespaceMR_1_1Math_1_1SH.html">SH</a> calculation.  <a href="classMR_1_1Math_1_1SH_1_1PrecomputedAL.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Math_1_1SH_1_1aPSF.html">MR::Math::SH::aPSF&lt; ValueType &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">a class to hold the coefficients for an apodised point-spread function.  <a href="classMR_1_1Math_1_1SH_1_1aPSF.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -153,102 +154,125 @@ Macros</h2></td></tr>
 <tr class="separator:a4ee2d519e14dc95a5ed11efa93fe465f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5835d2253221816d4f18e65f9796d3c6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="SH_8h.html#a5835d2253221816d4f18e65f9796d3c6">ANGLE_TOLERANCE</a>&#160;&#160;&#160;1e-4</td></tr>
 <tr class="separator:a5835d2253221816d4f18e65f9796d3c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa5599527d6d00f72e280f55ccb190fcf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="SH_8h.html#aa5599527d6d00f72e280f55ccb190fcf">SH_NON_M0_SCALE_FACTOR</a>&#160;&#160;&#160;(m ? Math::sqrt2 : 1.0)*</td></tr>
-<tr class="separator:aa5599527d6d00f72e280f55ccb190fcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa5599527d6d00f72e280f55ccb190fcf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__spherical__harmonics.html#gaa5599527d6d00f72e280f55ccb190fcf">SH_NON_M0_SCALE_FACTOR</a>&#160;&#160;&#160;(m ? Math::sqrt2 : 1.0)*</td></tr>
+<tr class="separator:gaa5599527d6d00f72e280f55ccb190fcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a96a93012c20066bfbdb6c1a1ec1cfe15"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Math_1_1SH.html#a96a93012c20066bfbdb6c1a1ec1cfe15">MR::Math::SH::NforL</a> (int lmax)</td></tr>
-<tr class="separator:a96a93012c20066bfbdb6c1a1ec1cfe15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12049806261f71471fea43484670d8f5"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Math_1_1SH.html#a12049806261f71471fea43484670d8f5">MR::Math::SH::index</a> (int l, int m)</td></tr>
-<tr class="separator:a12049806261f71471fea43484670d8f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8bc0c976c67b9eb91e2dfd71bede4fe1"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Math_1_1SH.html#a8bc0c976c67b9eb91e2dfd71bede4fe1">MR::Math::SH::NforL_mpos</a> (int lmax)</td></tr>
-<tr class="separator:a8bc0c976c67b9eb91e2dfd71bede4fe1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5296aa18ca79b9a88a46cee00c47667a"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Math_1_1SH.html#a5296aa18ca79b9a88a46cee00c47667a">MR::Math::SH::index_mpos</a> (int l, int m)</td></tr>
-<tr class="separator:a5296aa18ca79b9a88a46cee00c47667a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28d9e09433f42e5036ec45ed6e7806bf"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Math_1_1SH.html#a28d9e09433f42e5036ec45ed6e7806bf">MR::Math::SH::LforN</a> (int N)</td></tr>
-<tr class="separator:a28d9e09433f42e5036ec45ed6e7806bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a018c7e929ccb619c7d2c4c764fcd755e"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
-<tr class="memitem:a018c7e929ccb619c7d2c4c764fcd755e"><td class="memTemplItemLeft" align="right" valign="top">Matrix&lt; ValueType &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Math_1_1SH.html#a018c7e929ccb619c7d2c4c764fcd755e">MR::Math::SH::init_transform</a> (Matrix&lt; ValueType &gt; &amp;SHT, const Matrix&lt; ValueType &gt; &amp;dirs, int lmax)</td></tr>
-<tr class="separator:a018c7e929ccb619c7d2c4c764fcd755e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a042f734c8afb5ba79189904b13f286b2"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
-<tr class="memitem:a042f734c8afb5ba79189904b13f286b2"><td class="memTemplItemLeft" align="right" valign="top">Matrix&lt; ValueType &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Math_1_1SH.html#a042f734c8afb5ba79189904b13f286b2">MR::Math::SH::init_transform</a> (const Matrix&lt; ValueType &gt; &amp;dirs, int lmax)</td></tr>
-<tr class="separator:a042f734c8afb5ba79189904b13f286b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66ffab4d5dd99ae1779da5981cf76f98"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
-<tr class="memitem:a66ffab4d5dd99ae1779da5981cf76f98"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Math_1_1SH.html#a66ffab4d5dd99ae1779da5981cf76f98">MR::Math::SH::scale_degrees_forward</a> (Matrix&lt; ValueType &gt; &amp;SH2amp_mapping, const Vector&lt; ValueType &gt; &amp;coefs)</td></tr>
-<tr class="separator:a66ffab4d5dd99ae1779da5981cf76f98"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e9abefda9ea398c5ea3e826fc1684d3"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
-<tr class="memitem:a1e9abefda9ea398c5ea3e826fc1684d3"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Math_1_1SH.html#a1e9abefda9ea398c5ea3e826fc1684d3">MR::Math::SH::scale_degrees_inverse</a> (Matrix&lt; ValueType &gt; &amp;amp2SH_mapping, const Vector&lt; ValueType &gt; &amp;coefs)</td></tr>
-<tr class="separator:a1e9abefda9ea398c5ea3e826fc1684d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1dff4fb1bbd23c7d96c339329c72af2d"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
-<tr class="memitem:a1dff4fb1bbd23c7d96c339329c72af2d"><td class="memTemplItemLeft" align="right" valign="top">Vector&lt; ValueType &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Math_1_1SH.html#a1dff4fb1bbd23c7d96c339329c72af2d">MR::Math::SH::invert</a> (const Vector&lt; ValueType &gt; &amp;coefs)</td></tr>
-<tr class="separator:a1dff4fb1bbd23c7d96c339329c72af2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abed74e8e329a907299fa666f1327fb25"><td class="memTemplParams" colspan="2">template&lt;typename ValueType , typename CoefType &gt; </td></tr>
-<tr class="memitem:abed74e8e329a907299fa666f1327fb25"><td class="memTemplItemLeft" align="right" valign="top">ValueType&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Math_1_1SH.html#abed74e8e329a907299fa666f1327fb25">MR::Math::SH::value</a> (const CoefType &amp;coefs, ValueType cos_elevation, ValueType cos_azimuth, ValueType sin_azimuth, int lmax)</td></tr>
-<tr class="separator:abed74e8e329a907299fa666f1327fb25"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8cf559cd72edc71a33270cc992278e4"><td class="memTemplParams" colspan="2">template&lt;typename ValueType , typename CoefType &gt; </td></tr>
-<tr class="memitem:aa8cf559cd72edc71a33270cc992278e4"><td class="memTemplItemLeft" align="right" valign="top">ValueType&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Math_1_1SH.html#aa8cf559cd72edc71a33270cc992278e4">MR::Math::SH::value</a> (const CoefType &amp;coefs, ValueType cos_elevation, ValueType azimuth, int lmax)</td></tr>
-<tr class="separator:aa8cf559cd72edc71a33270cc992278e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e61b7a9672b34edbc8319fe7fbe833c"><td class="memTemplParams" colspan="2">template&lt;typename ValueType , typename CoefType &gt; </td></tr>
-<tr class="memitem:a7e61b7a9672b34edbc8319fe7fbe833c"><td class="memTemplItemLeft" align="right" valign="top">ValueType&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Math_1_1SH.html#a7e61b7a9672b34edbc8319fe7fbe833c">MR::Math::SH::value</a> (const CoefType &amp;coefs, const Point&lt; ValueType &gt; &amp;unit_dir, int lmax)</td></tr>
-<tr class="separator:a7e61b7a9672b34edbc8319fe7fbe833c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb4ee624a2ea9a4ae3bed9e51726c810"><td class="memTemplParams" colspan="2">template&lt;typename ValueType , typename CoefType &gt; </td></tr>
-<tr class="memitem:adb4ee624a2ea9a4ae3bed9e51726c810"><td class="memTemplItemLeft" align="right" valign="top">ValueType&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Math_1_1SH.html#adb4ee624a2ea9a4ae3bed9e51726c810">MR::Math::SH::value</a> (const CoefType *coefs, const Point&lt; ValueType &gt; &amp;unit_dir, int lmax)</td></tr>
-<tr class="separator:adb4ee624a2ea9a4ae3bed9e51726c810"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d10d4e619a9937032a62a93991fc0cf"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
-<tr class="memitem:a1d10d4e619a9937032a62a93991fc0cf"><td class="memTemplItemLeft" align="right" valign="top">Vector&lt; ValueType &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Math_1_1SH.html#a1d10d4e619a9937032a62a93991fc0cf">MR::Math::SH::delta</a> (Vector&lt; ValueType &gt; &amp;delta_vec, const Point&lt; ValueType &gt; &amp;unit_dir, int lmax)</td></tr>
-<tr class="separator:a1d10d4e619a9937032a62a93991fc0cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6e583c238a09ab29c769754bd485ad2"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
-<tr class="memitem:aa6e583c238a09ab29c769754bd485ad2"><td class="memTemplItemLeft" align="right" valign="top">Vector&lt; ValueType &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Math_1_1SH.html#aa6e583c238a09ab29c769754bd485ad2">MR::Math::SH::SH2RH</a> (Vector&lt; ValueType &gt; &amp;RH, const Vector&lt; ValueType &gt; &amp;sh)</td></tr>
-<tr class="separator:aa6e583c238a09ab29c769754bd485ad2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b9abac21ca4abb5b23f5b5ae8b7b42d"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
-<tr class="memitem:a9b9abac21ca4abb5b23f5b5ae8b7b42d"><td class="memTemplItemLeft" align="right" valign="top">Vector&lt; ValueType &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Math_1_1SH.html#a9b9abac21ca4abb5b23f5b5ae8b7b42d">MR::Math::SH::SH2RH</a> (const Vector&lt; ValueType &gt; &amp;sh)</td></tr>
-<tr class="separator:a9b9abac21ca4abb5b23f5b5ae8b7b42d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af8a9811782510722d3c3e452a1ec1c98"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
-<tr class="memitem:af8a9811782510722d3c3e452a1ec1c98"><td class="memTemplItemLeft" align="right" valign="top">Vector&lt; ValueType &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Math_1_1SH.html#af8a9811782510722d3c3e452a1ec1c98">MR::Math::SH::sconv</a> (Vector&lt; ValueType &gt; &amp;C, const Vector&lt; ValueType &gt; &amp;RH, const Vector&lt; ValueType &gt; &amp;sh)</td></tr>
-<tr class="separator:af8a9811782510722d3c3e452a1ec1c98"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99044d90be59eada469b75286d3982c1"><td class="memTemplParams" colspan="2">template&lt;class VectorType1 , class VectorType2 &gt; </td></tr>
-<tr class="memitem:a99044d90be59eada469b75286d3982c1"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Math_1_1SH.html#a99044d90be59eada469b75286d3982c1">MR::Math::SH::s2c</a> (const VectorType1 &amp;az_el_r, VectorType2 &amp;&amp;xyz)</td></tr>
-<tr class="separator:a99044d90be59eada469b75286d3982c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af833fc09f1b9522cf9808ba7eeba7bdf"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
-<tr class="memitem:af833fc09f1b9522cf9808ba7eeba7bdf"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Math_1_1SH.html#af833fc09f1b9522cf9808ba7eeba7bdf">MR::Math::SH::S2C</a> (const Matrix&lt; ValueType &gt; &amp;az_el, Matrix&lt; ValueType &gt; &amp;cartesian)</td></tr>
-<tr class="separator:af833fc09f1b9522cf9808ba7eeba7bdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45591e79c28bcd090234705ad137c889"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
-<tr class="memitem:a45591e79c28bcd090234705ad137c889"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Math_1_1SH.html#a45591e79c28bcd090234705ad137c889">MR::Math::SH::S2C</a> (const Matrix&lt; ValueType &gt; &amp;az_el, Matrix&lt; ValueType &gt; &amp;&amp;cartesian)</td></tr>
-<tr class="separator:a45591e79c28bcd090234705ad137c889"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad78425b7e3c6804ba4fdeb6b77600202"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
-<tr class="memitem:ad78425b7e3c6804ba4fdeb6b77600202"><td class="memTemplItemLeft" align="right" valign="top">Math::Matrix&lt; ValueType &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Math_1_1SH.html#ad78425b7e3c6804ba4fdeb6b77600202">MR::Math::SH::S2C</a> (const Matrix&lt; ValueType &gt; &amp;az_el)</td></tr>
-<tr class="memdesc:ad78425b7e3c6804ba4fdeb6b77600202"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert matrix of spherical coordinates to cartesian coordinates  <a href="#ad78425b7e3c6804ba4fdeb6b77600202">More...</a><br /></td></tr>
-<tr class="separator:ad78425b7e3c6804ba4fdeb6b77600202"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c2ee613e0820b1c894050fd6cae0387"><td class="memTemplParams" colspan="2">template&lt;class VectorType1 , class VectorType2 &gt; </td></tr>
-<tr class="memitem:a3c2ee613e0820b1c894050fd6cae0387"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Math_1_1SH.html#a3c2ee613e0820b1c894050fd6cae0387">MR::Math::SH::c2s</a> (const VectorType1 &amp;xyz, VectorType2 &amp;&amp;az_el_r)</td></tr>
-<tr class="separator:a3c2ee613e0820b1c894050fd6cae0387"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a239800460188d1501fbe53b14957dc5a"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
-<tr class="memitem:a239800460188d1501fbe53b14957dc5a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Math_1_1SH.html#a239800460188d1501fbe53b14957dc5a">MR::Math::SH::C2S</a> (const Matrix&lt; ValueType &gt; &amp;cartesian, Matrix&lt; ValueType &gt; &amp;az_el, bool include_r=false)</td></tr>
-<tr class="separator:a239800460188d1501fbe53b14957dc5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8c398963332cb2534765a6b9d1ff3f8"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
-<tr class="memitem:ab8c398963332cb2534765a6b9d1ff3f8"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Math_1_1SH.html#ab8c398963332cb2534765a6b9d1ff3f8">MR::Math::SH::C2S</a> (const Matrix&lt; ValueType &gt; &amp;cartesian, Matrix&lt; ValueType &gt; &amp;&amp;az_el, bool include_r=false)</td></tr>
-<tr class="separator:ab8c398963332cb2534765a6b9d1ff3f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9d257f881af6493c40a12cfc1c16dd8"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
-<tr class="memitem:ad9d257f881af6493c40a12cfc1c16dd8"><td class="memTemplItemLeft" align="right" valign="top">Math::Matrix&lt; ValueType &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Math_1_1SH.html#ad9d257f881af6493c40a12cfc1c16dd8">MR::Math::SH::C2S</a> (const Matrix&lt; ValueType &gt; &amp;cartesian, bool include_r=false)</td></tr>
-<tr class="separator:ad9d257f881af6493c40a12cfc1c16dd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a004651695b7b891a8a044c80b8459850"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
-<tr class="memitem:a004651695b7b891a8a044c80b8459850"><td class="memTemplItemLeft" align="right" valign="top">Vector&lt; ValueType &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Math_1_1SH.html#a004651695b7b891a8a044c80b8459850">MR::Math::SH::FA2SH</a> (Vector&lt; ValueType &gt; &amp;sh, ValueType FA, ValueType ADC, ValueType bvalue, int lmax, int precision=100)</td></tr>
-<tr class="separator:a004651695b7b891a8a044c80b8459850"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac687c3259911d0d472b61fdc02bf31ad"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
-<tr class="memitem:ac687c3259911d0d472b61fdc02bf31ad"><td class="memTemplItemLeft" align="right" valign="top">ValueType&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Math_1_1SH.html#ac687c3259911d0d472b61fdc02bf31ad">MR::Math::SH::get_peak</a> (const ValueType *sh, int lmax, Point&lt; ValueType &gt; &amp;unit_init_dir, PrecomputedAL&lt; ValueType &gt; *precomputer=NULL)</td></tr>
-<tr class="separator:ac687c3259911d0d472b61fdc02bf31ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8184b654b67415b192b4f60f87f44175"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
-<tr class="memitem:a8184b654b67415b192b4f60f87f44175"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Math_1_1SH.html#a8184b654b67415b192b4f60f87f44175">MR::Math::SH::derivatives</a> (const ValueType *sh, const int lmax, const ValueType elevation, const ValueType azimuth, ValueType &amp;amplitude, ValueType &amp;dSH_del, ValueType &amp;dSH_daz, ValueType &amp;d2SH_del2, ValueType &amp;d2SH_deldaz, ValueType &amp;d2SH_daz2, PrecomputedAL&lt; ValueType &gt; *precomputer)</td></tr>
-<tr class="separator:a8184b654b67415b192b4f60f87f44175"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e2160a07162560223924b0f7f2aa0e8"><td class="memTemplParams" colspan="2">template&lt;class Infotype &gt; </td></tr>
-<tr class="memitem:a7e2160a07162560223924b0f7f2aa0e8"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Math_1_1SH.html#a7e2160a07162560223924b0f7f2aa0e8">MR::Math::SH::check</a> (const Infotype &amp;info)</td></tr>
-<tr class="separator:a7e2160a07162560223924b0f7f2aa0e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga96a93012c20066bfbdb6c1a1ec1cfe15"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__spherical__harmonics.html#ga96a93012c20066bfbdb6c1a1ec1cfe15">MR::Math::SH::NforL</a> (int lmax)</td></tr>
+<tr class="memdesc:ga96a93012c20066bfbdb6c1a1ec1cfe15"><td class="mdescLeft">&#160;</td><td class="mdescRight">the number of (even-degree) coefficients for the given value of <em>lmax</em>  <a href="group__spherical__harmonics.html#ga96a93012c20066bfbdb6c1a1ec1cfe15">More...</a><br /></td></tr>
+<tr class="separator:ga96a93012c20066bfbdb6c1a1ec1cfe15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga12049806261f71471fea43484670d8f5"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__spherical__harmonics.html#ga12049806261f71471fea43484670d8f5">MR::Math::SH::index</a> (int l, int m)</td></tr>
+<tr class="memdesc:ga12049806261f71471fea43484670d8f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">compute the index for coefficient (l,m)  <a href="group__spherical__harmonics.html#ga12049806261f71471fea43484670d8f5">More...</a><br /></td></tr>
+<tr class="separator:ga12049806261f71471fea43484670d8f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8bc0c976c67b9eb91e2dfd71bede4fe1"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__spherical__harmonics.html#ga8bc0c976c67b9eb91e2dfd71bede4fe1">MR::Math::SH::NforL_mpos</a> (int lmax)</td></tr>
+<tr class="memdesc:ga8bc0c976c67b9eb91e2dfd71bede4fe1"><td class="mdescLeft">&#160;</td><td class="mdescRight">same as <a class="el" href="group__spherical__harmonics.html#ga96a93012c20066bfbdb6c1a1ec1cfe15" title="the number of (even-degree) coefficients for the given value of lmax ">NforL()</a>, but consider only non-negative orders <em>m</em>  <a href="group__spherical__harmonics.html#ga8bc0c976c67b9eb91e2dfd71bede4fe1">More...</a><br /></td></tr>
+<tr class="separator:ga8bc0c976c67b9eb91e2dfd71bede4fe1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5296aa18ca79b9a88a46cee00c47667a"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__spherical__harmonics.html#ga5296aa18ca79b9a88a46cee00c47667a">MR::Math::SH::index_mpos</a> (int l, int m)</td></tr>
+<tr class="memdesc:ga5296aa18ca79b9a88a46cee00c47667a"><td class="mdescLeft">&#160;</td><td class="mdescRight">same as <a class="el" href="group__spherical__harmonics.html#ga12049806261f71471fea43484670d8f5" title="compute the index for coefficient (l,m) ">index()</a>, but consider only non-negative orders <em>m</em>  <a href="group__spherical__harmonics.html#ga5296aa18ca79b9a88a46cee00c47667a">More...</a><br /></td></tr>
+<tr class="separator:ga5296aa18ca79b9a88a46cee00c47667a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga28d9e09433f42e5036ec45ed6e7806bf"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__spherical__harmonics.html#ga28d9e09433f42e5036ec45ed6e7806bf">MR::Math::SH::LforN</a> (int N)</td></tr>
+<tr class="memdesc:ga28d9e09433f42e5036ec45ed6e7806bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the largest <em>lmax</em> given <em>N</em> parameters  <a href="group__spherical__harmonics.html#ga28d9e09433f42e5036ec45ed6e7806bf">More...</a><br /></td></tr>
+<tr class="separator:ga28d9e09433f42e5036ec45ed6e7806bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga018c7e929ccb619c7d2c4c764fcd755e"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
+<tr class="memitem:ga018c7e929ccb619c7d2c4c764fcd755e"><td class="memTemplItemLeft" align="right" valign="top">Matrix&lt; ValueType &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__spherical__harmonics.html#ga018c7e929ccb619c7d2c4c764fcd755e">MR::Math::SH::init_transform</a> (Matrix&lt; ValueType &gt; &amp;SHT, const Matrix&lt; ValueType &gt; &amp;dirs, int lmax)</td></tr>
+<tr class="memdesc:ga018c7e929ccb619c7d2c4c764fcd755e"><td class="mdescLeft">&#160;</td><td class="mdescRight">form the SH-&gt;amplitudes matrix  <a href="group__spherical__harmonics.html#ga018c7e929ccb619c7d2c4c764fcd755e">More...</a><br /></td></tr>
+<tr class="separator:ga018c7e929ccb619c7d2c4c764fcd755e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga042f734c8afb5ba79189904b13f286b2"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
+<tr class="memitem:ga042f734c8afb5ba79189904b13f286b2"><td class="memTemplItemLeft" align="right" valign="top">Matrix&lt; ValueType &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__spherical__harmonics.html#ga042f734c8afb5ba79189904b13f286b2">MR::Math::SH::init_transform</a> (const Matrix&lt; ValueType &gt; &amp;dirs, int lmax)</td></tr>
+<tr class="memdesc:ga042f734c8afb5ba79189904b13f286b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">form the SH-&gt;amplitudes matrix  <a href="group__spherical__harmonics.html#ga042f734c8afb5ba79189904b13f286b2">More...</a><br /></td></tr>
+<tr class="separator:ga042f734c8afb5ba79189904b13f286b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga66ffab4d5dd99ae1779da5981cf76f98"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
+<tr class="memitem:ga66ffab4d5dd99ae1779da5981cf76f98"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__spherical__harmonics.html#ga66ffab4d5dd99ae1779da5981cf76f98">MR::Math::SH::scale_degrees_forward</a> (Matrix&lt; ValueType &gt; &amp;SH2amp_mapping, const Vector&lt; ValueType &gt; &amp;coefs)</td></tr>
+<tr class="memdesc:ga66ffab4d5dd99ae1779da5981cf76f98"><td class="mdescLeft">&#160;</td><td class="mdescRight">scale the coefficients of each <a class="el" href="namespaceMR_1_1Math_1_1SH.html">SH</a> degree by the corresponding value in <em>coefs</em>  <a href="group__spherical__harmonics.html#ga66ffab4d5dd99ae1779da5981cf76f98">More...</a><br /></td></tr>
+<tr class="separator:ga66ffab4d5dd99ae1779da5981cf76f98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1e9abefda9ea398c5ea3e826fc1684d3"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
+<tr class="memitem:ga1e9abefda9ea398c5ea3e826fc1684d3"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__spherical__harmonics.html#ga1e9abefda9ea398c5ea3e826fc1684d3">MR::Math::SH::scale_degrees_inverse</a> (Matrix&lt; ValueType &gt; &amp;amp2SH_mapping, const Vector&lt; ValueType &gt; &amp;coefs)</td></tr>
+<tr class="memdesc:ga1e9abefda9ea398c5ea3e826fc1684d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">scale the coefficients of each <a class="el" href="namespaceMR_1_1Math_1_1SH.html">SH</a> degree by the corresponding value in <em>coefs</em>  <a href="group__spherical__harmonics.html#ga1e9abefda9ea398c5ea3e826fc1684d3">More...</a><br /></td></tr>
+<tr class="separator:ga1e9abefda9ea398c5ea3e826fc1684d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1dff4fb1bbd23c7d96c339329c72af2d"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
+<tr class="memitem:ga1dff4fb1bbd23c7d96c339329c72af2d"><td class="memTemplItemLeft" align="right" valign="top">Vector&lt; ValueType &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__spherical__harmonics.html#ga1dff4fb1bbd23c7d96c339329c72af2d">MR::Math::SH::invert</a> (const Vector&lt; ValueType &gt; &amp;coefs)</td></tr>
+<tr class="memdesc:ga1dff4fb1bbd23c7d96c339329c72af2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">invert any non-zero coefficients in <em>coefs</em>  <a href="group__spherical__harmonics.html#ga1dff4fb1bbd23c7d96c339329c72af2d">More...</a><br /></td></tr>
+<tr class="separator:ga1dff4fb1bbd23c7d96c339329c72af2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabed74e8e329a907299fa666f1327fb25"><td class="memTemplParams" colspan="2">template&lt;typename ValueType , typename CoefType &gt; </td></tr>
+<tr class="memitem:gabed74e8e329a907299fa666f1327fb25"><td class="memTemplItemLeft" align="right" valign="top">ValueType&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__spherical__harmonics.html#gabed74e8e329a907299fa666f1327fb25">MR::Math::SH::value</a> (const CoefType &amp;coefs, ValueType cos_elevation, ValueType cos_azimuth, ValueType sin_azimuth, int lmax)</td></tr>
+<tr class="separator:gabed74e8e329a907299fa666f1327fb25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa8cf559cd72edc71a33270cc992278e4"><td class="memTemplParams" colspan="2">template&lt;typename ValueType , typename CoefType &gt; </td></tr>
+<tr class="memitem:gaa8cf559cd72edc71a33270cc992278e4"><td class="memTemplItemLeft" align="right" valign="top">ValueType&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__spherical__harmonics.html#gaa8cf559cd72edc71a33270cc992278e4">MR::Math::SH::value</a> (const CoefType &amp;coefs, ValueType cos_elevation, ValueType azimuth, int lmax)</td></tr>
+<tr class="separator:gaa8cf559cd72edc71a33270cc992278e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7e61b7a9672b34edbc8319fe7fbe833c"><td class="memTemplParams" colspan="2">template&lt;typename ValueType , typename CoefType &gt; </td></tr>
+<tr class="memitem:ga7e61b7a9672b34edbc8319fe7fbe833c"><td class="memTemplItemLeft" align="right" valign="top">ValueType&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__spherical__harmonics.html#ga7e61b7a9672b34edbc8319fe7fbe833c">MR::Math::SH::value</a> (const CoefType &amp;coefs, const Point&lt; ValueType &gt; &amp;unit_dir, int lmax)</td></tr>
+<tr class="separator:ga7e61b7a9672b34edbc8319fe7fbe833c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadb4ee624a2ea9a4ae3bed9e51726c810"><td class="memTemplParams" colspan="2">template&lt;typename ValueType , typename CoefType &gt; </td></tr>
+<tr class="memitem:gadb4ee624a2ea9a4ae3bed9e51726c810"><td class="memTemplItemLeft" align="right" valign="top">ValueType&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__spherical__harmonics.html#gadb4ee624a2ea9a4ae3bed9e51726c810">MR::Math::SH::value</a> (const CoefType *coefs, const Point&lt; ValueType &gt; &amp;unit_dir, int lmax)</td></tr>
+<tr class="separator:gadb4ee624a2ea9a4ae3bed9e51726c810"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1d10d4e619a9937032a62a93991fc0cf"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
+<tr class="memitem:ga1d10d4e619a9937032a62a93991fc0cf"><td class="memTemplItemLeft" align="right" valign="top">Vector&lt; ValueType &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__spherical__harmonics.html#ga1d10d4e619a9937032a62a93991fc0cf">MR::Math::SH::delta</a> (Vector&lt; ValueType &gt; &amp;delta_vec, const Point&lt; ValueType &gt; &amp;unit_dir, int lmax)</td></tr>
+<tr class="separator:ga1d10d4e619a9937032a62a93991fc0cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa6e583c238a09ab29c769754bd485ad2"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
+<tr class="memitem:gaa6e583c238a09ab29c769754bd485ad2"><td class="memTemplItemLeft" align="right" valign="top">Vector&lt; ValueType &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__spherical__harmonics.html#gaa6e583c238a09ab29c769754bd485ad2">MR::Math::SH::SH2RH</a> (Vector&lt; ValueType &gt; &amp;RH, const Vector&lt; ValueType &gt; &amp;sh)</td></tr>
+<tr class="separator:gaa6e583c238a09ab29c769754bd485ad2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9b9abac21ca4abb5b23f5b5ae8b7b42d"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
+<tr class="memitem:ga9b9abac21ca4abb5b23f5b5ae8b7b42d"><td class="memTemplItemLeft" align="right" valign="top">Vector&lt; ValueType &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__spherical__harmonics.html#ga9b9abac21ca4abb5b23f5b5ae8b7b42d">MR::Math::SH::SH2RH</a> (const Vector&lt; ValueType &gt; &amp;sh)</td></tr>
+<tr class="separator:ga9b9abac21ca4abb5b23f5b5ae8b7b42d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf8a9811782510722d3c3e452a1ec1c98"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
+<tr class="memitem:gaf8a9811782510722d3c3e452a1ec1c98"><td class="memTemplItemLeft" align="right" valign="top">Vector&lt; ValueType &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__spherical__harmonics.html#gaf8a9811782510722d3c3e452a1ec1c98">MR::Math::SH::sconv</a> (Vector&lt; ValueType &gt; &amp;C, const Vector&lt; ValueType &gt; &amp;RH, const Vector&lt; ValueType &gt; &amp;sh)</td></tr>
+<tr class="memdesc:gaf8a9811782510722d3c3e452a1ec1c98"><td class="mdescLeft">&#160;</td><td class="mdescRight">perform spherical convolution  <a href="group__spherical__harmonics.html#gaf8a9811782510722d3c3e452a1ec1c98">More...</a><br /></td></tr>
+<tr class="separator:gaf8a9811782510722d3c3e452a1ec1c98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga99044d90be59eada469b75286d3982c1"><td class="memTemplParams" colspan="2">template&lt;class VectorType1 , class VectorType2 &gt; </td></tr>
+<tr class="memitem:ga99044d90be59eada469b75286d3982c1"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__spherical__harmonics.html#ga99044d90be59eada469b75286d3982c1">MR::Math::SH::s2c</a> (const VectorType1 &amp;az_el_r, VectorType2 &amp;&amp;xyz)</td></tr>
+<tr class="memdesc:ga99044d90be59eada469b75286d3982c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert spherical coordinates to Cartesian coordinates  <a href="group__spherical__harmonics.html#ga99044d90be59eada469b75286d3982c1">More...</a><br /></td></tr>
+<tr class="separator:ga99044d90be59eada469b75286d3982c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf833fc09f1b9522cf9808ba7eeba7bdf"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
+<tr class="memitem:gaf833fc09f1b9522cf9808ba7eeba7bdf"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__spherical__harmonics.html#gaf833fc09f1b9522cf9808ba7eeba7bdf">MR::Math::SH::S2C</a> (const Matrix&lt; ValueType &gt; &amp;az_el, Matrix&lt; ValueType &gt; &amp;cartesian)</td></tr>
+<tr class="memdesc:gaf833fc09f1b9522cf9808ba7eeba7bdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert matrix of spherical coordinates to Cartesian coordinates  <a href="group__spherical__harmonics.html#gaf833fc09f1b9522cf9808ba7eeba7bdf">More...</a><br /></td></tr>
+<tr class="separator:gaf833fc09f1b9522cf9808ba7eeba7bdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga45591e79c28bcd090234705ad137c889"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
+<tr class="memitem:ga45591e79c28bcd090234705ad137c889"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__spherical__harmonics.html#ga45591e79c28bcd090234705ad137c889">MR::Math::SH::S2C</a> (const Matrix&lt; ValueType &gt; &amp;az_el, Matrix&lt; ValueType &gt; &amp;&amp;cartesian)</td></tr>
+<tr class="memdesc:ga45591e79c28bcd090234705ad137c889"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert matrix of spherical coordinates to Cartesian coordinates  <a href="group__spherical__harmonics.html#ga45591e79c28bcd090234705ad137c889">More...</a><br /></td></tr>
+<tr class="separator:ga45591e79c28bcd090234705ad137c889"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad78425b7e3c6804ba4fdeb6b77600202"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
+<tr class="memitem:gad78425b7e3c6804ba4fdeb6b77600202"><td class="memTemplItemLeft" align="right" valign="top">Math::Matrix&lt; ValueType &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__spherical__harmonics.html#gad78425b7e3c6804ba4fdeb6b77600202">MR::Math::SH::S2C</a> (const Matrix&lt; ValueType &gt; &amp;az_el)</td></tr>
+<tr class="memdesc:gad78425b7e3c6804ba4fdeb6b77600202"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert matrix of spherical coordinates to Cartesian coordinates  <a href="group__spherical__harmonics.html#gad78425b7e3c6804ba4fdeb6b77600202">More...</a><br /></td></tr>
+<tr class="separator:gad78425b7e3c6804ba4fdeb6b77600202"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3c2ee613e0820b1c894050fd6cae0387"><td class="memTemplParams" colspan="2">template&lt;class VectorType1 , class VectorType2 &gt; </td></tr>
+<tr class="memitem:ga3c2ee613e0820b1c894050fd6cae0387"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__spherical__harmonics.html#ga3c2ee613e0820b1c894050fd6cae0387">MR::Math::SH::c2s</a> (const VectorType1 &amp;xyz, VectorType2 &amp;&amp;az_el_r)</td></tr>
+<tr class="memdesc:ga3c2ee613e0820b1c894050fd6cae0387"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert Cartesian coordinates to spherical coordinates  <a href="group__spherical__harmonics.html#ga3c2ee613e0820b1c894050fd6cae0387">More...</a><br /></td></tr>
+<tr class="separator:ga3c2ee613e0820b1c894050fd6cae0387"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga239800460188d1501fbe53b14957dc5a"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
+<tr class="memitem:ga239800460188d1501fbe53b14957dc5a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__spherical__harmonics.html#ga239800460188d1501fbe53b14957dc5a">MR::Math::SH::C2S</a> (const Matrix&lt; ValueType &gt; &amp;cartesian, Matrix&lt; ValueType &gt; &amp;az_el, bool include_r=false)</td></tr>
+<tr class="memdesc:ga239800460188d1501fbe53b14957dc5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert matrix of Cartesian coordinates to spherical coordinates  <a href="group__spherical__harmonics.html#ga239800460188d1501fbe53b14957dc5a">More...</a><br /></td></tr>
+<tr class="separator:ga239800460188d1501fbe53b14957dc5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab8c398963332cb2534765a6b9d1ff3f8"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
+<tr class="memitem:gab8c398963332cb2534765a6b9d1ff3f8"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__spherical__harmonics.html#gab8c398963332cb2534765a6b9d1ff3f8">MR::Math::SH::C2S</a> (const Matrix&lt; ValueType &gt; &amp;cartesian, Matrix&lt; ValueType &gt; &amp;&amp;az_el, bool include_r=false)</td></tr>
+<tr class="memdesc:gab8c398963332cb2534765a6b9d1ff3f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert matrix of Cartesian coordinates to spherical coordinates  <a href="group__spherical__harmonics.html#gab8c398963332cb2534765a6b9d1ff3f8">More...</a><br /></td></tr>
+<tr class="separator:gab8c398963332cb2534765a6b9d1ff3f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad9d257f881af6493c40a12cfc1c16dd8"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
+<tr class="memitem:gad9d257f881af6493c40a12cfc1c16dd8"><td class="memTemplItemLeft" align="right" valign="top">Math::Matrix&lt; ValueType &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__spherical__harmonics.html#gad9d257f881af6493c40a12cfc1c16dd8">MR::Math::SH::C2S</a> (const Matrix&lt; ValueType &gt; &amp;cartesian, bool include_r=false)</td></tr>
+<tr class="memdesc:gad9d257f881af6493c40a12cfc1c16dd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert matrix of Cartesian coordinates to spherical coordinates  <a href="group__spherical__harmonics.html#gad9d257f881af6493c40a12cfc1c16dd8">More...</a><br /></td></tr>
+<tr class="separator:gad9d257f881af6493c40a12cfc1c16dd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga004651695b7b891a8a044c80b8459850"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
+<tr class="memitem:ga004651695b7b891a8a044c80b8459850"><td class="memTemplItemLeft" align="right" valign="top">Vector&lt; ValueType &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__spherical__harmonics.html#ga004651695b7b891a8a044c80b8459850">MR::Math::SH::FA2SH</a> (Vector&lt; ValueType &gt; &amp;sh, ValueType FA, ValueType ADC, ValueType bvalue, int lmax, int precision=100)</td></tr>
+<tr class="memdesc:ga004651695b7b891a8a044c80b8459850"><td class="mdescLeft">&#160;</td><td class="mdescRight">compute axially-symmetric <a class="el" href="namespaceMR_1_1Math_1_1SH.html">SH</a> coefficients corresponding to specified tensor  <a href="group__spherical__harmonics.html#ga004651695b7b891a8a044c80b8459850">More...</a><br /></td></tr>
+<tr class="separator:ga004651695b7b891a8a044c80b8459850"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3558a10d3e91161ceaad434bcb3047d0"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
+<tr class="memitem:ga3558a10d3e91161ceaad434bcb3047d0"><td class="memTemplItemLeft" align="right" valign="top">ValueType&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__spherical__harmonics.html#ga3558a10d3e91161ceaad434bcb3047d0">MR::Math::SH::get_peak</a> (const ValueType *sh, int lmax, Point&lt; ValueType &gt; &amp;unit_init_dir, PrecomputedAL&lt; ValueType &gt; *precomputer=nullptr)</td></tr>
+<tr class="memdesc:ga3558a10d3e91161ceaad434bcb3047d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">estimate direction &amp; amplitude of <a class="el" href="namespaceMR_1_1Math_1_1SH.html">SH</a> peak  <a href="group__spherical__harmonics.html#ga3558a10d3e91161ceaad434bcb3047d0">More...</a><br /></td></tr>
+<tr class="separator:ga3558a10d3e91161ceaad434bcb3047d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8184b654b67415b192b4f60f87f44175"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
+<tr class="memitem:ga8184b654b67415b192b4f60f87f44175"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__spherical__harmonics.html#ga8184b654b67415b192b4f60f87f44175">MR::Math::SH::derivatives</a> (const ValueType *sh, const int lmax, const ValueType elevation, const ValueType azimuth, ValueType &amp;amplitude, ValueType &amp;dSH_del, ValueType &amp;dSH_daz, ValueType &amp;d2SH_del2, ValueType &amp;d2SH_deldaz, ValueType &amp;d2SH_daz2, PrecomputedAL&lt; ValueType &gt; *precomputer)</td></tr>
+<tr class="memdesc:ga8184b654b67415b192b4f60f87f44175"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes first and second order derivatives of <a class="el" href="namespaceMR_1_1Math_1_1SH.html">SH</a> series  <a href="group__spherical__harmonics.html#ga8184b654b67415b192b4f60f87f44175">More...</a><br /></td></tr>
+<tr class="separator:ga8184b654b67415b192b4f60f87f44175"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7e2160a07162560223924b0f7f2aa0e8"><td class="memTemplParams" colspan="2">template&lt;class Infotype &gt; </td></tr>
+<tr class="memitem:ga7e2160a07162560223924b0f7f2aa0e8"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__spherical__harmonics.html#ga7e2160a07162560223924b0f7f2aa0e8">MR::Math::SH::check</a> (const Infotype &amp;info)</td></tr>
+<tr class="memdesc:ga7e2160a07162560223924b0f7f2aa0e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">convenience function to check if an input image can contain <a class="el" href="namespaceMR_1_1Math_1_1SH.html">SH</a> coefficients  <a href="group__spherical__harmonics.html#ga7e2160a07162560223924b0f7f2aa0e8">More...</a><br /></td></tr>
+<tr class="separator:ga7e2160a07162560223924b0f7f2aa0e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:aafe2e54ee9df648cfb1372aa7ae2fa6a"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Math_1_1SH.html#aafe2e54ee9df648cfb1372aa7ae2fa6a">MR::Math::SH::encoding_description</a></td></tr>
-<tr class="separator:aafe2e54ee9df648cfb1372aa7ae2fa6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaafe2e54ee9df648cfb1372aa7ae2fa6a"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__spherical__harmonics.html#gaafe2e54ee9df648cfb1372aa7ae2fa6a">MR::Math::SH::encoding_description</a></td></tr>
+<tr class="memdesc:gaafe2e54ee9df648cfb1372aa7ae2fa6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">a string containing a description of the <a class="el" href="namespaceMR_1_1Math_1_1SH.html">SH</a> storage convention  <a href="group__spherical__harmonics.html#gaafe2e54ee9df648cfb1372aa7ae2fa6a">More...</a><br /></td></tr>
+<tr class="separator:gaafe2e54ee9df648cfb1372aa7ae2fa6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="a5835d2253221816d4f18e65f9796d3c6"></a>
@@ -263,7 +287,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="SH_8h_source.html#l00037">37</a> of file <a class="el" href="SH_8h_source.html">SH.h</a>.</p>
 
-<p>Referenced by <a class="el" href="SH_8h_source.html#l00606">MR::Math::SH::get_peak()</a>.</p>
+<p>Referenced by <a class="el" href="SH_8h_source.html#l00580">MR::Math::SH::get_peak()</a>.</p>
 
 </div>
 </div>
@@ -279,23 +303,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="SH_8h_source.html#l00036">36</a> of file <a class="el" href="SH_8h_source.html">SH.h</a>.</p>
 
-<p>Referenced by <a class="el" href="SH_8h_source.html#l00606">MR::Math::SH::get_peak()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="aa5599527d6d00f72e280f55ccb190fcf"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define SH_NON_M0_SCALE_FACTOR&#160;&#160;&#160;(m ? Math::sqrt2 : 1.0)*</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="SH_8h_source.html#l00491">491</a> of file <a class="el" href="SH_8h_source.html">SH.h</a>.</p>
-
-<p>Referenced by <a class="el" href="SH_8h_source.html#l00513">MR::Math::SH::PrecomputedAL&lt; float &gt;::init()</a>.</p>
+<p>Referenced by <a class="el" href="SH_8h_source.html#l00580">MR::Math::SH::get_peak()</a>.</p>
 
 </div>
 </div>
@@ -304,8 +312,8 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_3ff11c75192253d59f20edbd8b15594c.html">lib</a></li><li class="navelem"><a class="el" href="dir_c2f83d2722ec24ea63c05c1a529167cb.html">math</a></li><li class="navelem"><a class="el" href="SH_8h.html">SH.h</a></li>
-    <li class="footer">Generated on Tue Feb 17 2015 15:11:43 for MRtrix by
+    <li class="navelem"><a class="el" href="dir_d12fee8a0c3e82a28db0b11ebab0386d.html">lib</a></li><li class="navelem"><a class="el" href="dir_9fa9c5da2c4571dd6e8c833c4cacad12.html">math</a></li><li class="navelem"><a class="el" href="SH_8h.html">SH.h</a></li>
+    <li class="footer">Generated on Thu Mar 26 2015 23:23:41 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">MRtrix
-   &#160;<span id="projectnumber">0.3.11-267-g100badaa</span>
+   &#160;<span id="projectnumber">0.3.12-287-g98196f47</span>
    </div>
    <div id="projectbrief">MRtrix provides a set of tools to perform diffusion-weighted MR white-matter tractography in a manner robust to crossing fibres, using constrained spherical deconvolution (CSD) and probabilistic streamlines.</div>
   </td>
@@ -236,7 +236,7 @@ $(document).ready(function(){initNavTree('matrix__multiply_8h_source.html','');}
 <div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;</div>
 <div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;</div>
-<div class="ttc" id="namespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> <a href="src_2gui_2app_8h_source.html#l00036">app.h:36</a></div></div>
+<div class="ttc" id="namespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> <a href="app_8h_source.html#l00036">app.h:36</a></div></div>
 <div class="ttc" id="namespaceMR_1_1Image_1_1Stride_html_a98f390bb91b2548cbcf1ef233433c783"><div class="ttname"><a href="namespaceMR_1_1Image_1_1Stride.html#a98f390bb91b2548cbcf1ef233433c783">MR::Image::Stride::order</a></div><div class="ttdeci">std::vector&lt; size_t &gt; order(const InfoType &amp;info, size_t from_axis=0, size_t to_axis=std::numeric_limits&lt; size_t &gt;::max())</div><div class="ttdoc">sort range of axes with respect to their absolute stride. </div><div class="ttdef"><b>Definition:</b> <a href="stride_8h_source.html#l00191">stride.h:191</a></div></div>
 <div class="ttc" id="namespaceMR_1_1Image_html_ad52c3e1d7d93610f51e0ad515951b518"><div class="ttname"><a href="namespaceMR_1_1Image.html#ad52c3e1d7d93610f51e0ad515951b518">MR::Image::matrix_multiply</a></div><div class="ttdeci">void matrix_multiply(const Math::Matrix&lt; value_type &gt; &amp;matrix, const InputVoxelType &amp;in, const OutputVoxelType &amp;out, PreFunctor func_pre, PostFunctor func_post, size_t val_axis=3)</div><div class="ttdoc">perform a multi-threaded matrix-vector multiply per voxel </div><div class="ttdef"><b>Definition:</b> <a href="matrix__multiply_8h_source.html#l00137">matrix_multiply.h:137</a></div></div>
 <div class="ttc" id="threaded__loop_8h_html"><div class="ttname"><a href="threaded__loop_8h.html">threaded_loop.h</a></div></div>
@@ -252,10 +252,10 @@ $(document).ready(function(){initNavTree('matrix__multiply_8h_source.html','');}
 <div class="ttc" id="classMR_1_1Image_1_1MatrixMultiply_html"><div class="ttname"><a href="classMR_1_1Image_1_1MatrixMultiply.html">MR::Image::MatrixMultiply</a></div><div class="ttdoc">the functor used as the backend for the Image::matrix_multiply() functions </div><div class="ttdef"><b>Definition:</b> <a href="matrix__multiply_8h_source.html#l00041">matrix_multiply.h:41</a></div></div>
 <div class="ttc" id="classMR_1_1Image_1_1Loop_html"><div class="ttname"><a href="classMR_1_1Image_1_1Loop.html">MR::Image::Loop</a></div><div class="ttdoc">a class to loop over arbitrary numbers of axes of a VoxelType </div><div class="ttdef"><b>Definition:</b> <a href="loop_8h_source.html#l00165">loop.h:165</a></div></div>
 <div class="ttc" id="classMR_1_1Image_1_1MatrixMultiply_html_a06f86c533079fddbb786d56d9804275a"><div class="ttname"><a href="classMR_1_1Image_1_1MatrixMultiply.html#a06f86c533079fddbb786d56d9804275a">MR::Image::MatrixMultiply::matrix</a></div><div class="ttdeci">const Math::Matrix&lt; value_type &gt; &amp; matrix</div><div class="ttdef"><b>Definition:</b> <a href="matrix__multiply_8h_source.html#l00079">matrix_multiply.h:79</a></div></div>
-<div class="ttc" id="classMR_1_1Image_1_1ThreadedLoop_html_ab3d2efad6185264624e7d3c62c249c38"><div class="ttname"><a href="classMR_1_1Image_1_1ThreadedLoop.html#ab3d2efad6185264624e7d3c62c249c38">MR::Image::ThreadedLoop::run</a></div><div class="ttdeci">void run(Functor &amp;&amp;functor, VoxelType &amp;&amp;...vox)</div><div class="ttdef"><b>Definition:</b> <a href="threaded__loop_8h_source.html#l00385">threaded_loop.h:385</a></div></div>
+<div class="ttc" id="classMR_1_1Image_1_1ThreadedLoop_html_ab3d2efad6185264624e7d3c62c249c38"><div class="ttname"><a href="classMR_1_1Image_1_1ThreadedLoop.html#ab3d2efad6185264624e7d3c62c249c38">MR::Image::ThreadedLoop::run</a></div><div class="ttdeci">void run(Functor &amp;&amp;functor, VoxelType &amp;&amp;...vox)</div><div class="ttdef"><b>Definition:</b> <a href="threaded__loop_8h_source.html#l00386">threaded_loop.h:386</a></div></div>
 <div class="ttc" id="classMR_1_1Image_1_1Iterator_html"><div class="ttname"><a href="classMR_1_1Image_1_1Iterator.html">MR::Image::Iterator</a></div><div class="ttdoc">a dummy image to iterate over, useful for multi-threaded looping. </div><div class="ttdef"><b>Definition:</b> <a href="iterator_8h_source.html#l00039">iterator.h:39</a></div></div>
 <div class="ttc" id="matrix_8h_html"><div class="ttname"><a href="matrix_8h.html">matrix.h</a></div></div>
-<div class="ttc" id="namespaceMR_1_1Image_html_a4cb22041b8bdac752dd5c29f04089fed"><div class="ttname"><a href="namespaceMR_1_1Image.html#a4cb22041b8bdac752dd5c29f04089fed">MR::Image::voxel_assign</a></div><div class="ttdeci">void voxel_assign(OutputVoxelType &amp;out, const InputVoxelType &amp;in, size_t from_axis=0, size_t to_axis=std::numeric_limits&lt; size_t &gt;::max())</div><div class="ttdef"><b>Definition:</b> <a href="lib_2image_2voxel_8h_source.html#l00175">voxel.h:175</a></div></div>
+<div class="ttc" id="namespaceMR_1_1Image_html_a4cb22041b8bdac752dd5c29f04089fed"><div class="ttname"><a href="namespaceMR_1_1Image.html#a4cb22041b8bdac752dd5c29f04089fed">MR::Image::voxel_assign</a></div><div class="ttdeci">void voxel_assign(OutputVoxelType &amp;out, const InputVoxelType &amp;in, size_t from_axis=0, size_t to_axis=std::numeric_limits&lt; size_t &gt;::max())</div><div class="ttdef"><b>Definition:</b> <a href="lib_2image_2voxel_8h_source.html#l00183">voxel.h:183</a></div></div>
 <div class="ttc" id="classMR_1_1Image_1_1MatrixMultiply_html_ad75c7591fba59b7b767dd6626bd9471d"><div class="ttname"><a href="classMR_1_1Image_1_1MatrixMultiply.html#ad75c7591fba59b7b767dd6626bd9471d">MR::Image::MatrixMultiply::out</a></div><div class="ttdeci">OutputVoxelType out</div><div class="ttdef"><b>Definition:</b> <a href="matrix__multiply_8h_source.html#l00078">matrix_multiply.h:78</a></div></div>
 <div class="ttc" id="classMR_1_1Math_1_1Vector_html"><div class="ttname"><a href="classMR_1_1Math_1_1Vector.html">MR::Math::Vector&lt; value_type &gt;</a></div></div>
 <div class="ttc" id="classMR_1_1Image_1_1MatrixMultiply_html_a1e9942570582395d66431c9ba0eea498"><div class="ttname"><a href="classMR_1_1Image_1_1MatrixMultiply.html#a1e9942570582395d66431c9ba0eea498">MR::Image::MatrixMultiply::operator()</a></div><div class="ttdeci">void operator()(const Image::Iterator &amp;pos)</div><div class="ttdef"><b>Definition:</b> <a href="matrix__multiply_8h_source.html#l00060">matrix_multiply.h:60</a></div></div>
@@ -268,8 +268,8 @@ $(document).ready(function(){initNavTree('matrix__multiply_8h_source.html','');}
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_3ff11c75192253d59f20edbd8b15594c.html">lib</a></li><li class="navelem"><a class="el" href="dir_cde16f1bd045ff096cd18749a99f0d28.html">image</a></li><li class="navelem"><a class="el" href="matrix__multiply_8h.html">matrix_multiply.h</a></li>
-    <li class="footer">Generated on Tue Feb 17 2015 15:11:42 for MRtrix by
+    <li class="navelem"><a class="el" href="dir_d12fee8a0c3e82a28db0b11ebab0386d.html">lib</a></li><li class="navelem"><a class="el" href="dir_ddbe5ec406ab5e365c584d1584bed2cc.html">image</a></li><li class="navelem"><a class="el" href="matrix__multiply_8h.html">matrix_multiply.h</a></li>
+    <li class="footer">Generated on Thu Mar 26 2015 23:23:40 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

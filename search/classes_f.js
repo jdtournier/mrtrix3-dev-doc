@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['packedfixel',['PackedFixel',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1PackedFixel.html',1,'MR::GUI::MRView::Tool']]],
   ['parsedargument',['ParsedArgument',['../classMR_1_1App_1_1ParsedArgument.html',1,'MR::App']]],
   ['parsedname',['ParsedName',['../classMR_1_1Image_1_1ParsedName.html',1,'MR::Image']]],
   ['parsedoption',['ParsedOption',['../classMR_1_1App_1_1ParsedOption.html',1,'MR::App']]],
@@ -46,7 +47,6 @@ var searchData=
   ['ptr_3c_20qimage_20_3e',['Ptr&lt; QImage &gt;',['../classMR_1_1Ptr.html',1,'MR']]],
   ['ptr_3c_20std_3a_3aifstream_20_3e',['Ptr&lt; std::ifstream &gt;',['../classMR_1_1Ptr.html',1,'MR']]],
   ['ptr_3c_20tractography_3a_3amr_3a_3adwi_3a_3atractography_3a_3areader_3c_3e_20_3e',['Ptr&lt; Tractography::MR::DWI::Tractography::Reader&lt;&gt; &gt;',['../classMR_1_1Ptr.html',1,'MR']]],
-  ['ptr_3c_20uint8_5ft_2c_20true_20_3e',['Ptr&lt; uint8_t, true &gt;',['../classMR_1_1Ptr.html',1,'MR']]],
   ['ptr_3c_20value_5ftype_2c_20true_20_3e',['Ptr&lt; value_type, true &gt;',['../classMR_1_1Ptr.html',1,'MR']]],
   ['ptrcomp',['PtrComp',['../classMR_1_1PtrComp.html',1,'MR']]]
 ];

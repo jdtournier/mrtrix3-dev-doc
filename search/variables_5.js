@@ -12,7 +12,7 @@ var searchData=
   ['enable',['Enable',['../namespacegl.html#ad1e262ce0a49141ddd09609e34d23cc6',1,'gl']]],
   ['enablei',['Enablei',['../namespacegl.html#abd3d19b58995f4aabf51fdcb8714b0f4',1,'gl']]],
   ['enablevertexattribarray',['EnableVertexAttribArray',['../namespacegl.html#ac7b2dba14999da6e46d93eb732227612',1,'gl']]],
-  ['encoding_5fdescription',['encoding_description',['../namespaceMR_1_1Math_1_1SH.html#aafe2e54ee9df648cfb1372aa7ae2fa6a',1,'MR::Math::SH']]],
+  ['encoding_5fdescription',['encoding_description',['../group__spherical__harmonics.html#gaafe2e54ee9df648cfb1372aa7ae2fa6a',1,'MR::Math::SH']]],
   ['end',['end',['../classMR_1_1File_1_1Dicom_1_1CSAEntry.html#aa55981039ce5923128ca3653c21e9908',1,'MR::File::Dicom::CSAEntry::end()'],['../classMR_1_1File_1_1Dicom_1_1Sequence.html#a6e003720a7f5ae89006dbd922498897e',1,'MR::File::Dicom::Sequence::end()']]],
   ['end_5fseq',['end_seq',['../classMR_1_1File_1_1Dicom_1_1Element.html#aa15c287d9f4e549f819312dc18cab74e',1,'MR::File::Dicom::Element']]],
   ['endconditionalrender',['EndConditionalRender',['../namespacegl.html#a0ae9258d05e1883a9a9ab7cc41281e84',1,'gl']]],

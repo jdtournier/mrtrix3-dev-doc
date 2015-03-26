@@ -1,6 +1,8 @@
 var searchData=
 [
   ['largestconnectedcomponent',['LargestConnectedComponent',['../classMR_1_1Image_1_1Filter_1_1LargestConnectedComponent.html',1,'MR::Image::Filter']]],
+  ['lightbox',['LightBox',['../classMR_1_1GUI_1_1MRView_1_1Mode_1_1LightBox.html',1,'MR::GUI::MRView::Mode']]],
+  ['lightboxeditbutton',['LightBoxEditButton',['../classMR_1_1GUI_1_1MRView_1_1Mode_1_1LightBoxViewControls_1_1LightBoxEditButton.html',1,'MR::GUI::MRView::Mode::LightBoxViewControls']]],
   ['lighting',['Lighting',['../classMR_1_1GUI_1_1Dialog_1_1Lighting.html',1,'MR::GUI::Dialog']]],
   ['lighting',['Lighting',['../classMR_1_1GUI_1_1GL_1_1Lighting.html',1,'MR::GUI::GL']]],
   ['lightingsettings',['LightingSettings',['../classMR_1_1GUI_1_1Dialog_1_1LightingSettings.html',1,'MR::GUI::Dialog']]],

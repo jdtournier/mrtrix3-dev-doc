@@ -15,6 +15,7 @@ var searchData=
   ['gradient1d_2eh',['gradient1D.h',['../gradient1D_8h.html',1,'']]],
   ['gradient_5fdescent_2eh',['gradient_descent.h',['../gradient__descent_8h.html',1,'']]],
   ['gradient_5fsort_2eh',['gradient_sort.h',['../gradient__sort_8h.html',1,'']]],
-  ['gz_2eh',['gz.h',['../file_2gz_8h.html',1,'']]],
-  ['gz_2eh',['gz.h',['../image_2handler_2gz_8h.html',1,'']]]
+  ['gui_2eh',['gui.h',['../gui_8h.html',1,'']]],
+  ['gz_2eh',['gz.h',['../image_2handler_2gz_8h.html',1,'']]],
+  ['gz_2eh',['gz.h',['../file_2gz_8h.html',1,'']]]
 ];

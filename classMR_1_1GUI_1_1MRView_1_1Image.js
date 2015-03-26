@@ -10,6 +10,7 @@ var classMR_1_1GUI_1_1MRView_1_1Image =
     [ "header", "classMR_1_1GUI_1_1MRView_1_1Image.html#a209834bb3008a542bfd6563185fc374c", null ],
     [ "render2D", "classMR_1_1GUI_1_1MRView_1_1Image.html#a289ab24836a6646df37d6fdfdbe4bb95", null ],
     [ "render3D", "classMR_1_1GUI_1_1MRView_1_1Image.html#a56ca1cffeee16d70d50cbd835e4dc95a", null ],
+    [ "request_render_colourbar", "classMR_1_1GUI_1_1MRView_1_1Image.html#aab65962c9bfd139cd3ad4fa04342af00", null ],
     [ "update_texture2D", "classMR_1_1GUI_1_1MRView_1_1Image.html#a070324e37a87c6928e4392fb8bcea941", null ],
     [ "update_texture3D", "classMR_1_1GUI_1_1MRView_1_1Image.html#a2fe31548bd97b7d6ebeeeb9af69b0349", null ],
     [ "voxel", "classMR_1_1GUI_1_1MRView_1_1Image.html#ade5dadd3c9d6b22fcb945944bca53e7d", null ],

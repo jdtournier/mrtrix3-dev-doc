@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">MRtrix
-   &#160;<span id="projectnumber">0.3.11-267-g100badaa</span>
+   &#160;<span id="projectnumber">0.3.12-287-g98196f47</span>
    </div>
    <div id="projectbrief">MRtrix provides a set of tools to perform diffusion-weighted MR white-matter tractography in a manner robust to crossing fibres, using constrained spherical deconvolution (CSD) and probabilistic streamlines.</div>
   </td>
@@ -111,6 +111,7 @@ $(document).ready(function(){initNavTree('shells_8h.html','');});
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#define-members">Macros</a> &#124;
+<a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">shells.h File Reference</div>  </div>
@@ -119,10 +120,11 @@ $(document).ready(function(){initNavTree('shells_8h.html','');});
 <div class="textblock"><code>#include &lt;fstream&gt;</code><br />
 <code>#include &lt;limits&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
-<code>#include &quot;app.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="app_8h_source.html">app.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="bitset_8h_source.html">bitset.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="matrix_8h_source.html">math/matrix.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="lib_2math_2vector_8h_source.html">math/vector.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="lib_2file_2config_8h_source.html">file/config.h</a>&quot;</code><br />
 </div>
 <p><a href="shells_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -151,12 +153,15 @@ Macros</h2></td></tr>
 <tr class="memitem:a4b9adde3a55a78a0974a94b949bc5228"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="shells_8h.html#a4b9adde3a55a78a0974a94b949bc5228">DWI_SHELLS_MIN_DIRECTIONS</a>&#160;&#160;&#160;6</td></tr>
 <tr class="separator:a4b9adde3a55a78a0974a94b949bc5228"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ad3a329ee40e06185e8190c33dac42d50"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1DWI.html#ad3a329ee40e06185e8190c33dac42d50">MR::DWI::bzero_threshold</a> ()</td></tr>
+<tr class="separator:ad3a329ee40e06185e8190c33dac42d50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:a2c929fcd572aa04a8c1f6bceebc7fc2c"><td class="memItemLeft" align="right" valign="top">const App::OptionGroup&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1DWI.html#a2c929fcd572aa04a8c1f6bceebc7fc2c">MR::DWI::ShellOption</a></td></tr>
 <tr class="separator:a2c929fcd572aa04a8c1f6bceebc7fc2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c04b88da81356b29cab4e09305ca68a"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1DWI.html#a7c04b88da81356b29cab4e09305ca68a">MR::DWI::bzero_threshold</a></td></tr>
-<tr class="separator:a7c04b88da81356b29cab4e09305ca68a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="a8fdc3dd3a7b2c4e346b6cd47cc094945"></a>
@@ -169,7 +174,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="shells_8h_source.html#l00043">43</a> of file <a class="el" href="shells_8h_source.html">shells.h</a>.</p>
+<p>Definition at line <a class="el" href="shells_8h_source.html#l00044">44</a> of file <a class="el" href="shells_8h_source.html">shells.h</a>.</p>
 
 </div>
 </div>
@@ -183,7 +188,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="shells_8h_source.html#l00048">48</a> of file <a class="el" href="shells_8h_source.html">shells.h</a>.</p>
+<p>Definition at line <a class="el" href="shells_8h_source.html#l00049">49</a> of file <a class="el" href="shells_8h_source.html">shells.h</a>.</p>
 
 </div>
 </div>
@@ -197,7 +202,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="shells_8h_source.html#l00045">45</a> of file <a class="el" href="shells_8h_source.html">shells.h</a>.</p>
+<p>Definition at line <a class="el" href="shells_8h_source.html#l00046">46</a> of file <a class="el" href="shells_8h_source.html">shells.h</a>.</p>
 
 </div>
 </div>
@@ -206,8 +211,8 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_b958bc85126d79a7dc9b6affa5d5f62e.html">src</a></li><li class="navelem"><a class="el" href="dir_2a5263256a8f9a9c43ba2f5e7771d7db.html">dwi</a></li><li class="navelem"><a class="el" href="shells_8h.html">shells.h</a></li>
-    <li class="footer">Generated on Tue Feb 17 2015 15:11:43 for MRtrix by
+    <li class="navelem"><a class="el" href="dir_52ea2e5bbffe601d7241f718ab526be5.html">src</a></li><li class="navelem"><a class="el" href="dir_f1ddac2a3f699fd99f165a8c68766fd0.html">dwi</a></li><li class="navelem"><a class="el" href="shells_8h.html">shells.h</a></li>
+    <li class="footer">Generated on Thu Mar 26 2015 23:23:41 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

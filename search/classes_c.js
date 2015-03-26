@@ -33,6 +33,7 @@ var searchData=
   ['min_5fmem_5farray',['Min_mem_array',['../classMR_1_1Min__mem__array.html',1,'MR']]],
   ['min_5fmem_5farray_3c_20track_5ffixel_5fcontribution_20_3e',['Min_mem_array&lt; Track_fixel_contribution &gt;',['../classMR_1_1Min__mem__array.html',1,'MR']]],
   ['mmap',['MMap',['../classMR_1_1File_1_1MMap.html',1,'MR::File']]],
+  ['modeguivisitor',['ModeGuiVisitor',['../classMR_1_1GUI_1_1MRView_1_1Mode_1_1ModeGuiVisitor.html',1,'MR::GUI::MRView::Mode']]],
   ['model',['Model',['../classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1Model.html',1,'MR::DWI::Tractography::SIFT']]],
   ['modelbase',['ModelBase',['../classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1ModelBase.html',1,'MR::DWI::Tractography::SIFT']]],
   ['modelbase_3c_20fixel_5ftd_5fseed_20_3e',['ModelBase&lt; Fixel_TD_seed &gt;',['../classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1ModelBase.html',1,'MR::DWI::Tractography::SIFT']]],

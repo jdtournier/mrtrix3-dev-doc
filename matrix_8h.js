@@ -1,5 +1,6 @@
 var matrix_8h =
 [
+    [ "cond", "matrix_8h.html#a573e5af3c0976908050191814be2cca9", null ],
     [ "determinant", "matrix_8h.html#a20c01095732e2ed577bde43a95380903", null ],
     [ "mult", "matrix_8h.html#gafaa1605102c06e8236345d1afff4b8e8", null ],
     [ "mult", "matrix_8h.html#gab519045d9e82811e3aa9aa57c2e29110", null ],

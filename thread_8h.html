@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">MRtrix
-   &#160;<span id="projectnumber">0.3.11-267-g100badaa</span>
+   &#160;<span id="projectnumber">0.3.12-287-g98196f47</span>
    </div>
    <div id="projectbrief">MRtrix provides a set of tools to perform diffusion-weighted MR white-matter tractography in a manner robust to crossing fibres, using constrained spherical deconvolution (CSD) and probabilistic streamlines.</div>
   </td>
@@ -110,13 +110,13 @@ $(document).ready(function(){initNavTree('thread_8h.html','');});
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">thread.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;thread&gt;</code><br />
+<code>#include &lt;future&gt;</code><br />
 <code>#include &lt;mutex&gt;</code><br />
 <code>#include &quot;<a class="el" href="debug_8h_source.html">debug.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="exception_8h_source.html">exception.h</a>&quot;</code><br />
@@ -147,11 +147,6 @@ Functions</h2></td></tr>
 <tr class="memitem:gaab961106219ef4fa4076d24edb123b48"><td class="memTemplItemLeft" align="right" valign="top">__run&lt; Functor &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__thread__basics.html#gaab961106219ef4fa4076d24edb123b48">MR::Thread::run</a> (Functor &amp;&amp;<a class="el" href="thread_8h.html#aece92f5ed23ab311f706fc6069e61689">functor</a>, const std::string &amp;<a class="el" href="thread_8h.html#ac673bc430bdc3fdaa09f7becf98ef267">name</a>=&quot;unnamed&quot;)</td></tr>
 <tr class="memdesc:gaab961106219ef4fa4076d24edb123b48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Execute the functor's execute method in a separate thread.  <a href="group__thread__basics.html#gaab961106219ef4fa4076d24edb123b48">More...</a><br /></td></tr>
 <tr class="separator:gaab961106219ef4fa4076d24edb123b48"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a2df112528747ab79d7ee964262b2d1fb"><td class="memItemLeft" align="right" valign="top">__Backend *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Thread.html#a2df112528747ab79d7ee964262b2d1fb">MR::Thread::__backend</a></td></tr>
-<tr class="separator:a2df112528747ab79d7ee964262b2d1fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Variable Documentation</h2>
 <a class="anchor" id="aece92f5ed23ab311f706fc6069e61689"></a>
@@ -164,9 +159,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="thread_8h_source.html#l00157">157</a> of file <a class="el" href="thread_8h_source.html">thread.h</a>.</p>
+<p>Definition at line <a class="el" href="thread_8h_source.html#l00200">200</a> of file <a class="el" href="thread_8h_source.html">thread.h</a>.</p>
 
-<p>Referenced by <a class="el" href="proc__mask_8h_source.html#l00071">MR::DWI::Tractography::SIFT::initialise_processing_mask()</a>, <a class="el" href="thread_8h_source.html#l00212">MR::Thread::multi()</a>, <a class="el" href="threaded__loop_8h_source.html#l00385">MR::Image::ThreadedLoop::run()</a>, <a class="el" href="threaded__loop_8h_source.html#l00367">MR::Image::ThreadedLoop::run_outer()</a>, and <a class="el" href="thread__queue_8h_source.html#l01054">MR::Thread::run_queue()</a>.</p>
+<p>Referenced by <a class="el" href="proc__mask_8h_source.html#l00071">MR::DWI::Tractography::SIFT::initialise_processing_mask()</a>, <a class="el" href="thread_8h_source.html#l00255">MR::Thread::multi()</a>, <a class="el" href="threaded__loop_8h_source.html#l00386">MR::Image::ThreadedLoop::run()</a>, <a class="el" href="threaded__loop_8h_source.html#l00367">MR::Image::ThreadedLoop::run_outer()</a>, and <a class="el" href="thread__queue_8h_source.html#l01054">MR::Thread::run_queue()</a>.</p>
 
 </div>
 </div>
@@ -180,7 +175,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="thread_8h_source.html#l00144">144</a> of file <a class="el" href="thread_8h_source.html">thread.h</a>.</p>
+<p>Definition at line <a class="el" href="thread_8h_source.html#l00187">187</a> of file <a class="el" href="thread_8h_source.html">thread.h</a>.</p>
 
 </div>
 </div>
@@ -194,9 +189,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="thread_8h_source.html#l00080">80</a> of file <a class="el" href="thread_8h_source.html">thread.h</a>.</p>
+<p>Definition at line <a class="el" href="thread_8h_source.html#l00105">105</a> of file <a class="el" href="thread_8h_source.html">thread.h</a>.</p>
 
-<p>Referenced by <a class="el" href="scalar__file_8h_source.html#l00239">MR::DWI::Tractography::ScalarWriter&lt; T &gt;::commit()</a>, <a class="el" href="dwi_2tractography_2file_8h_source.html#l00292">MR::DWI::Tractography::WriterUnbuffered&lt; value_type &gt;::commit()</a>, <a class="el" href="colourmap_8h_source.html#l00066">MR::GUI::MRView::ColourMap::num()</a>, <a class="el" href="colourmap_8h_source.html#l00073">MR::GUI::MRView::ColourMap::num_scalar()</a>, <a class="el" href="colourmap_8h_source.html#l00090">MR::GUI::MRView::ColourMap::num_special()</a>, <a class="el" href="output_8h_source.html#l00269">MR::DWI::Tractography::SIFT::ModelBase&lt; Fixel &gt;::output_error_fixel_images()</a>, <a class="el" href="output_8h_source.html#l00112">MR::DWI::Tractography::SIFT::ModelBase&lt; Fixel &gt;::output_target_image_fixel()</a>, <a class="el" href="output_8h_source.html#l00212">MR::DWI::Tractography::SIFT::ModelBase&lt; Fixel &gt;::output_tdi_fixel()</a>, <a class="el" href="scalar__file_8h_source.html#l00183">MR::DWI::Tractography::ScalarWriter&lt; T &gt;::ScalarWriter()</a>, <a class="el" href="properties_8h_source.html#l00070">MR::DWI::Tractography::Properties::set()</a>, <a class="el" href="dwi_2tractography_2file_8h_source.html#l00254">MR::DWI::Tractography::WriterUnbuffered&lt; value_type &gt;::set_weights_path()</a>, <a class="el" href="tracking_2shared_8h_source.html#l00074">MR::DWI::Tractography::Tracking::SharedBase::SharedBase()</a>, and <a class="el" href="dwi_2tractography_2file_8h_source.html#l00209">MR::DWI::Tractography::WriterUnbuffered&lt; value_type &gt;::WriterUnbuffered()</a>.</p>
+<p>Referenced by <a class="el" href="scalar__file_8h_source.html#l00239">MR::DWI::Tractography::ScalarWriter&lt; T &gt;::commit()</a>, <a class="el" href="dwi_2tractography_2file_8h_source.html#l00292">MR::DWI::Tractography::WriterUnbuffered&lt; value_type &gt;::commit()</a>, <a class="el" href="colourmap_8h_source.html#l00066">MR::GUI::MRView::ColourMap::num()</a>, <a class="el" href="colourmap_8h_source.html#l00073">MR::GUI::MRView::ColourMap::num_scalar()</a>, <a class="el" href="colourmap_8h_source.html#l00090">MR::GUI::MRView::ColourMap::num_special()</a>, <a class="el" href="app_8h_source.html#l00217">MR::App::ParsedOption::operator==()</a>, <a class="el" href="output_8h_source.html#l00269">MR::DWI::Tractography::SIFT::ModelBase&lt; Fixel &gt;::output_error_fixel_images()</a>, <a class="el" href="output_8h_source.html#l00112">MR::DWI::Tractography::SIFT::ModelBase&lt; Fixel &gt;::output_target_image_fixel()</a>, <a class="el" href="output_8h_source.html#l00212">MR::DWI::Tractography::SIFT::ModelBase&lt; Fixel &gt;::output_tdi_fixel()</a>, <a class="el" href="thread_8h_source.html#l00337">MR::Thread::run()</a>, <a class="el" href="scalar__file_8h_source.html#l00183">MR::DWI::Tractography::ScalarWriter&lt; T &gt;::ScalarWriter()</a>, <a class="el" href="properties_8h_source.html#l00070">MR::DWI::Tractography::Properties::set()</a>, <a class="el" href="dwi_2tractography_2file_8h_source.html#l00254">MR::DWI::Tractography::WriterUnbuffered&lt; value_type &gt;::set_weights_path()</a>, <a class="el" href="tracking_2shared_8h_source.html#l00074">MR::DWI::Tractography::Tracking::SharedBase::SharedBase()</a>, and <a class="el" href="dwi_2tractography_2file_8h_source.html#l00209">MR::DWI::Tractography::WriterUnbuffered&lt; value_type &gt;::WriterUnbuffered()</a>.</p>
 
 </div>
 </div>
@@ -210,39 +205,39 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="thread_8h_source.html#l00158">158</a> of file <a class="el" href="thread_8h_source.html">thread.h</a>.</p>
+<p>Definition at line <a class="el" href="thread_8h_source.html#l00201">201</a> of file <a class="el" href="thread_8h_source.html">thread.h</a>.</p>
 
 <p>Referenced by <a class="el" href="name__parser_8h_source.html#l00194">MR::Image::ParsedName::index()</a>, and <a class="el" href="math_2median_8h_source.html#l00052">MR::Math::median()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="accda04e86905da56f6f9b7d5579d6f5a"></a>
+<a class="anchor" id="a21dd9bf05a6e95e902e1e22f7b9d1422"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::thread thread</td>
+          <td class="memname">std::future&lt;void&gt; thread</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="thread_8h_source.html#l00116">116</a> of file <a class="el" href="thread_8h_source.html">thread.h</a>.</p>
+<p>Definition at line <a class="el" href="thread_8h_source.html#l00135">135</a> of file <a class="el" href="thread_8h_source.html">thread.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a08a20e9e5097748946810b9c9e5d7601"></a>
+<a class="anchor" id="a9cb640ac5bc9d680b104081ca9d1c235"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="thread_8h.html#accda04e86905da56f6f9b7d5579d6f5a">std::thread</a>&gt; threads</td>
+          <td class="memname">std::vector&lt;std::future&lt;void&gt; &gt; threads</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="thread_8h_source.html#l00143">143</a> of file <a class="el" href="thread_8h_source.html">thread.h</a>.</p>
+<p>Definition at line <a class="el" href="thread_8h_source.html#l00186">186</a> of file <a class="el" href="thread_8h_source.html">thread.h</a>.</p>
 
-<p>Referenced by <a class="el" href="permtest_8h_source.html#l00292">MR::Stats::PermTest::run_permutations()</a>.</p>
+<p>Referenced by <a class="el" href="permtest_8h_source.html#l00296">MR::Stats::PermTest::run_permutations()</a>.</p>
 
 </div>
 </div>
@@ -251,8 +246,8 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_3ff11c75192253d59f20edbd8b15594c.html">lib</a></li><li class="navelem"><a class="el" href="thread_8h.html">thread.h</a></li>
-    <li class="footer">Generated on Tue Feb 17 2015 15:11:43 for MRtrix by
+    <li class="navelem"><a class="el" href="dir_d12fee8a0c3e82a28db0b11ebab0386d.html">lib</a></li><li class="navelem"><a class="el" href="thread_8h.html">thread.h</a></li>
+    <li class="footer">Generated on Thu Mar 26 2015 23:23:41 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

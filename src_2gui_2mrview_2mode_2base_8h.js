@@ -1,5 +1,6 @@
 var src_2gui_2mrview_2mode_2base_8h =
 [
+    [ "ModeGuiVisitor", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1ModeGuiVisitor.html", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1ModeGuiVisitor" ],
     [ "Base", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base.html", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base" ],
     [ "Action", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Action.html", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Action" ],
     [ "MOVE_IN_OUT_FOV_MULTIPLIER", "src_2gui_2mrview_2mode_2base_8h.html#a08d8e96d624c1d2ce648318bfe726000", null ],

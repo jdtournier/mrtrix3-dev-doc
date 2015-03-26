@@ -7,6 +7,7 @@ var searchData=
   ['dilate',['Dilate',['../classMR_1_1Image_1_1Filter_1_1Dilate.html',1,'MR::Image::Filter']]],
   ['dir',['Dir',['../classMR_1_1Path_1_1Dir.html',1,'MR::Path']]],
   ['displayable',['Displayable',['../classMR_1_1GUI_1_1MRView_1_1Displayable.html',1,'MR::GUI::MRView']]],
+  ['displayablevisitor',['DisplayableVisitor',['../classMR_1_1GUI_1_1MRView_1_1DisplayableVisitor.html',1,'MR::GUI::MRView']]],
   ['dixel',['Dixel',['../classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1Gaussian_1_1Dixel.html',1,'MR::DWI::Tractography::Mapping::Gaussian']]],
   ['dixel',['Dixel',['../classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1Dixel.html',1,'MR::DWI::Tractography::Mapping']]],
   ['dixelmappingplugin',['DixelMappingPlugin',['../classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1DixelMappingPlugin.html',1,'MR::DWI::Tractography::Mapping']]],

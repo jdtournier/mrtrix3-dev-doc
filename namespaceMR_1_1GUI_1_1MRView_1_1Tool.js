@@ -1,5 +1,6 @@
 var namespaceMR_1_1GUI_1_1MRView_1_1Tool =
 [
+    [ "AbstractFixel", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1AbstractFixel.html", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1AbstractFixel" ],
     [ "Action", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Action.html", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Action" ],
     [ "Base", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base" ],
     [ "ClipPlane", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ClipPlane.html", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ClipPlane" ],
@@ -8,6 +9,7 @@ var namespaceMR_1_1GUI_1_1MRView_1_1Tool =
     [ "ListModelBase", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ListModelBase.html", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ListModelBase" ],
     [ "ODF", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ODF.html", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ODF" ],
     [ "Overlay", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Overlay.html", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Overlay" ],
+    [ "PackedFixel", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1PackedFixel.html", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1PackedFixel" ],
     [ "ROI", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI.html", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI" ],
     [ "ROI_Item", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI__Item.html", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI__Item" ],
     [ "ROI_Model", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI__Model.html", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI__Model" ],

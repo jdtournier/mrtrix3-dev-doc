@@ -8,6 +8,7 @@ var modules =
     [ "Multi-threading", "group__Thread.html", "group__Thread" ],
     [ "Mathematical constants", "group__mathconstants.html", "group__mathconstants" ],
     [ "Elementary Functions", "group__elfun.html", "group__elfun" ],
+    [ "Spherical Harmonics", "group__spherical__harmonics.html", "group__spherical__harmonics" ],
     [ "Linear Algebra", "group__linalg.html", "group__linalg" ],
     [ "Memory management", "group__Memory.html", "group__Memory" ],
     [ "Variable-length array macros", "group__VLA.html", "group__VLA" ],

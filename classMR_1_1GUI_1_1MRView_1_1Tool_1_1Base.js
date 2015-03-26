@@ -5,6 +5,7 @@ var classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base =
     [ "HBoxLayout", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base_1_1HBoxLayout.html", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base_1_1HBoxLayout" ],
     [ "VBoxLayout", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base_1_1VBoxLayout.html", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base_1_1VBoxLayout" ],
     [ "Base", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html#a0fcc23e7f7a522c62a23e34587284498", null ],
+    [ "adjustSize", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html#ab1eda93df3dad49f95b825d8608933fa", null ],
     [ "draw", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html#a6bff14a2771e1e1b21733268de8ad97b", null ],
     [ "drawOverlays", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html#a41b0e83bfa06d1bd0a467e9630ee359e", null ],
     [ "get_cursor", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html#a9f521b5ab3be5b29180551a7edbd017b", null ],

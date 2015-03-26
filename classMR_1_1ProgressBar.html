@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">MRtrix
-   &#160;<span id="projectnumber">0.3.11-267-g100badaa</span>
+   &#160;<span id="projectnumber">0.3.12-287-g98196f47</span>
    </div>
    <div id="projectbrief">MRtrix provides a set of tools to perform diffusion-weighted MR white-matter tractography in a manner robust to crossing fibres, using constrained spherical deconvolution (CSD) and probabilistic streamlines.</div>
   </td>
@@ -143,6 +143,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9c16c60c517f29ad5adf827d1cf1c0c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0d8c9d39ce73ee7127b25bd381d2ed5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ProgressBar.html#af0d8c9d39ce73ee7127b25bd381d2ed5">set_text</a> (const std::string &amp;new_text)</td></tr>
 <tr class="separator:af0d8c9d39ce73ee7127b25bd381d2ed5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade5483b0e6e611680b7cffa36ad227dc"><td class="memTemplParams" colspan="2">template&lt;class TextFunc &gt; </td></tr>
+<tr class="memitem:ade5483b0e6e611680b7cffa36ad227dc"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classMR_1_1ProgressBar.html#ade5483b0e6e611680b7cffa36ad227dc">update</a> (TextFunc &amp;&amp;text_func, bool increment=true)</td></tr>
+<tr class="memdesc:ade5483b0e6e611680b7cffa36ad227dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">update text displayed and optionally increment counter  <a href="#ade5483b0e6e611680b7cffa36ad227dc">More...</a><br /></td></tr>
+<tr class="separator:ade5483b0e6e611680b7cffa36ad227dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a380d74adc8f0f817e00df2674d10405f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ProgressBar.html#a380d74adc8f0f817e00df2674d10405f">operator++</a> ()</td></tr>
 <tr class="memdesc:a380d74adc8f0f817e00df2674d10405f"><td class="mdescLeft">&#160;</td><td class="mdescRight">increment the current value by one.  <a href="#a380d74adc8f0f817e00df2674d10405f">More...</a><br /></td></tr>
 <tr class="separator:a380d74adc8f0f817e00df2674d10405f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -160,7 +164,7 @@ Public Member Functions</h2></td></tr>
 </ul>
 <p>Other implementations can be created by overriding the display_func() and done_func() static functions. These functions will then be used throughout the application. </p>
 
-<p>Definition at line <a class="el" href="progressbar_8h_source.html#l00163">163</a> of file <a class="el" href="progressbar_8h_source.html">progressbar.h</a>.</p>
+<p>Definition at line <a class="el" href="progressbar_8h_source.html#l00194">194</a> of file <a class="el" href="progressbar_8h_source.html">progressbar.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a006fd61d9af16cbf3d659815b0f3d5d9"></a>
 <div class="memitem">
@@ -185,7 +189,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Create an unusable <a class="el" href="classMR_1_1ProgressBar.html" title="implements a progress meter to provide feedback to the user ">ProgressBar</a>. </p>
 
-<p>Definition at line <a class="el" href="progressbar_8h_source.html#l00168">168</a> of file <a class="el" href="progressbar_8h_source.html">progressbar.h</a>.</p>
+<p>Definition at line <a class="el" href="progressbar_8h_source.html#l00199">199</a> of file <a class="el" href="progressbar_8h_source.html">progressbar.h</a>.</p>
 
 </div>
 </div>
@@ -211,7 +215,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="progressbar_8h_source.html#l00170">170</a> of file <a class="el" href="progressbar_8h_source.html">progressbar.h</a>.</p>
+<p>Definition at line <a class="el" href="progressbar_8h_source.html#l00201">201</a> of file <a class="el" href="progressbar_8h_source.html">progressbar.h</a>.</p>
 
 </div>
 </div>
@@ -256,7 +260,7 @@ Public Member Functions</h2></td></tr>
 <p>Create a new <a class="el" href="classMR_1_1ProgressBar.html" title="implements a progress meter to provide feedback to the user ">ProgressBar</a>, displaying the specified text. </p>
 <p>If <em>target</em> is unspecified or set to zero, the <a class="el" href="classMR_1_1ProgressBar.html" title="implements a progress meter to provide feedback to the user ">ProgressBar</a> will display a busy indicator, updated at regular time intervals. Otherwise, the <a class="el" href="classMR_1_1ProgressBar.html" title="implements a progress meter to provide feedback to the user ">ProgressBar</a> will display the percentage completed, computed from the number of times the <a class="el" href="classMR_1_1ProgressBar.html#a380d74adc8f0f817e00df2674d10405f" title="increment the current value by one. ">ProgressBar::operator++()</a> function was called relative to the value specified with <em>target</em>. </p>
 
-<p>Definition at line <a class="el" href="progressbar_8h_source.html#l00181">181</a> of file <a class="el" href="progressbar_8h_source.html">progressbar.h</a>.</p>
+<p>Definition at line <a class="el" href="progressbar_8h_source.html#l00212">212</a> of file <a class="el" href="progressbar_8h_source.html">progressbar.h</a>.</p>
 
 </div>
 </div>
@@ -282,7 +286,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="progressbar_8h_source.html#l00230">230</a> of file <a class="el" href="progressbar_8h_source.html">progressbar.h</a>.</p>
+<p>Definition at line <a class="el" href="progressbar_8h_source.html#l00291">291</a> of file <a class="el" href="progressbar_8h_source.html">progressbar.h</a>.</p>
 
 </div>
 </div>
@@ -310,7 +314,7 @@ Public Member Functions</h2></td></tr>
 <p>returns whether the progress will be shown </p>
 <p>The progress may not be shown if the -quiet option has been supplied to the application. </p><dl class="section return"><dt>Returns</dt><dd>true if the progress will be shown, false otherwise. </dd></dl>
 
-<p>Definition at line <a class="el" href="progressbar_8h_source.html#l00188">188</a> of file <a class="el" href="progressbar_8h_source.html">progressbar.h</a>.</p>
+<p>Definition at line <a class="el" href="progressbar_8h_source.html#l00219">219</a> of file <a class="el" href="progressbar_8h_source.html">progressbar.h</a>.</p>
 
 </div>
 </div>
@@ -338,7 +342,7 @@ Public Member Functions</h2></td></tr>
 <p>returns whether the progress will be shown </p>
 <p>The progress may not be shown if the -quiet option has been supplied to the application. </p><dl class="section return"><dt>Returns</dt><dd>true if the progress will not be shown, false otherwise. </dd></dl>
 
-<p>Definition at line <a class="el" href="progressbar_8h_source.html#l00196">196</a> of file <a class="el" href="progressbar_8h_source.html">progressbar.h</a>.</p>
+<p>Definition at line <a class="el" href="progressbar_8h_source.html#l00227">227</a> of file <a class="el" href="progressbar_8h_source.html">progressbar.h</a>.</p>
 
 </div>
 </div>
@@ -365,7 +369,7 @@ Public Member Functions</h2></td></tr>
 
 <p>increment the current value by one. </p>
 
-<p>Definition at line <a class="el" href="progressbar_8h_source.html#l00218">218</a> of file <a class="el" href="progressbar_8h_source.html">progressbar.h</a>.</p>
+<p>Definition at line <a class="el" href="progressbar_8h_source.html#l00279">279</a> of file <a class="el" href="progressbar_8h_source.html">progressbar.h</a>.</p>
 
 </div>
 </div>
@@ -391,7 +395,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="progressbar_8h_source.html#l00226">226</a> of file <a class="el" href="progressbar_8h_source.html">progressbar.h</a>.</p>
+<p>Definition at line <a class="el" href="progressbar_8h_source.html#l00287">287</a> of file <a class="el" href="progressbar_8h_source.html">progressbar.h</a>.</p>
 
 </div>
 </div>
@@ -420,7 +424,7 @@ Public Member Functions</h2></td></tr>
 <p>set the maximum target value of the <a class="el" href="classMR_1_1ProgressBar.html" title="implements a progress meter to provide feedback to the user ">ProgressBar</a> </p>
 <p>This function should only be called if the <a class="el" href="classMR_1_1ProgressBar.html" title="implements a progress meter to provide feedback to the user ">ProgressBar</a> has been created with a non-zero target value. In other words, the <a class="el" href="classMR_1_1ProgressBar.html" title="implements a progress meter to provide feedback to the user ">ProgressBar</a> has been created to display a percentage value, rather than a busy indicator. </p>
 
-<p>Definition at line <a class="el" href="progressbar_8h_source.html#l00205">205</a> of file <a class="el" href="progressbar_8h_source.html">progressbar.h</a>.</p>
+<p>Definition at line <a class="el" href="progressbar_8h_source.html#l00236">236</a> of file <a class="el" href="progressbar_8h_source.html">progressbar.h</a>.</p>
 
 <p>Referenced by <a class="el" href="loop_8h_source.html#l00468">MR::Image::LoopInOrder::start()</a>.</p>
 
@@ -448,7 +452,52 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="progressbar_8h_source.html#l00211">211</a> of file <a class="el" href="progressbar_8h_source.html">progressbar.h</a>.</p>
+<p>Definition at line <a class="el" href="progressbar_8h_source.html#l00242">242</a> of file <a class="el" href="progressbar_8h_source.html">progressbar.h</a>.</p>
+
+<p>Referenced by <a class="el" href="receiver_8h_source.html#l00060">MR::DWI::Tractography::Editing::Receiver::~Receiver()</a>, and <a class="el" href="write__kernel_8h_source.html#l00072">MR::DWI::Tractography::Tracking::WriteKernel::~WriteKernel()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ade5483b0e6e611680b7cffa36ad227dc"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TextFunc &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::ProgressBar::update </td>
+          <td>(</td>
+          <td class="paramtype">TextFunc &amp;&amp;&#160;</td>
+          <td class="paramname"><em>text_func</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>increment</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>update text displayed and optionally increment counter </p>
+<p>This expects a function, functor or lambda function that should return a std::string to replace the text. This functor will only be called when necessary, i.e. when BUSY_INTERVAL time has elapsed, or if the percentage value to display has changed. The reason for passing a functor rather than the text itself is to minimise the overhead of forming the string in cases where this is sufficiently expensive to impact performance if invoked every iteration. By passing a function, this operation is only performed when strictly necessary.</p>
+<p>The simplest way to use this method is using C++11 lambda functions, for example: </p><div class="fragment"><div class="line">progress.update ([&amp;](){ <span class="keywordflow">return</span> <span class="stringliteral">&quot;current energy = &quot;</span> + <a class="code" href="namespaceMR.html#a7dcea37fdb5fba1961d121fca36c22c4">str</a>(energy_value); });</div>
+</div><!-- fragment --><dl class="section note"><dt>Note</dt><dd>due to this lazy update, the text is not guaranteed to be up to date by the time processing is finished. If this is important, you should also use the <a class="el" href="classMR_1_1ProgressBar.html#af0d8c9d39ce73ee7127b25bd381d2ed5">set_text()</a> method to set the final text displayed before the <a class="el" href="classMR_1_1ProgressBar.html" title="implements a progress meter to provide feedback to the user ">ProgressBar</a>'s <a class="el" href="classMR_1_1ProgressBar.html#a3e5f11ec10b0b3fbeaab8f9d8557df48">done()</a> function is called (typically in the destructor when it goes out of scope). </dd></dl>
+
+<p>Definition at line <a class="el" href="progressbar_8h_source.html#l00270">270</a> of file <a class="el" href="progressbar_8h_source.html">progressbar.h</a>.</p>
 
 </div>
 </div>
@@ -461,7 +510,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="classMR_1_1ProgressBar.html">ProgressBar</a></li>
-    <li class="footer">Generated on Tue Feb 17 2015 15:11:43 for MRtrix by
+    <li class="footer">Generated on Thu Mar 26 2015 23:23:41 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

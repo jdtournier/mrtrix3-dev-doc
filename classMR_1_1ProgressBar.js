@@ -9,5 +9,6 @@ var classMR_1_1ProgressBar =
     [ "operator++", "classMR_1_1ProgressBar.html#a380d74adc8f0f817e00df2674d10405f", null ],
     [ "operator++", "classMR_1_1ProgressBar.html#a3f4646e9fbe5493cdcabd27ac3d945fd", null ],
     [ "set_max", "classMR_1_1ProgressBar.html#a9c16c60c517f29ad5adf827d1cf1c0c9", null ],
-    [ "set_text", "classMR_1_1ProgressBar.html#af0d8c9d39ce73ee7127b25bd381d2ed5", null ]
+    [ "set_text", "classMR_1_1ProgressBar.html#af0d8c9d39ce73ee7127b25bd381d2ed5", null ],
+    [ "update", "classMR_1_1ProgressBar.html#ade5483b0e6e611680b7cffa36ad227dc", null ]
 ];
