@@ -190,8 +190,8 @@ var NAVTREEINDEX26 =
 "namespaceMR_1_1File.html":[12,0,1,2],
 "namespaceMR_1_1File_1_1Dicom.html":[12,0,1,2,0],
 "namespaceMR_1_1File_1_1Dicom.html":[11,0,1,3,0],
-"namespaceMR_1_1File_1_1ImageSlice.html":[12,0,1,2,1],
 "namespaceMR_1_1File_1_1ImageSlice.html":[11,0,1,3,1],
+"namespaceMR_1_1File_1_1ImageSlice.html":[12,0,1,2,1],
 "namespaceMR_1_1File_1_1MGH.html":[11,0,1,3,2],
 "namespaceMR_1_1File_1_1NIfTI.html":[11,0,1,3,3],
 "namespaceMR_1_1GUI.html":[12,0,1,3],
@@ -247,7 +247,7 @@ var NAVTREEINDEX26 =
 "namespaceMR_1_1Math_1_1LU.html":[11,0,1,6,6],
 "namespaceMR_1_1Math_1_1Legendre.html":[11,0,1,6,5],
 "namespaceMR_1_1Math_1_1Rician.html":[11,0,1,6,7],
-"namespaceMR_1_1Math_1_1SH.html":[12,0,1,5,1],
 "namespaceMR_1_1Math_1_1SH.html":[11,0,1,6,9],
+"namespaceMR_1_1Math_1_1SH.html":[12,0,1,5,1],
 "namespaceMR_1_1Math_1_1Sech.html":[11,0,1,6,8]
 };
