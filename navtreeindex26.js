@@ -241,13 +241,13 @@ var NAVTREEINDEX26 =
 "namespaceMR_1_1Math_1_1Bessel.html":[11,0,1,6,0],
 "namespaceMR_1_1Math_1_1Chebyshev.html":[11,0,1,6,1],
 "namespaceMR_1_1Math_1_1Cholesky.html":[11,0,1,6,2],
-"namespaceMR_1_1Math_1_1Eigen.html":[12,0,1,5,0],
 "namespaceMR_1_1Math_1_1Eigen.html":[11,0,1,6,3],
+"namespaceMR_1_1Math_1_1Eigen.html":[12,0,1,5,0],
 "namespaceMR_1_1Math_1_1Gaussian.html":[11,0,1,6,4],
 "namespaceMR_1_1Math_1_1LU.html":[11,0,1,6,6],
 "namespaceMR_1_1Math_1_1Legendre.html":[11,0,1,6,5],
 "namespaceMR_1_1Math_1_1Rician.html":[11,0,1,6,7],
-"namespaceMR_1_1Math_1_1SH.html":[11,0,1,6,9],
 "namespaceMR_1_1Math_1_1SH.html":[12,0,1,5,1],
+"namespaceMR_1_1Math_1_1SH.html":[11,0,1,6,9],
 "namespaceMR_1_1Math_1_1Sech.html":[11,0,1,6,8]
 };
