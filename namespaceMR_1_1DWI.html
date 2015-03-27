@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">MRtrix
-   &#160;<span id="projectnumber">0.3.12-289-g9f72836f</span>
+   &#160;<span id="projectnumber">0.3.12-292-g6f632bc3</span>
    </div>
    <div id="projectbrief">MRtrix provides a set of tools to perform diffusion-weighted MR white-matter tractography in a manner robust to crossing fibres, using constrained spherical deconvolution (CSD) and probabilistic streamlines.</div>
   </td>
@@ -337,7 +337,7 @@ template&lt;typename ValueType &gt; </div>
 <p>Computes the matrix mapping SH coefficients to the directions specified in <em>directions</em> (in spherical coordinates), up to a given lmax. By default, this is computed from the number of DW directions, up to a maximum value of <em>default_lmax</em> (defaults to 8), or the value specified using c -lmax command-line option (if <em>lmax_from_command_line</em> is true). If the resulting DW scheme is ill-posed (condition number less than <em>max_cond</em>, default 2), lmax will be reduced until it becomes sufficiently well conditioned (unless overridden on the command-line).</p>
 <p>Note that this uses <a class="el" href="namespaceMR_1_1DWI.html#adc165c4d9f47cf76f32ca5f7e7a59270" title="get the DW encoding matrix as per get_DW_scheme(), and check that it matches the DW header in header ...">get_valid_DW_scheme()</a> to get the DW_scheme, so will check for the -grad option as required. </p>
 
-<p>Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00282">282</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
+<p>Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00290">290</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
 
 <p>References <a class="el" href="matrix_8h_source.html#l01183">MR::Math::cond()</a>, <a class="el" href="group__CmdParse.html#gaa5c1ac9ee16243842c4c68fb2fa068f1">MR::App::get_options()</a>, <a class="el" href="exception_8h_source.html#l00081">INFO</a>, <a class="el" href="SH_8h_source.html#l00093">MR::Math::SH::init_transform()</a>, <a class="el" href="SH_8h_source.html#l00083">MR::Math::SH::LforN()</a>, <a class="el" href="matrix_8h_source.html#l00387">MR::Math::Matrix&lt; ValueType &gt;::rows()</a>, <a class="el" href="app_8h_source.html#l00112">MR::App::Options::size()</a>, <a class="el" href="mrtrix_8h_source.html#l00126">MR::str()</a>, and <a class="el" href="exception_8h_source.html#l00080">WARN</a>.</p>
 
@@ -875,7 +875,7 @@ template&lt;typename T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="namespaceMR_1_1DWI.html">DWI</a></li>
-    <li class="footer">Generated on Fri Mar 27 2015 00:47:17 for MRtrix by
+    <li class="footer">Generated on Fri Mar 27 2015 16:32:25 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>
