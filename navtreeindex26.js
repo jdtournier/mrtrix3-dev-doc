@@ -214,8 +214,8 @@ var NAVTREEINDEX26 =
 "namespaceMR_1_1GUI_1_1MRView_1_1Mode.html":[12,0,1,3,3,1],
 "namespaceMR_1_1GUI_1_1MRView_1_1Mode_1_1LightBoxViewControls.html":[11,0,1,4,3,1,0],
 "namespaceMR_1_1GUI_1_1MRView_1_1Mode_1_1LightBoxViewControls.html":[12,0,1,3,3,1,0],
-"namespaceMR_1_1GUI_1_1MRView_1_1Tool.html":[11,0,1,4,3,2],
 "namespaceMR_1_1GUI_1_1MRView_1_1Tool.html":[12,0,1,3,3,2],
+"namespaceMR_1_1GUI_1_1MRView_1_1Tool.html":[11,0,1,4,3,2],
 "namespaceMR_1_1Image.html":[12,0,1,4],
 "namespaceMR_1_1Image.html":[11,0,1,5],
 "namespaceMR_1_1Image_1_1Adapter.html":[11,0,1,5,0],
@@ -247,7 +247,7 @@ var NAVTREEINDEX26 =
 "namespaceMR_1_1Math_1_1LU.html":[11,0,1,6,6],
 "namespaceMR_1_1Math_1_1Legendre.html":[11,0,1,6,5],
 "namespaceMR_1_1Math_1_1Rician.html":[11,0,1,6,7],
-"namespaceMR_1_1Math_1_1SH.html":[12,0,1,5,1],
 "namespaceMR_1_1Math_1_1SH.html":[11,0,1,6,9],
+"namespaceMR_1_1Math_1_1SH.html":[12,0,1,5,1],
 "namespaceMR_1_1Math_1_1Sech.html":[11,0,1,6,8]
 };
