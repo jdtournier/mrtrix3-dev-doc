@@ -34,6 +34,7 @@ var searchData=
   ['detachshader',['DetachShader',['../namespacegl.html#adc65d27440bd0aa0ee1374822e0572cf',1,'gl']]],
   ['dh',['dh',['../classMR_1_1Stats_1_1CFE_1_1Enhancer.html#afe4dcd8e7668ab3a148dabfc0535afaa',1,'MR::Stats::CFE::Enhancer::dh()'],['../classMR_1_1Stats_1_1TFCE_1_1Enhancer.html#adc7d3cc37d2be08c776a614cfc24802b',1,'MR::Stats::TFCE::Enhancer::dh()']]],
   ['dict',['dict',['../classMR_1_1File_1_1Dicom_1_1Element.html#a884b9fe9e24c726579e86fec5bc3f6b8',1,'MR::File::Dicom::Element']]],
+  ['diff',['diff',['../classMR_1_1DWI_1_1Sn__scale__estimator.html#a2b27476d8676ba5c5ca7be704058b5cf',1,'MR::DWI::Sn_scale_estimator']]],
   ['diffuse',['diffuse',['../classMR_1_1GUI_1_1GL_1_1Lighting.html#aa566e4ed0f7e039841f8098e746ea2de',1,'MR::GUI::GL::Lighting']]],
   ['dim',['dim',['../classMR_1_1File_1_1Dicom_1_1Frame.html#ac5efd93987708c0ca280df1a928d0901',1,'MR::File::Dicom::Frame::dim()'],['../classMR_1_1File_1_1Dicom_1_1QuickScan.html#afbc12b26ebcc0c961b9672ee193a9a95',1,'MR::File::Dicom::QuickScan::dim()'],['../classMR_1_1Image_1_1Axis.html#a9071fe6757a18c8aa793aee64c3a9db0',1,'MR::Image::Axis::dim()']]],
   ['dim_5fto_5fignore',['dim_to_ignore',['../classMR_1_1Image_1_1Filter_1_1Connector.html#ac6a6e8e6d2c3513218a3322588e777cd',1,'MR::Image::Filter::Connector::dim_to_ignore()'],['../classMR_1_1Image_1_1Filter_1_1ConnectedComponents.html#a2ebbb3c96aa956990e955048781ee31e',1,'MR::Image::Filter::ConnectedComponents::dim_to_ignore()']]],
@@ -78,5 +79,6 @@ var searchData=
   ['dw_5fdirs',['DW_dirs',['../classMR_1_1DWI_1_1CSDeconv_1_1Shared.html#ac77ef1bab73888676a5ff771eec49a77',1,'MR::DWI::CSDeconv::Shared']]],
   ['dw_5fscheme_5f',['DW_scheme_',['../classMR_1_1Image_1_1Header.html#ad0c6a739f1c6bec570efd50d3a817cb4',1,'MR::Image::Header']]],
   ['dw_5fscheme_5fwrt_5fimage',['DW_scheme_wrt_image',['../classMR_1_1File_1_1Dicom_1_1Frame.html#abdae61db2ec3b2c57f53dbaa83616433',1,'MR::File::Dicom::Frame']]],
+  ['dwi',['dwi',['../classMR_1_1DWI_1_1NoiseEstimatorFunctor.html#aab46c6d0611b763ac4653d34b5ac0c21',1,'MR::DWI::NoiseEstimatorFunctor']]],
   ['dwis',['dwis',['../classMR_1_1DWI_1_1CSDeconv_1_1Shared.html#abe8e217348f1782d7292c16006e62155',1,'MR::DWI::CSDeconv::Shared']]]
 ];

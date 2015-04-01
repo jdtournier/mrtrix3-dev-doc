@@ -4,6 +4,7 @@ var classMR_1_1GUI_1_1MRView_1_1Tool_1_1Overlay =
     [ "Overlay", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Overlay.html#a43725591d8fc74773741a88ff711f2cd", null ],
     [ "add_images", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Overlay.html#a7d3dc9e0a9f67a3fb5562eedff62d6dd", null ],
     [ "draw", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Overlay.html#ad22a0972f502bf9daff05b2e96f6b197", null ],
+    [ "draw_tool_labels", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Overlay.html#ab15672451ba5f9842f6f6e9719bfc8c3", null ],
     [ "drawOverlays", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Overlay.html#af53cc93b7b46bb296240ba552be985d1", null ],
     [ "process_batch_command", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Overlay.html#a9b38a77b89c5627f4d91516ca2aee804", null ],
     [ "render_image_colourbar", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Overlay.html#a9fc40c39e378df83cfaf57760453dbc6", null ],

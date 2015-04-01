@@ -23,7 +23,7 @@ var searchData=
   ['redo',['redo',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI__Item.html#a41a3c91588ef810c0486acca46b7a7ba',1,'MR::GUI::MRView::Tool::ROI_Item::redo()'],['../structMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI__UndoEntry.html#ab0e723f18b9338043ee17b6ece1478f6',1,'MR::GUI::MRView::Tool::ROI_UndoEntry::redo()']]],
   ['refptr',['RefPtr',['../classMR_1_1RefPtr.html#a8fc6d380291f7a0797c41db1a3cb41a9',1,'MR::RefPtr::RefPtr(T *p=NULL)'],['../classMR_1_1RefPtr.html#a275097b950bd9002f0622fb80969d8bb',1,'MR::RefPtr::RefPtr(const RefPtr &amp;R)'],['../classMR_1_1RefPtr.html#ac95a8eec2075713833d218579d72bcc7',1,'MR::RefPtr::RefPtr(const RefPtr&lt; U, is_array &gt; &amp;R)']]],
   ['register_5fthread',['register_thread',['../classMR_1_1Thread_1_1____Backend.html#a0efdc4ed131e43c881392077eda361d4',1,'MR::Thread::__Backend']]],
-  ['reject_5fsmall_5fshells',['reject_small_shells',['../classMR_1_1DWI_1_1Shells.html#af0aa5be3a9d492e799e7e58d5bb8e309',1,'MR::DWI::Shells']]],
+  ['reject_5fsmall_5fshells',['reject_small_shells',['../classMR_1_1DWI_1_1Shells.html#a336af5c165d4cfac7664221c5581db6a',1,'MR::DWI::Shells']]],
   ['rejection',['Rejection',['../classMR_1_1DWI_1_1Tractography_1_1Seeding_1_1Rejection.html#ac3d41ebc5b2cd5bd677e96aa659f3ed7',1,'MR::DWI::Tractography::Seeding::Rejection']]],
   ['release',['release',['../classMR_1_1Ptr.html#a338ded006c806722c68ce1ef1a0c191a',1,'MR::Ptr::release()'],['../classMR_1_1VecPtr.html#aee0e00624c758f9da603457ebd3fb78d',1,'MR::VecPtr::release()']]],
   ['release_5ffocus',['release_focus',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html#a434513090be96b9ebda6eb67afd75109',1,'MR::GUI::MRView::Tool::Base']]],

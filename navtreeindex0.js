@@ -57,6 +57,8 @@ var NAVTREEINDEX0 =
 "SH_8h.html#gaf833fc09f1b9522cf9808ba7eeba7bdf":[13,0,0,2,23,21],
 "SH_8h.html#gaf8a9811782510722d3c3e452a1ec1c98":[13,0,0,2,23,26],
 "SH_8h_source.html":[13,0,0,2,23],
+"Sn__scale__estimator_8h.html":[13,0,1,1,9],
+"Sn__scale__estimator_8h_source.html":[13,0,1,1,9],
 "act_8h.html":[13,0,1,1,2,0,0],
 "act_8h.html#a367d00398389ed07f2bafe8c5e213764":[13,0,1,1,2,0,0,0],
 "act_8h.html#a60f3a40a4eb194cdc6945fc46e1c2157":[13,0,1,1,2,0,0,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX0 =
 "classMR_1_1App_1_1OptionList.html#a2566cf7baf27a2c94de901baa7a76ebf":[10,0,10,1],
 "classMR_1_1App_1_1OptionList.html#ad03601d2356f883e9ad4c110193f5fb0":[10,0,10,4],
 "classMR_1_1App_1_1OptionList.html#ae21e9185defb22e91287d9dceb069de7":[10,0,10,2],
-"classMR_1_1App_1_1OptionList.html#ae92129a042d0e9e9996bd8a5ecf14927":[10,0,10,0],
-"classMR_1_1App_1_1Options.html":[10,0,2],
-"classMR_1_1App_1_1Options_1_1Opt.html":[10,0,1]
+"classMR_1_1App_1_1OptionList.html#ae92129a042d0e9e9996bd8a5ecf14927":[10,0,10,0]
 };

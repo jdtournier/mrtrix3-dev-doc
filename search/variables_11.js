@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['r',['R',['../classMR_1_1DWI_1_1NoiseEstimatorFunctor.html#ad3e3fc0fc203de5cb481ae73ab2e5231',1,'MR::DWI::NoiseEstimatorFunctor']]],
   ['radius_5f',['radius_',['../classMR_1_1Image_1_1Adapter_1_1Gaussian1D.html#a045f861fd89809622571c8d33de3b8aa',1,'MR::Image::Adapter::Gaussian1D']]],
   ['rate',['rate',['../classMR_1_1GUI_1_1MRView_1_1AdjustButton.html#abb5c56f5c735006645a7d70e4fc1a50c',1,'MR::GUI::MRView::AdjustButton']]],
   ['raw_5fsignals',['raw_signals',['../classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1Tensor__Prob_1_1Interp.html#aaecfbeaea75246b71e20298b009f82f9',1,'MR::DWI::Tractography::Algorithms::Tensor_Prob::Interp']]],

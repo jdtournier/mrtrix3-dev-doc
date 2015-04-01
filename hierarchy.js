@@ -177,6 +177,7 @@ var hierarchy =
         [ "MR::Image::BufferScratch< value_type >", "classMR_1_1Image_1_1BufferScratch.html", [
           [ "MR::DWI::Tractography::Mapping::BufferScratchDump< value_type >", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1BufferScratchDump.html", null ]
         ] ],
+        [ "MR::DWI::NoiseEstimator", "classMR_1_1DWI_1_1NoiseEstimator.html", null ],
         [ "MR::Image::Adapter::Reslice< Interpolator, VoxelType >", "classMR_1_1Image_1_1Adapter_1_1Reslice.html", null ],
         [ "MR::Image::BufferScratch< ValueType >", "classMR_1_1Image_1_1BufferScratch.html", null ],
         [ "MR::Image::BufferScratch< bool >", "classMR_1_1Image_1_1BufferScratch_3_01bool_01_4.html", [
@@ -281,6 +282,7 @@ var hierarchy =
     [ "MR::DWI::Tractography::Connectomics::NodeExtractMapper", "classMR_1_1DWI_1_1Tractography_1_1Connectomics_1_1NodeExtractMapper.html", null ],
     [ "MR::DWI::Tractography::Connectomics::NodeExtractWriter", "classMR_1_1DWI_1_1Tractography_1_1Connectomics_1_1NodeExtractWriter.html", null ],
     [ "MR::DWI::Tractography::Connectomics::NodeExtractWriter::NodeSelector", "classMR_1_1DWI_1_1Tractography_1_1Connectomics_1_1NodeExtractWriter_1_1NodeSelector.html", null ],
+    [ "MR::DWI::NoiseEstimatorFunctor< InputVoxelType, OutputVoxelType, ValueType >", "classMR_1_1DWI_1_1NoiseEstimatorFunctor.html", null ],
     [ "MR::GUI::GL::Shader::Object< TYPE >", "classMR_1_1GUI_1_1GL_1_1Shader_1_1Object.html", null ],
     [ "ofstream", null, [
       [ "MR::File::OFStream", "classMR_1_1File_1_1OFStream.html", null ]
@@ -458,8 +460,8 @@ var hierarchy =
     [ "MR::RefPtr< std::vector< double > >", "classMR_1_1RefPtr.html", null ],
     [ "MR::RefPtr< std::vector< size_t > >", "classMR_1_1RefPtr.html", null ],
     [ "MR::RefPtr< std::vector< value_type > >", "classMR_1_1RefPtr.html", null ],
-    [ "MR::GUI::MRView::ColourMap::Renderer", "classMR_1_1GUI_1_1MRView_1_1ColourMap_1_1Renderer.html", null ],
     [ "MR::GUI::DWI::Renderer", "classMR_1_1GUI_1_1DWI_1_1Renderer.html", null ],
+    [ "MR::GUI::MRView::ColourMap::Renderer", "classMR_1_1GUI_1_1MRView_1_1ColourMap_1_1Renderer.html", null ],
     [ "MR::DWI::Tractography::SIFT::ResampleFunctor< Set >", "classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1ResampleFunctor.html", null ],
     [ "MR::DWI::RF::Response", "classMR_1_1DWI_1_1RF_1_1Response.html", null ],
     [ "MR::DWI::RF::ResponseEstimator", "classMR_1_1DWI_1_1RF_1_1ResponseEstimator.html", null ],
@@ -469,6 +471,9 @@ var hierarchy =
     [ "MR::DWI::Tractography::ROISet", "classMR_1_1DWI_1_1Tractography_1_1ROISet.html", null ],
     [ "MR::DWI::FMLS::Segmenter", "classMR_1_1DWI_1_1FMLS_1_1Segmenter.html", null ],
     [ "MR::File::Dicom::Sequence", "classMR_1_1File_1_1Dicom_1_1Sequence.html", null ],
+    [ "MR::DWI::Directions::Set", "classMR_1_1DWI_1_1Directions_1_1Set.html", [
+      [ "MR::DWI::Directions::FastLookupSet", "classMR_1_1DWI_1_1Directions_1_1FastLookupSet.html", null ]
+    ] ],
     [ "set", null, [
       [ "MR::DWI::Tractography::Mapping::Gaussian::SetDixel", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1Gaussian_1_1SetDixel.html", null ],
       [ "MR::DWI::Tractography::Mapping::Gaussian::SetVoxel", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1Gaussian_1_1SetVoxel.html", null ],
@@ -478,9 +483,6 @@ var hierarchy =
       [ "MR::DWI::Tractography::Mapping::SetVoxel", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1SetVoxel.html", null ],
       [ "MR::DWI::Tractography::Mapping::SetVoxelDEC", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1SetVoxelDEC.html", null ],
       [ "MR::DWI::Tractography::Mapping::SetVoxelTOD", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1SetVoxelTOD.html", null ]
-    ] ],
-    [ "MR::DWI::Directions::Set", "classMR_1_1DWI_1_1Directions_1_1Set.html", [
-      [ "MR::DWI::Directions::FastLookupSet", "classMR_1_1DWI_1_1Directions_1_1FastLookupSet.html", null ]
     ] ],
     [ "MR::DWI::Tractography::Mapping::SetVoxelExtras", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1SetVoxelExtras.html", [
       [ "MR::DWI::Tractography::Mapping::Gaussian::SetDixel", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1Gaussian_1_1SetDixel.html", null ],
@@ -510,6 +512,7 @@ var hierarchy =
     [ "MR::DWI::Shells", "classMR_1_1DWI_1_1Shells.html", null ],
     [ "MR::Math::Sinc< T >", "classMR_1_1Math_1_1Sinc.html", null ],
     [ "MR::Math::Sinc< value_type >", "classMR_1_1Math_1_1Sinc.html", null ],
+    [ "MR::DWI::Sn_scale_estimator< value_type >", "classMR_1_1DWI_1_1Sn__scale__estimator.html", null ],
     [ "MR::Math::Eigen::Symm< T >", "classMR_1_1Math_1_1Eigen_1_1Symm.html", null ],
     [ "MR::Math::Eigen::SymmV< T >", "classMR_1_1Math_1_1Eigen_1_1SymmV.html", null ],
     [ "MR::Math::Eigen::SymmV< double >", "classMR_1_1Math_1_1Eigen_1_1SymmV.html", null ],
@@ -539,6 +542,7 @@ var hierarchy =
       ] ]
     ] ],
     [ "MR::Stats::CFE::TrackProcessor", "classMR_1_1Stats_1_1CFE_1_1TrackProcessor.html", null ],
+    [ "MR::Math::SH::Transform< ValueType >", "classMR_1_1Math_1_1SH_1_1Transform.html", null ],
     [ "MR::Image::Transform", "classMR_1_1Image_1_1Transform.html", [
       [ "MR::Image::Interp::Linear< Image::Buffer< float >::voxel_type >", "classMR_1_1Image_1_1Interp_1_1Linear.html", null ],
       [ "MR::Image::Interp::Linear< MR::Image::Voxel >", "classMR_1_1Image_1_1Interp_1_1Linear.html", null ],
@@ -550,7 +554,6 @@ var hierarchy =
       [ "MR::Image::Interp::Sinc< VoxelType >", "classMR_1_1Image_1_1Interp_1_1Sinc.html", null ],
       [ "MR::Image::Interp::Nearest< MR::Image::BufferPreload::voxel_type >", "classMR_1_1Image_1_1Interp_1_1Nearest.html", null ]
     ] ],
-    [ "MR::Math::SH::Transform< ValueType >", "classMR_1_1Math_1_1SH_1_1Transform.html", null ],
     [ "MR::Math::SH::Transform< float >", "classMR_1_1Math_1_1SH_1_1Transform.html", null ],
     [ "MR::GUI::Dialog::TreeItem", "classMR_1_1GUI_1_1Dialog_1_1TreeItem.html", null ],
     [ "MR::DWI::Tractography::Mapping::TWIImagePluginBase", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TWIImagePluginBase.html", [
@@ -589,11 +592,6 @@ var hierarchy =
     [ "MR::GUI::DWI::Renderer::Vertex", "classMR_1_1GUI_1_1DWI_1_1Renderer_1_1Vertex.html", null ],
     [ "MR::GUI::GL::VertexArrayObject", "classMR_1_1GUI_1_1GL_1_1VertexArrayObject.html", null ],
     [ "MR::GUI::GL::VertexBuffer", "classMR_1_1GUI_1_1GL_1_1VertexBuffer.html", null ],
-    [ "MR::Image::Voxel< BufferType >", "classMR_1_1Image_1_1Voxel.html", [
-      [ "MR::Image::Interp::Linear< Image::Buffer< float >::voxel_type >", "classMR_1_1Image_1_1Interp_1_1Linear.html", null ],
-      [ "MR::Image::Interp::Linear< MR::Image::Voxel >", "classMR_1_1Image_1_1Interp_1_1Linear.html", null ],
-      [ "MR::Image::Interp::Nearest< MR::Image::BufferPreload::voxel_type >", "classMR_1_1Image_1_1Interp_1_1Nearest.html", null ]
-    ] ],
     [ "MR::Image::Adapter::Voxel< VoxelType >", "classMR_1_1Image_1_1Adapter_1_1Voxel.html", [
       [ "MR::DWI::Bootstrap< VoxelType, Functor, NUM_VOX_PER_CHUNK >", "classMR_1_1DWI_1_1Bootstrap.html", null ],
       [ "MR::Image::Adapter::Extract< VoxelType >", "classMR_1_1Image_1_1Adapter_1_1Extract.html", null ],
@@ -604,6 +602,11 @@ var hierarchy =
       [ "MR::Image::Adapter::PermuteAxes< VoxelType >", "classMR_1_1Image_1_1Adapter_1_1PermuteAxes.html", null ],
       [ "MR::Image::Adapter::Replicate< VoxelType >", "classMR_1_1Image_1_1Adapter_1_1Replicate.html", null ],
       [ "MR::Image::Adapter::Subset< VoxelType >", "classMR_1_1Image_1_1Adapter_1_1Subset.html", null ]
+    ] ],
+    [ "MR::Image::Voxel< BufferType >", "classMR_1_1Image_1_1Voxel.html", [
+      [ "MR::Image::Interp::Linear< Image::Buffer< float >::voxel_type >", "classMR_1_1Image_1_1Interp_1_1Linear.html", null ],
+      [ "MR::Image::Interp::Linear< MR::Image::Voxel >", "classMR_1_1Image_1_1Interp_1_1Linear.html", null ],
+      [ "MR::Image::Interp::Nearest< MR::Image::BufferPreload::voxel_type >", "classMR_1_1Image_1_1Interp_1_1Nearest.html", null ]
     ] ],
     [ "MR::Image::Voxel< BufferScratch >", "classMR_1_1Image_1_1Voxel.html", null ],
     [ "MR::Image::Voxel< Image::Buffer< uint64_t > >", "classMR_1_1Image_1_1Voxel.html", [

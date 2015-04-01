@@ -7,6 +7,9 @@ var namespaceMR_1_1DWI =
     [ "Bootstrap", "classMR_1_1DWI_1_1Bootstrap.html", "classMR_1_1DWI_1_1Bootstrap" ],
     [ "CSDeconv", "classMR_1_1DWI_1_1CSDeconv.html", "classMR_1_1DWI_1_1CSDeconv" ],
     [ "Fixel_map", "classMR_1_1DWI_1_1Fixel__map.html", "classMR_1_1DWI_1_1Fixel__map" ],
+    [ "NoiseEstimator", "classMR_1_1DWI_1_1NoiseEstimator.html", "classMR_1_1DWI_1_1NoiseEstimator" ],
+    [ "NoiseEstimatorFunctor", "classMR_1_1DWI_1_1NoiseEstimatorFunctor.html", "classMR_1_1DWI_1_1NoiseEstimatorFunctor" ],
     [ "Shell", "classMR_1_1DWI_1_1Shell.html", "classMR_1_1DWI_1_1Shell" ],
-    [ "Shells", "classMR_1_1DWI_1_1Shells.html", "classMR_1_1DWI_1_1Shells" ]
+    [ "Shells", "classMR_1_1DWI_1_1Shells.html", "classMR_1_1DWI_1_1Shells" ],
+    [ "Sn_scale_estimator", "classMR_1_1DWI_1_1Sn__scale__estimator.html", "classMR_1_1DWI_1_1Sn__scale__estimator" ]
 ];

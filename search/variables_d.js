@@ -17,6 +17,7 @@ var searchData=
   ['nitems',['nitems',['../classMR_1_1File_1_1Dicom_1_1CSAEntry.html#a959c4478d22f4b0624b706985dcec713',1,'MR::File::Dicom::CSAEntry']]],
   ['niter',['niter',['../classMR_1_1DWI_1_1CSDeconv_1_1Shared.html#a10e075ad98e13daec8c8cd3519ff1da1',1,'MR::DWI::CSDeconv::Shared']]],
   ['nodes',['nodes',['../classMR_1_1DWI_1_1Tractography_1_1Connectomics_1_1Tck2nodes__base.html#a1af5f211553658275a1dddfdf4dbd546',1,'MR::DWI::Tractography::Connectomics::Tck2nodes_base']]],
+  ['noise',['noise',['../classMR_1_1DWI_1_1NoiseEstimatorFunctor.html#aa03692645ee166587f133b9479ef481c',1,'MR::DWI::NoiseEstimatorFunctor']]],
   ['norm_5flambda',['norm_lambda',['../classMR_1_1DWI_1_1CSDeconv_1_1Shared.html#ad4ba6615b6cf3674cd773430f4cad032',1,'MR::DWI::CSDeconv::Shared::norm_lambda()'],['../classMR_1_1DWI_1_1CSDeconv.html#a56ad8a82803ca18c55c6de5e8d855f19',1,'MR::DWI::CSDeconv::norm_lambda()']]],
   ['normalise',['normalise',['../classMR_1_1GUI_1_1DWI_1_1RenderFrame.html#abce4806eacbaa50c0d288cff287fde91',1,'MR::GUI::DWI::RenderFrame']]],
   ['normg',['normg',['../classMR_1_1Math_1_1GradientDescent.html#a3618427f53c7981b0e65037b8e3b150d',1,'MR::Math::GradientDescent']]],

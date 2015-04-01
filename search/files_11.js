@@ -19,6 +19,7 @@ var searchData=
   ['sinc_2eh',['sinc.h',['../math_2sinc_8h.html',1,'']]],
   ['slice_2eh',['slice.h',['../slice_8h.html',1,'']]],
   ['smooth_2eh',['smooth.h',['../smooth_8h.html',1,'']]],
+  ['sn_5fscale_5festimator_2eh',['Sn_scale_estimator.h',['../Sn__scale__estimator_8h.html',1,'']]],
   ['sparse_2eh',['sparse.h',['../sparse_8h.html',1,'']]],
   ['streamline_2eh',['streamline.h',['../streamline_8h.html',1,'']]],
   ['stride_2eh',['stride.h',['../stride_8h.html',1,'']]],

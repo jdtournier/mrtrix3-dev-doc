@@ -7,6 +7,7 @@ var classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base =
     [ "Base", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html#a0fcc23e7f7a522c62a23e34587284498", null ],
     [ "adjustSize", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html#ab1eda93df3dad49f95b825d8608933fa", null ],
     [ "draw", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html#a6bff14a2771e1e1b21733268de8ad97b", null ],
+    [ "draw_tool_labels", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html#ac92aa398af2929e2c196020e9526e617", null ],
     [ "drawOverlays", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html#a41b0e83bfa06d1bd0a467e9630ee359e", null ],
     [ "get_cursor", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html#a9f521b5ab3be5b29180551a7edbd017b", null ],
     [ "grab_focus", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html#a1ba896dd5d8fb547908455b5d2540618", null ],

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['m',['m',['../classMR_1_1GUI_1_1GL_1_1mat4.html#a38a1e3a0be485bd93d53d4d83017076f',1,'MR::GUI::GL::mat4::m()'],['../classMR_1_1DWI_1_1CSDeconv_1_1Shared.html#af1304077e5171030eb789f8eb99759de',1,'MR::DWI::CSDeconv::Shared::M()'],['../classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1Tensor__Det.html#a809aa4ad2e928a6496ebb8dc8f22382f',1,'MR::DWI::Tractography::Algorithms::Tensor_Det::M()']]],
+  ['m',['M',['../classMR_1_1DWI_1_1CSDeconv_1_1Shared.html#af1304077e5171030eb789f8eb99759de',1,'MR::DWI::CSDeconv::Shared::M()'],['../classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1Tensor__Det.html#a809aa4ad2e928a6496ebb8dc8f22382f',1,'MR::DWI::Tractography::Algorithms::Tensor_Det::M()'],['../classMR_1_1GUI_1_1GL_1_1mat4.html#a38a1e3a0be485bd93d53d4d83017076f',1,'MR::GUI::GL::mat4::m()']]],
   ['m_5fxdim',['m_xdim',['../classMR_1_1Image_1_1Handler_1_1Mosaic.html#ab01a0f1b7d34b4ca0a30a5d56cfd195f',1,'MR::Image::Handler::Mosaic']]],
   ['m_5fydim',['m_ydim',['../classMR_1_1Image_1_1Handler_1_1Mosaic.html#a06116e1633b2944ad35fce544d4d37e3',1,'MR::Image::Handler::Mosaic']]],
   ['main_5fbox',['main_box',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1TrackScalarFile.html#af7e8f39e203805decf34620fe3b5f593',1,'MR::GUI::MRView::Tool::TrackScalarFile']]],
@@ -28,6 +28,7 @@ var searchData=
   ['max_5fvalue',['max_value',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1Overlay.html#a7b5ca1ad2f6a7fb03e86aab6bdb08027',1,'MR::GUI::MRView::Tool::Overlay::max_value()'],['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1Vector.html#a62309011e7cda3e0312a7614ce5b7b65',1,'MR::GUI::MRView::Tool::Vector::max_value()']]],
   ['mean',['mean',['../classMR_1_1DWI_1_1Shell.html#ae75bda8159e813126bb55e632731a66e',1,'MR::DWI::Shell']]],
   ['mean_5fsample_5fnum',['mean_sample_num',['../classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1iFOD1.html#a3045d2a91d1cabc538f2d9e6ed286633',1,'MR::DWI::Tractography::Algorithms::iFOD1']]],
+  ['med_5fdiff',['med_diff',['../classMR_1_1DWI_1_1Sn__scale__estimator.html#a40ada09f4a62435b6642e6002ec4fff3',1,'MR::DWI::Sn_scale_estimator']]],
   ['message',['message',['../classMR_1_1Image_1_1Filter_1_1Base.html#a7832ccdc2c1c6b8b3ac338eb7c8e089e',1,'MR::Image::Filter::Base']]],
   ['metric',['metric',['../classMR_1_1GUI_1_1GL_1_1Font.html#aa56072adcdb137758deb4e021b522408',1,'MR::GUI::GL::Font']]],
   ['metricoption',['MetricOption',['../namespaceMR_1_1DWI_1_1Tractography_1_1Connectomics.html#ae0ab3b1270e035caf260493540ff17a9',1,'MR::DWI::Tractography::Connectomics']]],

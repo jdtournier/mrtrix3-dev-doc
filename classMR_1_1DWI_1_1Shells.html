@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">MRtrix
-   &#160;<span id="projectnumber">0.3.12-292-g6f632bc3</span>
+   &#160;<span id="projectnumber">0.3.12-304-g9979917d</span>
    </div>
    <div id="projectbrief">MRtrix provides a set of tools to perform diffusion-weighted MR white-matter tractography in a manner robust to crossing fibres, using constrained spherical deconvolution (CSD) and probabilistic streamlines.</div>
   </td>
@@ -141,10 +141,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a2a7e6a142cc0930af4a791573d981840"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae05de7344456bd7a5dda4f1c44c8e217"><td class="memItemLeft" align="right" valign="top">std::vector&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1DWI_1_1Shells.html#ae05de7344456bd7a5dda4f1c44c8e217">get_bvalues</a> () const </td></tr>
 <tr class="separator:ae05de7344456bd7a5dda4f1c44c8e217"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ba1e3c1e3dad4607d6850dea6c0adbe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1DWI_1_1Shells.html#a4ba1e3c1e3dad4607d6850dea6c0adbe">select_shells</a> (const bool keep_bzero=false, const bool force_single_shell=true)</td></tr>
-<tr class="separator:a4ba1e3c1e3dad4607d6850dea6c0adbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af0aa5be3a9d492e799e7e58d5bb8e309"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1DWI_1_1Shells.html#af0aa5be3a9d492e799e7e58d5bb8e309">reject_small_shells</a> (const size_t min_volumes=6)</td></tr>
-<tr class="separator:af0aa5be3a9d492e799e7e58d5bb8e309"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c595f93dae968e0db82866c896725c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1DWI_1_1Shells.html">Shells</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1DWI_1_1Shells.html#a9c595f93dae968e0db82866c896725c9">select_shells</a> (const bool keep_bzero=false, const bool force_single_shell=true)</td></tr>
+<tr class="separator:a9c595f93dae968e0db82866c896725c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a336af5c165d4cfac7664221c5581db6a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1DWI_1_1Shells.html">Shells</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1DWI_1_1Shells.html#a336af5c165d4cfac7664221c5581db6a">reject_small_shells</a> (const size_t min_volumes=6)</td></tr>
+<tr class="separator:a336af5c165d4cfac7664221c5581db6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa75c34e259d626c98dcb08f7ff8e5885"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1DWI_1_1Shells.html#aa75c34e259d626c98dcb08f7ff8e5885">is_single_shell</a> () const </td></tr>
 <tr class="separator:aa75c34e259d626c98dcb08f7ff8e5885"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -380,12 +380,12 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="af0aa5be3a9d492e799e7e58d5bb8e309"></a>
+<a class="anchor" id="a336af5c165d4cfac7664221c5581db6a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void MR::DWI::Shells::reject_small_shells </td>
+          <td class="memname"><a class="el" href="classMR_1_1DWI_1_1Shells.html">Shells</a>&amp; MR::DWI::Shells::reject_small_shells </td>
           <td>(</td>
           <td class="paramtype">const size_t&#160;</td>
           <td class="paramname"><em>min_volumes</em> = <code>6</code></td><td>)</td>
@@ -396,12 +396,12 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a4ba1e3c1e3dad4607d6850dea6c0adbe"></a>
+<a class="anchor" id="a9c595f93dae968e0db82866c896725c9"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void MR::DWI::Shells::select_shells </td>
+          <td class="memname"><a class="el" href="classMR_1_1DWI_1_1Shells.html">Shells</a>&amp; MR::DWI::Shells::select_shells </td>
           <td>(</td>
           <td class="paramtype">const bool&#160;</td>
           <td class="paramname"><em>keep_bzero</em> = <code>false</code>, </td>
@@ -549,7 +549,7 @@ Friends</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="namespaceMR_1_1DWI.html">DWI</a></li><li class="navelem"><a class="el" href="classMR_1_1DWI_1_1Shells.html">Shells</a></li>
-    <li class="footer">Generated on Fri Mar 27 2015 16:32:25 for MRtrix by
+    <li class="footer">Generated on Wed Apr 1 2015 14:53:44 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

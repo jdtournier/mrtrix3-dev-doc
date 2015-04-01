@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">MRtrix
-   &#160;<span id="projectnumber">0.3.12-292-g6f632bc3</span>
+   &#160;<span id="projectnumber">0.3.12-304-g9979917d</span>
    </div>
    <div id="projectbrief">MRtrix provides a set of tools to perform diffusion-weighted MR white-matter tractography in a manner robust to crossing fibres, using constrained spherical deconvolution (CSD) and probabilistic streamlines.</div>
   </td>
@@ -154,7 +154,8 @@ $(document).ready(function(){initNavTree('functions_vars_s.html','');});
 
 <h3><a class="anchor" id="index_s"></a>- s -</h3><ul>
 <li>S
-: <a class="el" href="classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1FACT.html#a81fda98c2b1dec4191e2fee5dcc53a47">MR::DWI::Tractography::Algorithms::FACT</a>
+: <a class="el" href="classMR_1_1DWI_1_1NoiseEstimatorFunctor.html#a72bf972f2f488bdf9e010e44f26412f3">MR::DWI::NoiseEstimatorFunctor&lt; InputVoxelType, OutputVoxelType, ValueType &gt;</a>
+, <a class="el" href="classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1FACT.html#a81fda98c2b1dec4191e2fee5dcc53a47">MR::DWI::Tractography::Algorithms::FACT</a>
 , <a class="el" href="classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1iFOD1.html#abcc03ba1f373384580ea1a85992dd621">MR::DWI::Tractography::Algorithms::iFOD1</a>
 , <a class="el" href="classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1NullDist.html#aac3277abc9a0bdc831e17596bbde0a03">MR::DWI::Tractography::Algorithms::NullDist</a>
 , <a class="el" href="classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1SDStream.html#ae9c1d8ebeefb89e037b099ec50e854fe">MR::DWI::Tractography::Algorithms::SDStream</a>
@@ -192,6 +193,9 @@ $(document).ready(function(){initNavTree('functions_vars_s.html','');});
 </li>
 <li>scale_
 : <a class="el" href="classMR_1_1Image_1_1Header.html#a698ef885feaf991eaecf5da8ecc37a48">MR::Image::Header</a>
+</li>
+<li>scale_estimator
+: <a class="el" href="classMR_1_1DWI_1_1NoiseEstimatorFunctor.html#ae4146f675c62be8aac67796bdeda84c9">MR::DWI::NoiseEstimatorFunctor&lt; InputVoxelType, OutputVoxelType, ValueType &gt;</a>
 </li>
 <li>scale_intercept
 : <a class="el" href="classMR_1_1File_1_1Dicom_1_1Frame.html#a2a49e6f3f7b152c0e9668456c53135b3">MR::File::Dicom::Frame</a>
@@ -443,7 +447,7 @@ $(document).ready(function(){initNavTree('functions_vars_s.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Mar 27 2015 16:32:27 for MRtrix by
+    <li class="footer">Generated on Wed Apr 1 2015 14:53:45 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>
