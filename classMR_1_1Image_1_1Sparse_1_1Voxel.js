@@ -9,5 +9,5 @@ var classMR_1_1Image_1_1Sparse_1_1Voxel =
     [ "value", "classMR_1_1Image_1_1Sparse_1_1Voxel.html#ae6fa8ec3b15e4ea4978723d8a88b0a02", null ],
     [ "operator<<", "classMR_1_1Image_1_1Sparse_1_1Voxel.html#a28a7069279b4bbc85e430544fe0ea049", null ],
     [ "Sparse::Value< Voxel >", "classMR_1_1Image_1_1Sparse_1_1Voxel.html#a279cd9e839316258c9a710a584bf58d0", null ],
-    [ "handler_", "classMR_1_1Image_1_1Sparse_1_1Voxel.html#a3788126cd05276624e39522d733f252d", null ]
+    [ "handler_", "classMR_1_1Image_1_1Sparse_1_1Voxel.html#af8989eb1cf73f2803e88b17e4f2b3605", null ]
 ];

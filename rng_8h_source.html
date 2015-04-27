@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">MRtrix
-   &#160;<span id="projectnumber">0.3.12-304-g9979917d</span>
+   &#160;<span id="projectnumber">0.3.12-365-ged27dfbe</span>
    </div>
    <div id="projectbrief">MRtrix provides a set of tools to perform diffusion-weighted MR white-matter tractography in a manner robust to crossing fibres, using constrained spherical deconvolution (CSD) and probabilistic streamlines.</div>
   </td>
@@ -133,125 +133,101 @@ $(document).ready(function(){initNavTree('rng_8h_source.html','');});
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment"></span></div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="comment">*/</span></div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#ifndef __math_simulation_h__</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#define __math_simulation_h__</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#ifndef __math_rng_h__</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#define __math_rng_h__</span></div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &lt;gsl/gsl_rng.h&gt;</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#include &lt;gsl/gsl_randist.h&gt;</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &lt;random&gt;</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#ifdef MRTRIX_WINDOWS</span></div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#include &lt;sys/time.h&gt;</span></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="lib_2math_2vector_8h.html">math/vector.h</a>&quot;</span></div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceMR.html">MR</a></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;{</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  <span class="keyword">namespace </span>Math</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  {</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
-<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="classMR_1_1Math_1_1RNG.html">   37</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classMR_1_1Math_1_1RNG.html">RNG</a></div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    {</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;      <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="classMR_1_1Math_1_1RNG.html#ace6ee44964eb01887c28db0a92e7cc4d">   40</a></span>&#160;        <a class="code" href="classMR_1_1Math_1_1RNG.html#ace6ee44964eb01887c28db0a92e7cc4d">RNG</a> () {</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;          <a class="code" href="classMR_1_1Math_1_1RNG.html#a56a7ab18b2eac3085bf0efb230a0605a">generator</a> = gsl_rng_alloc (gsl_rng_mt19937);</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;          <span class="keyword">struct </span>timeval tv;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;          gettimeofday (&amp;tv, NULL);</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;          <a class="code" href="classMR_1_1Math_1_1RNG.html#a5c115821317f4268e088900121081991">set</a> (tv.tv_sec ^ tv.tv_usec);</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        }</div>
-<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="classMR_1_1Math_1_1RNG.html#a3c4fe740c2592e06fe47eb48dd914df5">   46</a></span>&#160;        <a class="code" href="classMR_1_1Math_1_1RNG.html#a3c4fe740c2592e06fe47eb48dd914df5">RNG</a> (<span class="keywordtype">size_t</span> seed) {</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;          <a class="code" href="classMR_1_1Math_1_1RNG.html#a56a7ab18b2eac3085bf0efb230a0605a">generator</a> = gsl_rng_alloc (gsl_rng_mt19937);</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;          <a class="code" href="classMR_1_1Math_1_1RNG.html#a5c115821317f4268e088900121081991">set</a> (seed);</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        }</div>
-<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="classMR_1_1Math_1_1RNG.html#a09b624378bfbc00cd054b82517fc545f">   50</a></span>&#160;        <a class="code" href="classMR_1_1Math_1_1RNG.html#a09b624378bfbc00cd054b82517fc545f">RNG</a> (<span class="keyword">const</span> <a class="code" href="classMR_1_1Math_1_1RNG.html">RNG</a>&amp; rng) {</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;          <a class="code" href="classMR_1_1Math_1_1RNG.html#a56a7ab18b2eac3085bf0efb230a0605a">generator</a> = gsl_rng_alloc (gsl_rng_mt19937);</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;          <a class="code" href="classMR_1_1Math_1_1RNG.html#a5c115821317f4268e088900121081991">set</a> (rng.<a class="code" href="classMR_1_1Math_1_1RNG.html#ac7662aff6809bba34bcd1c49247fc31b">get</a>()+1);</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        }</div>
-<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="classMR_1_1Math_1_1RNG.html#abcf29ad371fc990c224263cee2e5854e">   54</a></span>&#160;        <a class="code" href="classMR_1_1Math_1_1RNG.html#abcf29ad371fc990c224263cee2e5854e">~RNG</a> ()           {</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;          gsl_rng_free (<a class="code" href="classMR_1_1Math_1_1RNG.html#a56a7ab18b2eac3085bf0efb230a0605a">generator</a>);</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        }</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
-<div class="line"><a name="l00060"></a><span class="lineno"><a class="line" href="classMR_1_1Math_1_1RNG.html#a5c115821317f4268e088900121081991">   60</a></span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classMR_1_1Math_1_1RNG.html#a5c115821317f4268e088900121081991">set</a> (<span class="keywordtype">size_t</span> seed) {</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;          gsl_rng_set (<a class="code" href="classMR_1_1Math_1_1RNG.html#a56a7ab18b2eac3085bf0efb230a0605a">generator</a>, seed);</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        }</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
-<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="classMR_1_1Math_1_1RNG.html#ac7662aff6809bba34bcd1c49247fc31b">   64</a></span>&#160;        <span class="keywordtype">size_t</span> <span class="keyword">get</span> () <span class="keyword">const</span> {</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;          <span class="keywordflow">return</span> gsl_rng_get (<a class="code" href="classMR_1_1Math_1_1RNG.html#a56a7ab18b2eac3085bf0efb230a0605a">generator</a>);</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        }</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
-<div class="line"><a name="l00069"></a><span class="lineno"><a class="line" href="classMR_1_1Math_1_1RNG.html#ae64e538b5a001d400452afcae2c81d6c">   69</a></span>&#160;        gsl_rng*  <a class="code" href="classMR_1_1Math_1_1RNG.html#ae64e538b5a001d400452afcae2c81d6c">operator() </a>()                    {</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;          <span class="keywordflow">return</span> <a class="code" href="classMR_1_1Math_1_1RNG.html#a56a7ab18b2eac3085bf0efb230a0605a">generator</a>;</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        }</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
-<div class="line"><a name="l00073"></a><span class="lineno"><a class="line" href="classMR_1_1Math_1_1RNG.html#a99674f4cb441a6f120fd8702fb5fbd60">   73</a></span>&#160;        <span class="keywordtype">float</span> <a class="code" href="classMR_1_1Math_1_1RNG.html#a99674f4cb441a6f120fd8702fb5fbd60">uniform</a> ()              {</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;          <span class="keywordflow">return</span> gsl_rng_uniform (<a class="code" href="classMR_1_1Math_1_1RNG.html#a56a7ab18b2eac3085bf0efb230a0605a">generator</a>);</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        }</div>
-<div class="line"><a name="l00076"></a><span class="lineno"><a class="line" href="classMR_1_1Math_1_1RNG.html#a31e4d94e15d1acd56201f408b25d7720">   76</a></span>&#160;        <span class="keywordtype">size_t</span> <a class="code" href="classMR_1_1Math_1_1RNG.html#a31e4d94e15d1acd56201f408b25d7720">uniform_int</a> (<span class="keywordtype">size_t</span> <a class="code" href="group__elfun.html#ga6ad7c8a6943db01a90c071137a5eb4de">max</a>) {</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;          <span class="keywordflow">return</span> gsl_rng_uniform_int (<a class="code" href="classMR_1_1Math_1_1RNG.html#a56a7ab18b2eac3085bf0efb230a0605a">generator</a>, max);</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        }</div>
-<div class="line"><a name="l00079"></a><span class="lineno"><a class="line" href="classMR_1_1Math_1_1RNG.html#a3e434a47cf70b39b22adc112fca3e517">   79</a></span>&#160;        <span class="keywordtype">float</span> <a class="code" href="classMR_1_1Math_1_1RNG.html#a3e434a47cf70b39b22adc112fca3e517">normal</a> (<span class="keywordtype">float</span> SD = 1.0) {</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;          <span class="keywordflow">return</span> gsl_ran_gaussian (<a class="code" href="classMR_1_1Math_1_1RNG.html#a56a7ab18b2eac3085bf0efb230a0605a">generator</a>, SD);</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        }</div>
-<div class="line"><a name="l00082"></a><span class="lineno"><a class="line" href="classMR_1_1Math_1_1RNG.html#aa88e1df863e3eed86cdbcc7d909b615e">   82</a></span>&#160;        <span class="keywordtype">float</span> <a class="code" href="classMR_1_1Math_1_1RNG.html#aa88e1df863e3eed86cdbcc7d909b615e">rician</a> (<span class="keywordtype">float</span> amplitude, <span class="keywordtype">float</span> SD) {</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;          amplitude += gsl_ran_gaussian_ratio_method (<a class="code" href="classMR_1_1Math_1_1RNG.html#a56a7ab18b2eac3085bf0efb230a0605a">generator</a>, SD);</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;          <span class="keywordtype">float</span> imag = gsl_ran_gaussian_ratio_method (<a class="code" href="classMR_1_1Math_1_1RNG.html#a56a7ab18b2eac3085bf0efb230a0605a">generator</a>, SD);</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;          <span class="keywordflow">return</span> sqrt (amplitude*amplitude + imag*imag);</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        }</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div>
-<div class="line"><a name="l00088"></a><span class="lineno"><a class="line" href="classMR_1_1Math_1_1RNG.html#a3c4238d79e42ca42bdd46b0587f35dd9">   88</a></span>&#160;        <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt; <span class="keywordtype">void</span> <a class="code" href="classMR_1_1Math_1_1RNG.html#a3c4238d79e42ca42bdd46b0587f35dd9">shuffle</a> (<a class="code" href="classMR_1_1Math_1_1Vector.html">Vector&lt;T&gt;</a>&amp; V) {</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;          gsl_ran_shuffle (<a class="code" href="classMR_1_1Math_1_1RNG.html#a56a7ab18b2eac3085bf0efb230a0605a">generator</a>, V-&gt;<a class="code" href="classMR_1_1Math_1_1Vector.html#a6a90ed03d685877a4d211f3b6d464e8e">ptr</a>(), V.<a class="code" href="classMR_1_1Math_1_1Vector.html#a6ef7b436ca00d2e3b86d7b07783455e6">size</a>(), <span class="keyword">sizeof</span> (T));</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        }</div>
-<div class="line"><a name="l00091"></a><span class="lineno"><a class="line" href="classMR_1_1Math_1_1RNG.html#a6992d1d71912ab0f80e858ec4f23126b">   91</a></span>&#160;        <span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt; <span class="keywordtype">void</span> <a class="code" href="classMR_1_1Math_1_1RNG.html#a6992d1d71912ab0f80e858ec4f23126b">shuffle</a> (std::vector&lt;T&gt;&amp; V) {</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;          gsl_ran_shuffle (<a class="code" href="classMR_1_1Math_1_1RNG.html#a56a7ab18b2eac3085bf0efb230a0605a">generator</a>, &amp;V[0], V.size(), <span class="keyword">sizeof</span> (T));</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        }</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;      <span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00097"></a><span class="lineno"><a class="line" href="classMR_1_1Math_1_1RNG.html#a56a7ab18b2eac3085bf0efb230a0605a">   97</a></span>&#160;        gsl_rng* <a class="code" href="classMR_1_1Math_1_1RNG.html#a56a7ab18b2eac3085bf0efb230a0605a">generator</a>;</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    };</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="mrtrix_8h.html">mrtrix.h</a>&quot;</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceMR.html">MR</a></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;{</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  <span class="keyword">namespace </span>Math</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  {</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
+<div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="classMR_1_1Math_1_1RNG.html">   47</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classMR_1_1Math_1_1RNG.html">RNG</a> : <span class="keyword">public</span> std::mt19937</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    {</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;      <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="classMR_1_1Math_1_1RNG.html#ace6ee44964eb01887c28db0a92e7cc4d">   50</a></span>&#160;        <a class="code" href="classMR_1_1Math_1_1RNG.html#ace6ee44964eb01887c28db0a92e7cc4d">RNG</a> () : <a class="code" href="namespacestd.html">std</a>::mt19937 (<a class="code" href="classMR_1_1Math_1_1RNG.html#a580f49abad94358c04c68d5844cf57ab">get_seed</a>()) { }</div>
+<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="classMR_1_1Math_1_1RNG.html#a7b1794a31f828e928d755770115c2d66">   51</a></span>&#160;        <a class="code" href="classMR_1_1Math_1_1RNG.html#a7b1794a31f828e928d755770115c2d66">RNG</a> (std::mt19937::result_type seed) : <a class="code" href="namespacestd.html">std</a>::mt19937 (seed) { }</div>
+<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="classMR_1_1Math_1_1RNG.html#afb98ce8a82347664d8dcc3cba11f131a">   52</a></span>&#160;        <a class="code" href="classMR_1_1Math_1_1RNG.html#afb98ce8a82347664d8dcc3cba11f131a">RNG</a> (<span class="keyword">const</span> <a class="code" href="classMR_1_1Math_1_1RNG.html">RNG</a>&amp;) : <a class="code" href="namespacestd.html">std</a>::mt19937 (<a class="code" href="classMR_1_1Math_1_1RNG.html#a580f49abad94358c04c68d5844cf57ab">get_seed</a>()) { }</div>
+<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="classMR_1_1Math_1_1RNG_1_1Uniform.html">   53</a></span>&#160;        <span class="keyword">template</span> &lt;<span class="keyword">typename</span> ValueType&gt; <span class="keyword">class </span><a class="code" href="classMR_1_1Math_1_1RNG_1_1Uniform.html">Uniform</a>; </div>
+<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="classMR_1_1Math_1_1RNG_1_1Normal.html">   54</a></span>&#160;        <span class="keyword">template</span> &lt;<span class="keyword">typename</span> ValueType&gt; <span class="keyword">class </span><a class="code" href="classMR_1_1Math_1_1RNG_1_1Normal.html">Normal</a>; </div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
+<div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="classMR_1_1Math_1_1RNG.html#a580f49abad94358c04c68d5844cf57ab">   56</a></span>&#160;        <span class="keyword">static</span> std::mt19937::result_type <a class="code" href="classMR_1_1Math_1_1RNG.html#a580f49abad94358c04c68d5844cf57ab">get_seed</a> () {</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;          <span class="keyword">static</span> std::mt19937::result_type current_seed = get_seed_private();</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;          <span class="keywordflow">return</span> current_seed++;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        }</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;      <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <span class="keyword">static</span> std::mt19937::result_type get_seed_private () {</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;          <span class="keyword">const</span> <span class="keywordtype">char</span>* from_env = getenv (<span class="stringliteral">&quot;MRTRIX_RNG_SEED&quot;</span>);</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;          <span class="keywordflow">if</span> (from_env) </div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;            <span class="keywordflow">return</span> to&lt;std::mt19937::result_type&gt; (from_env);</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="preprocessor">#ifdef MRTRIX_WINDOWS</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;          <span class="keyword">struct </span>timeval tv;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;          gettimeofday (&amp;tv, <span class="keyword">nullptr</span>);</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;          <span class="keywordflow">return</span> tv.tv_sec ^ tv.tv_usec;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="preprocessor">#else </span></div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;          <span class="comment">// TODO check whether this does in fact work on Windows...</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;          std::random_device rd;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;          <span class="keywordflow">return</span> rd();</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        }</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    };</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> ValueType&gt;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;      <span class="keyword">class </span>RNG::Uniform {</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00085"></a><span class="lineno"><a class="line" href="classMR_1_1Math_1_1RNG_1_1Uniform.html#a7a7ad2ca9571a9925f2fa858693ff791">   85</a></span>&#160;          <a class="code" href="classMR_1_1Math_1_1RNG.html">RNG</a> <a class="code" href="classMR_1_1Math_1_1RNG_1_1Uniform.html#a7a7ad2ca9571a9925f2fa858693ff791">rng</a>;</div>
+<div class="line"><a name="l00086"></a><span class="lineno"><a class="line" href="classMR_1_1Math_1_1RNG_1_1Uniform.html#a8b4ecf35e8bbadf52631f40c523d19c4">   86</a></span>&#160;          std::uniform_real_distribution&lt;ValueType&gt; <a class="code" href="classMR_1_1Math_1_1RNG_1_1Uniform.html#a8b4ecf35e8bbadf52631f40c523d19c4">dist</a>;</div>
+<div class="line"><a name="l00087"></a><span class="lineno"><a class="line" href="classMR_1_1Math_1_1RNG_1_1Uniform.html#af5ee837054ca403fc516bafe4935c27c">   87</a></span>&#160;          ValueType <a class="code" href="classMR_1_1Math_1_1RNG_1_1Uniform.html#af5ee837054ca403fc516bafe4935c27c">operator() </a>() { <span class="keywordflow">return</span> <a class="code" href="classMR_1_1Math_1_1RNG_1_1Uniform.html#a8b4ecf35e8bbadf52631f40c523d19c4">dist</a> (rng); }</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;      };</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> ValueType&gt;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;      <span class="keyword">class </span><a class="code" href="classMR_1_1Math_1_1RNG_1_1Normal.html">RNG::Normal</a> {</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00093"></a><span class="lineno"><a class="line" href="classMR_1_1Math_1_1RNG_1_1Normal.html#a2cd64b4509389802206c79ef1e80ea5b">   93</a></span>&#160;          <a class="code" href="classMR_1_1Math_1_1RNG.html">RNG</a> <a class="code" href="classMR_1_1Math_1_1RNG_1_1Normal.html#a2cd64b4509389802206c79ef1e80ea5b">rng</a>;</div>
+<div class="line"><a name="l00094"></a><span class="lineno"><a class="line" href="classMR_1_1Math_1_1RNG_1_1Normal.html#a76cfb717b651526c367b19846ba97360">   94</a></span>&#160;          std::normal_distribution&lt;ValueType&gt; <a class="code" href="classMR_1_1Math_1_1RNG_1_1Normal.html#a76cfb717b651526c367b19846ba97360">dist</a>;</div>
+<div class="line"><a name="l00095"></a><span class="lineno"><a class="line" href="classMR_1_1Math_1_1RNG_1_1Normal.html#ae84ff4064661894a34b4116efa63e676">   95</a></span>&#160;          ValueType <a class="code" href="classMR_1_1Math_1_1RNG_1_1Normal.html#ae84ff4064661894a34b4116efa63e676">operator() </a>() { <span class="keywordflow">return</span> <a class="code" href="classMR_1_1Math_1_1RNG_1_1Normal.html#a76cfb717b651526c367b19846ba97360">dist</a> (rng); }</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;      };</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;  }</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;}</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <span class="keyword">inline</span> <span class="keywordtype">float</span> <a class="code" href="namespaceMR_1_1Math.html#ab12f7416b1f0b036aa6cd6a9bf79fba0">cauchy</a> (<span class="keywordtype">float</span> x, <span class="keywordtype">float</span> s)</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    {</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;      x /= s;</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;      <span class="keywordflow">return</span> (1.0 / (1.0 + x*x));</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    }</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;  }</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;}</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;</div>
-<div class="ttc" id="classMR_1_1Math_1_1RNG_html_a09b624378bfbc00cd054b82517fc545f"><div class="ttname"><a href="classMR_1_1Math_1_1RNG.html#a09b624378bfbc00cd054b82517fc545f">MR::Math::RNG::RNG</a></div><div class="ttdeci">RNG(const RNG &amp;rng)</div><div class="ttdef"><b>Definition:</b> <a href="rng_8h_source.html#l00050">rng.h:50</a></div></div>
-<div class="ttc" id="classMR_1_1Math_1_1RNG_html"><div class="ttname"><a href="classMR_1_1Math_1_1RNG.html">MR::Math::RNG</a></div><div class="ttdef"><b>Definition:</b> <a href="rng_8h_source.html#l00037">rng.h:37</a></div></div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;</div>
+<div class="ttc" id="classMR_1_1Math_1_1RNG_html"><div class="ttname"><a href="classMR_1_1Math_1_1RNG.html">MR::Math::RNG</a></div><div class="ttdoc">random number generator </div><div class="ttdef"><b>Definition:</b> <a href="rng_8h_source.html#l00047">rng.h:47</a></div></div>
 <div class="ttc" id="namespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> <a href="app_8h_source.html#l00036">app.h:36</a></div></div>
-<div class="ttc" id="classMR_1_1Math_1_1RNG_html_a3c4238d79e42ca42bdd46b0587f35dd9"><div class="ttname"><a href="classMR_1_1Math_1_1RNG.html#a3c4238d79e42ca42bdd46b0587f35dd9">MR::Math::RNG::shuffle</a></div><div class="ttdeci">void shuffle(Vector&lt; T &gt; &amp;V)</div><div class="ttdef"><b>Definition:</b> <a href="rng_8h_source.html#l00088">rng.h:88</a></div></div>
-<div class="ttc" id="classMR_1_1Math_1_1RNG_html_ae64e538b5a001d400452afcae2c81d6c"><div class="ttname"><a href="classMR_1_1Math_1_1RNG.html#ae64e538b5a001d400452afcae2c81d6c">MR::Math::RNG::operator()</a></div><div class="ttdeci">gsl_rng * operator()()</div><div class="ttdef"><b>Definition:</b> <a href="rng_8h_source.html#l00069">rng.h:69</a></div></div>
-<div class="ttc" id="namespaceMR_1_1Math_html_ab12f7416b1f0b036aa6cd6a9bf79fba0"><div class="ttname"><a href="namespaceMR_1_1Math.html#ab12f7416b1f0b036aa6cd6a9bf79fba0">MR::Math::cauchy</a></div><div class="ttdeci">float cauchy(float x, float s)</div><div class="ttdef"><b>Definition:</b> <a href="cauchy_8h_source.html#l00031">cauchy.h:31</a></div></div>
-<div class="ttc" id="group__elfun_html_ga6ad7c8a6943db01a90c071137a5eb4de"><div class="ttname"><a href="group__elfun.html#ga6ad7c8a6943db01a90c071137a5eb4de">MR::Math::max</a></div><div class="ttdeci">T max(const T *const x, const int size, int &amp;index, const int stride=1)</div><div class="ttdoc">find maximum value in array </div><div class="ttdef"><b>Definition:</b> <a href="math_8h_source.html#l00117">math.h:117</a></div></div>
-<div class="ttc" id="classMR_1_1Math_1_1RNG_html_a31e4d94e15d1acd56201f408b25d7720"><div class="ttname"><a href="classMR_1_1Math_1_1RNG.html#a31e4d94e15d1acd56201f408b25d7720">MR::Math::RNG::uniform_int</a></div><div class="ttdeci">size_t uniform_int(size_t max)</div><div class="ttdef"><b>Definition:</b> <a href="rng_8h_source.html#l00076">rng.h:76</a></div></div>
-<div class="ttc" id="classMR_1_1Math_1_1RNG_html_a6992d1d71912ab0f80e858ec4f23126b"><div class="ttname"><a href="classMR_1_1Math_1_1RNG.html#a6992d1d71912ab0f80e858ec4f23126b">MR::Math::RNG::shuffle</a></div><div class="ttdeci">void shuffle(std::vector&lt; T &gt; &amp;V)</div><div class="ttdef"><b>Definition:</b> <a href="rng_8h_source.html#l00091">rng.h:91</a></div></div>
-<div class="ttc" id="classMR_1_1Math_1_1Vector_html_a6a90ed03d685877a4d211f3b6d464e8e"><div class="ttname"><a href="classMR_1_1Math_1_1Vector.html#a6a90ed03d685877a4d211f3b6d464e8e">MR::Math::Vector::ptr</a></div><div class="ttdeci">ValueType * ptr()</div><div class="ttdoc">return a pointer to the underlying data </div><div class="ttdef"><b>Definition:</b> <a href="lib_2math_2vector_8h_source.html#l00377">vector.h:377</a></div></div>
-<div class="ttc" id="classMR_1_1Math_1_1RNG_html_a3e434a47cf70b39b22adc112fca3e517"><div class="ttname"><a href="classMR_1_1Math_1_1RNG.html#a3e434a47cf70b39b22adc112fca3e517">MR::Math::RNG::normal</a></div><div class="ttdeci">float normal(float SD=1.0)</div><div class="ttdef"><b>Definition:</b> <a href="rng_8h_source.html#l00079">rng.h:79</a></div></div>
-<div class="ttc" id="classMR_1_1Math_1_1RNG_html_a99674f4cb441a6f120fd8702fb5fbd60"><div class="ttname"><a href="classMR_1_1Math_1_1RNG.html#a99674f4cb441a6f120fd8702fb5fbd60">MR::Math::RNG::uniform</a></div><div class="ttdeci">float uniform()</div><div class="ttdef"><b>Definition:</b> <a href="rng_8h_source.html#l00073">rng.h:73</a></div></div>
-<div class="ttc" id="classMR_1_1Math_1_1RNG_html_abcf29ad371fc990c224263cee2e5854e"><div class="ttname"><a href="classMR_1_1Math_1_1RNG.html#abcf29ad371fc990c224263cee2e5854e">MR::Math::RNG::~RNG</a></div><div class="ttdeci">~RNG()</div><div class="ttdef"><b>Definition:</b> <a href="rng_8h_source.html#l00054">rng.h:54</a></div></div>
-<div class="ttc" id="classMR_1_1Math_1_1RNG_html_a5c115821317f4268e088900121081991"><div class="ttname"><a href="classMR_1_1Math_1_1RNG.html#a5c115821317f4268e088900121081991">MR::Math::RNG::set</a></div><div class="ttdeci">void set(size_t seed)</div><div class="ttdef"><b>Definition:</b> <a href="rng_8h_source.html#l00060">rng.h:60</a></div></div>
-<div class="ttc" id="classMR_1_1Math_1_1RNG_html_a3c4fe740c2592e06fe47eb48dd914df5"><div class="ttname"><a href="classMR_1_1Math_1_1RNG.html#a3c4fe740c2592e06fe47eb48dd914df5">MR::Math::RNG::RNG</a></div><div class="ttdeci">RNG(size_t seed)</div><div class="ttdef"><b>Definition:</b> <a href="rng_8h_source.html#l00046">rng.h:46</a></div></div>
-<div class="ttc" id="classMR_1_1Math_1_1RNG_html_aa88e1df863e3eed86cdbcc7d909b615e"><div class="ttname"><a href="classMR_1_1Math_1_1RNG.html#aa88e1df863e3eed86cdbcc7d909b615e">MR::Math::RNG::rician</a></div><div class="ttdeci">float rician(float amplitude, float SD)</div><div class="ttdef"><b>Definition:</b> <a href="rng_8h_source.html#l00082">rng.h:82</a></div></div>
-<div class="ttc" id="classMR_1_1Math_1_1RNG_html_a56a7ab18b2eac3085bf0efb230a0605a"><div class="ttname"><a href="classMR_1_1Math_1_1RNG.html#a56a7ab18b2eac3085bf0efb230a0605a">MR::Math::RNG::generator</a></div><div class="ttdeci">gsl_rng * generator</div><div class="ttdef"><b>Definition:</b> <a href="rng_8h_source.html#l00097">rng.h:97</a></div></div>
-<div class="ttc" id="classMR_1_1Math_1_1RNG_html_ace6ee44964eb01887c28db0a92e7cc4d"><div class="ttname"><a href="classMR_1_1Math_1_1RNG.html#ace6ee44964eb01887c28db0a92e7cc4d">MR::Math::RNG::RNG</a></div><div class="ttdeci">RNG()</div><div class="ttdef"><b>Definition:</b> <a href="rng_8h_source.html#l00040">rng.h:40</a></div></div>
-<div class="ttc" id="classMR_1_1Math_1_1Vector_html"><div class="ttname"><a href="classMR_1_1Math_1_1Vector.html">MR::Math::Vector</a></div><div class="ttdoc">provides access to data as a vector </div><div class="ttdef"><b>Definition:</b> <a href="lib_2math_2vector_8h_source.html#l00182">vector.h:182</a></div></div>
-<div class="ttc" id="lib_2math_2vector_8h_html"><div class="ttname"><a href="lib_2math_2vector_8h.html">vector.h</a></div></div>
-<div class="ttc" id="classMR_1_1Math_1_1RNG_html_ac7662aff6809bba34bcd1c49247fc31b"><div class="ttname"><a href="classMR_1_1Math_1_1RNG.html#ac7662aff6809bba34bcd1c49247fc31b">MR::Math::RNG::get</a></div><div class="ttdeci">size_t get() const </div><div class="ttdef"><b>Definition:</b> <a href="rng_8h_source.html#l00064">rng.h:64</a></div></div>
-<div class="ttc" id="classMR_1_1Math_1_1Vector_html_a6ef7b436ca00d2e3b86d7b07783455e6"><div class="ttname"><a href="classMR_1_1Math_1_1Vector.html#a6ef7b436ca00d2e3b86d7b07783455e6">MR::Math::Vector::size</a></div><div class="ttdeci">size_t size() const </div><div class="ttdoc">returns number of elements of vector </div><div class="ttdef"><b>Definition:</b> <a href="lib_2math_2vector_8h_source.html#l00362">vector.h:362</a></div></div>
+<div class="ttc" id="classMR_1_1Math_1_1RNG_1_1Uniform_html_a7a7ad2ca9571a9925f2fa858693ff791"><div class="ttname"><a href="classMR_1_1Math_1_1RNG_1_1Uniform.html#a7a7ad2ca9571a9925f2fa858693ff791">MR::Math::RNG::Uniform::rng</a></div><div class="ttdeci">RNG rng</div><div class="ttdef"><b>Definition:</b> <a href="rng_8h_source.html#l00085">rng.h:85</a></div></div>
+<div class="ttc" id="mrtrix_8h_html"><div class="ttname"><a href="mrtrix_8h.html">mrtrix.h</a></div></div>
+<div class="ttc" id="classMR_1_1Math_1_1RNG_1_1Normal_html"><div class="ttname"><a href="classMR_1_1Math_1_1RNG_1_1Normal.html">MR::Math::RNG::Normal</a></div><div class="ttdef"><b>Definition:</b> <a href="rng_8h_source.html#l00054">rng.h:54</a></div></div>
+<div class="ttc" id="classMR_1_1Math_1_1RNG_1_1Normal_html_a2cd64b4509389802206c79ef1e80ea5b"><div class="ttname"><a href="classMR_1_1Math_1_1RNG_1_1Normal.html#a2cd64b4509389802206c79ef1e80ea5b">MR::Math::RNG::Normal::rng</a></div><div class="ttdeci">RNG rng</div><div class="ttdef"><b>Definition:</b> <a href="rng_8h_source.html#l00093">rng.h:93</a></div></div>
+<div class="ttc" id="classMR_1_1Math_1_1RNG_1_1Normal_html_ae84ff4064661894a34b4116efa63e676"><div class="ttname"><a href="classMR_1_1Math_1_1RNG_1_1Normal.html#ae84ff4064661894a34b4116efa63e676">MR::Math::RNG::Normal::operator()</a></div><div class="ttdeci">ValueType operator()()</div><div class="ttdef"><b>Definition:</b> <a href="rng_8h_source.html#l00095">rng.h:95</a></div></div>
+<div class="ttc" id="namespacestd_html"><div class="ttname"><a href="namespacestd.html">std</a></div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00071">mrtrix.h:71</a></div></div>
+<div class="ttc" id="classMR_1_1Math_1_1RNG_1_1Uniform_html_a8b4ecf35e8bbadf52631f40c523d19c4"><div class="ttname"><a href="classMR_1_1Math_1_1RNG_1_1Uniform.html#a8b4ecf35e8bbadf52631f40c523d19c4">MR::Math::RNG::Uniform::dist</a></div><div class="ttdeci">std::uniform_real_distribution&lt; ValueType &gt; dist</div><div class="ttdef"><b>Definition:</b> <a href="rng_8h_source.html#l00086">rng.h:86</a></div></div>
+<div class="ttc" id="classMR_1_1Math_1_1RNG_html_a580f49abad94358c04c68d5844cf57ab"><div class="ttname"><a href="classMR_1_1Math_1_1RNG.html#a580f49abad94358c04c68d5844cf57ab">MR::Math::RNG::get_seed</a></div><div class="ttdeci">static std::mt19937::result_type get_seed()</div><div class="ttdef"><b>Definition:</b> <a href="rng_8h_source.html#l00056">rng.h:56</a></div></div>
+<div class="ttc" id="classMR_1_1Math_1_1RNG_1_1Uniform_html_af5ee837054ca403fc516bafe4935c27c"><div class="ttname"><a href="classMR_1_1Math_1_1RNG_1_1Uniform.html#af5ee837054ca403fc516bafe4935c27c">MR::Math::RNG::Uniform::operator()</a></div><div class="ttdeci">ValueType operator()()</div><div class="ttdef"><b>Definition:</b> <a href="rng_8h_source.html#l00087">rng.h:87</a></div></div>
+<div class="ttc" id="classMR_1_1Math_1_1RNG_html_afb98ce8a82347664d8dcc3cba11f131a"><div class="ttname"><a href="classMR_1_1Math_1_1RNG.html#afb98ce8a82347664d8dcc3cba11f131a">MR::Math::RNG::RNG</a></div><div class="ttdeci">RNG(const RNG &amp;)</div><div class="ttdef"><b>Definition:</b> <a href="rng_8h_source.html#l00052">rng.h:52</a></div></div>
+<div class="ttc" id="classMR_1_1Math_1_1RNG_html_ace6ee44964eb01887c28db0a92e7cc4d"><div class="ttname"><a href="classMR_1_1Math_1_1RNG.html#ace6ee44964eb01887c28db0a92e7cc4d">MR::Math::RNG::RNG</a></div><div class="ttdeci">RNG()</div><div class="ttdef"><b>Definition:</b> <a href="rng_8h_source.html#l00050">rng.h:50</a></div></div>
+<div class="ttc" id="classMR_1_1Math_1_1RNG_1_1Normal_html_a76cfb717b651526c367b19846ba97360"><div class="ttname"><a href="classMR_1_1Math_1_1RNG_1_1Normal.html#a76cfb717b651526c367b19846ba97360">MR::Math::RNG::Normal::dist</a></div><div class="ttdeci">std::normal_distribution&lt; ValueType &gt; dist</div><div class="ttdef"><b>Definition:</b> <a href="rng_8h_source.html#l00094">rng.h:94</a></div></div>
+<div class="ttc" id="classMR_1_1Math_1_1RNG_html_a7b1794a31f828e928d755770115c2d66"><div class="ttname"><a href="classMR_1_1Math_1_1RNG.html#a7b1794a31f828e928d755770115c2d66">MR::Math::RNG::RNG</a></div><div class="ttdeci">RNG(std::mt19937::result_type seed)</div><div class="ttdef"><b>Definition:</b> <a href="rng_8h_source.html#l00051">rng.h:51</a></div></div>
+<div class="ttc" id="classMR_1_1Math_1_1RNG_1_1Uniform_html"><div class="ttname"><a href="classMR_1_1Math_1_1RNG_1_1Uniform.html">MR::Math::RNG::Uniform</a></div><div class="ttdef"><b>Definition:</b> <a href="rng_8h_source.html#l00053">rng.h:53</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_b6efcb2e320fb2ab4af542efc2d3a1ed.html">lib</a></li><li class="navelem"><a class="el" href="dir_d062c0eb0a8782d61cfb4a542b248b88.html">math</a></li><li class="navelem"><a class="el" href="rng_8h.html">rng.h</a></li>
-    <li class="footer">Generated on Wed Apr 1 2015 14:53:43 for MRtrix by
+    <li class="navelem"><a class="el" href="dir_d04b53703454d06826407a3fa8e7e294.html">lib</a></li><li class="navelem"><a class="el" href="dir_bfc694174e5e23793beaf952f631ead0.html">math</a></li><li class="navelem"><a class="el" href="rng_8h.html">rng.h</a></li>
+    <li class="footer">Generated on Mon Apr 27 2015 17:39:23 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

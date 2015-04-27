@@ -12,7 +12,9 @@ var namespaceMR =
     [ "Thread", "namespaceMR_1_1Thread.html", "namespaceMR_1_1Thread" ],
     [ "BitSet", "classMR_1_1BitSet.html", "classMR_1_1BitSet" ],
     [ "BufferType", "classMR_1_1BufferType.html", null ],
+    [ "compare_ptr_contents", "structMR_1_1compare__ptr__contents.html", "structMR_1_1compare__ptr__contents" ],
     [ "container_cast", "structMR_1_1container__cast.html", "structMR_1_1container__cast" ],
+    [ "copy_ptr", "classMR_1_1copy__ptr.html", "classMR_1_1copy__ptr" ],
     [ "DataType", "classMR_1_1DataType.html", "classMR_1_1DataType" ],
     [ "Exception", "classMR_1_1Exception.html", "classMR_1_1Exception" ],
     [ "InfoType", "classMR_1_1InfoType.html", null ],
@@ -23,11 +25,7 @@ var namespaceMR =
     [ "Point", "classMR_1_1Point.html", "classMR_1_1Point" ],
     [ "ProgressBar", "classMR_1_1ProgressBar.html", "classMR_1_1ProgressBar" ],
     [ "ProgressInfo", "classMR_1_1ProgressInfo.html", "classMR_1_1ProgressInfo" ],
-    [ "Ptr", "classMR_1_1Ptr.html", "classMR_1_1Ptr" ],
-    [ "PtrComp", "classMR_1_1PtrComp.html", "classMR_1_1PtrComp" ],
-    [ "RefPtr", "classMR_1_1RefPtr.html", "classMR_1_1RefPtr" ],
     [ "Timer", "classMR_1_1Timer.html", "classMR_1_1Timer" ],
     [ "UnorderedMap", "structMR_1_1UnorderedMap.html", "structMR_1_1UnorderedMap" ],
-    [ "VecPtr", "classMR_1_1VecPtr.html", "classMR_1_1VecPtr" ],
     [ "VoxelType", "classMR_1_1VoxelType.html", null ]
 ];

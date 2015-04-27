@@ -29,11 +29,13 @@ var group__CmdParse =
       [ "MR::App::parse", "group__CmdParse.html#gacd667bae8e58e84cebfee6161523a3ed", null ],
       [ "MR::App::sort_arguments", "group__CmdParse.html#gaafcccf4b681421ea61aeda0af29a3164", null ],
       [ "Options", "group__CmdParse.html#gabfa275a2475993fcbc4c531048fac09a", null ],
-      [ "Options::Opt", "group__CmdParse.html#gaa44503e9264e19e2259cef095a3a1e7c", null ]
+      [ "Options::Opt", "group__CmdParse.html#gaa44503e9264e19e2259cef095a3a1e7c", null ],
+      [ "ParsedOption", "group__CmdParse.html#ga4c126d69a181ca769a65c430fcb0b203", null ]
     ] ],
     [ "ParsedOption", "classMR_1_1App_1_1ParsedOption.html", [
       [ "ParsedOption", "group__CmdParse.html#gad739b569b5793b59103c98532bf74f57", null ],
       [ "operator==", "group__CmdParse.html#ga30198c7ed2b57d5d1df19436eea17a97", null ],
+      [ "operator[]", "group__CmdParse.html#ga218980a25688ce5d20950a450afd76dc", null ],
       [ "args", "group__CmdParse.html#ga492da2a6e9245b11c59e164186f73510", null ],
       [ "opt", "group__CmdParse.html#gabad6a8342c9037c226bb82ec03f21dbf", null ]
     ] ],
@@ -42,7 +44,7 @@ var group__CmdParse =
       [ "syntax", "classMR_1_1App_1_1Description.html#ae5f220fdb7110309f6c6c192aa975975", null ]
     ] ],
     [ "Argument", "classMR_1_1App_1_1Argument.html", [
-      [ "Argument", "classMR_1_1App_1_1Argument.html#ae5285936f4c0d91eacbbfef0a85f0d74", null ],
+      [ "Argument", "classMR_1_1App_1_1Argument.html#ae6ce99898ccf3b339f51927657a5a6ef", null ],
       [ "allow_multiple", "classMR_1_1App_1_1Argument.html#a0e4af3973f05e5ba88093a823f02eb9f", null ],
       [ "operator bool", "classMR_1_1App_1_1Argument.html#a071ec968e5cb9f4bfd677a0f788ffd09", null ],
       [ "optional", "classMR_1_1App_1_1Argument.html#a7f8d35695a2bbf764d5f61040e8f87eb", null ],
@@ -51,13 +53,13 @@ var group__CmdParse =
       [ "type_choice", "classMR_1_1App_1_1Argument.html#ae1eac4c79d82741bbdf54d5c3f036ee8", null ],
       [ "type_file_in", "classMR_1_1App_1_1Argument.html#a3822425e6ea520863341a3172256575a", null ],
       [ "type_file_out", "classMR_1_1App_1_1Argument.html#aa118790065df9b996eb692ad9e2ff651", null ],
-      [ "type_float", "classMR_1_1App_1_1Argument.html#a1702687c6936125b2d8ce66c8e21bed2", null ],
+      [ "type_float", "classMR_1_1App_1_1Argument.html#a06946dd32f7773302bf887cfc9144052", null ],
       [ "type_image_in", "classMR_1_1App_1_1Argument.html#a8fd771caa209a1642a268739246f9445", null ],
       [ "type_image_out", "classMR_1_1App_1_1Argument.html#a01dbe1e73a19912397f597c82753bf50", null ],
       [ "type_integer", "classMR_1_1App_1_1Argument.html#a48f6b2184eb9382144acbd663ff24e4c", null ],
       [ "type_sequence_float", "classMR_1_1App_1_1Argument.html#ae85c45baceeeb36bda021ec5d3283c94", null ],
       [ "type_sequence_int", "classMR_1_1App_1_1Argument.html#a2379f9c2043e2343f613383cc98a73fc", null ],
-      [ "type_text", "classMR_1_1App_1_1Argument.html#ae58a1bc947d4b535783dbbcd38628396", null ],
+      [ "type_text", "classMR_1_1App_1_1Argument.html#aebe3e55c44a17dfe21f74d24ce6a7170", null ],
       [ "usage", "classMR_1_1App_1_1Argument.html#a9fb0aa2f071d8664600603c207b85e46", null ],
       [ "choices", "classMR_1_1App_1_1Argument.html#a6c2318554e27a96b51dac5b11de16017", null ],
       [ "def", "classMR_1_1App_1_1Argument.html#a2cb328d10cf032297a641df4abb02048", null ],
@@ -132,6 +134,7 @@ var group__CmdParse =
     [ "operator==", "group__CmdParse.html#ga30198c7ed2b57d5d1df19436eea17a97", null ],
     [ "operator[]", "group__CmdParse.html#ga97a29072fd6f71eb63e30f3a502db4f5", null ],
     [ "operator[]", "group__CmdParse.html#ga5601e4f9369afb4004e893b3628c753d", null ],
+    [ "operator[]", "group__CmdParse.html#ga218980a25688ce5d20950a450afd76dc", null ],
     [ "parse", "group__CmdParse.html#gaf1a74841efd2f897d660092ce08607de", null ],
     [ "ParsedOption", "group__CmdParse.html#gad739b569b5793b59103c98532bf74f57", null ],
     [ "size", "group__CmdParse.html#ga15e51cdc8ea53fe3840d67cb607bf208", null ],
@@ -147,5 +150,6 @@ var group__CmdParse =
     [ "Options", "group__CmdParse.html#gabfa275a2475993fcbc4c531048fac09a", null ],
     [ "Options", "group__CmdParse.html#gabfa275a2475993fcbc4c531048fac09a", null ],
     [ "Options::Opt", "group__CmdParse.html#gaa44503e9264e19e2259cef095a3a1e7c", null ],
-    [ "ParsedArgument", "group__CmdParse.html#ga371861e5e0b143ebfe3eaef33bd6dfc1", null ]
+    [ "ParsedArgument", "group__CmdParse.html#ga371861e5e0b143ebfe3eaef33bd6dfc1", null ],
+    [ "ParsedOption", "group__CmdParse.html#ga4c126d69a181ca769a65c430fcb0b203", null ]
 ];

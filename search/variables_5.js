@@ -8,7 +8,7 @@ var searchData=
   ['electrostatic_5frepulsion_5f60_5fdata',['electrostatic_repulsion_60_data',['../namespaceMR_1_1DWI_1_1Directions.html#a9cb2f4db9c31df0195deebc51ea174d8',1,'MR::DWI::Directions']]],
   ['element',['element',['../classMR_1_1File_1_1Dicom_1_1Sequence.html#a8271d3a79d945a37f9190f33536ab22f',1,'MR::File::Dicom::Sequence::element()'],['../classMR_1_1File_1_1Dicom_1_1Element.html#afb6fadf127257372fb02fca8211f6372',1,'MR::File::Dicom::Element::element()']]],
   ['elevation_5fslider',['elevation_slider',['../classMR_1_1GUI_1_1Dialog_1_1LightingSettings.html#a978218fa03e9851bad9fe2cf686e4aab',1,'MR::GUI::Dialog::LightingSettings']]],
-  ['empirical_5fenhanced_5fstatistics',['empirical_enhanced_statistics',['../classMR_1_1Stats_1_1PermTest_1_1Processor.html#a385a55217997caa8d33c5b91b74d3b6e',1,'MR::Stats::PermTest::Processor']]],
+  ['empirical_5fenhanced_5fstatistics',['empirical_enhanced_statistics',['../classMR_1_1Stats_1_1PermTest_1_1Processor.html#af35ff923f8a8e364df7815369ad4a6d0',1,'MR::Stats::PermTest::Processor']]],
   ['enable',['Enable',['../namespacegl.html#ad1e262ce0a49141ddd09609e34d23cc6',1,'gl']]],
   ['enablei',['Enablei',['../namespacegl.html#abd3d19b58995f4aabf51fdcb8714b0f4',1,'gl']]],
   ['enablevertexattribarray',['EnableVertexAttribArray',['../namespacegl.html#ac7b2dba14999da6e46d93eb732227612',1,'gl']]],

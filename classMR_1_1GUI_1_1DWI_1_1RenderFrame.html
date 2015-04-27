@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">MRtrix
-   &#160;<span id="projectnumber">0.3.12-304-g9979917d</span>
+   &#160;<span id="projectnumber">0.3.12-365-ged27dfbe</span>
    </div>
    <div id="projectbrief">MRtrix provides a set of tools to perform diffusion-weighted MR white-matter tractography in a manner robust to crossing fibres, using constrained spherical deconvolution (CSD) and probabilistic streamlines.</div>
   </td>
@@ -245,10 +245,10 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a7d65d4660418c7b4dbe89f2b741bbcbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a591e5921ce7f8637fa28b8410c4c186e"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1DWI_1_1RenderFrame.html#a591e5921ce7f8637fa28b8410c4c186e">screenshot_name</a></td></tr>
 <tr class="separator:a591e5921ce7f8637fa28b8410c4c186e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca2bea917229e2bb9b2f30a21066d0f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Ptr.html">Ptr</a>&lt; QImage &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1DWI_1_1RenderFrame.html#aca2bea917229e2bb9b2f30a21066d0f6">pix</a></td></tr>
-<tr class="separator:aca2bea917229e2bb9b2f30a21066d0f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc6e80bf3c4c7d22c6e4c0fd607c2417"><td class="memItemLeft" align="right" valign="top"><a class="el" href="gl__core__3__3_8h.html#a0595908be03a8cff881a23cdc9170e7c">GLubyte</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1DWI_1_1RenderFrame.html#adc6e80bf3c4c7d22c6e4c0fd607c2417">framebuffer</a></td></tr>
-<tr class="separator:adc6e80bf3c4c7d22c6e4c0fd607c2417"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78dcc3717618bfb7fafe5106cbe2d73a"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; QImage &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1DWI_1_1RenderFrame.html#a78dcc3717618bfb7fafe5106cbe2d73a">pix</a></td></tr>
+<tr class="separator:a78dcc3717618bfb7fafe5106cbe2d73a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace025c92cd4052e9d80ce0123070af55"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="gl__core__3__3_8h.html#a0595908be03a8cff881a23cdc9170e7c">GLubyte</a>[]&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1DWI_1_1RenderFrame.html#ace025c92cd4052e9d80ce0123070af55">framebuffer</a></td></tr>
+<tr class="separator:ace025c92cd4052e9d80ce0123070af55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6bfb43c8bb0d28afc9e587c627a49689"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1DWI_1_1RenderFrame.html#a6bfb43c8bb0d28afc9e587c627a49689">OS</a></td></tr>
 <tr class="separator:a6bfb43c8bb0d28afc9e587c627a49689"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ec29fc0b1243cc2a492652c206d0387"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1DWI_1_1RenderFrame.html#a2ec29fc0b1243cc2a492652c206d0387">OS_x</a></td></tr>
@@ -1192,7 +1192,7 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="adc6e80bf3c4c7d22c6e4c0fd607c2417"></a>
+<a class="anchor" id="ace025c92cd4052e9d80ce0123070af55"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1200,7 +1200,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="gl__core__3__3_8h.html#a0595908be03a8cff881a23cdc9170e7c">GLubyte</a>* MR::GUI::DWI::RenderFrame::framebuffer</td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="gl__core__3__3_8h.html#a0595908be03a8cff881a23cdc9170e7c">GLubyte</a>[]&gt; MR::GUI::DWI::RenderFrame::framebuffer</td>
         </tr>
       </table>
   </td>
@@ -1478,7 +1478,7 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aca2bea917229e2bb9b2f30a21066d0f6"></a>
+<a class="anchor" id="a78dcc3717618bfb7fafe5106cbe2d73a"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1486,7 +1486,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMR_1_1Ptr.html">Ptr</a>&lt;QImage&gt; MR::GUI::DWI::RenderFrame::pix</td>
+          <td class="memname">std::unique_ptr&lt;QImage&gt; MR::GUI::DWI::RenderFrame::pix</td>
         </tr>
       </table>
   </td>
@@ -1741,7 +1741,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="namespaceMR_1_1GUI.html">GUI</a></li><li class="navelem"><a class="el" href="namespaceMR_1_1GUI_1_1DWI.html">DWI</a></li><li class="navelem"><a class="el" href="classMR_1_1GUI_1_1DWI_1_1RenderFrame.html">RenderFrame</a></li>
-    <li class="footer">Generated on Wed Apr 1 2015 14:53:45 for MRtrix by
+    <li class="footer">Generated on Mon Apr 27 2015 17:39:25 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

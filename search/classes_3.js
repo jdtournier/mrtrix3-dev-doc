@@ -1,12 +1,14 @@
 var searchData=
 [
   ['calibrate',['Calibrate',['../classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1iFOD1_1_1Calibrate.html',1,'MR::DWI::Tractography::Algorithms::iFOD1']]],
+  ['capture',['Capture',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1Capture.html',1,'MR::GUI::MRView::Tool']]],
   ['clipplane',['ClipPlane',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1ClipPlane.html',1,'MR::GUI::MRView::Tool']]],
   ['cluster',['cluster',['../classMR_1_1Image_1_1Filter_1_1cluster.html',1,'MR::Image::Filter']]],
   ['clustersize',['ClusterSize',['../classMR_1_1Stats_1_1Cluster_1_1ClusterSize.html',1,'MR::Stats::Cluster']]],
   ['colourmapbutton',['ColourMapButton',['../classMR_1_1GUI_1_1MRView_1_1ColourMapButton.html',1,'MR::GUI::MRView']]],
   ['colourmapbuttonobserver',['ColourMapButtonObserver',['../classMR_1_1GUI_1_1MRView_1_1ColourMapButtonObserver.html',1,'MR::GUI::MRView']]],
   ['comboboxwitherrormsg',['ComboBoxWithErrorMsg',['../classMR_1_1GUI_1_1MRView_1_1ComboBoxWithErrorMsg.html',1,'MR::GUI::MRView']]],
+  ['compare_5fptr_5fcontents',['compare_ptr_contents',['../structMR_1_1compare__ptr__contents.html',1,'MR']]],
   ['config',['Config',['../classMR_1_1File_1_1Config.html',1,'MR::File']]],
   ['connectedcomponents',['ConnectedComponents',['../classMR_1_1Image_1_1Filter_1_1ConnectedComponents.html',1,'MR::Image::Filter']]],
   ['connectivity',['connectivity',['../classMR_1_1Stats_1_1CFE_1_1connectivity.html',1,'MR::Stats::CFE']]],
@@ -17,6 +19,8 @@ var searchData=
   ['constiterator',['ConstIterator',['../classMR_1_1DWI_1_1Fixel__map_1_1ConstIterator.html',1,'MR::DWI::Fixel_map']]],
   ['constvalue',['ConstValue',['../classMR_1_1BitSet_1_1ConstValue.html',1,'MR::BitSet']]],
   ['container_5fcast',['container_cast',['../structMR_1_1container__cast.html',1,'MR']]],
+  ['copy_5fptr',['copy_ptr',['../classMR_1_1copy__ptr.html',1,'MR']]],
+  ['copy_5fptr_3c_20act_3a_3aact_5fmethod_5fadditions_20_3e',['copy_ptr&lt; ACT::ACT_Method_additions &gt;',['../classMR_1_1copy__ptr.html',1,'MR']]],
   ['cost_5ffn_5fgradient_5fsort',['Cost_fn_gradient_sort',['../classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1Cost__fn__gradient__sort.html',1,'MR::DWI::Tractography::SIFT']]],
   ['csaentry',['CSAEntry',['../classMR_1_1File_1_1Dicom_1_1CSAEntry.html',1,'MR::File::Dicom']]],
   ['csdeconv',['CSDeconv',['../classMR_1_1DWI_1_1CSDeconv.html',1,'MR::DWI']]],

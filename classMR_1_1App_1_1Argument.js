@@ -1,6 +1,6 @@
 var classMR_1_1App_1_1Argument =
 [
-    [ "Argument", "classMR_1_1App_1_1Argument.html#ae5285936f4c0d91eacbbfef0a85f0d74", null ],
+    [ "Argument", "classMR_1_1App_1_1Argument.html#ae6ce99898ccf3b339f51927657a5a6ef", null ],
     [ "allow_multiple", "classMR_1_1App_1_1Argument.html#a0e4af3973f05e5ba88093a823f02eb9f", null ],
     [ "operator bool", "classMR_1_1App_1_1Argument.html#a071ec968e5cb9f4bfd677a0f788ffd09", null ],
     [ "optional", "classMR_1_1App_1_1Argument.html#a7f8d35695a2bbf764d5f61040e8f87eb", null ],
@@ -9,13 +9,13 @@ var classMR_1_1App_1_1Argument =
     [ "type_choice", "classMR_1_1App_1_1Argument.html#ae1eac4c79d82741bbdf54d5c3f036ee8", null ],
     [ "type_file_in", "classMR_1_1App_1_1Argument.html#a3822425e6ea520863341a3172256575a", null ],
     [ "type_file_out", "classMR_1_1App_1_1Argument.html#aa118790065df9b996eb692ad9e2ff651", null ],
-    [ "type_float", "classMR_1_1App_1_1Argument.html#a1702687c6936125b2d8ce66c8e21bed2", null ],
+    [ "type_float", "classMR_1_1App_1_1Argument.html#a06946dd32f7773302bf887cfc9144052", null ],
     [ "type_image_in", "classMR_1_1App_1_1Argument.html#a8fd771caa209a1642a268739246f9445", null ],
     [ "type_image_out", "classMR_1_1App_1_1Argument.html#a01dbe1e73a19912397f597c82753bf50", null ],
     [ "type_integer", "classMR_1_1App_1_1Argument.html#a48f6b2184eb9382144acbd663ff24e4c", null ],
     [ "type_sequence_float", "classMR_1_1App_1_1Argument.html#ae85c45baceeeb36bda021ec5d3283c94", null ],
     [ "type_sequence_int", "classMR_1_1App_1_1Argument.html#a2379f9c2043e2343f613383cc98a73fc", null ],
-    [ "type_text", "classMR_1_1App_1_1Argument.html#ae58a1bc947d4b535783dbbcd38628396", null ],
+    [ "type_text", "classMR_1_1App_1_1Argument.html#aebe3e55c44a17dfe21f74d24ce6a7170", null ],
     [ "usage", "classMR_1_1App_1_1Argument.html#a9fb0aa2f071d8664600603c207b85e46", null ],
     [ "choices", "classMR_1_1App_1_1Argument.html#a6c2318554e27a96b51dac5b11de16017", null ],
     [ "def", "classMR_1_1App_1_1Argument.html#a2cb328d10cf032297a641df4abb02048", null ],

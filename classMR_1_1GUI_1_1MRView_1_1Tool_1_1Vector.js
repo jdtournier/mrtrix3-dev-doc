@@ -4,7 +4,7 @@ var classMR_1_1GUI_1_1MRView_1_1Tool_1_1Vector =
     [ "~Vector", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Vector.html#a193cdcf2a6db90f0d3683e6919b91a12", null ],
     [ "draw", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Vector.html#a3d49f91933f37ef41ed538124e8e2afd", null ],
     [ "drawOverlays", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Vector.html#aa6325162b28b358774f4f2a4ea9b3b47", null ],
-    [ "process_batch_command", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Vector.html#a4acf6334df4c38bca06925270db605a8", null ],
+    [ "process_commandline_option", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Vector.html#a40f2de2dd9c0f2d123735bd69ae574a5", null ],
     [ "reset_colourmap", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Vector.html#ab55d2d8f3b3a73b08eb30ebd557f7057", null ],
     [ "selected_colourmap", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Vector.html#abf0c7c573b6b3a606bc3162249cd4960", null ],
     [ "selected_custom_colour", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Vector.html#a6ebdfe44c3f065243981add7b139d61f", null ],

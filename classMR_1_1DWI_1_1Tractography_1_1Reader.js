@@ -7,5 +7,5 @@ var classMR_1_1DWI_1_1Tractography_1_1Reader =
     [ "get_next_point", "classMR_1_1DWI_1_1Tractography_1_1Reader.html#a8665f2125de1a2a44002b079b911a0e3", null ],
     [ "operator()", "classMR_1_1DWI_1_1Tractography_1_1Reader.html#a386b565f0e6681944055ce6e25569edc", null ],
     [ "current_index", "classMR_1_1DWI_1_1Tractography_1_1Reader.html#a4bcb0f8b7925fb24f9a7a5b3f63d67ad", null ],
-    [ "weights_file", "classMR_1_1DWI_1_1Tractography_1_1Reader.html#a9fee441849f5148a81d0df0debaacb6d", null ]
+    [ "weights_file", "classMR_1_1DWI_1_1Tractography_1_1Reader.html#a609234e5b1be5ff4fe68618759c2d19b", null ]
 ];

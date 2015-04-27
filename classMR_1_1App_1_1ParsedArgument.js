@@ -17,5 +17,6 @@ var classMR_1_1App_1_1ParsedArgument =
     [ "MR::App::parse", "group__CmdParse.html#gacd667bae8e58e84cebfee6161523a3ed", null ],
     [ "MR::App::sort_arguments", "group__CmdParse.html#gaafcccf4b681421ea61aeda0af29a3164", null ],
     [ "Options", "group__CmdParse.html#gabfa275a2475993fcbc4c531048fac09a", null ],
-    [ "Options::Opt", "group__CmdParse.html#gaa44503e9264e19e2259cef095a3a1e7c", null ]
+    [ "Options::Opt", "group__CmdParse.html#gaa44503e9264e19e2259cef095a3a1e7c", null ],
+    [ "ParsedOption", "group__CmdParse.html#ga4c126d69a181ca769a65c430fcb0b203", null ]
 ];

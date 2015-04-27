@@ -3,7 +3,7 @@ var searchData=
   ['r',['R',['../classMR_1_1DWI_1_1NoiseEstimatorFunctor.html#ad3e3fc0fc203de5cb481ae73ab2e5231',1,'MR::DWI::NoiseEstimatorFunctor']]],
   ['radius_5f',['radius_',['../classMR_1_1Image_1_1Adapter_1_1Gaussian1D.html#a045f861fd89809622571c8d33de3b8aa',1,'MR::Image::Adapter::Gaussian1D']]],
   ['rate',['rate',['../classMR_1_1GUI_1_1MRView_1_1AdjustButton.html#abb5c56f5c735006645a7d70e4fc1a50c',1,'MR::GUI::MRView::AdjustButton']]],
-  ['raw_5fsignals',['raw_signals',['../classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1Tensor__Prob_1_1Interp.html#aaecfbeaea75246b71e20298b009f82f9',1,'MR::DWI::Tractography::Algorithms::Tensor_Prob::Interp']]],
+  ['raw_5fsignals',['raw_signals',['../classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1Tensor__Prob_1_1Interp.html#aa2b8dc03c29bebc84d0da06014fec458',1,'MR::DWI::Tractography::Algorithms::Tensor_Prob::Interp']]],
   ['rconv',['rconv',['../classMR_1_1DWI_1_1CSDeconv_1_1Shared.html#ab30455fb9a05f5ed46e21e10ec0a2a90',1,'MR::DWI::CSDeconv::Shared']]],
   ['readbuffer',['ReadBuffer',['../namespacegl.html#af42156729ceff971b646e58cdc23c5e4',1,'gl']]],
   ['reader',['reader',['../classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TrackLoader.html#a8cf9fb7efc78695920742254202d5a6b',1,'MR::DWI::Tractography::Mapping::TrackLoader']]],
@@ -30,7 +30,7 @@ var searchData=
   ['reverse_5fid',['reverse_ID',['../classMR_1_1GUI_1_1DWI_1_1Renderer.html#a3e841e87d55d4b0f6cf66ee9c0033ad3',1,'MR::GUI::DWI::Renderer']]],
   ['rightedge',['RightEdge',['../namespaceMR_1_1GUI.html#acab05bfcfdb7cd25eac8491606bc1c73',1,'MR::GUI']]],
   ['rk4',['rk4',['../classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1SharedBase.html#ad4b77d2e7ec6558eeefbd1d940d6f0b1',1,'MR::DWI::Tractography::Tracking::SharedBase']]],
-  ['rng',['rng',['../classMR_1_1DWI_1_1Tractography_1_1Seeding_1_1Base.html#aae34bbc57b968cfa49a3e117ab2e2705',1,'MR::DWI::Tractography::Seeding::Base::rng()'],['../classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1MethodBase.html#ad9b4ae7ba413047590775f965346a0b5',1,'MR::DWI::Tractography::Tracking::MethodBase::rng()']]],
+  ['rng',['rng',['../classMR_1_1Math_1_1RNG_1_1Uniform.html#a7a7ad2ca9571a9925f2fa858693ff791',1,'MR::Math::RNG::Uniform::rng()'],['../classMR_1_1Math_1_1RNG_1_1Normal.html#a2cd64b4509389802206c79ef1e80ea5b',1,'MR::Math::RNG::Normal::rng()'],['../classMR_1_1DWI_1_1Tractography_1_1Seeding_1_1Base.html#a353b7c48fd27d837131dbd8e70548fe5',1,'MR::DWI::Tractography::Seeding::Base::rng()']]],
   ['roi',['roi',['../classMR_1_1DWI_1_1Tractography_1_1Properties.html#a4e5cad76b484131264f4ff2499ccf08e',1,'MR::DWI::Tractography::Properties']]],
   ['roioption',['ROIOption',['../namespaceMR_1_1DWI_1_1Tractography.html#a6353ef8f36f2760e7f71ccef4dab7c41',1,'MR::DWI::Tractography']]],
   ['rootitem',['rootItem',['../classMR_1_1GUI_1_1Dialog_1_1TreeModel.html#ae20dc30cab4fc73967353545e6325e56',1,'MR::GUI::Dialog::TreeModel']]]

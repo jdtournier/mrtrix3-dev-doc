@@ -10,7 +10,7 @@ var modules =
     [ "Elementary Functions", "group__elfun.html", "group__elfun" ],
     [ "Spherical Harmonics", "group__spherical__harmonics.html", "group__spherical__harmonics" ],
     [ "Linear Algebra", "group__linalg.html", "group__linalg" ],
-    [ "Memory management", "group__Memory.html", "group__Memory" ],
+    [ "Memory management", "group__Memory.html", null ],
     [ "Variable-length array macros", "group__VLA.html", "group__VLA" ],
     [ "Interp", "group__interp.html", "group__interp" ],
     [ "Filters", "group__Filters.html", "group__Filters" ],

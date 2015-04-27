@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">MRtrix
-   &#160;<span id="projectnumber">0.3.12-304-g9979917d</span>
+   &#160;<span id="projectnumber">0.3.12-365-ged27dfbe</span>
    </div>
    <div id="projectbrief">MRtrix provides a set of tools to perform diffusion-weighted MR white-matter tractography in a manner robust to crossing fibres, using constrained spherical deconvolution (CSD) and probabilistic streamlines.</div>
   </td>
@@ -290,10 +290,6 @@ $(document).ready(function(){initNavTree('functions_o.html','');});
 <li>operator std::vector&lt; int &gt;()
 : <a class="el" href="group__CmdParse.html#ga0d141a62ac4802fa23409941a14ec283">MR::App::ParsedArgument</a>
 </li>
-<li>operator T *()
-: <a class="el" href="classMR_1_1Ptr.html#aa15755a8cb6dd5263887d8d014d0b19c">MR::Ptr&lt; T, is_array &gt;</a>
-, <a class="el" href="classMR_1_1RefPtr.html#ae7975b49e667e9f7221cabc8c3ab4015">MR::RefPtr&lt; T, is_array &gt;</a>
-</li>
 <li>operator unsigned int()
 : <a class="el" href="group__CmdParse.html#ga5cc3f6d143c97ec170ebfe8f81f82461">MR::App::ParsedArgument</a>
 </li>
@@ -330,7 +326,8 @@ $(document).ready(function(){initNavTree('functions_o.html','');});
 , <a class="el" href="classMR_1_1DWI_1_1Directions_1_1Mask.html#a9f9a39aa8c68aeebbd7b451e1d92ea1c">MR::DWI::Directions::Mask</a>
 </li>
 <li>operator()()
-: <a class="el" href="classMR_1_1DataType.html#a1ed7dd2dfa77da0291b69435eb9f926b">MR::DataType</a>
+: <a class="el" href="structMR_1_1compare__ptr__contents.html#a1158bbc8ce9c527fae1a0f6e788a1881">MR::compare_ptr_contents</a>
+, <a class="el" href="classMR_1_1DataType.html#a1ed7dd2dfa77da0291b69435eb9f926b">MR::DataType</a>
 , <a class="el" href="classMR_1_1DWI_1_1Fixel__map_1_1ConstIterator.html#a8953a2c422eeb4a73bb051681d2b68c6">MR::DWI::Fixel_map&lt; Fixel &gt;::ConstIterator</a>
 , <a class="el" href="classMR_1_1DWI_1_1Fixel__map_1_1Iterator.html#a4c059ecb72073d01b1ba607f309d51cf">MR::DWI::Fixel_map&lt; Fixel &gt;::Iterator</a>
 , <a class="el" href="classMR_1_1DWI_1_1Fixel__map.html#a154ed8517d176ecb7a87bb0ad0f6a50e">MR::DWI::Fixel_map&lt; Fixel &gt;</a>
@@ -407,10 +404,10 @@ $(document).ready(function(){initNavTree('functions_o.html','');});
 , <a class="el" href="classMR_1_1Math_1_1Eigen_1_1SymmV.html#a5020c63c8085e1acfa69c014683c1c3b">MR::Math::Eigen::SymmV&lt; T &gt;</a>
 , <a class="el" href="classMR_1_1Math_1_1FFT.html#a43e54a7988820fc0f14f786d2595a091">MR::Math::FFT</a>
 , <a class="el" href="classMR_1_1Math_1_1Matrix.html#a4316821f20bb94db3b1e3bc3ef6dd85e">MR::Math::Matrix&lt; ValueType &gt;</a>
-, <a class="el" href="classMR_1_1Math_1_1RNG.html#ae64e538b5a001d400452afcae2c81d6c">MR::Math::RNG</a>
+, <a class="el" href="classMR_1_1Math_1_1RNG_1_1Normal.html#ae84ff4064661894a34b4116efa63e676">MR::Math::RNG::Normal&lt; ValueType &gt;</a>
+, <a class="el" href="classMR_1_1Math_1_1RNG_1_1Uniform.html#af5ee837054ca403fc516bafe4935c27c">MR::Math::RNG::Uniform&lt; ValueType &gt;</a>
 , <a class="el" href="classMR_1_1Math_1_1SH_1_1aPSF.html#ac2ab8f5051b97eac28f1a095b5838990">MR::Math::SH::aPSF&lt; ValueType &gt;</a>
 , <a class="el" href="classMR_1_1Math_1_1Stats_1_1GLMTTest.html#aed892852a14debc509cddf543301ec2a">MR::Math::Stats::GLMTTest</a>
-, <a class="el" href="classMR_1_1PtrComp.html#a6094276f50da915952fde60bdaf55072">MR::PtrComp</a>
 , <a class="el" href="classMR_1_1Stats_1_1CFE_1_1Enhancer.html#a10326856728e5bdc202a30969e6dd622">MR::Stats::CFE::Enhancer</a>
 , <a class="el" href="classMR_1_1Stats_1_1CFE_1_1TrackProcessor.html#ace3911260ec2bb7580f89e9491bd2aab">MR::Stats::CFE::TrackProcessor</a>
 , <a class="el" href="classMR_1_1Stats_1_1Cluster_1_1ClusterSize.html#a7aa5cb8d7a44cdd82db54e955f0c194f">MR::Stats::Cluster::ClusterSize</a>
@@ -420,8 +417,6 @@ $(document).ready(function(){initNavTree('functions_o.html','');});
 : <a class="el" href="classMR_1_1GUI_1_1GL_1_1mat4.html#a0e4a53ecb6e56ec8ed5d9f86a3abe32e">MR::GUI::GL::mat4</a>
 , <a class="el" href="classMR_1_1Math_1_1Versor.html#acedccdad240bc365f2203e78edaa73db">MR::Math::Versor&lt; T &gt;</a>
 , <a class="el" href="classMR_1_1Point.html#a753f0030f18b35bb6094551741d301ec">MR::Point&lt; T &gt;</a>
-, <a class="el" href="classMR_1_1Ptr.html#af8035914be9faf1d44c018effa1a4a91">MR::Ptr&lt; T, is_array &gt;</a>
-, <a class="el" href="classMR_1_1RefPtr.html#a8cfef370c5cab75baf3b1dce0df2fad3">MR::RefPtr&lt; T, is_array &gt;</a>
 , <a class="el" href="classMR_1_1Thread_1_1Queue_1_1Reader_1_1Item.html#a2a814c8475718f408f81307bd6c81afe">MR::Thread::Queue&lt; T &gt;::Reader::Item</a>
 , <a class="el" href="classMR_1_1Thread_1_1Queue_1_1Writer_1_1Item.html#ad4eb7e59efdb5f59ac2c002cee2b5cac">MR::Thread::Queue&lt; T &gt;::Writer::Item</a>
 </li>
@@ -480,9 +475,7 @@ $(document).ready(function(){initNavTree('functions_o.html','');});
 , <a class="el" href="classMR_1_1Point.html#af297b21d36592f09bc8435f3e5d84772">MR::Point&lt; T &gt;</a>
 </li>
 <li>operator-&gt;()
-: <a class="el" href="classMR_1_1Ptr.html#a911b66ba1c08389bdf74055f547bd7cf">MR::Ptr&lt; T, is_array &gt;</a>
-, <a class="el" href="classMR_1_1RefPtr.html#a85ffa6503b03a0619a74ec143554aa79">MR::RefPtr&lt; T, is_array &gt;</a>
-, <a class="el" href="classMR_1_1Thread_1_1Queue_1_1Reader_1_1Item.html#ac5d27404016f76a1bc4955aa2fe588b3">MR::Thread::Queue&lt; T &gt;::Reader::Item</a>
+: <a class="el" href="classMR_1_1Thread_1_1Queue_1_1Reader_1_1Item.html#ac5d27404016f76a1bc4955aa2fe588b3">MR::Thread::Queue&lt; T &gt;::Reader::Item</a>
 , <a class="el" href="classMR_1_1Thread_1_1Queue_1_1Writer_1_1Item.html#aeba8fa8fd67e8234c73289c8c123735e">MR::Thread::Queue&lt; T &gt;::Writer::Item</a>
 </li>
 <li>operator/()
@@ -556,11 +549,11 @@ $(document).ready(function(){initNavTree('functions_o.html','');});
 , <a class="el" href="classMR_1_1Image_1_1Voxel.html#a28a7069279b4bbc85e430544fe0ea049">MR::Image::Voxel&lt; BufferType &gt;</a>
 , <a class="el" href="classMR_1_1Math_1_1Matrix.html#ab8bca9c6bf7fd087fc6f2be47ddb2285">MR::Math::Matrix&lt; ValueType &gt;</a>
 , <a class="el" href="classMR_1_1Math_1_1Vector.html#a70102f0017599a69aaaf88cc9ba1d87d">MR::Math::Vector&lt; ValueType &gt;</a>
-, <a class="el" href="classMR_1_1RefPtr.html#a1410870ca5a8f5a82ea9cfc650b02e72">MR::RefPtr&lt; T, is_array &gt;</a>
 </li>
 <li>operator=()
 : <a class="el" href="classMR_1_1BitSet.html#a0a96b9d23c704e89245cc3c2d1f76ccc">MR::BitSet</a>
 , <a class="el" href="classMR_1_1BitSet_1_1Value.html#ae99a22169118f5a4c73682ec6948c414">MR::BitSet::Value</a>
+, <a class="el" href="classMR_1_1copy__ptr.html#af745604b8eac9583f6f5a4be0074c5a4">MR::copy_ptr&lt; T, Deleter &gt;</a>
 , <a class="el" href="classMR_1_1DataType.html#a4db068f2df6d6012bf246d06e9e84fbc">MR::DataType</a>
 , <a class="el" href="classMR_1_1DWI_1_1Directions_1_1Mask.html#a815570d723b33f084edb0fb43bfae058">MR::DWI::Directions::Mask</a>
 , <a class="el" href="classMR_1_1DWI_1_1Shell.html#a8ae1706ed5b337c05afd4c28d0bb6ad9">MR::DWI::Shell</a>
@@ -572,7 +565,7 @@ $(document).ready(function(){initNavTree('functions_o.html','');});
 , <a class="el" href="classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1Gaussian_1_1VoxelTOD.html#ae9c4c6f183937af68fdd81200b0856d2">MR::DWI::Tractography::Mapping::Gaussian::VoxelTOD</a>
 , <a class="el" href="classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1Voxel.html#ae48ce571008cd8ea613da8528f2fa43b">MR::DWI::Tractography::Mapping::Voxel</a>
 , <a class="el" href="classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1VoxelDEC.html#aa11cba3b6df2e4d3296ba97f8cd940b1">MR::DWI::Tractography::Mapping::VoxelDEC</a>
-, <a class="el" href="classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1VoxelTOD.html#a14d788768c12666a573847a4a4f5b32a">MR::DWI::Tractography::Mapping::VoxelTOD</a>
+, <a class="el" href="classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1VoxelTOD.html#a69e85d9ce679ec1935ea2673ef92d4b0">MR::DWI::Tractography::Mapping::VoxelTOD</a>
 , <a class="el" href="classMR_1_1GUI_1_1GL_1_1FrameBuffer.html#a7486a6804cc25161d14ce179177ea211">MR::GUI::GL::FrameBuffer</a>
 , <a class="el" href="classMR_1_1GUI_1_1GL_1_1Shader_1_1Program.html#ad312f731f74686684198ca98105a2e5d">MR::GUI::GL::Shader::Program</a>
 , <a class="el" href="classMR_1_1GUI_1_1GL_1_1Texture.html#a192ca819f1c37df8581284d749aed69e">MR::GUI::GL::Texture</a>
@@ -585,25 +578,23 @@ $(document).ready(function(){initNavTree('functions_o.html','');});
 , <a class="el" href="classMR_1_1Image_1_1ConstHeader.html#a7bfb13188f5239d1e3c64b533155210c">MR::Image::ConstHeader</a>
 , <a class="el" href="classMR_1_1Image_1_1Header.html#aa246080c6c2ec863980d26217a4d0315">MR::Image::Header</a>
 , <a class="el" href="classMR_1_1Image_1_1Info.html#a3dcbf3e8e2a3fd981434a46a290fdd7e">MR::Image::Info</a>
-, <a class="el" href="classMR_1_1Image_1_1Position.html#a5677484b02ceda790eee6ef0512f2fca">MR::Image::Position&lt; Set &gt;</a>
+, <a class="el" href="classMR_1_1Image_1_1Position.html#a03399cd2e0053043411f5490720fec0b">MR::Image::Position&lt; Set &gt;</a>
 , <a class="el" href="classMR_1_1Image_1_1Sparse_1_1Value.html#afb78d49cebd7e731f2e2466e98aa90cd">MR::Image::Sparse::Value&lt; Voxel &gt;</a>
-, <a class="el" href="classMR_1_1Image_1_1Value.html#aa7d641a7c36fa05ef81c8adee50ae958">MR::Image::Value&lt; Set &gt;</a>
-, <a class="el" href="classMR_1_1Math_1_1FFT.html#ab352532954ccf7828d04e245bbcd1112">MR::Math::FFT</a>
-, <a class="el" href="classMR_1_1Math_1_1Matrix.html#a4b915d3aa0fd10b14a4a4cef96c03d61">MR::Math::Matrix&lt; ValueType &gt;</a>
+, <a class="el" href="classMR_1_1Image_1_1Value.html#a5a458798808a6ba8cc3bb5e94cc0734f">MR::Image::Value&lt; Set &gt;</a>
+, <a class="el" href="classMR_1_1Math_1_1FFT.html#a5230598e163b8b9964524096c80e774f">MR::Math::FFT</a>
+, <a class="el" href="classMR_1_1Math_1_1Matrix.html#af84e8b2c581c16357b13b43f3af67cec">MR::Math::Matrix&lt; ValueType &gt;</a>
 , <a class="el" href="classMR_1_1Math_1_1Matrix_1_1View.html#a322f833108f146146b7860d54a16b516">MR::Math::Matrix&lt; ValueType &gt;::View</a>
 , <a class="el" href="classMR_1_1Math_1_1Vector.html#a221d50ed0348b74ef45bd8dcd1f3151c">MR::Math::Vector&lt; ValueType &gt;</a>
-, <a class="el" href="classMR_1_1Math_1_1Vector_1_1View.html#a2a29211d79ab3f331ca6cac2ecf4e9a6">MR::Math::Vector&lt; ValueType &gt;::View</a>
+, <a class="el" href="classMR_1_1Math_1_1Vector_1_1View.html#a6f2af83988470205e745412f69775d78">MR::Math::Vector&lt; ValueType &gt;::View</a>
 , <a class="el" href="classMR_1_1Min__mem__array.html#a7420e734d358db7bb2f8118e18152cd7">MR::Min_mem_array&lt; T &gt;</a>
 , <a class="el" href="classMR_1_1Point.html#a361059c5e0d87a02e452020551ea1d3e">MR::Point&lt; T &gt;</a>
-, <a class="el" href="classMR_1_1Ptr.html#ac83a51589602d935e55a8031248ca3b2">MR::Ptr&lt; T, is_array &gt;</a>
-, <a class="el" href="classMR_1_1RefPtr.html#a975f177556fef16b0a1514a315762465">MR::RefPtr&lt; T, is_array &gt;</a>
 </li>
 <li>operator==()
 : <a class="el" href="group__CmdParse.html#ga30198c7ed2b57d5d1df19436eea17a97">MR::App::ParsedOption</a>
 , <a class="el" href="classMR_1_1BitSet_1_1ConstValue.html#a565d41d5ba7379d7d002f361c1602048">MR::BitSet::ConstValue</a>
 , <a class="el" href="classMR_1_1BitSet.html#a2756f7d62ec0b72ffe61db0b40be0a2d">MR::BitSet</a>
 , <a class="el" href="classMR_1_1BitSet_1_1Value.html#ac93e308c7bc3d9e948fc70f1caeb8b4c">MR::BitSet::Value</a>
-, <a class="el" href="classMR_1_1DataType.html#a0ef1846b64cb424cbc1b3364299a3612">MR::DataType</a>
+, <a class="el" href="classMR_1_1DataType.html#a54389b4216862e21458572699af9b649">MR::DataType</a>
 , <a class="el" href="classMR_1_1DWI_1_1Directions_1_1Mask.html#a1bdee70ac62bc8720e3ec42bab0545e0">MR::DWI::Directions::Mask</a>
 , <a class="el" href="classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1Dixel.html#a6964c1ba427305d59326773def3e703e">MR::DWI::Tractography::Mapping::Dixel</a>
 , <a class="el" href="classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1Gaussian_1_1Dixel.html#a065f5765e1120866e09231da09a4d8d4">MR::DWI::Tractography::Mapping::Gaussian::Dixel</a>
@@ -613,7 +604,7 @@ $(document).ready(function(){initNavTree('functions_o.html','');});
 , <a class="el" href="classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1VoxelDEC.html#afa8b01692d1648c7aa97b0d148228d96">MR::DWI::Tractography::Mapping::VoxelDEC</a>
 , <a class="el" href="classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1VoxelTOD.html#af72d1da739aa5e235c3f2d78f86a431f">MR::DWI::Tractography::Mapping::VoxelTOD</a>
 , <a class="el" href="classMR_1_1Math_1_1Matrix.html#a81be7d7cc792994c63833c230802735f">MR::Math::Matrix&lt; ValueType &gt;</a>
-, <a class="el" href="classMR_1_1Math_1_1Vector.html#a6c6251dd064d07f06b39fcf39a865f58">MR::Math::Vector&lt; ValueType &gt;</a>
+, <a class="el" href="classMR_1_1Math_1_1Vector.html#a19ccf044c47c085cae907310d6340552">MR::Math::Vector&lt; ValueType &gt;</a>
 , <a class="el" href="classMR_1_1Math_1_1Versor.html#a1362ac88cffc13d6a042fb3d54a9a2a0">MR::Math::Versor&lt; T &gt;</a>
 , <a class="el" href="classMR_1_1Min__mem__array.html#a1ceacf4ab7cc5cb875287a3ca95af704">MR::Min_mem_array&lt; T &gt;</a>
 , <a class="el" href="classMR_1_1Point.html#a19385999ff44865d8d058c0f4aed6744">MR::Point&lt; T &gt;</a>
@@ -625,11 +616,12 @@ $(document).ready(function(){initNavTree('functions_o.html','');});
 <li>operator[]()
 : <a class="el" href="group__CmdParse.html#ga5601e4f9369afb4004e893b3628c753d">MR::App::Options</a>
 , <a class="el" href="group__CmdParse.html#ga97a29072fd6f71eb63e30f3a502db4f5">MR::App::Options::Opt</a>
-, <a class="el" href="classMR_1_1BitSet.html#a73faee65579c8c3ff2eb19ad3a92bb77">MR::BitSet</a>
+, <a class="el" href="group__CmdParse.html#ga218980a25688ce5d20950a450afd76dc">MR::App::ParsedOption</a>
+, <a class="el" href="classMR_1_1BitSet.html#aa12ada0506c979fd0a6cb08118d945f0">MR::BitSet</a>
 , <a class="el" href="classMR_1_1DWI_1_1Bootstrap.html#a951733c48b3cdf5f10f7f37ed2148de1">MR::DWI::Bootstrap&lt; VoxelType, Functor, NUM_VOX_PER_CHUNK &gt;</a>
-, <a class="el" href="classMR_1_1DWI_1_1Directions_1_1Mask.html#a52732590485eb92834e47fa457ab4f60">MR::DWI::Directions::Mask</a>
+, <a class="el" href="classMR_1_1DWI_1_1Directions_1_1Mask.html#a48504734b32609fc8552d9a663c72838">MR::DWI::Directions::Mask</a>
 , <a class="el" href="classMR_1_1DWI_1_1Directions_1_1Set.html#aab5e0515c36ed245ad9defd692fbb30d">MR::DWI::Directions::Set</a>
-, <a class="el" href="classMR_1_1DWI_1_1Fixel__map.html#a36a2d88e45f174dd2071fc6daa9cec62">MR::DWI::Fixel_map&lt; Fixel &gt;</a>
+, <a class="el" href="classMR_1_1DWI_1_1Fixel__map.html#a918b4b85bff7521f0377cf9655feb8d7">MR::DWI::Fixel_map&lt; Fixel &gt;</a>
 , <a class="el" href="classMR_1_1DWI_1_1Shells.html#a6933e36da0da1779f588f238c0dd3c04">MR::DWI::Shells</a>
 , <a class="el" href="classMR_1_1DWI_1_1Tractography_1_1ROISet.html#a722f4f9c42c25be839e120f53c7af429">MR::DWI::Tractography::ROISet</a>
 , <a class="el" href="classMR_1_1DWI_1_1Tractography_1_1Seeding_1_1List.html#ab16f6f511a1e2b550c3ea23ed6ab88f7">MR::DWI::Tractography::Seeding::List</a>
@@ -641,19 +633,18 @@ $(document).ready(function(){initNavTree('functions_o.html','');});
 , <a class="el" href="classMR_1_1Image_1_1Adapter_1_1Replicate.html#a07eb554090c586baa4371650f8875fe1">MR::Image::Adapter::Replicate&lt; VoxelType &gt;</a>
 , <a class="el" href="classMR_1_1Image_1_1Adapter_1_1Reslice.html#a999ef706cef15e7afb3f0aa7d4ebbb5f">MR::Image::Adapter::Reslice&lt; Interpolator, VoxelType &gt;</a>
 , <a class="el" href="classMR_1_1Image_1_1Adapter_1_1Subset.html#ab7fd507a9014abaeb0c8eea0209e2df7">MR::Image::Adapter::Subset&lt; VoxelType &gt;</a>
-, <a class="el" href="classMR_1_1Image_1_1Adapter_1_1Voxel.html#a50c08975fd66937f82351df1e4f26987">MR::Image::Adapter::Voxel&lt; VoxelType &gt;</a>
-, <a class="el" href="classMR_1_1Image_1_1Iterator.html#a629f2c428566e3d8bcd66d42a2efc65f">MR::Image::Iterator</a>
+, <a class="el" href="classMR_1_1Image_1_1Adapter_1_1Voxel.html#a16c26401f8418c28ffa6327dbbfa8444">MR::Image::Adapter::Voxel&lt; VoxelType &gt;</a>
+, <a class="el" href="classMR_1_1Image_1_1Iterator.html#a3d20ea951c18b85905ef8afc59aad739">MR::Image::Iterator</a>
 , <a class="el" href="classMR_1_1Image_1_1NameParser.html#a29c0f198599416f7f18ae2c017c8a2f2">MR::Image::NameParser</a>
 , <a class="el" href="classMR_1_1Image_1_1ParsedName_1_1List.html#a95ba0de480145865ef2ca257c2392774">MR::Image::ParsedName::List</a>
-, <a class="el" href="classMR_1_1Image_1_1Sparse_1_1Value.html#a00a9987d9dee519b21d98fcc48033d02">MR::Image::Sparse::Value&lt; Voxel &gt;</a>
-, <a class="el" href="classMR_1_1Image_1_1Voxel.html#a1d6f2c7b378937007041a9f9202ecfd3">MR::Image::Voxel&lt; BufferType &gt;</a>
-, <a class="el" href="classMR_1_1Math_1_1Permutation.html#abef650fad3e8b076c25d55a4439961e6">MR::Math::Permutation</a>
+, <a class="el" href="classMR_1_1Image_1_1Sparse_1_1Value.html#a06524480494293f221eb489c5b9dfb53">MR::Image::Sparse::Value&lt; Voxel &gt;</a>
+, <a class="el" href="classMR_1_1Image_1_1Voxel.html#aa61660181f5dd78290ddc311d00bdcd0">MR::Image::Voxel&lt; BufferType &gt;</a>
+, <a class="el" href="classMR_1_1Math_1_1Permutation.html#a881c5c4906d04ebc55a4d11a60839a14">MR::Math::Permutation</a>
 , <a class="el" href="classMR_1_1Math_1_1Vector.html#a700139b9e69a433320bee71333a07c22">MR::Math::Vector&lt; ValueType &gt;</a>
 , <a class="el" href="classMR_1_1Math_1_1Versor.html#a109d82da58d1c68642e19ff64bbb11c3">MR::Math::Versor&lt; T &gt;</a>
-, <a class="el" href="classMR_1_1Mesh_1_1Polygon.html#a2d30fd8d660d9314784a7a4c20e44850">MR::Mesh::Polygon&lt; vertices &gt;</a>
-, <a class="el" href="classMR_1_1Min__mem__array.html#a5eeb6d328eadc8a0035375504fbf315e">MR::Min_mem_array&lt; T &gt;</a>
+, <a class="el" href="classMR_1_1Mesh_1_1Polygon.html#a6bf3b9b305e995b082601dc62ccd478d">MR::Mesh::Polygon&lt; vertices &gt;</a>
+, <a class="el" href="classMR_1_1Min__mem__array.html#a7527e3eaf8d64232c47eb6b9b5d34900">MR::Min_mem_array&lt; T &gt;</a>
 , <a class="el" href="classMR_1_1Point.html#ae3c04efa84f020b6d7f5ad98376891f7">MR::Point&lt; T &gt;</a>
-, <a class="el" href="classMR_1_1VecPtr.html#a4f388b9203743402b541432cee6adf9c">MR::VecPtr&lt; T, is_array &gt;</a>
 </li>
 <li>operator^()
 : <a class="el" href="classMR_1_1BitSet.html#a6eb3a0081d3b7ea4fa428472e7148a24">MR::BitSet</a>
@@ -683,7 +674,7 @@ $(document).ready(function(){initNavTree('functions_o.html','');});
 : <a class="el" href="classMR_1_1Image_1_1Filter_1_1OptimalThreshold.html#a67feca1b5f04bed8fc57892029bfc155">MR::Image::Filter::OptimalThreshold</a>
 </li>
 <li>Option()
-: <a class="el" href="classMR_1_1App_1_1Option.html#af20082e45788c6e957ed5ecf6f1753d7">MR::App::Option</a>
+: <a class="el" href="classMR_1_1App_1_1Option.html#a94a98e9c52435f82bd1de09a80a82b53">MR::App::Option</a>
 </li>
 <li>optional()
 : <a class="el" href="classMR_1_1App_1_1Argument.html#a7f8d35695a2bbf764d5f61040e8f87eb">MR::App::Argument</a>
@@ -853,7 +844,7 @@ $(document).ready(function(){initNavTree('functions_o.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Apr 1 2015 14:53:45 for MRtrix by
+    <li class="footer">Generated on Mon Apr 27 2015 17:39:25 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

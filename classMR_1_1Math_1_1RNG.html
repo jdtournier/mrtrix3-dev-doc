@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">MRtrix
-   &#160;<span id="projectnumber">0.3.12-304-g9979917d</span>
+   &#160;<span id="projectnumber">0.3.12-365-ged27dfbe</span>
    </div>
    <div id="projectbrief">MRtrix provides a set of tools to perform diffusion-weighted MR white-matter tractography in a manner robust to crossing fibres, using constrained spherical deconvolution (CSD) and probabilistic streamlines.</div>
   </td>
@@ -110,55 +110,54 @@ $(document).ready(function(){initNavTree('classMR_1_1Math_1_1RNG.html','');});
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classMR_1_1Math_1_1RNG-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">MR::Math::RNG Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
+<p>random number generator  
+ <a href="classMR_1_1Math_1_1RNG.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="rng_8h_source.html">math/rng.h</a>&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for MR::Math::RNG:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="classMR_1_1Math_1_1RNG.png" usemap="#MR::Math::RNG_map" alt=""/>
+  <map id="MR::Math::RNG_map" name="MR::Math::RNG_map">
+</map>
+ </div></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Math_1_1RNG_1_1Normal.html">Normal</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Math_1_1RNG_1_1Uniform.html">Uniform</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ace6ee44964eb01887c28db0a92e7cc4d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Math_1_1RNG.html#ace6ee44964eb01887c28db0a92e7cc4d">RNG</a> ()</td></tr>
 <tr class="separator:ace6ee44964eb01887c28db0a92e7cc4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c4fe740c2592e06fe47eb48dd914df5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Math_1_1RNG.html#a3c4fe740c2592e06fe47eb48dd914df5">RNG</a> (size_t seed)</td></tr>
-<tr class="separator:a3c4fe740c2592e06fe47eb48dd914df5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09b624378bfbc00cd054b82517fc545f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Math_1_1RNG.html#a09b624378bfbc00cd054b82517fc545f">RNG</a> (const <a class="el" href="classMR_1_1Math_1_1RNG.html">RNG</a> &amp;rng)</td></tr>
-<tr class="separator:a09b624378bfbc00cd054b82517fc545f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abcf29ad371fc990c224263cee2e5854e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Math_1_1RNG.html#abcf29ad371fc990c224263cee2e5854e">~RNG</a> ()</td></tr>
-<tr class="separator:abcf29ad371fc990c224263cee2e5854e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c115821317f4268e088900121081991"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Math_1_1RNG.html#a5c115821317f4268e088900121081991">set</a> (size_t seed)</td></tr>
-<tr class="separator:a5c115821317f4268e088900121081991"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7662aff6809bba34bcd1c49247fc31b"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Math_1_1RNG.html#ac7662aff6809bba34bcd1c49247fc31b">get</a> () const </td></tr>
-<tr class="separator:ac7662aff6809bba34bcd1c49247fc31b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae64e538b5a001d400452afcae2c81d6c"><td class="memItemLeft" align="right" valign="top">gsl_rng *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Math_1_1RNG.html#ae64e538b5a001d400452afcae2c81d6c">operator()</a> ()</td></tr>
-<tr class="separator:ae64e538b5a001d400452afcae2c81d6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99674f4cb441a6f120fd8702fb5fbd60"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Math_1_1RNG.html#a99674f4cb441a6f120fd8702fb5fbd60">uniform</a> ()</td></tr>
-<tr class="separator:a99674f4cb441a6f120fd8702fb5fbd60"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31e4d94e15d1acd56201f408b25d7720"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Math_1_1RNG.html#a31e4d94e15d1acd56201f408b25d7720">uniform_int</a> (size_t <a class="el" href="group__elfun.html#ga6ad7c8a6943db01a90c071137a5eb4de">max</a>)</td></tr>
-<tr class="separator:a31e4d94e15d1acd56201f408b25d7720"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e434a47cf70b39b22adc112fca3e517"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Math_1_1RNG.html#a3e434a47cf70b39b22adc112fca3e517">normal</a> (float SD=1.0)</td></tr>
-<tr class="separator:a3e434a47cf70b39b22adc112fca3e517"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa88e1df863e3eed86cdbcc7d909b615e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Math_1_1RNG.html#aa88e1df863e3eed86cdbcc7d909b615e">rician</a> (float amplitude, float SD)</td></tr>
-<tr class="separator:aa88e1df863e3eed86cdbcc7d909b615e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c4238d79e42ca42bdd46b0587f35dd9"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a3c4238d79e42ca42bdd46b0587f35dd9"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classMR_1_1Math_1_1RNG.html#a3c4238d79e42ca42bdd46b0587f35dd9">shuffle</a> (<a class="el" href="classMR_1_1Math_1_1Vector.html">Vector</a>&lt; T &gt; &amp;V)</td></tr>
-<tr class="separator:a3c4238d79e42ca42bdd46b0587f35dd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6992d1d71912ab0f80e858ec4f23126b"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a6992d1d71912ab0f80e858ec4f23126b"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classMR_1_1Math_1_1RNG.html#a6992d1d71912ab0f80e858ec4f23126b">shuffle</a> (std::vector&lt; T &gt; &amp;V)</td></tr>
-<tr class="separator:a6992d1d71912ab0f80e858ec4f23126b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b1794a31f828e928d755770115c2d66"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Math_1_1RNG.html#a7b1794a31f828e928d755770115c2d66">RNG</a> (std::mt19937::result_type seed)</td></tr>
+<tr class="separator:a7b1794a31f828e928d755770115c2d66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb98ce8a82347664d8dcc3cba11f131a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Math_1_1RNG.html#afb98ce8a82347664d8dcc3cba11f131a">RNG</a> (const <a class="el" href="classMR_1_1Math_1_1RNG.html">RNG</a> &amp;)</td></tr>
+<tr class="separator:afb98ce8a82347664d8dcc3cba11f131a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:a56a7ab18b2eac3085bf0efb230a0605a"><td class="memItemLeft" align="right" valign="top">gsl_rng *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Math_1_1RNG.html#a56a7ab18b2eac3085bf0efb230a0605a">generator</a></td></tr>
-<tr class="separator:a56a7ab18b2eac3085bf0efb230a0605a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a580f49abad94358c04c68d5844cf57ab"><td class="memItemLeft" align="right" valign="top">static std::mt19937::result_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Math_1_1RNG.html#a580f49abad94358c04c68d5844cf57ab">get_seed</a> ()</td></tr>
+<tr class="separator:a580f49abad94358c04c68d5844cf57ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p>Definition at line <a class="el" href="rng_8h_source.html#l00037">37</a> of file <a class="el" href="rng_8h_source.html">rng.h</a>.</p>
+<div class="textblock"><p>random number generator </p>
+<p>this is a thin wrapper around the standard C++11 std::mt19937 random number generator. It can be used in combination with the standard C++11 distributions. It differs from the standard in its constructors: the default constructor will seed using std::random_device, unless a seed has been expicitly passed using the MRTRIX_RNG_SEED environment variable. The copy constructor will seed itself using 1 + the last seed used - this ensures the seeds are unique across instances in multi-threading. </p>
+
+<p>Definition at line <a class="el" href="rng_8h_source.html#l00047">47</a> of file <a class="el" href="rng_8h_source.html">rng.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="ace6ee44964eb01887c28db0a92e7cc4d"></a>
 <div class="memitem">
@@ -181,13 +180,11 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="rng_8h_source.html#l00040">40</a> of file <a class="el" href="rng_8h_source.html">rng.h</a>.</p>
-
-<p>References <a class="el" href="rng_8h_source.html#l00097">generator</a>, and <a class="el" href="rng_8h_source.html#l00060">set()</a>.</p>
+<p>Definition at line <a class="el" href="rng_8h_source.html#l00050">50</a> of file <a class="el" href="rng_8h_source.html">rng.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a3c4fe740c2592e06fe47eb48dd914df5"></a>
+<a class="anchor" id="a7b1794a31f828e928d755770115c2d66"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -197,7 +194,7 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">MR::Math::RNG::RNG </td>
           <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
+          <td class="paramtype">std::mt19937::result_type&#160;</td>
           <td class="paramname"><em>seed</em></td><td>)</td>
           <td></td>
         </tr>
@@ -209,13 +206,11 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="rng_8h_source.html#l00046">46</a> of file <a class="el" href="rng_8h_source.html">rng.h</a>.</p>
-
-<p>References <a class="el" href="rng_8h_source.html#l00097">generator</a>, and <a class="el" href="rng_8h_source.html#l00060">set()</a>.</p>
+<p>Definition at line <a class="el" href="rng_8h_source.html#l00051">51</a> of file <a class="el" href="rng_8h_source.html">rng.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a09b624378bfbc00cd054b82517fc545f"></a>
+<a class="anchor" id="afb98ce8a82347664d8dcc3cba11f131a"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -226,33 +221,6 @@ Protected Attributes</h2></td></tr>
           <td class="memname">MR::Math::RNG::RNG </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classMR_1_1Math_1_1RNG.html">RNG</a> &amp;&#160;</td>
-          <td class="paramname"><em>rng</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rng_8h_source.html#l00050">50</a> of file <a class="el" href="rng_8h_source.html">rng.h</a>.</p>
-
-<p>References <a class="el" href="rng_8h_source.html#l00097">generator</a>, <a class="el" href="rng_8h_source.html#l00064">get()</a>, and <a class="el" href="rng_8h_source.html#l00060">set()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="abcf29ad371fc990c224263cee2e5854e"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">MR::Math::RNG::~RNG </td>
-          <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -264,14 +232,12 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="rng_8h_source.html#l00054">54</a> of file <a class="el" href="rng_8h_source.html">rng.h</a>.</p>
-
-<p>References <a class="el" href="rng_8h_source.html#l00097">generator</a>.</p>
+<p>Definition at line <a class="el" href="rng_8h_source.html#l00052">52</a> of file <a class="el" href="rng_8h_source.html">rng.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="ac7662aff6809bba34bcd1c49247fc31b"></a>
+<a class="anchor" id="a580f49abad94358c04c68d5844cf57ab"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -279,64 +245,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">size_t MR::Math::RNG::get </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rng_8h_source.html#l00064">64</a> of file <a class="el" href="rng_8h_source.html">rng.h</a>.</p>
-
-<p>References <a class="el" href="rng_8h_source.html#l00097">generator</a>.</p>
-
-<p>Referenced by <a class="el" href="rng_8h_source.html#l00050">RNG()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a3e434a47cf70b39b22adc112fca3e517"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">float MR::Math::RNG::normal </td>
-          <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>SD</em> = <code>1.0</code></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rng_8h_source.html#l00079">79</a> of file <a class="el" href="rng_8h_source.html">rng.h</a>.</p>
-
-<p>References <a class="el" href="rng_8h_source.html#l00097">generator</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ae64e538b5a001d400452afcae2c81d6c"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">gsl_rng* MR::Math::RNG::operator() </td>
+          <td class="memname">static std::mt19937::result_type MR::Math::RNG::get_seed </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -344,224 +253,12 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="rng_8h_source.html#l00069">69</a> of file <a class="el" href="rng_8h_source.html">rng.h</a>.</p>
-
-<p>References <a class="el" href="rng_8h_source.html#l00097">generator</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="aa88e1df863e3eed86cdbcc7d909b615e"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">float MR::Math::RNG::rician </td>
-          <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>amplitude</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>SD</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rng_8h_source.html#l00082">82</a> of file <a class="el" href="rng_8h_source.html">rng.h</a>.</p>
-
-<p>References <a class="el" href="rng_8h_source.html#l00097">generator</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a5c115821317f4268e088900121081991"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MR::Math::RNG::set </td>
-          <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>seed</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rng_8h_source.html#l00060">60</a> of file <a class="el" href="rng_8h_source.html">rng.h</a>.</p>
-
-<p>References <a class="el" href="rng_8h_source.html#l00097">generator</a>.</p>
-
-<p>Referenced by <a class="el" href="rng_8h_source.html#l00040">RNG()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a3c4238d79e42ca42bdd46b0587f35dd9"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MR::Math::RNG::shuffle </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classMR_1_1Math_1_1Vector.html">Vector</a>&lt; T &gt; &amp;&#160;</td>
-          <td class="paramname"><em>V</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rng_8h_source.html#l00088">88</a> of file <a class="el" href="rng_8h_source.html">rng.h</a>.</p>
-
-<p>References <a class="el" href="rng_8h_source.html#l00097">generator</a>, <a class="el" href="lib_2math_2vector_8h_source.html#l00377">MR::Math::Vector&lt; ValueType &gt;::ptr()</a>, and <a class="el" href="lib_2math_2vector_8h_source.html#l00362">MR::Math::Vector&lt; ValueType &gt;::size()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a6992d1d71912ab0f80e858ec4f23126b"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MR::Math::RNG::shuffle </td>
-          <td>(</td>
-          <td class="paramtype">std::vector&lt; T &gt; &amp;&#160;</td>
-          <td class="paramname"><em>V</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rng_8h_source.html#l00091">91</a> of file <a class="el" href="rng_8h_source.html">rng.h</a>.</p>
-
-<p>References <a class="el" href="rng_8h_source.html#l00097">generator</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a99674f4cb441a6f120fd8702fb5fbd60"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">float MR::Math::RNG::uniform </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rng_8h_source.html#l00073">73</a> of file <a class="el" href="rng_8h_source.html">rng.h</a>.</p>
-
-<p>References <a class="el" href="rng_8h_source.html#l00097">generator</a>.</p>
-
-<p>Referenced by <a class="el" href="tracking_2method_8h_source.html#l00141">MR::DWI::Tractography::Tracking::MethodBase::random_direction()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a31e4d94e15d1acd56201f408b25d7720"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">size_t MR::Math::RNG::uniform_int </td>
-          <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>max</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rng_8h_source.html#l00076">76</a> of file <a class="el" href="rng_8h_source.html">rng.h</a>.</p>
-
-<p>References <a class="el" href="rng_8h_source.html#l00097">generator</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a56a7ab18b2eac3085bf0efb230a0605a"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">gsl_rng* MR::Math::RNG::generator</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rng_8h_source.html#l00097">97</a> of file <a class="el" href="rng_8h_source.html">rng.h</a>.</p>
-
-<p>Referenced by <a class="el" href="rng_8h_source.html#l00064">get()</a>, <a class="el" href="rng_8h_source.html#l00079">normal()</a>, <a class="el" href="rng_8h_source.html#l00069">operator()()</a>, <a class="el" href="rng_8h_source.html#l00082">rician()</a>, <a class="el" href="rng_8h_source.html#l00040">RNG()</a>, <a class="el" href="rng_8h_source.html#l00060">set()</a>, <a class="el" href="rng_8h_source.html#l00088">shuffle()</a>, <a class="el" href="rng_8h_source.html#l00073">uniform()</a>, <a class="el" href="rng_8h_source.html#l00076">uniform_int()</a>, and <a class="el" href="rng_8h_source.html#l00054">~RNG()</a>.</p>
+<p>Definition at line <a class="el" href="rng_8h_source.html#l00056">56</a> of file <a class="el" href="rng_8h_source.html">rng.h</a>.</p>
 
 </div>
 </div>
@@ -574,7 +271,7 @@ template&lt;class T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="namespaceMR_1_1Math.html">Math</a></li><li class="navelem"><a class="el" href="classMR_1_1Math_1_1RNG.html">RNG</a></li>
-    <li class="footer">Generated on Wed Apr 1 2015 14:53:45 for MRtrix by
+    <li class="footer">Generated on Mon Apr 27 2015 17:39:25 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

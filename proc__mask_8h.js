@@ -2,6 +2,6 @@ var proc__mask_8h =
 [
     [ "ResampleFunctor", "classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1ResampleFunctor.html", "classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1ResampleFunctor" ],
     [ "ResampleFunctor", "classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1ResampleFunctor.html", "classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1ResampleFunctor" ],
-    [ "initialise_processing_mask", "proc__mask_8h.html#a5be202b69c64b3b2ca532671ad0652da", null ],
+    [ "initialise_processing_mask", "proc__mask_8h.html#a5de6a3c0e9618b1cc01bbaad44f6333e", null ],
     [ "SIFTModelProcMaskOption", "proc__mask_8h.html#ae3706cb26175f9ecc3224bad17122f5b", null ]
 ];

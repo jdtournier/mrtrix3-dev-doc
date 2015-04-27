@@ -13,6 +13,6 @@ var classMR_1_1DWI_1_1Bootstrap =
     [ "func", "classMR_1_1DWI_1_1Bootstrap.html#aa2f7fedcbedd2490c9f299e0eef632c2", null ],
     [ "last_voxel", "classMR_1_1DWI_1_1Bootstrap.html#abcb90dcf4fe0af8e2b9323054427be90", null ],
     [ "next_voxel", "classMR_1_1DWI_1_1Bootstrap.html#a16d0f5fd6078c0229a926d16e46a5bd8", null ],
-    [ "voxel_buffer", "classMR_1_1DWI_1_1Bootstrap.html#a19e9f85900439206bdd9a665d9e5b691", null ],
+    [ "voxel_buffer", "classMR_1_1DWI_1_1Bootstrap.html#a73ba635d9c1f45842c60c9118ec5b662", null ],
     [ "voxels", "classMR_1_1DWI_1_1Bootstrap.html#a7d3d0d71081817b13a759d5a159ac8f8", null ]
 ];

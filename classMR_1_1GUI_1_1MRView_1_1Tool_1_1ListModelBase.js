@@ -9,5 +9,5 @@ var classMR_1_1GUI_1_1MRView_1_1Tool_1_1ListModelBase =
     [ "remove_item", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ListModelBase.html#a8eec1fd61c2bd220f7eb598f98ffaa4f", null ],
     [ "rowCount", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ListModelBase.html#a658242ebc28fd152b2356101e1520822", null ],
     [ "setData", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ListModelBase.html#a6351665d72279147ff7d7f8a61e364c2", null ],
-    [ "items", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ListModelBase.html#a63ca0d87807abb858aa9ebbd38efeca6", null ]
+    [ "items", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ListModelBase.html#a86ee5a0dddab250d0f50fa5732298c41", null ]
 ];

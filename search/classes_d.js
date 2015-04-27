@@ -11,5 +11,6 @@ var searchData=
   ['nodeselector',['NodeSelector',['../classMR_1_1DWI_1_1Tractography_1_1Connectomics_1_1NodeExtractWriter_1_1NodeSelector.html',1,'MR::DWI::Tractography::Connectomics::NodeExtractWriter']]],
   ['noiseestimator',['NoiseEstimator',['../classMR_1_1DWI_1_1NoiseEstimator.html',1,'MR::DWI']]],
   ['noiseestimatorfunctor',['NoiseEstimatorFunctor',['../classMR_1_1DWI_1_1NoiseEstimatorFunctor.html',1,'MR::DWI']]],
+  ['normal',['Normal',['../classMR_1_1Math_1_1RNG_1_1Normal.html',1,'MR::Math::RNG']]],
   ['nulldist',['NullDist',['../classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1NullDist.html',1,'MR::DWI::Tractography::Algorithms']]]
 ];

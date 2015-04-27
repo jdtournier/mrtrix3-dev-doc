@@ -7,7 +7,7 @@ var classMR_1_1File_1_1Dicom_1_1Image =
     [ "read", "classMR_1_1File_1_1Dicom_1_1Image.html#afc710e77f2b11dc80a9bb628033a4e15", null ],
     [ "operator<<", "classMR_1_1File_1_1Dicom_1_1Image.html#a8a6e97ca8294bcf35330faeec775edff", null ],
     [ "frame_dim", "classMR_1_1File_1_1Dicom_1_1Image.html#a937219260c03311fbf8b765879497075", null ],
-    [ "frames", "classMR_1_1File_1_1Dicom_1_1Image.html#a052ddc3a1fd6f553e794b18f69481e31", null ],
+    [ "frames", "classMR_1_1File_1_1Dicom_1_1Image.html#ae00abfec1cc6c6231fd941c4e465a93d", null ],
     [ "images_in_mosaic", "classMR_1_1File_1_1Dicom_1_1Image.html#a686f626baff5268c74da5d392c8177d1", null ],
     [ "in_frames", "classMR_1_1File_1_1Dicom_1_1Image.html#a61641df67562a23dd33f31c71e5ed47f", null ],
     [ "is_BE", "classMR_1_1File_1_1Dicom_1_1Image.html#ae7cff08833fc52bb81919e3315e6ca2c", null ],

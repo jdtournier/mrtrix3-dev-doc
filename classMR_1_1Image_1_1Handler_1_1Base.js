@@ -1,6 +1,7 @@
 var classMR_1_1Image_1_1Handler_1_1Base =
 [
     [ "Base", "classMR_1_1Image_1_1Handler_1_1Base.html#a5ab65d4e4564db45908ee3c5a7b5d048", null ],
+    [ "Base", "classMR_1_1Image_1_1Handler_1_1Base.html#ab40be735da1d1cc3ae6c2655ff72e0c6", null ],
     [ "~Base", "classMR_1_1Image_1_1Handler_1_1Base.html#a746a1e42ece2eb1f073960156a43922b", null ],
     [ "check", "classMR_1_1Image_1_1Handler_1_1Base.html#a54244b397d370fbff82cb610d7b664c0", null ],
     [ "close", "classMR_1_1Image_1_1Handler_1_1Base.html#a4e0a98b5916da9e806d19a62ae875fc1", null ],
@@ -15,7 +16,7 @@ var classMR_1_1Image_1_1Handler_1_1Base =
     [ "set_readwrite", "classMR_1_1Image_1_1Handler_1_1Base.html#a261659fec05921cb76b975930b555b0b", null ],
     [ "unload", "classMR_1_1Image_1_1Handler_1_1Base.html#a75cfa78779ba5e6e34cef854a3919ae2", null ],
     [ "operator<<", "classMR_1_1Image_1_1Handler_1_1Base.html#aa5e6d201196e6594fecabb13bd51ec6f", null ],
-    [ "addresses", "classMR_1_1Image_1_1Handler_1_1Base.html#acd8cd013ac2be5b48125ffac7f4079a5", null ],
+    [ "addresses", "classMR_1_1Image_1_1Handler_1_1Base.html#a9495c45e9352b7a068f829d5a366af97", null ],
     [ "datatype", "classMR_1_1Image_1_1Handler_1_1Base.html#adaf8fe8ce49056d8d6f318b21e3d049a", null ],
     [ "files", "classMR_1_1Image_1_1Handler_1_1Base.html#a573562976694d95c5f449cbc56a6de1f", null ],
     [ "is_new", "classMR_1_1Image_1_1Handler_1_1Base.html#aa3e13b22be33c749a0b9057ae5eac671", null ],

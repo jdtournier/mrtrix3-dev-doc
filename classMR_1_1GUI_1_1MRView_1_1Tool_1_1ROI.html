@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">MRtrix
-   &#160;<span id="projectnumber">0.3.12-304-g9979917d</span>
+   &#160;<span id="projectnumber">0.3.12-365-ged27dfbe</span>
    </div>
    <div id="projectbrief">MRtrix provides a set of tools to perform diffusion-weighted MR white-matter tractography in a manner robust to crossing fibres, using constrained spherical deconvolution (CSD) and probabilistic streamlines.</div>
   </td>
@@ -111,6 +111,7 @@ $(document).ready(function(){initNavTree('classMR_1_1GUI_1_1MRView_1_1Tool_1_1RO
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI-members.html">List of all members</a>  </div>
@@ -138,8 +139,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a02995701794d8ad7a6c9565ba04c31db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a594b7595b45dcd26d18741b317b43b9d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI.html#a594b7595b45dcd26d18741b317b43b9d">draw</a> (const <a class="el" href="classMR_1_1GUI_1_1Projection.html">Projection</a> &amp;projection, bool is_3D, int axis, int slice)</td></tr>
 <tr class="separator:a594b7595b45dcd26d18741b317b43b9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b9c577bc5d8ebc7e481adff31e15142"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI.html#a5b9c577bc5d8ebc7e481adff31e15142">process_batch_command</a> (const std::string &amp;cmd, const std::string &amp;args)</td></tr>
-<tr class="separator:a5b9c577bc5d8ebc7e481adff31e15142"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0e18e9c6c60e8c72600496b304ad137"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI.html#ab0e18e9c6c60e8c72600496b304ad137">process_commandline_option</a> (const <a class="el" href="classMR_1_1App_1_1ParsedOption.html">MR::App::ParsedOption</a> &amp;opt)</td></tr>
+<tr class="separator:ab0e18e9c6c60e8c72600496b304ad137"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf907b679572bf5e7c2ec7c44db0e194"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI.html#abf907b679572bf5e7c2ec7c44db0e194">mouse_press_event</a> ()</td></tr>
 <tr class="separator:abf907b679572bf5e7c2ec7c44db0e194"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac88beb4212b6180f3a10d3b5b24f97f1"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI.html#ac88beb4212b6180f3a10d3b5b24f97f1">mouse_move_event</a> ()</td></tr>
@@ -166,14 +167,22 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a49a6bc01fae5286d83e7e12a054a2270 inherit pub_methods_classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html#a49a6bc01fae5286d83e7e12a054a2270">update_cursor</a> ()</td></tr>
 <tr class="separator:a49a6bc01fae5286d83e7e12a054a2270 inherit pub_methods_classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a9946f9929a5e049b94ebdd0b7c00d2ba"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI.html#a9946f9929a5e049b94ebdd0b7c00d2ba">add_commandline_options</a> (<a class="el" href="classMR_1_1App_1_1OptionList.html">MR::App::OptionList</a> &amp;options)</td></tr>
+<tr class="separator:a9946f9929a5e049b94ebdd0b7c00d2ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_methods_classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html">MR::GUI::MRView::Tool::Base</a></td></tr>
+<tr class="memitem:a312db50d8b09265c002bd5f2ad9384f4 inherit pub_static_methods_classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html#a312db50d8b09265c002bd5f2ad9384f4">add_commandline_options</a> (<a class="el" href="classMR_1_1App_1_1OptionList.html">MR::App::OptionList</a> &amp;options)</td></tr>
+<tr class="separator:a312db50d8b09265c002bd5f2ad9384f4 inherit pub_static_methods_classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a0c50cbbba08c4f98f1755a67fd27fec7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI.html#a0c50cbbba08c4f98f1755a67fd27fec7">update_undo_redo</a> ()</td></tr>
 <tr class="separator:a0c50cbbba08c4f98f1755a67fd27fec7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3606810ac800af077f9cfd710273e4d2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI.html#a3606810ac800af077f9cfd710273e4d2">updateGL</a> ()</td></tr>
 <tr class="separator:a3606810ac800af077f9cfd710273e4d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39fb4d83b19e4c22f2089ed5270414c9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI.html#a39fb4d83b19e4c22f2089ed5270414c9">load</a> (<a class="el" href="classMR_1_1VecPtr.html">VecPtr</a>&lt; <a class="el" href="classMR_1_1Image_1_1Header.html">MR::Image::Header</a> &gt; &amp;list)</td></tr>
-<tr class="separator:a39fb4d83b19e4c22f2089ed5270414c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a257e3a67af34b2604450f812a311e727"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI.html#a257e3a67af34b2604450f812a311e727">load</a> (std::vector&lt; std::unique_ptr&lt; <a class="el" href="classMR_1_1Image_1_1Header.html">MR::Image::Header</a> &gt;&gt; &amp;list)</td></tr>
+<tr class="separator:a257e3a67af34b2604450f812a311e727"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2412200ab9d811e3c34be71ccaaac71c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI.html#a2412200ab9d811e3c34be71ccaaac71c">save</a> (<a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI__Item.html">ROI_Item</a> *)</td></tr>
 <tr class="separator:a2412200ab9d811e3c34be71ccaaac71c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba8424d4717844abff30cb025f17128b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI.html#aba8424d4717844abff30cb025f17128b">normal2axis</a> (const <a class="el" href="classMR_1_1Point.html">Point</a>&lt;&gt; &amp;, const <a class="el" href="classMR_1_1Image_1_1Transform.html">MR::Image::Transform</a> &amp;) const </td></tr>
@@ -286,6 +295,30 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a9946f9929a5e049b94ebdd0b7c00d2ba"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void MR::GUI::MRView::Tool::ROI::add_commandline_options </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1App_1_1OptionList.html">MR::App::OptionList</a> &amp;&#160;</td>
+          <td class="paramname"><em>options</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a594b7595b45dcd26d18741b317b43b9d"></a>
 <div class="memitem">
 <div class="memproto">
@@ -359,7 +392,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a39fb4d83b19e4c22f2089ed5270414c9"></a>
+<a class="anchor" id="a257e3a67af34b2604450f812a311e727"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -369,7 +402,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">void MR::GUI::MRView::Tool::ROI::load </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classMR_1_1VecPtr.html">VecPtr</a>&lt; <a class="el" href="classMR_1_1Image_1_1Header.html">MR::Image::Header</a> &gt; &amp;&#160;</td>
+          <td class="paramtype">std::vector&lt; std::unique_ptr&lt; <a class="el" href="classMR_1_1Image_1_1Header.html">MR::Image::Header</a> &gt;&gt; &amp;&#160;</td>
           <td class="paramname"><em>list</em></td><td>)</td>
           <td></td>
         </tr>
@@ -492,7 +525,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a5b9c577bc5d8ebc7e481adff31e15142"></a>
+<a class="anchor" id="ab0e18e9c6c60e8c72600496b304ad137"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -500,21 +533,11 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool MR::GUI::MRView::Tool::ROI::process_batch_command </td>
+          <td class="memname">virtual bool MR::GUI::MRView::Tool::ROI::process_commandline_option </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>cmd</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1App_1_1ParsedOption.html">MR::App::ParsedOption</a> &amp;&#160;</td>
+          <td class="paramname"><em>opt</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>args</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -524,7 +547,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented from <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html#a13bbbbac23c94a715e6bd7e2a7cf951e">MR::GUI::MRView::Tool::Base</a>.</p>
+<p>Reimplemented from <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html#a661490668c7ff17f8b83a94e7f407c8a">MR::GUI::MRView::Tool::Base</a>.</p>
 
 </div>
 </div>
@@ -596,9 +619,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00105">105</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
+<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00107">107</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
 
-<p>References <a class="el" href="window_8h_source.html#l00066">MR::GUI::MRView::Window::get_current_mode()</a>, <a class="el" href="src_2gui_2mrview_2mode_2base_8h_source.html#l00087">MR::GUI::MRView::Mode::Base::update_overlays</a>, <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Window.html#a0d510dcd29931fd125b25d21e23f0410">MR::GUI::MRView::Window::updateGL()</a>, and <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html#l00058">MR::GUI::MRView::Tool::Base::window</a>.</p>
+<p>References <a class="el" href="window_8h_source.html#l00066">MR::GUI::MRView::Window::get_current_mode()</a>, <a class="el" href="src_2gui_2mrview_2mode_2base_8h_source.html#l00087">MR::GUI::MRView::Mode::Base::update_overlays</a>, <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Window.html#a0d510dcd29931fd125b25d21e23f0410">MR::GUI::MRView::Window::updateGL()</a>, and <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html#l00063">MR::GUI::MRView::Tool::Base::window</a>.</p>
 
 </div>
 </div>
@@ -621,7 +644,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00089">89</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
+<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00091">91</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
 
 </div>
 </div>
@@ -643,7 +666,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00096">96</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
+<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00098">98</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
 
 </div>
 </div>
@@ -665,7 +688,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00087">87</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
+<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00089">89</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
 
 </div>
 </div>
@@ -687,7 +710,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00094">94</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
+<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00096">96</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
 
 </div>
 </div>
@@ -709,7 +732,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00090">90</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
+<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00092">92</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
 
 </div>
 </div>
@@ -731,7 +754,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00090">90</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
+<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00092">92</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
 
 </div>
 </div>
@@ -753,7 +776,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00097">97</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
+<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00099">99</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
 
 </div>
 </div>
@@ -775,7 +798,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00099">99</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
+<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00101">101</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
 
 </div>
 </div>
@@ -797,7 +820,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00097">97</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
+<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00099">99</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
 
 </div>
 </div>
@@ -819,7 +842,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00100">100</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
+<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00102">102</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
 
 </div>
 </div>
@@ -841,7 +864,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00088">88</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
+<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00090">90</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
 
 </div>
 </div>
@@ -863,7 +886,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00091">91</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
+<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00093">93</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
 
 </div>
 </div>
@@ -885,7 +908,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00089">89</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
+<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00091">91</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
 
 </div>
 </div>
@@ -907,7 +930,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00087">87</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
+<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00089">89</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
 
 </div>
 </div>
@@ -929,7 +952,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00098">98</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
+<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00100">100</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
 
 </div>
 </div>
@@ -951,7 +974,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00098">98</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
+<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00100">100</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
 
 </div>
 </div>
@@ -973,7 +996,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00092">92</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
+<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00094">94</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
 
 </div>
 </div>
@@ -995,7 +1018,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00093">93</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
+<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00095">95</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
 
 </div>
 </div>
@@ -1017,7 +1040,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00095">95</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
+<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00097">97</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
 
 </div>
 </div>
@@ -1039,7 +1062,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00099">99</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
+<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00101">101</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
 
 </div>
 </div>
@@ -1061,7 +1084,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00089">89</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
+<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00091">91</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
 
 </div>
 </div>
@@ -1083,7 +1106,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00088">88</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
+<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00090">90</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
 
 </div>
 </div>
@@ -1105,7 +1128,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00087">87</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
+<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00089">89</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
 
 </div>
 </div>
@@ -1127,7 +1150,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00102">102</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
+<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00104">104</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
 
 </div>
 </div>
@@ -1149,7 +1172,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00091">91</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
+<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00093">93</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
 
 </div>
 </div>
@@ -1171,7 +1194,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00088">88</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
+<p>Definition at line <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00090">90</a> of file <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html">roi.h</a>.</p>
 
 </div>
 </div>
@@ -1184,7 +1207,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="namespaceMR_1_1GUI.html">GUI</a></li><li class="navelem"><a class="el" href="namespaceMR_1_1GUI_1_1MRView.html">MRView</a></li><li class="navelem"><a class="el" href="namespaceMR_1_1GUI_1_1MRView_1_1Tool.html">Tool</a></li><li class="navelem"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI.html">ROI</a></li>
-    <li class="footer">Generated on Wed Apr 1 2015 14:53:45 for MRtrix by
+    <li class="footer">Generated on Mon Apr 27 2015 17:39:25 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

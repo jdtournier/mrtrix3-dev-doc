@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">MRtrix
-   &#160;<span id="projectnumber">0.3.12-304-g9979917d</span>
+   &#160;<span id="projectnumber">0.3.12-365-ged27dfbe</span>
    </div>
    <div id="projectbrief">MRtrix provides a set of tools to perform diffusion-weighted MR white-matter tractography in a manner robust to crossing fibres, using constrained spherical deconvolution (CSD) and probabilistic streamlines.</div>
   </td>
@@ -138,106 +138,103 @@ $(document).ready(function(){initNavTree('lib_2image_2sparse_2voxel_8h_source.ht
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &lt;typeinfo&gt;</span></div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="ptr_8h.html">ptr.h</a>&quot;</span></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="buffer_8h.html">image/buffer.h</a>&quot;</span></div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="buffer__sparse_8h.html">image/buffer_sparse.h</a>&quot;</span></div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="lib_2image_2voxel_8h.html">image/voxel.h</a>&quot;</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="lib_2image_2handler_2base_8h.html">image/handler/base.h</a>&quot;</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="sparse_2value_8h.html">image/sparse/value.h</a>&quot;</span></div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceMR.html">MR</a></div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;{</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  <span class="keyword">namespace </span>Image</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;  {</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keyword">namespace </span>Sparse</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    {</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="buffer_8h.html">image/buffer.h</a>&quot;</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="buffer__sparse_8h.html">image/buffer_sparse.h</a>&quot;</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="lib_2image_2voxel_8h.html">image/voxel.h</a>&quot;</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="lib_2image_2handler_2base_8h.html">image/handler/base.h</a>&quot;</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="sparse_2value_8h.html">image/sparse/value.h</a>&quot;</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceMR.html">MR</a></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;{</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  <span class="keyword">namespace </span>Image</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  {</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keyword">namespace </span>Sparse</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    {</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">class</span> SparseDataType&gt;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;      <span class="keyword">class </span>Voxel : <span class="keyword">public</span> Image::Voxel&lt; Image::Buffer&lt;uint64_t&gt; &gt; {</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#acffc226217e4bffbd5b5e80642aa1a7d">   47</a></span>&#160;          <a class="code" href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#acffc226217e4bffbd5b5e80642aa1a7d">Voxel</a> (<a class="code" href="classMR_1_1Image_1_1BufferSparse.html">BufferSparse&lt;SparseDataType&gt;</a>&amp; array) :</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;              Image::<a class="code" href="classMR_1_1Image_1_1Sparse_1_1Voxel.html">Voxel</a>&lt; Image::<a class="code" href="classMR_1_1Image_1_1Buffer.html">Buffer</a>&lt;uint64_t&gt; &gt; (array),</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;              <a class="code" href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#a3788126cd05276624e39522d733f252d">handler_</a> (array.__get_handler ()) { }</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">class</span> SparseDataType&gt;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;      <span class="keyword">class </span>Voxel : <span class="keyword">public</span> Image::Voxel&lt; Image::Buffer&lt;uint64_t&gt; &gt; {</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#acffc226217e4bffbd5b5e80642aa1a7d">   46</a></span>&#160;          <a class="code" href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#acffc226217e4bffbd5b5e80642aa1a7d">Voxel</a> (<a class="code" href="classMR_1_1Image_1_1BufferSparse.html">BufferSparse&lt;SparseDataType&gt;</a>&amp; array) :</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;              Image::<a class="code" href="classMR_1_1Image_1_1Sparse_1_1Voxel.html">Voxel</a>&lt; Image::<a class="code" href="classMR_1_1Image_1_1Buffer.html">Buffer</a>&lt;uint64_t&gt; &gt; (array),</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;              <a class="code" href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#af8989eb1cf73f2803e88b17e4f2b3605">handler_</a> (array.__get_handler ()) { }</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
-<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#a9bd6593fadb2c8a53e36e32183f92c8c">   52</a></span>&#160;          <span class="keyword">typedef</span> uint64_t <a class="code" href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#a9bd6593fadb2c8a53e36e32183f92c8c">value_type</a>;</div>
-<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#acf1eaffc652521851d75ad1daa1ad41c">   53</a></span>&#160;          <span class="keyword">typedef</span> SparseDataType <a class="code" href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#acf1eaffc652521851d75ad1daa1ad41c">sparse_data_type</a>;</div>
-<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#a97919a3bd6c3fd57da4f6ba0bdf90441">   54</a></span>&#160;          <span class="keyword">typedef</span> <a class="code" href="classMR_1_1Image_1_1Sparse_1_1Voxel.html">Voxel</a> <a class="code" href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#a97919a3bd6c3fd57da4f6ba0bdf90441">voxel_type</a>;</div>
+<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#a9bd6593fadb2c8a53e36e32183f92c8c">   51</a></span>&#160;          <span class="keyword">typedef</span> uint64_t <a class="code" href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#a9bd6593fadb2c8a53e36e32183f92c8c">value_type</a>;</div>
+<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#acf1eaffc652521851d75ad1daa1ad41c">   52</a></span>&#160;          <span class="keyword">typedef</span> SparseDataType <a class="code" href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#acf1eaffc652521851d75ad1daa1ad41c">sparse_data_type</a>;</div>
+<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#a97919a3bd6c3fd57da4f6ba0bdf90441">   53</a></span>&#160;          <span class="keyword">typedef</span> <a class="code" href="classMR_1_1Image_1_1Sparse_1_1Voxel.html">Voxel</a> <a class="code" href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#a97919a3bd6c3fd57da4f6ba0bdf90441">voxel_type</a>;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
-<div class="line"><a name="l00058"></a><span class="lineno"><a class="line" href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#a69091e1d27f1c2bac7171466d70a9568">   58</a></span>&#160;          <a class="code" href="classMR_1_1Image_1_1Sparse_1_1Value.html">Sparse::Value&lt;Voxel&gt;</a> <a class="code" href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#a69091e1d27f1c2bac7171466d70a9568">value</a>() {</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="classMR_1_1Image_1_1Sparse_1_1Value.html">Sparse::Value&lt;Voxel&gt;</a> (*this);</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;          }</div>
+<div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#a69091e1d27f1c2bac7171466d70a9568">   57</a></span>&#160;          <a class="code" href="classMR_1_1Image_1_1Sparse_1_1Value.html">Sparse::Value&lt;Voxel&gt;</a> <a class="code" href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#a69091e1d27f1c2bac7171466d70a9568">value</a>() {</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="classMR_1_1Image_1_1Sparse_1_1Value.html">Sparse::Value&lt;Voxel&gt;</a> (*this);</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;          }</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
-<div class="line"><a name="l00063"></a><span class="lineno"><a class="line" href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#a28a7069279b4bbc85e430544fe0ea049">   63</a></span>&#160;          <span class="keyword">friend</span> std::ostream&amp; <a class="code" href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#a28a7069279b4bbc85e430544fe0ea049">operator&lt;&lt; </a>(std::ostream&amp; stream, <span class="keyword">const</span> <a class="code" href="classMR_1_1Image_1_1Sparse_1_1Voxel.html">Voxel</a>&amp; V) {</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;            stream &lt;&lt; <span class="stringliteral">&quot;sparse voxel for image \&quot;&quot;</span> &lt;&lt; V.name() &lt;&lt; <span class="stringliteral">&quot;\&quot;, position [ &quot;</span>;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> n = 0; n &lt; V.ndim(); ++n)</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;              stream &lt;&lt; V[n] &lt;&lt; <span class="stringliteral">&quot; &quot;</span>;</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;            stream &lt;&lt; <span class="stringliteral">&quot;], value = &quot;</span> &lt;&lt; V.value();</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;            <span class="keywordflow">return</span> stream;</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;          }</div>
+<div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#a28a7069279b4bbc85e430544fe0ea049">   62</a></span>&#160;          <span class="keyword">friend</span> std::ostream&amp; <a class="code" href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#a28a7069279b4bbc85e430544fe0ea049">operator&lt;&lt; </a>(std::ostream&amp; stream, <span class="keyword">const</span> <a class="code" href="classMR_1_1Image_1_1Sparse_1_1Voxel.html">Voxel</a>&amp; V) {</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            stream &lt;&lt; <span class="stringliteral">&quot;sparse voxel for image \&quot;&quot;</span> &lt;&lt; V.name() &lt;&lt; <span class="stringliteral">&quot;\&quot;, position [ &quot;</span>;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> n = 0; n &lt; V.ndim(); ++n)</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;              stream &lt;&lt; V[n] &lt;&lt; <span class="stringliteral">&quot; &quot;</span>;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            stream &lt;&lt; <span class="stringliteral">&quot;], value = &quot;</span> &lt;&lt; V.value();</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;            <span class="keywordflow">return</span> stream;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;          }</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00074"></a><span class="lineno"><a class="line" href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#a3788126cd05276624e39522d733f252d">   74</a></span>&#160;          <a class="code" href="classMR_1_1RefPtr.html">RefPtr&lt;Handler::Base&gt;</a> <a class="code" href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#a3788126cd05276624e39522d733f252d">handler_</a>;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
-<div class="line"><a name="l00076"></a><span class="lineno"><a class="line" href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#a9e65bbc2388f1f70d3fad8a3baa5e8f6">   76</a></span>&#160;          <a class="code" href="classMR_1_1Image_1_1Handler_1_1Sparse.html">Handler::Sparse</a>&amp; <a class="code" href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#a9e65bbc2388f1f70d3fad8a3baa5e8f6">get_handler</a>()</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;          {</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;            <a class="code" href="classMR_1_1Image_1_1Handler_1_1Base.html">Handler::Base</a>* ptr (handler_);</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;            <span class="keywordflow">return</span> *(<span class="keyword">dynamic_cast&lt;</span><a class="code" href="classMR_1_1Image_1_1Handler_1_1Sparse.html">Handler::Sparse</a>*<span class="keyword">&gt;</span> (ptr));</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;          }</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div>
-<div class="line"><a name="l00082"></a><span class="lineno"><a class="line" href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#ae6fa8ec3b15e4ea4978723d8a88b0a02">   82</a></span>&#160;          value_type <a class="code" href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#ae6fa8ec3b15e4ea4978723d8a88b0a02">value</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code" href="classMR_1_1Image_1_1Voxel.html">Image::Voxel&lt; Image::Buffer&lt;uint64_t&gt;</a> &gt;<a class="code" href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#a69091e1d27f1c2bac7171466d70a9568">::value</a>(); }</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div>
-<div class="line"><a name="l00084"></a><span class="lineno"><a class="line" href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#a279cd9e839316258c9a710a584bf58d0">   84</a></span>&#160;          <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="classMR_1_1Image_1_1Sparse_1_1Value.html">Sparse::Value</a>&lt;<a class="code" href="classMR_1_1Image_1_1Sparse_1_1Voxel.html">Voxel</a>&gt;;</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;      };</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00073"></a><span class="lineno"><a class="line" href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#af8989eb1cf73f2803e88b17e4f2b3605">   73</a></span>&#160;          std::shared_ptr&lt;Handler::Base&gt; <a class="code" href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#af8989eb1cf73f2803e88b17e4f2b3605">handler_</a>;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
+<div class="line"><a name="l00075"></a><span class="lineno"><a class="line" href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#a9e65bbc2388f1f70d3fad8a3baa5e8f6">   75</a></span>&#160;          <a class="code" href="classMR_1_1Image_1_1Handler_1_1Sparse.html">Handler::Sparse</a>&amp; <a class="code" href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#a9e65bbc2388f1f70d3fad8a3baa5e8f6">get_handler</a>()</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;          {</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;            <a class="code" href="classMR_1_1Image_1_1Handler_1_1Base.html">Handler::Base</a>* ptr (handler_.get());</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;            <span class="keywordflow">return</span> *(<span class="keyword">dynamic_cast&lt;</span><a class="code" href="classMR_1_1Image_1_1Handler_1_1Sparse.html">Handler::Sparse</a>*<span class="keyword">&gt;</span> (ptr));</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;          }</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
+<div class="line"><a name="l00081"></a><span class="lineno"><a class="line" href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#ae6fa8ec3b15e4ea4978723d8a88b0a02">   81</a></span>&#160;          value_type <a class="code" href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#ae6fa8ec3b15e4ea4978723d8a88b0a02">value</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code" href="classMR_1_1Image_1_1Voxel.html">Image::Voxel&lt; Image::Buffer&lt;uint64_t&gt;</a> &gt;<a class="code" href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#a69091e1d27f1c2bac7171466d70a9568">::value</a>(); }</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div>
+<div class="line"><a name="l00083"></a><span class="lineno"><a class="line" href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#a279cd9e839316258c9a710a584bf58d0">   83</a></span>&#160;          <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="classMR_1_1Image_1_1Sparse_1_1Value.html">Sparse::Value</a>&lt;<a class="code" href="classMR_1_1Image_1_1Sparse_1_1Voxel.html">Voxel</a>&gt;;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;      };</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    }</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;  }</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;}</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    }</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;  }</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;}</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;</div>
-<div class="ttc" id="classMR_1_1Image_1_1Sparse_1_1Voxel_html_acffc226217e4bffbd5b5e80642aa1a7d"><div class="ttname"><a href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#acffc226217e4bffbd5b5e80642aa1a7d">MR::Image::Sparse::Voxel::Voxel</a></div><div class="ttdeci">Voxel(BufferSparse&lt; SparseDataType &gt; &amp;array)</div><div class="ttdef"><b>Definition:</b> <a href="lib_2image_2sparse_2voxel_8h_source.html#l00047">voxel.h:47</a></div></div>
+<div class="ttc" id="classMR_1_1Image_1_1Sparse_1_1Voxel_html_acffc226217e4bffbd5b5e80642aa1a7d"><div class="ttname"><a href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#acffc226217e4bffbd5b5e80642aa1a7d">MR::Image::Sparse::Voxel::Voxel</a></div><div class="ttdeci">Voxel(BufferSparse&lt; SparseDataType &gt; &amp;array)</div><div class="ttdef"><b>Definition:</b> <a href="lib_2image_2sparse_2voxel_8h_source.html#l00046">voxel.h:46</a></div></div>
 <div class="ttc" id="namespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> <a href="app_8h_source.html#l00036">app.h:36</a></div></div>
 <div class="ttc" id="buffer__sparse_8h_html"><div class="ttname"><a href="buffer__sparse_8h.html">buffer_sparse.h</a></div></div>
-<div class="ttc" id="classMR_1_1Image_1_1Sparse_1_1Voxel_html_a3788126cd05276624e39522d733f252d"><div class="ttname"><a href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#a3788126cd05276624e39522d733f252d">MR::Image::Sparse::Voxel::handler_</a></div><div class="ttdeci">RefPtr&lt; Handler::Base &gt; handler_</div><div class="ttdef"><b>Definition:</b> <a href="lib_2image_2sparse_2voxel_8h_source.html#l00074">voxel.h:74</a></div></div>
-<div class="ttc" id="ptr_8h_html"><div class="ttname"><a href="ptr_8h.html">ptr.h</a></div></div>
 <div class="ttc" id="classMR_1_1Image_1_1Sparse_1_1Voxel_html"><div class="ttname"><a href="classMR_1_1Image_1_1Sparse_1_1Voxel.html">MR::Image::Sparse::Voxel</a></div><div class="ttdef"><b>Definition:</b> <a href="buffer__sparse_8h_source.html#l00042">buffer_sparse.h:42</a></div></div>
 <div class="ttc" id="classMR_1_1Image_1_1Buffer_html"><div class="ttname"><a href="classMR_1_1Image_1_1Buffer.html">MR::Image::Buffer</a></div><div class="ttdef"><b>Definition:</b> <a href="buffer_8h_source.html#l00142">buffer.h:142</a></div></div>
-<div class="ttc" id="classMR_1_1Image_1_1Sparse_1_1Voxel_html_a97919a3bd6c3fd57da4f6ba0bdf90441"><div class="ttname"><a href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#a97919a3bd6c3fd57da4f6ba0bdf90441">MR::Image::Sparse::Voxel::voxel_type</a></div><div class="ttdeci">Voxel voxel_type</div><div class="ttdef"><b>Definition:</b> <a href="lib_2image_2sparse_2voxel_8h_source.html#l00054">voxel.h:54</a></div></div>
+<div class="ttc" id="classMR_1_1Image_1_1Sparse_1_1Voxel_html_a97919a3bd6c3fd57da4f6ba0bdf90441"><div class="ttname"><a href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#a97919a3bd6c3fd57da4f6ba0bdf90441">MR::Image::Sparse::Voxel::voxel_type</a></div><div class="ttdeci">Voxel voxel_type</div><div class="ttdef"><b>Definition:</b> <a href="lib_2image_2sparse_2voxel_8h_source.html#l00053">voxel.h:53</a></div></div>
 <div class="ttc" id="classMR_1_1Image_1_1Handler_1_1Sparse_html"><div class="ttname"><a href="classMR_1_1Image_1_1Handler_1_1Sparse.html">MR::Image::Handler::Sparse</a></div><div class="ttdef"><b>Definition:</b> <a href="sparse_8h_source.html#l00076">sparse.h:76</a></div></div>
 <div class="ttc" id="sparse_2value_8h_html"><div class="ttname"><a href="sparse_2value_8h.html">value.h</a></div></div>
-<div class="ttc" id="classMR_1_1Image_1_1Sparse_1_1Voxel_html_acf1eaffc652521851d75ad1daa1ad41c"><div class="ttname"><a href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#acf1eaffc652521851d75ad1daa1ad41c">MR::Image::Sparse::Voxel::sparse_data_type</a></div><div class="ttdeci">SparseDataType sparse_data_type</div><div class="ttdef"><b>Definition:</b> <a href="lib_2image_2sparse_2voxel_8h_source.html#l00053">voxel.h:53</a></div></div>
+<div class="ttc" id="classMR_1_1Image_1_1Sparse_1_1Voxel_html_acf1eaffc652521851d75ad1daa1ad41c"><div class="ttname"><a href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#acf1eaffc652521851d75ad1daa1ad41c">MR::Image::Sparse::Voxel::sparse_data_type</a></div><div class="ttdeci">SparseDataType sparse_data_type</div><div class="ttdef"><b>Definition:</b> <a href="lib_2image_2sparse_2voxel_8h_source.html#l00052">voxel.h:52</a></div></div>
 <div class="ttc" id="classMR_1_1Image_1_1Handler_1_1Base_html"><div class="ttname"><a href="classMR_1_1Image_1_1Handler_1_1Base.html">MR::Image::Handler::Base</a></div><div class="ttdef"><b>Definition:</b> <a href="lib_2image_2handler_2base_8h_source.html#l00052">base.h:52</a></div></div>
-<div class="ttc" id="classMR_1_1Image_1_1Sparse_1_1Voxel_html_a28a7069279b4bbc85e430544fe0ea049"><div class="ttname"><a href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#a28a7069279b4bbc85e430544fe0ea049">MR::Image::Sparse::Voxel::operator&lt;&lt;</a></div><div class="ttdeci">friend std::ostream &amp; operator&lt;&lt;(std::ostream &amp;stream, const Voxel &amp;V)</div><div class="ttdef"><b>Definition:</b> <a href="lib_2image_2sparse_2voxel_8h_source.html#l00063">voxel.h:63</a></div></div>
-<div class="ttc" id="classMR_1_1RefPtr_html"><div class="ttname"><a href="classMR_1_1RefPtr.html">MR::RefPtr&lt; Handler::Base &gt;</a></div></div>
-<div class="ttc" id="classMR_1_1Image_1_1Sparse_1_1Voxel_html_a9e65bbc2388f1f70d3fad8a3baa5e8f6"><div class="ttname"><a href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#a9e65bbc2388f1f70d3fad8a3baa5e8f6">MR::Image::Sparse::Voxel::get_handler</a></div><div class="ttdeci">Handler::Sparse &amp; get_handler()</div><div class="ttdef"><b>Definition:</b> <a href="lib_2image_2sparse_2voxel_8h_source.html#l00076">voxel.h:76</a></div></div>
+<div class="ttc" id="classMR_1_1Image_1_1Sparse_1_1Voxel_html_a28a7069279b4bbc85e430544fe0ea049"><div class="ttname"><a href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#a28a7069279b4bbc85e430544fe0ea049">MR::Image::Sparse::Voxel::operator&lt;&lt;</a></div><div class="ttdeci">friend std::ostream &amp; operator&lt;&lt;(std::ostream &amp;stream, const Voxel &amp;V)</div><div class="ttdef"><b>Definition:</b> <a href="lib_2image_2sparse_2voxel_8h_source.html#l00062">voxel.h:62</a></div></div>
+<div class="ttc" id="classMR_1_1Image_1_1Sparse_1_1Voxel_html_af8989eb1cf73f2803e88b17e4f2b3605"><div class="ttname"><a href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#af8989eb1cf73f2803e88b17e4f2b3605">MR::Image::Sparse::Voxel::handler_</a></div><div class="ttdeci">std::shared_ptr&lt; Handler::Base &gt; handler_</div><div class="ttdef"><b>Definition:</b> <a href="lib_2image_2sparse_2voxel_8h_source.html#l00073">voxel.h:73</a></div></div>
+<div class="ttc" id="classMR_1_1Image_1_1Sparse_1_1Voxel_html_a9e65bbc2388f1f70d3fad8a3baa5e8f6"><div class="ttname"><a href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#a9e65bbc2388f1f70d3fad8a3baa5e8f6">MR::Image::Sparse::Voxel::get_handler</a></div><div class="ttdeci">Handler::Sparse &amp; get_handler()</div><div class="ttdef"><b>Definition:</b> <a href="lib_2image_2sparse_2voxel_8h_source.html#l00075">voxel.h:75</a></div></div>
 <div class="ttc" id="lib_2image_2handler_2base_8h_html"><div class="ttname"><a href="lib_2image_2handler_2base_8h.html">base.h</a></div></div>
 <div class="ttc" id="classMR_1_1Image_1_1BufferSparse_html"><div class="ttname"><a href="classMR_1_1Image_1_1BufferSparse.html">MR::Image::BufferSparse</a></div><div class="ttdef"><b>Definition:</b> <a href="buffer__sparse_8h_source.html#l00053">buffer_sparse.h:53</a></div></div>
 <div class="ttc" id="buffer_8h_html"><div class="ttname"><a href="buffer_8h.html">buffer.h</a></div></div>
 <div class="ttc" id="classMR_1_1Image_1_1Sparse_1_1Value_html"><div class="ttname"><a href="classMR_1_1Image_1_1Sparse_1_1Value.html">MR::Image::Sparse::Value</a></div><div class="ttdef"><b>Definition:</b> <a href="sparse_2value_8h_source.html#l00044">value.h:44</a></div></div>
-<div class="ttc" id="classMR_1_1Image_1_1Sparse_1_1Voxel_html_ae6fa8ec3b15e4ea4978723d8a88b0a02"><div class="ttname"><a href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#ae6fa8ec3b15e4ea4978723d8a88b0a02">MR::Image::Sparse::Voxel::value</a></div><div class="ttdeci">value_type value() const </div><div class="ttdef"><b>Definition:</b> <a href="lib_2image_2sparse_2voxel_8h_source.html#l00082">voxel.h:82</a></div></div>
-<div class="ttc" id="classMR_1_1Image_1_1Sparse_1_1Voxel_html_a9bd6593fadb2c8a53e36e32183f92c8c"><div class="ttname"><a href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#a9bd6593fadb2c8a53e36e32183f92c8c">MR::Image::Sparse::Voxel::value_type</a></div><div class="ttdeci">uint64_t value_type</div><div class="ttdef"><b>Definition:</b> <a href="lib_2image_2sparse_2voxel_8h_source.html#l00052">voxel.h:52</a></div></div>
+<div class="ttc" id="classMR_1_1Image_1_1Sparse_1_1Voxel_html_ae6fa8ec3b15e4ea4978723d8a88b0a02"><div class="ttname"><a href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#ae6fa8ec3b15e4ea4978723d8a88b0a02">MR::Image::Sparse::Voxel::value</a></div><div class="ttdeci">value_type value() const </div><div class="ttdef"><b>Definition:</b> <a href="lib_2image_2sparse_2voxel_8h_source.html#l00081">voxel.h:81</a></div></div>
+<div class="ttc" id="classMR_1_1Image_1_1Sparse_1_1Voxel_html_a9bd6593fadb2c8a53e36e32183f92c8c"><div class="ttname"><a href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#a9bd6593fadb2c8a53e36e32183f92c8c">MR::Image::Sparse::Voxel::value_type</a></div><div class="ttdeci">uint64_t value_type</div><div class="ttdef"><b>Definition:</b> <a href="lib_2image_2sparse_2voxel_8h_source.html#l00051">voxel.h:51</a></div></div>
 <div class="ttc" id="lib_2image_2voxel_8h_html"><div class="ttname"><a href="lib_2image_2voxel_8h.html">voxel.h</a></div></div>
 <div class="ttc" id="classMR_1_1Image_1_1Voxel_html"><div class="ttname"><a href="classMR_1_1Image_1_1Voxel.html">MR::Image::Voxel</a></div><div class="ttdef"><b>Definition:</b> <a href="lib_2image_2voxel_8h_source.html#l00042">voxel.h:42</a></div></div>
-<div class="ttc" id="classMR_1_1Image_1_1Sparse_1_1Voxel_html_a69091e1d27f1c2bac7171466d70a9568"><div class="ttname"><a href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#a69091e1d27f1c2bac7171466d70a9568">MR::Image::Sparse::Voxel::value</a></div><div class="ttdeci">Sparse::Value&lt; Voxel &gt; value()</div><div class="ttdef"><b>Definition:</b> <a href="lib_2image_2sparse_2voxel_8h_source.html#l00058">voxel.h:58</a></div></div>
+<div class="ttc" id="classMR_1_1Image_1_1Sparse_1_1Voxel_html_a69091e1d27f1c2bac7171466d70a9568"><div class="ttname"><a href="classMR_1_1Image_1_1Sparse_1_1Voxel.html#a69091e1d27f1c2bac7171466d70a9568">MR::Image::Sparse::Voxel::value</a></div><div class="ttdeci">Sparse::Value&lt; Voxel &gt; value()</div><div class="ttdef"><b>Definition:</b> <a href="lib_2image_2sparse_2voxel_8h_source.html#l00057">voxel.h:57</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_b6efcb2e320fb2ab4af542efc2d3a1ed.html">lib</a></li><li class="navelem"><a class="el" href="dir_a92aeb402a71a6c2d932bc55b03bb554.html">image</a></li><li class="navelem"><a class="el" href="dir_31c097fad619191d52db542103830774.html">sparse</a></li><li class="navelem"><a class="el" href="lib_2image_2sparse_2voxel_8h.html">voxel.h</a></li>
-    <li class="footer">Generated on Wed Apr 1 2015 14:53:43 for MRtrix by
+    <li class="navelem"><a class="el" href="dir_d04b53703454d06826407a3fa8e7e294.html">lib</a></li><li class="navelem"><a class="el" href="dir_3bc6d3089672ebb90f7fa9b6ba0d7cc5.html">image</a></li><li class="navelem"><a class="el" href="dir_61d7e7116ca632885072ea4cbbd9a5c3.html">sparse</a></li><li class="navelem"><a class="el" href="lib_2image_2sparse_2voxel_8h.html">voxel.h</a></li>
+    <li class="footer">Generated on Mon Apr 27 2015 17:39:23 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

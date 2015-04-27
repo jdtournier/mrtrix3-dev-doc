@@ -14,7 +14,7 @@ var classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base =
     [ "mouse_move_event", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html#a7843f01bd0c637577fcefd277f08657c", null ],
     [ "mouse_press_event", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html#a9a3905b95b739146782bb295f6055ee2", null ],
     [ "mouse_release_event", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html#a9e51c9ef4dc521a5a45a3c3806099b43", null ],
-    [ "process_batch_command", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html#a13bbbbac23c94a715e6bd7e2a7cf951e", null ],
+    [ "process_commandline_option", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html#a661490668c7ff17f8b83a94e7f407c8a", null ],
     [ "release_focus", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html#a434513090be96b9ebda6eb67afd75109", null ],
     [ "sizeHint", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html#acf4244e2a98b1ea53f8b500e0d71e8e3", null ],
     [ "update_cursor", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html#a49a6bc01fae5286d83e7e12a054a2270", null ],

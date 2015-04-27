@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['v',['V',['../classMR_1_1File_1_1KeyValue.html#a3cd704e71a191bd3246e1d8451f664ba',1,'MR::File::KeyValue::V()'],['../classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1Tensor__Det.html#aac7f8e0cbdcfb8b6e59f7cd1d282926c',1,'MR::DWI::Tractography::Algorithms::Tensor_Det::V()'],['../classMR_1_1GUI_1_1GL_1_1vec4.html#a554ecf36168a7f4698df0e30fc7e75e0',1,'MR::GUI::GL::vec4::v()']]],
+  ['v',['v',['../classMR_1_1GUI_1_1GL_1_1vec4.html#a554ecf36168a7f4698df0e30fc7e75e0',1,'MR::GUI::GL::vec4::v()'],['../classMR_1_1File_1_1KeyValue.html#a3cd704e71a191bd3246e1d8451f664ba',1,'MR::File::KeyValue::V()'],['../classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1Tensor__Det.html#aac7f8e0cbdcfb8b6e59f7cd1d282926c',1,'MR::DWI::Tractography::Algorithms::Tensor_Det::V()']]],
   ['v2s',['V2S',['../classMR_1_1Image_1_1Transform.html#a5312ec55a400408adfb2d45c65a91e68',1,'MR::Image::Transform']]],
-  ['v_5fcounts',['v_counts',['../classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1MapWriterBase.html#abf124a87d12e095c45a827ae08c775cf',1,'MR::DWI::Tractography::Mapping::MapWriterBase']]],
+  ['v_5fcounts',['v_counts',['../classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1MapWriterBase.html#a0a61782f6f6bd2556a1f8c15c51df50b',1,'MR::DWI::Tractography::Mapping::MapWriterBase']]],
   ['val_5faxis',['val_axis',['../classMR_1_1Image_1_1MatrixMultiply.html#a4a083b8edd04d3b4f09baca4d426e837',1,'MR::Image::MatrixMultiply']]],
   ['val_5floop',['val_loop',['../classMR_1_1Image_1_1MatrixMultiply.html#ad6ee7007bcb6f76b649dcf707a2eabc8',1,'MR::Image::MatrixMultiply']]],
   ['validateprogram',['ValidateProgram',['../namespacegl.html#abef89e2892a97a880773da74f0c0f5e8',1,'gl']]],
@@ -95,10 +95,10 @@ var searchData=
   ['volumes',['volumes',['../classMR_1_1DWI_1_1Shell.html#ab212e7afee93c42bce056a8b79d334df',1,'MR::DWI::Shell']]],
   ['vox',['vox',['../classMR_1_1Image_1_1Axis.html#ab3ab08586dd604ded80dc54ec0dea2ec',1,'MR::Image::Axis::vox()'],['../group__Filters.html#ga197fb81890adb9e5dc0a99c5443320c6',1,'MR::Image::Filter::FFT::FFTKernel::vox()'],['../classMR_1_1DWI_1_1FMLS_1_1FOD__lobes.html#a29a4ed809ae4997702b011e0b7d9512c',1,'MR::DWI::FMLS::FOD_lobes::vox()'],['../classMR_1_1DWI_1_1FMLS_1_1SH__coefs.html#a10eea813eedd82e86ffdd7a5e38e47dd',1,'MR::DWI::FMLS::SH_coefs::vox()'],['../threaded__loop_8h.html#a05aca706865d3eef120969cec8b67c93',1,'vox():&#160;threaded_loop.h']]],
   ['voxel',['voxel',['../classMR_1_1DWI_1_1Tractography_1_1ACT_1_1ACT__Shared__additions.html#ae583a46461dee3b87b076873960edde1',1,'MR::DWI::Tractography::ACT::ACT_Shared_additions::voxel()'],['../classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TWIImagePluginBase.html#a952913a5c81a1046526aa488540f3f09',1,'MR::DWI::Tractography::Mapping::TWIImagePluginBase::voxel()']]],
-  ['voxel_5fbuffer',['voxel_buffer',['../classMR_1_1DWI_1_1Bootstrap.html#a19e9f85900439206bdd9a665d9e5b691',1,'MR::DWI::Bootstrap']]],
+  ['voxel_5fbuffer',['voxel_buffer',['../classMR_1_1DWI_1_1Bootstrap.html#a73ba635d9c1f45842c60c9118ec5b662',1,'MR::DWI::Bootstrap']]],
   ['voxel_5fstatistic',['voxel_statistic',['../classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1MapWriterBase.html#aab34c550426f0b3a166997ef517daa2f',1,'MR::DWI::Tractography::Mapping::MapWriterBase']]],
   ['voxel_5fstatistics',['voxel_statistics',['../namespaceMR_1_1DWI_1_1Tractography_1_1Mapping.html#a1bc27cc64ba468710dc6d893b026e7c7',1,'MR::DWI::Tractography::Mapping']]],
   ['voxels',['voxels',['../classMR_1_1DWI_1_1Bootstrap.html#a7d3d0d71081817b13a759d5a159ac8f8',1,'MR::DWI::Bootstrap']]],
   ['voxelsize',['voxelsize',['../classMR_1_1Image_1_1Transform.html#a3ce1302dfe9f081ab008959b08acb045',1,'MR::Image::Transform']]],
-  ['vr',['VR',['../classMR_1_1File_1_1Dicom_1_1Element.html#a13740d6f2c5a67940448889058302c08',1,'MR::File::Dicom::Element::VR()'],['../classMR_1_1File_1_1Dicom_1_1CSAEntry.html#a0817613b4dd1ef5f9deca03c93cf19e1',1,'MR::File::Dicom::CSAEntry::vr()']]]
+  ['vr',['vr',['../classMR_1_1File_1_1Dicom_1_1CSAEntry.html#a0817613b4dd1ef5f9deca03c93cf19e1',1,'MR::File::Dicom::CSAEntry::vr()'],['../classMR_1_1File_1_1Dicom_1_1Element.html#a13740d6f2c5a67940448889058302c08',1,'MR::File::Dicom::Element::VR()']]]
 ];

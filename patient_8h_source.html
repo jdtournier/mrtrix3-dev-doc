@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">MRtrix
-   &#160;<span id="projectnumber">0.3.12-304-g9979917d</span>
+   &#160;<span id="projectnumber">0.3.12-365-ged27dfbe</span>
    </div>
    <div id="projectbrief">MRtrix provides a set of tools to perform diffusion-weighted MR white-matter tractography in a manner robust to crossing fibres, using constrained spherical deconvolution (CSD) and probabilistic streamlines.</div>
   </td>
@@ -136,7 +136,7 @@ $(document).ready(function(){initNavTree('patient_8h_source.html','');});
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#ifndef __file_dicom_patient_h__</span></div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#define __file_dicom_patient_h__</span></div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="ptr_8h.html">ptr.h</a>&quot;</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="memory_8h.html">memory.h</a>&quot;</span></div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="study_8h.html">file/dicom/study.h</a>&quot;</span></div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceMR.html">MR</a> {</div>
@@ -145,14 +145,14 @@ $(document).ready(function(){initNavTree('patient_8h_source.html','');});
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;      <span class="keyword">class </span>Study;</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
-<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="classMR_1_1File_1_1Dicom_1_1Patient.html">   35</a></span>&#160;      <span class="keyword">class </span><a class="code" href="classMR_1_1File_1_1Dicom_1_1Patient.html">Patient</a> : <span class="keyword">public</span> std::vector&lt; RefPtr&lt;Study&gt; &gt; {</div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="classMR_1_1File_1_1Dicom_1_1Patient.html">   35</a></span>&#160;      <span class="keyword">class </span><a class="code" href="classMR_1_1File_1_1Dicom_1_1Patient.html">Patient</a> : <span class="keyword">public</span> std::vector&lt;std::shared_ptr&lt;Study&gt;&gt; {</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="classMR_1_1File_1_1Dicom_1_1Patient.html#a927cb8b6577ab70cb6f0fedc25ec82a6">   37</a></span>&#160;          <a class="code" href="classMR_1_1File_1_1Dicom_1_1Patient.html#a927cb8b6577ab70cb6f0fedc25ec82a6">Patient</a> (<span class="keyword">const</span> std::string&amp; patient_name, <span class="keyword">const</span> std::string&amp; patient_ID = <span class="stringliteral">&quot;&quot;</span>, </div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;              <span class="keyword">const</span> std::string&amp; patient_DOB = <span class="stringliteral">&quot;&quot;</span>) :</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            <a class="code" href="classMR_1_1File_1_1Dicom_1_1Patient.html#a73375cd1acb9e59417fb8fbefdb8fed6">name</a> (patient_name), <a class="code" href="classMR_1_1File_1_1Dicom_1_1Patient.html#af030fedce17e81b5829c53dbf65264e6">ID</a> (patient_ID), <a class="code" href="classMR_1_1File_1_1Dicom_1_1Patient.html#ac36fa284a2439be1f59f7feb3c6621f5">DOB</a> (patient_DOB) { }</div>
 <div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="classMR_1_1File_1_1Dicom_1_1Patient.html#a73375cd1acb9e59417fb8fbefdb8fed6">   40</a></span>&#160;          std::string <a class="code" href="classMR_1_1File_1_1Dicom_1_1Patient.html#a73375cd1acb9e59417fb8fbefdb8fed6">name</a>, <a class="code" href="classMR_1_1File_1_1Dicom_1_1Patient.html#af030fedce17e81b5829c53dbf65264e6">ID</a>, <a class="code" href="classMR_1_1File_1_1Dicom_1_1Patient.html#ac36fa284a2439be1f59f7feb3c6621f5">DOB</a>;</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;          <a class="code" href="classMR_1_1RefPtr.html">RefPtr&lt;Study&gt;</a> <a class="code" href="classMR_1_1File_1_1Dicom_1_1Patient.html#a503b99103d18bdb4d566c764c83c6f19">find</a> (<span class="keyword">const</span> std::string&amp; study_name, <span class="keyword">const</span> std::string&amp; study_ID = <span class="stringliteral">&quot;&quot;</span>, </div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;          std::shared_ptr&lt;Study&gt; <a class="code" href="classMR_1_1File_1_1Dicom_1_1Patient.html#ada75e95bce55b49abebbccc7d1af529a">find</a> (<span class="keyword">const</span> std::string&amp; study_name, <span class="keyword">const</span> std::string&amp; study_ID = <span class="stringliteral">&quot;&quot;</span>, </div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;              <span class="keyword">const</span> std::string&amp; study_date = <span class="stringliteral">&quot;&quot;</span>, <span class="keyword">const</span> std::string&amp; study_time = <span class="stringliteral">&quot;&quot;</span>);</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;      };</div>
@@ -172,22 +172,21 @@ $(document).ready(function(){initNavTree('patient_8h_source.html','');});
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
 <div class="ttc" id="classMR_1_1File_1_1Dicom_1_1Patient_html"><div class="ttname"><a href="classMR_1_1File_1_1Dicom_1_1Patient.html">MR::File::Dicom::Patient</a></div><div class="ttdef"><b>Definition:</b> <a href="patient_8h_source.html#l00035">patient.h:35</a></div></div>
 <div class="ttc" id="classMR_1_1File_1_1Dicom_1_1Patient_html_af030fedce17e81b5829c53dbf65264e6"><div class="ttname"><a href="classMR_1_1File_1_1Dicom_1_1Patient.html#af030fedce17e81b5829c53dbf65264e6">MR::File::Dicom::Patient::ID</a></div><div class="ttdeci">std::string ID</div><div class="ttdef"><b>Definition:</b> <a href="patient_8h_source.html#l00040">patient.h:40</a></div></div>
+<div class="ttc" id="memory_8h_html"><div class="ttname"><a href="memory_8h.html">memory.h</a></div></div>
 <div class="ttc" id="namespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> <a href="app_8h_source.html#l00036">app.h:36</a></div></div>
-<div class="ttc" id="ptr_8h_html"><div class="ttname"><a href="ptr_8h.html">ptr.h</a></div></div>
 <div class="ttc" id="study_8h_html"><div class="ttname"><a href="study_8h.html">study.h</a></div></div>
 <div class="ttc" id="classMR_1_1File_1_1Dicom_1_1Patient_html_a73375cd1acb9e59417fb8fbefdb8fed6"><div class="ttname"><a href="classMR_1_1File_1_1Dicom_1_1Patient.html#a73375cd1acb9e59417fb8fbefdb8fed6">MR::File::Dicom::Patient::name</a></div><div class="ttdeci">std::string name</div><div class="ttdef"><b>Definition:</b> <a href="patient_8h_source.html#l00040">patient.h:40</a></div></div>
 <div class="ttc" id="classMR_1_1File_1_1Dicom_1_1Patient_html_ac36fa284a2439be1f59f7feb3c6621f5"><div class="ttname"><a href="classMR_1_1File_1_1Dicom_1_1Patient.html#ac36fa284a2439be1f59f7feb3c6621f5">MR::File::Dicom::Patient::DOB</a></div><div class="ttdeci">std::string DOB</div><div class="ttdef"><b>Definition:</b> <a href="patient_8h_source.html#l00040">patient.h:40</a></div></div>
-<div class="ttc" id="classMR_1_1RefPtr_html"><div class="ttname"><a href="classMR_1_1RefPtr.html">MR::RefPtr</a></div><div class="ttdoc">A shared reference-counting smart pointer implementation. </div><div class="ttdef"><b>Definition:</b> <a href="ptr_8h_source.html#l00050">ptr.h:50</a></div></div>
+<div class="ttc" id="classMR_1_1File_1_1Dicom_1_1Patient_html_ada75e95bce55b49abebbccc7d1af529a"><div class="ttname"><a href="classMR_1_1File_1_1Dicom_1_1Patient.html#ada75e95bce55b49abebbccc7d1af529a">MR::File::Dicom::Patient::find</a></div><div class="ttdeci">std::shared_ptr&lt; Study &gt; find(const std::string &amp;study_name, const std::string &amp;study_ID=&quot;&quot;, const std::string &amp;study_date=&quot;&quot;, const std::string &amp;study_time=&quot;&quot;)</div></div>
 <div class="ttc" id="namespaceMR_1_1File_1_1Dicom_html_a55707cbc65ea17ec8ee5dc2100776f8d"><div class="ttname"><a href="namespaceMR_1_1File_1_1Dicom.html#a55707cbc65ea17ec8ee5dc2100776f8d">MR::File::Dicom::operator&lt;&lt;</a></div><div class="ttdeci">std::ostream &amp; operator&lt;&lt;(std::ostream &amp;stream, const Patient &amp;item)</div></div>
 <div class="ttc" id="classMR_1_1File_1_1Dicom_1_1Patient_html_a927cb8b6577ab70cb6f0fedc25ec82a6"><div class="ttname"><a href="classMR_1_1File_1_1Dicom_1_1Patient.html#a927cb8b6577ab70cb6f0fedc25ec82a6">MR::File::Dicom::Patient::Patient</a></div><div class="ttdeci">Patient(const std::string &amp;patient_name, const std::string &amp;patient_ID=&quot;&quot;, const std::string &amp;patient_DOB=&quot;&quot;)</div><div class="ttdef"><b>Definition:</b> <a href="patient_8h_source.html#l00037">patient.h:37</a></div></div>
-<div class="ttc" id="classMR_1_1File_1_1Dicom_1_1Patient_html_a503b99103d18bdb4d566c764c83c6f19"><div class="ttname"><a href="classMR_1_1File_1_1Dicom_1_1Patient.html#a503b99103d18bdb4d566c764c83c6f19">MR::File::Dicom::Patient::find</a></div><div class="ttdeci">RefPtr&lt; Study &gt; find(const std::string &amp;study_name, const std::string &amp;study_ID=&quot;&quot;, const std::string &amp;study_date=&quot;&quot;, const std::string &amp;study_time=&quot;&quot;)</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_b6efcb2e320fb2ab4af542efc2d3a1ed.html">lib</a></li><li class="navelem"><a class="el" href="dir_da0e1575e50f2bacdaa5e4e1afc712a3.html">file</a></li><li class="navelem"><a class="el" href="dir_af9174db81827e9248b34b3fda471be8.html">dicom</a></li><li class="navelem"><a class="el" href="patient_8h.html">patient.h</a></li>
-    <li class="footer">Generated on Wed Apr 1 2015 14:53:43 for MRtrix by
+    <li class="navelem"><a class="el" href="dir_d04b53703454d06826407a3fa8e7e294.html">lib</a></li><li class="navelem"><a class="el" href="dir_9179b2b98799a742af202731af3f7013.html">file</a></li><li class="navelem"><a class="el" href="dir_f34d2d80da151278622e88059823f265.html">dicom</a></li><li class="navelem"><a class="el" href="patient_8h.html">patient.h</a></li>
+    <li class="footer">Generated on Mon Apr 27 2015 17:39:23 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

@@ -2,7 +2,7 @@ var classMR_1_1GUI_1_1MRView_1_1Window =
 [
     [ "Window", "classMR_1_1GUI_1_1MRView_1_1Window.html#a7009365c141f07c2a59bf55c1d48b21c", null ],
     [ "~Window", "classMR_1_1GUI_1_1MRView_1_1Window.html#a1547cc32f2c75253bc652a051783a4c0", null ],
-    [ "add_images", "classMR_1_1GUI_1_1MRView_1_1Window.html#a6bf7057746ac8967bc38670af5b91977", null ],
+    [ "add_images", "classMR_1_1GUI_1_1MRView_1_1Window.html#ab9ad5522961dfa15ac9fa728c0da6ce6", null ],
     [ "captureGL", "classMR_1_1GUI_1_1MRView_1_1Window.html#acb0110380cbab7010640d4183245b01c", null ],
     [ "fieldOfViewChanged", "classMR_1_1GUI_1_1MRView_1_1Window.html#ac67fbe206d7d1b0413f91cc193c77e20", null ],
     [ "focus", "classMR_1_1GUI_1_1MRView_1_1Window.html#a1b6784e5f91b1e515dece4b653a07be8", null ],

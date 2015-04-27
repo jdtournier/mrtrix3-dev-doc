@@ -23,7 +23,6 @@ var hierarchy =
     [ "MR::DWI::Tractography::ACT::ACT_Shared_additions", "classMR_1_1DWI_1_1Tractography_1_1ACT_1_1ACT__Shared__additions.html", null ],
     [ "MR::GUI::App", "classMR_1_1GUI_1_1App.html", null ],
     [ "MR::Math::SH::aPSF< ValueType >", "classMR_1_1Math_1_1SH_1_1aPSF.html", null ],
-    [ "MR::Math::SH::aPSF< float >", "classMR_1_1Math_1_1SH_1_1aPSF.html", null ],
     [ "MR::App::Argument", "classMR_1_1App_1_1Argument.html", null ],
     [ "MR::Image::Axis", "classMR_1_1Image_1_1Axis.html", null ],
     [ "MR::DWI::Tractography::Seeding::Base", "classMR_1_1DWI_1_1Tractography_1_1Seeding_1_1Base.html", [
@@ -69,6 +68,7 @@ var hierarchy =
       [ "MR::GUI::MRView::Tool::Vector", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Vector.html", null ],
       [ "MR::GUI::MRView::Window", "classMR_1_1GUI_1_1MRView_1_1Window.html", null ]
     ] ],
+    [ "MR::compare_ptr_contents", "structMR_1_1compare__ptr__contents.html", null ],
     [ "MR::File::Config", "classMR_1_1File_1_1Config.html", null ],
     [ "MR::Stats::CFE::connectivity", "classMR_1_1Stats_1_1CFE_1_1connectivity.html", null ],
     [ "MR::DWI::Tractography::Connectomics::Connectome", "classMR_1_1DWI_1_1Tractography_1_1Connectomics_1_1Connectome.html", null ],
@@ -276,6 +276,9 @@ var hierarchy =
     [ "MR::GUI::MRView::Mode::ModeGuiVisitor", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1ModeGuiVisitor.html", [
       [ "MR::GUI::MRView::Tool::View", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1View.html", null ]
     ] ],
+    [ "mt19937", null, [
+      [ "MR::Math::RNG", "classMR_1_1Math_1_1RNG.html", null ]
+    ] ],
     [ "MR::DWI::Tractography::SIFT::MT_gradient_vector_sorter", "classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1MT__gradient__vector__sorter.html", null ],
     [ "MR::Image::NameParser", "classMR_1_1Image_1_1NameParser.html", null ],
     [ "MR::DWI::Tractography::Connectomics::Node_info", "classMR_1_1DWI_1_1Tractography_1_1Connectomics_1_1Node__info.html", null ],
@@ -283,6 +286,7 @@ var hierarchy =
     [ "MR::DWI::Tractography::Connectomics::NodeExtractWriter", "classMR_1_1DWI_1_1Tractography_1_1Connectomics_1_1NodeExtractWriter.html", null ],
     [ "MR::DWI::Tractography::Connectomics::NodeExtractWriter::NodeSelector", "classMR_1_1DWI_1_1Tractography_1_1Connectomics_1_1NodeExtractWriter_1_1NodeSelector.html", null ],
     [ "MR::DWI::NoiseEstimatorFunctor< InputVoxelType, OutputVoxelType, ValueType >", "classMR_1_1DWI_1_1NoiseEstimatorFunctor.html", null ],
+    [ "MR::Math::RNG::Normal< ValueType >", "classMR_1_1Math_1_1RNG_1_1Normal.html", null ],
     [ "MR::GUI::GL::Shader::Object< TYPE >", "classMR_1_1GUI_1_1GL_1_1Shader_1_1Object.html", null ],
     [ "ofstream", null, [
       [ "MR::File::OFStream", "classMR_1_1File_1_1OFStream.html", null ]
@@ -315,7 +319,6 @@ var hierarchy =
     [ "MR::Mesh::Polygon< vertices >", "classMR_1_1Mesh_1_1Polygon.html", null ],
     [ "MR::Image::Position< Set >", "classMR_1_1Image_1_1Position.html", null ],
     [ "MR::Math::SH::PrecomputedAL< ValueType >", "classMR_1_1Math_1_1SH_1_1PrecomputedAL.html", null ],
-    [ "MR::Math::SH::PrecomputedAL< float >", "classMR_1_1Math_1_1SH_1_1PrecomputedAL.html", null ],
     [ "MR::Math::SH::PrecomputedAL< value_type >", "classMR_1_1Math_1_1SH_1_1PrecomputedAL.html", null ],
     [ "MR::Math::SH::PrecomputedFraction< ValueType >", "classMR_1_1Math_1_1SH_1_1PrecomputedFraction.html", null ],
     [ "MR::Stats::PermTest::PreProcessor< StatsType, EnchancementType >", "classMR_1_1Stats_1_1PermTest_1_1PreProcessor.html", null ],
@@ -331,27 +334,6 @@ var hierarchy =
     [ "MR::ProgressBar", "classMR_1_1ProgressBar.html", null ],
     [ "MR::ProgressInfo", "classMR_1_1ProgressInfo.html", null ],
     [ "MR::GUI::Projection", "classMR_1_1GUI_1_1Projection.html", null ],
-    [ "MR::Ptr< T, is_array >", "classMR_1_1Ptr.html", null ],
-    [ "MR::Ptr< ACT::ACT_Method_additions >", "classMR_1_1Ptr.html", null ],
-    [ "MR::Ptr< ACT::ACT_Shared_additions >", "classMR_1_1Ptr.html", null ],
-    [ "MR::Ptr< BufferScratch< float > >", "classMR_1_1Ptr.html", null ],
-    [ "MR::Ptr< File::MMap >", "classMR_1_1Ptr.html", null ],
-    [ "MR::Ptr< File::MR::File::MMap >", "classMR_1_1Ptr.html", null ],
-    [ "MR::Ptr< File::OFStream >", "classMR_1_1Ptr.html", null ],
-    [ "MR::Ptr< Image::BufferScratch< float > >", "classMR_1_1Ptr.html", null ],
-    [ "MR::Ptr< MaskVoxelType >", "classMR_1_1Ptr.html", null ],
-    [ "MR::Ptr< Mode::Base >", "classMR_1_1Ptr.html", null ],
-    [ "MR::Ptr< MR::DWI::Tractography::ACT::GMWMI_finder >", "classMR_1_1Ptr.html", null ],
-    [ "MR::Ptr< MR::DWI::Tractography::Seeding::Dynamic_ACT_additions >", "classMR_1_1Ptr.html", null ],
-    [ "MR::Ptr< MR::Image::Voxel >", "classMR_1_1Ptr.html", null ],
-    [ "MR::Ptr< MR::Point< value_type >, true >", "classMR_1_1Ptr.html", null ],
-    [ "MR::Ptr< MR::ProgressBar >", "classMR_1_1Ptr.html", null ],
-    [ "MR::Ptr< Path::Dir >", "classMR_1_1Ptr.html", null ],
-    [ "MR::Ptr< QImage >", "classMR_1_1Ptr.html", null ],
-    [ "MR::Ptr< std::ifstream >", "classMR_1_1Ptr.html", null ],
-    [ "MR::Ptr< Tractography::MR::DWI::Tractography::Reader<> >", "classMR_1_1Ptr.html", null ],
-    [ "MR::Ptr< value_type, true >", "classMR_1_1Ptr.html", null ],
-    [ "MR::PtrComp", "classMR_1_1PtrComp.html", null ],
     [ "QAbstractItemModel", null, [
       [ "MR::GUI::Dialog::TreeModel", "classMR_1_1GUI_1_1Dialog_1_1TreeModel.html", null ],
       [ "MR::GUI::MRView::Tool::ListModelBase", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ListModelBase.html", [
@@ -391,10 +373,10 @@ var hierarchy =
     [ "QFrame", null, [
       [ "MR::GUI::Dialog::LightingSettings", "classMR_1_1GUI_1_1Dialog_1_1LightingSettings.html", null ],
       [ "MR::GUI::MRView::Tool::Base", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html", [
+        [ "MR::GUI::MRView::Tool::Capture", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Capture.html", null ],
         [ "MR::GUI::MRView::Tool::ODF", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ODF.html", null ],
         [ "MR::GUI::MRView::Tool::Overlay", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Overlay.html", null ],
         [ "MR::GUI::MRView::Tool::ROI", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI.html", null ],
-        [ "MR::GUI::MRView::Tool::ScreenCapture", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ScreenCapture.html", null ],
         [ "MR::GUI::MRView::Tool::TrackScalarFile", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1TrackScalarFile.html", null ],
         [ "MR::GUI::MRView::Tool::Tractography", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Tractography.html", null ],
         [ "MR::GUI::MRView::Tool::Vector", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Vector.html", null ],
@@ -443,37 +425,16 @@ var hierarchy =
     ] ],
     [ "MR::Thread::Queue< T >::Reader", "classMR_1_1Thread_1_1Queue_1_1Reader.html", null ],
     [ "MR::DWI::Tractography::Editing::Receiver", "classMR_1_1DWI_1_1Tractography_1_1Editing_1_1Receiver.html", null ],
-    [ "MR::RefPtr< T, is_array >", "classMR_1_1RefPtr.html", null ],
-    [ "MR::RefPtr< DWI::FMLS::Segmenter >", "classMR_1_1RefPtr.html", null ],
-    [ "MR::RefPtr< FloatImage >", "classMR_1_1RefPtr.html", null ],
-    [ "MR::RefPtr< Handler::Base >", "classMR_1_1RefPtr.html", null ],
-    [ "MR::RefPtr< Image::BufferPreload< float > >", "classMR_1_1RefPtr.html", null ],
-    [ "MR::RefPtr< Image::Transform >", "classMR_1_1RefPtr.html", null ],
-    [ "MR::RefPtr< Math::SH::aPSF< float > >", "classMR_1_1RefPtr.html", null ],
-    [ "MR::RefPtr< Math::SH::PrecomputedAL< float > >", "classMR_1_1RefPtr.html", null ],
-    [ "MR::RefPtr< Math::SH::Transform< float > >", "classMR_1_1RefPtr.html", null ],
-    [ "MR::RefPtr< Math::Vector< value_type > >", "classMR_1_1RefPtr.html", null ],
-    [ "MR::RefPtr< MR::DWI::Tractography::Mapping::DixelMappingPlugin >", "classMR_1_1RefPtr.html", null ],
-    [ "MR::RefPtr< MR::DWI::Tractography::Mapping::TODMappingPlugin >", "classMR_1_1RefPtr.html", null ],
-    [ "MR::RefPtr< MR::DWI::Tractography::Mask >", "classMR_1_1RefPtr.html", null ],
-    [ "MR::RefPtr< std::mutex >", "classMR_1_1RefPtr.html", null ],
-    [ "MR::RefPtr< std::vector< double > >", "classMR_1_1RefPtr.html", null ],
-    [ "MR::RefPtr< std::vector< size_t > >", "classMR_1_1RefPtr.html", null ],
-    [ "MR::RefPtr< std::vector< value_type > >", "classMR_1_1RefPtr.html", null ],
     [ "MR::GUI::DWI::Renderer", "classMR_1_1GUI_1_1DWI_1_1Renderer.html", null ],
     [ "MR::GUI::MRView::ColourMap::Renderer", "classMR_1_1GUI_1_1MRView_1_1ColourMap_1_1Renderer.html", null ],
     [ "MR::DWI::Tractography::SIFT::ResampleFunctor< Set >", "classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1ResampleFunctor.html", null ],
     [ "MR::DWI::RF::Response", "classMR_1_1DWI_1_1RF_1_1Response.html", null ],
     [ "MR::DWI::RF::ResponseEstimator", "classMR_1_1DWI_1_1RF_1_1ResponseEstimator.html", null ],
-    [ "MR::Math::RNG", "classMR_1_1Math_1_1RNG.html", null ],
     [ "MR::DWI::Tractography::ROI", "classMR_1_1DWI_1_1Tractography_1_1ROI.html", null ],
     [ "MR::GUI::MRView::Tool::ROI_UndoEntry", "structMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI__UndoEntry.html", null ],
     [ "MR::DWI::Tractography::ROISet", "classMR_1_1DWI_1_1Tractography_1_1ROISet.html", null ],
     [ "MR::DWI::FMLS::Segmenter", "classMR_1_1DWI_1_1FMLS_1_1Segmenter.html", null ],
     [ "MR::File::Dicom::Sequence", "classMR_1_1File_1_1Dicom_1_1Sequence.html", null ],
-    [ "MR::DWI::Directions::Set", "classMR_1_1DWI_1_1Directions_1_1Set.html", [
-      [ "MR::DWI::Directions::FastLookupSet", "classMR_1_1DWI_1_1Directions_1_1FastLookupSet.html", null ]
-    ] ],
     [ "set", null, [
       [ "MR::DWI::Tractography::Mapping::Gaussian::SetDixel", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1Gaussian_1_1SetDixel.html", null ],
       [ "MR::DWI::Tractography::Mapping::Gaussian::SetVoxel", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1Gaussian_1_1SetVoxel.html", null ],
@@ -483,6 +444,9 @@ var hierarchy =
       [ "MR::DWI::Tractography::Mapping::SetVoxel", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1SetVoxel.html", null ],
       [ "MR::DWI::Tractography::Mapping::SetVoxelDEC", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1SetVoxelDEC.html", null ],
       [ "MR::DWI::Tractography::Mapping::SetVoxelTOD", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1SetVoxelTOD.html", null ]
+    ] ],
+    [ "MR::DWI::Directions::Set", "classMR_1_1DWI_1_1Directions_1_1Set.html", [
+      [ "MR::DWI::Directions::FastLookupSet", "classMR_1_1DWI_1_1Directions_1_1FastLookupSet.html", null ]
     ] ],
     [ "MR::DWI::Tractography::Mapping::SetVoxelExtras", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1SetVoxelExtras.html", [
       [ "MR::DWI::Tractography::Mapping::Gaussian::SetDixel", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1Gaussian_1_1SetDixel.html", null ],
@@ -542,7 +506,6 @@ var hierarchy =
       ] ]
     ] ],
     [ "MR::Stats::CFE::TrackProcessor", "classMR_1_1Stats_1_1CFE_1_1TrackProcessor.html", null ],
-    [ "MR::Math::SH::Transform< ValueType >", "classMR_1_1Math_1_1SH_1_1Transform.html", null ],
     [ "MR::Image::Transform", "classMR_1_1Image_1_1Transform.html", [
       [ "MR::Image::Interp::Linear< Image::Buffer< float >::voxel_type >", "classMR_1_1Image_1_1Interp_1_1Linear.html", null ],
       [ "MR::Image::Interp::Linear< MR::Image::Voxel >", "classMR_1_1Image_1_1Interp_1_1Linear.html", null ],
@@ -554,25 +517,27 @@ var hierarchy =
       [ "MR::Image::Interp::Sinc< VoxelType >", "classMR_1_1Image_1_1Interp_1_1Sinc.html", null ],
       [ "MR::Image::Interp::Nearest< MR::Image::BufferPreload::voxel_type >", "classMR_1_1Image_1_1Interp_1_1Nearest.html", null ]
     ] ],
-    [ "MR::Math::SH::Transform< float >", "classMR_1_1Math_1_1SH_1_1Transform.html", null ],
+    [ "MR::Math::SH::Transform< ValueType >", "classMR_1_1Math_1_1SH_1_1Transform.html", null ],
     [ "MR::GUI::Dialog::TreeItem", "classMR_1_1GUI_1_1Dialog_1_1TreeItem.html", null ],
     [ "MR::DWI::Tractography::Mapping::TWIImagePluginBase", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TWIImagePluginBase.html", [
       [ "MR::DWI::Tractography::Mapping::TWIFODImagePlugin", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TWIFODImagePlugin.html", null ],
       [ "MR::DWI::Tractography::Mapping::TWIScalarImagePlugin", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TWIScalarImagePlugin.html", null ]
     ] ],
+    [ "MR::Math::RNG::Uniform< ValueType >", "classMR_1_1Math_1_1RNG_1_1Uniform.html", null ],
+    [ "MR::Math::RNG::Uniform< float >", "classMR_1_1Math_1_1RNG_1_1Uniform.html", null ],
+    [ "MR::Math::RNG::Uniform< value_type >", "classMR_1_1Math_1_1RNG_1_1Uniform.html", null ],
+    [ "unique_ptr", null, [
+      [ "MR::copy_ptr< ACT::ACT_Method_additions >", "classMR_1_1copy__ptr.html", null ],
+      [ "MR::copy_ptr< T, Deleter >", "classMR_1_1copy__ptr.html", null ]
+    ] ],
     [ "MR::UnorderedMap< K, V >", "structMR_1_1UnorderedMap.html", null ],
     [ "MR::UnorderedMap< uint32_t, const char * >", "structMR_1_1UnorderedMap.html", null ],
     [ "MR::DWI::Tractography::Upsampler< T >", "classMR_1_1DWI_1_1Tractography_1_1Upsampler.html", null ],
     [ "MR::DWI::Tractography::Upsampler< float >", "classMR_1_1DWI_1_1Tractography_1_1Upsampler.html", null ],
-    [ "MR::Image::Value< Set >", "classMR_1_1Image_1_1Value.html", null ],
     [ "MR::Image::Sparse::Value< Voxel >", "classMR_1_1Image_1_1Sparse_1_1Value.html", null ],
     [ "MR::BitSet::Value", "classMR_1_1BitSet_1_1Value.html", null ],
+    [ "MR::Image::Value< Set >", "classMR_1_1Image_1_1Value.html", null ],
     [ "MR::GUI::GL::vec4", "classMR_1_1GUI_1_1GL_1_1vec4.html", null ],
-    [ "MR::VecPtr< T, is_array >", "classMR_1_1VecPtr.html", null ],
-    [ "MR::VecPtr< MR::GUI::MRView::Displayable >", "classMR_1_1VecPtr.html", null ],
-    [ "MR::VecPtr< T >", "classMR_1_1VecPtr.html", null ],
-    [ "MR::VecPtr< uint8_t, true >", "classMR_1_1VecPtr.html", null ],
-    [ "MR::VecPtr< value_type, true >", "classMR_1_1VecPtr.html", null ],
     [ "vector", null, [
       [ "MR::App::ArgumentList", "classMR_1_1App_1_1ArgumentList.html", null ],
       [ "MR::App::Description", "classMR_1_1App_1_1Description.html", null ],
@@ -592,6 +557,11 @@ var hierarchy =
     [ "MR::GUI::DWI::Renderer::Vertex", "classMR_1_1GUI_1_1DWI_1_1Renderer_1_1Vertex.html", null ],
     [ "MR::GUI::GL::VertexArrayObject", "classMR_1_1GUI_1_1GL_1_1VertexArrayObject.html", null ],
     [ "MR::GUI::GL::VertexBuffer", "classMR_1_1GUI_1_1GL_1_1VertexBuffer.html", null ],
+    [ "MR::Image::Voxel< BufferType >", "classMR_1_1Image_1_1Voxel.html", [
+      [ "MR::Image::Interp::Linear< Image::Buffer< float >::voxel_type >", "classMR_1_1Image_1_1Interp_1_1Linear.html", null ],
+      [ "MR::Image::Interp::Linear< MR::Image::Voxel >", "classMR_1_1Image_1_1Interp_1_1Linear.html", null ],
+      [ "MR::Image::Interp::Nearest< MR::Image::BufferPreload::voxel_type >", "classMR_1_1Image_1_1Interp_1_1Nearest.html", null ]
+    ] ],
     [ "MR::Image::Adapter::Voxel< VoxelType >", "classMR_1_1Image_1_1Adapter_1_1Voxel.html", [
       [ "MR::DWI::Bootstrap< VoxelType, Functor, NUM_VOX_PER_CHUNK >", "classMR_1_1DWI_1_1Bootstrap.html", null ],
       [ "MR::Image::Adapter::Extract< VoxelType >", "classMR_1_1Image_1_1Adapter_1_1Extract.html", null ],
@@ -602,11 +572,6 @@ var hierarchy =
       [ "MR::Image::Adapter::PermuteAxes< VoxelType >", "classMR_1_1Image_1_1Adapter_1_1PermuteAxes.html", null ],
       [ "MR::Image::Adapter::Replicate< VoxelType >", "classMR_1_1Image_1_1Adapter_1_1Replicate.html", null ],
       [ "MR::Image::Adapter::Subset< VoxelType >", "classMR_1_1Image_1_1Adapter_1_1Subset.html", null ]
-    ] ],
-    [ "MR::Image::Voxel< BufferType >", "classMR_1_1Image_1_1Voxel.html", [
-      [ "MR::Image::Interp::Linear< Image::Buffer< float >::voxel_type >", "classMR_1_1Image_1_1Interp_1_1Linear.html", null ],
-      [ "MR::Image::Interp::Linear< MR::Image::Voxel >", "classMR_1_1Image_1_1Interp_1_1Linear.html", null ],
-      [ "MR::Image::Interp::Nearest< MR::Image::BufferPreload::voxel_type >", "classMR_1_1Image_1_1Interp_1_1Nearest.html", null ]
     ] ],
     [ "MR::Image::Voxel< BufferScratch >", "classMR_1_1Image_1_1Voxel.html", null ],
     [ "MR::Image::Voxel< Image::Buffer< uint64_t > >", "classMR_1_1Image_1_1Voxel.html", [

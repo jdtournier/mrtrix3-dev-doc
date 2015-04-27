@@ -9,6 +9,7 @@ var classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1MethodBase =
     [ "get_metric", "classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1MethodBase.html#a0f5a0ee06905607202d64571a657792e", null ],
     [ "init", "classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1MethodBase.html#afc4208dd964e6b2116ad92d0a081f3d6", null ],
     [ "next", "classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1MethodBase.html#a1ac0f235b0cc70adb8c3e337bc04d419", null ],
+    [ "random_direction", "classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1MethodBase.html#a9e9bbfd6dd9008b91c106054580e2fb3", null ],
     [ "random_direction", "classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1MethodBase.html#a2bd3885bb1da3d24df0e96e49854fd9f", null ],
     [ "random_direction", "classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1MethodBase.html#a65dd0724a64a9449b559de2e93fe0e9b", null ],
     [ "reverse_track", "classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1MethodBase.html#a37a34edc5c0b8769b25f10ff0ac96d9f", null ],
@@ -16,6 +17,6 @@ var classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1MethodBase =
     [ "truncate_track", "classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1MethodBase.html#a6f1ea25d592579f7b50ec769d1c9ffee", null ],
     [ "dir", "classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1MethodBase.html#a2981057a61c55836d050c4ba3582e4d5", null ],
     [ "pos", "classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1MethodBase.html#a46d792887bb593b30c0ab61ac7d09762", null ],
-    [ "rng", "classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1MethodBase.html#ad9b4ae7ba413047590775f965346a0b5", null ],
+    [ "uniform_rng", "classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1MethodBase.html#a6bb85b2bb78248e4d4581dc5a3b39ad1", null ],
     [ "values", "classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1MethodBase.html#ac69e38125cdf5d99e9820916d278f8a8", null ]
 ];

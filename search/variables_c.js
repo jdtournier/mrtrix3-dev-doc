@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['m',['M',['../classMR_1_1DWI_1_1CSDeconv_1_1Shared.html#af1304077e5171030eb789f8eb99759de',1,'MR::DWI::CSDeconv::Shared::M()'],['../classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1Tensor__Det.html#a809aa4ad2e928a6496ebb8dc8f22382f',1,'MR::DWI::Tractography::Algorithms::Tensor_Det::M()'],['../classMR_1_1GUI_1_1GL_1_1mat4.html#a38a1e3a0be485bd93d53d4d83017076f',1,'MR::GUI::GL::mat4::m()']]],
+  ['m',['m',['../classMR_1_1GUI_1_1GL_1_1mat4.html#a38a1e3a0be485bd93d53d4d83017076f',1,'MR::GUI::GL::mat4::m()'],['../classMR_1_1DWI_1_1CSDeconv_1_1Shared.html#af1304077e5171030eb789f8eb99759de',1,'MR::DWI::CSDeconv::Shared::M()'],['../classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1Tensor__Det.html#a809aa4ad2e928a6496ebb8dc8f22382f',1,'MR::DWI::Tractography::Algorithms::Tensor_Det::M()']]],
   ['m_5fxdim',['m_xdim',['../classMR_1_1Image_1_1Handler_1_1Mosaic.html#ab01a0f1b7d34b4ca0a30a5d56cfd195f',1,'MR::Image::Handler::Mosaic']]],
   ['m_5fydim',['m_ydim',['../classMR_1_1Image_1_1Handler_1_1Mosaic.html#a06116e1633b2944ad35fce544d4d37e3',1,'MR::Image::Handler::Mosaic']]],
   ['main_5fbox',['main_box',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1TrackScalarFile.html#af7e8f39e203805decf34620fe3b5f593',1,'MR::GUI::MRView::Tool::TrackScalarFile']]],
@@ -39,8 +39,8 @@ var searchData=
   ['min_5fnum_5fpoints',['min_num_points',['../classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1SharedBase.html#ab782d659cc72dfbf7dea0c2213618d48',1,'MR::DWI::Tractography::Tracking::SharedBase']]],
   ['min_5fvalue',['min_value',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1Overlay.html#aebcf135696815db3b7176d807062f67e',1,'MR::GUI::MRView::Tool::Overlay::min_value()'],['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1Vector.html#a0c5d62ca9ccf1fe4b5f44830286ba295',1,'MR::GUI::MRView::Tool::Vector::min_value()']]],
   ['min_5fvox',['min_vox',['../classMR_1_1DWI_1_1Tractography_1_1ACT_1_1GMWMI__finder.html#a03edc1ce45c21383febdb1f8a1689033',1,'MR::DWI::Tractography::ACT::GMWMI_finder']]],
-  ['mmap',['mmap',['../classMR_1_1Image_1_1Handler_1_1Pipe.html#a112cbd3174029f1209ae5370825d8b96',1,'MR::Image::Handler::Pipe::mmap()'],['../classMR_1_1Image_1_1Handler_1_1Sparse.html#a109cbb87cc625a3bb63d1153eac1aa75',1,'MR::Image::Handler::Sparse::mmap()']]],
-  ['mmaps',['mmaps',['../classMR_1_1Image_1_1Handler_1_1Default.html#a19d395a918461afa1fb511ee79f5483e',1,'MR::Image::Handler::Default']]],
+  ['mmap',['mmap',['../classMR_1_1Image_1_1Handler_1_1Pipe.html#a9bf694da0d32f1ddfa7a2c14f3d62153',1,'MR::Image::Handler::Pipe::mmap()'],['../classMR_1_1Image_1_1Handler_1_1Sparse.html#aecdc706b8f0031e8a01e58081561a427',1,'MR::Image::Handler::Sparse::mmap()']]],
+  ['mmaps',['mmaps',['../classMR_1_1Image_1_1Handler_1_1Default.html#a150969b6e4c05b01ea1d2f78abc7b5df',1,'MR::Image::Handler::Default']]],
   ['modality',['modality',['../classMR_1_1File_1_1Dicom_1_1QuickScan.html#ac80446f34e74c3e324bace2f7317d536',1,'MR::File::Dicom::QuickScan::modality()'],['../classMR_1_1File_1_1Dicom_1_1Series.html#a49507c7d5dbb191db06a50ba6b9b87c4',1,'MR::File::Dicom::Series::modality()']]],
   ['mode',['mode',['../classMR_1_1GUI_1_1MRView_1_1Mode_1_1Volume_1_1Shader.html#a813bfa5339a57b6bb11252adb6b84031',1,'MR::GUI::MRView::Mode::Volume::Shader']]],
   ['modes',['modes',['../namespaceMR_1_1DWI_1_1Tractography_1_1Connectomics.html#a35ec5c7a76652e183b0411da367dd10b',1,'MR::DWI::Tractography::Connectomics']]],

@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">MRtrix
-   &#160;<span id="projectnumber">0.3.12-304-g9979917d</span>
+   &#160;<span id="projectnumber">0.3.12-365-ged27dfbe</span>
    </div>
    <div id="projectbrief">MRtrix provides a set of tools to perform diffusion-weighted MR white-matter tractography in a manner robust to crossing fibres, using constrained spherical deconvolution (CSD) and probabilistic streamlines.</div>
   </td>
@@ -149,15 +149,15 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6e11edec85c3d31cdef1f75dfa1f9011"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acdf3955a45c721fb84f6e75734088614"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Image_1_1Format_1_1Base.html#acdf3955a45c721fb84f6e75734088614">~Base</a> ()</td></tr>
 <tr class="separator:acdf3955a45c721fb84f6e75734088614"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46baf800ebdf3fdeb64d4862e3e3e484"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classMR_1_1RefPtr.html">RefPtr</a>&lt; <a class="el" href="classMR_1_1Image_1_1Handler_1_1Base.html">Handler::Base</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Image_1_1Format_1_1Base.html#a46baf800ebdf3fdeb64d4862e3e3e484">read</a> (<a class="el" href="classMR_1_1Image_1_1Header.html">Header</a> &amp;H) const =0</td></tr>
-<tr class="memdesc:a46baf800ebdf3fdeb64d4862e3e3e484"><td class="mdescLeft">&#160;</td><td class="mdescRight">read image file(s) and fill the <a class="el" href="classMR_1_1Image_1_1Header.html">Image::Header</a> <code>H</code> with the appropriate information.  <a href="#a46baf800ebdf3fdeb64d4862e3e3e484">More...</a><br /></td></tr>
-<tr class="separator:a46baf800ebdf3fdeb64d4862e3e3e484"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bf72ee3809d8d81a89bc307b5eddc05"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classMR_1_1Image_1_1Handler_1_1Base.html">Handler::Base</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Image_1_1Format_1_1Base.html#a2bf72ee3809d8d81a89bc307b5eddc05">read</a> (<a class="el" href="classMR_1_1Image_1_1Header.html">Header</a> &amp;H) const =0</td></tr>
+<tr class="memdesc:a2bf72ee3809d8d81a89bc307b5eddc05"><td class="mdescLeft">&#160;</td><td class="mdescRight">read image file(s) and fill the <a class="el" href="classMR_1_1Image_1_1Header.html">Image::Header</a> <code>H</code> with the appropriate information.  <a href="#a2bf72ee3809d8d81a89bc307b5eddc05">More...</a><br /></td></tr>
+<tr class="separator:a2bf72ee3809d8d81a89bc307b5eddc05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af27ac62735a9939918ecb9cb6c676bf8"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Image_1_1Format_1_1Base.html#af27ac62735a9939918ecb9cb6c676bf8">check</a> (<a class="el" href="classMR_1_1Image_1_1Header.html">Header</a> &amp;H, size_t num_axes) const =0</td></tr>
 <tr class="memdesc:af27ac62735a9939918ecb9cb6c676bf8"><td class="mdescLeft">&#160;</td><td class="mdescRight">check whether the <a class="el" href="classMR_1_1Image_1_1Header.html">Image::Header</a> <code>H</code> can be created using this handler.  <a href="#af27ac62735a9939918ecb9cb6c676bf8">More...</a><br /></td></tr>
 <tr class="separator:af27ac62735a9939918ecb9cb6c676bf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28d6541d4919e2de90de132c73982dc0"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classMR_1_1RefPtr.html">RefPtr</a>&lt; <a class="el" href="classMR_1_1Image_1_1Handler_1_1Base.html">Handler::Base</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Image_1_1Format_1_1Base.html#a28d6541d4919e2de90de132c73982dc0">create</a> (<a class="el" href="classMR_1_1Image_1_1Header.html">Header</a> &amp;H) const =0</td></tr>
-<tr class="memdesc:a28d6541d4919e2de90de132c73982dc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">create the image corresponding to the <a class="el" href="classMR_1_1Image_1_1Header.html">Image::Header</a> <code>H</code>.  <a href="#a28d6541d4919e2de90de132c73982dc0">More...</a><br /></td></tr>
-<tr class="separator:a28d6541d4919e2de90de132c73982dc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe2843df787decfc60e1819ac2abd043"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classMR_1_1Image_1_1Handler_1_1Base.html">Handler::Base</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Image_1_1Format_1_1Base.html#abe2843df787decfc60e1819ac2abd043">create</a> (<a class="el" href="classMR_1_1Image_1_1Header.html">Header</a> &amp;H) const =0</td></tr>
+<tr class="memdesc:abe2843df787decfc60e1819ac2abd043"><td class="mdescLeft">&#160;</td><td class="mdescRight">create the image corresponding to the <a class="el" href="classMR_1_1Image_1_1Header.html">Image::Header</a> <code>H</code>.  <a href="#abe2843df787decfc60e1819ac2abd043">More...</a><br /></td></tr>
+<tr class="separator:abe2843df787decfc60e1819ac2abd043"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -264,7 +264,7 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a28d6541d4919e2de90de132c73982dc0"></a>
+<a class="anchor" id="abe2843df787decfc60e1819ac2abd043"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -272,7 +272,7 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="classMR_1_1RefPtr.html">RefPtr</a>&lt;<a class="el" href="classMR_1_1Image_1_1Handler_1_1Base.html">Handler::Base</a>&gt; MR::Image::Format::Base::create </td>
+          <td class="memname">virtual std::shared_ptr&lt;<a class="el" href="classMR_1_1Image_1_1Handler_1_1Base.html">Handler::Base</a>&gt; MR::Image::Format::Base::create </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classMR_1_1Image_1_1Header.html">Header</a> &amp;&#160;</td>
           <td class="paramname"><em>H</em></td><td>)</td>
@@ -290,11 +290,11 @@ Public Attributes</h2></td></tr>
 <p>This function will create images in the corresponding format, assuming the header has been validated using the <a class="el" href="classMR_1_1Image_1_1Format_1_1Base.html#af27ac62735a9939918ecb9cb6c676bf8" title="check whether the Image::Header H can be created using this handler. ">check()</a> function beforehand.</p>
 <dl class="section note"><dt>Note</dt><dd>this function should throw an <a class="el" href="classMR_1_1Exception.html">Exception</a> in case of error. </dd></dl>
 
-<p>Implemented in <a class="el" href="classMR_1_1Image_1_1Format_1_1MRtrix__sparse.html#af7dfc899cab43c5823d363f423a0c45c">MR::Image::Format::MRtrix_sparse</a>, <a class="el" href="classMR_1_1Image_1_1Format_1_1MGZ.html#a915a06647ad64cf357b8556a8d560b5e">MR::Image::Format::MGZ</a>, <a class="el" href="classMR_1_1Image_1_1Format_1_1MGH.html#abdbd6bc1a51288c6db654562560b4df9">MR::Image::Format::MGH</a>, <a class="el" href="classMR_1_1Image_1_1Format_1_1XDS.html#ac1c7b53c98a672d3f236e711f7766650">MR::Image::Format::XDS</a>, <a class="el" href="classMR_1_1Image_1_1Format_1_1MRI.html#a44da3e33e97dbfba05b863f68c44bc8c">MR::Image::Format::MRI</a>, <a class="el" href="classMR_1_1Image_1_1Format_1_1Analyse.html#ae1317caed68957a41823390f796d219e">MR::Image::Format::Analyse</a>, <a class="el" href="classMR_1_1Image_1_1Format_1_1NIfTI__GZ.html#a1be1de94613999ed0706d33684951ea5">MR::Image::Format::NIfTI_GZ</a>, <a class="el" href="classMR_1_1Image_1_1Format_1_1NIfTI.html#adb6515a83523bf801bc61a176e16ea9b">MR::Image::Format::NIfTI</a>, <a class="el" href="classMR_1_1Image_1_1Format_1_1MRtrix__GZ.html#ae1454547b9fb19f649e84cfed849d2d2">MR::Image::Format::MRtrix_GZ</a>, <a class="el" href="classMR_1_1Image_1_1Format_1_1MRtrix.html#ac658d9f126a9af697ee706a530336bc7">MR::Image::Format::MRtrix</a>, <a class="el" href="classMR_1_1Image_1_1Format_1_1DICOM.html#a55615efcb82f5107bd1e0d6a30a5ada1">MR::Image::Format::DICOM</a>, and <a class="el" href="classMR_1_1Image_1_1Format_1_1Pipe.html#a0b5af6851e771a2bec5388dbc08f1046">MR::Image::Format::Pipe</a>.</p>
+<p>Implemented in <a class="el" href="classMR_1_1Image_1_1Format_1_1MRtrix__sparse.html#a02c21093f20e276b57f23ce5cec32ba7">MR::Image::Format::MRtrix_sparse</a>, <a class="el" href="classMR_1_1Image_1_1Format_1_1MGZ.html#a8ee99add320a28398a415867c1927d10">MR::Image::Format::MGZ</a>, <a class="el" href="classMR_1_1Image_1_1Format_1_1MGH.html#ac1b6a6ca74274239458520daa2ff1ffe">MR::Image::Format::MGH</a>, <a class="el" href="classMR_1_1Image_1_1Format_1_1XDS.html#afa6bdcec25558b3ad57a7ca1a06a8543">MR::Image::Format::XDS</a>, <a class="el" href="classMR_1_1Image_1_1Format_1_1MRI.html#aa355167809d40d2aa39e1ac3abe27bb5">MR::Image::Format::MRI</a>, <a class="el" href="classMR_1_1Image_1_1Format_1_1Analyse.html#ae1317caed68957a41823390f796d219e">MR::Image::Format::Analyse</a>, <a class="el" href="classMR_1_1Image_1_1Format_1_1NIfTI__GZ.html#a11161488ec9c3d09ee9fdcc860a1661f">MR::Image::Format::NIfTI_GZ</a>, <a class="el" href="classMR_1_1Image_1_1Format_1_1NIfTI.html#aa98a0af7500cf1f1126de08e50303826">MR::Image::Format::NIfTI</a>, <a class="el" href="classMR_1_1Image_1_1Format_1_1MRtrix__GZ.html#af889baafe72ca8ada5a9b7b843ab9e86">MR::Image::Format::MRtrix_GZ</a>, <a class="el" href="classMR_1_1Image_1_1Format_1_1MRtrix.html#af1b87d885c0445ef417beec05554c6d2">MR::Image::Format::MRtrix</a>, <a class="el" href="classMR_1_1Image_1_1Format_1_1DICOM.html#ab3a445f3e79b99a4d810b0abe7d49054">MR::Image::Format::DICOM</a>, and <a class="el" href="classMR_1_1Image_1_1Format_1_1Pipe.html#ad586b95abf733f895393bd213a42b2a4">MR::Image::Format::Pipe</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a46baf800ebdf3fdeb64d4862e3e3e484"></a>
+<a class="anchor" id="a2bf72ee3809d8d81a89bc307b5eddc05"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -302,7 +302,7 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="classMR_1_1RefPtr.html">RefPtr</a>&lt;<a class="el" href="classMR_1_1Image_1_1Handler_1_1Base.html">Handler::Base</a>&gt; MR::Image::Format::Base::read </td>
+          <td class="memname">virtual std::shared_ptr&lt;<a class="el" href="classMR_1_1Image_1_1Handler_1_1Base.html">Handler::Base</a>&gt; MR::Image::Format::Base::read </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classMR_1_1Image_1_1Header.html">Header</a> &amp;&#160;</td>
           <td class="paramname"><em>H</em></td><td>)</td>
@@ -321,7 +321,7 @@ Public Attributes</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>true if this <a class="el" href="namespaceMR_1_1Image_1_1Format.html" title="Classes responsible for handling of specific image formats. ">Format</a> handler can read this type of file, false otherwise. If true, this function should fill the <a class="el" href="classMR_1_1Image_1_1Header.html">Header</a> <code>H</code> with all the relevant information as read from the images before returning. </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>this function should throw an <a class="el" href="classMR_1_1Exception.html">Exception</a> in case of error. </dd></dl>
 
-<p>Implemented in <a class="el" href="classMR_1_1Image_1_1Format_1_1MRtrix__sparse.html#aac03344f9362bc13eb01b3d6290d5685">MR::Image::Format::MRtrix_sparse</a>, <a class="el" href="classMR_1_1Image_1_1Format_1_1MGZ.html#a1f5153e6cf2f4144b97d1aa2ce0fbb87">MR::Image::Format::MGZ</a>, <a class="el" href="classMR_1_1Image_1_1Format_1_1MGH.html#abbf02057e21e1dcf3529056eb421a373">MR::Image::Format::MGH</a>, <a class="el" href="classMR_1_1Image_1_1Format_1_1XDS.html#a412c798201fd115e4831fbaacb9e292f">MR::Image::Format::XDS</a>, <a class="el" href="classMR_1_1Image_1_1Format_1_1MRI.html#a7be4679e91548156727e51da3b06c19d">MR::Image::Format::MRI</a>, <a class="el" href="classMR_1_1Image_1_1Format_1_1Analyse.html#af0f2620a8144d4d3199a22abcf0a6447">MR::Image::Format::Analyse</a>, <a class="el" href="classMR_1_1Image_1_1Format_1_1NIfTI__GZ.html#a30ccb0c528850d74425c3f0a45958cd0">MR::Image::Format::NIfTI_GZ</a>, <a class="el" href="classMR_1_1Image_1_1Format_1_1NIfTI.html#a989f61424810067ff6375e06dcec648a">MR::Image::Format::NIfTI</a>, <a class="el" href="classMR_1_1Image_1_1Format_1_1MRtrix__GZ.html#a7934bad1316020ff972fa4d5798746b0">MR::Image::Format::MRtrix_GZ</a>, <a class="el" href="classMR_1_1Image_1_1Format_1_1MRtrix.html#ad3251827c359b6f66c3bfddaeaa84ef8">MR::Image::Format::MRtrix</a>, <a class="el" href="classMR_1_1Image_1_1Format_1_1DICOM.html#a152ce875f891045f3224e8062011fdb4">MR::Image::Format::DICOM</a>, and <a class="el" href="classMR_1_1Image_1_1Format_1_1Pipe.html#a61be8ac7e7deae5889a29c7c33465c4a">MR::Image::Format::Pipe</a>.</p>
+<p>Implemented in <a class="el" href="classMR_1_1Image_1_1Format_1_1MRtrix__sparse.html#aff76b483f0f22cbd6ef4233e9739b589">MR::Image::Format::MRtrix_sparse</a>, <a class="el" href="classMR_1_1Image_1_1Format_1_1MGZ.html#a9462da715ed98830ea2babdc47caf017">MR::Image::Format::MGZ</a>, <a class="el" href="classMR_1_1Image_1_1Format_1_1MGH.html#a36d10a1279c5958cb1a4c05a407c3d5d">MR::Image::Format::MGH</a>, <a class="el" href="classMR_1_1Image_1_1Format_1_1XDS.html#a576e62807583c21b2f9b8153b9bc7556">MR::Image::Format::XDS</a>, <a class="el" href="classMR_1_1Image_1_1Format_1_1MRI.html#a88e1249e8d9b9ca0c97fd5aa862e27db">MR::Image::Format::MRI</a>, <a class="el" href="classMR_1_1Image_1_1Format_1_1Analyse.html#af0f2620a8144d4d3199a22abcf0a6447">MR::Image::Format::Analyse</a>, <a class="el" href="classMR_1_1Image_1_1Format_1_1NIfTI__GZ.html#a571172a29003d5315e44ddb008d04e62">MR::Image::Format::NIfTI_GZ</a>, <a class="el" href="classMR_1_1Image_1_1Format_1_1NIfTI.html#af5f948686597328253edcbf3e6d3b648">MR::Image::Format::NIfTI</a>, <a class="el" href="classMR_1_1Image_1_1Format_1_1MRtrix__GZ.html#a40398a5cd1807c6d14c8ad7afda72cfa">MR::Image::Format::MRtrix_GZ</a>, <a class="el" href="classMR_1_1Image_1_1Format_1_1MRtrix.html#a8508aa4ed786dd3b0b54914824d93d6b">MR::Image::Format::MRtrix</a>, <a class="el" href="classMR_1_1Image_1_1Format_1_1DICOM.html#ab718620f1955f828760d5945e16115b3">MR::Image::Format::DICOM</a>, and <a class="el" href="classMR_1_1Image_1_1Format_1_1Pipe.html#a908022d5f9047f344b1677ebad72419f">MR::Image::Format::Pipe</a>.</p>
 
 </div>
 </div>
@@ -351,7 +351,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="namespaceMR_1_1Image.html">Image</a></li><li class="navelem"><a class="el" href="namespaceMR_1_1Image_1_1Format.html">Format</a></li><li class="navelem"><a class="el" href="classMR_1_1Image_1_1Format_1_1Base.html">Base</a></li>
-    <li class="footer">Generated on Wed Apr 1 2015 14:53:45 for MRtrix by
+    <li class="footer">Generated on Mon Apr 27 2015 17:39:25 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

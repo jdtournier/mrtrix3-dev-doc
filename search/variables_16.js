@@ -4,7 +4,7 @@ var searchData=
   ['wavetable',['wavetable',['../classMR_1_1Math_1_1FFT.html#ac6c99b975849e03e3509d8f26f816c86',1,'MR::Math::FFT']]],
   ['weight',['weight',['../classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1SetVoxelExtras.html#ade74f5e1ba151da1174e7456c38748fe',1,'MR::DWI::Tractography::Mapping::SetVoxelExtras::weight()'],['../classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1FixelBase.html#ad83c6c8a7df9f3f611786980bda50c8a',1,'MR::DWI::Tractography::SIFT::FixelBase::weight()'],['../classMR_1_1DWI_1_1Tractography_1_1Streamline.html#a54985211abb8c056fd73a5b18e42e692',1,'MR::DWI::Tractography::Streamline::weight()']]],
   ['weights_5fbuffer',['weights_buffer',['../classMR_1_1DWI_1_1Tractography_1_1Writer.html#a1614003c835174bace4d530f548c8865',1,'MR::DWI::Tractography::Writer']]],
-  ['weights_5ffile',['weights_file',['../classMR_1_1DWI_1_1Tractography_1_1Reader.html#a9fee441849f5148a81d0df0debaacb6d',1,'MR::DWI::Tractography::Reader']]],
+  ['weights_5ffile',['weights_file',['../classMR_1_1DWI_1_1Tractography_1_1Reader.html#a609234e5b1be5ff4fe68618759c2d19b',1,'MR::DWI::Tractography::Reader']]],
   ['weights_5fname',['weights_name',['../classMR_1_1DWI_1_1Tractography_1_1WriterUnbuffered.html#a926d99efd3022f102a7ce58ce3a821e5',1,'MR::DWI::Tractography::WriterUnbuffered']]],
   ['weightsoption',['WeightsOption',['../namespaceMR_1_1DWI_1_1Tractography_1_1Editing.html#a80b42790d4310f20c3a057547de22dfe',1,'MR::DWI::Tractography::Editing']]],
   ['width',['width',['../structmgh__header.html#a123e44959c11ac0c0fe71ad6071c32c4',1,'mgh_header::width()'],['../classMR_1_1GUI_1_1MRView_1_1ColourMap_1_1Renderer.html#af1ae5ba7e2d00bfde53f5549dade6bd7',1,'MR::GUI::MRView::ColourMap::Renderer::width()']]],

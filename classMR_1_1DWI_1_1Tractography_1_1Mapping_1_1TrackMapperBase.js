@@ -21,12 +21,12 @@ var classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TrackMapperBase =
     [ "voxelise", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TrackMapperBase.html#acf381cb29e4f8e277bea653f94c96d61", null ],
     [ "voxelise_ends", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TrackMapperBase.html#af80682dff9a1681283e670c7220f1858", null ],
     [ "voxelise_precise", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TrackMapperBase.html#a9c827295fa712adde801a24ca93888a7", null ],
-    [ "dixel_plugin", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TrackMapperBase.html#a9306d34c1757cbf9aab51e5231370970", null ],
+    [ "dixel_plugin", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TrackMapperBase.html#a7f5a8c4425bb876420b43ebece8d85d2", null ],
     [ "ends_only", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TrackMapperBase.html#aaade66e8ff838a4441c0f9be7981b592", null ],
     [ "info", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TrackMapperBase.html#a8b64bb6dbc2f13c397a1dd784551ae2e", null ],
     [ "map_zero", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TrackMapperBase.html#add823b10e40671d10d7652d91fcd6998", null ],
     [ "precise", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TrackMapperBase.html#afff7fef7bfb55722de309d229e1fd5b4", null ],
-    [ "tod_plugin", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TrackMapperBase.html#aa5aa3a6509477f546c245564f0abc8a7", null ],
+    [ "tod_plugin", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TrackMapperBase.html#a550fedebb454b4dd2aca1b75b8cc5b29", null ],
     [ "transform", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TrackMapperBase.html#a7c18ab916805d022f9bb8a6eec65c02f", null ],
     [ "upsampler", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TrackMapperBase.html#a9f50a1ebd23fabdcc41379a0ba1c9829", null ]
 ];

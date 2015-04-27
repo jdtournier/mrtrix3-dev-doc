@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">MRtrix
-   &#160;<span id="projectnumber">0.3.12-304-g9979917d</span>
+   &#160;<span id="projectnumber">0.3.12-365-ged27dfbe</span>
    </div>
    <div id="projectbrief">MRtrix provides a set of tools to perform diffusion-weighted MR white-matter tractography in a manner robust to crossing fibres, using constrained spherical deconvolution (CSD) and probabilistic streamlines.</div>
   </td>
@@ -176,7 +176,7 @@ $(document).ready(function(){initNavTree('image_2utils_8h_source.html','');});
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    }</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
 <div class="line"><a name="l00068"></a><span class="lineno"><a class="line" href="namespaceMR_1_1Image.html#a3f48cfaa35342643fe108b3d80a2475b">   68</a></span>&#160;    <span class="keyword">inline</span> int64_t <a class="code" href="namespaceMR_1_1Image.html#a3f48cfaa35342643fe108b3d80a2475b">footprint</a> (int64_t count, <a class="code" href="classMR_1_1DataType.html">DataType</a> dtype) {</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;      <span class="keywordflow">return</span> dtype == <a class="code" href="classMR_1_1DataType.html#a919f65f2da32b5f8ec66923c4e0c9b6a">DataType::Bit</a> ? (count+7)/8 : count*dtype.<a class="code" href="classMR_1_1DataType.html#a6ed76d9979f72c582fb8f4f055cc95f6">bytes</a>();</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;      <span class="keywordflow">return</span> dtype == <a class="code" href="classMR_1_1DataType.html#afa1b1abfcc85cb90394b71196a5cd864">DataType::Bit</a> ? (count+7)/8 : count*dtype.<a class="code" href="classMR_1_1DataType.html#a6ed76d9979f72c582fb8f4f055cc95f6">bytes</a>();</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    }</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">class</span> InfoType&gt; </div>
@@ -346,20 +346,20 @@ $(document).ready(function(){initNavTree('image_2utils_8h_source.html','');});
 <div class="ttc" id="classMR_1_1Exception_html"><div class="ttname"><a href="classMR_1_1Exception.html">MR::Exception</a></div><div class="ttdef"><b>Definition:</b> <a href="exception_8h_source.html#l00087">exception.h:87</a></div></div>
 <div class="ttc" id="namespaceMR_1_1Image_html_a923ce88dadbb519d10eced8db3b2e753"><div class="ttname"><a href="namespaceMR_1_1Image.html#a923ce88dadbb519d10eced8db3b2e753">MR::Image::voxel_count</a></div><div class="ttdeci">size_t voxel_count(const InfoType &amp;in, size_t from_axis=0, size_t to_axis=std::numeric_limits&lt; size_t &gt;::max())</div><div class="ttdoc">returns the number of voxel in the data set, or a relevant subvolume </div><div class="ttdef"><b>Definition:</b> <a href="image_2utils_8h_source.html#l00036">utils.h:36</a></div></div>
 <div class="ttc" id="classMR_1_1DataType_html"><div class="ttname"><a href="classMR_1_1DataType.html">MR::DataType</a></div><div class="ttdef"><b>Definition:</b> <a href="datatype_8h_source.html#l00036">datatype.h:36</a></div></div>
+<div class="ttc" id="classMR_1_1DataType_html_afa1b1abfcc85cb90394b71196a5cd864"><div class="ttname"><a href="classMR_1_1DataType.html#afa1b1abfcc85cb90394b71196a5cd864">MR::DataType::Bit</a></div><div class="ttdeci">static constexpr uint8_t Bit</div><div class="ttdef"><b>Definition:</b> <a href="datatype_8h_source.html#l00137">datatype.h:137</a></div></div>
 <div class="ttc" id="classMR_1_1InfoType_html"><div class="ttname"><a href="classMR_1_1InfoType.html">MR::InfoType</a></div><div class="ttdoc">An abstract concept used to refer to image info objects. </div><div class="ttdef"><b>Definition:</b> <a href="image__access_8h_source.html#l00236">image_access.h:236</a></div></div>
 <div class="ttc" id="namespaceMR_1_1Image_html_a46989de0bafbcf8d0afcb19a604a596c"><div class="ttname"><a href="namespaceMR_1_1Image.html#a46989de0bafbcf8d0afcb19a604a596c">MR::Image::assign_pos</a></div><div class="ttdeci">__assign_pos_axis_range&lt; VoxelType &gt; assign_pos(const VoxelType &amp;reference, size_t from_axis=0, size_t to_axis=std::numeric_limits&lt; size_t &gt;::max())</div><div class="ttdoc">returns a functor to set the position in ref to other voxels </div><div class="ttdef"><b>Definition:</b> <a href="image_2utils_8h_source.html#l00211">utils.h:211</a></div></div>
 <div class="ttc" id="namespaceMR_1_1Math_1_1Stats_html_a7ffd8a70ac77ce44ee325f3544b0bddc"><div class="ttname"><a href="namespaceMR_1_1Math_1_1Stats.html#a7ffd8a70ac77ce44ee325f3544b0bddc">MR::Math::Stats::value_type</a></div><div class="ttdeci">float value_type</div><div class="ttdef"><b>Definition:</b> <a href="glm_8h_source.html#l00038">glm.h:38</a></div></div>
 <div class="ttc" id="group__elfun_html_gaea1c2fae93ed8a863c25bf31d6ee16a9"><div class="ttname"><a href="group__elfun.html#gaea1c2fae93ed8a863c25bf31d6ee16a9">MR::Math::min</a></div><div class="ttdeci">T min(const T *const x, const int size, int &amp;index, const int stride=1)</div><div class="ttdoc">find minimum value in array </div><div class="ttdef"><b>Definition:</b> <a href="math_8h_source.html#l00135">math.h:135</a></div></div>
 <div class="ttc" id="namespaceMR_1_1Image_html_aa568487b705b121bc558707e4c196fd2"><div class="ttname"><a href="namespaceMR_1_1Image.html#aa568487b705b121bc558707e4c196fd2">MR::Image::dimensions_match</a></div><div class="ttdeci">bool dimensions_match(const InfoType1 &amp;in1, const InfoType2 &amp;in2)</div><div class="ttdef"><b>Definition:</b> <a href="image_2utils_8h_source.html#l00115">utils.h:115</a></div></div>
-<div class="ttc" id="classMR_1_1DataType_html_a919f65f2da32b5f8ec66923c4e0c9b6a"><div class="ttname"><a href="classMR_1_1DataType.html#a919f65f2da32b5f8ec66923c4e0c9b6a">MR::DataType::Bit</a></div><div class="ttdeci">static const uint8_t Bit</div><div class="ttdef"><b>Definition:</b> <a href="datatype_8h_source.html#l00137">datatype.h:137</a></div></div>
 <div class="ttc" id="namespaceMR_1_1Image_html_a0d2e379b44b5998271f0b5dd9b017397"><div class="ttname"><a href="namespaceMR_1_1Image.html#a0d2e379b44b5998271f0b5dd9b017397">MR::Image::is_complex</a></div><div class="ttdeci">bool is_complex(const InfoType &amp;)</div><div class="ttdoc">return whether the InfoType contains complex data </div><div class="ttdef"><b>Definition:</b> <a href="image_2utils_8h_source.html#l00108">utils.h:108</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_b6efcb2e320fb2ab4af542efc2d3a1ed.html">lib</a></li><li class="navelem"><a class="el" href="dir_a92aeb402a71a6c2d932bc55b03bb554.html">image</a></li><li class="navelem"><a class="el" href="image_2utils_8h.html">utils.h</a></li>
-    <li class="footer">Generated on Wed Apr 1 2015 14:53:43 for MRtrix by
+    <li class="navelem"><a class="el" href="dir_d04b53703454d06826407a3fa8e7e294.html">lib</a></li><li class="navelem"><a class="el" href="dir_3bc6d3089672ebb90f7fa9b6ba0d7cc5.html">image</a></li><li class="navelem"><a class="el" href="image_2utils_8h.html">utils.h</a></li>
+    <li class="footer">Generated on Mon Apr 27 2015 17:39:23 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

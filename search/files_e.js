@@ -18,6 +18,5 @@ var searchData=
   ['progressbar_2eh',['progressbar.h',['../progressbar_8h.html',1,'']]],
   ['project_5fversion_2eh',['project_version.h',['../project__version_8h.html',1,'']]],
   ['projection_2eh',['projection.h',['../projection_8h.html',1,'']]],
-  ['properties_2eh',['properties.h',['../properties_8h.html',1,'']]],
-  ['ptr_2eh',['ptr.h',['../ptr_8h.html',1,'']]]
+  ['properties_2eh',['properties.h',['../properties_8h.html',1,'']]]
 ];

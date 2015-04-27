@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">MRtrix
-   &#160;<span id="projectnumber">0.3.12-304-g9979917d</span>
+   &#160;<span id="projectnumber">0.3.12-365-ged27dfbe</span>
    </div>
    <div id="projectbrief">MRtrix provides a set of tools to perform diffusion-weighted MR white-matter tractography in a manner robust to crossing fibres, using constrained spherical deconvolution (CSD) and probabilistic streamlines.</div>
   </td>
@@ -195,10 +195,10 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:afff7fef7bfb55722de309d229e1fd5b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaade66e8ff838a4441c0f9be7981b592"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TrackMapperBase.html#aaade66e8ff838a4441c0f9be7981b592">ends_only</a></td></tr>
 <tr class="separator:aaade66e8ff838a4441c0f9be7981b592"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9306d34c1757cbf9aab51e5231370970"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1RefPtr.html">RefPtr</a>&lt; <a class="el" href="classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1DixelMappingPlugin.html">DixelMappingPlugin</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TrackMapperBase.html#a9306d34c1757cbf9aab51e5231370970">dixel_plugin</a></td></tr>
-<tr class="separator:a9306d34c1757cbf9aab51e5231370970"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa5aa3a6509477f546c245564f0abc8a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1RefPtr.html">RefPtr</a>&lt; <a class="el" href="classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TODMappingPlugin.html">TODMappingPlugin</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TrackMapperBase.html#aa5aa3a6509477f546c245564f0abc8a7">tod_plugin</a></td></tr>
-<tr class="separator:aa5aa3a6509477f546c245564f0abc8a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f5a8c4425bb876420b43ebece8d85d2"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1DixelMappingPlugin.html">DixelMappingPlugin</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TrackMapperBase.html#a7f5a8c4425bb876420b43ebece8d85d2">dixel_plugin</a></td></tr>
+<tr class="separator:a7f5a8c4425bb876420b43ebece8d85d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a550fedebb454b4dd2aca1b75b8cc5b29"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TODMappingPlugin.html">TODMappingPlugin</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TrackMapperBase.html#a550fedebb454b4dd2aca1b75b8cc5b29">tod_plugin</a></td></tr>
+<tr class="separator:a550fedebb454b4dd2aca1b75b8cc5b29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f50a1ebd23fabdcc41379a0ba1c9829"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1DWI_1_1Tractography_1_1Upsampler.html">Upsampler</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TrackMapperBase.html#a9f50a1ebd23fabdcc41379a0ba1c9829">upsampler</a></td></tr>
 <tr class="separator:a9f50a1ebd23fabdcc41379a0ba1c9829"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -780,7 +780,7 @@ template&lt;class Cont &gt; </div>
 
 <p>References <a class="el" href="resample_8h_source.html#l00106">MR::DWI::Tractography::Upsampler&lt; T &gt;::set_ratio()</a>, and <a class="el" href="src_2dwi_2tractography_2mapping_2mapper_8h_source.html#l00179">upsampler</a>.</p>
 
-<p>Referenced by <a class="el" href="dwi_2tractography_2SIFT_2model_8h_source.html#l00176">MR::DWI::Tractography::SIFT::Model&lt; Fixel &gt;::map_streamlines()</a>, and <a class="el" href="model__base_8h_source.html#l00268">MR::DWI::Tractography::SIFT::ModelBase&lt; Fixel &gt;::map_streamlines()</a>.</p>
+<p>Referenced by <a class="el" href="dwi_2tractography_2SIFT_2model_8h_source.html#l00174">MR::DWI::Tractography::SIFT::Model&lt; Fixel &gt;::map_streamlines()</a>, and <a class="el" href="model__base_8h_source.html#l00263">MR::DWI::Tractography::SIFT::ModelBase&lt; Fixel &gt;::map_streamlines()</a>.</p>
 
 </div>
 </div>
@@ -810,7 +810,7 @@ template&lt;class Cont &gt; </div>
 
 <p>References <a class="el" href="src_2dwi_2tractography_2mapping_2mapper_8h_source.html#l00151">ends_only</a>, and <a class="el" href="src_2dwi_2tractography_2mapping_2mapper_8h_source.html#l00150">precise</a>.</p>
 
-<p>Referenced by <a class="el" href="dwi_2tractography_2SIFT_2model_8h_source.html#l00176">MR::DWI::Tractography::SIFT::Model&lt; Fixel &gt;::map_streamlines()</a>, and <a class="el" href="model__base_8h_source.html#l00268">MR::DWI::Tractography::SIFT::ModelBase&lt; Fixel &gt;::map_streamlines()</a>.</p>
+<p>Referenced by <a class="el" href="dwi_2tractography_2SIFT_2model_8h_source.html#l00174">MR::DWI::Tractography::SIFT::Model&lt; Fixel &gt;::map_streamlines()</a>, and <a class="el" href="model__base_8h_source.html#l00263">MR::DWI::Tractography::SIFT::ModelBase&lt; Fixel &gt;::map_streamlines()</a>.</p>
 
 </div>
 </div>
@@ -975,7 +975,7 @@ template&lt;class Cont &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a9306d34c1757cbf9aab51e5231370970"></a>
+<a class="anchor" id="a7f5a8c4425bb876420b43ebece8d85d2"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -983,7 +983,7 @@ template&lt;class Cont &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMR_1_1RefPtr.html">RefPtr</a>&lt;<a class="el" href="classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1DixelMappingPlugin.html">DixelMappingPlugin</a>&gt; MR::DWI::Tractography::Mapping::TrackMapperBase::dixel_plugin</td>
+          <td class="memname">std::shared_ptr&lt;<a class="el" href="classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1DixelMappingPlugin.html">DixelMappingPlugin</a>&gt; MR::DWI::Tractography::Mapping::TrackMapperBase::dixel_plugin</td>
         </tr>
       </table>
   </td>
@@ -1095,7 +1095,7 @@ template&lt;class Cont &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="aa5aa3a6509477f546c245564f0abc8a7"></a>
+<a class="anchor" id="a550fedebb454b4dd2aca1b75b8cc5b29"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1103,7 +1103,7 @@ template&lt;class Cont &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMR_1_1RefPtr.html">RefPtr</a>&lt;<a class="el" href="classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TODMappingPlugin.html">TODMappingPlugin</a>&gt; MR::DWI::Tractography::Mapping::TrackMapperBase::tod_plugin</td>
+          <td class="memname">std::shared_ptr&lt;<a class="el" href="classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TODMappingPlugin.html">TODMappingPlugin</a>&gt; MR::DWI::Tractography::Mapping::TrackMapperBase::tod_plugin</td>
         </tr>
       </table>
   </td>
@@ -1176,7 +1176,7 @@ template&lt;class Cont &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="namespaceMR_1_1DWI.html">DWI</a></li><li class="navelem"><a class="el" href="namespaceMR_1_1DWI_1_1Tractography.html">Tractography</a></li><li class="navelem"><a class="el" href="namespaceMR_1_1DWI_1_1Tractography_1_1Mapping.html">Mapping</a></li><li class="navelem"><a class="el" href="classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TrackMapperBase.html">TrackMapperBase</a></li>
-    <li class="footer">Generated on Wed Apr 1 2015 14:53:44 for MRtrix by
+    <li class="footer">Generated on Mon Apr 27 2015 17:39:24 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

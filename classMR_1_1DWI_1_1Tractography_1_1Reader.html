@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">MRtrix
-   &#160;<span id="projectnumber">0.3.12-304-g9979917d</span>
+   &#160;<span id="projectnumber">0.3.12-365-ged27dfbe</span>
    </div>
    <div id="projectbrief">MRtrix provides a set of tools to perform diffusion-weighted MR white-matter tractography in a manner robust to crossing fibres, using constrained spherical deconvolution (CSD) and probabilistic streamlines.</div>
   </td>
@@ -162,8 +162,8 @@ Protected Member Functions</h2></td></tr>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a4bcb0f8b7925fb24f9a7a5b3f63d67ad"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1DWI_1_1Tractography_1_1Reader.html#a4bcb0f8b7925fb24f9a7a5b3f63d67ad">current_index</a></td></tr>
 <tr class="separator:a4bcb0f8b7925fb24f9a7a5b3f63d67ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9fee441849f5148a81d0df0debaacb6d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Ptr.html">Ptr</a>&lt; std::ifstream &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1DWI_1_1Tractography_1_1Reader.html#a9fee441849f5148a81d0df0debaacb6d">weights_file</a></td></tr>
-<tr class="separator:a9fee441849f5148a81d0df0debaacb6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a609234e5b1be5ff4fe68618759c2d19b"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; std::ifstream &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1DWI_1_1Tractography_1_1Reader.html#a609234e5b1be5ff4fe68618759c2d19b">weights_file</a></td></tr>
+<tr class="separator:a609234e5b1be5ff4fe68618759c2d19b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename T = float&gt;<br />
@@ -171,7 +171,7 @@ class MR::DWI::Tractography::Reader&lt; T &gt;</h3>
 
 <p>A class to read streamlines data. </p>
 
-<p>Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00052">52</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
+<p>Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00053">53</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="a74bb94a75624b2eedc5838798c85837e"></a>
 <div class="memitem">
@@ -185,7 +185,7 @@ template&lt;typename T = float&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00055">55</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
+<p>Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00056">56</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
 
 </div>
 </div>
@@ -226,7 +226,7 @@ template&lt;typename T = float&gt; </div>
 
 <p>open the <code>file</code> for reading and load header into <code>properties</code> </p>
 
-<p>Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00058">58</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
+<p>Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00059">59</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
 
 </div>
 </div>
@@ -282,9 +282,9 @@ template&lt;typename T = float&gt; </div>
 
 <p>Check that the weights file does not contain excess entries. </p>
 
-<p>Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00163">163</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
+<p>Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00164">164</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
 
-<p>Referenced by <a class="el" href="dwi_2tractography_2file_8h_source.html#l00071">MR::DWI::Tractography::Reader&lt; float &gt;::operator()()</a>.</p>
+<p>Referenced by <a class="el" href="dwi_2tractography_2file_8h_source.html#l00072">MR::DWI::Tractography::Reader&lt; float &gt;::operator()()</a>.</p>
 
 </div>
 </div>
@@ -313,9 +313,9 @@ template&lt;typename T = float&gt; </div>
 
 <p>takes care of byte ordering issues </p>
 
-<p>Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00127">127</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
+<p>Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00128">128</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
 
-<p>Referenced by <a class="el" href="dwi_2tractography_2file_8h_source.html#l00071">MR::DWI::Tractography::Reader&lt; float &gt;::operator()()</a>.</p>
+<p>Referenced by <a class="el" href="dwi_2tractography_2file_8h_source.html#l00072">MR::DWI::Tractography::Reader&lt; float &gt;::operator()()</a>.</p>
 
 </div>
 </div>
@@ -345,7 +345,7 @@ template&lt;typename T = float&gt; </div>
 
 <p>fetch next track from file </p>
 
-<p>Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00071">71</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
+<p>Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00072">72</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
 
 </div>
 </div>
@@ -370,13 +370,13 @@ template&lt;typename T = float&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00123">123</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
+<p>Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00124">124</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
 
-<p>Referenced by <a class="el" href="dwi_2tractography_2file_8h_source.html#l00071">MR::DWI::Tractography::Reader&lt; float &gt;::operator()()</a>.</p>
+<p>Referenced by <a class="el" href="dwi_2tractography_2file_8h_source.html#l00072">MR::DWI::Tractography::Reader&lt; float &gt;::operator()()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a9fee441849f5148a81d0df0debaacb6d"></a>
+<a class="anchor" id="a609234e5b1be5ff4fe68618759c2d19b"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -386,7 +386,7 @@ template&lt;typename T = float&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMR_1_1Ptr.html">Ptr</a>&lt;std::ifstream&gt; <a class="el" href="classMR_1_1DWI_1_1Tractography_1_1Reader.html">MR::DWI::Tractography::Reader</a>&lt; T &gt;::weights_file</td>
+          <td class="memname">std::unique_ptr&lt;std::ifstream&gt; <a class="el" href="classMR_1_1DWI_1_1Tractography_1_1Reader.html">MR::DWI::Tractography::Reader</a>&lt; T &gt;::weights_file</td>
         </tr>
       </table>
   </td>
@@ -396,9 +396,9 @@ template&lt;typename T = float&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00124">124</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
+<p>Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00125">125</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
 
-<p>Referenced by <a class="el" href="dwi_2tractography_2file_8h_source.html#l00071">MR::DWI::Tractography::Reader&lt; float &gt;::operator()()</a>, and <a class="el" href="dwi_2tractography_2file_8h_source.html#l00058">MR::DWI::Tractography::Reader&lt; float &gt;::Reader()</a>.</p>
+<p>Referenced by <a class="el" href="dwi_2tractography_2file_8h_source.html#l00072">MR::DWI::Tractography::Reader&lt; float &gt;::operator()()</a>, and <a class="el" href="dwi_2tractography_2file_8h_source.html#l00059">MR::DWI::Tractography::Reader&lt; float &gt;::Reader()</a>.</p>
 
 </div>
 </div>
@@ -411,7 +411,7 @@ template&lt;typename T = float&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="namespaceMR_1_1DWI.html">DWI</a></li><li class="navelem"><a class="el" href="namespaceMR_1_1DWI_1_1Tractography.html">Tractography</a></li><li class="navelem"><a class="el" href="classMR_1_1DWI_1_1Tractography_1_1Reader.html">Reader</a></li>
-    <li class="footer">Generated on Wed Apr 1 2015 14:53:44 for MRtrix by
+    <li class="footer">Generated on Mon Apr 27 2015 17:39:24 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>
