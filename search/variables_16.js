@@ -8,7 +8,7 @@ var searchData=
   ['weights_5fname',['weights_name',['../classMR_1_1DWI_1_1Tractography_1_1WriterUnbuffered.html#a926d99efd3022f102a7ce58ce3a821e5',1,'MR::DWI::Tractography::WriterUnbuffered']]],
   ['weightsoption',['WeightsOption',['../namespaceMR_1_1DWI_1_1Tractography_1_1Editing.html#a80b42790d4310f20c3a057547de22dfe',1,'MR::DWI::Tractography::Editing']]],
   ['width',['width',['../structmgh__header.html#a123e44959c11ac0c0fe71ad6071c32c4',1,'mgh_header::width()'],['../classMR_1_1GUI_1_1MRView_1_1ColourMap_1_1Renderer.html#af1ae5ba7e2d00bfde53f5549dade6bd7',1,'MR::GUI::MRView::ColourMap::Renderer::width()']]],
-  ['window',['window',['../classMR_1_1GUI_1_1Cursor.html#a5f69feed677bde45e12ac6c0a86066a4',1,'MR::GUI::Cursor::window()'],['../classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base.html#a1b855aa8622b34be1b87c46d92983f97',1,'MR::GUI::MRView::Mode::Base::window()'],['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html#ab82014a4021d015a10d04153796111ee',1,'MR::GUI::MRView::Tool::Base::window()']]],
+  ['window',['window',['../classMR_1_1GUI_1_1Cursor.html#a5f69feed677bde45e12ac6c0a86066a4',1,'MR::GUI::Cursor']]],
   ['window_5fsize',['window_size',['../classMR_1_1Image_1_1Interp_1_1Sinc.html#ac096455d4a85faa0afb92a133e106985',1,'MR::Image::Interp::Sinc']]],
   ['work',['work',['../classMR_1_1Math_1_1Eigen_1_1Symm.html#aa4265e3b988e86db19829b4d00c55b76',1,'MR::Math::Eigen::Symm::work()'],['../classMR_1_1Math_1_1Eigen_1_1SymmV.html#abdaf28d2d3d238ad61cef54b8d6a3937',1,'MR::Math::Eigen::SymmV::work()'],['../classMR_1_1DWI_1_1CSDeconv.html#ad2f1fa70375d31d62c13ba61f2b3beef',1,'MR::DWI::CSDeconv::work()']]],
   ['workspace',['workspace',['../classMR_1_1Math_1_1FFT.html#a3ff5f31b362570b5613d5c975fd7efb2',1,'MR::Math::FFT']]],

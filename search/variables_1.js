@@ -19,12 +19,13 @@ var searchData=
   ['amp',['amp',['../calibrator_8h.html#a9ef9c0df3c8c7795aade812f23131b6d',1,'calibrator.h']]],
   ['amplitude',['amplitude',['../classMR_1_1GUI_1_1MRView_1_1ColourMap_1_1Entry.html#a2d024dd9a1d3ecbf9463001c1e012cb4',1,'MR::GUI::MRView::ColourMap::Entry']]],
   ['anat_5fdata',['anat_data',['../classMR_1_1DWI_1_1Tractography_1_1Seeding_1_1GMWMI__5TT__Wrapper.html#a84b23187c34a7e52e9b8e60c4b8b0b5d',1,'MR::DWI::Tractography::Seeding::GMWMI_5TT_Wrapper']]],
+  ['application',['application',['../classMR_1_1GUI_1_1App.html#af6fd20a49b31d3265daad9b2b1b006a3',1,'MR::GUI::App']]],
   ['argc',['argc',['../namespaceMR_1_1App.html#a720565b90cbeea3c197ad5fb19dd1e46',1,'MR::App']]],
   ['args',['args',['../group__CmdParse.html#ga492da2a6e9245b11c59e164186f73510',1,'MR::App::ParsedOption']]],
   ['argument',['argument',['../group__CmdParse.html#gaaa19a69ac07d1173c6bd3e667600fb6a',1,'MR::App']]],
   ['arguments',['ARGUMENTS',['../namespaceMR_1_1App.html#aebb09da9ab1a53e73b575b2e52b4dbc0',1,'MR::App']]],
   ['argv',['argv',['../namespaceMR_1_1App.html#a3939bd279a43dfe9b1604198044851f2',1,'MR::App']]],
-  ['assignmentoption',['AssignmentOption',['../namespaceMR_1_1DWI_1_1Tractography_1_1Connectomics.html#aea29d4e72744e59bcc1101fec9dc618c',1,'MR::DWI::Tractography::Connectomics']]],
+  ['assignmentoption',['AssignmentOption',['../namespaceMR_1_1DWI_1_1Tractography_1_1Connectome.html#a64c6b48f5bcdf6d9b5ef939ae2938098',1,'MR::DWI::Tractography::Connectome']]],
   ['attachshader',['AttachShader',['../namespacegl.html#a1b02159f10e041210b63ee07926c1cd7',1,'gl']]],
   ['attributes',['Attributes',['../classMR_1_1DataType.html#affd3f82033ab4c0a7d41b88a84150400',1,'MR::DataType']]],
   ['author',['AUTHOR',['../namespaceMR_1_1App.html#a56b22fa8e19eb68dacf817b185d0b386',1,'MR::App']]],
@@ -37,5 +38,5 @@ var searchData=
   ['axes_5fvb',['axes_VB',['../classMR_1_1GUI_1_1DWI_1_1RenderFrame.html#aa40caa4a0a3b24d3e3bdbd78f1eac8d2',1,'MR::GUI::DWI::RenderFrame']]],
   ['axis',['axis',['../classMR_1_1Image_1_1Adapter_1_1Gaussian1D.html#a581d92bc99b65d65fe400961f960ee11',1,'MR::Image::Adapter::Gaussian1D::axis()'],['../group__Filters.html#ga950f1c4e6d9bd2a10b24acad4967c110',1,'MR::Image::Filter::FFT::FFTKernel::axis()'],['../classMR_1_1Image_1_1Position.html#abf1cd15ab86fc56237673b6268ad0ed1',1,'MR::Image::Position::axis()'],['../classMR_1_1DWI_1_1NoiseEstimatorFunctor.html#aceaf62522d7a92b8a2a6bade8d3af9b0',1,'MR::DWI::NoiseEstimatorFunctor::axis()']]],
   ['axis_5f',['axis_',['../classMR_1_1Image_1_1Adapter_1_1Gradient1D.html#a5bf028c53e37699d4d78460fb022cbea',1,'MR::Image::Adapter::Gradient1D']]],
-  ['azimuth_5fslider',['azimuth_slider',['../classMR_1_1GUI_1_1Dialog_1_1LightingSettings.html#aa8ab5c14b251006b2cead8a219378e38',1,'MR::GUI::Dialog::LightingSettings']]]
+  ['azimuth_5fslider',['azimuth_slider',['../classMR_1_1GUI_1_1LightingSettings.html#a8d78a27a92cbf1035a7fe70fea3c881f',1,'MR::GUI::LightingSettings']]]
 ];

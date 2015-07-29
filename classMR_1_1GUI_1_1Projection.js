@@ -1,6 +1,6 @@
 var classMR_1_1GUI_1_1Projection =
 [
-    [ "Projection", "classMR_1_1GUI_1_1Projection.html#ae48ba0f1c26cd1d7b4960c315fd3ba81", null ],
+    [ "Projection", "classMR_1_1GUI_1_1Projection.html#af2f8460f041d481d9abaa7cf140462f6", null ],
     [ "depth_of", "classMR_1_1GUI_1_1Projection.html#a41145e2e5c40e245b61cb34528416d26", null ],
     [ "done_render_text", "classMR_1_1GUI_1_1Projection.html#abf6efd4fc764adf6a35b0bb1b08c3a39", null ],
     [ "draw_orientation_labels", "classMR_1_1GUI_1_1Projection.html#af3235d10fbefe23c48af2e82888b79f7", null ],
@@ -42,7 +42,7 @@ var classMR_1_1GUI_1_1Projection =
     [ "crosshairs_VAO", "classMR_1_1GUI_1_1Projection.html#ae2d6df8ea63e40f0ba507a825dbf5899", null ],
     [ "crosshairs_VB", "classMR_1_1GUI_1_1Projection.html#aa3c4ad4dc4d153778f4885ce652341fa", null ],
     [ "font", "classMR_1_1GUI_1_1Projection.html#a93ee876e39537588e0eb61003fca6b23", null ],
-    [ "glarea", "classMR_1_1GUI_1_1Projection.html#aace8c62f9fc21c095cd813f71f74ed36", null ],
+    [ "glarea", "classMR_1_1GUI_1_1Projection.html#a039f32622bbf9da45743018e2ea35f4b", null ],
     [ "iMV", "classMR_1_1GUI_1_1Projection.html#a0e4d83cd0cf5f6f39f40dcafe479cade", null ],
     [ "iMVP", "classMR_1_1GUI_1_1Projection.html#a3873f000636ed199816f6963b4e52749", null ],
     [ "iP", "classMR_1_1GUI_1_1Projection.html#a517fb85be1e08f36942ce50943f192e2", null ],

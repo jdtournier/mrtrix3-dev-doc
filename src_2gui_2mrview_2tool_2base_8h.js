@@ -10,5 +10,5 @@ var src_2gui_2mrview_2tool_2base_8h =
     [ "__STR", "src_2gui_2mrview_2tool_2base_8h.html#af3192660ce6b091819a6f5db69b8d54f", null ],
     [ "__STR__", "src_2gui_2mrview_2tool_2base_8h.html#ab1c719d72953053ecea4915641ad3567", null ],
     [ "LAYOUT_SPACING", "src_2gui_2mrview_2tool_2base_8h.html#a2f50957f8d7bcda87b9df75e447b508c", null ],
-    [ "create", "src_2gui_2mrview_2tool_2base_8h.html#a7e0820a6449c26bad3de062bc5feb348", null ]
+    [ "create", "src_2gui_2mrview_2tool_2base_8h.html#a095cca68399b05acf2bee11a9fccfdb8", null ]
 ];

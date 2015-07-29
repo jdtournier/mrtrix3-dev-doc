@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['kernel',['Kernel',['../classMR_1_1Image_1_1Histogram.html#a3807a3ebd0e05ca8cb4d928025a943d2',1,'MR::Image::Histogram']]]
+  ['get_5foptions',['get_options',['../group__CmdParse.html#ga1389075e9edd32c0c9cb902ea38b6e03',1,'MR::App::Options']]]
 ];

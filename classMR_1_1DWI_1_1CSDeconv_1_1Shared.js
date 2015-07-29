@@ -14,6 +14,7 @@ var classMR_1_1DWI_1_1CSDeconv_1_1Shared =
     [ "init_filter", "classMR_1_1DWI_1_1CSDeconv_1_1Shared.html#a0a2de7045667266ad5770559ba3bae73", null ],
     [ "lmax", "classMR_1_1DWI_1_1CSDeconv_1_1Shared.html#a9c3dce3f31a8703bd7953fb9933cccb4", null ],
     [ "lmax_data", "classMR_1_1DWI_1_1CSDeconv_1_1Shared.html#a20af49888f6225cb42d37e739d7c66dd", null ],
+    [ "lmax_response", "classMR_1_1DWI_1_1CSDeconv_1_1Shared.html#a8dfe46164d49a6ae583ff13e0ca9e79b", null ],
     [ "M", "classMR_1_1DWI_1_1CSDeconv_1_1Shared.html#af1304077e5171030eb789f8eb99759de", null ],
     [ "Mt_M", "classMR_1_1DWI_1_1CSDeconv_1_1Shared.html#a02fc39d81b616622151d11f5723bd979", null ],
     [ "neg_lambda", "classMR_1_1DWI_1_1CSDeconv_1_1Shared.html#aad3e5b6b060d4e89c1ba74f99ea4786b", null ],

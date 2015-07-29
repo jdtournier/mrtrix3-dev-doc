@@ -5,6 +5,7 @@ var searchData=
   ['v_5fmin',['V_MIN',['../namespaceMR_1_1DWI_1_1Tractography_1_1Mapping.html#a11697b8a24621d1aab532b3f6af729bbad357ae99bf8e6388343a5ad2e002e6fb',1,'MR::DWI::Tractography::Mapping']]],
   ['v_5fsum',['V_SUM',['../namespaceMR_1_1DWI_1_1Tractography_1_1Mapping.html#a11697b8a24621d1aab532b3f6af729bba6a371889661981da84b47550a804d1e7',1,'MR::DWI::Tractography::Mapping']]],
   ['validate_5fstatus',['VALIDATE_STATUS',['../namespacegl.html#a91e4b8acdd36437953f66b651634fce6af7b88b004bea18458df9914ec2fd6449',1,'gl']]],
+  ['vector_5ffile',['VECTOR_FILE',['../namespaceMR_1_1GUI_1_1MRView_1_1Tool.html#a82711adfcd2d5eb552d65bbd3e11e6caa94871beef89e45cc91c8c2f5cba83bfd',1,'MR::GUI::MRView::Tool::VECTOR_FILE()'],['../namespaceMR_1_1GUI_1_1MRView_1_1Tool.html#adb27f0866f8206c4bc6f29bda852be4ba94871beef89e45cc91c8c2f5cba83bfd',1,'MR::GUI::MRView::Tool::VECTOR_FILE()'],['../namespaceMR_1_1GUI_1_1MRView_1_1Tool.html#a3311291cbca4b2603609de2c12d5d7e0a94871beef89e45cc91c8c2f5cba83bfd',1,'MR::GUI::MRView::Tool::VECTOR_FILE()'],['../namespaceMR_1_1GUI_1_1MRView_1_1Tool.html#af011816b3b5600155294c9d21505178aa94871beef89e45cc91c8c2f5cba83bfd',1,'MR::GUI::MRView::Tool::VECTOR_FILE()']]],
   ['vendor',['VENDOR',['../namespacegl.html#a91e4b8acdd36437953f66b651634fce6af8bead5e3142d6f16cc990a61af53740',1,'gl']]],
   ['version',['VERSION',['../namespacegl.html#a91e4b8acdd36437953f66b651634fce6ab62b8e2992a0c49ad3fe58b8d1698ac0',1,'gl']]],
   ['vertex_5farray_5fbinding',['VERTEX_ARRAY_BINDING',['../namespacegl.html#a91e4b8acdd36437953f66b651634fce6a094af1e5266c4ee3e8232bb20d7c6c11',1,'gl']]],
@@ -19,5 +20,6 @@ var searchData=
   ['vertex_5fattrib_5farray_5ftype',['VERTEX_ATTRIB_ARRAY_TYPE',['../namespacegl.html#a91e4b8acdd36437953f66b651634fce6ab2ba3bac71bc00c14bc2b23c33fab437',1,'gl']]],
   ['vertex_5fprogram_5fpoint_5fsize',['VERTEX_PROGRAM_POINT_SIZE',['../namespacegl.html#a91e4b8acdd36437953f66b651634fce6abb7f8d983730efad8d5220ef5937ae6d',1,'gl']]],
   ['vertex_5fshader',['VERTEX_SHADER',['../namespacegl.html#a91e4b8acdd36437953f66b651634fce6a1ab575ed28c7f4c389f5a1d93081babb',1,'gl']]],
-  ['viewport',['VIEWPORT',['../namespacegl.html#a91e4b8acdd36437953f66b651634fce6a4fb9b0b9cca3b65e34401c6fecf9bf41',1,'gl']]]
+  ['viewport',['VIEWPORT',['../namespacegl.html#a91e4b8acdd36437953f66b651634fce6a4fb9b0b9cca3b65e34401c6fecf9bf41',1,'gl']]],
+  ['visible_5fnodes',['VISIBLE_NODES',['../namespaceMR_1_1GUI_1_1MRView_1_1Tool.html#a4c5768658fab097817689a9c6de487e2abc73d027080ed95fc36b0b0fd88b86e9',1,'MR::GUI::MRView::Tool']]]
 ];

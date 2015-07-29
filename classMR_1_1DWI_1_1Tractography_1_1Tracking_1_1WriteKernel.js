@@ -5,6 +5,8 @@ var classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1WriteKernel =
     [ "~WriteKernel", "classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1WriteKernel.html#ae98ab1ab7ec715331548a91153c5fa12", null ],
     [ "complete", "classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1WriteKernel.html#ab7d1257f0150dac4f8de9c4a89b35806", null ],
     [ "operator()", "classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1WriteKernel.html#a014899c78e7fe7d0ae910d58facbefbf", null ],
+    [ "operator=", "classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1WriteKernel.html#aeb778811b87716fec857f903266fc266", null ],
+    [ "finite_seeds", "classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1WriteKernel.html#ad62aff7bc5fe82c10c01928c07bbda76", null ],
     [ "progress", "classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1WriteKernel.html#ac162feab6150932f3051b817b433c609", null ],
     [ "S", "classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1WriteKernel.html#aebbd58c495383ecd0b5d523e22bbc6f6", null ],
     [ "seeds", "classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1WriteKernel.html#afe66e64f6ae2814b7be3d671a60610f1", null ],

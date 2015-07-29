@@ -6,6 +6,7 @@ var structMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI__UndoEntry =
     [ "draw_fill", "structMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI__UndoEntry.html#ae3df1494c2824d16e4113f4d9bd29098", null ],
     [ "draw_line", "structMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI__UndoEntry.html#aa19b608d0dfefdf6eff582b247f6fde6", null ],
     [ "draw_rectangle", "structMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI__UndoEntry.html#a9aa85c8cf725687ea43750fa0a84b8b9", null ],
+    [ "draw_thick_line", "structMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI__UndoEntry.html#a91e0f518892d3962dfe409e3684346d2", null ],
     [ "redo", "structMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI__UndoEntry.html#ab0e723f18b9338043ee17b6ece1478f6", null ],
     [ "undo", "structMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI__UndoEntry.html#a3bce1db70a3a2a5b395d9dfef6d15fa5", null ],
     [ "after", "structMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI__UndoEntry.html#a4a9375b069ee582d7b8c1713b127dca5", null ],

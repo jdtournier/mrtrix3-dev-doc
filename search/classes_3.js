@@ -5,6 +5,10 @@ var searchData=
   ['clipplane',['ClipPlane',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1ClipPlane.html',1,'MR::GUI::MRView::Tool']]],
   ['cluster',['cluster',['../classMR_1_1Image_1_1Filter_1_1cluster.html',1,'MR::Image::Filter']]],
   ['clustersize',['ClusterSize',['../classMR_1_1Stats_1_1Cluster_1_1ClusterSize.html',1,'MR::Stats::Cluster']]],
+  ['coefficientoptimiserbase',['CoefficientOptimiserBase',['../classMR_1_1DWI_1_1Tractography_1_1SIFT2_1_1CoefficientOptimiserBase.html',1,'MR::DWI::Tractography::SIFT2']]],
+  ['coefficientoptimisergss',['CoefficientOptimiserGSS',['../classMR_1_1DWI_1_1Tractography_1_1SIFT2_1_1CoefficientOptimiserGSS.html',1,'MR::DWI::Tractography::SIFT2']]],
+  ['coefficientoptimiseriterative',['CoefficientOptimiserIterative',['../classMR_1_1DWI_1_1Tractography_1_1SIFT2_1_1CoefficientOptimiserIterative.html',1,'MR::DWI::Tractography::SIFT2']]],
+  ['coefficientoptimiserqls',['CoefficientOptimiserQLS',['../classMR_1_1DWI_1_1Tractography_1_1SIFT2_1_1CoefficientOptimiserQLS.html',1,'MR::DWI::Tractography::SIFT2']]],
   ['colourmapbutton',['ColourMapButton',['../classMR_1_1GUI_1_1MRView_1_1ColourMapButton.html',1,'MR::GUI::MRView']]],
   ['colourmapbuttonobserver',['ColourMapButtonObserver',['../classMR_1_1GUI_1_1MRView_1_1ColourMapButtonObserver.html',1,'MR::GUI::MRView']]],
   ['comboboxwitherrormsg',['ComboBoxWithErrorMsg',['../classMR_1_1GUI_1_1MRView_1_1ComboBoxWithErrorMsg.html',1,'MR::GUI::MRView']]],
@@ -12,7 +16,7 @@ var searchData=
   ['config',['Config',['../classMR_1_1File_1_1Config.html',1,'MR::File']]],
   ['connectedcomponents',['ConnectedComponents',['../classMR_1_1Image_1_1Filter_1_1ConnectedComponents.html',1,'MR::Image::Filter']]],
   ['connectivity',['connectivity',['../classMR_1_1Stats_1_1CFE_1_1connectivity.html',1,'MR::Stats::CFE']]],
-  ['connectome',['Connectome',['../classMR_1_1DWI_1_1Tractography_1_1Connectomics_1_1Connectome.html',1,'MR::DWI::Tractography::Connectomics']]],
+  ['connectome',['Connectome',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1Connectome.html',1,'MR::GUI::MRView::Tool']]],
   ['connector',['Connector',['../classMR_1_1Image_1_1Filter_1_1Connector.html',1,'MR::Image::Filter']]],
   ['constheader',['ConstHeader',['../classMR_1_1Image_1_1ConstHeader.html',1,'MR::Image']]],
   ['constinfo',['ConstInfo',['../classMR_1_1Image_1_1ConstInfo.html',1,'MR::Image']]],
@@ -25,6 +29,8 @@ var searchData=
   ['csaentry',['CSAEntry',['../classMR_1_1File_1_1Dicom_1_1CSAEntry.html',1,'MR::File::Dicom']]],
   ['csdeconv',['CSDeconv',['../classMR_1_1DWI_1_1CSDeconv.html',1,'MR::DWI']]],
   ['csdeconv_3c_20float_20_3e',['CSDeconv&lt; float &gt;',['../classMR_1_1DWI_1_1CSDeconv.html',1,'MR::DWI']]],
+  ['cube',['Cube',['../classMR_1_1GUI_1_1Shapes_1_1Cube.html',1,'MR::GUI::Shapes']]],
   ['cubic',['Cubic',['../classMR_1_1Image_1_1Interp_1_1Cubic.html',1,'MR::Image::Interp']]],
-  ['cursor',['Cursor',['../classMR_1_1GUI_1_1Cursor.html',1,'MR::GUI']]]
+  ['cursor',['Cursor',['../classMR_1_1GUI_1_1Cursor.html',1,'MR::GUI']]],
+  ['cylinder',['Cylinder',['../classMR_1_1GUI_1_1Shapes_1_1Cylinder.html',1,'MR::GUI::Shapes']]]
 ];

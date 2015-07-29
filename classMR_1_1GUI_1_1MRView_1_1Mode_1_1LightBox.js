@@ -1,6 +1,6 @@
 var classMR_1_1GUI_1_1MRView_1_1Mode_1_1LightBox =
 [
-    [ "LightBox", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1LightBox.html#a93c28ae3649e286537a3bcb5de28c009", null ],
+    [ "LightBox", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1LightBox.html#ab66d3899dd1fca63afddd2046868a89c", null ],
     [ "draw_plane_primitive", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1LightBox.html#a8eca5853f5ca70ebda513237bbe99fba", null ],
     [ "get_current_projection", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1LightBox.html#a566f1d3c3be95da242e75879534487af", null ],
     [ "image_changed_event", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1LightBox.html#ab3433d48f2f1f93e68ef659fb5f01927", null ],

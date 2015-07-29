@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">MRtrix
-   &#160;<span id="projectnumber">0.3.12-365-ged27dfbe</span>
+   &#160;<span id="projectnumber">0.3.12-732-g65ed7a3c</span>
    </div>
    <div id="projectbrief">MRtrix provides a set of tools to perform diffusion-weighted MR white-matter tractography in a manner robust to crossing fibres, using constrained spherical deconvolution (CSD) and probabilistic streamlines.</div>
   </td>
@@ -116,6 +116,7 @@ $(document).ready(function(){initNavTree('classMR_1_1GUI_1_1MRView_1_1Window.htm
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#friends">Friends</a> &#124;
 <a href="classMR_1_1GUI_1_1MRView_1_1Window-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -134,6 +135,11 @@ Inheritance diagram for MR::GUI::MRView::Window:</div>
 </map>
  </div></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1GUI_1_1MRView_1_1Window_1_1GrabContext.html">GrabContext</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-slots"></a>
 Public Slots</h2></td></tr>
 <tr class="memitem:a416f882da3cc245523341691ed2986a2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Window.html#a416f882da3cc245523341691ed2986a2">on_scaling_changed</a> ()</td></tr>
@@ -159,8 +165,14 @@ Signals</h2></td></tr>
 <tr class="separator:af669dfd8f024648c18077395a75107f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33e9953240aab856313ab8c26b7a5216"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Window.html#a33e9953240aab856313ab8c26b7a5216">imageChanged</a> ()</td></tr>
 <tr class="separator:a33e9953240aab856313ab8c26b7a5216"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22850c7cac8350e0f24e871f923b6f35"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Window.html#a22850c7cac8350e0f24e871f923b6f35">imageVisibilityChanged</a> (bool)</td></tr>
+<tr class="separator:a22850c7cac8350e0f24e871f923b6f35"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12bcba5327d35ffddcc163f51d2f79a6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Window.html#a12bcba5327d35ffddcc163f51d2f79a6">scalingChanged</a> ()</td></tr>
 <tr class="separator:a12bcba5327d35ffddcc163f51d2f79a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a775ca21e8f43447d3873339ffec18b18"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Window.html#a775ca21e8f43447d3873339ffec18b18">volumeChanged</a> (size_t)</td></tr>
+<tr class="separator:a775ca21e8f43447d3873339ffec18b18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a956c233ee0215047abc4892da814d783"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Window.html#a956c233ee0215047abc4892da814d783">volumeGroupChanged</a> (size_t)</td></tr>
+<tr class="separator:a956c233ee0215047abc4892da814d783"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -222,6 +234,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0319e19e7929b643d18d0a06c7368a6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae7fce5b46a547ed8a62afa5db1a14237"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Window.html#ae7fce5b46a547ed8a62afa5db1a14237">set_image_volume</a> (size_t axis, ssize_t index)</td></tr>
 <tr class="separator:ae7fce5b46a547ed8a62afa5db1a14237"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0889746a8b399015318f458bc40dd5fb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Window.html#a0889746a8b399015318f458bc40dd5fb">get_image_visibility</a> () const </td></tr>
+<tr class="separator:a0889746a8b399015318f458bc40dd5fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52af8be3ea9fb9fdc82e9526853ac626"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Window.html#a52af8be3ea9fb9fdc82e9526853ac626">set_image_visibility</a> (bool flag)</td></tr>
+<tr class="separator:a52af8be3ea9fb9fdc82e9526853ac626"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2462efc18e1a437c6e06b52e777f2ea"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Window.html#ac2462efc18e1a437c6e06b52e777f2ea">show_crosshairs</a> () const </td></tr>
 <tr class="separator:ac2462efc18e1a437c6e06b52e777f2ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9693e88931fd970bb782154bfbb89b0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Window.html#ac9693e88931fd970bb782154bfbb89b0">show_comments</a> () const </td></tr>
@@ -232,8 +248,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9aaa1a303beba1bf1f4b5785d68b23dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a958d46b981d9d1a7629a078f2baa5135"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Window.html#a958d46b981d9d1a7629a078f2baa5135">show_colourbar</a> () const </td></tr>
 <tr class="separator:a958d46b981d9d1a7629a078f2baa5135"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae56cb711979bbd6417801a571aa1bcf0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Window.html#ae56cb711979bbd6417801a571aa1bcf0">makeGLcurrent</a> ()</td></tr>
-<tr class="separator:ae56cb711979bbd6417801a571aa1bcf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb0110380cbab7010640d4183245b01c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Window.html#acb0110380cbab7010640d4183245b01c">captureGL</a> (std::string filename)</td></tr>
 <tr class="separator:acb0110380cbab7010640d4183245b01c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9fe4728a07b051757555e3f235731ba0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1GUI_1_1GL_1_1Lighting.html">GL::Lighting</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Window.html#a9fe4728a07b051757555e3f235731ba0">lighting</a> ()</td></tr>
@@ -249,10 +263,15 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ad4d227f634252e164bd125a5f9660d72"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1ColourMap_1_1Renderer.html">ColourMap::Renderer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Window.html#ad4d227f634252e164bd125a5f9660d72">colourbar_renderer</a></td></tr>
 <tr class="separator:ad4d227f634252e164bd125a5f9660d72"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a2ff8ca053d9408ab3b641c670eb04b41"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Window.html">Window</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Window.html#a2ff8ca053d9408ab3b641c670eb04b41">main</a></td></tr>
+<tr class="separator:a2ff8ca053d9408ab3b641c670eb04b41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
-<tr class="memitem:a5d6b29a75202aeeaef335faca9eb55e2"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Window.html#a5d6b29a75202aeeaef335faca9eb55e2">Image</a></td></tr>
-<tr class="separator:a5d6b29a75202aeeaef335faca9eb55e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0645beb5af4dc797451b47afdda20fd4"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Window.html#a0645beb5af4dc797451b47afdda20fd4">ImageBase</a></td></tr>
+<tr class="separator:a0645beb5af4dc797451b47afdda20fd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a541f5151b9797d5d2f63d750cce7e10e"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Window.html#a541f5151b9797d5d2f63d750cce7e10e">Mode::Base</a></td></tr>
 <tr class="separator:a541f5151b9797d5d2f63d750cce7e10e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6cec03f9255f2345b175a02adb6236d9"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Window.html#a6cec03f9255f2345b175a02adb6236d9">Tool::Base</a></td></tr>
@@ -262,7 +281,7 @@ Friends</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p>Definition at line <a class="el" href="window_8h_source.html#l00034">34</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<p>Definition at line <a class="el" href="window_8h_source.html#l00035">35</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a7009365c141f07c2a59bf55c1d48b21c"></a>
 <div class="memitem">
@@ -357,9 +376,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="window_8h_source.html#l00105">105</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<p>Definition at line <a class="el" href="window_8h_source.html#l00107">107</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 
-<p>References <a class="el" href="window_8h_source.html#l00052">image()</a>.</p>
+<p>References <a class="el" href="window_8h_source.html#l00053">image()</a>.</p>
 
 </div>
 </div>
@@ -384,7 +403,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="window_8h_source.html#l00077">set_FOV()</a>.</p>
+<p>Referenced by <a class="el" href="window_8h_source.html#l00078">set_FOV()</a>.</p>
 
 </div>
 </div>
@@ -409,9 +428,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="window_8h_source.html#l00067">67</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<p>Definition at line <a class="el" href="window_8h_source.html#l00068">68</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 
-<p>Referenced by <a class="el" href="src_2gui_2mrview_2mode_2base_8h_source.html#l00109">MR::GUI::MRView::Mode::Base::focus()</a>, and <a class="el" href="window_8h_source.html#l00059">slice()</a>.</p>
+<p>Referenced by <a class="el" href="src_2gui_2mrview_2mode_2base_8h_source.html#l00108">MR::GUI::MRView::Mode::Base::focus()</a>, and <a class="el" href="window_8h_source.html#l00060">slice()</a>.</p>
 
 </div>
 </div>
@@ -436,7 +455,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="window_8h_source.html#l00075">set_focus()</a>, and <a class="el" href="window_8h_source.html#l00081">set_snap_to_image()</a>.</p>
+<p>Referenced by <a class="el" href="window_8h_source.html#l00076">set_focus()</a>, and <a class="el" href="window_8h_source.html#l00082">set_snap_to_image()</a>.</p>
 
 </div>
 </div>
@@ -461,9 +480,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="window_8h_source.html#l00069">69</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<p>Definition at line <a class="el" href="window_8h_source.html#l00070">70</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 
-<p>Referenced by <a class="el" href="src_2gui_2mrview_2mode_2base_8h_source.html#l00111">MR::GUI::MRView::Mode::Base::FOV()</a>.</p>
+<p>Referenced by <a class="el" href="src_2gui_2mrview_2mode_2base_8h_source.html#l00110">MR::GUI::MRView::Mode::Base::FOV()</a>.</p>
 
 </div>
 </div>
@@ -488,9 +507,34 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="window_8h_source.html#l00066">66</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<p>Definition at line <a class="el" href="window_8h_source.html#l00067">67</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 
-<p>Referenced by <a class="el" href="overlay_8h_source.html#l00104">MR::GUI::MRView::Tool::Overlay::updateGL()</a>, and <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00107">MR::GUI::MRView::Tool::ROI::updateGL()</a>.</p>
+<p>Referenced by <a class="el" href="overlay_8h_source.html#l00105">MR::GUI::MRView::Tool::Overlay::updateGL()</a>, and <a class="el" href="gui_2mrview_2tool_2roi__editor_2roi_8h_source.html#l00107">MR::GUI::MRView::Tool::ROI::updateGL()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0889746a8b399015318f458bc40dd5fb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::GUI::MRView::Window::get_image_visibility </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="window_8h_source.html#l00098">98</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 
 </div>
 </div>
@@ -515,9 +559,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="window_8h_source.html#l00052">52</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<p>Definition at line <a class="el" href="window_8h_source.html#l00053">53</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 
-<p>Referenced by <a class="el" href="window_8h_source.html#l00105">captureGL()</a>, <a class="el" href="src_2gui_2mrview_2mode_2base_8h_source.html#l00108">MR::GUI::MRView::Mode::Base::image()</a>, <a class="el" href="window_8h_source.html#l00089">set_image_volume()</a>, <a class="el" href="window_8h_source.html#l00080">set_scaling()</a>, and <a class="el" href="window_8h_source.html#l00059">slice()</a>.</p>
+<p>Referenced by <a class="el" href="window_8h_source.html#l00107">captureGL()</a>, <a class="el" href="src_2gui_2mrview_2mode_2base_8h_source.html#l00107">MR::GUI::MRView::Mode::Base::image()</a>, <a class="el" href="window_8h_source.html#l00090">set_image_volume()</a>, <a class="el" href="window_8h_source.html#l00081">set_scaling()</a>, and <a class="el" href="window_8h_source.html#l00060">slice()</a>.</p>
 
 </div>
 </div>
@@ -542,7 +586,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="window_8h_source.html#l00073">73</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<p>Definition at line <a class="el" href="window_8h_source.html#l00074">74</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 
 </div>
 </div>
@@ -556,6 +600,30 @@ Friends</h2></td></tr>
         <tr>
           <td class="memname">void MR::GUI::MRView::Window::imageChanged </td>
           <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a22850c7cac8350e0f24e871f923b6f35"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::GUI::MRView::Window::imageVisibilityChanged </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -590,32 +658,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="window_8h_source.html#l00110">110</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ae56cb711979bbd6417801a571aa1bcf0"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MR::GUI::MRView::Window::makeGLcurrent </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="window_8h_source.html#l00103">103</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<p>Definition at line <a class="el" href="window_8h_source.html#l00112">112</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 
 </div>
 </div>
@@ -663,7 +706,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="window_8h_source.html#l00047">47</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<p>Definition at line <a class="el" href="window_8h_source.html#l00048">48</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 
 </div>
 </div>
@@ -688,7 +731,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="window_8h_source.html#l00046">46</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<p>Definition at line <a class="el" href="window_8h_source.html#l00047">47</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 
 </div>
 </div>
@@ -713,7 +756,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="window_8h_source.html#l00045">45</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<p>Definition at line <a class="el" href="window_8h_source.html#l00046">46</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 
 </div>
 </div>
@@ -738,7 +781,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="window_8h_source.html#l00044">44</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<p>Definition at line <a class="el" href="window_8h_source.html#l00045">45</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 
 </div>
 </div>
@@ -786,9 +829,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="window_8h_source.html#l00071">71</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<p>Definition at line <a class="el" href="window_8h_source.html#l00072">72</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 
-<p>Referenced by <a class="el" href="src_2gui_2mrview_2mode_2base_8h_source.html#l00113">MR::GUI::MRView::Mode::Base::orientation()</a>.</p>
+<p>Referenced by <a class="el" href="src_2gui_2mrview_2mode_2base_8h_source.html#l00112">MR::GUI::MRView::Mode::Base::orientation()</a>.</p>
 
 </div>
 </div>
@@ -813,7 +856,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="window_8h_source.html#l00079">set_orientation()</a>.</p>
+<p>Referenced by <a class="el" href="window_8h_source.html#l00080">set_orientation()</a>.</p>
 
 </div>
 </div>
@@ -838,9 +881,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="window_8h_source.html#l00070">70</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<p>Definition at line <a class="el" href="window_8h_source.html#l00071">71</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 
-<p>Referenced by <a class="el" href="src_2gui_2mrview_2mode_2base_8h_source.html#l00112">MR::GUI::MRView::Mode::Base::plane()</a>.</p>
+<p>Referenced by <a class="el" href="src_2gui_2mrview_2mode_2base_8h_source.html#l00111">MR::GUI::MRView::Mode::Base::plane()</a>.</p>
 
 </div>
 </div>
@@ -865,7 +908,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="window_8h_source.html#l00078">set_plane()</a>.</p>
+<p>Referenced by <a class="el" href="window_8h_source.html#l00079">set_plane()</a>.</p>
 
 </div>
 </div>
@@ -986,7 +1029,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="window_8h_source.html#l00075">75</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<p>Definition at line <a class="el" href="window_8h_source.html#l00076">76</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 
 <p>References <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Window.html#aa434ebf9d5fae570bb7bc7b9626003b4">focusChanged()</a>.</p>
 
@@ -1016,11 +1059,27 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="window_8h_source.html#l00077">77</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<p>Definition at line <a class="el" href="window_8h_source.html#l00078">78</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 
 <p>References <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Window.html#ac67fbe206d7d1b0413f91cc193c77e20">fieldOfViewChanged()</a>, and <a class="el" href="SH_8h_source.html#l00211">MR::Math::SH::value()</a>.</p>
 
 <p>Referenced by <a class="el" href="src_2gui_2mrview_2mode_2base_8h_source.html#l00132">MR::GUI::MRView::Mode::Base::set_FOV()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a52af8be3ea9fb9fdc82e9526853ac626"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::GUI::MRView::Window::set_image_visibility </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>flag</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1056,9 +1115,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="window_8h_source.html#l00089">89</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<p>Definition at line <a class="el" href="window_8h_source.html#l00090">90</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 
-<p>References <a class="el" href="window_8h_source.html#l00052">image()</a>, <a class="el" href="SH_8h_source.html#l00065">MR::Math::SH::index()</a>, <a class="el" href="src_2gui_2mrview_2image_8h_source.html#l00092">MR::GUI::MRView::Image::interp</a>, and <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Window.html#a0d510dcd29931fd125b25d21e23f0410">updateGL()</a>.</p>
+<p>References <a class="el" href="window_8h_source.html#l00053">image()</a>, <a class="el" href="SH_8h_source.html#l00065">MR::Math::SH::index()</a>, <a class="el" href="src_2gui_2mrview_2image_8h_source.html#l00089">MR::GUI::MRView::Image::interp</a>, and <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Window.html#a0d510dcd29931fd125b25d21e23f0410">updateGL()</a>.</p>
 
 </div>
 </div>
@@ -1084,7 +1143,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="window_8h_source.html#l00079">79</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<p>Definition at line <a class="el" href="window_8h_source.html#l00080">80</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 
 <p>References <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Window.html#ab7c55c92a3c31cea8b6024226a231b38">orientationChanged()</a>.</p>
 
@@ -1114,7 +1173,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="window_8h_source.html#l00078">78</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<p>Definition at line <a class="el" href="window_8h_source.html#l00079">79</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 
 <p>References <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Window.html#a9b12d90cb8bd8971d5f4723981fbc256">planeChanged()</a>.</p>
 
@@ -1154,9 +1213,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="window_8h_source.html#l00080">80</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<p>Definition at line <a class="el" href="window_8h_source.html#l00081">81</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 
-<p>References <a class="el" href="window_8h_source.html#l00052">image()</a>, and <a class="el" href="displayable_8h_source.html#l00100">MR::GUI::MRView::Displayable::set_windowing()</a>.</p>
+<p>References <a class="el" href="window_8h_source.html#l00053">image()</a>, and <a class="el" href="displayable_8h_source.html#l00110">MR::GUI::MRView::Displayable::set_windowing()</a>.</p>
 
 </div>
 </div>
@@ -1192,7 +1251,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="window_8h_source.html#l00083">83</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<p>Definition at line <a class="el" href="window_8h_source.html#l00084">84</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 
 </div>
 </div>
@@ -1218,7 +1277,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="window_8h_source.html#l00081">81</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<p>Definition at line <a class="el" href="window_8h_source.html#l00082">82</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 
 <p>References <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Window.html#aa434ebf9d5fae570bb7bc7b9626003b4">focusChanged()</a>.</p>
 
@@ -1246,7 +1305,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="window_8h_source.html#l00076">76</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<p>Definition at line <a class="el" href="window_8h_source.html#l00077">77</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 
 <p>References <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Window.html#a2ec16c131e00a243bb4971b2e9c863bc">targetChanged()</a>.</p>
 
@@ -1275,7 +1334,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="window_8h_source.html#l00101">101</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<p>Definition at line <a class="el" href="window_8h_source.html#l00105">105</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 
 </div>
 </div>
@@ -1300,7 +1359,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="window_8h_source.html#l00098">98</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<p>Definition at line <a class="el" href="window_8h_source.html#l00102">102</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 
 </div>
 </div>
@@ -1325,9 +1384,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="window_8h_source.html#l00097">97</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
-
-<p>Referenced by <a class="el" href="src_2gui_2mrview_2mode_2base_8h_source.html#l00180">MR::GUI::MRView::Mode::Base::draw_crosshairs()</a>.</p>
+<p>Definition at line <a class="el" href="window_8h_source.html#l00101">101</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 
 </div>
 </div>
@@ -1352,9 +1409,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="window_8h_source.html#l00100">100</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
-
-<p>Referenced by <a class="el" href="src_2gui_2mrview_2mode_2base_8h_source.html#l00185">MR::GUI::MRView::Mode::Base::draw_orientation_labels()</a>.</p>
+<p>Definition at line <a class="el" href="window_8h_source.html#l00104">104</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 
 </div>
 </div>
@@ -1379,7 +1434,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="window_8h_source.html#l00099">99</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<p>Definition at line <a class="el" href="window_8h_source.html#l00103">103</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 
 </div>
 </div>
@@ -1404,9 +1459,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="window_8h_source.html#l00059">59</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<p>Definition at line <a class="el" href="window_8h_source.html#l00060">60</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 
-<p>References <a class="el" href="window_8h_source.html#l00067">focus()</a>, <a class="el" href="window_8h_source.html#l00052">image()</a>, and <a class="el" href="math_8h_source.html#l00071">MR::Math::round()</a>.</p>
+<p>References <a class="el" href="window_8h_source.html#l00068">focus()</a>, <a class="el" href="window_8h_source.html#l00053">image()</a>, and <a class="el" href="math_8h_source.html#l00071">MR::Math::round()</a>.</p>
 
 </div>
 </div>
@@ -1454,9 +1509,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="window_8h_source.html#l00072">72</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<p>Definition at line <a class="el" href="window_8h_source.html#l00073">73</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 
-<p>Referenced by <a class="el" href="src_2gui_2mrview_2mode_2base_8h_source.html#l00121">MR::GUI::MRView::Mode::Base::snap_to_image()</a>.</p>
+<p>Referenced by <a class="el" href="src_2gui_2mrview_2mode_2base_8h_source.html#l00120">MR::GUI::MRView::Mode::Base::snap_to_image()</a>.</p>
 
 </div>
 </div>
@@ -1481,9 +1536,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="window_8h_source.html#l00068">68</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<p>Definition at line <a class="el" href="window_8h_source.html#l00069">69</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 
-<p>Referenced by <a class="el" href="src_2gui_2mrview_2mode_2base_8h_source.html#l00110">MR::GUI::MRView::Mode::Base::target()</a>.</p>
+<p>Referenced by <a class="el" href="src_2gui_2mrview_2mode_2base_8h_source.html#l00109">MR::GUI::MRView::Mode::Base::target()</a>.</p>
 
 </div>
 </div>
@@ -1508,7 +1563,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="window_8h_source.html#l00076">set_target()</a>.</p>
+<p>Referenced by <a class="el" href="window_8h_source.html#l00077">set_target()</a>.</p>
 
 </div>
 </div>
@@ -1533,7 +1588,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="window_8h_source.html#l00055">55</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<p>Definition at line <a class="el" href="window_8h_source.html#l00056">56</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 
 <p>Referenced by <a class="el" href="src_2gui_2mrview_2mode_2base_8h_source.html#l00163">MR::GUI::MRView::Mode::Base::render_tools()</a>.</p>
 
@@ -1560,12 +1615,11 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="window_8h_source.html#l00089">set_image_volume()</a>, <a class="el" href="overlay_8h_source.html#l00104">MR::GUI::MRView::Tool::Overlay::updateGL()</a>, <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00107">MR::GUI::MRView::Tool::ROI::updateGL()</a>, and <a class="el" href="src_2gui_2mrview_2mode_2base_8h_source.html#l00194">MR::GUI::MRView::Mode::Base::updateGL()</a>.</p>
+<p>Referenced by <a class="el" href="window_8h_source.html#l00090">set_image_volume()</a>, <a class="el" href="overlay_8h_source.html#l00105">MR::GUI::MRView::Tool::Overlay::updateGL()</a>, <a class="el" href="gui_2mrview_2tool_2roi__editor_2roi_8h_source.html#l00107">MR::GUI::MRView::Tool::ROI::updateGL()</a>, and <a class="el" href="src_2gui_2mrview_2mode_2base_8h_source.html#l00193">MR::GUI::MRView::Mode::Base::updateGL()</a>.</p>
 
 </div>
 </div>
-<h2 class="groupheader">Friends And Related Function Documentation</h2>
-<a class="anchor" id="a5d6b29a75202aeeaef335faca9eb55e2"></a>
+<a class="anchor" id="a775ca21e8f43447d3873339ffec18b18"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1573,7 +1627,56 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">friend class <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Image.html">Image</a></td>
+          <td class="memname">void MR::GUI::MRView::Window::volumeChanged </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a956c233ee0215047abc4892da814d783"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::GUI::MRView::Window::volumeGroupChanged </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a class="anchor" id="a0645beb5af4dc797451b47afdda20fd4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="classMR_1_1GUI_1_1MRView_1_1ImageBase.html">ImageBase</a></td>
         </tr>
       </table>
   </td>
@@ -1583,7 +1686,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="window_8h_source.html#l00291">291</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<p>Definition at line <a class="el" href="window_8h_source.html#l00310">310</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 
 </div>
 </div>
@@ -1605,7 +1708,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="window_8h_source.html#l00292">292</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<p>Definition at line <a class="el" href="window_8h_source.html#l00311">311</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 
 </div>
 </div>
@@ -1627,7 +1730,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="window_8h_source.html#l00293">293</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<p>Definition at line <a class="el" href="window_8h_source.html#l00312">312</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 
 </div>
 </div>
@@ -1649,7 +1752,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="window_8h_source.html#l00294">294</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<p>Definition at line <a class="el" href="window_8h_source.html#l00313">313</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
 
 </div>
 </div>
@@ -1664,7 +1767,31 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="window_8h_source.html#l00111">111</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+<p>Definition at line <a class="el" href="window_8h_source.html#l00113">113</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2ff8ca053d9408ab3b641c670eb04b41"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Window.html">Window</a>* MR::GUI::MRView::Window::main</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="window_8h_source.html#l00116">116</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
+
+<p>Referenced by <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html#l00166">MR::GUI::MRView::Tool::create()</a>, <a class="el" href="tractogram_8h_source.html#l00058">MR::GUI::MRView::Tool::Tractogram::window()</a>, <a class="el" href="odf__preview_8h_source.html#l00063">MR::GUI::MRView::Tool::ODF::Preview::window()</a>, <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html#l00065">MR::GUI::MRView::Tool::Base::window()</a>, and <a class="el" href="src_2gui_2mrview_2mode_2base_8h_source.html#l00082">MR::GUI::MRView::Mode::Base::window()</a>.</p>
 
 </div>
 </div>
@@ -1677,7 +1804,7 @@ Friends</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="namespaceMR_1_1GUI.html">GUI</a></li><li class="navelem"><a class="el" href="namespaceMR_1_1GUI_1_1MRView.html">MRView</a></li><li class="navelem"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Window.html">Window</a></li>
-    <li class="footer">Generated on Mon Apr 27 2015 17:39:25 for MRtrix by
+    <li class="footer">Generated on Wed Jul 29 2015 17:53:08 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

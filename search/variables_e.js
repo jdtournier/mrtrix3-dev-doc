@@ -13,6 +13,7 @@ var searchData=
   ['orientation_5fy',['orientation_y',['../classMR_1_1File_1_1Dicom_1_1Frame.html#a6dc2e5336e999a2e624a0e163585ae2d',1,'MR::File::Dicom::Frame']]],
   ['orientation_5fz',['orientation_z',['../classMR_1_1File_1_1Dicom_1_1Frame.html#a599d38ee4bca35beeb786e4d1b3ac844',1,'MR::File::Dicom::Frame']]],
   ['origin_5fid',['origin_ID',['../classMR_1_1GUI_1_1DWI_1_1Renderer.html#a69455904c026bb3bcdc258e9dab7fa6d',1,'MR::GUI::DWI::Renderer']]],
+  ['original_5ffov',['original_fov',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1Tractogram.html#a15b407b8fc3e3811a4e6d8054c5c51c3',1,'MR::GUI::MRView::Tool::Tractogram']]],
   ['os',['OS',['../classMR_1_1GUI_1_1DWI_1_1RenderFrame.html#a6bfb43c8bb0d28afc9e587c627a49689',1,'MR::GUI::DWI::RenderFrame']]],
   ['os_5fx',['OS_x',['../classMR_1_1GUI_1_1DWI_1_1RenderFrame.html#a2ec29fc0b1243cc2a492652c206d0387',1,'MR::GUI::DWI::RenderFrame']]],
   ['os_5fy',['OS_y',['../classMR_1_1GUI_1_1DWI_1_1RenderFrame.html#a9989409302c6ee94834d81905644c955',1,'MR::GUI::DWI::RenderFrame']]],
@@ -23,14 +24,6 @@ var searchData=
   ['output_5fat_5fcounts',['output_at_counts',['../classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1SIFTer.html#af0fc60d6545ffb22d852a26a1d8c78ea',1,'MR::DWI::Tractography::SIFT::SIFTer']]],
   ['output_5fdebug',['output_debug',['../classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1SIFTer.html#a5c991a2cbd70fbb8c17a423a38ce88d9',1,'MR::DWI::Tractography::SIFT::SIFTer']]],
   ['output_5fimage_5fname',['output_image_name',['../classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1MapWriterBase.html#a119555c32a5ba9ad476ccfe41fd32374',1,'MR::DWI::Tractography::Mapping::MapWriterBase']]],
-  ['overlay_5fframe',['overlay_frame',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1ODF.html#aef02cf263df238d093e47a85ccce6d7a',1,'MR::GUI::MRView::Tool::ODF']]],
-  ['overlay_5fgrid_5fselector',['overlay_grid_selector',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1ODF.html#a393f9e3c9f4a16bde26f0fd60acf5734',1,'MR::GUI::MRView::Tool::ODF']]],
-  ['overlay_5flevel_5fof_5fdetail',['overlay_level_of_detail',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1ODF.html#abccfba06fb6c587c3a20394e9b0b3ad9',1,'MR::GUI::MRView::Tool::ODF']]],
-  ['overlay_5flevel_5fof_5fdetail_5fselector',['overlay_level_of_detail_selector',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1ODF.html#a6e7992eba9954ec7df52f268665550fb',1,'MR::GUI::MRView::Tool::ODF']]],
-  ['overlay_5flmax',['overlay_lmax',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1ODF.html#a6370e01b9093b7d1fffe73b24fe30044',1,'MR::GUI::MRView::Tool::ODF']]],
-  ['overlay_5flock_5fto_5fgrid_5fbox',['overlay_lock_to_grid_box',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1ODF.html#a13178c14dfa5c514b324f0f08ba0b91c',1,'MR::GUI::MRView::Tool::ODF']]],
-  ['overlay_5frenderer',['overlay_renderer',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1ODF.html#a728cbb2b37ba684c9b320144286e0693',1,'MR::GUI::MRView::Tool::ODF']]],
-  ['overlay_5fscale',['overlay_scale',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1ODF.html#a2d65c31a46924da2e8905cd8f147998c',1,'MR::GUI::MRView::Tool::ODF']]],
-  ['overlays_5ffor_5f3d',['overlays_for_3D',['../classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base.html#a4e478125a43145834a562b75af69ae03',1,'MR::GUI::MRView::Mode::Base']]],
+  ['overlays_5ffor_5f3d',['overlays_for_3D',['../classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base.html#a7575cbef965db83eb8638a6904911a8c',1,'MR::GUI::MRView::Mode::Base']]],
   ['overwrite_5ffiles',['overwrite_files',['../namespaceMR_1_1App.html#adcb9d0edb4ae63d08f3a121b87ef5d7b',1,'MR::App']]]
 ];

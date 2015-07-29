@@ -23,7 +23,7 @@ var classMR_1_1GUI_1_1DWI_1_1Window =
     [ "use_lighting_slot", "classMR_1_1GUI_1_1DWI_1_1Window.html#a76b675cbe431eaaf10be86bab2efa022", null ],
     [ "current", "classMR_1_1GUI_1_1DWI_1_1Window.html#ad2336b38d126a0f4c53e30179539ff91", null ],
     [ "is_response", "classMR_1_1GUI_1_1DWI_1_1Window.html#a96d741f0068bfc48dc46bc2565530105", null ],
-    [ "lighting_dialog", "classMR_1_1GUI_1_1DWI_1_1Window.html#a6f1d143f5d1a1587d17b0069bd1ccdc1", null ],
+    [ "lighting_dialog", "classMR_1_1GUI_1_1DWI_1_1Window.html#aa903fd6c2635c3dfc2e1ae638435ac86", null ],
     [ "lmax_group", "classMR_1_1GUI_1_1DWI_1_1Window.html#aa7d2367827e5881ff1d98b2a8a0b9686", null ],
     [ "lod_group", "classMR_1_1GUI_1_1DWI_1_1Window.html#afca04707ab8201e0f3d33ff36e90ece6", null ],
     [ "name", "classMR_1_1GUI_1_1DWI_1_1Window.html#a5937d86eeabb2cec761fa54203944e2d", null ],

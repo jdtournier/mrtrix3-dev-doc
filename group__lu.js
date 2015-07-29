@@ -9,5 +9,6 @@ var group__lu =
     [ "sgndet", "group__lu.html#ga2dc6d4e0cf679101d97dab5b52efe2d9", null ],
     [ "sgndet", "group__lu.html#ga94e9254e945af463c7ec0197014f4331", null ],
     [ "solve", "group__lu.html#ga769f31d7550d646d4f9eb933264d8403", null ],
-    [ "solve", "group__lu.html#ga0d309b298f15303425a843f285358034", null ]
+    [ "solve", "group__lu.html#ga0d309b298f15303425a843f285358034", null ],
+    [ "solve", "group__lu.html#ga47ad3954d3bdec89c2d1c98aba011038", null ]
 ];

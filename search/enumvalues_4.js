@@ -13,6 +13,7 @@ var searchData=
   ['enter_5fexclude_5fregion',['ENTER_EXCLUDE_REGION',['../namespaceMR_1_1DWI_1_1Tractography_1_1Tracking.html#ad956382fab3ffe08fe6398044e9ae01aa81d3e19b49229c733d59150913f11a39',1,'MR::DWI::Tractography::Tracking']]],
   ['equal',['EQUAL',['../namespacegl.html#a91e4b8acdd36437953f66b651634fce6a5e44f03bc471ae431bdbdc90047c0016',1,'gl']]],
   ['equiv',['EQUIV',['../namespacegl.html#a91e4b8acdd36437953f66b651634fce6aa874dc785e8dd856575950aa733d239d',1,'gl']]],
+  ['executing',['EXECUTING',['../group__Optimisation.html#gga142be9450c9aac5265dc923bab259fcea96f5c11f8cbb1ec77c39936bbf9cabe3',1,'MR::Math::QuadraticLineSearch']]],
   ['exit_5fimage',['EXIT_IMAGE',['../namespaceMR_1_1DWI_1_1Tractography_1_1Tracking.html#a1c30c67185585a9f27b5a581050292f5aabadd272a0347e83a65f6125b9d403ac',1,'MR::DWI::Tractography::Tracking']]],
   ['exit_5fmask',['EXIT_MASK',['../namespaceMR_1_1DWI_1_1Tractography_1_1Tracking.html#a1c30c67185585a9f27b5a581050292f5ac22cdc8e9af290d32c1755f8805306c7',1,'MR::DWI::Tractography::Tracking']]],
   ['exit_5fsgm',['EXIT_SGM',['../namespaceMR_1_1DWI_1_1Tractography_1_1Tracking.html#a1c30c67185585a9f27b5a581050292f5aa848b265aba6446e2454c8262740ac47',1,'MR::DWI::Tractography::Tracking']]],

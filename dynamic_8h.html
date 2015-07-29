@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">MRtrix
-   &#160;<span id="projectnumber">0.3.12-365-ged27dfbe</span>
+   &#160;<span id="projectnumber">0.3.12-732-g65ed7a3c</span>
    </div>
    <div id="projectbrief">MRtrix provides a set of tools to perform diffusion-weighted MR white-matter tractography in a manner robust to crossing fibres, using constrained spherical deconvolution (CSD) and probabilistic streamlines.</div>
   </td>
@@ -117,6 +117,7 @@ $(document).ready(function(){initNavTree('dynamic_8h.html','');});
 <div class="contents">
 <div class="textblock"><code>#include &lt;fstream&gt;</code><br />
 <code>#include &lt;queue&gt;</code><br />
+<code>#include &lt;atomic&gt;</code><br />
 <code>#include &quot;<a class="el" href="transform_8h_source.html">image/transform.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="fmls_8h_source.html">dwi/fmls.h</a>&quot;</code><br />
@@ -159,21 +160,53 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:aeed5164b369160fa5f9cc0ad88516ad4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dynamic_8h.html#aeed5164b369160fa5f9cc0ad88516ad4">DYNAMIC_SEED_INITIAL_TD_SUM</a>&#160;&#160;&#160;0.01</td></tr>
+<tr class="memitem:aeed5164b369160fa5f9cc0ad88516ad4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dynamic_8h.html#aeed5164b369160fa5f9cc0ad88516ad4">DYNAMIC_SEED_INITIAL_TD_SUM</a>&#160;&#160;&#160;1e-6</td></tr>
 <tr class="separator:aeed5164b369160fa5f9cc0ad88516ad4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bcb8ce3f6a336102591e2125fd6a01f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dynamic_8h.html#a6bcb8ce3f6a336102591e2125fd6a01f">DYNAMIC_SEED_INITIAL_PROB</a>&#160;&#160;&#160;1e-3</td></tr>
+<tr class="separator:a6bcb8ce3f6a336102591e2125fd6a01f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b279ede25458f2b9dcd93f718c533b1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dynamic_8h.html#a5b279ede25458f2b9dcd93f718c533b1">DYNAMIC_SEEDING_DAMPING_FACTOR</a>&#160;&#160;&#160;0.5</td></tr>
+<tr class="separator:a5b279ede25458f2b9dcd93f718c533b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
+<a class="anchor" id="a6bcb8ce3f6a336102591e2125fd6a01f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DYNAMIC_SEED_INITIAL_PROB&#160;&#160;&#160;1e-3</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="dynamic_8h_source.html#l00058">58</a> of file <a class="el" href="dynamic_8h_source.html">dynamic.h</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="aeed5164b369160fa5f9cc0ad88516ad4"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define DYNAMIC_SEED_INITIAL_TD_SUM&#160;&#160;&#160;0.01</td>
+          <td class="memname">#define DYNAMIC_SEED_INITIAL_TD_SUM&#160;&#160;&#160;1e-6</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="dynamic_8h_source.html#l00051">51</a> of file <a class="el" href="dynamic_8h_source.html">dynamic.h</a>.</p>
+<p>Definition at line <a class="el" href="dynamic_8h_source.html#l00053">53</a> of file <a class="el" href="dynamic_8h_source.html">dynamic.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5b279ede25458f2b9dcd93f718c533b1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DYNAMIC_SEEDING_DAMPING_FACTOR&#160;&#160;&#160;0.5</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="dynamic_8h_source.html#l00063">63</a> of file <a class="el" href="dynamic_8h_source.html">dynamic.h</a>.</p>
 
 </div>
 </div>
@@ -182,8 +215,8 @@ Macros</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_9236bed5acffad77d942815f2449fb47.html">src</a></li><li class="navelem"><a class="el" href="dir_8de64bfa8ed84e298c15944df16c60aa.html">dwi</a></li><li class="navelem"><a class="el" href="dir_8b6baf0bc7d97497f7bded807c83fa3a.html">tractography</a></li><li class="navelem"><a class="el" href="dir_266e04f518f8d24c8f8cafd6a0972bae.html">seeding</a></li><li class="navelem"><a class="el" href="dynamic_8h.html">dynamic.h</a></li>
-    <li class="footer">Generated on Mon Apr 27 2015 17:39:24 for MRtrix by
+    <li class="navelem"><a class="el" href="dir_3111b5213a18295c2b9490b065e7a22d.html">src</a></li><li class="navelem"><a class="el" href="dir_1117d21d66a2abc0838f3bb256b178f7.html">dwi</a></li><li class="navelem"><a class="el" href="dir_b6fd20d81652ae2ca956f10ba03169dc.html">tractography</a></li><li class="navelem"><a class="el" href="dir_b2d460e907a74db09f56bcd91da796e8.html">seeding</a></li><li class="navelem"><a class="el" href="dynamic_8h.html">dynamic.h</a></li>
+    <li class="footer">Generated on Wed Jul 29 2015 17:53:07 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

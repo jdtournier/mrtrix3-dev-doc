@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">MRtrix
-   &#160;<span id="projectnumber">0.3.12-365-ged27dfbe</span>
+   &#160;<span id="projectnumber">0.3.12-732-g65ed7a3c</span>
    </div>
    <div id="projectbrief">MRtrix provides a set of tools to perform diffusion-weighted MR white-matter tractography in a manner robust to crossing fibres, using constrained spherical deconvolution (CSD) and probabilistic streamlines.</div>
   </td>
@@ -126,6 +126,10 @@ Functions</h2></td></tr>
 <tr class="memitem:ga0d309b298f15303425a843f285358034"><td class="memTemplItemLeft" align="right" valign="top">Vector&lt; T &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lu.html#ga0d309b298f15303425a843f285358034">MR::Math::LU::solve</a> (Vector&lt; T &gt; &amp;x, const Matrix&lt; T &gt; &amp;D, const Permutation &amp;p)</td></tr>
 <tr class="memdesc:ga0d309b298f15303425a843f285358034"><td class="mdescLeft">&#160;</td><td class="mdescRight">solve A*x = b given LU decomposition D,p of A, in place (b passed in as x).  <a href="#ga0d309b298f15303425a843f285358034">More...</a><br /></td></tr>
 <tr class="separator:ga0d309b298f15303425a843f285358034"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga47ad3954d3bdec89c2d1c98aba011038"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga47ad3954d3bdec89c2d1c98aba011038"><td class="memTemplItemLeft" align="right" valign="top">Vector&lt; T &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lu.html#ga47ad3954d3bdec89c2d1c98aba011038">MR::Math::LU::solve</a> (Vector&lt; T &gt; &amp;x, const Matrix&lt; T &gt; &amp;A)</td></tr>
+<tr class="memdesc:ga47ad3954d3bdec89c2d1c98aba011038"><td class="mdescLeft">&#160;</td><td class="mdescRight">solve A*x = b by LU decomposition, in place (b passed in as x).  <a href="#ga47ad3954d3bdec89c2d1c98aba011038">More...</a><br /></td></tr>
+<tr class="separator:ga47ad3954d3bdec89c2d1c98aba011038"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3f1cf8d1e6b76f4452ae98a02aeaec4b"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga3f1cf8d1e6b76f4452ae98a02aeaec4b"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lu.html#ga3f1cf8d1e6b76f4452ae98a02aeaec4b">MR::Math::LU::det</a> (Matrix&lt; T &gt; &amp;D, int signum)</td></tr>
 <tr class="memdesc:ga3f1cf8d1e6b76f4452ae98a02aeaec4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">get determinant of A given its LU decomposition D, signum.  <a href="#ga3f1cf8d1e6b76f4452ae98a02aeaec4b">More...</a><br /></td></tr>
@@ -198,9 +202,9 @@ template&lt;typename T &gt; </div>
 
 <p>Definition at line <a class="el" href="LU_8h_source.html#l00061">61</a> of file <a class="el" href="LU_8h_source.html">LU.h</a>.</p>
 
-<p>References <a class="el" href="permutation_8h_source.html#l00073">MR::Math::Permutation::gsl()</a>, and <a class="el" href="matrix_8h_source.html#l00324">MR::Math::Matrix&lt; ValueType &gt;::gsl()</a>.</p>
+<p>References <a class="el" href="permutation_8h_source.html#l00073">MR::Math::Permutation::gsl()</a>, and <a class="el" href="lib_2math_2matrix_8h_source.html#l00325">MR::Math::Matrix&lt; ValueType &gt;::gsl()</a>.</p>
 
-<p>Referenced by <a class="el" href="LU_8h_source.html#l00126">MR::Math::LU::det()</a>, <a class="el" href="LU_8h_source.html#l00103">MR::Math::LU::inv()</a>, <a class="el" href="LU_8h_source.html#l00136">MR::Math::LU::sgndet()</a>, and <a class="el" href="transform_8h_source.html#l00041">MR::Image::Transform::Transform()</a>.</p>
+<p>Referenced by <a class="el" href="LU_8h_source.html#l00137">MR::Math::LU::det()</a>, <a class="el" href="LU_8h_source.html#l00114">MR::Math::LU::inv()</a>, <a class="el" href="LU_8h_source.html#l00147">MR::Math::LU::sgndet()</a>, <a class="el" href="LU_8h_source.html#l00091">MR::Math::LU::solve()</a>, and <a class="el" href="transform_8h_source.html#l00041">MR::Image::Transform::Transform()</a>.</p>
 
 </div>
 </div>
@@ -240,11 +244,11 @@ template&lt;typename T &gt; </div>
 
 <p>get determinant of A given its LU decomposition D, signum. </p>
 
-<p>Definition at line <a class="el" href="LU_8h_source.html#l00091">91</a> of file <a class="el" href="LU_8h_source.html">LU.h</a>.</p>
+<p>Definition at line <a class="el" href="LU_8h_source.html#l00102">102</a> of file <a class="el" href="LU_8h_source.html">LU.h</a>.</p>
 
-<p>References <a class="el" href="matrix_8h_source.html#l00324">MR::Math::Matrix&lt; ValueType &gt;::gsl()</a>.</p>
+<p>References <a class="el" href="lib_2math_2matrix_8h_source.html#l00325">MR::Math::Matrix&lt; ValueType &gt;::gsl()</a>.</p>
 
-<p>Referenced by <a class="el" href="LU_8h_source.html#l00126">MR::Math::LU::det()</a>, and <a class="el" href="matrix_8h_source.html#l01164">MR::Math::determinant()</a>.</p>
+<p>Referenced by <a class="el" href="LU_8h_source.html#l00137">MR::Math::LU::det()</a>, and <a class="el" href="lib_2math_2matrix_8h_source.html#l01163">MR::Math::determinant()</a>.</p>
 
 </div>
 </div>
@@ -274,9 +278,9 @@ template&lt;typename T &gt; </div>
 
 <p>get determinant of A by <a class="el" href="namespaceMR_1_1Math_1_1LU.html">LU</a> decomposition </p>
 
-<p>Definition at line <a class="el" href="LU_8h_source.html#l00126">126</a> of file <a class="el" href="LU_8h_source.html">LU.h</a>.</p>
+<p>Definition at line <a class="el" href="LU_8h_source.html#l00137">137</a> of file <a class="el" href="LU_8h_source.html">LU.h</a>.</p>
 
-<p>References <a class="el" href="LU_8h_source.html#l00061">MR::Math::LU::decomp()</a>, <a class="el" href="LU_8h_source.html#l00091">MR::Math::LU::det()</a>, and <a class="el" href="matrix_8h_source.html#l00388">MR::Math::Matrix&lt; ValueType &gt;::rows()</a>.</p>
+<p>References <a class="el" href="LU_8h_source.html#l00061">MR::Math::LU::decomp()</a>, <a class="el" href="LU_8h_source.html#l00102">MR::Math::LU::det()</a>, and <a class="el" href="lib_2math_2matrix_8h_source.html#l00389">MR::Math::Matrix&lt; ValueType &gt;::rows()</a>.</p>
 
 </div>
 </div>
@@ -324,9 +328,9 @@ template&lt;typename T &gt; </div>
 
 <p>Definition at line <a class="el" href="LU_8h_source.html#l00068">68</a> of file <a class="el" href="LU_8h_source.html">LU.h</a>.</p>
 
-<p>References <a class="el" href="matrix_8h_source.html#l00232">MR::Math::Matrix&lt; ValueType &gt;::allocate()</a>, <a class="el" href="permutation_8h_source.html#l00073">MR::Math::Permutation::gsl()</a>, and <a class="el" href="matrix_8h_source.html#l00324">MR::Math::Matrix&lt; ValueType &gt;::gsl()</a>.</p>
+<p>References <a class="el" href="lib_2math_2matrix_8h_source.html#l00233">MR::Math::Matrix&lt; ValueType &gt;::allocate()</a>, <a class="el" href="permutation_8h_source.html#l00073">MR::Math::Permutation::gsl()</a>, and <a class="el" href="lib_2math_2matrix_8h_source.html#l00325">MR::Math::Matrix&lt; ValueType &gt;::gsl()</a>.</p>
 
-<p>Referenced by <a class="el" href="LU_8h_source.html#l00103">MR::Math::LU::inv()</a>, <a class="el" href="transformation_8h_source.html#l00176">MR::GUI::GL::inv()</a>, <a class="el" href="reorient_8h_source.html#l00102">MR::Image::Registration::Transform::LinearReorientKernel&lt; FODVoxelType &gt;::LinearReorientKernel()</a>, and <a class="el" href="transform_8h_source.html#l00041">MR::Image::Transform::Transform()</a>.</p>
+<p>Referenced by <a class="el" href="LU_8h_source.html#l00114">MR::Math::LU::inv()</a>, <a class="el" href="transformation_8h_source.html#l00176">MR::GUI::GL::inv()</a>, <a class="el" href="reorient_8h_source.html#l00123">MR::Image::Registration::Transform::LinearReorientKernel&lt; FODVoxelType &gt;::LinearReorientKernel()</a>, and <a class="el" href="transform_8h_source.html#l00041">MR::Image::Transform::Transform()</a>.</p>
 
 </div>
 </div>
@@ -366,9 +370,9 @@ template&lt;typename T &gt; </div>
 
 <p>inverse of A by LU decomposition </p>
 
-<p>Definition at line <a class="el" href="LU_8h_source.html#l00103">103</a> of file <a class="el" href="LU_8h_source.html">LU.h</a>.</p>
+<p>Definition at line <a class="el" href="LU_8h_source.html#l00114">114</a> of file <a class="el" href="LU_8h_source.html">LU.h</a>.</p>
 
-<p>References <a class="el" href="matrix_8h_source.html#l00232">MR::Math::Matrix&lt; ValueType &gt;::allocate()</a>, <a class="el" href="LU_8h_source.html#l00061">MR::Math::LU::decomp()</a>, <a class="el" href="LU_8h_source.html#l00068">MR::Math::LU::inv()</a>, and <a class="el" href="matrix_8h_source.html#l00388">MR::Math::Matrix&lt; ValueType &gt;::rows()</a>.</p>
+<p>References <a class="el" href="lib_2math_2matrix_8h_source.html#l00233">MR::Math::Matrix&lt; ValueType &gt;::allocate()</a>, <a class="el" href="LU_8h_source.html#l00061">MR::Math::LU::decomp()</a>, <a class="el" href="LU_8h_source.html#l00068">MR::Math::LU::inv()</a>, and <a class="el" href="lib_2math_2matrix_8h_source.html#l00389">MR::Math::Matrix&lt; ValueType &gt;::rows()</a>.</p>
 
 </div>
 </div>
@@ -398,9 +402,9 @@ template&lt;typename T &gt; </div>
 
 <p>inverse of A by LU decomposition </p>
 
-<p>Definition at line <a class="el" href="LU_8h_source.html#l00114">114</a> of file <a class="el" href="LU_8h_source.html">LU.h</a>.</p>
+<p>Definition at line <a class="el" href="LU_8h_source.html#l00125">125</a> of file <a class="el" href="LU_8h_source.html">LU.h</a>.</p>
 
-<p>References <a class="el" href="matrix_8h_source.html#l00393">MR::Math::Matrix&lt; ValueType &gt;::columns()</a>, <a class="el" href="LU_8h_source.html#l00061">MR::Math::LU::decomp()</a>, <a class="el" href="LU_8h_source.html#l00068">MR::Math::LU::inv()</a>, and <a class="el" href="matrix_8h_source.html#l00388">MR::Math::Matrix&lt; ValueType &gt;::rows()</a>.</p>
+<p>References <a class="el" href="lib_2math_2matrix_8h_source.html#l00394">MR::Math::Matrix&lt; ValueType &gt;::columns()</a>, <a class="el" href="LU_8h_source.html#l00061">MR::Math::LU::decomp()</a>, <a class="el" href="LU_8h_source.html#l00068">MR::Math::LU::inv()</a>, and <a class="el" href="lib_2math_2matrix_8h_source.html#l00389">MR::Math::Matrix&lt; ValueType &gt;::rows()</a>.</p>
 
 </div>
 </div>
@@ -440,11 +444,11 @@ template&lt;typename T &gt; </div>
 
 <p>get sign of determinant of A given its LU decomposition D, signum. </p>
 
-<p>Definition at line <a class="el" href="LU_8h_source.html#l00097">97</a> of file <a class="el" href="LU_8h_source.html">LU.h</a>.</p>
+<p>Definition at line <a class="el" href="LU_8h_source.html#l00108">108</a> of file <a class="el" href="LU_8h_source.html">LU.h</a>.</p>
 
-<p>References <a class="el" href="matrix_8h_source.html#l00324">MR::Math::Matrix&lt; ValueType &gt;::gsl()</a>.</p>
+<p>References <a class="el" href="lib_2math_2matrix_8h_source.html#l00325">MR::Math::Matrix&lt; ValueType &gt;::gsl()</a>.</p>
 
-<p>Referenced by <a class="el" href="LU_8h_source.html#l00136">MR::Math::LU::sgndet()</a>.</p>
+<p>Referenced by <a class="el" href="LU_8h_source.html#l00147">MR::Math::LU::sgndet()</a>.</p>
 
 </div>
 </div>
@@ -474,9 +478,9 @@ template&lt;typename T &gt; </div>
 
 <p>get sign of determinant of A by <a class="el" href="namespaceMR_1_1Math_1_1LU.html">LU</a> decomposition </p>
 
-<p>Definition at line <a class="el" href="LU_8h_source.html#l00136">136</a> of file <a class="el" href="LU_8h_source.html">LU.h</a>.</p>
+<p>Definition at line <a class="el" href="LU_8h_source.html#l00147">147</a> of file <a class="el" href="LU_8h_source.html">LU.h</a>.</p>
 
-<p>References <a class="el" href="LU_8h_source.html#l00061">MR::Math::LU::decomp()</a>, <a class="el" href="matrix_8h_source.html#l00388">MR::Math::Matrix&lt; ValueType &gt;::rows()</a>, and <a class="el" href="LU_8h_source.html#l00097">MR::Math::LU::sgndet()</a>.</p>
+<p>References <a class="el" href="LU_8h_source.html#l00061">MR::Math::LU::decomp()</a>, <a class="el" href="lib_2math_2matrix_8h_source.html#l00389">MR::Math::Matrix&lt; ValueType &gt;::rows()</a>, and <a class="el" href="LU_8h_source.html#l00108">MR::Math::LU::sgndet()</a>.</p>
 
 </div>
 </div>
@@ -530,7 +534,9 @@ template&lt;typename T &gt; </div>
 
 <p>Definition at line <a class="el" href="LU_8h_source.html#l00076">76</a> of file <a class="el" href="LU_8h_source.html">LU.h</a>.</p>
 
-<p>References <a class="el" href="lib_2math_2vector_8h_source.html#l00267">MR::Math::Vector&lt; ValueType &gt;::allocate()</a>, <a class="el" href="permutation_8h_source.html#l00073">MR::Math::Permutation::gsl()</a>, <a class="el" href="matrix_8h_source.html#l00324">MR::Math::Matrix&lt; ValueType &gt;::gsl()</a>, <a class="el" href="lib_2math_2vector_8h_source.html#l00349">MR::Math::Vector&lt; ValueType &gt;::gsl()</a>, and <a class="el" href="matrix_8h_source.html#l00388">MR::Math::Matrix&lt; ValueType &gt;::rows()</a>.</p>
+<p>References <a class="el" href="lib_2math_2vector_8h_source.html#l00267">MR::Math::Vector&lt; ValueType &gt;::allocate()</a>, <a class="el" href="permutation_8h_source.html#l00073">MR::Math::Permutation::gsl()</a>, <a class="el" href="lib_2math_2matrix_8h_source.html#l00325">MR::Math::Matrix&lt; ValueType &gt;::gsl()</a>, <a class="el" href="lib_2math_2vector_8h_source.html#l00349">MR::Math::Vector&lt; ValueType &gt;::gsl()</a>, and <a class="el" href="lib_2math_2matrix_8h_source.html#l00389">MR::Math::Matrix&lt; ValueType &gt;::rows()</a>.</p>
+
+<p>Referenced by <a class="el" href="LU_8h_source.html#l00091">MR::Math::LU::solve()</a>.</p>
 
 </div>
 </div>
@@ -578,7 +584,49 @@ template&lt;typename T &gt; </div>
 
 <p>Definition at line <a class="el" href="LU_8h_source.html#l00084">84</a> of file <a class="el" href="LU_8h_source.html">LU.h</a>.</p>
 
-<p>References <a class="el" href="permutation_8h_source.html#l00073">MR::Math::Permutation::gsl()</a>, <a class="el" href="matrix_8h_source.html#l00324">MR::Math::Matrix&lt; ValueType &gt;::gsl()</a>, and <a class="el" href="lib_2math_2vector_8h_source.html#l00349">MR::Math::Vector&lt; ValueType &gt;::gsl()</a>.</p>
+<p>References <a class="el" href="permutation_8h_source.html#l00073">MR::Math::Permutation::gsl()</a>, <a class="el" href="lib_2math_2matrix_8h_source.html#l00325">MR::Math::Matrix&lt; ValueType &gt;::gsl()</a>, and <a class="el" href="lib_2math_2vector_8h_source.html#l00349">MR::Math::Vector&lt; ValueType &gt;::gsl()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga47ad3954d3bdec89c2d1c98aba011038"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector&lt;T&gt;&amp; MR::Math::LU::solve </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Math_1_1Vector.html">Vector</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Math_1_1Matrix.html">Matrix</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>A</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>solve A*x = b by LU decomposition, in place (b passed in as x). </p>
+
+<p>Definition at line <a class="el" href="LU_8h_source.html#l00091">91</a> of file <a class="el" href="LU_8h_source.html">LU.h</a>.</p>
+
+<p>References <a class="el" href="LU_8h_source.html#l00061">MR::Math::LU::decomp()</a>, <a class="el" href="lib_2math_2matrix_8h_source.html#l00389">MR::Math::Matrix&lt; ValueType &gt;::rows()</a>, and <a class="el" href="LU_8h_source.html#l00076">MR::Math::LU::solve()</a>.</p>
 
 </div>
 </div>
@@ -587,7 +635,7 @@ template&lt;typename T &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Apr 27 2015 17:39:24 for MRtrix by
+    <li class="footer">Generated on Wed Jul 29 2015 17:53:07 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

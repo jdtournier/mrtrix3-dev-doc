@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">MRtrix
-   &#160;<span id="projectnumber">0.3.12-365-ged27dfbe</span>
+   &#160;<span id="projectnumber">0.3.12-732-g65ed7a3c</span>
    </div>
    <div id="projectbrief">MRtrix provides a set of tools to perform diffusion-weighted MR white-matter tractography in a manner robust to crossing fibres, using constrained spherical deconvolution (CSD) and probabilistic streamlines.</div>
   </td>
@@ -123,7 +123,7 @@ $(document).ready(function(){initNavTree('src_2dwi_2gradient_8h.html','');});
 <code>#include &quot;<a class="el" href="transform_8h_source.html">image/transform.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="LU_8h_source.html">math/LU.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="SH_8h_source.html">math/SH.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="matrix_8h_source.html">math/matrix.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="lib_2math_2matrix_8h_source.html">math/matrix.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="permutation_8h_source.html">math/permutation.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="shells_8h_source.html">dwi/shells.h</a>&quot;</code><br />
 </div>
@@ -177,10 +177,10 @@ Functions</h2></td></tr>
 <tr class="memitem:a7b16f20d63f81a9c45eb981c29fd675f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1DWI.html#a7b16f20d63f81a9c45eb981c29fd675f">MR::DWI::export_grad_commandline</a> (const Image::Header &amp;header)</td></tr>
 <tr class="memdesc:a7b16f20d63f81a9c45eb981c29fd675f"><td class="mdescLeft">&#160;</td><td class="mdescRight">process GradExportOptions command-line options  <a href="#a7b16f20d63f81a9c45eb981c29fd675f">More...</a><br /></td></tr>
 <tr class="separator:a7b16f20d63f81a9c45eb981c29fd675f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc165c4d9f47cf76f32ca5f7e7a59270"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
-<tr class="memitem:adc165c4d9f47cf76f32ca5f7e7a59270"><td class="memTemplItemLeft" align="right" valign="top">Math::Matrix&lt; ValueType &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1DWI.html#adc165c4d9f47cf76f32ca5f7e7a59270">MR::DWI::get_valid_DW_scheme</a> (const Image::Header &amp;header)</td></tr>
-<tr class="memdesc:adc165c4d9f47cf76f32ca5f7e7a59270"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the DW encoding matrix as per <a class="el" href="namespaceMR_1_1DWI.html#ac9eb81e3f16d520da80ae8187396b89a" title="get the DW gradient encoding matrix ">get_DW_scheme()</a>, and check that it matches the DW header in <em>header</em>  <a href="#adc165c4d9f47cf76f32ca5f7e7a59270">More...</a><br /></td></tr>
-<tr class="separator:adc165c4d9f47cf76f32ca5f7e7a59270"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d4b52c0b8a89b4e71a69665098b0dfa"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
+<tr class="memitem:a0d4b52c0b8a89b4e71a69665098b0dfa"><td class="memTemplItemLeft" align="right" valign="top">Math::Matrix&lt; ValueType &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1DWI.html#a0d4b52c0b8a89b4e71a69665098b0dfa">MR::DWI::get_valid_DW_scheme</a> (const Image::Header &amp;header, bool nofail=false)</td></tr>
+<tr class="memdesc:a0d4b52c0b8a89b4e71a69665098b0dfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the DW encoding matrix as per <a class="el" href="namespaceMR_1_1DWI.html#ac9eb81e3f16d520da80ae8187396b89a" title="get the DW gradient encoding matrix ">get_DW_scheme()</a>, and check that it matches the DW header in <em>header</em>  <a href="#a0d4b52c0b8a89b4e71a69665098b0dfa">More...</a><br /></td></tr>
+<tr class="separator:a0d4b52c0b8a89b4e71a69665098b0dfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a624016e92c3eb27bf4e2bd9cf1673c51"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
 <tr class="memitem:a624016e92c3eb27bf4e2bd9cf1673c51"><td class="memTemplItemLeft" align="right" valign="top">Math::Matrix&lt; ValueType &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1DWI.html#a624016e92c3eb27bf4e2bd9cf1673c51">MR::DWI::compute_SH2amp_mapping</a> (const Math::Matrix&lt; ValueType &gt; &amp;directions, bool lmax_from_command_line=true, int default_lmax=8, ValueType max_cond=2.0)</td></tr>
 <tr class="memdesc:a624016e92c3eb27bf4e2bd9cf1673c51"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the matrix mapping SH coefficients to amplitudes  <a href="#a624016e92c3eb27bf4e2bd9cf1673c51">More...</a><br /></td></tr>
@@ -191,8 +191,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_9236bed5acffad77d942815f2449fb47.html">src</a></li><li class="navelem"><a class="el" href="dir_8de64bfa8ed84e298c15944df16c60aa.html">dwi</a></li><li class="navelem"><a class="el" href="src_2dwi_2gradient_8h.html">gradient.h</a></li>
-    <li class="footer">Generated on Mon Apr 27 2015 17:39:24 for MRtrix by
+    <li class="navelem"><a class="el" href="dir_3111b5213a18295c2b9490b065e7a22d.html">src</a></li><li class="navelem"><a class="el" href="dir_1117d21d66a2abc0838f3bb256b178f7.html">dwi</a></li><li class="navelem"><a class="el" href="src_2dwi_2gradient_8h.html">gradient.h</a></li>
+    <li class="footer">Generated on Wed Jul 29 2015 17:53:07 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

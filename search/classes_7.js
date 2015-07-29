@@ -6,6 +6,8 @@ var searchData=
   ['gmwmi',['GMWMI',['../classMR_1_1DWI_1_1Tractography_1_1Seeding_1_1GMWMI.html',1,'MR::DWI::Tractography::Seeding']]],
   ['gmwmi_5f5tt_5fwrapper',['GMWMI_5TT_Wrapper',['../classMR_1_1DWI_1_1Tractography_1_1Seeding_1_1GMWMI__5TT__Wrapper.html',1,'MR::DWI::Tractography::Seeding']]],
   ['gmwmi_5ffinder',['GMWMI_finder',['../classMR_1_1DWI_1_1Tractography_1_1ACT_1_1GMWMI__finder.html',1,'MR::DWI::Tractography::ACT']]],
+  ['grabcontext',['GrabContext',['../structMR_1_1GUI_1_1MRView_1_1Window_1_1GrabContext.html',1,'MR::GUI::MRView::Window']]],
+  ['grabcontext',['GrabContext',['../structMR_1_1GUI_1_1App_1_1GrabContext.html',1,'MR::GUI::App']]],
   ['gradient',['Gradient',['../classMR_1_1Image_1_1Filter_1_1Gradient.html',1,'MR::Image::Filter']]],
   ['gradient1d',['Gradient1D',['../classMR_1_1Image_1_1Adapter_1_1Gradient1D.html',1,'MR::Image::Adapter']]],
   ['gradientdescent',['GradientDescent',['../classMR_1_1Math_1_1GradientDescent.html',1,'MR::Math']]],

@@ -1,7 +1,6 @@
 var classMR_1_1GUI_1_1MRView_1_1Volume =
 [
     [ "Volume", "classMR_1_1GUI_1_1MRView_1_1Volume.html#af0d07b7f614dd37f35e82780f8efcfff", null ],
-    [ "Volume", "classMR_1_1GUI_1_1MRView_1_1Volume.html#a00b26fa4e67aab8c94d2f9a080738d28", null ],
     [ "allocate", "classMR_1_1GUI_1_1MRView_1_1Volume.html#a5e7c5415dfa951a4e2372c3b6f6c133a", null ],
     [ "bind", "classMR_1_1GUI_1_1MRView_1_1Volume.html#a87369d3332cf67c6d19f977cb777f130", null ],
     [ "div", "classMR_1_1GUI_1_1MRView_1_1Volume.html#a20276e72a0b287c4b2a8427c23f2eadc", null ],

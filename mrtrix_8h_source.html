@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">MRtrix
-   &#160;<span id="projectnumber">0.3.12-365-ged27dfbe</span>
+   &#160;<span id="projectnumber">0.3.12-732-g65ed7a3c</span>
    </div>
    <div id="projectbrief">MRtrix provides a set of tools to perform diffusion-weighted MR white-matter tractography in a manner robust to crossing fibres, using constrained spherical deconvolution (CSD) and probabilistic streamlines.</div>
   </td>
@@ -336,254 +336,264 @@ $(document).ready(function(){initNavTree('mrtrix_8h_source.html','');});
 <div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;      <span class="keywordflow">if</span> (*i == orig) *i = <span class="keyword">final</span>;</div>
 <div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;  }</div>
 <div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;</div>
-<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;</div>
-<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;  std::vector&lt;std::string&gt; <a class="code" href="namespaceMR.html#a3f4a473ab90ce57d5c22e4041f6da445">split</a> (</div>
-<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;    <span class="keyword">const</span> std::string&amp; <span class="keywordtype">string</span>,</div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">char</span>* delimiters = <span class="stringliteral">&quot; \t\n&quot;</span>,</div>
-<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;    <span class="keywordtype">bool</span> ignore_empty_fields = <span class="keyword">false</span>,</div>
-<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;    <span class="keywordtype">size_t</span> <a class="code" href="thread_8h.html#a140d449f4eaaa9afc56f07abb4922597">num</a> = <a class="code" href="group__elfun.html#ga6ad7c8a6943db01a90c071137a5eb4de">std::numeric_limits&lt;size_t&gt;::max</a>());</div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;</div>
-<div class="line"><a name="l00235"></a><span class="lineno"><a class="line" href="namespaceMR.html#aa959b5eb8094f43f14b0ff88425b423f">  235</a></span>&#160;  <span class="keyword">inline</span> std::string <a class="code" href="namespaceMR.html#aa959b5eb8094f43f14b0ff88425b423f">join</a> (<span class="keyword">const</span> std::vector&lt;std::string&gt;&amp; V, <span class="keyword">const</span> std::string&amp; delimiter)</div>
-<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;  {</div>
-<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;    std::string ret;</div>
-<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;    <span class="keywordflow">if</span> (V.empty())</div>
-<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;      <span class="keywordflow">return</span> ret;</div>
-<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    ret = V[0];</div>
-<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    <span class="keywordflow">for</span> (std::vector&lt;std::string&gt;::const_iterator i = V.begin() +1; i != V.end(); ++i)</div>
-<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;      ret += delimiter + *i;</div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;    <span class="keywordflow">return</span> ret;</div>
-<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;  }</div>
-<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;</div>
-<div class="line"><a name="l00246"></a><span class="lineno"><a class="line" href="namespaceMR.html#aae0536aa0338b1a8ec230ef6666ae4c8">  246</a></span>&#160;  <span class="keyword">inline</span> std::string <a class="code" href="namespaceMR.html#aa959b5eb8094f43f14b0ff88425b423f">join</a> (<span class="keyword">const</span> <span class="keywordtype">char</span>* <span class="keyword">const</span>* null_terminated_array, <span class="keyword">const</span> std::string&amp; delimiter)</div>
-<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;  {</div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;    std::string ret;</div>
-<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;    <span class="keywordflow">if</span> (!null_terminated_array)</div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;      <span class="keywordflow">return</span> ret;</div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    ret = null_terminated_array[0];</div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keywordtype">char</span>* <span class="keyword">const</span>* p = null_terminated_array+1; *p; ++p) </div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;      ret += delimiter + *p;</div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;    <span class="keywordflow">return</span> ret;</div>
-<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;  }</div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;</div>
-<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;  std::vector&lt;float&gt; <a class="code" href="namespaceMR.html#a51b57887d0a964a3b3fa9ea8bd10f972">parse_floats</a> (<span class="keyword">const</span> std::string&amp; spec);</div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;  std::vector&lt;int&gt;   <a class="code" href="namespaceMR.html#aa8585886b506d23996a75e690f12631c">parse_ints</a> (<span class="keyword">const</span> std::string&amp; spec, <span class="keywordtype">int</span> last = <a class="code" href="group__elfun.html#ga6ad7c8a6943db01a90c071137a5eb4de">std::numeric_limits&lt;int&gt;::max</a>());</div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;</div>
-<div class="line"><a name="l00260"></a><span class="lineno"><a class="line" href="namespaceMR.html#a46ca49fae995e9fde3fd942230d91fac">  260</a></span>&#160;  <span class="keyword">inline</span> <span class="keywordtype">int</span> <a class="code" href="namespaceMR.html#a46ca49fae995e9fde3fd942230d91fac">round</a> (<span class="keywordtype">float</span> x)</div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;  {</div>
-<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;    <span class="keywordflow">return</span> int (x + (x &gt; 0.0 ? 0.5 : -0.5));</div>
-<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;  }</div>
-<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;</div>
-<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;</div>
+<div class="line"><a name="l00228"></a><span class="lineno"><a class="line" href="namespaceMR.html#ad420ef6dab9cc5565ac3b8961bb11228">  228</a></span>&#160;  <span class="keyword">inline</span> <span class="keywordtype">void</span>  <a class="code" href="namespaceMR.html#a18e0d7e1612f262bb9202f52c802b6e6">replace</a> (std::string&amp; <a class="code" href="namespaceMR.html#a7dcea37fdb5fba1961d121fca36c22c4">str</a>, <span class="keyword">const</span> std::string&amp; from, <span class="keyword">const</span> std::string&amp; <a class="code" href="namespaceMR.html#ad5a737bfbb3fcb51accf1a329da6fb7c">to</a>)</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;  {</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;    <span class="keywordflow">if</span> (from.empty()) <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;    <span class="keywordtype">size_t</span> start_pos = 0;</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;    <span class="keywordflow">while</span>((start_pos = str.find(from, start_pos)) != std::string::npos) {</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;      str.replace (start_pos, from.length(), <a class="code" href="namespaceMR.html#ad5a737bfbb3fcb51accf1a329da6fb7c">to</a>);</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;      start_pos += to.length(); </div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;    }</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;  }</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;  std::vector&lt;std::string&gt; <a class="code" href="namespaceMR.html#a3f4a473ab90ce57d5c22e4041f6da445">split</a> (</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    <span class="keyword">const</span> std::string&amp; <span class="keywordtype">string</span>,</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">char</span>* delimiters = <span class="stringliteral">&quot; \t\n&quot;</span>,</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    <span class="keywordtype">bool</span> ignore_empty_fields = <span class="keyword">false</span>,</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;    <span class="keywordtype">size_t</span> <a class="code" href="thread_8h.html#a140d449f4eaaa9afc56f07abb4922597">num</a> = <a class="code" href="group__elfun.html#ga6ad7c8a6943db01a90c071137a5eb4de">std::numeric_limits&lt;size_t&gt;::max</a>());</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;</div>
+<div class="line"><a name="l00245"></a><span class="lineno"><a class="line" href="namespaceMR.html#aa959b5eb8094f43f14b0ff88425b423f">  245</a></span>&#160;  <span class="keyword">inline</span> std::string <a class="code" href="namespaceMR.html#aa959b5eb8094f43f14b0ff88425b423f">join</a> (<span class="keyword">const</span> std::vector&lt;std::string&gt;&amp; V, <span class="keyword">const</span> std::string&amp; delimiter)</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;  {</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;    std::string ret;</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;    <span class="keywordflow">if</span> (V.empty())</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;      <span class="keywordflow">return</span> ret;</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    ret = V[0];</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    <span class="keywordflow">for</span> (std::vector&lt;std::string&gt;::const_iterator i = V.begin() +1; i != V.end(); ++i)</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;      ret += delimiter + *i;</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;    <span class="keywordflow">return</span> ret;</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;  }</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;</div>
+<div class="line"><a name="l00256"></a><span class="lineno"><a class="line" href="namespaceMR.html#aae0536aa0338b1a8ec230ef6666ae4c8">  256</a></span>&#160;  <span class="keyword">inline</span> std::string <a class="code" href="namespaceMR.html#aa959b5eb8094f43f14b0ff88425b423f">join</a> (<span class="keyword">const</span> <span class="keywordtype">char</span>* <span class="keyword">const</span>* null_terminated_array, <span class="keyword">const</span> std::string&amp; delimiter)</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;  {</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;    std::string ret;</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;    <span class="keywordflow">if</span> (!null_terminated_array)</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;      <span class="keywordflow">return</span> ret;</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;    ret = null_terminated_array[0];</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keywordtype">char</span>* <span class="keyword">const</span>* p = null_terminated_array+1; *p; ++p) </div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;      ret += delimiter + *p;</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;    <span class="keywordflow">return</span> ret;</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;  }</div>
 <div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;</div>
-<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;</div>
-<div class="line"><a name="l00268"></a><span class="lineno"><a class="line" href="namespaceMR.html#a9b4984af516233dea98c3b6c95d86cf8">  268</a></span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt; <span class="keyword">inline</span> T <a class="code" href="namespaceMR.html#a9b4984af516233dea98c3b6c95d86cf8">maxvalue</a> (<span class="keyword">const</span> T&amp; v0, <span class="keyword">const</span> T&amp; v1, <span class="keyword">const</span> T&amp; v2)</div>
-<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;  {</div>
-<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;    <span class="keywordflow">return</span> v0 &gt; v1 ? (v0 &gt; v2 ? v0 : (v1 &gt; v2 ? v1 : v2)) : (v1 &gt; v2 ? v1 : (v0 &gt; v2 ? v0 : v2));</div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;  }</div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;</div>
-<div class="line"><a name="l00273"></a><span class="lineno"><a class="line" href="namespaceMR.html#aacb4d1104d3c516990e724e06ec9ad90">  273</a></span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt; <span class="keyword">inline</span> <span class="keywordtype">int</span> <a class="code" href="namespaceMR.html#aacb4d1104d3c516990e724e06ec9ad90">maxindex</a> (<span class="keyword">const</span> T&amp; v0, <span class="keyword">const</span> T&amp; v1, <span class="keyword">const</span> T&amp; v2)</div>
-<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;  {</div>
-<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;    <span class="keywordflow">return</span> v0 &gt; v1 ? (v0 &gt; v2 ? 0 : (v1 &gt; v2 ? 1 : 2)) : (v1 &gt; v2 ? 1 : (v0 &gt; v2 ? 0 : 2));</div>
-<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;  }</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;  std::vector&lt;float&gt; <a class="code" href="namespaceMR.html#a51b57887d0a964a3b3fa9ea8bd10f972">parse_floats</a> (<span class="keyword">const</span> std::string&amp; spec);</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;  std::vector&lt;int&gt;   <a class="code" href="namespaceMR.html#aa8585886b506d23996a75e690f12631c">parse_ints</a> (<span class="keyword">const</span> std::string&amp; spec, <span class="keywordtype">int</span> last = <a class="code" href="group__elfun.html#ga6ad7c8a6943db01a90c071137a5eb4de">std::numeric_limits&lt;int&gt;::max</a>());</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;</div>
+<div class="line"><a name="l00270"></a><span class="lineno"><a class="line" href="namespaceMR.html#a46ca49fae995e9fde3fd942230d91fac">  270</a></span>&#160;  <span class="keyword">inline</span> <span class="keywordtype">int</span> <a class="code" href="namespaceMR.html#a46ca49fae995e9fde3fd942230d91fac">round</a> (<span class="keywordtype">float</span> x)</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;  {</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;    <span class="keywordflow">return</span> int (x + (x &gt; 0.0 ? 0.5 : -0.5));</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;  }</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;</div>
 <div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;</div>
-<div class="line"><a name="l00278"></a><span class="lineno"><a class="line" href="namespaceMR.html#acdf7a35bf0a51df9063cd7089b299bdc">  278</a></span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt; <span class="keyword">inline</span> T <a class="code" href="namespaceMR.html#a9b4984af516233dea98c3b6c95d86cf8">maxvalue</a> (<span class="keyword">const</span> T v[3])</div>
+<div class="line"><a name="l00278"></a><span class="lineno"><a class="line" href="namespaceMR.html#a9b4984af516233dea98c3b6c95d86cf8">  278</a></span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt; <span class="keyword">inline</span> T <a class="code" href="namespaceMR.html#a9b4984af516233dea98c3b6c95d86cf8">maxvalue</a> (<span class="keyword">const</span> T&amp; v0, <span class="keyword">const</span> T&amp; v1, <span class="keyword">const</span> T&amp; v2)</div>
 <div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;  {</div>
-<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="namespaceMR.html#a9b4984af516233dea98c3b6c95d86cf8">maxvalue</a> (v[0], v[1], v[2]);</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;    <span class="keywordflow">return</span> v0 &gt; v1 ? (v0 &gt; v2 ? v0 : (v1 &gt; v2 ? v1 : v2)) : (v1 &gt; v2 ? v1 : (v0 &gt; v2 ? v0 : v2));</div>
 <div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;  }</div>
-<div class="line"><a name="l00282"></a><span class="lineno"><a class="line" href="namespaceMR.html#a820605c3ca7de0ef3d4f9356524fcd7f">  282</a></span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt; <span class="keyword">inline</span> <span class="keywordtype">int</span> <a class="code" href="namespaceMR.html#aacb4d1104d3c516990e724e06ec9ad90">maxindex</a> (<span class="keyword">const</span> T v[3])</div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;  {</div>
-<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="namespaceMR.html#aacb4d1104d3c516990e724e06ec9ad90">maxindex</a> (v[0], v[1], v[2]);</div>
-<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;  }</div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;</div>
+<div class="line"><a name="l00283"></a><span class="lineno"><a class="line" href="namespaceMR.html#aacb4d1104d3c516990e724e06ec9ad90">  283</a></span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt; <span class="keyword">inline</span> <span class="keywordtype">int</span> <a class="code" href="namespaceMR.html#aacb4d1104d3c516990e724e06ec9ad90">maxindex</a> (<span class="keyword">const</span> T&amp; v0, <span class="keyword">const</span> T&amp; v1, <span class="keyword">const</span> T&amp; v2)</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;  {</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;    <span class="keywordflow">return</span> v0 &gt; v1 ? (v0 &gt; v2 ? 0 : (v1 &gt; v2 ? 1 : 2)) : (v1 &gt; v2 ? 1 : (v0 &gt; v2 ? 0 : 2));</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;  }</div>
 <div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;</div>
-<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;</div>
-<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;</div>
-<div class="line"><a name="l00290"></a><span class="lineno"><a class="line" href="namespaceMR.html#ad3180b0ad671e074cbef40f80e5f7990">  290</a></span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt; <span class="keyword">inline</span> T <a class="code" href="namespaceMR.html#ad3180b0ad671e074cbef40f80e5f7990">minvalue</a> (<span class="keyword">const</span> T&amp; v0, <span class="keyword">const</span> T&amp; v1, <span class="keyword">const</span> T&amp; v2)</div>
-<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;  {</div>
-<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;    <span class="keywordflow">return</span> v0 &lt; v1 ? (v0 &lt; v2 ? v0 : (v1 &lt; v2 ? v1 : v2)) : (v1 &lt; v2 ? v1 : (v0 &lt; v2 ? v0 : v2));</div>
-<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;  }</div>
-<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;</div>
-<div class="line"><a name="l00295"></a><span class="lineno"><a class="line" href="namespaceMR.html#a1cc4fc7bfaae5839bd34269c67697c13">  295</a></span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt; <span class="keyword">inline</span> <span class="keywordtype">int</span> <a class="code" href="namespaceMR.html#a1cc4fc7bfaae5839bd34269c67697c13">minindex</a> (<span class="keyword">const</span> T&amp; v0, <span class="keyword">const</span> T&amp; v1, <span class="keyword">const</span> T&amp; v2)</div>
-<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;  {</div>
-<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;    <span class="keywordflow">return</span> v0 &lt; v1 ? (v0 &lt; v2 ? 0 : (v1 &lt; v2 ? 1 : 2)) : (v1 &lt; v2 ? 1 : (v0 &lt; v2 ? 0 : 2));</div>
-<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;  }</div>
+<div class="line"><a name="l00288"></a><span class="lineno"><a class="line" href="namespaceMR.html#acdf7a35bf0a51df9063cd7089b299bdc">  288</a></span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt; <span class="keyword">inline</span> T <a class="code" href="namespaceMR.html#a9b4984af516233dea98c3b6c95d86cf8">maxvalue</a> (<span class="keyword">const</span> T v[3])</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;  {</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="namespaceMR.html#a9b4984af516233dea98c3b6c95d86cf8">maxvalue</a> (v[0], v[1], v[2]);</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;  }</div>
+<div class="line"><a name="l00292"></a><span class="lineno"><a class="line" href="namespaceMR.html#a820605c3ca7de0ef3d4f9356524fcd7f">  292</a></span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt; <span class="keyword">inline</span> <span class="keywordtype">int</span> <a class="code" href="namespaceMR.html#aacb4d1104d3c516990e724e06ec9ad90">maxindex</a> (<span class="keyword">const</span> T v[3])</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;  {</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="namespaceMR.html#aacb4d1104d3c516990e724e06ec9ad90">maxindex</a> (v[0], v[1], v[2]);</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;  }</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;</div>
 <div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;</div>
-<div class="line"><a name="l00300"></a><span class="lineno"><a class="line" href="namespaceMR.html#af27b94c22a55a9ce5b2b2fc36df4816a">  300</a></span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt; <span class="keyword">inline</span> T <a class="code" href="namespaceMR.html#ad3180b0ad671e074cbef40f80e5f7990">minvalue</a> (<span class="keyword">const</span> T v[3])</div>
+<div class="line"><a name="l00300"></a><span class="lineno"><a class="line" href="namespaceMR.html#ad3180b0ad671e074cbef40f80e5f7990">  300</a></span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt; <span class="keyword">inline</span> T <a class="code" href="namespaceMR.html#ad3180b0ad671e074cbef40f80e5f7990">minvalue</a> (<span class="keyword">const</span> T&amp; v0, <span class="keyword">const</span> T&amp; v1, <span class="keyword">const</span> T&amp; v2)</div>
 <div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;  {</div>
-<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="namespaceMR.html#ad3180b0ad671e074cbef40f80e5f7990">minvalue</a> (v[0], v[1], v[2]);</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;    <span class="keywordflow">return</span> v0 &lt; v1 ? (v0 &lt; v2 ? v0 : (v1 &lt; v2 ? v1 : v2)) : (v1 &lt; v2 ? v1 : (v0 &lt; v2 ? v0 : v2));</div>
 <div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;  }</div>
-<div class="line"><a name="l00304"></a><span class="lineno"><a class="line" href="namespaceMR.html#a88e873803a83d53bb92c5aa9b07d7be8">  304</a></span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt; <span class="keyword">inline</span> <span class="keywordtype">int</span> <a class="code" href="namespaceMR.html#a1cc4fc7bfaae5839bd34269c67697c13">minindex</a> (<span class="keyword">const</span> T v[3])</div>
-<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;  {</div>
-<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="namespaceMR.html#a1cc4fc7bfaae5839bd34269c67697c13">minindex</a> (v[0], v[1], v[2]);</div>
-<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;  }</div>
-<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;</div>
+<div class="line"><a name="l00305"></a><span class="lineno"><a class="line" href="namespaceMR.html#a1cc4fc7bfaae5839bd34269c67697c13">  305</a></span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt; <span class="keyword">inline</span> <span class="keywordtype">int</span> <a class="code" href="namespaceMR.html#a1cc4fc7bfaae5839bd34269c67697c13">minindex</a> (<span class="keyword">const</span> T&amp; v0, <span class="keyword">const</span> T&amp; v1, <span class="keyword">const</span> T&amp; v2)</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;  {</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;    <span class="keywordflow">return</span> v0 &lt; v1 ? (v0 &lt; v2 ? 0 : (v1 &lt; v2 ? 1 : 2)) : (v1 &lt; v2 ? 1 : (v0 &lt; v2 ? 0 : 2));</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;  }</div>
 <div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;</div>
-<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;</div>
-<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;</div>
-<div class="line"><a name="l00312"></a><span class="lineno"><a class="line" href="namespaceMR.html#aaed1b4298404d7c463cd6915b8903959">  312</a></span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt; <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="namespaceMR.html#aaed1b4298404d7c463cd6915b8903959">set_all</a> (std::vector&lt;T&gt;&amp; V, <span class="keyword">const</span> T&amp; <a class="code" href="group__spherical__harmonics.html#gabed74e8e329a907299fa666f1327fb25">value</a>)</div>
-<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;  {</div>
-<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> n = 0; n &lt; V.size(); n++) </div>
-<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;      V[n] = value;</div>
-<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;  }</div>
-<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;</div>
+<div class="line"><a name="l00310"></a><span class="lineno"><a class="line" href="namespaceMR.html#af27b94c22a55a9ce5b2b2fc36df4816a">  310</a></span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt; <span class="keyword">inline</span> T <a class="code" href="namespaceMR.html#ad3180b0ad671e074cbef40f80e5f7990">minvalue</a> (<span class="keyword">const</span> T v[3])</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;  {</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="namespaceMR.html#ad3180b0ad671e074cbef40f80e5f7990">minvalue</a> (v[0], v[1], v[2]);</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;  }</div>
+<div class="line"><a name="l00314"></a><span class="lineno"><a class="line" href="namespaceMR.html#a88e873803a83d53bb92c5aa9b07d7be8">  314</a></span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt; <span class="keyword">inline</span> <span class="keywordtype">int</span> <a class="code" href="namespaceMR.html#a1cc4fc7bfaae5839bd34269c67697c13">minindex</a> (<span class="keyword">const</span> T v[3])</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;  {</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="namespaceMR.html#a1cc4fc7bfaae5839bd34269c67697c13">minindex</a> (v[0], v[1], v[2]);</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;  }</div>
 <div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;</div>
 <div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;</div>
 <div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;</div>
-<div class="line"><a name="l00321"></a><span class="lineno"><a class="line" href="namespaceMR.html#a468de832c49b0fa03f40046e10ac34d4">  321</a></span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt; <span class="keyword">inline</span> <span class="keywordtype">bool</span> <a class="code" href="namespaceMR.html#a468de832c49b0fa03f40046e10ac34d4">get_next</a> (std::vector&lt;T&gt;&amp; pos, <span class="keyword">const</span> std::vector&lt;T&gt;&amp; limits)</div>
-<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;  {</div>
-<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;    <span class="keywordtype">size_t</span> axis = 0;</div>
-<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;    <span class="keywordflow">while</span> (axis &lt; limits.size()) {</div>
-<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;      pos[axis]++;</div>
-<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;      <span class="keywordflow">if</span> (pos[axis] &lt; limits[axis]) </div>
-<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;      pos[axis] = 0;</div>
-<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;      axis++;</div>
-<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;    }</div>
-<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;  }</div>
-<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;</div>
-<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;</div>
-<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;</div>
-<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;</div>
-<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;</div>
-<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;<span class="comment">/**********************************************************************</span></div>
-<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;<span class="comment">   specialisations to convert complex numbers to/from text:</span></div>
-<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;<span class="comment">**********************************************************************/</span></div>
-<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;</div>
-<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;</div>
-<div class="line"><a name="l00343"></a><span class="lineno"><a class="line" href="namespaceMR.html#abf7a9d5cf0c28b1ada565992ec749917">  343</a></span>&#160;  <span class="keyword">template</span> &lt;&gt; <span class="keyword">inline</span> std::string <a class="code" href="namespaceMR.html#abf7a9d5cf0c28b1ada565992ec749917">str&lt;cfloat&gt;</a> (<span class="keyword">const</span> <a class="code" href="namespaceMR.html#ad3a6907cd4a6612defc12dee0928a713">cfloat</a>&amp; <a class="code" href="group__spherical__harmonics.html#gabed74e8e329a907299fa666f1327fb25">value</a>, <span class="keywordtype">int</span> precision)</div>
-<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;  {</div>
-<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;    std::ostringstream stream;</div>
-<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;    <span class="keywordflow">if</span> (precision &gt; 0) </div>
-<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;      stream.precision (precision);</div>
-<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;    stream &lt;&lt; value.real();</div>
-<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;    <span class="keywordflow">if</span> (value.imag()) </div>
-<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;      stream &lt;&lt; std::showpos &lt;&lt; value.imag() &lt;&lt; <span class="stringliteral">&quot;i&quot;</span>;</div>
-<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;    <span class="keywordflow">if</span> (stream.fail())</div>
-<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;      <span class="keywordflow">throw</span> <a class="code" href="classMR_1_1Exception.html">Exception</a> (<span class="stringliteral">&quot;error converting value to string&quot;</span>);</div>
-<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;    <span class="keywordflow">return</span> stream.str();</div>
-<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;  }</div>
-<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;</div>
-<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;</div>
-<div class="line"><a name="l00357"></a><span class="lineno"><a class="line" href="namespaceMR.html#a68611edfac7f1f97a928906edc376f70">  357</a></span>&#160;  <span class="keyword">template</span> &lt;&gt; <span class="keyword">inline</span> <a class="code" href="namespaceMR.html#ad3a6907cd4a6612defc12dee0928a713">cfloat</a> <a class="code" href="namespaceMR.html#a68611edfac7f1f97a928906edc376f70">to&lt;cfloat&gt;</a> (<span class="keyword">const</span> std::string&amp; string)</div>
-<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;  {</div>
-<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;    std::istringstream stream (<span class="keywordtype">string</span>);</div>
-<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;    <span class="keywordtype">float</span> real, imag;</div>
-<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;    stream &gt;&gt; real;</div>
-<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;    <span class="keywordflow">if</span> (stream.fail())</div>
-<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;      <span class="keywordflow">throw</span> <a class="code" href="classMR_1_1Exception.html">Exception</a> (<span class="stringliteral">&quot;error converting string \&quot;&quot;</span> + <span class="keywordtype">string</span> + <span class="stringliteral">&quot;\&quot;&quot;</span>);</div>
-<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;    <span class="keywordflow">if</span> (stream.eof())</div>
-<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="namespaceMR.html#ad3a6907cd4a6612defc12dee0928a713">cfloat</a> (real, 0.0f);</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;</div>
+<div class="line"><a name="l00322"></a><span class="lineno"><a class="line" href="namespaceMR.html#aaed1b4298404d7c463cd6915b8903959">  322</a></span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt; <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="namespaceMR.html#aaed1b4298404d7c463cd6915b8903959">set_all</a> (std::vector&lt;T&gt;&amp; V, <span class="keyword">const</span> T&amp; <a class="code" href="group__spherical__harmonics.html#gabed74e8e329a907299fa666f1327fb25">value</a>)</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;  {</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> n = 0; n &lt; V.size(); n++) </div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;      V[n] = value;</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;  }</div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;</div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;</div>
+<div class="line"><a name="l00331"></a><span class="lineno"><a class="line" href="namespaceMR.html#a468de832c49b0fa03f40046e10ac34d4">  331</a></span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt; <span class="keyword">inline</span> <span class="keywordtype">bool</span> <a class="code" href="namespaceMR.html#a468de832c49b0fa03f40046e10ac34d4">get_next</a> (std::vector&lt;T&gt;&amp; pos, <span class="keyword">const</span> std::vector&lt;T&gt;&amp; limits)</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;  {</div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;    <span class="keywordtype">size_t</span> axis = 0;</div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;    <span class="keywordflow">while</span> (axis &lt; limits.size()) {</div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;      pos[axis]++;</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;      <span class="keywordflow">if</span> (pos[axis] &lt; limits[axis]) </div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;      pos[axis] = 0;</div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;      axis++;</div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;    }</div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;  }</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;</div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;</div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;</div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;<span class="comment">/**********************************************************************</span></div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;<span class="comment">   specialisations to convert complex numbers to/from text:</span></div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;<span class="comment">**********************************************************************/</span></div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;</div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;</div>
+<div class="line"><a name="l00353"></a><span class="lineno"><a class="line" href="namespaceMR.html#abf7a9d5cf0c28b1ada565992ec749917">  353</a></span>&#160;  <span class="keyword">template</span> &lt;&gt; <span class="keyword">inline</span> std::string <a class="code" href="namespaceMR.html#abf7a9d5cf0c28b1ada565992ec749917">str&lt;cfloat&gt;</a> (<span class="keyword">const</span> <a class="code" href="namespaceMR.html#ad3a6907cd4a6612defc12dee0928a713">cfloat</a>&amp; <a class="code" href="group__spherical__harmonics.html#gabed74e8e329a907299fa666f1327fb25">value</a>, <span class="keywordtype">int</span> precision)</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;  {</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;    std::ostringstream stream;</div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;    <span class="keywordflow">if</span> (precision &gt; 0) </div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;      stream.precision (precision);</div>
+<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;    stream &lt;&lt; value.real();</div>
+<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;    <span class="keywordflow">if</span> (value.imag()) </div>
+<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;      stream &lt;&lt; std::showpos &lt;&lt; value.imag() &lt;&lt; <span class="stringliteral">&quot;i&quot;</span>;</div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;    <span class="keywordflow">if</span> (stream.fail())</div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;      <span class="keywordflow">throw</span> <a class="code" href="classMR_1_1Exception.html">Exception</a> (<span class="stringliteral">&quot;error converting value to string&quot;</span>);</div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;    <span class="keywordflow">return</span> stream.str();</div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;  }</div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;</div>
 <div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;</div>
-<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;    <span class="keywordflow">if</span> (stream.peek() == <span class="charliteral">&#39;i&#39;</span>)</div>
-<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="namespaceMR.html#ad3a6907cd4a6612defc12dee0928a713">cfloat</a> (0.0f, real);</div>
-<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;</div>
-<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;    stream &gt;&gt; imag;</div>
-<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;    <span class="keywordflow">if</span> (stream.fail()) </div>
-<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="namespaceMR.html#ad3a6907cd4a6612defc12dee0928a713">cfloat</a> (real, 0.0f);</div>
-<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (stream.peek() != <span class="charliteral">&#39;i&#39;</span>)</div>
-<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;      <span class="keywordflow">throw</span> <a class="code" href="classMR_1_1Exception.html">Exception</a> (<span class="stringliteral">&quot;error converting string \&quot;&quot;</span> + <span class="keywordtype">string</span> + <span class="stringliteral">&quot;\&quot;&quot;</span>);</div>
-<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="namespaceMR.html#ad3a6907cd4a6612defc12dee0928a713">cfloat</a> (real, imag);</div>
-<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;  }</div>
-<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;</div>
-<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;</div>
+<div class="line"><a name="l00367"></a><span class="lineno"><a class="line" href="namespaceMR.html#a68611edfac7f1f97a928906edc376f70">  367</a></span>&#160;  <span class="keyword">template</span> &lt;&gt; <span class="keyword">inline</span> <a class="code" href="namespaceMR.html#ad3a6907cd4a6612defc12dee0928a713">cfloat</a> <a class="code" href="namespaceMR.html#a68611edfac7f1f97a928906edc376f70">to&lt;cfloat&gt;</a> (<span class="keyword">const</span> std::string&amp; string)</div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;  {</div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;    std::istringstream stream (<span class="keywordtype">string</span>);</div>
+<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;    <span class="keywordtype">float</span> real, imag;</div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;    stream &gt;&gt; real;</div>
+<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;    <span class="keywordflow">if</span> (stream.fail())</div>
+<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;      <span class="keywordflow">throw</span> <a class="code" href="classMR_1_1Exception.html">Exception</a> (<span class="stringliteral">&quot;error converting string \&quot;&quot;</span> + <span class="keywordtype">string</span> + <span class="stringliteral">&quot;\&quot;&quot;</span>);</div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;    <span class="keywordflow">if</span> (stream.eof())</div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="namespaceMR.html#ad3a6907cd4a6612defc12dee0928a713">cfloat</a> (real, 0.0f);</div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;</div>
+<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;    <span class="keywordflow">if</span> (stream.peek() == <span class="charliteral">&#39;i&#39;</span>)</div>
+<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="namespaceMR.html#ad3a6907cd4a6612defc12dee0928a713">cfloat</a> (0.0f, real);</div>
 <div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;</div>
-<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;</div>
-<div class="line"><a name="l00381"></a><span class="lineno"><a class="line" href="namespaceMR.html#a7bcdfb769116c6c2473aaec6d14cc188">  381</a></span>&#160;  <span class="keyword">template</span> &lt;&gt; <span class="keyword">inline</span> std::string <a class="code" href="namespaceMR.html#a7bcdfb769116c6c2473aaec6d14cc188">str&lt;cdouble&gt;</a> (<span class="keyword">const</span> <a class="code" href="namespaceMR.html#a99adc8169db44e1dc7e351feb7e8041e">cdouble</a>&amp; <a class="code" href="group__spherical__harmonics.html#gabed74e8e329a907299fa666f1327fb25">value</a>, <span class="keywordtype">int</span> precision)</div>
-<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;  {</div>
-<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;    std::ostringstream stream;</div>
-<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;    <span class="keywordflow">if</span> (precision &gt; 0) </div>
-<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;      stream.precision (precision);</div>
-<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;    stream &lt;&lt; value.real();</div>
-<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;    <span class="keywordflow">if</span> (value.imag()) </div>
-<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;      stream &lt;&lt; std::showpos &lt;&lt; value.imag() &lt;&lt; <span class="stringliteral">&quot;i&quot;</span>;</div>
-<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;    <span class="keywordflow">if</span> (stream.fail())</div>
-<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;      <span class="keywordflow">throw</span> <a class="code" href="classMR_1_1Exception.html">Exception</a> (<span class="stringliteral">&quot;error converting value to string&quot;</span>);</div>
-<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;    <span class="keywordflow">return</span> stream.str();</div>
-<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;  }</div>
-<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;</div>
-<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;</div>
-<div class="line"><a name="l00395"></a><span class="lineno"><a class="line" href="namespaceMR.html#a3110479a6319030fd248dfcc3b277da6">  395</a></span>&#160;  <span class="keyword">template</span> &lt;&gt; <span class="keyword">inline</span> <a class="code" href="namespaceMR.html#a99adc8169db44e1dc7e351feb7e8041e">cdouble</a> <a class="code" href="namespaceMR.html#a3110479a6319030fd248dfcc3b277da6">to&lt;cdouble&gt;</a> (<span class="keyword">const</span> std::string&amp; string)</div>
-<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;  {</div>
-<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;    std::istringstream stream (<span class="keywordtype">string</span>);</div>
-<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;    <span class="keywordtype">double</span> real, imag;</div>
-<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;    stream &gt;&gt; real;</div>
-<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;    <span class="keywordflow">if</span> (stream.fail())</div>
-<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;      <span class="keywordflow">throw</span> <a class="code" href="classMR_1_1Exception.html">Exception</a> (<span class="stringliteral">&quot;error converting string \&quot;&quot;</span> + <span class="keywordtype">string</span> + <span class="stringliteral">&quot;\&quot;&quot;</span>);</div>
-<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;    <span class="keywordflow">if</span> (stream.eof())</div>
-<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="namespaceMR.html#a99adc8169db44e1dc7e351feb7e8041e">cdouble</a> (real, 0.0);</div>
+<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;    stream &gt;&gt; imag;</div>
+<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;    <span class="keywordflow">if</span> (stream.fail()) </div>
+<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="namespaceMR.html#ad3a6907cd4a6612defc12dee0928a713">cfloat</a> (real, 0.0f);</div>
+<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (stream.peek() != <span class="charliteral">&#39;i&#39;</span>)</div>
+<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;      <span class="keywordflow">throw</span> <a class="code" href="classMR_1_1Exception.html">Exception</a> (<span class="stringliteral">&quot;error converting string \&quot;&quot;</span> + <span class="keywordtype">string</span> + <span class="stringliteral">&quot;\&quot;&quot;</span>);</div>
+<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="namespaceMR.html#ad3a6907cd4a6612defc12dee0928a713">cfloat</a> (real, imag);</div>
+<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;  }</div>
+<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;</div>
+<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;</div>
+<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;</div>
+<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;</div>
+<div class="line"><a name="l00391"></a><span class="lineno"><a class="line" href="namespaceMR.html#a7bcdfb769116c6c2473aaec6d14cc188">  391</a></span>&#160;  <span class="keyword">template</span> &lt;&gt; <span class="keyword">inline</span> std::string <a class="code" href="namespaceMR.html#a7bcdfb769116c6c2473aaec6d14cc188">str&lt;cdouble&gt;</a> (<span class="keyword">const</span> <a class="code" href="namespaceMR.html#a99adc8169db44e1dc7e351feb7e8041e">cdouble</a>&amp; <a class="code" href="group__spherical__harmonics.html#gabed74e8e329a907299fa666f1327fb25">value</a>, <span class="keywordtype">int</span> precision)</div>
+<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;  {</div>
+<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;    std::ostringstream stream;</div>
+<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;    <span class="keywordflow">if</span> (precision &gt; 0) </div>
+<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;      stream.precision (precision);</div>
+<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;    stream &lt;&lt; value.real();</div>
+<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;    <span class="keywordflow">if</span> (value.imag()) </div>
+<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;      stream &lt;&lt; std::showpos &lt;&lt; value.imag() &lt;&lt; <span class="stringliteral">&quot;i&quot;</span>;</div>
+<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;    <span class="keywordflow">if</span> (stream.fail())</div>
+<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;      <span class="keywordflow">throw</span> <a class="code" href="classMR_1_1Exception.html">Exception</a> (<span class="stringliteral">&quot;error converting value to string&quot;</span>);</div>
+<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;    <span class="keywordflow">return</span> stream.str();</div>
+<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;  }</div>
+<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;</div>
 <div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;</div>
-<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;    <span class="keywordflow">if</span> (stream.peek() == <span class="charliteral">&#39;i&#39;</span>) </div>
-<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="namespaceMR.html#a99adc8169db44e1dc7e351feb7e8041e">cdouble</a> (0.0, real);</div>
-<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;</div>
-<div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;    stream &gt;&gt; imag;</div>
-<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;    <span class="keywordflow">if</span> (stream.fail()) </div>
-<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="namespaceMR.html#ad3a6907cd4a6612defc12dee0928a713">cfloat</a> (real, 0.0);</div>
-<div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (stream.peek() != <span class="charliteral">&#39;i&#39;</span>)</div>
-<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;      <span class="keywordflow">throw</span> <a class="code" href="classMR_1_1Exception.html">Exception</a> (<span class="stringliteral">&quot;error converting string \&quot;&quot;</span> + <span class="keywordtype">string</span> + <span class="stringliteral">&quot;\&quot;&quot;</span>);</div>
-<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="namespaceMR.html#a99adc8169db44e1dc7e351feb7e8041e">cdouble</a> (real, imag);</div>
-<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;  }</div>
-<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;</div>
-<div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;</div>
+<div class="line"><a name="l00405"></a><span class="lineno"><a class="line" href="namespaceMR.html#a3110479a6319030fd248dfcc3b277da6">  405</a></span>&#160;  <span class="keyword">template</span> &lt;&gt; <span class="keyword">inline</span> <a class="code" href="namespaceMR.html#a99adc8169db44e1dc7e351feb7e8041e">cdouble</a> <a class="code" href="namespaceMR.html#a3110479a6319030fd248dfcc3b277da6">to&lt;cdouble&gt;</a> (<span class="keyword">const</span> std::string&amp; string)</div>
+<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;  {</div>
+<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;    std::istringstream stream (<span class="keywordtype">string</span>);</div>
+<div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;    <span class="keywordtype">double</span> real, imag;</div>
+<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;    stream &gt;&gt; real;</div>
+<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;    <span class="keywordflow">if</span> (stream.fail())</div>
+<div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;      <span class="keywordflow">throw</span> <a class="code" href="classMR_1_1Exception.html">Exception</a> (<span class="stringliteral">&quot;error converting string \&quot;&quot;</span> + <span class="keywordtype">string</span> + <span class="stringliteral">&quot;\&quot;&quot;</span>);</div>
+<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;    <span class="keywordflow">if</span> (stream.eof())</div>
+<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="namespaceMR.html#a99adc8169db44e1dc7e351feb7e8041e">cdouble</a> (real, 0.0);</div>
+<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;</div>
+<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;    <span class="keywordflow">if</span> (stream.peek() == <span class="charliteral">&#39;i&#39;</span>) </div>
+<div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="namespaceMR.html#a99adc8169db44e1dc7e351feb7e8041e">cdouble</a> (0.0, real);</div>
 <div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;</div>
-<div class="line"><a name="l00418"></a><span class="lineno"><a class="line" href="namespaceMR.html#a7a3f228024f9079f1cfbb57f5588f294">  418</a></span>&#160;  <span class="keyword">template</span> &lt;&gt; <span class="keyword">inline</span> <span class="keywordtype">bool</span> <a class="code" href="namespaceMR.html#a7a3f228024f9079f1cfbb57f5588f294">to&lt;bool&gt;</a> (<span class="keyword">const</span> std::string&amp; string)</div>
-<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;  {</div>
-<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;    std::string value = <a class="code" href="namespaceMR.html#a20911010d0dd81cc0800722e41f3205f">lowercase</a> (<span class="keywordtype">string</span>);</div>
-<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;    <span class="keywordflow">if</span> (value == <span class="stringliteral">&quot;true&quot;</span> || value == <span class="stringliteral">&quot;yes&quot;</span>) </div>
-<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;      <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;    <span class="keywordflow">if</span> (value == <span class="stringliteral">&quot;false&quot;</span> || value == <span class="stringliteral">&quot;no&quot;</span>) </div>
-<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;      <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;    <span class="keywordflow">return</span> to&lt;int&gt; (<a class="code" href="group__spherical__harmonics.html#gabed74e8e329a907299fa666f1327fb25">value</a>);</div>
-<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;  }</div>
+<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;    stream &gt;&gt; imag;</div>
+<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;    <span class="keywordflow">if</span> (stream.fail()) </div>
+<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="namespaceMR.html#ad3a6907cd4a6612defc12dee0928a713">cfloat</a> (real, 0.0);</div>
+<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (stream.peek() != <span class="charliteral">&#39;i&#39;</span>)</div>
+<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;      <span class="keywordflow">throw</span> <a class="code" href="classMR_1_1Exception.html">Exception</a> (<span class="stringliteral">&quot;error converting string \&quot;&quot;</span> + <span class="keywordtype">string</span> + <span class="stringliteral">&quot;\&quot;&quot;</span>);</div>
+<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="namespaceMR.html#a99adc8169db44e1dc7e351feb7e8041e">cdouble</a> (real, imag);</div>
+<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;  }</div>
+<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;</div>
+<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;</div>
 <div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;</div>
-<div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;</div>
-<div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;</div>
-<div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;</div>
-<div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;</div>
-<div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;</div>
-<div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;</div>
-<div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;}</div>
-<div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;</div>
-<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00428"></a><span class="lineno"><a class="line" href="namespaceMR.html#a7a3f228024f9079f1cfbb57f5588f294">  428</a></span>&#160;  <span class="keyword">template</span> &lt;&gt; <span class="keyword">inline</span> <span class="keywordtype">bool</span> <a class="code" href="namespaceMR.html#a7a3f228024f9079f1cfbb57f5588f294">to&lt;bool&gt;</a> (<span class="keyword">const</span> std::string&amp; string)</div>
+<div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;  {</div>
+<div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;    std::string value = <a class="code" href="namespaceMR.html#a20911010d0dd81cc0800722e41f3205f">lowercase</a> (<span class="keywordtype">string</span>);</div>
+<div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;    <span class="keywordflow">if</span> (value == <span class="stringliteral">&quot;true&quot;</span> || value == <span class="stringliteral">&quot;yes&quot;</span>) </div>
+<div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;      <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;    <span class="keywordflow">if</span> (value == <span class="stringliteral">&quot;false&quot;</span> || value == <span class="stringliteral">&quot;no&quot;</span>) </div>
+<div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;      <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;    <span class="keywordflow">return</span> to&lt;int&gt; (<a class="code" href="group__spherical__harmonics.html#gabed74e8e329a907299fa666f1327fb25">value</a>);</div>
+<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;  }</div>
 <div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;</div>
-<div class="ttc" id="namespaceMR_html_a1cc4fc7bfaae5839bd34269c67697c13"><div class="ttname"><a href="namespaceMR.html#a1cc4fc7bfaae5839bd34269c67697c13">MR::minindex</a></div><div class="ttdeci">int minindex(const T &amp;v0, const T &amp;v1, const T &amp;v2)</div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00295">mrtrix.h:295</a></div></div>
-<div class="ttc" id="thread_8h_html_a140d449f4eaaa9afc56f07abb4922597"><div class="ttname"><a href="thread_8h.html#a140d449f4eaaa9afc56f07abb4922597">num</a></div><div class="ttdeci">size_t num</div><div class="ttdef"><b>Definition:</b> <a href="thread_8h_source.html#l00201">thread.h:201</a></div></div>
+<div class="line"><a name="l00438"></a><span class="lineno">  438</span>&#160;</div>
+<div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;</div>
+<div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160;</div>
+<div class="line"><a name="l00441"></a><span class="lineno">  441</span>&#160;</div>
+<div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;</div>
+<div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;</div>
+<div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;}</div>
+<div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;</div>
+<div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;</div>
+<div class="ttc" id="namespaceMR_html_a1cc4fc7bfaae5839bd34269c67697c13"><div class="ttname"><a href="namespaceMR.html#a1cc4fc7bfaae5839bd34269c67697c13">MR::minindex</a></div><div class="ttdeci">int minindex(const T &amp;v0, const T &amp;v1, const T &amp;v2)</div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00305">mrtrix.h:305</a></div></div>
+<div class="ttc" id="thread_8h_html_a140d449f4eaaa9afc56f07abb4922597"><div class="ttname"><a href="thread_8h.html#a140d449f4eaaa9afc56f07abb4922597">num</a></div><div class="ttdeci">size_t num</div><div class="ttdef"><b>Definition:</b> <a href="thread_8h_source.html#l00196">thread.h:196</a></div></div>
 <div class="ttc" id="namespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> <a href="app_8h_source.html#l00036">app.h:36</a></div></div>
 <div class="ttc" id="namespaceMR_1_1Image_html_ac21d72c0a8287f0ec0fe76008fe9c0bf"><div class="ttname"><a href="namespaceMR_1_1Image.html#ac21d72c0a8287f0ec0fe76008fe9c0bf">MR::Image::OutputType</a></div><div class="ttdeci">OutputType</div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00100">mrtrix.h:100</a></div></div>
-<div class="ttc" id="namespaceMR_html_a7bcdfb769116c6c2473aaec6d14cc188"><div class="ttname"><a href="namespaceMR.html#a7bcdfb769116c6c2473aaec6d14cc188">MR::str&lt; cdouble &gt;</a></div><div class="ttdeci">std::string str&lt; cdouble &gt;(const cdouble &amp;value, int precision)</div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00381">mrtrix.h:381</a></div></div>
+<div class="ttc" id="namespaceMR_html_a7bcdfb769116c6c2473aaec6d14cc188"><div class="ttname"><a href="namespaceMR.html#a7bcdfb769116c6c2473aaec6d14cc188">MR::str&lt; cdouble &gt;</a></div><div class="ttdeci">std::string str&lt; cdouble &gt;(const cdouble &amp;value, int precision)</div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00391">mrtrix.h:391</a></div></div>
 <div class="ttc" id="namespaceMR_html_a3f4a473ab90ce57d5c22e4041f6da445"><div class="ttname"><a href="namespaceMR.html#a3f4a473ab90ce57d5c22e4041f6da445">MR::split</a></div><div class="ttdeci">std::vector&lt; std::string &gt; split(const std::string &amp;string, const char *delimiters=&quot; \t\n&quot;, bool ignore_empty_fields=false, size_t num=std::numeric_limits&lt; size_t &gt;::max())</div></div>
-<div class="ttc" id="namespaceMR_html_aacb4d1104d3c516990e724e06ec9ad90"><div class="ttname"><a href="namespaceMR.html#aacb4d1104d3c516990e724e06ec9ad90">MR::maxindex</a></div><div class="ttdeci">int maxindex(const T &amp;v0, const T &amp;v1, const T &amp;v2)</div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00273">mrtrix.h:273</a></div></div>
+<div class="ttc" id="namespaceMR_html_aacb4d1104d3c516990e724e06ec9ad90"><div class="ttname"><a href="namespaceMR.html#aacb4d1104d3c516990e724e06ec9ad90">MR::maxindex</a></div><div class="ttdeci">int maxindex(const T &amp;v0, const T &amp;v1, const T &amp;v2)</div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00283">mrtrix.h:283</a></div></div>
 <div class="ttc" id="namespaceMR_html_aa8585886b506d23996a75e690f12631c"><div class="ttname"><a href="namespaceMR.html#aa8585886b506d23996a75e690f12631c">MR::parse_ints</a></div><div class="ttdeci">std::vector&lt; int &gt; parse_ints(const std::string &amp;spec, int last=std::numeric_limits&lt; int &gt;::max())</div></div>
 <div class="ttc" id="group__elfun_html_ga6ad7c8a6943db01a90c071137a5eb4de"><div class="ttname"><a href="group__elfun.html#ga6ad7c8a6943db01a90c071137a5eb4de">MR::Math::max</a></div><div class="ttdeci">T max(const T *const x, const int size, int &amp;index, const int stride=1)</div><div class="ttdoc">find maximum value in array </div><div class="ttdef"><b>Definition:</b> <a href="math_8h_source.html#l00117">math.h:117</a></div></div>
-<div class="ttc" id="namespaceMR_html_aa959b5eb8094f43f14b0ff88425b423f"><div class="ttname"><a href="namespaceMR.html#aa959b5eb8094f43f14b0ff88425b423f">MR::join</a></div><div class="ttdeci">std::string join(const std::vector&lt; std::string &gt; &amp;V, const std::string &amp;delimiter)</div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00235">mrtrix.h:235</a></div></div>
+<div class="ttc" id="namespaceMR_html_aa959b5eb8094f43f14b0ff88425b423f"><div class="ttname"><a href="namespaceMR.html#aa959b5eb8094f43f14b0ff88425b423f">MR::join</a></div><div class="ttdeci">std::string join(const std::vector&lt; std::string &gt; &amp;V, const std::string &amp;delimiter)</div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00245">mrtrix.h:245</a></div></div>
 <div class="ttc" id="namespaceMR_1_1Image_html_ac21d72c0a8287f0ec0fe76008fe9c0bfadf2e3c59d084ed50bd2f4957dc942695"><div class="ttname"><a href="namespaceMR_1_1Image.html#ac21d72c0a8287f0ec0fe76008fe9c0bfadf2e3c59d084ed50bd2f4957dc942695">MR::Image::Imaginary</a></div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00104">mrtrix.h:104</a></div></div>
 <div class="ttc" id="namespacestd_html"><div class="ttname"><a href="namespacestd.html">std</a></div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00071">mrtrix.h:71</a></div></div>
-<div class="ttc" id="namespaceMR_html_aaed1b4298404d7c463cd6915b8903959"><div class="ttname"><a href="namespaceMR.html#aaed1b4298404d7c463cd6915b8903959">MR::set_all</a></div><div class="ttdeci">void set_all(std::vector&lt; T &gt; &amp;V, const T &amp;value)</div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00312">mrtrix.h:312</a></div></div>
+<div class="ttc" id="namespaceMR_html_aaed1b4298404d7c463cd6915b8903959"><div class="ttname"><a href="namespaceMR.html#aaed1b4298404d7c463cd6915b8903959">MR::set_all</a></div><div class="ttdeci">void set_all(std::vector&lt; T &gt; &amp;V, const T &amp;value)</div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00322">mrtrix.h:322</a></div></div>
 <div class="ttc" id="namespaceMR_html_ad5a737bfbb3fcb51accf1a329da6fb7c"><div class="ttname"><a href="namespaceMR.html#ad5a737bfbb3fcb51accf1a329da6fb7c">MR::to</a></div><div class="ttdeci">T to(const std::string &amp;string)</div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00177">mrtrix.h:177</a></div></div>
-<div class="ttc" id="namespaceMR_html_a468de832c49b0fa03f40046e10ac34d4"><div class="ttname"><a href="namespaceMR.html#a468de832c49b0fa03f40046e10ac34d4">MR::get_next</a></div><div class="ttdeci">bool get_next(std::vector&lt; T &gt; &amp;pos, const std::vector&lt; T &gt; &amp;limits)</div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00321">mrtrix.h:321</a></div></div>
+<div class="ttc" id="namespaceMR_html_a468de832c49b0fa03f40046e10ac34d4"><div class="ttname"><a href="namespaceMR.html#a468de832c49b0fa03f40046e10ac34d4">MR::get_next</a></div><div class="ttdeci">bool get_next(std::vector&lt; T &gt; &amp;pos, const std::vector&lt; T &gt; &amp;limits)</div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00331">mrtrix.h:331</a></div></div>
 <div class="ttc" id="namespaceMR_html_a7dcea37fdb5fba1961d121fca36c22c4"><div class="ttname"><a href="namespaceMR.html#a7dcea37fdb5fba1961d121fca36c22c4">MR::str</a></div><div class="ttdeci">std::string str(const T &amp;value, int precision=0)</div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00126">mrtrix.h:126</a></div></div>
 <div class="ttc" id="exception_8h_html"><div class="ttname"><a href="exception_8h.html">exception.h</a></div></div>
 <div class="ttc" id="namespaceMR_html_a18e0d7e1612f262bb9202f52c802b6e6"><div class="ttname"><a href="namespaceMR.html#a18e0d7e1612f262bb9202f52c802b6e6">MR::replace</a></div><div class="ttdeci">void replace(std::string &amp;string, char orig, char final)</div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00222">mrtrix.h:222</a></div></div>
 <div class="ttc" id="namespaceMR_1_1Image_html_ac21d72c0a8287f0ec0fe76008fe9c0bfa1729fdf584903df7a15d7f0eeb1928c6"><div class="ttname"><a href="namespaceMR_1_1Image.html#ac21d72c0a8287f0ec0fe76008fe9c0bfa1729fdf584903df7a15d7f0eeb1928c6">MR::Image::Phase</a></div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00105">mrtrix.h:105</a></div></div>
 <div class="ttc" id="namespaceMR_1_1Image_html_ac21d72c0a8287f0ec0fe76008fe9c0bfa5f6b30b3a62e8d63dd894334b61d52b3"><div class="ttname"><a href="namespaceMR_1_1Image.html#ac21d72c0a8287f0ec0fe76008fe9c0bfa5f6b30b3a62e8d63dd894334b61d52b3">MR::Image::Default</a></div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00101">mrtrix.h:101</a></div></div>
-<div class="ttc" id="namespaceMR_html_a68611edfac7f1f97a928906edc376f70"><div class="ttname"><a href="namespaceMR.html#a68611edfac7f1f97a928906edc376f70">MR::to&lt; cfloat &gt;</a></div><div class="ttdeci">cfloat to&lt; cfloat &gt;(const std::string &amp;string)</div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00357">mrtrix.h:357</a></div></div>
-<div class="ttc" id="namespaceMR_html_a46ca49fae995e9fde3fd942230d91fac"><div class="ttname"><a href="namespaceMR.html#a46ca49fae995e9fde3fd942230d91fac">MR::round</a></div><div class="ttdeci">int round(float x)</div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00260">mrtrix.h:260</a></div></div>
+<div class="ttc" id="namespaceMR_html_a68611edfac7f1f97a928906edc376f70"><div class="ttname"><a href="namespaceMR.html#a68611edfac7f1f97a928906edc376f70">MR::to&lt; cfloat &gt;</a></div><div class="ttdeci">cfloat to&lt; cfloat &gt;(const std::string &amp;string)</div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00367">mrtrix.h:367</a></div></div>
+<div class="ttc" id="namespaceMR_html_a46ca49fae995e9fde3fd942230d91fac"><div class="ttname"><a href="namespaceMR.html#a46ca49fae995e9fde3fd942230d91fac">MR::round</a></div><div class="ttdeci">int round(float x)</div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00270">mrtrix.h:270</a></div></div>
 <div class="ttc" id="namespaceMR_1_1Image_html_ac21d72c0a8287f0ec0fe76008fe9c0bfa6808b5592cd5693b9445b83a0decbf77"><div class="ttname"><a href="namespaceMR_1_1Image.html#ac21d72c0a8287f0ec0fe76008fe9c0bfa6808b5592cd5693b9445b83a0decbf77">MR::Image::Magnitude</a></div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00102">mrtrix.h:102</a></div></div>
-<div class="ttc" id="namespaceMR_html_ad3180b0ad671e074cbef40f80e5f7990"><div class="ttname"><a href="namespaceMR.html#ad3180b0ad671e074cbef40f80e5f7990">MR::minvalue</a></div><div class="ttdeci">T minvalue(const T &amp;v0, const T &amp;v1, const T &amp;v2)</div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00290">mrtrix.h:290</a></div></div>
+<div class="ttc" id="namespaceMR_html_ad3180b0ad671e074cbef40f80e5f7990"><div class="ttname"><a href="namespaceMR.html#ad3180b0ad671e074cbef40f80e5f7990">MR::minvalue</a></div><div class="ttdeci">T minvalue(const T &amp;v0, const T &amp;v1, const T &amp;v2)</div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00300">mrtrix.h:300</a></div></div>
 <div class="ttc" id="namespaceMR_html_a20911010d0dd81cc0800722e41f3205f"><div class="ttname"><a href="namespaceMR.html#a20911010d0dd81cc0800722e41f3205f">MR::lowercase</a></div><div class="ttdeci">std::string &amp; lowercase(std::string &amp;string)</div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00147">mrtrix.h:147</a></div></div>
-<div class="ttc" id="namespaceMR_html_a7a3f228024f9079f1cfbb57f5588f294"><div class="ttname"><a href="namespaceMR.html#a7a3f228024f9079f1cfbb57f5588f294">MR::to&lt; bool &gt;</a></div><div class="ttdeci">bool to&lt; bool &gt;(const std::string &amp;string)</div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00418">mrtrix.h:418</a></div></div>
+<div class="ttc" id="namespaceMR_html_a7a3f228024f9079f1cfbb57f5588f294"><div class="ttname"><a href="namespaceMR.html#a7a3f228024f9079f1cfbb57f5588f294">MR::to&lt; bool &gt;</a></div><div class="ttdeci">bool to&lt; bool &gt;(const std::string &amp;string)</div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00428">mrtrix.h:428</a></div></div>
 <div class="ttc" id="classMR_1_1Exception_html"><div class="ttname"><a href="classMR_1_1Exception.html">MR::Exception</a></div><div class="ttdef"><b>Definition:</b> <a href="exception_8h_source.html#l00087">exception.h:87</a></div></div>
-<div class="ttc" id="namespaceMR_html_ad3a6907cd4a6612defc12dee0928a713"><div class="ttname"><a href="namespaceMR.html#ad3a6907cd4a6612defc12dee0928a713">MR::cfloat</a></div><div class="ttdeci">std::complex&lt; float &gt; cfloat</div><div class="ttdef"><b>Definition:</b> <a href="src_2dwi_2tractography_2tracking_2types_8h_source.html#l00108">types.h:108</a></div></div>
-<div class="ttc" id="namespaceMR_html_a3110479a6319030fd248dfcc3b277da6"><div class="ttname"><a href="namespaceMR.html#a3110479a6319030fd248dfcc3b277da6">MR::to&lt; cdouble &gt;</a></div><div class="ttdeci">cdouble to&lt; cdouble &gt;(const std::string &amp;string)</div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00395">mrtrix.h:395</a></div></div>
+<div class="ttc" id="namespaceMR_html_ad3a6907cd4a6612defc12dee0928a713"><div class="ttname"><a href="namespaceMR.html#ad3a6907cd4a6612defc12dee0928a713">MR::cfloat</a></div><div class="ttdeci">std::complex&lt; float &gt; cfloat</div><div class="ttdef"><b>Definition:</b> <a href="src_2gui_2mrview_2tool_2connectome_2types_8h_source.html#l00108">types.h:108</a></div></div>
+<div class="ttc" id="namespaceMR_html_a3110479a6319030fd248dfcc3b277da6"><div class="ttname"><a href="namespaceMR.html#a3110479a6319030fd248dfcc3b277da6">MR::to&lt; cdouble &gt;</a></div><div class="ttdeci">cdouble to&lt; cdouble &gt;(const std::string &amp;string)</div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00405">mrtrix.h:405</a></div></div>
 <div class="ttc" id="namespaceMR_html_abdf39e7ac1a9bf50af2a20eb69b0bb89"><div class="ttname"><a href="namespaceMR.html#abdf39e7ac1a9bf50af2a20eb69b0bb89">MR::printf</a></div><div class="ttdeci">std::string printf(const char *format,...)</div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00197">mrtrix.h:197</a></div></div>
-<div class="ttc" id="group__VLA_html_ga587ba4d66cf53e7de57f71997aaa1993"><div class="ttname"><a href="group__VLA.html#ga587ba4d66cf53e7de57f71997aaa1993">VLA</a></div><div class="ttdeci">#define VLA(name, type, num)</div><div class="ttdef"><b>Definition:</b> <a href="src_2dwi_2tractography_2tracking_2types_8h_source.html#l00067">types.h:67</a></div></div>
+<div class="ttc" id="group__VLA_html_ga587ba4d66cf53e7de57f71997aaa1993"><div class="ttname"><a href="group__VLA.html#ga587ba4d66cf53e7de57f71997aaa1993">VLA</a></div><div class="ttdeci">#define VLA(name, type, num)</div><div class="ttdef"><b>Definition:</b> <a href="src_2gui_2mrview_2tool_2connectome_2types_8h_source.html#l00067">types.h:67</a></div></div>
 <div class="ttc" id="namespaceMR_html_a9fd727652ef9cc1ba0b553cfb57f6dd9"><div class="ttname"><a href="namespaceMR.html#a9fd727652ef9cc1ba0b553cfb57f6dd9">MR::strip</a></div><div class="ttdeci">std::string strip(const std::string &amp;string, const char *ws=&quot; \t\n&quot;, bool left=true, bool right=true)</div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00211">mrtrix.h:211</a></div></div>
 <div class="ttc" id="namespaceMR_html_a1319114438a7f3a08f04a03023ad62e2"><div class="ttname"><a href="namespaceMR.html#a1319114438a7f3a08f04a03023ad62e2">MR::getline</a></div><div class="ttdeci">std::istream &amp; getline(std::istream &amp;stream, std::string &amp;string)</div><div class="ttdoc">read a line from the stream </div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00115">mrtrix.h:115</a></div></div>
-<div class="ttc" id="namespaceMR_html_a9b4984af516233dea98c3b6c95d86cf8"><div class="ttname"><a href="namespaceMR.html#a9b4984af516233dea98c3b6c95d86cf8">MR::maxvalue</a></div><div class="ttdeci">T maxvalue(const T &amp;v0, const T &amp;v1, const T &amp;v2)</div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00268">mrtrix.h:268</a></div></div>
+<div class="ttc" id="namespaceMR_html_a9b4984af516233dea98c3b6c95d86cf8"><div class="ttname"><a href="namespaceMR.html#a9b4984af516233dea98c3b6c95d86cf8">MR::maxvalue</a></div><div class="ttdeci">T maxvalue(const T &amp;v0, const T &amp;v1, const T &amp;v2)</div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00278">mrtrix.h:278</a></div></div>
 <div class="ttc" id="namespaceMR_html_a51b57887d0a964a3b3fa9ea8bd10f972"><div class="ttname"><a href="namespaceMR.html#a51b57887d0a964a3b3fa9ea8bd10f972">MR::parse_floats</a></div><div class="ttdeci">std::vector&lt; float &gt; parse_floats(const std::string &amp;spec)</div></div>
 <div class="ttc" id="namespaceMR_1_1Image_html_ac21d72c0a8287f0ec0fe76008fe9c0bfa902c9685d837073e9ed15f4506ced106"><div class="ttname"><a href="namespaceMR_1_1Image.html#ac21d72c0a8287f0ec0fe76008fe9c0bfa902c9685d837073e9ed15f4506ced106">MR::Image::RealImag</a></div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00106">mrtrix.h:106</a></div></div>
-<div class="ttc" id="namespaceMR_html_a99adc8169db44e1dc7e351feb7e8041e"><div class="ttname"><a href="namespaceMR.html#a99adc8169db44e1dc7e351feb7e8041e">MR::cdouble</a></div><div class="ttdeci">std::complex&lt; double &gt; cdouble</div><div class="ttdef"><b>Definition:</b> <a href="src_2dwi_2tractography_2tracking_2types_8h_source.html#l00107">types.h:107</a></div></div>
-<div class="ttc" id="namespaceMR_html_abf7a9d5cf0c28b1ada565992ec749917"><div class="ttname"><a href="namespaceMR.html#abf7a9d5cf0c28b1ada565992ec749917">MR::str&lt; cfloat &gt;</a></div><div class="ttdeci">std::string str&lt; cfloat &gt;(const cfloat &amp;value, int precision)</div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00343">mrtrix.h:343</a></div></div>
+<div class="ttc" id="namespaceMR_html_a99adc8169db44e1dc7e351feb7e8041e"><div class="ttname"><a href="namespaceMR.html#a99adc8169db44e1dc7e351feb7e8041e">MR::cdouble</a></div><div class="ttdeci">std::complex&lt; double &gt; cdouble</div><div class="ttdef"><b>Definition:</b> <a href="src_2gui_2mrview_2tool_2connectome_2types_8h_source.html#l00107">types.h:107</a></div></div>
+<div class="ttc" id="namespaceMR_html_abf7a9d5cf0c28b1ada565992ec749917"><div class="ttname"><a href="namespaceMR.html#abf7a9d5cf0c28b1ada565992ec749917">MR::str&lt; cfloat &gt;</a></div><div class="ttdeci">std::string str&lt; cfloat &gt;(const cfloat &amp;value, int precision)</div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00353">mrtrix.h:353</a></div></div>
 <div class="ttc" id="namespaceMR_html_ab9d4ebe5d50262f04a41e66e030e3e16"><div class="ttname"><a href="namespaceMR.html#ab9d4ebe5d50262f04a41e66e030e3e16">MR::shorten</a></div><div class="ttdeci">std::string shorten(const std::string &amp;text, size_t longest=40, size_t prefix=10)</div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00138">mrtrix.h:138</a></div></div>
 <div class="ttc" id="group__spherical__harmonics_html_gabed74e8e329a907299fa666f1327fb25"><div class="ttname"><a href="group__spherical__harmonics.html#gabed74e8e329a907299fa666f1327fb25">MR::Math::SH::value</a></div><div class="ttdeci">ValueType value(const CoefType &amp;coefs, ValueType cos_elevation, ValueType cos_azimuth, ValueType sin_azimuth, int lmax)</div><div class="ttdef"><b>Definition:</b> <a href="SH_8h_source.html#l00211">SH.h:211</a></div></div>
 <div class="ttc" id="namespaceMR_1_1Image_html_ac21d72c0a8287f0ec0fe76008fe9c0bfa6e5fac5d0a669f7246e7e29531d3f042"><div class="ttname"><a href="namespaceMR_1_1Image.html#ac21d72c0a8287f0ec0fe76008fe9c0bfa6e5fac5d0a669f7246e7e29531d3f042">MR::Image::Real</a></div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00103">mrtrix.h:103</a></div></div>
@@ -593,8 +603,8 @@ $(document).ready(function(){initNavTree('mrtrix_8h_source.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_d04b53703454d06826407a3fa8e7e294.html">lib</a></li><li class="navelem"><a class="el" href="mrtrix_8h.html">mrtrix.h</a></li>
-    <li class="footer">Generated on Mon Apr 27 2015 17:39:23 for MRtrix by
+    <li class="navelem"><a class="el" href="dir_bf68d5b8bf0eebb10b4d4e9e970b3595.html">lib</a></li><li class="navelem"><a class="el" href="mrtrix_8h.html">mrtrix.h</a></li>
+    <li class="footer">Generated on Wed Jul 29 2015 17:53:07 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">MRtrix
-   &#160;<span id="projectnumber">0.3.12-365-ged27dfbe</span>
+   &#160;<span id="projectnumber">0.3.12-732-g65ed7a3c</span>
    </div>
    <div id="projectbrief">MRtrix provides a set of tools to perform diffusion-weighted MR white-matter tractography in a manner robust to crossing fibres, using constrained spherical deconvolution (CSD) and probabilistic streamlines.</div>
   </td>
@@ -163,6 +163,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ac5c77577e97707490d1fb6643aaae8d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe8e217348f1782d7292c16006e62155"><td class="memItemLeft" align="right" valign="top">std::vector&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1DWI_1_1CSDeconv_1_1Shared.html#abe8e217348f1782d7292c16006e62155">dwis</a></td></tr>
 <tr class="separator:abe8e217348f1782d7292c16006e62155"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8dfe46164d49a6ae583ff13e0ca9e79b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1DWI_1_1CSDeconv_1_1Shared.html#a8dfe46164d49a6ae583ff13e0ca9e79b">lmax_response</a></td></tr>
+<tr class="separator:a8dfe46164d49a6ae583ff13e0ca9e79b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20af49888f6225cb42d37e739d7c66dd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1DWI_1_1CSDeconv_1_1Shared.html#a20af49888f6225cb42d37e739d7c66dd">lmax_data</a></td></tr>
 <tr class="separator:a20af49888f6225cb42d37e739d7c66dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c3dce3f31a8703bd7953fb9933cccb4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1DWI_1_1CSDeconv_1_1Shared.html#a9c3dce3f31a8703bd7953fb9933cccb4">lmax</a></td></tr>
@@ -203,7 +205,7 @@ template&lt;typename T&gt; </div>
 
 <p>Definition at line <a class="el" href="constrained_8h_source.html#l00051">51</a> of file <a class="el" href="constrained_8h_source.html">constrained.h</a>.</p>
 
-<p>References <a class="el" href="lib_2math_2vector_8h_source.html#l00267">MR::Math::Vector&lt; ValueType &gt;::allocate()</a>, <a class="el" href="constrained_8h_source.html#l00188">MR::DWI::CSDeconv&lt; T &gt;::Shared::DW_dirs</a>, <a class="el" href="constrained_8h_source.html#l00191">MR::DWI::CSDeconv&lt; T &gt;::Shared::dwis</a>, <a class="el" href="predefined_8h_source.html#l00054">MR::DWI::Directions::electrostatic_repulsion_300()</a>, <a class="el" href="src_2dwi_2gradient_8h_source.html#l00069">MR::DWI::gen_direction_matrix()</a>, <a class="el" href="shells_8h_source.html#l00098">MR::DWI::Shell::get_volumes()</a>, <a class="el" href="constrained_8h_source.html#l00186">MR::DWI::CSDeconv&lt; T &gt;::Shared::grad</a>, <a class="el" href="constrained_8h_source.html#l00188">MR::DWI::CSDeconv&lt; T &gt;::Shared::HR_dirs</a>, <a class="el" href="constrained_8h_source.html#l00187">MR::DWI::CSDeconv&lt; T &gt;::Shared::init_filter</a>, <a class="el" href="shells_8h_source.html#l00139">MR::DWI::Shells::largest()</a>, <a class="el" href="SH_8h_source.html#l00083">MR::Math::SH::LforN()</a>, <a class="el" href="constrained_8h_source.html#l00192">MR::DWI::CSDeconv&lt; T &gt;::Shared::lmax</a>, <a class="el" href="constrained_8h_source.html#l00192">MR::DWI::CSDeconv&lt; T &gt;::Shared::lmax_data</a>, <a class="el" href="math_8h_source.html#l00135">MR::Math::min()</a>, <a class="el" href="classMR_1_1DWI_1_1Shells.html#a9c595f93dae968e0db82866c896725c9">MR::DWI::Shells::select_shells()</a>, <a class="el" href="lib_2math_2vector_8h_source.html#l00362">MR::Math::Vector&lt; ValueType &gt;::size()</a>, and <a class="el" href="lib_2math_2vector_8h_source.html#l00439">MR::Math::Vector&lt; ValueType &gt;::zero()</a>.</p>
+<p>References <a class="el" href="constrained_8h_source.html#l00186">MR::DWI::CSDeconv&lt; T &gt;::Shared::DW_dirs</a>, <a class="el" href="constrained_8h_source.html#l00189">MR::DWI::CSDeconv&lt; T &gt;::Shared::dwis</a>, <a class="el" href="predefined_8h_source.html#l00054">MR::DWI::Directions::electrostatic_repulsion_300()</a>, <a class="el" href="src_2dwi_2gradient_8h_source.html#l00069">MR::DWI::gen_direction_matrix()</a>, <a class="el" href="shells_8h_source.html#l00098">MR::DWI::Shell::get_volumes()</a>, <a class="el" href="constrained_8h_source.html#l00184">MR::DWI::CSDeconv&lt; T &gt;::Shared::grad</a>, <a class="el" href="constrained_8h_source.html#l00186">MR::DWI::CSDeconv&lt; T &gt;::Shared::HR_dirs</a>, <a class="el" href="shells_8h_source.html#l00139">MR::DWI::Shells::largest()</a>, <a class="el" href="SH_8h_source.html#l00083">MR::Math::SH::LforN()</a>, <a class="el" href="constrained_8h_source.html#l00190">MR::DWI::CSDeconv&lt; T &gt;::Shared::lmax</a>, <a class="el" href="constrained_8h_source.html#l00190">MR::DWI::CSDeconv&lt; T &gt;::Shared::lmax_data</a>, <a class="el" href="constrained_8h_source.html#l00190">MR::DWI::CSDeconv&lt; T &gt;::Shared::lmax_response</a>, <a class="el" href="math_8h_source.html#l00135">MR::Math::min()</a>, and <a class="el" href="classMR_1_1DWI_1_1Shells.html#a9c595f93dae968e0db82866c896725c9">MR::DWI::Shells::select_shells()</a>.</p>
 
 </div>
 </div>
@@ -231,9 +233,9 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="constrained_8h_source.html#l00118">118</a> of file <a class="el" href="constrained_8h_source.html">constrained.h</a>.</p>
+<p>Definition at line <a class="el" href="constrained_8h_source.html#l00114">114</a> of file <a class="el" href="constrained_8h_source.html">constrained.h</a>.</p>
 
-<p>References <a class="el" href="matrix_8h_source.html#l00232">MR::Math::Matrix&lt; ValueType &gt;::allocate()</a>, <a class="el" href="matrix_8h_source.html#l00393">MR::Math::Matrix&lt; ValueType &gt;::columns()</a>, <a class="el" href="matrix_8h_source.html#l00558">MR::Math::Matrix&lt; ValueType &gt;::diagonal()</a>, <a class="el" href="constrained_8h_source.html#l00188">MR::DWI::CSDeconv&lt; T &gt;::Shared::DW_dirs</a>, <a class="el" href="constrained_8h_source.html#l00188">MR::DWI::CSDeconv&lt; T &gt;::Shared::HR_dirs</a>, <a class="el" href="constrained_8h_source.html#l00189">MR::DWI::CSDeconv&lt; T &gt;::Shared::HR_trans</a>, <a class="el" href="exception_8h_source.html#l00081">INFO</a>, <a class="el" href="constrained_8h_source.html#l00187">MR::DWI::CSDeconv&lt; T &gt;::Shared::init_filter</a>, <a class="el" href="SH_8h_source.html#l00093">MR::Math::SH::init_transform()</a>, <a class="el" href="constrained_8h_source.html#l00192">MR::DWI::CSDeconv&lt; T &gt;::Shared::lmax</a>, <a class="el" href="constrained_8h_source.html#l00192">MR::DWI::CSDeconv&lt; T &gt;::Shared::lmax_data</a>, <a class="el" href="constrained_8h_source.html#l00189">MR::DWI::CSDeconv&lt; T &gt;::Shared::M</a>, <a class="el" href="constrained_8h_source.html#l00189">MR::DWI::CSDeconv&lt; T &gt;::Shared::Mt_M</a>, <a class="el" href="constrained_8h_source.html#l00190">MR::DWI::CSDeconv&lt; T &gt;::Shared::neg_lambda</a>, <a class="el" href="SH_8h_source.html#l00059">MR::Math::SH::NforL()</a>, <a class="el" href="least__squares_8h_source.html#l00100">MR::Math::pinv()</a>, <a class="el" href="matrix_8h_source.html#l01122">MR::Math::rankN_update()</a>, <a class="el" href="constrained_8h_source.html#l00189">MR::DWI::CSDeconv&lt; T &gt;::Shared::rconv</a>, <a class="el" href="lib_2math_2vector_8h_source.html#l00305">MR::Math::Vector&lt; ValueType &gt;::resize()</a>, <a class="el" href="constrained_8h_source.html#l00187">MR::DWI::CSDeconv&lt; T &gt;::Shared::response</a>, <a class="el" href="matrix_8h_source.html#l00388">MR::Math::Matrix&lt; ValueType &gt;::rows()</a>, <a class="el" href="SH_8h_source.html#l00295">MR::Math::SH::SH2RH()</a>, <a class="el" href="lib_2math_2vector_8h_source.html#l00362">MR::Math::Vector&lt; ValueType &gt;::size()</a>, <a class="el" href="mrtrix_8h_source.html#l00126">MR::str()</a>, <a class="el" href="matrix_8h_source.html#l00519">MR::Math::Matrix&lt; ValueType &gt;::sub()</a>, and <a class="el" href="constrained_8h_source.html#l00190">MR::DWI::CSDeconv&lt; T &gt;::Shared::threshold</a>.</p>
+<p>References <a class="el" href="lib_2math_2matrix_8h_source.html#l00233">MR::Math::Matrix&lt; ValueType &gt;::allocate()</a>, <a class="el" href="lib_2math_2matrix_8h_source.html#l00394">MR::Math::Matrix&lt; ValueType &gt;::columns()</a>, <a class="el" href="lib_2math_2matrix_8h_source.html#l00559">MR::Math::Matrix&lt; ValueType &gt;::diagonal()</a>, <a class="el" href="constrained_8h_source.html#l00186">MR::DWI::CSDeconv&lt; T &gt;::Shared::DW_dirs</a>, <a class="el" href="constrained_8h_source.html#l00186">MR::DWI::CSDeconv&lt; T &gt;::Shared::HR_dirs</a>, <a class="el" href="constrained_8h_source.html#l00187">MR::DWI::CSDeconv&lt; T &gt;::Shared::HR_trans</a>, <a class="el" href="exception_8h_source.html#l00081">INFO</a>, <a class="el" href="constrained_8h_source.html#l00185">MR::DWI::CSDeconv&lt; T &gt;::Shared::init_filter</a>, <a class="el" href="SH_8h_source.html#l00093">MR::Math::SH::init_transform()</a>, <a class="el" href="constrained_8h_source.html#l00190">MR::DWI::CSDeconv&lt; T &gt;::Shared::lmax</a>, <a class="el" href="constrained_8h_source.html#l00190">MR::DWI::CSDeconv&lt; T &gt;::Shared::lmax_data</a>, <a class="el" href="constrained_8h_source.html#l00190">MR::DWI::CSDeconv&lt; T &gt;::Shared::lmax_response</a>, <a class="el" href="constrained_8h_source.html#l00187">MR::DWI::CSDeconv&lt; T &gt;::Shared::M</a>, <a class="el" href="math_8h_source.html#l00135">MR::Math::min()</a>, <a class="el" href="constrained_8h_source.html#l00187">MR::DWI::CSDeconv&lt; T &gt;::Shared::Mt_M</a>, <a class="el" href="constrained_8h_source.html#l00188">MR::DWI::CSDeconv&lt; T &gt;::Shared::neg_lambda</a>, <a class="el" href="SH_8h_source.html#l00059">MR::Math::SH::NforL()</a>, <a class="el" href="least__squares_8h_source.html#l00100">MR::Math::pinv()</a>, <a class="el" href="lib_2math_2matrix_8h_source.html#l01121">MR::Math::rankN_update()</a>, <a class="el" href="constrained_8h_source.html#l00187">MR::DWI::CSDeconv&lt; T &gt;::Shared::rconv</a>, <a class="el" href="lib_2math_2vector_8h_source.html#l00305">MR::Math::Vector&lt; ValueType &gt;::resize()</a>, <a class="el" href="constrained_8h_source.html#l00185">MR::DWI::CSDeconv&lt; T &gt;::Shared::response</a>, <a class="el" href="lib_2math_2matrix_8h_source.html#l00389">MR::Math::Matrix&lt; ValueType &gt;::rows()</a>, <a class="el" href="SH_8h_source.html#l00295">MR::Math::SH::SH2RH()</a>, <a class="el" href="lib_2math_2vector_8h_source.html#l00362">MR::Math::Vector&lt; ValueType &gt;::size()</a>, <a class="el" href="mrtrix_8h_source.html#l00126">MR::str()</a>, <a class="el" href="lib_2math_2matrix_8h_source.html#l00520">MR::Math::Matrix&lt; ValueType &gt;::sub()</a>, and <a class="el" href="constrained_8h_source.html#l00188">MR::DWI::CSDeconv&lt; T &gt;::Shared::threshold</a>.</p>
 
 </div>
 </div>
@@ -260,9 +262,9 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="constrained_8h_source.html#l00182">182</a> of file <a class="el" href="constrained_8h_source.html">constrained.h</a>.</p>
+<p>Definition at line <a class="el" href="constrained_8h_source.html#l00180">180</a> of file <a class="el" href="constrained_8h_source.html">constrained.h</a>.</p>
 
-<p>References <a class="el" href="matrix_8h_source.html#l00393">MR::Math::Matrix&lt; ValueType &gt;::columns()</a>, and <a class="el" href="constrained_8h_source.html#l00189">MR::DWI::CSDeconv&lt; T &gt;::Shared::HR_trans</a>.</p>
+<p>References <a class="el" href="lib_2math_2matrix_8h_source.html#l00394">MR::Math::Matrix&lt; ValueType &gt;::columns()</a>, and <a class="el" href="constrained_8h_source.html#l00187">MR::DWI::CSDeconv&lt; T &gt;::Shared::HR_trans</a>.</p>
 
 </div>
 </div>
@@ -289,9 +291,9 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="constrained_8h_source.html#l00075">75</a> of file <a class="el" href="constrained_8h_source.html">constrained.h</a>.</p>
+<p>Definition at line <a class="el" href="constrained_8h_source.html#l00071">71</a> of file <a class="el" href="constrained_8h_source.html">constrained.h</a>.</p>
 
-<p>References <a class="el" href="group__CmdParse.html#gaa5c1ac9ee16243842c4c68fb2fa068f1">MR::App::get_options()</a>, <a class="el" href="constrained_8h_source.html#l00188">MR::DWI::CSDeconv&lt; T &gt;::Shared::HR_dirs</a>, <a class="el" href="constrained_8h_source.html#l00187">MR::DWI::CSDeconv&lt; T &gt;::Shared::init_filter</a>, <a class="el" href="constrained_8h_source.html#l00192">MR::DWI::CSDeconv&lt; T &gt;::Shared::lmax</a>, <a class="el" href="matrix_8h_source.html#l00304">MR::Math::Matrix&lt; ValueType &gt;::load()</a>, <a class="el" href="lib_2math_2vector_8h_source.html#l00328">MR::Math::Vector&lt; ValueType &gt;::load()</a>, <a class="el" href="constrained_8h_source.html#l00190">MR::DWI::CSDeconv&lt; T &gt;::Shared::neg_lambda</a>, <a class="el" href="constrained_8h_source.html#l00193">MR::DWI::CSDeconv&lt; T &gt;::Shared::niter</a>, <a class="el" href="constrained_8h_source.html#l00190">MR::DWI::CSDeconv&lt; T &gt;::Shared::norm_lambda</a>, and <a class="el" href="constrained_8h_source.html#l00190">MR::DWI::CSDeconv&lt; T &gt;::Shared::threshold</a>.</p>
+<p>References <a class="el" href="group__CmdParse.html#gaa5c1ac9ee16243842c4c68fb2fa068f1">MR::App::get_options()</a>, <a class="el" href="constrained_8h_source.html#l00186">MR::DWI::CSDeconv&lt; T &gt;::Shared::HR_dirs</a>, <a class="el" href="constrained_8h_source.html#l00185">MR::DWI::CSDeconv&lt; T &gt;::Shared::init_filter</a>, <a class="el" href="constrained_8h_source.html#l00190">MR::DWI::CSDeconv&lt; T &gt;::Shared::lmax</a>, <a class="el" href="lib_2math_2matrix_8h_source.html#l00305">MR::Math::Matrix&lt; ValueType &gt;::load()</a>, <a class="el" href="lib_2math_2vector_8h_source.html#l00328">MR::Math::Vector&lt; ValueType &gt;::load()</a>, <a class="el" href="constrained_8h_source.html#l00188">MR::DWI::CSDeconv&lt; T &gt;::Shared::neg_lambda</a>, <a class="el" href="constrained_8h_source.html#l00191">MR::DWI::CSDeconv&lt; T &gt;::Shared::niter</a>, <a class="el" href="constrained_8h_source.html#l00188">MR::DWI::CSDeconv&lt; T &gt;::Shared::norm_lambda</a>, and <a class="el" href="constrained_8h_source.html#l00188">MR::DWI::CSDeconv&lt; T &gt;::Shared::threshold</a>.</p>
 
 </div>
 </div>
@@ -319,9 +321,9 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="constrained_8h_source.html#l00102">102</a> of file <a class="el" href="constrained_8h_source.html">constrained.h</a>.</p>
+<p>Definition at line <a class="el" href="constrained_8h_source.html#l00098">98</a> of file <a class="el" href="constrained_8h_source.html">constrained.h</a>.</p>
 
-<p>References <a class="el" href="exception_8h_source.html#l00081">INFO</a>, <a class="el" href="constrained_8h_source.html#l00192">MR::DWI::CSDeconv&lt; T &gt;::Shared::lmax_data</a>, <a class="el" href="lib_2math_2vector_8h_source.html#l00328">MR::Math::Vector&lt; ValueType &gt;::load()</a>, <a class="el" href="constrained_8h_source.html#l00187">MR::DWI::CSDeconv&lt; T &gt;::Shared::response</a>, <a class="el" href="lib_2math_2vector_8h_source.html#l00362">MR::Math::Vector&lt; ValueType &gt;::size()</a>, and <a class="el" href="mrtrix_8h_source.html#l00126">MR::str()</a>.</p>
+<p>References <a class="el" href="exception_8h_source.html#l00081">INFO</a>, <a class="el" href="constrained_8h_source.html#l00190">MR::DWI::CSDeconv&lt; T &gt;::Shared::lmax_response</a>, <a class="el" href="lib_2math_2vector_8h_source.html#l00328">MR::Math::Vector&lt; ValueType &gt;::load()</a>, <a class="el" href="constrained_8h_source.html#l00185">MR::DWI::CSDeconv&lt; T &gt;::Shared::response</a>, <a class="el" href="lib_2math_2vector_8h_source.html#l00362">MR::Math::Vector&lt; ValueType &gt;::size()</a>, and <a class="el" href="mrtrix_8h_source.html#l00126">MR::str()</a>.</p>
 
 </div>
 </div>
@@ -349,9 +351,9 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="constrained_8h_source.html#l00111">111</a> of file <a class="el" href="constrained_8h_source.html">constrained.h</a>.</p>
+<p>Definition at line <a class="el" href="constrained_8h_source.html#l00107">107</a> of file <a class="el" href="constrained_8h_source.html">constrained.h</a>.</p>
 
-<p>References <a class="el" href="constrained_8h_source.html#l00192">MR::DWI::CSDeconv&lt; T &gt;::Shared::lmax_data</a>, <a class="el" href="constrained_8h_source.html#l00187">MR::DWI::CSDeconv&lt; T &gt;::Shared::response</a>, and <a class="el" href="lib_2math_2vector_8h_source.html#l00362">MR::Math::Vector&lt; ValueType &gt;::size()</a>.</p>
+<p>References <a class="el" href="constrained_8h_source.html#l00190">MR::DWI::CSDeconv&lt; T &gt;::Shared::lmax_response</a>, <a class="el" href="constrained_8h_source.html#l00185">MR::DWI::CSDeconv&lt; T &gt;::Shared::response</a>, and <a class="el" href="lib_2math_2vector_8h_source.html#l00362">MR::Math::Vector&lt; ValueType &gt;::size()</a>.</p>
 
 </div>
 </div>
@@ -368,9 +370,9 @@ template&lt;typename T&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="constrained_8h_source.html#l00188">188</a> of file <a class="el" href="constrained_8h_source.html">constrained.h</a>.</p>
+<p>Definition at line <a class="el" href="constrained_8h_source.html#l00186">186</a> of file <a class="el" href="constrained_8h_source.html">constrained.h</a>.</p>
 
-<p>Referenced by <a class="el" href="constrained_8h_source.html#l00118">MR::DWI::CSDeconv&lt; T &gt;::Shared::init()</a>, and <a class="el" href="constrained_8h_source.html#l00051">MR::DWI::CSDeconv&lt; T &gt;::Shared::Shared()</a>.</p>
+<p>Referenced by <a class="el" href="constrained_8h_source.html#l00114">MR::DWI::CSDeconv&lt; T &gt;::Shared::init()</a>, and <a class="el" href="constrained_8h_source.html#l00051">MR::DWI::CSDeconv&lt; T &gt;::Shared::Shared()</a>.</p>
 
 </div>
 </div>
@@ -386,7 +388,7 @@ template&lt;typename T&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="constrained_8h_source.html#l00191">191</a> of file <a class="el" href="constrained_8h_source.html">constrained.h</a>.</p>
+<p>Definition at line <a class="el" href="constrained_8h_source.html#l00189">189</a> of file <a class="el" href="constrained_8h_source.html">constrained.h</a>.</p>
 
 <p>Referenced by <a class="el" href="constrained_8h_source.html#l00051">MR::DWI::CSDeconv&lt; T &gt;::Shared::Shared()</a>.</p>
 
@@ -404,7 +406,7 @@ template&lt;typename T&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="constrained_8h_source.html#l00186">186</a> of file <a class="el" href="constrained_8h_source.html">constrained.h</a>.</p>
+<p>Definition at line <a class="el" href="constrained_8h_source.html#l00184">184</a> of file <a class="el" href="constrained_8h_source.html">constrained.h</a>.</p>
 
 <p>Referenced by <a class="el" href="constrained_8h_source.html#l00051">MR::DWI::CSDeconv&lt; T &gt;::Shared::Shared()</a>.</p>
 
@@ -422,9 +424,9 @@ template&lt;typename T&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="constrained_8h_source.html#l00188">188</a> of file <a class="el" href="constrained_8h_source.html">constrained.h</a>.</p>
+<p>Definition at line <a class="el" href="constrained_8h_source.html#l00186">186</a> of file <a class="el" href="constrained_8h_source.html">constrained.h</a>.</p>
 
-<p>Referenced by <a class="el" href="constrained_8h_source.html#l00118">MR::DWI::CSDeconv&lt; T &gt;::Shared::init()</a>, <a class="el" href="constrained_8h_source.html#l00075">MR::DWI::CSDeconv&lt; T &gt;::Shared::parse_cmdline_options()</a>, and <a class="el" href="constrained_8h_source.html#l00051">MR::DWI::CSDeconv&lt; T &gt;::Shared::Shared()</a>.</p>
+<p>Referenced by <a class="el" href="constrained_8h_source.html#l00114">MR::DWI::CSDeconv&lt; T &gt;::Shared::init()</a>, <a class="el" href="constrained_8h_source.html#l00071">MR::DWI::CSDeconv&lt; T &gt;::Shared::parse_cmdline_options()</a>, and <a class="el" href="constrained_8h_source.html#l00051">MR::DWI::CSDeconv&lt; T &gt;::Shared::Shared()</a>.</p>
 
 </div>
 </div>
@@ -440,9 +442,9 @@ template&lt;typename T&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="constrained_8h_source.html#l00189">189</a> of file <a class="el" href="constrained_8h_source.html">constrained.h</a>.</p>
+<p>Definition at line <a class="el" href="constrained_8h_source.html#l00187">187</a> of file <a class="el" href="constrained_8h_source.html">constrained.h</a>.</p>
 
-<p>Referenced by <a class="el" href="constrained_8h_source.html#l00118">MR::DWI::CSDeconv&lt; T &gt;::Shared::init()</a>, <a class="el" href="constrained_8h_source.html#l00235">MR::DWI::CSDeconv&lt; float &gt;::iterate()</a>, <a class="el" href="constrained_8h_source.html#l00182">MR::DWI::CSDeconv&lt; T &gt;::Shared::nSH()</a>, and <a class="el" href="constrained_8h_source.html#l00225">MR::DWI::CSDeconv&lt; float &gt;::set()</a>.</p>
+<p>Referenced by <a class="el" href="constrained_8h_source.html#l00114">MR::DWI::CSDeconv&lt; T &gt;::Shared::init()</a>, <a class="el" href="constrained_8h_source.html#l00233">MR::DWI::CSDeconv&lt; float &gt;::iterate()</a>, <a class="el" href="constrained_8h_source.html#l00180">MR::DWI::CSDeconv&lt; T &gt;::Shared::nSH()</a>, and <a class="el" href="constrained_8h_source.html#l00223">MR::DWI::CSDeconv&lt; float &gt;::set()</a>.</p>
 
 </div>
 </div>
@@ -458,9 +460,9 @@ template&lt;typename T&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="constrained_8h_source.html#l00187">187</a> of file <a class="el" href="constrained_8h_source.html">constrained.h</a>.</p>
+<p>Definition at line <a class="el" href="constrained_8h_source.html#l00185">185</a> of file <a class="el" href="constrained_8h_source.html">constrained.h</a>.</p>
 
-<p>Referenced by <a class="el" href="constrained_8h_source.html#l00118">MR::DWI::CSDeconv&lt; T &gt;::Shared::init()</a>, <a class="el" href="constrained_8h_source.html#l00075">MR::DWI::CSDeconv&lt; T &gt;::Shared::parse_cmdline_options()</a>, and <a class="el" href="constrained_8h_source.html#l00051">MR::DWI::CSDeconv&lt; T &gt;::Shared::Shared()</a>.</p>
+<p>Referenced by <a class="el" href="constrained_8h_source.html#l00114">MR::DWI::CSDeconv&lt; T &gt;::Shared::init()</a>, and <a class="el" href="constrained_8h_source.html#l00071">MR::DWI::CSDeconv&lt; T &gt;::Shared::parse_cmdline_options()</a>.</p>
 
 </div>
 </div>
@@ -476,9 +478,9 @@ template&lt;typename T&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="constrained_8h_source.html#l00192">192</a> of file <a class="el" href="constrained_8h_source.html">constrained.h</a>.</p>
+<p>Definition at line <a class="el" href="constrained_8h_source.html#l00190">190</a> of file <a class="el" href="constrained_8h_source.html">constrained.h</a>.</p>
 
-<p>Referenced by <a class="el" href="constrained_8h_source.html#l00118">MR::DWI::CSDeconv&lt; T &gt;::Shared::init()</a>, <a class="el" href="constrained_8h_source.html#l00075">MR::DWI::CSDeconv&lt; T &gt;::Shared::parse_cmdline_options()</a>, and <a class="el" href="constrained_8h_source.html#l00051">MR::DWI::CSDeconv&lt; T &gt;::Shared::Shared()</a>.</p>
+<p>Referenced by <a class="el" href="constrained_8h_source.html#l00114">MR::DWI::CSDeconv&lt; T &gt;::Shared::init()</a>, <a class="el" href="constrained_8h_source.html#l00071">MR::DWI::CSDeconv&lt; T &gt;::Shared::parse_cmdline_options()</a>, and <a class="el" href="constrained_8h_source.html#l00051">MR::DWI::CSDeconv&lt; T &gt;::Shared::Shared()</a>.</p>
 
 </div>
 </div>
@@ -494,9 +496,27 @@ template&lt;typename T&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="constrained_8h_source.html#l00192">192</a> of file <a class="el" href="constrained_8h_source.html">constrained.h</a>.</p>
+<p>Definition at line <a class="el" href="constrained_8h_source.html#l00190">190</a> of file <a class="el" href="constrained_8h_source.html">constrained.h</a>.</p>
 
-<p>Referenced by <a class="el" href="constrained_8h_source.html#l00118">MR::DWI::CSDeconv&lt; T &gt;::Shared::init()</a>, <a class="el" href="constrained_8h_source.html#l00102">MR::DWI::CSDeconv&lt; T &gt;::Shared::set_response()</a>, and <a class="el" href="constrained_8h_source.html#l00051">MR::DWI::CSDeconv&lt; T &gt;::Shared::Shared()</a>.</p>
+<p>Referenced by <a class="el" href="constrained_8h_source.html#l00114">MR::DWI::CSDeconv&lt; T &gt;::Shared::init()</a>, and <a class="el" href="constrained_8h_source.html#l00051">MR::DWI::CSDeconv&lt; T &gt;::Shared::Shared()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8dfe46164d49a6ae583ff13e0ca9e79b"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="classMR_1_1DWI_1_1CSDeconv.html">MR::DWI::CSDeconv</a>&lt; T &gt;::Shared::lmax_response</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="constrained_8h_source.html#l00190">190</a> of file <a class="el" href="constrained_8h_source.html">constrained.h</a>.</p>
+
+<p>Referenced by <a class="el" href="constrained_8h_source.html#l00114">MR::DWI::CSDeconv&lt; T &gt;::Shared::init()</a>, <a class="el" href="constrained_8h_source.html#l00098">MR::DWI::CSDeconv&lt; T &gt;::Shared::set_response()</a>, and <a class="el" href="constrained_8h_source.html#l00051">MR::DWI::CSDeconv&lt; T &gt;::Shared::Shared()</a>.</p>
 
 </div>
 </div>
@@ -512,9 +532,9 @@ template&lt;typename T&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="constrained_8h_source.html#l00189">189</a> of file <a class="el" href="constrained_8h_source.html">constrained.h</a>.</p>
+<p>Definition at line <a class="el" href="constrained_8h_source.html#l00187">187</a> of file <a class="el" href="constrained_8h_source.html">constrained.h</a>.</p>
 
-<p>Referenced by <a class="el" href="constrained_8h_source.html#l00118">MR::DWI::CSDeconv&lt; T &gt;::Shared::init()</a>, and <a class="el" href="constrained_8h_source.html#l00225">MR::DWI::CSDeconv&lt; float &gt;::set()</a>.</p>
+<p>Referenced by <a class="el" href="constrained_8h_source.html#l00114">MR::DWI::CSDeconv&lt; T &gt;::Shared::init()</a>, and <a class="el" href="constrained_8h_source.html#l00223">MR::DWI::CSDeconv&lt; float &gt;::set()</a>.</p>
 
 </div>
 </div>
@@ -530,9 +550,9 @@ template&lt;typename T&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="constrained_8h_source.html#l00189">189</a> of file <a class="el" href="constrained_8h_source.html">constrained.h</a>.</p>
+<p>Definition at line <a class="el" href="constrained_8h_source.html#l00187">187</a> of file <a class="el" href="constrained_8h_source.html">constrained.h</a>.</p>
 
-<p>Referenced by <a class="el" href="constrained_8h_source.html#l00197">MR::DWI::CSDeconv&lt; float &gt;::CSDeconv()</a>, <a class="el" href="constrained_8h_source.html#l00118">MR::DWI::CSDeconv&lt; T &gt;::Shared::init()</a>, and <a class="el" href="constrained_8h_source.html#l00235">MR::DWI::CSDeconv&lt; float &gt;::iterate()</a>.</p>
+<p>Referenced by <a class="el" href="constrained_8h_source.html#l00195">MR::DWI::CSDeconv&lt; float &gt;::CSDeconv()</a>, <a class="el" href="constrained_8h_source.html#l00114">MR::DWI::CSDeconv&lt; T &gt;::Shared::init()</a>, and <a class="el" href="constrained_8h_source.html#l00233">MR::DWI::CSDeconv&lt; float &gt;::iterate()</a>.</p>
 
 </div>
 </div>
@@ -548,9 +568,9 @@ template&lt;typename T&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="constrained_8h_source.html#l00190">190</a> of file <a class="el" href="constrained_8h_source.html">constrained.h</a>.</p>
+<p>Definition at line <a class="el" href="constrained_8h_source.html#l00188">188</a> of file <a class="el" href="constrained_8h_source.html">constrained.h</a>.</p>
 
-<p>Referenced by <a class="el" href="constrained_8h_source.html#l00118">MR::DWI::CSDeconv&lt; T &gt;::Shared::init()</a>, and <a class="el" href="constrained_8h_source.html#l00075">MR::DWI::CSDeconv&lt; T &gt;::Shared::parse_cmdline_options()</a>.</p>
+<p>Referenced by <a class="el" href="constrained_8h_source.html#l00114">MR::DWI::CSDeconv&lt; T &gt;::Shared::init()</a>, and <a class="el" href="constrained_8h_source.html#l00071">MR::DWI::CSDeconv&lt; T &gt;::Shared::parse_cmdline_options()</a>.</p>
 
 </div>
 </div>
@@ -566,9 +586,9 @@ template&lt;typename T&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="constrained_8h_source.html#l00193">193</a> of file <a class="el" href="constrained_8h_source.html">constrained.h</a>.</p>
+<p>Definition at line <a class="el" href="constrained_8h_source.html#l00191">191</a> of file <a class="el" href="constrained_8h_source.html">constrained.h</a>.</p>
 
-<p>Referenced by <a class="el" href="constrained_8h_source.html#l00075">MR::DWI::CSDeconv&lt; T &gt;::Shared::parse_cmdline_options()</a>.</p>
+<p>Referenced by <a class="el" href="constrained_8h_source.html#l00071">MR::DWI::CSDeconv&lt; T &gt;::Shared::parse_cmdline_options()</a>.</p>
 
 </div>
 </div>
@@ -584,9 +604,9 @@ template&lt;typename T&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="constrained_8h_source.html#l00190">190</a> of file <a class="el" href="constrained_8h_source.html">constrained.h</a>.</p>
+<p>Definition at line <a class="el" href="constrained_8h_source.html#l00188">188</a> of file <a class="el" href="constrained_8h_source.html">constrained.h</a>.</p>
 
-<p>Referenced by <a class="el" href="constrained_8h_source.html#l00197">MR::DWI::CSDeconv&lt; float &gt;::CSDeconv()</a>, <a class="el" href="constrained_8h_source.html#l00235">MR::DWI::CSDeconv&lt; float &gt;::iterate()</a>, and <a class="el" href="constrained_8h_source.html#l00075">MR::DWI::CSDeconv&lt; T &gt;::Shared::parse_cmdline_options()</a>.</p>
+<p>Referenced by <a class="el" href="constrained_8h_source.html#l00195">MR::DWI::CSDeconv&lt; float &gt;::CSDeconv()</a>, <a class="el" href="constrained_8h_source.html#l00233">MR::DWI::CSDeconv&lt; float &gt;::iterate()</a>, and <a class="el" href="constrained_8h_source.html#l00071">MR::DWI::CSDeconv&lt; T &gt;::Shared::parse_cmdline_options()</a>.</p>
 
 </div>
 </div>
@@ -602,9 +622,9 @@ template&lt;typename T&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="constrained_8h_source.html#l00189">189</a> of file <a class="el" href="constrained_8h_source.html">constrained.h</a>.</p>
+<p>Definition at line <a class="el" href="constrained_8h_source.html#l00187">187</a> of file <a class="el" href="constrained_8h_source.html">constrained.h</a>.</p>
 
-<p>Referenced by <a class="el" href="constrained_8h_source.html#l00118">MR::DWI::CSDeconv&lt; T &gt;::Shared::init()</a>, and <a class="el" href="constrained_8h_source.html#l00225">MR::DWI::CSDeconv&lt; float &gt;::set()</a>.</p>
+<p>Referenced by <a class="el" href="constrained_8h_source.html#l00114">MR::DWI::CSDeconv&lt; T &gt;::Shared::init()</a>, and <a class="el" href="constrained_8h_source.html#l00223">MR::DWI::CSDeconv&lt; float &gt;::set()</a>.</p>
 
 </div>
 </div>
@@ -620,9 +640,9 @@ template&lt;typename T&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="constrained_8h_source.html#l00187">187</a> of file <a class="el" href="constrained_8h_source.html">constrained.h</a>.</p>
+<p>Definition at line <a class="el" href="constrained_8h_source.html#l00185">185</a> of file <a class="el" href="constrained_8h_source.html">constrained.h</a>.</p>
 
-<p>Referenced by <a class="el" href="constrained_8h_source.html#l00118">MR::DWI::CSDeconv&lt; T &gt;::Shared::init()</a>, and <a class="el" href="constrained_8h_source.html#l00102">MR::DWI::CSDeconv&lt; T &gt;::Shared::set_response()</a>.</p>
+<p>Referenced by <a class="el" href="constrained_8h_source.html#l00114">MR::DWI::CSDeconv&lt; T &gt;::Shared::init()</a>, and <a class="el" href="constrained_8h_source.html#l00098">MR::DWI::CSDeconv&lt; T &gt;::Shared::set_response()</a>.</p>
 
 </div>
 </div>
@@ -638,9 +658,9 @@ template&lt;typename T&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="constrained_8h_source.html#l00190">190</a> of file <a class="el" href="constrained_8h_source.html">constrained.h</a>.</p>
+<p>Definition at line <a class="el" href="constrained_8h_source.html#l00188">188</a> of file <a class="el" href="constrained_8h_source.html">constrained.h</a>.</p>
 
-<p>Referenced by <a class="el" href="constrained_8h_source.html#l00118">MR::DWI::CSDeconv&lt; T &gt;::Shared::init()</a>, <a class="el" href="constrained_8h_source.html#l00235">MR::DWI::CSDeconv&lt; float &gt;::iterate()</a>, and <a class="el" href="constrained_8h_source.html#l00075">MR::DWI::CSDeconv&lt; T &gt;::Shared::parse_cmdline_options()</a>.</p>
+<p>Referenced by <a class="el" href="constrained_8h_source.html#l00114">MR::DWI::CSDeconv&lt; T &gt;::Shared::init()</a>, <a class="el" href="constrained_8h_source.html#l00233">MR::DWI::CSDeconv&lt; float &gt;::iterate()</a>, and <a class="el" href="constrained_8h_source.html#l00071">MR::DWI::CSDeconv&lt; T &gt;::Shared::parse_cmdline_options()</a>.</p>
 
 </div>
 </div>
@@ -653,7 +673,7 @@ template&lt;typename T&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="namespaceMR_1_1DWI.html">DWI</a></li><li class="navelem"><a class="el" href="classMR_1_1DWI_1_1CSDeconv.html">CSDeconv</a></li><li class="navelem"><a class="el" href="classMR_1_1DWI_1_1CSDeconv_1_1Shared.html">Shared</a></li>
-    <li class="footer">Generated on Mon Apr 27 2015 17:39:24 for MRtrix by
+    <li class="footer">Generated on Wed Jul 29 2015 17:53:07 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

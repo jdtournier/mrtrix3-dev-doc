@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">MRtrix
-   &#160;<span id="projectnumber">0.3.12-365-ged27dfbe</span>
+   &#160;<span id="projectnumber">0.3.12-732-g65ed7a3c</span>
    </div>
    <div id="projectbrief">MRtrix provides a set of tools to perform diffusion-weighted MR white-matter tractography in a manner robust to crossing fibres, using constrained spherical deconvolution (CSD) and probabilistic streamlines.</div>
   </td>
@@ -318,7 +318,7 @@ $(document).ready(function(){initNavTree('optimal__threshold_8h_source.html','')
 <div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;      <span class="keyword">template</span> &lt;<span class="keyword">class</span> InputVoxelType&gt; </div>
 <div class="line"><a name="l00208"></a><span class="lineno"><a class="line" href="namespaceMR_1_1Image_1_1Filter.html#a678ceb53a390a1270abfacf34c9ed2d6">  208</a></span>&#160;        <span class="keyword">inline</span> <span class="keyword">typename</span> <a class="code" href="namespaceMR_1_1Math_1_1Stats.html#a7ffd8a70ac77ce44ee325f3544b0bddc">InputVoxelType::value_type</a> <a class="code" href="namespaceMR_1_1Image_1_1Filter.html#a73b001e2a4ab3be2688a3577180000e1">estimate_optimal_threshold</a> (InputVoxelType&amp; input)</div>
 <div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;        {</div>
-<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;          <span class="keywordflow">return</span> <a class="code" href="namespaceMR_1_1Image_1_1Filter.html#a73b001e2a4ab3be2688a3577180000e1">estimate_optimal_threshold</a> (input, <span class="keyword">nullptr</span>);</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;          <span class="keywordflow">return</span> <a class="code" href="namespaceMR_1_1Image_1_1Filter.html#a73b001e2a4ab3be2688a3577180000e1">estimate_optimal_threshold</a> (input, (<a class="code" href="classMR_1_1Image_1_1Voxel.html">Image::BufferScratch&lt;bool&gt;::voxel_type</a>*)<span class="keyword">nullptr</span>);</div>
 <div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;        }</div>
 <div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;</div>
 <div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;</div>
@@ -359,7 +359,7 @@ $(document).ready(function(){initNavTree('optimal__threshold_8h_source.html','')
 <div class="ttc" id="memory_8h_html"><div class="ttname"><a href="memory_8h.html">memory.h</a></div></div>
 <div class="ttc" id="namespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> <a href="app_8h_source.html#l00036">app.h:36</a></div></div>
 <div class="ttc" id="threaded__loop_8h_html"><div class="ttname"><a href="threaded__loop_8h.html">threaded_loop.h</a></div></div>
-<div class="ttc" id="group__vector_html_ga22be96efd5e552906f65a35db92100ca"><div class="ttname"><a href="group__vector.html#ga22be96efd5e552906f65a35db92100ca">MR::Math::sum</a></div><div class="ttdeci">ValueType sum(const ValueType *V, size_t size=3, size_t stride=1)</div><div class="ttdoc">compute the sum of the elements of a vector </div><div class="ttdef"><b>Definition:</b> <a href="lib_2math_2vector_8h_source.html#l00695">vector.h:695</a></div></div>
+<div class="ttc" id="group__vector_html_ga22be96efd5e552906f65a35db92100ca"><div class="ttname"><a href="group__vector.html#ga22be96efd5e552906f65a35db92100ca">MR::Math::sum</a></div><div class="ttdeci">ValueType sum(const ValueType *V, size_t size=3, size_t stride=1)</div><div class="ttdoc">compute the sum of the elements of a vector </div><div class="ttdef"><b>Definition:</b> <a href="lib_2math_2vector_8h_source.html#l00725">vector.h:725</a></div></div>
 <div class="ttc" id="classMR_1_1Image_1_1ConstInfo_html_af7c5ce011b4f609f1db10754f228c4b8"><div class="ttname"><a href="classMR_1_1Image_1_1ConstInfo.html#af7c5ce011b4f609f1db10754f228c4b8">MR::Image::ConstInfo::info</a></div><div class="ttdeci">const Info &amp; info() const </div><div class="ttdef"><b>Definition:</b> <a href="info_8h_source.html#l00190">info.h:190</a></div></div>
 <div class="ttc" id="classMR_1_1Image_1_1ThreadedLoop_html"><div class="ttname"><a href="classMR_1_1Image_1_1ThreadedLoop.html">MR::Image::ThreadedLoop</a></div><div class="ttdoc">a class to loop over images in a multi-threaded fashion </div><div class="ttdef"><b>Definition:</b> <a href="threaded__loop_8h_source.html#l00271">threaded_loop.h:271</a></div></div>
 <div class="ttc" id="group__elfun_html_ga6ad7c8a6943db01a90c071137a5eb4de"><div class="ttname"><a href="group__elfun.html#ga6ad7c8a6943db01a90c071137a5eb4de">MR::Math::max</a></div><div class="ttdeci">T max(const T *const x, const int size, int &amp;index, const int stride=1)</div><div class="ttdoc">find maximum value in array </div><div class="ttdef"><b>Definition:</b> <a href="math_8h_source.html#l00117">math.h:117</a></div></div>
@@ -388,6 +388,7 @@ $(document).ready(function(){initNavTree('optimal__threshold_8h_source.html','')
 <div class="ttc" id="classMR_1_1Image_1_1Filter_1_1OptimalThreshold_html_a67feca1b5f04bed8fc57892029bfc155"><div class="ttname"><a href="classMR_1_1Image_1_1Filter_1_1OptimalThreshold.html#a67feca1b5f04bed8fc57892029bfc155">MR::Image::Filter::OptimalThreshold::OptimalThreshold</a></div><div class="ttdeci">OptimalThreshold(const InfoType &amp;info)</div><div class="ttdef"><b>Definition:</b> <a href="optimal__threshold_8h_source.html#l00240">optimal_threshold.h:240</a></div></div>
 <div class="ttc" id="group__elfun_html_gaea1c2fae93ed8a863c25bf31d6ee16a9"><div class="ttname"><a href="group__elfun.html#gaea1c2fae93ed8a863c25bf31d6ee16a9">MR::Math::min</a></div><div class="ttdeci">T min(const T *const x, const int size, int &amp;index, const int stride=1)</div><div class="ttdoc">find minimum value in array </div><div class="ttdef"><b>Definition:</b> <a href="math_8h_source.html#l00135">math.h:135</a></div></div>
 <div class="ttc" id="buffer__scratch_8h_html"><div class="ttname"><a href="buffer__scratch_8h.html">buffer_scratch.h</a></div></div>
+<div class="ttc" id="classMR_1_1Image_1_1Voxel_html"><div class="ttname"><a href="classMR_1_1Image_1_1Voxel.html">MR::Image::Voxel&lt; BufferScratch &gt;</a></div></div>
 <div class="ttc" id="classMR_1_1Image_1_1Info_html_aa5abde27e175d6c8fde42e5a8856617d"><div class="ttname"><a href="classMR_1_1Image_1_1Info.html#aa5abde27e175d6c8fde42e5a8856617d">MR::Image::Info::axes_</a></div><div class="ttdeci">std::vector&lt; Axis &gt; axes_</div><div class="ttdef"><b>Definition:</b> <a href="info_8h_source.html#l00163">info.h:163</a></div></div>
 <div class="ttc" id="classMR_1_1Image_1_1Filter_1_1ImageCorrelationCostFunction_html_a16d398a85e327e7654fa1f1ce82197bf"><div class="ttname"><a href="classMR_1_1Image_1_1Filter_1_1ImageCorrelationCostFunction.html#a16d398a85e327e7654fa1f1ce82197bf">MR::Image::Filter::ImageCorrelationCostFunction::operator()</a></div><div class="ttdeci">value_type operator()(value_type threshold) const </div><div class="ttdef"><b>Definition:</b> <a href="optimal__threshold_8h_source.html#l00158">optimal_threshold.h:158</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
@@ -395,8 +396,8 @@ $(document).ready(function(){initNavTree('optimal__threshold_8h_source.html','')
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_d04b53703454d06826407a3fa8e7e294.html">lib</a></li><li class="navelem"><a class="el" href="dir_3bc6d3089672ebb90f7fa9b6ba0d7cc5.html">image</a></li><li class="navelem"><a class="el" href="dir_a6bb55f1a0de6b1304c29f3c094902e4.html">filter</a></li><li class="navelem"><a class="el" href="optimal__threshold_8h.html">optimal_threshold.h</a></li>
-    <li class="footer">Generated on Mon Apr 27 2015 17:39:23 for MRtrix by
+    <li class="navelem"><a class="el" href="dir_bf68d5b8bf0eebb10b4d4e9e970b3595.html">lib</a></li><li class="navelem"><a class="el" href="dir_e54acb973f2013c8c781b8223934cfde.html">image</a></li><li class="navelem"><a class="el" href="dir_063925cd2440563d653b4140e313ca3a.html">filter</a></li><li class="navelem"><a class="el" href="optimal__threshold_8h.html">optimal_threshold.h</a></li>
+    <li class="footer">Generated on Wed Jul 29 2015 17:53:06 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

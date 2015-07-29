@@ -1,9 +1,10 @@
 var classMR_1_1GUI_1_1MRView_1_1Tool_1_1TrackScalarFile =
 [
-    [ "TrackScalarFile", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1TrackScalarFile.html#af5afc686d0fd2b6ec88af32bca969285", null ],
+    [ "TrackScalarFile", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1TrackScalarFile.html#aca5b59b19cbe5574d79738d454ac57cb", null ],
     [ "~TrackScalarFile", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1TrackScalarFile.html#a8d75d10920a4c173c2caab0b8dbdf163", null ],
     [ "clear_tool_display", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1TrackScalarFile.html#a4cbe1e1ee805afecfcbc6a7b6768d769", null ],
     [ "open_track_scalar_file_slot", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1TrackScalarFile.html#a4135cbe610746d24bc36c7d15c38d405", null ],
+    [ "render_tractogram_colourbar", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1TrackScalarFile.html#a824b60bb4f32ef32b3f93a27a6e92c1e", null ],
     [ "set_tractogram", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1TrackScalarFile.html#a131a03823db26fa43a71d49b40325aeb", null ],
     [ "update_tool_display", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1TrackScalarFile.html#afbeca63844079ea5a35ed01c891bfd70", null ],
     [ "colourmap_actions", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1TrackScalarFile.html#a7747855d0d3de0267132085581a78755", null ],
@@ -15,7 +16,6 @@ var classMR_1_1GUI_1_1MRView_1_1Tool_1_1TrackScalarFile =
     [ "main_box", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1TrackScalarFile.html#af7e8f39e203805decf34620fe3b5f593", null ],
     [ "max_entry", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1TrackScalarFile.html#a38b8ca4612fd24652776bcd57c8d4a84", null ],
     [ "min_entry", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1TrackScalarFile.html#a97b4754c1407165ad2241da4f175bdb6", null ],
-    [ "num_of_colourmaps", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1TrackScalarFile.html#a2907958ee9cfdd8071feff4599cd67f4", null ],
     [ "scalarfile_by_direction", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1TrackScalarFile.html#a70269da5f46567d06aedab8ba7270865", null ],
     [ "show_colour_bar", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1TrackScalarFile.html#a4df7aae011894ce84290345d0f96382f", null ],
     [ "threshold_lower", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1TrackScalarFile.html#a590d07f6e1917bbdf2f8a445d69877dc", null ],

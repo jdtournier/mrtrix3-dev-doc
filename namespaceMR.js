@@ -1,6 +1,7 @@
 var namespaceMR =
 [
     [ "App", "namespaceMR_1_1App.html", "namespaceMR_1_1App" ],
+    [ "Connectome", "namespaceMR_1_1Connectome.html", "namespaceMR_1_1Connectome" ],
     [ "DWI", "namespaceMR_1_1DWI.html", "namespaceMR_1_1DWI" ],
     [ "File", "namespaceMR_1_1File.html", "namespaceMR_1_1File" ],
     [ "GUI", "namespaceMR_1_1GUI.html", "namespaceMR_1_1GUI" ],

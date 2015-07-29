@@ -32,6 +32,7 @@ var mrtrix_8h =
     [ "parse_ints", "mrtrix_8h.html#aa8585886b506d23996a75e690f12631c", null ],
     [ "printf", "mrtrix_8h.html#abdf39e7ac1a9bf50af2a20eb69b0bb89", null ],
     [ "replace", "mrtrix_8h.html#a18e0d7e1612f262bb9202f52c802b6e6", null ],
+    [ "replace", "mrtrix_8h.html#ad420ef6dab9cc5565ac3b8961bb11228", null ],
     [ "round", "mrtrix_8h.html#a46ca49fae995e9fde3fd942230d91fac", null ],
     [ "set_all", "mrtrix_8h.html#aaed1b4298404d7c463cd6915b8903959", null ],
     [ "shorten", "mrtrix_8h.html#ab9d4ebe5d50262f04a41e66e030e3e16", null ],

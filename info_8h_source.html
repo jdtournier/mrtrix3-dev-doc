@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">MRtrix
-   &#160;<span id="projectnumber">0.3.12-365-ged27dfbe</span>
+   &#160;<span id="projectnumber">0.3.12-732-g65ed7a3c</span>
    </div>
    <div id="projectbrief">MRtrix provides a set of tools to perform diffusion-weighted MR white-matter tractography in a manner robust to crossing fibres, using constrained spherical deconvolution (CSD) and probabilistic streamlines.</div>
   </td>
@@ -141,7 +141,7 @@ $(document).ready(function(){initNavTree('info_8h_source.html','');});
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="datatype_8h.html">datatype.h</a>&quot;</span></div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="axis_8h.html">image/axis.h</a>&quot;</span></div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="stride_8h.html">image/stride.h</a>&quot;</span></div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="matrix_8h.html">math/matrix.h</a>&quot;</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="lib_2math_2matrix_8h.html">math/matrix.h</a>&quot;</span></div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceMR.html">MR</a></div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;{</div>
@@ -349,6 +349,7 @@ $(document).ready(function(){initNavTree('info_8h_source.html','');});
 <div class="ttc" id="classMR_1_1Image_1_1ConstInfo_html_af7c5ce011b4f609f1db10754f228c4b8"><div class="ttname"><a href="classMR_1_1Image_1_1ConstInfo.html#af7c5ce011b4f609f1db10754f228c4b8">MR::Image::ConstInfo::info</a></div><div class="ttdeci">const Info &amp; info() const </div><div class="ttdef"><b>Definition:</b> <a href="info_8h_source.html#l00190">info.h:190</a></div></div>
 <div class="ttc" id="classMR_1_1Image_1_1Info_html_a29180eb95cb17ea4ee5d662a7ed3ea57"><div class="ttname"><a href="classMR_1_1Image_1_1Info.html#a29180eb95cb17ea4ee5d662a7ed3ea57">MR::Image::Info::Info</a></div><div class="ttdeci">Info()</div><div class="ttdef"><b>Definition:</b> <a href="info_8h_source.html#l00044">info.h:44</a></div></div>
 <div class="ttc" id="classMR_1_1Image_1_1Info_html_a2c867f13fd84a3ffb5c00e01530535dc"><div class="ttname"><a href="classMR_1_1Image_1_1Info.html#a2c867f13fd84a3ffb5c00e01530535dc">MR::Image::Info::datatype</a></div><div class="ttdeci">DataType &amp; datatype()</div><div class="ttdef"><b>Definition:</b> <a href="info_8h_source.html#l00092">info.h:92</a></div></div>
+<div class="ttc" id="lib_2math_2matrix_8h_html"><div class="ttname"><a href="lib_2math_2matrix_8h.html">matrix.h</a></div></div>
 <div class="ttc" id="classMR_1_1Image_1_1Info_html_a82698ce572b6057d0c8db1f723fefb3c"><div class="ttname"><a href="classMR_1_1Image_1_1Info.html#a82698ce572b6057d0c8db1f723fefb3c">MR::Image::Info::operator&lt;&lt;</a></div><div class="ttdeci">friend std::ostream &amp; operator&lt;&lt;(std::ostream &amp;stream, const Info &amp;A)</div><div class="ttdef"><b>Definition:</b> <a href="info_8h_source.html#l00147">info.h:147</a></div></div>
 <div class="ttc" id="classMR_1_1Image_1_1ConstInfo_html_a3132879245140daeffc4c9971025f029"><div class="ttname"><a href="classMR_1_1Image_1_1ConstInfo.html#a3132879245140daeffc4c9971025f029">MR::Image::ConstInfo::dim</a></div><div class="ttdeci">int dim(size_t axis) const </div><div class="ttdef"><b>Definition:</b> <a href="info_8h_source.html#l00202">info.h:202</a></div></div>
 <div class="ttc" id="namespaceMR_1_1Image_1_1Stride_html_a0b96eec4a35ca4ef838eb340eb106f0b"><div class="ttname"><a href="namespaceMR_1_1Image_1_1Stride.html#a0b96eec4a35ca4ef838eb340eb106f0b">MR::Image::Stride::sanitise</a></div><div class="ttdeci">void sanitise(InfoType &amp;info)</div><div class="ttdoc">remove duplicate and invalid strides. </div><div class="ttdef"><b>Definition:</b> <a href="stride_8h_source.html#l00223">stride.h:223</a></div></div>
@@ -366,7 +367,6 @@ $(document).ready(function(){initNavTree('info_8h_source.html','');});
 <div class="ttc" id="classMR_1_1Image_1_1Info_html_a1eeaba320ffcda13e98e52e12127b34b"><div class="ttname"><a href="classMR_1_1Image_1_1Info.html#a1eeaba320ffcda13e98e52e12127b34b">MR::Image::Info::vox</a></div><div class="ttdeci">float &amp; vox(size_t axis)</div><div class="ttdef"><b>Definition:</b> <a href="info_8h_source.html#l00113">info.h:113</a></div></div>
 <div class="ttc" id="classMR_1_1Image_1_1Info_html_a63a8e142e2ffa3ea0d6a2c336f9a7639"><div class="ttname"><a href="classMR_1_1Image_1_1Info.html#a63a8e142e2ffa3ea0d6a2c336f9a7639">MR::Image::Info::name</a></div><div class="ttdeci">std::string &amp; name()</div><div class="ttdef"><b>Definition:</b> <a href="info_8h_source.html#l00085">info.h:85</a></div></div>
 <div class="ttc" id="classMR_1_1Image_1_1Info_html_a8175588262b846979af36e117f6bf352"><div class="ttname"><a href="classMR_1_1Image_1_1Info.html#a8175588262b846979af36e117f6bf352">MR::Image::Info::sanitise_voxel_sizes</a></div><div class="ttdeci">void sanitise_voxel_sizes()</div></div>
-<div class="ttc" id="matrix_8h_html"><div class="ttname"><a href="matrix_8h.html">matrix.h</a></div></div>
 <div class="ttc" id="classMR_1_1Image_1_1Info_html_a3a64990283255b62be6a1f04bae5133d"><div class="ttname"><a href="classMR_1_1Image_1_1Info.html#a3a64990283255b62be6a1f04bae5133d">MR::Image::Info::sanitise_strides</a></div><div class="ttdeci">void sanitise_strides()</div><div class="ttdef"><b>Definition:</b> <a href="info_8h_source.html#l00167">info.h:167</a></div></div>
 <div class="ttc" id="classMR_1_1Image_1_1ConstInfo_html_a33edaf3f4d22e9689897a3b2f087f660"><div class="ttname"><a href="classMR_1_1Image_1_1ConstInfo.html#a33edaf3f4d22e9689897a3b2f087f660">MR::Image::ConstInfo::datatype</a></div><div class="ttdeci">const DataType &amp; datatype() const </div><div class="ttdef"><b>Definition:</b> <a href="info_8h_source.html#l00196">info.h:196</a></div></div>
 <div class="ttc" id="namespaceMR_1_1Image_1_1Stride_html_a277897bc4f3201d03c75ad00d4afc43b"><div class="ttname"><a href="namespaceMR_1_1Image_1_1Stride.html#a277897bc4f3201d03c75ad00d4afc43b">MR::Image::Stride::symbolise</a></div><div class="ttdeci">void symbolise(InfoType &amp;info)</div><div class="ttdoc">convert strides from actual to symbolic strides </div><div class="ttdef"><b>Definition:</b> <a href="stride_8h_source.html#l00312">stride.h:312</a></div></div>
@@ -386,7 +386,7 @@ $(document).ready(function(){initNavTree('info_8h_source.html','');});
 <div class="ttc" id="classMR_1_1Image_1_1Info_html_a6fa0101a2af4fb0e41bbd93920675c8d"><div class="ttname"><a href="classMR_1_1Image_1_1Info.html#a6fa0101a2af4fb0e41bbd93920675c8d">MR::Image::Info::sanitise_transform</a></div><div class="ttdeci">void sanitise_transform()</div></div>
 <div class="ttc" id="classMR_1_1Image_1_1Info_html_a0a9e9a775ec4049c48cf1eb6c1183f02"><div class="ttname"><a href="classMR_1_1Image_1_1Info.html#a0a9e9a775ec4049c48cf1eb6c1183f02">MR::Image::Info::dim</a></div><div class="ttdeci">int &amp; dim(size_t axis)</div><div class="ttdef"><b>Definition:</b> <a href="info_8h_source.html#l00106">info.h:106</a></div></div>
 <div class="ttc" id="axis_8h_html"><div class="ttname"><a href="axis_8h.html">axis.h</a></div></div>
-<div class="ttc" id="classMR_1_1Math_1_1Matrix_html_a606207704aff6a4bd08bdf83014c83d6"><div class="ttname"><a href="classMR_1_1Math_1_1Matrix.html#a606207704aff6a4bd08bdf83014c83d6">MR::Math::Matrix::clear</a></div><div class="ttdeci">Matrix &amp; clear()</div><div class="ttdoc">deallocate the matrix data </div><div class="ttdef"><b>Definition:</b> <a href="matrix_8h_source.html#l00220">matrix.h:220</a></div></div>
+<div class="ttc" id="classMR_1_1Math_1_1Matrix_html_a606207704aff6a4bd08bdf83014c83d6"><div class="ttname"><a href="classMR_1_1Math_1_1Matrix.html#a606207704aff6a4bd08bdf83014c83d6">MR::Math::Matrix::clear</a></div><div class="ttdeci">Matrix &amp; clear()</div><div class="ttdoc">deallocate the matrix data </div><div class="ttdef"><b>Definition:</b> <a href="lib_2math_2matrix_8h_source.html#l00221">matrix.h:221</a></div></div>
 <div class="ttc" id="classMR_1_1Image_1_1ConstInfo_html"><div class="ttname"><a href="classMR_1_1Image_1_1ConstInfo.html">MR::Image::ConstInfo</a></div><div class="ttdef"><b>Definition:</b> <a href="info_8h_source.html#l00179">info.h:179</a></div></div>
 <div class="ttc" id="classMR_1_1Image_1_1Info_html_a3dcbf3e8e2a3fd981434a46a290fdd7e"><div class="ttname"><a href="classMR_1_1Image_1_1Info.html#a3dcbf3e8e2a3fd981434a46a290fdd7e">MR::Image::Info::operator=</a></div><div class="ttdeci">Info &amp; operator=(const InfoType &amp;H)</div><div class="ttdoc">assignment operator </div><div class="ttdef"><b>Definition:</b> <a href="info_8h_source.html#l00062">info.h:62</a></div></div>
 <div class="ttc" id="classMR_1_1Image_1_1Info_html_aa5abde27e175d6c8fde42e5a8856617d"><div class="ttname"><a href="classMR_1_1Image_1_1Info.html#aa5abde27e175d6c8fde42e5a8856617d">MR::Image::Info::axes_</a></div><div class="ttdeci">std::vector&lt; Axis &gt; axes_</div><div class="ttdef"><b>Definition:</b> <a href="info_8h_source.html#l00163">info.h:163</a></div></div>
@@ -396,8 +396,8 @@ $(document).ready(function(){initNavTree('info_8h_source.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_d04b53703454d06826407a3fa8e7e294.html">lib</a></li><li class="navelem"><a class="el" href="dir_3bc6d3089672ebb90f7fa9b6ba0d7cc5.html">image</a></li><li class="navelem"><a class="el" href="info_8h.html">info.h</a></li>
-    <li class="footer">Generated on Mon Apr 27 2015 17:39:23 for MRtrix by
+    <li class="navelem"><a class="el" href="dir_bf68d5b8bf0eebb10b4d4e9e970b3595.html">lib</a></li><li class="navelem"><a class="el" href="dir_e54acb973f2013c8c781b8223934cfde.html">image</a></li><li class="navelem"><a class="el" href="info_8h.html">info.h</a></li>
+    <li class="footer">Generated on Wed Jul 29 2015 17:53:06 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

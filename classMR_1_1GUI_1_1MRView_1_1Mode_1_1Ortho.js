@@ -1,6 +1,6 @@
 var classMR_1_1GUI_1_1MRView_1_1Mode_1_1Ortho =
 [
-    [ "Ortho", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Ortho.html#a2f963db1b63ec8261fe6956982612e69", null ],
+    [ "Ortho", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Ortho.html#af6c4b181332dd31ea6902735e1e30501", null ],
     [ "get_current_projection", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Ortho.html#a451844296ff5dff4f3ffacc52d76655d", null ],
     [ "mouse_press_event", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Ortho.html#a0aa23c11407c4273cd5c8a43c56dc29b", null ],
     [ "paint", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Ortho.html#a282a25c831a417016c09fb6b2d9c0b97", null ],

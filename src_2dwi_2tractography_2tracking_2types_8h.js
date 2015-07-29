@@ -1,17 +1,8 @@
 var src_2dwi_2tractography_2tracking_2types_8h =
 [
-    [ "container_cast", "structMR_1_1container__cast.html", "structMR_1_1container__cast" ],
     [ "Interpolator", "classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1Interpolator.html", "classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1Interpolator" ],
-    [ "NON_POD_VLA", "group__VLA.html#gafdeb6bac959b6c3716e6ea242e5bfd8c", null ],
-    [ "NON_POD_VLA_MAX", "group__VLA.html#gac4b223848b0e85a7cc733ae8261181cd", null ],
     [ "REJECTION_REASON_COUNT", "src_2dwi_2tractography_2tracking_2types_8h.html#a8b24e73a0437a8c6b813f55548c68929", null ],
     [ "TERMINATION_REASON_COUNT", "src_2dwi_2tractography_2tracking_2types_8h.html#a869113fb71998652e5032c2aaf80acd0", null ],
-    [ "VLA", "group__VLA.html#ga587ba4d66cf53e7de57f71997aaa1993", null ],
-    [ "VLA_MAX", "group__VLA.html#ga5b4337ca14d00af715a3548de3d9bb84", null ],
-    [ "cdouble", "src_2dwi_2tractography_2tracking_2types_8h.html#a99adc8169db44e1dc7e351feb7e8041e", null ],
-    [ "cfloat", "src_2dwi_2tractography_2tracking_2types_8h.html#ad3a6907cd4a6612defc12dee0928a713", null ],
-    [ "float32", "src_2dwi_2tractography_2tracking_2types_8h.html#ae56c72247af15ef1ffc326c6ed4b7ac5", null ],
-    [ "float64", "src_2dwi_2tractography_2tracking_2types_8h.html#a5f19269a0f8ff470256e9b793e60b24a", null ],
     [ "SourceBufferType", "src_2dwi_2tractography_2tracking_2types_8h.html#add5bf6a7a09c683f46d316836110c27c", null ],
     [ "value_type", "src_2dwi_2tractography_2tracking_2types_8h.html#a6e3157441b469f6be14a96214dfe633e", null ],
     [ "reject_t", "src_2dwi_2tractography_2tracking_2types_8h.html#ad956382fab3ffe08fe6398044e9ae01a", [
@@ -37,8 +28,5 @@ var src_2dwi_2tractography_2tracking_2types_8h =
       [ "ENTER_EXCLUDE", "src_2dwi_2tractography_2tracking_2types_8h.html#a1c30c67185585a9f27b5a581050292f5abec0556f0c620b426ac707278523450b", null ],
       [ "TRAVERSE_ALL_INCLUDE", "src_2dwi_2tractography_2tracking_2types_8h.html#a1c30c67185585a9f27b5a581050292f5a763bf8bed07f3e965b6a3a054a48987f", null ]
     ] ],
-    [ "abs", "src_2dwi_2tractography_2tracking_2types_8h.html#a91be51640ed06aa50e92247a4d945cf0", null ],
-    [ "abs", "src_2dwi_2tractography_2tracking_2types_8h.html#ab7c200cc7c846acf0de19c96405363f7", null ],
-    [ "abs", "src_2dwi_2tractography_2tracking_2types_8h.html#a1690cc9ad6e93e9c6b6356f762623a28", null ],
     [ "term_add_to_tck", "src_2dwi_2tractography_2tracking_2types_8h.html#ae5152527c1230048300e584eeaea3b29", null ]
 ];

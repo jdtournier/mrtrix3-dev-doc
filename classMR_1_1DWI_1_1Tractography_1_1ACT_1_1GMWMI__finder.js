@@ -14,6 +14,7 @@ var classMR_1_1DWI_1_1Tractography_1_1ACT_1_1GMWMI__finder =
     [ "is_cgm", "classMR_1_1DWI_1_1Tractography_1_1ACT_1_1GMWMI__finder.html#a289ada221338ec4ded6e7280f594d624", null ],
     [ "normal", "classMR_1_1DWI_1_1Tractography_1_1ACT_1_1GMWMI__finder.html#ac48d69232f1166dd6b20042a5a194a67", null ],
     [ "Track_extender", "classMR_1_1DWI_1_1Tractography_1_1ACT_1_1GMWMI__finder.html#afe5b300952372c3a05c36bb3d02cee0b", null ],
+    [ "Tractography::Seeding::Dynamic_ACT_additions", "classMR_1_1DWI_1_1Tractography_1_1ACT_1_1GMWMI__finder.html#a0cd80dfae9589ac2dd7d04ca9926dc1b", null ],
     [ "interp_template", "classMR_1_1DWI_1_1Tractography_1_1ACT_1_1GMWMI__finder.html#a07b58ee6f4b5fd755ecd0c7001d65173", null ],
     [ "min_vox", "classMR_1_1DWI_1_1Tractography_1_1ACT_1_1GMWMI__finder.html#a03edc1ce45c21383febdb1f8a1689033", null ]
 ];

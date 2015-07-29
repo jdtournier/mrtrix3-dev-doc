@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">MRtrix
-   &#160;<span id="projectnumber">0.3.12-365-ged27dfbe</span>
+   &#160;<span id="projectnumber">0.3.12-732-g65ed7a3c</span>
    </div>
    <div id="projectbrief">MRtrix provides a set of tools to perform diffusion-weighted MR white-matter tractography in a manner robust to crossing fibres, using constrained spherical deconvolution (CSD) and probabilistic streamlines.</div>
   </td>
@@ -110,7 +110,11 @@ $(document).ready(function(){initNavTree('classMR_1_1GUI_1_1App.html','');});
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#pub-slots">Public Slots</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="classMR_1_1GUI_1_1App-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">MR::GUI::App Class Reference</div>  </div>
@@ -118,13 +122,53 @@ $(document).ready(function(){initNavTree('classMR_1_1GUI_1_1App.html','');});
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="gui_8h_source.html">gui/gui.h</a>&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for MR::GUI::App:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="classMR_1_1GUI_1_1App.png" usemap="#MR::GUI::App_map" alt=""/>
+  <map id="MR::GUI::App_map" name="MR::GUI::App_map">
+</map>
+ </div></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1GUI_1_1App_1_1GrabContext.html">GrabContext</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-slots"></a>
+Public Slots</h2></td></tr>
+<tr class="memitem:a2181bd12a76f1e8a14a19b34068cf5d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1App.html#a2181bd12a76f1e8a14a19b34068cf5d9">startProgressBar</a> ()</td></tr>
+<tr class="separator:a2181bd12a76f1e8a14a19b34068cf5d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b4a9ed340397f6a24c140f9ce21116f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1App.html#a9b4a9ed340397f6a24c140f9ce21116f">displayProgressBar</a> (QString text, int value, bool bounded)</td></tr>
+<tr class="separator:a9b4a9ed340397f6a24c140f9ce21116f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78e26a3bac32a47c641c96331ca9dfad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1App.html#a78e26a3bac32a47c641c96331ca9dfad">doneProgressBar</a> ()</td></tr>
+<tr class="separator:a78e26a3bac32a47c641c96331ca9dfad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a0d91eafdeecb5dc969aafb27f11d77c7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1App.html#a0d91eafdeecb5dc969aafb27f11d77c7">App</a> (int &amp;cmdline_argc, char **cmdline_argv)</td></tr>
 <tr class="separator:a0d91eafdeecb5dc969aafb27f11d77c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0c2f3857a205adacb764f7819bb2bc9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1App.html#ac0c2f3857a205adacb764f7819bb2bc9">~App</a> ()</td></tr>
 <tr class="separator:ac0c2f3857a205adacb764f7819bb2bc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:aa7628644ad33d55266f1e253d79d1937"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1App.html#aa7628644ad33d55266f1e253d79d1937">set_main_window</a> (QWidget *window)</td></tr>
+<tr class="separator:aa7628644ad33d55266f1e253d79d1937"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5cccd5376c609b11a141293bc2f69fd"><td class="memItemLeft" align="right" valign="top">static std::pair&lt; int, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1App.html#ad5cccd5376c609b11a141293bc2f69fd">currentContext</a> ()</td></tr>
+<tr class="separator:ad5cccd5376c609b11a141293bc2f69fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51d0f3fc8a9e73a45d6396524ac6f80e"><td class="memItemLeft" align="right" valign="top">static std::pair&lt; int, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1App.html#a51d0f3fc8a9e73a45d6396524ac6f80e">makeContextCurrent</a> (QWidget *)</td></tr>
+<tr class="separator:a51d0f3fc8a9e73a45d6396524ac6f80e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2998bf1e528289389d1a780f1f1796b2"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1App.html#a2998bf1e528289389d1a780f1f1796b2">restoreContext</a> (std::pair&lt; int, int &gt;)</td></tr>
+<tr class="separator:a2998bf1e528289389d1a780f1f1796b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a32a2895f1c6eb618b6b90a4fc2442e49"><td class="memItemLeft" align="right" valign="top">static QWidget *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1App.html#a32a2895f1c6eb618b6b90a4fc2442e49">main_window</a></td></tr>
+<tr class="separator:a32a2895f1c6eb618b6b90a4fc2442e49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6fd20a49b31d3265daad9b2b1b006a3"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classMR_1_1GUI_1_1App.html">App</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1App.html#af6fd20a49b31d3265daad9b2b1b006a3">application</a></td></tr>
+<tr class="separator:af6fd20a49b31d3265daad9b2b1b006a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
@@ -162,9 +206,9 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="gui_8h_source.html#l00042">42</a> of file <a class="el" href="gui_8h_source.html">gui.h</a>.</p>
+<p>Definition at line <a class="el" href="gui_8h_source.html#l00044">44</a> of file <a class="el" href="gui_8h_source.html">gui.h</a>.</p>
 
-<p>References <a class="el" href="namespaceMR_1_1GUI_1_1Dialog_1_1File.html#a0ab4b988f48a40d6163fcf37eee7042a">MR::GUI::Dialog::File::check_overwrite_files_func()</a>, <a class="el" href="namespaceMR_1_1App.html#aa87eb63cffd5e40c2e76aa4da4f56772">MR::App::check_overwrite_files_func</a>, <a class="el" href="namespaceMR_1_1GUI_1_1Dialog_1_1ProgressBar.html#a698431b912b22d70599de25076032ae9">MR::GUI::Dialog::ProgressBar::display()</a>, <a class="el" href="namespaceMR_1_1GUI_1_1Dialog.html#addd64ec5b2b39596cdea9b8a03e5093f">MR::GUI::Dialog::display_exception()</a>, <a class="el" href="exception_8h_source.html#l00109">MR::Exception::display_func</a>, <a class="el" href="progressbar_8h_source.html#l00168">MR::ProgressInfo::display_func</a>, <a class="el" href="namespaceMR_1_1GUI_1_1Dialog_1_1ProgressBar.html#aec09cdb39b724877539116b0f635146f">MR::GUI::Dialog::ProgressBar::done()</a>, <a class="el" href="progressbar_8h_source.html#l00169">MR::ProgressInfo::done_func</a>, <a class="el" href="namespaceMR_1_1GUI_1_1Dialog.html#a662514ed3d63cd42d52bee57de7eb3d1">MR::GUI::Dialog::select_dicom()</a>, and <a class="el" href="namespaceMR_1_1File_1_1Dicom.html#a591a4fa01958620d302b678b59b8d2fc">MR::File::Dicom::select_func</a>.</p>
+<p>References <a class="el" href="gui_8h_source.html#l00097">application</a>, <a class="el" href="namespaceMR_1_1GUI_1_1Dialog_1_1File.html#a0ab4b988f48a40d6163fcf37eee7042a">MR::GUI::Dialog::File::check_overwrite_files_func()</a>, <a class="el" href="namespaceMR_1_1App.html#aa87eb63cffd5e40c2e76aa4da4f56772">MR::App::check_overwrite_files_func</a>, <a class="el" href="namespaceMR_1_1GUI_1_1Dialog_1_1ProgressBar.html#a698431b912b22d70599de25076032ae9">MR::GUI::Dialog::ProgressBar::display()</a>, <a class="el" href="namespaceMR_1_1GUI_1_1Dialog.html#addd64ec5b2b39596cdea9b8a03e5093f">MR::GUI::Dialog::display_exception()</a>, <a class="el" href="exception_8h_source.html#l00109">MR::Exception::display_func</a>, <a class="el" href="progressbar_8h_source.html#l00168">MR::ProgressInfo::display_func</a>, <a class="el" href="namespaceMR_1_1GUI_1_1Dialog_1_1ProgressBar.html#aec09cdb39b724877539116b0f635146f">MR::GUI::Dialog::ProgressBar::done()</a>, <a class="el" href="progressbar_8h_source.html#l00169">MR::ProgressInfo::done_func</a>, <a class="el" href="classMR_1_1File_1_1Config.html#a1164875cde6790bcf3eb2440f5c68068">MR::File::Config::init()</a>, <a class="el" href="group__CmdParse.html#gadcf0190d4dc5b77cd99dd6ab5b731f2c">MR::App::init()</a>, <a class="el" href="namespaceMR_1_1GUI_1_1Dialog.html#a662514ed3d63cd42d52bee57de7eb3d1">MR::GUI::Dialog::select_dicom()</a>, <a class="el" href="namespaceMR_1_1File_1_1Dicom.html#a591a4fa01958620d302b678b59b8d2fc">MR::File::Dicom::select_func</a>, and <a class="el" href="namespaceMR_1_1GUI_1_1GL.html#aa21a27e6204b502f18f5f3bb0b051ae6">MR::GUI::GL::set_default_context()</a>.</p>
 
 </div>
 </div>
@@ -189,7 +233,244 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="gui_8h_source.html#l00053">53</a> of file <a class="el" href="gui_8h_source.html">gui.h</a>.</p>
+<p>Definition at line <a class="el" href="gui_8h_source.html#l00060">60</a> of file <a class="el" href="gui_8h_source.html">gui.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="ad5cccd5376c609b11a141293bc2f69fd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static std::pair&lt;int,int&gt; MR::GUI::App::currentContext </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="gui_8h_source.html#l00085">85</a> of file <a class="el" href="gui_8h_source.html">gui.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9b4a9ed340397f6a24c140f9ce21116f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::GUI::App::displayProgressBar </td>
+          <td>(</td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>bounded</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a78e26a3bac32a47c641c96331ca9dfad"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::GUI::App::doneProgressBar </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a51d0f3fc8a9e73a45d6396524ac6f80e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static std::pair&lt;int,int&gt; MR::GUI::App::makeContextCurrent </td>
+          <td>(</td>
+          <td class="paramtype">QWidget *&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="gui_8h_source.html#l00086">86</a> of file <a class="el" href="gui_8h_source.html">gui.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2998bf1e528289389d1a780f1f1796b2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void MR::GUI::App::restoreContext </td>
+          <td>(</td>
+          <td class="paramtype">std::pair&lt; int, int &gt;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="gui_8h_source.html#l00087">87</a> of file <a class="el" href="gui_8h_source.html">gui.h</a>.</p>
+
+<p>Referenced by <a class="el" href="gui_8h_source.html#l00093">MR::GUI::App::GrabContext::~GrabContext()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa7628644ad33d55266f1e253d79d1937"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void MR::GUI::App::set_main_window </td>
+          <td>(</td>
+          <td class="paramtype">QWidget *&#160;</td>
+          <td class="paramname"><em>window</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2181bd12a76f1e8a14a19b34068cf5d9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::GUI::App::startProgressBar </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="af6fd20a49b31d3265daad9b2b1b006a3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1GUI_1_1App.html">App</a>* MR::GUI::App::application</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="gui_8h_source.html#l00097">97</a> of file <a class="el" href="gui_8h_source.html">gui.h</a>.</p>
+
+<p>Referenced by <a class="el" href="gui_8h_source.html#l00044">App()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a32a2895f1c6eb618b6b90a4fc2442e49"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QWidget* MR::GUI::App::main_window</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="gui_8h_source.html#l00096">96</a> of file <a class="el" href="gui_8h_source.html">gui.h</a>.</p>
 
 </div>
 </div>
@@ -202,7 +483,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="namespaceMR_1_1GUI.html">GUI</a></li><li class="navelem"><a class="el" href="classMR_1_1GUI_1_1App.html">App</a></li>
-    <li class="footer">Generated on Mon Apr 27 2015 17:39:25 for MRtrix by
+    <li class="footer">Generated on Wed Jul 29 2015 17:53:08 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

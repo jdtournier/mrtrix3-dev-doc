@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">MRtrix
-   &#160;<span id="projectnumber">0.3.12-365-ged27dfbe</span>
+   &#160;<span id="projectnumber">0.3.12-732-g65ed7a3c</span>
    </div>
    <div id="projectbrief">MRtrix provides a set of tools to perform diffusion-weighted MR white-matter tractography in a manner robust to crossing fibres, using constrained spherical deconvolution (CSD) and probabilistic streamlines.</div>
   </td>
@@ -109,6 +109,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="functions_vars_n.html#index_n"><span>n</span></a></li>
       <li><a href="functions_vars_o.html#index_o"><span>o</span></a></li>
       <li><a href="functions_vars_p.html#index_p"><span>p</span></a></li>
+      <li><a href="functions_vars_q.html#index_q"><span>q</span></a></li>
       <li><a href="functions_vars_r.html#index_r"><span>r</span></a></li>
       <li><a href="functions_vars_s.html#index_s"><span>s</span></a></li>
       <li><a href="functions_vars_t.html#index_t"><span>t</span></a></li>
@@ -228,8 +229,17 @@ $(document).ready(function(){initNavTree('functions_vars_f.html','');});
 <li>fill_button
 : <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI.html#a299b24a527259aedbb1746072af1b48d">MR::GUI::MRView::Tool::ROI</a>
 </li>
+<li>finite_seeds
+: <a class="el" href="classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1WriteKernel.html#ad62aff7bc5fe82c10c01928c07bbda76">MR::DWI::Tractography::Tracking::WriteKernel</a>
+</li>
 <li>first
 : <a class="el" href="classMR_1_1File_1_1MMap.html#ae1169620a3ddae2b2f5b5b02ccb78e58">MR::File::MMap</a>
+</li>
+<li>first_deriv
+: <a class="el" href="classMR_1_1DWI_1_1Tractography_1_1SIFT2_1_1LineSearchFunctor_1_1Result.html#a2e219b2e68bcacd1afde19958a72887b">MR::DWI::Tractography::SIFT2::LineSearchFunctor::Result</a>
+</li>
+<li>fixel_data
+: <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1FixelType.html#a192b0131b018894e04eb1f60db208627">MR::GUI::MRView::Tool::FixelType&lt; BufferType &gt;</a>
 </li>
 <li>fixel_list_model
 : <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Vector.html#a2c58a1fe1b6d1fbbc9fcb072df2ee90f">MR::GUI::MRView::Tool::Vector</a>
@@ -240,8 +250,12 @@ $(document).ready(function(){initNavTree('functions_vars_f.html','');});
 <li>fixel_shader
 : <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1AbstractFixel.html#a1f38e6641650596cde9d1a887428d93f">MR::GUI::MRView::Tool::AbstractFixel</a>
 </li>
+<li>fixel_vox
+: <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1FixelType.html#a7fc2dc9ce38b8a16097834ff24ec7ba3">MR::GUI::MRView::Tool::FixelType&lt; BufferType &gt;</a>
+</li>
 <li>fixels
 : <a class="el" href="classMR_1_1DWI_1_1Fixel__map.html#a1b892211489c15b152bf6a763c974c10">MR::DWI::Fixel_map&lt; Fixel &gt;</a>
+, <a class="el" href="classMR_1_1DWI_1_1Tractography_1_1SIFT2_1_1LineSearchFunctor.html#accafed1c212a7c1975742205a08abcb0">MR::DWI::Tractography::SIFT2::LineSearchFunctor</a>
 </li>
 <li>flags
 : <a class="el" href="classMR_1_1App_1_1Argument.html#aa364955c8df9bcaaed35aa7b4c5ae205">MR::App::Argument</a>
@@ -279,7 +293,8 @@ $(document).ready(function(){initNavTree('functions_vars_f.html','');});
 : <a class="el" href="classMR_1_1GUI_1_1DWI_1_1RenderFrame.html#a7d65d4660418c7b4dbe89f2b741bbcbc">MR::GUI::DWI::RenderFrame</a>
 </li>
 <li>FOD
-: <a class="el" href="classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1FixelBase.html#a823358330250394934fd23e335a269ac">MR::DWI::Tractography::SIFT::FixelBase</a>
+: <a class="el" href="classMR_1_1DWI_1_1Tractography_1_1SIFT2_1_1LineSearchFunctor_1_1Fixel.html#a62918e6b7771f5fc2b1eb256bcfacf8b">MR::DWI::Tractography::SIFT2::LineSearchFunctor::Fixel</a>
+, <a class="el" href="classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1FixelBase.html#a823358330250394934fd23e335a269ac">MR::DWI::Tractography::SIFT::FixelBase</a>
 </li>
 <li>fod_in
 : <a class="el" href="classMR_1_1Image_1_1Registration_1_1Transform_1_1LinearReorientKernel.html#a58d11f168b7630ae9bf99967b02bb81c">MR::Image::Registration::Transform::LinearReorientKernel&lt; FODVoxelType &gt;</a>
@@ -328,6 +343,12 @@ $(document).ready(function(){initNavTree('functions_vars_f.html','');});
 <li>fov
 : <a class="el" href="structmgh__other.html#a7edd187cc2d846799ea98378b38b06bd">mgh_other</a>
 </li>
+<li>fragment_shader_source
+: <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1ShaderBase.html#aadcfc6eec36a3e31ce295da6240a6dc0">MR::GUI::MRView::Tool::ShaderBase</a>
+</li>
+<li>frame
+: <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1NodeSelectionSettingsDialog.html#a8c61a11bf9ddd33cc85946b2c8134341">MR::GUI::MRView::Tool::NodeSelectionSettingsDialog</a>
+</li>
 <li>frame_dim
 : <a class="el" href="classMR_1_1File_1_1Dicom_1_1Image.html#a937219260c03311fbf8b765879497075">MR::File::Dicom::Image</a>
 </li>
@@ -360,6 +381,9 @@ $(document).ready(function(){initNavTree('functions_vars_f.html','');});
 <li>from_
 : <a class="el" href="classMR_1_1Image_1_1Adapter_1_1Subset.html#a790d1060b70f9c344a78d30245b48d7f">MR::Image::Adapter::Subset&lt; VoxelType &gt;</a>
 </li>
+<li>Fs
+: <a class="el" href="classMR_1_1DWI_1_1Tractography_1_1SIFT2_1_1LineSearchFunctor.html#ab0646c54bc65b8fd6a72798c1f825818">MR::DWI::Tractography::SIFT2::LineSearchFunctor</a>
+</li>
 <li>func
 : <a class="el" href="classMR_1_1DWI_1_1Bootstrap.html#aa2f7fedcbedd2490c9f299e0eef632c2">MR::DWI::Bootstrap&lt; VoxelType, Functor, NUM_VOX_PER_CHUNK &gt;</a>
 , <a class="el" href="classMR_1_1Math_1_1GradientDescent.html#a8ba9bdc2dd7d510ebf7914e451d53d74">MR::Math::GradientDescent&lt; Function, UpdateFunctor &gt;</a>
@@ -376,7 +400,7 @@ $(document).ready(function(){initNavTree('functions_vars_f.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Apr 27 2015 17:39:25 for MRtrix by
+    <li class="footer">Generated on Wed Jul 29 2015 17:53:09 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

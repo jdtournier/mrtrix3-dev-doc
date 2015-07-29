@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">MRtrix
-   &#160;<span id="projectnumber">0.3.12-365-ged27dfbe</span>
+   &#160;<span id="projectnumber">0.3.12-732-g65ed7a3c</span>
    </div>
    <div id="projectbrief">MRtrix provides a set of tools to perform diffusion-weighted MR white-matter tractography in a manner robust to crossing fibres, using constrained spherical deconvolution (CSD) and probabilistic streamlines.</div>
   </td>
@@ -160,51 +160,55 @@ $(document).ready(function(){initNavTree('receiver_8h_source.html','');});
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;          <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
-<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="classMR_1_1DWI_1_1Tractography_1_1Editing_1_1Receiver.html#a578282f6c982864aaebcadad6927d75f">   50</a></span>&#160;            <a class="code" href="classMR_1_1DWI_1_1Tractography_1_1Editing_1_1Receiver.html#a578282f6c982864aaebcadad6927d75f">Receiver</a> (<span class="keyword">const</span> std::string&amp; path, <span class="keyword">const</span> <a class="code" href="classMR_1_1DWI_1_1Tractography_1_1Properties.html">Tractography::Properties</a>&amp; properties, <span class="keyword">const</span> <span class="keywordtype">size_t</span> n, <span class="keyword">const</span> <span class="keywordtype">size_t</span> s) :</div>
+<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="classMR_1_1DWI_1_1Tractography_1_1Editing_1_1Receiver.html#a95b674401be531608c07485dc55efb18">   50</a></span>&#160;            <a class="code" href="classMR_1_1DWI_1_1Tractography_1_1Editing_1_1Receiver.html#a95b674401be531608c07485dc55efb18">Receiver</a> (<span class="keyword">const</span> std::string&amp; path, <span class="keyword">const</span> <a class="code" href="classMR_1_1DWI_1_1Tractography_1_1Properties.html">Tractography::Properties</a>&amp; properties, <span class="keyword">const</span> <span class="keywordtype">size_t</span> n, <span class="keyword">const</span> <span class="keywordtype">size_t</span> s, <span class="keyword">const</span> <span class="keywordtype">bool</span> e) :</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;              writer (path, properties),</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;              number (n),</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;              skip (s),</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;              <span class="comment">// Need to use local counts instead of writer class members due to track cropping</span></div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;              count (0),</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;              total_count (0),</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;              progress (<span class="stringliteral">&quot;       0 read,        0 written&quot;</span>) { }</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
-<div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="classMR_1_1DWI_1_1Tractography_1_1Editing_1_1Receiver.html#ac5852e46de1a4245c9e6bc7f313abc94">   59</a></span>&#160;            <a class="code" href="classMR_1_1DWI_1_1Tractography_1_1Editing_1_1Receiver.html#ac5852e46de1a4245c9e6bc7f313abc94">~Receiver</a>()</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;            {</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;              progress.<a class="code" href="classMR_1_1ProgressBar.html#af0d8c9d39ce73ee7127b25bd381d2ed5">set_text</a> (<a class="code" href="namespaceMR.html#abdf39e7ac1a9bf50af2a20eb69b0bb89">printf</a> (<span class="stringliteral">&quot;%8&quot;</span> PRIu64 <span class="stringliteral">&quot; read, %8&quot;</span> PRIu64 <span class="stringliteral">&quot; written&quot;</span>, total_count, count));</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;              <span class="keywordflow">if</span> (number &amp;&amp; (count != number))</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                <a class="code" href="exception_8h.html#a108d6c5c51dd46e82a62b262394f0242">WARN</a> (<span class="stringliteral">&quot;User requested &quot;</span> + <a class="code" href="namespaceMR.html#a7dcea37fdb5fba1961d121fca36c22c4">str</a>(number) + <span class="stringliteral">&quot; streamlines, but only &quot;</span> + <a class="code" href="namespaceMR.html#a7dcea37fdb5fba1961d121fca36c22c4">str</a>(count) + <span class="stringliteral">&quot; were written to file&quot;</span>);</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;            }</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;              ends_only (e),</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;              <span class="comment">// Need to use local counts instead of writer class members due to track cropping</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;              count (0),</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;              total_count (0),</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;              progress (<span class="stringliteral">&quot;       0 read,        0 written&quot;</span>) { }</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
+<div class="line"><a name="l00060"></a><span class="lineno"><a class="line" href="classMR_1_1DWI_1_1Tractography_1_1Editing_1_1Receiver.html#ac5852e46de1a4245c9e6bc7f313abc94">   60</a></span>&#160;            <a class="code" href="classMR_1_1DWI_1_1Tractography_1_1Editing_1_1Receiver.html#ac5852e46de1a4245c9e6bc7f313abc94">~Receiver</a>()</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;            {</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;              progress.<a class="code" href="classMR_1_1ProgressBar.html#af0d8c9d39ce73ee7127b25bd381d2ed5">set_text</a> (<a class="code" href="namespaceMR.html#abdf39e7ac1a9bf50af2a20eb69b0bb89">printf</a> (<span class="stringliteral">&quot;%8&quot;</span> PRIu64 <span class="stringliteral">&quot; read, %8&quot;</span> PRIu64 <span class="stringliteral">&quot; written&quot;</span>, total_count, count));</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;              <span class="keywordflow">if</span> (number &amp;&amp; (count != number))</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                <a class="code" href="exception_8h.html#a108d6c5c51dd46e82a62b262394f0242">WARN</a> (<span class="stringliteral">&quot;User requested &quot;</span> + <a class="code" href="namespaceMR.html#a7dcea37fdb5fba1961d121fca36c22c4">str</a>(number) + <span class="stringliteral">&quot; streamlines, but only &quot;</span> + <a class="code" href="namespaceMR.html#a7dcea37fdb5fba1961d121fca36c22c4">str</a>(count) + <span class="stringliteral">&quot; were written to file&quot;</span>);</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;            }</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;            <span class="keywordtype">bool</span> <a class="code" href="classMR_1_1DWI_1_1Tractography_1_1Editing_1_1Receiver.html#a0f443d1021482e53a73ecc88cd02d64f">operator() </a>(<span class="keyword">const</span> <a class="code" href="classMR_1_1DWI_1_1Tractography_1_1Streamline.html">Tractography::Streamline&lt;&gt;</a>&amp;);</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;            <span class="keywordtype">bool</span> <a class="code" href="classMR_1_1DWI_1_1Tractography_1_1Editing_1_1Receiver.html#a0f443d1021482e53a73ecc88cd02d64f">operator() </a>(<span class="keyword">const</span> <a class="code" href="classMR_1_1DWI_1_1Tractography_1_1Streamline.html">Tractography::Streamline&lt;&gt;</a>&amp;);</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;          <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;            <a class="code" href="classMR_1_1DWI_1_1Tractography_1_1Writer.html">Tractography::Writer&lt;&gt;</a> writer;</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;            <span class="keyword">const</span> uint64_t number;</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;            uint64_t skip;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            uint64_t count, total_count;</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;            <a class="code" href="classMR_1_1ProgressBar.html">ProgressBar</a> progress;</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        };</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;          <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;            <a class="code" href="classMR_1_1DWI_1_1Tractography_1_1Writer.html">Tractography::Writer&lt;&gt;</a> writer;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;            <span class="keyword">const</span> uint64_t number;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            uint64_t skip;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;            <span class="keyword">const</span> <span class="keywordtype">bool</span> ends_only;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;            uint64_t count, total_count;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;            <a class="code" href="classMR_1_1ProgressBar.html">ProgressBar</a> progress;</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;      }</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    }</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;  }</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;}</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;            <span class="keywordtype">void</span> output (<span class="keyword">const</span> <a class="code" href="classMR_1_1DWI_1_1Tractography_1_1Streamline.html">Tractography::Streamline&lt;&gt;</a>&amp;);</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        };</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;      }</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    }</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;  }</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;}</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="namespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> <a href="app_8h_source.html#l00036">app.h:36</a></div></div>
-<div class="ttc" id="classMR_1_1DWI_1_1Tractography_1_1Editing_1_1Receiver_html_a578282f6c982864aaebcadad6927d75f"><div class="ttname"><a href="classMR_1_1DWI_1_1Tractography_1_1Editing_1_1Receiver.html#a578282f6c982864aaebcadad6927d75f">MR::DWI::Tractography::Editing::Receiver::Receiver</a></div><div class="ttdeci">Receiver(const std::string &amp;path, const Tractography::Properties &amp;properties, const size_t n, const size_t s)</div><div class="ttdef"><b>Definition:</b> <a href="receiver_8h_source.html#l00050">receiver.h:50</a></div></div>
 <div class="ttc" id="dwi_2tractography_2file_8h_html"><div class="ttname"><a href="dwi_2tractography_2file_8h.html">file.h</a></div></div>
 <div class="ttc" id="streamline_8h_html"><div class="ttname"><a href="streamline_8h.html">streamline.h</a></div></div>
 <div class="ttc" id="namespaceMR_html_a7dcea37fdb5fba1961d121fca36c22c4"><div class="ttname"><a href="namespaceMR.html#a7dcea37fdb5fba1961d121fca36c22c4">MR::str</a></div><div class="ttdeci">std::string str(const T &amp;value, int precision=0)</div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00126">mrtrix.h:126</a></div></div>
 <div class="ttc" id="classMR_1_1DWI_1_1Tractography_1_1Writer_html"><div class="ttname"><a href="classMR_1_1DWI_1_1Tractography_1_1Writer.html">MR::DWI::Tractography::Writer</a></div><div class="ttdoc">class to handle writing tracks to file, with RAM buffer </div><div class="ttdef"><b>Definition:</b> <a href="dwi_2tractography_2file_8h_source.html#l00335">file.h:335</a></div></div>
 <div class="ttc" id="classMR_1_1ProgressBar_html_af0d8c9d39ce73ee7127b25bd381d2ed5"><div class="ttname"><a href="classMR_1_1ProgressBar.html#af0d8c9d39ce73ee7127b25bd381d2ed5">MR::ProgressBar::set_text</a></div><div class="ttdeci">void set_text(const std::string &amp;new_text)</div><div class="ttdef"><b>Definition:</b> <a href="progressbar_8h_source.html#l00242">progressbar.h:242</a></div></div>
-<div class="ttc" id="classMR_1_1DWI_1_1Tractography_1_1Editing_1_1Receiver_html_ac5852e46de1a4245c9e6bc7f313abc94"><div class="ttname"><a href="classMR_1_1DWI_1_1Tractography_1_1Editing_1_1Receiver.html#ac5852e46de1a4245c9e6bc7f313abc94">MR::DWI::Tractography::Editing::Receiver::~Receiver</a></div><div class="ttdeci">~Receiver()</div><div class="ttdef"><b>Definition:</b> <a href="receiver_8h_source.html#l00059">receiver.h:59</a></div></div>
+<div class="ttc" id="classMR_1_1DWI_1_1Tractography_1_1Editing_1_1Receiver_html_ac5852e46de1a4245c9e6bc7f313abc94"><div class="ttname"><a href="classMR_1_1DWI_1_1Tractography_1_1Editing_1_1Receiver.html#ac5852e46de1a4245c9e6bc7f313abc94">MR::DWI::Tractography::Editing::Receiver::~Receiver</a></div><div class="ttdeci">~Receiver()</div><div class="ttdef"><b>Definition:</b> <a href="receiver_8h_source.html#l00060">receiver.h:60</a></div></div>
 <div class="ttc" id="progressbar_8h_html"><div class="ttname"><a href="progressbar_8h.html">progressbar.h</a></div></div>
 <div class="ttc" id="properties_8h_html"><div class="ttname"><a href="properties_8h.html">properties.h</a></div></div>
 <div class="ttc" id="classMR_1_1DWI_1_1Tractography_1_1Editing_1_1Receiver_html_a0f443d1021482e53a73ecc88cd02d64f"><div class="ttname"><a href="classMR_1_1DWI_1_1Tractography_1_1Editing_1_1Receiver.html#a0f443d1021482e53a73ecc88cd02d64f">MR::DWI::Tractography::Editing::Receiver::operator()</a></div><div class="ttdeci">bool operator()(const Tractography::Streamline&lt;&gt; &amp;)</div></div>
@@ -214,13 +218,14 @@ $(document).ready(function(){initNavTree('receiver_8h_source.html','');});
 <div class="ttc" id="classMR_1_1DWI_1_1Tractography_1_1Streamline_html"><div class="ttname"><a href="classMR_1_1DWI_1_1Tractography_1_1Streamline.html">MR::DWI::Tractography::Streamline</a></div><div class="ttdef"><b>Definition:</b> <a href="streamline_8h_source.html#l00041">streamline.h:41</a></div></div>
 <div class="ttc" id="classMR_1_1DWI_1_1Tractography_1_1Properties_html"><div class="ttname"><a href="classMR_1_1DWI_1_1Tractography_1_1Properties.html">MR::DWI::Tractography::Properties</a></div><div class="ttdef"><b>Definition:</b> <a href="properties_8h_source.html#l00043">properties.h:43</a></div></div>
 <div class="ttc" id="exception_8h_html_a108d6c5c51dd46e82a62b262394f0242"><div class="ttname"><a href="exception_8h.html#a108d6c5c51dd46e82a62b262394f0242">WARN</a></div><div class="ttdeci">#define WARN(msg)</div><div class="ttdef"><b>Definition:</b> <a href="exception_8h_source.html#l00080">exception.h:80</a></div></div>
+<div class="ttc" id="classMR_1_1DWI_1_1Tractography_1_1Editing_1_1Receiver_html_a95b674401be531608c07485dc55efb18"><div class="ttname"><a href="classMR_1_1DWI_1_1Tractography_1_1Editing_1_1Receiver.html#a95b674401be531608c07485dc55efb18">MR::DWI::Tractography::Editing::Receiver::Receiver</a></div><div class="ttdeci">Receiver(const std::string &amp;path, const Tractography::Properties &amp;properties, const size_t n, const size_t s, const bool e)</div><div class="ttdef"><b>Definition:</b> <a href="receiver_8h_source.html#l00050">receiver.h:50</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_9236bed5acffad77d942815f2449fb47.html">src</a></li><li class="navelem"><a class="el" href="dir_8de64bfa8ed84e298c15944df16c60aa.html">dwi</a></li><li class="navelem"><a class="el" href="dir_8b6baf0bc7d97497f7bded807c83fa3a.html">tractography</a></li><li class="navelem"><a class="el" href="dir_56ac1b2fcf0804a6504be0bb15b8f2bd.html">editing</a></li><li class="navelem"><a class="el" href="receiver_8h.html">receiver.h</a></li>
-    <li class="footer">Generated on Mon Apr 27 2015 17:39:24 for MRtrix by
+    <li class="navelem"><a class="el" href="dir_3111b5213a18295c2b9490b065e7a22d.html">src</a></li><li class="navelem"><a class="el" href="dir_1117d21d66a2abc0838f3bb256b178f7.html">dwi</a></li><li class="navelem"><a class="el" href="dir_b6fd20d81652ae2ca956f10ba03169dc.html">tractography</a></li><li class="navelem"><a class="el" href="dir_70e1d532bc0eee9c657329da37ea9305.html">editing</a></li><li class="navelem"><a class="el" href="receiver_8h.html">receiver.h</a></li>
+    <li class="footer">Generated on Wed Jul 29 2015 17:53:07 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

@@ -6,7 +6,7 @@ var src_2dwi_2gradient_8h =
     [ "export_grad_commandline", "src_2dwi_2gradient_8h.html#a7b16f20d63f81a9c45eb981c29fd675f", null ],
     [ "gen_direction_matrix", "src_2dwi_2gradient_8h.html#acf8c3d453c94ea6c42cadd458287b740", null ],
     [ "get_DW_scheme", "src_2dwi_2gradient_8h.html#ac9eb81e3f16d520da80ae8187396b89a", null ],
-    [ "get_valid_DW_scheme", "src_2dwi_2gradient_8h.html#adc165c4d9f47cf76f32ca5f7e7a59270", null ],
+    [ "get_valid_DW_scheme", "src_2dwi_2gradient_8h.html#a0d4b52c0b8a89b4e71a69665098b0dfa", null ],
     [ "GradExportOptions", "src_2dwi_2gradient_8h.html#ad41fcb7f4fb99ba9616914f7c901319f", null ],
     [ "GradImportOptions", "src_2dwi_2gradient_8h.html#a613894718b2446b2df225c7d0e3075a9", null ],
     [ "load_bvecs_bvals", "src_2dwi_2gradient_8h.html#afbb86a7831784d45bfba8c987a943108", null ],

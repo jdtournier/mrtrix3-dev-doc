@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">MRtrix
-   &#160;<span id="projectnumber">0.3.12-365-ged27dfbe</span>
+   &#160;<span id="projectnumber">0.3.12-732-g65ed7a3c</span>
    </div>
    <div id="projectbrief">MRtrix provides a set of tools to perform diffusion-weighted MR white-matter tractography in a manner robust to crossing fibres, using constrained spherical deconvolution (CSD) and probabilistic streamlines.</div>
   </td>
@@ -111,6 +111,7 @@ $(document).ready(function(){initNavTree('gl_8h.html','');});
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#define-members">Macros</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">gl.h File Reference</div>  </div>
@@ -127,11 +128,15 @@ $(document).ready(function(){initNavTree('gl_8h.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1GL_1_1Area.html">MR::GUI::GL::Area</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1GL_1_1Texture.html">MR::GUI::GL::Texture</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1GL_1_1VertexBuffer.html">MR::GUI::GL::VertexBuffer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1GL_1_1VertexArrayObject.html">MR::GUI::GL::VertexArrayObject</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1GL_1_1IndexBuffer.html">MR::GUI::GL::IndexBuffer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1GL_1_1FrameBuffer.html">MR::GUI::GL::FrameBuffer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -149,17 +154,44 @@ Namespaces</h2></td></tr>
 Macros</h2></td></tr>
 <tr class="memitem:a8a31ac6dd0e201fd95db18657c964219"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gl_8h.html#a8a31ac6dd0e201fd95db18657c964219">GL_DEBUG</a>(msg)&#160;&#160;&#160;(void)0</td></tr>
 <tr class="separator:a8a31ac6dd0e201fd95db18657c964219"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56aaa83bc346bbef34e231c43cb3b443"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gl_8h.html#a56aaa83bc346bbef34e231c43cb3b443">GL_CHECK_ERROR</a>&#160;&#160;&#160;::<a class="el" href="namespaceMR_1_1GUI_1_1GL.html#afc6754dfc2cb09c95c8ae17014fffeec">MR::GUI::GL::check_error</a> (__FILE__, __LINE__)</td></tr>
+<tr class="separator:a56aaa83bc346bbef34e231c43cb3b443"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a662100242de696bb405e1a052d33601b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gl_8h.html#a662100242de696bb405e1a052d33601b">GLGETBOOL</a>(x,  n)&#160;&#160;&#160;{ <a class="el" href="gl__core__3__3_8h.html#aa010a67382116caf29c29318251ccb6c">GLboolean</a> __v[n]; <a class="el" href="namespacegl.html#a59fcf360894408f97369deaa9b8e2f69">gl::GetBooleanv</a> (x, __v); std::cerr &lt;&lt; #x &quot; = &quot;; for (auto i : __v) std::cerr &lt;&lt; int(i) &lt;&lt; &quot; &quot;; std::cerr &lt;&lt; &quot;\n&quot;; }</td></tr>
+<tr class="separator:a662100242de696bb405e1a052d33601b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f6046e0939787bc3c4b898a7576f2b0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gl_8h.html#a4f6046e0939787bc3c4b898a7576f2b0">GLGETINT</a>(x,  n)&#160;&#160;&#160;{ <a class="el" href="gl__core__3__3_8h.html#a5ac0f3c4d7fafd42b284b5487a791017">GLint</a> __v[n]; <a class="el" href="namespacegl.html#a2fac34df54e55eebe1f3c76e798eb246">gl::GetIntegerv</a> (x, __v); std::cerr &lt;&lt; #x &quot; = &quot;; for (auto i : __v) std::cerr &lt;&lt; int(i) &lt;&lt; &quot; &quot;; std::cerr &lt;&lt; &quot;\n&quot;; }</td></tr>
+<tr class="separator:a4f6046e0939787bc3c4b898a7576f2b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:ae6d280d75e73491db681aa6686064d8b"><td class="memItemLeft" align="right" valign="top">typedef QGLFormat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1GUI_1_1GL.html#ae6d280d75e73491db681aa6686064d8b">MR::GUI::GL::Format</a></td></tr>
+<tr class="separator:ae6d280d75e73491db681aa6686064d8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a8cc7f12e80a44f3edf1704afb3fbb844"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1GUI_1_1GL.html#a8cc7f12e80a44f3edf1704afb3fbb844">MR::GUI::GL::init</a> ()</td></tr>
 <tr class="separator:a8cc7f12e80a44f3edf1704afb3fbb844"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa21a27e6204b502f18f5f3bb0b051ae6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1GUI_1_1GL.html#aa21a27e6204b502f18f5f3bb0b051ae6">MR::GUI::GL::set_default_context</a> ()</td></tr>
+<tr class="separator:aa21a27e6204b502f18f5f3bb0b051ae6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac85e70d2ca57d79bc6f1e064cf46fa22"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1GUI_1_1GL.html#ac85e70d2ca57d79bc6f1e064cf46fa22">MR::GUI::GL::ErrorString</a> (<a class="el" href="gl__core__3__3_8h.html#a7efd7809e1632cdae75603fd1fee61c0">GLenum</a> errorcode)</td></tr>
 <tr class="separator:ac85e70d2ca57d79bc6f1e064cf46fa22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74232d753d4b35b905457d8f3089fdc4"><td class="memItemLeft" align="right" valign="top">QGLFormat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1GUI_1_1GL.html#a74232d753d4b35b905457d8f3089fdc4">MR::GUI::GL::core_format</a> ()</td></tr>
-<tr class="separator:a74232d753d4b35b905457d8f3089fdc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc6754dfc2cb09c95c8ae17014fffeec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1GUI_1_1GL.html#afc6754dfc2cb09c95c8ae17014fffeec">MR::GUI::GL::check_error</a> (const char *filename, int line)</td></tr>
+<tr class="separator:afc6754dfc2cb09c95c8ae17014fffeec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
+<a class="anchor" id="a56aaa83bc346bbef34e231c43cb3b443"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define GL_CHECK_ERROR&#160;&#160;&#160;::<a class="el" href="namespaceMR_1_1GUI_1_1GL.html#afc6754dfc2cb09c95c8ae17014fffeec">MR::GUI::GL::check_error</a> (__FILE__, __LINE__)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="gl_8h_source.html#l00058">58</a> of file <a class="el" href="gl_8h_source.html">gl.h</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a8a31ac6dd0e201fd95db18657c964219"></a>
 <div class="memitem">
 <div class="memproto">
@@ -174,9 +206,65 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="gl_8h_source.html#l00050">50</a> of file <a class="el" href="gl_8h_source.html">gl.h</a>.</p>
+<p>Definition at line <a class="el" href="gl_8h_source.html#l00052">52</a> of file <a class="el" href="gl_8h_source.html">gl.h</a>.</p>
 
-<p>Referenced by <a class="el" href="shader_8h_source.html#l00106">MR::GUI::GL::Shader::Program::attach()</a>, <a class="el" href="gl_8h_source.html#l00208">MR::GUI::GL::FrameBuffer::attach_color()</a>, <a class="el" href="gl_8h_source.html#l00097">MR::GUI::GL::Texture::bind()</a>, <a class="el" href="gl_8h_source.html#l00135">MR::GUI::GL::VertexBuffer::bind()</a>, <a class="el" href="gl_8h_source.html#l00165">MR::GUI::GL::VertexArrayObject::bind()</a>, <a class="el" href="gl_8h_source.html#l00198">MR::GUI::GL::FrameBuffer::bind()</a>, <a class="el" href="gl_8h_source.html#l00090">MR::GUI::GL::Texture::clear()</a>, <a class="el" href="shader_8h_source.html#l00096">MR::GUI::GL::Shader::Program::clear()</a>, <a class="el" href="gl_8h_source.html#l00128">MR::GUI::GL::VertexBuffer::clear()</a>, <a class="el" href="gl_8h_source.html#l00159">MR::GUI::GL::VertexArrayObject::clear()</a>, <a class="el" href="gl_8h_source.html#l00190">MR::GUI::GL::FrameBuffer::clear()</a>, <a class="el" href="shader_8h_source.html#l00056">MR::GUI::GL::Shader::Object&lt; TYPE &gt;::compile()</a>, <a class="el" href="shader_8h_source.html#l00114">MR::GUI::GL::Shader::Program::detach()</a>, <a class="el" href="gl_8h_source.html#l00073">MR::GUI::GL::Texture::gen()</a>, <a class="el" href="gl_8h_source.html#l00122">MR::GUI::GL::VertexBuffer::gen()</a>, <a class="el" href="gl_8h_source.html#l00153">MR::GUI::GL::VertexArrayObject::gen()</a>, <a class="el" href="gl_8h_source.html#l00184">MR::GUI::GL::FrameBuffer::gen()</a>, <a class="el" href="shader_8h_source.html#l00120">MR::GUI::GL::Shader::Program::link()</a>, <a class="el" href="shader_8h_source.html#l00131">MR::GUI::GL::Shader::Program::start()</a>, <a class="el" href="shader_8h_source.html#l00136">MR::GUI::GL::Shader::Program::stop()</a>, <a class="el" href="gl_8h_source.html#l00203">MR::GUI::GL::FrameBuffer::unbind()</a>, and <a class="el" href="shader_8h_source.html#l00047">MR::GUI::GL::Shader::Object&lt; TYPE &gt;::~Object()</a>.</p>
+<p>Referenced by <a class="el" href="shader_8h_source.html#l00107">MR::GUI::GL::Shader::Program::attach()</a>, <a class="el" href="gl_8h_source.html#l00276">MR::GUI::GL::FrameBuffer::attach_color()</a>, <a class="el" href="gl_8h_source.html#l00129">MR::GUI::GL::Texture::bind()</a>, <a class="el" href="gl_8h_source.html#l00167">MR::GUI::GL::VertexBuffer::bind()</a>, <a class="el" href="gl_8h_source.html#l00197">MR::GUI::GL::VertexArrayObject::bind()</a>, <a class="el" href="gl_8h_source.html#l00228">MR::GUI::GL::IndexBuffer::bind()</a>, <a class="el" href="gl_8h_source.html#l00261">MR::GUI::GL::FrameBuffer::bind()</a>, <a class="el" href="shader_8h_source.html#l00097">MR::GUI::GL::Shader::Program::clear()</a>, <a class="el" href="gl_8h_source.html#l00122">MR::GUI::GL::Texture::clear()</a>, <a class="el" href="gl_8h_source.html#l00160">MR::GUI::GL::VertexBuffer::clear()</a>, <a class="el" href="gl_8h_source.html#l00191">MR::GUI::GL::VertexArrayObject::clear()</a>, <a class="el" href="gl_8h_source.html#l00221">MR::GUI::GL::IndexBuffer::clear()</a>, <a class="el" href="gl_8h_source.html#l00253">MR::GUI::GL::FrameBuffer::clear()</a>, <a class="el" href="shader_8h_source.html#l00056">MR::GUI::GL::Shader::Object&lt; TYPE &gt;::compile()</a>, <a class="el" href="shader_8h_source.html#l00115">MR::GUI::GL::Shader::Program::detach()</a>, <a class="el" href="gl_8h_source.html#l00105">MR::GUI::GL::Texture::gen()</a>, <a class="el" href="gl_8h_source.html#l00154">MR::GUI::GL::VertexBuffer::gen()</a>, <a class="el" href="gl_8h_source.html#l00185">MR::GUI::GL::VertexArrayObject::gen()</a>, <a class="el" href="gl_8h_source.html#l00215">MR::GUI::GL::IndexBuffer::gen()</a>, <a class="el" href="gl_8h_source.html#l00247">MR::GUI::GL::FrameBuffer::gen()</a>, <a class="el" href="shader_8h_source.html#l00121">MR::GUI::GL::Shader::Program::link()</a>, <a class="el" href="shader_8h_source.html#l00132">MR::GUI::GL::Shader::Program::start()</a>, <a class="el" href="shader_8h_source.html#l00137">MR::GUI::GL::Shader::Program::stop()</a>, <a class="el" href="gl_8h_source.html#l00266">MR::GUI::GL::FrameBuffer::unbind()</a>, and <a class="el" href="shader_8h_source.html#l00047">MR::GUI::GL::Shader::Object&lt; TYPE &gt;::~Object()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a662100242de696bb405e1a052d33601b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define GLGETBOOL</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">n&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;{ <a class="el" href="gl__core__3__3_8h.html#aa010a67382116caf29c29318251ccb6c">GLboolean</a> __v[n]; <a class="el" href="namespacegl.html#a59fcf360894408f97369deaa9b8e2f69">gl::GetBooleanv</a> (x, __v); std::cerr &lt;&lt; #x &quot; = &quot;; for (auto i : __v) std::cerr &lt;&lt; int(i) &lt;&lt; &quot; &quot;; std::cerr &lt;&lt; &quot;\n&quot;; }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="gl_8h_source.html#l00061">61</a> of file <a class="el" href="gl_8h_source.html">gl.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4f6046e0939787bc3c4b898a7576f2b0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define GLGETINT</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">n&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;{ <a class="el" href="gl__core__3__3_8h.html#a5ac0f3c4d7fafd42b284b5487a791017">GLint</a> __v[n]; <a class="el" href="namespacegl.html#a2fac34df54e55eebe1f3c76e798eb246">gl::GetIntegerv</a> (x, __v); std::cerr &lt;&lt; #x &quot; = &quot;; for (auto i : __v) std::cerr &lt;&lt; int(i) &lt;&lt; &quot; &quot;; std::cerr &lt;&lt; &quot;\n&quot;; }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="gl_8h_source.html#l00062">62</a> of file <a class="el" href="gl_8h_source.html">gl.h</a>.</p>
 
 </div>
 </div>
@@ -185,8 +273,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_9236bed5acffad77d942815f2449fb47.html">src</a></li><li class="navelem"><a class="el" href="dir_62a465c37598fe633c3cede627c22edd.html">gui</a></li><li class="navelem"><a class="el" href="dir_6238a587909e421f9930c86a4bae3e43.html">opengl</a></li><li class="navelem"><a class="el" href="gl_8h.html">gl.h</a></li>
-    <li class="footer">Generated on Mon Apr 27 2015 17:39:24 for MRtrix by
+    <li class="navelem"><a class="el" href="dir_3111b5213a18295c2b9490b065e7a22d.html">src</a></li><li class="navelem"><a class="el" href="dir_724b7810f0c46702f2fcd89913232b54.html">gui</a></li><li class="navelem"><a class="el" href="dir_147cba6f2debf8dcfd1c69956ad5728c.html">opengl</a></li><li class="navelem"><a class="el" href="gl_8h.html">gl.h</a></li>
+    <li class="footer">Generated on Wed Jul 29 2015 17:53:07 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

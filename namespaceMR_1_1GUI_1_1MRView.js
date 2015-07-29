@@ -10,6 +10,7 @@ var namespaceMR_1_1GUI_1_1MRView =
     [ "Displayable", "classMR_1_1GUI_1_1MRView_1_1Displayable.html", "classMR_1_1GUI_1_1MRView_1_1Displayable" ],
     [ "DisplayableVisitor", "classMR_1_1GUI_1_1MRView_1_1DisplayableVisitor.html", "classMR_1_1GUI_1_1MRView_1_1DisplayableVisitor" ],
     [ "Image", "classMR_1_1GUI_1_1MRView_1_1Image.html", "classMR_1_1GUI_1_1MRView_1_1Image" ],
+    [ "ImageBase", "classMR_1_1GUI_1_1MRView_1_1ImageBase.html", "classMR_1_1GUI_1_1MRView_1_1ImageBase" ],
     [ "Volume", "classMR_1_1GUI_1_1MRView_1_1Volume.html", "classMR_1_1GUI_1_1MRView_1_1Volume" ],
     [ "Window", "classMR_1_1GUI_1_1MRView_1_1Window.html", "classMR_1_1GUI_1_1MRView_1_1Window" ]
 ];

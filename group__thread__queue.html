@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">MRtrix
-   &#160;<span id="projectnumber">0.3.12-365-ged27dfbe</span>
+   &#160;<span id="projectnumber">0.3.12-732-g65ed7a3c</span>
    </div>
    <div id="projectbrief">MRtrix provides a set of tools to perform diffusion-weighted MR white-matter tractography in a manner robust to crossing fibres, using constrained spherical deconvolution (CSD) and probabilistic streamlines.</div>
   </td>
@@ -207,7 +207,7 @@ template&lt;class Item &gt; </div>
 <p>used to request batched processing of items </p>
 <p>This function is used in combination with <a class="el" href="group__thread__queue.html#gaad717471c1771f5e794d0d8907cc3efc" title="convenience function to set up and run a 2-stage multi-threaded pipeline. ">Thread::run_queue</a> to request that the items <em>object</em> be processed in batches of <em>number</em> items (defaults to MRTRIX_QUEUE_DEFAULT_BATCH_SIZE). </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="group__thread__queue.html#gaad717471c1771f5e794d0d8907cc3efc" title="convenience function to set up and run a 2-stage multi-threaded pipeline. ">Thread::run_queue()</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="thread__queue_8h_source.html#l00861">861</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
+<p>Definition at line <a class="el" href="thread__queue_8h_source.html#l00856">856</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
 
 <p>Referenced by <a class="el" href="dwi_2tractography_2SIFT_2model_8h_source.html#l00174">MR::DWI::Tractography::SIFT::Model&lt; Fixel &gt;::map_streamlines()</a>, and <a class="el" href="model__base_8h_source.html#l00263">MR::DWI::Tractography::SIFT::ModelBase&lt; Fixel &gt;::map_streamlines()</a>.</p>
 
@@ -360,9 +360,9 @@ Batching items</h1>
 <div class="line">}</div>
 </div><!-- fragment --><p>Obviously, <a class="el" href="group__thread__basics.html#gaf01d13fdb672f4a8c8727a7a70760cea" title="used to request multiple threads of the corresponding functor ">Thread::multi()</a> and <a class="el" href="group__thread__queue.html#ga0f24ace83aae4402e171baeccad1860d" title="used to request batched processing of items ">Thread::batch()</a> can be used in any combination to perform the operations required. </p>
 
-<p>Definition at line <a class="el" href="thread__queue_8h_source.html#l01054">1054</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
+<p>Definition at line <a class="el" href="thread__queue_8h_source.html#l01049">1049</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
 
-<p>References <a class="el" href="thread_8h_source.html#l00200">functor</a>, <a class="el" href="get__set_8h_source.html#l00261">MR::get()</a>, <a class="el" href="group__thread__basics.html#ga86984fa489ba954903690da0836a4f08">MR::Thread::number_of_threads()</a>, and <a class="el" href="thread_8h_source.html#l00337">MR::Thread::run()</a>.</p>
+<p>References <a class="el" href="thread_8h_source.html#l00195">functor</a>, <a class="el" href="get__set_8h_source.html#l00261">MR::get()</a>, <a class="el" href="group__thread__basics.html#ga86984fa489ba954903690da0836a4f08">MR::Thread::number_of_threads()</a>, and <a class="el" href="thread_8h_source.html#l00332">MR::Thread::run()</a>.</p>
 
 <p>Referenced by <a class="el" href="dwi_2tractography_2SIFT_2model_8h_source.html#l00174">MR::DWI::Tractography::SIFT::Model&lt; Fixel &gt;::map_streamlines()</a>, <a class="el" href="model__base_8h_source.html#l00263">MR::DWI::Tractography::SIFT::ModelBase&lt; Fixel &gt;::map_streamlines()</a>, <a class="el" href="model__base_8h_source.html#l00222">MR::DWI::Tractography::SIFT::ModelBase&lt; Fixel &gt;::perform_FOD_segmentation()</a>, <a class="el" href="dwi_2tractography_2SIFT_2model_8h_source.html#l00222">MR::DWI::Tractography::SIFT::Model&lt; Fixel &gt;::remove_excluded_fixels()</a>, and <a class="el" href="exec_8h_source.html#l00065">MR::DWI::Tractography::Tracking::Exec&lt; Method &gt;::run()</a>.</p>
 
@@ -455,9 +455,9 @@ template&lt;class Source , class Type1 , class Pipe , class Type2 , class Sink &
 </div><!-- fragment --><p>Note that the return value of the Pipe functor's operator() method is used in this case to signal whether or not the corresponding item should be sent through to the next stage (true) or discarded (false). This differs from the Source &amp; Sink functors where the corresponding return value is used to signal end of processing.</p>
 <p>As with the 2-stage pipeline, any functor can be executed in parallel (i.e. wrapped in <a class="el" href="group__thread__basics.html#gaf01d13fdb672f4a8c8727a7a70760cea" title="used to request multiple threads of the corresponding functor ">Thread::multi()</a>), Items do not need to be of the same type, and can be batched independently with any desired size. </p>
 
-<p>Definition at line <a class="el" href="thread__queue_8h_source.html#l01126">1126</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
+<p>Definition at line <a class="el" href="thread__queue_8h_source.html#l01121">1121</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
 
-<p>References <a class="el" href="thread_8h_source.html#l00200">functor</a>, <a class="el" href="get__set_8h_source.html#l00261">MR::get()</a>, <a class="el" href="group__thread__basics.html#ga86984fa489ba954903690da0836a4f08">MR::Thread::number_of_threads()</a>, and <a class="el" href="thread_8h_source.html#l00337">MR::Thread::run()</a>.</p>
+<p>References <a class="el" href="thread_8h_source.html#l00195">functor</a>, <a class="el" href="get__set_8h_source.html#l00261">MR::get()</a>, <a class="el" href="group__thread__basics.html#ga86984fa489ba954903690da0836a4f08">MR::Thread::number_of_threads()</a>, and <a class="el" href="thread_8h_source.html#l00332">MR::Thread::run()</a>.</p>
 
 </div>
 </div>
@@ -534,9 +534,9 @@ template&lt;class Source , class Type1 , class Pipe1 , class Type2 , class Pipe2
 <p>convenience functions to set up and run a 4-stage multi-threaded pipeline. </p>
 <p>This function extends the 2-stage <a class="el" href="group__thread__queue.html#gaad717471c1771f5e794d0d8907cc3efc" title="convenience function to set up and run a 2-stage multi-threaded pipeline. ">Thread::run_queue()</a> function to allow a 3-stage pipeline. </p>
 
-<p>Definition at line <a class="el" href="thread__queue_8h_source.html#l01168">1168</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
+<p>Definition at line <a class="el" href="thread__queue_8h_source.html#l01163">1163</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
 
-<p>References <a class="el" href="thread_8h_source.html#l00200">functor</a>, <a class="el" href="get__set_8h_source.html#l00261">MR::get()</a>, <a class="el" href="group__thread__basics.html#ga86984fa489ba954903690da0836a4f08">MR::Thread::number_of_threads()</a>, and <a class="el" href="thread_8h_source.html#l00337">MR::Thread::run()</a>.</p>
+<p>References <a class="el" href="thread_8h_source.html#l00195">functor</a>, <a class="el" href="get__set_8h_source.html#l00261">MR::get()</a>, <a class="el" href="group__thread__basics.html#ga86984fa489ba954903690da0836a4f08">MR::Thread::number_of_threads()</a>, and <a class="el" href="thread_8h_source.html#l00332">MR::Thread::run()</a>.</p>
 
 </div>
 </div>
@@ -545,7 +545,7 @@ template&lt;class Source , class Type1 , class Pipe1 , class Type2 , class Pipe2
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Apr 27 2015 17:39:24 for MRtrix by
+    <li class="footer">Generated on Wed Jul 29 2015 17:53:07 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

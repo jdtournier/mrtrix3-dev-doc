@@ -9,6 +9,7 @@ var searchData=
   ['analyse',['Analyse',['../classMR_1_1Image_1_1Format_1_1Analyse.html',1,'MR::Image::Format']]],
   ['app',['App',['../classMR_1_1GUI_1_1App.html',1,'MR::GUI']]],
   ['apsf',['aPSF',['../classMR_1_1Math_1_1SH_1_1aPSF.html',1,'MR::Math::SH']]],
+  ['area',['Area',['../classMR_1_1GUI_1_1GL_1_1Area.html',1,'MR::GUI::GL']]],
   ['argument',['Argument',['../classMR_1_1App_1_1Argument.html',1,'MR::App']]],
   ['argumentlist',['ArgumentList',['../classMR_1_1App_1_1ArgumentList.html',1,'MR::App']]],
   ['axis',['Axis',['../classMR_1_1Image_1_1Axis.html',1,'MR::Image']]]

@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">MRtrix
-   &#160;<span id="projectnumber">0.3.12-365-ged27dfbe</span>
+   &#160;<span id="projectnumber">0.3.12-732-g65ed7a3c</span>
    </div>
    <div id="projectbrief">MRtrix provides a set of tools to perform diffusion-weighted MR white-matter tractography in a manner robust to crossing fibres, using constrained spherical deconvolution (CSD) and probabilistic streamlines.</div>
   </td>
@@ -152,7 +152,7 @@ $(document).ready(function(){initNavTree('colourmap__button_8h_source.html','');
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordtype">void</span> init_core_menu_items(<span class="keywordtype">bool</span> create_shortcuts);</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordtype">void</span> init_custom_colour_menu_items();</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">void</span> init_special_colour_menu_items(<span class="keywordtype">bool</span> create_shortcuts);</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">void</span> init_customise_sate_menu_items();</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">void</span> init_customise_state_menu_items();</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keyword">static</span> <span class="keyword">const</span> std::vector&lt;ColourMap::Entry&gt; core_colourmaps_entries;</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keyword">static</span> <span class="keyword">const</span> std::vector&lt;ColourMap::Entry&gt; special_colourmaps_entries;</div>
@@ -182,7 +182,7 @@ $(document).ready(function(){initNavTree('colourmap__button_8h_source.html','');
 <div class="ttc" id="classMR_1_1GUI_1_1MRView_1_1ColourMapButton_html_a352beb7a92e01bea33f92811f053d673"><div class="ttname"><a href="classMR_1_1GUI_1_1MRView_1_1ColourMapButton.html#a352beb7a92e01bea33f92811f053d673">MR::GUI::MRView::ColourMapButton::set_colourmap_index</a></div><div class="ttdeci">void set_colourmap_index(size_t index)</div></div>
 <div class="ttc" id="namespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> <a href="app_8h_source.html#l00036">app.h:36</a></div></div>
 <div class="ttc" id="mrtrix_8h_html"><div class="ttname"><a href="mrtrix_8h.html">mrtrix.h</a></div></div>
-<div class="ttc" id="classMR_1_1GUI_1_1MRView_1_1ColourMap_1_1Renderer_html"><div class="ttname"><a href="classMR_1_1GUI_1_1MRView_1_1ColourMap_1_1Renderer.html">MR::GUI::MRView::ColourMap::Renderer</a></div><div class="ttdef"><b>Definition:</b> <a href="colourmap_8h_source.html#l00114">colourmap.h:114</a></div></div>
+<div class="ttc" id="classMR_1_1GUI_1_1MRView_1_1ColourMap_1_1Renderer_html"><div class="ttname"><a href="classMR_1_1GUI_1_1MRView_1_1ColourMap_1_1Renderer.html">MR::GUI::MRView::ColourMap::Renderer</a></div><div class="ttdef"><b>Definition:</b> <a href="colourmap_8h_source.html#l00138">colourmap.h:138</a></div></div>
 <div class="ttc" id="classMR_1_1GUI_1_1MRView_1_1ColourMapButtonObserver_html_ad4c5cc80642bb7fe056de619910abb71"><div class="ttname"><a href="classMR_1_1GUI_1_1MRView_1_1ColourMapButtonObserver.html#ad4c5cc80642bb7fe056de619910abb71">MR::GUI::MRView::ColourMapButtonObserver::toggle_invert_colourmap</a></div><div class="ttdeci">virtual void toggle_invert_colourmap(bool, const ColourMapButton &amp;)</div><div class="ttdef"><b>Definition:</b> <a href="colourmap__button_8h_source.html#l00022">colourmap_button.h:22</a></div></div>
 <div class="ttc" id="classMR_1_1GUI_1_1MRView_1_1ColourMapButton_html_a9065bb45dd304ed4d2c5180561fe6706"><div class="ttname"><a href="classMR_1_1GUI_1_1MRView_1_1ColourMapButton.html#a9065bb45dd304ed4d2c5180561fe6706">MR::GUI::MRView::ColourMapButton::colourmap_actions</a></div><div class="ttdeci">std::vector&lt; QAction * &gt; colourmap_actions</div><div class="ttdef"><b>Definition:</b> <a href="colourmap__button_8h_source.html#l00036">colourmap_button.h:36</a></div></div>
 <div class="ttc" id="classMR_1_1GUI_1_1MRView_1_1ColourMapButton_html"><div class="ttname"><a href="classMR_1_1GUI_1_1MRView_1_1ColourMapButton.html">MR::GUI::MRView::ColourMapButton</a></div><div class="ttdef"><b>Definition:</b> <a href="colourmap__button_8h_source.html#l00027">colourmap_button.h:27</a></div></div>
@@ -200,8 +200,8 @@ $(document).ready(function(){initNavTree('colourmap__button_8h_source.html','');
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_9236bed5acffad77d942815f2449fb47.html">src</a></li><li class="navelem"><a class="el" href="dir_62a465c37598fe633c3cede627c22edd.html">gui</a></li><li class="navelem"><a class="el" href="dir_df18b1121581489b3e763c6b9be63b77.html">mrview</a></li><li class="navelem"><a class="el" href="colourmap__button_8h.html">colourmap_button.h</a></li>
-    <li class="footer">Generated on Mon Apr 27 2015 17:39:24 for MRtrix by
+    <li class="navelem"><a class="el" href="dir_3111b5213a18295c2b9490b065e7a22d.html">src</a></li><li class="navelem"><a class="el" href="dir_724b7810f0c46702f2fcd89913232b54.html">gui</a></li><li class="navelem"><a class="el" href="dir_af01f46f045ba73e4ce1702d7ef88202.html">mrview</a></li><li class="navelem"><a class="el" href="colourmap__button_8h.html">colourmap_button.h</a></li>
+    <li class="footer">Generated on Wed Jul 29 2015 17:53:07 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">MRtrix
-   &#160;<span id="projectnumber">0.3.12-365-ged27dfbe</span>
+   &#160;<span id="projectnumber">0.3.12-732-g65ed7a3c</span>
    </div>
    <div id="projectbrief">MRtrix provides a set of tools to perform diffusion-weighted MR white-matter tractography in a manner robust to crossing fibres, using constrained spherical deconvolution (CSD) and probabilistic streamlines.</div>
   </td>
@@ -109,7 +109,8 @@ $(document).ready(function(){initNavTree('namespaceMR_1_1Mesh.html','');});
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#typedef-members">Typedefs</a>  </div>
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">MR::Mesh Namespace Reference</div>  </div>
 </div><!--header-->
@@ -118,6 +119,8 @@ $(document).ready(function(){initNavTree('namespaceMR_1_1Mesh.html','');});
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Mesh_1_1Mesh.html">Mesh</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Mesh_1_1MeshMulti.html">MeshMulti</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Mesh_1_1Polygon.html">Polygon</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -128,21 +131,78 @@ Typedefs</h2></td></tr>
 <tr class="separator:aea5795b141fa90b8ed27a808b57c17ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb26eea21e9fd8ce99d0e353433ebeda"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="namespaceMR_1_1Mesh.html#aea5795b141fa90b8ed27a808b57c17ff">Vertex</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Mesh.html#afb26eea21e9fd8ce99d0e353433ebeda">VertexList</a></td></tr>
 <tr class="separator:afb26eea21e9fd8ce99d0e353433ebeda"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeef9a4d612168f26c6570d459573c4b3"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="classMR_1_1Mesh_1_1Polygon.html">Polygon</a>&lt; 3 &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Mesh.html#aeef9a4d612168f26c6570d459573c4b3">PolygonList</a></td></tr>
-<tr class="separator:aeef9a4d612168f26c6570d459573c4b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f21026eb59e3d27dcc42264eb330547"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classMR_1_1Mesh_1_1Polygon.html">Polygon</a>&lt; 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Mesh.html#a6f21026eb59e3d27dcc42264eb330547">Triangle</a></td></tr>
+<tr class="separator:a6f21026eb59e3d27dcc42264eb330547"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a376ff787fac12b5417d1e07847f7b09b"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="namespaceMR_1_1Mesh.html#a6f21026eb59e3d27dcc42264eb330547">Triangle</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Mesh.html#a376ff787fac12b5417d1e07847f7b09b">TriangleList</a></td></tr>
+<tr class="separator:a376ff787fac12b5417d1e07847f7b09b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75d5aae874010b69b050f4c82ba3fe87"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classMR_1_1Mesh_1_1Polygon.html">Polygon</a>&lt; 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Mesh.html#a75d5aae874010b69b050f4c82ba3fe87">Quad</a></td></tr>
+<tr class="separator:a75d5aae874010b69b050f4c82ba3fe87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e72ab58274938d879b317c25b784e30"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="namespaceMR_1_1Mesh.html#a75d5aae874010b69b050f4c82ba3fe87">Quad</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Mesh.html#a3e72ab58274938d879b317c25b784e30">QuadList</a></td></tr>
+<tr class="separator:a3e72ab58274938d879b317c25b784e30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a7ca5096a98d9aad59fa90e353726975c"><td class="memTemplParams" colspan="2">template&lt;class VoxelType &gt; </td></tr>
+<tr class="memitem:a7ca5096a98d9aad59fa90e353726975c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Mesh.html#a7ca5096a98d9aad59fa90e353726975c">vox2mesh</a> (const <a class="el" href="classMR_1_1VoxelType.html">VoxelType</a> &amp;in, <a class="el" href="classMR_1_1Mesh_1_1Mesh.html">Mesh</a> &amp;out)</td></tr>
+<tr class="separator:a7ca5096a98d9aad59fa90e353726975c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59574ea34280a27e5dcf1986d2cfdde7"><td class="memTemplParams" colspan="2">template&lt;class VoxelType &gt; </td></tr>
+<tr class="memitem:a59574ea34280a27e5dcf1986d2cfdde7"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Mesh.html#a59574ea34280a27e5dcf1986d2cfdde7">vox2mesh_mc</a> (const <a class="el" href="classMR_1_1VoxelType.html">VoxelType</a> &amp;input_image, const float threshold, <a class="el" href="classMR_1_1Mesh_1_1Mesh.html">Mesh</a> &amp;out)</td></tr>
+<tr class="separator:a59574ea34280a27e5dcf1986d2cfdde7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
-<a class="anchor" id="aeef9a4d612168f26c6570d459573c4b3"></a>
+<a class="anchor" id="a75d5aae874010b69b050f4c82ba3fe87"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef std::vector&lt; <a class="el" href="classMR_1_1Mesh_1_1Polygon.html">Polygon</a>&lt;3&gt; &gt; <a class="el" href="namespaceMR_1_1Mesh.html#aeef9a4d612168f26c6570d459573c4b3">MR::Mesh::PolygonList</a></td>
+          <td class="memname">typedef <a class="el" href="classMR_1_1Mesh_1_1Polygon.html">Polygon</a>&lt;4&gt; <a class="el" href="namespaceMR_1_1Mesh.html#a75d5aae874010b69b050f4c82ba3fe87">MR::Mesh::Quad</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="mesh_8h_source.html#l00096">96</a> of file <a class="el" href="mesh_8h_source.html">mesh.h</a>.</p>
+<p>Definition at line <a class="el" href="mesh_8h_source.html#l00101">101</a> of file <a class="el" href="mesh_8h_source.html">mesh.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3e72ab58274938d879b317c25b784e30"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::vector&lt;<a class="el" href="namespaceMR_1_1Mesh.html#a75d5aae874010b69b050f4c82ba3fe87">Quad</a>&gt; <a class="el" href="namespaceMR_1_1Mesh.html#a3e72ab58274938d879b317c25b784e30">MR::Mesh::QuadList</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="mesh_8h_source.html#l00102">102</a> of file <a class="el" href="mesh_8h_source.html">mesh.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6f21026eb59e3d27dcc42264eb330547"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="classMR_1_1Mesh_1_1Polygon.html">Polygon</a>&lt;3&gt; <a class="el" href="namespaceMR_1_1Mesh.html#a6f21026eb59e3d27dcc42264eb330547">MR::Mesh::Triangle</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="mesh_8h_source.html#l00099">99</a> of file <a class="el" href="mesh_8h_source.html">mesh.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a376ff787fac12b5417d1e07847f7b09b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::vector&lt;<a class="el" href="namespaceMR_1_1Mesh.html#a6f21026eb59e3d27dcc42264eb330547">Triangle</a>&gt; <a class="el" href="namespaceMR_1_1Mesh.html#a376ff787fac12b5417d1e07847f7b09b">MR::Mesh::TriangleList</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="mesh_8h_source.html#l00100">100</a> of file <a class="el" href="mesh_8h_source.html">mesh.h</a>.</p>
 
 </div>
 </div>
@@ -156,7 +216,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="mesh_8h_source.html#l00053">53</a> of file <a class="el" href="mesh_8h_source.html">mesh.h</a>.</p>
+<p>Definition at line <a class="el" href="mesh_8h_source.html#l00054">54</a> of file <a class="el" href="mesh_8h_source.html">mesh.h</a>.</p>
 
 </div>
 </div>
@@ -170,7 +230,78 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="mesh_8h_source.html#l00054">54</a> of file <a class="el" href="mesh_8h_source.html">mesh.h</a>.</p>
+<p>Definition at line <a class="el" href="mesh_8h_source.html#l00055">55</a> of file <a class="el" href="mesh_8h_source.html">mesh.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="a7ca5096a98d9aad59fa90e353726975c"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class VoxelType &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::Mesh::vox2mesh </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1VoxelType.html">VoxelType</a> &amp;&#160;</td>
+          <td class="paramname"><em>in</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Mesh_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>out</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="vox2mesh_8h_source.html#l00048">48</a> of file <a class="el" href="vox2mesh_8h_source.html">vox2mesh.h</a>.</p>
+
+<p>References <a class="el" href="lib_2math_2vector_8h_source.html#l00767">MR::Math::dot()</a>, <a class="el" href="threaded__loop_8h_source.html#l00484">loop</a>, <a class="el" href="loop_8h_source.html#l00488">MR::Image::LoopInOrder::next()</a>, <a class="el" href="loop_8h_source.html#l00480">MR::Image::LoopInOrder::ok()</a>, <a class="el" href="nav_8h_source.html#l00041">MR::Image::Nav::set_pos()</a>, <a class="el" href="mesh_8h_source.html#l00088">MR::Mesh::Polygon&lt; vertices &gt;::size()</a>, <a class="el" href="loop_8h_source.html#l00468">MR::Image::LoopInOrder::start()</a>, <a class="el" href="nav_8h_source.html#l00078">MR::Image::Nav::step_pos()</a>, <a class="el" href="threaded__loop_8h_source.html#l00486">vox</a>, and <a class="el" href="nav_8h_source.html#l00130">MR::Image::Nav::within_bounds()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a59574ea34280a27e5dcf1986d2cfdde7"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class VoxelType &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::Mesh::vox2mesh_mc </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1VoxelType.html">VoxelType</a> &amp;&#160;</td>
+          <td class="paramname"><em>input_image</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float&#160;</td>
+          <td class="paramname"><em>threshold</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Mesh_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>out</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="vox2mesh_8h_source.html#l00148">148</a> of file <a class="el" href="vox2mesh_8h_source.html">vox2mesh.h</a>.</p>
+
+<p>References <a class="el" href="nav_8h_source.html#l00041">MR::Image::Nav::set_pos()</a>, <a class="el" href="nav_8h_source.html#l00078">MR::Image::Nav::step_pos()</a>, and <a class="el" href="nav_8h_source.html#l00130">MR::Image::Nav::within_bounds()</a>.</p>
 
 </div>
 </div>
@@ -180,7 +311,7 @@ Typedefs</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="namespaceMR_1_1Mesh.html">Mesh</a></li>
-    <li class="footer">Generated on Mon Apr 27 2015 17:39:25 for MRtrix by
+    <li class="footer">Generated on Wed Jul 29 2015 17:53:09 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

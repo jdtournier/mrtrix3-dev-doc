@@ -1,10 +1,11 @@
 var searchData=
 [
-  ['tck2nodes_5fbase',['Tck2nodes_base',['../classMR_1_1DWI_1_1Tractography_1_1Connectomics_1_1Tck2nodes__base.html',1,'MR::DWI::Tractography::Connectomics']]],
-  ['tck2nodes_5fforwardsearch',['Tck2nodes_forwardsearch',['../classMR_1_1DWI_1_1Tractography_1_1Connectomics_1_1Tck2nodes__forwardsearch.html',1,'MR::DWI::Tractography::Connectomics']]],
-  ['tck2nodes_5fradial',['Tck2nodes_radial',['../classMR_1_1DWI_1_1Tractography_1_1Connectomics_1_1Tck2nodes__radial.html',1,'MR::DWI::Tractography::Connectomics']]],
-  ['tck2nodes_5frevsearch',['Tck2nodes_revsearch',['../classMR_1_1DWI_1_1Tractography_1_1Connectomics_1_1Tck2nodes__revsearch.html',1,'MR::DWI::Tractography::Connectomics']]],
-  ['tck2nodes_5fvoxel',['Tck2nodes_voxel',['../classMR_1_1DWI_1_1Tractography_1_1Connectomics_1_1Tck2nodes__voxel.html',1,'MR::DWI::Tractography::Connectomics']]],
+  ['tck2nodes_5fbase',['Tck2nodes_base',['../classMR_1_1DWI_1_1Tractography_1_1Connectome_1_1Tck2nodes__base.html',1,'MR::DWI::Tractography::Connectome']]],
+  ['tck2nodes_5fforwardsearch',['Tck2nodes_forwardsearch',['../classMR_1_1DWI_1_1Tractography_1_1Connectome_1_1Tck2nodes__forwardsearch.html',1,'MR::DWI::Tractography::Connectome']]],
+  ['tck2nodes_5fradial',['Tck2nodes_radial',['../classMR_1_1DWI_1_1Tractography_1_1Connectome_1_1Tck2nodes__radial.html',1,'MR::DWI::Tractography::Connectome']]],
+  ['tck2nodes_5frevsearch',['Tck2nodes_revsearch',['../classMR_1_1DWI_1_1Tractography_1_1Connectome_1_1Tck2nodes__revsearch.html',1,'MR::DWI::Tractography::Connectome']]],
+  ['tck2nodes_5fvoxel',['Tck2nodes_voxel',['../classMR_1_1DWI_1_1Tractography_1_1Connectome_1_1Tck2nodes__voxel.html',1,'MR::DWI::Tractography::Connectome']]],
+  ['tckfactor',['TckFactor',['../classMR_1_1DWI_1_1Tractography_1_1SIFT2_1_1TckFactor.html',1,'MR::DWI::Tractography::SIFT2']]],
   ['tensor_5fdet',['Tensor_Det',['../classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1Tensor__Det.html',1,'MR::DWI::Tractography::Algorithms']]],
   ['tensor_5fprob',['Tensor_Prob',['../classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1Tensor__Prob.html',1,'MR::DWI::Tractography::Algorithms']]],
   ['texture',['Texture',['../classMR_1_1GUI_1_1GL_1_1Texture.html',1,'MR::GUI::GL']]],

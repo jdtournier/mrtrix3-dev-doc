@@ -8,6 +8,7 @@ var namespaceMR_1_1Math =
     [ "Hermite", "classMR_1_1Math_1_1Hermite.html", "classMR_1_1Math_1_1Hermite" ],
     [ "Matrix", "classMR_1_1Math_1_1Matrix.html", "classMR_1_1Math_1_1Matrix" ],
     [ "Permutation", "classMR_1_1Math_1_1Permutation.html", "classMR_1_1Math_1_1Permutation" ],
+    [ "QuadraticLineSearch", "classMR_1_1Math_1_1QuadraticLineSearch.html", "classMR_1_1Math_1_1QuadraticLineSearch" ],
     [ "RNG", "classMR_1_1Math_1_1RNG.html", "classMR_1_1Math_1_1RNG" ],
     [ "Sinc", "classMR_1_1Math_1_1Sinc.html", "classMR_1_1Math_1_1Sinc" ],
     [ "Vector", "classMR_1_1Math_1_1Vector.html", "classMR_1_1Math_1_1Vector" ],

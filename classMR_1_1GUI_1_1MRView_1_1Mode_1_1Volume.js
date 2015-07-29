@@ -1,7 +1,7 @@
 var classMR_1_1GUI_1_1MRView_1_1Mode_1_1Volume =
 [
     [ "Shader", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Volume_1_1Shader.html", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Volume_1_1Shader" ],
-    [ "Volume", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Volume.html#ac9658f764ae40023be58a780778ef39d", null ],
+    [ "Volume", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Volume.html#ac6e4a2517461307b30910f1778a8b484", null ],
     [ "get_active_clip_planes", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Volume.html#a1d7509b7dcd22c49fa4d36bd71ceb761", null ],
     [ "get_clip_planes_to_be_edited", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Volume.html#a1ec5bd3ab1053afa051985ee820ba864", null ],
     [ "get_view_tool", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Volume.html#a068de1976c724b72520a9961365120b1", null ],

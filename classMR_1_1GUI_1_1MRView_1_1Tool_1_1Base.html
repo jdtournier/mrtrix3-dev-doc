@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">MRtrix
-   &#160;<span id="projectnumber">0.3.12-365-ged27dfbe</span>
+   &#160;<span id="projectnumber">0.3.12-732-g65ed7a3c</span>
    </div>
    <div id="projectbrief">MRtrix provides a set of tools to perform diffusion-weighted MR white-matter tractography in a manner robust to crossing fibres, using constrained spherical deconvolution (CSD) and probabilistic streamlines.</div>
   </td>
@@ -113,7 +113,6 @@ $(document).ready(function(){initNavTree('classMR_1_1GUI_1_1MRView_1_1Tool_1_1Ba
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">MR::GUI::MRView::Tool::Base Class Reference</div>  </div>
@@ -128,13 +127,15 @@ Inheritance diagram for MR::GUI::MRView::Tool::Base:</div>
   <img src="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.png" usemap="#MR::GUI::MRView::Tool::Base_map" alt=""/>
   <map id="MR::GUI::MRView::Tool::Base_map" name="MR::GUI::MRView::Tool::Base_map">
 <area href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Capture.html" alt="MR::GUI::MRView::Tool::Capture" shape="rect" coords="246,112,482,136"/>
-<area href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1ODF.html" alt="MR::GUI::MRView::Tool::ODF" shape="rect" coords="246,168,482,192"/>
-<area href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Overlay.html" alt="MR::GUI::MRView::Tool::Overlay" shape="rect" coords="246,224,482,248"/>
-<area href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI.html" alt="MR::GUI::MRView::Tool::ROI" shape="rect" coords="246,280,482,304"/>
-<area href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1TrackScalarFile.html" alt="MR::GUI::MRView::Tool::TrackScalarFile" shape="rect" coords="246,336,482,360"/>
-<area href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Tractography.html" alt="MR::GUI::MRView::Tool::Tractography" shape="rect" coords="246,392,482,416"/>
-<area href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Vector.html" alt="MR::GUI::MRView::Tool::Vector" shape="rect" coords="246,448,482,472"/>
-<area href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1View.html" alt="MR::GUI::MRView::Tool::View" shape="rect" coords="246,504,482,528"/>
+<area href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Connectome.html" alt="MR::GUI::MRView::Tool::Connectome" shape="rect" coords="246,168,482,192"/>
+<area href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Node__list.html" alt="MR::GUI::MRView::Tool::Node_list" shape="rect" coords="246,224,482,248"/>
+<area href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1ODF.html" alt="MR::GUI::MRView::Tool::ODF" shape="rect" coords="246,280,482,304"/>
+<area href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Overlay.html" alt="MR::GUI::MRView::Tool::Overlay" shape="rect" coords="246,336,482,360"/>
+<area href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI.html" alt="MR::GUI::MRView::Tool::ROI" shape="rect" coords="246,392,482,416"/>
+<area href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1TrackScalarFile.html" alt="MR::GUI::MRView::Tool::TrackScalarFile" shape="rect" coords="246,448,482,472"/>
+<area href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Tractography.html" alt="MR::GUI::MRView::Tool::Tractography" shape="rect" coords="246,504,482,528"/>
+<area href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Vector.html" alt="MR::GUI::MRView::Tool::Vector" shape="rect" coords="246,560,482,584"/>
+<area href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1View.html" alt="MR::GUI::MRView::Tool::View" shape="rect" coords="246,616,482,640"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -151,8 +152,10 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a0fcc23e7f7a522c62a23e34587284498"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html#a0fcc23e7f7a522c62a23e34587284498">Base</a> (<a class="el" href="classMR_1_1GUI_1_1MRView_1_1Window.html">Window</a> &amp;main_window, <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Dock.html">Dock</a> *parent)</td></tr>
-<tr class="separator:a0fcc23e7f7a522c62a23e34587284498"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42ed8e191e94fcd2f7b2a4591ecc4fe5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html#a42ed8e191e94fcd2f7b2a4591ecc4fe5">Base</a> (<a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Dock.html">Dock</a> *parent)</td></tr>
+<tr class="separator:a42ed8e191e94fcd2f7b2a4591ecc4fe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca5e1e3a05f73e4d2150d555a355fdd5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Window.html">Window</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html#aca5e1e3a05f73e4d2150d555a355fdd5">window</a> () const </td></tr>
+<tr class="separator:aca5e1e3a05f73e4d2150d555a355fdd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a661490668c7ff17f8b83a94e7f407c8a"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html#a661490668c7ff17f8b83a94e7f407c8a">process_commandline_option</a> (const <a class="el" href="classMR_1_1App_1_1ParsedOption.html">MR::App::ParsedOption</a> &amp;opt)</td></tr>
 <tr class="separator:a661490668c7ff17f8b83a94e7f407c8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf4244e2a98b1ea53f8b500e0d71e8e3"><td class="memItemLeft" align="right" valign="top">virtual QSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html#acf4244e2a98b1ea53f8b500e0d71e8e3">sizeHint</a> () const </td></tr>
@@ -165,8 +168,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab1eda93df3dad49f95b825d8608933fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6bff14a2771e1e1b21733268de8ad97b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html#a6bff14a2771e1e1b21733268de8ad97b">draw</a> (const <a class="el" href="classMR_1_1GUI_1_1Projection.html">Projection</a> &amp;transform, bool is_3D, int axis, int slice)</td></tr>
 <tr class="separator:a6bff14a2771e1e1b21733268de8ad97b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41b0e83bfa06d1bd0a467e9630ee359e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html#a41b0e83bfa06d1bd0a467e9630ee359e">drawOverlays</a> (const <a class="el" href="classMR_1_1GUI_1_1Projection.html">Projection</a> &amp;transform)</td></tr>
-<tr class="separator:a41b0e83bfa06d1bd0a467e9630ee359e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ab10f856e0a8e4cfd2a9a91271edcbd"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html#a1ab10f856e0a8e4cfd2a9a91271edcbd">draw_colourbars</a> ()</td></tr>
+<tr class="separator:a1ab10f856e0a8e4cfd2a9a91271edcbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c8f34c205f35d062734c3444e05dd94"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html#a0c8f34c205f35d062734c3444e05dd94">visible_number_colourbars</a> ()</td></tr>
+<tr class="separator:a0c8f34c205f35d062734c3444e05dd94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac92aa398af2929e2c196020e9526e617"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html#ac92aa398af2929e2c196020e9526e617">draw_tool_labels</a> (int, int, const <a class="el" href="classMR_1_1GUI_1_1Projection.html">Projection</a> &amp;) const </td></tr>
 <tr class="separator:ac92aa398af2929e2c196020e9526e617"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a3905b95b739146782bb295f6055ee2"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html#a9a3905b95b739146782bb295f6055ee2">mouse_press_event</a> ()</td></tr>
@@ -175,6 +180,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a7843f01bd0c637577fcefd277f08657c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e51c9ef4dc521a5a45a3c3806099b43"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html#a9e51c9ef4dc521a5a45a3c3806099b43">mouse_release_event</a> ()</td></tr>
 <tr class="separator:a9e51c9ef4dc521a5a45a3c3806099b43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca037a939aff2b13f3241b294821d2ff"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html#aca037a939aff2b13f3241b294821d2ff">close_event</a> ()</td></tr>
+<tr class="separator:aca037a939aff2b13f3241b294821d2ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6c82d0bf0c61a89ac758cb45dbcb700"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html#ae6c82d0bf0c61a89ac758cb45dbcb700">reset_event</a> ()</td></tr>
+<tr class="separator:ae6c82d0bf0c61a89ac758cb45dbcb700"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f521b5ab3be5b29180551a7edbd017b"><td class="memItemLeft" align="right" valign="top">virtual QCursor *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html#a9f521b5ab3be5b29180551a7edbd017b">get_cursor</a> ()</td></tr>
 <tr class="separator:a9f521b5ab3be5b29180551a7edbd017b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49a6bc01fae5286d83e7e12a054a2270"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html#a49a6bc01fae5286d83e7e12a054a2270">update_cursor</a> ()</td></tr>
@@ -184,36 +193,21 @@ Public Member Functions</h2></td></tr>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a312db50d8b09265c002bd5f2ad9384f4"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html#a312db50d8b09265c002bd5f2ad9384f4">add_commandline_options</a> (<a class="el" href="classMR_1_1App_1_1OptionList.html">MR::App::OptionList</a> &amp;options)</td></tr>
 <tr class="separator:a312db50d8b09265c002bd5f2ad9384f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:ab82014a4021d015a10d04153796111ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Window.html">Window</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html#ab82014a4021d015a10d04153796111ee">window</a></td></tr>
-<tr class="separator:ab82014a4021d015a10d04153796111ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p>Definition at line <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html#l00060">60</a> of file <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html">base.h</a>.</p>
+<p>Definition at line <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html#l00062">62</a> of file <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html">base.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a0fcc23e7f7a522c62a23e34587284498"></a>
+<a class="anchor" id="a42ed8e191e94fcd2f7b2a4591ecc4fe5"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">MR::GUI::MRView::Tool::Base::Base </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Window.html">Window</a> &amp;&#160;</td>
-          <td class="paramname"><em>main_window</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Dock.html">Dock</a> *&#160;</td>
-          <td class="paramname"><em>parent</em>&#160;</td>
-        </tr>
-        <tr>
+          <td class="paramname"><em>parent</em></td><td>)</td>
           <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -258,7 +252,32 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html#l00161">MR::GUI::MRView::Tool::create()</a>.</p>
+<p>Referenced by <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html#l00166">MR::GUI::MRView::Tool::create()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aca037a939aff2b13f3241b294821d2ff"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void MR::GUI::MRView::Tool::Base::close_event </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html#l00136">136</a> of file <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html">base.h</a>.</p>
 
 </div>
 </div>
@@ -306,9 +325,34 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI.html#a594b7595b45dcd26d18741b317b43b9d">MR::GUI::MRView::Tool::ROI</a>, <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Tractography.html#a75487d6c17d561bb0a509b52f947fecb">MR::GUI::MRView::Tool::Tractography</a>, <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1ODF.html#ab696e34fd1f85b46db583ff84062d0e8">MR::GUI::MRView::Tool::ODF</a>, <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Vector.html#a3d49f91933f37ef41ed538124e8e2afd">MR::GUI::MRView::Tool::Vector</a>, and <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Overlay.html#ad22a0972f502bf9daff05b2e96f6b197">MR::GUI::MRView::Tool::Overlay</a>.</p>
+<p>Reimplemented in <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Connectome.html#a0a3b37830d38bbe2158c0d560070cd6c">MR::GUI::MRView::Tool::Connectome</a>, <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI.html#a594b7595b45dcd26d18741b317b43b9d">MR::GUI::MRView::Tool::ROI</a>, <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Tractography.html#a294a2ddfbc877dc938d7bb4d212bf964">MR::GUI::MRView::Tool::Tractography</a>, <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1ODF.html#a7708084bde71fefc743bc33daaa488ab">MR::GUI::MRView::Tool::ODF</a>, <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Vector.html#a92f817aad23ec9ff07f0757298fa5edc">MR::GUI::MRView::Tool::Vector</a>, and <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Overlay.html#a3328b50a8ad512369e1950a98320b8a2">MR::GUI::MRView::Tool::Overlay</a>.</p>
 
 <p>Referenced by <a class="el" href="src_2gui_2mrview_2mode_2base_8h_source.html#l00163">MR::GUI::MRView::Mode::Base::render_tools()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1ab10f856e0a8e4cfd2a9a91271edcbd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void MR::GUI::MRView::Tool::Base::draw_colourbars </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Connectome.html#aebaa1b0551da08cbb541d1d1eddee3be">MR::GUI::MRView::Tool::Connectome</a>, <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Tractography.html#a2a9071b0da6d8158b4c2a735aa7687ee">MR::GUI::MRView::Tool::Tractography</a>, <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Vector.html#acc4c65769a6f344a67e5a2f0fae92bce">MR::GUI::MRView::Tool::Vector</a>, and <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Overlay.html#aef231f106cebb7383ee16843ccd06526">MR::GUI::MRView::Tool::Overlay</a>.</p>
 
 </div>
 </div>
@@ -352,33 +396,7 @@ Public Attributes</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Overlay.html#ab15672451ba5f9842f6f6e9719bfc8c3">MR::GUI::MRView::Tool::Overlay</a>.</p>
 
-<p>Definition at line <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html#l00129">129</a> of file <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html">base.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a41b0e83bfa06d1bd0a467e9630ee359e"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void MR::GUI::MRView::Tool::Base::drawOverlays </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1GUI_1_1Projection.html">Projection</a> &amp;&#160;</td>
-          <td class="paramname"><em>transform</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented in <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Tractography.html#aa8d6a254c2031053fc7da0c50e123f18">MR::GUI::MRView::Tool::Tractography</a>, <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Vector.html#aa6325162b28b358774f4f2a4ea9b3b47">MR::GUI::MRView::Tool::Vector</a>, and <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Overlay.html#af53cc93b7b46bb296240ba552be985d1">MR::GUI::MRView::Tool::Overlay</a>.</p>
+<p>Definition at line <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html#l00132">132</a> of file <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html">base.h</a>.</p>
 
 </div>
 </div>
@@ -428,7 +446,9 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html#l00070">70</a> of file <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html">base.h</a>.</p>
+<p>Definition at line <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html#l00072">72</a> of file <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html">base.h</a>.</p>
+
+<p>References <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html#l00065">window()</a>.</p>
 
 </div>
 </div>
@@ -529,7 +549,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI.html#ab0e18e9c6c60e8c72600496b304ad137">MR::GUI::MRView::Tool::ROI</a>, <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Tractography.html#a701ed9fc0d9d8f9f1e4353756c864c9f">MR::GUI::MRView::Tool::Tractography</a>, <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Overlay.html#a0e44d3aea9b282d31f98901bb83fefbf">MR::GUI::MRView::Tool::Overlay</a>, <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Vector.html#a40f2de2dd9c0f2d123735bd69ae574a5">MR::GUI::MRView::Tool::Vector</a>, and <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Capture.html#a10e312269e8b74c0e3ce49b69145ae41">MR::GUI::MRView::Tool::Capture</a>.</p>
+<p>Reimplemented in <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Connectome.html#ac63a9f309d27b631e154a62d55133349">MR::GUI::MRView::Tool::Connectome</a>, <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI.html#ab0e18e9c6c60e8c72600496b304ad137">MR::GUI::MRView::Tool::ROI</a>, <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Overlay.html#a693f8f47bcd590479f9a0c5292adfd2f">MR::GUI::MRView::Tool::Overlay</a>, <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Tractography.html#a9d62ae5d6e83be63ac7c1a5aafba051e">MR::GUI::MRView::Tool::Tractography</a>, <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1ODF.html#a75c29c1e28c0e069d2c3ed368659b368">MR::GUI::MRView::Tool::ODF</a>, <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Vector.html#af2b50adc666cb213e8bd61fff4671375">MR::GUI::MRView::Tool::Vector</a>, and <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Capture.html#a10e312269e8b74c0e3ce49b69145ae41">MR::GUI::MRView::Tool::Capture</a>.</p>
 
 </div>
 </div>
@@ -554,7 +574,34 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html#l00074">74</a> of file <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html">base.h</a>.</p>
+<p>Definition at line <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html#l00076">76</a> of file <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html">base.h</a>.</p>
+
+<p>References <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html#l00065">window()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae6c82d0bf0c61a89ac758cb45dbcb700"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void MR::GUI::MRView::Tool::Base::reset_event </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html#l00137">137</a> of file <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html">base.h</a>.</p>
 
 </div>
 </div>
@@ -602,24 +649,65 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html#l00134">134</a> of file <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html">base.h</a>.</p>
+<p>Definition at line <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html#l00139">139</a> of file <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html">base.h</a>.</p>
+
+<p>References <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html#l00065">window()</a>.</p>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="ab82014a4021d015a10d04153796111ee"></a>
+<a class="anchor" id="a0c8f34c205f35d062734c3444e05dd94"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Window.html">Window</a>&amp; MR::GUI::MRView::Tool::Base::window</td>
+          <td class="memname">virtual size_t MR::GUI::MRView::Tool::Base::visible_number_colourbars </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html#l00063">63</a> of file <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html">base.h</a>.</p>
+<p>Reimplemented in <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Connectome.html#a3d67ddad4804197fcfcfe6533b8c67e6">MR::GUI::MRView::Tool::Connectome</a>, <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Overlay.html#ab54856adce852a731431141c4072088f">MR::GUI::MRView::Tool::Overlay</a>, <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Tractography.html#a471841e16d3d0239b57ffce2990db5c2">MR::GUI::MRView::Tool::Tractography</a>, and <a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Vector.html#a3c570000486702d79a7c2da99680de16">MR::GUI::MRView::Tool::Vector</a>.</p>
 
-<p>Referenced by <a class="el" href="overlay_8h_source.html#l00104">MR::GUI::MRView::Tool::Overlay::updateGL()</a>, and <a class="el" href="gui_2mrview_2tool_2roi__analysis_2roi_8h_source.html#l00107">MR::GUI::MRView::Tool::ROI::updateGL()</a>.</p>
+<p>Definition at line <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html#l00131">131</a> of file <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html">base.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aca5e1e3a05f73e4d2150d555a355fdd5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Window.html">Window</a>&amp; MR::GUI::MRView::Tool::Base::window </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html#l00065">65</a> of file <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html">base.h</a>.</p>
+
+<p>References <a class="el" href="window_8h_source.html#l00116">MR::GUI::MRView::Window::main</a>.</p>
+
+<p>Referenced by <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html#l00072">grab_focus()</a>, <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html#l00076">release_focus()</a>, <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html#l00139">update_cursor()</a>, <a class="el" href="overlay_8h_source.html#l00105">MR::GUI::MRView::Tool::Overlay::updateGL()</a>, and <a class="el" href="gui_2mrview_2tool_2roi__editor_2roi_8h_source.html#l00107">MR::GUI::MRView::Tool::ROI::updateGL()</a>.</p>
 
 </div>
 </div>
@@ -632,7 +720,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="namespaceMR_1_1GUI.html">GUI</a></li><li class="navelem"><a class="el" href="namespaceMR_1_1GUI_1_1MRView.html">MRView</a></li><li class="navelem"><a class="el" href="namespaceMR_1_1GUI_1_1MRView_1_1Tool.html">Tool</a></li><li class="navelem"><a class="el" href="classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html">Base</a></li>
-    <li class="footer">Generated on Mon Apr 27 2015 17:39:25 for MRtrix by
+    <li class="footer">Generated on Wed Jul 29 2015 17:53:08 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

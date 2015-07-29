@@ -2,11 +2,12 @@ var namespaceMR_1_1DWI_1_1Tractography =
 [
     [ "ACT", "namespaceMR_1_1DWI_1_1Tractography_1_1ACT.html", "namespaceMR_1_1DWI_1_1Tractography_1_1ACT" ],
     [ "Algorithms", "namespaceMR_1_1DWI_1_1Tractography_1_1Algorithms.html", "namespaceMR_1_1DWI_1_1Tractography_1_1Algorithms" ],
-    [ "Connectomics", "namespaceMR_1_1DWI_1_1Tractography_1_1Connectomics.html", "namespaceMR_1_1DWI_1_1Tractography_1_1Connectomics" ],
+    [ "Connectome", "namespaceMR_1_1DWI_1_1Tractography_1_1Connectome.html", "namespaceMR_1_1DWI_1_1Tractography_1_1Connectome" ],
     [ "Editing", "namespaceMR_1_1DWI_1_1Tractography_1_1Editing.html", "namespaceMR_1_1DWI_1_1Tractography_1_1Editing" ],
     [ "Mapping", "namespaceMR_1_1DWI_1_1Tractography_1_1Mapping.html", "namespaceMR_1_1DWI_1_1Tractography_1_1Mapping" ],
     [ "Seeding", "namespaceMR_1_1DWI_1_1Tractography_1_1Seeding.html", "namespaceMR_1_1DWI_1_1Tractography_1_1Seeding" ],
     [ "SIFT", "namespaceMR_1_1DWI_1_1Tractography_1_1SIFT.html", "namespaceMR_1_1DWI_1_1Tractography_1_1SIFT" ],
+    [ "SIFT2", "namespaceMR_1_1DWI_1_1Tractography_1_1SIFT2.html", "namespaceMR_1_1DWI_1_1Tractography_1_1SIFT2" ],
     [ "Tracking", "namespaceMR_1_1DWI_1_1Tractography_1_1Tracking.html", "namespaceMR_1_1DWI_1_1Tractography_1_1Tracking" ],
     [ "Downsampler", "classMR_1_1DWI_1_1Tractography_1_1Downsampler.html", "classMR_1_1DWI_1_1Tractography_1_1Downsampler" ],
     [ "Mask", "classMR_1_1DWI_1_1Tractography_1_1Mask.html", "classMR_1_1DWI_1_1Tractography_1_1Mask" ],

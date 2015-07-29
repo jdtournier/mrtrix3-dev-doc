@@ -1,6 +1,6 @@
 var classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base =
 [
-    [ "Base", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base.html#ad136984bada84f4d0ca91bc59a2b0130", null ],
+    [ "Base", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base.html#aab8b6c7ae622194090ae732fcec1137f", null ],
     [ "~Base", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base.html#a4f757a1acf4bfb41787e00b6bfe5ce8f", null ],
     [ "adjust_projection_matrix", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base.html#a8eb8a9746e43a3e6ed1131a6d686d5cb", null ],
     [ "adjust_projection_matrix", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base.html#aa0525f94cb3d0dffb83aaa7928c89409", null ],
@@ -17,7 +17,6 @@ var classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base =
     [ "image", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base.html#a8c9d605dcb78df99a5e2af1c910a1bee", null ],
     [ "image", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base.html#a0a9a119fed5fa1c5231ef997c8b2cc8d", null ],
     [ "image_changed_event", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base.html#aecc04a7f849c290f88e8c5ebcef09b36", null ],
-    [ "in_paint", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base.html#a87746b89ef7ce68a0476c25883f4a88b", null ],
     [ "mouse_press_event", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base.html#a214dd2275e3b82035a691bef9de87fe6", null ],
     [ "mouse_release_event", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base.html#a709dfcbc591a77429772256df604390c", null ],
     [ "move_in_out", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base.html#ac87934ad4fd9feab251703b7a242f2d6", null ],
@@ -42,6 +41,7 @@ var classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base =
     [ "set_orientation", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base.html#a2c187626dc0c55cce024e07ab8acf17b", null ],
     [ "set_plane", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base.html#afc65db09e331220cdcaab014f8c4f220", null ],
     [ "set_target", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base.html#aab9759eb684192bc7209340625ae7d5e", null ],
+    [ "set_visible", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base.html#a6e1c7110dcb7a8d453b11e9adbc45057", null ],
     [ "slice", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base.html#a5080cafe5ebfc498e6651aad9475ede4", null ],
     [ "slice", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base.html#ad8e542a122fd104f99c5e013a772d148", null ],
     [ "slice_move_event", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base.html#ad94b8f83d43eaa17a351192a28f7bb31", null ],
@@ -51,10 +51,10 @@ var classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base =
     [ "updateGL", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base.html#ae4b7a36e57d5c432e3749b681c2f492f", null ],
     [ "voxel_at", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base.html#a22eab3f9f9c9c02974c1e18cfbae5601", null ],
     [ "width", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base.html#afc93047922a07e73f3d59c3d5a2c9d55", null ],
+    [ "window", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base.html#ae3a33a1f311dea1adcfb9bf2e6f0ede6", null ],
     [ "features", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base.html#a612f27340e1db983e2de349ec0408c5b", null ],
-    [ "overlays_for_3D", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base.html#a4e478125a43145834a562b75af69ae03", null ],
-    [ "painting", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base.html#a58a78fa84a918c125b80d404059e7a58", null ],
+    [ "overlays_for_3D", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base.html#a7575cbef965db83eb8638a6904911a8c", null ],
     [ "projection", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base.html#abe26b459079712a81db1a856e073b7d7", null ],
     [ "update_overlays", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base.html#aff94633139eeecb4e0c0f8130bac590d", null ],
-    [ "window", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base.html#a1b855aa8622b34be1b87c46d92983f97", null ]
+    [ "visible", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base.html#a82518161c48a6ece9c2cf78287ee570d", null ]
 ];

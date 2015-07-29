@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['reject_5ft',['reject_t',['../namespaceMR_1_1DWI_1_1Tractography_1_1Tracking.html#ad956382fab3ffe08fe6398044e9ae01a',1,'MR::DWI::Tractography::Tracking']]]
+  ['lut_5fformat',['lut_format',['../namespaceMR_1_1Connectome.html#a95a6341a40d83945472a8bba63c81c75',1,'MR::Connectome']]]
 ];

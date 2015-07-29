@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">MRtrix
-   &#160;<span id="projectnumber">0.3.12-365-ged27dfbe</span>
+   &#160;<span id="projectnumber">0.3.12-732-g65ed7a3c</span>
    </div>
    <div id="projectbrief">MRtrix provides a set of tools to perform diffusion-weighted MR white-matter tractography in a manner robust to crossing fibres, using constrained spherical deconvolution (CSD) and probabilistic streamlines.</div>
   </td>
@@ -110,7 +110,6 @@ $(document).ready(function(){initNavTree('classMR_1_1GUI_1_1DWI_1_1Renderer.html
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
@@ -122,11 +121,6 @@ $(document).ready(function(){initNavTree('classMR_1_1GUI_1_1DWI_1_1Renderer.html
 
 <p><code>#include &lt;<a class="el" href="renderer_8h_source.html">gui/dwi/renderer.h</a>&gt;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1DWI_1_1Renderer_1_1Vertex.html">Vertex</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a597a0059ce02e9ddadd950e103eb073e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1DWI_1_1Renderer.html#a597a0059ce02e9ddadd950e103eb073e">Renderer</a> ()</td></tr>
@@ -135,8 +129,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a213692d5a6eb5acba1dfd0073fd98604"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06aa817263f8ade07c78750eb8b0cb2d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1DWI_1_1Renderer.html#a06aa817263f8ade07c78750eb8b0cb2d">initGL</a> ()</td></tr>
 <tr class="separator:a06aa817263f8ade07c78750eb8b0cb2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0654b2871ac9c95b40ee8b48c67384a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1DWI_1_1Renderer.html#aa0654b2871ac9c95b40ee8b48c67384a">update_mesh</a> (int LOD, int lmax)</td></tr>
-<tr class="separator:aa0654b2871ac9c95b40ee8b48c67384a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab14345b80a83a1d40b699ae7a4505bea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1DWI_1_1Renderer.html#ab14345b80a83a1d40b699ae7a4505bea">update_mesh</a> (const size_t LOD, const int lmax)</td></tr>
+<tr class="separator:ab14345b80a83a1d40b699ae7a4505bea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a939144e17a175bbe96ced440e99da3b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1DWI_1_1Renderer.html#a939144e17a175bbe96ced440e99da3b3">compute_r_del_daz</a> (<a class="el" href="classMR_1_1Math_1_1Matrix.html">Math::Matrix</a>&lt; float &gt; &amp;r_del_daz, const <a class="el" href="classMR_1_1Math_1_1Matrix.html">Math::Matrix</a>&lt; float &gt; &amp;SH) const </td></tr>
 <tr class="separator:a939144e17a175bbe96ced440e99da3b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d531b3b4cf1f6d9a02df53854b5dd31"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1DWI_1_1Renderer.html#a4d531b3b4cf1f6d9a02df53854b5dd31">compute_r_del_daz</a> (<a class="el" href="classMR_1_1Math_1_1Vector.html">Math::Vector</a>&lt; float &gt; &amp;r_del_daz, const <a class="el" href="classMR_1_1Math_1_1Vector.html">Math::Vector</a>&lt; float &gt; &amp;SH) const </td></tr>
@@ -152,23 +146,19 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a54f74ca00c5a61c24c9562e3956daf18"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1DWI_1_1Renderer.html#a54f74ca00c5a61c24c9562e3956daf18">update_transform</a> (const std::vector&lt; <a class="el" href="classMR_1_1GUI_1_1DWI_1_1Renderer_1_1Vertex.html">Vertex</a> &gt; &amp;vertices, int lmax)</td></tr>
-<tr class="separator:a54f74ca00c5a61c24c9562e3956daf18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac03b32c9a77599774574fb42839bb893"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1DWI_1_1Renderer.html#ac03b32c9a77599774574fb42839bb893">update_transform</a> (const std::vector&lt; <a class="el" href="classMR_1_1GUI_1_1Shapes_1_1HalfSphere_1_1Vertex.html">Shapes::HalfSphere::Vertex</a> &gt; &amp;vertices, int lmax)</td></tr>
+<tr class="separator:ac03b32c9a77599774574fb42839bb893"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:ac626c0cce24622ce9213036062b1dce8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Math_1_1Matrix.html">Math::Matrix</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1DWI_1_1Renderer.html#ac626c0cce24622ce9213036062b1dce8">transform</a></td></tr>
 <tr class="separator:ac626c0cce24622ce9213036062b1dce8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5477708de87ccbf523186b24fe406b01"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1DWI_1_1Renderer.html#a5477708de87ccbf523186b24fe406b01">num_indices</a></td></tr>
-<tr class="separator:a5477708de87ccbf523186b24fe406b01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee4e24823c78c94e7e2f17c10493e515"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1GUI_1_1GL_1_1Shader_1_1Program.html">GL::Shader::Program</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1DWI_1_1Renderer.html#aee4e24823c78c94e7e2f17c10493e515">shader_program</a></td></tr>
 <tr class="separator:aee4e24823c78c94e7e2f17c10493e515"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acfb0c5719e2f45f325798dd24d9769ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1GUI_1_1GL_1_1VertexBuffer.html">GL::VertexBuffer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1DWI_1_1Renderer.html#acfb0c5719e2f45f325798dd24d9769ce">vertex_buffer</a></td></tr>
-<tr class="separator:acfb0c5719e2f45f325798dd24d9769ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0810c5fd58e2ff6eb1c84b3ecae24d5b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1GUI_1_1Shapes_1_1HalfSphere.html">Shapes::HalfSphere</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1DWI_1_1Renderer.html#a0810c5fd58e2ff6eb1c84b3ecae24d5b">half_sphere</a></td></tr>
+<tr class="separator:a0810c5fd58e2ff6eb1c84b3ecae24d5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8688c8c62669b34a641d3200a733f46e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1GUI_1_1GL_1_1VertexBuffer.html">GL::VertexBuffer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1DWI_1_1Renderer.html#a8688c8c62669b34a641d3200a733f46e">surface_buffer</a></td></tr>
 <tr class="separator:a8688c8c62669b34a641d3200a733f46e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab2e4277e00af54fc1f48364e0e3d13ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1GUI_1_1GL_1_1VertexBuffer.html">GL::VertexBuffer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1DWI_1_1Renderer.html#ab2e4277e00af54fc1f48364e0e3d13ce">index_buffer</a></td></tr>
-<tr class="separator:ab2e4277e00af54fc1f48364e0e3d13ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f98c7cfd80440f3f1a9d7aac10c6b94"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1GUI_1_1GL_1_1VertexArrayObject.html">GL::VertexArrayObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1DWI_1_1Renderer.html#a7f98c7cfd80440f3f1a9d7aac10c6b94">vertex_array_object</a></td></tr>
 <tr class="separator:a7f98c7cfd80440f3f1a9d7aac10c6b94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e841e87d55d4b0f6cf66ee9c0033ad3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="gl__core__3__3_8h.html#aa311c7f0d6ec4f1a33f9235c3651b86b">GLuint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GUI_1_1DWI_1_1Renderer.html#a3e841e87d55d4b0f6cf66ee9c0033ad3">reverse_ID</a></td></tr>
@@ -178,7 +168,7 @@ Protected Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p>Definition at line <a class="el" href="renderer_8h_source.html#l00049">49</a> of file <a class="el" href="renderer_8h_source.html">renderer.h</a>.</p>
+<p>Definition at line <a class="el" href="renderer_8h_source.html#l00050">50</a> of file <a class="el" href="renderer_8h_source.html">renderer.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a597a0059ce02e9ddadd950e103eb073e"></a>
 <div class="memitem">
@@ -201,7 +191,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="renderer_8h_source.html#l00052">52</a> of file <a class="el" href="renderer_8h_source.html">renderer.h</a>.</p>
+<p>Definition at line <a class="el" href="renderer_8h_source.html#l00053">53</a> of file <a class="el" href="renderer_8h_source.html">renderer.h</a>.</p>
 
 </div>
 </div>
@@ -238,9 +228,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="renderer_8h_source.html#l00058">58</a> of file <a class="el" href="renderer_8h_source.html">renderer.h</a>.</p>
+<p>Definition at line <a class="el" href="renderer_8h_source.html#l00059">59</a> of file <a class="el" href="renderer_8h_source.html">renderer.h</a>.</p>
 
-<p>References <a class="el" href="matrix_8h_source.html#l00393">MR::Math::Matrix&lt; ValueType &gt;::columns()</a>, <a class="el" href="matrix_8h_source.html#l00889">MR::Math::mult()</a>, <a class="el" href="matrix_8h_source.html#l00388">MR::Math::Matrix&lt; ValueType &gt;::rows()</a>, and <a class="el" href="renderer_8h_source.html#l00114">transform</a>.</p>
+<p>References <a class="el" href="lib_2math_2matrix_8h_source.html#l00394">MR::Math::Matrix&lt; ValueType &gt;::columns()</a>, <a class="el" href="lib_2math_2matrix_8h_source.html#l00888">MR::Math::mult()</a>, <a class="el" href="lib_2math_2matrix_8h_source.html#l00389">MR::Math::Matrix&lt; ValueType &gt;::rows()</a>, and <a class="el" href="renderer_8h_source.html#l00097">transform</a>.</p>
 
 </div>
 </div>
@@ -276,9 +266,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="renderer_8h_source.html#l00063">63</a> of file <a class="el" href="renderer_8h_source.html">renderer.h</a>.</p>
+<p>Definition at line <a class="el" href="renderer_8h_source.html#l00064">64</a> of file <a class="el" href="renderer_8h_source.html">renderer.h</a>.</p>
 
-<p>References <a class="el" href="matrix_8h_source.html#l00889">MR::Math::mult()</a>, <a class="el" href="lib_2math_2vector_8h_source.html#l00362">MR::Math::Vector&lt; ValueType &gt;::size()</a>, and <a class="el" href="renderer_8h_source.html#l00114">transform</a>.</p>
+<p>References <a class="el" href="lib_2math_2matrix_8h_source.html#l00888">MR::Math::mult()</a>, <a class="el" href="lib_2math_2vector_8h_source.html#l00362">MR::Math::Vector&lt; ValueType &gt;::size()</a>, and <a class="el" href="renderer_8h_source.html#l00097">transform</a>.</p>
 
 </div>
 </div>
@@ -314,9 +304,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="renderer_8h_source.html#l00080">80</a> of file <a class="el" href="renderer_8h_source.html">renderer.h</a>.</p>
+<p>Definition at line <a class="el" href="renderer_8h_source.html#l00081">81</a> of file <a class="el" href="renderer_8h_source.html">renderer.h</a>.</p>
 
-<p>References <a class="el" href="namespacegl.html#a7b49485cbd08f8a38557df3cfa7f4082">gl::DrawElements</a>, <a class="el" href="renderer_8h_source.html#l00116">num_indices</a>, <a class="el" href="renderer_8h_source.html#l00120">origin_ID</a>, <a class="el" href="renderer_8h_source.html#l00120">reverse_ID</a>, <a class="el" href="gl__core__3__3_8h_source.html#l00347">gl::TRIANGLES</a>, <a class="el" href="namespacegl.html#af43d116aa48c8c92ef70cd1024746ec7">gl::Uniform1i</a>, <a class="el" href="namespacegl.html#a6189dc601d0c688c56c63f1abe69a29f">gl::Uniform3fv</a>, and <a class="el" href="gl__core__3__3_8h_source.html#l00358">gl::UNSIGNED_INT</a>.</p>
+<p>References <a class="el" href="namespacegl.html#a7b49485cbd08f8a38557df3cfa7f4082">gl::DrawElements</a>, <a class="el" href="renderer_8h_source.html#l00100">half_sphere</a>, <a class="el" href="halfsphere_8h_source.html#l00057">MR::GUI::Shapes::HalfSphere::num_indices</a>, <a class="el" href="renderer_8h_source.html#l00103">origin_ID</a>, <a class="el" href="renderer_8h_source.html#l00103">reverse_ID</a>, <a class="el" href="gl__core__3__3_8h_source.html#l00347">gl::TRIANGLES</a>, <a class="el" href="namespacegl.html#af43d116aa48c8c92ef70cd1024746ec7">gl::Uniform1i</a>, <a class="el" href="namespacegl.html#a6189dc601d0c688c56c63f1abe69a29f">gl::Uniform3fv</a>, and <a class="el" href="gl__core__3__3_8h_source.html#l00358">gl::UNSIGNED_INT</a>.</p>
 
 </div>
 </div>
@@ -356,9 +346,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="renderer_8h_source.html#l00054">54</a> of file <a class="el" href="renderer_8h_source.html">renderer.h</a>.</p>
+<p>Definition at line <a class="el" href="renderer_8h_source.html#l00055">55</a> of file <a class="el" href="renderer_8h_source.html">renderer.h</a>.</p>
 
-<p>References <a class="el" href="renderer_8h_source.html#l00117">shader_program</a>.</p>
+<p>References <a class="el" href="renderer_8h_source.html#l00099">shader_program</a>.</p>
 
 </div>
 </div>
@@ -394,9 +384,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="renderer_8h_source.html#l00072">72</a> of file <a class="el" href="renderer_8h_source.html">renderer.h</a>.</p>
+<p>Definition at line <a class="el" href="renderer_8h_source.html#l00073">73</a> of file <a class="el" href="renderer_8h_source.html">renderer.h</a>.</p>
 
-<p>References <a class="el" href="gl__core__3__3_8h_source.html#l00495">gl::ARRAY_BUFFER</a>, <a class="el" href="gl_8h_source.html#l00135">MR::GUI::GL::VertexBuffer::bind()</a>, <a class="el" href="namespacegl.html#ae24866a9d53af9818b1274e2b5dfebdf">gl::BufferData</a>, <a class="el" href="gl__core__3__3_8h_source.html#l00208">gl::FALSE_</a>, <a class="el" href="gl__core__3__3_8h_source.html#l00211">gl::FLOAT</a>, <a class="el" href="lib_2math_2vector_8h_source.html#l00362">MR::Math::Vector&lt; ValueType &gt;::size()</a>, <a class="el" href="gl__core__3__3_8h_source.html#l00519">gl::STREAM_DRAW</a>, <a class="el" href="lib_2math_2vector_8h_source.html#l00387">MR::Math::Vector&lt; ValueType &gt;::stride()</a>, <a class="el" href="renderer_8h_source.html#l00118">surface_buffer</a>, and <a class="el" href="namespacegl.html#a339ee9b35f91c04aeb98e7fd63f35d89">gl::VertexAttribPointer</a>.</p>
+<p>References <a class="el" href="gl__core__3__3_8h_source.html#l00495">gl::ARRAY_BUFFER</a>, <a class="el" href="gl_8h_source.html#l00167">MR::GUI::GL::VertexBuffer::bind()</a>, <a class="el" href="namespacegl.html#ae24866a9d53af9818b1274e2b5dfebdf">gl::BufferData</a>, <a class="el" href="gl__core__3__3_8h_source.html#l00208">gl::FALSE_</a>, <a class="el" href="gl__core__3__3_8h_source.html#l00211">gl::FLOAT</a>, <a class="el" href="lib_2math_2vector_8h_source.html#l00362">MR::Math::Vector&lt; ValueType &gt;::size()</a>, <a class="el" href="gl__core__3__3_8h_source.html#l00519">gl::STREAM_DRAW</a>, <a class="el" href="lib_2math_2vector_8h_source.html#l00387">MR::Math::Vector&lt; ValueType &gt;::stride()</a>, <a class="el" href="renderer_8h_source.html#l00101">surface_buffer</a>, and <a class="el" href="namespacegl.html#a339ee9b35f91c04aeb98e7fd63f35d89">gl::VertexAttribPointer</a>.</p>
 
 </div>
 </div>
@@ -477,26 +467,26 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="renderer_8h_source.html#l00088">88</a> of file <a class="el" href="renderer_8h_source.html">renderer.h</a>.</p>
+<p>Definition at line <a class="el" href="renderer_8h_source.html#l00089">89</a> of file <a class="el" href="renderer_8h_source.html">renderer.h</a>.</p>
 
-<p>References <a class="el" href="renderer_8h_source.html#l00117">shader_program</a>, and <a class="el" href="shader_8h_source.html#l00136">MR::GUI::GL::Shader::Program::stop()</a>.</p>
+<p>References <a class="el" href="renderer_8h_source.html#l00099">shader_program</a>, and <a class="el" href="shader_8h_source.html#l00137">MR::GUI::GL::Shader::Program::stop()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="aa0654b2871ac9c95b40ee8b48c67384a"></a>
+<a class="anchor" id="ab14345b80a83a1d40b699ae7a4505bea"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void MR::GUI::DWI::Renderer::update_mesh </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">const size_t&#160;</td>
           <td class="paramname"><em>LOD</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">const int&#160;</td>
           <td class="paramname"><em>lmax</em>&#160;</td>
         </tr>
         <tr>
@@ -509,7 +499,7 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a54f74ca00c5a61c24c9562e3956daf18"></a>
+<a class="anchor" id="ac03b32c9a77599774574fb42839bb893"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -519,7 +509,7 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">void MR::GUI::DWI::Renderer::update_transform </td>
           <td>(</td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="classMR_1_1GUI_1_1DWI_1_1Renderer_1_1Vertex.html">Vertex</a> &gt; &amp;&#160;</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classMR_1_1GUI_1_1Shapes_1_1HalfSphere_1_1Vertex.html">Shapes::HalfSphere::Vertex</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>vertices</em>, </td>
         </tr>
         <tr>
@@ -544,7 +534,7 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="ab2e4277e00af54fc1f48364e0e3d13ce"></a>
+<a class="anchor" id="a0810c5fd58e2ff6eb1c84b3ecae24d5b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -552,7 +542,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMR_1_1GUI_1_1GL_1_1VertexBuffer.html">GL::VertexBuffer</a> MR::GUI::DWI::Renderer::index_buffer</td>
+          <td class="memname"><a class="el" href="classMR_1_1GUI_1_1Shapes_1_1HalfSphere.html">Shapes::HalfSphere</a> MR::GUI::DWI::Renderer::half_sphere</td>
         </tr>
       </table>
   </td>
@@ -562,31 +552,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="renderer_8h_source.html#l00118">118</a> of file <a class="el" href="renderer_8h_source.html">renderer.h</a>.</p>
+<p>Definition at line <a class="el" href="renderer_8h_source.html#l00100">100</a> of file <a class="el" href="renderer_8h_source.html">renderer.h</a>.</p>
 
-</div>
-</div>
-<a class="anchor" id="a5477708de87ccbf523186b24fe406b01"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">size_t MR::GUI::DWI::Renderer::num_indices</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="renderer_8h_source.html#l00116">116</a> of file <a class="el" href="renderer_8h_source.html">renderer.h</a>.</p>
-
-<p>Referenced by <a class="el" href="renderer_8h_source.html#l00080">draw()</a>.</p>
+<p>Referenced by <a class="el" href="renderer_8h_source.html#l00081">draw()</a>.</p>
 
 </div>
 </div>
@@ -608,9 +576,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="renderer_8h_source.html#l00120">120</a> of file <a class="el" href="renderer_8h_source.html">renderer.h</a>.</p>
+<p>Definition at line <a class="el" href="renderer_8h_source.html#l00103">103</a> of file <a class="el" href="renderer_8h_source.html">renderer.h</a>.</p>
 
-<p>Referenced by <a class="el" href="renderer_8h_source.html#l00080">draw()</a>.</p>
+<p>Referenced by <a class="el" href="renderer_8h_source.html#l00081">draw()</a>.</p>
 
 </div>
 </div>
@@ -632,9 +600,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="renderer_8h_source.html#l00120">120</a> of file <a class="el" href="renderer_8h_source.html">renderer.h</a>.</p>
+<p>Definition at line <a class="el" href="renderer_8h_source.html#l00103">103</a> of file <a class="el" href="renderer_8h_source.html">renderer.h</a>.</p>
 
-<p>Referenced by <a class="el" href="renderer_8h_source.html#l00080">draw()</a>.</p>
+<p>Referenced by <a class="el" href="renderer_8h_source.html#l00081">draw()</a>.</p>
 
 </div>
 </div>
@@ -656,9 +624,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="renderer_8h_source.html#l00117">117</a> of file <a class="el" href="renderer_8h_source.html">renderer.h</a>.</p>
+<p>Definition at line <a class="el" href="renderer_8h_source.html#l00099">99</a> of file <a class="el" href="renderer_8h_source.html">renderer.h</a>.</p>
 
-<p>Referenced by <a class="el" href="renderer_8h_source.html#l00054">ready()</a>, and <a class="el" href="renderer_8h_source.html#l00088">stop()</a>.</p>
+<p>Referenced by <a class="el" href="renderer_8h_source.html#l00055">ready()</a>, and <a class="el" href="renderer_8h_source.html#l00089">stop()</a>.</p>
 
 </div>
 </div>
@@ -680,9 +648,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="renderer_8h_source.html#l00118">118</a> of file <a class="el" href="renderer_8h_source.html">renderer.h</a>.</p>
+<p>Definition at line <a class="el" href="renderer_8h_source.html#l00101">101</a> of file <a class="el" href="renderer_8h_source.html">renderer.h</a>.</p>
 
-<p>Referenced by <a class="el" href="renderer_8h_source.html#l00072">set_data()</a>.</p>
+<p>Referenced by <a class="el" href="renderer_8h_source.html#l00073">set_data()</a>.</p>
 
 </div>
 </div>
@@ -704,9 +672,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="renderer_8h_source.html#l00114">114</a> of file <a class="el" href="renderer_8h_source.html">renderer.h</a>.</p>
+<p>Definition at line <a class="el" href="renderer_8h_source.html#l00097">97</a> of file <a class="el" href="renderer_8h_source.html">renderer.h</a>.</p>
 
-<p>Referenced by <a class="el" href="renderer_8h_source.html#l00058">compute_r_del_daz()</a>.</p>
+<p>Referenced by <a class="el" href="renderer_8h_source.html#l00059">compute_r_del_daz()</a>.</p>
 
 </div>
 </div>
@@ -728,29 +696,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="renderer_8h_source.html#l00119">119</a> of file <a class="el" href="renderer_8h_source.html">renderer.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="acfb0c5719e2f45f325798dd24d9769ce"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classMR_1_1GUI_1_1GL_1_1VertexBuffer.html">GL::VertexBuffer</a> MR::GUI::DWI::Renderer::vertex_buffer</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="renderer_8h_source.html#l00118">118</a> of file <a class="el" href="renderer_8h_source.html">renderer.h</a>.</p>
+<p>Definition at line <a class="el" href="renderer_8h_source.html#l00102">102</a> of file <a class="el" href="renderer_8h_source.html">renderer.h</a>.</p>
 
 </div>
 </div>
@@ -763,7 +709,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="namespaceMR_1_1GUI.html">GUI</a></li><li class="navelem"><a class="el" href="namespaceMR_1_1GUI_1_1DWI.html">DWI</a></li><li class="navelem"><a class="el" href="classMR_1_1GUI_1_1DWI_1_1Renderer.html">Renderer</a></li>
-    <li class="footer">Generated on Mon Apr 27 2015 17:39:25 for MRtrix by
+    <li class="footer">Generated on Wed Jul 29 2015 17:53:08 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

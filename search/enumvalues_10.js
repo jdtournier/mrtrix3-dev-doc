@@ -14,6 +14,7 @@ var searchData=
   ['r8_5fsnorm',['R8_SNORM',['../namespacegl.html#a91e4b8acdd36437953f66b651634fce6ae764cf10119d91b62886d02b04d1fa3d',1,'gl']]],
   ['r8i',['R8I',['../namespacegl.html#a91e4b8acdd36437953f66b651634fce6a061f58e223e3b29357d3c6cec01d98c8',1,'gl']]],
   ['r8ui',['R8UI',['../namespacegl.html#a91e4b8acdd36437953f66b651634fce6aa85bf4db752149f49d3931ceab4b5660',1,'gl']]],
+  ['random',['RANDOM',['../namespaceMR_1_1GUI_1_1MRView_1_1Tool.html#adb27f0866f8206c4bc6f29bda852be4ba170e02e86972c2be8559884cc3c12254',1,'MR::GUI::MRView::Tool']]],
   ['rasterizer_5fdiscard',['RASTERIZER_DISCARD',['../namespacegl.html#a91e4b8acdd36437953f66b651634fce6a621a3c230b9e50060ffb1e2d4ecba681',1,'gl']]],
   ['read_5fbuffer',['READ_BUFFER',['../namespacegl.html#a91e4b8acdd36437953f66b651634fce6a826aa271e087bdf559331764ada90f6e',1,'gl']]],
   ['read_5fframebuffer',['READ_FRAMEBUFFER',['../namespacegl.html#a91e4b8acdd36437953f66b651634fce6a22ccd63a888f72867af15deab381df3b',1,'gl']]],
@@ -92,5 +93,5 @@ var searchData=
   ['rgba8i',['RGBA8I',['../namespacegl.html#a91e4b8acdd36437953f66b651634fce6a816477ed8942c90b4681da9a4c04d663',1,'gl']]],
   ['rgba8ui',['RGBA8UI',['../namespacegl.html#a91e4b8acdd36437953f66b651634fce6a4fdddf5d26f631593541047f2c9e92da',1,'gl']]],
   ['rgba_5finteger',['RGBA_INTEGER',['../namespacegl.html#a91e4b8acdd36437953f66b651634fce6a1c730e6f682fdcb382afe72359548679',1,'gl']]],
-  ['right',['RIGHT',['../namespacegl.html#a91e4b8acdd36437953f66b651634fce6a5015a77d59c0dafcf325178d35b27c06',1,'gl']]]
+  ['right',['RIGHT',['../namespacegl.html#a91e4b8acdd36437953f66b651634fce6a5015a77d59c0dafcf325178d35b27c06',1,'gl::RIGHT()'],['../namespaceMR_1_1GUI_1_1MRView_1_1ColourMap.html#a0ad493d29631a0f0abf2e3b9afd4e901a79bfbfe341712c1d859c364243a3a953',1,'MR::GUI::MRView::ColourMap::Right()']]]
 ];

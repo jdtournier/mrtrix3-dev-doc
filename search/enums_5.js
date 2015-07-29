@@ -1,6 +1,8 @@
 var searchData=
 [
-  ['tck_5fstat_5ft',['tck_stat_t',['../namespaceMR_1_1DWI_1_1Tractography_1_1Mapping.html#a3fa21a08c7f0bffb34976f520d129275',1,'MR::DWI::Tractography::Mapping']]],
-  ['term_5ft',['term_t',['../namespaceMR_1_1DWI_1_1Tractography_1_1Tracking.html#a1c30c67185585a9f27b5a581050292f5',1,'MR::DWI::Tractography::Tracking']]],
-  ['trackcolourtype',['TrackColourType',['../namespaceMR_1_1GUI_1_1MRView_1_1Tool.html#aaaad2794ce9a61c10224a1e448785ed7',1,'MR::GUI::MRView::Tool']]]
+  ['node_5falpha_5ft',['node_alpha_t',['../namespaceMR_1_1GUI_1_1MRView_1_1Tool.html#af011816b3b5600155294c9d21505178a',1,'MR::GUI::MRView::Tool']]],
+  ['node_5fcolour_5ft',['node_colour_t',['../namespaceMR_1_1GUI_1_1MRView_1_1Tool.html#adb27f0866f8206c4bc6f29bda852be4b',1,'MR::GUI::MRView::Tool']]],
+  ['node_5fgeometry_5ft',['node_geometry_t',['../namespaceMR_1_1GUI_1_1MRView_1_1Tool.html#abc28e2ae93312e01595c326ab499e679',1,'MR::GUI::MRView::Tool']]],
+  ['node_5fsize_5ft',['node_size_t',['../namespaceMR_1_1GUI_1_1MRView_1_1Tool.html#a3311291cbca4b2603609de2c12d5d7e0',1,'MR::GUI::MRView::Tool']]],
+  ['node_5fvisibility_5ft',['node_visibility_t',['../namespaceMR_1_1GUI_1_1MRView_1_1Tool.html#a82711adfcd2d5eb552d65bbd3e11e6ca',1,'MR::GUI::MRView::Tool']]]
 ];

@@ -6,7 +6,7 @@ var classMR_1_1GUI_1_1GL_1_1Texture =
     [ "Texture", "classMR_1_1GUI_1_1GL_1_1Texture.html#afa47c3df73168d570d249ff742c32000", null ],
     [ "bind", "classMR_1_1GUI_1_1GL_1_1Texture.html#aeeeb66ce573c6f6b64e017c5805d0b3d", null ],
     [ "clear", "classMR_1_1GUI_1_1GL_1_1Texture.html#a78792918336afb6a688dc9488ebdef0f", null ],
-    [ "gen", "classMR_1_1GUI_1_1GL_1_1Texture.html#af5a0cd8c757b02d89fbc7a1f47f7e586", null ],
+    [ "gen", "classMR_1_1GUI_1_1GL_1_1Texture.html#a475b59fc56940960d592156cb72219aa", null ],
     [ "operator GLuint", "classMR_1_1GUI_1_1GL_1_1Texture.html#aa1d4f5ce9040bbee0220d99f93f19951", null ],
     [ "operator=", "classMR_1_1GUI_1_1GL_1_1Texture.html#a192ca819f1c37df8581284d749aed69e", null ],
     [ "set_interp", "classMR_1_1GUI_1_1GL_1_1Texture.html#a68f8097deb79fa59efbd87b5585ee847", null ],

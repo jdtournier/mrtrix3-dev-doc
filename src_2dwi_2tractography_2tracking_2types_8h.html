@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">MRtrix
-   &#160;<span id="projectnumber">0.3.12-365-ged27dfbe</span>
+   &#160;<span id="projectnumber">0.3.12-732-g65ed7a3c</span>
    </div>
    <div id="projectbrief">MRtrix provides a set of tools to perform diffusion-weighted MR white-matter tractography in a manner robust to crossing fibres, using constrained spherical deconvolution (CSD) and probabilistic streamlines.</div>
   </td>
@@ -113,31 +113,24 @@ $(document).ready(function(){initNavTree('src_2dwi_2tractography_2tracking_2type
 <a href="#define-members">Macros</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">types.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;stdint.h&gt;</code><br />
-<code>#include &lt;complex&gt;</code><br />
-<code>#include &quot;<a class="el" href="buffer__preload_8h_source.html">image/buffer_preload.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="buffer__preload_8h_source.html">image/buffer_preload.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="linear_8h_source.html">image/interp/linear.h</a>&quot;</code><br />
 </div>
 <p><a href="src_2dwi_2tractography_2tracking_2types_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1container__cast.html">MR::container_cast&lt; T &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1Interpolator.html">MR::DWI::Tractography::Tracking::Interpolator&lt; VoxelType &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespaceMR"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespacestd"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacestd.html">std</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespaceMR_1_1DWI"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1DWI.html">MR::DWI</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -148,14 +141,6 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ga587ba4d66cf53e7de57f71997aaa1993"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VLA.html#ga587ba4d66cf53e7de57f71997aaa1993">VLA</a>(<a class="el" href="thread_8h.html#ac673bc430bdc3fdaa09f7becf98ef267">name</a>,  type,  <a class="el" href="thread_8h.html#a140d449f4eaaa9afc56f07abb4922597">num</a>)&#160;&#160;&#160;type <a class="el" href="thread_8h.html#ac673bc430bdc3fdaa09f7becf98ef267">name</a>[<a class="el" href="thread_8h.html#a140d449f4eaaa9afc56f07abb4922597">num</a>]</td></tr>
-<tr class="separator:ga587ba4d66cf53e7de57f71997aaa1993"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5b4337ca14d00af715a3548de3d9bb84"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VLA.html#ga5b4337ca14d00af715a3548de3d9bb84">VLA_MAX</a>(<a class="el" href="thread_8h.html#ac673bc430bdc3fdaa09f7becf98ef267">name</a>,  type,  <a class="el" href="thread_8h.html#a140d449f4eaaa9afc56f07abb4922597">num</a>,  max)&#160;&#160;&#160;type <a class="el" href="thread_8h.html#ac673bc430bdc3fdaa09f7becf98ef267">name</a>[<a class="el" href="thread_8h.html#a140d449f4eaaa9afc56f07abb4922597">num</a>]</td></tr>
-<tr class="separator:ga5b4337ca14d00af715a3548de3d9bb84"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gafdeb6bac959b6c3716e6ea242e5bfd8c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VLA.html#gafdeb6bac959b6c3716e6ea242e5bfd8c">NON_POD_VLA</a>(<a class="el" href="thread_8h.html#ac673bc430bdc3fdaa09f7becf98ef267">name</a>,  type,  <a class="el" href="thread_8h.html#a140d449f4eaaa9afc56f07abb4922597">num</a>)&#160;&#160;&#160;type <a class="el" href="thread_8h.html#ac673bc430bdc3fdaa09f7becf98ef267">name</a>[<a class="el" href="thread_8h.html#a140d449f4eaaa9afc56f07abb4922597">num</a>]</td></tr>
-<tr class="separator:gafdeb6bac959b6c3716e6ea242e5bfd8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac4b223848b0e85a7cc733ae8261181cd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VLA.html#gac4b223848b0e85a7cc733ae8261181cd">NON_POD_VLA_MAX</a>(<a class="el" href="thread_8h.html#ac673bc430bdc3fdaa09f7becf98ef267">name</a>,  type,  <a class="el" href="thread_8h.html#a140d449f4eaaa9afc56f07abb4922597">num</a>,  max)&#160;&#160;&#160;type <a class="el" href="thread_8h.html#ac673bc430bdc3fdaa09f7becf98ef267">name</a>[<a class="el" href="thread_8h.html#a140d449f4eaaa9afc56f07abb4922597">num</a>]</td></tr>
-<tr class="separator:gac4b223848b0e85a7cc733ae8261181cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a869113fb71998652e5032c2aaf80acd0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="src_2dwi_2tractography_2tracking_2types_8h.html#a869113fb71998652e5032c2aaf80acd0">TERMINATION_REASON_COUNT</a>&#160;&#160;&#160;13</td></tr>
 <tr class="separator:a869113fb71998652e5032c2aaf80acd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b24e73a0437a8c6b813f55548c68929"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="src_2dwi_2tractography_2tracking_2types_8h.html#a8b24e73a0437a8c6b813f55548c68929">REJECTION_REASON_COUNT</a>&#160;&#160;&#160;6</td></tr>
@@ -163,14 +148,6 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:ae56c72247af15ef1ffc326c6ed4b7ac5"><td class="memItemLeft" align="right" valign="top">typedef float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ae56c72247af15ef1ffc326c6ed4b7ac5">MR::float32</a></td></tr>
-<tr class="separator:ae56c72247af15ef1ffc326c6ed4b7ac5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f19269a0f8ff470256e9b793e60b24a"><td class="memItemLeft" align="right" valign="top">typedef double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a5f19269a0f8ff470256e9b793e60b24a">MR::float64</a></td></tr>
-<tr class="separator:a5f19269a0f8ff470256e9b793e60b24a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99adc8169db44e1dc7e351feb7e8041e"><td class="memItemLeft" align="right" valign="top">typedef std::complex&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a99adc8169db44e1dc7e351feb7e8041e">MR::cdouble</a></td></tr>
-<tr class="separator:a99adc8169db44e1dc7e351feb7e8041e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3a6907cd4a6612defc12dee0928a713"><td class="memItemLeft" align="right" valign="top">typedef std::complex&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ad3a6907cd4a6612defc12dee0928a713">MR::cfloat</a></td></tr>
-<tr class="separator:ad3a6907cd4a6612defc12dee0928a713"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add5bf6a7a09c683f46d316836110c27c"><td class="memItemLeft" align="right" valign="top">typedef Image::BufferPreload&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1DWI_1_1Tractography_1_1Tracking.html#add5bf6a7a09c683f46d316836110c27c">MR::DWI::Tractography::Tracking::SourceBufferType</a></td></tr>
 <tr class="separator:add5bf6a7a09c683f46d316836110c27c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e3157441b469f6be14a96214dfe633e"><td class="memItemLeft" align="right" valign="top">typedef SourceBufferType::value_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1DWI_1_1Tractography_1_1Tracking.html#a6e3157441b469f6be14a96214dfe633e">MR::DWI::Tractography::Tracking::value_type</a></td></tr>
@@ -209,15 +186,6 @@ Enumerations</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="separator:ad956382fab3ffe08fe6398044e9ae01a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a91be51640ed06aa50e92247a4d945cf0"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacestd.html#a91be51640ed06aa50e92247a4d945cf0">std::abs</a> (uint8_t x)</td></tr>
-<tr class="separator:a91be51640ed06aa50e92247a4d945cf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7c200cc7c846acf0de19c96405363f7"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacestd.html#ab7c200cc7c846acf0de19c96405363f7">std::abs</a> (uint16_t x)</td></tr>
-<tr class="separator:ab7c200cc7c846acf0de19c96405363f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1690cc9ad6e93e9c6b6356f762623a28"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacestd.html#a1690cc9ad6e93e9c6b6356f762623a28">std::abs</a> (uint32_t x)</td></tr>
-<tr class="separator:a1690cc9ad6e93e9c6b6356f762623a28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -262,8 +230,8 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_9236bed5acffad77d942815f2449fb47.html">src</a></li><li class="navelem"><a class="el" href="dir_8de64bfa8ed84e298c15944df16c60aa.html">dwi</a></li><li class="navelem"><a class="el" href="dir_8b6baf0bc7d97497f7bded807c83fa3a.html">tractography</a></li><li class="navelem"><a class="el" href="dir_e1529e16aa0be30ad8166e17acb5ae49.html">tracking</a></li><li class="navelem"><a class="el" href="src_2dwi_2tractography_2tracking_2types_8h.html">types.h</a></li>
-    <li class="footer">Generated on Mon Apr 27 2015 17:39:24 for MRtrix by
+    <li class="navelem"><a class="el" href="dir_3111b5213a18295c2b9490b065e7a22d.html">src</a></li><li class="navelem"><a class="el" href="dir_1117d21d66a2abc0838f3bb256b178f7.html">dwi</a></li><li class="navelem"><a class="el" href="dir_b6fd20d81652ae2ca956f10ba03169dc.html">tractography</a></li><li class="navelem"><a class="el" href="dir_7e42d3501cee765834ee6e4e88c8fc4d.html">tracking</a></li><li class="navelem"><a class="el" href="src_2dwi_2tractography_2tracking_2types_8h.html">types.h</a></li>
+    <li class="footer">Generated on Wed Jul 29 2015 17:53:07 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

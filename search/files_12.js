@@ -1,6 +1,7 @@
 var searchData=
 [
   ['tck2nodes_2eh',['tck2nodes.h',['../tck2nodes_8h.html',1,'']]],
+  ['tckfactor_2eh',['tckfactor.h',['../tckfactor_8h.html',1,'']]],
   ['tensor_2eh',['tensor.h',['../tensor_8h.html',1,'']]],
   ['tensor_5fdet_2eh',['tensor_det.h',['../tensor__det_8h.html',1,'']]],
   ['tensor_5fprob_2eh',['tensor_prob.h',['../tensor__prob_8h.html',1,'']]],
@@ -21,7 +22,8 @@ var searchData=
   ['transformation_2eh',['transformation.h',['../transformation_8h.html',1,'']]],
   ['tree_2eh',['tree.h',['../tree_8h.html',1,'']]],
   ['twi_5fstats_2eh',['twi_stats.h',['../twi__stats_8h.html',1,'']]],
-  ['types_2eh',['types.h',['../lib_2types_8h.html',1,'']]],
+  ['types_2eh',['types.h',['../src_2dwi_2tractography_2tracking_2types_8h.html',1,'']]],
   ['types_2eh',['types.h',['../src_2dwi_2tractography_2SIFT_2types_8h.html',1,'']]],
-  ['types_2eh',['types.h',['../src_2dwi_2tractography_2tracking_2types_8h.html',1,'']]]
+  ['types_2eh',['types.h',['../src_2gui_2mrview_2tool_2connectome_2types_8h.html',1,'']]],
+  ['types_2eh',['types.h',['../lib_2types_8h.html',1,'']]]
 ];

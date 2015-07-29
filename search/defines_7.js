@@ -1,9 +1,12 @@
 var searchData=
 [
+  ['gl_5fcheck_5ferror',['GL_CHECK_ERROR',['../gl_8h.html#a56aaa83bc346bbef34e231c43cb3b443',1,'gl.h']]],
   ['gl_5fdebug',['GL_DEBUG',['../gl_8h.html#a8a31ac6dd0e201fd95db18657c964219',1,'gl.h']]],
   ['gl_5fload_5fgen_5fbasic_5fopengl_5ftypedefs',['GL_LOAD_GEN_BASIC_OPENGL_TYPEDEFS',['../gl__core__3__3_8h.html#a58ed63087f841c8e6b0c696996440e27',1,'gl_core_3_3.h']]],
   ['glapi',['GLAPI',['../gl__core__3__3_8h.html#abad5ea874b73fa802c9ac0f5488bf9b5',1,'gl_core_3_3.h']]],
   ['glext_5f64_5ftypes_5fdefined',['GLEXT_64_TYPES_DEFINED',['../gl__core__3__3_8h.html#ae5ae8f2a7fffbb79e4c4562d6f3ff015',1,'gl_core_3_3.h']]],
+  ['glgetbool',['GLGETBOOL',['../gl_8h.html#a662100242de696bb405e1a052d33601b',1,'gl.h']]],
+  ['glgetint',['GLGETINT',['../gl_8h.html#a4f6046e0939787bc3c4b898a7576f2b0',1,'gl.h']]],
   ['glm_5fbatch_5fsize',['GLM_BATCH_SIZE',['../glm_8h.html#ab994a79b4e752d48ae9b0a0af61b1b09',1,'glm.h']]],
   ['gmwmi_5faccuracy',['GMWMI_ACCURACY',['../act_8h.html#af67b0ac2d9093b126e76386caeb2be7f',1,'act.h']]],
   ['gmwmi_5fhermite_5ftension',['GMWMI_HERMITE_TENSION',['../ACT_2gmwmi_8h.html#adcd6086eedda90d9afbaa24e9d1dd581',1,'gmwmi.h']]],

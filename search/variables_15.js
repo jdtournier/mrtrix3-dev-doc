@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['v',['v',['../classMR_1_1GUI_1_1GL_1_1vec4.html#a554ecf36168a7f4698df0e30fc7e75e0',1,'MR::GUI::GL::vec4::v()'],['../classMR_1_1File_1_1KeyValue.html#a3cd704e71a191bd3246e1d8451f664ba',1,'MR::File::KeyValue::V()'],['../classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1Tensor__Det.html#aac7f8e0cbdcfb8b6e59f7cd1d282926c',1,'MR::DWI::Tractography::Algorithms::Tensor_Det::V()']]],
+  ['v',['V',['../classMR_1_1File_1_1KeyValue.html#a3cd704e71a191bd3246e1d8451f664ba',1,'MR::File::KeyValue::V()'],['../classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1Tensor__Det.html#aac7f8e0cbdcfb8b6e59f7cd1d282926c',1,'MR::DWI::Tractography::Algorithms::Tensor_Det::V()'],['../classMR_1_1GUI_1_1GL_1_1vec4.html#a554ecf36168a7f4698df0e30fc7e75e0',1,'MR::GUI::GL::vec4::v()']]],
   ['v2s',['V2S',['../classMR_1_1Image_1_1Transform.html#a5312ec55a400408adfb2d45c65a91e68',1,'MR::Image::Transform']]],
   ['v_5fcounts',['v_counts',['../classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1MapWriterBase.html#a0a61782f6f6bd2556a1f8c15c51df50b',1,'MR::DWI::Tractography::Mapping::MapWriterBase']]],
   ['val_5faxis',['val_axis',['../classMR_1_1Image_1_1MatrixMultiply.html#a4a083b8edd04d3b4f09baca4d426e837',1,'MR::Image::MatrixMultiply']]],
@@ -16,7 +16,8 @@ var searchData=
   ['vb',['VB',['../classMR_1_1GUI_1_1MRView_1_1ColourMap_1_1Renderer.html#adfa534a0376fe2996530767dae4459a2',1,'MR::GUI::MRView::ColourMap::Renderer']]],
   ['version',['version',['../structmgh__header.html#a57eec8439b0d9121eb387786b34e9e6f',1,'mgh_header']]],
   ['vertex_5farray_5fobject',['vertex_array_object',['../classMR_1_1GUI_1_1DWI_1_1Renderer.html#a7f98c7cfd80440f3f1a9d7aac10c6b94',1,'MR::GUI::DWI::Renderer::vertex_array_object()'],['../classMR_1_1GUI_1_1MRView_1_1Volume.html#ad16c8bceb7f583d3fbe484bbfca4b153',1,'MR::GUI::MRView::Volume::vertex_array_object()'],['../classMR_1_1GUI_1_1GL_1_1Font.html#a00976d5fe1d606066301d7276ad9fc8f',1,'MR::GUI::GL::Font::vertex_array_object()']]],
-  ['vertex_5fbuffer',['vertex_buffer',['../classMR_1_1GUI_1_1DWI_1_1Renderer.html#acfb0c5719e2f45f325798dd24d9769ce',1,'MR::GUI::DWI::Renderer::vertex_buffer()'],['../classMR_1_1GUI_1_1MRView_1_1Volume.html#aba105b905b9ab91b3d432f29fab1345b',1,'MR::GUI::MRView::Volume::vertex_buffer()'],['../classMR_1_1GUI_1_1GL_1_1Font.html#a1bf385c468835eb73cf2e1ef1b268288',1,'MR::GUI::GL::Font::vertex_buffer()']]],
+  ['vertex_5fbuffer',['vertex_buffer',['../classMR_1_1GUI_1_1MRView_1_1Volume.html#aba105b905b9ab91b3d432f29fab1345b',1,'MR::GUI::MRView::Volume::vertex_buffer()'],['../classMR_1_1GUI_1_1GL_1_1Font.html#a1bf385c468835eb73cf2e1ef1b268288',1,'MR::GUI::GL::Font::vertex_buffer()'],['../classMR_1_1GUI_1_1Shapes_1_1Cube.html#a6327ee8f2bffe2183c8dc74c456113c9',1,'MR::GUI::Shapes::Cube::vertex_buffer()'],['../classMR_1_1GUI_1_1Shapes_1_1Cylinder.html#a97e1177bd9ddb9331eba44121578fa6d',1,'MR::GUI::Shapes::Cylinder::vertex_buffer()'],['../classMR_1_1GUI_1_1Shapes_1_1HalfSphere.html#a909cb071f9682064609157674de44ea3',1,'MR::GUI::Shapes::HalfSphere::vertex_buffer()'],['../classMR_1_1GUI_1_1Shapes_1_1Sphere.html#ad62b0a147ac0d4e1b09366a1db27beda',1,'MR::GUI::Shapes::Sphere::vertex_buffer()']]],
+  ['vertex_5fshader_5fsource',['vertex_shader_source',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1ShaderBase.html#aae5273be79d8d3085a6fb5522a3d641f',1,'MR::GUI::MRView::Tool::ShaderBase']]],
   ['vertexattrib1d',['VertexAttrib1d',['../namespacegl.html#a27f945110f9aac67b53adbc0ba7ca332',1,'gl']]],
   ['vertexattrib1dv',['VertexAttrib1dv',['../namespacegl.html#ac1f2a7addf75bdfe948465324d9a515e',1,'gl']]],
   ['vertexattrib1f',['VertexAttrib1f',['../namespacegl.html#a38a71b31566bce6afb9329c90fb914ae',1,'gl']]],
@@ -84,9 +85,10 @@ var searchData=
   ['vertexattribp4ui',['VertexAttribP4ui',['../namespacegl.html#af9de4cd20c225ae50e98aadb726a5ba2',1,'gl']]],
   ['vertexattribp4uiv',['VertexAttribP4uiv',['../namespacegl.html#af13ff87b0a7f6bfa32e5a654660169c4',1,'gl']]],
   ['vertexattribpointer',['VertexAttribPointer',['../namespacegl.html#a339ee9b35f91c04aeb98e7fd63f35d89',1,'gl']]],
-  ['vertices',['vertices',['../classMR_1_1GUI_1_1MRView_1_1Volume.html#a3727675dd7d751795dc1de9224ff59cb',1,'MR::GUI::MRView::Volume']]],
+  ['vertices',['vertices',['../classMR_1_1GUI_1_1MRView_1_1Volume.html#a3727675dd7d751795dc1de9224ff59cb',1,'MR::GUI::MRView::Volume::vertices()'],['../classMR_1_1GUI_1_1Shapes_1_1HalfSphere.html#aa63fbcd355b4e01d1eae57a176b3a633',1,'MR::GUI::Shapes::HalfSphere::vertices()'],['../classMR_1_1GUI_1_1Shapes_1_1Sphere.html#a7a8eaf2bf2556b630cc94f89bd11902e',1,'MR::GUI::Shapes::Sphere::vertices()'],['../classMR_1_1Mesh_1_1Mesh.html#a37309d71987af05750d997dbc4148a0a',1,'MR::Mesh::Mesh::vertices()']]],
   ['view_5fangle',['view_angle',['../classMR_1_1GUI_1_1DWI_1_1RenderFrame.html#adf527e5d8607855b51e06ae16855da91',1,'MR::GUI::DWI::RenderFrame']]],
   ['viewport',['viewport',['../classMR_1_1GUI_1_1Projection.html#a33f9c3aea68a2a8c4ad363d3492e58ff',1,'MR::GUI::Projection::viewport()'],['../namespacegl.html#a52e6a78c7276b7d451bfa8b539a6ce0b',1,'gl::Viewport()']]],
+  ['visible',['visible',['../classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base.html#a82518161c48a6ece9c2cf78287ee570d',1,'MR::GUI::MRView::Mode::Base']]],
   ['volume',['volume',['../classMR_1_1DWI_1_1Tractography_1_1Seeding_1_1Base.html#aab9182ae96f52427f6aefa4666d5d030',1,'MR::DWI::Tractography::Seeding::Base']]],
   ['volume_5fshader',['volume_shader',['../classMR_1_1GUI_1_1MRView_1_1Mode_1_1Volume.html#a5efba7d1e8f0390aa9db5fb4cd633229',1,'MR::GUI::MRView::Mode::Volume']]],
   ['volume_5fvao',['volume_VAO',['../classMR_1_1GUI_1_1MRView_1_1Mode_1_1Volume.html#a977f67a718b93d774782393cb8ceba71',1,'MR::GUI::MRView::Mode::Volume']]],
@@ -98,6 +100,7 @@ var searchData=
   ['voxel_5fbuffer',['voxel_buffer',['../classMR_1_1DWI_1_1Bootstrap.html#a73ba635d9c1f45842c60c9118ec5b662',1,'MR::DWI::Bootstrap']]],
   ['voxel_5fstatistic',['voxel_statistic',['../classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1MapWriterBase.html#aab34c550426f0b3a166997ef517daa2f',1,'MR::DWI::Tractography::Mapping::MapWriterBase']]],
   ['voxel_5fstatistics',['voxel_statistics',['../namespaceMR_1_1DWI_1_1Tractography_1_1Mapping.html#a1bc27cc64ba468710dc6d893b026e7c7',1,'MR::DWI::Tractography::Mapping']]],
+  ['voxel_5fto_5findices_5fmap',['voxel_to_indices_map',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1AbstractFixel.html#ab04e71a882e55962d66e082b09fe8604',1,'MR::GUI::MRView::Tool::AbstractFixel']]],
   ['voxels',['voxels',['../classMR_1_1DWI_1_1Bootstrap.html#a7d3d0d71081817b13a759d5a159ac8f8',1,'MR::DWI::Bootstrap']]],
   ['voxelsize',['voxelsize',['../classMR_1_1Image_1_1Transform.html#a3ce1302dfe9f081ab008959b08acb045',1,'MR::Image::Transform']]],
   ['vr',['vr',['../classMR_1_1File_1_1Dicom_1_1CSAEntry.html#a0817613b4dd1ef5f9deca03c93cf19e1',1,'MR::File::Dicom::CSAEntry::vr()'],['../classMR_1_1File_1_1Dicom_1_1Element.html#a13740d6f2c5a67940448889058302c08',1,'MR::File::Dicom::Element::VR()']]]
