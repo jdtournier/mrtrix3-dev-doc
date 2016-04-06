@@ -84,7 +84,7 @@ var searchData=
   ['optiongroup',['OptionGroup',['../group___cmd_parse.html#ga3acd185be454d84d0b40c88c4f87a396',1,'MR::App::OptionGroup']]],
   ['optiongroup',['OptionGroup',['../class_m_r_1_1_app_1_1_option_group.html',1,'MR::App']]],
   ['optionlist',['OptionList',['../class_m_r_1_1_app_1_1_option_list.html',1,'MR::App']]],
-  ['options',['Options',['../group___cmd_parse.html#gabfa275a2475993fcbc4c531048fac09a',1,'MR::App::ParsedArgument::Options()'],['../class_m_r_1_1_data_type.html#aa481b47058a814ec6fb3e160647f74f5',1,'MR::DataType::options()'],['../namespace_m_r_1_1_stats.html#afc73ab20cfc9d67794df025ec9d8f2af',1,'MR::Stats::Options()'],['../namespace_m_r_1_1_stride.html#ad97ecc7633858fe47d6723c0aa3e562e',1,'MR::Stride::Options()'],['../group___cmd_parse.html#ga35c7c52f630a8bbc6ea7147c8860ec01',1,'MR::App::OPTIONS()']]],
+  ['options',['Options',['../group___cmd_parse.html#gabfa275a2475993fcbc4c531048fac09a',1,'MR::App::ParsedArgument::Options()'],['../class_m_r_1_1_data_type.html#aa481b47058a814ec6fb3e160647f74f5',1,'MR::DataType::options()'],['../group___cmd_parse.html#ga35c7c52f630a8bbc6ea7147c8860ec01',1,'MR::App::OPTIONS()'],['../namespace_m_r_1_1_stats.html#afc73ab20cfc9d67794df025ec9d8f2af',1,'MR::Stats::Options()'],['../namespace_m_r_1_1_stride.html#ad97ecc7633858fe47d6723c0aa3e562e',1,'MR::Stride::Options()']]],
   ['optshift',['optshift',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_m_h_sampler.html#ab729703e5361bc70753a045dda222317',1,'MR::DWI::Tractography::GT::MHSampler']]],
   ['order',['order',['../namespace_m_r_1_1_stride.html#aa41e5622b38166debaac4d11b1ef7154',1,'MR::Stride']]],
   ['order_3c_20list_20_3e',['order&lt; List &gt;',['../namespace_m_r_1_1_stride.html#a75fb7d5c97d27d0df0d1ec2a3c488214',1,'MR::Stride']]],

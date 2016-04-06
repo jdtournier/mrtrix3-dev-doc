@@ -35,7 +35,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.13-910-gf911defe</div>
+   <div id="projectbrief">Version 0.3.13-916-ga29a7570-dirty</div>
   </td>
  </tr>
  </tbody>
@@ -294,7 +294,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ad5789c69fa339ecce281f4cb0b42c37c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#ad5789c69fa339ecce281f4cb0b42c37c">copy_with_progress_message</a> (const std::string &amp;message, InputImageType &amp;&amp;source, OutputImageType &amp;&amp;destination, size_t from_axis=0, size_t to_axis=std::numeric_limits&lt; size_t &gt;::max())</td></tr>
 <tr class="separator:ad5789c69fa339ecce281f4cb0b42c37c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga2210102d90cf5ddfe7089fc025e7a3d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="src_2gui_2mrview_2tool_2connectome_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> <a class="el" href="struct_m_r_1_1_loop_along_axes.html">LoopAlongAxes</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">Loop</a> ()</td></tr>
-<tr class="memdesc:ga2210102d90cf5ddfe7089fc025e7a3d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">a class to loop over arbitrary numbers and orders of axes of a ImageType  <a href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">More...</a><br /></td></tr>
 <tr class="separator:ga2210102d90cf5ddfe7089fc025e7a3d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga836a9b113e4562342e5dd92cfc7dadac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="src_2gui_2mrview_2tool_2connectome_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> <a class="el" href="struct_m_r_1_1_loop_along_axes_progress.html">LoopAlongAxesProgress</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__loop.html#ga836a9b113e4562342e5dd92cfc7dadac">Loop</a> (const std::string &amp;progress_message)</td></tr>
 <tr class="separator:ga836a9b113e4562342e5dd92cfc7dadac"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -341,30 +340,30 @@ Functions</h2></td></tr>
 <tr class="memitem:a0cda45f79df958c498cda9566ad3c859"><td class="memTemplParams" colspan="2">template&lt;class InputImageType , class OutputImageType &gt; </td></tr>
 <tr class="memitem:a0cda45f79df958c498cda9566ad3c859"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a0cda45f79df958c498cda9566ad3c859">threaded_copy_with_progress</a> (InputImageType &amp;source, OutputImageType &amp;destination, size_t from_axis=0, size_t to_axis=std::numeric_limits&lt; size_t &gt;::max(), size_t num_axes_in_thread=1)</td></tr>
 <tr class="separator:a0cda45f79df958c498cda9566ad3c859"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaabd8f92107cecfc3c11490e5630283e0"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
-<tr class="memitem:gaabd8f92107cecfc3c11490e5630283e0"><td class="memTemplItemLeft" align="right" valign="top">ThreadedLoopRunOuter&lt; decltype(<a class="el" href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">Loop</a>(std::vector&lt; size_t &gt;)))&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__loop.html#gaabd8f92107cecfc3c11490e5630283e0">ThreadedLoop</a> (const HeaderType &amp;source, const std::vector&lt; size_t &gt; &amp;outer_axes, const std::vector&lt; size_t &gt; &amp;inner_axes)</td></tr>
-<tr class="memdesc:gaabd8f92107cecfc3c11490e5630283e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multi-threaded loop object.  <a href="group__loop.html#gaabd8f92107cecfc3c11490e5630283e0">More...</a><br /></td></tr>
-<tr class="separator:gaabd8f92107cecfc3c11490e5630283e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2be46056dfcc1577cb62fa8ab3993341"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
-<tr class="memitem:ga2be46056dfcc1577cb62fa8ab3993341"><td class="memTemplItemLeft" align="right" valign="top">ThreadedLoopRunOuter&lt; decltype(<a class="el" href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">Loop</a>(std::vector&lt; size_t &gt;)))&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__loop.html#ga2be46056dfcc1577cb62fa8ab3993341">ThreadedLoop</a> (const HeaderType &amp;source, const std::vector&lt; size_t &gt; &amp;axes, size_t num_inner_axes=1)</td></tr>
-<tr class="memdesc:ga2be46056dfcc1577cb62fa8ab3993341"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multi-threaded loop object.  <a href="group__loop.html#ga2be46056dfcc1577cb62fa8ab3993341">More...</a><br /></td></tr>
-<tr class="separator:ga2be46056dfcc1577cb62fa8ab3993341"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga85794d3439789d9f44afa1c3140f5747"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
-<tr class="memitem:ga85794d3439789d9f44afa1c3140f5747"><td class="memTemplItemLeft" align="right" valign="top">ThreadedLoopRunOuter&lt; decltype(<a class="el" href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">Loop</a>(std::vector&lt; size_t &gt;)))&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__loop.html#ga85794d3439789d9f44afa1c3140f5747">ThreadedLoop</a> (const HeaderType &amp;source, size_t from_axis=0, size_t to_axis=std::numeric_limits&lt; size_t &gt;::max(), size_t num_inner_axes=1)</td></tr>
-<tr class="memdesc:ga85794d3439789d9f44afa1c3140f5747"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multi-threaded loop object.  <a href="group__loop.html#ga85794d3439789d9f44afa1c3140f5747">More...</a><br /></td></tr>
-<tr class="separator:ga85794d3439789d9f44afa1c3140f5747"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2d494554f8a055216aa4045abf11da41"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
-<tr class="memitem:ga2d494554f8a055216aa4045abf11da41"><td class="memTemplItemLeft" align="right" valign="top">ThreadedLoopRunOuter&lt; decltype(<a class="el" href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">Loop</a>(&quot;&quot;, std::vector&lt; size_t &gt;)))&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__loop.html#ga2d494554f8a055216aa4045abf11da41">ThreadedLoop</a> (const std::string &amp;progress_message, const HeaderType &amp;source, const std::vector&lt; size_t &gt; &amp;outer_axes, const std::vector&lt; size_t &gt; &amp;inner_axes)</td></tr>
-<tr class="memdesc:ga2d494554f8a055216aa4045abf11da41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multi-threaded loop object.  <a href="group__loop.html#ga2d494554f8a055216aa4045abf11da41">More...</a><br /></td></tr>
-<tr class="separator:ga2d494554f8a055216aa4045abf11da41"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad98ca1694ab37158ccd3c2a2d6562865"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
-<tr class="memitem:gad98ca1694ab37158ccd3c2a2d6562865"><td class="memTemplItemLeft" align="right" valign="top">ThreadedLoopRunOuter&lt; decltype(<a class="el" href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">Loop</a>(&quot;&quot;, std::vector&lt; size_t &gt;)))&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__loop.html#gad98ca1694ab37158ccd3c2a2d6562865">ThreadedLoop</a> (const std::string &amp;progress_message, const HeaderType &amp;source, const std::vector&lt; size_t &gt; &amp;axes, size_t num_inner_axes=1)</td></tr>
-<tr class="memdesc:gad98ca1694ab37158ccd3c2a2d6562865"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multi-threaded loop object.  <a href="group__loop.html#gad98ca1694ab37158ccd3c2a2d6562865">More...</a><br /></td></tr>
-<tr class="separator:gad98ca1694ab37158ccd3c2a2d6562865"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2d369bd78659f693b9a830fc8929bdbf"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
-<tr class="memitem:ga2d369bd78659f693b9a830fc8929bdbf"><td class="memTemplItemLeft" align="right" valign="top">ThreadedLoopRunOuter&lt; decltype(<a class="el" href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">Loop</a>(&quot;&quot;, std::vector&lt; size_t &gt;)))&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__loop.html#ga2d369bd78659f693b9a830fc8929bdbf">ThreadedLoop</a> (const std::string &amp;progress_message, const HeaderType &amp;source, size_t from_axis=0, size_t to_axis=std::numeric_limits&lt; size_t &gt;::max(), size_t num_inner_axes=1)</td></tr>
-<tr class="memdesc:ga2d369bd78659f693b9a830fc8929bdbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multi-threaded loop object.  <a href="group__loop.html#ga2d369bd78659f693b9a830fc8929bdbf">More...</a><br /></td></tr>
-<tr class="separator:ga2d369bd78659f693b9a830fc8929bdbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabd8f92107cecfc3c11490e5630283e0"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
+<tr class="memitem:aabd8f92107cecfc3c11490e5630283e0"><td class="memTemplItemLeft" align="right" valign="top">ThreadedLoopRunOuter&lt; decltype(<a class="el" href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">Loop</a>(std::vector&lt; size_t &gt;)))&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#aabd8f92107cecfc3c11490e5630283e0">ThreadedLoop</a> (const HeaderType &amp;source, const std::vector&lt; size_t &gt; &amp;outer_axes, const std::vector&lt; size_t &gt; &amp;inner_axes)</td></tr>
+<tr class="memdesc:aabd8f92107cecfc3c11490e5630283e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multi-threaded loop object.  <a href="#aabd8f92107cecfc3c11490e5630283e0">More...</a><br /></td></tr>
+<tr class="separator:aabd8f92107cecfc3c11490e5630283e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2be46056dfcc1577cb62fa8ab3993341"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
+<tr class="memitem:a2be46056dfcc1577cb62fa8ab3993341"><td class="memTemplItemLeft" align="right" valign="top">ThreadedLoopRunOuter&lt; decltype(<a class="el" href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">Loop</a>(std::vector&lt; size_t &gt;)))&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a2be46056dfcc1577cb62fa8ab3993341">ThreadedLoop</a> (const HeaderType &amp;source, const std::vector&lt; size_t &gt; &amp;axes, size_t num_inner_axes=1)</td></tr>
+<tr class="memdesc:a2be46056dfcc1577cb62fa8ab3993341"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multi-threaded loop object.  <a href="#a2be46056dfcc1577cb62fa8ab3993341">More...</a><br /></td></tr>
+<tr class="separator:a2be46056dfcc1577cb62fa8ab3993341"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85794d3439789d9f44afa1c3140f5747"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
+<tr class="memitem:a85794d3439789d9f44afa1c3140f5747"><td class="memTemplItemLeft" align="right" valign="top">ThreadedLoopRunOuter&lt; decltype(<a class="el" href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">Loop</a>(std::vector&lt; size_t &gt;)))&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a85794d3439789d9f44afa1c3140f5747">ThreadedLoop</a> (const HeaderType &amp;source, size_t from_axis=0, size_t to_axis=std::numeric_limits&lt; size_t &gt;::max(), size_t num_inner_axes=1)</td></tr>
+<tr class="memdesc:a85794d3439789d9f44afa1c3140f5747"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multi-threaded loop object.  <a href="#a85794d3439789d9f44afa1c3140f5747">More...</a><br /></td></tr>
+<tr class="separator:a85794d3439789d9f44afa1c3140f5747"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d494554f8a055216aa4045abf11da41"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
+<tr class="memitem:a2d494554f8a055216aa4045abf11da41"><td class="memTemplItemLeft" align="right" valign="top">ThreadedLoopRunOuter&lt; decltype(<a class="el" href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">Loop</a>(&quot;&quot;, std::vector&lt; size_t &gt;)))&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a2d494554f8a055216aa4045abf11da41">ThreadedLoop</a> (const std::string &amp;progress_message, const HeaderType &amp;source, const std::vector&lt; size_t &gt; &amp;outer_axes, const std::vector&lt; size_t &gt; &amp;inner_axes)</td></tr>
+<tr class="memdesc:a2d494554f8a055216aa4045abf11da41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multi-threaded loop object.  <a href="#a2d494554f8a055216aa4045abf11da41">More...</a><br /></td></tr>
+<tr class="separator:a2d494554f8a055216aa4045abf11da41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad98ca1694ab37158ccd3c2a2d6562865"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
+<tr class="memitem:ad98ca1694ab37158ccd3c2a2d6562865"><td class="memTemplItemLeft" align="right" valign="top">ThreadedLoopRunOuter&lt; decltype(<a class="el" href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">Loop</a>(&quot;&quot;, std::vector&lt; size_t &gt;)))&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#ad98ca1694ab37158ccd3c2a2d6562865">ThreadedLoop</a> (const std::string &amp;progress_message, const HeaderType &amp;source, const std::vector&lt; size_t &gt; &amp;axes, size_t num_inner_axes=1)</td></tr>
+<tr class="memdesc:ad98ca1694ab37158ccd3c2a2d6562865"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multi-threaded loop object.  <a href="#ad98ca1694ab37158ccd3c2a2d6562865">More...</a><br /></td></tr>
+<tr class="separator:ad98ca1694ab37158ccd3c2a2d6562865"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d369bd78659f693b9a830fc8929bdbf"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
+<tr class="memitem:a2d369bd78659f693b9a830fc8929bdbf"><td class="memTemplItemLeft" align="right" valign="top">ThreadedLoopRunOuter&lt; decltype(<a class="el" href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">Loop</a>(&quot;&quot;, std::vector&lt; size_t &gt;)))&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a2d369bd78659f693b9a830fc8929bdbf">ThreadedLoop</a> (const std::string &amp;progress_message, const HeaderType &amp;source, size_t from_axis=0, size_t to_axis=std::numeric_limits&lt; size_t &gt;::max(), size_t num_inner_axes=1)</td></tr>
+<tr class="memdesc:a2d369bd78659f693b9a830fc8929bdbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multi-threaded loop object.  <a href="#a2d369bd78659f693b9a830fc8929bdbf">More...</a><br /></td></tr>
+<tr class="separator:a2d369bd78659f693b9a830fc8929bdbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0baf271715d25380d2e39b46692b3178"><td class="memTemplParams" colspan="2">template&lt;class F , class T &gt; </td></tr>
 <tr class="memitem:a0baf271715d25380d2e39b46692b3178"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="src_2gui_2mrview_2tool_2connectome_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a0baf271715d25380d2e39b46692b3178">apply</a> (F &amp;&amp;f, T &amp;&amp;t)</td></tr>
 <tr class="memdesc:a0baf271715d25380d2e39b46692b3178"><td class="mdescLeft">&#160;</td><td class="mdescRight">invoke <code>f(x)</code> for each entry in <code>t</code>  <a href="#a0baf271715d25380d2e39b46692b3178">More...</a><br /></td></tr>
@@ -3542,6 +3541,312 @@ template&lt;class InputImageType , class OutputImageType &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="aabd8f92107cecfc3c11490e5630283e0"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class HeaderType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ThreadedLoopRunOuter&lt;decltype(<a class="el" href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">Loop</a>(std::vector&lt;size_t&gt;)))&gt; MR::ThreadedLoop </td>
+          <td>(</td>
+          <td class="paramtype">const HeaderType &amp;&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; size_t &gt; &amp;&#160;</td>
+          <td class="paramname"><em>outer_axes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; size_t &gt; &amp;&#160;</td>
+          <td class="paramname"><em>inner_axes</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Multi-threaded loop object. </p>
+
+<p>Definition at line <a class="el" href="threaded__loop_8h_source.html#l00379">379</a> of file <a class="el" href="threaded__loop_8h_source.html">threaded_loop.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2be46056dfcc1577cb62fa8ab3993341"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class HeaderType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ThreadedLoopRunOuter&lt;decltype(<a class="el" href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">Loop</a>(std::vector&lt;size_t&gt;)))&gt; MR::ThreadedLoop </td>
+          <td>(</td>
+          <td class="paramtype">const HeaderType &amp;&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; size_t &gt; &amp;&#160;</td>
+          <td class="paramname"><em>axes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>num_inner_axes</em> = <code>1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Multi-threaded loop object. </p>
+
+<p>Definition at line <a class="el" href="threaded__loop_8h_source.html#l00390">390</a> of file <a class="el" href="threaded__loop_8h_source.html">threaded_loop.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a85794d3439789d9f44afa1c3140f5747"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class HeaderType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ThreadedLoopRunOuter&lt;decltype(<a class="el" href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">Loop</a>(std::vector&lt;size_t&gt;)))&gt; MR::ThreadedLoop </td>
+          <td>(</td>
+          <td class="paramtype">const HeaderType &amp;&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>from_axis</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>to_axis</em> = <code>std::numeric_limits&lt;size_t&gt;::max()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>num_inner_axes</em> = <code>1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Multi-threaded loop object. </p>
+
+<p>Definition at line <a class="el" href="threaded__loop_8h_source.html#l00400">400</a> of file <a class="el" href="threaded__loop_8h_source.html">threaded_loop.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2d494554f8a055216aa4045abf11da41"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class HeaderType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ThreadedLoopRunOuter&lt;decltype(<a class="el" href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">Loop</a>(&quot;&quot;, std::vector&lt;size_t&gt;)))&gt; MR::ThreadedLoop </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>progress_message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const HeaderType &amp;&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; size_t &gt; &amp;&#160;</td>
+          <td class="paramname"><em>outer_axes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; size_t &gt; &amp;&#160;</td>
+          <td class="paramname"><em>inner_axes</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Multi-threaded loop object. </p>
+
+<p>Definition at line <a class="el" href="threaded__loop_8h_source.html#l00413">413</a> of file <a class="el" href="threaded__loop_8h_source.html">threaded_loop.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad98ca1694ab37158ccd3c2a2d6562865"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class HeaderType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ThreadedLoopRunOuter&lt;decltype(<a class="el" href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">Loop</a>(&quot;&quot;, std::vector&lt;size_t&gt;)))&gt; MR::ThreadedLoop </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>progress_message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const HeaderType &amp;&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; size_t &gt; &amp;&#160;</td>
+          <td class="paramname"><em>axes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>num_inner_axes</em> = <code>1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Multi-threaded loop object. </p>
+
+<p>Definition at line <a class="el" href="threaded__loop_8h_source.html#l00424">424</a> of file <a class="el" href="threaded__loop_8h_source.html">threaded_loop.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2d369bd78659f693b9a830fc8929bdbf"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class HeaderType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ThreadedLoopRunOuter&lt;decltype(<a class="el" href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">Loop</a>(&quot;&quot;, std::vector&lt;size_t&gt;)))&gt; MR::ThreadedLoop </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>progress_message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const HeaderType &amp;&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>from_axis</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>to_axis</em> = <code>std::numeric_limits&lt;size_t&gt;::max()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>num_inner_axes</em> = <code>1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Multi-threaded loop object. </p>
+
+<p>Definition at line <a class="el" href="threaded__loop_8h_source.html#l00437">437</a> of file <a class="el" href="threaded__loop_8h_source.html">threaded_loop.h</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ad5a737bfbb3fcb51accf1a329da6fb7c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -3962,7 +4267,7 @@ template&lt;class HeaderType &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li>
-    <li class="footer">Generated on Wed Apr 6 2016 14:16:09 for MRtrix by
+    <li class="footer">Generated on Wed Apr 6 2016 15:06:16 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

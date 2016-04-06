@@ -35,7 +35,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.13-910-gf911defe</div>
+   <div id="projectbrief">Version 0.3.13-916-ga29a7570-dirty</div>
   </td>
  </tr>
  </tbody>
@@ -128,7 +128,7 @@ Modules</h2></td></tr>
 <p>These functions and associated classes provide a simple interface for multi-threading in MRtrix applications. Most of the low-level funtionality relies on the C++11 <code>std::thread</code> API. MRtrix3 builds on this to add three convenience methods:</p>
 <ul>
 <li><a class="el" href="group__thread__basics.html#gaab961106219ef4fa4076d24edb123b48">Thread::run()</a> to launch one or more worker threads;</li>
-<li>ThreadedLoop() to run an operation over all voxels in one or more images;</li>
+<li><a class="el" href="group__image__thread__looping.html">ThreadedLoop()</a> to run an operation over all voxels in one or more images;</li>
 <li><a class="el" href="group__thread__queue.html#gaad717471c1771f5e794d0d8907cc3efc">Thread::run_queue()</a> to run a pipeline, with one or more threads feeding data through to one or more other threads (potentially with further stages in the pipeline).</li>
 </ul>
 <p>These APIs provide simple and convenient ways of multi-threading, and should be sufficient for the vast majority of applications.</p>
@@ -143,7 +143,7 @@ threaded_loop </dd>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Apr 6 2016 14:16:09 for MRtrix by
+    <li class="footer">Generated on Wed Apr 6 2016 15:06:16 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

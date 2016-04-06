@@ -9,7 +9,7 @@ var searchData=
   ['opaque_5fintensity',['opaque_intensity',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_displayable.html#acba4193a50251d6436309b711073957d',1,'MR::GUI::MRView::Displayable']]],
   ['opt',['opt',['../group___cmd_parse.html#gabad6a8342c9037c226bb82ec03f21dbf',1,'MR::App::ParsedOption']]],
   ['option',['option',['../group___cmd_parse.html#ga6a0ea4e6be0eb2c0f07085b1dd3ee7ae',1,'MR::App']]],
-  ['options',['Options',['../namespace_m_r_1_1_stats.html#afc73ab20cfc9d67794df025ec9d8f2af',1,'MR::Stats::Options()'],['../namespace_m_r_1_1_stride.html#ad97ecc7633858fe47d6723c0aa3e562e',1,'MR::Stride::Options()'],['../group___cmd_parse.html#ga35c7c52f630a8bbc6ea7147c8860ec01',1,'MR::App::OPTIONS()']]],
+  ['options',['OPTIONS',['../group___cmd_parse.html#ga35c7c52f630a8bbc6ea7147c8860ec01',1,'MR::App::OPTIONS()'],['../namespace_m_r_1_1_stats.html#afc73ab20cfc9d67794df025ec9d8f2af',1,'MR::Stats::Options()'],['../namespace_m_r_1_1_stride.html#ad97ecc7633858fe47d6723c0aa3e562e',1,'MR::Stride::Options()']]],
   ['orientation',['orientation',['../class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_render_frame.html#a260d5a63c93e220a093f0b2525b71917',1,'MR::GUI::DWI::RenderFrame']]],
   ['orientation_5fx',['orientation_x',['../class_m_r_1_1_file_1_1_dicom_1_1_frame.html#a98bb033d2b94ba8457a0507b9945e14a',1,'MR::File::Dicom::Frame']]],
   ['orientation_5fy',['orientation_y',['../class_m_r_1_1_file_1_1_dicom_1_1_frame.html#a09dd8e4eca44637e15f26b673d251807',1,'MR::File::Dicom::Frame']]],
