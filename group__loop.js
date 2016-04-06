@@ -134,11 +134,5 @@ var group__loop =
     [ "Loop", "group__loop.html#ga6fd81b111f8010de1c1dbb350e26ed4e", null ],
     [ "Loop", "group__loop.html#ga030c0d9f8083592169bc8382bd1e6e96", null ],
     [ "Loop", "group__loop.html#gab92f1de29d3c2403a121c4ed08e8dd35", null ],
-    [ "Loop", "group__loop.html#gace4f2b69ecd9a3e0e547ba369b3b279a", null ],
-    [ "ThreadedLoop", "group__loop.html#gaabd8f92107cecfc3c11490e5630283e0", null ],
-    [ "ThreadedLoop", "group__loop.html#ga2be46056dfcc1577cb62fa8ab3993341", null ],
-    [ "ThreadedLoop", "group__loop.html#ga85794d3439789d9f44afa1c3140f5747", null ],
-    [ "ThreadedLoop", "group__loop.html#ga2d494554f8a055216aa4045abf11da41", null ],
-    [ "ThreadedLoop", "group__loop.html#gad98ca1694ab37158ccd3c2a2d6562865", null ],
-    [ "ThreadedLoop", "group__loop.html#ga2d369bd78659f693b9a830fc8929bdbf", null ]
+    [ "Loop", "group__loop.html#gace4f2b69ecd9a3e0e547ba369b3b279a", null ]
 ];
