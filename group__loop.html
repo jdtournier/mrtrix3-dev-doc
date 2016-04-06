@@ -139,7 +139,6 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ga2210102d90cf5ddfe7089fc025e7a3d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="src_2gui_2mrview_2tool_2connectome_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> LoopAlongAxes&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">MR::Loop</a> ()</td></tr>
-<tr class="memdesc:ga2210102d90cf5ddfe7089fc025e7a3d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">a class to loop over arbitrary numbers and orders of axes of a ImageType  <a href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">More...</a><br /></td></tr>
 <tr class="separator:ga2210102d90cf5ddfe7089fc025e7a3d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga836a9b113e4562342e5dd92cfc7dadac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="src_2gui_2mrview_2tool_2connectome_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> LoopAlongAxesProgress&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__loop.html#ga836a9b113e4562342e5dd92cfc7dadac">MR::Loop</a> (const std::string &amp;progress_message)</td></tr>
 <tr class="separator:ga836a9b113e4562342e5dd92cfc7dadac"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -167,7 +166,28 @@ Functions</h2></td></tr>
 <tr class="separator:gace4f2b69ecd9a3e0e547ba369b3b279a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<h2 class="groupheader">Function Documentation</h2>
+<p>These functions can be used to loop over any number of axes of one of more <code>ImageType</code>, in any specified order, within the same thread of execution (for multi-threaded applications, see <a class="el" href="namespace_m_r.html#aabd8f92107cecfc3c11490e5630283e0" title="Multi-threaded loop object. ">ThreadedLoop()</a>).</p>
+<h1><a class="anchor" id="loop_single_axis"></a>
+Looping over a single axis   </h1>
+<p>To loop over a single axis, use the following syntax: </p><div class="fragment"><div class="line"><span class="keyword">auto</span> loop = <a class="code" href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">Loop</a> (<a class="code" href="noise__estimator_8h.html#a884869744ebf14a092b339ae65c2af37">axis</a>);</div><div class="line"><span class="keywordflow">for</span> (<span class="keyword">auto</span> l = loop (image); l; ++l) {</div><div class="line">  <span class="comment">// do something:</span></div><div class="line">  image.value() = ...</div><div class="line">}</div></div><!-- fragment --><p>To clarify the process:</p>
+<ul>
+<li>the <a class="el" href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">Loop()</a> method returns an opaque structure, in this case destined to loop over a single axis, as specified by <code>axis</code> (the C++11 <code>auto</code> keyword is very useful here to hide the internals of the framework).</li>
+<li>the <code>operator()</code> method of the returned object accepts any number of <code>ImageType</code> objects, each of which will have its position incremented as expected at each iteration.</li>
+<li>this returns another opaque object that will perfom the looping proper (again, the C++11 <code>auto</code> keyword is invaluable here). This is assigned to a local variable, which can be used to test for completion of the loop (via its <code>operator bool()</code> method), and to increment the position of the <code>ImageType</code> objects involved (with its <code>operator++()</code> methods).</li>
+</ul>
+<h1><a class="anchor" id="loop_smallest_stride"></a>
+Looping with smallest stride first   </h1>
+<p>The looping strategy most likely to make most efficient use of the memory infrastructure is one where the innermost loop iterates over the axis with the smallest absolute stride, since voxels along this axis are most likely to be adjacent. This is most likely to optimise both throughput to and from system RAM or disk (which are typically optimised for bursts of contiguous sections of memory), and CPU cache usage.</p>
+<p>The LoopInOrder class is designed to facilitate this. In the following example, the ImageType of interest is passed as an argument to the constructor, so that its strides can be used to compute the nesting order for the loops over the corresponding axes. Here, we assume that <em>vox</em> is a 3D ImageType (i.e. vox.ndim() == 3) with strides [ 2 -1 3 ]: </p><div class="fragment"><div class="line"><span class="keywordtype">float</span> sum = 0.0;</div><div class="line"><span class="keywordflow">for</span> (<span class="keyword">auto</span> i = Image::LoopInOrder().<a class="code" href="app_8h.html#a13a43e6d814de94978c515cb084873b1">run</a> (vox); i; ++i)</div><div class="line">  sum += vox.value();</div></div><!-- fragment --><p> This is equivalent to: </p><div class="fragment"><div class="line"><span class="keywordtype">float</span> sum = 0.0;</div><div class="line"><span class="keywordflow">for</span> (vox.index(2) = 0; vox.index(2) &lt; vox.size(2); ++vox.index(2))</div><div class="line">  <span class="keywordflow">for</span> (vox.index(0) = 0; vox.index(0) &lt; vox.size(0); ++vox.index(0))</div><div class="line">    <span class="keywordflow">for</span> (vox.index(1) = 0; vox.index(1) &lt; vox.size(1); ++vox.index(1))</div><div class="line">      sum += vox.value();</div></div><!-- fragment --><h1><a class="anchor" id="restrictedorderloop"></a>
+Looping over a specific range of axes</h1>
+<p>It is also possible to explicitly specify the range of axes to be looped over. In the following example, the program will loop over each 3D volume in the ImageType in turn using the Loop class, and use the LoopInOrder class to iterate over the axes of each volume to ensure efficient memory bandwidth use when each volume is being processed. </p><div class="fragment"><div class="line"><span class="comment">// define inner loop to iterate over axes 0 to 2</span></div><div class="line">LoopInOrder inner (vox, 0, 3);</div><div class="line"></div><div class="line"><span class="comment">// outer loop iterates over axes 3 and above:</span></div><div class="line"><span class="keywordflow">for</span> (<span class="keyword">auto</span> i = <a class="code" href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">Loop</a>(3).<a class="code" href="app_8h.html#a13a43e6d814de94978c515cb084873b1">run</a> (vox); i; ++i) {</div><div class="line">  <span class="keywordtype">float</span> sum = 0.0;</div><div class="line">  <span class="keywordflow">for</span> (<span class="keyword">auto</span> j = inner.run (vox); j; ++j) {</div><div class="line">    sum += vox.value();</div><div class="line">  <a class="code" href="namespace_m_r.html#a66792f7e70e2ea8b404314eeebcd4dbb">print</a> (<span class="stringliteral">&quot;total = &quot;</span> + <a class="code" href="namespace_m_r.html#a7dcea37fdb5fba1961d121fca36c22c4">str</a> (sum) + <span class="stringliteral">&quot;\n&quot;</span>);</div><div class="line">}</div></div><!-- fragment --><h1><a class="anchor" id="arbitraryorderloop"></a>
+Arbitrary order loop</h1>
+<p>It is also possible to specify the looping order explictly, as in the following example: </p><div class="fragment"><div class="line"><span class="keywordtype">float</span> <a class="code" href="namespace_m_r_1_1_helper.html#a9ed82e28212c8811db24b655e7ba8e61">value</a> = 0.0;</div><div class="line">std::vector&lt;size_t&gt; <a class="code" href="namespace_m_r_1_1_stride.html#aa41e5622b38166debaac4d11b1ef7154">order</a> = { 1, 0, 2 };</div><div class="line"></div><div class="line">LoopInOrder loop (vox, order);</div><div class="line"><span class="keywordflow">for</span> (<span class="keyword">auto</span> i = loop.run (vox); i; ++i) </div><div class="line">  value += std::exp (-vox.value());</div></div><!-- fragment --><p> This will iterate over the axes in the same order as the first example above, irrespective of the strides of the ImageType.</p>
+<h1><a class="anchor" id="multiorderloop"></a>
+Looping over multiple ImageType objects:</h1>
+<p>As with the Loop class, it is possible to loop over more than one ImageType of the same dimensions, by passing any additional ImageType objects to be looped over to the <a class="el" href="app_8h.html#a13a43e6d814de94978c515cb084873b1">run()</a> member function. For example, this code snippet will copy the contents of the ImageType <em>src</em> into a ImageType <em>dest</em> (assumed to have the same dimensions as <em>src</em>), with the looping order optimised for the <em>src</em> ImageType: </p><div class="fragment"><div class="line">LoopInOrder loop (src);</div><div class="line"><span class="keywordflow">for</span> (<span class="keyword">auto</span> i = loop.run(src, dest); i; ++i) </div><div class="line">  dest.value() = src.value();</div></div><!-- fragment --><h1><a class="anchor" id="progressloopinroder"></a>
+Displaying progress status</h1>
+<p>As in the Loop class, the LoopInOrder object can also display its progress as it proceeds, using the appropriate constructor. In the following example, the program will display its progress as it averages an ImageType: </p><div class="fragment"><div class="line"><span class="keywordtype">float</span> sum = 0.0;</div><div class="line"></div><div class="line">LoopInOrder loop (vox, <span class="stringliteral">&quot;averaging&quot;</span>);</div><div class="line"><span class="keywordflow">for</span> (<span class="keyword">auto</span> i = loop.run (vox); i; ++i)</div><div class="line">  sum += vox.value();</div><div class="line"></div><div class="line"><span class="keywordtype">float</span> average = sum / float (<a class="code" href="namespace_m_r.html#aa502f88e507ef7a04f2208f4bff1373b">Image::voxel_count</a> (vox));</div><div class="line"><a class="code" href="namespace_m_r.html#a66792f7e70e2ea8b404314eeebcd4dbb">print</a> (<span class="stringliteral">&quot;average = &quot;</span> + <a class="code" href="namespace_m_r.html#a7dcea37fdb5fba1961d121fca36c22c4">str</a> (average) + <span class="stringliteral">&quot;\n&quot;</span>);</div></div><!-- fragment --><p> The output would look something like this: </p><div class="fragment"><div class="line">myprogram: [100%] averaging</div><div class="line">average = 23.42</div></div><!-- fragment --> <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="ga2210102d90cf5ddfe7089fc025e7a3d8"></a>
 <div class="memitem">
 <div class="memproto">
@@ -181,21 +201,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>a class to loop over arbitrary numbers and orders of axes of a ImageType </p>
-<p>This class can be used to loop over any number of axes of one of more <code>ImageType</code>, in any specified order, within the same thread of execution (for multi-threaded applications, see <a class="el" href="namespace_m_r.html#aabd8f92107cecfc3c11490e5630283e0" title="Multi-threaded loop object. ">ThreadedLoop()</a>).</p>
-<h1><a class="anchor" id="loop_single_axis"></a>
-Looping over a single axis   </h1>
-<p>To loop over a single axis, use the following syntax: </p><div class="fragment"><div class="line"><span class="keyword">auto</span> loop = <a class="code" href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">Loop</a> (<a class="code" href="noise__estimator_8h.html#a884869744ebf14a092b339ae65c2af37">axis</a>);</div><div class="line"><span class="keywordflow">for</span> (<span class="keyword">auto</span> l = loop (image); l; ++l) {</div><div class="line">  <span class="comment">// do something:</span></div><div class="line">  image.value() = ...</div><div class="line">}</div></div><!-- fragment --><p>To clarify the process:</p>
-<ul>
-<li>the <a class="el" href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8" title="a class to loop over arbitrary numbers and orders of axes of a ImageType ">Loop()</a> method returns an opaque structure, in this case destined to loop over a single axis, as specified by <code>axis</code> (the C++11 <code>auto</code> keyword is very useful here to hide the internals of the framework).</li>
-<li>the <code>operator()</code> method of the returned object accepts any number of <code>ImageType</code> objects, each of which will have its position incremented as expected at each iteration.</li>
-<li>this returns another opaque object that will perfom the looping proper (again, the C++11 <code>auto</code> keyword is invaluable here). This is assigned to a local variable, which can be used to test for completion of the loop (via its <code>operator bool()</code> method), and to increment the position of the <code>ImageType</code> objects involved (with its <code>operator++()</code> methods).</li>
-</ul>
-<h1><a class="anchor" id="loop_smallest_stride"></a>
-Looping with smallest stride first   </h1>
-<p>The looping strategy most likely to make most efficient use of the memory infrastructure is one where the innermost loop iterates over the axis with the smallest absolute stride, since voxels along this axis are most likely to be adjacent. This is most likely to optimise both throughput to and from system RAM or disk (which are typically optimised for bursts of contiguous sections of memory), and CPU cache usage.</p>
-<p>The LoopInOrder class is designed to facilitate this. In the following example, the ImageType of interest is passed as an argument to the constructor, so that its strides can be used to compute the nesting order for the loops over the corresponding axes. Here, we assume that <em>vox</em> is a 3D ImageType (i.e. vox.ndim() == 3) with strides [ 2 -1 3 ]: </p><div class="fragment"><div class="line"><span class="keywordtype">float</span> sum = 0.0;</div><div class="line"><span class="keywordflow">for</span> (<span class="keyword">auto</span> i = Image::LoopInOrder().<a class="code" href="app_8h.html#a13a43e6d814de94978c515cb084873b1">run</a> (vox); i; ++i)</div><div class="line">  sum += vox.value();</div></div><!-- fragment --><p> This is equivalent to: </p><div class="fragment"><div class="line"><span class="keywordtype">float</span> sum = 0.0;</div><div class="line"><span class="keywordflow">for</span> (vox.index(2) = 0; vox.index(2) &lt; vox.size(2); ++vox.index(2))</div><div class="line">  <span class="keywordflow">for</span> (vox.index(0) = 0; vox.index(0) &lt; vox.size(0); ++vox.index(0))</div><div class="line">    <span class="keywordflow">for</span> (vox.index(1) = 0; vox.index(1) &lt; vox.size(1); ++vox.index(1))</div><div class="line">      sum += vox.value();</div></div><!-- fragment --> 
-<p>Definition at line <a class="el" href="loop_8h_source.html#l00418">418</a> of file <a class="el" href="loop_8h_source.html">loop.h</a>.</p>
+<p>Definition at line <a class="el" href="loop_8h_source.html#l00417">417</a> of file <a class="el" href="loop_8h_source.html">loop.h</a>.</p>
 
 </div>
 </div>
@@ -213,7 +219,7 @@ Looping with smallest stride first   </h1>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="loop_8h_source.html#l00419">419</a> of file <a class="el" href="loop_8h_source.html">loop.h</a>.</p>
+<p>Definition at line <a class="el" href="loop_8h_source.html#l00418">418</a> of file <a class="el" href="loop_8h_source.html">loop.h</a>.</p>
 
 </div>
 </div>
@@ -231,7 +237,7 @@ Looping with smallest stride first   </h1>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="loop_8h_source.html#l00420">420</a> of file <a class="el" href="loop_8h_source.html">loop.h</a>.</p>
+<p>Definition at line <a class="el" href="loop_8h_source.html#l00419">419</a> of file <a class="el" href="loop_8h_source.html">loop.h</a>.</p>
 
 </div>
 </div>
@@ -259,7 +265,7 @@ Looping with smallest stride first   </h1>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="loop_8h_source.html#l00421">421</a> of file <a class="el" href="loop_8h_source.html">loop.h</a>.</p>
+<p>Definition at line <a class="el" href="loop_8h_source.html#l00420">420</a> of file <a class="el" href="loop_8h_source.html">loop.h</a>.</p>
 
 </div>
 </div>
@@ -287,7 +293,7 @@ Looping with smallest stride first   </h1>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="loop_8h_source.html#l00422">422</a> of file <a class="el" href="loop_8h_source.html">loop.h</a>.</p>
+<p>Definition at line <a class="el" href="loop_8h_source.html#l00421">421</a> of file <a class="el" href="loop_8h_source.html">loop.h</a>.</p>
 
 </div>
 </div>
@@ -321,7 +327,7 @@ Looping with smallest stride first   </h1>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="loop_8h_source.html#l00423">423</a> of file <a class="el" href="loop_8h_source.html">loop.h</a>.</p>
+<p>Definition at line <a class="el" href="loop_8h_source.html#l00422">422</a> of file <a class="el" href="loop_8h_source.html">loop.h</a>.</p>
 
 </div>
 </div>
@@ -339,7 +345,7 @@ Looping with smallest stride first   </h1>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="loop_8h_source.html#l00424">424</a> of file <a class="el" href="loop_8h_source.html">loop.h</a>.</p>
+<p>Definition at line <a class="el" href="loop_8h_source.html#l00423">423</a> of file <a class="el" href="loop_8h_source.html">loop.h</a>.</p>
 
 </div>
 </div>
@@ -367,7 +373,7 @@ Looping with smallest stride first   </h1>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="loop_8h_source.html#l00425">425</a> of file <a class="el" href="loop_8h_source.html">loop.h</a>.</p>
+<p>Definition at line <a class="el" href="loop_8h_source.html#l00424">424</a> of file <a class="el" href="loop_8h_source.html">loop.h</a>.</p>
 
 </div>
 </div>
@@ -385,7 +391,7 @@ Looping with smallest stride first   </h1>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="loop_8h_source.html#l00426">426</a> of file <a class="el" href="loop_8h_source.html">loop.h</a>.</p>
+<p>Definition at line <a class="el" href="loop_8h_source.html#l00425">425</a> of file <a class="el" href="loop_8h_source.html">loop.h</a>.</p>
 
 </div>
 </div>
@@ -413,7 +419,7 @@ Looping with smallest stride first   </h1>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="loop_8h_source.html#l00427">427</a> of file <a class="el" href="loop_8h_source.html">loop.h</a>.</p>
+<p>Definition at line <a class="el" href="loop_8h_source.html#l00426">426</a> of file <a class="el" href="loop_8h_source.html">loop.h</a>.</p>
 
 </div>
 </div>
@@ -455,7 +461,7 @@ template&lt;class ImageType &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="loop_8h_source.html#l00431">431</a> of file <a class="el" href="loop_8h_source.html">loop.h</a>.</p>
+<p>Definition at line <a class="el" href="loop_8h_source.html#l00430">430</a> of file <a class="el" href="loop_8h_source.html">loop.h</a>.</p>
 
 </div>
 </div>
@@ -503,7 +509,7 @@ template&lt;class ImageType &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="loop_8h_source.html#l00437">437</a> of file <a class="el" href="loop_8h_source.html">loop.h</a>.</p>
+<p>Definition at line <a class="el" href="loop_8h_source.html#l00436">436</a> of file <a class="el" href="loop_8h_source.html">loop.h</a>.</p>
 
 </div>
 </div>
@@ -512,7 +518,7 @@ template&lt;class ImageType &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Apr 6 2016 13:29:18 for MRtrix by
+    <li class="footer">Generated on Wed Apr 6 2016 13:34:03 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
