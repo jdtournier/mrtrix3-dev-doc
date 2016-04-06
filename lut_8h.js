@@ -1,7 +1,8 @@
 var lut_8h =
 [
-    [ "Node_info", "classMR_1_1Connectome_1_1Node__info.html", "classMR_1_1Connectome_1_1Node__info" ],
-    [ "Node_map", "classMR_1_1Connectome_1_1Node__map.html", "classMR_1_1Connectome_1_1Node__map" ],
+    [ "Node_info", "class_m_r_1_1_connectome_1_1_node__info.html", "class_m_r_1_1_connectome_1_1_node__info" ],
+    [ "Node_map", "class_m_r_1_1_connectome_1_1_node__map.html", "class_m_r_1_1_connectome_1_1_node__map" ],
+    [ "RGB", "lut_8h.html#a8566d772a0dc256b113ffede29045626", null ],
     [ "lut_format", "lut_8h.html#a95a6341a40d83945472a8bba63c81c75", [
       [ "LUT_NONE", "lut_8h.html#a95a6341a40d83945472a8bba63c81c75a9b6caff33471a94acc5a16ad1d7a49e0", null ],
       [ "LUT_BASIC", "lut_8h.html#a95a6341a40d83945472a8bba63c81c75a0c6ba3be083fc3a0c1562ca081f2ede9", null ],

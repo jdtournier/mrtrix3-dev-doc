@@ -1,10 +1,8 @@
 var src_2dwi_2tractography_2tracking_2types_8h =
 [
-    [ "Interpolator", "classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1Interpolator.html", "classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1Interpolator" ],
+    [ "Interpolator", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_interpolator.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_interpolator" ],
     [ "REJECTION_REASON_COUNT", "src_2dwi_2tractography_2tracking_2types_8h.html#a8b24e73a0437a8c6b813f55548c68929", null ],
     [ "TERMINATION_REASON_COUNT", "src_2dwi_2tractography_2tracking_2types_8h.html#a869113fb71998652e5032c2aaf80acd0", null ],
-    [ "SourceBufferType", "src_2dwi_2tractography_2tracking_2types_8h.html#add5bf6a7a09c683f46d316836110c27c", null ],
-    [ "value_type", "src_2dwi_2tractography_2tracking_2types_8h.html#a6e3157441b469f6be14a96214dfe633e", null ],
     [ "reject_t", "src_2dwi_2tractography_2tracking_2types_8h.html#ad956382fab3ffe08fe6398044e9ae01a", [
       [ "TRACK_TOO_SHORT", "src_2dwi_2tractography_2tracking_2types_8h.html#ad956382fab3ffe08fe6398044e9ae01aa0754d23485a2ac2d2616e14debf5f993", null ],
       [ "TRACK_TOO_LONG", "src_2dwi_2tractography_2tracking_2types_8h.html#ad956382fab3ffe08fe6398044e9ae01aaf97cf82fd334b4924a364f43c60cb757", null ],

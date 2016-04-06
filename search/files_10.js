@@ -1,22 +1,5 @@
 var searchData=
 [
-  ['ram_2eh',['ram.h',['../ram_8h.html',1,'']]],
-  ['receiver_2eh',['receiver.h',['../receiver_8h.html',1,'']]],
-  ['reg_5fcalculator_2eh',['reg_calculator.h',['../reg__calculator_8h.html',1,'']]],
-  ['regularisation_2eh',['regularisation.h',['../regularisation_8h.html',1,'']]],
-  ['render_5fframe_2eh',['render_frame.h',['../render__frame_8h.html',1,'']]],
-  ['render_5fwindow_2eh',['render_window.h',['../render__window_8h.html',1,'']]],
-  ['renderer_2eh',['renderer.h',['../renderer_8h.html',1,'']]],
-  ['reorient_2eh',['reorient.h',['../reorient_8h.html',1,'']]],
-  ['replicate_2eh',['replicate.h',['../replicate_8h.html',1,'']]],
-  ['report_5fexception_2eh',['report_exception.h',['../report__exception_8h.html',1,'']]],
-  ['resample_2eh',['resample.h',['../resample_8h.html',1,'']]],
-  ['resize_2eh',['resize.h',['../resize_8h.html',1,'']]],
-  ['reslice_2eh',['reslice.h',['../filter_2reslice_8h.html',1,'']]],
-  ['reslice_2eh',['reslice.h',['../adapter_2reslice_8h.html',1,'']]],
-  ['rf_5festimation_2eh',['rf_estimation.h',['../rf__estimation_8h.html',1,'']]],
-  ['rician_2eh',['rician.h',['../rician_8h.html',1,'']]],
-  ['rng_2eh',['rng.h',['../rng_8h.html',1,'']]],
-  ['roi_2eh',['roi.h',['../dwi_2tractography_2roi_8h.html',1,'']]],
-  ['roi_2eh',['roi.h',['../gui_2mrview_2tool_2roi__editor_2roi_8h.html',1,'']]]
+  ['quadratic_5fline_5fsearch_2eh',['quadratic_line_search.h',['../quadratic__line__search_8h.html',1,'']]],
+  ['quick_5fscan_2eh',['quick_scan.h',['../quick__scan_8h.html',1,'']]]
 ];

@@ -1,19 +1,6 @@
 var searchData=
 [
-  ['nand',['NAND',['../namespacegl.html#a91e4b8acdd36437953f66b651634fce6aba4348c8fbdaa9ebb48ea7eef4b0574c',1,'gl']]],
-  ['nearest',['NEAREST',['../namespacegl.html#a91e4b8acdd36437953f66b651634fce6aaabaddb9332a636b07dc5023c4c5fb02',1,'gl']]],
-  ['nearest_5fmipmap_5flinear',['NEAREST_MIPMAP_LINEAR',['../namespacegl.html#a91e4b8acdd36437953f66b651634fce6a5c7e61e451cfe72e7471f175a99df50a',1,'gl']]],
-  ['nearest_5fmipmap_5fnearest',['NEAREST_MIPMAP_NEAREST',['../namespacegl.html#a91e4b8acdd36437953f66b651634fce6adf5042ae8e11f190de62cf52a65b2fbe',1,'gl']]],
-  ['never',['NEVER',['../namespacegl.html#a91e4b8acdd36437953f66b651634fce6af77465e3c982ffa8e4b36c521a194ad2',1,'gl']]],
-  ['nicest',['NICEST',['../namespacegl.html#a91e4b8acdd36437953f66b651634fce6a6e64f5f6c82eac724c23cf0736517d0c',1,'gl']]],
-  ['no_5ferror_5f',['NO_ERROR_',['../namespacegl.html#a91e4b8acdd36437953f66b651634fce6a93fc54b56ba8128288e8e60d0a4d7851',1,'gl']]],
-  ['node_5fvolume',['NODE_VOLUME',['../namespaceMR_1_1GUI_1_1MRView_1_1Tool.html#a3311291cbca4b2603609de2c12d5d7e0a84e918d20717fc0f948cebc1f0d6ad80',1,'MR::GUI::MRView::Tool']]],
-  ['nonconverging',['NONCONVERGING',['../group__Optimisation.html#gga142be9450c9aac5265dc923bab259fceacdfd6bb29ecdd532108415166c69c03e',1,'MR::Math::QuadraticLineSearch']]],
-  ['nonconvex',['NONCONVEX',['../group__Optimisation.html#gga142be9450c9aac5265dc923bab259fceaa00ffe3d33bb595c282fd1cd8dfa7fd2',1,'MR::Math::QuadraticLineSearch']]],
-  ['none',['None',['../namespaceMR_1_1GUI_1_1MRView_1_1ColourMap.html#a0ad493d29631a0f0abf2e3b9afd4e901a54b2d465ed9e653f247ae0f48a5d321d',1,'MR::GUI::MRView::ColourMap::None()'],['../namespacegl.html#a91e4b8acdd36437953f66b651634fce6a3c0321ee263a6534704c692eaa9c023a',1,'gl::NONE()'],['../namespaceMR_1_1GUI_1_1MRView_1_1Tool.html#a82711adfcd2d5eb552d65bbd3e11e6caab50339a10e1de285ac99d4c3990b8693',1,'MR::GUI::MRView::Tool::NONE()'],['../namespaceMR_1_1GUI_1_1MRView_1_1Tool.html#a4c5768658fab097817689a9c6de487e2ab50339a10e1de285ac99d4c3990b8693',1,'MR::GUI::MRView::Tool::NONE()']]],
-  ['noop',['NOOP',['../namespacegl.html#a91e4b8acdd36437953f66b651634fce6a8d0de1e6663dad7d0aa7352766767b7c',1,'gl']]],
-  ['nor',['NOR',['../namespacegl.html#a91e4b8acdd36437953f66b651634fce6a3acae809d685169e017ea7096c98d6d7',1,'gl']]],
-  ['notequal',['NOTEQUAL',['../namespacegl.html#a91e4b8acdd36437953f66b651634fce6a511d57072dc4d1f199231039ce0df4ec',1,'gl']]],
-  ['num_5fcompressed_5ftexture_5fformats',['NUM_COMPRESSED_TEXTURE_FORMATS',['../namespacegl.html#a91e4b8acdd36437953f66b651634fce6ab860e14cee889df611bd9a6739de9452',1,'gl']]],
-  ['num_5fextensions',['NUM_EXTENSIONS',['../namespacegl.html#a91e4b8acdd36437953f66b651634fce6ab413a261510c841f1a310a0c6131ef8f',1,'gl']]]
+  ['other',['OTHER',['../class_m_r_1_1_file_1_1_dicom_1_1_element.html#ae9217c91240fb8e69f77bf9f6a973173aa7231a47f65f351ee91c7bba994c8195',1,'MR::File::Dicom::Element']]],
+  ['outside_5fbounds',['OUTSIDE_BOUNDS',['../group___optimisation.html#gga142be9450c9aac5265dc923bab259fcea2bf76fde2951b3b7f6255db1be6fd680',1,'MR::Math::QuadraticLineSearch']]],
+  ['overlay',['OVERLAY',['../namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool.html#abc28e2ae93312e01595c326ab499e679a0395ef37aaf2724781e56e74c9cca583',1,'MR::GUI::MRView::Tool']]]
 ];

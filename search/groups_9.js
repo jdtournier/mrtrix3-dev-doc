@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['optimisation',['Optimisation',['../group__Optimisation.html',1,'']]]
+  ['spherical_20harmonics',['Spherical Harmonics',['../group__spherical__harmonics.html',1,'']]],
+  ['statistics',['Statistics',['../group___statistics.html',1,'']]]
 ];

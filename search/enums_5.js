@@ -1,8 +1,5 @@
 var searchData=
 [
-  ['node_5falpha_5ft',['node_alpha_t',['../namespaceMR_1_1GUI_1_1MRView_1_1Tool.html#af011816b3b5600155294c9d21505178a',1,'MR::GUI::MRView::Tool']]],
-  ['node_5fcolour_5ft',['node_colour_t',['../namespaceMR_1_1GUI_1_1MRView_1_1Tool.html#adb27f0866f8206c4bc6f29bda852be4b',1,'MR::GUI::MRView::Tool']]],
-  ['node_5fgeometry_5ft',['node_geometry_t',['../namespaceMR_1_1GUI_1_1MRView_1_1Tool.html#abc28e2ae93312e01595c326ab499e679',1,'MR::GUI::MRView::Tool']]],
-  ['node_5fsize_5ft',['node_size_t',['../namespaceMR_1_1GUI_1_1MRView_1_1Tool.html#a3311291cbca4b2603609de2c12d5d7e0',1,'MR::GUI::MRView::Tool']]],
-  ['node_5fvisibility_5ft',['node_visibility_t',['../namespaceMR_1_1GUI_1_1MRView_1_1Tool.html#a82711adfcd2d5eb552d65bbd3e11e6ca',1,'MR::GUI::MRView::Tool']]]
+  ['linearinterpprocessingtype',['LinearInterpProcessingType',['../group__interp.html#gad719d13abf54b60c8ae7adca3c7d7931',1,'MR::Interp']]],
+  ['lut_5fformat',['lut_format',['../namespace_m_r_1_1_connectome.html#a95a6341a40d83945472a8bba63c81c75',1,'MR::Connectome']]]
 ];

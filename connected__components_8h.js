@@ -1,6 +1,6 @@
 var connected__components_8h =
 [
-    [ "cluster", "classMR_1_1Image_1_1Filter_1_1cluster.html", "classMR_1_1Image_1_1Filter_1_1cluster" ],
-    [ "Connector", "classMR_1_1Image_1_1Filter_1_1Connector.html", "classMR_1_1Image_1_1Filter_1_1Connector" ],
-    [ "compare_clusters", "connected__components_8h.html#ab0d5880783add5c96d33d2acb1680b0c", null ]
+    [ "cluster", "class_m_r_1_1_filter_1_1cluster.html", "class_m_r_1_1_filter_1_1cluster" ],
+    [ "Connector", "class_m_r_1_1_filter_1_1_connector.html", "class_m_r_1_1_filter_1_1_connector" ],
+    [ "compare_clusters", "connected__components_8h.html#aa90e04e55a170e62f532bdd8a9ec7508", null ]
 ];

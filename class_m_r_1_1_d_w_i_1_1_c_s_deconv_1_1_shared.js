@@ -1,0 +1,26 @@
+var class_m_r_1_1_d_w_i_1_1_c_s_deconv_1_1_shared =
+[
+    [ "Shared", "class_m_r_1_1_d_w_i_1_1_c_s_deconv_1_1_shared.html#acdff1b22d33d0f67a23eb8bf63fd39cf", null ],
+    [ "init", "class_m_r_1_1_d_w_i_1_1_c_s_deconv_1_1_shared.html#a1a07c6a2dc5c1cc05a1cd9a383739d26", null ],
+    [ "nSH", "class_m_r_1_1_d_w_i_1_1_c_s_deconv_1_1_shared.html#af274db535af557b06ef4dab84e864c98", null ],
+    [ "parse_cmdline_options", "class_m_r_1_1_d_w_i_1_1_c_s_deconv_1_1_shared.html#a175d537cb803c62cff361985b013fcc6", null ],
+    [ "set_response", "class_m_r_1_1_d_w_i_1_1_c_s_deconv_1_1_shared.html#ac452cd06195557b08d8c1ce55ba9728c", null ],
+    [ "set_response", "class_m_r_1_1_d_w_i_1_1_c_s_deconv_1_1_shared.html#af94fcb716d021bb11777288a192132e6", null ],
+    [ "DW_dirs", "class_m_r_1_1_d_w_i_1_1_c_s_deconv_1_1_shared.html#a53580ea1e545c3297de845712b664463", null ],
+    [ "dwis", "class_m_r_1_1_d_w_i_1_1_c_s_deconv_1_1_shared.html#a707f8383ddd935a012192f08a87b55c5", null ],
+    [ "grad", "class_m_r_1_1_d_w_i_1_1_c_s_deconv_1_1_shared.html#a670a36788beb7d1dec86e8e6e42bff08", null ],
+    [ "HR_dirs", "class_m_r_1_1_d_w_i_1_1_c_s_deconv_1_1_shared.html#aff47986355f8f4c61dc5b447495945a6", null ],
+    [ "HR_trans", "class_m_r_1_1_d_w_i_1_1_c_s_deconv_1_1_shared.html#a07d57b7f695dcd8b2043a3430f95e70f", null ],
+    [ "init_filter", "class_m_r_1_1_d_w_i_1_1_c_s_deconv_1_1_shared.html#aeab6b0a2f18c154d718602bbb1328a2b", null ],
+    [ "lmax", "class_m_r_1_1_d_w_i_1_1_c_s_deconv_1_1_shared.html#a059b1bb9df7f9704c790c0e68b42615a", null ],
+    [ "lmax_data", "class_m_r_1_1_d_w_i_1_1_c_s_deconv_1_1_shared.html#ad2fecbbfac67b26724d9ed4963f203d4", null ],
+    [ "lmax_response", "class_m_r_1_1_d_w_i_1_1_c_s_deconv_1_1_shared.html#ad33fffe9ee15613b842a973031c59912", null ],
+    [ "M", "class_m_r_1_1_d_w_i_1_1_c_s_deconv_1_1_shared.html#aa9afa488845a82f7dc92331e82366881", null ],
+    [ "Mt_M", "class_m_r_1_1_d_w_i_1_1_c_s_deconv_1_1_shared.html#ae458c106298019dc55ab0b013904ae3b", null ],
+    [ "neg_lambda", "class_m_r_1_1_d_w_i_1_1_c_s_deconv_1_1_shared.html#aae624e6e91ecc9ca624c84dddf2301e5", null ],
+    [ "niter", "class_m_r_1_1_d_w_i_1_1_c_s_deconv_1_1_shared.html#a47fa5104559c54fd315c3e66fce15b89", null ],
+    [ "norm_lambda", "class_m_r_1_1_d_w_i_1_1_c_s_deconv_1_1_shared.html#a287d63c4e7d4dd724953ee59c1753258", null ],
+    [ "rconv", "class_m_r_1_1_d_w_i_1_1_c_s_deconv_1_1_shared.html#a2afe5ddf921eded6a424c4684c0f8466", null ],
+    [ "response", "class_m_r_1_1_d_w_i_1_1_c_s_deconv_1_1_shared.html#a3a3e7ef0624becf2573fe0a15d1beba6", null ],
+    [ "threshold", "class_m_r_1_1_d_w_i_1_1_c_s_deconv_1_1_shared.html#a093d4271af6a9244fbb0178ce7d3df01", null ]
+];

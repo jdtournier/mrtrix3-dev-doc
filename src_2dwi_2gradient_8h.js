@@ -1,16 +1,17 @@
 var src_2dwi_2gradient_8h =
 [
-    [ "check_DW_scheme", "src_2dwi_2gradient_8h.html#a091d77b52efd3d7da89564245362d8ab", null ],
-    [ "compute_SH2amp_mapping", "src_2dwi_2gradient_8h.html#a624016e92c3eb27bf4e2bd9cf1673c51", null ],
-    [ "condition_number_for_lmax", "src_2dwi_2gradient_8h.html#a9a74b51e88f18ad0fdfcbf10d1633c11", null ],
-    [ "export_grad_commandline", "src_2dwi_2gradient_8h.html#a7b16f20d63f81a9c45eb981c29fd675f", null ],
-    [ "gen_direction_matrix", "src_2dwi_2gradient_8h.html#acf8c3d453c94ea6c42cadd458287b740", null ],
-    [ "get_DW_scheme", "src_2dwi_2gradient_8h.html#ac9eb81e3f16d520da80ae8187396b89a", null ],
-    [ "get_valid_DW_scheme", "src_2dwi_2gradient_8h.html#a0d4b52c0b8a89b4e71a69665098b0dfa", null ],
+    [ "check_DW_scheme", "src_2dwi_2gradient_8h.html#ae7cb4c23a01953166fddf8806ac3304a", null ],
+    [ "compute_SH2amp_mapping", "src_2dwi_2gradient_8h.html#a0bdc4d1d1ef356d553defaa2d17844f8", null ],
+    [ "condition_number_for_lmax", "src_2dwi_2gradient_8h.html#aafb846be002815f88b4c941058af46f2", null ],
+    [ "export_grad_commandline", "src_2dwi_2gradient_8h.html#a2a11f8c1cbb86aaf5cdd543c7475fecb", null ],
+    [ "gen_direction_matrix", "src_2dwi_2gradient_8h.html#af50249cdb437b32a1bc57e68f1b9168b", null ],
+    [ "get_DW_scheme", "src_2dwi_2gradient_8h.html#aa0aea8cd6b152634a184fe4b969e9d9a", null ],
+    [ "get_valid_DW_scheme", "src_2dwi_2gradient_8h.html#a9ab90e27c863a6d7e6960a8987703301", null ],
     [ "GradExportOptions", "src_2dwi_2gradient_8h.html#ad41fcb7f4fb99ba9616914f7c901319f", null ],
     [ "GradImportOptions", "src_2dwi_2gradient_8h.html#a613894718b2446b2df225c7d0e3075a9", null ],
-    [ "load_bvecs_bvals", "src_2dwi_2gradient_8h.html#afbb86a7831784d45bfba8c987a943108", null ],
-    [ "normalise_grad", "src_2dwi_2gradient_8h.html#a97b9dfe336c9252529e75be0af1430f3", null ],
-    [ "save_bvecs_bvals", "src_2dwi_2gradient_8h.html#ac0802818c53d9e289d3dd58c680076e1", null ],
-    [ "scale_bvalue_by_G_squared", "src_2dwi_2gradient_8h.html#a02ee9a054f60948130704b031e876b25", null ]
+    [ "lmax_for_directions", "src_2dwi_2gradient_8h.html#a240213d778050d4d080bbb899449b2a0", null ],
+    [ "load_bvecs_bvals", "src_2dwi_2gradient_8h.html#a8b23c2a3f08d1030c83ae584189ec943", null ],
+    [ "normalise_grad", "src_2dwi_2gradient_8h.html#a1b3dd0303c6aea48f92eaec9bdb5ef5b", null ],
+    [ "save_bvecs_bvals", "src_2dwi_2gradient_8h.html#a196b806510481ab211d13bd09bea0440", null ],
+    [ "scale_bvalue_by_G_squared", "src_2dwi_2gradient_8h.html#a03f7a11472c7a5c02c7819c522fc75f5", null ]
 ];

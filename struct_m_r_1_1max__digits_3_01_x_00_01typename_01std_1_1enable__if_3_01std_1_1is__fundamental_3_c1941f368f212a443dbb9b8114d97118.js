@@ -1,0 +1,4 @@
+var struct_m_r_1_1max__digits_3_01_x_00_01typename_01std_1_1enable__if_3_01std_1_1is__fundamental_3_c1941f368f212a443dbb9b8114d97118 =
+[
+    [ "value", "struct_m_r_1_1max__digits_3_01_x_00_01typename_01std_1_1enable__if_3_01std_1_1is__fundamental_3_c1941f368f212a443dbb9b8114d97118.html#aaf145d874326182d18ec500a13320a97", null ]
+];

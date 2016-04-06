@@ -1,0 +1,25 @@
+var class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography =
+[
+    [ "Tractography", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#aa0177db9fbe41a23dfe1274e94e2c5ec", null ],
+    [ "~Tractography", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#ad4e7490b3eb289ce471848b3e950a153", null ],
+    [ "add_commandline_options", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a5d5e707d437d85c82d6c24051391ecf8", null ],
+    [ "crop_to_slab", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a17890c0f328abed77a49974255e92cc8", null ],
+    [ "draw", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a294a2ddfbc877dc938d7bb4d212bf964", null ],
+    [ "draw_colourbars", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a2a9071b0da6d8158b4c2a735aa7687ee", null ],
+    [ "process_commandline_option", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a9d62ae5d6e83be63ac7c1a5aafba051e", null ],
+    [ "visible_number_colourbars", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a471841e16d3d0239b57ffce2990db5c2", null ],
+    [ "do_crop_to_slab", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a2d4dcf4a6229a2dabd5f2b2faac94688", null ],
+    [ "hide_all_button", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#acab72d77b936e4ca0f651fe82ef4131e", null ],
+    [ "lighting", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a6508bb974cef617abbeb82abe426fc94", null ],
+    [ "lighting_dock", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#ac9c646d7664619eacfdeea4e08f5c252", null ],
+    [ "line_opacity", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#aacad07c3043ad33500f3ff9cf1d3f791", null ],
+    [ "line_thickness", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a4d446278a18457b4e33990b278ac7ec6", null ],
+    [ "not_3D", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a0b387214b9dc7f65c7aef6b682e20d15", null ],
+    [ "scalar_file_options", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#ab64751337266737a6001b3c26efce026", null ],
+    [ "slab_entry", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a789f53cd0e942cae3b1b924d2ea4b3b7", null ],
+    [ "slab_thickness", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#afda880adfed16f359b85686ebe774c28", null ],
+    [ "track_option_menu", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a0956b8a09980aa5e79c06e730eb10b8c", null ],
+    [ "tractogram_list_model", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a25fec94d57cff62a7286a90e80327f90", null ],
+    [ "tractogram_list_view", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a8b65ab7d981f6a717f2838f189692fd3", null ],
+    [ "use_lighting", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a21d1cce0bd5175486559838a2439824a", null ]
+];

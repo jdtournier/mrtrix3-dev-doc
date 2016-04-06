@@ -1,16 +1,16 @@
 var searchData=
 [
-  ['abstractfixel',['AbstractFixel',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1AbstractFixel.html',1,'MR::GUI::MRView::Tool']]],
-  ['act_5fmethod_5fadditions',['ACT_Method_additions',['../classMR_1_1DWI_1_1Tractography_1_1ACT_1_1ACT__Method__additions.html',1,'MR::DWI::Tractography::ACT']]],
-  ['act_5fshared_5fadditions',['ACT_Shared_additions',['../classMR_1_1DWI_1_1Tractography_1_1ACT_1_1ACT__Shared__additions.html',1,'MR::DWI::Tractography::ACT']]],
-  ['action',['Action',['../classMR_1_1GUI_1_1MRView_1_1Mode_1_1Action.html',1,'MR::GUI::MRView::Mode']]],
-  ['action',['Action',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1Action.html',1,'MR::GUI::MRView::Tool']]],
-  ['adjustbutton',['AdjustButton',['../classMR_1_1GUI_1_1MRView_1_1AdjustButton.html',1,'MR::GUI::MRView']]],
-  ['analyse',['Analyse',['../classMR_1_1Image_1_1Format_1_1Analyse.html',1,'MR::Image::Format']]],
-  ['app',['App',['../classMR_1_1GUI_1_1App.html',1,'MR::GUI']]],
-  ['apsf',['aPSF',['../classMR_1_1Math_1_1SH_1_1aPSF.html',1,'MR::Math::SH']]],
-  ['area',['Area',['../classMR_1_1GUI_1_1GL_1_1Area.html',1,'MR::GUI::GL']]],
-  ['argument',['Argument',['../classMR_1_1App_1_1Argument.html',1,'MR::App']]],
-  ['argumentlist',['ArgumentList',['../classMR_1_1App_1_1ArgumentList.html',1,'MR::App']]],
-  ['axis',['Axis',['../classMR_1_1Image_1_1Axis.html',1,'MR::Image']]]
+  ['abstractfixel',['AbstractFixel',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_abstract_fixel.html',1,'MR::GUI::MRView::Tool']]],
+  ['act_5fmethod_5fadditions',['ACT_Method_additions',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_a_c_t___method__additions.html',1,'MR::DWI::Tractography::ACT']]],
+  ['act_5fshared_5fadditions',['ACT_Shared_additions',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_a_c_t___shared__additions.html',1,'MR::DWI::Tractography::ACT']]],
+  ['action',['Action',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_action.html',1,'MR::GUI::MRView::Mode']]],
+  ['action',['Action',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_action.html',1,'MR::GUI::MRView::Tool']]],
+  ['adjustbutton',['AdjustButton',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_adjust_button.html',1,'MR::GUI::MRView']]],
+  ['analyse',['Analyse',['../class_m_r_1_1_formats_1_1_analyse.html',1,'MR::Formats']]],
+  ['app',['App',['../class_m_r_1_1_g_u_i_1_1_app.html',1,'MR::GUI']]],
+  ['apsf',['aPSF',['../class_m_r_1_1_math_1_1_s_h_1_1a_p_s_f.html',1,'MR::Math::SH']]],
+  ['area',['Area',['../class_m_r_1_1_g_u_i_1_1_g_l_1_1_area.html',1,'MR::GUI::GL']]],
+  ['argument',['Argument',['../class_m_r_1_1_app_1_1_argument.html',1,'MR::App']]],
+  ['argumentlist',['ArgumentList',['../class_m_r_1_1_app_1_1_argument_list.html',1,'MR::App']]],
+  ['axis',['Axis',['../class_m_r_1_1_header_1_1_axis.html',1,'MR::Header']]]
 ];

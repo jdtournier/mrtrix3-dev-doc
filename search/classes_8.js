@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['halfsphere',['HalfSphere',['../classMR_1_1GUI_1_1Shapes_1_1HalfSphere.html',1,'MR::GUI::Shapes']]],
-  ['hboxlayout',['HBoxLayout',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base_1_1HBoxLayout.html',1,'MR::GUI::MRView::Tool::Base']]],
-  ['header',['Header',['../classMR_1_1Image_1_1Header.html',1,'MR::Image']]],
-  ['hermite',['Hermite',['../classMR_1_1Math_1_1Hermite.html',1,'MR::Math']]],
-  ['hermite_3c_20value_5ftype_20_3e',['Hermite&lt; value_type &gt;',['../classMR_1_1Math_1_1Hermite.html',1,'MR::Math']]],
-  ['histogram',['Histogram',['../classMR_1_1Image_1_1Histogram.html',1,'MR::Image']]]
+  ['halfsphere',['HalfSphere',['../class_m_r_1_1_g_u_i_1_1_shapes_1_1_half_sphere.html',1,'MR::GUI::Shapes']]],
+  ['hboxlayout',['HBoxLayout',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_1_1_h_box_layout.html',1,'MR::GUI::MRView::Tool::Base']]],
+  ['header',['Header',['../class_m_r_1_1_header.html',1,'MR']]],
+  ['hermite',['Hermite',['../class_m_r_1_1_math_1_1_hermite.html',1,'MR::Math']]],
+  ['hermitespline',['HermiteSpline',['../class_m_r_1_1_math_1_1_hermite_spline.html',1,'MR::Math']]],
+  ['histogram',['Histogram',['../class_m_r_1_1_histogram.html',1,'MR']]]
 ];

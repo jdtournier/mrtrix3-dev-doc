@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['tck_5fstat_5ft',['tck_stat_t',['../namespaceMR_1_1DWI_1_1Tractography_1_1Mapping.html#a3fa21a08c7f0bffb34976f520d129275',1,'MR::DWI::Tractography::Mapping']]],
-  ['term_5ft',['term_t',['../namespaceMR_1_1DWI_1_1Tractography_1_1Tracking.html#a1c30c67185585a9f27b5a581050292f5',1,'MR::DWI::Tractography::Tracking']]],
-  ['trackcolourtype',['TrackColourType',['../namespaceMR_1_1GUI_1_1MRView_1_1Tool.html#aaaad2794ce9a61c10224a1e448785ed7',1,'MR::GUI::MRView::Tool']]]
+  ['reject_5ft',['reject_t',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#ad956382fab3ffe08fe6398044e9ae01a',1,'MR::DWI::Tractography::Tracking']]],
+  ['return_5ft',['return_t',['../group___optimisation.html#ga142be9450c9aac5265dc923bab259fce',1,'MR::Math::QuadraticLineSearch']]]
 ];

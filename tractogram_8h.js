@@ -1,7 +1,7 @@
 var tractogram_8h =
 [
-    [ "Tractogram", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Tractogram.html", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Tractogram" ],
-    [ "Shader", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Tractogram_1_1Shader.html", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Tractogram_1_1Shader" ],
+    [ "Tractogram", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractogram.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractogram" ],
+    [ "Shader", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractogram_1_1_shader.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractogram_1_1_shader" ],
     [ "TrackColourType", "tractogram_8h.html#aaaad2794ce9a61c10224a1e448785ed7", [
       [ "Direction", "tractogram_8h.html#aaaad2794ce9a61c10224a1e448785ed7ab0470b53583ca0ed693a5e53bc8620c4", null ],
       [ "Ends", "tractogram_8h.html#aaaad2794ce9a61c10224a1e448785ed7ac3a2f7726d8569c540983adc644e042e", null ],

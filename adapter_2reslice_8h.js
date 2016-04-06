@@ -1,5 +1,5 @@
 var adapter_2reslice_8h =
 [
-    [ "AutoOverSample", "adapter_2reslice_8h.html#ab5b7214af39c3c0d77a11e94c3cf0372", null ],
-    [ "NoTransform", "adapter_2reslice_8h.html#a4672b72d1f491e8532f25345583d69fc", null ]
+    [ "AutoOverSample", "adapter_2reslice_8h.html#aeb411b49135d9dfb84fa14124485d893", null ],
+    [ "NoTransform", "adapter_2reslice_8h.html#aff8f6cc24ea8d699b1234f801db7502f", null ]
 ];

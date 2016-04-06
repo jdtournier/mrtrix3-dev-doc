@@ -3,71 +3,66 @@ var NAVTREE =
   [ "MRtrix", "index.html", [
     [ "Overview", "index.html", null ],
     [ "The build process", "build_page.html", [
-      [ "Using the MRtrix build process", "build_page.html#build_process_usage", null ],
-      [ "The configure script", "build_page.html#configure_section", null ],
-      [ "The build script", "build_page.html#build_section", null ]
+      [ "Using the MRtrix build process    ", "build_page.html#build_process_usage", null ],
+      [ "The configure script      ", "build_page.html#configure_section", null ],
+      [ "The build script     ", "build_page.html#build_section", null ]
     ] ],
     [ "Command-line parsing", "command_line_parsing.html", [
-      [ "Overview", "command_line_parsing.html#command_line_overview", null ],
-      [ "Specifying the description and syntax", "command_line_parsing.html#command_line_usage", [
-        [ "The DESCRIPTION", "command_line_parsing.html#command_line_description", null ],
-        [ "The ARGUMENTS", "command_line_parsing.html#command_line_arguments", null ],
-        [ "The OPTIONS", "command_line_parsing.html#command_line_options", null ],
-        [ "Defining option groups", "command_line_parsing.html#command_line_option_group", [
-          [ "Breaking up an option group into multiple lists", "command_line_parsing.html#command_line_option_group_broken_up", null ]
-        ] ]
+      [ "Overview      ", "command_line_parsing.html#command_line_overview", null ],
+      [ "Specifying the description and syntax     ", "command_line_parsing.html#command_line_usage", null ],
+      [ "The DESCRIPTION     ", "command_line_parsing.html#command_line_description", null ],
+      [ "The ARGUMENTS       ", "command_line_parsing.html#command_line_arguments", null ],
+      [ "The OPTIONS      ", "command_line_parsing.html#command_line_options", [
+        [ "Defining option groups     ", "command_line_parsing.html#command_line_option_group", null ]
       ] ],
-      [ "Retrieving command-line argument and option values", "command_line_parsing.html#command_line_retrieve", null ]
+      [ "Breaking up an option group into multiple lists      ", "command_line_parsing.html#command_line_option_group_broken_up", null ],
+      [ "Retrieving command-line argument and option values    ", "command_line_parsing.html#command_line_retrieve", null ]
     ] ],
     [ "The configure script", "configure_page.html", [
-      [ "Using multiple co-existing configurations", "configure_page.html#multiconfig", null ]
+      [ "Using multiple co-existing configurations      ", "configure_page.html#multiconfig", null ]
     ] ],
     [ "Example applications", "examples.html", "examples" ],
     [ "Accessing image data", "image_access.html", [
-      [ "Image::Info", "image_access.html#image_info_class", null ],
-      [ "Image::Header", "image_access.html#image_header_class", null ],
-      [ "Image::Buffer", "image_access.html#image_buffer_class", null ],
-      [ "Image::Voxel", "image_access.html#image_voxel_class", null ],
-      [ "Image::Adapter", "image_access.html#image_adapter_class", null ],
-      [ "Image::Filter", "image_access.html#image_filter_class", null ],
-      [ "Image::Loop & Image::ThreadedLoop", "image_access.html#image_loop", null ],
-      [ "An example application", "image_access.html#image_example", null ]
+      [ "Overview       ", "image_access.html#image_access_overview", null ],
+      [ "An example application      ", "image_access.html#image_example", null ],
+      [ "Header       ", "image_access.html#header_class", null ],
+      [ "Image      ", "image_access.html#image_class", null ],
+      [ "Adapter      ", "image_access.html#adapter_class", null ],
+      [ "Filter      ", "image_access.html#filter_class", null ],
+      [ "Loop & ThreadedLoop     ", "image_access.html#image_loop", null ],
+      [ "Iterator      ", "image_access.html#iterator_class", null ]
     ] ],
     [ "Writing separate modules", "module_howto.html", null ],
     [ "Writing multi-threaded applications", "multithreading.html", [
-      [ "Overview", "multithreading.html#multithreading_overview", null ],
-      [ "How to design a multi-threading application", "multithreading.html#multithreading_planning", [
-        [ "Sharing read-only data", "multithreading.html#multithreading_shared", null ],
-        [ "Sharing read/write data", "multithreading.html#multithreading_concurrent", null ],
-        [ "Achieving maximum performance", "multithreading.html#multithreading_performance", null ]
-      ] ],
-      [ "Multi-threading API in MRtrix", "multithreading.html#multithreading_in_mrtrix", [
-        [ "Launching threads", "multithreading.html#multithreading_exec", null ],
-        [ "The Image::ThreadedLoop", "multithreading.html#multithreading_loop", null ],
-        [ "The Thread::Queue", "multithreading.html#multithreading_queue", null ],
-        [ "Simple POSIX wrappers", "multithreading.html#multithreading_posix", null ]
-      ] ]
+      [ "Overview      ", "multithreading.html#multithreading_overview", null ],
+      [ "How to design a multi-threading application      ", "multithreading.html#multithreading_planning", null ],
+      [ "Sharing read-only data      ", "multithreading.html#multithreading_shared", null ],
+      [ "Sharing read/write data     ", "multithreading.html#multithreading_concurrent", null ],
+      [ "Achieving maximum performance     ", "multithreading.html#multithreading_performance", null ],
+      [ "Multi-threading API in MRtrix     ", "multithreading.html#multithreading_in_mrtrix", null ],
+      [ "Launching threads      ", "multithreading.html#multithreading_exec", null ],
+      [ "The ThreadedLoop           ", "multithreading.html#multithreading_loop", null ],
+      [ "The Thread::Queue        ", "multithreading.html#multithreading_queue", null ]
     ] ],
     [ "Creating a new MRtrix command", "command_howto.html", [
-      [ "The anatomy of a command", "command_howto.html#command_layout", null ],
-      [ "Error handling", "command_howto.html#error_handling", null ],
-      [ "Header search path", "command_howto.html#include_path", null ]
+      [ "The anatomy of a command      ", "command_howto.html#command_layout", null ],
+      [ "Error handling      ", "command_howto.html#error_handling", null ],
+      [ "Header search path     ", "command_howto.html#include_path", null ]
     ] ],
-    [ "Todo List", "todo.html", null ],
     [ "Modules", "modules.html", "modules" ],
     [ "Namespaces", null, [
       [ "Namespace List", "namespaces.html", "namespaces" ],
       [ "Namespace Members", "namespacemembers.html", [
         [ "All", "namespacemembers.html", "namespacemembers_dup" ],
         [ "Functions", "namespacemembers_func.html", "namespacemembers_func" ],
-        [ "Variables", "namespacemembers_vars.html", "namespacemembers_vars" ],
+        [ "Variables", "namespacemembers_vars.html", null ],
         [ "Typedefs", "namespacemembers_type.html", null ],
         [ "Enumerations", "namespacemembers_enum.html", null ],
-        [ "Enumerator", "namespacemembers_eval.html", "namespacemembers_eval" ]
+        [ "Enumerator", "namespacemembers_eval.html", null ]
       ] ]
     ] ],
-    [ "Classes", null, [
-      [ "Class List", "annotated.html", "annotated" ],
+    [ "Classes", "annotated.html", [
+      [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Class Members", "functions.html", [
@@ -87,7 +82,6 @@ var NAVTREE =
         [ "All", "globals.html", null ],
         [ "Functions", "globals_func.html", null ],
         [ "Variables", "globals_vars.html", null ],
-        [ "Typedefs", "globals_type.html", null ],
         [ "Macros", "globals_defs.html", null ]
       ] ]
     ] ]
@@ -96,40 +90,36 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"ACT_2gmwmi_8h.html",
-"classMR_1_1App_1_1OptionList.html#ae92129a042d0e9e9996bd8a5ecf14927",
-"classMR_1_1DWI_1_1Fixel__map_1_1MapVoxel.html#a7837553d517179563694e01bcc21de76",
-"classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1iFOD1.html#af924c234747f3c959eedd707cf7069c0",
-"classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1Gaussian_1_1Voxel.html#afa5c983aa5263070a3f3bd5e6408e3aa",
-"classMR_1_1DWI_1_1Tractography_1_1SIFT2_1_1CoefficientOptimiserBase.html#aefb674bb09ea9558d426e7324ad930ff",
-"classMR_1_1DWI_1_1Tractography_1_1ScalarReader.html#aaf19e02b6df06e0d21e769c1192e6702",
-"classMR_1_1DataType.html#ab49acfdebdacb72b8ce908e6268a7d51",
-"classMR_1_1File_1_1MMap.html#ab0606703f3a1538cc862e910174ec315",
-"classMR_1_1GUI_1_1GL_1_1VertexArrayObject.html#a3ecc884a564f2d83f04d8b99aa67d7a8",
-"classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base.html#a8843b111297bdd243d7726d8d305a447",
-"classMR_1_1GUI_1_1MRView_1_1Tool_1_1Connectome.html#ace27370c26a8443682a925c4173178f5",
-"classMR_1_1GUI_1_1MRView_1_1Tool_1_1ODF.html#a8f29efc77beac12699bcf7c70f61e939",
-"classMR_1_1GUI_1_1MRView_1_1Tool_1_1View.html#a5732578b75ee08dfd5be8283e5f2d953",
-"classMR_1_1Image_1_1Adapter_1_1PermuteAxes.html#a3cc358a41cecfeff2cbc5721bc3153ea",
-"classMR_1_1Image_1_1Filter_1_1Gradient.html#a02e66f63e8d5e5d815c66179bdea6b70",
-"classMR_1_1Image_1_1Info.html#a29180eb95cb17ea4ee5d662a7ed3ea57",
-"classMR_1_1Image_1_1ThreadedLoop.html#af7b1a392f339364f531b7a39eb38aaab",
-"classMR_1_1Math_1_1RNG.html#ace6ee44964eb01887c28db0a92e7cc4d",
-"classMR_1_1Point.html#abe30df4ff87f7acc56e341bd784894b2",
-"default_8h.html",
-"functions_f.html",
-"gl__core__3__3_8h.html#a3f5c498d7c025514f92c6af313838f31",
-"gl__core__3__3_8h.html#a91e4b8acdd36437953f66b651634fce6a2d6a977aae64ba7bbbf371174813d068",
-"gl__core__3__3_8h.html#a91e4b8acdd36437953f66b651634fce6a77897d07e3b6dbba8a39403953969ba2",
-"gl__core__3__3_8h.html#a91e4b8acdd36437953f66b651634fce6ac7ee780327df13dcd1e108e764e9dfb0",
-"gl__core__3__3_8h.html#ac1f2a7addf75bdfe948465324d9a515e",
-"group__Optimisation.html#ga6c6a3ceb01adb097390b7c08facc287b",
-"image_2copy_8h.html#a9a95f8263b197da00af0996b9a49ecf2",
-"mgh_8h.html",
-"namespacemembers_eval_i.html",
-"render__window_8h.html",
-"src_2gui_2mrview_2tool_2connectome_2types_8h.html#ae56c72247af15ef1ffc326c6ed4b7ac5",
-"twi__stats_8h_source.html"
+"_a_c_t_2gmwmi_8h.html",
+"class_m_r_1_1_adapter_1_1_replicate.html#a100811269310d7ddb9cf585d23087c10",
+"class_m_r_1_1_d_w_i_1_1_f_m_l_s_1_1_segmenter.html#a54af2d51214af730ee702f545b8f8af0",
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1.html#abc33d86494d080ff27914b7421e74687",
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_external_energy_computer.html#a66848105e864aae41895537dea21245b",
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_track_mapper.html#af5ea6b1bfb02e4924980412de02709e8",
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_r_o_i.html#a7e993295ccc019ca5d537b2d5abb1692",
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html#ad7f22e1958aa51cd45358e3b667ecc48",
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer_unbuffered.html#a35949a2c937a21073a741daa190ebbda",
+"class_m_r_1_1_file_1_1_dicom_1_1_quick_scan.html#ac80446f34e74c3e324bace2f7317d536",
+"class_m_r_1_1_formats_1_1_analyse.html#a957a986789076956787cc1ab10f7e8b4",
+"class_m_r_1_1_g_u_i_1_1_dialog_1_1_tree_item.html#a3f88e93728b994fdcf4c158d2fef8a53",
+"class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_displayable.html#a2b6bfe2b2820eea407e227b20ead9fa8",
+"class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_abstract_fixel.html#a7353a632f7bef1f8415af0bb52c00fff",
+"class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_list_model_base.html#a8eec1fd61c2bd220f7eb598f98ffaa4f",
+"class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_overlay.html#a5aadce0b7dacdc26d51e379d2a5ce9a2",
+"class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_volume.html#a4ea6e1537287eef6495ac3951535be75",
+"class_m_r_1_1_header_1_1_data_type_proxy.html#ada65bafa76737ded7e66084861de3e2f",
+"class_m_r_1_1_interp_1_1_nearest.html",
+"class_m_r_1_1_math_1_1_versor.html#a244ac4b0dd9d578fcf37c91b576975bd",
+"class_m_r_1_1_stats_1_1_t_f_c_e_1_1_enhancer.html",
+"dir_7c0873e6b80b34380e48b0b11ab08777.html",
+"functions_vars_f.html",
+"group___cmd_parse.html#gadd527f8f9f706c03ecb99c4f2c2f37b8",
+"group__thread__basics.html#gaf01d13fdb672f4a8c8727a7a70760cea",
+"math_8h.html#aec6f4492ea80e69c7fa6f2a5c152d719",
+"namespacemembers_func_l.html",
+"screen__capture_8h.html",
+"streamline_8h.html",
+"thread_8h_source.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

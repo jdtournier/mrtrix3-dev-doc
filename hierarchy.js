@@ -1,661 +1,743 @@
 var hierarchy =
 [
     [ "__Action__", null, [
-      [ "MR::GUI::MRView::Mode::Action< T >", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Action.html", null ],
-      [ "MR::GUI::MRView::Tool::Action< T >", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Action.html", null ]
+      [ "MR::GUI::MRView::Mode::Action< T >", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_action.html", null ],
+      [ "MR::GUI::MRView::Tool::Action< T >", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_action.html", null ]
     ] ],
-    [ "MR::Thread::__Backend", "classMR_1_1Thread_1_1____Backend.html", null ],
+    [ "MR::Thread::__Backend", "class_m_r_1_1_thread_1_1_____backend.html", null ],
     [ "__ReaderBase__", null, [
-      [ "MR::DWI::Tractography::Reader< T >", "classMR_1_1DWI_1_1Tractography_1_1Reader.html", null ],
-      [ "MR::DWI::Tractography::ScalarReader< T >", "classMR_1_1DWI_1_1Tractography_1_1ScalarReader.html", null ],
-      [ "MR::DWI::Tractography::Reader< float >", "classMR_1_1DWI_1_1Tractography_1_1Reader.html", null ]
+      [ "MR::DWI::Tractography::Reader< ValueType >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_reader.html", null ],
+      [ "MR::DWI::Tractography::ScalarReader< T >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_scalar_reader.html", null ]
     ] ],
     [ "__WriterBase__", null, [
-      [ "MR::DWI::Tractography::ScalarWriter< T >", "classMR_1_1DWI_1_1Tractography_1_1ScalarWriter.html", null ],
-      [ "MR::DWI::Tractography::WriterUnbuffered< T >", "classMR_1_1DWI_1_1Tractography_1_1WriterUnbuffered.html", [
-        [ "MR::DWI::Tractography::Writer< T >", "classMR_1_1DWI_1_1Tractography_1_1Writer.html", null ]
-      ] ],
-      [ "MR::DWI::Tractography::WriterUnbuffered< value_type >", "classMR_1_1DWI_1_1Tractography_1_1WriterUnbuffered.html", [
-        [ "MR::DWI::Tractography::Writer< value_type >", "classMR_1_1DWI_1_1Tractography_1_1Writer.html", null ]
+      [ "MR::DWI::Tractography::ScalarWriter< T >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_scalar_writer.html", null ],
+      [ "MR::DWI::Tractography::WriterUnbuffered< ValueType >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer_unbuffered.html", [
+        [ "MR::DWI::Tractography::Writer< ValueType >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer.html", null ]
       ] ]
     ] ],
-    [ "MR::DWI::Tractography::ACT::ACT_Method_additions", "classMR_1_1DWI_1_1Tractography_1_1ACT_1_1ACT__Method__additions.html", null ],
-    [ "MR::DWI::Tractography::ACT::ACT_Shared_additions", "classMR_1_1DWI_1_1Tractography_1_1ACT_1_1ACT__Shared__additions.html", null ],
-    [ "MR::Math::SH::aPSF< ValueType >", "classMR_1_1Math_1_1SH_1_1aPSF.html", null ],
-    [ "MR::App::Argument", "classMR_1_1App_1_1Argument.html", null ],
-    [ "MR::Image::Axis", "classMR_1_1Image_1_1Axis.html", null ],
-    [ "MR::DWI::Tractography::Seeding::Base", "classMR_1_1DWI_1_1Tractography_1_1Seeding_1_1Base.html", [
-      [ "MR::DWI::Tractography::Seeding::Dynamic", "classMR_1_1DWI_1_1Tractography_1_1Seeding_1_1Dynamic.html", null ],
-      [ "MR::DWI::Tractography::Seeding::GMWMI", "classMR_1_1DWI_1_1Tractography_1_1Seeding_1_1GMWMI.html", null ],
-      [ "MR::DWI::Tractography::Seeding::Grid_per_voxel", "classMR_1_1DWI_1_1Tractography_1_1Seeding_1_1Grid__per__voxel.html", null ],
-      [ "MR::DWI::Tractography::Seeding::Random_per_voxel", "classMR_1_1DWI_1_1Tractography_1_1Seeding_1_1Random__per__voxel.html", null ],
-      [ "MR::DWI::Tractography::Seeding::Rejection", "classMR_1_1DWI_1_1Tractography_1_1Seeding_1_1Rejection.html", null ],
-      [ "MR::DWI::Tractography::Seeding::SeedMask", "classMR_1_1DWI_1_1Tractography_1_1Seeding_1_1SeedMask.html", null ],
-      [ "MR::DWI::Tractography::Seeding::Sphere", "classMR_1_1DWI_1_1Tractography_1_1Seeding_1_1Sphere.html", null ]
+    [ "MR::DWI::Tractography::ACT::ACT_Method_additions", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_a_c_t___method__additions.html", null ],
+    [ "MR::DWI::Tractography::ACT::ACT_Shared_additions", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_a_c_t___shared__additions.html", null ],
+    [ "MR::Math::SH::aPSF< ValueType >", "class_m_r_1_1_math_1_1_s_h_1_1a_p_s_f.html", null ],
+    [ "MR::App::Argument", "class_m_r_1_1_app_1_1_argument.html", null ],
+    [ "Array", null, [
+      [ "MR::DWI::Tractography::Connectome::Tck2nodes_base::voxel_type", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_tck2nodes__base_1_1voxel__type.html", null ]
     ] ],
-    [ "MR::Image::Format::Base", "classMR_1_1Image_1_1Format_1_1Base.html", [
-      [ "MR::Image::Format::Analyse", "classMR_1_1Image_1_1Format_1_1Analyse.html", null ],
-      [ "MR::Image::Format::DICOM", "classMR_1_1Image_1_1Format_1_1DICOM.html", null ],
-      [ "MR::Image::Format::MGH", "classMR_1_1Image_1_1Format_1_1MGH.html", null ],
-      [ "MR::Image::Format::MGZ", "classMR_1_1Image_1_1Format_1_1MGZ.html", null ],
-      [ "MR::Image::Format::MRI", "classMR_1_1Image_1_1Format_1_1MRI.html", null ],
-      [ "MR::Image::Format::MRtrix", "classMR_1_1Image_1_1Format_1_1MRtrix.html", null ],
-      [ "MR::Image::Format::MRtrix_GZ", "classMR_1_1Image_1_1Format_1_1MRtrix__GZ.html", null ],
-      [ "MR::Image::Format::MRtrix_sparse", "classMR_1_1Image_1_1Format_1_1MRtrix__sparse.html", null ],
-      [ "MR::Image::Format::NIfTI", "classMR_1_1Image_1_1Format_1_1NIfTI.html", null ],
-      [ "MR::Image::Format::NIfTI_GZ", "classMR_1_1Image_1_1Format_1_1NIfTI__GZ.html", null ],
-      [ "MR::Image::Format::Pipe", "classMR_1_1Image_1_1Format_1_1Pipe.html", null ],
-      [ "MR::Image::Format::XDS", "classMR_1_1Image_1_1Format_1_1XDS.html", null ]
+    [ "Array3i", null, [
+      [ "MR::Mesh::Vox", "class_m_r_1_1_mesh_1_1_vox.html", null ]
     ] ],
-    [ "MR::Image::Handler::Base", "classMR_1_1Image_1_1Handler_1_1Base.html", [
-      [ "MR::Image::Handler::Default", "classMR_1_1Image_1_1Handler_1_1Default.html", [
-        [ "MR::Image::Handler::Sparse", "classMR_1_1Image_1_1Handler_1_1Sparse.html", null ]
+    [ "MR::Header::Axis", "class_m_r_1_1_header_1_1_axis.html", null ],
+    [ "MR::Adapter::Base< ImageType >", "class_m_r_1_1_adapter_1_1_base.html", [
+      [ "MR::Adapter::Extract< ImageType >", "class_m_r_1_1_adapter_1_1_extract.html", null ],
+      [ "MR::Adapter::Extract1D< ImageType >", "class_m_r_1_1_adapter_1_1_extract1_d.html", null ],
+      [ "MR::Adapter::Gaussian1D< ImageType >", "class_m_r_1_1_adapter_1_1_gaussian1_d.html", null ],
+      [ "MR::Adapter::Gradient1D< ImageType >", "class_m_r_1_1_adapter_1_1_gradient1_d.html", null ],
+      [ "MR::Adapter::Median< ImageType >", "class_m_r_1_1_adapter_1_1_median.html", null ],
+      [ "MR::Adapter::PermuteAxes< ImageType >", "class_m_r_1_1_adapter_1_1_permute_axes.html", null ],
+      [ "MR::Adapter::Replicate< ImageType >", "class_m_r_1_1_adapter_1_1_replicate.html", null ],
+      [ "MR::Adapter::Subset< ImageType >", "class_m_r_1_1_adapter_1_1_subset.html", null ],
+      [ "MR::DWI::Bootstrap< ImageType, Functor, NUM_VOX_PER_CHUNK >", "class_m_r_1_1_d_w_i_1_1_bootstrap.html", null ]
+    ] ],
+    [ "MR::DWI::Tractography::Seeding::Base", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_seeding_1_1_base.html", [
+      [ "MR::DWI::Tractography::Seeding::Dynamic", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_seeding_1_1_dynamic.html", null ],
+      [ "MR::DWI::Tractography::Seeding::GMWMI", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_seeding_1_1_g_m_w_m_i.html", null ],
+      [ "MR::DWI::Tractography::Seeding::Grid_per_voxel", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_seeding_1_1_grid__per__voxel.html", null ],
+      [ "MR::DWI::Tractography::Seeding::Random_per_voxel", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_seeding_1_1_random__per__voxel.html", null ],
+      [ "MR::DWI::Tractography::Seeding::Rejection", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_seeding_1_1_rejection.html", null ],
+      [ "MR::DWI::Tractography::Seeding::SeedMask", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_seeding_1_1_seed_mask.html", null ],
+      [ "MR::DWI::Tractography::Seeding::Sphere", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_seeding_1_1_sphere.html", null ]
+    ] ],
+    [ "MR::Formats::Base", "class_m_r_1_1_formats_1_1_base.html", [
+      [ "MR::Formats::Analyse", "class_m_r_1_1_formats_1_1_analyse.html", null ],
+      [ "MR::Formats::DICOM", "class_m_r_1_1_formats_1_1_d_i_c_o_m.html", null ],
+      [ "MR::Formats::MGH", "class_m_r_1_1_formats_1_1_m_g_h.html", null ],
+      [ "MR::Formats::MGZ", "class_m_r_1_1_formats_1_1_m_g_z.html", null ],
+      [ "MR::Formats::MRI", "class_m_r_1_1_formats_1_1_m_r_i.html", null ],
+      [ "MR::Formats::MRtrix", "class_m_r_1_1_formats_1_1_m_rtrix.html", null ],
+      [ "MR::Formats::MRtrix_GZ", "class_m_r_1_1_formats_1_1_m_rtrix___g_z.html", null ],
+      [ "MR::Formats::MRtrix_sparse", "class_m_r_1_1_formats_1_1_m_rtrix__sparse.html", null ],
+      [ "MR::Formats::NIfTI", "class_m_r_1_1_formats_1_1_n_if_t_i.html", null ],
+      [ "MR::Formats::NIfTI_GZ", "class_m_r_1_1_formats_1_1_n_if_t_i___g_z.html", null ],
+      [ "MR::Formats::Pipe", "class_m_r_1_1_formats_1_1_pipe.html", null ],
+      [ "MR::Formats::XDS", "class_m_r_1_1_formats_1_1_x_d_s.html", null ]
+    ] ],
+    [ "MR::ImageIO::Base", "class_m_r_1_1_image_i_o_1_1_base.html", [
+      [ "MR::ImageIO::Default", "class_m_r_1_1_image_i_o_1_1_default.html", [
+        [ "MR::ImageIO::Sparse", "class_m_r_1_1_image_i_o_1_1_sparse.html", null ]
       ] ],
-      [ "MR::Image::Handler::GZ", "classMR_1_1Image_1_1Handler_1_1GZ.html", null ],
-      [ "MR::Image::Handler::Mosaic", "classMR_1_1Image_1_1Handler_1_1Mosaic.html", null ],
-      [ "MR::Image::Handler::Pipe", "classMR_1_1Image_1_1Handler_1_1Pipe.html", null ],
-      [ "MR::Image::Handler::RAM", "classMR_1_1Image_1_1Handler_1_1RAM.html", null ]
+      [ "MR::ImageIO::GZ", "class_m_r_1_1_image_i_o_1_1_g_z.html", null ],
+      [ "MR::ImageIO::Mosaic", "class_m_r_1_1_image_i_o_1_1_mosaic.html", null ],
+      [ "MR::ImageIO::Pipe", "class_m_r_1_1_image_i_o_1_1_pipe.html", null ],
+      [ "MR::ImageIO::RAM", "class_m_r_1_1_image_i_o_1_1_r_a_m.html", null ],
+      [ "MR::ImageIO::Scratch", "class_m_r_1_1_image_i_o_1_1_scratch.html", null ]
     ] ],
-    [ "MR::BitSet", "classMR_1_1BitSet.html", null ],
-    [ "MR::BufferType", "classMR_1_1BufferType.html", null ],
-    [ "MR::DWI::Tractography::Algorithms::iFOD1::Calibrate", "classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1iFOD1_1_1Calibrate.html", null ],
-    [ "MR::GUI::MRView::Tool::ClipPlane", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ClipPlane.html", null ],
-    [ "MR::Image::Filter::cluster", "classMR_1_1Image_1_1Filter_1_1cluster.html", null ],
-    [ "MR::Stats::Cluster::ClusterSize", "classMR_1_1Stats_1_1Cluster_1_1ClusterSize.html", null ],
-    [ "MR::DWI::Tractography::SIFT2::CoefficientOptimiserBase", "classMR_1_1DWI_1_1Tractography_1_1SIFT2_1_1CoefficientOptimiserBase.html", [
-      [ "MR::DWI::Tractography::SIFT2::CoefficientOptimiserGSS", "classMR_1_1DWI_1_1Tractography_1_1SIFT2_1_1CoefficientOptimiserGSS.html", null ],
-      [ "MR::DWI::Tractography::SIFT2::CoefficientOptimiserIterative", "classMR_1_1DWI_1_1Tractography_1_1SIFT2_1_1CoefficientOptimiserIterative.html", null ],
-      [ "MR::DWI::Tractography::SIFT2::CoefficientOptimiserQLS", "classMR_1_1DWI_1_1Tractography_1_1SIFT2_1_1CoefficientOptimiserQLS.html", null ]
+    [ "MR::Adapter::Base< WarpImageType >", "class_m_r_1_1_adapter_1_1_base.html", [
+      [ "MR::Adapter::Gradient1D< WarpImageType >", "class_m_r_1_1_adapter_1_1_gradient1_d.html", null ],
+      [ "MR::Adapter::Jacobian< WarpImageType >", "class_m_r_1_1_adapter_1_1_jacobian.html", null ]
     ] ],
-    [ "MR::GUI::MRView::ColourMapButtonObserver", "classMR_1_1GUI_1_1MRView_1_1ColourMapButtonObserver.html", [
-      [ "MR::GUI::MRView::Tool::EdgeColourObserver", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1EdgeColourObserver.html", null ],
-      [ "MR::GUI::MRView::Tool::NodeColourObserver", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1NodeColourObserver.html", null ],
-      [ "MR::GUI::MRView::Tool::Overlay", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Overlay.html", null ],
-      [ "MR::GUI::MRView::Tool::Vector", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Vector.html", null ],
-      [ "MR::GUI::MRView::Window", "classMR_1_1GUI_1_1MRView_1_1Window.html", null ]
+    [ "MR::Adapter::Base< WarpType >", "class_m_r_1_1_adapter_1_1_base.html", [
+      [ "MR::Adapter::Gradient1D< WarpType >", "class_m_r_1_1_adapter_1_1_gradient1_d.html", null ],
+      [ "MR::Adapter::Jacobian< WarpType >", "class_m_r_1_1_adapter_1_1_jacobian.html", null ]
     ] ],
-    [ "MR::compare_ptr_contents", "structMR_1_1compare__ptr__contents.html", null ],
-    [ "MR::File::Config", "classMR_1_1File_1_1Config.html", null ],
-    [ "MR::Stats::CFE::connectivity", "classMR_1_1Stats_1_1CFE_1_1connectivity.html", null ],
-    [ "MR::Image::Filter::Connector", "classMR_1_1Image_1_1Filter_1_1Connector.html", null ],
-    [ "MR::DWI::Fixel_map< Fixel >::ConstIterator", "classMR_1_1DWI_1_1Fixel__map_1_1ConstIterator.html", null ],
-    [ "MR::BitSet::ConstValue", "classMR_1_1BitSet_1_1ConstValue.html", null ],
-    [ "MR::DWI::Tractography::SIFT::Cost_fn_gradient_sort", "classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1Cost__fn__gradient__sort.html", null ],
-    [ "MR::File::Dicom::CSAEntry", "classMR_1_1File_1_1Dicom_1_1CSAEntry.html", null ],
-    [ "MR::DWI::CSDeconv< T >", "classMR_1_1DWI_1_1CSDeconv.html", null ],
-    [ "MR::DWI::CSDeconv< float >", "classMR_1_1DWI_1_1CSDeconv.html", null ],
-    [ "MR::GUI::Shapes::Cube", "classMR_1_1GUI_1_1Shapes_1_1Cube.html", null ],
-    [ "MR::GUI::Cursor", "classMR_1_1GUI_1_1Cursor.html", null ],
-    [ "MR::GUI::Shapes::Cylinder", "classMR_1_1GUI_1_1Shapes_1_1Cylinder.html", null ],
-    [ "MR::DataType", "classMR_1_1DataType.html", null ],
-    [ "MR::Path::Dir", "classMR_1_1Path_1_1Dir.html", null ],
-    [ "MR::GUI::MRView::DisplayableVisitor", "classMR_1_1GUI_1_1MRView_1_1DisplayableVisitor.html", [
-      [ "MR::GUI::MRView::Tool::Overlay", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Overlay.html", null ],
-      [ "MR::GUI::MRView::Tool::TrackScalarFile", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1TrackScalarFile.html", null ],
-      [ "MR::GUI::MRView::Tool::Vector", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Vector.html", null ]
+    [ "MR::BitSet", "class_m_r_1_1_bit_set.html", [
+      [ "MR::DWI::Directions::Mask", "class_m_r_1_1_d_w_i_1_1_directions_1_1_mask.html", null ]
     ] ],
-    [ "MR::DWI::Tractography::Mapping::DixelMappingPlugin", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1DixelMappingPlugin.html", null ],
-    [ "MR::DWI::Tractography::Downsampler", "classMR_1_1DWI_1_1Tractography_1_1Downsampler.html", null ],
-    [ "MR::DWI::Tractography::Seeding::Dynamic_ACT_additions", "classMR_1_1DWI_1_1Tractography_1_1Seeding_1_1Dynamic__ACT__additions.html", null ],
-    [ "MR::GUI::MRView::Tool::Edge", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Edge.html", null ],
-    [ "MR::File::Dicom::Element", "classMR_1_1File_1_1Dicom_1_1Element.html", null ],
-    [ "MR::Stats::CFE::Enhancer", "classMR_1_1Stats_1_1CFE_1_1Enhancer.html", null ],
-    [ "MR::Stats::TFCE::Enhancer", "classMR_1_1Stats_1_1TFCE_1_1Enhancer.html", null ],
-    [ "MR::File::Entry", "classMR_1_1File_1_1Entry.html", [
-      [ "MR::File::ImageSlice::Base", "classMR_1_1File_1_1ImageSlice_1_1Base.html", [
-        [ "MR::File::ImageSlice::XIMG", "classMR_1_1File_1_1ImageSlice_1_1XIMG.html", null ]
-      ] ],
-      [ "MR::File::MMap", "classMR_1_1File_1_1MMap.html", null ]
+    [ "MR::DWI::Tractography::Algorithms::iFOD1::Calibrate", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1_1_1_calibrate.html", null ],
+    [ "MR::Stats::CalibrateHistogram", "class_m_r_1_1_stats_1_1_calibrate_histogram.html", null ],
+    [ "MR::GUI::GL::CheckContext", "struct_m_r_1_1_g_u_i_1_1_g_l_1_1_check_context.html", [
+      [ "MR::GUI::GL::FrameBuffer", "class_m_r_1_1_g_u_i_1_1_g_l_1_1_frame_buffer.html", null ],
+      [ "MR::GUI::GL::IndexBuffer", "class_m_r_1_1_g_u_i_1_1_g_l_1_1_index_buffer.html", null ],
+      [ "MR::GUI::GL::Texture", "class_m_r_1_1_g_u_i_1_1_g_l_1_1_texture.html", null ],
+      [ "MR::GUI::GL::VertexArrayObject", "class_m_r_1_1_g_u_i_1_1_g_l_1_1_vertex_array_object.html", null ],
+      [ "MR::GUI::GL::VertexBuffer", "class_m_r_1_1_g_u_i_1_1_g_l_1_1_vertex_buffer.html", null ]
     ] ],
-    [ "MR::GUI::MRView::ColourMap::Entry", "classMR_1_1GUI_1_1MRView_1_1ColourMap_1_1Entry.html", null ],
-    [ "MR::Image::Histogram< Set >::Entry", "classMR_1_1Image_1_1Histogram_1_1Entry.html", null ],
-    [ "MR::Exception", "classMR_1_1Exception.html", [
-      [ "MR::InvalidImageException", "classMR_1_1InvalidImageException.html", null ]
+    [ "MR::GUI::MRView::Tool::ClipPlane", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_clip_plane.html", null ],
+    [ "MR::Filter::cluster", "class_m_r_1_1_filter_1_1cluster.html", null ],
+    [ "MR::Stats::Cluster::ClusterSize", "class_m_r_1_1_stats_1_1_cluster_1_1_cluster_size.html", null ],
+    [ "MR::DWI::Tractography::SIFT2::CoefficientOptimiserBase", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_coefficient_optimiser_base.html", [
+      [ "MR::DWI::Tractography::SIFT2::CoefficientOptimiserGSS", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_coefficient_optimiser_g_s_s.html", null ],
+      [ "MR::DWI::Tractography::SIFT2::CoefficientOptimiserIterative", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_coefficient_optimiser_iterative.html", null ],
+      [ "MR::DWI::Tractography::SIFT2::CoefficientOptimiserQLS", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_coefficient_optimiser_q_l_s.html", null ]
     ] ],
-    [ "MR::DWI::Tractography::Tracking::Exec< Method >", "classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1Exec.html", null ],
-    [ "MR::Math::FFT", "classMR_1_1Math_1_1FFT.html", null ],
-    [ "MR::Image::Filter::FFT::FFTKernel< ComplexVoxelType >", "classMR_1_1Image_1_1Filter_1_1FFT_1_1FFTKernel.html", null ],
-    [ "MR::DWI::Tractography::SIFT2::LineSearchFunctor::Fixel", "classMR_1_1DWI_1_1Tractography_1_1SIFT2_1_1LineSearchFunctor_1_1Fixel.html", null ],
-    [ "MR::DWI::Fixel_map< Fixel >", "classMR_1_1DWI_1_1Fixel__map.html", [
-      [ "MR::DWI::Tractography::Mapping::Fixel_TD_map< Fixel >", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1Fixel__TD__map.html", [
-        [ "MR::DWI::Tractography::SIFT::ModelBase< Fixel >", "classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1ModelBase.html", [
-          [ "MR::DWI::Tractography::SIFT::Model< Fixel >", "classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1Model.html", [
-            [ "MR::DWI::Tractography::SIFT2::TckFactor", "classMR_1_1DWI_1_1Tractography_1_1SIFT2_1_1TckFactor.html", null ],
-            [ "MR::DWI::Tractography::SIFT::SIFTer", "classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1SIFTer.html", null ]
+    [ "MR::GUI::MRView::ColourMapButtonObserver", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_button_observer.html", [
+      [ "MR::GUI::MRView::Tool::EdgeColourObserver", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_edge_colour_observer.html", null ],
+      [ "MR::GUI::MRView::Tool::NodeColourObserver", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_node_colour_observer.html", null ],
+      [ "MR::GUI::MRView::Tool::Overlay", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_overlay.html", null ],
+      [ "MR::GUI::MRView::Tool::Vector", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_vector.html", null ],
+      [ "MR::GUI::MRView::Window", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_window.html", null ]
+    ] ],
+    [ "MR::compare_ptr_contents", "struct_m_r_1_1compare__ptr__contents.html", null ],
+    [ "MR::Registration::Transform::ComposeKernel< WarpImageType >", "class_m_r_1_1_registration_1_1_transform_1_1_compose_kernel.html", null ],
+    [ "MR::File::Config", "class_m_r_1_1_file_1_1_config.html", null ],
+    [ "MR::Stats::CFE::connectivity", "class_m_r_1_1_stats_1_1_c_f_e_1_1connectivity.html", null ],
+    [ "MR::Filter::Connector", "class_m_r_1_1_filter_1_1_connector.html", null ],
+    [ "MR::DWI::Fixel_map< Fixel >::ConstIterator", "class_m_r_1_1_d_w_i_1_1_fixel__map_1_1_const_iterator.html", null ],
+    [ "MR::BitSet::ConstValue", "class_m_r_1_1_bit_set_1_1_const_value.html", null ],
+    [ "MR::Filter::CopyKernel4D", "class_m_r_1_1_filter_1_1_copy_kernel4_d.html", null ],
+    [ "MR::DWI::Tractography::SIFT::Cost_fn_gradient_sort", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_cost__fn__gradient__sort.html", null ],
+    [ "MR::File::Dicom::CSAEntry", "class_m_r_1_1_file_1_1_dicom_1_1_c_s_a_entry.html", null ],
+    [ "MR::DWI::CSDeconv", "class_m_r_1_1_d_w_i_1_1_c_s_deconv.html", null ],
+    [ "MR::GUI::Shapes::Cube", "class_m_r_1_1_g_u_i_1_1_shapes_1_1_cube.html", null ],
+    [ "MR::Math::CubicSpline< T >", "class_m_r_1_1_math_1_1_cubic_spline.html", [
+      [ "MR::Math::HermiteSpline< T >", "class_m_r_1_1_math_1_1_hermite_spline.html", null ],
+      [ "MR::Math::UniformBSpline< T >", "class_m_r_1_1_math_1_1_uniform_b_spline.html", null ]
+    ] ],
+    [ "MR::GUI::Cursor", "class_m_r_1_1_g_u_i_1_1_cursor.html", null ],
+    [ "MR::GUI::Shapes::Cylinder", "class_m_r_1_1_g_u_i_1_1_shapes_1_1_cylinder.html", null ],
+    [ "MR::DataType", "class_m_r_1_1_data_type.html", [
+      [ "MR::Header::DataTypeProxy", "class_m_r_1_1_header_1_1_data_type_proxy.html", null ]
+    ] ],
+    [ "MR::Path::Dir", "class_m_r_1_1_path_1_1_dir.html", null ],
+    [ "MR::GUI::MRView::DisplayableVisitor", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_displayable_visitor.html", [
+      [ "MR::GUI::MRView::Tool::Overlay", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_overlay.html", null ],
+      [ "MR::GUI::MRView::Tool::TrackScalarFile", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file.html", null ],
+      [ "MR::GUI::MRView::Tool::Vector", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_vector.html", null ]
+    ] ],
+    [ "MR::GUI::DWI::Renderer::Dixel", "class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_dixel.html", null ],
+    [ "MR::DWI::Tractography::Mapping::DixelMappingPlugin", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_dixel_mapping_plugin.html", null ],
+    [ "MR::GUI::MRView::Tool::ODF_Item::DixelPlugin", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f___item_1_1_dixel_plugin.html", null ],
+    [ "MR::DWI::Tractography::Downsampler", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_downsampler.html", null ],
+    [ "MR::DWI::Tractography::Seeding::Dynamic_ACT_additions", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_seeding_1_1_dynamic___a_c_t__additions.html", null ],
+    [ "MR::GUI::MRView::Tool::Edge", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_edge.html", null ],
+    [ "MR::File::Dicom::Element", "class_m_r_1_1_file_1_1_dicom_1_1_element.html", null ],
+    [ "MR::enable_if_header_type< HeaderType, ReturnType >", "struct_m_r_1_1enable__if__header__type.html", null ],
+    [ "MR::enable_if_image_type< ImageType, ReturnType >", "struct_m_r_1_1enable__if__image__type.html", null ],
+    [ "MR::DWI::Tractography::GT::EnergyComputer", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_energy_computer.html", [
+      [ "MR::DWI::Tractography::GT::EnergySumComputer", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_energy_sum_computer.html", null ],
+      [ "MR::DWI::Tractography::GT::ExternalEnergyComputer", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_external_energy_computer.html", null ],
+      [ "MR::DWI::Tractography::GT::InternalEnergyComputer", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_internal_energy_computer.html", null ]
+    ] ],
+    [ "MR::Stats::CFE::Enhancer", "class_m_r_1_1_stats_1_1_c_f_e_1_1_enhancer.html", null ],
+    [ "MR::Stats::TFCE::Enhancer", "class_m_r_1_1_stats_1_1_t_f_c_e_1_1_enhancer.html", null ],
+    [ "MR::File::Entry", "class_m_r_1_1_file_1_1_entry.html", [
+      [ "MR::File::MMap", "class_m_r_1_1_file_1_1_m_map.html", null ]
+    ] ],
+    [ "MR::Histogram< Set >::Entry", "class_m_r_1_1_histogram_1_1_entry.html", null ],
+    [ "MR::GUI::MRView::ColourMap::Entry", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_entry.html", null ],
+    [ "MR::Exception", "class_m_r_1_1_exception.html", [
+      [ "MR::InvalidImageException", "class_m_r_1_1_invalid_image_exception.html", null ]
+    ] ],
+    [ "MR::DWI::Tractography::Tracking::Exec< Method >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_exec.html", null ],
+    [ "false_type", null, [
+      [ "MR::is_complex< ValueType >", "struct_m_r_1_1is__complex.html", null ]
+    ] ],
+    [ "MR::Filter::FFT::FFTKernel< ComplexImageType >", "class_m_r_1_1_filter_1_1_f_f_t_1_1_f_f_t_kernel.html", null ],
+    [ "MR::DWI::Tractography::SIFT2::LineSearchFunctor::Fixel", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_line_search_functor_1_1_fixel.html", null ],
+    [ "MR::DWI::Fixel_map< Fixel >", "class_m_r_1_1_d_w_i_1_1_fixel__map.html", [
+      [ "MR::DWI::Tractography::Mapping::Fixel_TD_map< Fixel >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_fixel___t_d__map.html", [
+        [ "MR::DWI::Tractography::SIFT::ModelBase< Fixel >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model_base.html", [
+          [ "MR::DWI::Tractography::SIFT::Model< Fixel >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model.html", [
+            [ "MR::DWI::Tractography::SIFT2::TckFactor", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_tck_factor.html", null ],
+            [ "MR::DWI::Tractography::SIFT::SIFTer", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html", null ]
           ] ]
         ] ]
       ] ]
     ] ],
-    [ "MR::DWI::Fixel_map< Fixel_TD_seed >", "classMR_1_1DWI_1_1Fixel__map.html", [
-      [ "MR::DWI::Tractography::Mapping::Fixel_TD_map< Fixel_TD_seed >", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1Fixel__TD__map.html", [
-        [ "MR::DWI::Tractography::SIFT::ModelBase< Fixel_TD_seed >", "classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1ModelBase.html", [
-          [ "MR::DWI::Tractography::Seeding::Dynamic", "classMR_1_1DWI_1_1Tractography_1_1Seeding_1_1Dynamic.html", null ]
+    [ "MR::DWI::Fixel_map< Fixel_TD_seed >", "class_m_r_1_1_d_w_i_1_1_fixel__map.html", [
+      [ "MR::DWI::Tractography::Mapping::Fixel_TD_map< Fixel_TD_seed >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_fixel___t_d__map.html", [
+        [ "MR::DWI::Tractography::SIFT::ModelBase< Fixel_TD_seed >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model_base.html", [
+          [ "MR::DWI::Tractography::Seeding::Dynamic", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_seeding_1_1_dynamic.html", null ]
         ] ]
       ] ]
     ] ],
-    [ "MR::DWI::Tractography::SIFT::FixelBase", "classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1FixelBase.html", [
-      [ "MR::DWI::Tractography::Seeding::Fixel_TD_seed", "classMR_1_1DWI_1_1Tractography_1_1Seeding_1_1Fixel__TD__seed.html", null ],
-      [ "MR::DWI::Tractography::SIFT2::Fixel", "classMR_1_1DWI_1_1Tractography_1_1SIFT2_1_1Fixel.html", null ],
-      [ "MR::DWI::Tractography::SIFT::Fixel", "classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1Fixel.html", null ]
+    [ "MR::DWI::Tractography::SIFT::FixelBase", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_fixel_base.html", [
+      [ "MR::DWI::Tractography::Seeding::Fixel_TD_seed", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_seeding_1_1_fixel___t_d__seed.html", null ],
+      [ "MR::DWI::Tractography::SIFT2::Fixel", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_fixel.html", null ],
+      [ "MR::DWI::Tractography::SIFT::Fixel", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_fixel.html", null ]
     ] ],
-    [ "MR::Image::Sparse::FixelMetric", "classMR_1_1Image_1_1Sparse_1_1FixelMetric.html", null ],
-    [ "MR::DWI::Tractography::SIFT2::FixelUpdater", "classMR_1_1DWI_1_1Tractography_1_1SIFT2_1_1FixelUpdater.html", null ],
-    [ "MR::DWI::FMLS::FOD_lobe", "classMR_1_1DWI_1_1FMLS_1_1FOD__lobe.html", null ],
-    [ "MR::DWI::RF::FODCalcAndSeg", "classMR_1_1DWI_1_1RF_1_1FODCalcAndSeg.html", null ],
-    [ "MR::DWI::FMLS::FODQueueWriter< FODVoxelType, MaskVoxelType >", "classMR_1_1DWI_1_1FMLS_1_1FODQueueWriter.html", null ],
-    [ "MR::DWI::RF::FODSegResult", "classMR_1_1DWI_1_1RF_1_1FODSegResult.html", null ],
-    [ "MR::GUI::GL::Font", "classMR_1_1GUI_1_1GL_1_1Font.html", null ],
-    [ "MR::File::Dicom::Frame", "classMR_1_1File_1_1Dicom_1_1Frame.html", [
-      [ "MR::File::Dicom::Image", "classMR_1_1File_1_1Dicom_1_1Image.html", null ]
+    [ "MR::Sparse::FixelMetric", "class_m_r_1_1_sparse_1_1_fixel_metric.html", null ],
+    [ "MR::DWI::Tractography::SIFT2::FixelUpdater", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_fixel_updater.html", null ],
+    [ "MR::DWI::FMLS::FOD_lobe", "class_m_r_1_1_d_w_i_1_1_f_m_l_s_1_1_f_o_d__lobe.html", null ],
+    [ "MR::DWI::FMLS::FODQueueWriter", "class_m_r_1_1_d_w_i_1_1_f_m_l_s_1_1_f_o_d_queue_writer.html", null ],
+    [ "MR::GUI::GL::Font", "class_m_r_1_1_g_u_i_1_1_g_l_1_1_font.html", null ],
+    [ "MR::File::Dicom::Frame", "class_m_r_1_1_file_1_1_dicom_1_1_frame.html", [
+      [ "MR::File::Dicom::Image", "class_m_r_1_1_file_1_1_dicom_1_1_image.html", null ]
     ] ],
-    [ "MR::GUI::GL::FrameBuffer", "classMR_1_1GUI_1_1GL_1_1FrameBuffer.html", null ],
-    [ "MR::Math::Stats::GLMTTest", "classMR_1_1Math_1_1Stats_1_1GLMTTest.html", null ],
-    [ "MR::DWI::Tractography::Seeding::GMWMI_5TT_Wrapper", "classMR_1_1DWI_1_1Tractography_1_1Seeding_1_1GMWMI__5TT__Wrapper.html", [
-      [ "MR::DWI::Tractography::Seeding::GMWMI", "classMR_1_1DWI_1_1Tractography_1_1Seeding_1_1GMWMI.html", null ]
+    [ "MR::Math::Stats::GLMTTest", "class_m_r_1_1_math_1_1_stats_1_1_g_l_m_t_test.html", null ],
+    [ "MR::DWI::Tractography::Seeding::GMWMI_5TT_Wrapper", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_seeding_1_1_g_m_w_m_i__5_t_t___wrapper.html", [
+      [ "MR::DWI::Tractography::Seeding::GMWMI", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_seeding_1_1_g_m_w_m_i.html", null ]
     ] ],
-    [ "MR::DWI::Tractography::ACT::GMWMI_finder", "classMR_1_1DWI_1_1Tractography_1_1ACT_1_1GMWMI__finder.html", [
-      [ "MR::DWI::Tractography::Seeding::GMWMI", "classMR_1_1DWI_1_1Tractography_1_1Seeding_1_1GMWMI.html", null ]
+    [ "MR::DWI::Tractography::ACT::GMWMI_finder", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html", [
+      [ "MR::DWI::Tractography::Seeding::GMWMI", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_seeding_1_1_g_m_w_m_i.html", null ]
     ] ],
-    [ "MR::GUI::App::GrabContext", "structMR_1_1GUI_1_1App_1_1GrabContext.html", [
-      [ "MR::GUI::MRView::Window::GrabContext", "structMR_1_1GUI_1_1MRView_1_1Window_1_1GrabContext.html", null ]
+    [ "MR::GUI::Context::Grab", "struct_m_r_1_1_g_u_i_1_1_context_1_1_grab.html", [
+      [ "MR::GUI::MRView::GrabContext", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_grab_context.html", null ]
     ] ],
-    [ "MR::Math::GradientDescent< Function, UpdateFunctor >", "classMR_1_1Math_1_1GradientDescent.html", null ],
-    [ "GSLMatrix", null, [
-      [ "MR::Math::Matrix< double >", "classMR_1_1Math_1_1Matrix.html", null ],
-      [ "MR::Math::Matrix< float >", "classMR_1_1Math_1_1Matrix.html", null ],
-      [ "MR::Math::Matrix< T >", "classMR_1_1Math_1_1Matrix.html", null ],
-      [ "MR::Math::Matrix< value_type >", "classMR_1_1Math_1_1Matrix.html", null ],
-      [ "MR::Math::Matrix< ValueType >", "classMR_1_1Math_1_1Matrix.html", [
-        [ "MR::Math::Matrix< ValueType >::View", "classMR_1_1Math_1_1Matrix_1_1View.html", null ]
+    [ "MR::Math::GradientDescent< Function, UpdateFunctor >", "class_m_r_1_1_math_1_1_gradient_descent.html", null ],
+    [ "MR::File::GZ", "class_m_r_1_1_file_1_1_g_z.html", null ],
+    [ "MR::GUI::Shapes::HalfSphere", "class_m_r_1_1_g_u_i_1_1_shapes_1_1_half_sphere.html", null ],
+    [ "MR::Header", "class_m_r_1_1_header.html", [
+      [ "MR::Filter::Base", "class_m_r_1_1_filter_1_1_base.html", [
+        [ "MR::Filter::ConnectedComponents", "class_m_r_1_1_filter_1_1_connected_components.html", null ],
+        [ "MR::Filter::Dilate", "class_m_r_1_1_filter_1_1_dilate.html", null ],
+        [ "MR::Filter::DWIBrainMask", "class_m_r_1_1_filter_1_1_d_w_i_brain_mask.html", null ],
+        [ "MR::Filter::Erode", "class_m_r_1_1_filter_1_1_erode.html", null ],
+        [ "MR::Filter::FFT", "class_m_r_1_1_filter_1_1_f_f_t.html", null ],
+        [ "MR::Filter::Gradient", "class_m_r_1_1_filter_1_1_gradient.html", null ],
+        [ "MR::Filter::Median", "class_m_r_1_1_filter_1_1_median.html", null ],
+        [ "MR::Filter::OptimalThreshold", "class_m_r_1_1_filter_1_1_optimal_threshold.html", null ],
+        [ "MR::Filter::Resize", "class_m_r_1_1_filter_1_1_resize.html", null ],
+        [ "MR::Filter::Smooth", "class_m_r_1_1_filter_1_1_smooth.html", null ]
+      ] ],
+      [ "MR::Image< ValueType >::Buffer", "class_m_r_1_1_image_1_1_buffer.html", null ]
+    ] ],
+    [ "MR::Math::Hermite< T >", "class_m_r_1_1_math_1_1_hermite.html", null ],
+    [ "MR::Histogram< Set >", "class_m_r_1_1_histogram.html", null ],
+    [ "Image", null, [
+      [ "MR::Interp::Base< MR::MR::GUI::MRView::Image< cfloat > >", "class_m_r_1_1_interp_1_1_base.html", [
+        [ "MR::Interp::Nearest< MR::MR::GUI::MRView::Image< cfloat > >", "class_m_r_1_1_interp_1_1_nearest.html", null ]
       ] ]
     ] ],
-    [ "GSLVector", null, [
-      [ "MR::Math::Vector< ValueType >", "classMR_1_1Math_1_1Vector.html", [
-        [ "MR::Math::Vector< ValueType >::View", "classMR_1_1Math_1_1Vector_1_1View.html", null ]
-      ] ],
-      [ "MR::Math::Vector< double >", "classMR_1_1Math_1_1Vector.html", null ],
-      [ "MR::Math::Vector< float >", "classMR_1_1Math_1_1Vector.html", [
-        [ "MR::DWI::FMLS::SH_coefs", "classMR_1_1DWI_1_1FMLS_1_1SH__coefs.html", null ],
-        [ "MR::GUI::MRView::Tool::FileDataVector", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1FileDataVector.html", null ]
-      ] ],
-      [ "MR::Math::Vector< value_type >", "classMR_1_1Math_1_1Vector.html", null ]
+    [ "MR::Image< ValueType >", "class_m_r_1_1_image.html", null ],
+    [ "MR::Image< bool >", "class_m_r_1_1_image.html", [
+      [ "MR::DWI::Tractography::Mask", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mask.html", null ]
     ] ],
-    [ "MR::File::GZ", "classMR_1_1File_1_1GZ.html", null ],
-    [ "MR::GUI::Shapes::HalfSphere", "classMR_1_1GUI_1_1Shapes_1_1HalfSphere.html", null ],
-    [ "MR::Math::Hermite< T >", "classMR_1_1Math_1_1Hermite.html", null ],
-    [ "MR::Math::Hermite< value_type >", "classMR_1_1Math_1_1Hermite.html", null ],
-    [ "MR::Image::Histogram< Set >", "classMR_1_1Image_1_1Histogram.html", null ],
-    [ "MR::Image::Filter::ImageCorrelationCostFunction< InputVoxelType, MaskVoxelType >", "classMR_1_1Image_1_1Filter_1_1ImageCorrelationCostFunction.html", null ],
-    [ "MR::GUI::GL::IndexBuffer", "classMR_1_1GUI_1_1GL_1_1IndexBuffer.html", null ],
-    [ "MR::Image::Adapter::Info< InfoType >", "classMR_1_1Image_1_1Adapter_1_1Info.html", null ],
-    [ "MR::Image::Info", "classMR_1_1Image_1_1Info.html", [
-      [ "MR::DWI::Fixel_map< Fixel >::Info", "classMR_1_1DWI_1_1Fixel__map_1_1Info.html", null ],
-      [ "MR::Image::ConstInfo", "classMR_1_1Image_1_1ConstInfo.html", [
-        [ "MR::Image::BufferScratch< float >", "classMR_1_1Image_1_1BufferScratch.html", null ],
-        [ "MR::Image::BufferScratch< int32_t >", "classMR_1_1Image_1_1BufferScratch.html", null ],
-        [ "MR::Image::BufferScratch< MR::DWI::Fixel_map::MapVoxel * >", "classMR_1_1Image_1_1BufferScratch.html", null ],
-        [ "MR::Image::BufferScratch< value_type >", "classMR_1_1Image_1_1BufferScratch.html", [
-          [ "MR::DWI::Tractography::Mapping::BufferScratchDump< value_type >", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1BufferScratchDump.html", null ]
-        ] ],
-        [ "MR::DWI::NoiseEstimator", "classMR_1_1DWI_1_1NoiseEstimator.html", null ],
-        [ "MR::Image::Adapter::Reslice< Interpolator, VoxelType >", "classMR_1_1Image_1_1Adapter_1_1Reslice.html", null ],
-        [ "MR::Image::BufferScratch< ValueType >", "classMR_1_1Image_1_1BufferScratch.html", null ],
-        [ "MR::Image::BufferScratch< bool >", "classMR_1_1Image_1_1BufferScratch_3_01bool_01_4.html", [
-          [ "MR::DWI::Tractography::Mask", "classMR_1_1DWI_1_1Tractography_1_1Mask.html", null ]
-        ] ],
-        [ "MR::Image::Filter::Base", "classMR_1_1Image_1_1Filter_1_1Base.html", [
-          [ "MR::Image::Filter::ConnectedComponents", "classMR_1_1Image_1_1Filter_1_1ConnectedComponents.html", null ],
-          [ "MR::Image::Filter::Dilate", "classMR_1_1Image_1_1Filter_1_1Dilate.html", null ],
-          [ "MR::Image::Filter::DWIBrainMask", "classMR_1_1Image_1_1Filter_1_1DWIBrainMask.html", null ],
-          [ "MR::Image::Filter::Erode", "classMR_1_1Image_1_1Filter_1_1Erode.html", null ],
-          [ "MR::Image::Filter::FFT", "classMR_1_1Image_1_1Filter_1_1FFT.html", null ],
-          [ "MR::Image::Filter::Gradient", "classMR_1_1Image_1_1Filter_1_1Gradient.html", null ],
-          [ "MR::Image::Filter::LargestConnectedComponent", "classMR_1_1Image_1_1Filter_1_1LargestConnectedComponent.html", null ],
-          [ "MR::Image::Filter::Median", "classMR_1_1Image_1_1Filter_1_1Median.html", null ],
-          [ "MR::Image::Filter::OptimalThreshold", "classMR_1_1Image_1_1Filter_1_1OptimalThreshold.html", null ],
-          [ "MR::Image::Filter::Resize", "classMR_1_1Image_1_1Filter_1_1Resize.html", null ],
-          [ "MR::Image::Filter::Smooth", "classMR_1_1Image_1_1Filter_1_1Smooth.html", null ]
-        ] ],
-        [ "MR::Image::Filter::Base", "classMR_1_1Image_1_1Filter_1_1Base.html", null ]
-      ] ],
-      [ "MR::Image::Header", "classMR_1_1Image_1_1Header.html", [
-        [ "MR::Image::ConstHeader", "classMR_1_1Image_1_1ConstHeader.html", [
-          [ "MR::Image::Buffer< cfloat >", "classMR_1_1Image_1_1Buffer.html", null ],
-          [ "MR::Image::Buffer< float >", "classMR_1_1Image_1_1Buffer.html", [
-            [ "MR::Image::BufferPreload< float >", "classMR_1_1Image_1_1BufferPreload.html", null ]
-          ] ],
-          [ "MR::Image::Buffer< node_t >", "classMR_1_1Image_1_1Buffer.html", null ],
-          [ "MR::Image::Buffer< uint64_t >", "classMR_1_1Image_1_1Buffer.html", [
-            [ "MR::Image::BufferSparse< SparseDataType >", "classMR_1_1Image_1_1BufferSparse.html", null ]
-          ] ],
-          [ "MR::Image::Buffer< ValueType >", "classMR_1_1Image_1_1Buffer.html", [
-            [ "MR::Image::BufferPreload< ValueType >", "classMR_1_1Image_1_1BufferPreload.html", null ]
-          ] ]
-        ] ]
+    [ "MR::Image< cfloat >", "class_m_r_1_1_image.html", null ],
+    [ "MR::Image< float >", "class_m_r_1_1_image.html", [
+      [ "MR::Interp::Base< MR::Image< float > >", "class_m_r_1_1_interp_1_1_base.html", [
+        [ "MR::Interp::Nearest< MR::Image< float > >", "class_m_r_1_1_interp_1_1_nearest.html", null ]
       ] ]
     ] ],
-    [ "MR::InfoType", "classMR_1_1InfoType.html", null ],
-    [ "MR::DWI::Tractography::Tracking::Interpolator< VoxelType >", "classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1Interpolator.html", null ],
-    [ "MR::DWI::Tractography::Tracking::Interpolator< MR::Image::BufferPreload::voxel_type >", "classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1Interpolator.html", null ],
-    [ "MR::GUI::MRView::Tool::AbstractFixel::IntPointHasher", "structMR_1_1GUI_1_1MRView_1_1Tool_1_1AbstractFixel_1_1IntPointHasher.html", null ],
-    [ "MR::Thread::Queue< T >::Writer::Item", "classMR_1_1Thread_1_1Queue_1_1Writer_1_1Item.html", null ],
-    [ "MR::Thread::Queue< T >::Reader::Item", "classMR_1_1Thread_1_1Queue_1_1Reader_1_1Item.html", null ],
-    [ "MR::Image::NameParser::Item", "classMR_1_1Image_1_1NameParser_1_1Item.html", null ],
-    [ "MR::DWI::Fixel_map< Fixel >::Iterator", "classMR_1_1DWI_1_1Fixel__map_1_1Iterator.html", null ],
-    [ "MR::Image::Iterator", "classMR_1_1Image_1_1Iterator.html", null ],
-    [ "MR::File::KeyValue", "classMR_1_1File_1_1KeyValue.html", null ],
-    [ "MR::Image::Registration::Transform::LinearReorientKernel< FODVoxelType >", "classMR_1_1Image_1_1Registration_1_1Transform_1_1LinearReorientKernel.html", null ],
-    [ "MR::DWI::Tractography::SIFT2::LineSearchFunctor", "classMR_1_1DWI_1_1Tractography_1_1SIFT2_1_1LineSearchFunctor.html", null ],
-    [ "MR::DWI::Tractography::Seeding::List", "classMR_1_1DWI_1_1Tractography_1_1Seeding_1_1List.html", null ],
-    [ "MR::Image::ParsedName::List", "classMR_1_1Image_1_1ParsedName_1_1List.html", null ],
-    [ "MR::DWI::Tractography::Editing::Loader", "classMR_1_1DWI_1_1Tractography_1_1Editing_1_1Loader.html", null ],
-    [ "MR::LogLevelLatch", "classMR_1_1LogLevelLatch.html", null ],
-    [ "MR::Image::Loop", "classMR_1_1Image_1_1Loop.html", null ],
-    [ "MR::Image::LoopInOrder", "classMR_1_1Image_1_1LoopInOrder.html", null ],
+    [ "MR::Image< int32_t >", "class_m_r_1_1_image.html", null ],
+    [ "MR::Image< MapVoxel * >", "class_m_r_1_1_image.html", null ],
+    [ "MR::Image< node_t >", "class_m_r_1_1_image.html", null ],
+    [ "MR::Image< uint64_t >", "class_m_r_1_1_image.html", [
+      [ "MR::Sparse::Image< DataType >", "class_m_r_1_1_sparse_1_1_image.html", null ]
+    ] ],
+    [ "MR::Image< value_type >", "class_m_r_1_1_image.html", [
+      [ "MR::DWI::Tractography::Mapping::BufferScratchDump< value_type >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_buffer_scratch_dump.html", null ]
+    ] ],
+    [ "MR::Filter::ImageCorrelationCostFunction< ImageType, MaskType >", "class_m_r_1_1_filter_1_1_image_correlation_cost_function.html", null ],
+    [ "MR::Helper::Index< ImageType >", "class_m_r_1_1_helper_1_1_index.html", null ],
+    [ "MR::DWI::Bootstrap< ImageType, Functor, NUM_VOX_PER_CHUNK >::IndexCompare", "class_m_r_1_1_d_w_i_1_1_bootstrap_1_1_index_compare.html", null ],
+    [ "MR::Math::RNG::Integer< ValueType >", "class_m_r_1_1_math_1_1_r_n_g_1_1_integer.html", null ],
+    [ "integral_constant", null, [
+      [ "MR::is_data_type< ValueType >", "struct_m_r_1_1is__data__type.html", null ]
+    ] ],
+    [ "MR::DWI::Tractography::Tracking::Interpolator< ImageType >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_interpolator.html", null ],
+    [ "MR::DWI::Tractography::Tracking::Interpolator< MR::Image< float > >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_interpolator.html", null ],
+    [ "MR::GUI::MRView::Tool::AbstractFixel::IntPointHasher", "struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_abstract_fixel_1_1_int_point_hasher.html", null ],
+    [ "MR::is_adapter_type< ImageType >", "struct_m_r_1_1is__adapter__type.html", null ],
+    [ "MR::is_header_type< HeaderType >", "class_m_r_1_1is__header__type.html", null ],
+    [ "MR::is_image_type< ImageType >", "class_m_r_1_1is__image__type.html", null ],
+    [ "MR::is_pure_image< ImageType >", "struct_m_r_1_1is__pure__image.html", null ],
+    [ "MR::File::NameParser::Item", "class_m_r_1_1_file_1_1_name_parser_1_1_item.html", null ],
+    [ "MR::Thread::Queue< T >::Writer::Item", "class_m_r_1_1_thread_1_1_queue_1_1_writer_1_1_item.html", null ],
+    [ "MR::Thread::Queue< T >::Reader::Item", "class_m_r_1_1_thread_1_1_queue_1_1_reader_1_1_item.html", null ],
+    [ "MR::DWI::Fixel_map< Fixel >::Iterator", "class_m_r_1_1_d_w_i_1_1_fixel__map_1_1_iterator.html", null ],
+    [ "MR::Iterator", "class_m_r_1_1_iterator.html", null ],
+    [ "MR::File::KeyValue", "class_m_r_1_1_file_1_1_key_value.html", null ],
+    [ "MR::Registration::Transform::LinearKernel< FODImageType >", "class_m_r_1_1_registration_1_1_transform_1_1_linear_kernel.html", null ],
+    [ "MR::DWI::Tractography::SIFT2::LineSearchFunctor", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_line_search_functor.html", null ],
+    [ "MR::File::ParsedName::List", "class_m_r_1_1_file_1_1_parsed_name_1_1_list.html", null ],
+    [ "MR::DWI::Tractography::Seeding::List", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_seeding_1_1_list.html", null ],
+    [ "MR::DWI::Tractography::Editing::Loader", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_editing_1_1_loader.html", null ],
+    [ "MR::LogLevelLatch", "class_m_r_1_1_log_level_latch.html", null ],
+    [ "MR::LoopAlongAxes", "struct_m_r_1_1_loop_along_axes.html", null ],
+    [ "MR::LoopAlongAxesProgress", "struct_m_r_1_1_loop_along_axes_progress.html", null ],
+    [ "MR::LoopAlongAxisRange", "struct_m_r_1_1_loop_along_axis_range.html", [
+      [ "MR::LoopAlongAxisRangeProgress", "struct_m_r_1_1_loop_along_axis_range_progress.html", null ]
+    ] ],
+    [ "MR::LoopAlongDynamicAxes", "struct_m_r_1_1_loop_along_dynamic_axes.html", [
+      [ "MR::LoopAlongDynamicAxesProgress", "struct_m_r_1_1_loop_along_dynamic_axes_progress.html", null ]
+    ] ],
+    [ "MR::LoopAlongSingleAxis", "struct_m_r_1_1_loop_along_single_axis.html", null ],
+    [ "MR::LoopAlongSingleAxisProgress", "struct_m_r_1_1_loop_along_single_axis_progress.html", null ],
+    [ "MR::LoopAlongStaticAxes", "struct_m_r_1_1_loop_along_static_axes.html", [
+      [ "MR::LoopAlongStaticAxesProgress", "struct_m_r_1_1_loop_along_static_axes_progress.html", null ]
+    ] ],
     [ "map", null, [
-      [ "MR::Connectome::Node_map", "classMR_1_1Connectome_1_1Node__map.html", null ],
-      [ "MR::DWI::Tractography::Properties", "classMR_1_1DWI_1_1Tractography_1_1Properties.html", null ],
-      [ "MR::Image::Header", "classMR_1_1Image_1_1Header.html", null ]
+      [ "MR::Connectome::Node_map", "class_m_r_1_1_connectome_1_1_node__map.html", null ],
+      [ "MR::DWI::Tractography::Properties", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_properties.html", null ]
     ] ],
-    [ "MR::DWI::Tractography::Connectome::Mapped_track", "classMR_1_1DWI_1_1Tractography_1_1Connectome_1_1Mapped__track.html", null ],
-    [ "MR::DWI::Tractography::Connectome::Mapper", "classMR_1_1DWI_1_1Tractography_1_1Connectome_1_1Mapper.html", null ],
-    [ "MR::DWI::Fixel_map< Fixel >::MapVoxel", "classMR_1_1DWI_1_1Fixel__map_1_1MapVoxel.html", null ],
-    [ "MR::DWI::Tractography::Mapping::MapWriterBase", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1MapWriterBase.html", [
-      [ "MR::DWI::Tractography::Mapping::MapWriter< value_type >", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1MapWriter.html", null ]
+    [ "MR::DWI::Tractography::Connectome::Mapped_track_base", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_mapped__track__base.html", [
+      [ "MR::DWI::Tractography::Connectome::Mapped_track_nodelist", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_mapped__track__nodelist.html", null ],
+      [ "MR::DWI::Tractography::Connectome::Mapped_track_nodepair", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_mapped__track__nodepair.html", null ]
     ] ],
-    [ "MR::DWI::Directions::Mask", "classMR_1_1DWI_1_1Directions_1_1Mask.html", null ],
-    [ "MR::Connectome::Mat2Vec", "classMR_1_1Connectome_1_1Mat2Vec.html", null ],
-    [ "MR::GUI::GL::mat4", "classMR_1_1GUI_1_1GL_1_1mat4.html", null ],
-    [ "MR::DWI::Tractography::Connectome::Matrix", "classMR_1_1DWI_1_1Tractography_1_1Connectome_1_1Matrix.html", null ],
-    [ "MR::Image::MatrixMultiply< InputVoxelType, OutputVoxelType, PreFunctor, PostFunctor, value_type >", "classMR_1_1Image_1_1MatrixMultiply.html", null ],
-    [ "MR::Mesh::Mesh", "classMR_1_1Mesh_1_1Mesh.html", null ],
-    [ "MR::DWI::Tractography::Tracking::MethodBase", "classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1MethodBase.html", [
-      [ "MR::DWI::Tractography::Algorithms::FACT", "classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1FACT.html", null ],
-      [ "MR::DWI::Tractography::Algorithms::iFOD1", "classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1iFOD1.html", null ],
-      [ "MR::DWI::Tractography::Algorithms::iFOD2", "classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1iFOD2.html", null ],
-      [ "MR::DWI::Tractography::Algorithms::NullDist", "classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1NullDist.html", null ],
-      [ "MR::DWI::Tractography::Algorithms::SDStream", "classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1SDStream.html", null ],
-      [ "MR::DWI::Tractography::Algorithms::Seedtest", "classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1Seedtest.html", null ],
-      [ "MR::DWI::Tractography::Algorithms::Tensor_Det", "classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1Tensor__Det.html", [
-        [ "MR::DWI::Tractography::Algorithms::Tensor_Prob", "classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1Tensor__Prob.html", null ]
+    [ "MR::DWI::Tractography::Connectome::Mapper", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_mapper.html", null ],
+    [ "MR::DWI::Fixel_map< Fixel >::MapVoxel", "class_m_r_1_1_d_w_i_1_1_fixel__map_1_1_map_voxel.html", null ],
+    [ "MR::DWI::Tractography::Mapping::MapWriterBase", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_map_writer_base.html", [
+      [ "MR::DWI::Tractography::Mapping::MapWriter< value_type >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_map_writer.html", null ]
+    ] ],
+    [ "MR::Connectome::Mat2Vec", "class_m_r_1_1_connectome_1_1_mat2_vec.html", null ],
+    [ "MR::GUI::GL::mat4", "class_m_r_1_1_g_u_i_1_1_g_l_1_1mat4.html", null ],
+    [ "MR::DWI::Tractography::Connectome::Matrix", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_matrix.html", null ],
+    [ "Matrix", null, [
+      [ "MR::DWI::FMLS::SH_coefs", "class_m_r_1_1_d_w_i_1_1_f_m_l_s_1_1_s_h__coefs.html", null ]
+    ] ],
+    [ "MR::max_digits< X, ReturnType >", "struct_m_r_1_1max__digits.html", null ],
+    [ "MR::max_digits< X, typename std::enable_if< std::is_fundamental< typename X::Scalar >::value, int >::type >", "struct_m_r_1_1max__digits_3_01_x_00_01typename_01std_1_1enable__if_3_01std_1_1is__fundamental_3_8467db8cf8cb55f508d8abceaab32928.html", null ],
+    [ "MR::max_digits< X, typename std::enable_if< std::is_fundamental< typename X::value_type >::value, int >::type >", "struct_m_r_1_1max__digits_3_01_x_00_01typename_01std_1_1enable__if_3_01std_1_1is__fundamental_3_c1941f368f212a443dbb9b8114d97118.html", null ],
+    [ "MR::Mesh::Mesh", "class_m_r_1_1_mesh_1_1_mesh.html", null ],
+    [ "MR::DWI::Tractography::Tracking::MethodBase", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_method_base.html", [
+      [ "MR::DWI::Tractography::Algorithms::FACT", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_f_a_c_t.html", null ],
+      [ "MR::DWI::Tractography::Algorithms::iFOD1", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1.html", null ],
+      [ "MR::DWI::Tractography::Algorithms::iFOD2", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d2.html", [
+        [ "MR::DWI::Tractography::Algorithms::NullDist2", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_null_dist2.html", null ]
+      ] ],
+      [ "MR::DWI::Tractography::Algorithms::NullDist1", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_null_dist1.html", null ],
+      [ "MR::DWI::Tractography::Algorithms::SDStream", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_s_d_stream.html", null ],
+      [ "MR::DWI::Tractography::Algorithms::Seedtest", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_seedtest.html", null ],
+      [ "MR::DWI::Tractography::Algorithms::Tensor_Det", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_tensor___det.html", [
+        [ "MR::DWI::Tractography::Algorithms::Tensor_Prob", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_tensor___prob.html", null ]
       ] ]
     ] ],
-    [ "MR::DWI::Tractography::Connectome::Metric_base", "classMR_1_1DWI_1_1Tractography_1_1Connectome_1_1Metric__base.html", [
-      [ "MR::DWI::Tractography::Connectome::Metric_count", "classMR_1_1DWI_1_1Tractography_1_1Connectome_1_1Metric__count.html", null ],
-      [ "MR::DWI::Tractography::Connectome::Metric_invlength", "classMR_1_1DWI_1_1Tractography_1_1Connectome_1_1Metric__invlength.html", null ],
-      [ "MR::DWI::Tractography::Connectome::Metric_invnodevolume", "classMR_1_1DWI_1_1Tractography_1_1Connectome_1_1Metric__invnodevolume.html", [
-        [ "MR::DWI::Tractography::Connectome::Metric_invlength_invnodevolume", "classMR_1_1DWI_1_1Tractography_1_1Connectome_1_1Metric__invlength__invnodevolume.html", null ]
+    [ "MR::DWI::Tractography::Connectome::Metric_base", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric__base.html", [
+      [ "MR::DWI::Tractography::Connectome::Metric_count", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric__count.html", null ],
+      [ "MR::DWI::Tractography::Connectome::Metric_invlength", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric__invlength.html", null ],
+      [ "MR::DWI::Tractography::Connectome::Metric_invnodevolume", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric__invnodevolume.html", [
+        [ "MR::DWI::Tractography::Connectome::Metric_invlength_invnodevolume", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric__invlength__invnodevolume.html", null ]
       ] ],
-      [ "MR::DWI::Tractography::Connectome::Metric_meanlength", "classMR_1_1DWI_1_1Tractography_1_1Connectome_1_1Metric__meanlength.html", null ],
-      [ "MR::DWI::Tractography::Connectome::Metric_meanscalar", "classMR_1_1DWI_1_1Tractography_1_1Connectome_1_1Metric__meanscalar.html", null ]
+      [ "MR::DWI::Tractography::Connectome::Metric_meanlength", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric__meanlength.html", null ],
+      [ "MR::DWI::Tractography::Connectome::Metric_meanscalar", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric__meanscalar.html", null ]
     ] ],
-    [ "mgh_header", "structmgh__header.html", null ],
-    [ "mgh_other", "structmgh__other.html", null ],
-    [ "MR::Min_mem_array< T >", "classMR_1_1Min__mem__array.html", null ],
-    [ "MR::Min_mem_array< Track_fixel_contribution >", "classMR_1_1Min__mem__array.html", [
-      [ "MR::DWI::Tractography::SIFT::TrackContribution", "classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1TrackContribution.html", null ]
+    [ "MR::DWI::Tractography::GT::MHSampler", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_m_h_sampler.html", null ],
+    [ "MR::Min_mem_array< T >", "class_m_r_1_1_min__mem__array.html", null ],
+    [ "MR::Min_mem_array< Track_fixel_contribution >", "class_m_r_1_1_min__mem__array.html", [
+      [ "MR::DWI::Tractography::SIFT::TrackContribution", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_track_contribution.html", null ]
     ] ],
-    [ "MR::GUI::MRView::Mode::ModeGuiVisitor", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1ModeGuiVisitor.html", [
-      [ "MR::GUI::MRView::Tool::View", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1View.html", null ]
+    [ "MR::GUI::MRView::Mode::ModeGuiVisitor", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_mode_gui_visitor.html", [
+      [ "MR::GUI::MRView::Tool::View", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_view.html", null ]
     ] ],
     [ "mt19937", null, [
-      [ "MR::Math::RNG", "classMR_1_1Math_1_1RNG.html", null ]
+      [ "MR::Math::RNG", "class_m_r_1_1_math_1_1_r_n_g.html", null ]
     ] ],
-    [ "MR::DWI::Tractography::SIFT::MT_gradient_vector_sorter", "classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1MT__gradient__vector__sorter.html", null ],
-    [ "MR::Image::NameParser", "classMR_1_1Image_1_1NameParser.html", null ],
-    [ "MR::GUI::MRView::Tool::Node", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Node.html", null ],
-    [ "MR::Connectome::Node_info", "classMR_1_1Connectome_1_1Node__info.html", null ],
-    [ "MR::DWI::NoiseEstimatorFunctor< InputVoxelType, OutputVoxelType, ValueType >", "classMR_1_1DWI_1_1NoiseEstimatorFunctor.html", null ],
-    [ "MR::Math::RNG::Normal< ValueType >", "classMR_1_1Math_1_1RNG_1_1Normal.html", null ],
-    [ "MR::GUI::GL::Shader::Object< TYPE >", "classMR_1_1GUI_1_1GL_1_1Shader_1_1Object.html", null ],
+    [ "MR::DWI::Tractography::SIFT::MT_gradient_vector_sorter", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_m_t__gradient__vector__sorter.html", null ],
+    [ "MR::File::NameParser", "class_m_r_1_1_file_1_1_name_parser.html", null ],
+    [ "MR::GUI::MRView::Tool::Node", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_node.html", null ],
+    [ "MR::Connectome::Node_info", "class_m_r_1_1_connectome_1_1_node__info.html", null ],
+    [ "MR::Registration::Transform::NonLinearKernel< FODImageType, WarpImageType >", "class_m_r_1_1_registration_1_1_transform_1_1_non_linear_kernel.html", null ],
+    [ "MR::Math::RNG::Normal< ValueType >", "class_m_r_1_1_math_1_1_r_n_g_1_1_normal.html", null ],
+    [ "MR::Math::RNG::Normal< float >", "class_m_r_1_1_math_1_1_r_n_g_1_1_normal.html", null ],
+    [ "MR::GUI::GL::Shader::Object< TYPE >", "class_m_r_1_1_g_u_i_1_1_g_l_1_1_shader_1_1_object.html", null ],
+    [ "MR::GUI::MRView::Tool::ODF_Item", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f___item.html", null ],
     [ "ofstream", null, [
-      [ "MR::File::OFStream", "classMR_1_1File_1_1OFStream.html", null ]
+      [ "MR::File::OFStream", "class_m_r_1_1_file_1_1_o_f_stream.html", null ]
     ] ],
-    [ "MR::App::Options::Opt", "classMR_1_1App_1_1Options_1_1Opt.html", null ],
-    [ "MR::App::Options", "classMR_1_1App_1_1Options.html", null ],
-    [ "MR::App::ParsedArgument", "classMR_1_1App_1_1ParsedArgument.html", null ],
-    [ "MR::Image::ParsedName", "classMR_1_1Image_1_1ParsedName.html", null ],
-    [ "MR::App::ParsedOption", "classMR_1_1App_1_1ParsedOption.html", null ],
-    [ "MR::Math::Permutation", "classMR_1_1Math_1_1Permutation.html", null ],
-    [ "MR::Stats::PermTest::PermutationStack", "classMR_1_1Stats_1_1PermTest_1_1PermutationStack.html", null ],
-    [ "MR::Point< T >", "classMR_1_1Point.html", null ],
-    [ "MR::Point< float >", "classMR_1_1Point.html", null ],
-    [ "MR::Point< int >", "classMR_1_1Point.html", [
-      [ "MR::DWI::Tractography::Mapping::Voxel", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1Voxel.html", [
-        [ "MR::DWI::Tractography::Mapping::Dixel", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1Dixel.html", [
-          [ "MR::DWI::Tractography::Mapping::Gaussian::Dixel", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1Gaussian_1_1Dixel.html", null ]
-        ] ],
-        [ "MR::DWI::Tractography::Mapping::Gaussian::Voxel", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1Gaussian_1_1Voxel.html", null ],
-        [ "MR::DWI::Tractography::Mapping::VoxelDEC", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1VoxelDEC.html", [
-          [ "MR::DWI::Tractography::Mapping::Gaussian::VoxelDEC", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1Gaussian_1_1VoxelDEC.html", null ]
-        ] ],
-        [ "MR::DWI::Tractography::Mapping::VoxelTOD", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1VoxelTOD.html", [
-          [ "MR::DWI::Tractography::Mapping::Gaussian::VoxelTOD", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1Gaussian_1_1VoxelTOD.html", null ]
-        ] ]
-      ] ]
-    ] ],
-    [ "MR::Point< uint8_t >", "classMR_1_1Point.html", null ],
-    [ "MR::Point< value_type >", "classMR_1_1Point.html", null ],
-    [ "MR::Mesh::Polygon< vertices >", "classMR_1_1Mesh_1_1Polygon.html", null ],
-    [ "MR::Image::Position< Set >", "classMR_1_1Image_1_1Position.html", null ],
-    [ "MR::Math::SH::PrecomputedAL< ValueType >", "classMR_1_1Math_1_1SH_1_1PrecomputedAL.html", null ],
-    [ "MR::Math::SH::PrecomputedAL< value_type >", "classMR_1_1Math_1_1SH_1_1PrecomputedAL.html", null ],
-    [ "MR::Math::SH::PrecomputedFraction< ValueType >", "classMR_1_1Math_1_1SH_1_1PrecomputedFraction.html", null ],
-    [ "MR::Stats::PermTest::PreProcessor< StatsType, EnchancementType >", "classMR_1_1Stats_1_1PermTest_1_1PreProcessor.html", null ],
-    [ "MR::Stats::PermTest::Processor< StatsType, EnhancementType >", "classMR_1_1Stats_1_1PermTest_1_1Processor.html", null ],
-    [ "MR::GUI::GL::Shader::Program", "classMR_1_1GUI_1_1GL_1_1Shader_1_1Program.html", [
-      [ "MR::GUI::MRView::Displayable::Shader", "classMR_1_1GUI_1_1MRView_1_1Displayable_1_1Shader.html", [
-        [ "MR::GUI::MRView::Mode::Slice::Shader", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Slice_1_1Shader.html", null ],
-        [ "MR::GUI::MRView::Mode::Volume::Shader", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Volume_1_1Shader.html", null ],
-        [ "MR::GUI::MRView::Tool::AbstractFixel::Shader", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1AbstractFixel_1_1Shader.html", null ],
-        [ "MR::GUI::MRView::Tool::NodeOverlay::Shader", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1NodeOverlay_1_1Shader.html", null ],
-        [ "MR::GUI::MRView::Tool::Tractogram::Shader", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Tractogram_1_1Shader.html", null ]
+    [ "MR::App::ParsedArgument", "class_m_r_1_1_app_1_1_parsed_argument.html", null ],
+    [ "MR::File::ParsedName", "class_m_r_1_1_file_1_1_parsed_name.html", null ],
+    [ "MR::App::ParsedOption", "class_m_r_1_1_app_1_1_parsed_option.html", null ],
+    [ "MR::DWI::Tractography::GT::Particle", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle.html", null ],
+    [ "MR::DWI::Tractography::GT::ParticleEnd", "struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle_end.html", null ],
+    [ "MR::DWI::Tractography::GT::ParticleGrid", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle_grid.html", null ],
+    [ "MR::DWI::Tractography::GT::ParticlePool", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle_pool.html", null ],
+    [ "MR::Stats::PermTest::PermutationStack", "class_m_r_1_1_stats_1_1_perm_test_1_1_permutation_stack.html", null ],
+    [ "MR::Mesh::Polygon< vertices >", "class_m_r_1_1_mesh_1_1_polygon.html", null ],
+    [ "MR::Math::SH::PrecomputedAL< ValueType >", "class_m_r_1_1_math_1_1_s_h_1_1_precomputed_a_l.html", null ],
+    [ "MR::Math::SH::PrecomputedAL< float >", "class_m_r_1_1_math_1_1_s_h_1_1_precomputed_a_l.html", null ],
+    [ "MR::Math::SH::PrecomputedFraction< ValueType >", "class_m_r_1_1_math_1_1_s_h_1_1_precomputed_fraction.html", null ],
+    [ "MR::Stats::PermTest::PreProcessor< StatsType, EnchancementType >", "class_m_r_1_1_stats_1_1_perm_test_1_1_pre_processor.html", null ],
+    [ "MR::Math::ICLS::Problem< ValueType >", "class_m_r_1_1_math_1_1_i_c_l_s_1_1_problem.html", null ],
+    [ "MR::Math::ICLS::Problem< double >", "class_m_r_1_1_math_1_1_i_c_l_s_1_1_problem.html", null ],
+    [ "MR::Math::ICLS::Problem< value_type >", "class_m_r_1_1_math_1_1_i_c_l_s_1_1_problem.html", null ],
+    [ "MR::Stats::PermTest::Processor< StatsType, EnhancementType >", "class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html", null ],
+    [ "MR::GUI::GL::Shader::Program", "class_m_r_1_1_g_u_i_1_1_g_l_1_1_shader_1_1_program.html", [
+      [ "MR::GUI::DWI::Renderer::Shader", "class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_shader.html", null ],
+      [ "MR::GUI::MRView::Displayable::Shader", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_displayable_1_1_shader.html", [
+        [ "MR::GUI::MRView::Mode::Slice::Shader", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_slice_1_1_shader.html", null ],
+        [ "MR::GUI::MRView::Mode::Volume::Shader", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume_1_1_shader.html", null ],
+        [ "MR::GUI::MRView::Tool::AbstractFixel::Shader", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_abstract_fixel_1_1_shader.html", null ],
+        [ "MR::GUI::MRView::Tool::NodeOverlay::Shader", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_node_overlay_1_1_shader.html", null ],
+        [ "MR::GUI::MRView::Tool::Tractogram::Shader", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractogram_1_1_shader.html", null ]
       ] ],
-      [ "MR::GUI::MRView::Tool::ShaderBase", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ShaderBase.html", [
-        [ "MR::GUI::MRView::Tool::EdgeShader", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1EdgeShader.html", null ],
-        [ "MR::GUI::MRView::Tool::NodeShader", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1NodeShader.html", null ]
+      [ "MR::GUI::MRView::Tool::ShaderBase", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_shader_base.html", [
+        [ "MR::GUI::MRView::Tool::EdgeShader", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_edge_shader.html", null ],
+        [ "MR::GUI::MRView::Tool::NodeShader", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_node_shader.html", null ]
       ] ]
     ] ],
-    [ "MR::ProgressBar", "classMR_1_1ProgressBar.html", null ],
-    [ "MR::ProgressInfo", "classMR_1_1ProgressInfo.html", null ],
-    [ "MR::GUI::Projection", "classMR_1_1GUI_1_1Projection.html", null ],
+    [ "MR::ProgressBar", "class_m_r_1_1_progress_bar.html", null ],
+    [ "MR::ProgressInfo", "class_m_r_1_1_progress_info.html", null ],
+    [ "MR::GUI::Projection", "class_m_r_1_1_g_u_i_1_1_projection.html", null ],
+    [ "MR::DWI::Tractography::GT::Properties", "struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_properties.html", null ],
     [ "QAbstractItemModel", null, [
-      [ "MR::GUI::Dialog::TreeModel", "classMR_1_1GUI_1_1Dialog_1_1TreeModel.html", null ],
-      [ "MR::GUI::MRView::Tool::ListModelBase", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ListModelBase.html", [
-        [ "MR::GUI::MRView::Tool::ROI_Model", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI__Model.html", null ]
+      [ "MR::GUI::Dialog::TreeModel", "class_m_r_1_1_g_u_i_1_1_dialog_1_1_tree_model.html", null ],
+      [ "MR::GUI::MRView::Tool::ListModelBase", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_list_model_base.html", [
+        [ "MR::GUI::MRView::Tool::ROI_Model", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___model.html", null ]
       ] ],
-      [ "MR::GUI::MRView::Tool::Node_list_model", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Node__list__model.html", null ]
+      [ "MR::GUI::MRView::Tool::Matrix_list_model", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_matrix__list__model.html", null ],
+      [ "MR::GUI::MRView::Tool::Node_list_model", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_node__list__model.html", null ],
+      [ "MR::GUI::MRView::Tool::ODF_Model", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f___model.html", null ]
     ] ],
     [ "QAction", null, [
-      [ "MR::GUI::MRView::Displayable", "classMR_1_1GUI_1_1MRView_1_1Displayable.html", [
-        [ "MR::GUI::MRView::Tool::AbstractFixel", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1AbstractFixel.html", [
-          [ "MR::GUI::MRView::Tool::FixelType< FixelPackedBufferType >", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1FixelType.html", [
-            [ "MR::GUI::MRView::Tool::PackedFixel", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1PackedFixel.html", null ]
+      [ "MR::GUI::MRView::Displayable", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_displayable.html", [
+        [ "MR::GUI::MRView::Tool::AbstractFixel", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_abstract_fixel.html", [
+          [ "MR::GUI::MRView::Tool::FixelType< FixelPackedImageType >", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_fixel_type.html", [
+            [ "MR::GUI::MRView::Tool::PackedFixel", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_packed_fixel.html", null ]
           ] ],
-          [ "MR::GUI::MRView::Tool::FixelType< FixelSparseBufferType >", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1FixelType.html", [
-            [ "MR::GUI::MRView::Tool::Fixel", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Fixel.html", null ]
+          [ "MR::GUI::MRView::Tool::FixelType< FixelSparseImageType >", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_fixel_type.html", [
+            [ "MR::GUI::MRView::Tool::Fixel", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_fixel.html", null ]
           ] ],
-          [ "MR::GUI::MRView::Tool::FixelType< BufferType >", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1FixelType.html", null ]
+          [ "MR::GUI::MRView::Tool::FixelType< ImageType >", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_fixel_type.html", null ]
         ] ],
-        [ "MR::GUI::MRView::Tool::Tractogram", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Tractogram.html", null ],
-        [ "MR::GUI::MRView::Volume", "classMR_1_1GUI_1_1MRView_1_1Volume.html", [
-          [ "MR::GUI::MRView::ImageBase", "classMR_1_1GUI_1_1MRView_1_1ImageBase.html", [
-            [ "MR::GUI::MRView::Image", "classMR_1_1GUI_1_1MRView_1_1Image.html", null ],
-            [ "MR::GUI::MRView::Tool::NodeOverlay", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1NodeOverlay.html", null ]
+        [ "MR::GUI::MRView::Tool::Tractogram", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractogram.html", null ],
+        [ "MR::GUI::MRView::Volume", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_volume.html", [
+          [ "MR::GUI::MRView::ImageBase", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_image_base.html", [
+            [ "MR::GUI::MRView::Image", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_image.html", null ],
+            [ "MR::GUI::MRView::Tool::NodeOverlay", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_node_overlay.html", null ]
           ] ],
-          [ "MR::GUI::MRView::Tool::ROI_Item", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI__Item.html", null ]
+          [ "MR::GUI::MRView::Tool::ROI_Item", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___item.html", null ]
         ] ]
       ] ]
     ] ],
     [ "QCheckBox", null, [
-      [ "MR::GUI::MRView::Tool::Overlay::InterpolateCheckBox", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Overlay_1_1InterpolateCheckBox.html", null ]
+      [ "MR::GUI::MRView::Tool::Overlay::InterpolateCheckBox", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_overlay_1_1_interpolate_check_box.html", null ]
     ] ],
     [ "QComboBox", null, [
-      [ "MR::GUI::MRView::ComboBoxWithErrorMsg", "classMR_1_1GUI_1_1MRView_1_1ComboBoxWithErrorMsg.html", null ]
+      [ "MR::GUI::MRView::ComboBoxWithErrorMsg", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_combo_box_with_error_msg.html", null ]
     ] ],
     [ "QDialog", null, [
-      [ "MR::GUI::Dialog::ImageProperties", "classMR_1_1GUI_1_1Dialog_1_1ImageProperties.html", null ],
-      [ "MR::GUI::Dialog::OpenGL", "classMR_1_1GUI_1_1Dialog_1_1OpenGL.html", null ],
-      [ "MR::GUI::MRView::Tool::NodeSelectionSettingsDialog", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1NodeSelectionSettingsDialog.html", null ]
+      [ "MR::GUI::Dialog::ImageProperties", "class_m_r_1_1_g_u_i_1_1_dialog_1_1_image_properties.html", null ],
+      [ "MR::GUI::Dialog::OpenGL", "class_m_r_1_1_g_u_i_1_1_dialog_1_1_open_g_l.html", null ],
+      [ "MR::GUI::MRView::Tool::NodeSelectionSettingsDialog", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_node_selection_settings_dialog.html", null ]
     ] ],
     [ "QDockWidget", null, [
-      [ "MR::GUI::LightingDock", "classMR_1_1GUI_1_1LightingDock.html", null ],
-      [ "MR::GUI::MRView::Tool::Dock", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Dock.html", null ]
+      [ "MR::GUI::LightingDock", "class_m_r_1_1_g_u_i_1_1_lighting_dock.html", null ],
+      [ "MR::GUI::MRView::Tool::Dock", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_dock.html", null ]
     ] ],
     [ "QFormLayout", null, [
-      [ "MR::GUI::MRView::Tool::Base::FormLayout", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base_1_1FormLayout.html", null ]
+      [ "MR::GUI::MRView::Tool::Base::FormLayout", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_1_1_form_layout.html", null ]
     ] ],
     [ "QFrame", null, [
-      [ "MR::GUI::LightingSettings", "classMR_1_1GUI_1_1LightingSettings.html", null ],
-      [ "MR::GUI::MRView::Tool::Base", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base.html", [
-        [ "MR::GUI::MRView::Tool::Capture", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Capture.html", null ],
-        [ "MR::GUI::MRView::Tool::Connectome", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Connectome.html", null ],
-        [ "MR::GUI::MRView::Tool::Node_list", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Node__list.html", null ],
-        [ "MR::GUI::MRView::Tool::ODF", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ODF.html", null ],
-        [ "MR::GUI::MRView::Tool::Overlay", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Overlay.html", null ],
-        [ "MR::GUI::MRView::Tool::ROI", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI.html", null ],
-        [ "MR::GUI::MRView::Tool::TrackScalarFile", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1TrackScalarFile.html", null ],
-        [ "MR::GUI::MRView::Tool::Tractography", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Tractography.html", null ],
-        [ "MR::GUI::MRView::Tool::Vector", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Vector.html", null ],
-        [ "MR::GUI::MRView::Tool::View", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1View.html", null ]
+      [ "MR::GUI::LightingSettings", "class_m_r_1_1_g_u_i_1_1_lighting_settings.html", null ],
+      [ "MR::GUI::MRView::Tool::Base", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base.html", [
+        [ "MR::GUI::MRView::Tool::Capture", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_capture.html", null ],
+        [ "MR::GUI::MRView::Tool::Connectome", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_connectome.html", null ],
+        [ "MR::GUI::MRView::Tool::Node_list", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_node__list.html", null ],
+        [ "MR::GUI::MRView::Tool::ODF", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html", null ],
+        [ "MR::GUI::MRView::Tool::Overlay", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_overlay.html", null ],
+        [ "MR::GUI::MRView::Tool::ROI", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html", null ],
+        [ "MR::GUI::MRView::Tool::TrackScalarFile", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file.html", null ],
+        [ "MR::GUI::MRView::Tool::Tractography", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html", null ],
+        [ "MR::GUI::MRView::Tool::Vector", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_vector.html", null ],
+        [ "MR::GUI::MRView::Tool::View", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_view.html", null ]
       ] ],
-      [ "MR::GUI::MRView::Tool::NodeSelectionSettingsFrame", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1NodeSelectionSettingsFrame.html", null ]
+      [ "MR::GUI::MRView::Tool::NodeSelectionSettingsFrame", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_node_selection_settings_frame.html", null ]
     ] ],
     [ "QGLWidget", null, [
-      [ "MR::GUI::GL::Area", "classMR_1_1GUI_1_1GL_1_1Area.html", [
-        [ "MR::GUI::DWI::RenderFrame", "classMR_1_1GUI_1_1DWI_1_1RenderFrame.html", null ]
+      [ "MR::GUI::GL::Area", "class_m_r_1_1_g_u_i_1_1_g_l_1_1_area.html", [
+        [ "MR::GUI::DWI::RenderFrame", "class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_render_frame.html", null ]
       ] ]
     ] ],
     [ "QGridLayout", null, [
-      [ "MR::GUI::MRView::Tool::Base::GridLayout", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base_1_1GridLayout.html", null ]
+      [ "MR::GUI::MRView::Tool::Base::GridLayout", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_1_1_grid_layout.html", null ]
     ] ],
     [ "QHBoxLayout", null, [
-      [ "MR::GUI::MRView::Tool::Base::HBoxLayout", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base_1_1HBoxLayout.html", null ]
+      [ "MR::GUI::MRView::Tool::Base::HBoxLayout", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_1_1_h_box_layout.html", null ]
     ] ],
     [ "QLineEdit", null, [
-      [ "MR::GUI::MRView::AdjustButton", "classMR_1_1GUI_1_1MRView_1_1AdjustButton.html", null ]
+      [ "MR::GUI::MRView::AdjustButton", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_adjust_button.html", null ]
     ] ],
     [ "QMainWindow", null, [
-      [ "MR::GUI::DWI::Window", "classMR_1_1GUI_1_1DWI_1_1Window.html", null ],
-      [ "MR::GUI::MRView::Window", "classMR_1_1GUI_1_1MRView_1_1Window.html", null ]
+      [ "MR::GUI::DWI::Window", "class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_window.html", null ],
+      [ "MR::GUI::MRView::Window", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_window.html", null ]
     ] ],
     [ "QObject", null, [
-      [ "MR::GUI::App", "classMR_1_1GUI_1_1App.html", null ],
-      [ "MR::GUI::GL::Lighting", "classMR_1_1GUI_1_1GL_1_1Lighting.html", null ],
-      [ "MR::GUI::MRView::Mode::Base", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Base.html", [
-        [ "MR::GUI::MRView::Mode::Slice", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Slice.html", [
-          [ "MR::GUI::MRView::Mode::LightBox", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1LightBox.html", null ],
-          [ "MR::GUI::MRView::Mode::Ortho", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Ortho.html", null ]
+      [ "MR::GUI::App", "class_m_r_1_1_g_u_i_1_1_app.html", null ],
+      [ "MR::GUI::GL::Lighting", "class_m_r_1_1_g_u_i_1_1_g_l_1_1_lighting.html", null ],
+      [ "MR::GUI::MRView::Mode::Base", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_base.html", [
+        [ "MR::GUI::MRView::Mode::Slice", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_slice.html", [
+          [ "MR::GUI::MRView::Mode::LightBox", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_light_box.html", null ],
+          [ "MR::GUI::MRView::Mode::Ortho", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_ortho.html", null ]
         ] ],
-        [ "MR::GUI::MRView::Mode::Volume", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1Volume.html", null ]
+        [ "MR::GUI::MRView::Mode::Volume", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume.html", null ]
       ] ],
-      [ "MR::GUI::MRView::Tool::NodeSelectionSettings", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1NodeSelectionSettings.html", null ]
+      [ "MR::GUI::MRView::Tool::NodeSelectionSettings", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_node_selection_settings.html", null ]
     ] ],
     [ "QPushButton", null, [
-      [ "QColorButton", "classQColorButton.html", null ]
+      [ "QColorButton", "class_q_color_button.html", null ]
     ] ],
     [ "QSpinBox", null, [
-      [ "MR::GUI::MRView::Mode::LightBoxViewControls::LightBoxEditButton", "classMR_1_1GUI_1_1MRView_1_1Mode_1_1LightBoxViewControls_1_1LightBoxEditButton.html", null ]
+      [ "MR::GUI::SpinBox", "class_m_r_1_1_g_u_i_1_1_spin_box.html", [
+        [ "MR::GUI::MRView::Mode::LightBoxViewControls::LightBoxEditButton", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_light_box_view_controls_1_1_light_box_edit_button.html", null ]
+      ] ]
     ] ],
     [ "QTableView", null, [
-      [ "MR::GUI::MRView::Tool::Node_list_view", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Node__list__view.html", null ]
+      [ "MR::GUI::MRView::Tool::Node_list_view", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_node__list__view.html", null ]
     ] ],
     [ "QToolButton", null, [
-      [ "MR::GUI::MRView::ColourMapButton", "classMR_1_1GUI_1_1MRView_1_1ColourMapButton.html", null ]
+      [ "MR::GUI::MRView::ColourMapButton", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_button.html", null ]
     ] ],
-    [ "MR::Math::QuadraticLineSearch< ValueType >", "classMR_1_1Math_1_1QuadraticLineSearch.html", null ],
-    [ "MR::Math::QuadraticLineSearch< double >", "classMR_1_1Math_1_1QuadraticLineSearch.html", null ],
-    [ "MR::Thread::Queue< T >", "classMR_1_1Thread_1_1Queue.html", null ],
-    [ "MR::File::Dicom::QuickScan", "classMR_1_1File_1_1Dicom_1_1QuickScan.html", null ],
+    [ "MR::Math::QuadraticLineSearch< ValueType >", "class_m_r_1_1_math_1_1_quadratic_line_search.html", null ],
+    [ "MR::Math::QuadraticLineSearch< double >", "class_m_r_1_1_math_1_1_quadratic_line_search.html", null ],
+    [ "Quaternion", null, [
+      [ "MR::Math::Versor< ValueType >", "class_m_r_1_1_math_1_1_versor.html", null ]
+    ] ],
+    [ "MR::Thread::Queue< T >", "class_m_r_1_1_thread_1_1_queue.html", null ],
+    [ "MR::File::Dicom::QuickScan", "class_m_r_1_1_file_1_1_dicom_1_1_quick_scan.html", null ],
     [ "QVBoxLayout", null, [
-      [ "MR::GUI::MRView::Tool::Base::VBoxLayout", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Base_1_1VBoxLayout.html", null ]
+      [ "MR::GUI::MRView::Tool::Base::VBoxLayout", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_1_1_v_box_layout.html", null ]
     ] ],
     [ "QWidget", null, [
-      [ "MR::GUI::MRView::Tool::ODF::Preview", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1ODF_1_1Preview.html", null ]
+      [ "MR::GUI::MRView::Tool::ODF_Preview", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f___preview.html", null ]
     ] ],
-    [ "MR::Thread::Queue< T >::Reader", "classMR_1_1Thread_1_1Queue_1_1Reader.html", null ],
-    [ "MR::DWI::Tractography::Editing::Receiver", "classMR_1_1DWI_1_1Tractography_1_1Editing_1_1Receiver.html", null ],
-    [ "MR::DWI::Tractography::SIFT2::RegularisationCalculator", "classMR_1_1DWI_1_1Tractography_1_1SIFT2_1_1RegularisationCalculator.html", null ],
-    [ "MR::GUI::DWI::Renderer", "classMR_1_1GUI_1_1DWI_1_1Renderer.html", null ],
-    [ "MR::GUI::MRView::ColourMap::Renderer", "classMR_1_1GUI_1_1MRView_1_1ColourMap_1_1Renderer.html", null ],
-    [ "MR::DWI::Tractography::SIFT::ResampleFunctor< Set >", "classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1ResampleFunctor.html", null ],
-    [ "MR::DWI::RF::Response", "classMR_1_1DWI_1_1RF_1_1Response.html", null ],
-    [ "MR::DWI::RF::ResponseEstimator", "classMR_1_1DWI_1_1RF_1_1ResponseEstimator.html", null ],
-    [ "MR::DWI::Tractography::SIFT2::LineSearchFunctor::Result", "classMR_1_1DWI_1_1Tractography_1_1SIFT2_1_1LineSearchFunctor_1_1Result.html", null ],
-    [ "MR::DWI::Tractography::ROI", "classMR_1_1DWI_1_1Tractography_1_1ROI.html", null ],
-    [ "MR::GUI::MRView::Tool::ROI_UndoEntry", "structMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI__UndoEntry.html", null ],
-    [ "MR::DWI::Tractography::ROISet", "classMR_1_1DWI_1_1Tractography_1_1ROISet.html", null ],
-    [ "MR::DWI::FMLS::Segmenter", "classMR_1_1DWI_1_1FMLS_1_1Segmenter.html", null ],
-    [ "MR::DWI::Tractography::Connectome::Selector", "classMR_1_1DWI_1_1Tractography_1_1Connectome_1_1Selector.html", null ],
-    [ "MR::File::Dicom::Sequence", "classMR_1_1File_1_1Dicom_1_1Sequence.html", null ],
-    [ "MR::DWI::Directions::Set", "classMR_1_1DWI_1_1Directions_1_1Set.html", [
-      [ "MR::DWI::Directions::FastLookupSet", "classMR_1_1DWI_1_1Directions_1_1FastLookupSet.html", null ]
+    [ "MR::Thread::Queue< T >::Reader", "class_m_r_1_1_thread_1_1_queue_1_1_reader.html", null ],
+    [ "MR::DWI::Tractography::ReaderInterface< ValueType >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_reader_interface.html", [
+      [ "MR::DWI::Tractography::Reader< ValueType >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_reader.html", null ]
     ] ],
+    [ "MR::DWI::Tractography::Editing::Receiver", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_editing_1_1_receiver.html", null ],
+    [ "MR::DWI::Tractography::SIFT2::RegularisationCalculator", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_regularisation_calculator.html", null ],
+    [ "MR::GUI::MRView::ColourMap::Renderer", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_renderer.html", null ],
+    [ "MR::GUI::DWI::Renderer", "class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer.html", null ],
+    [ "MR::DWI::Tractography::SIFT::ResampleFunctor", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_resample_functor.html", null ],
+    [ "MR::Adapter::Reslice< Interpolator, ImageType >", "class_m_r_1_1_adapter_1_1_reslice.html", null ],
+    [ "MR::DWI::Tractography::SIFT2::LineSearchFunctor::Result", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_line_search_functor_1_1_result.html", null ],
+    [ "MR::DWI::Tractography::ROI", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_r_o_i.html", null ],
+    [ "MR::GUI::MRView::Tool::ROI_UndoEntry", "struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___undo_entry.html", null ],
+    [ "MR::DWI::Tractography::ROISet", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_r_o_i_set.html", null ],
+    [ "MR::LoopAlongAxisRange::Run< ImageType >", "struct_m_r_1_1_loop_along_axis_range_1_1_run.html", null ],
+    [ "MR::LoopAlongSingleAxisProgress::Run< ImageType >", "struct_m_r_1_1_loop_along_single_axis_progress_1_1_run.html", null ],
+    [ "MR::LoopAlongDynamicAxes::Run< ImageType >", "struct_m_r_1_1_loop_along_dynamic_axes_1_1_run.html", null ],
+    [ "MR::LoopAlongStaticAxes::Run< ImageType >", "struct_m_r_1_1_loop_along_static_axes_1_1_run.html", null ],
+    [ "MR::LoopAlongSingleAxis::Run< ImageType >", "struct_m_r_1_1_loop_along_single_axis_1_1_run.html", null ],
+    [ "MR::LoopAlongStaticAxes::Run< ImageType... >", "struct_m_r_1_1_loop_along_static_axes_1_1_run.html", [
+      [ "MR::LoopAlongStaticAxesProgress::Run< ImageType >", "struct_m_r_1_1_loop_along_static_axes_progress_1_1_run.html", null ]
+    ] ],
+    [ "MR::LoopAlongAxisRange::Run< ImageType... >", "struct_m_r_1_1_loop_along_axis_range_1_1_run.html", [
+      [ "MR::LoopAlongAxisRangeProgress::Run< ImageType >", "struct_m_r_1_1_loop_along_axis_range_progress_1_1_run.html", null ]
+    ] ],
+    [ "MR::LoopAlongDynamicAxes::Run< ImageType... >", "struct_m_r_1_1_loop_along_dynamic_axes_1_1_run.html", [
+      [ "MR::LoopAlongDynamicAxesProgress::Run< ImageType >", "struct_m_r_1_1_loop_along_dynamic_axes_progress_1_1_run.html", null ]
+    ] ],
+    [ "MR::DWI::FMLS::Segmenter", "class_m_r_1_1_d_w_i_1_1_f_m_l_s_1_1_segmenter.html", null ],
+    [ "MR::DWI::Tractography::Connectome::Selector", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_selector.html", null ],
+    [ "MR::File::Dicom::Sequence", "class_m_r_1_1_file_1_1_dicom_1_1_sequence.html", null ],
     [ "set", null, [
-      [ "MR::DWI::Tractography::Mapping::Gaussian::SetDixel", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1Gaussian_1_1SetDixel.html", null ],
-      [ "MR::DWI::Tractography::Mapping::Gaussian::SetVoxel", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1Gaussian_1_1SetVoxel.html", null ],
-      [ "MR::DWI::Tractography::Mapping::Gaussian::SetVoxelDEC", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1Gaussian_1_1SetVoxelDEC.html", null ],
-      [ "MR::DWI::Tractography::Mapping::Gaussian::SetVoxelTOD", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1Gaussian_1_1SetVoxelTOD.html", null ],
-      [ "MR::DWI::Tractography::Mapping::SetDixel", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1SetDixel.html", null ],
-      [ "MR::DWI::Tractography::Mapping::SetVoxel", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1SetVoxel.html", null ],
-      [ "MR::DWI::Tractography::Mapping::SetVoxelDEC", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1SetVoxelDEC.html", null ],
-      [ "MR::DWI::Tractography::Mapping::SetVoxelTOD", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1SetVoxelTOD.html", null ]
+      [ "MR::DWI::Tractography::Mapping::Gaussian::SetDixel", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_set_dixel.html", null ],
+      [ "MR::DWI::Tractography::Mapping::Gaussian::SetVoxel", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_set_voxel.html", null ],
+      [ "MR::DWI::Tractography::Mapping::Gaussian::SetVoxelDEC", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_set_voxel_d_e_c.html", null ],
+      [ "MR::DWI::Tractography::Mapping::Gaussian::SetVoxelTOD", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_set_voxel_t_o_d.html", null ],
+      [ "MR::DWI::Tractography::Mapping::SetDixel", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_dixel.html", null ],
+      [ "MR::DWI::Tractography::Mapping::SetVoxel", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_voxel.html", null ],
+      [ "MR::DWI::Tractography::Mapping::SetVoxelDEC", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_voxel_d_e_c.html", null ],
+      [ "MR::DWI::Tractography::Mapping::SetVoxelDir", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_voxel_dir.html", null ],
+      [ "MR::DWI::Tractography::Mapping::SetVoxelTOD", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_voxel_t_o_d.html", null ]
     ] ],
-    [ "MR::DWI::Tractography::Mapping::SetVoxelExtras", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1SetVoxelExtras.html", [
-      [ "MR::DWI::Tractography::Mapping::Gaussian::SetDixel", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1Gaussian_1_1SetDixel.html", null ],
-      [ "MR::DWI::Tractography::Mapping::Gaussian::SetVoxel", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1Gaussian_1_1SetVoxel.html", null ],
-      [ "MR::DWI::Tractography::Mapping::Gaussian::SetVoxelDEC", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1Gaussian_1_1SetVoxelDEC.html", null ],
-      [ "MR::DWI::Tractography::Mapping::Gaussian::SetVoxelTOD", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1Gaussian_1_1SetVoxelTOD.html", null ],
-      [ "MR::DWI::Tractography::Mapping::SetDixel", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1SetDixel.html", null ],
-      [ "MR::DWI::Tractography::Mapping::SetVoxel", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1SetVoxel.html", null ],
-      [ "MR::DWI::Tractography::Mapping::SetVoxelDEC", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1SetVoxelDEC.html", null ],
-      [ "MR::DWI::Tractography::Mapping::SetVoxelTOD", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1SetVoxelTOD.html", null ]
+    [ "MR::DWI::Directions::Set", "class_m_r_1_1_d_w_i_1_1_directions_1_1_set.html", [
+      [ "MR::DWI::Directions::FastLookupSet", "class_m_r_1_1_d_w_i_1_1_directions_1_1_fast_lookup_set.html", null ]
     ] ],
-    [ "MR::DWI::RF::SFSelector", "classMR_1_1DWI_1_1RF_1_1SFSelector.html", null ],
-    [ "MR::DWI::RF::SFThresholds", "classMR_1_1DWI_1_1RF_1_1SFThresholds.html", null ],
-    [ "MR::DWI::CSDeconv< T >::Shared", "classMR_1_1DWI_1_1CSDeconv_1_1Shared.html", null ],
-    [ "MR::DWI::Tractography::Tracking::SharedBase", "classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1SharedBase.html", [
-      [ "MR::DWI::Tractography::Algorithms::FACT::Shared", "classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1FACT_1_1Shared.html", null ],
-      [ "MR::DWI::Tractography::Algorithms::iFOD1::Shared", "classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1iFOD1_1_1Shared.html", null ],
-      [ "MR::DWI::Tractography::Algorithms::iFOD2::Shared", "classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1iFOD2_1_1Shared.html", null ],
-      [ "MR::DWI::Tractography::Algorithms::NullDist::Shared", "classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1NullDist_1_1Shared.html", null ],
-      [ "MR::DWI::Tractography::Algorithms::SDStream::Shared", "classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1SDStream_1_1Shared.html", null ],
-      [ "MR::DWI::Tractography::Algorithms::Seedtest::Shared", "classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1Seedtest_1_1Shared.html", null ],
-      [ "MR::DWI::Tractography::Algorithms::Tensor_Det::Shared", "classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1Tensor__Det_1_1Shared.html", [
-        [ "MR::DWI::Tractography::Algorithms::Tensor_Prob::Shared", "classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1Tensor__Prob_1_1Shared.html", null ]
-      ] ]
+    [ "MR::DWI::Tractography::Mapping::SetVoxelExtras", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_voxel_extras.html", [
+      [ "MR::DWI::Tractography::Mapping::Gaussian::SetDixel", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_set_dixel.html", null ],
+      [ "MR::DWI::Tractography::Mapping::Gaussian::SetVoxel", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_set_voxel.html", null ],
+      [ "MR::DWI::Tractography::Mapping::Gaussian::SetVoxelDEC", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_set_voxel_d_e_c.html", null ],
+      [ "MR::DWI::Tractography::Mapping::Gaussian::SetVoxelTOD", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_set_voxel_t_o_d.html", null ],
+      [ "MR::DWI::Tractography::Mapping::SetDixel", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_dixel.html", null ],
+      [ "MR::DWI::Tractography::Mapping::SetVoxel", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_voxel.html", null ],
+      [ "MR::DWI::Tractography::Mapping::SetVoxelDEC", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_voxel_d_e_c.html", null ],
+      [ "MR::DWI::Tractography::Mapping::SetVoxelDir", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_voxel_dir.html", null ],
+      [ "MR::DWI::Tractography::Mapping::SetVoxelTOD", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_voxel_t_o_d.html", null ]
     ] ],
-    [ "MR::DWI::Shell", "classMR_1_1DWI_1_1Shell.html", null ],
-    [ "MR::DWI::Shells", "classMR_1_1DWI_1_1Shells.html", null ],
-    [ "MR::Math::Sinc< T >", "classMR_1_1Math_1_1Sinc.html", null ],
-    [ "MR::Math::Sinc< value_type >", "classMR_1_1Math_1_1Sinc.html", null ],
-    [ "MR::DWI::Sn_scale_estimator< value_type >", "classMR_1_1DWI_1_1Sn__scale__estimator.html", null ],
-    [ "MR::GUI::Shapes::Sphere", "classMR_1_1GUI_1_1Shapes_1_1Sphere.html", null ],
-    [ "MR::DWI::Tractography::SIFT2::StreamlineStats", "classMR_1_1DWI_1_1Tractography_1_1SIFT2_1_1StreamlineStats.html", null ],
-    [ "MR::Math::Eigen::Symm< T >", "classMR_1_1Math_1_1Eigen_1_1Symm.html", null ],
-    [ "MR::Math::Eigen::SymmV< T >", "classMR_1_1Math_1_1Eigen_1_1SymmV.html", null ],
-    [ "MR::Math::Eigen::SymmV< double >", "classMR_1_1Math_1_1Eigen_1_1SymmV.html", null ],
-    [ "T", null, [
-      [ "MR::container_cast< T >", "structMR_1_1container__cast.html", null ]
-    ] ],
-    [ "MR::DWI::Tractography::Connectome::Tck2nodes_base", "classMR_1_1DWI_1_1Tractography_1_1Connectome_1_1Tck2nodes__base.html", [
-      [ "MR::DWI::Tractography::Connectome::Tck2nodes_forwardsearch", "classMR_1_1DWI_1_1Tractography_1_1Connectome_1_1Tck2nodes__forwardsearch.html", null ],
-      [ "MR::DWI::Tractography::Connectome::Tck2nodes_radial", "classMR_1_1DWI_1_1Tractography_1_1Connectome_1_1Tck2nodes__radial.html", null ],
-      [ "MR::DWI::Tractography::Connectome::Tck2nodes_revsearch", "classMR_1_1DWI_1_1Tractography_1_1Connectome_1_1Tck2nodes__revsearch.html", null ],
-      [ "MR::DWI::Tractography::Connectome::Tck2nodes_voxel", "classMR_1_1DWI_1_1Tractography_1_1Connectome_1_1Tck2nodes__voxel.html", null ]
-    ] ],
-    [ "MR::GUI::GL::Texture", "classMR_1_1GUI_1_1GL_1_1Texture.html", null ],
-    [ "MR::Image::ThreadedLoop", "classMR_1_1Image_1_1ThreadedLoop.html", null ],
-    [ "MR::Timer", "classMR_1_1Timer.html", [
-      [ "MR::IntervalTimer", "classMR_1_1IntervalTimer.html", null ]
-    ] ],
-    [ "MR::DWI::Tractography::ACT::Tissues", "classMR_1_1DWI_1_1Tractography_1_1ACT_1_1Tissues.html", null ],
-    [ "MR::DWI::Tractography::Mapping::TODMappingPlugin", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TODMappingPlugin.html", null ],
-    [ "MR::DWI::Tractography::SIFT::Track_fixel_contribution", "classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1Track__fixel__contribution.html", null ],
-    [ "MR::DWI::Tractography::SIFT::SIFTer::TrackGradientCalculator", "classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1SIFTer_1_1TrackGradientCalculator.html", null ],
-    [ "MR::DWI::Tractography::SIFT::TrackIndexRangeWriter", "classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1TrackIndexRangeWriter.html", null ],
-    [ "MR::DWI::Tractography::Mapping::TrackLoader", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TrackLoader.html", null ],
-    [ "MR::DWI::Tractography::Mapping::TrackMapperBase", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TrackMapperBase.html", [
-      [ "MR::DWI::Tractography::Mapping::TrackMapperTWI", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TrackMapperTWI.html", [
-        [ "MR::DWI::Tractography::Mapping::Gaussian::TrackMapper", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1Gaussian_1_1TrackMapper.html", null ]
-      ] ]
-    ] ],
-    [ "MR::Stats::CFE::TrackProcessor", "classMR_1_1Stats_1_1CFE_1_1TrackProcessor.html", null ],
-    [ "MR::Math::SH::Transform< ValueType >", "classMR_1_1Math_1_1SH_1_1Transform.html", null ],
-    [ "MR::Image::Transform", "classMR_1_1Image_1_1Transform.html", [
-      [ "MR::Image::Interp::Linear< Image::Buffer< float >::voxel_type >", "classMR_1_1Image_1_1Interp_1_1Linear.html", null ],
-      [ "MR::Image::Interp::Linear< MR::Image::Voxel >", "classMR_1_1Image_1_1Interp_1_1Linear.html", null ],
-      [ "MR::Image::Interp::Cubic< VoxelType >", "classMR_1_1Image_1_1Interp_1_1Cubic.html", null ],
-      [ "MR::Image::Interp::Linear< VoxelType >", "classMR_1_1Image_1_1Interp_1_1Linear.html", [
-        [ "MR::DWI::Tractography::Algorithms::Tensor_Prob::Interp", "classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1Tensor__Prob_1_1Interp.html", null ]
+    [ "MR::GUI::DWI::Renderer::SH", "class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_s_h.html", null ],
+    [ "MR::GUI::MRView::Tool::ROI_UndoEntry::Shared", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___undo_entry_1_1_shared.html", null ],
+    [ "MR::DWI::CSDeconv::Shared", "class_m_r_1_1_d_w_i_1_1_c_s_deconv_1_1_shared.html", null ],
+    [ "MR::DWI::Tractography::Tracking::SharedBase", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_shared_base.html", [
+      [ "MR::DWI::Tractography::Algorithms::FACT::Shared", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_f_a_c_t_1_1_shared.html", null ],
+      [ "MR::DWI::Tractography::Algorithms::iFOD1::Shared", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1_1_1_shared.html", null ],
+      [ "MR::DWI::Tractography::Algorithms::iFOD2::Shared", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d2_1_1_shared.html", [
+        [ "MR::DWI::Tractography::Algorithms::NullDist2::Shared", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_null_dist2_1_1_shared.html", null ]
       ] ],
-      [ "MR::Image::Interp::Nearest< VoxelType >", "classMR_1_1Image_1_1Interp_1_1Nearest.html", null ],
-      [ "MR::Image::Interp::Sinc< VoxelType >", "classMR_1_1Image_1_1Interp_1_1Sinc.html", null ],
-      [ "MR::Image::Interp::Nearest< MR::Image::BufferPreload::voxel_type >", "classMR_1_1Image_1_1Interp_1_1Nearest.html", null ]
-    ] ],
-    [ "MR::GUI::Dialog::TreeItem", "classMR_1_1GUI_1_1Dialog_1_1TreeItem.html", null ],
-    [ "MR::DWI::Tractography::Mapping::TWIImagePluginBase", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TWIImagePluginBase.html", [
-      [ "MR::DWI::Tractography::Mapping::TWIFODImagePlugin", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TWIFODImagePlugin.html", null ],
-      [ "MR::DWI::Tractography::Mapping::TWIScalarImagePlugin", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1TWIScalarImagePlugin.html", null ]
-    ] ],
-    [ "MR::Math::RNG::Uniform< ValueType >", "classMR_1_1Math_1_1RNG_1_1Uniform.html", null ],
-    [ "MR::Math::RNG::Uniform< float >", "classMR_1_1Math_1_1RNG_1_1Uniform.html", null ],
-    [ "MR::Math::RNG::Uniform< value_type >", "classMR_1_1Math_1_1RNG_1_1Uniform.html", null ],
-    [ "unique_ptr", null, [
-      [ "MR::copy_ptr< ACT::ACT_Method_additions >", "classMR_1_1copy__ptr.html", null ],
-      [ "MR::copy_ptr< T, Deleter >", "classMR_1_1copy__ptr.html", null ]
-    ] ],
-    [ "MR::UnorderedMap< K, V >", "structMR_1_1UnorderedMap.html", null ],
-    [ "MR::UnorderedMap< uint32_t, const char * >", "structMR_1_1UnorderedMap.html", null ],
-    [ "MR::DWI::Tractography::Upsampler< T >", "classMR_1_1DWI_1_1Tractography_1_1Upsampler.html", null ],
-    [ "MR::DWI::Tractography::Upsampler< float >", "classMR_1_1DWI_1_1Tractography_1_1Upsampler.html", null ],
-    [ "MR::Image::Sparse::Value< Voxel >", "classMR_1_1Image_1_1Sparse_1_1Value.html", null ],
-    [ "MR::BitSet::Value", "classMR_1_1BitSet_1_1Value.html", null ],
-    [ "MR::Image::Value< Set >", "classMR_1_1Image_1_1Value.html", null ],
-    [ "MR::GUI::GL::vec4", "classMR_1_1GUI_1_1GL_1_1vec4.html", null ],
-    [ "vector", null, [
-      [ "MR::App::ArgumentList", "classMR_1_1App_1_1ArgumentList.html", null ],
-      [ "MR::App::Description", "classMR_1_1App_1_1Description.html", null ],
-      [ "MR::App::Option", "classMR_1_1App_1_1Option.html", null ],
-      [ "MR::App::OptionGroup", "classMR_1_1App_1_1OptionGroup.html", null ],
-      [ "MR::App::OptionList", "classMR_1_1App_1_1OptionList.html", null ],
-      [ "MR::DWI::FMLS::FOD_lobes", "classMR_1_1DWI_1_1FMLS_1_1FOD__lobes.html", null ],
-      [ "MR::DWI::Tractography::Streamline< T >", "classMR_1_1DWI_1_1Tractography_1_1Streamline.html", null ],
-      [ "MR::DWI::Tractography::Tracking::GeneratedTrack", "classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1GeneratedTrack.html", null ],
-      [ "MR::File::Dicom::Patient", "classMR_1_1File_1_1Dicom_1_1Patient.html", null ],
-      [ "MR::File::Dicom::Series", "classMR_1_1File_1_1Dicom_1_1Series.html", null ],
-      [ "MR::File::Dicom::Study", "classMR_1_1File_1_1Dicom_1_1Study.html", null ],
-      [ "MR::File::Dicom::Tree", "classMR_1_1File_1_1Dicom_1_1Tree.html", null ],
-      [ "MR::Mesh::MeshMulti", "classMR_1_1Mesh_1_1MeshMulti.html", null ],
-      [ "MR::DWI::Tractography::Streamline< float >", "classMR_1_1DWI_1_1Tractography_1_1Streamline.html", [
-        [ "MR::DWI::Tractography::Connectome::Exemplar", "classMR_1_1DWI_1_1Tractography_1_1Connectome_1_1Exemplar.html", null ],
-        [ "MR::DWI::Tractography::Connectome::Streamline", "classMR_1_1DWI_1_1Tractography_1_1Connectome_1_1Streamline.html", null ]
+      [ "MR::DWI::Tractography::Algorithms::NullDist1::Shared", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_null_dist1_1_1_shared.html", null ],
+      [ "MR::DWI::Tractography::Algorithms::SDStream::Shared", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_s_d_stream_1_1_shared.html", null ],
+      [ "MR::DWI::Tractography::Algorithms::Seedtest::Shared", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_seedtest_1_1_shared.html", null ],
+      [ "MR::DWI::Tractography::Algorithms::Tensor_Det::Shared", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_tensor___det_1_1_shared.html", [
+        [ "MR::DWI::Tractography::Algorithms::Tensor_Prob::Shared", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_tensor___prob_1_1_shared.html", null ]
       ] ]
     ] ],
-    [ "MR::Math::Versor< T >", "classMR_1_1Math_1_1Versor.html", null ],
-    [ "MR::Math::Versor< float >", "classMR_1_1Math_1_1Versor.html", null ],
-    [ "MR::GUI::Shapes::Sphere::Vertex", "classMR_1_1GUI_1_1Shapes_1_1Sphere_1_1Vertex.html", null ],
-    [ "MR::GUI::Shapes::HalfSphere::Vertex", "classMR_1_1GUI_1_1Shapes_1_1HalfSphere_1_1Vertex.html", null ],
-    [ "MR::GUI::GL::VertexArrayObject", "classMR_1_1GUI_1_1GL_1_1VertexArrayObject.html", null ],
-    [ "MR::GUI::GL::VertexBuffer", "classMR_1_1GUI_1_1GL_1_1VertexBuffer.html", null ],
-    [ "MR::Image::Voxel< BufferType >", "classMR_1_1Image_1_1Voxel.html", [
-      [ "MR::Image::Interp::Linear< Image::Buffer< float >::voxel_type >", "classMR_1_1Image_1_1Interp_1_1Linear.html", null ],
-      [ "MR::Image::Interp::Linear< MR::Image::Voxel >", "classMR_1_1Image_1_1Interp_1_1Linear.html", null ],
-      [ "MR::Image::Interp::Nearest< MR::Image::BufferPreload::voxel_type >", "classMR_1_1Image_1_1Interp_1_1Nearest.html", null ]
+    [ "MR::DWI::Shell", "class_m_r_1_1_d_w_i_1_1_shell.html", null ],
+    [ "MR::DWI::Shells", "class_m_r_1_1_d_w_i_1_1_shells.html", null ],
+    [ "MR::Math::Sinc< T >", "class_m_r_1_1_math_1_1_sinc.html", null ],
+    [ "MR::Math::Sinc< value_type >", "class_m_r_1_1_math_1_1_sinc.html", null ],
+    [ "MR::DWI::Sn_scale_estimator< value_type >", "class_m_r_1_1_d_w_i_1_1_sn__scale__estimator.html", null ],
+    [ "MR::Math::ICLS::Solver< ValueType >", "class_m_r_1_1_math_1_1_i_c_l_s_1_1_solver.html", null ],
+    [ "MR::DWI::Tractography::GT::SpatialLock< T >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock.html", null ],
+    [ "MR::GUI::Shapes::Sphere", "class_m_r_1_1_g_u_i_1_1_shapes_1_1_sphere.html", null ],
+    [ "MR::DWI::Tractography::GT::Stats", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_stats.html", null ],
+    [ "MR::Stats::Stats", "class_m_r_1_1_stats_1_1_stats.html", null ],
+    [ "MR::DWI::Tractography::SIFT2::StreamlineStats", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_streamline_stats.html", null ],
+    [ "T", null, [
+      [ "MR::container_cast< T >", "struct_m_r_1_1container__cast.html", null ]
     ] ],
-    [ "MR::Image::Adapter::Voxel< VoxelType >", "classMR_1_1Image_1_1Adapter_1_1Voxel.html", [
-      [ "MR::DWI::Bootstrap< VoxelType, Functor, NUM_VOX_PER_CHUNK >", "classMR_1_1DWI_1_1Bootstrap.html", null ],
-      [ "MR::Image::Adapter::Extract< VoxelType >", "classMR_1_1Image_1_1Adapter_1_1Extract.html", null ],
-      [ "MR::Image::Adapter::Extract1D< VoxelType >", "classMR_1_1Image_1_1Adapter_1_1Extract1D.html", null ],
-      [ "MR::Image::Adapter::Gaussian1D< VoxelType >", "classMR_1_1Image_1_1Adapter_1_1Gaussian1D.html", null ],
-      [ "MR::Image::Adapter::Gradient1D< VoxelType >", "classMR_1_1Image_1_1Adapter_1_1Gradient1D.html", null ],
-      [ "MR::Image::Adapter::Median3D< VoxelType >", "classMR_1_1Image_1_1Adapter_1_1Median3D.html", null ],
-      [ "MR::Image::Adapter::PermuteAxes< VoxelType >", "classMR_1_1Image_1_1Adapter_1_1PermuteAxes.html", null ],
-      [ "MR::Image::Adapter::Replicate< VoxelType >", "classMR_1_1Image_1_1Adapter_1_1Replicate.html", null ],
-      [ "MR::Image::Adapter::Subset< VoxelType >", "classMR_1_1Image_1_1Adapter_1_1Subset.html", null ]
+    [ "MR::DWI::Tractography::Connectome::Tck2nodes_base", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_tck2nodes__base.html", [
+      [ "MR::DWI::Tractography::Connectome::Tck2nodes_all_voxels", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_tck2nodes__all__voxels.html", null ],
+      [ "MR::DWI::Tractography::Connectome::Tck2nodes_end_voxels", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_tck2nodes__end__voxels.html", null ],
+      [ "MR::DWI::Tractography::Connectome::Tck2nodes_forwardsearch", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_tck2nodes__forwardsearch.html", null ],
+      [ "MR::DWI::Tractography::Connectome::Tck2nodes_radial", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_tck2nodes__radial.html", null ],
+      [ "MR::DWI::Tractography::Connectome::Tck2nodes_revsearch", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_tck2nodes__revsearch.html", null ]
     ] ],
-    [ "MR::Image::Voxel< BufferScratch >", "classMR_1_1Image_1_1Voxel.html", null ],
-    [ "MR::Image::Voxel< Image::Buffer< uint64_t > >", "classMR_1_1Image_1_1Voxel.html", [
-      [ "MR::Image::Sparse::Voxel< SparseDataType >", "classMR_1_1Image_1_1Sparse_1_1Voxel.html", null ]
+    [ "MR::GUI::DWI::Renderer::Tensor", "class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_tensor.html", null ],
+    [ "MR::Timer", "class_m_r_1_1_timer.html", [
+      [ "MR::IntervalTimer", "class_m_r_1_1_interval_timer.html", null ]
     ] ],
-    [ "MR::DWI::Tractography::Mapping::Gaussian::VoxelAddon", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1Gaussian_1_1VoxelAddon.html", [
-      [ "MR::DWI::Tractography::Mapping::Gaussian::Dixel", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1Gaussian_1_1Dixel.html", null ],
-      [ "MR::DWI::Tractography::Mapping::Gaussian::Voxel", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1Gaussian_1_1Voxel.html", null ],
-      [ "MR::DWI::Tractography::Mapping::Gaussian::VoxelDEC", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1Gaussian_1_1VoxelDEC.html", null ],
-      [ "MR::DWI::Tractography::Mapping::Gaussian::VoxelTOD", "classMR_1_1DWI_1_1Tractography_1_1Mapping_1_1Gaussian_1_1VoxelTOD.html", null ]
+    [ "MR::DWI::Tractography::ACT::Tissues", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_tissues.html", null ],
+    [ "MR::DWI::Tractography::Mapping::TODMappingPlugin", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_o_d_mapping_plugin.html", null ],
+    [ "MR::DWI::Tractography::SIFT::Track_fixel_contribution", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_track__fixel__contribution.html", null ],
+    [ "MR::DWI::Tractography::SIFT::SIFTer::TrackGradientCalculator", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter_1_1_track_gradient_calculator.html", null ],
+    [ "MR::DWI::Tractography::SIFT::TrackIndexRangeWriter", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_track_index_range_writer.html", null ],
+    [ "MR::DWI::Tractography::Mapping::TrackLoader", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_loader.html", null ],
+    [ "MR::DWI::Tractography::Mapping::TrackMapperBase", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_mapper_base.html", [
+      [ "MR::DWI::Tractography::Mapping::TrackMapperTWI", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_mapper_t_w_i.html", [
+        [ "MR::DWI::Tractography::Mapping::Gaussian::TrackMapper", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_track_mapper.html", null ]
+      ] ]
     ] ],
-    [ "MR::VoxelType", "classMR_1_1VoxelType.html", [
-      [ "MR::Image::Interp::Cubic< VoxelType >", "classMR_1_1Image_1_1Interp_1_1Cubic.html", null ],
-      [ "MR::Image::Interp::Linear< VoxelType >", "classMR_1_1Image_1_1Interp_1_1Linear.html", null ],
-      [ "MR::Image::Interp::Nearest< VoxelType >", "classMR_1_1Image_1_1Interp_1_1Nearest.html", null ],
-      [ "MR::Image::Interp::Sinc< VoxelType >", "classMR_1_1Image_1_1Interp_1_1Sinc.html", null ]
+    [ "MR::Stats::CFE::TrackProcessor", "class_m_r_1_1_stats_1_1_c_f_e_1_1_track_processor.html", null ],
+    [ "MR::Transform", "class_m_r_1_1_transform.html", [
+      [ "MR::Interp::Base< MR::Image< float > >", "class_m_r_1_1_interp_1_1_base.html", null ],
+      [ "MR::Interp::Base< MR::MR::GUI::MRView::Image< cfloat > >", "class_m_r_1_1_interp_1_1_base.html", null ],
+      [ "MR::Interp::Base< ImageType >", "class_m_r_1_1_interp_1_1_base.html", [
+        [ "MR::Interp::LinearInterpBase< ImageType, LinearInterpProcessingType::Derivative >", "class_m_r_1_1_interp_1_1_linear_interp_base.html", [
+          [ "MR::Interp::LinearInterp< ImageType, LinearInterpProcessingType::Derivative >", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_derivative_01_4.html", null ]
+        ] ],
+        [ "MR::Interp::LinearInterpBase< ImageType, LinearInterpProcessingType::Value >", "class_m_r_1_1_interp_1_1_linear_interp_base.html", [
+          [ "MR::Interp::LinearInterp< ImageType, LinearInterpProcessingType::Value >", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_value_01_4.html", [
+            [ "MR::DWI::Tractography::Algorithms::Tensor_Prob::Interp", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_tensor___prob_1_1_interp.html", null ]
+          ] ]
+        ] ],
+        [ "MR::Interp::LinearInterpBase< ImageType, LinearInterpProcessingType::ValueAndDerivative >", "class_m_r_1_1_interp_1_1_linear_interp_base.html", [
+          [ "MR::Interp::LinearInterp< ImageType, LinearInterpProcessingType::ValueAndDerivative >", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_value_and_derivative_01_4.html", null ]
+        ] ],
+        [ "MR::Interp::LinearInterpBase< ImageType, PType >", "class_m_r_1_1_interp_1_1_linear_interp_base.html", [
+          [ "MR::Interp::LinearInterp< ImageType, PType >", "class_m_r_1_1_interp_1_1_linear_interp.html", null ]
+        ] ],
+        [ "MR::Interp::Nearest< ImageType >", "class_m_r_1_1_interp_1_1_nearest.html", null ],
+        [ "MR::Interp::Sinc< ImageType >", "class_m_r_1_1_interp_1_1_sinc.html", null ],
+        [ "MR::Interp::SplineInterpBase< ImageType, SplineType, PType >", "class_m_r_1_1_interp_1_1_spline_interp_base.html", [
+          [ "MR::Interp::SplineInterp< ImageType, SplineType, PType >", "class_m_r_1_1_interp_1_1_spline_interp.html", null ]
+        ] ],
+        [ "MR::Interp::SplineInterpBase< ImageType, SplineType, Math::SplineProcessingType::Derivative >", "class_m_r_1_1_interp_1_1_spline_interp_base.html", [
+          [ "MR::Interp::SplineInterp< ImageType, SplineType, Math::SplineProcessingType::Derivative >", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_p71b7b33230e9f6db7179b5005ae1ab41.html", null ]
+        ] ],
+        [ "MR::Interp::SplineInterpBase< ImageType, SplineType, Math::SplineProcessingType::Value >", "class_m_r_1_1_interp_1_1_spline_interp_base.html", [
+          [ "MR::Interp::SplineInterp< ImageType, SplineType, Math::SplineProcessingType::Value >", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_processing_type_1_1_value_01_4.html", null ]
+        ] ],
+        [ "MR::Interp::SplineInterpBase< ImageType, SplineType, Math::SplineProcessingType::ValueAndDerivative >", "class_m_r_1_1_interp_1_1_spline_interp_base.html", [
+          [ "MR::Interp::SplineInterp< ImageType, SplineType, Math::SplineProcessingType::ValueAndDerivative >", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_p67c55abb4645d7286881c1c4671654a0.html", null ]
+        ] ]
+      ] ]
     ] ],
-    [ "MR::DWI::Tractography::Algorithms::Tensor_Prob::WildBootstrap", "classMR_1_1DWI_1_1Tractography_1_1Algorithms_1_1Tensor__Prob_1_1WildBootstrap.html", null ],
-    [ "MR::DWI::Tractography::Editing::Worker", "classMR_1_1DWI_1_1Tractography_1_1Editing_1_1Worker.html", null ],
-    [ "MR::DWI::Tractography::Tracking::WriteKernel", "classMR_1_1DWI_1_1Tractography_1_1Tracking_1_1WriteKernel.html", [
-      [ "MR::DWI::Tractography::Seeding::WriteKernelDynamic", "classMR_1_1DWI_1_1Tractography_1_1Seeding_1_1WriteKernelDynamic.html", null ]
+    [ "MR::Math::SH::Transform< ValueType >", "class_m_r_1_1_math_1_1_s_h_1_1_transform.html", null ],
+    [ "MR::GUI::Dialog::TreeItem", "class_m_r_1_1_g_u_i_1_1_dialog_1_1_tree_item.html", null ],
+    [ "true_type", null, [
+      [ "MR::is_complex< std::complex< ValueType > >", "struct_m_r_1_1is__complex_3_01std_1_1complex_3_01_value_type_01_4_01_4.html", null ]
     ] ],
-    [ "MR::Thread::Queue< T >::Writer", "classMR_1_1Thread_1_1Queue_1_1Writer.html", null ],
-    [ "MR::DWI::Tractography::Connectome::WriterExemplars", "classMR_1_1DWI_1_1Tractography_1_1Connectome_1_1WriterExemplars.html", null ],
-    [ "MR::DWI::Tractography::Connectome::WriterExtraction", "classMR_1_1DWI_1_1Tractography_1_1Connectome_1_1WriterExtraction.html", null ]
+    [ "MR::DWI::Tractography::Mapping::TWIImagePluginBase", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_i_image_plugin_base.html", [
+      [ "MR::DWI::Tractography::Mapping::TWIFODImagePlugin", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_i_f_o_d_image_plugin.html", null ],
+      [ "MR::DWI::Tractography::Mapping::TWIScalarImagePlugin", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_i_scalar_image_plugin.html", null ]
+    ] ],
+    [ "MR::Math::RNG::Uniform< ValueType >", "class_m_r_1_1_math_1_1_r_n_g_1_1_uniform.html", null ],
+    [ "MR::Math::RNG::Uniform< double >", "class_m_r_1_1_math_1_1_r_n_g_1_1_uniform.html", null ],
+    [ "MR::Math::RNG::Uniform< float >", "class_m_r_1_1_math_1_1_r_n_g_1_1_uniform.html", null ],
+    [ "unique_ptr", null, [
+      [ "MR::copy_ptr< T, Deleter >", "class_m_r_1_1copy__ptr.html", null ]
+    ] ],
+    [ "MR::UnorderedMap< K, V >", "struct_m_r_1_1_unordered_map.html", null ],
+    [ "MR::UnorderedMap< uint32_t, const char * >", "struct_m_r_1_1_unordered_map.html", null ],
+    [ "MR::DWI::Tractography::Upsampler", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_upsampler.html", null ],
+    [ "MR::Sparse::Value< DataType >", "class_m_r_1_1_sparse_1_1_value.html", null ],
+    [ "MR::Helper::Value< ImageType >", "class_m_r_1_1_helper_1_1_value.html", null ],
+    [ "MR::BitSet::Value", "class_m_r_1_1_bit_set_1_1_value.html", null ],
+    [ "MR::Interp::value_type_of< C >", "struct_m_r_1_1_interp_1_1value__type__of.html", null ],
+    [ "MR::Interp::value_type_of< std::complex< X > >", "struct_m_r_1_1_interp_1_1value__type__of_3_01std_1_1complex_3_01_x_01_4_01_4.html", null ],
+    [ "MR::GUI::GL::vec4", "class_m_r_1_1_g_u_i_1_1_g_l_1_1vec4.html", null ],
+    [ "MR::DWI::Tractography::GT::vec_compare< T >", "struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1vec__compare.html", null ],
+    [ "vector", null, [
+      [ "MR::App::ArgumentList", "class_m_r_1_1_app_1_1_argument_list.html", null ],
+      [ "MR::App::Description", "class_m_r_1_1_app_1_1_description.html", null ],
+      [ "MR::App::Option", "class_m_r_1_1_app_1_1_option.html", null ],
+      [ "MR::App::OptionGroup", "class_m_r_1_1_app_1_1_option_group.html", null ],
+      [ "MR::App::OptionList", "class_m_r_1_1_app_1_1_option_list.html", null ],
+      [ "MR::DWI::FMLS::FOD_lobes", "class_m_r_1_1_d_w_i_1_1_f_m_l_s_1_1_f_o_d__lobes.html", null ],
+      [ "MR::DWI::Tractography::Streamline< ValueType >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_streamline.html", null ],
+      [ "MR::DWI::Tractography::Tracking::GeneratedTrack", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_generated_track.html", null ],
+      [ "MR::File::Dicom::Patient", "class_m_r_1_1_file_1_1_dicom_1_1_patient.html", null ],
+      [ "MR::File::Dicom::Series", "class_m_r_1_1_file_1_1_dicom_1_1_series.html", null ],
+      [ "MR::File::Dicom::Study", "class_m_r_1_1_file_1_1_dicom_1_1_study.html", null ],
+      [ "MR::File::Dicom::Tree", "class_m_r_1_1_file_1_1_dicom_1_1_tree.html", null ],
+      [ "MR::Mesh::MeshMulti", "class_m_r_1_1_mesh_1_1_mesh_multi.html", null ],
+      [ "MR::DWI::Tractography::Streamline< float >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_streamline.html", [
+        [ "MR::DWI::Tractography::Connectome::Exemplar", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_exemplar.html", null ]
+      ] ],
+      [ "MR::DWI::Tractography::Streamline<>", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_streamline.html", [
+        [ "MR::DWI::Tractography::Connectome::Streamline_nodelist", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_streamline__nodelist.html", null ],
+        [ "MR::DWI::Tractography::Connectome::Streamline_nodepair", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_streamline__nodepair.html", null ]
+      ] ]
+    ] ],
+    [ "Vector3i", null, [
+      [ "MR::DWI::Tractography::Mapping::Voxel", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_voxel.html", [
+        [ "MR::DWI::Tractography::Mapping::Dixel", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_dixel.html", [
+          [ "MR::DWI::Tractography::Mapping::Gaussian::Dixel", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_dixel.html", null ]
+        ] ],
+        [ "MR::DWI::Tractography::Mapping::Gaussian::Voxel", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_voxel.html", null ],
+        [ "MR::DWI::Tractography::Mapping::VoxelDEC", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_voxel_d_e_c.html", [
+          [ "MR::DWI::Tractography::Mapping::Gaussian::VoxelDEC", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_voxel_d_e_c.html", null ]
+        ] ],
+        [ "MR::DWI::Tractography::Mapping::VoxelDir", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_voxel_dir.html", null ],
+        [ "MR::DWI::Tractography::Mapping::VoxelTOD", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_voxel_t_o_d.html", [
+          [ "MR::DWI::Tractography::Mapping::Gaussian::VoxelTOD", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_voxel_t_o_d.html", null ]
+        ] ]
+      ] ]
+    ] ],
+    [ "VectorXf", null, [
+      [ "MR::GUI::MRView::Tool::FileDataVector", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_file_data_vector.html", null ]
+    ] ],
+    [ "MR::GUI::Shapes::HalfSphere::Vertex", "class_m_r_1_1_g_u_i_1_1_shapes_1_1_half_sphere_1_1_vertex.html", null ],
+    [ "MR::GUI::Shapes::Sphere::Vertex", "class_m_r_1_1_g_u_i_1_1_shapes_1_1_sphere_1_1_vertex.html", null ],
+    [ "MR::DWI::Tractography::Mapping::Gaussian::VoxelAddon", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_voxel_addon.html", [
+      [ "MR::DWI::Tractography::Mapping::Gaussian::Dixel", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_dixel.html", null ],
+      [ "MR::DWI::Tractography::Mapping::Gaussian::Voxel", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_voxel.html", null ],
+      [ "MR::DWI::Tractography::Mapping::Gaussian::VoxelDEC", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_voxel_d_e_c.html", null ],
+      [ "MR::DWI::Tractography::Mapping::Gaussian::VoxelTOD", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_voxel_t_o_d.html", null ]
+    ] ],
+    [ "MR::Adapter::Warp< Interpolator, ImageType, WarpType >", "class_m_r_1_1_adapter_1_1_warp.html", null ],
+    [ "MR::DWI::Tractography::Algorithms::Tensor_Prob::WildBootstrap", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_tensor___prob_1_1_wild_bootstrap.html", null ],
+    [ "MR::DWI::Tractography::Editing::Worker", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_editing_1_1_worker.html", null ],
+    [ "MR::DWI::Tractography::Tracking::WriteKernel", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_write_kernel.html", [
+      [ "MR::DWI::Tractography::Seeding::WriteKernelDynamic", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_seeding_1_1_write_kernel_dynamic.html", null ]
+    ] ],
+    [ "MR::Thread::Queue< T >::Writer", "class_m_r_1_1_thread_1_1_queue_1_1_writer.html", null ],
+    [ "MR::DWI::Tractography::Connectome::WriterExemplars", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_writer_exemplars.html", null ],
+    [ "MR::DWI::Tractography::Connectome::WriterExtraction", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_writer_extraction.html", null ],
+    [ "MR::DWI::Tractography::WriterInterface< ValueType >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer_interface.html", [
+      [ "MR::DWI::Tractography::WriterUnbuffered< ValueType >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer_unbuffered.html", null ]
+    ] ],
+    [ "ImageType", null, [
+      [ "MR::Interp::Base< ImageType >", "class_m_r_1_1_interp_1_1_base.html", null ]
+    ] ]
 ];

@@ -1,28 +1,8 @@
 var searchData=
 [
-  ['ram',['RAM',['../classMR_1_1Image_1_1Handler_1_1RAM.html',1,'MR::Image::Handler']]],
-  ['random_5fper_5fvoxel',['Random_per_voxel',['../classMR_1_1DWI_1_1Tractography_1_1Seeding_1_1Random__per__voxel.html',1,'MR::DWI::Tractography::Seeding']]],
-  ['reader',['Reader',['../classMR_1_1DWI_1_1Tractography_1_1Reader.html',1,'MR::DWI::Tractography']]],
-  ['reader',['Reader',['../classMR_1_1Thread_1_1Queue_1_1Reader.html',1,'MR::Thread::Queue']]],
-  ['reader_3c_20float_20_3e',['Reader&lt; float &gt;',['../classMR_1_1DWI_1_1Tractography_1_1Reader.html',1,'MR::DWI::Tractography']]],
-  ['receiver',['Receiver',['../classMR_1_1DWI_1_1Tractography_1_1Editing_1_1Receiver.html',1,'MR::DWI::Tractography::Editing']]],
-  ['regularisationcalculator',['RegularisationCalculator',['../classMR_1_1DWI_1_1Tractography_1_1SIFT2_1_1RegularisationCalculator.html',1,'MR::DWI::Tractography::SIFT2']]],
-  ['rejection',['Rejection',['../classMR_1_1DWI_1_1Tractography_1_1Seeding_1_1Rejection.html',1,'MR::DWI::Tractography::Seeding']]],
-  ['renderer',['Renderer',['../classMR_1_1GUI_1_1DWI_1_1Renderer.html',1,'MR::GUI::DWI']]],
-  ['renderer',['Renderer',['../classMR_1_1GUI_1_1MRView_1_1ColourMap_1_1Renderer.html',1,'MR::GUI::MRView::ColourMap']]],
-  ['renderframe',['RenderFrame',['../classMR_1_1GUI_1_1DWI_1_1RenderFrame.html',1,'MR::GUI::DWI']]],
-  ['replicate',['Replicate',['../classMR_1_1Image_1_1Adapter_1_1Replicate.html',1,'MR::Image::Adapter']]],
-  ['resamplefunctor',['ResampleFunctor',['../classMR_1_1DWI_1_1Tractography_1_1SIFT_1_1ResampleFunctor.html',1,'MR::DWI::Tractography::SIFT']]],
-  ['resize',['Resize',['../classMR_1_1Image_1_1Filter_1_1Resize.html',1,'MR::Image::Filter']]],
-  ['reslice',['Reslice',['../classMR_1_1Image_1_1Adapter_1_1Reslice.html',1,'MR::Image::Adapter']]],
-  ['response',['Response',['../classMR_1_1DWI_1_1RF_1_1Response.html',1,'MR::DWI::RF']]],
-  ['responseestimator',['ResponseEstimator',['../classMR_1_1DWI_1_1RF_1_1ResponseEstimator.html',1,'MR::DWI::RF']]],
-  ['result',['Result',['../classMR_1_1DWI_1_1Tractography_1_1SIFT2_1_1LineSearchFunctor_1_1Result.html',1,'MR::DWI::Tractography::SIFT2::LineSearchFunctor']]],
-  ['rng',['RNG',['../classMR_1_1Math_1_1RNG.html',1,'MR::Math']]],
-  ['roi',['ROI',['../classMR_1_1DWI_1_1Tractography_1_1ROI.html',1,'MR::DWI::Tractography']]],
-  ['roi',['ROI',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI.html',1,'MR::GUI::MRView::Tool']]],
-  ['roi_5fitem',['ROI_Item',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI__Item.html',1,'MR::GUI::MRView::Tool']]],
-  ['roi_5fmodel',['ROI_Model',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI__Model.html',1,'MR::GUI::MRView::Tool']]],
-  ['roi_5fundoentry',['ROI_UndoEntry',['../structMR_1_1GUI_1_1MRView_1_1Tool_1_1ROI__UndoEntry.html',1,'MR::GUI::MRView::Tool']]],
-  ['roiset',['ROISet',['../classMR_1_1DWI_1_1Tractography_1_1ROISet.html',1,'MR::DWI::Tractography']]]
+  ['qcolorbutton',['QColorButton',['../class_q_color_button.html',1,'']]],
+  ['quadraticlinesearch',['QuadraticLineSearch',['../class_m_r_1_1_math_1_1_quadratic_line_search.html',1,'MR::Math']]],
+  ['quadraticlinesearch_3c_20double_20_3e',['QuadraticLineSearch&lt; double &gt;',['../class_m_r_1_1_math_1_1_quadratic_line_search.html',1,'MR::Math']]],
+  ['queue',['Queue',['../class_m_r_1_1_thread_1_1_queue.html',1,'MR::Thread']]],
+  ['quickscan',['QuickScan',['../class_m_r_1_1_file_1_1_dicom_1_1_quick_scan.html',1,'MR::File::Dicom']]]
 ];

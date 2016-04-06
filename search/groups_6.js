@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['image_20access',['Image access',['../group__ImageAPI.html',1,'']]],
-  ['interp',['Interp',['../group__interp.html',1,'']]]
+  ['linalg',['Linalg',['../group__linalg.html',1,'']]],
+  ['looping_20functions',['Looping functions',['../group__loop.html',1,'']]],
+  ['least_2dsquares_20_26_20moore_2dpenrose_20pseudo_2dinverse',['Least-squares &amp; Moore-Penrose pseudo-inverse',['../group__ls.html',1,'']]]
 ];

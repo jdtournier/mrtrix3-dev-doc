@@ -1,9 +1,6 @@
 var searchData=
 [
-  ['y',['y',['../classMR_1_1Math_1_1Stats_1_1GLMTTest.html#a5c5d32c7760ac70d5a45a2a8e0b225e9',1,'MR::Math::Stats::GLMTTest']]],
-  ['y_5fa',['y_a',['../structmgh__header.html#ae7028caf709e002d8688e10306e4f5f8',1,'mgh_header']]],
-  ['y_5fr',['y_r',['../structmgh__header.html#a1a7e1c6bf65ba37f15652548230a455b',1,'mgh_header']]],
-  ['y_5fs',['y_s',['../structmgh__header.html#a64c779b98739154f4902739545419c5b',1,'mgh_header']]],
-  ['y_5fvalues',['y_values',['../classMR_1_1Image_1_1Interp_1_1Sinc.html#a52837c5375a7c012459caaca088410f8',1,'MR::Image::Interp::Sinc']]],
-  ['ydim',['ydim',['../classMR_1_1Image_1_1Handler_1_1Mosaic.html#aece47c7ddf6b9664ebdd6ef772ba091e',1,'MR::Image::Handler::Mosaic']]]
+  ['x',['x',['../class_m_r_1_1_image.html#ac98cab777230819b545d8998dbba8c71',1,'MR::Image::x()'],['../class_m_r_1_1_math_1_1_gradient_descent.html#a8a4eb067614e6ae7e70271c8f88418b4',1,'MR::Math::GradientDescent::x()'],['../class_m_r_1_1_math_1_1_stats_1_1_g_l_m_t_test.html#ad70c2d9802860c744751d594c7f4588b',1,'MR::Math::Stats::GLMTTest::X()']]],
+  ['x2',['x2',['../class_m_r_1_1_math_1_1_gradient_descent.html#af97fea091f04614337b8e9aade652d5c',1,'MR::Math::GradientDescent']]],
+  ['xdim',['xdim',['../class_m_r_1_1_image_i_o_1_1_mosaic.html#a9123377e8ab18d3a36bc9930de4c67bd',1,'MR::ImageIO::Mosaic']]]
 ];

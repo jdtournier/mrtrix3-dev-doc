@@ -1,0 +1,4 @@
+var namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_light_box_view_controls =
+[
+    [ "LightBoxEditButton", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_light_box_view_controls_1_1_light_box_edit_button.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_light_box_view_controls_1_1_light_box_edit_button" ]
+];

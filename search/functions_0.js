@@ -1,8 +1,18 @@
 var searchData=
 [
-  ['_5f_5fbackend',['__Backend',['../classMR_1_1Thread_1_1____Backend.html#a40852fdb2de98c2cba8bb85e90bda19e',1,'MR::Thread::__Backend']]],
-  ['_5f_5fget_5faxes_5fin_5fthread',['__get_axes_in_thread',['../classMR_1_1Image_1_1ThreadedLoop.html#ae601140b34f2c41452931a6d109c57bf',1,'MR::Image::ThreadedLoop::__get_axes_in_thread(const std::vector&lt; size_t &gt; &amp;axes_in_loop, size_t num_inner_axes)'],['../classMR_1_1Image_1_1ThreadedLoop.html#afe2ac32b2215515d119c66d5d3ba0283',1,'MR::Image::ThreadedLoop::__get_axes_in_thread(const InfoType &amp;source, size_t num_inner_axes, size_t from_axis, size_t to_axis)']]],
-  ['_5f_5fget_5faxes_5fout_5fof_5fthread',['__get_axes_out_of_thread',['../classMR_1_1Image_1_1ThreadedLoop.html#a683a458d778b59bc7a3a01148b3944c9',1,'MR::Image::ThreadedLoop::__get_axes_out_of_thread(const std::vector&lt; size_t &gt; &amp;axes_in_loop, size_t num_inner_axes)'],['../classMR_1_1Image_1_1ThreadedLoop.html#a61cc05b52d88b3079b6d4f6771063bbf',1,'MR::Image::ThreadedLoop::__get_axes_out_of_thread(const InfoType &amp;source, size_t num_inner_axes, size_t from_axis, size_t to_axis)']]],
-  ['_5f_5fget_5fhandler',['__get_handler',['../classMR_1_1Image_1_1Header.html#a03a29d8f8f046df6776c939ea6cde4d7',1,'MR::Image::Header']]],
-  ['_5f_5fset_5fhandler',['__set_handler',['../classMR_1_1Image_1_1Header.html#aab61a59e0801e6740cb403cd0e05b773',1,'MR::Image::Header']]]
+  ['_5f_5fbackend',['__Backend',['../class_m_r_1_1_thread_1_1_____backend.html#a40852fdb2de98c2cba8bb85e90bda19e',1,'MR::Thread::__Backend']]],
+  ['_5f_5fset_5ffetch_5fstore_5ffunctions',['__set_fetch_store_functions',['../namespace_m_r.html#a00f164966747652cad1edde6849ef9af',1,'MR::__set_fetch_store_functions(std::function&lt; ValueType(const void *, size_t, default_type, default_type)&gt; &amp;fetch_func, std::function&lt; void(ValueType, void *, size_t, default_type, default_type)&gt; &amp;store_func, DataType datatype)'],['../namespace_m_r.html#a6808b73176fb9320cb23dfe948958620',1,'MR::__set_fetch_store_functions(std::function&lt; ValueType(const void *, size_t, default_type, default_type)&gt; &amp;fetch_func, std::function&lt; void(ValueType, void *, size_t, default_type, default_type)&gt; &amp;store_func, DataType datatype)']]],
+  ['_5f_5fset_5ffetch_5fstore_5ffunctions_3c_20bool_20_3e',['__set_fetch_store_functions&lt; bool &gt;',['../namespace_m_r.html#a362bed6e0145cb428cd98934f82ba6a2',1,'MR']]],
+  ['_5f_5fset_5ffetch_5fstore_5ffunctions_3c_20cdouble_20_3e',['__set_fetch_store_functions&lt; cdouble &gt;',['../namespace_m_r.html#af0df2da37e7a16eee1d9ff626185333c',1,'MR']]],
+  ['_5f_5fset_5ffetch_5fstore_5ffunctions_3c_20cfloat_20_3e',['__set_fetch_store_functions&lt; cfloat &gt;',['../namespace_m_r.html#a495acfa77d3889436b77abb24e67c55f',1,'MR']]],
+  ['_5f_5fset_5ffetch_5fstore_5ffunctions_3c_20double_20_3e',['__set_fetch_store_functions&lt; double &gt;',['../namespace_m_r.html#aa1970a8a54dccaa203b73f2e9396e620',1,'MR']]],
+  ['_5f_5fset_5ffetch_5fstore_5ffunctions_3c_20float_20_3e',['__set_fetch_store_functions&lt; float &gt;',['../namespace_m_r.html#aad8d284fe340a02bb760f9a67f1d44c2',1,'MR']]],
+  ['_5f_5fset_5ffetch_5fstore_5ffunctions_3c_20int16_5ft_20_3e',['__set_fetch_store_functions&lt; int16_t &gt;',['../namespace_m_r.html#a6fde045f5e75b25aaf5e92545ba5f782',1,'MR']]],
+  ['_5f_5fset_5ffetch_5fstore_5ffunctions_3c_20int32_5ft_20_3e',['__set_fetch_store_functions&lt; int32_t &gt;',['../namespace_m_r.html#af485366392de930e78b941deacaa120a',1,'MR']]],
+  ['_5f_5fset_5ffetch_5fstore_5ffunctions_3c_20int64_5ft_20_3e',['__set_fetch_store_functions&lt; int64_t &gt;',['../namespace_m_r.html#ac5552ba2813d5c56743dec9603d12fa4',1,'MR']]],
+  ['_5f_5fset_5ffetch_5fstore_5ffunctions_3c_20int8_5ft_20_3e',['__set_fetch_store_functions&lt; int8_t &gt;',['../namespace_m_r.html#a2475002f88e8d9010596a75d281b5bac',1,'MR']]],
+  ['_5f_5fset_5ffetch_5fstore_5ffunctions_3c_20uint16_5ft_20_3e',['__set_fetch_store_functions&lt; uint16_t &gt;',['../namespace_m_r.html#a9bdfdd190d26259bf69b358028a11589',1,'MR']]],
+  ['_5f_5fset_5ffetch_5fstore_5ffunctions_3c_20uint32_5ft_20_3e',['__set_fetch_store_functions&lt; uint32_t &gt;',['../namespace_m_r.html#a04a431d240a0bfebd71fb4eef18a09dc',1,'MR']]],
+  ['_5f_5fset_5ffetch_5fstore_5ffunctions_3c_20uint64_5ft_20_3e',['__set_fetch_store_functions&lt; uint64_t &gt;',['../namespace_m_r.html#a166b0883b31e40d8baffe4b5c04d38ae',1,'MR']]],
+  ['_5f_5fset_5ffetch_5fstore_5ffunctions_3c_20uint8_5ft_20_3e',['__set_fetch_store_functions&lt; uint8_t &gt;',['../namespace_m_r.html#a9e072736bdd886d414e08e3f8866d092',1,'MR']]]
 ];

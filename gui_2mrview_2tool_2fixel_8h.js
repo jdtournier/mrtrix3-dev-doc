@@ -1,13 +1,13 @@
 var gui_2mrview_2tool_2fixel_8h =
 [
-    [ "AbstractFixel", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1AbstractFixel.html", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1AbstractFixel" ],
-    [ "Shader", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1AbstractFixel_1_1Shader.html", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1AbstractFixel_1_1Shader" ],
-    [ "IntPointHasher", "structMR_1_1GUI_1_1MRView_1_1Tool_1_1AbstractFixel_1_1IntPointHasher.html", "structMR_1_1GUI_1_1MRView_1_1Tool_1_1AbstractFixel_1_1IntPointHasher" ],
-    [ "FixelType", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1FixelType.html", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1FixelType" ],
-    [ "Fixel", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Fixel.html", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1Fixel" ],
-    [ "PackedFixel", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1PackedFixel.html", "classMR_1_1GUI_1_1MRView_1_1Tool_1_1PackedFixel" ],
-    [ "FixelPackedBufferType", "gui_2mrview_2tool_2fixel_8h.html#a87d133a10f5042d5d28cb78d8b4d77e4", null ],
-    [ "FixelSparseBufferType", "gui_2mrview_2tool_2fixel_8h.html#aba17a3eb46fc4fbeab33c39812be8980", null ],
+    [ "AbstractFixel", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_abstract_fixel.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_abstract_fixel" ],
+    [ "Shader", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_abstract_fixel_1_1_shader.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_abstract_fixel_1_1_shader" ],
+    [ "IntPointHasher", "struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_abstract_fixel_1_1_int_point_hasher.html", "struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_abstract_fixel_1_1_int_point_hasher" ],
+    [ "FixelType", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_fixel_type.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_fixel_type" ],
+    [ "Fixel", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_fixel.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_fixel" ],
+    [ "PackedFixel", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_packed_fixel.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_packed_fixel" ],
+    [ "FixelPackedImageType", "gui_2mrview_2tool_2fixel_8h.html#ada2d85f0fa46e764d5073a10951689d1", null ],
+    [ "FixelSparseImageType", "gui_2mrview_2tool_2fixel_8h.html#a24760ed98047077b2fb15f6493a28f03", null ],
     [ "FixelColourType", "gui_2mrview_2tool_2fixel_8h.html#a22348cc42517686fa6f064cc14af1f80", [
       [ "CValue", "gui_2mrview_2tool_2fixel_8h.html#a22348cc42517686fa6f064cc14af1f80a9a6956001eca206a84c339209c9da0bc", null ],
       [ "Direction", "gui_2mrview_2tool_2fixel_8h.html#aaaad2794ce9a61c10224a1e448785ed7ab0470b53583ca0ed693a5e53bc8620c4", null ]

@@ -1,8 +1,8 @@
 var displayable_8h =
 [
-    [ "DisplayableVisitor", "classMR_1_1GUI_1_1MRView_1_1DisplayableVisitor.html", "classMR_1_1GUI_1_1MRView_1_1DisplayableVisitor" ],
-    [ "Displayable", "classMR_1_1GUI_1_1MRView_1_1Displayable.html", "classMR_1_1GUI_1_1MRView_1_1Displayable" ],
-    [ "Shader", "classMR_1_1GUI_1_1MRView_1_1Displayable_1_1Shader.html", "classMR_1_1GUI_1_1MRView_1_1Displayable_1_1Shader" ],
+    [ "DisplayableVisitor", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_displayable_visitor.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_displayable_visitor" ],
+    [ "Displayable", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_displayable.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_displayable" ],
+    [ "Shader", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_displayable_1_1_shader.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_displayable_1_1_shader" ],
     [ "DiscardLower", "displayable_8h.html#a683527d5da16b4c4515f5ffee810f821", null ],
     [ "DiscardLowerEnabled", "displayable_8h.html#a74b749fd94dc83ff3614d73321fe8583", null ],
     [ "DiscardUpper", "displayable_8h.html#abcca18ff731efb89e413aadba9fb1262", null ],

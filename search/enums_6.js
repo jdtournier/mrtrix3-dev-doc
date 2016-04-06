@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['outputtype',['OutputType',['../namespaceMR_1_1Image.html#ac21d72c0a8287f0ec0fe76008fe9c0bf',1,'MR::Image']]]
+  ['mode_5ft',['mode_t',['../class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer.html#aea2f0896bcbc95a6747341721a2db3ee',1,'MR::GUI::DWI::Renderer']]]
 ];

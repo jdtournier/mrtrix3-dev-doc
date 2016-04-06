@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['interp',['Interp',['../classMR_1_1DWI_1_1Tractography_1_1ACT_1_1GMWMI__finder.html#ae7fe8e1965256de440a9c11b309dadf8',1,'MR::DWI::Tractography::ACT::GMWMI_finder']]],
-  ['interpvoxeltype',['InterpVoxelType',['../classMR_1_1GUI_1_1MRView_1_1Image.html#a95011ff943cb625945dcdeb66cde9ee8',1,'MR::GUI::MRView::Image']]]
+  ['interp',['Interp',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html#a7b51c775747d06cd24d4556212fbfb46',1,'MR::DWI::Tractography::ACT::GMWMI_finder']]]
 ];

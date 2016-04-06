@@ -1,26 +1,7 @@
 var searchData=
 [
-  ['act_5ffailed_5fwm_5frequirement',['ACT_FAILED_WM_REQUIREMENT',['../namespaceMR_1_1DWI_1_1Tractography_1_1Tracking.html#ad956382fab3ffe08fe6398044e9ae01aad13a4cb971480a8a9055acd9683fd145',1,'MR::DWI::Tractography::Tracking']]],
-  ['act_5fpoor_5ftermination',['ACT_POOR_TERMINATION',['../namespaceMR_1_1DWI_1_1Tractography_1_1Tracking.html#ad956382fab3ffe08fe6398044e9ae01aaef14026f7b7875a6e2d7e8aac0879e03',1,'MR::DWI::Tractography::Tracking']]],
-  ['active_5fattribute_5fmax_5flength',['ACTIVE_ATTRIBUTE_MAX_LENGTH',['../namespacegl.html#a91e4b8acdd36437953f66b651634fce6a2951307a0fe9d65a5732267b6178b48f',1,'gl']]],
-  ['active_5fattributes',['ACTIVE_ATTRIBUTES',['../namespacegl.html#a91e4b8acdd36437953f66b651634fce6a5888e40c6d856364db8530d6ef693407',1,'gl']]],
-  ['active_5ftexture',['ACTIVE_TEXTURE',['../namespacegl.html#a91e4b8acdd36437953f66b651634fce6afe5f6df538eee639192cc10d3febb48d',1,'gl']]],
-  ['active_5funiform_5fblock_5fmax_5fname_5flength',['ACTIVE_UNIFORM_BLOCK_MAX_NAME_LENGTH',['../namespacegl.html#a91e4b8acdd36437953f66b651634fce6a2839fec5de8befabce4fe19de6ddfe00',1,'gl']]],
-  ['active_5funiform_5fblocks',['ACTIVE_UNIFORM_BLOCKS',['../namespacegl.html#a91e4b8acdd36437953f66b651634fce6ac4082b58e80566eb0f2d6584bbc59292',1,'gl']]],
-  ['active_5funiform_5fmax_5flength',['ACTIVE_UNIFORM_MAX_LENGTH',['../namespacegl.html#a91e4b8acdd36437953f66b651634fce6aa8fe55e832f32c2e118ab4b084e1f14f',1,'gl']]],
-  ['active_5funiforms',['ACTIVE_UNIFORMS',['../namespacegl.html#a91e4b8acdd36437953f66b651634fce6a07a2ddd42ce3a196eaf848d2ed2fb05e',1,'gl']]],
-  ['aliased_5fline_5fwidth_5frange',['ALIASED_LINE_WIDTH_RANGE',['../namespacegl.html#a91e4b8acdd36437953f66b651634fce6a3ff23c21cd709ba580a6095ed879a891',1,'gl']]],
-  ['all',['ALL',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1Connectome.html#a77266c2269b955655408309565d8d6fea5fb1f955b45e38e31789286a1790398d',1,'MR::GUI::MRView::Tool::Connectome::ALL()'],['../namespaceMR_1_1GUI_1_1MRView_1_1Tool.html#a82711adfcd2d5eb552d65bbd3e11e6caa5fb1f955b45e38e31789286a1790398d',1,'MR::GUI::MRView::Tool::ALL()'],['../namespaceMR_1_1GUI_1_1MRView_1_1Tool.html#a4c5768658fab097817689a9c6de487e2a5fb1f955b45e38e31789286a1790398d',1,'MR::GUI::MRView::Tool::ALL()']]],
-  ['alpha',['ALPHA',['../namespacegl.html#a91e4b8acdd36437953f66b651634fce6a9f87864f640ffe73129112013430b79a',1,'gl']]],
-  ['already_5fsignaled',['ALREADY_SIGNALED',['../namespacegl.html#a91e4b8acdd36437953f66b651634fce6a8d58b60522b000465bcf9f295c40cd57',1,'gl']]],
-  ['always',['ALWAYS',['../namespacegl.html#a91e4b8acdd36437953f66b651634fce6adec62eea157bad9db0f4e8686cf67fc7',1,'gl']]],
-  ['amplitude',['Amplitude',['../namespaceMR_1_1GUI_1_1MRView_1_1Tool.html#a408750a8aad3442af457e2caecb7a7f1a680f87261b24a75f60f6f8e0d2b53730',1,'MR::GUI::MRView::Tool']]],
-  ['and',['AND',['../namespacegl.html#a91e4b8acdd36437953f66b651634fce6ab009cda777f585db0e5a6af66b861d87',1,'gl']]],
-  ['and_5finverted',['AND_INVERTED',['../namespacegl.html#a91e4b8acdd36437953f66b651634fce6a1d433bef0d632a7d8b76cfdd6a9808d3',1,'gl']]],
-  ['and_5freverse',['AND_REVERSE',['../namespacegl.html#a91e4b8acdd36437953f66b651634fce6a74d80cc76148fc1e070e2d53c504ee72',1,'gl']]],
-  ['any',['ANY',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1Connectome.html#a77266c2269b955655408309565d8d6fea8e1bde3c3d303163521522cf1d62f21f',1,'MR::GUI::MRView::Tool::Connectome']]],
-  ['any_5fsamples_5fpassed',['ANY_SAMPLES_PASSED',['../namespacegl.html#a91e4b8acdd36437953f66b651634fce6a57a412a4cd35f287d446ee7f34f2a0b6',1,'gl']]],
-  ['array_5fbuffer',['ARRAY_BUFFER',['../namespacegl.html#a91e4b8acdd36437953f66b651634fce6aa17c7595a53331de8b55c40886991520',1,'gl']]],
-  ['array_5fbuffer_5fbinding',['ARRAY_BUFFER_BINDING',['../namespacegl.html#a91e4b8acdd36437953f66b651634fce6a170e6a6744c0b8e1dddc0cd8b96cdccb',1,'gl']]],
-  ['attached_5fshaders',['ATTACHED_SHADERS',['../namespacegl.html#a91e4b8acdd36437953f66b651634fce6abac186226526ee021e43a45443fc4ea3',1,'gl']]]
+  ['act_5ffailed_5fwm_5frequirement',['ACT_FAILED_WM_REQUIREMENT',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#ad956382fab3ffe08fe6398044e9ae01aad13a4cb971480a8a9055acd9683fd145',1,'MR::DWI::Tractography::Tracking']]],
+  ['act_5fpoor_5ftermination',['ACT_POOR_TERMINATION',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#ad956382fab3ffe08fe6398044e9ae01aaef14026f7b7875a6e2d7e8aac0879e03',1,'MR::DWI::Tractography::Tracking']]],
+  ['all',['ALL',['../namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool.html#a82711adfcd2d5eb552d65bbd3e11e6caa5fb1f955b45e38e31789286a1790398d',1,'MR::GUI::MRView::Tool::ALL()'],['../namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool.html#a4c5768658fab097817689a9c6de487e2a5fb1f955b45e38e31789286a1790398d',1,'MR::GUI::MRView::Tool::ALL()']]],
+  ['amplitude',['Amplitude',['../namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool.html#a408750a8aad3442af457e2caecb7a7f1a680f87261b24a75f60f6f8e0d2b53730',1,'MR::GUI::MRView::Tool']]]
 ];

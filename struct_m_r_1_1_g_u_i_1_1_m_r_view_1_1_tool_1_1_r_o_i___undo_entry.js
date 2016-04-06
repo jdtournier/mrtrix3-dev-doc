@@ -1,0 +1,25 @@
+var struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___undo_entry =
+[
+    [ "Shared", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___undo_entry_1_1_shared.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___undo_entry_1_1_shared" ],
+    [ "ROI_UndoEntry", "struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___undo_entry.html#abbc24534ff1fe265b4e736f1f987124e", null ],
+    [ "ROI_UndoEntry", "struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___undo_entry.html#a9931afbf2ffc1e875d619155a344e6de", null ],
+    [ "ROI_UndoEntry", "struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___undo_entry.html#a4cd603b24feb457a5244af3c561e50be", null ],
+    [ "~ROI_UndoEntry", "struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___undo_entry.html#a631c9fa8708ae1cae2db23fa61c718b9", null ],
+    [ "copy", "struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___undo_entry.html#a4cffc8fa9757c7547d924713aa82103a", null ],
+    [ "draw_circle", "struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___undo_entry.html#a621a60162189477d0db2085362e13f10", null ],
+    [ "draw_fill", "struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___undo_entry.html#ada71b7f8b3cbb4888c78b46ce84005ca", null ],
+    [ "draw_line", "struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___undo_entry.html#a475fcf662530b6732557577d71c744fb", null ],
+    [ "draw_rectangle", "struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___undo_entry.html#accf4361d7c9b710a822999cff30c7996", null ],
+    [ "draw_thick_line", "struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___undo_entry.html#ab12237054d26f4bf2bafbc72f02e0c2d", null ],
+    [ "operator=", "struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___undo_entry.html#ae30383477b7d4579a7fe2a2add866dfe", null ],
+    [ "operator=", "struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___undo_entry.html#aa53e34ff65116363ce551fa032605423", null ],
+    [ "redo", "struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___undo_entry.html#ab0e723f18b9338043ee17b6ece1478f6", null ],
+    [ "undo", "struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___undo_entry.html#a3bce1db70a3a2a5b395d9dfef6d15fa5", null ],
+    [ "after", "struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___undo_entry.html#a4a9375b069ee582d7b8c1713b127dca5", null ],
+    [ "before", "struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___undo_entry.html#aaff486c45153479320d6e71af3babbb8", null ],
+    [ "from", "struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___undo_entry.html#a4eacfe073b5cdb81f4bed1e9fa10cdc8", null ],
+    [ "shared", "struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___undo_entry.html#af7254603a7da9871c5c36e34a7d5bf34", null ],
+    [ "size", "struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___undo_entry.html#a7a1cbfa56848e572f7f7beca82d8ece5", null ],
+    [ "slice_axes", "struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___undo_entry.html#a3333d03fc158c06114a8179b90d72be9", null ],
+    [ "tex_size", "struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___undo_entry.html#a20e969ac4bc4d411e3105ea90d3a6133", null ]
+];

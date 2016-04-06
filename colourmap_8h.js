@@ -1,7 +1,7 @@
 var colourmap_8h =
 [
-    [ "Entry", "classMR_1_1GUI_1_1MRView_1_1ColourMap_1_1Entry.html", "classMR_1_1GUI_1_1MRView_1_1ColourMap_1_1Entry" ],
-    [ "Renderer", "classMR_1_1GUI_1_1MRView_1_1ColourMap_1_1Renderer.html", "classMR_1_1GUI_1_1MRView_1_1ColourMap_1_1Renderer" ],
+    [ "Entry", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_entry.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_entry" ],
+    [ "Renderer", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_renderer.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_renderer" ],
     [ "Position", "colourmap_8h.html#a0ad493d29631a0f0abf2e3b9afd4e901", [
       [ "None", "colourmap_8h.html#a0ad493d29631a0f0abf2e3b9afd4e901a54b2d465ed9e653f247ae0f48a5d321d", null ],
       [ "Top", "colourmap_8h.html#a0ad493d29631a0f0abf2e3b9afd4e901aaaf92f2125c282564c4ed5d020576c00", null ],

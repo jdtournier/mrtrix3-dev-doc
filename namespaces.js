@@ -1,6 +1,6 @@
 var namespaces =
 [
-    [ "gl", "namespacegl.html", "namespacegl" ],
-    [ "MR", "namespaceMR.html", "namespaceMR" ],
+    [ "Eigen", "namespace_eigen.html", null ],
+    [ "MR", "namespace_m_r.html", "namespace_m_r" ],
     [ "std", "namespacestd.html", null ]
 ];

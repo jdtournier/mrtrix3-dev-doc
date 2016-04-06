@@ -1,6 +1,6 @@
 var thread_8h =
 [
-    [ "__Backend", "classMR_1_1Thread_1_1____Backend.html", "classMR_1_1Thread_1_1____Backend" ],
+    [ "__Backend", "class_m_r_1_1_thread_1_1_____backend.html", "class_m_r_1_1_thread_1_1_____backend" ],
     [ "multi", "thread_8h.html#gaf01d13fdb672f4a8c8727a7a70760cea", null ],
     [ "number_of_threads", "thread_8h.html#ga86984fa489ba954903690da0836a4f08", null ],
     [ "run", "thread_8h.html#gaab961106219ef4fa4076d24edb123b48", null ],

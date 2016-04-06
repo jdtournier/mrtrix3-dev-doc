@@ -1,0 +1,26 @@
+var class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file =
+[
+    [ "TrackScalarFile", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file.html#aca5b59b19cbe5574d79738d454ac57cb", null ],
+    [ "~TrackScalarFile", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file.html#a8d75d10920a4c173c2caab0b8dbdf163", null ],
+    [ "clear_tool_display", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file.html#a4cbe1e1ee805afecfcbc6a7b6768d769", null ],
+    [ "open_track_scalar_file_slot", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file.html#a4135cbe610746d24bc36c7d15c38d405", null ],
+    [ "render_tractogram_colourbar", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file.html#a824b60bb4f32ef32b3f93a27a6e92c1e", null ],
+    [ "set_tractogram", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file.html#a131a03823db26fa43a71d49b40325aeb", null ],
+    [ "update_tool_display", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file.html#afbeca63844079ea5a35ed01c891bfd70", null ],
+    [ "colourmap_actions", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file.html#a7747855d0d3de0267132085581a78755", null ],
+    [ "colourmap_button", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file.html#a55aa48e0b68742c92d90e6c4c917123e", null ],
+    [ "colourmap_group", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file.html#a824d9491fb59b3749ebabd267532593c", null ],
+    [ "colourmap_menu", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file.html#a7a50d6ca439c7b847c8b7eacc28c2326", null ],
+    [ "file_button", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file.html#acac19005919488b466dca78d5a6794f6", null ],
+    [ "invert_scale", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file.html#a8657b144cbeaddb0711c2f1c7e58ffd9", null ],
+    [ "main_box", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file.html#af7e8f39e203805decf34620fe3b5f593", null ],
+    [ "max_entry", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file.html#a38b8ca4612fd24652776bcd57c8d4a84", null ],
+    [ "min_entry", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file.html#a97b4754c1407165ad2241da4f175bdb6", null ],
+    [ "scalarfile_by_direction", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file.html#a70269da5f46567d06aedab8ba7270865", null ],
+    [ "show_colour_bar", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file.html#a4df7aae011894ce84290345d0f96382f", null ],
+    [ "threshold_lower", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file.html#a590d07f6e1917bbdf2f8a445d69877dc", null ],
+    [ "threshold_lower_box", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file.html#a2deb9870c3f63cd153544f701689f215", null ],
+    [ "threshold_upper", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file.html#a233705b0522f13d6cfad032caf4d4813", null ],
+    [ "threshold_upper_box", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file.html#aab04811685c2e4baac76ed6f30abf882", null ],
+    [ "tractogram", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file.html#a273f16977f7e2b6f6887d81d23b64b9f", null ]
+];

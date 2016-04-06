@@ -1,6 +1,6 @@
 var path_8h =
 [
-    [ "Dir", "classMR_1_1Path_1_1Dir.html", "classMR_1_1Path_1_1Dir" ],
+    [ "Dir", "class_m_r_1_1_path_1_1_dir.html", "class_m_r_1_1_path_1_1_dir" ],
     [ "HOME_ENV", "path_8h.html#ab48997083586c4b7c562db5e51a3d451", null ],
     [ "PATH_SEPARATOR", "path_8h.html#a256a5721249aa3309437212cc21a9fe4", null ],
     [ "basename", "path_8h.html#a271a0f6e88f149cc7d645388ccabcca5", null ],

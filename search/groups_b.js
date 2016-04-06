@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['thread_2dsafe_20image_20looping',['Thread-safe image looping',['../group__image__thread__looping.html',1,'']]],
-  ['thread_2dsafe_20queue',['Thread-safe queue',['../group__thread__queue.html',1,'']]]
+  ['variable_2dlength_20array_20macros',['Variable-length array macros',['../group___v_l_a.html',1,'']]]
 ];

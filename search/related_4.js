@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['fixelupdater',['FixelUpdater',['../classMR_1_1DWI_1_1Tractography_1_1SIFT2_1_1TckFactor.html#ad2568dbee463744ae1c67aa9189fe711',1,'MR::DWI::Tractography::SIFT2::TckFactor']]]
+  ['grabcontext',['GrabContext',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_window.html#a314956f886e2ec3402475502161bf110',1,'MR::GUI::MRView::Window']]]
 ];

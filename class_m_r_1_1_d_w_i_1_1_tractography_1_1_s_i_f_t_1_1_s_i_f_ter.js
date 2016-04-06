@@ -1,0 +1,28 @@
+var class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter =
+[
+    [ "TrackGradientCalculator", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter_1_1_track_gradient_calculator.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter_1_1_track_gradient_calculator" ],
+    [ "MapType", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html#a5756b4df2fadbe4b1be87c3f610de9a6", null ],
+    [ "MapVoxel", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html#a0bdd5a18e1740b44eaf2a07ee1ba0f99", null ],
+    [ "VoxelAccessor", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html#ab7a65478e26b2c85a65c26c7184f6410", null ],
+    [ "SIFTer", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html#a4990ff58aeafcd665d30c5288a461e54", null ],
+    [ "SIFTer", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html#a8c2c616a1dcd7accc7ce467312bd165f", null ],
+    [ "~SIFTer", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html#a60118d115ca2b51c3816f4e566d9b687", null ],
+    [ "calc_gradient", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html#a8bc1a8de5de5e6e2bc0692cac6d53a60", null ],
+    [ "calc_roc_cost_function", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html#ac08c417d5162bb9b3fd4cbdd6a693d6a", null ],
+    [ "output_filtered_tracks", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html#a01956d42a88eb15a0b78b6424d92c8f3", null ],
+    [ "output_selection", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html#a4e377d564915d0fc586efb3aa4907ce4", null ],
+    [ "perform_filtering", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html#ad7f22e1958aa51cd45358e3b667ecc48", null ],
+    [ "set_csv_path", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html#af5fdceeb09d560021c2dbc57affd9d05", null ],
+    [ "set_regular_outputs", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html#a2fd44687fab36646bc0d5213a14d2588", null ],
+    [ "set_term_mu", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html#aedcf0ee66a2ed0e50802f46f5ea18ec8", null ],
+    [ "set_term_number", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html#aaa4967e27a6f52d756792250cc0a8f2e", null ],
+    [ "set_term_ratio", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html#a07a29a5468c4d25839ed88aca327a19e", null ],
+    [ "test_sorting_block_size", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html#a40dae14cf4dfb953a2d6bfc736b1ab1f", null ],
+    [ "csv_path", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html#a5cbc81d81a8a6632bc8282bed5a2bf8f", null ],
+    [ "enforce_quantisation", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html#afba11e79b3c6a32470d62631e8164288", null ],
+    [ "output_at_counts", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html#af0fc60d6545ffb22d852a26a1d8c78ea", null ],
+    [ "output_debug", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html#a5c991a2cbd70fbb8c17a423a38ce88d9", null ],
+    [ "term_mu", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html#adc3b1b9252813d93548c34fa6adbceb4", null ],
+    [ "term_number", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html#a5efb83f3c179ca8b715a1d83ef7115a2", null ],
+    [ "term_ratio", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html#af6fea2799e2084b65caa1d26033f492b", null ]
+];

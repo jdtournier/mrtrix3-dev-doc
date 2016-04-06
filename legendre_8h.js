@@ -1,9 +1,9 @@
 var legendre_8h =
 [
-    [ "double_factorial", "legendre_8h.html#af389f8f48d502fc5c32dfd1575fe7ad2", null ],
-    [ "factorial", "legendre_8h.html#aba20c50c72fbd1307d4484e4fa50c12c", null ],
-    [ "Plm", "legendre_8h.html#a803f5e67fcdd9d65b75ace0b1a3d084b", null ],
-    [ "Plm_sph", "legendre_8h.html#a0f9f5d8c8b5e1ddcdf54728f58be8bc3", null ],
-    [ "Plm_sph", "legendre_8h.html#ab3ae8f46c4632d1f42b19873d29af1d6", null ],
-    [ "Plm_sph_deriv", "legendre_8h.html#a23a2d9de170be01f4d8894b636b0f7c4", null ]
+    [ "double_factorial", "legendre_8h.html#a0c6f7e61f5a11234030e238589b61640", null ],
+    [ "factorial", "legendre_8h.html#a3d90e1c71dfd84c44f7088f64365f40d", null ],
+    [ "Plm", "legendre_8h.html#a44488e9dbca2f78e9b9eb762cfecfa32", null ],
+    [ "Plm_sph", "legendre_8h.html#ae7d37ead0eeef3573191552be77aa9be", null ],
+    [ "Plm_sph", "legendre_8h.html#a9e152c0a16002454ebdfabcc454b64a3", null ],
+    [ "Plm_sph_deriv", "legendre_8h.html#a266008670a8f2fc9b94b5f37d5646cac", null ]
 ];

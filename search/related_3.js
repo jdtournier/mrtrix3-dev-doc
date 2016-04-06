@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['edgecolourobserver',['EdgeColourObserver',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1Connectome.html#a0e3d8d8a08e326bf63bfc0df45c15449',1,'MR::GUI::MRView::Tool::Connectome']]],
-  ['edgeshader',['EdgeShader',['../classMR_1_1GUI_1_1MRView_1_1Tool_1_1Connectome.html#ac56977efa5c70fadd077ea3006f2bd8c',1,'MR::GUI::MRView::Tool::Connectome']]]
+  ['fixelupdater',['FixelUpdater',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_tck_factor.html#ad2568dbee463744ae1c67aa9189fe711',1,'MR::DWI::Tractography::SIFT2::TckFactor']]]
 ];

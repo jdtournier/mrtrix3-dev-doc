@@ -1,0 +1,27 @@
+var namespace_m_r_1_1_d_w_i_1_1_tractography =
+[
+    [ "ACT", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t.html", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t" ],
+    [ "Algorithms", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms.html", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms" ],
+    [ "Connectome", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome.html", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome" ],
+    [ "Editing", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_editing.html", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_editing" ],
+    [ "GT", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t.html", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t" ],
+    [ "Mapping", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping.html", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping" ],
+    [ "Seeding", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_seeding.html", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_seeding" ],
+    [ "SIFT", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t.html", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t" ],
+    [ "SIFT2", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2.html", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2" ],
+    [ "Tracking", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking" ],
+    [ "Downsampler", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_downsampler.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_downsampler" ],
+    [ "Mask", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mask.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mask" ],
+    [ "Properties", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_properties.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_properties" ],
+    [ "Reader", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_reader.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_reader" ],
+    [ "ReaderInterface", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_reader_interface.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_reader_interface" ],
+    [ "ROI", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_r_o_i.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_r_o_i" ],
+    [ "ROISet", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_r_o_i_set.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_r_o_i_set" ],
+    [ "ScalarReader", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_scalar_reader.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_scalar_reader" ],
+    [ "ScalarWriter", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_scalar_writer.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_scalar_writer" ],
+    [ "Streamline", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_streamline.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_streamline" ],
+    [ "Upsampler", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_upsampler.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_upsampler" ],
+    [ "Writer", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer" ],
+    [ "WriterInterface", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer_interface.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer_interface" ],
+    [ "WriterUnbuffered", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer_unbuffered.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer_unbuffered" ]
+];

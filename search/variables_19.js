@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['z',['z',['../classMR_1_1GUI_1_1MRView_1_1Volume.html#a6903cfb172982221410a99752c952066',1,'MR::GUI::MRView::Volume']]],
-  ['z_5fa',['z_a',['../structmgh__header.html#ae8b367ac9057440c92b41200e2566a39',1,'mgh_header']]],
-  ['z_5fr',['z_r',['../structmgh__header.html#a1ec07decdd2c281da70465451fa4af5c',1,'mgh_header']]],
-  ['z_5fs',['z_s',['../structmgh__header.html#a0c0d7c2fa74e4ebd8ef5a6d80bdaf6ba',1,'mgh_header']]],
-  ['z_5fvalues',['z_values',['../classMR_1_1Image_1_1Interp_1_1Sinc.html#a741f6099d75aa7e0e8ff1434309e34db',1,'MR::Image::Interp::Sinc']]]
+  ['y',['y',['../class_m_r_1_1_math_1_1_stats_1_1_g_l_m_t_test.html#a1ef12f3bf8e6c978bd5c0448faa73430',1,'MR::Math::Stats::GLMTTest::y()'],['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_external_energy_computer.html#a318447c38abda7559fb5c397e9d98932',1,'MR::DWI::Tractography::GT::ExternalEnergyComputer::y()']]],
+  ['y_5fu',['y_u',['../class_m_r_1_1_math_1_1_i_c_l_s_1_1_solver.html#ae8655c1df3c6fdf10ee3d853dd3f09f6',1,'MR::Math::ICLS::Solver']]],
+  ['y_5fvalues',['y_values',['../class_m_r_1_1_interp_1_1_sinc.html#a321e20014a574185547dfb2af6cea1e8',1,'MR::Interp::Sinc']]],
+  ['ydim',['ydim',['../class_m_r_1_1_image_i_o_1_1_mosaic.html#afd5c55ed45aefddb7ea749f3207ef297',1,'MR::ImageIO::Mosaic']]]
 ];
