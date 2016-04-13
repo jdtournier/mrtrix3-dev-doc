@@ -31,5 +31,5 @@ var searchData=
   ['voxel_5fto_5findices_5fmap',['voxel_to_indices_map',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_abstract_fixel.html#a6d5db02e968dd5299b90e0cd276b1728',1,'MR::GUI::MRView::Tool::AbstractFixel']]],
   ['voxels',['voxels',['../class_m_r_1_1_d_w_i_1_1_bootstrap.html#a30d9544b03f3375e32c0e1c862b9c469',1,'MR::DWI::Bootstrap']]],
   ['voxelsize',['voxelsize',['../class_m_r_1_1_transform.html#aa3c1ba57f3d0ff387e1a635fe4b31486',1,'MR::Transform']]],
-  ['vr',['vr',['../class_m_r_1_1_file_1_1_dicom_1_1_c_s_a_entry.html#a0817613b4dd1ef5f9deca03c93cf19e1',1,'MR::File::Dicom::CSAEntry::vr()'],['../class_m_r_1_1_file_1_1_dicom_1_1_element.html#a13740d6f2c5a67940448889058302c08',1,'MR::File::Dicom::Element::VR()']]]
+  ['vr',['VR',['../class_m_r_1_1_file_1_1_dicom_1_1_element.html#a13740d6f2c5a67940448889058302c08',1,'MR::File::Dicom::Element::VR()'],['../class_m_r_1_1_file_1_1_dicom_1_1_c_s_a_entry.html#a0817613b4dd1ef5f9deca03c93cf19e1',1,'MR::File::Dicom::CSAEntry::vr()']]]
 ];

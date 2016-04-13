@@ -35,7 +35,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.13-917-gf5300230</div>
+   <div id="projectbrief">Version 0.3.13-967-g9ba0b92d</div>
   </td>
  </tr>
  </tbody>
@@ -163,7 +163,9 @@ $(document).ready(function(){initNavTree('class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_m
   <tr><td class="entry"><a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_base.html#afc65db09e331220cdcaab014f8c4f220">set_plane</a>(int p)</td><td class="entry"><a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_base.html">MR::GUI::MRView::Mode::Base</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_base.html#a5a9311cf69f0b6200a0d3e5b66b4b1de">set_target</a>(const Eigen::Vector3f &amp;p)</td><td class="entry"><a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_base.html">MR::GUI::MRView::Mode::Base</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr><td class="entry"><a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_base.html#a6e1c7110dcb7a8d453b11e9adbc45057">set_visible</a>(bool v)</td><td class="entry"><a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_base.html">MR::GUI::MRView::Mode::Base</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_slice.html#af7b7d29c1f3aca2ada307d1d349dbbaf">setup_draw</a>(int axis, Projection &amp;with_projection)</td><td class="entry"><a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_slice.html">MR::GUI::MRView::Mode::Slice</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_base.html#a7eaa7966ee06dbe239932ae81a64c599">setup_projection</a>(const int, Projection &amp;) const </td><td class="entry"><a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_base.html">MR::GUI::MRView::Mode::Base</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_base.html#a8c6f7d245da0cae668469a3434e1bb15">setup_projection</a>(const Math::Versorf &amp;, Projection &amp;) const </td><td class="entry"><a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_base.html">MR::GUI::MRView::Mode::Base</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_base.html#aaad4e89f7b88d75d5aa89c78d06532cd">setup_projection</a>(const GL::mat4 &amp;, Projection &amp;) const </td><td class="entry"><a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_base.html">MR::GUI::MRView::Mode::Base</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_slice.html#ab17dddc93f9506fb681e8dbb1ca42564">Slice</a>()</td><td class="entry"><a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_slice.html">MR::GUI::MRView::Mode::Slice</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_base.html#a5080cafe5ebfc498e6651aad9475ede4">slice</a>(int axis) const </td><td class="entry"><a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_base.html">MR::GUI::MRView::Mode::Base</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr><td class="entry"><a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_base.html#ad8e542a122fd104f99c5e013a772d148">slice</a>() const </td><td class="entry"><a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_base.html">MR::GUI::MRView::Mode::Base</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
@@ -185,7 +187,7 @@ $(document).ready(function(){initNavTree('class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_m
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Apr 6 2016 15:13:47 for MRtrix by
+    <li class="footer">Generated on Wed Apr 13 2016 10:03:39 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

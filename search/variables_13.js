@@ -79,6 +79,8 @@ var searchData=
   ['slice_5ffixel_5fcounts',['slice_fixel_counts',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_abstract_fixel.html#ac9eea0c92348a992bcad245058f4bb01',1,'MR::GUI::MRView::Tool::AbstractFixel']]],
   ['slice_5ffixel_5findices',['slice_fixel_indices',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_abstract_fixel.html#adfdee440b9745b760f6f320ebb6d17e7',1,'MR::GUI::MRView::Tool::AbstractFixel']]],
   ['slice_5ffixel_5fsizes',['slice_fixel_sizes',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_abstract_fixel.html#a471730166611ab3f89d8fc6d239d463f',1,'MR::GUI::MRView::Tool::AbstractFixel']]],
+  ['slice_5fmax',['slice_max',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_image.html#a9e70e15b3862860cdb029782c76d912d',1,'MR::GUI::MRView::Image']]],
+  ['slice_5fmin',['slice_min',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_image.html#aaca3e509f0f4859e68e33d0450858a10',1,'MR::GUI::MRView::Image']]],
   ['slice_5fshader',['slice_shader',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_slice.html#a2c5fd651956eb95698b51f73e8012396',1,'MR::GUI::MRView::Mode::Slice::slice_shader()'],['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_node_overlay.html#a0911ae8227d7171d78809416e12746b9',1,'MR::GUI::MRView::Tool::NodeOverlay::slice_shader()']]],
   ['slice_5fspacing',['slice_spacing',['../class_m_r_1_1_file_1_1_dicom_1_1_frame.html#a76c2597eee7997dba63b822eb45a27d2',1,'MR::File::Dicom::Frame']]],
   ['slice_5fthickness',['slice_thickness',['../class_m_r_1_1_file_1_1_dicom_1_1_frame.html#ac819b21502fff4d6d922cd42401d7320',1,'MR::File::Dicom::Frame']]],

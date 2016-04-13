@@ -10,7 +10,6 @@ var class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f =
     [ "get_values", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#ab63f85342c53fa4d7f5356c66e08d6ee", null ],
     [ "process_commandline_option", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#a75c29c1e28c0e069d2c3ed368659b368", null ],
     [ "setup_ODFtype_UI", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#a493ffaac196c1307f6d79ca23fb2059c", null ],
-    [ "showEvent", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#a6a519a0e1cf5e25408e040ee153ec2ee", null ],
     [ "ODF_Preview", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#a8ec23f5296f87058e4912c1a78ec99c1", null ],
     [ "colour_button", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#aca62ec8d875db4734ee3ef8139945ec6", null ],
     [ "colour_by_direction_box", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#a493adc5deb7025dac3ed17ded235f9af", null ],
