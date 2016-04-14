@@ -16,7 +16,7 @@ var searchData=
   ['changes_5ftod',['changes_tod',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_external_energy_computer.html#af196f4863e4d7e828bb01d313f3fd290',1,'MR::DWI::Tractography::GT::ExternalEnergyComputer']]],
   ['changes_5fvox',['changes_vox',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_external_energy_computer.html#a6da7103f37ce829f26c8c93c300b37ba',1,'MR::DWI::Tractography::GT::ExternalEnergyComputer']]],
   ['check_5foverwrite_5ffiles_5ffunc',['check_overwrite_files_func',['../namespace_m_r_1_1_app.html#aa87eb63cffd5e40c2e76aa4da4f56772',1,'MR::App']]],
-  ['choices',['choices',['../group___cmd_parse.html#ga6c2318554e27a96b51dac5b11de16017',1,'MR::App::Argument::choices()'],['../group___cmd_parse.html#ga7f91d29c877182565b6a8496cdd25b25',1,'MR::App::Argument::@0::choices()']]],
+  ['choices',['choices',['../group___cmd_parse.html#gafae4a71edbb7017d7a07092a9a132cff',1,'MR::App::Argument::choices()'],['../group___cmd_parse.html#ga42c213332382171ea600c3260c6f79d5',1,'MR::App::Argument::@0::choices()']]],
   ['chol_5fhth',['chol_HtH',['../class_m_r_1_1_math_1_1_i_c_l_s_1_1_problem.html#a9e6f08ff6d58ec079922046a94adb70d',1,'MR::Math::ICLS::Problem']]],
   ['class_5fname',['class_name',['../class_m_r_1_1_image_i_o_1_1_sparse.html#a3212285e6e7ddc545a06d5f5727e5308',1,'MR::ImageIO::Sparse']]],
   ['class_5fsize',['class_size',['../class_m_r_1_1_image_i_o_1_1_sparse.html#a055bf41f7637e64567498e720fa07a29',1,'MR::ImageIO::Sparse']]],

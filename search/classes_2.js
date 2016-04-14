@@ -1,11 +1,11 @@
 var searchData=
 [
   ['base',['Base',['../class_m_r_1_1_interp_1_1_base.html',1,'MR::Interp']]],
-  ['base',['Base',['../class_m_r_1_1_filter_1_1_base.html',1,'MR::Filter']]],
+  ['base',['Base',['../class_m_r_1_1_adapter_1_1_base.html',1,'MR::Adapter']]],
   ['base',['Base',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_seeding_1_1_base.html',1,'MR::DWI::Tractography::Seeding']]],
   ['base',['Base',['../class_m_r_1_1_image_i_o_1_1_base.html',1,'MR::ImageIO']]],
   ['base',['Base',['../class_m_r_1_1_formats_1_1_base.html',1,'MR::Formats']]],
-  ['base',['Base',['../class_m_r_1_1_adapter_1_1_base.html',1,'MR::Adapter']]],
+  ['base',['Base',['../class_m_r_1_1_filter_1_1_base.html',1,'MR::Filter']]],
   ['base',['Base',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_base.html',1,'MR::GUI::MRView::Mode']]],
   ['base',['Base',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base.html',1,'MR::GUI::MRView::Tool']]],
   ['base_3c_20mr_3a_3aimage_3c_20float_20_3e_20_3e',['Base&lt; MR::Image&lt; float &gt; &gt;',['../class_m_r_1_1_interp_1_1_base.html',1,'MR::Interp']]],

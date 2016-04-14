@@ -67,7 +67,7 @@ var searchData=
   ['checkcontext',['CheckContext',['../struct_m_r_1_1_g_u_i_1_1_g_l_1_1_check_context.html',1,'MR::GUI::GL']]],
   ['child',['child',['../class_m_r_1_1_g_u_i_1_1_dialog_1_1_tree_item.html#aaec270e791d381818205dee105e0e81f',1,'MR::GUI::Dialog::TreeItem']]],
   ['childcount',['childCount',['../class_m_r_1_1_g_u_i_1_1_dialog_1_1_tree_item.html#a271b3c7d0ad9463f6e365ea894a4d09e',1,'MR::GUI::Dialog::TreeItem']]],
-  ['choices',['choices',['../group___cmd_parse.html#ga6c2318554e27a96b51dac5b11de16017',1,'MR::App::Argument::choices()'],['../group___cmd_parse.html#ga7f91d29c877182565b6a8496cdd25b25',1,'MR::App::Argument::@0::choices()']]],
+  ['choices',['choices',['../group___cmd_parse.html#gafae4a71edbb7017d7a07092a9a132cff',1,'MR::App::Argument::choices()'],['../group___cmd_parse.html#ga42c213332382171ea600c3260c6f79d5',1,'MR::App::Argument::@0::choices()']]],
   ['chol_5fhth',['chol_HtH',['../class_m_r_1_1_math_1_1_i_c_l_s_1_1_problem.html#a9e6f08ff6d58ec079922046a94adb70d',1,'MR::Math::ICLS::Problem']]],
   ['choosecolor',['chooseColor',['../class_q_color_button.html#abba1486efd226cbb646a6a7ecfe874a3',1,'QColorButton']]],
   ['clamp',['clamp',['../class_m_r_1_1_interp_1_1_spline_interp_base.html#a35de43a187a07dc967a7324af931be4b',1,'MR::Interp::SplineInterpBase::clamp()'],['../class_m_r_1_1_interp_1_1_linear_interp_base.html#a96435683cf6c520a0c4e9e73696fe0b2',1,'MR::Interp::LinearInterpBase::clamp()']]],

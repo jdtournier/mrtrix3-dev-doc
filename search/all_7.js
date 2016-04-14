@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['g',['g',['../class_m_r_1_1_math_1_1_gradient_descent.html#a053c444313998545909f867d36124dc5',1,'MR::Math::GradientDescent::g()'],['../class_m_r_1_1_file_1_1_dicom_1_1_frame.html#abe3223d0c703c5a5cc9d2d3f53c0ac0b',1,'MR::File::Dicom::Frame::G()']]],
+  ['g',['G',['../class_m_r_1_1_file_1_1_dicom_1_1_frame.html#abe3223d0c703c5a5cc9d2d3f53c0ac0b',1,'MR::File::Dicom::Frame::G()'],['../class_m_r_1_1_math_1_1_gradient_descent.html#a053c444313998545909f867d36124dc5',1,'MR::Math::GradientDescent::g()']]],
   ['g2',['g2',['../class_m_r_1_1_math_1_1_gradient_descent.html#a3f601b2d15f4526ff65786e985ae65c9',1,'MR::Math::GradientDescent']]],
   ['gaussian',['GAUSSIAN',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping.html#a3fa21a08c7f0bffb34976f520d129275a3f9c9b0a178c50e87b577183ce301a93',1,'MR::DWI::Tractography::Mapping']]],
   ['gaussian_2eh',['gaussian.h',['../gaussian_8h.html',1,'']]],

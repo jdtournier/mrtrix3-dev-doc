@@ -1,5 +1,9 @@
 var NAVTREEINDEX21 =
 {
+"dir_564826aa7546df94b8bbeafd2f7dff19.html":[12,0,1,1,0],
+"dir_5c6e491a6f0b5a7dc66dd7ffa9f23a0b.html":[12,0,1,1,2,4],
+"dir_5c745fd05c845d9b8d647dd1dc577b4b.html":[12,0,1,2,3],
+"dir_68267d1309a1af8e8297ef4c3efbcdba.html":[12,0,1],
 "dir_6da8e6f1bfdb5540a85bd819d2a13962.html":[12,0,1,1],
 "dir_6f8fcd489e430c1a1b22716f7655ad56.html":[12,0,1,1,2],
 "dir_73982082da2168e7c7c1de9421e17e98.html":[12,0,1,1,2,0],
@@ -69,8 +73,11 @@ var NAVTREEINDEX21 =
 "dwi_2tractography_2roi_8h.html#a6353ef8f36f2760e7f71ccef4dab7c41":[12,0,1,1,2,15,4],
 "dwi_2tractography_2roi_8h_source.html":[12,0,1,1,2,15],
 "dwi_2tractography_2tracking_2tractography_8h.html":[12,0,1,1,2,9,4],
-"dwi_2tractography_2tracking_2tractography_8h.html#a4b3589e519b9650b0e2146c78699bb07":[12,0,1,1,2,9,4,0],
-"dwi_2tractography_2tracking_2tractography_8h.html#a81f5feaac85eccf848e0a63c7b43edd6":[12,0,1,1,2,9,4,1],
+"dwi_2tractography_2tracking_2tractography_8h.html#a04b53d51a76b0144deb19eb5cc2c73c3":[12,0,1,1,2,9,4,2],
+"dwi_2tractography_2tracking_2tractography_8h.html#a4b3589e519b9650b0e2146c78699bb07":[12,0,1,1,2,9,4,3],
+"dwi_2tractography_2tracking_2tractography_8h.html#a81f5feaac85eccf848e0a63c7b43edd6":[12,0,1,1,2,9,4,4],
+"dwi_2tractography_2tracking_2tractography_8h.html#ab630b1e80dc3e34e1f07164d2ffe8c32":[12,0,1,1,2,9,4,1],
+"dwi_2tractography_2tracking_2tractography_8h.html#ad389a56637fa4d61880032ec4c0a207c":[12,0,1,1,2,9,4,0],
 "dwi_2tractography_2tracking_2tractography_8h_source.html":[12,0,1,1,2,9,4],
 "dwi__brain__mask_8h.html":[12,0,0,3,3],
 "dwi__brain__mask_8h_source.html":[12,0,0,3,3],
@@ -242,12 +249,5 @@ var NAVTREEINDEX21 =
 "functions_q.html":[11,3,0,17],
 "functions_r.html":[11,3,0,18],
 "functions_rela.html":[11,3,7],
-"functions_s.html":[11,3,0,19],
-"functions_t.html":[11,3,0,20],
-"functions_type.html":[11,3,3],
-"functions_u.html":[11,3,0,21],
-"functions_v.html":[11,3,0,22],
-"functions_vars.html":[11,3,2],
-"functions_vars.html":[11,3,2,0],
-"functions_vars_a.html":[11,3,2,1]
+"functions_s.html":[11,3,0,19]
 };
