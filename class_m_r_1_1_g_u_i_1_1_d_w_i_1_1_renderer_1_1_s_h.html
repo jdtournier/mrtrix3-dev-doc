@@ -35,7 +35,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.13-969-g2f596b61</div>
+   <div id="projectbrief">Version 0.3.13-973-gb00dfcf9</div>
   </td>
  </tr>
  </tbody>
@@ -136,12 +136,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a60edaad974e5b7028d533aa663fbb783"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05d6bcb1bddb259b9f8c7e21537b85f0"><td class="memItemLeft" align="right" valign="top">GLuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_s_h.html#a05d6bcb1bddb259b9f8c7e21537b85f0">num_indices</a> () const override</td></tr>
 <tr class="separator:a05d6bcb1bddb259b9f8c7e21537b85f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04256666951c6c94d01cb018c9391099"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_s_h.html#a04256666951c6c94d01cb018c9391099">update_mesh</a> (const size_t LOD, const int lmax)</td></tr>
-<tr class="separator:a04256666951c6c94d01cb018c9391099"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75d79dec9923021e7c0dc5cf245fb963"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_s_h.html#a75d79dec9923021e7c0dc5cf245fb963">update_mesh</a> (const size_t, const int)</td></tr>
+<tr class="separator:a75d79dec9923021e7c0dc5cf245fb963"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc03edfe90e7a6b20c829454ff5ea0a7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_s_h.html#adc03edfe90e7a6b20c829454ff5ea0a7">compute_r_del_daz</a> (matrix_t &amp;r_del_daz, const matrix_t &amp;<a class="el" href="class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_s_h.html">SH</a>) const </td></tr>
 <tr class="separator:adc03edfe90e7a6b20c829454ff5ea0a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8c6290770e24850fb36dac5ff54c978"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_s_h.html#ad8c6290770e24850fb36dac5ff54c978">compute_r_del_daz</a> (vector_t &amp;r_del_daz, const vector_t &amp;<a class="el" href="class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_s_h.html">SH</a>) const </td></tr>
 <tr class="separator:ad8c6290770e24850fb36dac5ff54c978"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ab61f2080cbed247920b99b5d14780b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_s_h.html#a2ab61f2080cbed247920b99b5d14780b">get_LOD</a> () const </td></tr>
+<tr class="separator:a2ab61f2080cbed247920b99b5d14780b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
@@ -284,6 +286,31 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a2ab61f2080cbed247920b99b5d14780b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::GUI::DWI::Renderer::SH::get_LOD </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="renderer_8h_source.html#l00162">162</a> of file <a class="el" href="renderer_8h_source.html">renderer.h</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a11c4e502916c109c481a4da319d15e38"></a>
 <div class="memitem">
 <div class="memproto">
@@ -366,7 +393,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a04256666951c6c94d01cb018c9391099"></a>
+<a class="anchor" id="a75d79dec9923021e7c0dc5cf245fb963"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -374,13 +401,13 @@ Public Member Functions</h2></td></tr>
           <td class="memname">void MR::GUI::DWI::Renderer::SH::update_mesh </td>
           <td>(</td>
           <td class="paramtype">const size_t&#160;</td>
-          <td class="paramname"><em>LOD</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const int&#160;</td>
-          <td class="paramname"><em>lmax</em>&#160;</td>
+          <td class="paramname">&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -401,7 +428,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_g_u_i.html">GUI</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_g_u_i_1_1_d_w_i.html">DWI</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer.html">Renderer</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_s_h.html">SH</a></li>
-    <li class="footer">Generated on Wed Apr 13 2016 12:20:01 for MRtrix by
+    <li class="footer">Generated on Thu Apr 14 2016 06:41:40 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

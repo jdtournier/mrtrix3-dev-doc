@@ -1,6 +1,7 @@
 var searchData=
 [
   ['object_5fcolor',['object_color',['../class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer.html#a45b601dfdb2b3f6934bf1dc8d548c7d1',1,'MR::GUI::DWI::Renderer']]],
+  ['odf_5ftype',['odf_type',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f___item.html#ac339ccc2b2691073c334e27f279ccba3',1,'MR::GUI::MRView::Tool::ODF_Item']]],
   ['offset_5f',['offset_',['../class_m_r_1_1_header.html#a1cb131a5932e3feac1770347b9b802cb',1,'MR::Header']]],
   ['offsets',['offsets',['../class_m_r_1_1_sparse_1_1_value.html#a9e9a2b2703cebd4496c5b4b045fec2e3',1,'MR::Sparse::Value']]],
   ['ok',['ok',['../struct_m_r_1_1_loop_along_axis_range_1_1_run.html#ad648426f2b3d4d37f1464773e91d2261',1,'MR::LoopAlongAxisRange::Run::ok()'],['../struct_m_r_1_1_loop_along_static_axes_1_1_run.html#a1d2e60d6a0fd69684e8b9634211f644a',1,'MR::LoopAlongStaticAxes::Run::ok()'],['../struct_m_r_1_1_loop_along_dynamic_axes_1_1_run.html#a579690811d65a959cfbc8fe38b807675',1,'MR::LoopAlongDynamicAxes::Run::ok()']]],
@@ -9,7 +10,7 @@ var searchData=
   ['opaque_5fintensity',['opaque_intensity',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_displayable.html#acba4193a50251d6436309b711073957d',1,'MR::GUI::MRView::Displayable']]],
   ['opt',['opt',['../group___cmd_parse.html#gabad6a8342c9037c226bb82ec03f21dbf',1,'MR::App::ParsedOption']]],
   ['option',['option',['../group___cmd_parse.html#ga6a0ea4e6be0eb2c0f07085b1dd3ee7ae',1,'MR::App']]],
-  ['options',['Options',['../namespace_m_r_1_1_stats.html#afc73ab20cfc9d67794df025ec9d8f2af',1,'MR::Stats::Options()'],['../namespace_m_r_1_1_stride.html#ad97ecc7633858fe47d6723c0aa3e562e',1,'MR::Stride::Options()'],['../group___cmd_parse.html#ga35c7c52f630a8bbc6ea7147c8860ec01',1,'MR::App::OPTIONS()']]],
+  ['options',['OPTIONS',['../group___cmd_parse.html#ga35c7c52f630a8bbc6ea7147c8860ec01',1,'MR::App::OPTIONS()'],['../namespace_m_r_1_1_stats.html#afc73ab20cfc9d67794df025ec9d8f2af',1,'MR::Stats::Options()'],['../namespace_m_r_1_1_stride.html#ad97ecc7633858fe47d6723c0aa3e562e',1,'MR::Stride::Options()']]],
   ['orientation',['orientation',['../class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_render_frame.html#a260d5a63c93e220a093f0b2525b71917',1,'MR::GUI::DWI::RenderFrame']]],
   ['orientation_5fx',['orientation_x',['../class_m_r_1_1_file_1_1_dicom_1_1_frame.html#a98bb033d2b94ba8457a0507b9945e14a',1,'MR::File::Dicom::Frame']]],
   ['orientation_5fy',['orientation_y',['../class_m_r_1_1_file_1_1_dicom_1_1_frame.html#a09dd8e4eca44637e15f26b673d251807',1,'MR::File::Dicom::Frame']]],

@@ -16,14 +16,15 @@ var searchData=
   ['track_5findex_5frange_2eh',['track_index_range.h',['../track__index__range_8h.html',1,'']]],
   ['track_5fscalar_5ffile_2eh',['track_scalar_file.h',['../track__scalar__file_8h.html',1,'']]],
   ['tractogram_2eh',['tractogram.h',['../tractogram_8h.html',1,'']]],
-  ['tractography_2eh',['tractography.h',['../gui_2mrview_2tool_2tractography_2tractography_8h.html',1,'']]],
   ['tractography_2eh',['tractography.h',['../dwi_2tractography_2tracking_2tractography_8h.html',1,'']]],
+  ['tractography_2eh',['tractography.h',['../gui_2mrview_2tool_2tractography_2tractography_8h.html',1,'']]],
   ['transform_2eh',['transform.h',['../transform_8h.html',1,'']]],
   ['transformation_2eh',['transformation.h',['../transformation_8h.html',1,'']]],
   ['tree_2eh',['tree.h',['../tree_8h.html',1,'']]],
   ['twi_5fstats_2eh',['twi_stats.h',['../twi__stats_8h.html',1,'']]],
-  ['types_2eh',['types.h',['../src_2gui_2mrview_2tool_2connectome_2types_8h.html',1,'']]],
+  ['type_2eh',['type.h',['../type_8h.html',1,'']]],
   ['types_2eh',['types.h',['../src_2dwi_2tractography_2_s_i_f_t_2types_8h.html',1,'']]],
+  ['types_2eh',['types.h',['../src_2gui_2mrview_2tool_2connectome_2types_8h.html',1,'']]],
   ['types_2eh',['types.h',['../lib_2types_8h.html',1,'']]],
   ['types_2eh',['types.h',['../src_2dwi_2tractography_2tracking_2types_8h.html',1,'']]]
 ];

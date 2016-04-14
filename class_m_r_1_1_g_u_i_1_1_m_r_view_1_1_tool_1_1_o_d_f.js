@@ -3,11 +3,11 @@ var class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f =
     [ "ODF", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#a2a464a57ec2912ca810ee38b0cf8e390", null ],
     [ "~ODF", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#ad0a00036e5e417d52c7b57b878ac5a11", null ],
     [ "add_commandline_options", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#a47643b5cfdff8d9959066829bb43ab10", null ],
-    [ "add_images", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#a859b928b6e908c6ef9726e7ed39306f0", null ],
+    [ "add_images", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#ab306b88d94767e262c9b2b9ae48bfd69", null ],
     [ "closeEvent", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#a8444a20c7e1e6acc24182ccd03c21376", null ],
     [ "draw", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#a7708084bde71fefc743bc33daaa488ab", null ],
     [ "get_image", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#afa4e68c17e5e3df6fb84ea3d7354a23b", null ],
-    [ "get_values", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#ab63f85342c53fa4d7f5356c66e08d6ee", null ],
+    [ "get_values", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#a49fa874b2091ed79100f7fc876e6a9dc", null ],
     [ "process_commandline_option", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#a75c29c1e28c0e069d2c3ed368659b368", null ],
     [ "setup_ODFtype_UI", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#a493ffaac196c1307f6d79ca23fb2059c", null ],
     [ "ODF_Preview", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#a8ec23f5296f87058e4912c1a78ec99c1", null ],
@@ -20,7 +20,6 @@ var class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f =
     [ "image_list_model", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#a7efa01ca956f4395f0d30bfa439d1f42", null ],
     [ "image_list_view", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#ab39f3aa5118450f1616dbcd88dc9b506", null ],
     [ "interpolation_box", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#ab2bdf7d0a71c589e3e197105afab8691", null ],
-    [ "level_of_detail", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#aedee8040d01307e853d90cf591c38d2a", null ],
     [ "level_of_detail_label", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#a7b001308720bab7c655324bc89af1bf4", null ],
     [ "level_of_detail_selector", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#aedb9007aea4e3e05b96706ef003f6910", null ],
     [ "lighting", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#a327dc2208a61ccf384e623a3ddc3a51d", null ],
@@ -36,6 +35,5 @@ var class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f =
     [ "shell_label", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#a869f16827499e7a8a93493c63b5bee0d", null ],
     [ "shell_selector", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#ae66bd6163eb2296d1b07f72a8ca9c55a", null ],
     [ "show_preview_button", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#ac7f55ec3f92473b6a861c1c2d98ad0c7", null ],
-    [ "type_selector", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#a56d2b7aea0d95300fc6dd742b748851e", null ],
     [ "use_lighting_box", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#aff18ba4dfb7846c276e81b273191d380", null ]
 ];

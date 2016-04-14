@@ -21,7 +21,6 @@ var searchData=
   ['length_5ftype',['length_type',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_abstract_fixel_1_1_shader.html#aee91efdff9e2cb8bd7a1ff2ab3f8e731',1,'MR::GUI::MRView::Tool::AbstractFixel::Shader']]],
   ['lengthoption',['LengthOption',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_editing.html#a9a7e3825d961d8d2da159302fdbf5ab7',1,'MR::DWI::Tractography::Editing']]],
   ['lessthan',['lessthan',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_displayable.html#ace1a1152b27d23ed412be8e752daf4a5',1,'MR::GUI::MRView::Displayable']]],
-  ['level_5fof_5fdetail',['level_of_detail',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#aedee8040d01307e853d90cf591c38d2a',1,'MR::GUI::MRView::Tool::ODF']]],
   ['level_5fof_5fdetail_5flabel',['level_of_detail_label',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#a7b001308720bab7c655324bc89af1bf4',1,'MR::GUI::MRView::Tool::ODF']]],
   ['level_5fof_5fdetail_5fselector',['level_of_detail_selector',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#aedb9007aea4e3e05b96706ef003f6910',1,'MR::GUI::MRView::Tool::ODF::level_of_detail_selector()'],['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f___preview.html#a0b7f41bca1f44f2d738070aa26bdd8da',1,'MR::GUI::MRView::Tool::ODF_Preview::level_of_detail_selector()']]],
   ['leverage',['leverage',['../noise__estimator_8h.html#a6b3b7d04cf02c507f4135edf855423db',1,'noise_estimator.h']]],
