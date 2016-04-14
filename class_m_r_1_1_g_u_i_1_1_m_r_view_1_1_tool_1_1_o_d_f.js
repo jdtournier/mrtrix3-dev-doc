@@ -7,7 +7,7 @@ var class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f =
     [ "closeEvent", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#a8444a20c7e1e6acc24182ccd03c21376", null ],
     [ "draw", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#a7708084bde71fefc743bc33daaa488ab", null ],
     [ "get_image", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#afa4e68c17e5e3df6fb84ea3d7354a23b", null ],
-    [ "get_values", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#a49fa874b2091ed79100f7fc876e6a9dc", null ],
+    [ "get_values", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#ac896c10d2f8087d530c385941e4820b4", null ],
     [ "process_commandline_option", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#a75c29c1e28c0e069d2c3ed368659b368", null ],
     [ "setup_ODFtype_UI", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#a493ffaac196c1307f6d79ca23fb2059c", null ],
     [ "ODF_Preview", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#a8ec23f5296f87058e4912c1a78ec99c1", null ],

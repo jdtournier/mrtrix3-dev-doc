@@ -51,7 +51,7 @@ var searchData=
   ['path_2eh',['path.h',['../path_8h.html',1,'']]],
   ['path_5fseparator',['PATH_SEPARATOR',['../path_8h.html#a256a5721249aa3309437212cc21a9fe4',1,'path.h']]],
   ['patient',['Patient',['../class_m_r_1_1_file_1_1_dicom_1_1_patient.html',1,'MR::File::Dicom']]],
-  ['patient',['patient',['../class_m_r_1_1_file_1_1_dicom_1_1_quick_scan.html#a2abd8f07249255b70be3f6ba30a3fb66',1,'MR::File::Dicom::QuickScan::patient()'],['../class_m_r_1_1_file_1_1_dicom_1_1_study.html#ad861fc85b08c0ddd1e5c60ee6b6d6282',1,'MR::File::Dicom::Study::patient()'],['../class_m_r_1_1_file_1_1_dicom_1_1_patient.html#a927cb8b6577ab70cb6f0fedc25ec82a6',1,'MR::File::Dicom::Patient::Patient()']]],
+  ['patient',['Patient',['../class_m_r_1_1_file_1_1_dicom_1_1_patient.html#a927cb8b6577ab70cb6f0fedc25ec82a6',1,'MR::File::Dicom::Patient::Patient()'],['../class_m_r_1_1_file_1_1_dicom_1_1_quick_scan.html#a2abd8f07249255b70be3f6ba30a3fb66',1,'MR::File::Dicom::QuickScan::patient()'],['../class_m_r_1_1_file_1_1_dicom_1_1_study.html#ad861fc85b08c0ddd1e5c60ee6b6d6282',1,'MR::File::Dicom::Study::patient()']]],
   ['patient_2eh',['patient.h',['../patient_8h.html',1,'']]],
   ['patient_5fdob',['patient_DOB',['../class_m_r_1_1_file_1_1_dicom_1_1_quick_scan.html#a13a216f991cead0a38cb05b1f3ccf6af',1,'MR::File::Dicom::QuickScan']]],
   ['patient_5fid',['patient_ID',['../class_m_r_1_1_file_1_1_dicom_1_1_quick_scan.html#a8a7c7b0606f6ac0291b18f437cb1a1d9',1,'MR::File::Dicom::QuickScan']]],
