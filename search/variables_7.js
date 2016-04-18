@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['g',['G',['../class_m_r_1_1_file_1_1_dicom_1_1_frame.html#abe3223d0c703c5a5cc9d2d3f53c0ac0b',1,'MR::File::Dicom::Frame::G()'],['../class_m_r_1_1_math_1_1_gradient_descent.html#a053c444313998545909f867d36124dc5',1,'MR::Math::GradientDescent::g()']]],
+  ['g',['g',['../class_m_r_1_1_math_1_1_gradient_descent.html#a053c444313998545909f867d36124dc5',1,'MR::Math::GradientDescent::g()'],['../class_m_r_1_1_file_1_1_dicom_1_1_frame.html#abe3223d0c703c5a5cc9d2d3f53c0ac0b',1,'MR::File::Dicom::Frame::G()']]],
   ['g2',['g2',['../class_m_r_1_1_math_1_1_gradient_descent.html#a3f601b2d15f4526ff65786e985ae65c9',1,'MR::Math::GradientDescent']]],
   ['gaussian_5fdenominator',['gaussian_denominator',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_track_mapper.html#a35483e34995eccba077b1d90b4ac59aa',1,'MR::DWI::Tractography::Mapping::Gaussian::TrackMapper']]],
   ['geometry_5fshader_5fsource',['geometry_shader_source',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_shader_base.html#acee5f9226713b0d385cacd924cdd1db6',1,'MR::GUI::MRView::Tool::ShaderBase']]],
