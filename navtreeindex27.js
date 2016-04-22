@@ -248,6 +248,6 @@ var NAVTREEINDEX27 =
 "streamline__stats_8h.html":[12,0,1,1,2,8,6],
 "streamline__stats_8h_source.html":[12,0,1,1,2,8,6],
 "stride_8h.html":[12,0,0,27],
-"stride_8h.html#a132b7628c8eee7e3cc055ed1bf8a6c05":[12,0,0,27,12],
-"stride_8h.html#a189a1ca1d71cebe9267acf0e0b6b2215":[12,0,0,27,14]
+"stride_8h.html#a132b7628c8eee7e3cc055ed1bf8a6c05":[12,0,0,27,13],
+"stride_8h.html#a189a1ca1d71cebe9267acf0e0b6b2215":[12,0,0,27,15]
 };

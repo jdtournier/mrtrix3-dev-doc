@@ -1,6 +1,7 @@
 var stride_8h =
 [
     [ "List", "stride_8h.html#aa51a5a42ff087635f41d357f96c05198", null ],
+    [ "__from_command_line", "stride_8h.html#a4c0e7d9378a298266a1cb521f42f1410", null ],
     [ "actualise", "stride_8h.html#a27e16882f841e2900178b7be0614cf5f", null ],
     [ "actualise", "stride_8h.html#aff28c33c2520bee22309e3d5bb433742", null ],
     [ "contiguous_along_axis", "stride_8h.html#a633f4bb933b4ba31a9c92e16f3d76666", null ],

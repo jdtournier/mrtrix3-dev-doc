@@ -1,6 +1,7 @@
 var searchData=
 [
   ['_5f_5fbackend',['__Backend',['../class_m_r_1_1_thread_1_1_____backend.html#a40852fdb2de98c2cba8bb85e90bda19e',1,'MR::Thread::__Backend']]],
+  ['_5f_5ffrom_5fcommand_5fline',['__from_command_line',['../namespace_m_r_1_1_stride.html#a4c0e7d9378a298266a1cb521f42f1410',1,'MR::Stride']]],
   ['_5f_5fset_5ffetch_5fstore_5ffunctions',['__set_fetch_store_functions',['../namespace_m_r.html#a00f164966747652cad1edde6849ef9af',1,'MR::__set_fetch_store_functions(std::function&lt; ValueType(const void *, size_t, default_type, default_type)&gt; &amp;fetch_func, std::function&lt; void(ValueType, void *, size_t, default_type, default_type)&gt; &amp;store_func, DataType datatype)'],['../namespace_m_r.html#a6808b73176fb9320cb23dfe948958620',1,'MR::__set_fetch_store_functions(std::function&lt; ValueType(const void *, size_t, default_type, default_type)&gt; &amp;fetch_func, std::function&lt; void(ValueType, void *, size_t, default_type, default_type)&gt; &amp;store_func, DataType datatype)']]],
   ['_5f_5fset_5ffetch_5fstore_5ffunctions_3c_20bool_20_3e',['__set_fetch_store_functions&lt; bool &gt;',['../namespace_m_r.html#a362bed6e0145cb428cd98934f82ba6a2',1,'MR']]],
   ['_5f_5fset_5ffetch_5fstore_5ffunctions_3c_20cdouble_20_3e',['__set_fetch_store_functions&lt; cdouble &gt;',['../namespace_m_r.html#af0df2da37e7a16eee1d9ff626185333c',1,'MR']]],
