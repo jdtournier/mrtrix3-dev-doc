@@ -1,5 +1,6 @@
 var NAVTREEINDEX3 =
 {
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1.html#a8bd7acfc44536c5310d84404dce28853":[11,0,0,3,2,1,1,2],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1.html#abc33d86494d080ff27914b7421e74687":[11,0,0,3,2,1,1,5],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1.html#abcc03ba1f373384580ea1a85992dd621":[11,0,0,3,2,1,1,16],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1.html#abea43627fe9ef3c3f8fab01a7ac39bd6":[11,0,0,3,2,1,1,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX3 =
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_external_energy_computer.html#a318447c38abda7559fb5c397e9d98932":[11,0,0,3,2,4,2,38],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_external_energy_computer.html#a4a49640195e64f7ca22fee4b63e6b4ff":[11,0,0,3,2,4,2,34],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_external_energy_computer.html#a4c1294b3b22eb3545ce36f3e14b7a847":[11,0,0,3,2,4,2,0],
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_external_energy_computer.html#a618133f4f05163562ad0dcc407d4e76c":[11,0,0,3,2,4,2,24],
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_external_energy_computer.html#a6664b5562b4878ae81fd8797bf1e26a2":[11,0,0,3,2,4,2,37]
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_external_energy_computer.html#a618133f4f05163562ad0dcc407d4e76c":[11,0,0,3,2,4,2,24]
 };

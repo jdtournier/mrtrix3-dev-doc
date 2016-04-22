@@ -1,5 +1,6 @@
 var NAVTREEINDEX18 =
 {
+"class_m_r_1_1_interp_1_1_linear_interp_base.html#a8cee4350c7062d99eddc51d28d2c29e8":[9,11,10,3],
 "class_m_r_1_1_interp_1_1_linear_interp_base.html#a96435683cf6c520a0c4e9e73696fe0b2":[9,11,10,2],
 "class_m_r_1_1_interp_1_1_linear_interp_base.html#aa5dbf960d9b7e85cfe4f0d75e81cc851":[9,11,10,4],
 "class_m_r_1_1_interp_1_1_linear_interp_base.html#ac5bf13d1d18cac2b058a735971550142":[9,11,10,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX18 =
 "class_m_r_1_1_math_1_1_stats_1_1_g_l_m_t_test.html#aed6d6a450fccf244cc94672adf0b4932":[9,15,0,0],
 "class_m_r_1_1_math_1_1_stats_1_1_g_l_m_t_test.html#af169a7acc77ab62773a9dad063933ba9":[9,15,0,3],
 "class_m_r_1_1_math_1_1_uniform_b_spline.html":[11,0,0,11,10],
-"class_m_r_1_1_math_1_1_uniform_b_spline.html#a5869829384afb2ee66aae489256161a8":[11,0,0,11,10,1],
-"class_m_r_1_1_math_1_1_uniform_b_spline.html#ab73e7c0137f8a48a3fcc6a6353183e37":[11,0,0,11,10,0]
+"class_m_r_1_1_math_1_1_uniform_b_spline.html#a5869829384afb2ee66aae489256161a8":[11,0,0,11,10,1]
 };

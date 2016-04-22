@@ -1,5 +1,6 @@
 var NAVTREEINDEX19 =
 {
+"class_m_r_1_1_math_1_1_uniform_b_spline.html#ab73e7c0137f8a48a3fcc6a6353183e37":[11,0,0,11,10,0],
 "class_m_r_1_1_math_1_1_uniform_b_spline.html#aeef60dec4ef7476e663b4e0bcfbe4687":[11,0,0,11,10,3],
 "class_m_r_1_1_math_1_1_uniform_b_spline.html#af9162f1b2ed4c30eac67f7c4828822b0":[11,0,0,11,10,2],
 "class_m_r_1_1_math_1_1_versor.html":[11,0,0,11,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX19 =
 "class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#aebd13fbeb88ab896ab9157771abcff18":[11,0,0,16,2,2,5],
 "class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#af35ff923f8a8e364df7815369ad4a6d0":[11,0,0,16,2,2,6],
 "class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#af7d275b9ea9d3eab377f470b594dc9a1":[11,0,0,16,2,2,17],
-"class_m_r_1_1_stats_1_1_stats.html":[11,0,0,16,5],
-"class_m_r_1_1_stats_1_1_stats.html#a43584a839e99c847584a461cbd6b0aca":[11,0,0,16,5,4]
+"class_m_r_1_1_stats_1_1_stats.html":[11,0,0,16,5]
 };

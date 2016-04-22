@@ -8,13 +8,14 @@ var NAVTREEINDEX2 =
 "class_m_r_1_1_d_w_i_1_1_f_m_l_s_1_1_segmenter.html#abfd16186b1006a8ec2a965e4de062eb9":[11,0,0,3,1,3,3],
 "class_m_r_1_1_d_w_i_1_1_f_m_l_s_1_1_segmenter.html#aff8a2855c4940d22fb43608f46b07ab0":[11,0,0,3,1,3,1],
 "class_m_r_1_1_d_w_i_1_1_fixel__map.html":[11,0,0,3,5],
-"class_m_r_1_1_d_w_i_1_1_fixel__map.html#a154ed8517d176ecb7a87bb0ad0f6a50e":[11,0,0,3,5,10],
-"class_m_r_1_1_d_w_i_1_1_fixel__map.html#a1b892211489c15b152bf6a763c974c10":[11,0,0,3,5,13],
+"class_m_r_1_1_d_w_i_1_1_fixel__map.html#a154ed8517d176ecb7a87bb0ad0f6a50e":[11,0,0,3,5,11],
+"class_m_r_1_1_d_w_i_1_1_fixel__map.html#a1af7dc27d2b7a4e915789dea220c6f23":[11,0,0,3,5,10],
+"class_m_r_1_1_d_w_i_1_1_fixel__map.html#a1b892211489c15b152bf6a763c974c10":[11,0,0,3,5,14],
 "class_m_r_1_1_d_w_i_1_1_fixel__map.html#a2972522af39ee32c56c17ffc565c74b2":[11,0,0,3,5,4],
-"class_m_r_1_1_d_w_i_1_1_fixel__map.html#a36a2d88e45f174dd2071fc6daa9cec62":[11,0,0,3,5,12],
+"class_m_r_1_1_d_w_i_1_1_fixel__map.html#a36a2d88e45f174dd2071fc6daa9cec62":[11,0,0,3,5,13],
 "class_m_r_1_1_d_w_i_1_1_fixel__map.html#a62168d6ae37e0f2739ab166e8ecaa681":[11,0,0,3,5,6],
 "class_m_r_1_1_d_w_i_1_1_fixel__map.html#a8b1da3a0e14f947210c9baf543fb5490":[11,0,0,3,5,9],
-"class_m_r_1_1_d_w_i_1_1_fixel__map.html#a918b4b85bff7521f0377cf9655feb8d7":[11,0,0,3,5,11],
+"class_m_r_1_1_d_w_i_1_1_fixel__map.html#a918b4b85bff7521f0377cf9655feb8d7":[11,0,0,3,5,12],
 "class_m_r_1_1_d_w_i_1_1_fixel__map.html#a9bdb3d89aedc56345f58c5659aacdc68":[11,0,0,3,5,7],
 "class_m_r_1_1_d_w_i_1_1_fixel__map.html#a9e5add88310b7b13729160c34042f9b1":[11,0,0,3,5,5],
 "class_m_r_1_1_d_w_i_1_1_fixel__map.html#aa99f80ae9c669c40cb787d55c6b7ef68":[11,0,0,3,5,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1.html#a49fa010616a5b290366e54b250dccce7":[11,0,0,3,2,1,1,11],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1.html#a760eedd1ba48996bc39d36350c39a916":[11,0,0,3,2,1,1,15],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1.html#a7a9f62f1c139b525ac7b0da814dc4deb":[11,0,0,3,2,1,1,10],
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1.html#a8a0eb6efb32c4746dc3d77aefa947241":[11,0,0,3,2,1,1,6],
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1.html#a8bd7acfc44536c5310d84404dce28853":[11,0,0,3,2,1,1,2]
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1.html#a8a0eb6efb32c4746dc3d77aefa947241":[11,0,0,3,2,1,1,6]
 };

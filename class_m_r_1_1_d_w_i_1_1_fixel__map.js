@@ -10,6 +10,7 @@ var class_m_r_1_1_d_w_i_1_1_fixel__map =
     [ "accessor", "class_m_r_1_1_d_w_i_1_1_fixel__map.html#a9bdb3d89aedc56345f58c5659aacdc68", null ],
     [ "begin", "class_m_r_1_1_d_w_i_1_1_fixel__map.html#aa99f80ae9c669c40cb787d55c6b7ef68", null ],
     [ "begin", "class_m_r_1_1_d_w_i_1_1_fixel__map.html#a8b1da3a0e14f947210c9baf543fb5490", null ],
+    [ "header", "class_m_r_1_1_d_w_i_1_1_fixel__map.html#a1af7dc27d2b7a4e915789dea220c6f23", null ],
     [ "operator()", "class_m_r_1_1_d_w_i_1_1_fixel__map.html#a154ed8517d176ecb7a87bb0ad0f6a50e", null ],
     [ "operator[]", "class_m_r_1_1_d_w_i_1_1_fixel__map.html#a918b4b85bff7521f0377cf9655feb8d7", null ],
     [ "operator[]", "class_m_r_1_1_d_w_i_1_1_fixel__map.html#a36a2d88e45f174dd2071fc6daa9cec62", null ],
