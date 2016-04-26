@@ -1,8 +1,9 @@
 var mrtrix_8h =
 [
     [ "max_digits", "struct_m_r_1_1max__digits.html", "struct_m_r_1_1max__digits" ],
+    [ "max_digits< X, typename std::enable_if< std::is_fundamental< X >::value, int >::type >", "struct_m_r_1_1max__digits_3_01_x_00_01typename_01std_1_1enable__if_3_01std_1_1is__fundamental_3_501364762f17ed6e57e6fc02375a30fa.html", "struct_m_r_1_1max__digits_3_01_x_00_01typename_01std_1_1enable__if_3_01std_1_1is__fundamental_3_501364762f17ed6e57e6fc02375a30fa" ],
     [ "max_digits< X, typename std::enable_if< std::is_fundamental< typename X::Scalar >::value, int >::type >", "struct_m_r_1_1max__digits_3_01_x_00_01typename_01std_1_1enable__if_3_01std_1_1is__fundamental_3_8467db8cf8cb55f508d8abceaab32928.html", "struct_m_r_1_1max__digits_3_01_x_00_01typename_01std_1_1enable__if_3_01std_1_1is__fundamental_3_8467db8cf8cb55f508d8abceaab32928" ],
-    [ "max_digits< X, typename std::enable_if< std::is_fundamental< typename X::value_type >::value, int >::type >", "struct_m_r_1_1max__digits_3_01_x_00_01typename_01std_1_1enable__if_3_01std_1_1is__fundamental_3_c1941f368f212a443dbb9b8114d97118.html", "struct_m_r_1_1max__digits_3_01_x_00_01typename_01std_1_1enable__if_3_01std_1_1is__fundamental_3_c1941f368f212a443dbb9b8114d97118" ],
+    [ "max_digits< X, typename std::enable_if< std::is_fundamental< typename X::value_type >::value &&!std::is_fundamental< typename X::Scalar >::value, int >::type >", "struct_m_r_1_1max__digits_3_01_x_00_01typename_01std_1_1enable__if_3_01std_1_1is__fundamental_3_1ef7ff8baa0d3893f596cbe7273651cd.html", "struct_m_r_1_1max__digits_3_01_x_00_01typename_01std_1_1enable__if_3_01std_1_1is__fundamental_3_1ef7ff8baa0d3893f596cbe7273651cd" ],
     [ "add_line", "mrtrix_8h.html#abc5dbe7f4a0c56627ff6950c84ca4fc5", null ],
     [ "getline", "mrtrix_8h.html#a1319114438a7f3a08f04a03023ad62e2", null ],
     [ "join", "mrtrix_8h.html#aa959b5eb8094f43f14b0ff88425b423f", null ],
