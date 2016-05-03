@@ -35,7 +35,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.14-43-gedb5eae9</div>
+   <div id="projectbrief">Version 0.3.14-54-g5aab0da0</div>
   </td>
  </tr>
  </tbody>
@@ -366,14 +366,14 @@ Functions</h2></td></tr>
 <tr class="memitem:a2d369bd78659f693b9a830fc8929bdbf"><td class="memTemplItemLeft" align="right" valign="top">ThreadedLoopRunOuter&lt; decltype(<a class="el" href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">Loop</a>(&quot;&quot;, std::vector&lt; size_t &gt;)))&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a2d369bd78659f693b9a830fc8929bdbf">ThreadedLoop</a> (const std::string &amp;progress_message, const HeaderType &amp;source, size_t from_axis=0, size_t to_axis=std::numeric_limits&lt; size_t &gt;::max(), size_t num_inner_axes=1)</td></tr>
 <tr class="memdesc:a2d369bd78659f693b9a830fc8929bdbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multi-threaded loop object.  <a href="#a2d369bd78659f693b9a830fc8929bdbf">More...</a><br /></td></tr>
 <tr class="separator:a2d369bd78659f693b9a830fc8929bdbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0baf271715d25380d2e39b46692b3178"><td class="memTemplParams" colspan="2">template&lt;class F , class T &gt; </td></tr>
-<tr class="memitem:a0baf271715d25380d2e39b46692b3178"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="src_2gui_2mrview_2tool_2connectome_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a0baf271715d25380d2e39b46692b3178">apply</a> (F &amp;&amp;f, T &amp;&amp;t)</td></tr>
-<tr class="memdesc:a0baf271715d25380d2e39b46692b3178"><td class="mdescLeft">&#160;</td><td class="mdescRight">invoke <code>f(x)</code> for each entry in <code>t</code>  <a href="#a0baf271715d25380d2e39b46692b3178">More...</a><br /></td></tr>
-<tr class="separator:a0baf271715d25380d2e39b46692b3178"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c267f252dc24fae59904fdadeef30c5"><td class="memTemplParams" colspan="2">template&lt;typename F , typename T &gt; </td></tr>
-<tr class="memitem:a2c267f252dc24fae59904fdadeef30c5"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="src_2gui_2mrview_2tool_2connectome_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a2c267f252dc24fae59904fdadeef30c5">unpack</a> (F &amp;&amp;f, T &amp;&amp;t) -&gt; decltype(Unpack&lt; ::std::tuple_size&lt; typename::std::decay&lt; T &gt;::type &gt;::value &gt;::unpack(::std::forward&lt; F &gt;(f),::std::forward&lt; T &gt;(t)))</td></tr>
-<tr class="memdesc:a2c267f252dc24fae59904fdadeef30c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">if <code>t</code> is a tuple of elements <code>a</code>..., invoke <code>f</code>(a...)  <a href="#a2c267f252dc24fae59904fdadeef30c5">More...</a><br /></td></tr>
-<tr class="separator:a2c267f252dc24fae59904fdadeef30c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15480a6dbbc2093c734f8493abb1af5c"><td class="memTemplParams" colspan="2">template&lt;class F , class T &gt; </td></tr>
+<tr class="memitem:a15480a6dbbc2093c734f8493abb1af5c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a15480a6dbbc2093c734f8493abb1af5c">apply</a> (F &amp;&amp;f, T &amp;&amp;t)</td></tr>
+<tr class="memdesc:a15480a6dbbc2093c734f8493abb1af5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">invoke <code>f(x)</code> for each entry in <code>t</code>  <a href="#a15480a6dbbc2093c734f8493abb1af5c">More...</a><br /></td></tr>
+<tr class="separator:a15480a6dbbc2093c734f8493abb1af5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45debea807ad202b92a9f3120d9dd65f"><td class="memTemplParams" colspan="2">template&lt;typename F , typename T &gt; </td></tr>
+<tr class="memitem:a45debea807ad202b92a9f3120d9dd65f"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a45debea807ad202b92a9f3120d9dd65f">unpack</a> (F &amp;&amp;f, T &amp;&amp;t) -&gt; decltype(Unpack&lt; ::std::tuple_size&lt; typename::std::decay&lt; T &gt;::type &gt;::value &gt;::unpack(::std::forward&lt; F &gt;(f),::std::forward&lt; T &gt;(t)))</td></tr>
+<tr class="memdesc:a45debea807ad202b92a9f3120d9dd65f"><td class="mdescLeft">&#160;</td><td class="mdescRight">if <code>t</code> is a tuple of elements <code>a</code>..., invoke <code>f</code>(a...)  <a href="#a45debea807ad202b92a9f3120d9dd65f">More...</a><br /></td></tr>
+<tr class="separator:a45debea807ad202b92a9f3120d9dd65f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2381ad83e3931d655425b22507d1634"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#aa2381ad83e3931d655425b22507d1634">display_exception_cmdline</a> (const <a class="el" href="class_m_r_1_1_exception.html">Exception</a> &amp;E, int log_level)</td></tr>
 <tr class="separator:aa2381ad83e3931d655425b22507d1634"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a216a4bc64b7566f00a376a785b4da933"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a216a4bc64b7566f00a376a785b4da933">cmdline_print_func</a> (const std::string &amp;msg)</td></tr>
@@ -1218,14 +1218,17 @@ template&lt;typename ValueType &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a0baf271715d25380d2e39b46692b3178"></a>
+<a class="anchor" id="a15480a6dbbc2093c734f8493abb1af5c"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;class F , class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="src_2gui_2mrview_2tool_2connectome_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> void MR::apply </td>
+          <td class="memname">void MR::apply </td>
           <td>(</td>
           <td class="paramtype">F &amp;&amp;&#160;</td>
           <td class="paramname"><em>f</em>, </td>
@@ -1242,11 +1245,16 @@ template&lt;class F , class T &gt; </div>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>invoke <code>f(x)</code> for each entry in <code>t</code> </p>
 
-<p>Definition at line <a class="el" href="apply_8h_source.html#l00079">79</a> of file <a class="el" href="apply_8h_source.html">apply.h</a>.</p>
+<p>Definition at line <a class="el" href="apply_8h_source.html#l00081">81</a> of file <a class="el" href="apply_8h_source.html">apply.h</a>.</p>
 
 </div>
 </div>
@@ -3961,14 +3969,17 @@ template&lt;&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a2c267f252dc24fae59904fdadeef30c5"></a>
+<a class="anchor" id="a45debea807ad202b92a9f3120d9dd65f"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename F , typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="src_2gui_2mrview_2tool_2connectome_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> auto MR::unpack </td>
+          <td class="memname">auto MR::unpack </td>
           <td>(</td>
           <td class="paramtype">F &amp;&amp;&#160;</td>
           <td class="paramname"><em>f</em>, </td>
@@ -3988,11 +3999,16 @@ template&lt;typename F , typename T &gt; </div>
     </td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>if <code>t</code> is a tuple of elements <code>a</code>..., invoke <code>f</code>(a...) </p>
 
-<p>Definition at line <a class="el" href="apply_8h_source.html#l00088">88</a> of file <a class="el" href="apply_8h_source.html">apply.h</a>.</p>
+<p>Definition at line <a class="el" href="apply_8h_source.html#l00090">90</a> of file <a class="el" href="apply_8h_source.html">apply.h</a>.</p>
 
 </div>
 </div>
@@ -4269,7 +4285,7 @@ template&lt;class HeaderType &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li>
-    <li class="footer">Generated on Wed Apr 27 2016 07:42:38 for MRtrix by
+    <li class="footer">Generated on Tue May 3 2016 09:17:08 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

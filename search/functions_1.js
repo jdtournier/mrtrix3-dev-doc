@@ -43,7 +43,7 @@ var searchData=
   ['analyse',['Analyse',['../class_m_r_1_1_formats_1_1_analyse.html#a2d4d242b73c7664d409fb89266c32f6c',1,'MR::Formats::Analyse']]],
   ['app',['App',['../class_m_r_1_1_g_u_i_1_1_app.html#a0d91eafdeecb5dc969aafb27f11d77c7',1,'MR::GUI::App']]],
   ['appendchild',['appendChild',['../class_m_r_1_1_g_u_i_1_1_dialog_1_1_tree_item.html#a1036856459c055d2f467f6c9402a1928',1,'MR::GUI::Dialog::TreeItem']]],
-  ['apply',['apply',['../namespace_m_r.html#a0baf271715d25380d2e39b46692b3178',1,'MR']]],
+  ['apply',['apply',['../namespace_m_r.html#a15480a6dbbc2093c734f8493abb1af5c',1,'MR']]],
   ['apply_5fintensity_5fscaling',['apply_intensity_scaling',['../class_m_r_1_1_header.html#a2b390f8b651811987a4965f15039f30b',1,'MR::Header']]],
   ['apsf',['aPSF',['../class_m_r_1_1_math_1_1_s_h_1_1a_p_s_f.html#a12497219f3e74ec1685b87c369905078',1,'MR::Math::SH::aPSF']]],
   ['apsf_5fweights_5fto_5ffod_5ftransform',['aPSF_weights_to_FOD_transform',['../namespace_m_r_1_1_registration_1_1_transform.html#ad33dca64fbe2d1c6a82a4faff7f49548',1,'MR::Registration::Transform']]],

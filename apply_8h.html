@@ -35,7 +35,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.14-43-gedb5eae9</div>
+   <div id="projectbrief">Version 0.3.14-54-g5aab0da0</div>
   </td>
  </tr>
  </tbody>
@@ -117,6 +117,7 @@ $(document).ready(function(){initNavTree('apply_8h.html','');});
 <div class="contents">
 <div class="textblock"><code>#include &lt;tuple&gt;</code><br />
 <code>#include &lt;type_traits&gt;</code><br />
+<code>#include &quot;types.h&quot;</code><br />
 </div>
 <p><a href="apply_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -127,14 +128,14 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a0baf271715d25380d2e39b46692b3178"><td class="memTemplParams" colspan="2">template&lt;class F , class T &gt; </td></tr>
-<tr class="memitem:a0baf271715d25380d2e39b46692b3178"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="src_2gui_2mrview_2tool_2connectome_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a0baf271715d25380d2e39b46692b3178">MR::apply</a> (F &amp;&amp;f, T &amp;&amp;t)</td></tr>
-<tr class="memdesc:a0baf271715d25380d2e39b46692b3178"><td class="mdescLeft">&#160;</td><td class="mdescRight">invoke <code>f(x)</code> for each entry in <code>t</code>  <a href="namespace_m_r.html#a0baf271715d25380d2e39b46692b3178">More...</a><br /></td></tr>
-<tr class="separator:a0baf271715d25380d2e39b46692b3178"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c267f252dc24fae59904fdadeef30c5"><td class="memTemplParams" colspan="2">template&lt;typename F , typename T &gt; </td></tr>
-<tr class="memitem:a2c267f252dc24fae59904fdadeef30c5"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="src_2gui_2mrview_2tool_2connectome_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a2c267f252dc24fae59904fdadeef30c5">MR::unpack</a> (F &amp;&amp;f, T &amp;&amp;t) -&gt; decltype(Unpack&lt; ::std::tuple_size&lt; typename::std::decay&lt; T &gt;::type &gt;::value &gt;::unpack(::std::forward&lt; F &gt;(f),::std::forward&lt; T &gt;(t)))</td></tr>
-<tr class="memdesc:a2c267f252dc24fae59904fdadeef30c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">if <code>t</code> is a tuple of elements <code>a</code>..., invoke <code>f</code>(a...)  <a href="namespace_m_r.html#a2c267f252dc24fae59904fdadeef30c5">More...</a><br /></td></tr>
-<tr class="separator:a2c267f252dc24fae59904fdadeef30c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15480a6dbbc2093c734f8493abb1af5c"><td class="memTemplParams" colspan="2">template&lt;class F , class T &gt; </td></tr>
+<tr class="memitem:a15480a6dbbc2093c734f8493abb1af5c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a15480a6dbbc2093c734f8493abb1af5c">MR::apply</a> (F &amp;&amp;f, T &amp;&amp;t)</td></tr>
+<tr class="memdesc:a15480a6dbbc2093c734f8493abb1af5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">invoke <code>f(x)</code> for each entry in <code>t</code>  <a href="namespace_m_r.html#a15480a6dbbc2093c734f8493abb1af5c">More...</a><br /></td></tr>
+<tr class="separator:a15480a6dbbc2093c734f8493abb1af5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45debea807ad202b92a9f3120d9dd65f"><td class="memTemplParams" colspan="2">template&lt;typename F , typename T &gt; </td></tr>
+<tr class="memitem:a45debea807ad202b92a9f3120d9dd65f"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a45debea807ad202b92a9f3120d9dd65f">MR::unpack</a> (F &amp;&amp;f, T &amp;&amp;t) -&gt; decltype(Unpack&lt; ::std::tuple_size&lt; typename::std::decay&lt; T &gt;::type &gt;::value &gt;::unpack(::std::forward&lt; F &gt;(f),::std::forward&lt; T &gt;(t)))</td></tr>
+<tr class="memdesc:a45debea807ad202b92a9f3120d9dd65f"><td class="mdescLeft">&#160;</td><td class="mdescRight">if <code>t</code> is a tuple of elements <code>a</code>..., invoke <code>f</code>(a...)  <a href="namespace_m_r.html#a45debea807ad202b92a9f3120d9dd65f">More...</a><br /></td></tr>
+<tr class="separator:a45debea807ad202b92a9f3120d9dd65f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -142,7 +143,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="apply_8h.html">apply.h</a></li>
-    <li class="footer">Generated on Wed Apr 27 2016 07:42:38 for MRtrix by
+    <li class="footer">Generated on Tue May 3 2016 09:17:08 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

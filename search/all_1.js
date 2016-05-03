@@ -82,7 +82,7 @@ var searchData=
   ['app_2eh',['app.h',['../app_8h.html',1,'']]],
   ['appendchild',['appendChild',['../class_m_r_1_1_g_u_i_1_1_dialog_1_1_tree_item.html#a1036856459c055d2f467f6c9402a1928',1,'MR::GUI::Dialog::TreeItem']]],
   ['application',['application',['../class_m_r_1_1_g_u_i_1_1_app.html#af6fd20a49b31d3265daad9b2b1b006a3',1,'MR::GUI::App']]],
-  ['apply',['apply',['../namespace_m_r.html#a0baf271715d25380d2e39b46692b3178',1,'MR']]],
+  ['apply',['apply',['../namespace_m_r.html#a15480a6dbbc2093c734f8493abb1af5c',1,'MR']]],
   ['apply_2eh',['apply.h',['../apply_8h.html',1,'']]],
   ['apply_5fintensity_5fscaling',['apply_intensity_scaling',['../class_m_r_1_1_header.html#a2b390f8b651811987a4965f15039f30b',1,'MR::Header']]],
   ['apsf',['aPSF',['../class_m_r_1_1_math_1_1_s_h_1_1a_p_s_f.html',1,'MR::Math::SH']]],
