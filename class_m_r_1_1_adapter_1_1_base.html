@@ -35,7 +35,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.14-62-gb1c5d335</div>
+   <div id="projectbrief">Version 0.3.14-554-ge132f49d</div>
   </td>
  </tr>
  </tbody>
@@ -133,10 +133,12 @@ Inheritance diagram for MR::Adapter::Base&lt; ImageType &gt;:</div>
 <area href="class_m_r_1_1_adapter_1_1_gaussian1_d.html" alt="MR::Adapter::Gaussian1D&lt; ImageType &gt;" shape="rect" coords="420,168,830,192"/>
 <area href="class_m_r_1_1_adapter_1_1_gradient1_d.html" alt="MR::Adapter::Gradient1D&lt; ImageType &gt;" shape="rect" coords="420,224,830,248"/>
 <area href="class_m_r_1_1_adapter_1_1_median.html" alt="MR::Adapter::Median&lt; ImageType &gt;" shape="rect" coords="420,280,830,304"/>
-<area href="class_m_r_1_1_adapter_1_1_permute_axes.html" alt="MR::Adapter::PermuteAxes&lt; ImageType &gt;" shape="rect" coords="420,336,830,360"/>
-<area href="class_m_r_1_1_adapter_1_1_replicate.html" alt="MR::Adapter::Replicate&lt; ImageType &gt;" shape="rect" coords="420,392,830,416"/>
-<area href="class_m_r_1_1_adapter_1_1_subset.html" alt="MR::Adapter::Subset&lt; ImageType &gt;" shape="rect" coords="420,448,830,472"/>
-<area href="class_m_r_1_1_d_w_i_1_1_bootstrap.html" alt="MR::DWI::Bootstrap&lt; ImageType, Functor, NUM_VOX_PER_CHUNK &gt;" shape="rect" coords="420,504,830,528"/>
+<area href="class_m_r_1_1_adapter_1_1_neighbourhood_coord.html" alt="MR::Adapter::NeighbourhoodCoord&lt; ImageType &gt;" shape="rect" coords="420,336,830,360"/>
+<area href="class_m_r_1_1_adapter_1_1_normalise3_d.html" alt="MR::Adapter::Normalise3D&lt; ImageType &gt;" shape="rect" coords="420,392,830,416"/>
+<area href="class_m_r_1_1_adapter_1_1_permute_axes.html" alt="MR::Adapter::PermuteAxes&lt; ImageType &gt;" shape="rect" coords="420,448,830,472"/>
+<area href="class_m_r_1_1_adapter_1_1_replicate.html" alt="MR::Adapter::Replicate&lt; ImageType &gt;" shape="rect" coords="420,504,830,528"/>
+<area href="class_m_r_1_1_adapter_1_1_subset.html" alt="MR::Adapter::Subset&lt; ImageType &gt;" shape="rect" coords="420,560,830,584"/>
+<area href="class_m_r_1_1_d_w_i_1_1_bootstrap.html" alt="MR::DWI::Bootstrap&lt; ImageType, Functor, NUM_VOX_PER_CHUNK &gt;" shape="rect" coords="420,616,830,640"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -186,6 +188,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a8e9b8c45fdf47db6236318d407cc14f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afaec5478c8fdee20b019350ed051f96b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="src_2gui_2mrview_2tool_2connectome_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_adapter_1_1_base.html#afaec5478c8fdee20b019350ed051f96b">set_value</a> (<a class="el" href="class_m_r_1_1_adapter_1_1_base.html#a345e12dd7b248672887b1d4a855fd48d">value_type</a> val)</td></tr>
 <tr class="separator:afaec5478c8fdee20b019350ed051f96b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7ae8f3ff5252c81b827d90390b15b77"><td class="memItemLeft" align="right" valign="top"><a class="el" href="src_2gui_2mrview_2tool_2connectome_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> Eigen::Map&lt; Eigen::Matrix&lt; <a class="el" href="class_m_r_1_1_adapter_1_1_base.html#a345e12dd7b248672887b1d4a855fd48d">value_type</a>, Eigen::Dynamic, 1 &gt;, Eigen::Unaligned, Eigen::InnerStride&lt;&gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_adapter_1_1_base.html#ae7ae8f3ff5252c81b827d90390b15b77">row</a> (size_t <a class="el" href="noise__estimator_8h.html#a884869744ebf14a092b339ae65c2af37">axis</a>)</td></tr>
+<tr class="separator:ae7ae8f3ff5252c81b827d90390b15b77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a534e6149d5fd5c01d24b67676e2d2fe3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="src_2gui_2mrview_2tool_2connectome_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_adapter_1_1_base.html#a534e6149d5fd5c01d24b67676e2d2fe3">reset</a> ()</td></tr>
 <tr class="separator:a534e6149d5fd5c01d24b67676e2d2fe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -561,6 +565,34 @@ template&lt;class ImageType&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Definition at line <a class="el" href="lib_2adapter_2base_8h_source.html#l00067">67</a> of file <a class="el" href="lib_2adapter_2base_8h_source.html">base.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae7ae8f3ff5252c81b827d90390b15b77"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ImageType&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="src_2gui_2mrview_2tool_2connectome_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> Eigen::Map&lt;Eigen::Matrix&lt;<a class="el" href="class_m_r_1_1_adapter_1_1_base.html#a345e12dd7b248672887b1d4a855fd48d">value_type</a>, Eigen::Dynamic, 1 &gt;, Eigen::Unaligned, Eigen::InnerStride&lt;&gt; &gt; <a class="el" href="class_m_r_1_1_adapter_1_1_base.html">MR::Adapter::Base</a>&lt; ImageType &gt;::row </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>axis</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
 <p>Definition at line <a class="el" href="lib_2adapter_2base_8h_source.html#l00065">65</a> of file <a class="el" href="lib_2adapter_2base_8h_source.html">base.h</a>.</p>
 
 </div>
@@ -820,7 +852,7 @@ template&lt;class ImageType&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="lib_2adapter_2base_8h_source.html#l00067">67</a> of file <a class="el" href="lib_2adapter_2base_8h_source.html">base.h</a>.</p>
+<p>Definition at line <a class="el" href="lib_2adapter_2base_8h_source.html#l00069">69</a> of file <a class="el" href="lib_2adapter_2base_8h_source.html">base.h</a>.</p>
 
 </div>
 </div>
@@ -845,7 +877,7 @@ template&lt;class ImageType&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="lib_2adapter_2base_8h_source.html#l00076">76</a> of file <a class="el" href="lib_2adapter_2base_8h_source.html">base.h</a>.</p>
+<p>Definition at line <a class="el" href="lib_2adapter_2base_8h_source.html#l00078">78</a> of file <a class="el" href="lib_2adapter_2base_8h_source.html">base.h</a>.</p>
 
 </div>
 </div>
@@ -858,7 +890,7 @@ template&lt;class ImageType&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_adapter.html">Adapter</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_adapter_1_1_base.html">Base</a></li>
-    <li class="footer">Generated on Thu May 5 2016 23:35:56 for MRtrix by
+    <li class="footer">Generated on Fri May 6 2016 07:37:12 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

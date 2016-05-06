@@ -7,6 +7,7 @@ var searchData=
   ['tensor_5fprob_2eh',['tensor_prob.h',['../tensor__prob_8h.html',1,'']]],
   ['tfce_2eh',['tfce.h',['../tfce_8h.html',1,'']]],
   ['thread_2eh',['thread.h',['../thread_8h.html',1,'']]],
+  ['thread_5fkernel_2eh',['thread_kernel.h',['../thread__kernel_8h.html',1,'']]],
   ['thread_5fqueue_2eh',['thread_queue.h',['../thread__queue_8h.html',1,'']]],
   ['threaded_5fcopy_2eh',['threaded_copy.h',['../threaded__copy_8h.html',1,'']]],
   ['threaded_5floop_2eh',['threaded_loop.h',['../threaded__loop_8h.html',1,'']]],
@@ -23,8 +24,8 @@ var searchData=
   ['tree_2eh',['tree.h',['../tree_8h.html',1,'']]],
   ['twi_5fstats_2eh',['twi_stats.h',['../twi__stats_8h.html',1,'']]],
   ['type_2eh',['type.h',['../type_8h.html',1,'']]],
-  ['types_2eh',['types.h',['../src_2dwi_2tractography_2_s_i_f_t_2types_8h.html',1,'']]],
   ['types_2eh',['types.h',['../src_2gui_2mrview_2tool_2connectome_2types_8h.html',1,'']]],
-  ['types_2eh',['types.h',['../lib_2types_8h.html',1,'']]],
-  ['types_2eh',['types.h',['../src_2dwi_2tractography_2tracking_2types_8h.html',1,'']]]
+  ['types_2eh',['types.h',['../src_2dwi_2tractography_2_s_i_f_t_2types_8h.html',1,'']]],
+  ['types_2eh',['types.h',['../src_2dwi_2tractography_2tracking_2types_8h.html',1,'']]],
+  ['types_2eh',['types.h',['../lib_2types_8h.html',1,'']]]
 ];

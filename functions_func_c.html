@@ -35,7 +35,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.14-62-gb1c5d335</div>
+   <div id="projectbrief">Version 0.3.14-554-ge132f49d</div>
   </td>
  </tr>
  </tbody>
@@ -194,6 +194,9 @@ $(document).ready(function(){initNavTree('functions_func_c.html','');});
 <li>calcShiftProb()
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_m_h_sampler.html#a20adff450ca0d06c62b64caa9d1390fb">MR::DWI::Tractography::GT::MHSampler</a>
 </li>
+<li>calculate_eigenvectors()
+: <a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_init_1_1_moments_initialiser.html#a9b9094a6649a3d8af8ec385fdedb739c">MR::Registration::Transform::Init::MomentsInitialiser</a>
+</li>
 <li>calculate_normals()
 : <a class="el" href="class_m_r_1_1_mesh_1_1_mesh.html#ac9ef312dbc5b9733517e4b9ae3c532ae">MR::Mesh::Mesh</a>
 </li>
@@ -214,6 +217,9 @@ $(document).ready(function(){initNavTree('functions_func_c.html','');});
 </li>
 <li>captureGL()
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_window.html#acb0110380cbab7010640d4183245b01c">MR::GUI::MRView::Window</a>
+</li>
+<li>centre()
+: <a class="el" href="class_m_r_1_1_neighbourhood_iterator.html#af40c21948a90a3ec841c52e9e70ed118">MR::NeighbourhoodIterator</a>
 </li>
 <li>changed()
 : <a class="el" href="class_m_r_1_1_file_1_1_m_map.html#a4c4c085603bc2076a24bb3e1df26ab26">MR::File::MMap</a>
@@ -357,10 +363,10 @@ $(document).ready(function(){initNavTree('functions_func_c.html','');});
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_coefficient_optimiser_g_s_s.html#a09f6889abd2cecf3a2adc968dd2bad4a">MR::DWI::Tractography::SIFT2::CoefficientOptimiserGSS</a>
 </li>
 <li>CoefficientOptimiserIterative()
-: <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_coefficient_optimiser_iterative.html#a813b838537ad0860a940a82874a6398c">MR::DWI::Tractography::SIFT2::CoefficientOptimiserIterative</a>
+: <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_coefficient_optimiser_iterative.html#a17e390e9061125cfa52986c585af9920">MR::DWI::Tractography::SIFT2::CoefficientOptimiserIterative</a>
 </li>
 <li>CoefficientOptimiserQLS()
-: <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_coefficient_optimiser_q_l_s.html#ae34975ab19053edfc96f8641674f921b">MR::DWI::Tractography::SIFT2::CoefficientOptimiserQLS</a>
+: <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_coefficient_optimiser_q_l_s.html#a18e27b732db374f83d9b3c32fa01c599">MR::DWI::Tractography::SIFT2::CoefficientOptimiserQLS</a>
 </li>
 <li>color()
 : <a class="el" href="class_q_color_button.html#a3eb0a30a40653c483cf9615b69bcc4a0">QColorButton</a>
@@ -399,14 +405,32 @@ $(document).ready(function(){initNavTree('functions_func_c.html','');});
 <li>complete()
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_write_kernel.html#ab7d1257f0150dac4f8de9c4a89b35806">MR::DWI::Tractography::Tracking::WriteKernel</a>
 </li>
-<li>ComposeKernel()
-: <a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_compose_kernel.html#ac0cfa19365635b3c6ee06dede25b4103">MR::Registration::Transform::ComposeKernel&lt; WarpImageType &gt;</a>
+<li>ComposeDispKernel()
+: <a class="el" href="class_m_r_1_1_registration_1_1_warp_1_1_compose_disp_kernel.html#a60d6e5ba8d4e3420c9509295ade1da68">MR::Registration::Warp::ComposeDispKernel</a>
+</li>
+<li>ComposeHalfwayKernel()
+: <a class="el" href="class_m_r_1_1_registration_1_1_warp_1_1_compose_halfway_kernel.html#a293f0db21614a8f24ffcd774e7eac2ee">MR::Registration::Warp::ComposeHalfwayKernel&lt; DeformationField1Type, DeformationField2Type &gt;</a>
+</li>
+<li>ComposeLinearDeformKernel()
+: <a class="el" href="class_m_r_1_1_registration_1_1_warp_1_1_compose_linear_deform_kernel.html#a169f495e7cedaf49fb8b1ef497c69a07">MR::Registration::Warp::ComposeLinearDeformKernel</a>
+</li>
+<li>ComposeLinearDispKernel()
+: <a class="el" href="class_m_r_1_1_registration_1_1_warp_1_1_compose_linear_disp_kernel.html#a12a04124b88761de36c74f6cfb187015">MR::Registration::Warp::ComposeLinearDispKernel</a>
+</li>
+<li>compute_halfspace_transformations()
+: <a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_base.html#ada5ee9472c90a775718717286bf6b4a2">MR::Registration::Transform::Base</a>
 </li>
 <li>compute_kernel()
 : <a class="el" href="class_m_r_1_1_adapter_1_1_gaussian1_d.html#ad1e468d54e8e6942cdd1ec91488b2cf1">MR::Adapter::Gaussian1D&lt; ImageType &gt;</a>
 </li>
+<li>compute_normg_and_step()
+: <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a820f76c65de0e3de385e3068c15e6b80">MR::Math::GradientDescentBB&lt; Function, UpdateFunctor &gt;</a>
+</li>
 <li>compute_normg_and_step_unscaled()
 : <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent.html#a492f29f468da53e21c02fd92bf1c4c76">MR::Math::GradientDescent&lt; Function, UpdateFunctor &gt;</a>
+</li>
+<li>compute_offset()
+: <a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_base.html#a56d1a493806cee17c5dfd70dbdb19e79">MR::Registration::Transform::Base</a>
 </li>
 <li>compute_r_del_daz()
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_s_h.html#adc03edfe90e7a6b20c829454ff5ea0a7">MR::GUI::DWI::Renderer::SH</a>
@@ -436,7 +460,7 @@ $(document).ready(function(){initNavTree('functions_func_c.html','');});
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle.html#a6f3331baa9a17573d0b03eafe54099be">MR::DWI::Tractography::GT::Particle</a>
 </li>
 <li>ConstIterator()
-: <a class="el" href="class_m_r_1_1_d_w_i_1_1_fixel__map_1_1_const_iterator.html#aa51eb3477be6d4616340172c85c35a3b">MR::DWI::Fixel_map&lt; Fixel &gt;::ConstIterator</a>
+: <a class="el" href="class_m_r_1_1_d_w_i_1_1_fixel__map_1_1_const_iterator.html#a516652cf8f19477ed5199cf5ee2b7f0e">MR::DWI::Fixel_map&lt; Fixel &gt;::ConstIterator</a>
 </li>
 <li>ConstValue()
 : <a class="el" href="class_m_r_1_1_bit_set_1_1_const_value.html#a972a8d265a1517b7a709fd4d75074bda">MR::BitSet::ConstValue</a>
@@ -501,6 +525,9 @@ $(document).ready(function(){initNavTree('functions_func_c.html','');});
 <li>create_dixel_plugin()
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_mapper_base.html#aadcaf1a6a09cee05a87e805469787921">MR::DWI::Tractography::Mapping::TrackMapperBase</a>
 </li>
+<li>create_moments_images()
+: <a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_init_1_1_moments_initialiser.html#a60e3dc6474367abbacc670458db9081e">MR::Registration::Transform::Init::MomentsInitialiser</a>
+</li>
 <li>create_streamline()
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_edge.html#ad136d169092b7e248afa76cf22d6d420">MR::GUI::MRView::Tool::Edge</a>
 </li>
@@ -511,7 +538,7 @@ $(document).ready(function(){initNavTree('functions_func_c.html','');});
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_mapper_base.html#a3770f0fcb316d780930170fc72d201c3">MR::DWI::Tractography::Mapping::TrackMapperBase</a>
 </li>
 <li>crop_at_gmwmi()
-: <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_a_c_t___shared__additions.html#ab225a5dbb76845609b70d7e28376fdcf">MR::DWI::Tractography::ACT::ACT_Shared_additions</a>
+: <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_a_c_t___shared__additions.html#a73b2467393460c12837456c498611d2b">MR::DWI::Tractography::ACT::ACT_Shared_additions</a>
 </li>
 <li>crop_to_slab()
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a17890c0f328abed77a49974255e92cc8">MR::GUI::MRView::Tool::Tractography</a>
@@ -549,7 +576,7 @@ $(document).ready(function(){initNavTree('functions_func_c.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu May 5 2016 23:35:57 for MRtrix by
+    <li class="footer">Generated on Fri May 6 2016 07:37:14 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

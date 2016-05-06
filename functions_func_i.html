@@ -35,7 +35,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.14-62-gb1c5d335</div>
+   <div id="projectbrief">Version 0.3.14-554-ge132f49d</div>
   </td>
  </tr>
  </tbody>
@@ -225,6 +225,7 @@ $(document).ready(function(){initNavTree('functions_func_i.html','');});
 : <a class="el" href="class_m_r_1_1_adapter_1_1_base.html#ac55b890aeb64a0b30bed6e8a5371778e">MR::Adapter::Base&lt; ImageType &gt;</a>
 , <a class="el" href="class_m_r_1_1_adapter_1_1_extract1_d.html#a6868ae9190348863514600e61846e785">MR::Adapter::Extract1D&lt; ImageType &gt;</a>
 , <a class="el" href="class_m_r_1_1_adapter_1_1_extract.html#a0b43227b01496c1a8c3814e57e118a12">MR::Adapter::Extract&lt; ImageType &gt;</a>
+, <a class="el" href="class_m_r_1_1_adapter_1_1_neighbourhood_coord.html#a336ea78f310d78fe6b8e3be1eba2137f">MR::Adapter::NeighbourhoodCoord&lt; ImageType &gt;</a>
 , <a class="el" href="class_m_r_1_1_adapter_1_1_permute_axes.html#ad72512fc2f35ae8163ac1d0c390128db">MR::Adapter::PermuteAxes&lt; ImageType &gt;</a>
 , <a class="el" href="class_m_r_1_1_adapter_1_1_reslice.html#a7def6d9ffa2e5244a5e704e460178c8b">MR::Adapter::Reslice&lt; Interpolator, ImageType &gt;</a>
 , <a class="el" href="class_m_r_1_1_adapter_1_1_subset.html#a7bc9579c14ca344aa393e6ac8adcd1c5">MR::Adapter::Subset&lt; ImageType &gt;</a>
@@ -237,12 +238,13 @@ $(document).ready(function(){initNavTree('functions_func_i.html','');});
 , <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f___model.html#a2199575cbbfd25cd9fff8d020c57e232">MR::GUI::MRView::Tool::ODF_Model</a>
 </li>
 <li>Index()
-: <a class="el" href="class_m_r_1_1_helper_1_1_index.html#aa9dd276cfd1e85c5eea5d5c9eddd26c5">MR::Helper::Index&lt; ImageType &gt;</a>
+: <a class="el" href="class_m_r_1_1_helper_1_1_index.html#ad2b636dcdd218d8fd05afdf6f43de1cc">MR::Helper::Index&lt; ImageType &gt;</a>
 </li>
 <li>index()
-: <a class="el" href="class_m_r_1_1_image.html#a76da2b5ca614fda017665280aafd338f">MR::Image&lt; ValueType &gt;</a>
+: <a class="el" href="class_m_r_1_1_image.html#a2d63ad6bfc857b23d0f2b5524588cbcb">MR::Image&lt; ValueType &gt;</a>
 , <a class="el" href="class_m_r_1_1_iterator.html#a51eed488a01b7b745b4d07ff5af7046e">MR::Iterator</a>
 , <a class="el" href="class_m_r_1_1_math_1_1_sinc.html#a10a5489acb8b645745821517d16dd111">MR::Math::Sinc&lt; T &gt;</a>
+, <a class="el" href="class_m_r_1_1_neighbourhood_iterator.html#aaf3d0b1ed12678423da9fbe52ad2d2a6">MR::NeighbourhoodIterator</a>
 </li>
 <li>index_of_sequence()
 : <a class="el" href="class_m_r_1_1_file_1_1_name_parser.html#a1db967a230089f6c858bbb47239cae01">MR::File::NameParser</a>
@@ -268,8 +270,12 @@ $(document).ready(function(){initNavTree('functions_func_i.html','');});
 , <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_1_1_grid_layout.html#a1556d6bccf6ca8a71d1ec505dcb66fbd">MR::GUI::MRView::Tool::Base::GridLayout</a>
 , <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_1_1_h_box_layout.html#a42e3a1bc59f51d1b86667a0a634492dc">MR::GUI::MRView::Tool::Base::HBoxLayout</a>
 , <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_1_1_v_box_layout.html#aa928f1b6afaa9b9a5937681233a51dec">MR::GUI::MRView::Tool::Base::VBoxLayout</a>
-, <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent.html#aca21ec80ea2cd3c538f00b2ecf3f40e9">MR::Math::GradientDescent&lt; Function, UpdateFunctor &gt;</a>
+, <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent.html#a816f9e59328e0369906785ea2005d343">MR::Math::GradientDescent&lt; Function, UpdateFunctor &gt;</a>
+, <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#ac1c1ccfa63efb00f44257d521715e0be">MR::Math::GradientDescentBB&lt; Function, UpdateFunctor &gt;</a>
 , <a class="el" href="class_m_r_1_1_math_1_1_s_h_1_1_precomputed_a_l.html#abf387a092dd79918ee55850af5fc4487">MR::Math::SH::PrecomputedAL&lt; ValueType &gt;</a>
+, <a class="el" href="class_m_r_1_1_random__loop.html#a4346c2b550eaa26ccacc0f08f6916936">MR::Random_loop&lt; ImageType, RandomEngine &gt;</a>
+, <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_evaluate.html#a13e37ee273525727df8f82b85f6e8eb1">MR::Registration::Metric::Evaluate&lt; MetricType, ParamType &gt;</a>
+, <a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_init_1_1_f_o_d_initialiser.html#ab37c55f60e0a7d695539704051c75467">MR::Registration::Transform::Init::FODInitialiser</a>
 , <a class="el" href="class_m_r_1_1_stats_1_1_calibrate_histogram.html#a174ea1428474f02718163774796ec860">MR::Stats::CalibrateHistogram</a>
 </li>
 <li>init_dict()
@@ -281,6 +287,9 @@ $(document).ready(function(){initNavTree('functions_func_i.html','');});
 , <a class="el" href="class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_s_h.html#a11c4e502916c109c481a4da319d15e38">MR::GUI::DWI::Renderer::SH</a>
 , <a class="el" href="class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_tensor.html#a8bacd621ffa351c77f3dccccdcf92245">MR::GUI::DWI::Renderer::Tensor</a>
 , <a class="el" href="class_m_r_1_1_g_u_i_1_1_g_l_1_1_font.html#a6c85dac68762501a71cee67290f8b37d">MR::GUI::GL::Font</a>
+</li>
+<li>initialise()
+: <a class="el" href="class_m_r_1_1_registration_1_1_non_linear.html#ab38c081da59bf294b100c41082d0ddd1">MR::Registration::NonLinear</a>
 </li>
 <li>initialize()
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_node__list.html#a6cde82526ce50e32f56d07638d859433">MR::GUI::MRView::Tool::Node_list</a>
@@ -299,9 +308,9 @@ $(document).ready(function(){initNavTree('functions_func_i.html','');});
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_set_voxel_t_o_d.html#ad9c1a9ca766b9a94294147aef410f626">MR::DWI::Tractography::Mapping::Gaussian::SetVoxelTOD</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_dixel.html#a52eb45940ae36de32775a91fbed8033e">MR::DWI::Tractography::Mapping::SetDixel</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_voxel.html#a7fbc3e67716a5a1a0b2f16efca665fff">MR::DWI::Tractography::Mapping::SetVoxel</a>
-, <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_voxel_d_e_c.html#a1d36f44f532b04dfcee18949a2b7225e">MR::DWI::Tractography::Mapping::SetVoxelDEC</a>
-, <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_voxel_dir.html#ab3988fdd47f38b0c385eb195775e855e">MR::DWI::Tractography::Mapping::SetVoxelDir</a>
-, <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_voxel_t_o_d.html#ab46ba8582b6244f6ba2b3b7cc4d51e4e">MR::DWI::Tractography::Mapping::SetVoxelTOD</a>
+, <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_voxel_d_e_c.html#aea04967839fafdac60f46ece3456982d">MR::DWI::Tractography::Mapping::SetVoxelDEC</a>
+, <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_voxel_dir.html#ab03800a159650caae0d4b6103b2f6994">MR::DWI::Tractography::Mapping::SetVoxelDir</a>
+, <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_voxel_t_o_d.html#a6cdebf8fab29b692bee0c25b5e9adebc">MR::DWI::Tractography::Mapping::SetVoxelTOD</a>
 </li>
 <li>Integer()
 : <a class="el" href="class_m_r_1_1_math_1_1_r_n_g_1_1_integer.html#a585b6b30ad2fdc0fe4267d3f5e02e8dd">MR::Math::RNG::Integer&lt; ValueType &gt;</a>
@@ -313,10 +322,10 @@ $(document).ready(function(){initNavTree('functions_func_i.html','');});
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_displayable.html#aebe2b6df96e4037530bb640f407073bf">MR::GUI::MRView::Displayable</a>
 </li>
 <li>intensity_offset()
-: <a class="el" href="class_m_r_1_1_header.html#a68a1b4313e29e93201bb810296a797d8">MR::Header</a>
+: <a class="el" href="class_m_r_1_1_header.html#a1306df1659dadfdc5455f63d6b465dad">MR::Header</a>
 </li>
 <li>intensity_scale()
-: <a class="el" href="class_m_r_1_1_header.html#a135d85d41d0c6e702891ad664e68c4dd">MR::Header</a>
+: <a class="el" href="class_m_r_1_1_header.html#a7eff392b1a1e997f0b5077c7cea01d13">MR::Header</a>
 </li>
 <li>internal_step_size()
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d2_1_1_shared.html#a89d647dfcf7e362727f7e59ffee27273">MR::DWI::Tractography::Algorithms::iFOD2::Shared</a>
@@ -342,7 +351,7 @@ $(document).ready(function(){initNavTree('functions_func_i.html','');});
 : <a class="el" href="class_m_r_1_1_interp_1_1_base.html#af57e9f2db2cec87ed0918a08dc7c01ca">MR::Interp::Base&lt; ImageType &gt;</a>
 </li>
 <li>InvalidImageException()
-: <a class="el" href="class_m_r_1_1_invalid_image_exception.html#ac2c5e09b9a70d3cc8ee510c79c404abc">MR::InvalidImageException</a>
+: <a class="el" href="class_m_r_1_1_invalid_image_exception.html#a2e63fa809295412ec04b063e1ea96464">MR::InvalidImageException</a>
 </li>
 <li>is()
 : <a class="el" href="group___cmd_parse.html#gaf1a1bfe5f40e48bb51ab8ad6dd3e9226">MR::App::Option</a>
@@ -465,11 +474,15 @@ $(document).ready(function(){initNavTree('functions_func_i.html','');});
 </li>
 <li>iterate()
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_c_s_deconv.html#a2a8e0c3415e79daf721493637cf1a536">MR::DWI::CSDeconv</a>
-, <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent.html#a2529dfe8e01f6847f996e9c2997dfc16">MR::Math::GradientDescent&lt; Function, UpdateFunctor &gt;</a>
+, <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent.html#ac49aa921348f7e7ed30d022070d91296">MR::Math::GradientDescent&lt; Function, UpdateFunctor &gt;</a>
+, <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a2474a8347ee8508c766a0fe6ad625e8a">MR::Math::GradientDescentBB&lt; Function, UpdateFunctor &gt;</a>
 </li>
 <li>Iterator()
-: <a class="el" href="class_m_r_1_1_d_w_i_1_1_fixel__map_1_1_iterator.html#af207a4e949d824ae199d6c44273a0503">MR::DWI::Fixel_map&lt; Fixel &gt;::Iterator</a>
+: <a class="el" href="class_m_r_1_1_d_w_i_1_1_fixel__map_1_1_iterator.html#abf2b50176e85c7c221e4ffe54ece27fa">MR::DWI::Fixel_map&lt; Fixel &gt;::Iterator</a>
 , <a class="el" href="class_m_r_1_1_iterator.html#a5bf634ac448049819b95a9fbeeb7a344">MR::Iterator</a>
+</li>
+<li>Iterator_loop()
+: <a class="el" href="class_m_r_1_1_iterator__loop.html#a3bad7c66b756fe29fce02573d474a97d">MR::Iterator_loop&lt; ImageType, IterType &gt;</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -477,7 +490,7 @@ $(document).ready(function(){initNavTree('functions_func_i.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu May 5 2016 23:35:57 for MRtrix by
+    <li class="footer">Generated on Fri May 6 2016 07:37:14 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

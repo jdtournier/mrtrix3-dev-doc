@@ -77,6 +77,15 @@ var group___filters =
       [ "set_extent", "class_m_r_1_1_filter_1_1_median.html#afef630ee397b9f32b3363e6a245d4171", null ],
       [ "extent", "class_m_r_1_1_filter_1_1_median.html#a96e2dff0cb4b657b67a5d4c9fd20ab36", null ]
     ] ],
+    [ "Normalise", "class_m_r_1_1_filter_1_1_normalise.html", [
+      [ "Normalise", "class_m_r_1_1_filter_1_1_normalise.html#ad3ab01351672059b0f8f97ab3c33c00d", null ],
+      [ "Normalise", "class_m_r_1_1_filter_1_1_normalise.html#aeb545a0fb979ae929ab7ba94727c334b", null ],
+      [ "Normalise", "class_m_r_1_1_filter_1_1_normalise.html#acb7ebeb41e858637a164772d5007b6ce", null ],
+      [ "Normalise", "class_m_r_1_1_filter_1_1_normalise.html#a60098d34312653f8fff147440377432b", null ],
+      [ "operator()", "class_m_r_1_1_filter_1_1_normalise.html#ae24c21574e6a86d6a215118268182c79", null ],
+      [ "set_extent", "class_m_r_1_1_filter_1_1_normalise.html#a61a47c70a022c5c344ce657bfb6ec80e", null ],
+      [ "extent", "class_m_r_1_1_filter_1_1_normalise.html#ac38fdb96a1a80b290ee15d8499e2759b", null ]
+    ] ],
     [ "OptimalThreshold", "class_m_r_1_1_filter_1_1_optimal_threshold.html", [
       [ "OptimalThreshold", "class_m_r_1_1_filter_1_1_optimal_threshold.html#a3e9bffb6b2149cdb6ed1fcb7bacaf543", null ],
       [ "operator()", "class_m_r_1_1_filter_1_1_optimal_threshold.html#a8551ea609c86db5b00fa5d415caeac35", null ],
@@ -100,8 +109,10 @@ var group___filters =
       [ "set_extent", "class_m_r_1_1_filter_1_1_smooth.html#ad143451420c134924d044a9545bc2708", null ],
       [ "set_stdev", "class_m_r_1_1_filter_1_1_smooth.html#af4db839e8f514cfa57ea5c16a306ca18", null ],
       [ "set_stdev", "class_m_r_1_1_filter_1_1_smooth.html#a0ca932c43009216b6bef48a1239abd5d", null ],
+      [ "set_zero_boundary", "class_m_r_1_1_filter_1_1_smooth.html#ab1a8303d1465e43acf9bead8560725cf", null ],
       [ "extent", "class_m_r_1_1_filter_1_1_smooth.html#a0eb015e812ad5f8dacf7b56bb37cb4fd", null ],
-      [ "stdev", "class_m_r_1_1_filter_1_1_smooth.html#acded5bb249aca631285c84ddbbc125e2", null ]
+      [ "stdev", "class_m_r_1_1_filter_1_1_smooth.html#acded5bb249aca631285c84ddbbc125e2", null ],
+      [ "zero_boundary", "class_m_r_1_1_filter_1_1_smooth.html#ab230599a62e39e3b5d8668219b84baaa", null ]
     ] ],
     [ "FFT", "group___filters.html#ga45039ad00538128136664ee55eef2f31", null ],
     [ "fft", "group___filters.html#ga5924da72ae3f5fec7be0ac67f919c01c", null ],

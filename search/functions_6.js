@@ -38,6 +38,7 @@ var searchData=
   ['focuschanged',['focusChanged',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_window.html#aa434ebf9d5fae570bb7bc7b9626003b4',1,'MR::GUI::MRView::Window']]],
   ['fod',['FOD',['../class_m_r_1_1_d_w_i_1_1_c_s_deconv.html#abc982e448fb221c92a5ad93021c889f1',1,'MR::DWI::CSDeconv::FOD()'],['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1.html#a41a1bcd5462ddd3e56ab5c069fea7e31',1,'MR::DWI::Tractography::Algorithms::iFOD1::FOD()'],['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_s_d_stream.html#afa7d92e41aba95d62c856a8aac7ff905',1,'MR::DWI::Tractography::Algorithms::SDStream::FOD()']]],
   ['fod_5flobe',['FOD_lobe',['../class_m_r_1_1_d_w_i_1_1_f_m_l_s_1_1_f_o_d__lobe.html#ae8493dcdeb3ec9f75299d2ef682c1437',1,'MR::DWI::FMLS::FOD_lobe::FOD_lobe(const DWI::Directions::Set &amp;dirs, const dir_t seed, const default_type value)'],['../class_m_r_1_1_d_w_i_1_1_f_m_l_s_1_1_f_o_d__lobe.html#a9760088b554f33cb261221de7819e150',1,'MR::DWI::FMLS::FOD_lobe::FOD_lobe(const DWI::Directions::Mask &amp;i)']]],
+  ['fodinitialiser',['FODInitialiser',['../class_m_r_1_1_registration_1_1_transform_1_1_init_1_1_f_o_d_initialiser.html#a130a68a9aea7959eef8033d9c88fb260',1,'MR::Registration::Transform::Init::FODInitialiser']]],
   ['fodqueuewriter',['FODQueueWriter',['../class_m_r_1_1_d_w_i_1_1_f_m_l_s_1_1_f_o_d_queue_writer.html#afe0919b1a25bba7c995f57164fa2586f',1,'MR::DWI::FMLS::FODQueueWriter']]],
   ['font',['Font',['../class_m_r_1_1_g_u_i_1_1_g_l_1_1_font.html#ab25ed625387b169c46ea1af5aab0026e',1,'MR::GUI::GL::Font']]],
   ['footer',['footer',['../group___cmd_parse.html#ga34ecbc7bd525c2aca5a357a9480dde90',1,'MR::App::OptionGroup']]],
@@ -61,5 +62,5 @@ var searchData=
   ['frustum',['frustum',['../namespace_m_r_1_1_g_u_i_1_1_g_l.html#a872b75cc2456a8ff6e0a9c6116581cd1',1,'MR::GUI::GL']]],
   ['full',['full',['../class_m_r_1_1_bit_set.html#ac35db64859f70b0ffb1d73d6dfa62e31',1,'MR::BitSet']]],
   ['full_5fusage',['full_usage',['../group___cmd_parse.html#ga0842c1db4881f89fe7fcdbbeb9fbf9f2',1,'MR::App']]],
-  ['function_5fevaluations',['function_evaluations',['../class_m_r_1_1_math_1_1_gradient_descent.html#a9d6f59f4197120d8dc040c4126df99ef',1,'MR::Math::GradientDescent']]]
+  ['function_5fevaluations',['function_evaluations',['../class_m_r_1_1_math_1_1_gradient_descent.html#a9d6f59f4197120d8dc040c4126df99ef',1,'MR::Math::GradientDescent::function_evaluations()'],['../class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a8f2b5a6b0beac702c205bb800976c19f',1,'MR::Math::GradientDescentBB::function_evaluations()']]]
 ];

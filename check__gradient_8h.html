@@ -35,7 +35,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.14-62-gb1c5d335</div>
+   <div id="projectbrief">Version 0.3.14-554-ge132f49d</div>
   </td>
  </tr>
  </tbody>
@@ -115,7 +115,8 @@ $(document).ready(function(){initNavTree('check__gradient_8h.html','');});
 <div class="title">check_gradient.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="debug_8h_source.html">debug.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;Eigen/SVD&gt;</code><br />
+<code>#include &quot;<a class="el" href="debug_8h_source.html">debug.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="datatype_8h_source.html">datatype.h</a>&quot;</code><br />
 </div>
 <p><a href="check__gradient_8h_source.html">Go to the source code of this file.</a></p>
@@ -129,9 +130,9 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a2275a3c9f72cf4d236ec23b7b97571ef"><td class="memTemplParams" colspan="2">template&lt;class Function &gt; </td></tr>
-<tr class="memitem:a2275a3c9f72cf4d236ec23b7b97571ef"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_math.html#a2275a3c9f72cf4d236ec23b7b97571ef">MR::Math::check_function_gradient</a> (Function &amp;function, Eigen::Matrix&lt; typename Function::value_type, Eigen::Dynamic, 1 &gt; x, typename Function::value_type increment, bool show_hessian=false, Eigen::Matrix&lt; typename Function::value_type, Eigen::Dynamic, 1 &gt; conditioner=Eigen::Matrix&lt; typename Function::value_type, Eigen::Dynamic, 1 &gt;())</td></tr>
-<tr class="separator:a2275a3c9f72cf4d236ec23b7b97571ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71743717e36272ec0545f83d82b7af4d"><td class="memTemplParams" colspan="2">template&lt;class Function &gt; </td></tr>
+<tr class="memitem:a71743717e36272ec0545f83d82b7af4d"><td class="memTemplItemLeft" align="right" valign="top">Eigen::Matrix&lt; typename Function::value_type, Eigen::Dynamic, Eigen::Dynamic &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_math.html#a71743717e36272ec0545f83d82b7af4d">MR::Math::check_function_gradient</a> (Function &amp;function, Eigen::Matrix&lt; typename Function::value_type, Eigen::Dynamic, 1 &gt; x, typename Function::value_type increment, bool show_hessian=false, Eigen::Matrix&lt; typename Function::value_type, Eigen::Dynamic, 1 &gt; conditioner=Eigen::Matrix&lt; typename Function::value_type, Eigen::Dynamic, 1 &gt;())</td></tr>
+<tr class="separator:a71743717e36272ec0545f83d82b7af4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -139,7 +140,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_a36354df93aef5eec904487b77fa4fab.html">math</a></li><li class="navelem"><a class="el" href="check__gradient_8h.html">check_gradient.h</a></li>
-    <li class="footer">Generated on Thu May 5 2016 23:35:55 for MRtrix by
+    <li class="footer">Generated on Fri May 6 2016 07:37:12 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

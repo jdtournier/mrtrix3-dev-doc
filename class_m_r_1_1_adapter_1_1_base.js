@@ -13,6 +13,7 @@ var class_m_r_1_1_adapter_1_1_base =
     [ "parent", "class_m_r_1_1_adapter_1_1_base.html#a3d46409e0fc1873b57aedb490cb99e06", null ],
     [ "parent", "class_m_r_1_1_adapter_1_1_base.html#aab200c97fd37026545ad35a17e182f2f", null ],
     [ "reset", "class_m_r_1_1_adapter_1_1_base.html#a534e6149d5fd5c01d24b67676e2d2fe3", null ],
+    [ "row", "class_m_r_1_1_adapter_1_1_base.html#ae7ae8f3ff5252c81b827d90390b15b77", null ],
     [ "set_value", "class_m_r_1_1_adapter_1_1_base.html#afaec5478c8fdee20b019350ed051f96b", null ],
     [ "size", "class_m_r_1_1_adapter_1_1_base.html#aa2edb71611454bc05a4e723d5a4a22c3", null ],
     [ "spacing", "class_m_r_1_1_adapter_1_1_base.html#a93b5dcc9871c541eac0c1f3a6e4d2803", null ],

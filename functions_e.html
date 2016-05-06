@@ -35,7 +35,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.14-62-gb1c5d335</div>
+   <div id="projectbrief">Version 0.3.14-554-ge132f49d</div>
   </td>
  </tr>
  </tbody>
@@ -394,7 +394,7 @@ $(document).ready(function(){initNavTree('functions_e.html','');});
 : <a class="el" href="class_m_r_1_1_histogram.html#a79352d584cc2cb5c899c5f3aceed0aec">MR::Histogram&lt; Set &gt;</a>
 </li>
 <li>Entry()
-: <a class="el" href="class_m_r_1_1_file_1_1_entry.html#acc33338059cf8f0ee904d2f59801cafa">MR::File::Entry</a>
+: <a class="el" href="class_m_r_1_1_file_1_1_entry.html#a435e8ca255114ae5de633ea6d77e4d0a">MR::File::Entry</a>
 , <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_entry.html#ad78cc79fc9e24affc321b5d5bfa75f3f">MR::GUI::MRView::ColourMap::Entry</a>
 , <a class="el" href="class_m_r_1_1_histogram_1_1_entry.html#af30f6ef4f3f51b780b38e4b1fc6bea46">MR::Histogram&lt; Set &gt;::Entry</a>
 </li>
@@ -432,14 +432,24 @@ $(document).ready(function(){initNavTree('functions_e.html','');});
 <li>error_message
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_combo_box_with_error_msg.html#a1eaf502deb40d47293f73fbff23d9af6">MR::GUI::MRView::ComboBoxWithErrorMsg</a>
 </li>
+<li>estimate()
+: <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_evaluate.html#a3aad601ca55475878501d40858e10b74">MR::Registration::Metric::Evaluate&lt; MetricType, ParamType &gt;</a>
+</li>
 <li>estimate_factors()
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_tck_factor.html#adfde5dc2611bc8be746b2d4bf9b1c300">MR::DWI::Tractography::SIFT2::TckFactor</a>
+</li>
+<li>estimator
+: <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_difference_robust.html#a9fcb37991ba35998a05db11571b3e559">MR::Registration::Metric::DifferenceRobust&lt; Estimator &gt;</a>
 </li>
 <li>eval()
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_external_energy_computer.html#a86eabd655b41af32311f6ae385a805f4">MR::DWI::Tractography::GT::ExternalEnergyComputer</a>
 </li>
+<li>Evaluate()
+: <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_evaluate.html#a562b47cf328432fdf13e2c7e720943d3">MR::Registration::Metric::Evaluate&lt; MetricType, ParamType &gt;</a>
+</li>
 <li>evaluate_func()
 : <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent.html#a5f7c765d5a1e8a3f735108c0ae80a3c9">MR::Math::GradientDescent&lt; Function, UpdateFunctor &gt;</a>
+, <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a0d0786869ba2a493b8433aa2c975325b">MR::Math::GradientDescentBB&lt; Function, UpdateFunctor &gt;</a>
 </li>
 <li>eventFilter()
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_adjust_button.html#ae875a2f4e832bdb25f8c643b752a9439">MR::GUI::MRView::AdjustButton</a>
@@ -466,7 +476,10 @@ $(document).ready(function(){initNavTree('functions_e.html','');});
 : <a class="el" href="group___optimisation.html#gga142be9450c9aac5265dc923bab259fcea96f5c11f8cbb1ec77c39936bbf9cabe3">MR::Math::QuadraticLineSearch&lt; ValueType &gt;</a>
 </li>
 <li>Exemplar()
-: <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_exemplar.html#a22f80cae81ee53a8b2fb5a4449b79cf8">MR::DWI::Tractography::Connectome::Exemplar</a>
+: <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_exemplar.html#ae7d0fba8a0f7f828d8db5783eacb2652">MR::DWI::Tractography::Connectome::Exemplar</a>
+</li>
+<li>ExhaustiveRotationSearch()
+: <a class="el" href="class_m_r_1_1_registration_1_1_rotation_search_1_1_exhaustive_rotation_search.html#ad1855a36649a92cfd074525caea04af6">MR::Registration::RotationSearch::ExhaustiveRotationSearch&lt; MetricType &gt;</a>
 </li>
 <li>expmeanFs
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_line_search_functor_1_1_fixel.html#ae33ec700ec5d67b8326daf724d4b505c">MR::DWI::Tractography::SIFT2::LineSearchFunctor::Fixel</a>
@@ -476,8 +489,15 @@ $(document).ready(function(){initNavTree('functions_e.html','');});
 </li>
 <li>extent
 : <a class="el" href="class_m_r_1_1_adapter_1_1_median.html#a6eb6db68882d240d4d78584fb768f074">MR::Adapter::Median&lt; ImageType &gt;</a>
+, <a class="el" href="class_m_r_1_1_adapter_1_1_normalise3_d.html#ae1abc565212d90e7ecebc09e77e8ce75">MR::Adapter::Normalise3D&lt; ImageType &gt;</a>
 , <a class="el" href="class_m_r_1_1_filter_1_1_median.html#a96e2dff0cb4b657b67a5d4c9fd20ab36">MR::Filter::Median</a>
+, <a class="el" href="class_m_r_1_1_filter_1_1_normalise.html#ac38fdb96a1a80b290ee15d8499e2759b">MR::Filter::Normalise</a>
 , <a class="el" href="class_m_r_1_1_filter_1_1_smooth.html#a0eb015e812ad5f8dacf7b56bb37cb4fd">MR::Filter::Smooth</a>
+, <a class="el" href="class_m_r_1_1_neighbourhood_iterator.html#afcffd1705c824a680b8a02c7a5e9c65f">MR::NeighbourhoodIterator</a>
+, <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_evaluate.html#abdfd9954ba5d9be9987f8f89717683de">MR::Registration::Metric::Evaluate&lt; MetricType, ParamType &gt;</a>
+, <a class="el" href="struct_m_r_1_1_registration_1_1_metric_1_1_n_c_c_precompute_functor_masked___d_e_b_u_g.html#a779b6dda055251d6754ce84796b13bd2">MR::Registration::Metric::NCCPrecomputeFunctorMasked_DEBUG&lt; ImageType1, ImageType2 &gt;</a>
+, <a class="el" href="struct_m_r_1_1_registration_1_1_metric_1_1_n_c_c_precompute_functor_masked___naive.html#a137e0f63656ca7a29dea8c4724677eda">MR::Registration::Metric::NCCPrecomputeFunctorMasked_Naive&lt; ImageType1, ImageType2 &gt;</a>
+, <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_params.html#aadac9cec2e49f980914491767c97f31c">MR::Registration::Metric::Params&lt; TransformType, Im1ImageType, Im2ImageType, MidwayImageType, Im1MaskType, Im2MaskType, Im1ImageInterpType, Im2ImageInterpType, Im1MaskInterpolatorType, Im2MaskInterpolatorType, ProcImageType, ProcImageInterpolatorType, ProcMaskType, ProcessedMaskInterpolatorType &gt;</a>
 </li>
 <li>ExternalEnergyComputer()
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_external_energy_computer.html#a4c1294b3b22eb3545ce36f3e14b7a847">MR::DWI::Tractography::GT::ExternalEnergyComputer</a>
@@ -494,7 +514,7 @@ $(document).ready(function(){initNavTree('functions_e.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu May 5 2016 23:35:57 for MRtrix by
+    <li class="footer">Generated on Fri May 6 2016 07:37:14 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

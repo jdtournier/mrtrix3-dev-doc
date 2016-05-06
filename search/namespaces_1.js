@@ -33,12 +33,14 @@ var searchData=
   ['helper',['Helper',['../namespace_m_r_1_1_helper.html',1,'MR']]],
   ['icls',['ICLS',['../namespace_m_r_1_1_math_1_1_i_c_l_s.html',1,'MR::Math']]],
   ['imageio',['ImageIO',['../namespace_m_r_1_1_image_i_o.html',1,'MR']]],
+  ['init',['Init',['../namespace_m_r_1_1_registration_1_1_transform_1_1_init.html',1,'MR::Registration::Transform']]],
   ['interp',['Interp',['../namespace_m_r_1_1_interp.html',1,'MR']]],
   ['legendre',['Legendre',['../namespace_m_r_1_1_math_1_1_legendre.html',1,'MR::Math']]],
   ['lightboxviewcontrols',['LightBoxViewControls',['../namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_light_box_view_controls.html',1,'MR::GUI::MRView::Mode']]],
   ['mapping',['Mapping',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping.html',1,'MR::DWI::Tractography']]],
   ['math',['Math',['../namespace_m_r_1_1_math.html',1,'MR']]],
   ['mesh',['Mesh',['../namespace_m_r_1_1_mesh.html',1,'MR']]],
+  ['metric',['Metric',['../namespace_m_r_1_1_registration_1_1_metric.html',1,'MR::Registration']]],
   ['mgh',['MGH',['../namespace_m_r_1_1_file_1_1_m_g_h.html',1,'MR::File']]],
   ['mode',['Mode',['../namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode.html',1,'MR::GUI::MRView']]],
   ['mr',['MR',['../namespace_m_r.html',1,'']]],
@@ -50,6 +52,7 @@ var searchData=
   ['raw',['Raw',['../namespace_m_r_1_1_raw.html',1,'MR']]],
   ['registration',['Registration',['../namespace_m_r_1_1_registration.html',1,'MR']]],
   ['rician',['Rician',['../namespace_m_r_1_1_math_1_1_rician.html',1,'MR::Math']]],
+  ['rotationsearch',['RotationSearch',['../namespace_m_r_1_1_registration_1_1_rotation_search.html',1,'MR::Registration']]],
   ['sech',['Sech',['../namespace_m_r_1_1_math_1_1_sech.html',1,'MR::Math']]],
   ['seeding',['Seeding',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_seeding.html',1,'MR::DWI::Tractography']]],
   ['sh',['SH',['../namespace_m_r_1_1_math_1_1_s_h.html',1,'MR::Math']]],
@@ -66,5 +69,6 @@ var searchData=
   ['tool',['Tool',['../namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool.html',1,'MR::GUI::MRView']]],
   ['tracking',['Tracking',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html',1,'MR::DWI::Tractography']]],
   ['tractography',['Tractography',['../namespace_m_r_1_1_d_w_i_1_1_tractography.html',1,'MR::DWI']]],
-  ['transform',['Transform',['../namespace_m_r_1_1_registration_1_1_transform.html',1,'MR::Registration']]]
+  ['transform',['Transform',['../namespace_m_r_1_1_registration_1_1_transform.html',1,'MR::Registration']]],
+  ['warp',['Warp',['../namespace_m_r_1_1_registration_1_1_warp.html',1,'MR::Registration']]]
 ];

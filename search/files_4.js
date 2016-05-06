@@ -7,6 +7,7 @@ var searchData=
   ['energy_2eh',['energy.h',['../energy_8h.html',1,'']]],
   ['entry_2eh',['entry.h',['../entry_8h.html',1,'']]],
   ['erode_2eh',['erode.h',['../erode_8h.html',1,'']]],
+  ['evaluate_2eh',['evaluate.h',['../evaluate_8h.html',1,'']]],
   ['examples_2emd',['examples.md',['../examples_8md.html',1,'']]],
   ['exception_2eh',['exception.h',['../exception_8h.html',1,'']]],
   ['exec_2eh',['exec.h',['../exec_8h.html',1,'']]],

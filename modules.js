@@ -15,5 +15,7 @@ var modules =
     [ "Filters", "group___filters.html", "group___filters" ],
     [ "Linalg", "group__linalg.html", "group__linalg" ],
     [ "Optimisation", "group___optimisation.html", "group___optimisation" ],
-    [ "Statistics", "group___statistics.html", "group___statistics" ]
+    [ "Statistics", "group___statistics.html", "group___statistics" ],
+    [ "Transforms", "group___transforms.html", "group___transforms" ],
+    [ "Registration", "group___registration.html", "group___registration" ]
 ];

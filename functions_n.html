@@ -35,7 +35,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.14-62-gb1c5d335</div>
+   <div id="projectbrief">Version 0.3.14-554-ge132f49d</div>
   </td>
  </tr>
  </tbody>
@@ -174,7 +174,7 @@ $(document).ready(function(){initNavTree('functions_n.html','');});
 </li>
 <li>n_SH()
 : <a class="el" href="class_m_r_1_1_math_1_1_s_h_1_1_transform.html#a568f5155c7b234b90386859c0269de2d">MR::Math::SH::Transform&lt; ValueType &gt;</a>
-, <a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_non_linear_kernel.html#adf669f8228def2048fe2b74e997e7a59">MR::Registration::Transform::NonLinearKernel&lt; FODImageType, WarpImageType &gt;</a>
+, <a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_non_linear_kernel.html#a97cb75287d6de13b81bce184e356f242">MR::Registration::Transform::NonLinearKernel&lt; FODImageType &gt;</a>
 </li>
 <li>nAL
 : <a class="el" href="class_m_r_1_1_math_1_1_s_h_1_1_precomputed_a_l.html#a6a6119d535416f86f36e9727525edcdd">MR::Math::SH::PrecomputedAL&lt; ValueType &gt;</a>
@@ -209,6 +209,12 @@ $(document).ready(function(){initNavTree('functions_n.html','');});
 <li>native()
 : <a class="el" href="class_m_r_1_1_data_type.html#a6dcdd2d6df40018a2a01b97473564a67">MR::DataType</a>
 </li>
+<li>NCCPrecomputeFunctorMasked_DEBUG()
+: <a class="el" href="struct_m_r_1_1_registration_1_1_metric_1_1_n_c_c_precompute_functor_masked___d_e_b_u_g.html#a12da9c8970e3ea958d603306f626dd88">MR::Registration::Metric::NCCPrecomputeFunctorMasked_DEBUG&lt; ImageType1, ImageType2 &gt;</a>
+</li>
+<li>NCCPrecomputeFunctorMasked_Naive()
+: <a class="el" href="struct_m_r_1_1_registration_1_1_metric_1_1_n_c_c_precompute_functor_masked___naive.html#a65a2d334f4e0d15234ad8757b19ac0b0">MR::Registration::Metric::NCCPrecomputeFunctorMasked_Naive&lt; ImageType1, ImageType2 &gt;</a>
+</li>
 <li>ncols
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_external_energy_computer.html#a26a8612cf298d77ea92773d92f3c57a7">MR::DWI::Tractography::GT::ExternalEnergyComputer</a>
 </li>
@@ -217,6 +223,7 @@ $(document).ready(function(){initNavTree('functions_n.html','');});
 </li>
 <li>ndim()
 : <a class="el" href="class_m_r_1_1_adapter_1_1_base.html#a3deeab1600b554182327981f4538f29d">MR::Adapter::Base&lt; ImageType &gt;</a>
+, <a class="el" href="class_m_r_1_1_adapter_1_1_neighbourhood_coord.html#abeef71d509eb5293ff56bccab31f3adc">MR::Adapter::NeighbourhoodCoord&lt; ImageType &gt;</a>
 , <a class="el" href="class_m_r_1_1_adapter_1_1_permute_axes.html#a2049a119c6c1a9e4c2133d7f4786522e">MR::Adapter::PermuteAxes&lt; ImageType &gt;</a>
 , <a class="el" href="class_m_r_1_1_adapter_1_1_replicate.html#a3816d29a081306e1d7276d5d9621723c">MR::Adapter::Replicate&lt; ImageType &gt;</a>
 , <a class="el" href="class_m_r_1_1_adapter_1_1_reslice.html#a509439dde560178593ce3f058f2e2235">MR::Adapter::Reslice&lt; Interpolator, ImageType &gt;</a>
@@ -227,6 +234,7 @@ $(document).ready(function(){initNavTree('functions_n.html','');});
 , <a class="el" href="group___image_a_p_i.html#gacf87cbce887038ee3a77d6d72668eaed">MR::Header</a>
 , <a class="el" href="class_m_r_1_1_image.html#ada19733024c1572088c5dabce82e47da">MR::Image&lt; ValueType &gt;</a>
 , <a class="el" href="class_m_r_1_1_iterator.html#aa5e0df826e7eeb0f007ce6c893101bc0">MR::Iterator</a>
+, <a class="el" href="class_m_r_1_1_neighbourhood_iterator.html#a9304251e2f96cc57441e855b9e604551">MR::NeighbourhoodIterator</a>
 </li>
 <li>ndir
 : <a class="el" href="class_m_r_1_1_math_1_1_s_h_1_1_precomputed_a_l.html#ae7c66cf90354d50a6ea0f7185baabf75">MR::Math::SH::PrecomputedAL&lt; ValueType &gt;</a>
@@ -257,6 +265,15 @@ $(document).ready(function(){initNavTree('functions_n.html','');});
 </li>
 <li>neighbourhood
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_internal_energy_computer.html#a189217ec8f1018e630a2ce14f636e68f">MR::DWI::Tractography::GT::InternalEnergyComputer</a>
+</li>
+<li>NeighbourhoodCoord()
+: <a class="el" href="class_m_r_1_1_adapter_1_1_neighbourhood_coord.html#ac91677311cacd27f469a56c07085d3c5">MR::Adapter::NeighbourhoodCoord&lt; ImageType &gt;</a>
+</li>
+<li>NeighbourhoodIterator()
+: <a class="el" href="class_m_r_1_1_neighbourhood_iterator.html#afd249a6a43d72acdaefe6ba00c8545d7">MR::NeighbourhoodIterator</a>
+</li>
+<li>nelements
+: <a class="el" href="class_m_r_1_1_adapter_1_1_normalise3_d.html#a357ad22ec8be1793a84b45b1f3794d97">MR::Adapter::Normalise3D&lt; ImageType &gt;</a>
 </li>
 <li>next()
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_f_a_c_t.html#a9266809e812a5d199235ab879a66102d">MR::DWI::Tractography::Algorithms::FACT</a>
@@ -302,7 +319,8 @@ $(document).ready(function(){initNavTree('functions_n.html','');});
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_external_energy_computer.html#a80f101c84e0595b16258b1ae24acad34">MR::DWI::Tractography::GT::ExternalEnergyComputer</a>
 </li>
 <li>nfeval
-: <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent.html#a25602e8b286eed7c0a82ca1b71180683">MR::Math::GradientDescent&lt; Function, UpdateFunctor &gt;</a>
+: <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent.html#a066a054a429621537f0bf2c7c17eeb8d">MR::Math::GradientDescent&lt; Function, UpdateFunctor &gt;</a>
+, <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#ab179aea4d9df9a52b6daf22ba48088d0">MR::Math::GradientDescentBB&lt; Function, UpdateFunctor &gt;</a>
 </li>
 <li>NIfTI()
 : <a class="el" href="class_m_r_1_1_formats_1_1_n_if_t_i.html#aa6af3f99b94814ff25d597371e50d4b4">MR::Formats::NIfTI</a>
@@ -315,6 +333,8 @@ $(document).ready(function(){initNavTree('functions_n.html','');});
 </li>
 <li>niter
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_c_s_deconv_1_1_shared.html#a47fa5104559c54fd315c3e66fce15b89">MR::DWI::CSDeconv::Shared</a>
+, <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent.html#ad05d23200002cd17501df0bce4777078">MR::Math::GradientDescent&lt; Function, UpdateFunctor &gt;</a>
+, <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#abd110cafe7308079864c4fd7fe8e88c3">MR::Math::GradientDescentBB&lt; Function, UpdateFunctor &gt;</a>
 </li>
 <li>nnls
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_external_energy_computer.html#a98bef1c445b8af0d6ee106f4ed21bffa">MR::DWI::Tractography::GT::ExternalEnergyComputer</a>
@@ -398,7 +418,7 @@ $(document).ready(function(){initNavTree('functions_n.html','');});
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_connectome.html#a9aaf419750b389dff63518598ac0087b">MR::GUI::MRView::Tool::Connectome</a>
 </li>
 <li>Node_info()
-: <a class="el" href="class_m_r_1_1_connectome_1_1_node__info.html#a7462fa18478361cc8480ca4b038183b3">MR::Connectome::Node_info</a>
+: <a class="el" href="class_m_r_1_1_connectome_1_1_node__info.html#a6fc2c7af3e8470434200c2ce04890b30">MR::Connectome::Node_info</a>
 </li>
 <li>Node_list
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_connectome.html#a8d9e49cbcb3528936637c1c506eaa064">MR::GUI::MRView::Tool::Connectome</a>
@@ -519,8 +539,11 @@ $(document).ready(function(){initNavTree('functions_n.html','');});
 <li>NONE
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f___item_1_1_dixel_plugin.html#ad80783ddfc6ec2eb2bdd04db5aa36999a5f96e9a3afceff30a79fd1871c272211">MR::GUI::MRView::Tool::ODF_Item::DixelPlugin</a>
 </li>
+<li>NonLinear()
+: <a class="el" href="class_m_r_1_1_registration_1_1_non_linear.html#a1d15c621125f31c03f4f4477c86d5d1a">MR::Registration::NonLinear</a>
+</li>
 <li>NonLinearKernel()
-: <a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_non_linear_kernel.html#a597c01d3e6bfc813cccd86840435168c">MR::Registration::Transform::NonLinearKernel&lt; FODImageType, WarpImageType &gt;</a>
+: <a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_non_linear_kernel.html#adb2f5b76c3afa4f3f2963e624f76c7ca">MR::Registration::Transform::NonLinearKernel&lt; FODImageType &gt;</a>
 </li>
 <li>norm()
 : <a class="el" href="class_m_r_1_1_mesh_1_1_mesh.html#a0134f9c2d03ab6a24404abbaf676040b">MR::Mesh::Mesh</a>
@@ -539,13 +562,25 @@ $(document).ready(function(){initNavTree('functions_n.html','');});
 </li>
 <li>normalise()
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_streamline_stats.html#a5056e6049840e0157431103e98194507">MR::DWI::Tractography::SIFT2::StreamlineStats</a>
-, <a class="el" href="class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_render_frame.html#abce4806eacbaa50c0d288cff287fde91">MR::GUI::DWI::RenderFrame</a>
+</li>
+<li>Normalise()
+: <a class="el" href="class_m_r_1_1_filter_1_1_normalise.html#aeb545a0fb979ae929ab7ba94727c334b">MR::Filter::Normalise</a>
+</li>
+<li>normalise
+: <a class="el" href="class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_render_frame.html#abce4806eacbaa50c0d288cff287fde91">MR::GUI::DWI::RenderFrame</a>
+</li>
+<li>Normalise3D()
+: <a class="el" href="class_m_r_1_1_adapter_1_1_normalise3_d.html#a03f29e282ee2229e33b39a161ee544f7">MR::Adapter::Normalise3D&lt; ImageType &gt;</a>
 </li>
 <li>normalise_mean_coeff()
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_fixel.html#a0b8bbbcc8c5d936085bfae4ddf31c56c">MR::DWI::Tractography::SIFT2::Fixel</a>
 </li>
 <li>normalise_slot()
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_window.html#a74321b28b4143b38a4008d8a6186d355">MR::GUI::DWI::Window</a>
+</li>
+<li>normaliser
+: <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_demons4_d.html#a8ebaf9a179631d18eb04607fc27e5cab">MR::Registration::Metric::Demons4D&lt; Im1ImageType, Im2ImageType, Im1MaskType, Im2MaskType &gt;</a>
+, <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_demons.html#a378e15788274bb0a994cebb0fb451466">MR::Registration::Metric::Demons&lt; Im1ImageType, Im2ImageType, Im1MaskType, Im2MaskType &gt;</a>
 </li>
 <li>normalization
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_internal_energy_computer.html#afb4fa802cda09b20b4dba8c2ecc7eb94">MR::DWI::Tractography::GT::InternalEnergyComputer</a>
@@ -573,6 +608,7 @@ $(document).ready(function(){initNavTree('functions_n.html','');});
 </li>
 <li>normg
 : <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent.html#a3618427f53c7981b0e65037b8e3b150d">MR::Math::GradientDescent&lt; Function, UpdateFunctor &gt;</a>
+, <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#aed810cef6d76e37a1beba7d94b096111">MR::Math::GradientDescentBB&lt; Function, UpdateFunctor &gt;</a>
 </li>
 <li>not_3D
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a0b387214b9dc7f65c7aef6b682e20d15">MR::GUI::MRView::Tool::Tractography</a>
@@ -670,13 +706,16 @@ $(document).ready(function(){initNavTree('functions_n.html','');});
 <li>number
 : <a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_series.html#aaa981ef112cbd7cb62fd8f6d4d7d5e41">MR::File::Dicom::Series</a>
 </li>
+<li>number_of_parameters
+: <a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_base.html#a54a07872cb5d9b45a06dd45977d95027">MR::Registration::Transform::Base</a>
+</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu May 5 2016 23:35:57 for MRtrix by
+    <li class="footer">Generated on Fri May 6 2016 07:37:14 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

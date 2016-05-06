@@ -2,6 +2,8 @@ var math_8h =
 [
     [ "ceil", "math_8h.html#ga929c0b6d5d5154833c7387b2c65b0775", null ],
     [ "floor", "math_8h.html#gab310e988d3bb075d50e9399dacb159f0", null ],
+    [ "is_finite", "math_8h.html#gadf6f80070282eaae4cd7bdf36182e9df", null ],
+    [ "is_nan", "math_8h.html#ga5de5c24270862b37e4e62ea94a962c9d", null ],
     [ "load_matrix", "math_8h.html#ae95611ab298c2593fd1c4877d0937da7", null ],
     [ "load_matrix_2D_vector", "math_8h.html#af4343da4edeaf484cde4eac48e4142ab", null ],
     [ "load_transform", "math_8h.html#aec6f4492ea80e69c7fa6f2a5c152d719", null ],

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['thread_2dsafe_20image_20looping',['Thread-safe image looping',['../group__image__thread__looping.html',1,'']]],
-  ['thread_2dsafe_20queue',['Thread-safe queue',['../group__thread__queue.html',1,'']]]
+  ['spherical_20harmonics',['Spherical Harmonics',['../group__spherical__harmonics.html',1,'']]],
+  ['statistics',['Statistics',['../group___statistics.html',1,'']]]
 ];

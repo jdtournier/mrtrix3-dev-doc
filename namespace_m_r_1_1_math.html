@@ -35,7 +35,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.14-62-gb1c5d335</div>
+   <div id="projectbrief">Version 0.3.14-554-ge132f49d</div>
   </td>
  </tr>
  </tbody>
@@ -148,12 +148,19 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent.html">GradientDescent</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the minimum of a function using a gradient descent approach.  <a href="class_m_r_1_1_math_1_1_gradient_descent.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html">GradientDescentBB</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the minimum of a function using a Barzilai Borwein gradient descent approach.  <a href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_hermite.html">Hermite</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_hermite_spline.html">HermiteSpline</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_linear_update_b_b.html">LinearUpdateBB</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_quadratic_line_search.html">QuadraticLineSearch</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the minimum of a 1D function using a quadratic line search.  <a href="class_m_r_1_1_math_1_1_quadratic_line_search.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_rigid_linear_non_symmetric_update.html">RigidLinearNonSymmetricUpdate</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_r_n_g.html">RNG</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">random number generator  <a href="class_m_r_1_1_math_1_1_r_n_g.html#details">More...</a><br /></td></tr>
@@ -182,11 +189,13 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a8a5dea130ce3a4ebd7aa0d3dd7a38059"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_math.html#a8a5dea130ce3a4ebd7aa0d3dd7a38059">matrix_average</a> (std::vector&lt; Eigen::MatrixXd &gt; const &amp;mat_in, Eigen::MatrixXd &amp;mat_avg, bool verbose=false)</td></tr>
+<tr class="separator:a8a5dea130ce3a4ebd7aa0d3dd7a38059"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab12f7416b1f0b036aa6cd6a9bf79fba0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_math.html#ab12f7416b1f0b036aa6cd6a9bf79fba0">cauchy</a> (float x, float s)</td></tr>
 <tr class="separator:ab12f7416b1f0b036aa6cd6a9bf79fba0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2275a3c9f72cf4d236ec23b7b97571ef"><td class="memTemplParams" colspan="2">template&lt;class Function &gt; </td></tr>
-<tr class="memitem:a2275a3c9f72cf4d236ec23b7b97571ef"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_math.html#a2275a3c9f72cf4d236ec23b7b97571ef">check_function_gradient</a> (Function &amp;function, Eigen::Matrix&lt; typename Function::value_type, Eigen::Dynamic, 1 &gt; x, typename Function::value_type increment, bool show_hessian=false, Eigen::Matrix&lt; typename Function::value_type, Eigen::Dynamic, 1 &gt; conditioner=Eigen::Matrix&lt; typename Function::value_type, Eigen::Dynamic, 1 &gt;())</td></tr>
-<tr class="separator:a2275a3c9f72cf4d236ec23b7b97571ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71743717e36272ec0545f83d82b7af4d"><td class="memTemplParams" colspan="2">template&lt;class Function &gt; </td></tr>
+<tr class="memitem:a71743717e36272ec0545f83d82b7af4d"><td class="memTemplItemLeft" align="right" valign="top">Eigen::Matrix&lt; typename Function::value_type, Eigen::Dynamic, Eigen::Dynamic &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_math.html#a71743717e36272ec0545f83d82b7af4d">check_function_gradient</a> (Function &amp;function, Eigen::Matrix&lt; typename Function::value_type, Eigen::Dynamic, 1 &gt; x, typename Function::value_type increment, bool show_hessian=false, Eigen::Matrix&lt; typename Function::value_type, Eigen::Dynamic, 1 &gt; conditioner=Eigen::Matrix&lt; typename Function::value_type, Eigen::Dynamic, 1 &gt;())</td></tr>
+<tr class="separator:a71743717e36272ec0545f83d82b7af4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaafdf3a16b3a510b89a999301ffbfd205"><td class="memTemplParams" colspan="2">template&lt;class FunctionType , typename ValueType &gt; </td></tr>
 <tr class="memitem:gaafdf3a16b3a510b89a999301ffbfd205"><td class="memTemplItemLeft" align="right" valign="top">ValueType&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___optimisation.html#gaafdf3a16b3a510b89a999301ffbfd205">golden_section_search</a> (FunctionType &amp;function, const std::string &amp;message, ValueType min_bound, ValueType init_estimate, ValueType max_bound, ValueType tolerance=0.01)</td></tr>
 <tr class="memdesc:gaafdf3a16b3a510b89a999301ffbfd205"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the minimum of a 1D function using a golden section search.  <a href="group___optimisation.html#gaafdf3a16b3a510b89a999301ffbfd205">More...</a><br /></td></tr>
@@ -239,9 +248,15 @@ Functions</h2></td></tr>
 <tr class="memitem:aaf669a58d9721e99938e232f90af93b1"><td class="memTemplParams" colspan="2">template&lt;class Container &gt; </td></tr>
 <tr class="memitem:aaf669a58d9721e99938e232f90af93b1"><td class="memTemplItemLeft" align="right" valign="top">Container::value_type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_math.html#aaf669a58d9721e99938e232f90af93b1">median</a> (Container &amp;list)</td></tr>
 <tr class="separator:aaf669a58d9721e99938e232f90af93b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a673b3d75a50ad4cc1d0a6a59e313355f"><td class="memTemplParams" colspan="2">template&lt;class MatrixType  = Eigen::Matrix&lt;default_type, 3, Eigen::Dynamic&gt;, class VectorType  = Eigen::Matrix&lt;default_type, 3, 1&gt;&gt; </td></tr>
+<tr class="memitem:a673b3d75a50ad4cc1d0a6a59e313355f"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_math.html#a673b3d75a50ad4cc1d0a6a59e313355f">median_weiszfeld</a> (const MatrixType &amp;X, VectorType &amp;<a class="el" href="namespace_m_r_1_1_math.html#aaf669a58d9721e99938e232f90af93b1">median</a>, const size_t numIter=300, const <a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a> precision=0.00001)</td></tr>
+<tr class="separator:a673b3d75a50ad4cc1d0a6a59e313355f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82e840ca812fabe567b7aa6171d58818"><td class="memTemplParams" colspan="2">template&lt;typename value_type &gt; </td></tr>
 <tr class="memitem:a82e840ca812fabe567b7aa6171d58818"><td class="memTemplItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_math.html#a82e840ca812fabe567b7aa6171d58818">operator&lt;&lt;</a> (std::ostream &amp;stream, const <a class="el" href="class_m_r_1_1_math_1_1_versor.html">Versor</a>&lt; value_type &gt; &amp;v)</td></tr>
 <tr class="separator:a82e840ca812fabe567b7aa6171d58818"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b6944c8f6b2cb681a86fbc27d855023"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a3b6944c8f6b2cb681a86fbc27d855023"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_math.html#a3b6944c8f6b2cb681a86fbc27d855023">sgn</a> (T val)</td></tr>
+<tr class="separator:a3b6944c8f6b2cb681a86fbc27d855023"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -304,7 +319,7 @@ Variables</h2></td></tr>
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="cubic__spline_8h_source.html#l00023">23</a> of file <a class="el" href="cubic__spline_8h_source.html">cubic_spline.h</a>.</p>
+<p>Definition at line <a class="el" href="cubic__spline_8h_source.html#l00022">22</a> of file <a class="el" href="cubic__spline_8h_source.html">cubic_spline.h</a>.</p>
 
 </div>
 </div>
@@ -345,14 +360,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a2275a3c9f72cf4d236ec23b7b97571ef"></a>
+<a class="anchor" id="a71743717e36272ec0545f83d82b7af4d"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;class Function &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void MR::Math::check_function_gradient </td>
+          <td class="memname">Eigen::Matrix&lt;typename Function::value_type, Eigen::Dynamic, Eigen::Dynamic&gt; MR::Math::check_function_gradient </td>
           <td>(</td>
           <td class="paramtype">Function &amp;&#160;</td>
           <td class="paramname"><em>function</em>, </td>
@@ -389,7 +404,39 @@ template&lt;class Function &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="check__gradient_8h_source.html#l00026">26</a> of file <a class="el" href="check__gradient_8h_source.html">check_gradient.h</a>.</p>
+<p>Definition at line <a class="el" href="check__gradient_8h_source.html#l00027">27</a> of file <a class="el" href="check__gradient_8h_source.html">check_gradient.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8a5dea130ce3a4ebd7aa0d3dd7a38059"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::Math::matrix_average </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; Eigen::MatrixXd &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>mat_in</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Eigen::MatrixXd &amp;&#160;</td>
+          <td class="paramname"><em>mat_avg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>verbose</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -418,6 +465,48 @@ template&lt;class Container &gt; </div>
 </div><div class="memdoc">
 
 <p>Definition at line <a class="el" href="math_2median_8h_source.html#l00045">45</a> of file <a class="el" href="math_2median_8h_source.html">median.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a673b3d75a50ad4cc1d0a6a59e313355f"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class MatrixType  = Eigen::Matrix&lt;default_type, 3, Eigen::Dynamic&gt;, class VectorType  = Eigen::Matrix&lt;default_type, 3, 1&gt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::Math::median_weiszfeld </td>
+          <td>(</td>
+          <td class="paramtype">const MatrixType &amp;&#160;</td>
+          <td class="paramname"><em>X</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">VectorType &amp;&#160;</td>
+          <td class="paramname"><em>median</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const size_t&#160;</td>
+          <td class="paramname"><em>numIter</em> = <code>300</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a>&#160;</td>
+          <td class="paramname"><em>precision</em> = <code>0.00001</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="math_2median_8h_source.html#l00074">74</a> of file <a class="el" href="math_2median_8h_source.html">median.h</a>.</p>
 
 </div>
 </div>
@@ -459,13 +548,41 @@ template&lt;typename value_type &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="a3b6944c8f6b2cb681a86fbc27d855023"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::Math::sgn </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="robust__estimators_8h_source.html#l00023">23</a> of file <a class="el" href="robust__estimators_8h_source.html">robust_estimators.h</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_math.html">Math</a></li>
-    <li class="footer">Generated on Thu May 5 2016 23:35:57 for MRtrix by
+    <li class="footer">Generated on Fri May 6 2016 07:37:14 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

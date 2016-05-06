@@ -11,11 +11,20 @@ var dir_030e36e35507d98e7a021de79f0fc99a =
     [ "gradient1D.h", "gradient1_d_8h.html", [
       [ "Gradient1D", "class_m_r_1_1_adapter_1_1_gradient1_d.html", "class_m_r_1_1_adapter_1_1_gradient1_d" ]
     ] ],
+    [ "gradient3D.h", "gradient3_d_8h.html", [
+      [ "Gradient3D", "class_m_r_1_1_adapter_1_1_gradient3_d.html", "class_m_r_1_1_adapter_1_1_gradient3_d" ]
+    ] ],
     [ "jacobian.h", "jacobian_8h.html", [
       [ "Jacobian", "class_m_r_1_1_adapter_1_1_jacobian.html", "class_m_r_1_1_adapter_1_1_jacobian" ]
     ] ],
     [ "median.h", "adapter_2median_8h.html", [
       [ "Median", "class_m_r_1_1_adapter_1_1_median.html", "class_m_r_1_1_adapter_1_1_median" ]
+    ] ],
+    [ "neighbourhood3D.h", "neighbourhood3_d_8h.html", [
+      [ "NeighbourhoodCoord", "class_m_r_1_1_adapter_1_1_neighbourhood_coord.html", "class_m_r_1_1_adapter_1_1_neighbourhood_coord" ]
+    ] ],
+    [ "normalise3D.h", "normalise3_d_8h.html", [
+      [ "Normalise3D", "class_m_r_1_1_adapter_1_1_normalise3_d.html", "class_m_r_1_1_adapter_1_1_normalise3_d" ]
     ] ],
     [ "permute_axes.h", "permute__axes_8h.html", [
       [ "PermuteAxes", "class_m_r_1_1_adapter_1_1_permute_axes.html", "class_m_r_1_1_adapter_1_1_permute_axes" ]

@@ -2,12 +2,13 @@ var searchData=
 [
   ['ifod1',['iFOD1',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1.html',1,'MR::DWI::Tractography::Algorithms']]],
   ['ifod2',['iFOD2',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d2.html',1,'MR::DWI::Tractography::Algorithms']]],
-  ['image',['Image',['../class_m_r_1_1_sparse_1_1_image.html',1,'MR::Sparse']]],
   ['image',['Image',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_image.html',1,'MR::GUI::MRView']]],
+  ['image',['Image',['../class_m_r_1_1_sparse_1_1_image.html',1,'MR::Sparse']]],
   ['image',['Image',['../class_m_r_1_1_file_1_1_dicom_1_1_image.html',1,'MR::File::Dicom']]],
   ['image',['Image',['../class_m_r_1_1_image.html',1,'MR']]],
   ['image_3c_20bool_20_3e',['Image&lt; bool &gt;',['../class_m_r_1_1_image.html',1,'MR']]],
   ['image_3c_20cfloat_20_3e',['Image&lt; cfloat &gt;',['../class_m_r_1_1_image.html',1,'MR']]],
+  ['image_3c_20default_5ftype_20_3e',['Image&lt; default_type &gt;',['../class_m_r_1_1_image.html',1,'MR']]],
   ['image_3c_20float_20_3e',['Image&lt; float &gt;',['../class_m_r_1_1_image.html',1,'MR']]],
   ['image_3c_20int32_5ft_20_3e',['Image&lt; int32_t &gt;',['../class_m_r_1_1_image.html',1,'MR']]],
   ['image_3c_20mapvoxel_20_2a_20_3e',['Image&lt; MapVoxel * &gt;',['../class_m_r_1_1_image.html',1,'MR']]],
@@ -36,9 +37,10 @@ var searchData=
   ['is_5fheader_5ftype',['is_header_type',['../class_m_r_1_1is__header__type.html',1,'MR']]],
   ['is_5fimage_5ftype',['is_image_type',['../class_m_r_1_1is__image__type.html',1,'MR']]],
   ['is_5fpure_5fimage',['is_pure_image',['../struct_m_r_1_1is__pure__image.html',1,'MR']]],
+  ['item',['Item',['../class_m_r_1_1_file_1_1_name_parser_1_1_item.html',1,'MR::File::NameParser']]],
   ['item',['Item',['../class_m_r_1_1_thread_1_1_queue_1_1_reader_1_1_item.html',1,'MR::Thread::Queue::Reader']]],
   ['item',['Item',['../class_m_r_1_1_thread_1_1_queue_1_1_writer_1_1_item.html',1,'MR::Thread::Queue::Writer']]],
-  ['item',['Item',['../class_m_r_1_1_file_1_1_name_parser_1_1_item.html',1,'MR::File::NameParser']]],
+  ['iterator',['Iterator',['../class_m_r_1_1_d_w_i_1_1_fixel__map_1_1_iterator.html',1,'MR::DWI::Fixel_map']]],
   ['iterator',['Iterator',['../class_m_r_1_1_iterator.html',1,'MR']]],
-  ['iterator',['Iterator',['../class_m_r_1_1_d_w_i_1_1_fixel__map_1_1_iterator.html',1,'MR::DWI::Fixel_map']]]
+  ['iterator_5floop',['Iterator_loop',['../class_m_r_1_1_iterator__loop.html',1,'MR']]]
 ];

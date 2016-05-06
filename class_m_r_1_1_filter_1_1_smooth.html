@@ -35,7 +35,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.14-62-gb1c5d335</div>
+   <div id="projectbrief">Version 0.3.14-554-ge132f49d</div>
   </td>
  </tr>
  </tbody>
@@ -143,10 +143,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad143451420c134924d044a9545bc2708"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4db839e8f514cfa57ea5c16a306ca18"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_filter_1_1_smooth.html#af4db839e8f514cfa57ea5c16a306ca18">set_stdev</a> (<a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a> <a class="el" href="class_m_r_1_1_filter_1_1_smooth.html#acded5bb249aca631285c84ddbbc125e2">stdev</a>)</td></tr>
 <tr class="separator:af4db839e8f514cfa57ea5c16a306ca18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1a8303d1465e43acf9bead8560725cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_filter_1_1_smooth.html#ab1a8303d1465e43acf9bead8560725cf">set_zero_boundary</a> (bool do_zero_boundary)</td></tr>
+<tr class="memdesc:ab1a8303d1465e43acf9bead8560725cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">ensure the image boundary remains zero. Used to constrain displacement fields during image registration  <a href="#ab1a8303d1465e43acf9bead8560725cf">More...</a><br /></td></tr>
+<tr class="separator:ab1a8303d1465e43acf9bead8560725cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ca932c43009216b6bef48a1239abd5d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_filter_1_1_smooth.html#a0ca932c43009216b6bef48a1239abd5d">set_stdev</a> (const std::vector&lt; <a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a> &gt; &amp;std_dev)</td></tr>
 <tr class="separator:a0ca932c43009216b6bef48a1239abd5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd8b6aa84b3c56326e40853fd125078b"><td class="memTemplParams" colspan="2">template&lt;class InputImageType , class OutputImageType , typename ValueType  = float&gt; </td></tr>
 <tr class="memitem:afd8b6aa84b3c56326e40853fd125078b"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_filter_1_1_smooth.html#afd8b6aa84b3c56326e40853fd125078b">operator()</a> (InputImageType &amp;input, OutputImageType &amp;output)</td></tr>
+<tr class="memdesc:afd8b6aa84b3c56326e40853fd125078b"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_m_r_1_1_filter_1_1_smooth.html">Smooth</a> the input image. Both input and output images can be the same image.  <a href="#afd8b6aa84b3c56326e40853fd125078b">More...</a><br /></td></tr>
 <tr class="separator:afd8b6aa84b3c56326e40853fd125078b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_m_r_1_1_filter_1_1_base"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_m_r_1_1_filter_1_1_base')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_m_r_1_1_filter_1_1_base.html">MR::Filter::Base</a></td></tr>
 <tr class="memitem:a6f51b9d6969898646afe4e413548f478 inherit pub_methods_class_m_r_1_1_filter_1_1_base"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
@@ -296,6 +300,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a0eb015e812ad5f8dacf7b56bb37cb4fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acded5bb249aca631285c84ddbbc125e2"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_filter_1_1_smooth.html#acded5bb249aca631285c84ddbbc125e2">stdev</a></td></tr>
 <tr class="separator:acded5bb249aca631285c84ddbbc125e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab230599a62e39e3b5d8668219b84baaa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_filter_1_1_smooth.html#ab230599a62e39e3b5d8668219b84baaa">zero_boundary</a></td></tr>
+<tr class="separator:ab230599a62e39e3b5d8668219b84baaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_m_r_1_1_filter_1_1_base"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_m_r_1_1_filter_1_1_base')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_m_r_1_1_filter_1_1_base.html">MR::Filter::Base</a></td></tr>
 <tr class="memitem:ac81802c82747313871e7db40b58207cc inherit pro_attribs_class_m_r_1_1_filter_1_1_base"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_filter_1_1_base.html#ac81802c82747313871e7db40b58207cc">message</a></td></tr>
 <tr class="separator:ac81802c82747313871e7db40b58207cc inherit pro_attribs_class_m_r_1_1_filter_1_1_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -416,7 +422,7 @@ template&lt;class HeaderType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="smooth_8h_source.html#l00061">61</a> of file <a class="el" href="smooth_8h_source.html">smooth.h</a>.</p>
+<p>Definition at line <a class="el" href="smooth_8h_source.html#l00062">62</a> of file <a class="el" href="smooth_8h_source.html">smooth.h</a>.</p>
 
 </div>
 </div>
@@ -455,7 +461,9 @@ template&lt;class InputImageType , class OutputImageType , typename ValueType  =
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="smooth_8h_source.html#l00114">114</a> of file <a class="el" href="smooth_8h_source.html">smooth.h</a>.</p>
+<p><a class="el" href="class_m_r_1_1_filter_1_1_smooth.html">Smooth</a> the input image. Both input and output images can be the same image. </p>
+
+<p>Definition at line <a class="el" href="smooth_8h_source.html#l00120">120</a> of file <a class="el" href="smooth_8h_source.html">smooth.h</a>.</p>
 
 </div>
 </div>
@@ -482,7 +490,7 @@ template&lt;class InputImageType , class OutputImageType , typename ValueType  =
 </div><div class="memdoc">
 <p>Set the extent of smoothing kernel in voxels. This can be set as a single value to be used for the first 3 dimensions or separate values, one for each dimension. (Default: 4 standard deviations) </p>
 
-<p>Definition at line <a class="el" href="smooth_8h_source.html#l00073">73</a> of file <a class="el" href="smooth_8h_source.html">smooth.h</a>.</p>
+<p>Definition at line <a class="el" href="smooth_8h_source.html#l00074">74</a> of file <a class="el" href="smooth_8h_source.html">smooth.h</a>.</p>
 
 </div>
 </div>
@@ -508,7 +516,7 @@ template&lt;class InputImageType , class OutputImageType , typename ValueType  =
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="smooth_8h_source.html#l00090">90</a> of file <a class="el" href="smooth_8h_source.html">smooth.h</a>.</p>
+<p>Definition at line <a class="el" href="smooth_8h_source.html#l00091">91</a> of file <a class="el" href="smooth_8h_source.html">smooth.h</a>.</p>
 
 </div>
 </div>
@@ -535,7 +543,35 @@ template&lt;class InputImageType , class OutputImageType , typename ValueType  =
 </div><div class="memdoc">
 <p>Set the standard deviation of the Gaussian defined in mm. This must be set as a single value to be used for the first 3 dimensions or separate values, one for each dimension. (Default: 1 voxel) </p>
 
-<p>Definition at line <a class="el" href="smooth_8h_source.html#l00097">97</a> of file <a class="el" href="smooth_8h_source.html">smooth.h</a>.</p>
+<p>Definition at line <a class="el" href="smooth_8h_source.html#l00103">103</a> of file <a class="el" href="smooth_8h_source.html">smooth.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab1a8303d1465e43acf9bead8560725cf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::Filter::Smooth::set_zero_boundary </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>do_zero_boundary</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ensure the image boundary remains zero. Used to constrain displacement fields during image registration </p>
+
+<p>Definition at line <a class="el" href="smooth_8h_source.html#l00096">96</a> of file <a class="el" href="smooth_8h_source.html">smooth.h</a>.</p>
 
 </div>
 </div>
@@ -558,7 +594,7 @@ template&lt;class InputImageType , class OutputImageType , typename ValueType  =
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="smooth_8h_source.html#l00143">143</a> of file <a class="el" href="smooth_8h_source.html">smooth.h</a>.</p>
+<p>Definition at line <a class="el" href="smooth_8h_source.html#l00149">149</a> of file <a class="el" href="smooth_8h_source.html">smooth.h</a>.</p>
 
 </div>
 </div>
@@ -580,7 +616,29 @@ template&lt;class InputImageType , class OutputImageType , typename ValueType  =
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="smooth_8h_source.html#l00144">144</a> of file <a class="el" href="smooth_8h_source.html">smooth.h</a>.</p>
+<p>Definition at line <a class="el" href="smooth_8h_source.html#l00150">150</a> of file <a class="el" href="smooth_8h_source.html">smooth.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab230599a62e39e3b5d8668219b84baaa"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::Filter::Smooth::zero_boundary</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="smooth_8h_source.html#l00151">151</a> of file <a class="el" href="smooth_8h_source.html">smooth.h</a>.</p>
 
 </div>
 </div>
@@ -593,7 +651,7 @@ template&lt;class InputImageType , class OutputImageType , typename ValueType  =
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_filter.html">Filter</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_filter_1_1_smooth.html">Smooth</a></li>
-    <li class="footer">Generated on Thu May 5 2016 23:35:57 for MRtrix by
+    <li class="footer">Generated on Fri May 6 2016 07:37:13 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

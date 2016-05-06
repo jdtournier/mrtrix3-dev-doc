@@ -35,7 +35,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.14-62-gb1c5d335</div>
+   <div id="projectbrief">Version 0.3.14-554-ge132f49d</div>
   </td>
  </tr>
  </tbody>
@@ -294,8 +294,20 @@ $(document).ready(function(){initNavTree('functions_l.html','');});
 <li>line_width
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_render_frame.html#ac338b3bc51bbbe260be1b0b8c3ae1377">MR::GUI::DWI::RenderFrame</a>
 </li>
+<li>Linear()
+: <a class="el" href="class_m_r_1_1_registration_1_1_linear.html#a59ca65341f6a532525256ae4addc0f1d">MR::Registration::Linear</a>
+</li>
+<li>linear1
+: <a class="el" href="class_m_r_1_1_registration_1_1_warp_1_1_compose_halfway_kernel.html#a9fadc3dd05eff56239bb2d021f321ff4">MR::Registration::Warp::ComposeHalfwayKernel&lt; DeformationField1Type, DeformationField2Type &gt;</a>
+</li>
+<li>linear2
+: <a class="el" href="class_m_r_1_1_registration_1_1_warp_1_1_compose_halfway_kernel.html#a6830f99a9f775985d9b3928045c67911">MR::Registration::Warp::ComposeHalfwayKernel&lt; DeformationField1Type, DeformationField2Type &gt;</a>
+</li>
 <li>linear_interp
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_image.html#afae4282d259466098b96a71190c6b739">MR::GUI::MRView::Image</a>
+</li>
+<li>linear_transform
+: <a class="el" href="class_m_r_1_1_registration_1_1_warp_1_1_compose_linear_disp_kernel.html#a1f76040d25b9df6d58d543608492acc0">MR::Registration::Warp::ComposeLinearDispKernel</a>
 </li>
 <li>LinearBase
 : <a class="el" href="class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_derivative_01_4.html#a0e298c668ff8aaddba7548b2c9985a60">MR::Interp::LinearInterp&lt; ImageType, LinearInterpProcessingType::Derivative &gt;</a>
@@ -475,8 +487,18 @@ $(document).ready(function(){initNavTree('functions_l.html','');});
 <li>lod_slot()
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_window.html#ab45d1903db62c9fd71264e02874b8fd7">MR::GUI::DWI::Window</a>
 </li>
+<li>log_stream
+: <a class="el" href="class_m_r_1_1_registration_1_1_linear.html#af8f1fbdb46c48df06f6cc2a7ec8dca19">MR::Registration::Linear</a>
+</li>
 <li>LogLevelLatch()
 : <a class="el" href="class_m_r_1_1_log_level_latch.html#a8836e05e97c2887dde903e985fecfe11">MR::LogLevelLatch</a>
+</li>
+<li>loop()
+: <a class="el" href="class_m_r_1_1_neighbourhood_iterator.html#aa31d678b5862fa16ba91b7d4d7265fd5">MR::NeighbourhoodIterator</a>
+</li>
+<li>loop_density
+: <a class="el" href="class_m_r_1_1_registration_1_1_linear.html#afb189d153e1e9e946f13e1790619365e">MR::Registration::Linear</a>
+, <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_params.html#aefc89cb319c2504fca59c2b59313d0ad">MR::Registration::Metric::Params&lt; TransformType, Im1ImageType, Im2ImageType, MidwayImageType, Im1MaskType, Im2MaskType, Im1ImageInterpType, Im2ImageInterpType, Im1MaskInterpolatorType, Im2MaskInterpolatorType, ProcImageType, ProcImageInterpolatorType, ProcMaskType, ProcessedMaskInterpolatorType &gt;</a>
 </li>
 <li>LoopAlongAxisRangeProgress()
 : <a class="el" href="struct_m_r_1_1_loop_along_axis_range_progress.html#a3a47810feae6265eb96962e96b7ce76e">MR::LoopAlongAxisRangeProgress</a>
@@ -493,6 +515,9 @@ $(document).ready(function(){initNavTree('functions_l.html','');});
 <li>lower_threshold_check_box
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_overlay.html#a3316cf7b21dda0c841be8f7152c3e2dd">MR::GUI::MRView::Tool::Overlay</a>
 </li>
+<li>LP()
+: <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_l_p.html#ae9063c72c97971324d242a0be81ce229">MR::Registration::Metric::LP</a>
+</li>
 <li>lut
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_f_m_l_s_1_1_f_o_d__lobes.html#a9aa928e7fdf6945bdfdf4c48b9470eb0">MR::DWI::FMLS::FOD_lobes</a>
 </li>
@@ -505,7 +530,7 @@ $(document).ready(function(){initNavTree('functions_l.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu May 5 2016 23:35:57 for MRtrix by
+    <li class="footer">Generated on Fri May 6 2016 07:37:14 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

@@ -1,10 +1,14 @@
 var searchData=
 [
+  ['l1',['L1',['../class_m_r_1_1_registration_1_1_metric_1_1_l1.html',1,'MR::Registration::Metric']]],
+  ['l2',['L2',['../class_m_r_1_1_registration_1_1_metric_1_1_l2.html',1,'MR::Registration::Metric']]],
   ['lightbox',['LightBox',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_light_box.html',1,'MR::GUI::MRView::Mode']]],
   ['lightboxeditbutton',['LightBoxEditButton',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_light_box_view_controls_1_1_light_box_edit_button.html',1,'MR::GUI::MRView::Mode::LightBoxViewControls']]],
   ['lighting',['Lighting',['../class_m_r_1_1_g_u_i_1_1_g_l_1_1_lighting.html',1,'MR::GUI::GL']]],
   ['lightingdock',['LightingDock',['../class_m_r_1_1_g_u_i_1_1_lighting_dock.html',1,'MR::GUI']]],
   ['lightingsettings',['LightingSettings',['../class_m_r_1_1_g_u_i_1_1_lighting_settings.html',1,'MR::GUI']]],
+  ['linear',['Linear',['../class_m_r_1_1_registration_1_1_linear.html',1,'MR::Registration']]],
+  ['linearinitialisationparams',['LinearInitialisationParams',['../struct_m_r_1_1_registration_1_1_transform_1_1_init_1_1_linear_initialisation_params.html',1,'MR::Registration::Transform::Init']]],
   ['linearinterp',['LinearInterp',['../class_m_r_1_1_interp_1_1_linear_interp.html',1,'MR::Interp']]],
   ['linearinterp_3c_20imagetype_2c_20linearinterpprocessingtype_3a_3aderivative_20_3e',['LinearInterp&lt; ImageType, LinearInterpProcessingType::Derivative &gt;',['../class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_derivative_01_4.html',1,'MR::Interp']]],
   ['linearinterp_3c_20imagetype_2c_20linearinterpprocessingtype_3a_3avalue_20_3e',['LinearInterp&lt; ImageType, LinearInterpProcessingType::Value &gt;',['../class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_value_01_4.html',1,'MR::Interp']]],
@@ -14,6 +18,7 @@ var searchData=
   ['linearinterpbase_3c_20imagetype_2c_20linearinterpprocessingtype_3a_3avalue_20_3e',['LinearInterpBase&lt; ImageType, LinearInterpProcessingType::Value &gt;',['../class_m_r_1_1_interp_1_1_linear_interp_base.html',1,'MR::Interp']]],
   ['linearinterpbase_3c_20imagetype_2c_20linearinterpprocessingtype_3a_3avalueandderivative_20_3e',['LinearInterpBase&lt; ImageType, LinearInterpProcessingType::ValueAndDerivative &gt;',['../class_m_r_1_1_interp_1_1_linear_interp_base.html',1,'MR::Interp']]],
   ['linearkernel',['LinearKernel',['../class_m_r_1_1_registration_1_1_transform_1_1_linear_kernel.html',1,'MR::Registration::Transform']]],
+  ['linearupdatebb',['LinearUpdateBB',['../class_m_r_1_1_math_1_1_linear_update_b_b.html',1,'MR::Math']]],
   ['linesearchfunctor',['LineSearchFunctor',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_line_search_functor.html',1,'MR::DWI::Tractography::SIFT2']]],
   ['list',['List',['../class_m_r_1_1_file_1_1_parsed_name_1_1_list.html',1,'MR::File::ParsedName']]],
   ['list',['List',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_seeding_1_1_list.html',1,'MR::DWI::Tractography::Seeding']]],
@@ -29,5 +34,6 @@ var searchData=
   ['loopalongsingleaxis',['LoopAlongSingleAxis',['../struct_m_r_1_1_loop_along_single_axis.html',1,'MR']]],
   ['loopalongsingleaxisprogress',['LoopAlongSingleAxisProgress',['../struct_m_r_1_1_loop_along_single_axis_progress.html',1,'MR']]],
   ['loopalongstaticaxes',['LoopAlongStaticAxes',['../struct_m_r_1_1_loop_along_static_axes.html',1,'MR']]],
-  ['loopalongstaticaxesprogress',['LoopAlongStaticAxesProgress',['../struct_m_r_1_1_loop_along_static_axes_progress.html',1,'MR']]]
+  ['loopalongstaticaxesprogress',['LoopAlongStaticAxesProgress',['../struct_m_r_1_1_loop_along_static_axes_progress.html',1,'MR']]],
+  ['lp',['LP',['../class_m_r_1_1_registration_1_1_metric_1_1_l_p.html',1,'MR::Registration::Metric']]]
 ];

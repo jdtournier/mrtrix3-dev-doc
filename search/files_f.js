@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['params_2eh',['params.h',['../params_8h.html',1,'']]],
   ['particle_2eh',['particle.h',['../particle_8h.html',1,'']]],
   ['particlegrid_2eh',['particlegrid.h',['../particlegrid_8h.html',1,'']]],
   ['particlepool_2eh',['particlepool.h',['../particlepool_8h.html',1,'']]],

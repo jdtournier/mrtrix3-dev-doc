@@ -35,7 +35,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.14-62-gb1c5d335</div>
+   <div id="projectbrief">Version 0.3.14-554-ge132f49d</div>
   </td>
  </tr>
  </tbody>
@@ -149,6 +149,14 @@ Functions</h2></td></tr>
 <tr class="memitem:ga929c0b6d5d5154833c7387b2c65b0775"><td class="memTemplItemLeft" align="right" valign="top">constexpr I&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__elfun.html#ga929c0b6d5d5154833c7387b2c65b0775">MR::Math::ceil</a> (const T x)  throw ()</td></tr>
 <tr class="memdesc:ga929c0b6d5d5154833c7387b2c65b0775"><td class="mdescLeft">&#160;</td><td class="mdescRight">template function with cast to different type  <a href="group__elfun.html#ga929c0b6d5d5154833c7387b2c65b0775">More...</a><br /></td></tr>
 <tr class="separator:ga929c0b6d5d5154833c7387b2c65b0775"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadf6f80070282eaae4cd7bdf36182e9df"><td class="memTemplParams" colspan="2">template&lt;typename Derived &gt; </td></tr>
+<tr class="memitem:gadf6f80070282eaae4cd7bdf36182e9df"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__elfun.html#gadf6f80070282eaae4cd7bdf36182e9df">MR::is_finite</a> (const Eigen::MatrixBase&lt; Derived &gt; &amp;x)</td></tr>
+<tr class="memdesc:gadf6f80070282eaae4cd7bdf36182e9df"><td class="mdescLeft">&#160;</td><td class="mdescRight">check if all elements of an <a class="el" href="namespace_eigen.html">Eigen</a> MatrixBase object are finite  <a href="group__elfun.html#gadf6f80070282eaae4cd7bdf36182e9df">More...</a><br /></td></tr>
+<tr class="separator:gadf6f80070282eaae4cd7bdf36182e9df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5de5c24270862b37e4e62ea94a962c9d"><td class="memTemplParams" colspan="2">template&lt;typename Derived &gt; </td></tr>
+<tr class="memitem:ga5de5c24270862b37e4e62ea94a962c9d"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__elfun.html#ga5de5c24270862b37e4e62ea94a962c9d">MR::is_nan</a> (const Eigen::MatrixBase&lt; Derived &gt; &amp;x)</td></tr>
+<tr class="memdesc:ga5de5c24270862b37e4e62ea94a962c9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">check if all elements of an <a class="el" href="namespace_eigen.html">Eigen</a> MatrixBase object are a number  <a href="group__elfun.html#ga5de5c24270862b37e4e62ea94a962c9d">More...</a><br /></td></tr>
+<tr class="separator:ga5de5c24270862b37e4e62ea94a962c9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
@@ -221,6 +229,66 @@ template&lt;typename I , typename T &gt; </div>
 <p>template function with cast to different type </p>
 <p>example: </p><div class="fragment"><div class="line"><span class="keywordtype">float</span> f = 21.412;</div><div class="line"><span class="keywordtype">int</span> x = floor&lt;int&gt; (f);</div></div><!-- fragment --> 
 <p>Definition at line <a class="el" href="math_8h_source.html#l00070">70</a> of file <a class="el" href="math_8h_source.html">math.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="gadf6f80070282eaae4cd7bdf36182e9df"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Derived &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::is_finite </td>
+          <td>(</td>
+          <td class="paramtype">const Eigen::MatrixBase&lt; Derived &gt; &amp;&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>check if all elements of an <a class="el" href="namespace_eigen.html">Eigen</a> MatrixBase object are finite </p>
+
+<p>Definition at line <a class="el" href="math_8h_source.html#l00093">93</a> of file <a class="el" href="math_8h_source.html">math.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga5de5c24270862b37e4e62ea94a962c9d"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Derived &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::is_nan </td>
+          <td>(</td>
+          <td class="paramtype">const Eigen::MatrixBase&lt; Derived &gt; &amp;&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>check if all elements of an <a class="el" href="namespace_eigen.html">Eigen</a> MatrixBase object are a number </p>
+
+<p>Definition at line <a class="el" href="math_8h_source.html#l00100">100</a> of file <a class="el" href="math_8h_source.html">math.h</a>.</p>
 
 </div>
 </div>
@@ -515,7 +583,7 @@ template&lt;typename I , typename T &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu May 5 2016 23:35:55 for MRtrix by
+    <li class="footer">Generated on Fri May 6 2016 07:37:12 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

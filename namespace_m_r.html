@@ -35,7 +35,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.14-62-gb1c5d335</div>
+   <div id="projectbrief">Version 0.3.14-554-ge132f49d</div>
   </td>
  </tr>
  </tbody>
@@ -222,6 +222,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_iterator.html">Iterator</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">a dummy image to iterate over, useful for multi-threaded looping.  <a href="class_m_r_1_1_iterator.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_iterator__loop.html">Iterator_loop</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_log_level_latch.html">LogLevelLatch</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_m_r_1_1_loop_along_axes.html">LoopAlongAxes</a></td></tr>
@@ -254,11 +256,18 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_min__mem__array.html">Min_mem_array</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_neighbourhood_iterator.html">NeighbourhoodIterator</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">a dummy image to iterate over a certain neighbourhood, useful for multi-threaded looping.  <a href="class_m_r_1_1_neighbourhood_iterator.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_progress_bar.html">ProgressBar</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">implements a progress meter to provide feedback to the user  <a href="class_m_r_1_1_progress_bar.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_progress_info.html">ProgressInfo</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">base class for the <a class="el" href="class_m_r_1_1_progress_bar.html" title="implements a progress meter to provide feedback to the user ">ProgressBar</a> interface  <a href="class_m_r_1_1_progress_info.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_random__loop.html">Random_loop</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_random__sparse__loop.html">Random_sparse_loop</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_timer.html">Timer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -324,6 +333,42 @@ Functions</h2></td></tr>
 <tr class="memitem:af3e19a242b57db951549f0f90d93a789"><td class="memTemplParams" colspan="2">template&lt;class ImageType &gt; </td></tr>
 <tr class="memitem:af3e19a242b57db951549f0f90d93a789"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#af3e19a242b57db951549f0f90d93a789">min_max</a> (ImageType &amp;in, typename ImageType::value_type &amp;min, typename ImageType::value_type &amp;max, size_t from_axis=0, size_t to_axis=std::numeric_limits&lt; size_t &gt;::max())</td></tr>
 <tr class="separator:af3e19a242b57db951549f0f90d93a789"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5081f671da1d62560c122954ecc7ddea"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
+<tr class="memitem:a5081f671da1d62560c122954ecc7ddea"><td class="memTemplItemLeft" align="right" valign="top">RandomThreadedLoopRunOuter&lt; decltype(<a class="el" href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">Loop</a>(std::vector&lt; size_t &gt;)))&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a5081f671da1d62560c122954ecc7ddea">RandomThreadedLoop</a> (const HeaderType &amp;source, const std::vector&lt; size_t &gt; &amp;outer_axes, const std::vector&lt; size_t &gt; &amp;inner_axes)</td></tr>
+<tr class="separator:a5081f671da1d62560c122954ecc7ddea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9090248870a0c6c815b7d2ae3dc5b7f5"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
+<tr class="memitem:a9090248870a0c6c815b7d2ae3dc5b7f5"><td class="memTemplItemLeft" align="right" valign="top">RandomThreadedLoopRunOuter&lt; decltype(<a class="el" href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">Loop</a>(std::vector&lt; size_t &gt;)))&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a9090248870a0c6c815b7d2ae3dc5b7f5">RandomThreadedLoop</a> (const HeaderType &amp;source, const std::vector&lt; size_t &gt; &amp;axes, size_t num_inner_axes=1)</td></tr>
+<tr class="separator:a9090248870a0c6c815b7d2ae3dc5b7f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3896fae2515c26794d7115d5904d5b2a"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
+<tr class="memitem:a3896fae2515c26794d7115d5904d5b2a"><td class="memTemplItemLeft" align="right" valign="top">RandomThreadedLoopRunOuter&lt; decltype(<a class="el" href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">Loop</a>(std::vector&lt; size_t &gt;)))&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a3896fae2515c26794d7115d5904d5b2a">RandomThreadedLoop</a> (const HeaderType &amp;source, size_t from_axis=0, size_t to_axis=std::numeric_limits&lt; size_t &gt;::max(), size_t num_inner_axes=1)</td></tr>
+<tr class="separator:a3896fae2515c26794d7115d5904d5b2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6039b94badc105ebb2f7de105f9d4d90"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
+<tr class="memitem:a6039b94badc105ebb2f7de105f9d4d90"><td class="memTemplItemLeft" align="right" valign="top">RandomThreadedLoopRunOuter&lt; decltype(<a class="el" href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">Loop</a>(&quot;&quot;, std::vector&lt; size_t &gt;)))&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a6039b94badc105ebb2f7de105f9d4d90">RandomThreadedLoop</a> (const std::string &amp;progress_message, const HeaderType &amp;source, const std::vector&lt; size_t &gt; &amp;outer_axes, const std::vector&lt; size_t &gt; &amp;inner_axes)</td></tr>
+<tr class="separator:a6039b94badc105ebb2f7de105f9d4d90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a062360693057a4d80a87ffa8f438290a"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
+<tr class="memitem:a062360693057a4d80a87ffa8f438290a"><td class="memTemplItemLeft" align="right" valign="top">RandomThreadedLoopRunOuter&lt; decltype(<a class="el" href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">Loop</a>(&quot;&quot;, std::vector&lt; size_t &gt;)))&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a062360693057a4d80a87ffa8f438290a">RandomThreadedLoop</a> (const std::string &amp;progress_message, const HeaderType &amp;source, const std::vector&lt; size_t &gt; &amp;axes, size_t num_inner_axes=1)</td></tr>
+<tr class="separator:a062360693057a4d80a87ffa8f438290a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa87a4e5a31d5356065759f6740cd5b17"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
+<tr class="memitem:aa87a4e5a31d5356065759f6740cd5b17"><td class="memTemplItemLeft" align="right" valign="top">RandomThreadedLoopRunOuter&lt; decltype(<a class="el" href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">Loop</a>(&quot;&quot;, std::vector&lt; size_t &gt;)))&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#aa87a4e5a31d5356065759f6740cd5b17">RandomThreadedLoop</a> (const std::string &amp;progress_message, const HeaderType &amp;source, size_t from_axis=0, size_t to_axis=std::numeric_limits&lt; size_t &gt;::max(), size_t num_inner_axes=1)</td></tr>
+<tr class="separator:aa87a4e5a31d5356065759f6740cd5b17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b73416aec8debf7f207b188f55a2f52"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
+<tr class="memitem:a2b73416aec8debf7f207b188f55a2f52"><td class="memTemplItemLeft" align="right" valign="top">StochasticThreadedLoopRunOuter&lt; decltype(<a class="el" href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">Loop</a>(std::vector&lt; size_t &gt;)))&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a2b73416aec8debf7f207b188f55a2f52">StochasticThreadedLoop</a> (const HeaderType &amp;source, const std::vector&lt; size_t &gt; &amp;outer_axes, const std::vector&lt; size_t &gt; &amp;inner_axes)</td></tr>
+<tr class="separator:a2b73416aec8debf7f207b188f55a2f52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0182e2f2a73ef97fac09e19c5dc426ef"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
+<tr class="memitem:a0182e2f2a73ef97fac09e19c5dc426ef"><td class="memTemplItemLeft" align="right" valign="top">StochasticThreadedLoopRunOuter&lt; decltype(<a class="el" href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">Loop</a>(std::vector&lt; size_t &gt;)))&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a0182e2f2a73ef97fac09e19c5dc426ef">StochasticThreadedLoop</a> (const HeaderType &amp;source, const std::vector&lt; size_t &gt; &amp;axes, size_t num_inner_axes=1)</td></tr>
+<tr class="separator:a0182e2f2a73ef97fac09e19c5dc426ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adad91d7a1c1c4d4b38acfcb19d288a72"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
+<tr class="memitem:adad91d7a1c1c4d4b38acfcb19d288a72"><td class="memTemplItemLeft" align="right" valign="top">StochasticThreadedLoopRunOuter&lt; decltype(<a class="el" href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">Loop</a>(std::vector&lt; size_t &gt;)))&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#adad91d7a1c1c4d4b38acfcb19d288a72">StochasticThreadedLoop</a> (const HeaderType &amp;source, size_t from_axis=0, size_t to_axis=std::numeric_limits&lt; size_t &gt;::max(), size_t num_inner_axes=1)</td></tr>
+<tr class="separator:adad91d7a1c1c4d4b38acfcb19d288a72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acda4b1f899d5cb71240dd6bc08b7c185"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
+<tr class="memitem:acda4b1f899d5cb71240dd6bc08b7c185"><td class="memTemplItemLeft" align="right" valign="top">StochasticThreadedLoopRunOuter&lt; decltype(<a class="el" href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">Loop</a>(&quot;&quot;, std::vector&lt; size_t &gt;)))&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#acda4b1f899d5cb71240dd6bc08b7c185">StochasticThreadedLoop</a> (const std::string &amp;progress_message, const HeaderType &amp;source, const std::vector&lt; size_t &gt; &amp;outer_axes, const std::vector&lt; size_t &gt; &amp;inner_axes)</td></tr>
+<tr class="separator:acda4b1f899d5cb71240dd6bc08b7c185"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bb0b9a20e66e05f90ab58a9dfc0b6c9"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
+<tr class="memitem:a8bb0b9a20e66e05f90ab58a9dfc0b6c9"><td class="memTemplItemLeft" align="right" valign="top">StochasticThreadedLoopRunOuter&lt; decltype(<a class="el" href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">Loop</a>(&quot;&quot;, std::vector&lt; size_t &gt;)))&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a8bb0b9a20e66e05f90ab58a9dfc0b6c9">StochasticThreadedLoop</a> (const std::string &amp;progress_message, const HeaderType &amp;source, const std::vector&lt; size_t &gt; &amp;axes, size_t num_inner_axes=1)</td></tr>
+<tr class="separator:a8bb0b9a20e66e05f90ab58a9dfc0b6c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0af342fbd01a6d186a0aa3b476aac33"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
+<tr class="memitem:ad0af342fbd01a6d186a0aa3b476aac33"><td class="memTemplItemLeft" align="right" valign="top">StochasticThreadedLoopRunOuter&lt; decltype(<a class="el" href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">Loop</a>(&quot;&quot;, std::vector&lt; size_t &gt;)))&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#ad0af342fbd01a6d186a0aa3b476aac33">StochasticThreadedLoop</a> (const std::string &amp;progress_message, const HeaderType &amp;source, size_t from_axis=0, size_t to_axis=std::numeric_limits&lt; size_t &gt;::max(), size_t num_inner_axes=1)</td></tr>
+<tr class="separator:ad0af342fbd01a6d186a0aa3b476aac33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2dd7487b230e4c292c7bf142920f8182"><td class="memTemplParams" colspan="2">template&lt;class InputImageType , class OutputImageType &gt; </td></tr>
 <tr class="memitem:a2dd7487b230e4c292c7bf142920f8182"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a2dd7487b230e4c292c7bf142920f8182">threaded_copy</a> (InputImageType &amp;source, OutputImageType &amp;destination, const std::vector&lt; size_t &gt; &amp;axes, size_t num_axes_in_thread=1)</td></tr>
 <tr class="separator:a2dd7487b230e4c292c7bf142920f8182"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -503,6 +548,23 @@ Functions</h2></td></tr>
 <tr class="separator:a495acfa77d3889436b77abb24e67c55f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0df2da37e7a16eee1d9ff626185333c"><td class="memItemLeft" align="right" valign="top">template void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#af0df2da37e7a16eee1d9ff626185333c">__set_fetch_store_functions&lt; cdouble &gt;</a> (std::function&lt; <a class="el" href="namespace_m_r.html#a99adc8169db44e1dc7e351feb7e8041e">cdouble</a>(const void *, size_t, <a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a>, <a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a>)&gt; &amp;fetch_func, std::function&lt; void(<a class="el" href="namespace_m_r.html#a99adc8169db44e1dc7e351feb7e8041e">cdouble</a>, void *, size_t, <a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a>, <a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a>)&gt; &amp;store_func, <a class="el" href="class_m_r_1_1_data_type.html">DataType</a> datatype)</td></tr>
 <tr class="separator:af0df2da37e7a16eee1d9ff626185333c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f939ea75aa7c9c1aa6caf50aed7dcc1"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix&lt; <a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a>, 8, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a2f939ea75aa7c9c1aa6caf50aed7dcc1">get_cuboid_corners</a> (const Eigen::Matrix&lt; <a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a>, 4, 1 &gt; &amp;xzx1)</td></tr>
+<tr class="separator:a2f939ea75aa7c9c1aa6caf50aed7dcc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8df1164abb7dd70a8cb7f230ace61d86"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix&lt; <a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a>, 8, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a8df1164abb7dd70a8cb7f230ace61d86">get_bounding_box</a> (const <a class="el" href="class_m_r_1_1_header.html">Header</a> &amp;header, const Eigen::Transform&lt; <a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a>, 3, Eigen::Projective &gt; &amp;voxel2scanner)</td></tr>
+<tr class="separator:a8df1164abb7dd70a8cb7f230ace61d86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1717b6c3a024e44a9f25f0d3ff26c6de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_r_1_1_header.html">Header</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a1717b6c3a024e44a9f25f0d3ff26c6de">compute_minimum_average_header</a> (const std::vector&lt; <a class="el" href="class_m_r_1_1_header.html">Header</a> &gt; &amp;input_headers, int voxel_subsampling, const Eigen::Matrix&lt; <a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a>, 4, 1 &gt; &amp;padding, const std::vector&lt; Eigen::Transform&lt; <a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a>, 3, Eigen::Projective &gt;&gt; &amp;transform_header_with)</td></tr>
+<tr class="separator:a1717b6c3a024e44a9f25f0d3ff26c6de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4196e34492f94bda358648cdd1f67620"><td class="memTemplParams" colspan="2">template&lt;class ImageType1 , class ImageType2 , class TransformationType &gt; </td></tr>
+<tr class="memitem:a4196e34492f94bda358648cdd1f67620"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_m_r_1_1_header.html">Header</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a4196e34492f94bda358648cdd1f67620">compute_minimum_average_header</a> (const ImageType1 &amp;im1, const ImageType2 &amp;im2, const TransformationType &amp;transformation, const <a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a> &amp;voxel_subsampling, const Eigen::Matrix&lt; <a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a>, 4, 1 &gt; &amp;padding)</td></tr>
+<tr class="separator:a4196e34492f94bda358648cdd1f67620"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadf6f80070282eaae4cd7bdf36182e9df"><td class="memTemplParams" colspan="2">template&lt;typename Derived &gt; </td></tr>
+<tr class="memitem:gadf6f80070282eaae4cd7bdf36182e9df"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__elfun.html#gadf6f80070282eaae4cd7bdf36182e9df">is_finite</a> (const Eigen::MatrixBase&lt; Derived &gt; &amp;x)</td></tr>
+<tr class="memdesc:gadf6f80070282eaae4cd7bdf36182e9df"><td class="mdescLeft">&#160;</td><td class="mdescRight">check if all elements of an <a class="el" href="namespace_eigen.html">Eigen</a> MatrixBase object are finite  <a href="group__elfun.html#gadf6f80070282eaae4cd7bdf36182e9df">More...</a><br /></td></tr>
+<tr class="separator:gadf6f80070282eaae4cd7bdf36182e9df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5de5c24270862b37e4e62ea94a962c9d"><td class="memTemplParams" colspan="2">template&lt;typename Derived &gt; </td></tr>
+<tr class="memitem:ga5de5c24270862b37e4e62ea94a962c9d"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__elfun.html#ga5de5c24270862b37e4e62ea94a962c9d">is_nan</a> (const Eigen::MatrixBase&lt; Derived &gt; &amp;x)</td></tr>
+<tr class="memdesc:ga5de5c24270862b37e4e62ea94a962c9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">check if all elements of an <a class="el" href="namespace_eigen.html">Eigen</a> MatrixBase object are a number  <a href="group__elfun.html#ga5de5c24270862b37e4e62ea94a962c9d">More...</a><br /></td></tr>
+<tr class="separator:ga5de5c24270862b37e4e62ea94a962c9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf37629cef73608a4d356b77a0514b08"><td class="memTemplParams" colspan="2">template&lt;class MatrixType &gt; </td></tr>
 <tr class="memitem:adf37629cef73608a4d356b77a0514b08"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#adf37629cef73608a4d356b77a0514b08">save_matrix</a> (const MatrixType &amp;M, const std::string &amp;filename)</td></tr>
 <tr class="memdesc:adf37629cef73608a4d356b77a0514b08"><td class="mdescLeft">&#160;</td><td class="mdescRight">write the matrix <em>M</em> to file  <a href="#adf37629cef73608a4d356b77a0514b08">More...</a><br /></td></tr>
@@ -1558,6 +1620,92 @@ template&lt;class HeaderType1 , class HeaderType2 &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="a1717b6c3a024e44a9f25f0d3ff26c6de"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_m_r_1_1_header.html">Header</a> MR::compute_minimum_average_header </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="class_m_r_1_1_header.html">Header</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>input_headers</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>voxel_subsampling</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::Matrix&lt; <a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a>, 4, 1 &gt; &amp;&#160;</td>
+          <td class="paramname"><em>padding</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; Eigen::Transform&lt; <a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a>, 3, Eigen::Projective &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>transform_header_with</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4196e34492f94bda358648cdd1f67620"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ImageType1 , class ImageType2 , class TransformationType &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_m_r_1_1_header.html">Header</a> MR::compute_minimum_average_header </td>
+          <td>(</td>
+          <td class="paramtype">const ImageType1 &amp;&#160;</td>
+          <td class="paramname"><em>im1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const ImageType2 &amp;&#160;</td>
+          <td class="paramname"><em>im2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const TransformationType &amp;&#160;</td>
+          <td class="paramname"><em>transformation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a> &amp;&#160;</td>
+          <td class="paramname"><em>voxel_subsampling</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::Matrix&lt; <a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a>, 4, 1 &gt; &amp;&#160;</td>
+          <td class="paramname"><em>padding</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="average__space_8h_source.html#l00046">46</a> of file <a class="el" href="average__space_8h_source.html">average_space.h</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ab40acd6056af28c4a36450a0ebe8b916"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2048,6 +2196,48 @@ template&lt;&gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="a8df1164abb7dd70a8cb7f230ace61d86"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::Matrix&lt;<a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a>, 8, 4&gt; MR::get_bounding_box </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_m_r_1_1_header.html">Header</a> &amp;&#160;</td>
+          <td class="paramname"><em>header</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::Transform&lt; <a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a>, 3, Eigen::Projective &gt; &amp;&#160;</td>
+          <td class="paramname"><em>voxel2scanner</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2f939ea75aa7c9c1aa6caf50aed7dcc1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::Matrix&lt;<a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a>, 8, 4&gt; MR::get_cuboid_corners </td>
+          <td>(</td>
+          <td class="paramtype">const Eigen::Matrix&lt; <a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a>, 4, 1 &gt; &amp;&#160;</td>
+          <td class="paramname"><em>xzx1</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a1319114438a7f3a08f04a03023ad62e2"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2271,7 +2461,7 @@ template&lt;class ValueType  = default_type&gt; </div>
 
 <p>read matrix data into an Eigen::Matrix <em>filename</em> </p>
 
-<p>Definition at line <a class="el" href="math_8h_source.html#l00138">138</a> of file <a class="el" href="math_8h_source.html">math.h</a>.</p>
+<p>Definition at line <a class="el" href="math_8h_source.html#l00151">151</a> of file <a class="el" href="math_8h_source.html">math.h</a>.</p>
 
 </div>
 </div>
@@ -2293,7 +2483,7 @@ template&lt;class ValueType  = default_type&gt; </div>
 
 <p>read matrix data into a 2D vector <em>filename</em> </p>
 
-<p>Definition at line <a class="el" href="math_8h_source.html#l00106">106</a> of file <a class="el" href="math_8h_source.html">math.h</a>.</p>
+<p>Definition at line <a class="el" href="math_8h_source.html#l00119">119</a> of file <a class="el" href="math_8h_source.html">math.h</a>.</p>
 
 </div>
 </div>
@@ -2315,7 +2505,7 @@ template&lt;class ValueType  = default_type&gt; </div>
 
 <p>read matrix data into a 4x4 Eigen::Tranform<em>filename</em> </p>
 
-<p>Definition at line <a class="el" href="math_8h_source.html#l00153">153</a> of file <a class="el" href="math_8h_source.html">math.h</a>.</p>
+<p>Definition at line <a class="el" href="math_8h_source.html#l00166">166</a> of file <a class="el" href="math_8h_source.html">math.h</a>.</p>
 
 </div>
 </div>
@@ -2337,7 +2527,7 @@ template&lt;class ValueType  = default_type&gt; </div>
 
 <p>read the vector data from <em>filename</em> </p>
 
-<p>Definition at line <a class="el" href="math_8h_source.html#l00190">190</a> of file <a class="el" href="math_8h_source.html">math.h</a>.</p>
+<p>Definition at line <a class="el" href="math_8h_source.html#l00203">203</a> of file <a class="el" href="math_8h_source.html">math.h</a>.</p>
 
 </div>
 </div>
@@ -2500,6 +2690,300 @@ template&lt;class ImageType &gt; </div>
 </div><div class="memdoc">
 
 <p>Definition at line <a class="el" href="mrtrix_8h_source.html#l00151">151</a> of file <a class="el" href="mrtrix_8h_source.html">mrtrix.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5081f671da1d62560c122954ecc7ddea"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class HeaderType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">RandomThreadedLoopRunOuter&lt;decltype(<a class="el" href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">Loop</a>(std::vector&lt;size_t&gt;)))&gt; MR::RandomThreadedLoop </td>
+          <td>(</td>
+          <td class="paramtype">const HeaderType &amp;&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; size_t &gt; &amp;&#160;</td>
+          <td class="paramname"><em>outer_axes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; size_t &gt; &amp;&#160;</td>
+          <td class="paramname"><em>inner_axes</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="random__threaded__loop_8h_source.html#l00209">209</a> of file <a class="el" href="random__threaded__loop_8h_source.html">random_threaded_loop.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9090248870a0c6c815b7d2ae3dc5b7f5"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class HeaderType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">RandomThreadedLoopRunOuter&lt;decltype(<a class="el" href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">Loop</a>(std::vector&lt;size_t&gt;)))&gt; MR::RandomThreadedLoop </td>
+          <td>(</td>
+          <td class="paramtype">const HeaderType &amp;&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; size_t &gt; &amp;&#160;</td>
+          <td class="paramname"><em>axes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>num_inner_axes</em> = <code>1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="random__threaded__loop_8h_source.html#l00218">218</a> of file <a class="el" href="random__threaded__loop_8h_source.html">random_threaded_loop.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3896fae2515c26794d7115d5904d5b2a"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class HeaderType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">RandomThreadedLoopRunOuter&lt;decltype(<a class="el" href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">Loop</a>(std::vector&lt;size_t&gt;)))&gt; MR::RandomThreadedLoop </td>
+          <td>(</td>
+          <td class="paramtype">const HeaderType &amp;&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>from_axis</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>to_axis</em> = <code>std::numeric_limits&lt;size_t&gt;::max()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>num_inner_axes</em> = <code>1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="random__threaded__loop_8h_source.html#l00226">226</a> of file <a class="el" href="random__threaded__loop_8h_source.html">random_threaded_loop.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6039b94badc105ebb2f7de105f9d4d90"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class HeaderType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">RandomThreadedLoopRunOuter&lt;decltype(<a class="el" href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">Loop</a>(&quot;&quot;, std::vector&lt;size_t&gt;)))&gt; MR::RandomThreadedLoop </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>progress_message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const HeaderType &amp;&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; size_t &gt; &amp;&#160;</td>
+          <td class="paramname"><em>outer_axes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; size_t &gt; &amp;&#160;</td>
+          <td class="paramname"><em>inner_axes</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="random__threaded__loop_8h_source.html#l00237">237</a> of file <a class="el" href="random__threaded__loop_8h_source.html">random_threaded_loop.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a062360693057a4d80a87ffa8f438290a"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class HeaderType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">RandomThreadedLoopRunOuter&lt;decltype(<a class="el" href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">Loop</a>(&quot;&quot;, std::vector&lt;size_t&gt;)))&gt; MR::RandomThreadedLoop </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>progress_message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const HeaderType &amp;&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; size_t &gt; &amp;&#160;</td>
+          <td class="paramname"><em>axes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>num_inner_axes</em> = <code>1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="random__threaded__loop_8h_source.html#l00246">246</a> of file <a class="el" href="random__threaded__loop_8h_source.html">random_threaded_loop.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa87a4e5a31d5356065759f6740cd5b17"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class HeaderType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">RandomThreadedLoopRunOuter&lt;decltype(<a class="el" href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">Loop</a>(&quot;&quot;, std::vector&lt;size_t&gt;)))&gt; MR::RandomThreadedLoop </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>progress_message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const HeaderType &amp;&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>from_axis</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>to_axis</em> = <code>std::numeric_limits&lt;size_t&gt;::max()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>num_inner_axes</em> = <code>1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="random__threaded__loop_8h_source.html#l00257">257</a> of file <a class="el" href="random__threaded__loop_8h_source.html">random_threaded_loop.h</a>.</p>
 
 </div>
 </div>
@@ -2691,7 +3175,7 @@ template&lt;class MatrixType &gt; </div>
 
 <p>write the matrix <em>M</em> to file </p>
 
-<p>Definition at line <a class="el" href="math_8h_source.html#l00094">94</a> of file <a class="el" href="math_8h_source.html">math.h</a>.</p>
+<p>Definition at line <a class="el" href="math_8h_source.html#l00109">109</a> of file <a class="el" href="math_8h_source.html">math.h</a>.</p>
 
 </div>
 </div>
@@ -2729,7 +3213,7 @@ template&lt;class MatrixType &gt; </div>
 
 <p>write the transform <em>M</em> to file </p>
 
-<p>Definition at line <a class="el" href="math_8h_source.html#l00167">167</a> of file <a class="el" href="math_8h_source.html">math.h</a>.</p>
+<p>Definition at line <a class="el" href="math_8h_source.html#l00183">183</a> of file <a class="el" href="math_8h_source.html">math.h</a>.</p>
 
 </div>
 </div>
@@ -2761,7 +3245,7 @@ template&lt;class VectorType &gt; </div>
 
 <p>write the vector <em>V</em> to file </p>
 
-<p>Definition at line <a class="el" href="math_8h_source.html#l00180">180</a> of file <a class="el" href="math_8h_source.html">math.h</a>.</p>
+<p>Definition at line <a class="el" href="math_8h_source.html#l00193">193</a> of file <a class="el" href="math_8h_source.html">math.h</a>.</p>
 
 </div>
 </div>
@@ -3056,6 +3540,300 @@ template&lt;class HeaderType &gt; </div>
 </div><div class="memdoc">
 
 <p>Definition at line <a class="el" href="image__helpers_8h_source.html#l00404">404</a> of file <a class="el" href="image__helpers_8h_source.html">image_helpers.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2b73416aec8debf7f207b188f55a2f52"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class HeaderType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">StochasticThreadedLoopRunOuter&lt;decltype(<a class="el" href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">Loop</a>(std::vector&lt;size_t&gt;)))&gt; MR::StochasticThreadedLoop </td>
+          <td>(</td>
+          <td class="paramtype">const HeaderType &amp;&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; size_t &gt; &amp;&#160;</td>
+          <td class="paramname"><em>outer_axes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; size_t &gt; &amp;&#160;</td>
+          <td class="paramname"><em>inner_axes</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="stochastic__threaded__loop_8h_source.html#l00170">170</a> of file <a class="el" href="stochastic__threaded__loop_8h_source.html">stochastic_threaded_loop.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0182e2f2a73ef97fac09e19c5dc426ef"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class HeaderType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">StochasticThreadedLoopRunOuter&lt;decltype(<a class="el" href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">Loop</a>(std::vector&lt;size_t&gt;)))&gt; MR::StochasticThreadedLoop </td>
+          <td>(</td>
+          <td class="paramtype">const HeaderType &amp;&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; size_t &gt; &amp;&#160;</td>
+          <td class="paramname"><em>axes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>num_inner_axes</em> = <code>1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="stochastic__threaded__loop_8h_source.html#l00179">179</a> of file <a class="el" href="stochastic__threaded__loop_8h_source.html">stochastic_threaded_loop.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="adad91d7a1c1c4d4b38acfcb19d288a72"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class HeaderType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">StochasticThreadedLoopRunOuter&lt;decltype(<a class="el" href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">Loop</a>(std::vector&lt;size_t&gt;)))&gt; MR::StochasticThreadedLoop </td>
+          <td>(</td>
+          <td class="paramtype">const HeaderType &amp;&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>from_axis</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>to_axis</em> = <code>std::numeric_limits&lt;size_t&gt;::max()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>num_inner_axes</em> = <code>1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="stochastic__threaded__loop_8h_source.html#l00187">187</a> of file <a class="el" href="stochastic__threaded__loop_8h_source.html">stochastic_threaded_loop.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="acda4b1f899d5cb71240dd6bc08b7c185"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class HeaderType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">StochasticThreadedLoopRunOuter&lt;decltype(<a class="el" href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">Loop</a>(&quot;&quot;, std::vector&lt;size_t&gt;)))&gt; MR::StochasticThreadedLoop </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>progress_message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const HeaderType &amp;&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; size_t &gt; &amp;&#160;</td>
+          <td class="paramname"><em>outer_axes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; size_t &gt; &amp;&#160;</td>
+          <td class="paramname"><em>inner_axes</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="stochastic__threaded__loop_8h_source.html#l00198">198</a> of file <a class="el" href="stochastic__threaded__loop_8h_source.html">stochastic_threaded_loop.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8bb0b9a20e66e05f90ab58a9dfc0b6c9"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class HeaderType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">StochasticThreadedLoopRunOuter&lt;decltype(<a class="el" href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">Loop</a>(&quot;&quot;, std::vector&lt;size_t&gt;)))&gt; MR::StochasticThreadedLoop </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>progress_message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const HeaderType &amp;&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; size_t &gt; &amp;&#160;</td>
+          <td class="paramname"><em>axes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>num_inner_axes</em> = <code>1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="stochastic__threaded__loop_8h_source.html#l00207">207</a> of file <a class="el" href="stochastic__threaded__loop_8h_source.html">stochastic_threaded_loop.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad0af342fbd01a6d186a0aa3b476aac33"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class HeaderType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">StochasticThreadedLoopRunOuter&lt;decltype(<a class="el" href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">Loop</a>(&quot;&quot;, std::vector&lt;size_t&gt;)))&gt; MR::StochasticThreadedLoop </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>progress_message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const HeaderType &amp;&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>from_axis</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>to_axis</em> = <code>std::numeric_limits&lt;size_t&gt;::max()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>num_inner_axes</em> = <code>1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="stochastic__threaded__loop_8h_source.html#l00218">218</a> of file <a class="el" href="stochastic__threaded__loop_8h_source.html">stochastic_threaded_loop.h</a>.</p>
 
 </div>
 </div>
@@ -4285,7 +5063,7 @@ template&lt;class HeaderType &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li>
-    <li class="footer">Generated on Thu May 5 2016 23:35:55 for MRtrix by
+    <li class="footer">Generated on Fri May 6 2016 07:37:12 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

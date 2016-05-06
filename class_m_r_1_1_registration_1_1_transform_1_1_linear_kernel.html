@@ -35,7 +35,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.14-62-gb1c5d335</div>
+   <div id="projectbrief">Version 0.3.14-554-ge132f49d</div>
   </td>
  </tr>
  </tbody>
@@ -125,8 +125,8 @@ $(document).ready(function(){initNavTree('class_m_r_1_1_registration_1_1_transfo
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ab37e23b0ee7f191918c0a0161bbe5524"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_linear_kernel.html#ab37e23b0ee7f191918c0a0161bbe5524">LinearKernel</a> (const ssize_t n_SH, const <a class="el" href="namespace_m_r.html#a5fb9f6fdd930a2baf8f8584ae6309c9b">transform_type</a> &amp;linear_transform, const Eigen::MatrixXd &amp;directions, const bool modulate)</td></tr>
 <tr class="separator:ab37e23b0ee7f191918c0a0161bbe5524"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28a81c68efe4a7ad264cfe12864203de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_linear_kernel.html#a28a81c68efe4a7ad264cfe12864203de">operator()</a> (FODImageType &amp;image)</td></tr>
-<tr class="separator:a28a81c68efe4a7ad264cfe12864203de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d883f9aaa51a5c332c1784ffe16ac56"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_linear_kernel.html#a5d883f9aaa51a5c332c1784ffe16ac56">operator()</a> (FODImageType &amp;in, FODImageType &amp;out)</td></tr>
+<tr class="separator:a5d883f9aaa51a5c332c1784ffe16ac56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -191,7 +191,7 @@ template&lt;class FODImageType &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a28a81c68efe4a7ad264cfe12864203de"></a>
+<a class="anchor" id="a5d883f9aaa51a5c332c1784ffe16ac56"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -204,8 +204,18 @@ template&lt;class FODImageType &gt; </div>
           <td class="memname">void <a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_linear_kernel.html">MR::Registration::Transform::LinearKernel</a>&lt; FODImageType &gt;::operator() </td>
           <td>(</td>
           <td class="paramtype">FODImageType &amp;&#160;</td>
-          <td class="paramname"><em>image</em></td><td>)</td>
+          <td class="paramname"><em>in</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">FODImageType &amp;&#160;</td>
+          <td class="paramname"><em>out</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -253,7 +263,7 @@ template&lt;class FODImageType &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_registration.html">Registration</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_registration_1_1_transform.html">Transform</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_linear_kernel.html">LinearKernel</a></li>
-    <li class="footer">Generated on Thu May 5 2016 23:35:57 for MRtrix by
+    <li class="footer">Generated on Fri May 6 2016 07:37:14 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

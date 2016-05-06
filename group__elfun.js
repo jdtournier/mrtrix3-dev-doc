@@ -2,6 +2,8 @@ var group__elfun =
 [
     [ "ceil", "group__elfun.html#ga929c0b6d5d5154833c7387b2c65b0775", null ],
     [ "floor", "group__elfun.html#gab310e988d3bb075d50e9399dacb159f0", null ],
+    [ "is_finite", "group__elfun.html#gadf6f80070282eaae4cd7bdf36182e9df", null ],
+    [ "is_nan", "group__elfun.html#ga5de5c24270862b37e4e62ea94a962c9d", null ],
     [ "pow10", "group__elfun.html#gaab47314effd3fa3c1223c1c7abe21eff", null ],
     [ "pow2", "group__elfun.html#ga8bf8967471ef09d762367a1844985db8", null ],
     [ "pow3", "group__elfun.html#gaa5be6dfa9c446af78ea87902e6214d8b", null ],

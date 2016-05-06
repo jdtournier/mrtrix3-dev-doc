@@ -35,7 +35,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.14-62-gb1c5d335</div>
+   <div id="projectbrief">Version 0.3.14-554-ge132f49d</div>
   </td>
  </tr>
  </tbody>
@@ -168,6 +168,9 @@ $(document).ready(function(){initNavTree('functions_vars_c.html','');});
 <li>calibrate_ratio
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1.html#a49fa010616a5b290366e54b250dccce7">MR::DWI::Tractography::Algorithms::iFOD1</a>
 </li>
+<li>centre
+: <a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_base.html#ad646431fc91c490218e4ce73d9c591f9">MR::Registration::Transform::Base</a>
+</li>
 <li>centre_zero_
 : <a class="el" href="group___filters.html#gae84875dbd80ed30a197d71214cde0d7b">MR::Filter::FFT</a>
 </li>
@@ -236,6 +239,9 @@ $(document).ready(function(){initNavTree('functions_vars_c.html','');});
 </li>
 <li>cluster_forming_threshold
 : <a class="el" href="class_m_r_1_1_stats_1_1_cluster_1_1_cluster_size.html#a5d176e513969d6d092c8e1a3c20a47ed">MR::Stats::Cluster::ClusterSize</a>
+</li>
+<li>cnt
+: <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel.html#a0997b11af42b557da5267fe60abb2b71">MR::Registration::Metric::ThreadKernel&lt; MetricType, ParamType &gt;</a>
 </li>
 <li>cnum
 : <a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_c_s_a_entry.html#a4a4670e3852fae9d24196a30745177af">MR::File::Dicom::CSAEntry</a>
@@ -324,6 +330,12 @@ $(document).ready(function(){initNavTree('functions_vars_c.html','');});
 <li>contributions
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model.html#aa349b6f170adb1fa3ade4c637c48888c">MR::DWI::Tractography::SIFT::Model&lt; Fixel &gt;</a>
 </li>
+<li>control_point_exent
+: <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_params.html#a20022ac5429d6ffb161008e33eac701a">MR::Registration::Metric::Params&lt; TransformType, Im1ImageType, Im2ImageType, MidwayImageType, Im1MaskType, Im2MaskType, Im1ImageInterpType, Im2ImageInterpType, Im1MaskInterpolatorType, Im2MaskInterpolatorType, ProcImageType, ProcImageInterpolatorType, ProcMaskType, ProcessedMaskInterpolatorType &gt;</a>
+</li>
+<li>control_points
+: <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_params.html#af9791a31774fae38cd157667a871fcd0">MR::Registration::Metric::Params&lt; TransformType, Im1ImageType, Im2ImageType, MidwayImageType, Im1MaskType, Im2MaskType, Im1ImageInterpType, Im2ImageInterpType, Im1MaskInterpolatorType, Im2MaskInterpolatorType, ProcImageType, ProcImageInterpolatorType, ProcMaskType, ProcessedMaskInterpolatorType &gt;</a>
+</li>
 <li>copy_from_above_button
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html#a2fc467f99f3019adaa726c398c89f59b">MR::GUI::MRView::Tool::ROI</a>
 </li>
@@ -341,6 +353,10 @@ $(document).ready(function(){initNavTree('functions_vars_c.html','');});
 </li>
 <li>cost_frac
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_line_search_functor_1_1_fixel.html#acafce39807be0c74d6be6ab9e175bebe">MR::DWI::Tractography::SIFT2::LineSearchFunctor::Fixel</a>
+</li>
+<li>cost_function
+: <a class="el" href="struct_m_r_1_1_registration_1_1_metric_1_1_evaluate_1_1_thread_functor.html#ac88dc3930a251cbdf99e754ddaa6cae5">MR::Registration::Metric::Evaluate&lt; MetricType, ParamType &gt;::ThreadFunctor</a>
+, <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel.html#ae4c89ad66342861ee6cba5f685b76347">MR::Registration::Metric::ThreadKernel&lt; MetricType, ParamType &gt;</a>
 </li>
 <li>count
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_seeding_1_1_base.html#a782cd5352d32c27ff388e1190d50320d">MR::DWI::Tractography::Seeding::Base</a>
@@ -427,7 +443,7 @@ $(document).ready(function(){initNavTree('functions_vars_c.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu May 5 2016 23:35:57 for MRtrix by
+    <li class="footer">Generated on Fri May 6 2016 07:37:14 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

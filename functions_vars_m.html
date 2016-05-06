@@ -35,7 +35,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.14-62-gb1c5d335</div>
+   <div id="projectbrief">Version 0.3.14-554-ge132f49d</div>
   </td>
  </tr>
  </tbody>
@@ -200,6 +200,9 @@ $(document).ready(function(){initNavTree('functions_vars_m.html','');});
 <li>master
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_coefficient_optimiser_base.html#a336b59e7b737937946701a7157f3b0a5">MR::DWI::Tractography::SIFT2::CoefficientOptimiserBase</a>
 </li>
+<li>matrix
+: <a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_base.html#ac31f58fa555868dc8e1722598f870f12">MR::Registration::Transform::Base</a>
+</li>
 <li>matrix_close_button
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_connectome.html#afbbcf212b46ec041d4a72b6279f77971">MR::GUI::MRView::Tool::Connectome</a>
 </li>
@@ -226,6 +229,10 @@ $(document).ready(function(){initNavTree('functions_vars_m.html','');});
 </li>
 <li>max_entry
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file.html#a38b8ca4612fd24652776bcd57c8d4a84">MR::GUI::MRView::Tool::TrackScalarFile</a>
+</li>
+<li>max_iter
+: <a class="el" href="class_m_r_1_1_registration_1_1_linear.html#acde07a5e550fc36f5b2fc1009ab75953">MR::Registration::Linear</a>
+, <a class="el" href="class_m_r_1_1_registration_1_1_non_linear.html#a0e72b18617e315f2d8aa373a7ce2047f">MR::Registration::NonLinear</a>
 </li>
 <li>max_name_size
 : <a class="el" href="class_m_r_1_1_file_1_1_parsed_name_1_1_list.html#a7aa19dc8592c09a15baad8a886f4c638">MR::File::ParsedName::List</a>
@@ -257,7 +264,8 @@ $(document).ready(function(){initNavTree('functions_vars_m.html','');});
 , <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_vector.html#a62309011e7cda3e0312a7614ce5b7b65">MR::GUI::MRView::Tool::Vector</a>
 </li>
 <li>mean
-: <a class="el" href="class_m_r_1_1_d_w_i_1_1_shell.html#a0c0da59e262cfb00068de555871f1419">MR::DWI::Shell</a>
+: <a class="el" href="class_m_r_1_1_adapter_1_1_normalise3_d.html#a50465876340c000576c1a10c1121d998">MR::Adapter::Normalise3D&lt; ImageType &gt;</a>
+, <a class="el" href="class_m_r_1_1_d_w_i_1_1_shell.html#a0c0da59e262cfb00068de555871f1419">MR::DWI::Shell</a>
 </li>
 <li>mean_sample_num
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1.html#a3045d2a91d1cabc538f2d9e6ed286633">MR::DWI::Tractography::Algorithms::iFOD1</a>
@@ -273,6 +281,22 @@ $(document).ready(function(){initNavTree('functions_vars_m.html','');});
 </li>
 <li>metric
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_g_l_1_1_font.html#aa56072adcdb137758deb4e021b522408">MR::GUI::GL::Font</a>
+, <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_evaluate.html#a1a7576d1680c03a2d259a27e29254470">MR::Registration::Metric::Evaluate&lt; MetricType, ParamType &gt;</a>
+, <a class="el" href="struct_m_r_1_1_registration_1_1_metric_1_1_evaluate_1_1_thread_functor.html#a3c1c5c33e52bd30c86cab5678be4de8e">MR::Registration::Metric::Evaluate&lt; MetricType, ParamType &gt;::ThreadFunctor</a>
+, <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel.html#aa306f9f3e7e3d652cf986a058b10efbe">MR::Registration::Metric::ThreadKernel&lt; MetricType, ParamType &gt;</a>
+</li>
+<li>mid_to_im1
+: <a class="el" href="class_m_r_1_1_registration_1_1_non_linear.html#ae882665e47a9a2c84bc8d56e979d3b93">MR::Registration::NonLinear</a>
+</li>
+<li>mid_to_im2
+: <a class="el" href="class_m_r_1_1_registration_1_1_non_linear.html#a372621dbcb7bfaa58479c64706d40e67">MR::Registration::NonLinear</a>
+</li>
+<li>midway_image
+: <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_params.html#a78468d19c0b286dd2bfdfe12df418e42">MR::Registration::Metric::Params&lt; TransformType, Im1ImageType, Im2ImageType, MidwayImageType, Im1MaskType, Im2MaskType, Im1ImageInterpType, Im2ImageInterpType, Im1MaskInterpolatorType, Im2MaskInterpolatorType, ProcImageType, ProcImageInterpolatorType, ProcMaskType, ProcessedMaskInterpolatorType &gt;</a>
+</li>
+<li>midway_image_header
+: <a class="el" href="class_m_r_1_1_registration_1_1_linear.html#a5c364491f6add55af286ce12c030f529">MR::Registration::Linear</a>
+, <a class="el" href="class_m_r_1_1_registration_1_1_non_linear.html#a7dae106ecb4d116c30393393d10357da">MR::Registration::NonLinear</a>
 </li>
 <li>min
 : <a class="el" href="group___cmd_parse.html#ga84bd4ba41e54eccfc355a35ec6e36f61">MR::App::Argument</a>
@@ -316,7 +340,7 @@ $(document).ready(function(){initNavTree('functions_vars_m.html','');});
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_shader.html#a3d00638144b2aca06ab050444a35e13a">MR::GUI::DWI::Renderer::Shader</a>
 </li>
 <li>modulate
-: <a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_non_linear_kernel.html#a6ef3f4d321de37b53f4e4e08fa43b25c">MR::Registration::Transform::NonLinearKernel&lt; FODImageType, WarpImageType &gt;</a>
+: <a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_non_linear_kernel.html#ad431cd5a83a74c0b33e49142bccca4fa">MR::Registration::Transform::NonLinearKernel&lt; FODImageType &gt;</a>
 </li>
 <li>msize
 : <a class="el" href="class_m_r_1_1_file_1_1_m_map.html#a1137fff078e38e4dc1996cb99ae28891">MR::File::MMap</a>
@@ -359,7 +383,7 @@ $(document).ready(function(){initNavTree('functions_vars_m.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu May 5 2016 23:35:57 for MRtrix by
+    <li class="footer">Generated on Fri May 6 2016 07:37:14 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

@@ -35,7 +35,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.14-62-gb1c5d335</div>
+   <div id="projectbrief">Version 0.3.14-554-ge132f49d</div>
   </td>
  </tr>
  </tbody>
@@ -191,9 +191,14 @@ $(document).ready(function(){initNavTree('functions_vars_s.html','');});
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_render_frame.html#a0a1ea7c7a2fcf22eeb0f7a557ca4561b">MR::GUI::DWI::RenderFrame</a>
 , <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#a58eda07b848bcf0fc39a595244f2a536">MR::GUI::MRView::Tool::ODF</a>
 , <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f___item.html#a6d3a90f7d65412aaf3245f304e636891">MR::GUI::MRView::Tool::ODF_Item</a>
+, <a class="el" href="struct_m_r_1_1_registration_1_1_transform_1_1_init_1_1_linear_initialisation_params_1_1_rotation_init_1_1rot__search.html#aa609cb466a04d3f8a10fb94616661e8d">MR::Registration::Transform::Init::LinearInitialisationParams::RotationInit::rot_search</a>
 </li>
 <li>scale_
 : <a class="el" href="class_m_r_1_1_header.html#a6b40e499f7baaf0cadab1e36db0d7a4c">MR::Header</a>
+</li>
+<li>scale_factor
+: <a class="el" href="class_m_r_1_1_registration_1_1_linear.html#a1963ddb5d3eefd972017aaeb91c0ad6a">MR::Registration::Linear</a>
+, <a class="el" href="class_m_r_1_1_registration_1_1_non_linear.html#aff2053617272a6e50a69292c20182d1e">MR::Registration::NonLinear</a>
 </li>
 <li>scale_intercept
 : <a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_frame.html#a8e4b24f2803200b2540aa18fc7297bed">MR::File::Dicom::Frame</a>
@@ -217,6 +222,9 @@ $(document).ready(function(){initNavTree('functions_vars_s.html','');});
 </li>
 <li>screenshot_OS_group
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_window.html#a1c9a8069c72acd6fa0b6284472c6da86">MR::GUI::DWI::Window</a>
+</li>
+<li>search
+: <a class="el" href="struct_m_r_1_1_registration_1_1_transform_1_1_init_1_1_linear_initialisation_params_1_1_rotation_init.html#a51075d0a1e3dc70e1dab71245c7a255a">MR::Registration::Transform::Init::LinearInitialisationParams::RotationInit</a>
 </li>
 <li>second_deriv
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_line_search_functor_1_1_result.html#ad3944f2b92b458a2e1f70b0568475c25">MR::DWI::Tractography::SIFT2::LineSearchFunctor::Result</a>
@@ -365,7 +373,8 @@ $(document).ready(function(){initNavTree('functions_vars_s.html','');});
 , <a class="el" href="struct_m_r_1_1_loop_along_static_axes_1_1_run.html#a41a7df45fa88f39e72d4e0d96d37fcdb">MR::LoopAlongStaticAxes::Run&lt; ImageType &gt;</a>
 </li>
 <li>size_
-: <a class="el" href="class_m_r_1_1_adapter_1_1_subset.html#ab5234a86a604db58c8cb85ea21c1e4e1">MR::Adapter::Subset&lt; ImageType &gt;</a>
+: <a class="el" href="class_m_r_1_1_adapter_1_1_neighbourhood_coord.html#a56119f4670ae0cbe39004cad99669b94">MR::Adapter::NeighbourhoodCoord&lt; ImageType &gt;</a>
+, <a class="el" href="class_m_r_1_1_adapter_1_1_subset.html#ab5234a86a604db58c8cb85ea21c1e4e1">MR::Adapter::Subset&lt; ImageType &gt;</a>
 </li>
 <li>SL_eff
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_line_search_functor_1_1_fixel.html#ac5245c51521b580617ec13019fc6168e">MR::DWI::Tractography::SIFT2::LineSearchFunctor::Fixel</a>
@@ -455,11 +464,17 @@ $(document).ready(function(){initNavTree('functions_vars_s.html','');});
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_shell.html#a987d2ee22ca76dd6f6c701f0711f9aee">MR::DWI::Shell</a>
 , <a class="el" href="class_m_r_1_1_filter_1_1_smooth.html#acded5bb249aca631285c84ddbbc125e2">MR::Filter::Smooth</a>
 </li>
+<li>step
+: <a class="el" href="class_m_r_1_1_registration_1_1_warp_1_1_compose_disp_kernel.html#ab26a33d2b864434e04dd9a2114082ca3">MR::Registration::Warp::ComposeDispKernel</a>
+</li>
 <li>step_down
 : <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent.html#a0f599a8ae33d46d237464b9470757d6f">MR::Math::GradientDescent&lt; Function, UpdateFunctor &gt;</a>
 </li>
 <li>step_size
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_shared_base.html#a12a079063b5e197f16baf609edee7e30">MR::DWI::Tractography::Tracking::SharedBase</a>
+</li>
+<li>step_tolerance
+: <a class="el" href="class_m_r_1_1_registration_1_1_linear.html#a93c81707c8ae8330b48e9e1236de7bae">MR::Registration::Linear</a>
 </li>
 <li>step_unscaled
 : <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent.html#aab7757b4024663eb8cd2d72bbca12d6a">MR::Math::GradientDescent&lt; Function, UpdateFunctor &gt;</a>
@@ -504,7 +519,7 @@ $(document).ready(function(){initNavTree('functions_vars_s.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu May 5 2016 23:35:57 for MRtrix by
+    <li class="footer">Generated on Fri May 6 2016 07:37:14 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

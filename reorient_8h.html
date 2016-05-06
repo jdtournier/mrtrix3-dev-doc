@@ -35,7 +35,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.14-62-gb1c5d335</div>
+   <div id="projectbrief">Version 0.3.14-554-ge132f49d</div>
   </td>
  </tr>
  </tbody>
@@ -127,7 +127,7 @@ $(document).ready(function(){initNavTree('reorient_8h.html','');});
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_linear_kernel.html">MR::Registration::Transform::LinearKernel&lt; FODImageType &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_non_linear_kernel.html">MR::Registration::Transform::NonLinearKernel&lt; FODImageType, WarpImageType &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_non_linear_kernel.html">MR::Registration::Transform::NonLinearKernel&lt; FODImageType &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -143,15 +143,18 @@ Namespaces</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:ad33dca64fbe2d1c6a82a4faff7f49548"><td class="memItemLeft" align="right" valign="top"><a class="el" href="src_2gui_2mrview_2tool_2connectome_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_transform.html#ad33dca64fbe2d1c6a82a4faff7f49548">MR::Registration::Transform::aPSF_weights_to_FOD_transform</a> (const int num_SH, const Eigen::MatrixXd &amp;directions)</td></tr>
 <tr class="separator:ad33dca64fbe2d1c6a82a4faff7f49548"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2667cfab1d5b352a510d3951ce775e13"><td class="memTemplParams" colspan="2">template&lt;class FODImageType &gt; </td></tr>
-<tr class="memitem:a2667cfab1d5b352a510d3951ce775e13"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_transform.html#a2667cfab1d5b352a510d3951ce775e13">MR::Registration::Transform::reorient</a> (FODImageType &amp;fod_image, const transform_type &amp;transform, const Eigen::MatrixXd &amp;directions, bool modulate=false)</td></tr>
-<tr class="separator:a2667cfab1d5b352a510d3951ce775e13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4458d1ed66720c546196eaae04835e5"><td class="memTemplParams" colspan="2">template&lt;class FODImageType &gt; </td></tr>
-<tr class="memitem:ac4458d1ed66720c546196eaae04835e5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_transform.html#ac4458d1ed66720c546196eaae04835e5">MR::Registration::Transform::reorient</a> (const std::string progress_message, FODImageType &amp;fod_image, const transform_type &amp;transform, const Eigen::MatrixXd &amp;directions, bool modulate=false)</td></tr>
-<tr class="separator:ac4458d1ed66720c546196eaae04835e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4be3a4d8af7aae742a300811b239b2f"><td class="memTemplParams" colspan="2">template&lt;class FODImageType , class WarpImageType &gt; </td></tr>
-<tr class="memitem:ab4be3a4d8af7aae742a300811b239b2f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_transform.html#ab4be3a4d8af7aae742a300811b239b2f">MR::Registration::Transform::reorient_warp</a> (const std::string progress_message, FODImageType &amp;fod_image, WarpImageType &amp;warp, const Eigen::MatrixXd &amp;directions, const bool modulate=false)</td></tr>
-<tr class="separator:ab4be3a4d8af7aae742a300811b239b2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8dd7285b8f1efe039e7b329571cffc06"><td class="memTemplParams" colspan="2">template&lt;class FODImageType &gt; </td></tr>
+<tr class="memitem:a8dd7285b8f1efe039e7b329571cffc06"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_transform.html#a8dd7285b8f1efe039e7b329571cffc06">MR::Registration::Transform::reorient</a> (FODImageType &amp;input_fod_image, FODImageType &amp;output_fod_image, const transform_type &amp;transform, const Eigen::MatrixXd &amp;directions, bool modulate=false)</td></tr>
+<tr class="separator:a8dd7285b8f1efe039e7b329571cffc06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec6e80f5b8220f8a9a696224ad61a67d"><td class="memTemplParams" colspan="2">template&lt;class FODImageType &gt; </td></tr>
+<tr class="memitem:aec6e80f5b8220f8a9a696224ad61a67d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_transform.html#aec6e80f5b8220f8a9a696224ad61a67d">MR::Registration::Transform::reorient</a> (const std::string progress_message, FODImageType &amp;input_fod_image, FODImageType &amp;output_fod_image, const transform_type &amp;transform, const Eigen::MatrixXd &amp;directions, bool modulate=false)</td></tr>
+<tr class="separator:aec6e80f5b8220f8a9a696224ad61a67d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ee2e896ecc201321a9842b04e738361"><td class="memTemplParams" colspan="2">template&lt;class FODImageType &gt; </td></tr>
+<tr class="memitem:a7ee2e896ecc201321a9842b04e738361"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_transform.html#a7ee2e896ecc201321a9842b04e738361">MR::Registration::Transform::reorient_warp</a> (const std::string progress_message, FODImageType &amp;fod_image, Image&lt; default_type &gt; &amp;warp, const Eigen::MatrixXd &amp;directions, const bool modulate=false)</td></tr>
+<tr class="separator:a7ee2e896ecc201321a9842b04e738361"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5831c2a1b9d442d401288dcf15eb3ece"><td class="memTemplParams" colspan="2">template&lt;class FODImageType &gt; </td></tr>
+<tr class="memitem:a5831c2a1b9d442d401288dcf15eb3ece"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_transform.html#a5831c2a1b9d442d401288dcf15eb3ece">MR::Registration::Transform::reorient_warp</a> (FODImageType &amp;fod_image, Image&lt; default_type &gt; &amp;warp, const Eigen::MatrixXd &amp;directions, const bool modulate=false)</td></tr>
+<tr class="separator:a5831c2a1b9d442d401288dcf15eb3ece"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -159,7 +162,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_8c43a50b494f42f713289e815d5c52df.html">registration</a></li><li class="navelem"><a class="el" href="dir_4a531f92e45cf413a1a13b20973b25c3.html">transform</a></li><li class="navelem"><a class="el" href="reorient_8h.html">reorient.h</a></li>
-    <li class="footer">Generated on Thu May 5 2016 23:35:55 for MRtrix by
+    <li class="footer">Generated on Fri May 6 2016 07:37:12 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

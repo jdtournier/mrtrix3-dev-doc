@@ -35,7 +35,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.14-62-gb1c5d335</div>
+   <div id="projectbrief">Version 0.3.14-554-ge132f49d</div>
   </td>
  </tr>
  </tbody>
@@ -171,8 +171,14 @@ $(document).ready(function(){initNavTree('functions_r.html','');});
 <li>random_direction()
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_method_base.html#a19e59be455d3deef2d4fd3c7b43998fe">MR::DWI::Tractography::Tracking::MethodBase</a>
 </li>
+<li>Random_loop()
+: <a class="el" href="class_m_r_1_1_random__loop.html#a402ef44c1d1ea9438fe2316255d9bc98">MR::Random_loop&lt; ImageType, RandomEngine &gt;</a>
+</li>
 <li>Random_per_voxel()
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_seeding_1_1_random__per__voxel.html#a8f9f5003c1ab0f6d272d78b4bf4f97df">MR::DWI::Tractography::Seeding::Random_per_voxel</a>
+</li>
+<li>Random_sparse_loop()
+: <a class="el" href="class_m_r_1_1_random__sparse__loop.html#aa90c255406e0c66e4e8629a489674d25">MR::Random_sparse_loop&lt; ImageType &gt;</a>
 </li>
 <li>randshift()
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_m_h_sampler.html#a39cb859154b2a2b4da2c161691d7bd93">MR::DWI::Tractography::GT::MHSampler</a>
@@ -260,6 +266,9 @@ $(document).ready(function(){initNavTree('functions_r.html','');});
 </li>
 <li>refcount
 : <a class="el" href="class_m_r_1_1_thread_1_1_____backend.html#a32b050d52f7ad1365bc0af727bea4d0a">MR::Thread::__Backend</a>
+</li>
+<li>reg_bbgd
+: <a class="el" href="class_m_r_1_1_registration_1_1_linear.html#a2716dec9665595b88b01a1bb5adb5399">MR::Registration::Linear</a>
 </li>
 <li>reg_tik
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_line_search_functor.html#a309328b5d048965e6985baf2d40cdfc3">MR::DWI::Tractography::SIFT2::LineSearchFunctor</a>
@@ -407,6 +416,10 @@ $(document).ready(function(){initNavTree('functions_r.html','');});
 <li>required()
 : <a class="el" href="group___cmd_parse.html#gaf479c5c26d7fe5a3eca6fb0071cf7d9e">MR::App::Option</a>
 </li>
+<li>requires_precompute
+: <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_cross_correlation_no_gradient.html#a41df730859dcae2898746dbd9e4a4427">MR::Registration::Metric::CrossCorrelationNoGradient</a>
+, <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_normalised_cross_correlation.html#a8f6e9457e59dd6704c02bda463aa32ce">MR::Registration::Metric::NormalisedCrossCorrelation</a>
+</li>
 <li>ResampleFunctor()
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_resample_functor.html#a9377c17a6102d988ae6cc362e4c59094">MR::DWI::Tractography::SIFT::ResampleFunctor</a>
 </li>
@@ -414,6 +427,7 @@ $(document).ready(function(){initNavTree('functions_r.html','');});
 : <a class="el" href="class_m_r_1_1_adapter_1_1_base.html#a534e6149d5fd5c01d24b67676e2d2fe3">MR::Adapter::Base&lt; ImageType &gt;</a>
 , <a class="el" href="class_m_r_1_1_adapter_1_1_extract1_d.html#a8fbecc01ce1f256fcd0ff072916ea6b7">MR::Adapter::Extract1D&lt; ImageType &gt;</a>
 , <a class="el" href="class_m_r_1_1_adapter_1_1_extract.html#a62e2dd6dab2b63b33582c48779554535">MR::Adapter::Extract&lt; ImageType &gt;</a>
+, <a class="el" href="class_m_r_1_1_adapter_1_1_neighbourhood_coord.html#a487374d49de2ccb27da2f4312cfa11e6">MR::Adapter::NeighbourhoodCoord&lt; ImageType &gt;</a>
 , <a class="el" href="class_m_r_1_1_adapter_1_1_permute_axes.html#a524d2c1dc051ade0916c5a88fb7142c0">MR::Adapter::PermuteAxes&lt; ImageType &gt;</a>
 , <a class="el" href="class_m_r_1_1_adapter_1_1_reslice.html#af04ed9504e7aa6e04737af6810be1087">MR::Adapter::Reslice&lt; Interpolator, ImageType &gt;</a>
 , <a class="el" href="class_m_r_1_1_adapter_1_1_subset.html#ac05e7a543943ccf56aeb1c93b33ec00e">MR::Adapter::Subset&lt; ImageType &gt;</a>
@@ -421,6 +435,7 @@ $(document).ready(function(){initNavTree('functions_r.html','');});
 , <a class="el" href="class_m_r_1_1_bit_set.html#ac0b1c6af8c6988e55c83ff0edae7a358">MR::BitSet</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_tissues.html#aa2d06474ee3722755a014b7f25e9f40c">MR::DWI::Tractography::ACT::Tissues</a>
 , <a class="el" href="class_m_r_1_1_image.html#abe2bfb6a7552a80c8ccee8c514e00402">MR::Image&lt; ValueType &gt;</a>
+, <a class="el" href="class_m_r_1_1_neighbourhood_iterator.html#a45035987bab14a4984eeb4be5809c999">MR::NeighbourhoodIterator</a>
 </li>
 <li>reset_colourmap()
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_button_observer.html#abb3cdcc3d98c3fcdf83e0b9d98da6826">MR::GUI::MRView::ColourMapButtonObserver</a>
@@ -464,6 +479,9 @@ $(document).ready(function(){initNavTree('functions_r.html','');});
 <li>Reslice()
 : <a class="el" href="class_m_r_1_1_adapter_1_1_reslice.html#a2b5c60507c8b7f1728f599d73aa183d6">MR::Adapter::Reslice&lt; Interpolator, ImageType &gt;</a>
 </li>
+<li>reslice()
+: <a class="el" href="class_m_r_1_1_registration_1_1_non_linear.html#a42eed90d9e4630f2fc8d2da2972f024f">MR::Registration::NonLinear</a>
+</li>
 <li>resp_ISO
 : <a class="el" href="struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_properties.html#ac3829d304da2942531c4b4c0a672d469">MR::DWI::Tractography::GT::Properties</a>
 </li>
@@ -485,11 +503,16 @@ $(document).ready(function(){initNavTree('functions_r.html','');});
 <li>Result()
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_line_search_functor_1_1_result.html#a63d9595d9d5383286b37668aa83059d3">MR::DWI::Tractography::SIFT2::LineSearchFunctor::Result</a>
 </li>
+<li>result_type
+: <a class="el" href="class_m_r_1_1_math_1_1_r_n_g_1_1_normal.html#aa648b5ae8639ac011f901b8582849c35">MR::Math::RNG::Normal&lt; ValueType &gt;</a>
+, <a class="el" href="class_m_r_1_1_math_1_1_r_n_g_1_1_uniform.html#a5bd1c1ce710db99dd4a6e46fd302c04a">MR::Math::RNG::Uniform&lt; ValueType &gt;</a>
+</li>
 <li>return_t
 : <a class="el" href="group___optimisation.html#ga142be9450c9aac5265dc923bab259fce">MR::Math::QuadraticLineSearch&lt; ValueType &gt;</a>
 </li>
 <li>retval
 : <a class="el" href="class_m_r_1_1_adapter_1_1_median.html#a1fd63de7f2772360cf96f2bba636b9d0">MR::Adapter::Median&lt; ImageType &gt;</a>
+, <a class="el" href="class_m_r_1_1_adapter_1_1_normalise3_d.html#ab3e013550bcad8c91aec8894c7101a90">MR::Adapter::Normalise3D&lt; ImageType &gt;</a>
 </li>
 <li>reverse()
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_generated_track.html#a133d16c53e740bfd00da7982380288e4">MR::DWI::Tractography::Tracking::GeneratedTrack</a>
@@ -512,6 +535,9 @@ $(document).ready(function(){initNavTree('functions_r.html','');});
 <li>RH_coefs()
 : <a class="el" href="class_m_r_1_1_math_1_1_s_h_1_1a_p_s_f.html#a482a8bb9d507e31f7a6b3ce4539bffec">MR::Math::SH::aPSF&lt; ValueType &gt;</a>
 </li>
+<li>Rigid()
+: <a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_rigid.html#a663297d1c2cef5cb92b1b8985f55e9c0">MR::Registration::Transform::Rigid</a>
+</li>
 <li>rk4
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_shared_base.html#ad4b77d2e7ec6558eeefbd1d940d6f0b1">MR::DWI::Tractography::Tracking::SharedBase</a>
 </li>
@@ -521,10 +547,11 @@ $(document).ready(function(){initNavTree('functions_r.html','');});
 , <a class="el" href="class_m_r_1_1_math_1_1_r_n_g_1_1_normal.html#a2cd64b4509389802206c79ef1e80ea5b">MR::Math::RNG::Normal&lt; ValueType &gt;</a>
 </li>
 <li>RNG()
-: <a class="el" href="class_m_r_1_1_math_1_1_r_n_g.html#ace6ee44964eb01887c28db0a92e7cc4d">MR::Math::RNG</a>
+: <a class="el" href="class_m_r_1_1_math_1_1_r_n_g.html#a7b1794a31f828e928d755770115c2d66">MR::Math::RNG</a>
 </li>
 <li>rng
 : <a class="el" href="class_m_r_1_1_math_1_1_r_n_g_1_1_uniform.html#a7a7ad2ca9571a9925f2fa858693ff791">MR::Math::RNG::Uniform&lt; ValueType &gt;</a>
+, <a class="el" href="struct_m_r_1_1_registration_1_1_metric_1_1_evaluate_1_1_thread_functor.html#a749a61d1d0b774c6f3b417427ff077f5">MR::Registration::Metric::Evaluate&lt; MetricType, ParamType &gt;::ThreadFunctor</a>
 </li>
 <li>rng_normal
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_m_h_sampler.html#a9b317e758aa1ea8124df3d2c786a07db">MR::DWI::Tractography::GT::MHSampler</a>
@@ -533,11 +560,27 @@ $(document).ready(function(){initNavTree('functions_r.html','');});
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_internal_energy_computer.html#a5e35dccaf29517c87b08e49338e4597b">MR::DWI::Tractography::GT::InternalEnergyComputer</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_m_h_sampler.html#a41d024a9332a7286fa363b9fe38ad162">MR::DWI::Tractography::GT::MHSampler</a>
 </li>
+<li>robust_estimate
+: <a class="el" href="class_m_r_1_1_registration_1_1_linear.html#ad2191c1de8142574f1a2083cdff8fb27">MR::Registration::Linear</a>
+, <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_params.html#a54e716aa9a1b3aa249ebe873af8e7204">MR::Registration::Metric::Params&lt; TransformType, Im1ImageType, Im2ImageType, MidwayImageType, Im1MaskType, Im2MaskType, Im1ImageInterpType, Im2ImageInterpType, Im1MaskInterpolatorType, Im2MaskInterpolatorType, ProcImageType, ProcImageInterpolatorType, ProcMaskType, ProcessedMaskInterpolatorType &gt;</a>
+, <a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_affine.html#ab25ca7e299b07845ae2f84831a479b86">MR::Registration::Transform::Affine</a>
+, <a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_base.html#a4e3d9eac059ce6674fe0946d637b2122">MR::Registration::Transform::Base</a>
+</li>
+<li>robust_estimator
+: <a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_affine.html#a0ee529ade521fde4dc5abe0faf4f8fec">MR::Registration::Transform::Affine</a>
+</li>
+<li>RobustEstimatorType
+: <a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_affine.html#a56abd27fbf50d4504594c6618408fab7">MR::Registration::Transform::Affine</a>
+</li>
+<li>robustness_parameter
+: <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_demons4_d.html#a6f0cdbc8bd7509c84227b3bfc46b9c0f">MR::Registration::Metric::Demons4D&lt; Im1ImageType, Im2ImageType, Im1MaskType, Im2MaskType &gt;</a>
+, <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_demons.html#ae4987c507adda8a904f11dcff0bae51a">MR::Registration::Metric::Demons&lt; Im1ImageType, Im2ImageType, Im1MaskType, Im2MaskType &gt;</a>
+</li>
 <li>roi
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_properties.html#a4e5cad76b484131264f4ff2499ccf08e">MR::DWI::Tractography::Properties</a>
 </li>
 <li>ROI()
-: <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_r_o_i.html#ac583137fd66e8bec994d773f2496c5b0">MR::DWI::Tractography::ROI</a>
+: <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_r_o_i.html#a70eaa6492e642c19f702c745bdba30c2">MR::DWI::Tractography::ROI</a>
 , <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html#ab09855f2c7ab8c5352af71a577804cc1">MR::GUI::MRView::Tool::ROI</a>
 </li>
 <li>ROI_Item()
@@ -547,13 +590,16 @@ $(document).ready(function(){initNavTree('functions_r.html','');});
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___model.html#acce809517af7b64503c90f99ac34ddcf">MR::GUI::MRView::Tool::ROI_Model</a>
 </li>
 <li>ROI_UndoEntry()
-: <a class="el" href="struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___undo_entry.html#a9931afbf2ffc1e875d619155a344e6de">MR::GUI::MRView::Tool::ROI_UndoEntry</a>
+: <a class="el" href="struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___undo_entry.html#a4cd603b24feb457a5244af3c561e50be">MR::GUI::MRView::Tool::ROI_UndoEntry</a>
 </li>
 <li>ROISet()
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_r_o_i_set.html#a0a4aa472da674985d4c4d0f6eb0a4a58">MR::DWI::Tractography::ROISet</a>
 </li>
 <li>rootItem
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_dialog_1_1_tree_model.html#ae20dc30cab4fc73967353545e6325e56">MR::GUI::Dialog::TreeModel</a>
+</li>
+<li>rot_search()
+: <a class="el" href="struct_m_r_1_1_registration_1_1_transform_1_1_init_1_1_linear_initialisation_params_1_1_rotation_init_1_1rot__search.html#a159abad4ec2c6d779cb50ae5064158fc">MR::Registration::Transform::Init::LinearInitialisationParams::RotationInit::rot_search</a>
 </li>
 <li>rotate_clip_planes()
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume.html#a8a5ab6ffeeefd091932bd68a6aaf87f7">MR::GUI::MRView::Mode::Volume</a>
@@ -565,8 +611,12 @@ $(document).ready(function(){initNavTree('functions_r.html','');});
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_base.html#a51fee6c3b16e2c4ff3de3d485f8c461b">MR::GUI::MRView::Mode::Base</a>
 , <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume.html#abc661a79fdb88f508ffba3906ef5f7c6">MR::GUI::MRView::Mode::Volume</a>
 </li>
+<li>RotationInit()
+: <a class="el" href="struct_m_r_1_1_registration_1_1_transform_1_1_init_1_1_linear_initialisation_params_1_1_rotation_init.html#a4e653309804782ef3b6b92607568afa8">MR::Registration::Transform::Init::LinearInitialisationParams::RotationInit</a>
+</li>
 <li>row()
-: <a class="el" href="class_m_r_1_1_adapter_1_1_warp.html#a17da396f5b502cc2615761f89277dabb">MR::Adapter::Warp&lt; Interpolator, ImageType, WarpType &gt;</a>
+: <a class="el" href="class_m_r_1_1_adapter_1_1_base.html#ae7ae8f3ff5252c81b827d90390b15b77">MR::Adapter::Base&lt; ImageType &gt;</a>
+, <a class="el" href="class_m_r_1_1_adapter_1_1_warp.html#a17da396f5b502cc2615761f89277dabb">MR::Adapter::Warp&lt; Interpolator, ImageType, WarpType &gt;</a>
 , <a class="el" href="class_m_r_1_1_g_u_i_1_1_dialog_1_1_tree_item.html#a8918e2170e7eed724da0a0dc7d3baa1e">MR::GUI::Dialog::TreeItem</a>
 , <a class="el" href="class_m_r_1_1_image.html#aa0713201b7ef6689c2daa90c7fb74181">MR::Image&lt; ValueType &gt;</a>
 , <a class="el" href="class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_value_01_4.html#a3331fc112d0234a30c3ac8608f2782c3">MR::Interp::LinearInterp&lt; ImageType, LinearInterpProcessingType::Value &gt;</a>
@@ -599,7 +649,25 @@ $(document).ready(function(){initNavTree('functions_r.html','');});
 , <a class="el" href="struct_m_r_1_1_loop_along_static_axes_progress_1_1_run.html#a512ab257a5d8048d58cfa7b832b47e1c">MR::LoopAlongStaticAxesProgress::Run&lt; ImageType &gt;</a>
 </li>
 <li>run()
-: <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent.html#ad8a884d746ac924f062641f5cea6cd0d">MR::Math::GradientDescent&lt; Function, UpdateFunctor &gt;</a>
+: <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent.html#a6e14d45ef0d12abf84ee97b962eb154a">MR::Math::GradientDescent&lt; Function, UpdateFunctor &gt;</a>
+, <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a94f4a9623dc564d1506b2c7590ab773a">MR::Math::GradientDescentBB&lt; Function, UpdateFunctor &gt;</a>
+, <a class="el" href="class_m_r_1_1_registration_1_1_linear.html#a6e78fd0ea0484e67dd90c1b79168c872">MR::Registration::Linear</a>
+, <a class="el" href="class_m_r_1_1_registration_1_1_non_linear.html#a611a5771ebdb5a1c9a16e6ceaec0b6e0">MR::Registration::NonLinear</a>
+, <a class="el" href="class_m_r_1_1_registration_1_1_rotation_search_1_1_exhaustive_rotation_search.html#ad1296d73f0fe04387450875fda1a5c16">MR::Registration::RotationSearch::ExhaustiveRotationSearch&lt; MetricType &gt;</a>
+, <a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_init_1_1_f_o_d_initialiser.html#ac1c79f426049f2a99254a9ef1196be0b">MR::Registration::Transform::Init::FODInitialiser</a>
+, <a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_init_1_1_moments_initialiser.html#ade1cf761d53f6950a47c40df0e92bc88">MR::Registration::Transform::Init::MomentsInitialiser</a>
+</li>
+<li>run_global
+: <a class="el" href="struct_m_r_1_1_registration_1_1_transform_1_1_init_1_1_linear_initialisation_params_1_1_rotation_init_1_1rot__search.html#aec5c855596ca18fac491ee5e350d7642">MR::Registration::Transform::Init::LinearInitialisationParams::RotationInit::rot_search</a>
+</li>
+<li>run_im1_mask()
+: <a class="el" href="class_m_r_1_1_registration_1_1_linear.html#a871b7ecfe0ced8dc2fde0d290666ee88">MR::Registration::Linear</a>
+</li>
+<li>run_im2_mask()
+: <a class="el" href="class_m_r_1_1_registration_1_1_linear.html#a6115dd73fc14fc7d9a4cf41db2c2ba57">MR::Registration::Linear</a>
+</li>
+<li>run_masked()
+: <a class="el" href="class_m_r_1_1_registration_1_1_linear.html#ab39e59b0dd2b0d310bca004eb5f84712">MR::Registration::Linear</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -607,7 +675,7 @@ $(document).ready(function(){initNavTree('functions_r.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu May 5 2016 23:35:57 for MRtrix by
+    <li class="footer">Generated on Fri May 6 2016 07:37:14 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

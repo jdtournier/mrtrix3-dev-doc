@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['spherical_20harmonics',['Spherical Harmonics',['../group__spherical__harmonics.html',1,'']]],
-  ['statistics',['Statistics',['../group___statistics.html',1,'']]]
+  ['registration',['Registration',['../group___registration.html',1,'']]]
 ];

@@ -35,7 +35,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.14-62-gb1c5d335</div>
+   <div id="projectbrief">Version 0.3.14-554-ge132f49d</div>
   </td>
  </tr>
  </tbody>
@@ -162,6 +162,9 @@ $(document).ready(function(){initNavTree('functions_vars_o.html','');});
 <li>odf_type
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f___item.html#ac339ccc2b2691073c334e27f279ccba3">MR::GUI::MRView::Tool::ODF_Item</a>
 </li>
+<li>offset
+: <a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_base.html#a526c15b52f4c416060aeb8bff21f2bac">MR::Registration::Transform::Base</a>
+</li>
 <li>offset_
 : <a class="el" href="class_m_r_1_1_header.html#a1cb131a5932e3feac1770347b9b802cb">MR::Header</a>
 </li>
@@ -186,6 +189,9 @@ $(document).ready(function(){initNavTree('functions_vars_o.html','');});
 </li>
 <li>opt
 : <a class="el" href="group___cmd_parse.html#gabad6a8342c9037c226bb82ec03f21dbf">MR::App::ParsedOption</a>
+</li>
+<li>optimiser_weights
+: <a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_base.html#afbb84a16d52a6887de5b281963cb9733">MR::Registration::Transform::Base</a>
 </li>
 <li>orientation
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_render_frame.html#a260d5a63c93e220a093f0b2525b71917">MR::GUI::DWI::RenderFrame</a>
@@ -222,6 +228,7 @@ $(document).ready(function(){initNavTree('functions_vars_o.html','');});
 </li>
 <li>out_of_bounds
 : <a class="el" href="class_m_r_1_1_interp_1_1_base.html#a0c62bc630c47bf1712e4a2874fa70fc5">MR::Interp::Base&lt; ImageType &gt;</a>
+, <a class="el" href="class_m_r_1_1_registration_1_1_warp_1_1_compose_halfway_kernel.html#a417302a946ed07366e6181cde2b1eeb0">MR::Registration::Warp::ComposeHalfwayKernel&lt; DeformationField1Type, DeformationField2Type &gt;</a>
 </li>
 <li>out_of_bounds_matrix
 : <a class="el" href="class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_value_and_derivative_01_4.html#af9b25bb2a8c9f71054743bb6fa8a4e6b">MR::Interp::LinearInterp&lt; ImageType, LinearInterpProcessingType::ValueAndDerivative &gt;</a>
@@ -246,6 +253,17 @@ $(document).ready(function(){initNavTree('functions_vars_o.html','');});
 <li>output_image_name
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_map_writer_base.html#a119555c32a5ba9ad476ccfe41fd32374">MR::DWI::Tractography::Mapping::MapWriterBase</a>
 </li>
+<li>overall_cnt
+: <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel.html#a37b0b5922b2638b961acbbbcc6a930e3">MR::Registration::Metric::ThreadKernel&lt; MetricType, ParamType &gt;</a>
+</li>
+<li>overall_cost_function
+: <a class="el" href="struct_m_r_1_1_registration_1_1_metric_1_1_evaluate_1_1_thread_functor.html#a166915d9285f38fb13fdb406d3362fa8">MR::Registration::Metric::Evaluate&lt; MetricType, ParamType &gt;::ThreadFunctor</a>
+, <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel.html#a801df4d0890d94d087e1bb83cb08437b">MR::Registration::Metric::ThreadKernel&lt; MetricType, ParamType &gt;</a>
+</li>
+<li>overall_gradient
+: <a class="el" href="struct_m_r_1_1_registration_1_1_metric_1_1_evaluate_1_1_thread_functor.html#a51c622e45480b6b234f5ffe927ceb2bf">MR::Registration::Metric::Evaluate&lt; MetricType, ParamType &gt;::ThreadFunctor</a>
+, <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel.html#acb4d3d39251746cebbd40a769e509c82">MR::Registration::Metric::ThreadKernel&lt; MetricType, ParamType &gt;</a>
+</li>
 <li>overlays_for_3D
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_base.html#a7575cbef965db83eb8638a6904911a8c">MR::GUI::MRView::Mode::Base</a>
 </li>
@@ -255,7 +273,7 @@ $(document).ready(function(){initNavTree('functions_vars_o.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu May 5 2016 23:35:57 for MRtrix by
+    <li class="footer">Generated on Fri May 6 2016 07:37:14 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

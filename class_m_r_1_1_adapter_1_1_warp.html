@@ -35,7 +35,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.14-62-gb1c5d335</div>
+   <div id="projectbrief">Version 0.3.14-554-ge132f49d</div>
   </td>
  </tr>
  </tbody>
@@ -163,10 +163,10 @@ Public Member Functions</h2></td></tr>
 class MR::Adapter::Warp&lt; Interpolator, ImageType, WarpType &gt;</h3>
 
 <p>an <a class="el" href="class_m_r_1_1_image.html" title="functions and classes related to image data input/output ">Image</a> providing interpolated values from another <a class="el" href="class_m_r_1_1_image.html" title="functions and classes related to image data input/output ">Image</a> </p>
-<p>the <a class="el" href="class_m_r_1_1_adapter_1_1_warp.html" title="an Image providing interpolated values from another Image ">Warp</a> class provides an <a class="el" href="class_m_r_1_1_image.html" title="functions and classes related to image data input/output ">Image</a> interface to data interpolated ....</p>
-<p>For example: </p><div class="fragment"><div class="line"><span class="comment">// reference header:</span></div><div class="line"><span class="keyword">auto</span> reference = <a class="code" href="class_m_r_1_1_header.html#a09fe4219a858bc8528fbe8961ec22267">Header::open</a> (argument[0]);</div><div class="line"><span class="comment">// input data to be resliced:</span></div><div class="line"><span class="keyword">auto</span> input = <a class="code" href="class_m_r_1_1_image.html#aab488a42d712e19da34e089333c14c15">Image&lt;float&gt;::open</a> (argument[1]);</div><div class="line">TOOD</div></div><!-- fragment --><dl class="section see"><dt>See also</dt><dd><a class="el" href="namespace_m_r_1_1_filter.html#a27dd98d0c848ce7cd907894a27120cf9" title="convenience function to warp one DataSet onto another ">Interp::warp()</a> </dd></dl>
+<p>the <a class="el" href="class_m_r_1_1_adapter_1_1_warp.html" title="an Image providing interpolated values from another Image ">Warp</a> class provides an <a class="el" href="class_m_r_1_1_image.html" title="functions and classes related to image data input/output ">Image</a> interface to data interpolated after transformation with the input warp (supplied as a deformation field).</p>
+<p>For example: </p><div class="fragment"><div class="line"><span class="comment">// reference header:</span></div><div class="line"><span class="keyword">auto</span> warp = <a class="code" href="class_m_r_1_1_header.html#a09fe4219a858bc8528fbe8961ec22267">Header::open</a> (argument[0]);</div><div class="line"><span class="comment">// input data to be resliced:</span></div><div class="line"><span class="keyword">auto</span> input = <a class="code" href="class_m_r_1_1_image.html#aab488a42d712e19da34e089333c14c15">Image&lt;float&gt;::open</a> (argument[1]);</div><div class="line"><span class="keyword">auto</span> output = <a class="code" href="class_m_r_1_1_image.html#af3e84ff9ee40cdffa21ae551848b9573">Image&lt;float&gt;::create</a> (argument[2]);</div><div class="line"><a class="code" href="namespace_m_r.html#a2dd7487b230e4c292c7bf142920f8182">threaded_copy</a> (interp, output);</div></div><!-- fragment --><dl class="section see"><dt>See also</dt><dd><a class="el" href="namespace_m_r_1_1_filter.html#a27dd98d0c848ce7cd907894a27120cf9" title="convenience function to warp one image onto another ">Interp::warp()</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="adapter_2warp_8h_source.html#l00049">49</a> of file <a class="el" href="adapter_2warp_8h_source.html">warp.h</a>.</p>
+<p>Definition at line <a class="el" href="adapter_2warp_8h_source.html#l00050">50</a> of file <a class="el" href="adapter_2warp_8h_source.html">warp.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="a08efede5dbb7192421a5ced5a329219f"></a>
 <div class="memitem">
@@ -180,7 +180,7 @@ template&lt;template&lt; class ImageType &gt; class Interpolator, class ImageTyp
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="adapter_2warp_8h_source.html#l00052">52</a> of file <a class="el" href="adapter_2warp_8h_source.html">warp.h</a>.</p>
+<p>Definition at line <a class="el" href="adapter_2warp_8h_source.html#l00053">53</a> of file <a class="el" href="adapter_2warp_8h_source.html">warp.h</a>.</p>
 
 </div>
 </div>
@@ -225,7 +225,7 @@ template&lt;template&lt; class ImageType &gt; class Interpolator, class ImageTyp
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="adapter_2warp_8h_source.html#l00054">54</a> of file <a class="el" href="adapter_2warp_8h_source.html">warp.h</a>.</p>
+<p>Definition at line <a class="el" href="adapter_2warp_8h_source.html#l00055">55</a> of file <a class="el" href="adapter_2warp_8h_source.html">warp.h</a>.</p>
 
 </div>
 </div>
@@ -254,7 +254,7 @@ template&lt;template&lt; class ImageType &gt; class Interpolator, class ImageTyp
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="adapter_2warp_8h_source.html#l00097">97</a> of file <a class="el" href="adapter_2warp_8h_source.html">warp.h</a>.</p>
+<p>Definition at line <a class="el" href="adapter_2warp_8h_source.html#l00109">109</a> of file <a class="el" href="adapter_2warp_8h_source.html">warp.h</a>.</p>
 
 </div>
 </div>
@@ -282,7 +282,7 @@ template&lt;template&lt; class ImageType &gt; class Interpolator, class ImageTyp
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="adapter_2warp_8h_source.html#l00098">98</a> of file <a class="el" href="adapter_2warp_8h_source.html">warp.h</a>.</p>
+<p>Definition at line <a class="el" href="adapter_2warp_8h_source.html#l00110">110</a> of file <a class="el" href="adapter_2warp_8h_source.html">warp.h</a>.</p>
 
 </div>
 </div>
@@ -320,7 +320,7 @@ template&lt;template&lt; class ImageType &gt; class Interpolator, class ImageTyp
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="adapter_2warp_8h_source.html#l00099">99</a> of file <a class="el" href="adapter_2warp_8h_source.html">warp.h</a>.</p>
+<p>Definition at line <a class="el" href="adapter_2warp_8h_source.html#l00111">111</a> of file <a class="el" href="adapter_2warp_8h_source.html">warp.h</a>.</p>
 
 </div>
 </div>
@@ -347,7 +347,7 @@ template&lt;template&lt; class ImageType &gt; class Interpolator, class ImageTyp
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="adapter_2warp_8h_source.html#l00071">71</a> of file <a class="el" href="adapter_2warp_8h_source.html">warp.h</a>.</p>
+<p>Definition at line <a class="el" href="adapter_2warp_8h_source.html#l00073">73</a> of file <a class="el" href="adapter_2warp_8h_source.html">warp.h</a>.</p>
 
 </div>
 </div>
@@ -374,7 +374,7 @@ template&lt;template&lt; class ImageType &gt; class Interpolator, class ImageTyp
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="adapter_2warp_8h_source.html#l00067">67</a> of file <a class="el" href="adapter_2warp_8h_source.html">warp.h</a>.</p>
+<p>Definition at line <a class="el" href="adapter_2warp_8h_source.html#l00069">69</a> of file <a class="el" href="adapter_2warp_8h_source.html">warp.h</a>.</p>
 
 </div>
 </div>
@@ -401,7 +401,7 @@ template&lt;template&lt; class ImageType &gt; class Interpolator, class ImageTyp
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="adapter_2warp_8h_source.html#l00077">77</a> of file <a class="el" href="adapter_2warp_8h_source.html">warp.h</a>.</p>
+<p>Definition at line <a class="el" href="adapter_2warp_8h_source.html#l00079">79</a> of file <a class="el" href="adapter_2warp_8h_source.html">warp.h</a>.</p>
 
 </div>
 </div>
@@ -429,7 +429,7 @@ template&lt;template&lt; class ImageType &gt; class Interpolator, class ImageTyp
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="adapter_2warp_8h_source.html#l00090">90</a> of file <a class="el" href="adapter_2warp_8h_source.html">warp.h</a>.</p>
+<p>Definition at line <a class="el" href="adapter_2warp_8h_source.html#l00095">95</a> of file <a class="el" href="adapter_2warp_8h_source.html">warp.h</a>.</p>
 
 </div>
 </div>
@@ -457,7 +457,7 @@ template&lt;template&lt; class ImageType &gt; class Interpolator, class ImageTyp
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="adapter_2warp_8h_source.html#l00069">69</a> of file <a class="el" href="adapter_2warp_8h_source.html">warp.h</a>.</p>
+<p>Definition at line <a class="el" href="adapter_2warp_8h_source.html#l00071">71</a> of file <a class="el" href="adapter_2warp_8h_source.html">warp.h</a>.</p>
 
 </div>
 </div>
@@ -485,7 +485,7 @@ template&lt;template&lt; class ImageType &gt; class Interpolator, class ImageTyp
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="adapter_2warp_8h_source.html#l00070">70</a> of file <a class="el" href="adapter_2warp_8h_source.html">warp.h</a>.</p>
+<p>Definition at line <a class="el" href="adapter_2warp_8h_source.html#l00072">72</a> of file <a class="el" href="adapter_2warp_8h_source.html">warp.h</a>.</p>
 
 </div>
 </div>
@@ -513,7 +513,7 @@ template&lt;template&lt; class ImageType &gt; class Interpolator, class ImageTyp
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="adapter_2warp_8h_source.html#l00073">73</a> of file <a class="el" href="adapter_2warp_8h_source.html">warp.h</a>.</p>
+<p>Definition at line <a class="el" href="adapter_2warp_8h_source.html#l00075">75</a> of file <a class="el" href="adapter_2warp_8h_source.html">warp.h</a>.</p>
 
 </div>
 </div>
@@ -540,7 +540,7 @@ template&lt;template&lt; class ImageType &gt; class Interpolator, class ImageTyp
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="adapter_2warp_8h_source.html#l00068">68</a> of file <a class="el" href="adapter_2warp_8h_source.html">warp.h</a>.</p>
+<p>Definition at line <a class="el" href="adapter_2warp_8h_source.html#l00070">70</a> of file <a class="el" href="adapter_2warp_8h_source.html">warp.h</a>.</p>
 
 </div>
 </div>
@@ -567,7 +567,7 @@ template&lt;template&lt; class ImageType &gt; class Interpolator, class ImageTyp
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="adapter_2warp_8h_source.html#l00084">84</a> of file <a class="el" href="adapter_2warp_8h_source.html">warp.h</a>.</p>
+<p>Definition at line <a class="el" href="adapter_2warp_8h_source.html#l00086">86</a> of file <a class="el" href="adapter_2warp_8h_source.html">warp.h</a>.</p>
 
 </div>
 </div>
@@ -580,7 +580,7 @@ template&lt;template&lt; class ImageType &gt; class Interpolator, class ImageTyp
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_adapter.html">Adapter</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_adapter_1_1_warp.html">Warp</a></li>
-    <li class="footer">Generated on Thu May 5 2016 23:35:56 for MRtrix by
+    <li class="footer">Generated on Fri May 6 2016 07:37:12 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

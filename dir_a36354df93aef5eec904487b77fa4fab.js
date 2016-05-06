@@ -1,6 +1,7 @@
 var dir_a36354df93aef5eec904487b77fa4fab =
 [
     [ "stats", "dir_b565266709148b182c7b3b698b53f581.html", "dir_b565266709148b182c7b3b698b53f581" ],
+    [ "average_space.h", "average__space_8h.html", "average__space_8h" ],
     [ "bessel.h", "bessel_8h.html", "bessel_8h" ],
     [ "cauchy.h", "cauchy_8h.html", "cauchy_8h" ],
     [ "chebyshev.h", "chebyshev_8h.html", "chebyshev_8h" ],
@@ -13,6 +14,7 @@ var dir_a36354df93aef5eec904487b77fa4fab =
     [ "gaussian.h", "gaussian_8h.html", "gaussian_8h" ],
     [ "golden_section_search.h", "golden__section__search_8h.html", "golden__section__search_8h" ],
     [ "gradient_descent.h", "gradient__descent_8h.html", null ],
+    [ "gradient_descent_bb.h", "gradient__descent__bb_8h.html", null ],
     [ "hermite.h", "hermite_8h.html", [
       [ "Hermite", "class_m_r_1_1_math_1_1_hermite.html", "class_m_r_1_1_math_1_1_hermite" ]
     ] ],

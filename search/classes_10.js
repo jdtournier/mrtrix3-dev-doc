@@ -1,6 +1,7 @@
 var searchData=
 [
   ['packedfixel',['PackedFixel',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_packed_fixel.html',1,'MR::GUI::MRView::Tool']]],
+  ['params',['Params',['../class_m_r_1_1_registration_1_1_metric_1_1_params.html',1,'MR::Registration::Metric']]],
   ['parsedargument',['ParsedArgument',['../class_m_r_1_1_app_1_1_parsed_argument.html',1,'MR::App']]],
   ['parsedname',['ParsedName',['../class_m_r_1_1_file_1_1_parsed_name.html',1,'MR::File']]],
   ['parsedoption',['ParsedOption',['../class_m_r_1_1_app_1_1_parsed_option.html',1,'MR::App']]],
@@ -11,8 +12,8 @@ var searchData=
   ['patient',['Patient',['../class_m_r_1_1_file_1_1_dicom_1_1_patient.html',1,'MR::File::Dicom']]],
   ['permutationstack',['PermutationStack',['../class_m_r_1_1_stats_1_1_perm_test_1_1_permutation_stack.html',1,'MR::Stats::PermTest']]],
   ['permuteaxes',['PermuteAxes',['../class_m_r_1_1_adapter_1_1_permute_axes.html',1,'MR::Adapter']]],
-  ['pipe',['Pipe',['../class_m_r_1_1_formats_1_1_pipe.html',1,'MR::Formats']]],
   ['pipe',['Pipe',['../class_m_r_1_1_image_i_o_1_1_pipe.html',1,'MR::ImageIO']]],
+  ['pipe',['Pipe',['../class_m_r_1_1_formats_1_1_pipe.html',1,'MR::Formats']]],
   ['polygon',['Polygon',['../class_m_r_1_1_mesh_1_1_polygon.html',1,'MR::Mesh']]],
   ['precomputedal',['PrecomputedAL',['../class_m_r_1_1_math_1_1_s_h_1_1_precomputed_a_l.html',1,'MR::Math::SH']]],
   ['precomputedal_3c_20float_20_3e',['PrecomputedAL&lt; float &gt;',['../class_m_r_1_1_math_1_1_s_h_1_1_precomputed_a_l.html',1,'MR::Math::SH']]],

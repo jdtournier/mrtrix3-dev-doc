@@ -12,6 +12,7 @@ var namespace_m_r_1_1_filter =
     [ "Gradient", "class_m_r_1_1_filter_1_1_gradient.html", "class_m_r_1_1_filter_1_1_gradient" ],
     [ "ImageCorrelationCostFunction", "class_m_r_1_1_filter_1_1_image_correlation_cost_function.html", "class_m_r_1_1_filter_1_1_image_correlation_cost_function" ],
     [ "Median", "class_m_r_1_1_filter_1_1_median.html", "class_m_r_1_1_filter_1_1_median" ],
+    [ "Normalise", "class_m_r_1_1_filter_1_1_normalise.html", "class_m_r_1_1_filter_1_1_normalise" ],
     [ "OptimalThreshold", "class_m_r_1_1_filter_1_1_optimal_threshold.html", "class_m_r_1_1_filter_1_1_optimal_threshold" ],
     [ "Resize", "class_m_r_1_1_filter_1_1_resize.html", "class_m_r_1_1_filter_1_1_resize" ],
     [ "Smooth", "class_m_r_1_1_filter_1_1_smooth.html", "class_m_r_1_1_filter_1_1_smooth" ]

@@ -1,0 +1,10 @@
+var struct_m_r_1_1_registration_1_1_transform_1_1_init_1_1_linear_initialisation_params_1_1_rotation_init_1_1rot__search =
+[
+    [ "global_search", "struct_m_r_1_1_registration_1_1_transform_1_1_init_1_1_linear_initialisation_params_1_1_rotation1359ce80abca0ed08d29084512a24159.html", "struct_m_r_1_1_registration_1_1_transform_1_1_init_1_1_linear_initialisation_params_1_1_rotation1359ce80abca0ed08d29084512a24159" ],
+    [ "rot_search", "struct_m_r_1_1_registration_1_1_transform_1_1_init_1_1_linear_initialisation_params_1_1_rotation_init_1_1rot__search.html#a159abad4ec2c6d779cb50ae5064158fc", null ],
+    [ "angles", "struct_m_r_1_1_registration_1_1_transform_1_1_init_1_1_linear_initialisation_params_1_1_rotation_init_1_1rot__search.html#afec85873a2b4871451ea7716de0f0e76", null ],
+    [ "directions", "struct_m_r_1_1_registration_1_1_transform_1_1_init_1_1_linear_initialisation_params_1_1_rotation_init_1_1rot__search.html#a48b2ac4fa60731d0cb45987eb0adf681", null ],
+    [ "global", "struct_m_r_1_1_registration_1_1_transform_1_1_init_1_1_linear_initialisation_params_1_1_rotation_init_1_1rot__search.html#a3a447cef78a2748b065908b49d1e68c5", null ],
+    [ "run_global", "struct_m_r_1_1_registration_1_1_transform_1_1_init_1_1_linear_initialisation_params_1_1_rotation_init_1_1rot__search.html#aec5c855596ca18fac491ee5e350d7642", null ],
+    [ "scale", "struct_m_r_1_1_registration_1_1_transform_1_1_init_1_1_linear_initialisation_params_1_1_rotation_init_1_1rot__search.html#aa609cb466a04d3f8a10fb94616661e8d", null ]
+];
