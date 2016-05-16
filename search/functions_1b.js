@@ -45,7 +45,7 @@ var searchData=
   ['_7emetric_5fbase',['~Metric_base',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric__base.html#ada6a63fc7163f172ae88f21690544f6f',1,'MR::DWI::Tractography::Connectome::Metric_base']]],
   ['_7emhsampler',['~MHSampler',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_m_h_sampler.html#a83e2d2e1c50115713d3ae8f67f2784c1',1,'MR::DWI::Tractography::GT::MHSampler']]],
   ['_7emin_5fmem_5farray',['~Min_mem_array',['../class_m_r_1_1_min__mem__array.html#abb1caaf695ffa8687d572e5a15549adf',1,'MR::Min_mem_array']]],
-  ['_7emmap',['~MMap',['../class_m_r_1_1_file_1_1_m_map.html#a6a2b164454162eec1a14004567d93a7d',1,'MR::File::MMap']]],
+  ['_7emmap',['~MMap',['../class_m_r_1_1_file_1_1_m_map.html#ac64bd57ca1a50f040567580ce9d55185',1,'MR::File::MMap']]],
   ['_7emodel',['~Model',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model.html#a277fd72c45f1dae68455c4078f6cacc9',1,'MR::DWI::Tractography::SIFT::Model']]],
   ['_7emodelbase',['~ModelBase',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model_base.html#a72ccb777c0ae398ac0c9f13614a3ac82',1,'MR::DWI::Tractography::SIFT::ModelBase']]],
   ['_7enodeselectionsettingsframe',['~NodeSelectionSettingsFrame',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_node_selection_settings_frame.html#a6b8a21ee176b96c2d9443f078e9a6a8e',1,'MR::GUI::MRView::Tool::NodeSelectionSettingsFrame']]],
