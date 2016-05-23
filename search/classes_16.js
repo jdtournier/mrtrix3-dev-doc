@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['value',['Value',['../class_m_r_1_1_bit_set_1_1_value.html',1,'MR::BitSet']]],
-  ['value',['Value',['../class_m_r_1_1_sparse_1_1_value.html',1,'MR::Sparse']]],
   ['value',['Value',['../class_m_r_1_1_helper_1_1_value.html',1,'MR::Helper']]],
+  ['value',['Value',['../class_m_r_1_1_sparse_1_1_value.html',1,'MR::Sparse']]],
+  ['value',['Value',['../class_m_r_1_1_bit_set_1_1_value.html',1,'MR::BitSet']]],
   ['value_5ftype_5fof',['value_type_of',['../struct_m_r_1_1_interp_1_1value__type__of.html',1,'MR::Interp']]],
   ['value_5ftype_5fof_3c_20std_3a_3acomplex_3c_20x_20_3e_20_3e',['value_type_of&lt; std::complex&lt; X &gt; &gt;',['../struct_m_r_1_1_interp_1_1value__type__of_3_01std_1_1complex_3_01_x_01_4_01_4.html',1,'MR::Interp']]],
   ['vboxlayout',['VBoxLayout',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_1_1_v_box_layout.html',1,'MR::GUI::MRView::Tool::Base']]],

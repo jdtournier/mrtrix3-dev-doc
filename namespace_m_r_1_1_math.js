@@ -13,6 +13,7 @@ var namespace_m_r_1_1_math =
     [ "RigidLinearNonSymmetricUpdate", "class_m_r_1_1_math_1_1_rigid_linear_non_symmetric_update.html", "class_m_r_1_1_math_1_1_rigid_linear_non_symmetric_update" ],
     [ "RNG", "class_m_r_1_1_math_1_1_r_n_g.html", "class_m_r_1_1_math_1_1_r_n_g" ],
     [ "Sinc", "class_m_r_1_1_math_1_1_sinc.html", "class_m_r_1_1_math_1_1_sinc" ],
+    [ "Sn_scale_estimator", "class_m_r_1_1_math_1_1_sn__scale__estimator.html", "class_m_r_1_1_math_1_1_sn__scale__estimator" ],
     [ "UniformBSpline", "class_m_r_1_1_math_1_1_uniform_b_spline.html", "class_m_r_1_1_math_1_1_uniform_b_spline" ],
     [ "Versor", "class_m_r_1_1_math_1_1_versor.html", "class_m_r_1_1_math_1_1_versor" ]
 ];

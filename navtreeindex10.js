@@ -1,9 +1,5 @@
 var NAVTREEINDEX10 =
 {
-"class_m_r_1_1_filter_1_1_image_correlation_cost_function.html":[11,0,0,5,10],
-"class_m_r_1_1_filter_1_1_image_correlation_cost_function.html#a1703a4e46528b4bf9ebb07e4db4b4253":[11,0,0,5,10,3],
-"class_m_r_1_1_filter_1_1_image_correlation_cost_function.html#a5ef1b6382a083f6d97966a7406ed34f8":[11,0,0,5,10,2],
-"class_m_r_1_1_filter_1_1_image_correlation_cost_function.html#a674ba739d4d32b2af08f356151b14e4d":[11,0,0,5,10,0],
 "class_m_r_1_1_filter_1_1_image_correlation_cost_function.html#a89da86b956c3b6bba6466a7e45616ed9":[11,0,0,5,10,1],
 "class_m_r_1_1_filter_1_1_median.html":[9,12,8],
 "class_m_r_1_1_filter_1_1_median.html#a0aab64ad8040f75e5f6bb77859f0f91a":[9,12,8,2],
@@ -249,5 +245,9 @@ var NAVTREEINDEX10 =
 "class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_shader.html#a62c5d281e47612368ca2d0bf31dc4e0b":[11,0,0,7,2,0,2,0],
 "class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_shader.html#a6d77d556837521e48fae6f25a28f7fe0":[11,0,0,7,2,0,2,2],
 "class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_shader.html#a901a3f55aa16ff87e7415c818c06abf0":[11,0,0,7,2,0,2,1],
-"class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_shader.html#ab22f2c7a5338dc3bbe129dc4516420e8":[11,0,0,7,2,0,2,6]
+"class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_shader.html#ab22f2c7a5338dc3bbe129dc4516420e8":[11,0,0,7,2,0,2,6],
+"class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_shader.html#ab6f161788e3d381519b824ae5a54880e":[11,0,0,7,2,0,2,5],
+"class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_shader.html#ad4bd428385f9b0dca3fc5d342ce8a1fc":[11,0,0,7,2,0,2,3],
+"class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_shader.html#ad8065771cdcfed9a69c2e68392ec3186":[11,0,0,7,2,0,2,4],
+"class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_shader.html#adb99bb69e9d903d3567ca86705abab41":[11,0,0,7,2,0,2,8]
 };

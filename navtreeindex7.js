@@ -1,9 +1,5 @@
 var NAVTREEINDEX7 =
 {
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model_base.html#a591e14996f46ee2831005a2bcd4abee1":[11,0,0,3,2,7,4,0],
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model_base.html#a5b99695f53d60055994077683d496d5c":[11,0,0,3,2,7,4,14],
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model_base.html#a72ccb777c0ae398ac0c9f13614a3ac82":[11,0,0,3,2,7,4,4],
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model_base.html#a7e0d2f5aed65dca54c141d528aef5ae7":[11,0,0,3,2,7,4,5],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model_base.html#a7e56f5d999f9809b203e2f8520728d33":[11,0,0,3,2,7,4,16],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model_base.html#a82d4e164cd7c79685baebeceeee0aeff":[11,0,0,3,2,7,4,8],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model_base.html#a88ac848f31e96a5fb9613a23fdb35962":[11,0,0,3,2,7,4,9],
@@ -249,5 +245,9 @@ var NAVTREEINDEX7 =
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_shared_base.html#ac6dc4472c53756b795a9b4c45077e1e2":[11,0,0,3,2,9,4,22],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_shared_base.html#acc9fec9e02053dbedba147cd950b6b04":[11,0,0,3,2,9,4,20],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_shared_base.html#acec7bd4b0ea6feed29e07668e5bc8fe5":[11,0,0,3,2,9,4,26],
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_shared_base.html#acf7bd25cf61b5c3d71c3ae3058d76411":[11,0,0,3,2,9,4,24]
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_shared_base.html#acf7bd25cf61b5c3d71c3ae3058d76411":[11,0,0,3,2,9,4,24],
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_shared_base.html#ad09900af2eb807cd05f493dd4039c843":[11,0,0,3,2,9,4,3],
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_shared_base.html#ad154472f1f516fc33bec0dc7cd25f1a4":[11,0,0,3,2,9,4,9],
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_shared_base.html#ad4b77d2e7ec6558eeefbd1d940d6f0b1":[11,0,0,3,2,9,4,23],
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_write_kernel.html":[11,0,0,3,2,9,5]
 };

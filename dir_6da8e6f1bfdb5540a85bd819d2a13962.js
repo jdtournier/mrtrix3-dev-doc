@@ -17,8 +17,5 @@ var dir_6da8e6f1bfdb5540a85bd819d2a13962 =
     [ "gradient.h", "src_2dwi_2gradient_8h.html", "src_2dwi_2gradient_8h" ],
     [ "noise_estimator.h", "noise__estimator_8h.html", "noise__estimator_8h" ],
     [ "shells.h", "shells_8h.html", "shells_8h" ],
-    [ "Sn_scale_estimator.h", "_sn__scale__estimator_8h.html", [
-      [ "Sn_scale_estimator", "class_m_r_1_1_d_w_i_1_1_sn__scale__estimator.html", "class_m_r_1_1_d_w_i_1_1_sn__scale__estimator" ]
-    ] ],
     [ "tensor.h", "tensor_8h.html", "tensor_8h" ]
 ];

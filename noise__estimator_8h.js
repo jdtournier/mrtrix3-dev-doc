@@ -8,5 +8,5 @@ var noise__estimator_8h =
     [ "noise", "noise__estimator_8h.html#a7cd8e794727643c8298f16ddd0dd19af", null ],
     [ "R", "noise__estimator_8h.html#a29c9c1f22fc40e7ce370f04a6d3ede73", null ],
     [ "S", "noise__estimator_8h.html#a1f3150ccf61b245d0363a198068ebf3d", null ],
-    [ "scale_estimator", "noise__estimator_8h.html#a32382f77f9d440bb5a47c22215689945", null ]
+    [ "scale_estimator", "noise__estimator_8h.html#add3e07d3f5f6c4ed6c8312cac9e415f6", null ]
 ];

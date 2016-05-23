@@ -38,5 +38,8 @@ var dir_a36354df93aef5eec904487b77fa4fab =
     [ "sinc.h", "math_2sinc_8h.html", [
       [ "Sinc", "class_m_r_1_1_math_1_1_sinc.html", "class_m_r_1_1_math_1_1_sinc" ]
     ] ],
+    [ "Sn_scale_estimator.h", "_sn__scale__estimator_8h.html", [
+      [ "Sn_scale_estimator", "class_m_r_1_1_math_1_1_sn__scale__estimator.html", "class_m_r_1_1_math_1_1_sn__scale__estimator" ]
+    ] ],
     [ "versor.h", "versor_8h.html", "versor_8h" ]
 ];

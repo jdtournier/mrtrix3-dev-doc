@@ -1,9 +1,5 @@
 var NAVTREEINDEX3 =
 {
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_tensor___det.html#a28b2fd8dca4215d10b28a9719c39c627":[11,0,0,3,2,1,7,10],
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_tensor___det.html#a37e5a9567d5e3e8e640937173b0bf5ec":[11,0,0,3,2,1,7,12],
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_tensor___det.html#a58540e0f7e949961d9f25c7ef948225c":[11,0,0,3,2,1,7,9],
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_tensor___det.html#a5f65a92472b720359699d76b725cc88d":[11,0,0,3,2,1,7,5],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_tensor___det.html#a6741e7ee9957be230b36e8226de02132":[11,0,0,3,2,1,7,1],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_tensor___det.html#a7dfb9ab9111611c56a4f3ebdc143ce66":[11,0,0,3,2,1,7,11],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_tensor___det.html#a9384e795313091c74ffdd95e81c605c2":[11,0,0,3,2,1,7,8],
@@ -249,5 +245,9 @@ var NAVTREEINDEX3 =
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_editing_1_1_receiver.html":[11,0,0,3,2,3,1],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_editing_1_1_receiver.html#a15cc5c9b60d101000f0c4b80c20ed0c1":[11,0,0,3,2,3,1,2],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_editing_1_1_receiver.html#a3d50389a3158bf9cfcf8c40289cd24d7":[11,0,0,3,2,3,1,0],
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_editing_1_1_receiver.html#ac5852e46de1a4245c9e6bc7f313abc94":[11,0,0,3,2,3,1,1]
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_editing_1_1_receiver.html#ac5852e46de1a4245c9e6bc7f313abc94":[11,0,0,3,2,3,1,1],
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_editing_1_1_worker.html":[11,0,0,3,2,3,2],
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_editing_1_1_worker.html#a815cc9bbbf358264674c479283f6144d":[11,0,0,3,2,3,2,0],
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_editing_1_1_worker.html#ac39fc2863426a500311d53712c6f1a78":[11,0,0,3,2,3,2,2],
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_editing_1_1_worker.html#ad925ad7ec1c3255e40e9bca23d343a00":[11,0,0,3,2,3,2,1]
 };

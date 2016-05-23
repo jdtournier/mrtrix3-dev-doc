@@ -116,10 +116,6 @@ var NAVTREEINDEX2 =
 "class_m_r_1_1_d_w_i_1_1_shells.html#ae05de7344456bd7a5dda4f1c44c8e217":[11,0,0,3,7,2],
 "class_m_r_1_1_d_w_i_1_1_shells.html#aeb9b1443b1d06a6c8a867e2d9c0e0fd4":[11,0,0,3,7,1],
 "class_m_r_1_1_d_w_i_1_1_shells.html#af347f1dc74ff56828ea7c28f6956e36d":[11,0,0,3,7,10],
-"class_m_r_1_1_d_w_i_1_1_sn__scale__estimator.html":[11,0,0,3,8],
-"class_m_r_1_1_d_w_i_1_1_sn__scale__estimator.html#a2b27476d8676ba5c5ca7be704058b5cf":[11,0,0,3,8,1],
-"class_m_r_1_1_d_w_i_1_1_sn__scale__estimator.html#a40ada09f4a62435b6642e6002ec4fff3":[11,0,0,3,8,2],
-"class_m_r_1_1_d_w_i_1_1_sn__scale__estimator.html#a6ba7a5f1ede41910bbb02188ea2b0240":[11,0,0,3,8,0],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_a_c_t___method__additions.html":[11,0,0,3,2,0,0],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_a_c_t___method__additions.html#a281fdcbc30f0f72929a20ae4ac6eba61":[11,0,0,3,2,0,0,10],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_a_c_t___method__additions.html#a415d841ce0c7b28225fcecfd70501960":[11,0,0,3,2,0,0,5],
@@ -249,5 +245,9 @@ var NAVTREEINDEX2 =
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_seedtest_1_1_shared.html#ac37fa5c56454b024b7d2f3e73c68a23f":[11,0,0,3,2,1,6,0,0],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_tensor___det.html":[11,0,0,3,2,1,7],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_tensor___det.html#a0f4261757019c7fdab42c720fa4f8e6a":[11,0,0,3,2,1,7,6],
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_tensor___det.html#a1d93f7838a09802b2c06c66a698a51be":[11,0,0,3,2,1,7,4]
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_tensor___det.html#a1d93f7838a09802b2c06c66a698a51be":[11,0,0,3,2,1,7,4],
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_tensor___det.html#a28b2fd8dca4215d10b28a9719c39c627":[11,0,0,3,2,1,7,10],
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_tensor___det.html#a37e5a9567d5e3e8e640937173b0bf5ec":[11,0,0,3,2,1,7,12],
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_tensor___det.html#a58540e0f7e949961d9f25c7ef948225c":[11,0,0,3,2,1,7,9],
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_tensor___det.html#a5f65a92472b720359699d76b725cc88d":[11,0,0,3,2,1,7,5]
 };

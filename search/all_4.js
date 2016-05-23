@@ -82,7 +82,7 @@ var searchData=
   ['dicom_2eh',['dicom.h',['../dicom_8h.html',1,'']]],
   ['dicom_5fto_5fmapper',['dicom_to_mapper',['../namespace_m_r_1_1_file_1_1_dicom.html#a11c02784cc26a9017dd089170073004f',1,'MR::File::Dicom']]],
   ['dict',['dict',['../class_m_r_1_1_file_1_1_dicom_1_1_element.html#a884b9fe9e24c726579e86fec5bc3f6b8',1,'MR::File::Dicom::Element']]],
-  ['diff',['diff',['../class_m_r_1_1_d_w_i_1_1_sn__scale__estimator.html#a2b27476d8676ba5c5ca7be704058b5cf',1,'MR::DWI::Sn_scale_estimator::diff()'],['../namespace_m_r_1_1_registration.html#a2128b8d3c4c2bd10f9a40be6b8fe0bc5a2627cd6af7f4b56744218892fc3abc2f',1,'MR::Registration::Diff()']]],
+  ['diff',['diff',['../class_m_r_1_1_math_1_1_sn__scale__estimator.html#a65993cf72cc6ef9b60d725c6657884fe',1,'MR::Math::Sn_scale_estimator::diff()'],['../namespace_m_r_1_1_registration.html#a2128b8d3c4c2bd10f9a40be6b8fe0bc5a2627cd6af7f4b56744218892fc3abc2f',1,'MR::Registration::Diff()']]],
   ['difference_5frobust_2eh',['difference_robust.h',['../difference__robust_8h.html',1,'']]],
   ['differencerobust',['DifferenceRobust',['../class_m_r_1_1_registration_1_1_metric_1_1_difference_robust.html',1,'MR::Registration::Metric']]],
   ['differencerobust',['DifferenceRobust',['../class_m_r_1_1_registration_1_1_metric_1_1_difference_robust.html#a6b2ebb016393fa9a2d17391258b26ea8',1,'MR::Registration::Metric::DifferenceRobust']]],
