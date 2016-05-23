@@ -1,6 +1,5 @@
 var NAVTREEINDEX20 =
 {
-"class_m_r_1_1_progress_info.html#af5d1c2a7b28ed18ad4f7f5ad477c4eac":[11,0,0,58,7],
 "class_m_r_1_1_progress_info.html#afccd619687238f38eb039d42f13d512f":[11,0,0,58,10],
 "class_m_r_1_1_random__loop.html":[11,0,0,59],
 "class_m_r_1_1_random__loop.html#a00ea4893761652c812c0cb55113738b9":[11,0,0,59,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX20 =
 "class_m_r_1_1_registration_1_1_non_linear.html#affd2b7fff34bdf324619f71e1d9a1a9b":[11,0,0,14,5,37],
 "class_m_r_1_1_registration_1_1_rotation_search_1_1_exhaustive_rotation_search.html":[11,0,0,14,1,0],
 "class_m_r_1_1_registration_1_1_rotation_search_1_1_exhaustive_rotation_search.html#a415d2847db94f880ffabdb2dde708dde":[11,0,0,14,1,0,0],
-"class_m_r_1_1_registration_1_1_rotation_search_1_1_exhaustive_rotation_search.html#a62cbf41b4fa562d448f00a8332955bd9":[11,0,0,14,1,0,3]
+"class_m_r_1_1_registration_1_1_rotation_search_1_1_exhaustive_rotation_search.html#a62cbf41b4fa562d448f00a8332955bd9":[11,0,0,14,1,0,3],
+"class_m_r_1_1_registration_1_1_rotation_search_1_1_exhaustive_rotation_search.html#ad1296d73f0fe04387450875fda1a5c16":[11,0,0,14,1,0,2]
 };

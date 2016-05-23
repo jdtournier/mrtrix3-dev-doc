@@ -1,6 +1,5 @@
 var NAVTREEINDEX10 =
 {
-"class_m_r_1_1_filter_1_1_gradient.html#afe1543e1b9dade8266403159b1a7da20":[9,12,7,2],
 "class_m_r_1_1_filter_1_1_image_correlation_cost_function.html":[11,0,0,5,10],
 "class_m_r_1_1_filter_1_1_image_correlation_cost_function.html#a1703a4e46528b4bf9ebb07e4db4b4253":[11,0,0,5,10,3],
 "class_m_r_1_1_filter_1_1_image_correlation_cost_function.html#a5ef1b6382a083f6d97966a7406ed34f8":[11,0,0,5,10,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX10 =
 "class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_shader.html#a3d00638144b2aca06ab050444a35e13a":[11,0,0,7,2,0,2,7],
 "class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_shader.html#a62c5d281e47612368ca2d0bf31dc4e0b":[11,0,0,7,2,0,2,0],
 "class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_shader.html#a6d77d556837521e48fae6f25a28f7fe0":[11,0,0,7,2,0,2,2],
-"class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_shader.html#a901a3f55aa16ff87e7415c818c06abf0":[11,0,0,7,2,0,2,1]
+"class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_shader.html#a901a3f55aa16ff87e7415c818c06abf0":[11,0,0,7,2,0,2,1],
+"class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_shader.html#ab22f2c7a5338dc3bbe129dc4516420e8":[11,0,0,7,2,0,2,6]
 };

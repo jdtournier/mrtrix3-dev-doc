@@ -193,7 +193,7 @@ var searchData=
   ['projection_5finverse',['projection_inverse',['../class_m_r_1_1_g_u_i_1_1_projection.html#a1d056954808d2635b12e9304483872c7',1,'MR::GUI::Projection']]],
   ['projections',['projections',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_ortho.html#a3989a74f888def0d476b775b0ee99f95',1,'MR::GUI::MRView::Mode::Ortho']]],
   ['properties',['Properties',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_properties.html',1,'MR::DWI::Tractography']]],
-  ['properties',['properties',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_shared_base.html#ac6dc4472c53756b795a9b4c45077e1e2',1,'MR::DWI::Tractography::Tracking::SharedBase::properties()'],['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_properties.html#adf6de8318efa4f7ded4496d70bc9cf51',1,'MR::DWI::Tractography::Properties::Properties()']]],
+  ['properties',['Properties',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_properties.html#adf6de8318efa4f7ded4496d70bc9cf51',1,'MR::DWI::Tractography::Properties::Properties()'],['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_shared_base.html#ac6dc4472c53756b795a9b4c45077e1e2',1,'MR::DWI::Tractography::Tracking::SharedBase::properties()']]],
   ['properties',['Properties',['../struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_properties.html',1,'MR::DWI::Tractography::GT']]],
   ['properties_2eh',['properties.h',['../properties_8h.html',1,'']]],
   ['props',['props',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_m_h_sampler.html#a28a82adf36ff6e8834fe5b985fec3f4d',1,'MR::DWI::Tractography::GT::MHSampler']]],

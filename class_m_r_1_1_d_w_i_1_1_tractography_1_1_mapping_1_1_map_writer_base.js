@@ -13,7 +13,6 @@ var class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_map_writer_base =
     [ "operator()", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_map_writer_base.html#a41ebc0c50c0f5b87e9ef2daf6fdef6c7", null ],
     [ "operator()", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_map_writer_base.html#ae629f9609adf83c805c41aaca082949f", null ],
     [ "counts", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_map_writer_base.html#afe76f714d30aa9c88deb7b48895f04f4", null ],
-    [ "direct_dump", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_map_writer_base.html#a75a8c958c1736674c2f7ada13bd7bb9a", null ],
     [ "H", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_map_writer_base.html#af292bc82acd998b58ef2791891b90c6c", null ],
     [ "output_image_name", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_map_writer_base.html#a119555c32a5ba9ad476ccfe41fd32374", null ],
     [ "type", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_map_writer_base.html#a60ce05793a68cb202d0fe332e0eb0739", null ],
