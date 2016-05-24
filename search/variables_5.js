@@ -40,6 +40,7 @@ var searchData=
   ['einttot',['EintTot',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_stats.html#a86e4f4edb036f2cb69b5dfa37e3e0479',1,'MR::DWI::Tractography::GT::Stats']]],
   ['el',['el',['../calibrator_8h.html#aed7ba788c50defe48678c3e5359c6ceb',1,'calibrator.h']]],
   ['electrostatic_5frepulsion_5f300_5fdata',['electrostatic_repulsion_300_data',['../namespace_m_r_1_1_d_w_i_1_1_directions.html#a09d8c94be57b83eb01acd03a0b1f7bed',1,'MR::DWI::Directions']]],
+  ['electrostatic_5frepulsion_5f5000_5fdata',['electrostatic_repulsion_5000_data',['../namespace_m_r_1_1_d_w_i_1_1_directions.html#aab937fe4883c9f24b6cfb024bfef2a86',1,'MR::DWI::Directions']]],
   ['electrostatic_5frepulsion_5f60_5fdata',['electrostatic_repulsion_60_data',['../namespace_m_r_1_1_d_w_i_1_1_directions.html#a59beb5f5cadacf9163892cb80544d65a',1,'MR::DWI::Directions']]],
   ['element',['element',['../class_m_r_1_1_file_1_1_dicom_1_1_sequence.html#a8271d3a79d945a37f9190f33536ab22f',1,'MR::File::Dicom::Sequence::element()'],['../class_m_r_1_1_file_1_1_dicom_1_1_element.html#afb6fadf127257372fb02fca8211f6372',1,'MR::File::Dicom::Element::element()']]],
   ['elevation_5fslider',['elevation_slider',['../class_m_r_1_1_g_u_i_1_1_lighting_settings.html#aba116922a714b24cea1662173a8b1950',1,'MR::GUI::LightingSettings']]],

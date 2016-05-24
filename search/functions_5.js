@@ -19,6 +19,7 @@ var searchData=
   ['edgeshader',['EdgeShader',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_edge_shader.html#a73d5ef105504028a5a49aafb46377331',1,'MR::GUI::MRView::Tool::EdgeShader']]],
   ['elapsed',['elapsed',['../class_m_r_1_1_timer.html#a80438b68199bf2a6e9de2faf197546d1',1,'MR::Timer']]],
   ['electrostatic_5frepulsion_5f300',['electrostatic_repulsion_300',['../namespace_m_r_1_1_d_w_i_1_1_directions.html#a3d8051e0e5a9ba3cb76f7bcf5193818d',1,'MR::DWI::Directions']]],
+  ['electrostatic_5frepulsion_5f5000',['electrostatic_repulsion_5000',['../namespace_m_r_1_1_d_w_i_1_1_directions.html#ae48caa495898fa1c5364a8f53c4ce05f',1,'MR::DWI::Directions']]],
   ['electrostatic_5frepulsion_5f60',['electrostatic_repulsion_60',['../namespace_m_r_1_1_d_w_i_1_1_directions.html#aa6eaca19d7372d446aa057301037816d',1,'MR::DWI::Directions']]],
   ['empty',['empty',['../class_m_r_1_1_bit_set.html#a4d063b81ef7070714bb5e9167876d533',1,'MR::BitSet::empty()'],['../class_m_r_1_1_d_w_i_1_1_fixel__map_1_1_map_voxel.html#a5423c57f82e8e507cb9066e2b11f1006',1,'MR::DWI::Fixel_map::MapVoxel::empty()']]],
   ['end_5frender_5fcolourbars',['end_render_colourbars',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_renderer.html#a6e9102c41fb5cd6e416f02a3cf805334',1,'MR::GUI::MRView::ColourMap::Renderer']]],
