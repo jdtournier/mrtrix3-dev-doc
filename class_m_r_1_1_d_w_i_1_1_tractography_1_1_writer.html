@@ -35,7 +35,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.14-626-g1e410cc0</div>
+   <div id="projectbrief">Version 0.3.14-629-gfb9db785</div>
   </td>
  </tr>
  </tbody>
@@ -219,7 +219,7 @@ class MR::DWI::Tractography::Writer&lt; ValueType &gt;</h3>
 <p>writes track header as specified in <em>properties</em> and individual tracks to the file specified in <em>file</em>. Writing individual tracks is done using the append() method.</p>
 <p>This class implements a large write-back RAM buffer to hold the track data in RAM, and only commits to file when the buffer capacity is reached. This minimises the number of <a class="el" href="namespace_m_r_1_1_file_1_1_n_if_t_i.html#a7baba9bcf6c7ba6862fdaefebdd2ae43">write()</a> calls, which can otherwise become a bottleneck on distributed or network filesystems. It also helps reduce file fragmentation when multiple processes write to file concurrently. The size of the write-back buffer defaults to 16MB, and can be set in the config file using the TrackWriterBufferSize field (in bytes). </p>
 
-<p>Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00345">345</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
+<p>Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00352">352</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="a66e66327e88ee00a58a67644032eec07"></a>
 <div class="memitem">
@@ -233,7 +233,7 @@ template&lt;typename ValueType = float&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00354">354</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
+<p>Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00361">361</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
 
 </div>
 </div>
@@ -281,7 +281,7 @@ template&lt;typename ValueType = float&gt; </div>
 <p>create new RAM-buffered track file with specified properties </p>
 <p>the capacity of the RAM buffer can be specified as a config file option (TrackWriterBufferSize), or in the constructor by specifying a value in bytes for <code>default_buffer_capacity</code> (default is 16M). </p>
 
-<p>Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00367">367</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
+<p>Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00374">374</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
 
 </div>
 </div>
@@ -336,7 +336,7 @@ template&lt;typename ValueType = float&gt; </div>
 
 <p>commits any remaining data to file </p>
 
-<p>Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00376">376</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
+<p>Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00383">383</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
 
 </div>
 </div>
@@ -367,7 +367,7 @@ template&lt;typename ValueType = float&gt; </div>
 
 <p>add point to buffer and increment buffer_size accordingly </p>
 
-<p>Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00407">407</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
+<p>Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00414">414</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
 
 </div>
 </div>
@@ -394,7 +394,7 @@ template&lt;typename ValueType = float&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00411">411</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
+<p>Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00418">418</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
 
 </div>
 </div>
@@ -426,7 +426,7 @@ template&lt;typename ValueType = float&gt; </div>
 
 <p>Reimplemented from <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer_unbuffered.html#afec71912c338a0ef97106e6d9d6a642f">MR::DWI::Tractography::WriterUnbuffered&lt; ValueType &gt;</a>.</p>
 
-<p>Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00381">381</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
+<p>Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00388">388</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
 
 </div>
 </div>
@@ -451,7 +451,7 @@ template&lt;typename ValueType = float&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00402">402</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
+<p>Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00409">409</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
 
 </div>
 </div>
@@ -475,7 +475,7 @@ template&lt;typename ValueType = float&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00401">401</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
+<p>Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00408">408</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
 
 </div>
 </div>
@@ -499,7 +499,7 @@ template&lt;typename ValueType = float&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00403">403</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
+<p>Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00410">410</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
 
 </div>
 </div>
@@ -523,7 +523,7 @@ template&lt;typename ValueType = float&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00404">404</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
+<p>Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00411">411</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
 
 </div>
 </div>
@@ -536,7 +536,7 @@ template&lt;typename ValueType = float&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_d_w_i.html">DWI</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography.html">Tractography</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer.html">Writer</a></li>
-    <li class="footer">Generated on Wed Jun 1 2016 07:12:58 for MRtrix by
+    <li class="footer">Generated on Wed Jun 1 2016 08:03:18 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
