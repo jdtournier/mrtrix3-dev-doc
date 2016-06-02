@@ -10,7 +10,8 @@ var dir_4a531f92e45cf413a1a13b20973b25c3 =
     [ "initialiser_helpers.h", "initialiser__helpers_8h.html", "initialiser__helpers_8h" ],
     [ "reorient.h", "reorient_8h.html", "reorient_8h" ],
     [ "rigid.h", "rigid_8h.html", [
-      [ "RigidLinearNonSymmetricUpdate", "class_m_r_1_1_math_1_1_rigid_linear_non_symmetric_update.html", "class_m_r_1_1_math_1_1_rigid_linear_non_symmetric_update" ]
+      [ "RigidLinearNonSymmetricUpdate", "class_m_r_1_1_registration_1_1_transform_1_1_rigid_linear_non_symmetric_update.html", "class_m_r_1_1_registration_1_1_transform_1_1_rigid_linear_non_symmetric_update" ],
+      [ "RigidRobustEstimator", "class_m_r_1_1_registration_1_1_transform_1_1_rigid_robust_estimator.html", "class_m_r_1_1_registration_1_1_transform_1_1_rigid_robust_estimator" ]
     ] ],
     [ "search.h", "search_8h.html", "search_8h" ]
 ];

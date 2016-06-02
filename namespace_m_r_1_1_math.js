@@ -10,7 +10,6 @@ var namespace_m_r_1_1_math =
     [ "HermiteSpline", "class_m_r_1_1_math_1_1_hermite_spline.html", "class_m_r_1_1_math_1_1_hermite_spline" ],
     [ "LinearUpdateBB", "class_m_r_1_1_math_1_1_linear_update_b_b.html", "class_m_r_1_1_math_1_1_linear_update_b_b" ],
     [ "QuadraticLineSearch", "class_m_r_1_1_math_1_1_quadratic_line_search.html", "class_m_r_1_1_math_1_1_quadratic_line_search" ],
-    [ "RigidLinearNonSymmetricUpdate", "class_m_r_1_1_math_1_1_rigid_linear_non_symmetric_update.html", "class_m_r_1_1_math_1_1_rigid_linear_non_symmetric_update" ],
     [ "RNG", "class_m_r_1_1_math_1_1_r_n_g.html", "class_m_r_1_1_math_1_1_r_n_g" ],
     [ "Sinc", "class_m_r_1_1_math_1_1_sinc.html", "class_m_r_1_1_math_1_1_sinc" ],
     [ "Sn_scale_estimator", "class_m_r_1_1_math_1_1_sn__scale__estimator.html", "class_m_r_1_1_math_1_1_sn__scale__estimator" ],

@@ -10,7 +10,7 @@ var searchData=
   ['hanning',['hanning',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_external_energy_computer.html#a873a3ff2f9f0ba6958241b4242c82bd8',1,'MR::DWI::Tractography::GT::ExternalEnergyComputer']]],
   ['has_5fnegative_5fjacobians',['has_negative_jacobians',['../class_m_r_1_1_registration_1_1_non_linear.html#a792153eebac1da952b286f48cf7cc52c',1,'MR::Registration::NonLinear']]],
   ['has_5fredo',['has_redo',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___item.html#a1a9927b190b988c7e300d38b2f8b27bd',1,'MR::GUI::MRView::Tool::ROI_Item']]],
-  ['has_5frobust_5festimator',['has_robust_estimator',['../class_m_r_1_1_registration_1_1_transform_1_1_affine.html#aea66b7edcbd3e3a0d6c1b905bd8fc1fd',1,'MR::Registration::Transform::Affine']]],
+  ['has_5frobust_5festimator',['has_robust_estimator',['../class_m_r_1_1_registration_1_1_transform_1_1_affine.html#aea66b7edcbd3e3a0d6c1b905bd8fc1fd',1,'MR::Registration::Transform::Affine::has_robust_estimator()'],['../class_m_r_1_1_registration_1_1_transform_1_1_rigid.html#a2bcf51855deacc012e0dc3b3a3e65e90',1,'MR::Registration::Transform::Rigid::has_robust_estimator()']]],
   ['has_5fsuffix',['has_suffix',['../namespace_m_r_1_1_path.html#aec71ef62d6df55a69e640af475ae3057',1,'MR::Path::has_suffix(const std::string &amp;name, const std::string &amp;suffix)'],['../namespace_m_r_1_1_path.html#ab14271e383bdc70db1e02b9913fd3e9d',1,'MR::Path::has_suffix(const std::string &amp;name, const std::initializer_list&lt; const std::string &gt; &amp;suffix_list)']]],
   ['has_5fundo',['has_undo',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___item.html#a424475b630b3e78768a53b852b0a4637',1,'MR::GUI::MRView::Tool::ROI_Item']]],
   ['hash_5fmap_2eh',['hash_map.h',['../hash__map_8h.html',1,'']]],

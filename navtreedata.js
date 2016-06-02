@@ -110,19 +110,19 @@ var NAVTREEINDEX =
 "class_m_r_1_1_header.html#a31cba6fe131dcd7993755a7fc8c6d7fd",
 "class_m_r_1_1_interp_1_1_base.html#aa92869e55bc26d39fda1f574a77fbfbd",
 "class_m_r_1_1_math_1_1_i_c_l_s_1_1_solver.html",
-"class_m_r_1_1_progress_info.html#afccd619687238f38eb039d42f13d512f",
-"class_m_r_1_1_registration_1_1_rotation_search_1_1_exhaustive_rotation_search.html#ad1855a36649a92cfd074525caea04af6",
-"class_m_r_1_1_thread_1_1_queue_1_1_writer.html",
-"dir_c3d02bcfc826fa22df9d20e4ffa1a092.html",
-"functions_vars_a.html",
-"group___cmd_parse.html#gae12eaee039757a6eaadc11d6b83ca88a",
-"group__thread__classes.html",
-"lut_8h.html#a1225eba70a806f1fda8a790b38ecc080",
-"namespace_m_r_1_1_math_1_1_stats.html",
-"random__threaded__loop_8h.html#a5081f671da1d62560c122954ecc7ddea",
-"src_2dwi_2tractography_2tracking_2types_8h.html#ad956382fab3ffe08fe6398044e9ae01aa0754d23485a2ac2d2616e14debf5f993",
-"struct_m_r_1_1_loop_along_dynamic_axes_1_1_run.html#a579690811d65a959cfbc8fe38b807675",
-"twi__stats_8h.html#a11697b8a24621d1aab532b3f6af729bbaea31bb30359e706dc1016ef11f4971e8"
+"class_m_r_1_1_random__loop.html#a402ef44c1d1ea9438fe2316255d9bc98",
+"class_m_r_1_1_registration_1_1_transform_1_1_affine.html#a0630402cc97eada1f0727db49bb0d533",
+"class_m_r_1_1_thread_1_1_queue_1_1_reader_1_1_item.html#a2a814c8475718f408f81307bd6c81afe",
+"dir_9c221c82dfbf1694485490ee49c73b0c.html",
+"functions_t.html",
+"group___cmd_parse.html#gad9925a0dc69f95814462f9874844d1e1",
+"group__spherical__harmonics.html#gac405578b4137cf1c22a0cf646d260b05",
+"loop_8h.html#gab92f1de29d3c2403a121c4ed08e8dd35",
+"namespace_m_r_1_1_math_1_1_legendre.html",
+"ram_8h_source.html",
+"src_2dwi_2tractography_2tracking_2types_8h.html#a1c30c67185585a9f27b5a581050292f5ac22cdc8e9af290d32c1755f8805306c7",
+"struct_m_r_1_1_loop_along_dynamic_axes.html#ac9d7c57ac133ea4cc52b86b913b5526f",
+"tree_8h_source.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

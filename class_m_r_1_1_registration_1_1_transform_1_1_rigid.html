@@ -35,7 +35,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.14-636-g0f98465a</div>
+   <div id="projectbrief">Version 0.3.14-646-g9bf930b4</div>
   </td>
  </tr>
  </tbody>
@@ -135,8 +135,12 @@ Inheritance diagram for MR::Registration::Transform::Rigid:</div>
 Public Types</h2></td></tr>
 <tr class="memitem:a00afd0309d806d884723a85c794d0aea"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_base.html#aaeb8a03cda2bc20049915c0ceac6e1f8">Base::ParameterType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_rigid.html#a00afd0309d806d884723a85c794d0aea">ParameterType</a></td></tr>
 <tr class="separator:a00afd0309d806d884723a85c794d0aea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a589675892c2adfd0d69133d29ff0304d"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_m_r_1_1_math_1_1_rigid_linear_non_symmetric_update.html">Math::RigidLinearNonSymmetricUpdate</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_rigid.html#a589675892c2adfd0d69133d29ff0304d">UpdateType</a></td></tr>
-<tr class="separator:a589675892c2adfd0d69133d29ff0304d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dc9681416e1c89d76400c83e46911c8"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_rigid_linear_non_symmetric_update.html">RigidLinearNonSymmetricUpdate</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_rigid.html#a4dc9681416e1c89d76400c83e46911c8">UpdateType</a></td></tr>
+<tr class="separator:a4dc9681416e1c89d76400c83e46911c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14714da748a3a059d2040726c416bffb"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_rigid_robust_estimator.html">RigidRobustEstimator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_rigid.html#a14714da748a3a059d2040726c416bffb">RobustEstimatorType</a></td></tr>
+<tr class="separator:a14714da748a3a059d2040726c416bffb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bcf51855deacc012e0dc3b3a3e65e90"><td class="memItemLeft" align="right" valign="top">typedef int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_rigid.html#a2bcf51855deacc012e0dc3b3a3e65e90">has_robust_estimator</a></td></tr>
+<tr class="separator:a2bcf51855deacc012e0dc3b3a3e65e90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_types_class_m_r_1_1_registration_1_1_transform_1_1_base"><td colspan="2" onclick="javascript:toggleInherit('pub_types_class_m_r_1_1_registration_1_1_transform_1_1_base')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_base.html">MR::Registration::Transform::Base</a></td></tr>
 <tr class="memitem:aaeb8a03cda2bc20049915c0ceac6e1f8 inherit pub_types_class_m_r_1_1_registration_1_1_transform_1_1_base"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_base.html#aaeb8a03cda2bc20049915c0ceac6e1f8">ParameterType</a></td></tr>
 <tr class="separator:aaeb8a03cda2bc20049915c0ceac6e1f8 inherit pub_types_class_m_r_1_1_registration_1_1_transform_1_1_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -153,8 +157,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:abb1e5fce07de8dafe573a0aafa29ca8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b8d1a6a7ae6355e0205c3bbfb5eafe3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_rigid.html#a9b8d1a6a7ae6355e0205c3bbfb5eafe3">get_parameter_vector</a> (Eigen::Matrix&lt; <a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_base.html#aaeb8a03cda2bc20049915c0ceac6e1f8">ParameterType</a>, Eigen::Dynamic, 1 &gt; &amp;param_vector) const </td></tr>
 <tr class="separator:a9b8d1a6a7ae6355e0205c3bbfb5eafe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0822ade43d2879c5cf909ad3bbbf28c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_rigid.html#a589675892c2adfd0d69133d29ff0304d">UpdateType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_rigid.html#a0822ade43d2879c5cf909ad3bbbf28c7">get_gradient_descent_updator</a> ()</td></tr>
+<tr class="memitem:a0822ade43d2879c5cf909ad3bbbf28c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_rigid.html#a4dc9681416e1c89d76400c83e46911c8">UpdateType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_rigid.html#a0822ade43d2879c5cf909ad3bbbf28c7">get_gradient_descent_updator</a> ()</td></tr>
 <tr class="separator:a0822ade43d2879c5cf909ad3bbbf28c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1fa8bbea358c766f41e91157e867f66"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_rigid.html#ae1fa8bbea358c766f41e91157e867f66">robust_estimate</a> (Eigen::Matrix&lt; <a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a>, Eigen::Dynamic, 1 &gt; &amp;gradient, std::vector&lt; Eigen::Matrix&lt; <a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a>, Eigen::Dynamic, 1 &gt;&gt; &amp;grad_estimates, const Eigen::Matrix&lt; <a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a>, 4, 4 &gt; &amp;control_points, const Eigen::Matrix&lt; <a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a>, Eigen::Dynamic, 1 &gt; &amp;parameter_vector, const <a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a> &amp;weiszfeld_precision, const size_t &amp;weiszfeld_iterations, <a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a> learning_rate) const </td></tr>
+<tr class="separator:ae1fa8bbea358c766f41e91157e867f66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_m_r_1_1_registration_1_1_transform_1_1_base"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_m_r_1_1_registration_1_1_transform_1_1_base')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_base.html">MR::Registration::Transform::Base</a></td></tr>
 <tr class="memitem:a0ff1f28eae452291ec529caa01f8e945 inherit pub_methods_class_m_r_1_1_registration_1_1_transform_1_1_base"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_base.html#a0ff1f28eae452291ec529caa01f8e945">Base</a> (size_t <a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_base.html#a54a07872cb5d9b45a06dd45977d95027">number_of_parameters</a>)</td></tr>
 <tr class="separator:a0ff1f28eae452291ec529caa01f8e945 inherit pub_methods_class_m_r_1_1_registration_1_1_transform_1_1_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -210,8 +216,10 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a0a84c9a23eb934802c4cf2523ac68054"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_rigid.html#a589675892c2adfd0d69133d29ff0304d">UpdateType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_rigid.html#a0a84c9a23eb934802c4cf2523ac68054">gradient_descent_updator</a></td></tr>
+<tr class="memitem:a0a84c9a23eb934802c4cf2523ac68054"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_rigid.html#a4dc9681416e1c89d76400c83e46911c8">UpdateType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_rigid.html#a0a84c9a23eb934802c4cf2523ac68054">gradient_descent_updator</a></td></tr>
 <tr class="separator:a0a84c9a23eb934802c4cf2523ac68054"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ed66be0f471cf034b3bf8e21651a311"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_rigid.html#a14714da748a3a059d2040726c416bffb">RobustEstimatorType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_rigid.html#a8ed66be0f471cf034b3bf8e21651a311">robust_estimator</a></td></tr>
+<tr class="separator:a8ed66be0f471cf034b3bf8e21651a311"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_m_r_1_1_registration_1_1_transform_1_1_base"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_m_r_1_1_registration_1_1_transform_1_1_base')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_base.html">MR::Registration::Transform::Base</a></td></tr>
 <tr class="memitem:a54a07872cb5d9b45a06dd45977d95027 inherit pro_attribs_class_m_r_1_1_registration_1_1_transform_1_1_base"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_base.html#a54a07872cb5d9b45a06dd45977d95027">number_of_parameters</a></td></tr>
 <tr class="separator:a54a07872cb5d9b45a06dd45977d95027 inherit pro_attribs_class_m_r_1_1_registration_1_1_transform_1_1_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -243,8 +251,22 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A 3D rigid transformation class for registration. </p>
 
-<p>Definition at line <a class="el" href="rigid_8h_source.html#l00095">95</a> of file <a class="el" href="rigid_8h_source.html">rigid.h</a>.</p>
+<p>Definition at line <a class="el" href="rigid_8h_source.html#l00067">67</a> of file <a class="el" href="rigid_8h_source.html">rigid.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a class="anchor" id="a2bcf51855deacc012e0dc3b3a3e65e90"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef int <a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_rigid.html#a2bcf51855deacc012e0dc3b3a3e65e90">MR::Registration::Transform::Rigid::has_robust_estimator</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="rigid_8h_source.html#l00073">73</a> of file <a class="el" href="rigid_8h_source.html">rigid.h</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a00afd0309d806d884723a85c794d0aea"></a>
 <div class="memitem">
 <div class="memproto">
@@ -255,21 +277,35 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="rigid_8h_source.html#l00098">98</a> of file <a class="el" href="rigid_8h_source.html">rigid.h</a>.</p>
+<p>Definition at line <a class="el" href="rigid_8h_source.html#l00070">70</a> of file <a class="el" href="rigid_8h_source.html">rigid.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a589675892c2adfd0d69133d29ff0304d"></a>
+<a class="anchor" id="a14714da748a3a059d2040726c416bffb"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="class_m_r_1_1_math_1_1_rigid_linear_non_symmetric_update.html">Math::RigidLinearNonSymmetricUpdate</a> <a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_rigid.html#a589675892c2adfd0d69133d29ff0304d">MR::Registration::Transform::Rigid::UpdateType</a></td>
+          <td class="memname">typedef <a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_rigid_robust_estimator.html">RigidRobustEstimator</a> <a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_rigid.html#a14714da748a3a059d2040726c416bffb">MR::Registration::Transform::Rigid::RobustEstimatorType</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="rigid_8h_source.html#l00099">99</a> of file <a class="el" href="rigid_8h_source.html">rigid.h</a>.</p>
+<p>Definition at line <a class="el" href="rigid_8h_source.html#l00072">72</a> of file <a class="el" href="rigid_8h_source.html">rigid.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4dc9681416e1c89d76400c83e46911c8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_rigid_linear_non_symmetric_update.html">RigidLinearNonSymmetricUpdate</a> <a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_rigid.html#a4dc9681416e1c89d76400c83e46911c8">MR::Registration::Transform::Rigid::UpdateType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="rigid_8h_source.html#l00071">71</a> of file <a class="el" href="rigid_8h_source.html">rigid.h</a>.</p>
 
 </div>
 </div>
@@ -295,7 +331,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="rigid_8h_source.html#l00101">101</a> of file <a class="el" href="rigid_8h_source.html">rigid.h</a>.</p>
+<p>Definition at line <a class="el" href="rigid_8h_source.html#l00075">75</a> of file <a class="el" href="rigid_8h_source.html">rigid.h</a>.</p>
 
 </div>
 </div>
@@ -308,7 +344,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_rigid.html#a589675892c2adfd0d69133d29ff0304d">UpdateType</a>* MR::Registration::Transform::Rigid::get_gradient_descent_updator </td>
+          <td class="memname"><a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_rigid.html#a4dc9681416e1c89d76400c83e46911c8">UpdateType</a>* MR::Registration::Transform::Rigid::get_gradient_descent_updator </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -321,16 +357,13 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="rigid_8h_source.html#l00133">133</a> of file <a class="el" href="rigid_8h_source.html">rigid.h</a>.</p>
+<p>Definition at line <a class="el" href="rigid_8h_source.html#l00088">88</a> of file <a class="el" href="rigid_8h_source.html">rigid.h</a>.</p>
 
 </div>
 </div>
 <a class="anchor" id="a0f8736cccf8d690d0e83f86f059fa781"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">Eigen::Matrix&lt;<a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a>, 4, 1&gt; MR::Registration::Transform::Rigid::get_jacobian_vector_wrt_params </td>
@@ -340,23 +373,13 @@ Additional Inherited Members</h2></td></tr>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rigid_8h_source.html#l00106">106</a> of file <a class="el" href="rigid_8h_source.html">rigid.h</a>.</p>
 
 </div>
 </div>
 <a class="anchor" id="a095d6c3a18c66281fffe1e793d99b414"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">Eigen::MatrixXd MR::Registration::Transform::Rigid::get_jacobian_wrt_params </td>
@@ -366,23 +389,13 @@ Additional Inherited Members</h2></td></tr>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rigid_8h_source.html#l00113">113</a> of file <a class="el" href="rigid_8h_source.html">rigid.h</a>.</p>
 
 </div>
 </div>
 <a class="anchor" id="a9b8d1a6a7ae6355e0205c3bbfb5eafe3"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void MR::Registration::Transform::Rigid::get_parameter_vector </td>
@@ -392,23 +405,69 @@ Additional Inherited Members</h2></td></tr>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="rigid_8h_source.html#l00128">128</a> of file <a class="el" href="rigid_8h_source.html">rigid.h</a>.</p>
+</div>
+</div>
+<a class="anchor" id="ae1fa8bbea358c766f41e91157e867f66"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::Registration::Transform::Rigid::robust_estimate </td>
+          <td>(</td>
+          <td class="paramtype">Eigen::Matrix&lt; <a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a>, Eigen::Dynamic, 1 &gt; &amp;&#160;</td>
+          <td class="paramname"><em>gradient</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; Eigen::Matrix&lt; <a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a>, Eigen::Dynamic, 1 &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>grad_estimates</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::Matrix&lt; <a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a>, 4, 4 &gt; &amp;&#160;</td>
+          <td class="paramname"><em>control_points</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::Matrix&lt; <a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a>, Eigen::Dynamic, 1 &gt; &amp;&#160;</td>
+          <td class="paramname"><em>parameter_vector</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a> &amp;&#160;</td>
+          <td class="paramname"><em>weiszfeld_precision</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const size_t &amp;&#160;</td>
+          <td class="paramname"><em>weiszfeld_iterations</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a>&#160;</td>
+          <td class="paramname"><em>learning_rate</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
 <a class="anchor" id="abb1e5fce07de8dafe573a0aafa29ca8d"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void MR::Registration::Transform::Rigid::set_parameter_vector </td>
@@ -418,14 +477,7 @@ Additional Inherited Members</h2></td></tr>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="rigid_8h_source.html#l00123">123</a> of file <a class="el" href="rigid_8h_source.html">rigid.h</a>.</p>
 
 </div>
 </div>
@@ -438,7 +490,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_rigid.html#a589675892c2adfd0d69133d29ff0304d">UpdateType</a> MR::Registration::Transform::Rigid::gradient_descent_updator</td>
+          <td class="memname"><a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_rigid.html#a4dc9681416e1c89d76400c83e46911c8">UpdateType</a> MR::Registration::Transform::Rigid::gradient_descent_updator</td>
         </tr>
       </table>
   </td>
@@ -448,7 +500,29 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="rigid_8h_source.html#l00138">138</a> of file <a class="el" href="rigid_8h_source.html">rigid.h</a>.</p>
+<p>Definition at line <a class="el" href="rigid_8h_source.html#l00102">102</a> of file <a class="el" href="rigid_8h_source.html">rigid.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8ed66be0f471cf034b3bf8e21651a311"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_rigid.html#a14714da748a3a059d2040726c416bffb">RobustEstimatorType</a> MR::Registration::Transform::Rigid::robust_estimator</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="rigid_8h_source.html#l00103">103</a> of file <a class="el" href="rigid_8h_source.html">rigid.h</a>.</p>
 
 </div>
 </div>
@@ -461,7 +535,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_registration.html">Registration</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_registration_1_1_transform.html">Transform</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_rigid.html">Rigid</a></li>
-    <li class="footer">Generated on Thu Jun 2 2016 08:17:14 for MRtrix by
+    <li class="footer">Generated on Thu Jun 2 2016 10:37:53 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

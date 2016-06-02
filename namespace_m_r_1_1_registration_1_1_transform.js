@@ -8,5 +8,7 @@ var namespace_m_r_1_1_registration_1_1_transform =
     [ "Base", "class_m_r_1_1_registration_1_1_transform_1_1_base.html", "class_m_r_1_1_registration_1_1_transform_1_1_base" ],
     [ "LinearKernel", "class_m_r_1_1_registration_1_1_transform_1_1_linear_kernel.html", "class_m_r_1_1_registration_1_1_transform_1_1_linear_kernel" ],
     [ "NonLinearKernel", "class_m_r_1_1_registration_1_1_transform_1_1_non_linear_kernel.html", "class_m_r_1_1_registration_1_1_transform_1_1_non_linear_kernel" ],
-    [ "Rigid", "class_m_r_1_1_registration_1_1_transform_1_1_rigid.html", "class_m_r_1_1_registration_1_1_transform_1_1_rigid" ]
+    [ "Rigid", "class_m_r_1_1_registration_1_1_transform_1_1_rigid.html", "class_m_r_1_1_registration_1_1_transform_1_1_rigid" ],
+    [ "RigidLinearNonSymmetricUpdate", "class_m_r_1_1_registration_1_1_transform_1_1_rigid_linear_non_symmetric_update.html", "class_m_r_1_1_registration_1_1_transform_1_1_rigid_linear_non_symmetric_update" ],
+    [ "RigidRobustEstimator", "class_m_r_1_1_registration_1_1_transform_1_1_rigid_robust_estimator.html", "class_m_r_1_1_registration_1_1_transform_1_1_rigid_robust_estimator" ]
 ];
