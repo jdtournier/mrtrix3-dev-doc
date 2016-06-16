@@ -6,9 +6,8 @@ var dwi_2tractography_2connectome_2connectome_8h =
     [ "node_t", "dwi_2tractography_2connectome_2connectome_8h.html#a11d983395b7007cf4397de0a142a02cc", null ],
     [ "NodePair", "dwi_2tractography_2connectome_2connectome_8h.html#a66adce4a430f73bc07867f7724051728", null ],
     [ "load_assignment_mode", "dwi_2tractography_2connectome_2connectome_8h.html#a7c68a52841fe6a7f3d39b698b283a26a", null ],
-    [ "load_metric", "dwi_2tractography_2connectome_2connectome_8h.html#af26aafabb6fe144654510eaef24f3e02", null ],
-    [ "AssignmentOption", "dwi_2tractography_2connectome_2connectome_8h.html#a64c6b48f5bcdf6d9b5ef939ae2938098", null ],
-    [ "MetricOption", "dwi_2tractography_2connectome_2connectome_8h.html#adf0d4eae40bc5a5805ecee676d1b4930", null ],
-    [ "metrics", "dwi_2tractography_2connectome_2connectome_8h.html#a89dfb5b93fd9b65fb520d0354f1ab35e", null ],
+    [ "setup_metric", "dwi_2tractography_2connectome_2connectome_8h.html#aaa1570e2e15e1459ba28dfd81523f5e2", null ],
+    [ "AssignmentOptions", "dwi_2tractography_2connectome_2connectome_8h.html#a4b0286ffd8a79a1b4fc467bb9ea367b1", null ],
+    [ "MetricOptions", "dwi_2tractography_2connectome_2connectome_8h.html#ab6c38a3e427417f3b56b0ba7b9838016", null ],
     [ "modes", "dwi_2tractography_2connectome_2connectome_8h.html#ae8846a862ca262e995a2f176c7332980", null ]
 ];

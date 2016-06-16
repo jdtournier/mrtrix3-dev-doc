@@ -36,7 +36,7 @@ var namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool =
     [ "ROI_Model", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___model.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___model" ],
     [ "ROI_UndoEntry", "struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___undo_entry.html", "struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___undo_entry" ],
     [ "ShaderBase", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_shader_base.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_shader_base" ],
-    [ "TrackScalarFile", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file" ],
+    [ "TrackScalarFileOptions", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file_options.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file_options" ],
     [ "Tractogram", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractogram.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractogram" ],
     [ "Tractography", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography" ],
     [ "Vector", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_vector.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_vector" ],

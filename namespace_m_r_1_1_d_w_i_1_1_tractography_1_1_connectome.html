@@ -35,7 +35,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.14-671-g52f87d6d</div>
+   <div id="projectbrief">Version 0.3.15</div>
   </td>
  </tr>
  </tbody>
@@ -111,6 +111,7 @@ $(document).ready(function(){initNavTree('namespace_m_r_1_1_d_w_i_1_1_tractograp
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
@@ -132,19 +133,7 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_matrix.html">Matrix</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric__base.html">Metric_base</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric__count.html">Metric_count</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric__invlength.html">Metric_invlength</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric__invlength__invnodevolume.html">Metric_invlength_invnodevolume</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric__invnodevolume.html">Metric_invnodevolume</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric__meanlength.html">Metric_meanlength</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric__meanscalar.html">Metric_meanscalar</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric.html">Metric</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_selector.html">Selector</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -176,23 +165,34 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a66adce4a430f73bc07867f7724051728"><td class="memItemLeft" align="right" valign="top">typedef std::pair&lt; <a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome.html#a11d983395b7007cf4397de0a142a02cc">node_t</a>, <a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome.html#a11d983395b7007cf4397de0a142a02cc">node_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome.html#a66adce4a430f73bc07867f7724051728">NodePair</a></td></tr>
 <tr class="separator:a66adce4a430f73bc07867f7724051728"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a697f57b7cbae2343c2932d9cd0f04a14"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome.html#a697f57b7cbae2343c2932d9cd0f04a14">stat_edge</a> { <a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome.html#a697f57b7cbae2343c2932d9cd0f04a14a5934b5be59f95704d8164237b90d838e">SUM</a>, 
+<a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome.html#a697f57b7cbae2343c2932d9cd0f04a14a4276b3e42d0a2baef426b9cfde317329">MEAN</a>, 
+<a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome.html#a697f57b7cbae2343c2932d9cd0f04a14a0bd2ae3b2e9e43afd196fbc3c4d2bf90">MIN</a>, 
+<a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome.html#a697f57b7cbae2343c2932d9cd0f04a14ac130bdd12cd2351acb26372a5e9fb74a">MAX</a>
+ }</td></tr>
+<tr class="separator:a697f57b7cbae2343c2932d9cd0f04a14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a7c68a52841fe6a7f3d39b698b283a26a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_tck2nodes__base.html">Tck2nodes_base</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome.html#a7c68a52841fe6a7f3d39b698b283a26a">load_assignment_mode</a> (<a class="el" href="class_m_r_1_1_image.html">Image</a>&lt; <a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome.html#a11d983395b7007cf4397de0a142a02cc">node_t</a> &gt; &amp;)</td></tr>
 <tr class="separator:a7c68a52841fe6a7f3d39b698b283a26a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af26aafabb6fe144654510eaef24f3e02"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric__base.html">Metric_base</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome.html#af26aafabb6fe144654510eaef24f3e02">load_metric</a> (<a class="el" href="class_m_r_1_1_image.html">Image</a>&lt; <a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome.html#a11d983395b7007cf4397de0a142a02cc">node_t</a> &gt; &amp;)</td></tr>
-<tr class="separator:af26aafabb6fe144654510eaef24f3e02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa1570e2e15e1459ba28dfd81523f5e2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome.html#aaa1570e2e15e1459ba28dfd81523f5e2">setup_metric</a> (<a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric.html">Metric</a> &amp;, <a class="el" href="class_m_r_1_1_image.html">Image</a>&lt; <a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome.html#a11d983395b7007cf4397de0a142a02cc">node_t</a> &gt; &amp;)</td></tr>
+<tr class="separator:aaa1570e2e15e1459ba28dfd81523f5e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a89dfb5b93fd9b65fb520d0354f1ab35e"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome.html#a89dfb5b93fd9b65fb520d0354f1ab35e">metrics</a> []</td></tr>
-<tr class="separator:a89dfb5b93fd9b65fb520d0354f1ab35e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8846a862ca262e995a2f176c7332980"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome.html#ae8846a862ca262e995a2f176c7332980">modes</a> []</td></tr>
 <tr class="separator:ae8846a862ca262e995a2f176c7332980"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64c6b48f5bcdf6d9b5ef939ae2938098"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_m_r_1_1_app_1_1_option_group.html">App::OptionGroup</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome.html#a64c6b48f5bcdf6d9b5ef939ae2938098">AssignmentOption</a></td></tr>
-<tr class="separator:a64c6b48f5bcdf6d9b5ef939ae2938098"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf0d4eae40bc5a5805ecee676d1b4930"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_m_r_1_1_app_1_1_option_group.html">App::OptionGroup</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome.html#adf0d4eae40bc5a5805ecee676d1b4930">MetricOption</a></td></tr>
-<tr class="separator:adf0d4eae40bc5a5805ecee676d1b4930"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b0286ffd8a79a1b4fc467bb9ea367b1"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_m_r_1_1_app_1_1_option_group.html">App::OptionGroup</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome.html#a4b0286ffd8a79a1b4fc467bb9ea367b1">AssignmentOptions</a></td></tr>
+<tr class="separator:a4b0286ffd8a79a1b4fc467bb9ea367b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6c38a3e427417f3b56b0ba7b9838016"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_m_r_1_1_app_1_1_option_group.html">App::OptionGroup</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome.html#ab6c38a3e427417f3b56b0ba7b9838016">MetricOptions</a></td></tr>
+<tr class="separator:ab6c38a3e427417f3b56b0ba7b9838016"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3bc862bd4204a422b9fc3d31f59503e"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome.html#ad3bc862bd4204a422b9fc3d31f59503e">statistics</a> []</td></tr>
+<tr class="separator:ad3bc862bd4204a422b9fc3d31f59503e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1379587c26fa8e01fc075c9f1fb9e86b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_m_r_1_1_app_1_1_option.html">App::Option</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome.html#a1379587c26fa8e01fc075c9f1fb9e86b">EdgeStatisticOption</a></td></tr>
+<tr class="separator:a1379587c26fa8e01fc075c9f1fb9e86b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a class="anchor" id="a11d983395b7007cf4397de0a142a02cc"></a>
@@ -223,6 +223,31 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a class="anchor" id="a697f57b7cbae2343c2932d9cd0f04a14"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome.html#a697f57b7cbae2343c2932d9cd0f04a14">MR::DWI::Tractography::Connectome::stat_edge</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="a697f57b7cbae2343c2932d9cd0f04a14a5934b5be59f95704d8164237b90d838e"></a>SUM&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a697f57b7cbae2343c2932d9cd0f04a14a4276b3e42d0a2baef426b9cfde317329"></a>MEAN&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a697f57b7cbae2343c2932d9cd0f04a14a0bd2ae3b2e9e43afd196fbc3c4d2bf90"></a>MIN&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a697f57b7cbae2343c2932d9cd0f04a14ac130bdd12cd2351acb26372a5e9fb74a"></a>MAX&#160;</td><td class="fielddoc">
+</td></tr>
+</table>
+
+<p>Definition at line <a class="el" href="matrix_8h_source.html#l00038">38</a> of file <a class="el" href="matrix_8h_source.html">matrix.h</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="a7c68a52841fe6a7f3d39b698b283a26a"></a>
 <div class="memitem">
@@ -240,16 +265,26 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="af26aafabb6fe144654510eaef24f3e02"></a>
+<a class="anchor" id="aaa1570e2e15e1459ba28dfd81523f5e2"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric__base.html">Metric_base</a>* MR::DWI::Tractography::Connectome::load_metric </td>
+          <td class="memname">void MR::DWI::Tractography::Connectome::setup_metric </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_m_r_1_1_image.html">Image</a>&lt; <a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome.html#a11d983395b7007cf4397de0a142a02cc">node_t</a> &gt; &amp;&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric.html">Metric</a> &amp;&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="class_m_r_1_1_image.html">Image</a>&lt; <a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome.html#a11d983395b7007cf4397de0a142a02cc">node_t</a> &gt; &amp;&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -257,36 +292,36 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a class="anchor" id="a64c6b48f5bcdf6d9b5ef939ae2938098"></a>
+<a class="anchor" id="a4b0286ffd8a79a1b4fc467bb9ea367b1"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="class_m_r_1_1_app_1_1_option_group.html">App::OptionGroup</a> MR::DWI::Tractography::Connectome::AssignmentOption</td>
+          <td class="memname">const <a class="el" href="class_m_r_1_1_app_1_1_option_group.html">App::OptionGroup</a> MR::DWI::Tractography::Connectome::AssignmentOptions</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="adf0d4eae40bc5a5805ecee676d1b4930"></a>
+<a class="anchor" id="a1379587c26fa8e01fc075c9f1fb9e86b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="class_m_r_1_1_app_1_1_option_group.html">App::OptionGroup</a> MR::DWI::Tractography::Connectome::MetricOption</td>
+          <td class="memname">const <a class="el" href="class_m_r_1_1_app_1_1_option.html">App::Option</a> MR::DWI::Tractography::Connectome::EdgeStatisticOption</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="a89dfb5b93fd9b65fb520d0354f1ab35e"></a>
+<a class="anchor" id="ab6c38a3e427417f3b56b0ba7b9838016"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const char* MR::DWI::Tractography::Connectome::metrics[]</td>
+          <td class="memname">const <a class="el" href="class_m_r_1_1_app_1_1_option_group.html">App::OptionGroup</a> MR::DWI::Tractography::Connectome::MetricOptions</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -305,13 +340,25 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ad3bc862bd4204a422b9fc3d31f59503e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char* MR::DWI::Tractography::Connectome::statistics[]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_d_w_i.html">DWI</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography.html">Tractography</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome.html">Connectome</a></li>
-    <li class="footer">Generated on Tue Jun 14 2016 06:15:27 for MRtrix by
+    <li class="footer">Generated on Thu Jun 16 2016 09:48:53 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

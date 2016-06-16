@@ -7,7 +7,8 @@ var twi__stats_8h =
       [ "SCALAR_MAP", "twi__stats_8h.html#a6d8085a00765609c3f8ee435f8cdf31daacfcd743eb2709ea6f0620e405ce6b88", null ],
       [ "SCALAR_MAP_COUNT", "twi__stats_8h.html#a6d8085a00765609c3f8ee435f8cdf31da2cc3957f725b6542ba92c9a8472786bc", null ],
       [ "FOD_AMP", "twi__stats_8h.html#a6d8085a00765609c3f8ee435f8cdf31dad94f08ec557985ed93e2bb5115cadeea", null ],
-      [ "CURVATURE", "twi__stats_8h.html#a6d8085a00765609c3f8ee435f8cdf31dad4ed358a17c47ed03519203a9ecccd32", null ]
+      [ "CURVATURE", "twi__stats_8h.html#a6d8085a00765609c3f8ee435f8cdf31dad4ed358a17c47ed03519203a9ecccd32", null ],
+      [ "VECTOR_FILE", "twi__stats_8h.html#a6d8085a00765609c3f8ee435f8cdf31da0a4fa196233a71f576eb64fdec763693", null ]
     ] ],
     [ "tck_stat_t", "twi__stats_8h.html#a3fa21a08c7f0bffb34976f520d129275", [
       [ "T_SUM", "twi__stats_8h.html#a3fa21a08c7f0bffb34976f520d129275adbd1d80fca6963bbd40db7776992559d", null ],

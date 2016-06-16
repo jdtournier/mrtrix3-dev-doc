@@ -35,7 +35,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.14-671-g52f87d6d</div>
+   <div id="projectbrief">Version 0.3.15</div>
   </td>
  </tr>
  </tbody>
@@ -157,7 +157,7 @@ $(document).ready(function(){initNavTree('functions_vars_m.html','');});
 
 <h3><a class="anchor" id="index_m"></a>- m -</h3><ul>
 <li>M
-: <a class="el" href="class_m_r_1_1_d_w_i_1_1_c_s_deconv_1_1_shared.html#aa9afa488845a82f7dc92331e82366881">MR::DWI::CSDeconv::Shared</a>
+: <a class="el" href="class_m_r_1_1_d_w_i_1_1_s_deconv_1_1_c_s_d_1_1_shared.html#a2a888b4e33ccdd9af4e3137a9c8c0b81">MR::DWI::SDeconv::CSD::Shared</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_tensor___det.html#a28b2fd8dca4215d10b28a9719c39c627">MR::DWI::Tractography::Algorithms::Tensor_Det</a>
 </li>
 <li>m
@@ -176,7 +176,7 @@ $(document).ready(function(){initNavTree('functions_vars_m.html','');});
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_window.html#a2ff8ca053d9408ab3b641c670eb04b41">MR::GUI::MRView::Window</a>
 </li>
 <li>main_box
-: <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file.html#af7e8f39e203805decf34620fe3b5f593">MR::GUI::MRView::Tool::TrackScalarFile</a>
+: <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file_options.html#ada53fa3935f6123714d7f659bbe9c5bc">MR::GUI::MRView::Tool::TrackScalarFileOptions</a>
 </li>
 <li>main_grid_box
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#a8f29efc77beac12699bcf7c70f61e939">MR::GUI::MRView::Tool::ODF</a>
@@ -228,7 +228,7 @@ $(document).ready(function(){initNavTree('functions_vars_m.html','');});
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___item.html#a974f967a9ae3e9d8063983b4d5bf0ff3">MR::GUI::MRView::Tool::ROI_Item</a>
 </li>
 <li>max_entry
-: <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file.html#a38b8ca4612fd24652776bcd57c8d4a84">MR::GUI::MRView::Tool::TrackScalarFile</a>
+: <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file_options.html#a1768432738513520eb51b2fbe81c2cf9">MR::GUI::MRView::Tool::TrackScalarFileOptions</a>
 </li>
 <li>max_iter
 : <a class="el" href="class_m_r_1_1_registration_1_1_linear.html#acde07a5e550fc36f5b2fc1009ab75953">MR::Registration::Linear</a>
@@ -308,7 +308,7 @@ $(document).ready(function(){initNavTree('functions_vars_m.html','');});
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___item.html#a2ed33c8477558e00194c04d5ad3c401a">MR::GUI::MRView::Tool::ROI_Item</a>
 </li>
 <li>min_entry
-: <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file.html#a97b4754c1407165ad2241da4f175bdb6">MR::GUI::MRView::Tool::TrackScalarFile</a>
+: <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file_options.html#a3bccc53d28c0633f656cde046a6ecaae">MR::GUI::MRView::Tool::TrackScalarFileOptions</a>
 </li>
 <li>min_num_points
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_shared_base.html#ab782d659cc72dfbf7dea0c2213618d48">MR::DWI::Tractography::Tracking::SharedBase</a>
@@ -346,10 +346,10 @@ $(document).ready(function(){initNavTree('functions_vars_m.html','');});
 : <a class="el" href="class_m_r_1_1_file_1_1_m_map.html#a1137fff078e38e4dc1996cb99ae28891">MR::File::MMap</a>
 </li>
 <li>Mt_b
-: <a class="el" href="class_m_r_1_1_d_w_i_1_1_c_s_deconv.html#a6ef96ca3482db21c8d85d0378a4f0bc6">MR::DWI::CSDeconv</a>
+: <a class="el" href="class_m_r_1_1_d_w_i_1_1_s_deconv_1_1_c_s_d.html#a3bafa87ab694ee3110cf93793f6e7d20">MR::DWI::SDeconv::CSD</a>
 </li>
 <li>Mt_M
-: <a class="el" href="class_m_r_1_1_d_w_i_1_1_c_s_deconv_1_1_shared.html#ae458c106298019dc55ab0b013904ae3b">MR::DWI::CSDeconv::Shared</a>
+: <a class="el" href="class_m_r_1_1_d_w_i_1_1_s_deconv_1_1_c_s_d_1_1_shared.html#ad224bce4aea5992a8c08b705a9a9d0f6">MR::DWI::SDeconv::CSD::Shared</a>
 </li>
 <li>mtime
 : <a class="el" href="class_m_r_1_1_file_1_1_m_map.html#a8c16edd90699a361f67259f20aa99e02">MR::File::MMap</a>
@@ -383,7 +383,7 @@ $(document).ready(function(){initNavTree('functions_vars_m.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Jun 14 2016 06:15:28 for MRtrix by
+    <li class="footer">Generated on Thu Jun 16 2016 09:49:17 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

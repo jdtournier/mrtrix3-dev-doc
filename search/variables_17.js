@@ -12,7 +12,7 @@ var searchData=
   ['width',['width',['../class_m_r_1_1_stats_1_1_calibrate_histogram.html#a6f96b9a3b6cc15ac2c20a7d3f1dcedab',1,'MR::Stats::CalibrateHistogram::width()'],['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_renderer.html#af1ae5ba7e2d00bfde53f5549dade6bd7',1,'MR::GUI::MRView::ColourMap::Renderer::width()']]],
   ['window',['window',['../class_m_r_1_1_g_u_i_1_1_cursor.html#a5f69feed677bde45e12ac6c0a86066a4',1,'MR::GUI::Cursor']]],
   ['window_5fsize',['window_size',['../class_m_r_1_1_interp_1_1_sinc.html#a29e615b8dcfe7ff3ee7dde53460d2781',1,'MR::Interp::Sinc']]],
-  ['work',['work',['../class_m_r_1_1_d_w_i_1_1_c_s_deconv.html#a9b459cb28b06e6814dd186c2ec3dc83e',1,'MR::DWI::CSDeconv']]],
+  ['work',['work',['../class_m_r_1_1_d_w_i_1_1_s_deconv_1_1_c_s_d.html#a27b5a62d495014489c443220ec692a62',1,'MR::DWI::SDeconv::CSD']]],
   ['writable',['writable',['../class_m_r_1_1_image_i_o_1_1_base.html#a0983be4e0c2b4e10dc0e0833314a182b',1,'MR::ImageIO::Base']]],
   ['writer',['writer',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_write_kernel.html#a4eba3125917e247726f96d38136e8bbe',1,'MR::DWI::Tractography::Tracking::WriteKernel']]],
   ['writer_5fdims',['writer_dims',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping.html#a2cbbd3a994105136663e41c9183f4437',1,'MR::DWI::Tractography::Mapping']]],

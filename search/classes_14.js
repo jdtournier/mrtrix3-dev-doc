@@ -25,7 +25,7 @@ var searchData=
   ['trackmapperbase',['TrackMapperBase',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_mapper_base.html',1,'MR::DWI::Tractography::Mapping']]],
   ['trackmappertwi',['TrackMapperTWI',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_mapper_t_w_i.html',1,'MR::DWI::Tractography::Mapping']]],
   ['trackprocessor',['TrackProcessor',['../class_m_r_1_1_stats_1_1_c_f_e_1_1_track_processor.html',1,'MR::Stats::CFE']]],
-  ['trackscalarfile',['TrackScalarFile',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file.html',1,'MR::GUI::MRView::Tool']]],
+  ['trackscalarfileoptions',['TrackScalarFileOptions',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file_options.html',1,'MR::GUI::MRView::Tool']]],
   ['tractogram',['Tractogram',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractogram.html',1,'MR::GUI::MRView::Tool']]],
   ['tractography',['Tractography',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html',1,'MR::GUI::MRView::Tool']]],
   ['transform',['Transform',['../class_m_r_1_1_transform.html',1,'MR']]],

@@ -65,13 +65,13 @@ var searchData=
   ['dob',['DOB',['../class_m_r_1_1_file_1_1_dicom_1_1_patient.html#ac36fa284a2439be1f59f7feb3c6621f5',1,'MR::File::Dicom::Patient']]],
   ['done_5ffunc',['done_func',['../class_m_r_1_1_progress_info.html#a5de30a4358fdfa42bae710fb3c6f7469',1,'MR::ProgressInfo']]],
   ['dot_5fthreshold',['dot_threshold',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_f_a_c_t_1_1_shared.html#a14f08d8a526fcd447f51892c42b9b20a',1,'MR::DWI::Tractography::Algorithms::FACT::Shared::dot_threshold()'],['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_s_d_stream_1_1_shared.html#a532d11d2a6da0d198e6388862793dd9a',1,'MR::DWI::Tractography::Algorithms::SDStream::Shared::dot_threshold()']]],
-  ['downsampler',['downsampler',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_shared_base.html#a86cfc076d2b90c6083efab8fd7577b13',1,'MR::DWI::Tractography::Tracking::SharedBase']]],
+  ['downsampler',['downsampler',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_shared_base.html#a9f398cf98252287d8a6ec93780d859f2',1,'MR::DWI::Tractography::Tracking::SharedBase']]],
   ['draw',['draw',['../class_m_r_1_1_g_u_i_1_1_cursor.html#aef8788af03ce0b5ead80c28d2f9eccf7',1,'MR::GUI::Cursor']]],
   ['draw_5fbutton',['draw_button',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html#a43bb9a5c0ebc43818bb03fb5038d7e63',1,'MR::GUI::MRView::Tool::ROI']]],
   ['dt',['dt',['../class_m_r_1_1_data_type.html#ab5c8bcb804511ba1815a75de7f1d5c8a',1,'MR::DataType::dt()'],['../class_m_r_1_1_math_1_1_gradient_descent.html#a267e8007805e0ec6d9b9f5773a2ba452',1,'MR::Math::GradientDescent::dt()'],['../class_m_r_1_1_math_1_1_gradient_descent_b_b.html#aba1208436a09fd943b04af41eb9324ec',1,'MR::Math::GradientDescentBB::dt()'],['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_tensor___det.html#a9384e795313091c74ffdd95e81c605c2',1,'MR::DWI::Tractography::Algorithms::Tensor_Det::dt()']]],
   ['dtd_5fdfs',['dTD_dFs',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_line_search_functor_1_1_fixel.html#a34a7a544ecc96daeeee6dd5f7431f97c',1,'MR::DWI::Tractography::SIFT2::LineSearchFunctor::Fixel']]],
-  ['dw_5fdirs',['DW_dirs',['../class_m_r_1_1_d_w_i_1_1_c_s_deconv_1_1_shared.html#a53580ea1e545c3297de845712b664463',1,'MR::DWI::CSDeconv::Shared']]],
+  ['dw_5fdirs',['DW_dirs',['../class_m_r_1_1_d_w_i_1_1_s_deconv_1_1_c_s_d_1_1_shared.html#aaa9b8bb5351d678f5fda7b77ddf24b5b',1,'MR::DWI::SDeconv::CSD::Shared']]],
   ['dw_5fscheme_5fwrt_5fimage',['DW_scheme_wrt_image',['../class_m_r_1_1_file_1_1_dicom_1_1_frame.html#abdae61db2ec3b2c57f53dbaa83616433',1,'MR::File::Dicom::Frame']]],
   ['dwi',['dwi',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_external_energy_computer.html#a618133f4f05163562ad0dcc407d4e76c',1,'MR::DWI::Tractography::GT::ExternalEnergyComputer::dwi()'],['../noise__estimator_8h.html#a08aa81667d4e07024e07f1ab7f22f7eb',1,'dwi():&#160;noise_estimator.h']]],
-  ['dwis',['dwis',['../class_m_r_1_1_d_w_i_1_1_c_s_deconv_1_1_shared.html#a707f8383ddd935a012192f08a87b55c5',1,'MR::DWI::CSDeconv::Shared']]]
+  ['dwis',['dwis',['../class_m_r_1_1_d_w_i_1_1_s_deconv_1_1_c_s_d_1_1_shared.html#a625ecea199ac2e0fece870e5928b7f7d',1,'MR::DWI::SDeconv::CSD::Shared']]]
 ];

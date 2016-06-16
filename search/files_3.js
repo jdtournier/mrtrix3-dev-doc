@@ -10,6 +10,7 @@ var searchData=
   ['difference_5frobust_2eh',['difference_robust.h',['../difference__robust_8h.html',1,'']]],
   ['dilate_2eh',['dilate.h',['../dilate_8h.html',1,'']]],
   ['displayable_2eh',['displayable.h',['../displayable_8h.html',1,'']]],
+  ['downsampler_2eh',['downsampler.h',['../downsampler_8h.html',1,'']]],
   ['dwi_5fbrain_5fmask_2eh',['dwi_brain_mask.h',['../dwi__brain__mask_8h.html',1,'']]],
   ['dynamic_2eh',['dynamic.h',['../dynamic_8h.html',1,'']]]
 ];

@@ -51,6 +51,7 @@ var searchData=
   ['previous_5freport_5fto_5fuser_5ffunc',['previous_report_to_user_func',['../class_m_r_1_1_thread_1_1_____backend.html#a188410a9f8ba655b655dc5b87057de5c',1,'MR::Thread::__Backend']]],
   ['previous_5fy',['previous_y',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_adjust_button.html#a7fe829e498b794cc2798396f6d95ad6f',1,'MR::GUI::MRView::AdjustButton']]],
   ['print',['print',['../class_m_r_1_1_file_1_1_dicom_1_1_c_s_a_entry.html#a6fc5952247fc73483f03b45916b4534d',1,'MR::File::Dicom::CSAEntry::print()'],['../namespace_m_r.html#a66792f7e70e2ea8b404314eeebcd4dbb',1,'MR::print()']]],
+  ['problem',['problem',['../class_m_r_1_1_d_w_i_1_1_s_deconv_1_1_m_s_m_t___c_s_d_1_1_shared.html#af4a2f6c126e8070e65ac5899042923fe',1,'MR::DWI::SDeconv::MSMT_CSD::Shared']]],
   ['proc_5fmask',['proc_mask',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model_base.html#aff2f9f66b46f2da797c974d195739349',1,'MR::DWI::Tractography::SIFT::ModelBase']]],
   ['processed_5fimage',['processed_image',['../class_m_r_1_1_registration_1_1_metric_1_1_params.html#a91debdfeff35a9f1c997b38efc3b6ab3',1,'MR::Registration::Metric::Params']]],
   ['processed_5fimage_5finterp',['processed_image_interp',['../class_m_r_1_1_registration_1_1_metric_1_1_params.html#a47011195890e58e2e9e33d37c7ab40a4',1,'MR::Registration::Metric::Params']]],

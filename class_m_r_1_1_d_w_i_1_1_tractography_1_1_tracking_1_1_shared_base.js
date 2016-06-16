@@ -11,7 +11,7 @@ var class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_shared_base =
     [ "vox", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_shared_base.html#abcb587326b83c305e0a00096fcc917d5", null ],
     [ "cos_max_angle", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_shared_base.html#ad154472f1f516fc33bec0dc7cd25f1a4", null ],
     [ "cos_max_angle_rk4", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_shared_base.html#a6dcd700ad35f7bb637a2f570a43ad2dd", null ],
-    [ "downsampler", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_shared_base.html#a86cfc076d2b90c6083efab8fd7577b13", null ],
+    [ "downsampler", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_shared_base.html#a9f398cf98252287d8a6ec93780d859f2", null ],
     [ "implicit_max_num_attempts", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_shared_base.html#a1dcab5ff8218b724face434a9bb045f8", null ],
     [ "init_dir", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_shared_base.html#a61bc9075d985417b283c0bd342a56e75", null ],
     [ "init_threshold", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_shared_base.html#a105fa37010ef6e850f1bbf85090c5f97", null ],

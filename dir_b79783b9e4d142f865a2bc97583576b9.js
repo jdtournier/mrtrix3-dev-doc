@@ -1,15 +1,6 @@
 var dir_b79783b9e4d142f865a2bc97583576b9 =
 [
     [ "connectome.h", "dwi_2tractography_2connectome_2connectome_8h.html", "dwi_2tractography_2connectome_2connectome_8h" ],
-    [ "edge_metrics.h", "edge__metrics_8h.html", [
-      [ "Metric_base", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric__base.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric__base" ],
-      [ "Metric_count", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric__count.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric__count" ],
-      [ "Metric_meanlength", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric__meanlength.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric__meanlength" ],
-      [ "Metric_invlength", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric__invlength.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric__invlength" ],
-      [ "Metric_invnodevolume", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric__invnodevolume.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric__invnodevolume" ],
-      [ "Metric_invlength_invnodevolume", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric__invlength__invnodevolume.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric__invlength__invnodevolume" ],
-      [ "Metric_meanscalar", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric__meanscalar.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric__meanscalar" ]
-    ] ],
     [ "exemplar.h", "exemplar_8h.html", [
       [ "Exemplar", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_exemplar.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_exemplar" ]
     ] ],
@@ -26,8 +17,9 @@ var dir_b79783b9e4d142f865a2bc97583576b9 =
     [ "mapper.h", "src_2dwi_2tractography_2connectome_2mapper_8h.html", [
       [ "Mapper", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_mapper.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_mapper" ]
     ] ],
-    [ "matrix.h", "matrix_8h.html", [
-      [ "Matrix", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_matrix.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_matrix" ]
+    [ "matrix.h", "matrix_8h.html", "matrix_8h" ],
+    [ "metric.h", "metric_8h.html", [
+      [ "Metric", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric" ]
     ] ],
     [ "streamline.h", "connectome_2streamline_8h.html", [
       [ "Streamline_nodepair", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_streamline__nodepair.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_streamline__nodepair" ],

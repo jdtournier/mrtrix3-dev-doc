@@ -10,7 +10,7 @@ var gui_2mrview_2tool_2fixel_8h =
     [ "FixelSparseImageType", "gui_2mrview_2tool_2fixel_8h.html#a24760ed98047077b2fb15f6493a28f03", null ],
     [ "FixelColourType", "gui_2mrview_2tool_2fixel_8h.html#a22348cc42517686fa6f064cc14af1f80", [
       [ "CValue", "gui_2mrview_2tool_2fixel_8h.html#a22348cc42517686fa6f064cc14af1f80a9a6956001eca206a84c339209c9da0bc", null ],
-      [ "Direction", "gui_2mrview_2tool_2fixel_8h.html#aaaad2794ce9a61c10224a1e448785ed7ab0470b53583ca0ed693a5e53bc8620c4", null ]
+      [ "Direction", "gui_2mrview_2tool_2fixel_8h.html#a22348cc42517686fa6f064cc14af1f80a6abba1d41ef6f443ed72694191fd83ad", null ]
     ] ],
     [ "FixelLengthType", "gui_2mrview_2tool_2fixel_8h.html#a408750a8aad3442af457e2caecb7a7f1", [
       [ "Unity", "gui_2mrview_2tool_2fixel_8h.html#a408750a8aad3442af457e2caecb7a7f1ad6bc906f68322d238ae91e4bad6b5fda", null ],

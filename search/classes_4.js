@@ -19,7 +19,7 @@ var searchData=
   ['dixelmappingplugin',['DixelMappingPlugin',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_dixel_mapping_plugin.html',1,'MR::DWI::Tractography::Mapping']]],
   ['dixelplugin',['DixelPlugin',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f___item_1_1_dixel_plugin.html',1,'MR::GUI::MRView::Tool::ODF_Item']]],
   ['dock',['Dock',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_dock.html',1,'MR::GUI::MRView::Tool']]],
-  ['downsampler',['Downsampler',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_downsampler.html',1,'MR::DWI::Tractography']]],
+  ['downsampler',['Downsampler',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_resampling_1_1_downsampler.html',1,'MR::DWI::Tractography::Resampling']]],
   ['dwibrainmask',['DWIBrainMask',['../class_m_r_1_1_filter_1_1_d_w_i_brain_mask.html',1,'MR::Filter']]],
   ['dynamic',['Dynamic',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_seeding_1_1_dynamic.html',1,'MR::DWI::Tractography::Seeding']]],
   ['dynamic_5fact_5fadditions',['Dynamic_ACT_additions',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_seeding_1_1_dynamic___a_c_t__additions.html',1,'MR::DWI::Tractography::Seeding']]]

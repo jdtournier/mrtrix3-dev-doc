@@ -35,7 +35,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.14-671-g52f87d6d</div>
+   <div id="projectbrief">Version 0.3.15</div>
   </td>
  </tr>
  </tbody>
@@ -138,6 +138,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adc096e259a99ffabf10ec3a04b80a7ca"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_i_c_l_s_1_1_problem.html#adc096e259a99ffabf10ec3a04b80a7ca">Problem</a> (const <a class="el" href="class_m_r_1_1_math_1_1_i_c_l_s_1_1_problem.html#a0c190351beaba5b852717a7a6a83db26">matrix_type</a> &amp;problem_matrix, const <a class="el" href="class_m_r_1_1_math_1_1_i_c_l_s_1_1_problem.html#a0c190351beaba5b852717a7a6a83db26">matrix_type</a> &amp;constraint_matrix, <a class="el" href="class_m_r_1_1_math_1_1_i_c_l_s_1_1_problem.html#a76089653b705df6af24015d6b77658d2">value_type</a> solution_min_norm_regularisation=0.0, <a class="el" href="class_m_r_1_1_math_1_1_i_c_l_s_1_1_problem.html#a76089653b705df6af24015d6b77658d2">value_type</a> constraint_min_norm_regularisation=0.0, size_t max_iterations=0, <a class="el" href="class_m_r_1_1_math_1_1_i_c_l_s_1_1_problem.html#a76089653b705df6af24015d6b77658d2">value_type</a> tolerance=0.0)</td></tr>
 <tr class="memdesc:adc096e259a99ffabf10ec3a04b80a7ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">set up constrained least-squares problem  <a href="#adc096e259a99ffabf10ec3a04b80a7ca">More...</a><br /></td></tr>
 <tr class="separator:adc096e259a99ffabf10ec3a04b80a7ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9230768071d405e57890ba70d1836a6"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_i_c_l_s_1_1_problem.html#af9230768071d405e57890ba70d1836a6">num_parameters</a> () const </td></tr>
+<tr class="separator:af9230768071d405e57890ba70d1836a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1003c3954e52c9dd8eb3a595ab81bd21"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_i_c_l_s_1_1_problem.html#a1003c3954e52c9dd8eb3a595ab81bd21">num_measurements</a> () const </td></tr>
+<tr class="separator:a1003c3954e52c9dd8eb3a595ab81bd21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92d4af1bf6d63745fc19fcf8882d0810"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_i_c_l_s_1_1_problem.html#a92d4af1bf6d63745fc19fcf8882d0810">num_constraints</a> () const </td></tr>
+<tr class="separator:a92d4af1bf6d63745fc19fcf8882d0810"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -311,6 +317,88 @@ template&lt;typename ValueType&gt; </div>
 
 </div>
 </div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a92d4af1bf6d63745fc19fcf8882d0810"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t <a class="el" href="class_m_r_1_1_math_1_1_i_c_l_s_1_1_problem.html">MR::Math::ICLS::Problem</a>&lt; ValueType &gt;::num_constraints </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="constrained__least__squares_8h_source.html#l00119">119</a> of file <a class="el" href="constrained__least__squares_8h_source.html">constrained_least_squares.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1003c3954e52c9dd8eb3a595ab81bd21"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t <a class="el" href="class_m_r_1_1_math_1_1_i_c_l_s_1_1_problem.html">MR::Math::ICLS::Problem</a>&lt; ValueType &gt;::num_measurements </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="constrained__least__squares_8h_source.html#l00118">118</a> of file <a class="el" href="constrained__least__squares_8h_source.html">constrained_least_squares.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af9230768071d405e57890ba70d1836a6"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t <a class="el" href="class_m_r_1_1_math_1_1_i_c_l_s_1_1_problem.html">MR::Math::ICLS::Problem</a>&lt; ValueType &gt;::num_parameters </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="constrained__least__squares_8h_source.html#l00117">117</a> of file <a class="el" href="constrained__least__squares_8h_source.html">constrained_least_squares.h</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a class="anchor" id="ad06658660498b9b71c6c4a0986d3f1e2"></a>
 <div class="memitem">
@@ -324,7 +412,7 @@ template&lt;typename ValueType&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="constrained__least__squares_8h_source.html#l00105">105</a> of file <a class="el" href="constrained__least__squares_8h_source.html">constrained_least_squares.h</a>.</p>
+<p>Definition at line <a class="el" href="constrained__least__squares_8h_source.html#l00121">121</a> of file <a class="el" href="constrained__least__squares_8h_source.html">constrained_least_squares.h</a>.</p>
 
 </div>
 </div>
@@ -340,7 +428,7 @@ template&lt;typename ValueType&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="constrained__least__squares_8h_source.html#l00105">105</a> of file <a class="el" href="constrained__least__squares_8h_source.html">constrained_least_squares.h</a>.</p>
+<p>Definition at line <a class="el" href="constrained__least__squares_8h_source.html#l00121">121</a> of file <a class="el" href="constrained__least__squares_8h_source.html">constrained_least_squares.h</a>.</p>
 
 </div>
 </div>
@@ -356,7 +444,7 @@ template&lt;typename ValueType&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="constrained__least__squares_8h_source.html#l00105">105</a> of file <a class="el" href="constrained__least__squares_8h_source.html">constrained_least_squares.h</a>.</p>
+<p>Definition at line <a class="el" href="constrained__least__squares_8h_source.html#l00121">121</a> of file <a class="el" href="constrained__least__squares_8h_source.html">constrained_least_squares.h</a>.</p>
 
 </div>
 </div>
@@ -372,7 +460,7 @@ template&lt;typename ValueType&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="constrained__least__squares_8h_source.html#l00105">105</a> of file <a class="el" href="constrained__least__squares_8h_source.html">constrained_least_squares.h</a>.</p>
+<p>Definition at line <a class="el" href="constrained__least__squares_8h_source.html#l00121">121</a> of file <a class="el" href="constrained__least__squares_8h_source.html">constrained_least_squares.h</a>.</p>
 
 </div>
 </div>
@@ -388,7 +476,7 @@ template&lt;typename ValueType&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="constrained__least__squares_8h_source.html#l00106">106</a> of file <a class="el" href="constrained__least__squares_8h_source.html">constrained_least_squares.h</a>.</p>
+<p>Definition at line <a class="el" href="constrained__least__squares_8h_source.html#l00122">122</a> of file <a class="el" href="constrained__least__squares_8h_source.html">constrained_least_squares.h</a>.</p>
 
 </div>
 </div>
@@ -404,7 +492,7 @@ template&lt;typename ValueType&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="constrained__least__squares_8h_source.html#l00107">107</a> of file <a class="el" href="constrained__least__squares_8h_source.html">constrained_least_squares.h</a>.</p>
+<p>Definition at line <a class="el" href="constrained__least__squares_8h_source.html#l00123">123</a> of file <a class="el" href="constrained__least__squares_8h_source.html">constrained_least_squares.h</a>.</p>
 
 </div>
 </div>
@@ -420,7 +508,7 @@ template&lt;typename ValueType&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="constrained__least__squares_8h_source.html#l00106">106</a> of file <a class="el" href="constrained__least__squares_8h_source.html">constrained_least_squares.h</a>.</p>
+<p>Definition at line <a class="el" href="constrained__least__squares_8h_source.html#l00122">122</a> of file <a class="el" href="constrained__least__squares_8h_source.html">constrained_least_squares.h</a>.</p>
 
 </div>
 </div>
@@ -433,7 +521,7 @@ template&lt;typename ValueType&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_math.html">Math</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_math_1_1_i_c_l_s.html">ICLS</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_math_1_1_i_c_l_s_1_1_problem.html">Problem</a></li>
-    <li class="footer">Generated on Tue Jun 14 2016 06:15:28 for MRtrix by
+    <li class="footer">Generated on Thu Jun 16 2016 09:48:56 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

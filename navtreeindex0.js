@@ -116,6 +116,8 @@ var NAVTREEINDEX0 =
 "apply_8h.html#a15480a6dbbc2093c734f8493abb1af5c":[12,0,0,11,0],
 "apply_8h.html#a45debea807ad202b92a9f3120d9dd65f":[12,0,0,11,1],
 "apply_8h_source.html":[12,0,0,11],
+"arc_8h.html":[12,0,1,1,2,6,0],
+"arc_8h_source.html":[12,0,1,1,2,6,0],
 "average__space_8h.html":[12,0,0,7,1],
 "average__space_8h.html#a1717b6c3a024e44a9f25f0d3ff26c6de":[12,0,0,7,1,0],
 "average__space_8h.html#a2f939ea75aa7c9c1aa6caf50aed7dcc1":[12,0,0,7,1,3],
@@ -123,8 +125,8 @@ var NAVTREEINDEX0 =
 "average__space_8h.html#a8a5dea130ce3a4ebd7aa0d3dd7a38059":[12,0,0,7,1,4],
 "average__space_8h.html#a8df1164abb7dd70a8cb7f230ace61d86":[12,0,0,7,1,2],
 "average__space_8h_source.html":[12,0,0,7,1],
-"basic_8h.html":[12,0,1,1,2,6,1],
-"basic_8h_source.html":[12,0,1,1,2,6,1],
+"basic_8h.html":[12,0,1,1,2,7,1],
+"basic_8h_source.html":[12,0,1,1,2,7,1],
 "bessel_8h.html":[12,0,0,7,2],
 "bessel_8h.html#a0bed364aa0cfcbce87fb5fbcd977e970":[12,0,0,7,2,5],
 "bessel_8h.html#a1f8f9befd18cad7f26526f5f3e0d87a2":[12,0,0,7,2,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX0 =
 "class_m_r_1_1_adapter_1_1_median.html":[11,0,0,0,7],
 "class_m_r_1_1_adapter_1_1_median.html#a000602b03937310a7814f99504b711c8":[11,0,0,0,7,3],
 "class_m_r_1_1_adapter_1_1_median.html#a1fd63de7f2772360cf96f2bba636b9d0":[11,0,0,0,7,7],
-"class_m_r_1_1_adapter_1_1_median.html#a288b3920cba45539d9b8fd063960f39a":[11,0,0,0,7,1],
-"class_m_r_1_1_adapter_1_1_median.html#a3e4738b8b05922cfa61265606e43667d":[11,0,0,0,7,5],
-"class_m_r_1_1_adapter_1_1_median.html#a46b4ab6020604b46ec5f9b5c3c5793ef":[11,0,0,0,7,4]
+"class_m_r_1_1_adapter_1_1_median.html#a288b3920cba45539d9b8fd063960f39a":[11,0,0,0,7,1]
 };

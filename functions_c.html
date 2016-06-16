@@ -35,7 +35,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.14-671-g52f87d6d</div>
+   <div id="projectbrief">Version 0.3.15</div>
   </td>
  </tr>
  </tbody>
@@ -382,13 +382,13 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_fixel.html#a8c759edd02b743342d5c8e5e7afb7175">MR::DWI::Tractography::SIFT2::Fixel</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_fixel_base.html#a5ac9f74f53dc189e22eaeb24241ed5bf">MR::DWI::Tractography::SIFT::FixelBase</a>
 </li>
-<li>clear_tool_display()
-: <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file.html#a4cbe1e1ee805afecfcbc6a7b6768d769">MR::GUI::MRView::Tool::TrackScalarFile</a>
-</li>
 <li>clearChanges()
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_energy_computer.html#a5ada5ed82a6c0e87a4e773317e7b936d">MR::DWI::Tractography::GT::EnergyComputer</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_energy_sum_computer.html#ad84a90f70b217cc99db96c6ff848a484">MR::DWI::Tractography::GT::EnergySumComputer</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_external_energy_computer.html#af1f02ec4faed67fbc76d1484439f5c71">MR::DWI::Tractography::GT::ExternalEnergyComputer</a>
+</li>
+<li>clearError()
+: <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_combo_box_with_error_msg.html#a9fb8a00ed31a70dac793d235a983472d">MR::GUI::MRView::ComboBoxWithErrorMsg</a>
 </li>
 <li>clip
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume.html#a69b2b2383b53fd08a96114d146369c49">MR::GUI::MRView::Mode::Volume</a>
@@ -483,7 +483,6 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 </li>
 <li>color_type
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_abstract_fixel_1_1_shader.html#a789b7b2db289bdd9553d404618ce63ac">MR::GUI::MRView::Tool::AbstractFixel::Shader</a>
-, <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractogram.html#ab4e6874cf14647c2e691eb019886a401">MR::GUI::MRView::Tool::Tractogram</a>
 , <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractogram_1_1_shader.html#a2242d7b46c2379cf0fa73bc57ed0aadd">MR::GUI::MRView::Tool::Tractogram::Shader</a>
 </li>
 <li>colour
@@ -493,6 +492,7 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 <li>colour_button
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#aca62ec8d875db4734ee3ef8139945ec6">MR::GUI::MRView::Tool::ODF</a>
 , <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html#aefa4e6b7bf6d6336b22314231fb163fb">MR::GUI::MRView::Tool::ROI</a>
+, <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a98994b7745270b7859183a055f052e6e">MR::GUI::MRView::Tool::Tractography</a>
 </li>
 <li>colour_by_direction_
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_shader.html#ab6f161788e3d381519b824ae5a54880e">MR::GUI::DWI::Renderer::Shader</a>
@@ -507,7 +507,11 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_window.html#a445995bebb3a551717f3411f37210450">MR::GUI::DWI::Window</a>
 </li>
 <li>colour_combobox
-: <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_vector.html#a7f5f1c51b82714de67c9f1acd008db30">MR::GUI::MRView::Tool::Vector</a>
+: <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a13c27bf32f2a24a77b9d825181b65774">MR::GUI::MRView::Tool::Tractography</a>
+, <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_vector.html#a7f5f1c51b82714de67c9f1acd008db30">MR::GUI::MRView::Tool::Vector</a>
+</li>
+<li>colour_groupbox
+: <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file_options.html#a67d5219a65f42aaa9f936c8234b28d1e">MR::GUI::MRView::Tool::TrackScalarFileOptions</a>
 </li>
 <li>colourbar_padding
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_renderer.html#a47f3d8f501fd122584fb362ada74e4a7">MR::GUI::MRView::ColourMap::Renderer</a>
@@ -521,18 +525,18 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 </li>
 <li>colourmap_actions
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_button.html#a9065bb45dd304ed4d2c5180561fe6706">MR::GUI::MRView::ColourMapButton</a>
-, <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file.html#a7747855d0d3de0267132085581a78755">MR::GUI::MRView::Tool::TrackScalarFile</a>
+, <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file_options.html#ae8bddf09f9a7e4c063284d6506ec9e46">MR::GUI::MRView::Tool::TrackScalarFileOptions</a>
 </li>
 <li>colourmap_button
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_overlay.html#a37935c45b4f89290f18a1b95e719f97d">MR::GUI::MRView::Tool::Overlay</a>
-, <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file.html#a55aa48e0b68742c92d90e6c4c917123e">MR::GUI::MRView::Tool::TrackScalarFile</a>
+, <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file_options.html#a0eb2d45bd0e1f466c2a40076028476d8">MR::GUI::MRView::Tool::TrackScalarFileOptions</a>
 , <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_vector.html#a8178d3a84fe45da843e0ba7eab6d659a">MR::GUI::MRView::Tool::Vector</a>
 </li>
 <li>colourmap_group
-: <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file.html#a824d9491fb59b3749ebabd267532593c">MR::GUI::MRView::Tool::TrackScalarFile</a>
+: <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file_options.html#a34df9f5bbacc6e07e711036397139676">MR::GUI::MRView::Tool::TrackScalarFileOptions</a>
 </li>
 <li>colourmap_menu
-: <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file.html#a7a50d6ca439c7b847c8b7eacc28c2326">MR::GUI::MRView::Tool::TrackScalarFile</a>
+: <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file_options.html#a86efdb1ed4e40aa26d6a01944bfecb3f">MR::GUI::MRView::Tool::TrackScalarFileOptions</a>
 </li>
 <li>colourmap_option_group
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_vector.html#a32cce2869aec65ecd4bd8e788c597b8d">MR::GUI::MRView::Tool::Vector</a>
@@ -606,10 +610,7 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 : <a class="el" href="class_m_r_1_1_filter_1_1_gradient.html#ae2b2808e20e47bf23ff45dccb226ca96">MR::Filter::Gradient</a>
 </li>
 <li>computed_once
-: <a class="el" href="class_m_r_1_1_d_w_i_1_1_c_s_deconv.html#aa85dd77801b267fe887c93d689c7b4c8">MR::DWI::CSDeconv</a>
-</li>
-<li>config_button
-: <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_connectome.html#a703cd1ddd63a59733513ce2478923ba9">MR::GUI::MRView::Tool::Connectome</a>
+: <a class="el" href="class_m_r_1_1_d_w_i_1_1_s_deconv_1_1_c_s_d.html#a3ed56491ba511f62b982deba4fe4c9ed">MR::DWI::SDeconv::CSD</a>
 </li>
 <li>connect()
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_m_h_sampler.html#a78be8255e07e127fc2b5533ebacb078e">MR::DWI::Tractography::GT::MHSampler</a>
@@ -680,7 +681,7 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html#a55ecb3470d66405bf0496cef3ebbe28f">MR::GUI::MRView::Tool::ROI</a>
 </li>
 <li>copy_ptr()
-: <a class="el" href="class_m_r_1_1copy__ptr.html#acd03cd23b62eefab190e08f255d08a46">MR::copy_ptr&lt; T, Deleter &gt;</a>
+: <a class="el" href="class_m_r_1_1copy__ptr.html#aa97d93577c813546c7dbd29ea927aa46">MR::copy_ptr&lt; T, Deleter &gt;</a>
 </li>
 <li>copy_to_mem()
 : <a class="el" href="class_m_r_1_1_image_i_o_1_1_default.html#aa5f1548d90964995ebd0988f5f4b7407">MR::ImageIO::Default</a>
@@ -795,8 +796,8 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 <li>CSAEntry()
 : <a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_c_s_a_entry.html#a67b4517814884129583a0e1fdbda4155">MR::File::Dicom::CSAEntry</a>
 </li>
-<li>CSDeconv()
-: <a class="el" href="class_m_r_1_1_d_w_i_1_1_c_s_deconv.html#aebea77abc22728fd407441146cf61d21">MR::DWI::CSDeconv</a>
+<li>CSD()
+: <a class="el" href="class_m_r_1_1_d_w_i_1_1_s_deconv_1_1_c_s_d.html#a0d130655e573de0a7e1e49ade0be0eba">MR::DWI::SDeconv::CSD</a>
 </li>
 <li>csv_path
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html#a5cbc81d81a8a6632bc8282bed5a2bf8f">MR::DWI::Tractography::SIFT::SIFTer</a>
@@ -863,7 +864,7 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Jun 14 2016 06:15:28 for MRtrix by
+    <li class="footer">Generated on Thu Jun 16 2016 09:49:17 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

@@ -1,9 +1,9 @@
 var searchData=
 [
   ['edge_2eh',['edge.h',['../edge_8h.html',1,'']]],
-  ['edge_5fmetrics_2eh',['edge_metrics.h',['../edge__metrics_8h.html',1,'']]],
   ['editing_2eh',['editing.h',['../editing_8h.html',1,'']]],
   ['element_2eh',['element.h',['../element_8h.html',1,'']]],
+  ['endpoints_2eh',['endpoints.h',['../endpoints_8h.html',1,'']]],
   ['energy_2eh',['energy.h',['../energy_8h.html',1,'']]],
   ['entry_2eh',['entry.h',['../entry_8h.html',1,'']]],
   ['erode_2eh',['erode.h',['../erode_8h.html',1,'']]],

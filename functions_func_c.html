@@ -35,7 +35,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.14-671-g52f87d6d</div>
+   <div id="projectbrief">Version 0.3.15</div>
   </td>
  </tr>
  </tbody>
@@ -318,13 +318,13 @@ $(document).ready(function(){initNavTree('functions_func_c.html','');});
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_fixel.html#a8c759edd02b743342d5c8e5e7afb7175">MR::DWI::Tractography::SIFT2::Fixel</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_fixel_base.html#a5ac9f74f53dc189e22eaeb24241ed5bf">MR::DWI::Tractography::SIFT::FixelBase</a>
 </li>
-<li>clear_tool_display()
-: <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file.html#a4cbe1e1ee805afecfcbc6a7b6768d769">MR::GUI::MRView::Tool::TrackScalarFile</a>
-</li>
 <li>clearChanges()
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_energy_computer.html#a5ada5ed82a6c0e87a4e773317e7b936d">MR::DWI::Tractography::GT::EnergyComputer</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_energy_sum_computer.html#ad84a90f70b217cc99db96c6ff848a484">MR::DWI::Tractography::GT::EnergySumComputer</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_external_energy_computer.html#af1f02ec4faed67fbc76d1484439f5c71">MR::DWI::Tractography::GT::ExternalEnergyComputer</a>
+</li>
+<li>clearError()
+: <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_combo_box_with_error_msg.html#a9fb8a00ed31a70dac793d235a983472d">MR::GUI::MRView::ComboBoxWithErrorMsg</a>
 </li>
 <li>clone()
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_energy_computer.html#a70996245e3dd6a2b2a8577ba92534283">MR::DWI::Tractography::GT::EnergyComputer</a>
@@ -366,7 +366,7 @@ $(document).ready(function(){initNavTree('functions_func_c.html','');});
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_coefficient_optimiser_iterative.html#a17e390e9061125cfa52986c585af9920">MR::DWI::Tractography::SIFT2::CoefficientOptimiserIterative</a>
 </li>
 <li>CoefficientOptimiserQLS()
-: <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_coefficient_optimiser_q_l_s.html#a18e27b732db374f83d9b3c32fa01c599">MR::DWI::Tractography::SIFT2::CoefficientOptimiserQLS</a>
+: <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_coefficient_optimiser_q_l_s.html#ae34975ab19053edfc96f8641674f921b">MR::DWI::Tractography::SIFT2::CoefficientOptimiserQLS</a>
 </li>
 <li>color()
 : <a class="el" href="class_q_color_button.html#a3eb0a30a40653c483cf9615b69bcc4a0">QColorButton</a>
@@ -433,7 +433,7 @@ $(document).ready(function(){initNavTree('functions_func_c.html','');});
 : <a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_base.html#a56d1a493806cee17c5dfd70dbdb19e79">MR::Registration::Transform::Base</a>
 </li>
 <li>compute_r_del_daz()
-: <a class="el" href="class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_s_h.html#adc03edfe90e7a6b20c829454ff5ea0a7">MR::GUI::DWI::Renderer::SH</a>
+: <a class="el" href="class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_s_h.html#ad8c6290770e24850fb36dac5ff54c978">MR::GUI::DWI::Renderer::SH</a>
 </li>
 <li>compute_wrt_scanner()
 : <a class="el" href="class_m_r_1_1_filter_1_1_gradient.html#ae2b2808e20e47bf23ff45dccb226ca96">MR::Filter::Gradient</a>
@@ -442,7 +442,7 @@ $(document).ready(function(){initNavTree('functions_func_c.html','');});
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_m_h_sampler.html#a78be8255e07e127fc2b5533ebacb078e">MR::DWI::Tractography::GT::MHSampler</a>
 </li>
 <li>ConnectedComponents()
-: <a class="el" href="class_m_r_1_1_filter_1_1_connected_components.html#a0cb68e825e72bdcaf9dc4b0b15d58b90">MR::Filter::ConnectedComponents</a>
+: <a class="el" href="class_m_r_1_1_filter_1_1_connected_components.html#ae21529570dc3f7a34dfcd2ef736602a8">MR::Filter::ConnectedComponents</a>
 </li>
 <li>connectivity()
 : <a class="el" href="class_m_r_1_1_stats_1_1_c_f_e_1_1connectivity.html#a06bd3b341d864619111011b88a963cbf">MR::Stats::CFE::connectivity</a>
@@ -460,7 +460,7 @@ $(document).ready(function(){initNavTree('functions_func_c.html','');});
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle.html#a6f3331baa9a17573d0b03eafe54099be">MR::DWI::Tractography::GT::Particle</a>
 </li>
 <li>ConstIterator()
-: <a class="el" href="class_m_r_1_1_d_w_i_1_1_fixel__map_1_1_const_iterator.html#a516652cf8f19477ed5199cf5ee2b7f0e">MR::DWI::Fixel_map&lt; Fixel &gt;::ConstIterator</a>
+: <a class="el" href="class_m_r_1_1_d_w_i_1_1_fixel__map_1_1_const_iterator.html#aa51eb3477be6d4616340172c85c35a3b">MR::DWI::Fixel_map&lt; Fixel &gt;::ConstIterator</a>
 </li>
 <li>ConstValue()
 : <a class="el" href="class_m_r_1_1_bit_set_1_1_const_value.html#a972a8d265a1517b7a709fd4d75074bda">MR::BitSet::ConstValue</a>
@@ -470,7 +470,7 @@ $(document).ready(function(){initNavTree('functions_func_c.html','');});
 </li>
 <li>contains()
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_r_o_i.html#a1d2c3891a5347bed12d49a6df9a041db">MR::DWI::Tractography::ROI</a>
-, <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_r_o_i_set.html#afeb75f8348f77a1a0a0d9318f59db5bb">MR::DWI::Tractography::ROISet</a>
+, <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_r_o_i_set.html#a6f9eca0cbb6d693ba17a56651f2572c1">MR::DWI::Tractography::ROISet</a>
 </li>
 <li>contents()
 : <a class="el" href="group___cmd_parse.html#ga119293cf776bbb5a2a3f51a21370b2c4">MR::App::OptionGroup</a>
@@ -482,7 +482,7 @@ $(document).ready(function(){initNavTree('functions_func_c.html','');});
 : <a class="el" href="struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___undo_entry.html#a4cffc8fa9757c7547d924713aa82103a">MR::GUI::MRView::Tool::ROI_UndoEntry</a>
 </li>
 <li>copy_ptr()
-: <a class="el" href="class_m_r_1_1copy__ptr.html#acd03cd23b62eefab190e08f255d08a46">MR::copy_ptr&lt; T, Deleter &gt;</a>
+: <a class="el" href="class_m_r_1_1copy__ptr.html#ac172ac84eb07654fef80ce46e68e932b">MR::copy_ptr&lt; T, Deleter &gt;</a>
 </li>
 <li>copy_to_mem()
 : <a class="el" href="class_m_r_1_1_image_i_o_1_1_default.html#aa5f1548d90964995ebd0988f5f4b7407">MR::ImageIO::Default</a>
@@ -538,7 +538,7 @@ $(document).ready(function(){initNavTree('functions_func_c.html','');});
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_mapper_base.html#a3770f0fcb316d780930170fc72d201c3">MR::DWI::Tractography::Mapping::TrackMapperBase</a>
 </li>
 <li>crop_at_gmwmi()
-: <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_a_c_t___shared__additions.html#a73b2467393460c12837456c498611d2b">MR::DWI::Tractography::ACT::ACT_Shared_additions</a>
+: <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_a_c_t___shared__additions.html#ab225a5dbb76845609b70d7e28376fdcf">MR::DWI::Tractography::ACT::ACT_Shared_additions</a>
 </li>
 <li>crop_to_slab()
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a17890c0f328abed77a49974255e92cc8">MR::GUI::MRView::Tool::Tractography</a>
@@ -549,8 +549,8 @@ $(document).ready(function(){initNavTree('functions_func_c.html','');});
 <li>CSAEntry()
 : <a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_c_s_a_entry.html#a67b4517814884129583a0e1fdbda4155">MR::File::Dicom::CSAEntry</a>
 </li>
-<li>CSDeconv()
-: <a class="el" href="class_m_r_1_1_d_w_i_1_1_c_s_deconv.html#a7158b634ba2f85bdc6ccb5095262f4f5">MR::DWI::CSDeconv</a>
+<li>CSD()
+: <a class="el" href="class_m_r_1_1_d_w_i_1_1_s_deconv_1_1_c_s_d.html#afbf51cba5f50a78cb2181dd91f726d5d">MR::DWI::SDeconv::CSD</a>
 </li>
 <li>Cube()
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_shapes_1_1_cube.html#af6f71185deb3f60d108e189551354770">MR::GUI::Shapes::Cube</a>
@@ -576,7 +576,7 @@ $(document).ready(function(){initNavTree('functions_func_c.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Jun 14 2016 06:15:28 for MRtrix by
+    <li class="footer">Generated on Thu Jun 16 2016 09:49:17 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

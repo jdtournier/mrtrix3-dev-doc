@@ -1,7 +1,7 @@
 var dir_f71b16180702be847df9d9ba8a49a5a0 =
 [
     [ "dicom", "dir_081f4e379a9ede211e43b11193a99502.html", "dir_081f4e379a9ede211e43b11193a99502" ],
-    [ "config.h", "lib_2file_2config_8h.html", [
+    [ "config.h", "config_8h.html", [
       [ "Config", "class_m_r_1_1_file_1_1_config.html", "class_m_r_1_1_file_1_1_config" ]
     ] ],
     [ "copy.h", "file_2copy_8h.html", "file_2copy_8h" ],

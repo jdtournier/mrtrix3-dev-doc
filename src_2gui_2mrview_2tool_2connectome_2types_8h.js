@@ -15,8 +15,8 @@ var src_2gui_2mrview_2tool_2connectome_2types_8h =
     [ "default_type", "src_2gui_2mrview_2tool_2connectome_2types_8h.html#a16c5c41740458b08b6377c6dfe499adf", null ],
     [ "float32", "src_2gui_2mrview_2tool_2connectome_2types_8h.html#ae56c72247af15ef1ffc326c6ed4b7ac5", null ],
     [ "float64", "src_2gui_2mrview_2tool_2connectome_2types_8h.html#a5f19269a0f8ff470256e9b793e60b24a", null ],
-    [ "Node_info", "src_2gui_2mrview_2tool_2connectome_2types_8h.html#aa32d708954ae598af6e0201d787a5a7a", null ],
-    [ "Node_map", "src_2gui_2mrview_2tool_2connectome_2types_8h.html#a9c11afc38a9f07b441fe47be30ff1b83", null ],
+    [ "LUT", "src_2gui_2mrview_2tool_2connectome_2types_8h.html#a7305e1a1160ef6cfff19ee59df3b8607", null ],
+    [ "LUT_node", "src_2gui_2mrview_2tool_2connectome_2types_8h.html#a2bb3c554b26153dbbc740d66920b7143", null ],
     [ "node_t", "src_2gui_2mrview_2tool_2connectome_2types_8h.html#a45cbfa3edffcd8e6d399363572fac15b", null ],
     [ "transform_type", "src_2gui_2mrview_2tool_2connectome_2types_8h.html#a5fb9f6fdd930a2baf8f8584ae6309c9b", null ],
     [ "Vector3", "src_2gui_2mrview_2tool_2connectome_2types_8h.html#a74adae1418c863869c0090e30f8f1648", null ],
@@ -53,6 +53,7 @@ var src_2gui_2mrview_2tool_2connectome_2types_8h =
     [ "node_alpha_t", "src_2gui_2mrview_2tool_2connectome_2types_8h.html#af011816b3b5600155294c9d21505178a", [
       [ "FIXED", "src_2gui_2mrview_2tool_2connectome_2types_8h.html#af011816b3b5600155294c9d21505178aac6e6dc18b53b4c2681394b9d8aefcec7", null ],
       [ "CONNECTOME", "src_2gui_2mrview_2tool_2connectome_2types_8h.html#af011816b3b5600155294c9d21505178aaa58ee90bd0ddad71dcfcfb8766a89af2", null ],
+      [ "FROM_LUT", "src_2gui_2mrview_2tool_2connectome_2types_8h.html#af011816b3b5600155294c9d21505178aa64fec050b1af2ef93969bc292ea8cc7f", null ],
       [ "VECTOR_FILE", "src_2gui_2mrview_2tool_2connectome_2types_8h.html#af011816b3b5600155294c9d21505178aa94871beef89e45cc91c8c2f5cba83bfd", null ],
       [ "MATRIX_FILE", "src_2gui_2mrview_2tool_2connectome_2types_8h.html#af011816b3b5600155294c9d21505178aadb774f799c1b7d938dc58b716c436cea", null ]
     ] ],

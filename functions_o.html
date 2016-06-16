@@ -35,7 +35,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.14-671-g52f87d6d</div>
+   <div id="projectbrief">Version 0.3.15</div>
   </td>
  </tr>
  </tbody>
@@ -203,7 +203,7 @@ $(document).ready(function(){initNavTree('functions_o.html','');});
 , <a class="el" href="struct_m_r_1_1_loop_along_static_axes_1_1_run.html#a1d2e60d6a0fd69684e8b9634211f644a">MR::LoopAlongStaticAxes::Run&lt; ImageType &gt;</a>
 </li>
 <li>old_neg
-: <a class="el" href="class_m_r_1_1_d_w_i_1_1_c_s_deconv.html#ad7fa4e6128c84e83fc4a2e5b59734034">MR::DWI::CSDeconv</a>
+: <a class="el" href="class_m_r_1_1_d_w_i_1_1_s_deconv_1_1_c_s_d.html#a5b2e37bef7e560c4c4e33f9e53c9fcb4">MR::DWI::SDeconv::CSD</a>
 </li>
 <li>on_scaling_changed()
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_window.html#a416f882da3cc245523341691ed2986a2">MR::GUI::MRView::Window</a>
@@ -230,14 +230,17 @@ $(document).ready(function(){initNavTree('functions_o.html','');});
 , <a class="el" href="class_m_r_1_1_image.html#aab488a42d712e19da34e089333c14c15">MR::Image&lt; ValueType &gt;</a>
 , <a class="el" href="class_m_r_1_1_image_i_o_1_1_base.html#a0f32830b91704e1cc32944f6eb7805ab">MR::ImageIO::Base</a>
 </li>
+<li>open_intensity_track_scalar_file_slot()
+: <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file_options.html#a0f3492647b9aee10399b722cfed983e8">MR::GUI::MRView::Tool::TrackScalarFileOptions</a>
+</li>
+<li>open_menu()
+: <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_button.html#a3f7ac8c0e2f50d7a5d3595cb41a21a65">MR::GUI::MRView::ColourMapButton</a>
+</li>
 <li>open_slot()
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_window.html#aedca96d84f1c0dee5fadb7252adc12af">MR::GUI::DWI::Window</a>
 </li>
 <li>open_stream()
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_stats.html#acbff572b56101bf353de73d564928a31">MR::DWI::Tractography::GT::Stats</a>
-</li>
-<li>open_track_scalar_file_slot()
-: <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file.html#a4135cbe610746d24bc36c7d15c38d405">MR::GUI::MRView::Tool::TrackScalarFile</a>
 </li>
 <li>OpenGL()
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_dialog_1_1_open_g_l.html#a08db970c6d693fe99451f5e545f4862e">MR::GUI::Dialog::OpenGL</a>
@@ -353,25 +356,19 @@ $(document).ready(function(){initNavTree('functions_o.html','');});
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_fixel__map.html#a154ed8517d176ecb7a87bb0ad0f6a50e">MR::DWI::Fixel_map&lt; Fixel &gt;</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_f_m_l_s_1_1_f_o_d_queue_writer.html#affb66fc66f2d1a17b7bd6887a5ccc914">MR::DWI::FMLS::FODQueueWriter</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_f_m_l_s_1_1_segmenter.html#a2a8d401155b2cfbfb617b9f915d1a2d1">MR::DWI::FMLS::Segmenter</a>
+, <a class="el" href="class_m_r_1_1_d_w_i_1_1_s_deconv_1_1_m_s_m_t___c_s_d.html#ae7a6accf1a4408d069c055f44100584a">MR::DWI::SDeconv::MSMT_CSD</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1_1_1_calibrate.html#a31af9e310cc72143fa60e4735b95e2ad">MR::DWI::Tractography::Algorithms::iFOD1::Calibrate</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_tensor___prob_1_1_wild_bootstrap.html#a5dbb31d6f18a34bf60d6de5f3aa7158e">MR::DWI::Tractography::Algorithms::Tensor_Prob::WildBootstrap</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_mapper.html#a44bf32c10231204f0f264c07c0a3efd4">MR::DWI::Tractography::Connectome::Mapper</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_matrix.html#a07661a4aad25091f399716a306e7cca6">MR::DWI::Tractography::Connectome::Matrix</a>
-, <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric__base.html#abaf5dbfbb17bca84ce0b59e51ee29092">MR::DWI::Tractography::Connectome::Metric_base</a>
-, <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric__count.html#a251130d469954a4e149208f434c23f10">MR::DWI::Tractography::Connectome::Metric_count</a>
-, <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric__invlength.html#a55a4e445e8190eb066c09620a41cc24f">MR::DWI::Tractography::Connectome::Metric_invlength</a>
-, <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric__invlength__invnodevolume.html#aa6787979d0fc04c1c0ffeabdc25ff11a">MR::DWI::Tractography::Connectome::Metric_invlength_invnodevolume</a>
-, <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric__invnodevolume.html#adc53eb2435b7a7c8a1680d5cd7495d59">MR::DWI::Tractography::Connectome::Metric_invnodevolume</a>
-, <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric__meanlength.html#abdc9a4b7a69f44a006b5f7bb0ff1bd45">MR::DWI::Tractography::Connectome::Metric_meanlength</a>
-, <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric__meanscalar.html#a369a01a8458de30486045aaa4153739a">MR::DWI::Tractography::Connectome::Metric_meanscalar</a>
+, <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric.html#a480cce24a7e57cb8eac8f2150287d91c">MR::DWI::Tractography::Connectome::Metric</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_selector.html#aa30670241cad6186ff8aee9846393dbe">MR::DWI::Tractography::Connectome::Selector</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_tck2nodes__base.html#aade7e26ba44412c3b01b9a187474ed18">MR::DWI::Tractography::Connectome::Tck2nodes_base</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_writer_exemplars.html#a88574f978be4c5528d98512c701f7dfc">MR::DWI::Tractography::Connectome::WriterExemplars</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_writer_extraction.html#af635150acea8d2e7432af40def66cbe1">MR::DWI::Tractography::Connectome::WriterExtraction</a>
-, <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_downsampler.html#a45a19945d99043118787563426dcc11d">MR::DWI::Tractography::Downsampler</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_editing_1_1_loader.html#a008e79ca8fa7ba8d1eba628819589e20">MR::DWI::Tractography::Editing::Loader</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_editing_1_1_receiver.html#a15cc5c9b60d101000f0c4b80c20ed0c1">MR::DWI::Tractography::Editing::Receiver</a>
-, <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_editing_1_1_worker.html#ac39fc2863426a500311d53712c6f1a78">MR::DWI::Tractography::Editing::Worker</a>
+, <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_editing_1_1_worker.html#a149ab81bfe2a9358119f2c60fac0f2d0">MR::DWI::Tractography::Editing::Worker</a>
 , <a class="el" href="struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1vec__compare.html#a55dec6e5796fbea0d0dd1938113aa7c4">MR::DWI::Tractography::GT::vec_compare&lt; T &gt;</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_dixel_mapping_plugin.html#a1626f458fddabca4570f24eee40b4687">MR::DWI::Tractography::Mapping::DixelMappingPlugin</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_fixel___t_d__map.html#a9b40bdc08c46a242fe7840691daf46b4">MR::DWI::Tractography::Mapping::Fixel_TD_map&lt; Fixel &gt;</a>
@@ -383,6 +380,13 @@ $(document).ready(function(){initNavTree('functions_o.html','');});
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_mapper_base.html#ac84e787ce06a1c07be8f2b41c4c27c0e">MR::DWI::Tractography::Mapping::TrackMapperBase</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_reader.html#a27d16ac19c9422b3eeed2ea61f424eb4">MR::DWI::Tractography::Reader&lt; ValueType &gt;</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_reader_interface.html#a4caf9109e689e0c15a760c928975a722">MR::DWI::Tractography::ReaderInterface&lt; ValueType &gt;</a>
+, <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_resampling_1_1_arc.html#aace032e7b3cd0d451694106310876240">MR::DWI::Tractography::Resampling::Arc</a>
+, <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_resampling_1_1_base.html#ac33836f99f585d066e97e17ca329af1e">MR::DWI::Tractography::Resampling::Base</a>
+, <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_resampling_1_1_downsampler.html#acfb5e64e627c8f6fca70385dcd8460b1">MR::DWI::Tractography::Resampling::Downsampler</a>
+, <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_resampling_1_1_endpoints.html#ad241b5b8b15716daf4ac3f6b6146eb62">MR::DWI::Tractography::Resampling::Endpoints</a>
+, <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_resampling_1_1_fixed_num_points.html#a847e6f10b75a227803b9a484ed11487e">MR::DWI::Tractography::Resampling::FixedNumPoints</a>
+, <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_resampling_1_1_fixed_step_size.html#a5aa621a9774f317df0021b7b8708624e">MR::DWI::Tractography::Resampling::FixedStepSize</a>
+, <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_resampling_1_1_upsampler.html#ab962bcbde8f1a3e9ba9c2eb086968d73">MR::DWI::Tractography::Resampling::Upsampler</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_scalar_reader.html#aaf19e02b6df06e0d21e769c1192e6702">MR::DWI::Tractography::ScalarReader&lt; T &gt;</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_scalar_writer.html#a8732594fb94e337bc7e99ad9649554c7">MR::DWI::Tractography::ScalarWriter&lt; T &gt;</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_seeding_1_1_dynamic.html#a3e82b8502cbeabb9a20e950594af1d0a">MR::DWI::Tractography::Seeding::Dynamic</a>
@@ -391,14 +395,13 @@ $(document).ready(function(){initNavTree('functions_o.html','');});
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_fixel_updater.html#ad6cb0aa43f4a805b614f45a44258d690">MR::DWI::Tractography::SIFT2::FixelUpdater</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_line_search_functor.html#a82d5265704bb2492681aace4b2574c96">MR::DWI::Tractography::SIFT2::LineSearchFunctor</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_regularisation_calculator.html#a7228bf72fc726848ac0d4ffa50f7f0a8">MR::DWI::Tractography::SIFT2::RegularisationCalculator</a>
-, <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model_base.html#aafbfaf65eed79f696c48fbcc0d997ff3">MR::DWI::Tractography::SIFT::ModelBase&lt; Fixel &gt;</a>
+, <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model_base.html#a88ac848f31e96a5fb9613a23fdb35962">MR::DWI::Tractography::SIFT::ModelBase&lt; Fixel &gt;</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_m_t__gradient__vector__sorter.html#af6c61333f19f6d666c9a6464dff8e682">MR::DWI::Tractography::SIFT::MT_gradient_vector_sorter</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_resample_functor.html#a444749ae4dccc54fb0fe4218b0cdf81f">MR::DWI::Tractography::SIFT::ResampleFunctor</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter_1_1_track_gradient_calculator.html#adb0da96f5e8ae16dbf855a25a8c64f99">MR::DWI::Tractography::SIFT::SIFTer::TrackGradientCalculator</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_track_index_range_writer.html#a33cd8b8feee9d093827bed38e45a6f1e">MR::DWI::Tractography::SIFT::TrackIndexRangeWriter</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_exec.html#af536291608ccba3f4fccdae69f4c93d0">MR::DWI::Tractography::Tracking::Exec&lt; Method &gt;</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_write_kernel.html#a014899c78e7fe7d0ae910d58facbefbf">MR::DWI::Tractography::Tracking::WriteKernel</a>
-, <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_upsampler.html#a74425be009c3379289e8f9f173916a59">MR::DWI::Tractography::Upsampler</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer.html#acc1f1de60511ab163acf5cf663e7e866">MR::DWI::Tractography::Writer&lt; ValueType &gt;</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer_interface.html#a9011bd706a8deebfd78b65836937e7ed">MR::DWI::Tractography::WriterInterface&lt; ValueType &gt;</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer_unbuffered.html#afec71912c338a0ef97106e6d9d6a642f">MR::DWI::Tractography::WriterUnbuffered&lt; ValueType &gt;</a>
@@ -502,11 +505,11 @@ $(document).ready(function(){initNavTree('functions_o.html','');});
 , <a class="el" href="struct_m_r_1_1_loop_along_axis_range_1_1_run.html#a367aa8042e3c8ee9a8604be6667b0dcc">MR::LoopAlongAxisRange::Run&lt; ImageType &gt;</a>
 , <a class="el" href="struct_m_r_1_1_loop_along_axis_range_progress_1_1_run.html#a20f75ef4203032314521cad21fce6f5e">MR::LoopAlongAxisRangeProgress::Run&lt; ImageType &gt;</a>
 , <a class="el" href="struct_m_r_1_1_loop_along_dynamic_axes_1_1_run.html#a40fa047b2224ad5c85556a8c687ec882">MR::LoopAlongDynamicAxes::Run&lt; ImageType &gt;</a>
-, <a class="el" href="struct_m_r_1_1_loop_along_dynamic_axes_progress_1_1_run.html#a6f04fcf77bc9c20f1fb41fd1628d3999">MR::LoopAlongDynamicAxesProgress::Run&lt; ImageType &gt;</a>
+, <a class="el" href="struct_m_r_1_1_loop_along_dynamic_axes_progress_1_1_run.html#a1f6da83c6508f03ab6dffe566370ea85">MR::LoopAlongDynamicAxesProgress::Run&lt; ImageType &gt;</a>
 , <a class="el" href="struct_m_r_1_1_loop_along_single_axis_1_1_run.html#a84904a6b69cf2adced36b6c97615dc6d">MR::LoopAlongSingleAxis::Run&lt; ImageType &gt;</a>
-, <a class="el" href="struct_m_r_1_1_loop_along_single_axis_progress_1_1_run.html#a580c688a3f80decb472d1cfea9aec308">MR::LoopAlongSingleAxisProgress::Run&lt; ImageType &gt;</a>
+, <a class="el" href="struct_m_r_1_1_loop_along_single_axis_progress_1_1_run.html#a4736f1c94aa24b64c7d6801c1504b180">MR::LoopAlongSingleAxisProgress::Run&lt; ImageType &gt;</a>
 , <a class="el" href="struct_m_r_1_1_loop_along_static_axes_1_1_run.html#a4436bf3b5b9c4c6bf267956ed1362967">MR::LoopAlongStaticAxes::Run&lt; ImageType &gt;</a>
-, <a class="el" href="struct_m_r_1_1_loop_along_static_axes_progress_1_1_run.html#a96302c1ae7c9871b511f263f65eba36e">MR::LoopAlongStaticAxesProgress::Run&lt; ImageType &gt;</a>
+, <a class="el" href="struct_m_r_1_1_loop_along_static_axes_progress_1_1_run.html#a34b03283814e6500ee163c245dd5905c">MR::LoopAlongStaticAxesProgress::Run&lt; ImageType &gt;</a>
 , <a class="el" href="class_m_r_1_1_progress_bar.html#a380d74adc8f0f817e00df2674d10405f">MR::ProgressBar</a>
 , <a class="el" href="class_m_r_1_1_progress_info.html#a31491cb1f92eae455d51d32593e497f6">MR::ProgressInfo</a>
 , <a class="el" href="class_m_r_1_1_random__loop.html#ac5fb7fca253598d26262f1e7416327de">MR::Random_loop&lt; ImageType, RandomEngine &gt;</a>
@@ -612,7 +615,7 @@ $(document).ready(function(){initNavTree('functions_o.html','');});
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_exemplar.html#a2935de821cc35ff1357b1d4ecc631d37">MR::DWI::Tractography::Connectome::Exemplar</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle_grid.html#a15a936b0f4f96d61f38b3d45c0735ef4">MR::DWI::Tractography::GT::ParticleGrid</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle_pool.html#a80d569322407b6fe197ab55813bd32ad">MR::DWI::Tractography::GT::ParticlePool</a>
-, <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_dixel.html#a8272533e3d630ac871db7adf3ab5a9cc">MR::DWI::Tractography::Mapping::Dixel</a>
+, <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_dixel.html#a0abc25f3f6ae18f0de3cfb751cf8ccd0">MR::DWI::Tractography::Mapping::Dixel</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_dixel.html#a662809a32ed461c8336f24dc813c02c8">MR::DWI::Tractography::Mapping::Gaussian::Dixel</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_voxel.html#a7ae1a2ab1609ee4336ed74dcfec5357e">MR::DWI::Tractography::Mapping::Gaussian::Voxel</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_voxel_addon.html#a8493a7b38c8f4d19ac2543da422a0afb">MR::DWI::Tractography::Mapping::Gaussian::VoxelAddon</a>
@@ -621,7 +624,7 @@ $(document).ready(function(){initNavTree('functions_o.html','');});
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_voxel.html#ae48ce571008cd8ea613da8528f2fa43b">MR::DWI::Tractography::Mapping::Voxel</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_voxel_d_e_c.html#aa11cba3b6df2e4d3296ba97f8cd940b1">MR::DWI::Tractography::Mapping::VoxelDEC</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_voxel_dir.html#add2114cab8fa6d6eabd1982e9bc4dab6">MR::DWI::Tractography::Mapping::VoxelDir</a>
-, <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_voxel_t_o_d.html#adaef112faf5477a8aa6403acb99a5ffd">MR::DWI::Tractography::Mapping::VoxelTOD</a>
+, <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_voxel_t_o_d.html#a69e85d9ce679ec1935ea2673ef92d4b0">MR::DWI::Tractography::Mapping::VoxelTOD</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_seeding_1_1_dynamic.html#a02de70a24d963b1921aeb1060be3a324">MR::DWI::Tractography::Seeding::Dynamic</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_seeding_1_1_write_kernel_dynamic.html#abb7534cbdf1fb872b822d1f5959babe6">MR::DWI::Tractography::Seeding::WriteKernelDynamic</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_streamline.html#a1d3f42c7743babb5a255b0d89df2dc2c">MR::DWI::Tractography::Streamline&lt; ValueType &gt;</a>
@@ -635,18 +638,18 @@ $(document).ready(function(){initNavTree('functions_o.html','');});
 , <a class="el" href="class_m_r_1_1_g_u_i_1_1_g_l_1_1_vertex_buffer.html#a35552839af82c1c7c2ebd1c518a55730">MR::GUI::GL::VertexBuffer</a>
 , <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_file_data_vector.html#a7c7fc0d55d6252d6e758b3e070be6ffd">MR::GUI::MRView::Tool::FileDataVector</a>
 , <a class="el" href="struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___undo_entry.html#aa53e34ff65116363ce551fa032605423">MR::GUI::MRView::Tool::ROI_UndoEntry</a>
-, <a class="el" href="class_m_r_1_1_header_1_1_data_type_proxy.html#ada65bafa76737ded7e66084861de3e2f">MR::Header::DataTypeProxy</a>
-, <a class="el" href="class_m_r_1_1_header.html#aa4f38689eed176b2611b434c51043b1f">MR::Header</a>
-, <a class="el" href="class_m_r_1_1_helper_1_1_index.html#a6b7fb3188501c1f02768b56988e14be7">MR::Helper::Index&lt; ImageType &gt;</a>
-, <a class="el" href="class_m_r_1_1_helper_1_1_value.html#a39dde2ae2aebad4261ba33ab7e6a4bd5">MR::Helper::Value&lt; ImageType &gt;</a>
-, <a class="el" href="class_m_r_1_1_image_1_1_buffer.html#ac40a402222670f017690ce81580e843e">MR::Image&lt; ValueType &gt;::Buffer</a>
-, <a class="el" href="class_m_r_1_1_image.html#a393407bbeff913560b4f41d2fe8ccfb3">MR::Image&lt; ValueType &gt;</a>
+, <a class="el" href="class_m_r_1_1_header_1_1_data_type_proxy.html#af6301669ae177674eb4c75556b12f4b1">MR::Header::DataTypeProxy</a>
+, <a class="el" href="class_m_r_1_1_header.html#a12bf617a4bcaca7a9ecdf0410daf16cf">MR::Header</a>
+, <a class="el" href="class_m_r_1_1_helper_1_1_index.html#a7acc29d328aa4411919b78f6e12d415c">MR::Helper::Index&lt; ImageType &gt;</a>
+, <a class="el" href="class_m_r_1_1_helper_1_1_value.html#a9357254231d519fa317938a313356879">MR::Helper::Value&lt; ImageType &gt;</a>
+, <a class="el" href="class_m_r_1_1_image_1_1_buffer.html#a8b362121c03a8235729a4543fd97069f">MR::Image&lt; ValueType &gt;::Buffer</a>
+, <a class="el" href="class_m_r_1_1_image.html#a70c116a358e4108e459fdc4db849f6a0">MR::Image&lt; ValueType &gt;</a>
 , <a class="el" href="class_m_r_1_1_image_i_o_1_1_base.html#a9626e766e01b74d2c0098dcdf451e71c">MR::ImageIO::Base</a>
 , <a class="el" href="class_m_r_1_1_image_i_o_1_1_default.html#a7382ac110176cb9e7d1c1542242a30b7">MR::ImageIO::Default</a>
 , <a class="el" href="class_m_r_1_1_mesh_1_1_mesh.html#af3137c753cd1a7e4c6a75979a8ab3ce4">MR::Mesh::Mesh</a>
 , <a class="el" href="class_m_r_1_1_min__mem__array.html#a7420e734d358db7bb2f8118e18152cd7">MR::Min_mem_array&lt; T &gt;</a>
 , <a class="el" href="class_m_r_1_1_sparse_1_1_value.html#ad2b049c754e7a4f4698729c14316d8bf">MR::Sparse::Value&lt; DataType &gt;</a>
-, <a class="el" href="class_m_r_1_1_transform.html#aec95244ce3e69cf319ff585b7cff70a1">MR::Transform</a>
+, <a class="el" href="class_m_r_1_1_transform.html#aca542451a88b63561759500598f53e29">MR::Transform</a>
 </li>
 <li>operator==()
 : <a class="el" href="group___cmd_parse.html#ga30198c7ed2b57d5d1df19436eea17a97">MR::App::ParsedOption</a>
@@ -667,9 +670,9 @@ $(document).ready(function(){initNavTree('functions_o.html','');});
 <li>operator[]()
 : <a class="el" href="class_m_r_1_1_adapter_1_1_replicate.html#a7534fc1b1b92636258defd013a2707f1">MR::Adapter::Replicate&lt; ImageType &gt;</a>
 , <a class="el" href="group___cmd_parse.html#ga218980a25688ce5d20950a450afd76dc">MR::App::ParsedOption</a>
-, <a class="el" href="class_m_r_1_1_bit_set.html#aa12ada0506c979fd0a6cb08118d945f0">MR::BitSet</a>
+, <a class="el" href="class_m_r_1_1_bit_set.html#a73faee65579c8c3ff2eb19ad3a92bb77">MR::BitSet</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_directions_1_1_set.html#a5d3747399665c1606efdf0fe02006e8c">MR::DWI::Directions::Set</a>
-, <a class="el" href="class_m_r_1_1_d_w_i_1_1_fixel__map.html#a36a2d88e45f174dd2071fc6daa9cec62">MR::DWI::Fixel_map&lt; Fixel &gt;</a>
+, <a class="el" href="class_m_r_1_1_d_w_i_1_1_fixel__map.html#a918b4b85bff7521f0377cf9655feb8d7">MR::DWI::Fixel_map&lt; Fixel &gt;</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_shells.html#a6933e36da0da1779f588f238c0dd3c04">MR::DWI::Shells</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_r_o_i_set.html#a722f4f9c42c25be839e120f53c7af429">MR::DWI::Tractography::ROISet</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_seeding_1_1_list.html#ab16f6f511a1e2b550c3ea23ed6ab88f7">MR::DWI::Tractography::Seeding::List</a>
@@ -677,10 +680,10 @@ $(document).ready(function(){initNavTree('functions_o.html','');});
 , <a class="el" href="class_m_r_1_1_file_1_1_name_parser.html#a52adfb61da557024a4512ffd805e9a0d">MR::File::NameParser</a>
 , <a class="el" href="class_m_r_1_1_file_1_1_parsed_name_1_1_list.html#a0a68d9f26497684bae62a2214e258042">MR::File::ParsedName::List</a>
 , <a class="el" href="class_m_r_1_1_g_u_i_1_1_shapes_1_1_half_sphere_1_1_vertex.html#ac0a8e430211289438c3952904086cbdc">MR::GUI::Shapes::HalfSphere::Vertex</a>
-, <a class="el" href="class_m_r_1_1_g_u_i_1_1_shapes_1_1_sphere_1_1_vertex.html#a4f07cb252548815c9dc8fcf63ad63f32">MR::GUI::Shapes::Sphere::Vertex</a>
+, <a class="el" href="class_m_r_1_1_g_u_i_1_1_shapes_1_1_sphere_1_1_vertex.html#accffbf7c7b5a1017b85323b3532d41f7">MR::GUI::Shapes::Sphere::Vertex</a>
 , <a class="el" href="class_m_r_1_1_mesh_1_1_polygon.html#a2d30fd8d660d9314784a7a4c20e44850">MR::Mesh::Polygon&lt; vertices &gt;</a>
 , <a class="el" href="class_m_r_1_1_min__mem__array.html#a5eeb6d328eadc8a0035375504fbf315e">MR::Min_mem_array&lt; T &gt;</a>
-, <a class="el" href="class_m_r_1_1_sparse_1_1_value.html#a1b37ee87e27caa03f84f8f0ea4aafd51">MR::Sparse::Value&lt; DataType &gt;</a>
+, <a class="el" href="class_m_r_1_1_sparse_1_1_value.html#ab4b38c7e00afdfff99363fa35143b103">MR::Sparse::Value&lt; DataType &gt;</a>
 </li>
 <li>operator^()
 : <a class="el" href="class_m_r_1_1_bit_set.html#a6eb3a0081d3b7ea4fa428472e7148a24">MR::BitSet</a>
@@ -886,7 +889,7 @@ $(document).ready(function(){initNavTree('functions_o.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Jun 14 2016 06:15:28 for MRtrix by
+    <li class="footer">Generated on Thu Jun 16 2016 09:49:17 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

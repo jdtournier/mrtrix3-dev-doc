@@ -27,13 +27,7 @@ var searchData=
   ['mesh',['Mesh',['../class_m_r_1_1_mesh_1_1_mesh.html',1,'MR::Mesh']]],
   ['meshmulti',['MeshMulti',['../class_m_r_1_1_mesh_1_1_mesh_multi.html',1,'MR::Mesh']]],
   ['methodbase',['MethodBase',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_method_base.html',1,'MR::DWI::Tractography::Tracking']]],
-  ['metric_5fbase',['Metric_base',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric__base.html',1,'MR::DWI::Tractography::Connectome']]],
-  ['metric_5fcount',['Metric_count',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric__count.html',1,'MR::DWI::Tractography::Connectome']]],
-  ['metric_5finvlength',['Metric_invlength',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric__invlength.html',1,'MR::DWI::Tractography::Connectome']]],
-  ['metric_5finvlength_5finvnodevolume',['Metric_invlength_invnodevolume',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric__invlength__invnodevolume.html',1,'MR::DWI::Tractography::Connectome']]],
-  ['metric_5finvnodevolume',['Metric_invnodevolume',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric__invnodevolume.html',1,'MR::DWI::Tractography::Connectome']]],
-  ['metric_5fmeanlength',['Metric_meanlength',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric__meanlength.html',1,'MR::DWI::Tractography::Connectome']]],
-  ['metric_5fmeanscalar',['Metric_meanscalar',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric__meanscalar.html',1,'MR::DWI::Tractography::Connectome']]],
+  ['metric',['Metric',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric.html',1,'MR::DWI::Tractography::Connectome']]],
   ['mgh',['MGH',['../class_m_r_1_1_formats_1_1_m_g_h.html',1,'MR::Formats']]],
   ['mgz',['MGZ',['../class_m_r_1_1_formats_1_1_m_g_z.html',1,'MR::Formats']]],
   ['mhsampler',['MHSampler',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_m_h_sampler.html',1,'MR::DWI::Tractography::GT']]],
@@ -50,5 +44,6 @@ var searchData=
   ['mrtrix',['MRtrix',['../class_m_r_1_1_formats_1_1_m_rtrix.html',1,'MR::Formats']]],
   ['mrtrix_5fgz',['MRtrix_GZ',['../class_m_r_1_1_formats_1_1_m_rtrix___g_z.html',1,'MR::Formats']]],
   ['mrtrix_5fsparse',['MRtrix_sparse',['../class_m_r_1_1_formats_1_1_m_rtrix__sparse.html',1,'MR::Formats']]],
+  ['msmt_5fcsd',['MSMT_CSD',['../class_m_r_1_1_d_w_i_1_1_s_deconv_1_1_m_s_m_t___c_s_d.html',1,'MR::DWI::SDeconv']]],
   ['mt_5fgradient_5fvector_5fsorter',['MT_gradient_vector_sorter',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_m_t__gradient__vector__sorter.html',1,'MR::DWI::Tractography::SIFT']]]
 ];

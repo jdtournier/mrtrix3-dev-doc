@@ -35,7 +35,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.14-671-g52f87d6d</div>
+   <div id="projectbrief">Version 0.3.15</div>
   </td>
  </tr>
  </tbody>
@@ -194,8 +194,8 @@ $(document).ready(function(){initNavTree('functions_func_0x7e.html','');});
 <li>~Connectome()
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_connectome.html#a96108311b4f783461e541bf8adb05369">MR::GUI::MRView::Tool::Connectome</a>
 </li>
-<li>~CSDeconv()
-: <a class="el" href="class_m_r_1_1_d_w_i_1_1_c_s_deconv.html#adde6794c3545751fca4fc0cc4229f7e7">MR::DWI::CSDeconv</a>
+<li>~CSD()
+: <a class="el" href="class_m_r_1_1_d_w_i_1_1_s_deconv_1_1_c_s_d.html#ac03ff4d22a205bf37a993c692003837d">MR::DWI::SDeconv::CSD</a>
 </li>
 <li>~Demons()
 : <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_demons.html#a7f334c21d52adb72bd4efe80efab6d1a">MR::Registration::Metric::Demons&lt; Im1ImageType, Im2ImageType, Im1MaskType, Im2MaskType &gt;</a>
@@ -287,9 +287,6 @@ $(document).ready(function(){initNavTree('functions_func_0x7e.html','');});
 </li>
 <li>~MapWriterBase()
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_map_writer_base.html#a638a615992dcc4cff90bd358a7ad1305">MR::DWI::Tractography::Mapping::MapWriterBase</a>
-</li>
-<li>~Metric_base()
-: <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric__base.html#ada6a63fc7163f172ae88f21690544f6f">MR::DWI::Tractography::Connectome::Metric_base</a>
 </li>
 <li>~MHSampler()
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_m_h_sampler.html#a83e2d2e1c50115713d3ae8f67f2784c1">MR::DWI::Tractography::GT::MHSampler</a>
@@ -442,8 +439,8 @@ $(document).ready(function(){initNavTree('functions_func_0x7e.html','');});
 <li>~TrackMapperBase()
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_mapper_base.html#a692918e360ff98a621dd74843edb4243">MR::DWI::Tractography::Mapping::TrackMapperBase</a>
 </li>
-<li>~TrackScalarFile()
-: <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file.html#a8d75d10920a4c173c2caab0b8dbdf163">MR::GUI::MRView::Tool::TrackScalarFile</a>
+<li>~TrackScalarFileOptions()
+: <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file_options.html#ad2f7390976fb101f8097b03f6d6a74ed">MR::GUI::MRView::Tool::TrackScalarFileOptions</a>
 </li>
 <li>~Tractogram()
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractogram.html#a4255c521061d15f6ad39bc4cce0c1c23">MR::GUI::MRView::Tool::Tractogram</a>
@@ -464,7 +461,7 @@ $(document).ready(function(){initNavTree('functions_func_0x7e.html','');});
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_i_scalar_image_plugin.html#a6e8f64ffcc9f9b792429a2eda503f8fc">MR::DWI::Tractography::Mapping::TWIScalarImagePlugin</a>
 </li>
 <li>~Upsampler()
-: <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_upsampler.html#a6351b9a4fcd2c132d45f4e731c4a6a64">MR::DWI::Tractography::Upsampler</a>
+: <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_resampling_1_1_upsampler.html#aabffb53819be485443def032178ec1a0">MR::DWI::Tractography::Resampling::Upsampler</a>
 </li>
 <li>~Vector()
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_vector.html#a193cdcf2a6db90f0d3683e6919b91a12">MR::GUI::MRView::Tool::Vector</a>
@@ -500,7 +497,7 @@ $(document).ready(function(){initNavTree('functions_func_0x7e.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Jun 14 2016 06:15:28 for MRtrix by
+    <li class="footer">Generated on Thu Jun 16 2016 09:49:17 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

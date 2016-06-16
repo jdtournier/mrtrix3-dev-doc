@@ -6,5 +6,5 @@ var searchData=
   ['uniformbspline',['UniformBSpline',['../class_m_r_1_1_math_1_1_uniform_b_spline.html',1,'MR::Math']]],
   ['unorderedmap',['UnorderedMap',['../struct_m_r_1_1_unordered_map.html',1,'MR']]],
   ['unorderedmap_3c_20uint32_5ft_2c_20const_20char_20_2a_20_3e',['UnorderedMap&lt; uint32_t, const char * &gt;',['../struct_m_r_1_1_unordered_map.html',1,'MR']]],
-  ['upsampler',['Upsampler',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_upsampler.html',1,'MR::DWI::Tractography']]]
+  ['upsampler',['Upsampler',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_resampling_1_1_upsampler.html',1,'MR::DWI::Tractography::Resampling']]]
 ];

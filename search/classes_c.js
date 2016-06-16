@@ -35,5 +35,7 @@ var searchData=
   ['loopalongsingleaxisprogress',['LoopAlongSingleAxisProgress',['../struct_m_r_1_1_loop_along_single_axis_progress.html',1,'MR']]],
   ['loopalongstaticaxes',['LoopAlongStaticAxes',['../struct_m_r_1_1_loop_along_static_axes.html',1,'MR']]],
   ['loopalongstaticaxesprogress',['LoopAlongStaticAxesProgress',['../struct_m_r_1_1_loop_along_static_axes_progress.html',1,'MR']]],
-  ['lp',['LP',['../class_m_r_1_1_registration_1_1_metric_1_1_l_p.html',1,'MR::Registration::Metric']]]
+  ['lp',['LP',['../class_m_r_1_1_registration_1_1_metric_1_1_l_p.html',1,'MR::Registration::Metric']]],
+  ['lut',['LUT',['../class_m_r_1_1_connectome_1_1_l_u_t.html',1,'MR::Connectome']]],
+  ['lut_5fnode',['LUT_node',['../class_m_r_1_1_connectome_1_1_l_u_t__node.html',1,'MR::Connectome']]]
 ];

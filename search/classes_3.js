@@ -40,7 +40,7 @@ var searchData=
   ['cost_5ffn_5fgradient_5fsort',['Cost_fn_gradient_sort',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_cost__fn__gradient__sort.html',1,'MR::DWI::Tractography::SIFT']]],
   ['crosscorrelationnogradient',['CrossCorrelationNoGradient',['../class_m_r_1_1_registration_1_1_metric_1_1_cross_correlation_no_gradient.html',1,'MR::Registration::Metric']]],
   ['csaentry',['CSAEntry',['../class_m_r_1_1_file_1_1_dicom_1_1_c_s_a_entry.html',1,'MR::File::Dicom']]],
-  ['csdeconv',['CSDeconv',['../class_m_r_1_1_d_w_i_1_1_c_s_deconv.html',1,'MR::DWI']]],
+  ['csd',['CSD',['../class_m_r_1_1_d_w_i_1_1_s_deconv_1_1_c_s_d.html',1,'MR::DWI::SDeconv']]],
   ['cube',['Cube',['../class_m_r_1_1_g_u_i_1_1_shapes_1_1_cube.html',1,'MR::GUI::Shapes']]],
   ['cubicspline',['CubicSpline',['../class_m_r_1_1_math_1_1_cubic_spline.html',1,'MR::Math']]],
   ['cursor',['Cursor',['../class_m_r_1_1_g_u_i_1_1_cursor.html',1,'MR::GUI']]],

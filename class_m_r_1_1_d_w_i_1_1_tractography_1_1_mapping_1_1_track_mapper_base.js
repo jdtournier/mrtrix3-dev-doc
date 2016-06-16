@@ -30,5 +30,5 @@ var class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_mapper_base =
     [ "precise", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_mapper_base.html#afff7fef7bfb55722de309d229e1fd5b4", null ],
     [ "scanner2voxel", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_mapper_base.html#a0ffb1c8c87acadd08412983f8482c5b6", null ],
     [ "tod_plugin", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_mapper_base.html#a550fedebb454b4dd2aca1b75b8cc5b29", null ],
-    [ "upsampler", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_mapper_base.html#a1128d9d532f237d03d0cee4aae3c913c", null ]
+    [ "upsampler", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_mapper_base.html#a4c1d9a7da460693d50a3ace54a6c6f87", null ]
 ];

@@ -6,6 +6,7 @@ var searchData=
   ['element',['Element',['../class_m_r_1_1_file_1_1_dicom_1_1_element.html',1,'MR::File::Dicom']]],
   ['enable_5fif_5fheader_5ftype',['enable_if_header_type',['../struct_m_r_1_1enable__if__header__type.html',1,'MR']]],
   ['enable_5fif_5fimage_5ftype',['enable_if_image_type',['../struct_m_r_1_1enable__if__image__type.html',1,'MR']]],
+  ['endpoints',['Endpoints',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_resampling_1_1_endpoints.html',1,'MR::DWI::Tractography::Resampling']]],
   ['energycomputer',['EnergyComputer',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_energy_computer.html',1,'MR::DWI::Tractography::GT']]],
   ['energysumcomputer',['EnergySumComputer',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_energy_sum_computer.html',1,'MR::DWI::Tractography::GT']]],
   ['enhancer',['Enhancer',['../class_m_r_1_1_stats_1_1_c_f_e_1_1_enhancer.html',1,'MR::Stats::CFE']]],

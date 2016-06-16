@@ -33,6 +33,7 @@ var searchData=
   ['edge_5fvisibility_5fthreshold_5finvert_5fcheckbox',['edge_visibility_threshold_invert_checkbox',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_connectome.html#af4cf4a2b5264aa4375462878f7e265f5',1,'MR::GUI::MRView::Tool::Connectome']]],
   ['edge_5fvisibility_5fthreshold_5flabel',['edge_visibility_threshold_label',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_connectome.html#ae01e1afdc24f496bfe5c8e8627fd1b57',1,'MR::GUI::MRView::Tool::Connectome']]],
   ['edge_5fvisibility_5fwarning_5ficon',['edge_visibility_warning_icon',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_connectome.html#a85747603b9a21510416e461a7e2e8fd1',1,'MR::GUI::MRView::Tool::Connectome']]],
+  ['edgestatisticoption',['EdgeStatisticOption',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome.html#a1379587c26fa8e01fc075c9f1fb9e86b',1,'MR::DWI::Tractography::Connectome']]],
   ['edit_5fmode_5fgroup',['edit_mode_group',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html#a508c606f86d799498f22fd1608cc6b41',1,'MR::GUI::MRView::Tool::ROI']]],
   ['eext',['eext',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_external_energy_computer.html#a17d5d4182879522fdc22da72a0c094eb',1,'MR::DWI::Tractography::GT::ExternalEnergyComputer']]],
   ['eexttot',['EextTot',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_stats.html#ae72b22571420f4f169f4e435c1c6203b',1,'MR::DWI::Tractography::GT::Stats']]],
