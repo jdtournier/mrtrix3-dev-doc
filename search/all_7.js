@@ -325,7 +325,7 @@ var searchData=
   ['gradient',['Gradient',['../class_m_r_1_1_filter_1_1_gradient.html',1,'MR::Filter']]],
   ['gradient_2eh',['gradient.h',['../lib_2filter_2gradient_8h.html',1,'']]],
   ['gradient_2eh',['gradient.h',['../src_2dwi_2gradient_8h.html',1,'']]],
-  ['gradient1d',['Gradient1D',['../class_m_r_1_1_adapter_1_1_gradient1_d.html#aabb62e90f10d64c68a6303b04f675def',1,'MR::Adapter::Gradient1D::Gradient1D()'],['../class_m_r_1_1_adapter_1_1_jacobian.html#abfc482f7599168cc1421d8b83078cfca',1,'MR::Adapter::Jacobian::gradient1D()']]],
+  ['gradient1d',['gradient1D',['../class_m_r_1_1_adapter_1_1_jacobian.html#abfc482f7599168cc1421d8b83078cfca',1,'MR::Adapter::Jacobian::gradient1D()'],['../class_m_r_1_1_adapter_1_1_gradient1_d.html#aabb62e90f10d64c68a6303b04f675def',1,'MR::Adapter::Gradient1D::Gradient1D()']]],
   ['gradient1d',['Gradient1D',['../class_m_r_1_1_adapter_1_1_gradient1_d.html',1,'MR::Adapter']]],
   ['gradient1d_2eh',['gradient1D.h',['../gradient1_d_8h.html',1,'']]],
   ['gradient1d_3c_20im1imagetype_20_3e',['Gradient1D&lt; Im1ImageType &gt;',['../class_m_r_1_1_adapter_1_1_gradient1_d.html',1,'MR::Adapter']]],

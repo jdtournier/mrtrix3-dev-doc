@@ -6,6 +6,7 @@ var class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography =
     [ "crop_to_slab", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a17890c0f328abed77a49974255e92cc8", null ],
     [ "draw", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a294a2ddfbc877dc938d7bb4d212bf964", null ],
     [ "draw_colourbars", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a2a9071b0da6d8158b4c2a735aa7687ee", null ],
+    [ "dropEvent", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a1b46a6e47c28174e28cbefe9597687a7", null ],
     [ "process_commandline_option", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a9d62ae5d6e83be63ac7c1a5aafba051e", null ],
     [ "update_scalar_options", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a73cbfcd15c0b82845974bae7dfc7a6cb", null ],
     [ "visible_number_colourbars", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a471841e16d3d0239b57ffce2990db5c2", null ],

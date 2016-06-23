@@ -4,6 +4,7 @@ var class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i =
     [ "~ROI", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html#a02995701794d8ad7a6c9565ba04c31db", null ],
     [ "add_commandline_options", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html#a9946f9929a5e049b94ebdd0b7c00d2ba", null ],
     [ "draw", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html#a594b7595b45dcd26d18741b317b43b9d", null ],
+    [ "dropEvent", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html#aab906934d540da9ac352da7fad387a57", null ],
     [ "get_cursor", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html#ae907bf380f577bd558c759f26a426626", null ],
     [ "load", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html#aad8932dde37c2cb433aa7c1af6e32807", null ],
     [ "mouse_move_event", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html#ac88beb4212b6180f3a10d3b5b24f97f1", null ],

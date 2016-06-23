@@ -1,5 +1,16 @@
 var NAVTREEINDEX18 =
 {
+"class_m_r_1_1_image_i_o_1_1_base.html#ada62ce3aa56fb21c950306abd4b0cbf4":[11,0,0,9,0,15],
+"class_m_r_1_1_image_i_o_1_1_base.html#add5449bb84ab6a8123f70b65b8ee5716":[11,0,0,9,0,3],
+"class_m_r_1_1_image_i_o_1_1_base.html#adf7cc447365a2aac1462367659cb15d0":[11,0,0,9,0,11],
+"class_m_r_1_1_image_i_o_1_1_base.html#aefa99be437576e1e4f92e9b635b6f664":[11,0,0,9,0,19],
+"class_m_r_1_1_image_i_o_1_1_default.html":[11,0,0,9,1],
+"class_m_r_1_1_image_i_o_1_1_default.html#a518e4b06f06a1c735e653d4c55631fbc":[11,0,0,9,1,7],
+"class_m_r_1_1_image_i_o_1_1_default.html#a7382ac110176cb9e7d1c1542242a30b7":[11,0,0,9,1,5],
+"class_m_r_1_1_image_i_o_1_1_default.html#a7f28d0aaf4c3d62a3757fb91f562ecff":[11,0,0,9,1,0],
+"class_m_r_1_1_image_i_o_1_1_default.html#aa5f1548d90964995ebd0988f5f4b7407":[11,0,0,9,1,2],
+"class_m_r_1_1_image_i_o_1_1_default.html#ab0c285919189eb80e2d1108046de6909":[11,0,0,9,1,4],
+"class_m_r_1_1_image_i_o_1_1_default.html#ac772d4ed5797af95523de2676ecd5122":[11,0,0,9,1,6],
 "class_m_r_1_1_image_i_o_1_1_default.html#aebfe284d0457856d7277021c9c04ed9d":[11,0,0,9,1,3],
 "class_m_r_1_1_image_i_o_1_1_default.html#afe723564d2e9e24ab3771e94b9cd4653":[11,0,0,9,1,8],
 "class_m_r_1_1_image_i_o_1_1_default.html#afec91f2a450f5140783642b488dcd4e0":[11,0,0,9,1,1],
@@ -238,16 +249,5 @@ var NAVTREEINDEX18 =
 "class_m_r_1_1_math_1_1_gradient_descent.html#a8a4eb067614e6ae7e70271c8f88418b4":[9,14,0,32],
 "class_m_r_1_1_math_1_1_gradient_descent.html#a8ba9bdc2dd7d510ebf7914e451d53d74":[9,14,0,20],
 "class_m_r_1_1_math_1_1_gradient_descent.html#a8cffecc2973c2533e005843b22c4ca85":[9,14,0,12],
-"class_m_r_1_1_math_1_1_gradient_descent.html#a94641ec5011ec9491c938e1a3bbb492f":[9,14,0,9],
-"class_m_r_1_1_math_1_1_gradient_descent.html#a9d6f59f4197120d8dc040c4126df99ef":[9,14,0,5],
-"class_m_r_1_1_math_1_1_gradient_descent.html#aa1b54a29ca6ce9caabe27fcec7b815a0":[9,14,0,19],
-"class_m_r_1_1_math_1_1_gradient_descent.html#aa23e8f40b1c66a71c11c0f31867b504a":[9,14,0,17],
-"class_m_r_1_1_math_1_1_gradient_descent.html#aab7757b4024663eb8cd2d72bbca12d6a":[9,14,0,28],
-"class_m_r_1_1_math_1_1_gradient_descent.html#ab89c094f1c4d6010b37d42bb802e0b74":[9,14,0,1],
-"class_m_r_1_1_math_1_1_gradient_descent.html#ac49aa921348f7e7ed30d022070d91296":[9,14,0,11],
-"class_m_r_1_1_math_1_1_gradient_descent.html#ad05d23200002cd17501df0bce4777078":[9,14,0,24],
-"class_m_r_1_1_math_1_1_gradient_descent.html#ae781de2d4a7e7d7179183f3e7db1f8eb":[9,14,0,10],
-"class_m_r_1_1_math_1_1_gradient_descent.html#af97fea091f04614337b8e9aade652d5c":[9,14,0,33],
-"class_m_r_1_1_math_1_1_gradient_descent_b_b.html":[9,14,2],
-"class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a054392ed91057a222e795bd972fc3865":[9,14,2,16]
+"class_m_r_1_1_math_1_1_gradient_descent.html#a94641ec5011ec9491c938e1a3bbb492f":[9,14,0,9]
 };

@@ -1,5 +1,16 @@
 var NAVTREEINDEX21 =
 {
+"class_m_r_1_1_registration_1_1_metric_1_1_params.html#af9791a31774fae38cd157667a871fcd0":[11,0,0,14,0,17,20],
+"class_m_r_1_1_registration_1_1_metric_1_1_params.html#afb72256b1a6d391e383514ca5568ab0a":[11,0,0,14,0,17,18],
+"class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel.html":[11,0,0,14,0,18],
+"class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel.html#a0997b11af42b557da5267fe60abb2b71":[11,0,0,14,0,18,6],
+"class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel.html#a17289e7e026d142c32988ea9d267b23f":[11,0,0,14,0,18,14],
+"class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel.html#a17d94a54569bfab42ec69a9cd73b5fbf":[11,0,0,14,0,18,4],
+"class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel.html#a37b0b5922b2638b961acbbbcc6a930e3":[11,0,0,14,0,18,10],
+"class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel.html#a4310d5787541212a35bbec6531002b45":[11,0,0,14,0,18,13],
+"class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel.html#a607bfdcd6930ca76029726dd44819126":[11,0,0,14,0,18,2],
+"class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel.html#a801df4d0890d94d087e1bb83cb08437b":[11,0,0,14,0,18,11],
+"class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel.html#a9e04100dddfbefb27b0a061b51976a4a":[11,0,0,14,0,18,5],
 "class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel.html#aa306f9f3e7e3d652cf986a058b10efbe":[11,0,0,14,0,18,9],
 "class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel.html#aa37ff02922b6aaeb372dc4e8e5b8a6be":[11,0,0,14,0,18,8],
 "class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel.html#ac4944b2462386e4c46828128ae002bdb":[11,0,0,14,0,18,3],
@@ -238,16 +249,5 @@ var NAVTREEINDEX21 =
 "class_m_r_1_1_stats_1_1_perm_test_1_1_permutation_stack.html#a358b57db0ef3ad2134dc0d4acd759709":[11,0,0,16,2,0,5],
 "class_m_r_1_1_stats_1_1_perm_test_1_1_permutation_stack.html#a4946a89d657c72e7a9853c605b9280ce":[11,0,0,16,2,0,4],
 "class_m_r_1_1_stats_1_1_perm_test_1_1_permutation_stack.html#a5f9e04b41e1fcc054304951fb308905e":[11,0,0,16,2,0,0],
-"class_m_r_1_1_stats_1_1_perm_test_1_1_permutation_stack.html#a7ae6884eadca849cdc239a8a77ddc633":[11,0,0,16,2,0,3],
-"class_m_r_1_1_stats_1_1_perm_test_1_1_permutation_stack.html#a91a33a9a0b105d730559496f860dca37":[11,0,0,16,2,0,2],
-"class_m_r_1_1_stats_1_1_perm_test_1_1_permutation_stack.html#ac71d5af6516c0d517217d9a01c5cf85d":[11,0,0,16,2,0,1],
-"class_m_r_1_1_stats_1_1_perm_test_1_1_permutation_stack.html#ad6ec7f9d85f8211bcbddb9450f5999ff":[11,0,0,16,2,0,6],
-"class_m_r_1_1_stats_1_1_perm_test_1_1_pre_processor.html":[11,0,0,16,2,1],
-"class_m_r_1_1_stats_1_1_perm_test_1_1_pre_processor.html#a0223b8255f4ca0b770f8fe5b7abe4ce8":[11,0,0,16,2,1,7],
-"class_m_r_1_1_stats_1_1_perm_test_1_1_pre_processor.html#a0cec891a1a4d890fcd73a314f90bc0f5":[11,0,0,16,2,1,10],
-"class_m_r_1_1_stats_1_1_perm_test_1_1_pre_processor.html#a2d082bbf85376c7928a8cf224ae3314a":[11,0,0,16,2,1,8],
-"class_m_r_1_1_stats_1_1_perm_test_1_1_pre_processor.html#a2fe4b919a49c12ab4df45fe1e0cfcbcf":[11,0,0,16,2,1,1],
-"class_m_r_1_1_stats_1_1_perm_test_1_1_pre_processor.html#a4c1b728af9b5473682abb1c4f3fb3fba":[11,0,0,16,2,1,3],
-"class_m_r_1_1_stats_1_1_perm_test_1_1_pre_processor.html#a602801bb22934e3b4bef6563572592f0":[11,0,0,16,2,1,9],
-"class_m_r_1_1_stats_1_1_perm_test_1_1_pre_processor.html#a69a619d740b79bc767a9e14f6a6a1b5d":[11,0,0,16,2,1,4]
+"class_m_r_1_1_stats_1_1_perm_test_1_1_permutation_stack.html#a7ae6884eadca849cdc239a8a77ddc633":[11,0,0,16,2,0,3]
 };

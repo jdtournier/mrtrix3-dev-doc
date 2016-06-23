@@ -7,6 +7,7 @@ var class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_overlay =
     [ "draw", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_overlay.html#a3328b50a8ad512369e1950a98320b8a2", null ],
     [ "draw_colourbars", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_overlay.html#aef231f106cebb7383ee16843ccd06526", null ],
     [ "draw_tool_labels", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_overlay.html#ab15672451ba5f9842f6f6e9719bfc8c3", null ],
+    [ "dropEvent", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_overlay.html#a5384849354d1d5735fec08c14724df66", null ],
     [ "process_commandline_option", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_overlay.html#a693f8f47bcd590479f9a0c5292adfd2f", null ],
     [ "render_image_colourbar", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_overlay.html#a732457577037b26a246db3a918bcc0ec", null ],
     [ "reset_colourmap", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_overlay.html#ab2e4f82b1d6e6c88ce668db714b45038", null ],
