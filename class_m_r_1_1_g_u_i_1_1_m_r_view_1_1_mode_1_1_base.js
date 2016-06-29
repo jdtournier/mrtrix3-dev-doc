@@ -47,7 +47,7 @@ var class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_base =
     [ "setup_projection", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_base.html#aaad4e89f7b88d75d5aa89c78d06532cd", null ],
     [ "slice", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_base.html#a5080cafe5ebfc498e6651aad9475ede4", null ],
     [ "slice", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_base.html#ad8e542a122fd104f99c5e013a772d148", null ],
-    [ "slice_move_event", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_base.html#ad94b8f83d43eaa17a351192a28f7bb31", null ],
+    [ "slice_move_event", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_base.html#a14e4d3c3ddbdbce7f6a05bf2e146a71a", null ],
     [ "snap_to_image", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_base.html#afcb9ab68ec2d129cefa6afc7c1e0885c", null ],
     [ "target", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_base.html#a0ec43bf7fb1514f4f4cc801586ae3c5e", null ],
     [ "tilt_event", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_base.html#a5764ae18717b6ba74668cda102fe91bd", null ],

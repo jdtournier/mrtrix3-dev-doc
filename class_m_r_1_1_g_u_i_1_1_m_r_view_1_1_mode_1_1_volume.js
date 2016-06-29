@@ -13,7 +13,7 @@ var class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume =
     [ "panthrough_event", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume.html#a701c3967a283a509d73332f80c140d5f", null ],
     [ "rotate_clip_planes", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume.html#a8a5ab6ffeeefd091932bd68a6aaf87f7", null ],
     [ "rotate_event", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume.html#abc661a79fdb88f508ffba3906ef5f7c6", null ],
-    [ "slice_move_event", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume.html#a4cb881b3168654142c724203291fdf77", null ],
+    [ "slice_move_event", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume.html#ad7c670b8d93f72840167e1b1de19e76b", null ],
     [ "tilt_event", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume.html#a62efdba63a2cca85a9111596f3066789", null ],
     [ "clip", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume.html#a69b2b2383b53fd08a96114d146369c49", null ],
     [ "depth_texture", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume.html#aaf9369ab0a4f7dff6ffbfe5046fa7824", null ],
