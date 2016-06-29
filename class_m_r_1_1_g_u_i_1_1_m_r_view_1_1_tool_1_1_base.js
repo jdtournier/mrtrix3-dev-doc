@@ -22,7 +22,7 @@ var class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base =
     [ "process_commandline_option", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base.html#a661490668c7ff17f8b83a94e7f407c8a", null ],
     [ "release_focus", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base.html#a434513090be96b9ebda6eb67afd75109", null ],
     [ "reset_event", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base.html#ae6c82d0bf0c61a89ac758cb45dbcb700", null ],
-    [ "sizeHint", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base.html#acf4244e2a98b1ea53f8b500e0d71e8e3", null ],
+    [ "sizeHint", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base.html#aa9736bc03c89de53511baad67c1411c7", null ],
     [ "update_cursor", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base.html#a49a6bc01fae5286d83e7e12a054a2270", null ],
     [ "visible_number_colourbars", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base.html#a0c8f34c205f35d062734c3444e05dd94", null ],
     [ "window", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base.html#aca5e1e3a05f73e4d2150d555a355fdd5", null ]
