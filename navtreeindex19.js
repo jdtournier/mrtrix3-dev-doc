@@ -1,5 +1,14 @@
 var NAVTREEINDEX19 =
 {
+"class_m_r_1_1_math_1_1_gradient_descent.html#a663f9874d4db2e3a01a250297ee1d406":[9,14,0,0],
+"class_m_r_1_1_math_1_1_gradient_descent.html#a691fe5989847f1195e3c97bd84d3daa5":[9,14,0,31],
+"class_m_r_1_1_math_1_1_gradient_descent.html#a6e14d45ef0d12abf84ee97b962eb154a":[9,14,0,13],
+"class_m_r_1_1_math_1_1_gradient_descent.html#a713c6a8bf633e71956ff969ae358564a":[9,14,0,7],
+"class_m_r_1_1_math_1_1_gradient_descent.html#a816f9e59328e0369906785ea2005d343":[9,14,0,8],
+"class_m_r_1_1_math_1_1_gradient_descent.html#a8a4eb067614e6ae7e70271c8f88418b4":[9,14,0,32],
+"class_m_r_1_1_math_1_1_gradient_descent.html#a8ba9bdc2dd7d510ebf7914e451d53d74":[9,14,0,20],
+"class_m_r_1_1_math_1_1_gradient_descent.html#a8cffecc2973c2533e005843b22c4ca85":[9,14,0,12],
+"class_m_r_1_1_math_1_1_gradient_descent.html#a94641ec5011ec9491c938e1a3bbb492f":[9,14,0,9],
 "class_m_r_1_1_math_1_1_gradient_descent.html#a9d6f59f4197120d8dc040c4126df99ef":[9,14,0,5],
 "class_m_r_1_1_math_1_1_gradient_descent.html#aa1b54a29ca6ce9caabe27fcec7b815a0":[9,14,0,19],
 "class_m_r_1_1_math_1_1_gradient_descent.html#aa23e8f40b1c66a71c11c0f31867b504a":[9,14,0,17],
@@ -240,14 +249,5 @@ var NAVTREEINDEX19 =
 "class_m_r_1_1_mesh_1_1_polygon.html":[11,0,0,12,2],
 "class_m_r_1_1_mesh_1_1_polygon.html#a2d30fd8d660d9314784a7a4c20e44850":[11,0,0,12,2,4],
 "class_m_r_1_1_mesh_1_1_polygon.html#a5f413cc417ecf1eac00dec06188f2657":[11,0,0,12,2,2],
-"class_m_r_1_1_mesh_1_1_polygon.html#a6bf3b9b305e995b082601dc62ccd478d":[11,0,0,12,2,3],
-"class_m_r_1_1_mesh_1_1_polygon.html#a836dbb963079531bbb9be59f29f4c713":[11,0,0,12,2,0],
-"class_m_r_1_1_mesh_1_1_polygon.html#a89c6468020ad4c2001202785250a424e":[11,0,0,12,2,5],
-"class_m_r_1_1_mesh_1_1_polygon.html#a92d81678d5b543b99cb55dd803a97a74":[11,0,0,12,2,7],
-"class_m_r_1_1_mesh_1_1_polygon.html#a966d40b29df32ad565b4e44f1987a4e5":[11,0,0,12,2,6],
-"class_m_r_1_1_mesh_1_1_polygon.html#ae2b6c6192987c166eafc0fee48519c7d":[11,0,0,12,2,1],
-"class_m_r_1_1_mesh_1_1_vox.html":[11,0,0,12,3],
-"class_m_r_1_1_mesh_1_1_vox.html#aac0af3fced862ef0cac89e010b830bab":[11,0,0,12,3,0],
-"class_m_r_1_1_min__mem__array.html":[11,0,0,55],
-"class_m_r_1_1_min__mem__array.html#a0c4d4d2ea7d79ffdb5a08947a2e8a678":[11,0,0,55,4]
+"class_m_r_1_1_mesh_1_1_polygon.html#a6bf3b9b305e995b082601dc62ccd478d":[11,0,0,12,2,3]
 };

@@ -1,5 +1,14 @@
 var NAVTREEINDEX22 =
 {
+"class_m_r_1_1_stats_1_1_cluster_1_1_cluster_size.html#a5d176e513969d6d092c8e1a3c20a47ed":[9,15,4,2],
+"class_m_r_1_1_stats_1_1_cluster_1_1_cluster_size.html#a7aa5cb8d7a44cdd82db54e955f0c194f":[9,15,4,1],
+"class_m_r_1_1_stats_1_1_cluster_1_1_cluster_size.html#a820b7347d0656ada24f818f50d856885":[9,15,4,0],
+"class_m_r_1_1_stats_1_1_perm_test_1_1_permutation_stack.html":[11,0,0,16,2,0],
+"class_m_r_1_1_stats_1_1_perm_test_1_1_permutation_stack.html#a2d25255470812a8d87ff91553a1f4c0c":[11,0,0,16,2,0,7],
+"class_m_r_1_1_stats_1_1_perm_test_1_1_permutation_stack.html#a358b57db0ef3ad2134dc0d4acd759709":[11,0,0,16,2,0,5],
+"class_m_r_1_1_stats_1_1_perm_test_1_1_permutation_stack.html#a4946a89d657c72e7a9853c605b9280ce":[11,0,0,16,2,0,4],
+"class_m_r_1_1_stats_1_1_perm_test_1_1_permutation_stack.html#a5f9e04b41e1fcc054304951fb308905e":[11,0,0,16,2,0,0],
+"class_m_r_1_1_stats_1_1_perm_test_1_1_permutation_stack.html#a7ae6884eadca849cdc239a8a77ddc633":[11,0,0,16,2,0,3],
 "class_m_r_1_1_stats_1_1_perm_test_1_1_permutation_stack.html#a91a33a9a0b105d730559496f860dca37":[11,0,0,16,2,0,2],
 "class_m_r_1_1_stats_1_1_perm_test_1_1_permutation_stack.html#ac71d5af6516c0d517217d9a01c5cf85d":[11,0,0,16,2,0,1],
 "class_m_r_1_1_stats_1_1_perm_test_1_1_permutation_stack.html#ad6ec7f9d85f8211bcbddb9450f5999ff":[11,0,0,16,2,0,6],
@@ -240,14 +249,5 @@ var NAVTREEINDEX22 =
 "datatype_8h_source.html":[12,0,0,15],
 "debug_8h.html":[12,0,0,16],
 "debug_8h_source.html":[12,0,0,16],
-"default_8h.html":[12,0,0,5,1],
-"default_8h_source.html":[12,0,0,5,1],
-"definitions_8h.html":[12,0,0,2,0,1],
-"definitions_8h.html#a0a286a9e7eb429f010c87cdaaea5a677":[12,0,0,2,0,1,6],
-"definitions_8h.html#a0cbfd81254be3c0e34a59669aeb0f4a9":[12,0,0,2,0,1,32],
-"definitions_8h.html#a107f28162a1d43ed5824d04566d871ce":[12,0,0,2,0,1,23],
-"definitions_8h.html#a131b22ec8667b41f642d47bd3cc36afa":[12,0,0,2,0,1,4],
-"definitions_8h.html#a1828210adc510a510ed501f3bfea69f2":[12,0,0,2,0,1,35],
-"definitions_8h.html#a24ea380ca2baeb6d249046dfc2b12ad8":[12,0,0,2,0,1,21],
-"definitions_8h.html#a280d6ecf3c71532fe90754eef9600efe":[12,0,0,2,0,1,0]
+"default_8h.html":[12,0,0,5,1]
 };

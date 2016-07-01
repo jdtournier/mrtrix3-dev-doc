@@ -1,5 +1,12 @@
 var NAVTREEINDEX31 =
 {
+"stride_8h_source.html":[12,0,0,27],
+"struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle_end.html":[11,0,0,3,3,4,6],
+"struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle_end.html#aae6922859552725541d5d1880d024ab8":[11,0,0,3,3,4,6,0],
+"struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle_end.html#acb22eef95e633ca27e7d41320b34f599":[11,0,0,3,3,4,6,1],
+"struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle_end.html#ad488a45c7cfe1d0b91bfc989936a0180":[11,0,0,3,3,4,6,3],
+"struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle_end.html#af45bd607b17906318cb5c42960e085bb":[11,0,0,3,3,4,6,2],
+"struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_properties.html":[11,0,0,3,3,4,9],
 "struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_properties.html#a3bbc56791d0dd7130f92e29f9bae7c3a":[11,0,0,3,3,4,9,4],
 "struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_properties.html#a42c62687942a60c8f7b9a584ed1ea973":[11,0,0,3,3,4,9,2],
 "struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_properties.html#a51bbc8bc7413998867a1fc0f3c29aaed":[11,0,0,3,3,4,9,7],
@@ -242,12 +249,5 @@ var NAVTREEINDEX31 =
 "tensor_8h.html#add083a185458d0d1a2c396e364633aff":[12,0,1,1,9,0],
 "tensor_8h.html#addde273e8f7eefe211353ab850136efc":[12,0,1,1,9,3],
 "tensor_8h.html#ae03d39c614c4b4a77b116dda393b4542":[12,0,1,1,9,2],
-"tensor_8h.html#afeb9bd295d28d3fbfe2f6768c893953a":[12,0,1,1,9,1],
-"tensor_8h_source.html":[12,0,1,1,9],
-"tensor__det_8h.html":[12,0,1,1,2,1,7],
-"tensor__det_8h_source.html":[12,0,1,1,2,1,7],
-"tensor__prob_8h.html":[12,0,1,1,2,1,8],
-"tensor__prob_8h_source.html":[12,0,1,1,2,1,8],
-"tfce_8h.html":[12,0,1,4,3],
-"tfce_8h.html#a9fc9e1e0d708a8d62128ea1e522e6464":[12,0,1,4,3,0]
+"tensor_8h.html#afeb9bd295d28d3fbfe2f6768c893953a":[12,0,1,1,9,1]
 };

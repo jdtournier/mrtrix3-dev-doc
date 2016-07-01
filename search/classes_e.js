@@ -3,6 +3,7 @@ var searchData=
   ['nameparser',['NameParser',['../class_m_r_1_1_file_1_1_name_parser.html',1,'MR::File']]],
   ['nccprecomputefunctormasked_5fdebug',['NCCPrecomputeFunctorMasked_DEBUG',['../struct_m_r_1_1_registration_1_1_metric_1_1_n_c_c_precompute_functor_masked___d_e_b_u_g.html',1,'MR::Registration::Metric']]],
   ['nccprecomputefunctormasked_5fnaive',['NCCPrecomputeFunctorMasked_Naive',['../struct_m_r_1_1_registration_1_1_metric_1_1_n_c_c_precompute_functor_masked___naive.html',1,'MR::Registration::Metric']]],
+  ['ndimproxy',['NDimProxy',['../class_m_r_1_1_header_1_1_n_dim_proxy.html',1,'MR::Header']]],
   ['nearest',['Nearest',['../class_m_r_1_1_interp_1_1_nearest.html',1,'MR::Interp']]],
   ['nearest_3c_20mr_3a_3aimage_3c_20float_20_3e_20_3e',['Nearest&lt; MR::Image&lt; float &gt; &gt;',['../class_m_r_1_1_interp_1_1_nearest.html',1,'MR::Interp']]],
   ['nearest_3c_20mr_3a_3amr_3a_3agui_3a_3amrview_3a_3aimage_3c_20cfloat_20_3e_20_3e',['Nearest&lt; MR::MR::GUI::MRView::Image&lt; cfloat &gt; &gt;',['../class_m_r_1_1_interp_1_1_nearest.html',1,'MR::Interp']]],

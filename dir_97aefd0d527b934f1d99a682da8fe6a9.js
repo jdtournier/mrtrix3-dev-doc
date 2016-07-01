@@ -26,6 +26,7 @@ var dir_97aefd0d527b934f1d99a682da8fe6a9 =
     [ "exception.h", "exception_8h.html", "exception_8h" ],
     [ "hash_map.h", "hash__map_8h.html", "hash__map_8h" ],
     [ "header.h", "header_8h.html", [
+      [ "NDimProxy", "class_m_r_1_1_header_1_1_n_dim_proxy.html", "class_m_r_1_1_header_1_1_n_dim_proxy" ],
       [ "DataTypeProxy", "class_m_r_1_1_header_1_1_data_type_proxy.html", "class_m_r_1_1_header_1_1_data_type_proxy" ]
     ] ],
     [ "image.h", "image_8h.html", null ],

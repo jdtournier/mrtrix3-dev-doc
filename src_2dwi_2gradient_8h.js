@@ -12,6 +12,8 @@ var src_2dwi_2gradient_8h =
     [ "lmax_for_directions", "src_2dwi_2gradient_8h.html#a240213d778050d4d080bbb899449b2a0", null ],
     [ "load_bvecs_bvals", "src_2dwi_2gradient_8h.html#a8b23c2a3f08d1030c83ae584189ec943", null ],
     [ "normalise_grad", "src_2dwi_2gradient_8h.html#a1b3dd0303c6aea48f92eaec9bdb5ef5b", null ],
+    [ "parse_DW_scheme", "src_2dwi_2gradient_8h.html#a3d1753b9a40cfffa51960c8429031266", null ],
     [ "save_bvecs_bvals", "src_2dwi_2gradient_8h.html#a196b806510481ab211d13bd09bea0440", null ],
-    [ "scale_bvalue_by_G_squared", "src_2dwi_2gradient_8h.html#a03f7a11472c7a5c02c7819c522fc75f5", null ]
+    [ "scale_bvalue_by_G_squared", "src_2dwi_2gradient_8h.html#a03f7a11472c7a5c02c7819c522fc75f5", null ],
+    [ "set_DW_scheme", "src_2dwi_2gradient_8h.html#a1c1d82920357a15ebe6f05844f21dd71", null ]
 ];

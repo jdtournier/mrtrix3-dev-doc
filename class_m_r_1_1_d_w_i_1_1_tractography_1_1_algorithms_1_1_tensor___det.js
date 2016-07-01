@@ -9,7 +9,7 @@ var class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_tensor___det =
     [ "init", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_tensor___det.html#a0f4261757019c7fdab42c720fa4f8e6a", null ],
     [ "next", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_tensor___det.html#af54f1ef36bbde91c084dc2ceb764eab7", null ],
     [ "dt", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_tensor___det.html#a9384e795313091c74ffdd95e81c605c2", null ],
-    [ "eig", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_tensor___det.html#a58540e0f7e949961d9f25c7ef948225c", null ],
+    [ "eig", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_tensor___det.html#a6aa7d8da6fdc2088379e36eda86bdda3", null ],
     [ "M", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_tensor___det.html#a28b2fd8dca4215d10b28a9719c39c627", null ],
     [ "S", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_tensor___det.html#a7dfb9ab9111611c56a4f3ebdc143ce66", null ],
     [ "source", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_tensor___det.html#a37e5a9567d5e3e8e640937173b0bf5ec", null ]

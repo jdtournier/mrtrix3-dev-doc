@@ -35,7 +35,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-32-g01c8f960</div>
+   <div id="projectbrief">Version 0.3.15-37-g43459857</div>
   </td>
  </tr>
  </tbody>
@@ -167,6 +167,13 @@ Functions</h2></td></tr>
 <tr class="memitem:a03f7a11472c7a5c02c7819c522fc75f5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i.html#a03f7a11472c7a5c02c7819c522fc75f5">scale_bvalue_by_G_squared</a> (MatrixType &amp;G)</td></tr>
 <tr class="memdesc:a03f7a11472c7a5c02c7819c522fc75f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">scale b-values by square of gradient norm  <a href="#a03f7a11472c7a5c02c7819c522fc75f5">More...</a><br /></td></tr>
 <tr class="separator:a03f7a11472c7a5c02c7819c522fc75f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c1d82920357a15ebe6f05844f21dd71"><td class="memTemplParams" colspan="2">template&lt;class MatrixType &gt; </td></tr>
+<tr class="memitem:a1c1d82920357a15ebe6f05844f21dd71"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i.html#a1c1d82920357a15ebe6f05844f21dd71">set_DW_scheme</a> (<a class="el" href="class_m_r_1_1_header.html">Header</a> &amp;header, const MatrixType &amp;G)</td></tr>
+<tr class="memdesc:a1c1d82920357a15ebe6f05844f21dd71"><td class="mdescLeft">&#160;</td><td class="mdescRight">store the DW gradient encoding matrix in a header  <a href="#a1c1d82920357a15ebe6f05844f21dd71">More...</a><br /></td></tr>
+<tr class="separator:a1c1d82920357a15ebe6f05844f21dd71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d1753b9a40cfffa51960c8429031266"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i.html#a3d1753b9a40cfffa51960c8429031266">parse_DW_scheme</a> (const <a class="el" href="class_m_r_1_1_header.html">Header</a> &amp;header)</td></tr>
+<tr class="memdesc:a3d1753b9a40cfffa51960c8429031266"><td class="mdescLeft">&#160;</td><td class="mdescRight">parse the DW gradient encoding matrix from a header  <a href="#a3d1753b9a40cfffa51960c8429031266">More...</a><br /></td></tr>
+<tr class="separator:a3d1753b9a40cfffa51960c8429031266"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0aea8cd6b152634a184fe4b969e9d9a"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i.html#aa0aea8cd6b152634a184fe4b969e9d9a">get_DW_scheme</a> (const <a class="el" href="class_m_r_1_1_header.html">Header</a> &amp;header)</td></tr>
 <tr class="memdesc:aa0aea8cd6b152634a184fe4b969e9d9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the DW gradient encoding matrix  <a href="#aa0aea8cd6b152634a184fe4b969e9d9a">More...</a><br /></td></tr>
 <tr class="separator:aa0aea8cd6b152634a184fe4b969e9d9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -227,7 +234,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="shells_8h_source.html#l00062">62</a> of file <a class="el" href="shells_8h_source.html">shells.h</a>.</p>
+<p>Definition at line <a class="el" href="shells_8h_source.html#l00060">60</a> of file <a class="el" href="shells_8h_source.html">shells.h</a>.</p>
 
 </div>
 </div>
@@ -267,7 +274,7 @@ template&lt;class MatrixType &gt; </div>
 
 <p>check that the DW scheme matches the <a class="el" href="namespace_m_r_1_1_d_w_i.html">DWI</a> data in <em>header</em> </p>
 
-<p>Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00148">148</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
+<p>Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00181">181</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
 
 </div>
 </div>
@@ -307,7 +314,7 @@ template&lt;class MatrixType &gt; </div>
 <p>Computes the matrix mapping SH coefficients to the directions specified in <em>directions</em> (in spherical coordinates), up to a given lmax. By default, this is computed from the number of DW directions, up to a maximum value of <em>default_lmax</em> (defaults to 8), or the value specified using c -lmax command-line option (if <em>lmax_from_command_line</em> is true). If the resulting DW scheme is ill-posed (condition number less than 10), lmax will be reduced until it becomes sufficiently well conditioned (unless overridden on the command-line).</p>
 <p>Note that this uses <a class="el" href="namespace_m_r_1_1_d_w_i.html#a9ab90e27c863a6d7e6960a8987703301" title="get the DW encoding matrix as per get_DW_scheme(), and check that it matches the DW header in header ...">get_valid_DW_scheme()</a> to get the DW_scheme, so will check for the -grad option as required. </p>
 
-<p>Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00189">189</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
+<p>Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00222">222</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
 
 </div>
 </div>
@@ -337,7 +344,7 @@ template&lt;class MatrixType &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00088">88</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
+<p>Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00087">87</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
 
 </div>
 </div>
@@ -484,7 +491,7 @@ template&lt;class MatrixType , class IndexVectorType &gt; </div>
 
 <p>convert the DW encoding matrix in <em>grad</em> into a azimuth/elevation direction set, using only the <a class="el" href="namespace_m_r_1_1_d_w_i.html">DWI</a> volumes as per <em>dwi</em> </p>
 
-<p>Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00065">65</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
+<p>Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00064">64</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
 
 </div>
 </div>
@@ -651,7 +658,7 @@ template&lt;typename T , class MatrixType &gt; </div>
 <p>get the maximum spherical harmonic order given a set of directions </p>
 <p>Computes the maximum spherical harmonic order <em>lmax</em> given a set of directions on the sphere. This may be less than the value requested at the command-line, or that calculated from the number of directions, if the resulting transform matrix is ill-posed. </p>
 
-<p>Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00250">250</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
+<p>Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00283">283</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
 
 </div>
 </div>
@@ -708,7 +715,26 @@ template&lt;class MatrixType &gt; </div>
 
 <p>ensure each non-b=0 gradient vector is normalised to unit amplitude </p>
 
-<p>Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00048">48</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
+<p>Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00047">47</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3d1753b9a40cfffa51960c8429031266"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::MatrixXd MR::DWI::parse_DW_scheme </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_m_r_1_1_header.html">Header</a> &amp;&#160;</td>
+          <td class="paramname"><em>header</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>parse the DW gradient encoding matrix from a header </p>
+<p>extract the DW gradient encoding matrix stored in the <em>header</em> if one is present. This is expected to be stored in the <a class="el" href="class_m_r_1_1_header.html#ab031cb996272a821a73a2d7444096888" title="get/set generic key/value text attributes ">Header::keyval()</a> structure, under the key 'dw_scheme'. </p>
 
 </div>
 </div>
@@ -765,7 +791,40 @@ template&lt;class MatrixType &gt; </div>
 
 <p>scale b-values by square of gradient norm </p>
 
-<p>Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00125">125</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
+<p>Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00124">124</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1c1d82920357a15ebe6f05844f21dd71"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class MatrixType &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::DWI::set_DW_scheme </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_m_r_1_1_header.html">Header</a> &amp;&#160;</td>
+          <td class="paramname"><em>header</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const MatrixType &amp;&#160;</td>
+          <td class="paramname"><em>G</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>store the DW gradient encoding matrix in a header </p>
+<p>this will store the DW gradient encoding matrix into the <a class="el" href="class_m_r_1_1_header.html#ab031cb996272a821a73a2d7444096888" title="get/set generic key/value text attributes ">Header::keyval()</a> structure of <em>header</em>, under the key 'dw_scheme'. </p>
+
+<p>Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00140">140</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
 
 </div>
 </div>
@@ -872,7 +931,7 @@ template&lt;class VectorType &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_d_w_i.html">DWI</a></li>
-    <li class="footer">Generated on Wed Jun 29 2016 12:31:33 for MRtrix by
+    <li class="footer">Generated on Fri Jul 1 2016 21:10:46 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

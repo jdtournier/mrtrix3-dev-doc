@@ -14,7 +14,7 @@ var searchData=
   ['parse',['parse',['../class_m_r_1_1_data_type.html#a68b3de8b8bb1812066cdb082ff3f33c7',1,'MR::DataType::parse()'],['../class_m_r_1_1_file_1_1_dicom_1_1_c_s_a_entry.html#a2c8aa7467e6216b0563e39f85c3d0843',1,'MR::File::Dicom::CSAEntry::parse()'],['../class_m_r_1_1_file_1_1_name_parser.html#a9fa1b9f07859f1418d75a9c08eaf9ae4',1,'MR::File::NameParser::parse()'],['../group___cmd_parse.html#gaf1a74841efd2f897d660092ce08607de',1,'MR::App::parse()']]],
   ['parse_5faxes',['parse_axes',['../namespace_m_r_1_1_formats.html#a8e4d08839075d392155197aa85c55ee9',1,'MR::Formats']]],
   ['parse_5fcmdline_5foptions',['parse_cmdline_options',['../class_m_r_1_1_d_w_i_1_1_s_deconv_1_1_c_s_d_1_1_shared.html#a1f1122603d030f60230b1b0db073e841',1,'MR::DWI::SDeconv::CSD::Shared::parse_cmdline_options()'],['../class_m_r_1_1_d_w_i_1_1_s_deconv_1_1_m_s_m_t___c_s_d_1_1_shared.html#a2447097dffe870eaa291a6b9421babb9',1,'MR::DWI::SDeconv::MSMT_CSD::Shared::parse_cmdline_options()']]],
-  ['parse_5fdw_5fscheme',['parse_DW_scheme',['../class_m_r_1_1_header.html#a497b5c7c80fa49b1a688a65287803ed5',1,'MR::Header']]],
+  ['parse_5fdw_5fscheme',['parse_DW_scheme',['../namespace_m_r_1_1_d_w_i.html#a3d1753b9a40cfffa51960c8429031266',1,'MR::DWI']]],
   ['parse_5ffloats',['parse_floats',['../namespace_m_r.html#aafb8ec89937ad83da7da844ad666b1a7',1,'MR']]],
   ['parse_5fgeneral_5finit_5foptions',['parse_general_init_options',['../namespace_m_r_1_1_registration.html#a6fa8bdf2f553f88a839a6704258848c1',1,'MR::Registration']]],
   ['parse_5fints',['parse_ints',['../namespace_m_r.html#aa8585886b506d23996a75e690f12631c',1,'MR']]],

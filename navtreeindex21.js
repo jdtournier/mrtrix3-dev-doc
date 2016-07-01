@@ -1,5 +1,14 @@
 var NAVTREEINDEX21 =
 {
+"class_m_r_1_1_registration_1_1_metric_1_1_params.html#acd895c46b37adfd21173a064e80a9ecb":[11,0,0,14,0,17,24],
+"class_m_r_1_1_registration_1_1_metric_1_1_params.html#acf9377087e4e0dad6172463c0ee3e624":[11,0,0,14,0,17,14],
+"class_m_r_1_1_registration_1_1_metric_1_1_params.html#ad90a0ed8862972fbe6ac515e54a1ea09":[11,0,0,14,0,17,25],
+"class_m_r_1_1_registration_1_1_metric_1_1_params.html#ade074c6a31d3fce7b3797c10af04d3b3":[11,0,0,14,0,17,5],
+"class_m_r_1_1_registration_1_1_metric_1_1_params.html#ae3e447fb901d8c076b35068c5640f79b":[11,0,0,14,0,17,17],
+"class_m_r_1_1_registration_1_1_metric_1_1_params.html#aed0843deaf57717f86c5fd805d46ba36":[11,0,0,14,0,17,10],
+"class_m_r_1_1_registration_1_1_metric_1_1_params.html#aeec4cfbd1176c44cce98c78998e30e21":[11,0,0,14,0,17,37],
+"class_m_r_1_1_registration_1_1_metric_1_1_params.html#aefc89cb319c2504fca59c2b59313d0ad":[11,0,0,14,0,17,30],
+"class_m_r_1_1_registration_1_1_metric_1_1_params.html#af79aeced0ea9075ad3a0da44319ed253":[11,0,0,14,0,17,9],
 "class_m_r_1_1_registration_1_1_metric_1_1_params.html#af9791a31774fae38cd157667a871fcd0":[11,0,0,14,0,17,20],
 "class_m_r_1_1_registration_1_1_metric_1_1_params.html#afb72256b1a6d391e383514ca5568ab0a":[11,0,0,14,0,17,18],
 "class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel.html":[11,0,0,14,0,18],
@@ -240,14 +249,5 @@ var NAVTREEINDEX21 =
 "class_m_r_1_1_stats_1_1_calibrate_histogram.html#ac9341b5fa5bc2e14c0c9539e52da3ce4":[11,0,0,16,4,4],
 "class_m_r_1_1_stats_1_1_calibrate_histogram.html#ae165bda0a154723f321fd3fdb0e666a6":[11,0,0,16,4,3],
 "class_m_r_1_1_stats_1_1_cluster_1_1_cluster_size.html":[9,15,4],
-"class_m_r_1_1_stats_1_1_cluster_1_1_cluster_size.html#a000f113bebf405e54d7f3739d7fd35ef":[9,15,4,3],
-"class_m_r_1_1_stats_1_1_cluster_1_1_cluster_size.html#a5d176e513969d6d092c8e1a3c20a47ed":[9,15,4,2],
-"class_m_r_1_1_stats_1_1_cluster_1_1_cluster_size.html#a7aa5cb8d7a44cdd82db54e955f0c194f":[9,15,4,1],
-"class_m_r_1_1_stats_1_1_cluster_1_1_cluster_size.html#a820b7347d0656ada24f818f50d856885":[9,15,4,0],
-"class_m_r_1_1_stats_1_1_perm_test_1_1_permutation_stack.html":[11,0,0,16,2,0],
-"class_m_r_1_1_stats_1_1_perm_test_1_1_permutation_stack.html#a2d25255470812a8d87ff91553a1f4c0c":[11,0,0,16,2,0,7],
-"class_m_r_1_1_stats_1_1_perm_test_1_1_permutation_stack.html#a358b57db0ef3ad2134dc0d4acd759709":[11,0,0,16,2,0,5],
-"class_m_r_1_1_stats_1_1_perm_test_1_1_permutation_stack.html#a4946a89d657c72e7a9853c605b9280ce":[11,0,0,16,2,0,4],
-"class_m_r_1_1_stats_1_1_perm_test_1_1_permutation_stack.html#a5f9e04b41e1fcc054304951fb308905e":[11,0,0,16,2,0,0],
-"class_m_r_1_1_stats_1_1_perm_test_1_1_permutation_stack.html#a7ae6884eadca849cdc239a8a77ddc633":[11,0,0,16,2,0,3]
+"class_m_r_1_1_stats_1_1_cluster_1_1_cluster_size.html#a000f113bebf405e54d7f3739d7fd35ef":[9,15,4,3]
 };

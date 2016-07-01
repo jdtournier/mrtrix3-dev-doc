@@ -37,7 +37,7 @@ var searchData=
   ['edit_5fmode_5fgroup',['edit_mode_group',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html#a508c606f86d799498f22fd1608cc6b41',1,'MR::GUI::MRView::Tool::ROI']]],
   ['eext',['eext',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_external_energy_computer.html#a17d5d4182879522fdc22da72a0c094eb',1,'MR::DWI::Tractography::GT::ExternalEnergyComputer']]],
   ['eexttot',['EextTot',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_stats.html#ae72b22571420f4f169f4e435c1c6203b',1,'MR::DWI::Tractography::GT::Stats']]],
-  ['eig',['eig',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_tensor___det.html#a58540e0f7e949961d9f25c7ef948225c',1,'MR::DWI::Tractography::Algorithms::Tensor_Det']]],
+  ['eig',['eig',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_tensor___det.html#a6aa7d8da6fdc2088379e36eda86bdda3',1,'MR::DWI::Tractography::Algorithms::Tensor_Det']]],
   ['einttot',['EintTot',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_stats.html#a86e4f4edb036f2cb69b5dfa37e3e0479',1,'MR::DWI::Tractography::GT::Stats']]],
   ['el',['el',['../calibrator_8h.html#aed7ba788c50defe48678c3e5359c6ceb',1,'calibrator.h']]],
   ['electrostatic_5frepulsion_5f300_5fdata',['electrostatic_repulsion_300_data',['../namespace_m_r_1_1_d_w_i_1_1_directions.html#a09d8c94be57b83eb01acd03a0b1f7bed',1,'MR::DWI::Directions']]],

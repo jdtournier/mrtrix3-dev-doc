@@ -64,7 +64,7 @@ var searchData=
   ['editing_2eh',['editing.h',['../editing_8h.html',1,'']]],
   ['eext',['eext',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_external_energy_computer.html#a17d5d4182879522fdc22da72a0c094eb',1,'MR::DWI::Tractography::GT::ExternalEnergyComputer']]],
   ['eexttot',['EextTot',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_stats.html#ae72b22571420f4f169f4e435c1c6203b',1,'MR::DWI::Tractography::GT::Stats']]],
-  ['eig',['eig',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_tensor___det.html#a58540e0f7e949961d9f25c7ef948225c',1,'MR::DWI::Tractography::Algorithms::Tensor_Det']]],
+  ['eig',['eig',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_tensor___det.html#a6aa7d8da6fdc2088379e36eda86bdda3',1,'MR::DWI::Tractography::Algorithms::Tensor_Det']]],
   ['eigen',['Eigen',['../namespace_eigen.html',1,'']]],
   ['eigen_5fdont_5fparallelize',['EIGEN_DONT_PARALLELIZE',['../src_2gui_2mrview_2tool_2connectome_2types_8h.html#a78868c5bb48a430b0cf4247122dbc73b',1,'types.h']]],
   ['einttot',['EintTot',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_stats.html#a86e4f4edb036f2cb69b5dfa37e3e0479',1,'MR::DWI::Tractography::GT::Stats']]],
