@@ -25,7 +25,7 @@ var searchData=
   ['twi_5fstats_2eh',['twi_stats.h',['../twi__stats_8h.html',1,'']]],
   ['type_2eh',['type.h',['../type_8h.html',1,'']]],
   ['types_2eh',['types.h',['../src_2gui_2mrview_2tool_2connectome_2types_8h.html',1,'']]],
-  ['types_2eh',['types.h',['../src_2dwi_2tractography_2_s_i_f_t_2types_8h.html',1,'']]],
+  ['types_2eh',['types.h',['../lib_2types_8h.html',1,'']]],
   ['types_2eh',['types.h',['../src_2dwi_2tractography_2tracking_2types_8h.html',1,'']]],
-  ['types_2eh',['types.h',['../lib_2types_8h.html',1,'']]]
+  ['types_2eh',['types.h',['../src_2dwi_2tractography_2_s_i_f_t_2types_8h.html',1,'']]]
 ];

@@ -27,5 +27,5 @@ var dir_f71b16180702be847df9d9ba8a49a5a0 =
       [ "OFStream", "class_m_r_1_1_file_1_1_o_f_stream.html", "class_m_r_1_1_file_1_1_o_f_stream" ]
     ] ],
     [ "path.h", "path_8h.html", "path_8h" ],
-    [ "utils.h", "file_2utils_8h.html", "file_2utils_8h" ]
+    [ "utils.h", "lib_2file_2utils_8h.html", "lib_2file_2utils_8h" ]
 ];

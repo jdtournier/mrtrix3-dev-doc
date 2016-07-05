@@ -1,8 +1,8 @@
 var searchData=
 [
   ['mapped_5ftrack_2eh',['mapped_track.h',['../mapped__track_8h.html',1,'']]],
-  ['mapper_2eh',['mapper.h',['../src_2dwi_2tractography_2mapping_2mapper_8h.html',1,'']]],
   ['mapper_2eh',['mapper.h',['../lib_2file_2dicom_2mapper_8h.html',1,'']]],
+  ['mapper_2eh',['mapper.h',['../src_2dwi_2tractography_2mapping_2mapper_8h.html',1,'']]],
   ['mapper_2eh',['mapper.h',['../src_2dwi_2tractography_2connectome_2mapper_8h.html',1,'']]],
   ['mapper_2eh',['mapper.h',['../src_2dwi_2tractography_2mapping_2gaussian_2mapper_8h.html',1,'']]],
   ['mapper_5fplugins_2eh',['mapper_plugins.h',['../mapper__plugins_8h.html',1,'']]],
@@ -26,9 +26,9 @@ var searchData=
   ['min_5fmax_2eh',['min_max.h',['../min__max_8h.html',1,'']]],
   ['min_5fmem_5farray_2eh',['min_mem_array.h',['../min__mem__array_8h.html',1,'']]],
   ['mmap_2eh',['mmap.h',['../mmap_8h.html',1,'']]],
-  ['model_2eh',['model.h',['../gui_2mrview_2tool_2odf_2model_8h.html',1,'']]],
-  ['model_2eh',['model.h',['../gui_2mrview_2tool_2roi__editor_2model_8h.html',1,'']]],
   ['model_2eh',['model.h',['../dwi_2tractography_2_s_i_f_t_2model_8h.html',1,'']]],
+  ['model_2eh',['model.h',['../gui_2mrview_2tool_2roi__editor_2model_8h.html',1,'']]],
+  ['model_2eh',['model.h',['../gui_2mrview_2tool_2odf_2model_8h.html',1,'']]],
   ['model_5fbase_2eh',['model_base.h',['../model__base_8h.html',1,'']]],
   ['module_2emd',['module.md',['../module_8md.html',1,'']]],
   ['mosaic_2eh',['mosaic.h',['../mosaic_8h.html',1,'']]],

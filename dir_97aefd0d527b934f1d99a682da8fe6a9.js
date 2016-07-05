@@ -8,7 +8,6 @@ var dir_97aefd0d527b934f1d99a682da8fe6a9 =
     [ "image_io", "dir_c3d02bcfc826fa22df9d20e4ffa1a092.html", "dir_c3d02bcfc826fa22df9d20e4ffa1a092" ],
     [ "interp", "dir_0c75f04a7a3e73077ce960e94305c64f.html", "dir_0c75f04a7a3e73077ce960e94305c64f" ],
     [ "math", "dir_a36354df93aef5eec904487b77fa4fab.html", "dir_a36354df93aef5eec904487b77fa4fab" ],
-    [ "registration", "dir_8c43a50b494f42f713289e815d5c52df.html", "dir_8c43a50b494f42f713289e815d5c52df" ],
     [ "sparse", "dir_1af5666330b7d87f9b6a9d30f7c7861e.html", "dir_1af5666330b7d87f9b6a9d30f7c7861e" ],
     [ "app.h", "app_8h.html", "app_8h" ],
     [ "apply.h", "apply_8h.html", "apply_8h" ],
