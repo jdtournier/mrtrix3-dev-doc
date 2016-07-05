@@ -54,7 +54,7 @@ var group__spherical__harmonics =
     [ "get_peak", "group__spherical__harmonics.html#gab875ad53d217ba8e06a79749d3901f68", null ],
     [ "index", "group__spherical__harmonics.html#ga12049806261f71471fea43484670d8f5", null ],
     [ "index_mpos", "group__spherical__harmonics.html#ga5296aa18ca79b9a88a46cee00c47667a", null ],
-    [ "init_transform", "group__spherical__harmonics.html#ga644176605f282c4cdb53bd9edbe2acc6", null ],
+    [ "init_transform", "group__spherical__harmonics.html#ga26f3b0200dfcecf06b917680b3f96069", null ],
     [ "invert", "group__spherical__harmonics.html#ga41841d8320883a03ce43a417c46e7fa1", null ],
     [ "LforN", "group__spherical__harmonics.html#ga28d9e09433f42e5036ec45ed6e7806bf", null ],
     [ "NforL", "group__spherical__harmonics.html#ga96a93012c20066bfbdb6c1a1ec1cfe15", null ],

@@ -35,7 +35,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-37-g43459857</div>
+   <div id="projectbrief">Version 0.3.15-42-gf209593e</div>
   </td>
  </tr>
  </tbody>
@@ -151,10 +151,10 @@ Functions</h2></td></tr>
 <tr class="memitem:ga28d9e09433f42e5036ec45ed6e7806bf"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__spherical__harmonics.html#ga28d9e09433f42e5036ec45ed6e7806bf">MR::Math::SH::LforN</a> (int N)</td></tr>
 <tr class="memdesc:ga28d9e09433f42e5036ec45ed6e7806bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the largest <em>lmax</em> given <em>N</em> parameters  <a href="group__spherical__harmonics.html#ga28d9e09433f42e5036ec45ed6e7806bf">More...</a><br /></td></tr>
 <tr class="separator:ga28d9e09433f42e5036ec45ed6e7806bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga644176605f282c4cdb53bd9edbe2acc6"><td class="memTemplParams" colspan="2">template&lt;class MatrixType &gt; </td></tr>
-<tr class="memitem:ga644176605f282c4cdb53bd9edbe2acc6"><td class="memTemplItemLeft" align="right" valign="top">Eigen::Matrix&lt; typename MatrixType::Scalar, Eigen::Dynamic, Eigen::Dynamic &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__spherical__harmonics.html#ga644176605f282c4cdb53bd9edbe2acc6">MR::Math::SH::init_transform</a> (const MatrixType &amp;dirs, int lmax)</td></tr>
-<tr class="memdesc:ga644176605f282c4cdb53bd9edbe2acc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">form the SH-&gt;amplitudes matrix  <a href="group__spherical__harmonics.html#ga644176605f282c4cdb53bd9edbe2acc6">More...</a><br /></td></tr>
-<tr class="separator:ga644176605f282c4cdb53bd9edbe2acc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga26f3b0200dfcecf06b917680b3f96069"><td class="memTemplParams" colspan="2">template&lt;class MatrixType &gt; </td></tr>
+<tr class="memitem:ga26f3b0200dfcecf06b917680b3f96069"><td class="memTemplItemLeft" align="right" valign="top">Eigen::Matrix&lt; typename MatrixType::Scalar, Eigen::Dynamic, Eigen::Dynamic &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__spherical__harmonics.html#ga26f3b0200dfcecf06b917680b3f96069">MR::Math::SH::init_transform</a> (const MatrixType &amp;dirs, const int lmax)</td></tr>
+<tr class="memdesc:ga26f3b0200dfcecf06b917680b3f96069"><td class="mdescLeft">&#160;</td><td class="mdescRight">form the SH-&gt;amplitudes matrix  <a href="group__spherical__harmonics.html#ga26f3b0200dfcecf06b917680b3f96069">More...</a><br /></td></tr>
+<tr class="separator:ga26f3b0200dfcecf06b917680b3f96069"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga301ff6a6409f78ce405d2ed51f2bdbde"><td class="memTemplParams" colspan="2">template&lt;class MatrixType , class VectorType &gt; </td></tr>
 <tr class="memitem:ga301ff6a6409f78ce405d2ed51f2bdbde"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__spherical__harmonics.html#ga301ff6a6409f78ce405d2ed51f2bdbde">MR::Math::SH::scale_degrees_forward</a> (MatrixType &amp;SH2amp_mapping, const VectorType &amp;coefs)</td></tr>
 <tr class="memdesc:ga301ff6a6409f78ce405d2ed51f2bdbde"><td class="mdescLeft">&#160;</td><td class="mdescRight">scale the coefficients of each <a class="el" href="namespace_m_r_1_1_math_1_1_s_h.html">SH</a> degree by the corresponding value in <em>coefs</em>  <a href="group__spherical__harmonics.html#ga301ff6a6409f78ce405d2ed51f2bdbde">More...</a><br /></td></tr>
@@ -738,7 +738,7 @@ template&lt;class VectorType , class UnitVectorType , class ValueType  = float&g
 
 </div>
 </div>
-<a class="anchor" id="ga644176605f282c4cdb53bd9edbe2acc6"></a>
+<a class="anchor" id="ga26f3b0200dfcecf06b917680b3f96069"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -753,7 +753,7 @@ template&lt;class MatrixType &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">const int&#160;</td>
           <td class="paramname"><em>lmax</em>&#160;</td>
         </tr>
         <tr>
@@ -1400,7 +1400,7 @@ template&lt;class VectorType1 , class VectorType2 &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Jul 1 2016 21:10:46 for MRtrix by
+    <li class="footer">Generated on Tue Jul 5 2016 02:43:23 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
