@@ -1,5 +1,8 @@
 var NAVTREEINDEX19 =
 {
+"class_m_r_1_1_math_1_1_gradient_descent.html#a4597ba8e6f87eea2c8db062426ba7251":[9,14,0,26],
+"class_m_r_1_1_math_1_1_gradient_descent.html#a492f29f468da53e21c02fd92bf1c4c76":[9,14,0,3],
+"class_m_r_1_1_math_1_1_gradient_descent.html#a5f7c765d5a1e8a3f735108c0ae80a3c9":[9,14,0,4],
 "class_m_r_1_1_math_1_1_gradient_descent.html#a663f9874d4db2e3a01a250297ee1d406":[9,14,0,0],
 "class_m_r_1_1_math_1_1_gradient_descent.html#a691fe5989847f1195e3c97bd84d3daa5":[9,14,0,31],
 "class_m_r_1_1_math_1_1_gradient_descent.html#a6e14d45ef0d12abf84ee97b962eb154a":[9,14,0,13],
@@ -246,8 +249,5 @@ var NAVTREEINDEX19 =
 "class_m_r_1_1_mesh_1_1_mesh_multi.html":[11,0,0,12,1],
 "class_m_r_1_1_mesh_1_1_mesh_multi.html#a84adfb3137cfe764984a9d83c5c403b0":[11,0,0,12,1,0],
 "class_m_r_1_1_mesh_1_1_mesh_multi.html#acfcbfc1944635f868b9209d4f85f3307":[11,0,0,12,1,1],
-"class_m_r_1_1_mesh_1_1_polygon.html":[11,0,0,12,2],
-"class_m_r_1_1_mesh_1_1_polygon.html#a2d30fd8d660d9314784a7a4c20e44850":[11,0,0,12,2,4],
-"class_m_r_1_1_mesh_1_1_polygon.html#a5f413cc417ecf1eac00dec06188f2657":[11,0,0,12,2,2],
-"class_m_r_1_1_mesh_1_1_polygon.html#a6bf3b9b305e995b082601dc62ccd478d":[11,0,0,12,2,3]
+"class_m_r_1_1_mesh_1_1_polygon.html":[11,0,0,12,2]
 };

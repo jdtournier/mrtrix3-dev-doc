@@ -1,5 +1,8 @@
 var NAVTREEINDEX26 =
 {
+"group__elfun.html#ga5de5c24270862b37e4e62ea94a962c9d":[9,6,3],
+"group__elfun.html#ga82355a9444dcdbcd59a9f33d58828085":[9,6,10],
+"group__elfun.html#ga8bf8967471ef09d762367a1844985db8":[9,6,5],
 "group__elfun.html#ga929c0b6d5d5154833c7387b2c65b0775":[9,6,0],
 "group__elfun.html#gaa5be6dfa9c446af78ea87902e6214d8b":[9,6,6],
 "group__elfun.html#gaab47314effd3fa3c1223c1c7abe21eff":[9,6,4],
@@ -69,8 +72,8 @@ var NAVTREEINDEX26 =
 "group__spherical__harmonics.html#ga9a848ad288e26cd2bdf74da968ea14cd":[9,7,31],
 "group__spherical__harmonics.html#ga9ed72421c529c70f60699c6731566402":[9,7,6],
 "group__spherical__harmonics.html#gaa3daa539e42342cb44a693370a283c8e":[9,7,7],
-"group__spherical__harmonics.html#gaa5599527d6d00f72e280f55ccb190fcf":[12,0,0,7,21,2],
 "group__spherical__harmonics.html#gaa5599527d6d00f72e280f55ccb190fcf":[9,7,4],
+"group__spherical__harmonics.html#gaa5599527d6d00f72e280f55ccb190fcf":[12,0,0,7,21,2],
 "group__spherical__harmonics.html#gaa84cbf06c73e471c851d91394d566ea8":[9,7,27],
 "group__spherical__harmonics.html#gaafe2e54ee9df648cfb1372aa7ae2fa6a":[9,7,32],
 "group__spherical__harmonics.html#gab875ad53d217ba8e06a79749d3901f68":[9,7,12],
@@ -196,8 +199,8 @@ var NAVTREEINDEX26 =
 "image_access.html#image_example":[5,1],
 "image_access.html#image_loop":[5,6],
 "image_access.html#iterator_class":[5,7],
-"index.html":[],
 "index.html":[0],
+"index.html":[],
 "initialiser_8h.html":[12,0,1,4,1,2],
 "initialiser_8h.html#a20ec23f05d86104654c83273fe4911a5":[12,0,1,4,1,2,9],
 "initialiser_8h.html#a2350e7964621930d2c67dc2080494614":[12,0,1,4,1,2,12],
@@ -246,8 +249,5 @@ var NAVTREEINDEX26 =
 "keys_8h.html":[12,0,0,8,2],
 "keys_8h.html#a6594660c36c6bb1b89357c05ef720d01":[12,0,0,8,2,1],
 "keys_8h.html#aa477eb2847cb02ee866f57c1dfd91d01":[12,0,0,8,2,0],
-"keys_8h_source.html":[12,0,0,8,2],
-"least__squares_8h.html":[12,0,0,7,13],
-"least__squares_8h.html#ga2980544aad063e9aa56bd0b4cd45a8f9":[12,0,0,7,13,0],
-"least__squares_8h.html#gacc15373310523fa6a0cce8ac4e31314e":[12,0,0,7,13,1]
+"keys_8h_source.html":[12,0,0,8,2]
 };

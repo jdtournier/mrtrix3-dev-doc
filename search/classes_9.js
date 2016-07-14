@@ -22,6 +22,7 @@ var searchData=
   ['indexbuffer',['IndexBuffer',['../class_m_r_1_1_g_u_i_1_1_g_l_1_1_index_buffer.html',1,'MR::GUI::GL']]],
   ['indexcompare',['IndexCompare',['../class_m_r_1_1_d_w_i_1_1_bootstrap_1_1_index_compare.html',1,'MR::DWI::Bootstrap']]],
   ['integer',['Integer',['../class_m_r_1_1_math_1_1_r_n_g_1_1_integer.html',1,'MR::Math::RNG']]],
+  ['integrationweights',['IntegrationWeights',['../class_m_r_1_1_d_w_i_1_1_f_m_l_s_1_1_integration_weights.html',1,'MR::DWI::FMLS']]],
   ['internalenergycomputer',['InternalEnergyComputer',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_internal_energy_computer.html',1,'MR::DWI::Tractography::GT']]],
   ['interp',['Interp',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_tensor___prob_1_1_interp.html',1,'MR::DWI::Tractography::Algorithms::Tensor_Prob']]],
   ['interpolatecheckbox',['InterpolateCheckBox',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_overlay_1_1_interpolate_check_box.html',1,'MR::GUI::MRView::Tool::Overlay']]],
@@ -37,9 +38,9 @@ var searchData=
   ['is_5fheader_5ftype',['is_header_type',['../class_m_r_1_1is__header__type.html',1,'MR']]],
   ['is_5fimage_5ftype',['is_image_type',['../class_m_r_1_1is__image__type.html',1,'MR']]],
   ['is_5fpure_5fimage',['is_pure_image',['../struct_m_r_1_1is__pure__image.html',1,'MR']]],
+  ['item',['Item',['../class_m_r_1_1_thread_1_1_queue_1_1_writer_1_1_item.html',1,'MR::Thread::Queue::Writer']]],
   ['item',['Item',['../class_m_r_1_1_file_1_1_name_parser_1_1_item.html',1,'MR::File::NameParser']]],
   ['item',['Item',['../class_m_r_1_1_thread_1_1_queue_1_1_reader_1_1_item.html',1,'MR::Thread::Queue::Reader']]],
-  ['item',['Item',['../class_m_r_1_1_thread_1_1_queue_1_1_writer_1_1_item.html',1,'MR::Thread::Queue::Writer']]],
   ['iterator',['Iterator',['../class_m_r_1_1_iterator.html',1,'MR']]],
   ['iterator',['Iterator',['../class_m_r_1_1_d_w_i_1_1_fixel__map_1_1_iterator.html',1,'MR::DWI::Fixel_map']]],
   ['iterator_5floop',['Iterator_loop',['../class_m_r_1_1_iterator__loop.html',1,'MR']]]

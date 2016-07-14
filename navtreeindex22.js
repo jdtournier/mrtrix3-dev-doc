@@ -1,5 +1,8 @@
 var NAVTREEINDEX22 =
 {
+"class_m_r_1_1_stats_1_1_calibrate_histogram.html#ae165bda0a154723f321fd3fdb0e666a6":[11,0,0,16,4,3],
+"class_m_r_1_1_stats_1_1_cluster_1_1_cluster_size.html":[9,15,4],
+"class_m_r_1_1_stats_1_1_cluster_1_1_cluster_size.html#a000f113bebf405e54d7f3739d7fd35ef":[9,15,4,3],
 "class_m_r_1_1_stats_1_1_cluster_1_1_cluster_size.html#a5d176e513969d6d092c8e1a3c20a47ed":[9,15,4,2],
 "class_m_r_1_1_stats_1_1_cluster_1_1_cluster_size.html#a7aa5cb8d7a44cdd82db54e955f0c194f":[9,15,4,1],
 "class_m_r_1_1_stats_1_1_cluster_1_1_cluster_size.html#a820b7347d0656ada24f818f50d856885":[9,15,4,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX22 =
 "cylinder_8h.html":[12,0,1,2,4,1],
 "cylinder_8h_source.html":[12,0,1,2,4,1],
 "datatype_8h.html":[12,0,0,14],
-"datatype_8h_source.html":[12,0,0,14],
-"debug_8h.html":[12,0,0,15],
-"debug_8h_source.html":[12,0,0,15],
-"default_8h.html":[12,0,0,5,1]
+"datatype_8h_source.html":[12,0,0,14]
 };

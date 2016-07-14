@@ -1,5 +1,8 @@
 var NAVTREEINDEX27 =
 {
+"least__squares_8h.html":[12,0,0,7,13],
+"least__squares_8h.html#ga2980544aad063e9aa56bd0b4cd45a8f9":[12,0,0,7,13,0],
+"least__squares_8h.html#gacc15373310523fa6a0cce8ac4e31314e":[12,0,0,7,13,1],
 "least__squares_8h_source.html":[12,0,0,7,13],
 "legendre_8h.html":[12,0,0,7,14],
 "legendre_8h.html#a0c6f7e61f5a11234030e238589b61640":[12,0,0,7,14,0],
@@ -237,17 +240,14 @@ var NAVTREEINDEX27 =
 "name__parser_8h.html":[12,0,0,2,8],
 "name__parser_8h_source.html":[12,0,0,2,8],
 "namespace_eigen.html":[10,0,0],
-"namespace_m_r.html":[11,0,0],
 "namespace_m_r.html":[10,0,1],
-"namespace_m_r_1_1_adapter.html":[11,0,0,0],
+"namespace_m_r.html":[11,0,0],
 "namespace_m_r_1_1_adapter.html":[10,0,1,0],
+"namespace_m_r_1_1_adapter.html":[11,0,0,0],
 "namespace_m_r_1_1_app.html":[10,0,1,1],
 "namespace_m_r_1_1_app.html":[11,0,0,1],
 "namespace_m_r_1_1_byte_order.html":[10,0,1,2],
 "namespace_m_r_1_1_connectome.html":[10,0,1,3],
 "namespace_m_r_1_1_connectome.html":[11,0,0,2],
-"namespace_m_r_1_1_d_w_i.html":[11,0,0,3],
-"namespace_m_r_1_1_d_w_i.html":[10,0,1,4],
-"namespace_m_r_1_1_d_w_i_1_1_directions.html":[10,0,1,4,0],
-"namespace_m_r_1_1_d_w_i_1_1_directions.html":[11,0,0,3,0]
+"namespace_m_r_1_1_d_w_i.html":[10,0,1,4]
 };

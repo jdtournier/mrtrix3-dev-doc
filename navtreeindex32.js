@@ -1,5 +1,8 @@
 var NAVTREEINDEX32 =
 {
+"tensor_8h.html#addde273e8f7eefe211353ab850136efc":[12,0,1,1,9,3],
+"tensor_8h.html#ae03d39c614c4b4a77b116dda393b4542":[12,0,1,1,9,2],
+"tensor_8h.html#afeb9bd295d28d3fbfe2f6768c893953a":[12,0,1,1,9,1],
 "tensor_8h_source.html":[12,0,1,1,9],
 "tensor__det_8h.html":[12,0,1,1,2,1,7],
 "tensor__det_8h_source.html":[12,0,1,1,2,1,7],

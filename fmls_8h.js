@@ -4,6 +4,7 @@ var fmls_8h =
     [ "FOD_lobes", "class_m_r_1_1_d_w_i_1_1_f_m_l_s_1_1_f_o_d__lobes.html", "class_m_r_1_1_d_w_i_1_1_f_m_l_s_1_1_f_o_d__lobes" ],
     [ "SH_coefs", "class_m_r_1_1_d_w_i_1_1_f_m_l_s_1_1_s_h__coefs.html", "class_m_r_1_1_d_w_i_1_1_f_m_l_s_1_1_s_h__coefs" ],
     [ "FODQueueWriter", "class_m_r_1_1_d_w_i_1_1_f_m_l_s_1_1_f_o_d_queue_writer.html", "class_m_r_1_1_d_w_i_1_1_f_m_l_s_1_1_f_o_d_queue_writer" ],
+    [ "IntegrationWeights", "class_m_r_1_1_d_w_i_1_1_f_m_l_s_1_1_integration_weights.html", "class_m_r_1_1_d_w_i_1_1_f_m_l_s_1_1_integration_weights" ],
     [ "Segmenter", "class_m_r_1_1_d_w_i_1_1_f_m_l_s_1_1_segmenter.html", "class_m_r_1_1_d_w_i_1_1_f_m_l_s_1_1_segmenter" ],
     [ "FMLS_PEAK_VALUE_THRESHOLD", "fmls_8h.html#a7508bf1ba26a899dfc10ddf3f390c63e", null ],
     [ "FMLS_RATIO_TO_NEGATIVE_LOBE_INTEGRAL_DEFAULT", "fmls_8h.html#a142e113846ba5ee51907608aef36d151", null ],

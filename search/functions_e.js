@@ -76,6 +76,7 @@ var searchData=
   ['num_5fmeasurements',['num_measurements',['../class_m_r_1_1_math_1_1_i_c_l_s_1_1_problem.html#a1003c3954e52c9dd8eb3a595ab81bd21',1,'MR::Math::ICLS::Problem']]],
   ['num_5fnodes',['num_nodes',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_connectome.html#aa79f87fef1158732a9c8002565aac360',1,'MR::GUI::MRView::Tool::Connectome']]],
   ['num_5fparameters',['num_parameters',['../class_m_r_1_1_math_1_1_i_c_l_s_1_1_problem.html#af9230768071d405e57890ba70d1836a6',1,'MR::Math::ICLS::Problem']]],
+  ['num_5fpeaks',['num_peaks',['../class_m_r_1_1_d_w_i_1_1_f_m_l_s_1_1_f_o_d__lobe.html#ac1ea2b33b41012fa6a040ef55cad5415',1,'MR::DWI::FMLS::FOD_lobe']]],
   ['num_5fpolygons',['num_polygons',['../class_m_r_1_1_mesh_1_1_mesh.html#a6655ea5e9721f7b8c110497a339c6730',1,'MR::Mesh::Mesh']]],
   ['num_5fquads',['num_quads',['../class_m_r_1_1_mesh_1_1_mesh.html#a0f27aa93698f6265153db4ef61dd7fc4',1,'MR::Mesh::Mesh']]],
   ['num_5fscalar',['num_scalar',['../namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map.html#a450f354c85771b8f44bc9bbe298b0a69',1,'MR::GUI::MRView::ColourMap']]],

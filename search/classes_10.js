@@ -27,6 +27,6 @@ var searchData=
   ['progressbar',['ProgressBar',['../class_m_r_1_1_progress_bar.html',1,'MR']]],
   ['progressinfo',['ProgressInfo',['../class_m_r_1_1_progress_info.html',1,'MR']]],
   ['projection',['Projection',['../class_m_r_1_1_g_u_i_1_1_projection.html',1,'MR::GUI']]],
-  ['properties',['Properties',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_properties.html',1,'MR::DWI::Tractography']]],
-  ['properties',['Properties',['../struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_properties.html',1,'MR::DWI::Tractography::GT']]]
+  ['properties',['Properties',['../struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_properties.html',1,'MR::DWI::Tractography::GT']]],
+  ['properties',['Properties',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_properties.html',1,'MR::DWI::Tractography']]]
 ];
