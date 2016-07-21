@@ -1,5 +1,6 @@
 var NAVTREEINDEX30 =
 {
+"sparse_8h_source.html":[12,0,0,5,8],
 "spatiallock_8h.html":[12,0,1,1,2,4,8],
 "spatiallock_8h_source.html":[12,0,1,1,2,4,8],
 "sphere_8h.html":[12,0,1,2,4,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX30 =
 "stride_8h.html#ab80cc1271189822912ff976cb1dba9e0":[12,0,0,26,18],
 "stride_8h.html#ac2e94b8ceb6dc879a5a5e49e638a3faf":[12,0,0,26,23],
 "stride_8h.html#ad0d8a3bc4524bfcc4f0d89190079ffea":[12,0,0,26,21],
-"stride_8h.html#ad97ecc7633858fe47d6723c0aa3e562e":[12,0,0,26,26],
-"stride_8h.html#ad9facafc6079f3d664122fb1134c0512":[12,0,0,26,7]
+"stride_8h.html#ad97ecc7633858fe47d6723c0aa3e562e":[12,0,0,26,26]
 };

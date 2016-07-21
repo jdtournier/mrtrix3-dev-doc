@@ -1,5 +1,6 @@
 var NAVTREEINDEX21 =
 {
+"class_m_r_1_1_registration_1_1_metric_1_1_params.html#a9826c37456c8935abc8e47ebd885f3b3":[11,0,0,14,0,17,35],
 "class_m_r_1_1_registration_1_1_metric_1_1_params.html#aab6ae884ac32cac725abbeb3207f003d":[11,0,0,14,0,17,13],
 "class_m_r_1_1_registration_1_1_metric_1_1_params.html#aadac9cec2e49f980914491767c97f31c":[11,0,0,14,0,17,21],
 "class_m_r_1_1_registration_1_1_metric_1_1_params.html#ab4cf31a994a68cdd9df5d65cc91d9380":[11,0,0,14,0,17,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX21 =
 "class_m_r_1_1_stats_1_1_calibrate_histogram.html#a41630dafae83bc648dad2e918aedcce4":[11,0,0,16,4,5],
 "class_m_r_1_1_stats_1_1_calibrate_histogram.html#a6f96b9a3b6cc15ac2c20a7d3f1dcedab":[11,0,0,16,4,6],
 "class_m_r_1_1_stats_1_1_calibrate_histogram.html#a95045661f7f85bc5a5c7e75362442347":[11,0,0,16,4,0],
-"class_m_r_1_1_stats_1_1_calibrate_histogram.html#ab6e538f3cc0508f8a74dae625cbcaa18":[11,0,0,16,4,2],
-"class_m_r_1_1_stats_1_1_calibrate_histogram.html#ac9341b5fa5bc2e14c0c9539e52da3ce4":[11,0,0,16,4,4]
+"class_m_r_1_1_stats_1_1_calibrate_histogram.html#ab6e538f3cc0508f8a74dae625cbcaa18":[11,0,0,16,4,2]
 };
