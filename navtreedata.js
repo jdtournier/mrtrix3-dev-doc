@@ -121,8 +121,8 @@ var NAVTREEINDEX =
 "namespace_m_r_1_1_d_w_i.html",
 "path_8h.html#a256a5721249aa3309437212cc21a9fe4",
 "sparse_8h_source.html",
-"stride_8h.html#ad9facafc6079f3d664122fb1134c0512",
-"tensor_8h.html#add083a185458d0d1a2c396e364633aff"
+"stride_8h.html#ad97ecc7633858fe47d6723c0aa3e562e",
+"tensor_8h.html#a1e49126d3388e0348b35a06752161866"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

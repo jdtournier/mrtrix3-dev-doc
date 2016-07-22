@@ -4,6 +4,7 @@ var src_2dwi_2tractography_2tracking_2types_8h =
     [ "REJECTION_REASON_COUNT", "src_2dwi_2tractography_2tracking_2types_8h.html#a8b24e73a0437a8c6b813f55548c68929", null ],
     [ "TERMINATION_REASON_COUNT", "src_2dwi_2tractography_2tracking_2types_8h.html#a869113fb71998652e5032c2aaf80acd0", null ],
     [ "reject_t", "src_2dwi_2tractography_2tracking_2types_8h.html#ad956382fab3ffe08fe6398044e9ae01a", [
+      [ "NO_PROPAGATION_FROM_SEED", "src_2dwi_2tractography_2tracking_2types_8h.html#ad956382fab3ffe08fe6398044e9ae01aadb02eb15e5c13335c1593cb74a494ec5", null ],
       [ "TRACK_TOO_SHORT", "src_2dwi_2tractography_2tracking_2types_8h.html#ad956382fab3ffe08fe6398044e9ae01aa0754d23485a2ac2d2616e14debf5f993", null ],
       [ "TRACK_TOO_LONG", "src_2dwi_2tractography_2tracking_2types_8h.html#ad956382fab3ffe08fe6398044e9ae01aaf97cf82fd334b4924a364f43c60cb757", null ],
       [ "ENTER_EXCLUDE_REGION", "src_2dwi_2tractography_2tracking_2types_8h.html#ad956382fab3ffe08fe6398044e9ae01aa81d3e19b49229c733d59150913f11a39", null ],
