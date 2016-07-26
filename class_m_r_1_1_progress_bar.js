@@ -10,5 +10,6 @@ var class_m_r_1_1_progress_bar =
     [ "operator++", "class_m_r_1_1_progress_bar.html#a3f4646e9fbe5493cdcabd27ac3d945fd", null ],
     [ "set_max", "class_m_r_1_1_progress_bar.html#a9c16c60c517f29ad5adf827d1cf1c0c9", null ],
     [ "set_text", "class_m_r_1_1_progress_bar.html#af0d8c9d39ce73ee7127b25bd381d2ed5", null ],
+    [ "set_update_method", "class_m_r_1_1_progress_bar.html#a90a179252af7a5c8b1a7a7b17d0dea30", null ],
     [ "update", "class_m_r_1_1_progress_bar.html#ade5483b0e6e611680b7cffa36ad227dc", null ]
 ];

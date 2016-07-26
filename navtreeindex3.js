@@ -1,6 +1,5 @@
 var NAVTREEINDEX3 =
 {
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_null_dist2_1_1_shared.html#a1dd0bbd0cf71e03e4fbd1893c41ed340":[11,0,0,3,3,1,4,0,0],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_s_d_stream.html":[11,0,0,3,3,1,5],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_s_d_stream.html#a028db62d709a9ac853d82f80ed7ca5b0":[11,0,0,3,3,1,5,6],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_s_d_stream.html#a08609b7d49c4da71ef0274bcdcc9a297":[11,0,0,3,3,1,5,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX3 =
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_editing_1_1_receiver.html":[11,0,0,3,3,3,1],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_editing_1_1_receiver.html#a15cc5c9b60d101000f0c4b80c20ed0c1":[11,0,0,3,3,3,1,2],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_editing_1_1_receiver.html#a581c249eb8958ab2af8047a9b5a3a355":[11,0,0,3,3,3,1,0],
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_editing_1_1_receiver.html#ac5852e46de1a4245c9e6bc7f313abc94":[11,0,0,3,3,3,1,1]
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_editing_1_1_receiver.html#ac5852e46de1a4245c9e6bc7f313abc94":[11,0,0,3,3,3,1,1],
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_editing_1_1_worker.html":[11,0,0,3,3,3,2]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX23 =
 {
+"datatype_8h.html":[12,0,0,14],
 "datatype_8h_source.html":[12,0,0,14],
 "debug_8h.html":[12,0,0,15],
 "debug_8h_source.html":[12,0,0,15],
@@ -248,6 +249,5 @@ var NAVTREEINDEX23 =
 "file__data__vector_8h_source.html":[12,0,1,2,2,1,0,3],
 "files.html":[12,0],
 "filter_2median_8h.html":[12,0,0,3,7],
-"filter_2median_8h_source.html":[12,0,0,3,7],
-"filter_2reslice_8h.html":[12,0,0,3,11]
+"filter_2median_8h_source.html":[12,0,0,3,7]
 };

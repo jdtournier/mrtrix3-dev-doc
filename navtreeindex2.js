@@ -1,6 +1,5 @@
 var NAVTREEINDEX2 =
 {
-"class_m_r_1_1_d_w_i_1_1_f_m_l_s_1_1_s_h__coefs.html":[11,0,0,3,1,5],
 "class_m_r_1_1_d_w_i_1_1_f_m_l_s_1_1_s_h__coefs.html#a054f511549e359255f185e1b1a67581d":[11,0,0,3,1,5,0],
 "class_m_r_1_1_d_w_i_1_1_f_m_l_s_1_1_s_h__coefs.html#a654c5a878e829e6adbf915f68b65512c":[11,0,0,3,1,5,2],
 "class_m_r_1_1_d_w_i_1_1_f_m_l_s_1_1_s_h__coefs.html#aa884591c154b0eeb0bfa6dab26558821":[11,0,0,3,1,5,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX2 =
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_null_dist2.html#ac9ca361ae8bc83426d3f87f6d1163cc4":[11,0,0,3,3,1,4,2],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_null_dist2.html#add55d2a01f61a6c5e9640ce8d15e4618":[11,0,0,3,3,1,4,12],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_null_dist2.html#aeba77fa9e353d492aadf34d294ca8ce4":[11,0,0,3,3,1,4,6],
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_null_dist2_1_1_shared.html":[11,0,0,3,3,1,4,0]
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_null_dist2_1_1_shared.html":[11,0,0,3,3,1,4,0],
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_null_dist2_1_1_shared.html#a1dd0bbd0cf71e03e4fbd1893c41ed340":[11,0,0,3,3,1,4,0,0]
 };

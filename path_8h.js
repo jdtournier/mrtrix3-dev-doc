@@ -12,6 +12,5 @@ var path_8h =
     [ "home", "path_8h.html#a26b413dad682a7c0de584352f63fe660", null ],
     [ "is_dir", "path_8h.html#aec4c853fc5c699b3ff41d4ff3bdfa489", null ],
     [ "is_file", "path_8h.html#a214e09f1a5739cc1983a232bb817a0dc", null ],
-    [ "is_file", "path_8h.html#a982a52b9d5a085d5ca051c6bac08fe65", null ],
     [ "join", "path_8h.html#a098e60c3ad67f2740c009965a8f7b369", null ]
 ];

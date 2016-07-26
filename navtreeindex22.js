@@ -1,5 +1,6 @@
 var NAVTREEINDEX22 =
 {
+"class_m_r_1_1_stats_1_1_calibrate_histogram.html#ab6e538f3cc0508f8a74dae625cbcaa18":[11,0,0,16,4,2],
 "class_m_r_1_1_stats_1_1_calibrate_histogram.html#ac9341b5fa5bc2e14c0c9539e52da3ce4":[11,0,0,16,4,4],
 "class_m_r_1_1_stats_1_1_calibrate_histogram.html#ae165bda0a154723f321fd3fdb0e666a6":[11,0,0,16,4,3],
 "class_m_r_1_1_stats_1_1_cluster_1_1_cluster_size.html":[9,15,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX22 =
 "cursor_8h.html":[12,0,1,2,7],
 "cursor_8h_source.html":[12,0,1,2,7],
 "cylinder_8h.html":[12,0,1,2,4,1],
-"cylinder_8h_source.html":[12,0,1,2,4,1],
-"datatype_8h.html":[12,0,0,14]
+"cylinder_8h_source.html":[12,0,1,2,4,1]
 };

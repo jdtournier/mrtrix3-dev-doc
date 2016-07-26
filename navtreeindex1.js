@@ -1,6 +1,5 @@
 var NAVTREEINDEX1 =
 {
-"class_m_r_1_1_adapter_1_1_median.html#a3e4738b8b05922cfa61265606e43667d":[11,0,0,0,7,5],
 "class_m_r_1_1_adapter_1_1_median.html#a46b4ab6020604b46ec5f9b5c3c5793ef":[11,0,0,0,7,4],
 "class_m_r_1_1_adapter_1_1_median.html#a6eb6db68882d240d4d78584fb768f074":[11,0,0,0,7,6],
 "class_m_r_1_1_adapter_1_1_median.html#aa9a100c2bbd9d2e8ef1c9454a9e376f1":[11,0,0,0,7,8],
@@ -249,5 +248,6 @@ var NAVTREEINDEX1 =
 "class_m_r_1_1_d_w_i_1_1_f_m_l_s_1_1_f_o_d_queue_writer.html#affb66fc66f2d1a17b7bd6887a5ccc914":[11,0,0,3,1,2,1],
 "class_m_r_1_1_d_w_i_1_1_f_m_l_s_1_1_integration_weights.html":[11,0,0,3,1,3],
 "class_m_r_1_1_d_w_i_1_1_f_m_l_s_1_1_integration_weights.html#a5e26330790d6eceeaba739cf7e1e19e9":[11,0,0,3,1,3,1],
-"class_m_r_1_1_d_w_i_1_1_f_m_l_s_1_1_integration_weights.html#a9528ae1a3845e57455897f0c5ebe2564":[11,0,0,3,1,3,0]
+"class_m_r_1_1_d_w_i_1_1_f_m_l_s_1_1_integration_weights.html#a9528ae1a3845e57455897f0c5ebe2564":[11,0,0,3,1,3,0],
+"class_m_r_1_1_d_w_i_1_1_f_m_l_s_1_1_s_h__coefs.html":[11,0,0,3,1,5]
 };

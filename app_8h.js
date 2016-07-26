@@ -36,6 +36,5 @@ var app_8h =
     [ "project_version", "app_8h.html#aac29ab240475b73bf131d8e647f183a2", null ],
     [ "REFERENCES", "app_8h.html#gaacc0939705855fbe9a4374679b40ad87", null ],
     [ "REQUIRES_AT_LEAST_ONE_ARGUMENT", "app_8h.html#gab96c7fb47f8bff5c76d5d1a521381bd6", null ],
-    [ "stderr_to_file", "app_8h.html#a5d02b0b60a424b0b0b1f022dcf6dad34", null ],
     [ "terminal_use_colour", "app_8h.html#ad9b67843776675eccf8f47392d17c155", null ]
 ];
