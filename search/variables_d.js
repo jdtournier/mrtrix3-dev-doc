@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['m',['M',['../class_m_r_1_1_d_w_i_1_1_s_deconv_1_1_c_s_d_1_1_shared.html#a2a888b4e33ccdd9af4e3137a9c8c0b81',1,'MR::DWI::SDeconv::CSD::Shared::M()'],['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_tensor___det.html#a28b2fd8dca4215d10b28a9719c39c627',1,'MR::DWI::Tractography::Algorithms::Tensor_Det::M()'],['../class_m_r_1_1_g_u_i_1_1_g_l_1_1mat4.html#a38a1e3a0be485bd93d53d4d83017076f',1,'MR::GUI::GL::mat4::m()']]],
+  ['m',['m',['../class_m_r_1_1_g_u_i_1_1_g_l_1_1mat4.html#a38a1e3a0be485bd93d53d4d83017076f',1,'MR::GUI::GL::mat4::m()'],['../class_m_r_1_1_d_w_i_1_1_s_deconv_1_1_c_s_d_1_1_shared.html#a2a888b4e33ccdd9af4e3137a9c8c0b81',1,'MR::DWI::SDeconv::CSD::Shared::M()'],['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_tensor___det.html#a28b2fd8dca4215d10b28a9719c39c627',1,'MR::DWI::Tractography::Algorithms::Tensor_Det::M()']]],
   ['m_5f4pi',['M_4PI',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t.html#ac0ce46647775ec2def73d597cfca511c',1,'MR::DWI::Tractography::GT']]],
   ['m_5fsqrt4pi',['M_sqrt4PI',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t.html#a0307aa703f12ee39be706059df87536f',1,'MR::DWI::Tractography::GT']]],
   ['m_5fxdim',['m_xdim',['../class_m_r_1_1_image_i_o_1_1_mosaic.html#a487793517728527f71114bb3d8562cb8',1,'MR::ImageIO::Mosaic']]],

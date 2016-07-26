@@ -111,18 +111,18 @@ var NAVTREEINDEX =
 "class_m_r_1_1_image_i_o_1_1_base.html#a8fa589a895cd539361008bee6cedfb1b",
 "class_m_r_1_1_math_1_1_gradient_descent.html#a4597ba8e6f87eea2c8db062426ba7251",
 "class_m_r_1_1_mesh_1_1_polygon.html#a2d30fd8d660d9314784a7a4c20e44850",
-"class_m_r_1_1_registration_1_1_metric_1_1_params.html#a97d85f5cd982ef039b58104439f4b74f",
-"class_m_r_1_1_stats_1_1_calibrate_histogram.html#ab6e538f3cc0508f8a74dae625cbcaa18",
-"datatype_8h.html",
-"filter_2reslice_8h.html",
-"group___cmd_parse.html#ga5be62b41a0da1f036ff3cc1b64d4ccb2",
-"group__elfun.html#ga43fb8f59791ed41d0afb4df8c6d0744f",
-"keys_8h.html#aa477eb2847cb02ee866f57c1dfd91d01",
-"namespace_m_r_1_1_connectome.html",
-"path_8h.html#a214e09f1a5739cc1983a232bb817a0dc",
-"sparse_8h_source.html",
-"stride_8h.html#ad97ecc7633858fe47d6723c0aa3e562e",
-"tensor_8h.html#a1e49126d3388e0348b35a06752161866"
+"class_m_r_1_1_registration_1_1_metric_1_1_params.html#a923dabb597a66984ec793fe689d6fe97",
+"class_m_r_1_1_stats_1_1_calibrate_histogram.html#a174ea1428474f02718163774796ec860",
+"cursor_8h.html",
+"file__data__vector_8h_source.html",
+"group___cmd_parse.html#ga5073b68acba7cbae3d9f44cd39af9078",
+"group__debug.html#gaff6f14b9d81471469d41214b83a791ac",
+"key__value_8h.html",
+"namespace_m_r_1_1_app.html",
+"particlepool_8h.html#a519adc2af3ba06a8f0548b6690050a89",
+"sparse_2image_8h.html#a5bc88b71912a3270142a6fb239d09d92",
+"stride_8h.html#ab1d262fa71fc99f48a7e324c3ff23170",
+"tckfactor_8h.html#aa62e09323eff556af2e98f10305afcee"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -35,7 +35,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-142-g8116c973</div>
+   <div id="projectbrief">Version 0.3.15-179-g77ed15eb</div>
   </td>
  </tr>
  </tbody>
@@ -111,6 +111,7 @@ $(document).ready(function(){initNavTree('class_m_r_1_1_registration_1_1_metric_
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="class_m_r_1_1_registration_1_1_metric_1_1_difference_robust4_d-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -120,10 +121,17 @@ $(document).ready(function(){initNavTree('class_m_r_1_1_registration_1_1_metric_
 
 <p><code>#include &quot;<a class="el" href="difference__robust_8h_source.html">registration/metric/difference_robust.h</a>&quot;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:afa68ad74e56633742b0f1b1fa2d73867"><td class="memItemLeft" align="right" valign="top">typedef int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_difference_robust4_d.html#afa68ad74e56633742b0f1b1fa2d73867">requires_initialisation</a></td></tr>
+<tr class="separator:afa68ad74e56633742b0f1b1fa2d73867"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ade4ca12861c3f099dea73a86a38e34ab"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_difference_robust4_d.html#ade4ca12861c3f099dea73a86a38e34ab">DifferenceRobust4D</a> (const Im1Type &amp;im1, const Im2Type &amp;im2, const Estimator &amp;est)</td></tr>
 <tr class="separator:ade4ca12861c3f099dea73a86a38e34ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d672d271138c28dc2d9aa3d55a892e6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_difference_robust4_d.html#a6d672d271138c28dc2d9aa3d55a892e6">init</a> (const Im1Type &amp;im1, const Im2Type &amp;im2)</td></tr>
+<tr class="separator:a6d672d271138c28dc2d9aa3d55a892e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91933e6a76d07fbe56d9f5eb2f2fed2c"><td class="memTemplParams" colspan="2">template&lt;class Params &gt; </td></tr>
 <tr class="memitem:a91933e6a76d07fbe56d9f5eb2f2fed2c"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_difference_robust4_d.html#a91933e6a76d07fbe56d9f5eb2f2fed2c">operator()</a> (<a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_params.html">Params</a> &amp;params, const <a class="el" href="namespace_eigen.html#a74adae1418c863869c0090e30f8f1648">Eigen::Vector3</a> &amp;im1_point, const <a class="el" href="namespace_eigen.html#a74adae1418c863869c0090e30f8f1648">Eigen::Vector3</a> &amp;im2_point, const <a class="el" href="namespace_eigen.html#a74adae1418c863869c0090e30f8f1648">Eigen::Vector3</a> &amp;midway_point, Eigen::Matrix&lt; <a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a>, Eigen::Dynamic, 1 &gt; &amp;gradient)</td></tr>
 <tr class="separator:a91933e6a76d07fbe56d9f5eb2f2fed2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -134,7 +142,25 @@ class MR::Registration::Metric::DifferenceRobust4D&lt; Im1Type, Im2Type, Estimat
 
 
 <p>Definition at line <a class="el" href="difference__robust_8h_source.html#l00067">67</a> of file <a class="el" href="difference__robust_8h_source.html">difference_robust.h</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a class="anchor" id="afa68ad74e56633742b0f1b1fa2d73867"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Im1Type , class Im2Type , class Estimator  = L2&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef int <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_difference_robust4_d.html">MR::Registration::Metric::DifferenceRobust4D</a>&lt; Im1Type, Im2Type, Estimator &gt;::<a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_difference_robust4_d.html#afa68ad74e56633742b0f1b1fa2d73867">requires_initialisation</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>requires_initialisation: type_trait to distinguish metric types that require a call to init before the operator() is called </p>
+
+<p>Definition at line <a class="el" href="difference__robust_8h_source.html#l00077">77</a> of file <a class="el" href="difference__robust_8h_source.html">difference_robust.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="ade4ca12861c3f099dea73a86a38e34ab"></a>
 <div class="memitem">
 <div class="memproto">
@@ -180,6 +206,44 @@ template&lt;class Im1Type , class Im2Type , class Estimator  = L2&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a6d672d271138c28dc2d9aa3d55a892e6"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Im1Type , class Im2Type , class Estimator  = L2&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_difference_robust4_d.html">MR::Registration::Metric::DifferenceRobust4D</a>&lt; Im1Type, Im2Type, Estimator &gt;::init </td>
+          <td>(</td>
+          <td class="paramtype">const Im1Type &amp;&#160;</td>
+          <td class="paramname"><em>im1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Im2Type &amp;&#160;</td>
+          <td class="paramname"><em>im2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="difference__robust_8h_source.html#l00083">83</a> of file <a class="el" href="difference__robust_8h_source.html">difference_robust.h</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a91933e6a76d07fbe56d9f5eb2f2fed2c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -234,7 +298,7 @@ template&lt;class Params &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="difference__robust_8h_source.html#l00080">80</a> of file <a class="el" href="difference__robust_8h_source.html">difference_robust.h</a>.</p>
+<p>Definition at line <a class="el" href="difference__robust_8h_source.html#l00098">98</a> of file <a class="el" href="difference__robust_8h_source.html">difference_robust.h</a>.</p>
 
 </div>
 </div>
@@ -247,7 +311,7 @@ template&lt;class Params &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_registration.html">Registration</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_registration_1_1_metric.html">Metric</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_difference_robust4_d.html">DifferenceRobust4D</a></li>
-    <li class="footer">Generated on Tue Jul 26 2016 13:43:59 for MRtrix by
+    <li class="footer">Generated on Tue Jul 26 2016 16:14:32 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
