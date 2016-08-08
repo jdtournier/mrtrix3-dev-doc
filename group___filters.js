@@ -66,6 +66,7 @@ var group___filters =
       [ "set_stdev", "class_m_r_1_1_filter_1_1_gradient.html#a794a6c4d315be68b7df6e44ad3c91422", null ],
       [ "magnitude", "class_m_r_1_1_filter_1_1_gradient.html#a60a36290d03e5e26dfc63bc49b249072", null ],
       [ "smoother", "class_m_r_1_1_filter_1_1_gradient.html#a4bce57ade2f7a085549d539971502a56", null ],
+      [ "stdev", "class_m_r_1_1_filter_1_1_gradient.html#a0b7afbcb82fd32da5c985e6d8f37f795", null ],
       [ "wrt_scanner", "class_m_r_1_1_filter_1_1_gradient.html#a9aeede6efb2b46e2c7df40c19307f037", null ]
     ] ],
     [ "Median", "class_m_r_1_1_filter_1_1_median.html", [
@@ -104,10 +105,10 @@ var group___filters =
     ] ],
     [ "Smooth", "class_m_r_1_1_filter_1_1_smooth.html", [
       [ "Smooth", "class_m_r_1_1_filter_1_1_smooth.html#a0c8a0faf5e160b7412d9b7db111000ad", null ],
-      [ "Smooth", "class_m_r_1_1_filter_1_1_smooth.html#aa28872228227520fc3a6a978bfef1679", null ],
+      [ "Smooth", "class_m_r_1_1_filter_1_1_smooth.html#a8b7a3bb1112102d4549b51a2a3d496d6", null ],
       [ "operator()", "class_m_r_1_1_filter_1_1_smooth.html#afd8b6aa84b3c56326e40853fd125078b", null ],
       [ "set_extent", "class_m_r_1_1_filter_1_1_smooth.html#ad143451420c134924d044a9545bc2708", null ],
-      [ "set_stdev", "class_m_r_1_1_filter_1_1_smooth.html#af4db839e8f514cfa57ea5c16a306ca18", null ],
+      [ "set_stdev", "class_m_r_1_1_filter_1_1_smooth.html#a34373b2f242ea46697b51c93658beb0c", null ],
       [ "set_stdev", "class_m_r_1_1_filter_1_1_smooth.html#a0ca932c43009216b6bef48a1239abd5d", null ],
       [ "set_zero_boundary", "class_m_r_1_1_filter_1_1_smooth.html#ab1a8303d1465e43acf9bead8560725cf", null ],
       [ "extent", "class_m_r_1_1_filter_1_1_smooth.html#a0eb015e812ad5f8dacf7b56bb37cb4fd", null ],

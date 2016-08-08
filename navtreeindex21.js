@@ -1,5 +1,6 @@
 var NAVTREEINDEX21 =
 {
+"class_m_r_1_1_registration_1_1_metric_1_1_params.html#a91debdfeff35a9f1c997b38efc3b6ab3":[11,0,0,14,0,17,32],
 "class_m_r_1_1_registration_1_1_metric_1_1_params.html#a923dabb597a66984ec793fe689d6fe97":[11,0,0,14,0,17,1],
 "class_m_r_1_1_registration_1_1_metric_1_1_params.html#a9350c52bb176f2579af96946c0a95cb5":[11,0,0,14,0,17,16],
 "class_m_r_1_1_registration_1_1_metric_1_1_params.html#a96360e36418adb5424a69574179aee3c":[11,0,0,14,0,17,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX21 =
 "class_m_r_1_1_stats_1_1_c_f_e_1_1_track_processor.html#ace3911260ec2bb7580f89e9491bd2aab":[9,15,2,1],
 "class_m_r_1_1_stats_1_1_c_f_e_1_1connectivity.html":[9,15,1],
 "class_m_r_1_1_stats_1_1_c_f_e_1_1connectivity.html#a06bd3b341d864619111011b88a963cbf":[9,15,1,0],
-"class_m_r_1_1_stats_1_1_c_f_e_1_1connectivity.html#a369df2afb73821c7ca342f2e284c3b1b":[9,15,1,1],
-"class_m_r_1_1_stats_1_1_calibrate_histogram.html":[11,0,0,16,4]
+"class_m_r_1_1_stats_1_1_c_f_e_1_1connectivity.html#a369df2afb73821c7ca342f2e284c3b1b":[9,15,1,1]
 };
