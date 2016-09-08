@@ -90,7 +90,7 @@ var searchData=
   ['_7etrackcontribution',['~TrackContribution',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_track_contribution.html#a915fc6d94171d1668c60e5be46ee19c2',1,'MR::DWI::Tractography::SIFT::TrackContribution']]],
   ['_7etrackloader',['~TrackLoader',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_loader.html#aee82c97c815b67dcf4e9f0f589928b08',1,'MR::DWI::Tractography::Mapping::TrackLoader']]],
   ['_7etrackmapper',['~TrackMapper',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_track_mapper.html#a1c053391a062cb674689d4b4a51ddcb1',1,'MR::DWI::Tractography::Mapping::Gaussian::TrackMapper']]],
-  ['_7etrackmapperbase',['~TrackMapperBase',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_mapper_base.html#a692918e360ff98a621dd74843edb4243',1,'MR::DWI::Tractography::Mapping::TrackMapperBase']]],
+  ['_7etrackmapperbase',['~TrackMapperBase',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_mapper_base.html#a283d109693ba7a9040ebec53a131eb99',1,'MR::DWI::Tractography::Mapping::TrackMapperBase']]],
   ['_7etrackscalarfileoptions',['~TrackScalarFileOptions',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file_options.html#ad2f7390976fb101f8097b03f6d6a74ed',1,'MR::GUI::MRView::Tool::TrackScalarFileOptions']]],
   ['_7etractogram',['~Tractogram',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractogram.html#a4255c521061d15f6ad39bc4cce0c1c23',1,'MR::GUI::MRView::Tool::Tractogram']]],
   ['_7etractography',['~Tractography',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#ad4e7490b3eb289ce471848b3e950a153',1,'MR::GUI::MRView::Tool::Tractography']]],

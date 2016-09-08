@@ -14,7 +14,7 @@ var class_m_r_1_1_registration_1_1_non_linear =
     [ "has_negative_jacobians", "class_m_r_1_1_registration_1_1_non_linear.html#a792153eebac1da952b286f48cf7cc52c", null ],
     [ "initialise", "class_m_r_1_1_registration_1_1_non_linear.html#ab38c081da59bf294b100c41082d0ddd1", null ],
     [ "reslice", "class_m_r_1_1_registration_1_1_non_linear.html#a42eed90d9e4630f2fc8d2da2972f024f", null ],
-    [ "run", "class_m_r_1_1_registration_1_1_non_linear.html#a611a5771ebdb5a1c9a16e6ceaec0b6e0", null ],
+    [ "run", "class_m_r_1_1_registration_1_1_non_linear.html#a34273f38e2c0421a882f85868069bff4", null ],
     [ "set_aPSF_directions", "class_m_r_1_1_registration_1_1_non_linear.html#a00f2659cbf413e19d5d4849bfa1b1017", null ],
     [ "set_disp_smoothing", "class_m_r_1_1_registration_1_1_non_linear.html#a7a76ed6b6928b7550334da191b7c66f1", null ],
     [ "set_init_grad_step", "class_m_r_1_1_registration_1_1_non_linear.html#ab8665a9f84ff5338c2346d4723254220", null ],

@@ -5,5 +5,5 @@ var class_m_r_1_1_interp_1_1_nearest =
     [ "row", "class_m_r_1_1_interp_1_1_nearest.html#a49e4520bd0b03323281821ae09fb7a99", null ],
     [ "scanner", "class_m_r_1_1_interp_1_1_nearest.html#aff2ffd60b17ba18aa82ca8d6f220cf6e", null ],
     [ "value", "class_m_r_1_1_interp_1_1_nearest.html#a52ac6a9abe173e31ae05de3582206091", null ],
-    [ "voxel", "class_m_r_1_1_interp_1_1_nearest.html#a4bc1f9660c09a7533fc5b87e3bf59c26", null ]
+    [ "voxel", "class_m_r_1_1_interp_1_1_nearest.html#ab272900957929f8975cf7a34040b9244", null ]
 ];

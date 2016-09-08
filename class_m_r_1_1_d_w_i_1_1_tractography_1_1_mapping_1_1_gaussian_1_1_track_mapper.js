@@ -11,7 +11,7 @@ var class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_track_mapp
     [ "operator()", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_track_mapper.html#a1bd31a91b61a06a02b29585af1ebe2ae", null ],
     [ "preprocess", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_track_mapper.html#a2051af9765780f256c237bf9d245a13f", null ],
     [ "set_factor", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_track_mapper.html#af5ea6b1bfb02e4924980412de02709e8", null ],
-    [ "set_gaussian_FWHM", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_track_mapper.html#a8eeee830455d10b42b0976097d50d101", null ],
+    [ "set_gaussian_FWHM", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_track_mapper.html#a68b1821a3f4513ebe26663015c7cad60", null ],
     [ "tck_index_to_factor", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_track_mapper.html#aa66017e60429b4eed27112051f4470cd", null ],
     [ "voxelise", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_track_mapper.html#a62f63636f188b5eea0d344bbc64ff2f7", null ],
     [ "voxelise_ends", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_track_mapper.html#afb806368f985a2e86e6a5085d858acae", null ],

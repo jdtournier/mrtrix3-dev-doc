@@ -4,7 +4,7 @@ var class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_mapper_base =
     [ "TrackMapperBase", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_mapper_base.html#a8752b48374d08fdc19e7dcb704da8d88", null ],
     [ "TrackMapperBase", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_mapper_base.html#aa91ea09d67aa714980f986d557c44390", null ],
     [ "TrackMapperBase", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_mapper_base.html#a6adf5065387f5a47a7e465ff0f9cafb3", null ],
-    [ "~TrackMapperBase", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_mapper_base.html#a692918e360ff98a621dd74843edb4243", null ],
+    [ "~TrackMapperBase", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_mapper_base.html#a283d109693ba7a9040ebec53a131eb99", null ],
     [ "add_to_set", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_mapper_base.html#ac7f7c0d25a0c5af34179c8290bb02464", null ],
     [ "add_to_set", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_mapper_base.html#a4ed8d2099f323f936b40428d0734693c", null ],
     [ "add_to_set", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_mapper_base.html#a8d87d1f38eca24e0bbf13e7a4464e977", null ],

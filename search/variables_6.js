@@ -65,5 +65,5 @@ var searchData=
   ['fs',['Fs',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_line_search_functor.html#ab0646c54bc65b8fd6a72798c1f825818',1,'MR::DWI::Tractography::SIFT2::LineSearchFunctor']]],
   ['func',['func',['../class_m_r_1_1_math_1_1_gradient_descent.html#a8ba9bdc2dd7d510ebf7914e451d53d74',1,'MR::Math::GradientDescent::func()'],['../class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a8d4f8efcc54c07a28757eb0369630f32',1,'MR::Math::GradientDescentBB::func()'],['../class_m_r_1_1_d_w_i_1_1_bootstrap.html#a86ccac532a7c2c25461d6271ad517f1a',1,'MR::DWI::Bootstrap::func()']]],
   ['functor',['functor',['../thread_8h.html#aece92f5ed23ab311f706fc6069e61689',1,'thread.h']]],
-  ['functors',['functors',['../thread_8h.html#a85d8c3a2dfb8aa5a0e7e2fecb4e5c3ca',1,'thread.h']]]
+  ['functors',['functors',['../thread_8h.html#a6decf17bf233a20d567d0c39af4b8216',1,'thread.h']]]
 ];

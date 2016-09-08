@@ -7,6 +7,7 @@ var dir_2023ebe2d07d97f5a48719246b8446bc =
     [ "erode.h", "erode_8h.html", null ],
     [ "fft.h", "fft_8h.html", "fft_8h" ],
     [ "gradient.h", "lib_2filter_2gradient_8h.html", null ],
+    [ "mask_clean.h", "mask__clean_8h.html", null ],
     [ "median.h", "filter_2median_8h.html", null ],
     [ "normalise.h", "normalise_8h.html", null ],
     [ "optimal_threshold.h", "optimal__threshold_8h.html", "optimal__threshold_8h" ],

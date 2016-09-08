@@ -35,7 +35,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-209-gc5a52b02</div>
+   <div id="projectbrief">Version 0.3.15-251-gbf6eb6e0</div>
   </td>
  </tr>
  </tbody>
@@ -126,9 +126,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a12a04124b88761de36c74f6cfb187015"><td class="memTemplParams" colspan="2">template&lt;class DisplacementFieldType &gt; </td></tr>
 <tr class="memitem:a12a04124b88761de36c74f6cfb187015"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_warp_1_1_compose_linear_disp_kernel.html#a12a04124b88761de36c74f6cfb187015">ComposeLinearDispKernel</a> (const <a class="el" href="namespace_m_r.html#a5fb9f6fdd930a2baf8f8584ae6309c9b">transform_type</a> &amp;<a class="el" href="class_m_r_1_1_registration_1_1_warp_1_1_compose_linear_disp_kernel.html#a1f76040d25b9df6d58d543608492acc0">linear_transform</a>, const DisplacementFieldType &amp;disp_in)</td></tr>
 <tr class="separator:a12a04124b88761de36c74f6cfb187015"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75a3541b00e93498fb3829fdd7c646ee"><td class="memTemplParams" colspan="2">template&lt;class DisplacementFieldType , class DeformationFieldType &gt; </td></tr>
-<tr class="memitem:a75a3541b00e93498fb3829fdd7c646ee"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_warp_1_1_compose_linear_disp_kernel.html#a75a3541b00e93498fb3829fdd7c646ee">operator()</a> (DisplacementFieldType &amp;disp_input, DeformationFieldType &amp;deform_output)</td></tr>
-<tr class="separator:a75a3541b00e93498fb3829fdd7c646ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09a3b9a0f1dca54b14087bc4c2cf6490"><td class="memTemplParams" colspan="2">template&lt;class DisplacementFieldType , class DeformationFieldType &gt; </td></tr>
+<tr class="memitem:a09a3b9a0f1dca54b14087bc4c2cf6490"><td class="memTemplItemLeft" align="right" valign="top">EIGEN_MAKE_ALIGNED_OPERATOR_NEW void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_warp_1_1_compose_linear_disp_kernel.html#a09a3b9a0f1dca54b14087bc4c2cf6490">operator()</a> (DisplacementFieldType &amp;disp_input, DeformationFieldType &amp;deform_output)</td></tr>
+<tr class="separator:a09a3b9a0f1dca54b14087bc4c2cf6490"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -139,7 +139,7 @@ Protected Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p>Definition at line <a class="el" href="compose_8h_source.html#l00049">49</a> of file <a class="el" href="compose_8h_source.html">compose.h</a>.</p>
+<p>Definition at line <a class="el" href="compose_8h_source.html#l00051">51</a> of file <a class="el" href="compose_8h_source.html">compose.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a12a04124b88761de36c74f6cfb187015"></a>
 <div class="memitem">
@@ -175,12 +175,12 @@ template&lt;class DisplacementFieldType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="compose_8h_source.html#l00052">52</a> of file <a class="el" href="compose_8h_source.html">compose.h</a>.</p>
+<p>Definition at line <a class="el" href="compose_8h_source.html#l00054">54</a> of file <a class="el" href="compose_8h_source.html">compose.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a75a3541b00e93498fb3829fdd7c646ee"></a>
+<a class="anchor" id="a09a3b9a0f1dca54b14087bc4c2cf6490"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -190,7 +190,7 @@ template&lt;class DisplacementFieldType , class DeformationFieldType &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void MR::Registration::Warp::ComposeLinearDispKernel::operator() </td>
+          <td class="memname">EIGEN_MAKE_ALIGNED_OPERATOR_NEW void MR::Registration::Warp::ComposeLinearDispKernel::operator() </td>
           <td>(</td>
           <td class="paramtype">DisplacementFieldType &amp;&#160;</td>
           <td class="paramname"><em>disp_input</em>, </td>
@@ -214,7 +214,7 @@ template&lt;class DisplacementFieldType , class DeformationFieldType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="compose_8h_source.html#l00057">57</a> of file <a class="el" href="compose_8h_source.html">compose.h</a>.</p>
+<p>Definition at line <a class="el" href="compose_8h_source.html#l00061">61</a> of file <a class="el" href="compose_8h_source.html">compose.h</a>.</p>
 
 </div>
 </div>
@@ -237,7 +237,7 @@ template&lt;class DisplacementFieldType , class DeformationFieldType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="compose_8h_source.html#l00064">64</a> of file <a class="el" href="compose_8h_source.html">compose.h</a>.</p>
+<p>Definition at line <a class="el" href="compose_8h_source.html#l00068">68</a> of file <a class="el" href="compose_8h_source.html">compose.h</a>.</p>
 
 </div>
 </div>
@@ -259,7 +259,7 @@ template&lt;class DisplacementFieldType , class DeformationFieldType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="compose_8h_source.html#l00063">63</a> of file <a class="el" href="compose_8h_source.html">compose.h</a>.</p>
+<p>Definition at line <a class="el" href="compose_8h_source.html#l00067">67</a> of file <a class="el" href="compose_8h_source.html">compose.h</a>.</p>
 
 </div>
 </div>
@@ -272,7 +272,7 @@ template&lt;class DisplacementFieldType , class DeformationFieldType &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_registration.html">Registration</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_registration_1_1_warp.html">Warp</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_registration_1_1_warp_1_1_compose_linear_disp_kernel.html">ComposeLinearDispKernel</a></li>
-    <li class="footer">Generated on Tue Aug 16 2016 10:02:46 for MRtrix by
+    <li class="footer">Generated on Thu Sep 8 2016 09:51:53 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

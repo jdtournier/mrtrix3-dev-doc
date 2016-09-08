@@ -2,7 +2,6 @@ var class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_p
 [
     [ "coef_type", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_value_and_derivative_01_4.html#a6917839cacdf3618703bd2896298709a", null ],
     [ "LinearBase", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_value_and_derivative_01_4.html#a43290d279ad5f5c2dedca9a323958036", null ],
-    [ "value_type", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_value_and_derivative_01_4.html#a3c10edae6f7dc8caa0992eeedbcad2b7", null ],
     [ "LinearInterp", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_value_and_derivative_01_4.html#a5f4f54014a7496d4a4a30caff9c7e919", null ],
     [ "image", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_value_and_derivative_01_4.html#a634e05e984d5c6ebf5b44c5c75b9e1f1", null ],
     [ "scanner", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_value_and_derivative_01_4.html#a789a4c03b81f3848f7aaa40fe5b87c37", null ],
@@ -13,6 +12,7 @@ var class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_p
     [ "voxel", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_value_and_derivative_01_4.html#aa72cf7d5a62e74e9c0c3e0b7236dbc3c", null ],
     [ "out_of_bounds_matrix", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_value_and_derivative_01_4.html#af9b25bb2a8c9f71054743bb6fa8a4e6b", null ],
     [ "out_of_bounds_vec", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_value_and_derivative_01_4.html#a82e2c2960892440c60645ad87bcdfd28", null ],
+    [ "value_type", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_value_and_derivative_01_4.html#a8c625ad31547ae08cdc1a7bd6e7cec15", null ],
     [ "weights_matrix", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_value_and_derivative_01_4.html#aa92b4b3342c0afa8c5d249ae80fc968f", null ],
     [ "wrt_scanner_transform", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_value_and_derivative_01_4.html#a7ef38408bef59c945202b1b5b98fcb4d", null ]
 ];

@@ -5,7 +5,7 @@ var class_m_r_1_1_image_1_1_buffer =
     [ "Buffer", "class_m_r_1_1_image_1_1_buffer.html#ae612afaac3305e43c643bf032328dfa6", null ],
     [ "get_data_pointer", "class_m_r_1_1_image_1_1_buffer.html#a8473427da5030d138487c403a728824c", null ],
     [ "get_io", "class_m_r_1_1_image_1_1_buffer.html#a37c2e7b27c97c5d9cf2c123570c7addd", null ],
-    [ "get_value", "class_m_r_1_1_image_1_1_buffer.html#a354faa905cd586d38b14dba26a06c877", null ],
+    [ "get_value", "class_m_r_1_1_image_1_1_buffer.html#aaec034dc3f2a86c675ece1f7f5c34f03", null ],
     [ "operator=", "class_m_r_1_1_image_1_1_buffer.html#a8b362121c03a8235729a4543fd97069f", null ],
     [ "operator=", "class_m_r_1_1_image_1_1_buffer.html#ac40a402222670f017690ce81580e843e", null ],
     [ "set_fetch_store_functions", "class_m_r_1_1_image_1_1_buffer.html#a5e3bc1208a7cbc1e341c33fedd9bf413", null ],

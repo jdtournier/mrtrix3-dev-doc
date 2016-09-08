@@ -2,6 +2,7 @@ var searchData=
 [
   ['packedfixel',['PackedFixel',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_packed_fixel.html',1,'MR::GUI::MRView::Tool']]],
   ['params',['Params',['../class_m_r_1_1_registration_1_1_metric_1_1_params.html',1,'MR::Registration::Metric']]],
+  ['params_3c_20registration_3a_3amr_3a_3atransform_3a_3arigid_2c_20mr_3a_3aimage_3c_20default_5ftype_20_3e_2c_20mr_3a_3aimage_3c_20default_5ftype_20_3e_2c_20mr_3a_3aheader_2c_20mr_3a_3aimage_3c_20default_5ftype_20_3e_2c_20mr_3a_3aimage_3c_20default_5ftype_20_3e_2c_20interp_3a_3alinearinterp_3c_20mr_3a_3aimage_3c_20default_5ftype_20_3e_2c_20interp_3a_3alinearinterpprocessingtype_3a_3avalue_20_3e_2c_20interp_3a_3alinearinterp_3c_20mr_3a_3aimage_3c_20default_5ftype_20_3e_2c_20interp_3a_3alinearinterpprocessingtype_3a_3avalue_20_3e_2c_20interp_3a_3amr_3a_3aregistration_3a_3alinear_3c_20mr_3a_3aimage_3c_20default_5ftype_20_3e_20_3e_2c_20interp_3a_3amr_3a_3aregistration_3a_3alinear_3c_20mr_3a_3aimage_3c_20default_5ftype_20_3e_20_3e_2c_20mr_3a_3aimage_3c_20default_5ftype_20_3e_2c_20interp_3a_3alinearinterp_3c_20mr_3a_3aimage_3c_20default_5ftype_20_3e_2c_20interp_3a_3alinearinterpprocessingtype_3a_3avalue_20_3e_2c_20mr_3a_3aimage_3c_20default_5ftype_20_3e_2c_20interp_3a_3anearest_3c_20mr_3a_3aimage_3c_20default_5ftype_20_3e_20_3e_20_3e',['Params&lt; Registration::MR::Transform::Rigid, MR::Image&lt; default_type &gt;, MR::Image&lt; default_type &gt;, MR::Header, MR::Image&lt; default_type &gt;, MR::Image&lt; default_type &gt;, Interp::LinearInterp&lt; MR::Image&lt; default_type &gt;, Interp::LinearInterpProcessingType::Value &gt;, Interp::LinearInterp&lt; MR::Image&lt; default_type &gt;, Interp::LinearInterpProcessingType::Value &gt;, Interp::MR::Registration::Linear&lt; MR::Image&lt; default_type &gt; &gt;, Interp::MR::Registration::Linear&lt; MR::Image&lt; default_type &gt; &gt;, MR::Image&lt; default_type &gt;, Interp::LinearInterp&lt; MR::Image&lt; default_type &gt;, Interp::LinearInterpProcessingType::Value &gt;, MR::Image&lt; default_type &gt;, Interp::Nearest&lt; MR::Image&lt; default_type &gt; &gt; &gt;',['../class_m_r_1_1_registration_1_1_metric_1_1_params.html',1,'MR::Registration::Metric']]],
   ['parsedargument',['ParsedArgument',['../class_m_r_1_1_app_1_1_parsed_argument.html',1,'MR::App']]],
   ['parsedname',['ParsedName',['../class_m_r_1_1_file_1_1_parsed_name.html',1,'MR::File']]],
   ['parsedoption',['ParsedOption',['../class_m_r_1_1_app_1_1_parsed_option.html',1,'MR::App']]],
@@ -12,8 +13,8 @@ var searchData=
   ['patient',['Patient',['../class_m_r_1_1_file_1_1_dicom_1_1_patient.html',1,'MR::File::Dicom']]],
   ['permutationstack',['PermutationStack',['../class_m_r_1_1_stats_1_1_perm_test_1_1_permutation_stack.html',1,'MR::Stats::PermTest']]],
   ['permuteaxes',['PermuteAxes',['../class_m_r_1_1_adapter_1_1_permute_axes.html',1,'MR::Adapter']]],
-  ['pipe',['Pipe',['../class_m_r_1_1_image_i_o_1_1_pipe.html',1,'MR::ImageIO']]],
   ['pipe',['Pipe',['../class_m_r_1_1_formats_1_1_pipe.html',1,'MR::Formats']]],
+  ['pipe',['Pipe',['../class_m_r_1_1_image_i_o_1_1_pipe.html',1,'MR::ImageIO']]],
   ['polygon',['Polygon',['../class_m_r_1_1_mesh_1_1_polygon.html',1,'MR::Mesh']]],
   ['precomputedal',['PrecomputedAL',['../class_m_r_1_1_math_1_1_s_h_1_1_precomputed_a_l.html',1,'MR::Math::SH']]],
   ['precomputedal_3c_20float_20_3e',['PrecomputedAL&lt; float &gt;',['../class_m_r_1_1_math_1_1_s_h_1_1_precomputed_a_l.html',1,'MR::Math::SH']]],

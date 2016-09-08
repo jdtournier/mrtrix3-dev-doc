@@ -1,5 +1,6 @@
 var dir_0d6681a839e021cb81cac4dd2fd6301f =
 [
+    [ "dialog.h", "dialog_8h.html", "dialog_8h" ],
     [ "dicom.h", "dicom_8h.html", "dicom_8h" ],
     [ "file.h", "gui_2dialog_2file_8h.html", "gui_2dialog_2file_8h" ],
     [ "image_properties.h", "image__properties_8h.html", [

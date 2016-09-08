@@ -35,7 +35,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-209-gc5a52b02</div>
+   <div id="projectbrief">Version 0.3.15-251-gbf6eb6e0</div>
   </td>
  </tr>
  </tbody>
@@ -139,11 +139,12 @@ Inheritance diagram for MR::Header:</div>
 <area href="class_m_r_1_1_filter_1_1_erode.html" title="a filter to erode a mask " alt="MR::Filter::Erode" shape="rect" coords="212,280,414,304"/>
 <area href="class_m_r_1_1_filter_1_1_f_f_t.html" title="a filter to perform an FFT on an image " alt="MR::Filter::FFT" shape="rect" coords="212,336,414,360"/>
 <area href="class_m_r_1_1_filter_1_1_gradient.html" alt="MR::Filter::Gradient" shape="rect" coords="212,392,414,416"/>
-<area href="class_m_r_1_1_filter_1_1_median.html" alt="MR::Filter::Median" shape="rect" coords="212,448,414,472"/>
-<area href="class_m_r_1_1_filter_1_1_normalise.html" alt="MR::Filter::Normalise" shape="rect" coords="212,504,414,528"/>
-<area href="class_m_r_1_1_filter_1_1_optimal_threshold.html" title="a filter to compute the optimal threshold to mask a DataSet. " alt="MR::Filter::OptimalThreshold" shape="rect" coords="212,560,414,584"/>
-<area href="class_m_r_1_1_filter_1_1_resize.html" alt="MR::Filter::Resize" shape="rect" coords="212,616,414,640"/>
-<area href="class_m_r_1_1_filter_1_1_smooth.html" alt="MR::Filter::Smooth" shape="rect" coords="212,672,414,696"/>
+<area href="class_m_r_1_1_filter_1_1_mask_clean.html" title="a filter to clean up masks typically output by DWIBrainMask filter " alt="MR::Filter::MaskClean" shape="rect" coords="212,448,414,472"/>
+<area href="class_m_r_1_1_filter_1_1_median.html" alt="MR::Filter::Median" shape="rect" coords="212,504,414,528"/>
+<area href="class_m_r_1_1_filter_1_1_normalise.html" alt="MR::Filter::Normalise" shape="rect" coords="212,560,414,584"/>
+<area href="class_m_r_1_1_filter_1_1_optimal_threshold.html" title="a filter to compute the optimal threshold to mask a DataSet. " alt="MR::Filter::OptimalThreshold" shape="rect" coords="212,616,414,640"/>
+<area href="class_m_r_1_1_filter_1_1_resize.html" alt="MR::Filter::Resize" shape="rect" coords="212,672,414,696"/>
+<area href="class_m_r_1_1_filter_1_1_smooth.html" alt="MR::Filter::Smooth" shape="rect" coords="212,728,414,752"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -176,9 +177,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:accc89cd8dc583547405754430e4b11c5"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_header.html#accc89cd8dc583547405754430e4b11c5">Header</a> (const HeaderType &amp;original)</td></tr>
 <tr class="memdesc:accc89cd8dc583547405754430e4b11c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">copy constructor from type of class other than <a class="el" href="class_m_r_1_1_header.html">Header</a>  <a href="#accc89cd8dc583547405754430e4b11c5">More...</a><br /></td></tr>
 <tr class="separator:accc89cd8dc583547405754430e4b11c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa4f38689eed176b2611b434c51043b1f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_r_1_1_header.html">Header</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_header.html#aa4f38689eed176b2611b434c51043b1f">operator=</a> (const <a class="el" href="class_m_r_1_1_header.html">Header</a> &amp;<a class="el" href="noise__estimator_8h.html#aaebed747e975509a9b8470c6d7ba93b3">H</a>)</td></tr>
-<tr class="memdesc:aa4f38689eed176b2611b434c51043b1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">assignment operator  <a href="#aa4f38689eed176b2611b434c51043b1f">More...</a><br /></td></tr>
-<tr class="separator:aa4f38689eed176b2611b434c51043b1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbf55cbd48cf7e2e0f62108085a05723"><td class="memItemLeft" align="right" valign="top">EIGEN_MAKE_ALIGNED_OPERATOR_NEW <a class="el" href="class_m_r_1_1_header.html">Header</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_header.html#acbf55cbd48cf7e2e0f62108085a05723">operator=</a> (const <a class="el" href="class_m_r_1_1_header.html">Header</a> &amp;<a class="el" href="noise__estimator_8h.html#aaebed747e975509a9b8470c6d7ba93b3">H</a>)</td></tr>
+<tr class="memdesc:acbf55cbd48cf7e2e0f62108085a05723"><td class="mdescLeft">&#160;</td><td class="mdescRight">assignment operator  <a href="#acbf55cbd48cf7e2e0f62108085a05723">More...</a><br /></td></tr>
+<tr class="separator:acbf55cbd48cf7e2e0f62108085a05723"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12bf617a4bcaca7a9ecdf0410daf16cf"><td class="memTemplParams" colspan="2">template&lt;class HeaderType , typename std::enable_if&lt; std::is_base_of&lt; Header, HeaderType &gt;::value, void * &gt;::type  = nullptr&gt; </td></tr>
 <tr class="memitem:a12bf617a4bcaca7a9ecdf0410daf16cf"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_m_r_1_1_header.html">Header</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_header.html#a12bf617a4bcaca7a9ecdf0410daf16cf">operator=</a> (const HeaderType &amp;original)</td></tr>
 <tr class="memdesc:a12bf617a4bcaca7a9ecdf0410daf16cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">assignment operator from type of class derived from <a class="el" href="class_m_r_1_1_header.html">Header</a>  <a href="#a12bf617a4bcaca7a9ecdf0410daf16cf">More...</a><br /></td></tr>
@@ -508,7 +509,7 @@ template&lt;class HeaderType , typename std::enable_if&lt;!std::is_base_of&lt; H
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="header_8h_source.html#l00163">163</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
+<p>Definition at line <a class="el" href="header_8h_source.html#l00165">165</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
 
 </div>
 </div>
@@ -535,7 +536,7 @@ template&lt;class HeaderType , typename std::enable_if&lt;!std::is_base_of&lt; H
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="header_8h_source.html#l00346">346</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
+<p>Definition at line <a class="el" href="header_8h_source.html#l00348">348</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
 
 </div>
 </div>
@@ -573,7 +574,7 @@ template&lt;class HeaderType , typename std::enable_if&lt;!std::is_base_of&lt; H
 
 <p>update existing intensity offset &amp; scale with values supplied </p>
 
-<p>Definition at line <a class="el" href="header_8h_source.html#l00263">263</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
+<p>Definition at line <a class="el" href="header_8h_source.html#l00265">265</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
 
 </div>
 </div>
@@ -634,7 +635,7 @@ template&lt;class HeaderType , typename std::enable_if&lt;!std::is_base_of&lt; H
 
 <p>get the datatype of the data as stored on file </p>
 
-<p>Definition at line <a class="el" href="header_8h_source.html#l00249">249</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
+<p>Definition at line <a class="el" href="header_8h_source.html#l00251">251</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
 
 </div>
 </div>
@@ -661,7 +662,7 @@ template&lt;class HeaderType , typename std::enable_if&lt;!std::is_base_of&lt; H
 
 <p>get/set the datatype of the data as stored on file </p>
 
-<p>Definition at line <a class="el" href="header_8h_source.html#l00251">251</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
+<p>Definition at line <a class="el" href="header_8h_source.html#l00253">253</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
 
 </div>
 </div>
@@ -705,7 +706,7 @@ template&lt;class HeaderType , typename std::enable_if&lt;!std::is_base_of&lt; H
 
 <p>return the format of the image </p>
 
-<p>Definition at line <a class="el" href="header_8h_source.html#l00181">181</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
+<p>Definition at line <a class="el" href="header_8h_source.html#l00183">183</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
 
 </div>
 </div>
@@ -756,7 +757,7 @@ template&lt;typename ValueType &gt; </div>
 
 <p>get the offset applied to raw intensities </p>
 
-<p>Definition at line <a class="el" href="header_8h_source.html#l00254">254</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
+<p>Definition at line <a class="el" href="header_8h_source.html#l00256">256</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
 
 </div>
 </div>
@@ -783,7 +784,7 @@ template&lt;typename ValueType &gt; </div>
 
 <p>get/set the offset applied to raw intensities </p>
 
-<p>Definition at line <a class="el" href="header_8h_source.html#l00256">256</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
+<p>Definition at line <a class="el" href="header_8h_source.html#l00258">258</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
 
 </div>
 </div>
@@ -810,7 +811,7 @@ template&lt;typename ValueType &gt; </div>
 
 <p>get the scaling applied to raw intensities </p>
 
-<p>Definition at line <a class="el" href="header_8h_source.html#l00258">258</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
+<p>Definition at line <a class="el" href="header_8h_source.html#l00260">260</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
 
 </div>
 </div>
@@ -837,7 +838,7 @@ template&lt;typename ValueType &gt; </div>
 
 <p>get/set the scaling applied to raw intensities </p>
 
-<p>Definition at line <a class="el" href="header_8h_source.html#l00260">260</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
+<p>Definition at line <a class="el" href="header_8h_source.html#l00262">262</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
 
 </div>
 </div>
@@ -862,7 +863,7 @@ template&lt;typename ValueType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="header_8h_source.html#l00280">280</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
+<p>Definition at line <a class="el" href="header_8h_source.html#l00282">282</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
 
 </div>
 </div>
@@ -889,7 +890,7 @@ template&lt;typename ValueType &gt; </div>
 
 <p>get generic key/value text attributes </p>
 
-<p>Definition at line <a class="el" href="header_8h_source.html#l00314">314</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
+<p>Definition at line <a class="el" href="header_8h_source.html#l00316">316</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
 
 </div>
 </div>
@@ -916,7 +917,7 @@ template&lt;typename ValueType &gt; </div>
 
 <p>get/set generic key/value text attributes </p>
 
-<p>Definition at line <a class="el" href="header_8h_source.html#l00316">316</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
+<p>Definition at line <a class="el" href="header_8h_source.html#l00318">318</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
 
 </div>
 </div>
@@ -967,7 +968,7 @@ template&lt;typename ValueType &gt; </div>
 
 <p>get the name of the image </p>
 
-<p>Definition at line <a class="el" href="header_8h_source.html#l00176">176</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
+<p>Definition at line <a class="el" href="header_8h_source.html#l00178">178</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
 
 </div>
 </div>
@@ -994,7 +995,7 @@ template&lt;typename ValueType &gt; </div>
 
 <p>get/set the name of the image </p>
 
-<p>Definition at line <a class="el" href="header_8h_source.html#l00178">178</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
+<p>Definition at line <a class="el" href="header_8h_source.html#l00180">180</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
 
 </div>
 </div>
@@ -1021,7 +1022,7 @@ template&lt;typename ValueType &gt; </div>
 
 <p>return the number of dimensions (axes) of image </p>
 
-<p>Definition at line <a class="el" href="header_8h_source.html#l00207">207</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
+<p>Definition at line <a class="el" href="header_8h_source.html#l00209">209</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
 
 </div>
 </div>
@@ -1048,7 +1049,7 @@ template&lt;typename ValueType &gt; </div>
 
 <p>set the number of dimensions (axes) of image </p>
 
-<p>Definition at line <a class="el" href="header_8h_source.html#l00209">209</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
+<p>Definition at line <a class="el" href="header_8h_source.html#l00211">211</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
 
 </div>
 </div>
@@ -1097,7 +1098,7 @@ template&lt;typename ValueType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="header_8h_source.html#l00173">173</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
+<p>Definition at line <a class="el" href="header_8h_source.html#l00175">175</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
 
 </div>
 </div>
@@ -1127,7 +1128,7 @@ template&lt;typename ValueType &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="aa4f38689eed176b2611b434c51043b1f"></a>
+<a class="anchor" id="acbf55cbd48cf7e2e0f62108085a05723"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1135,7 +1136,7 @@ template&lt;typename ValueType &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_m_r_1_1_header.html">Header</a>&amp; MR::Header::operator= </td>
+          <td class="memname">EIGEN_MAKE_ALIGNED_OPERATOR_NEW <a class="el" href="class_m_r_1_1_header.html">Header</a>&amp; MR::Header::operator= </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_m_r_1_1_header.html">Header</a> &amp;&#160;</td>
           <td class="paramname"><em>H</em></td><td>)</td>
@@ -1152,7 +1153,7 @@ template&lt;typename ValueType &gt; </div>
 <p>assignment operator </p>
 <p>This copies everything over, resets the intensity scaling if the data type is floating-point, and resets the IO handler. </p>
 
-<p>Definition at line <a class="el" href="header_8h_source.html#l00122">122</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
+<p>Definition at line <a class="el" href="header_8h_source.html#l00124">124</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
 
 </div>
 </div>
@@ -1181,9 +1182,9 @@ template&lt;class HeaderType , typename std::enable_if&lt; std::is_base_of&lt; H
 </div><div class="memdoc">
 
 <p>assignment operator from type of class derived from <a class="el" href="class_m_r_1_1_header.html">Header</a> </p>
-<p>This invokes the standard assignment <a class="el" href="class_m_r_1_1_header.html#aa4f38689eed176b2611b434c51043b1f" title="assignment operator ">operator=(const Header&amp;)</a>. </p>
+<p>This invokes the standard assignment <a class="el" href="class_m_r_1_1_header.html#acbf55cbd48cf7e2e0f62108085a05723" title="assignment operator ">operator=(const Header&amp;)</a>. </p>
 
-<p>Definition at line <a class="el" href="header_8h_source.html#l00138">138</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
+<p>Definition at line <a class="el" href="header_8h_source.html#l00140">140</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
 
 </div>
 </div>
@@ -1214,7 +1215,7 @@ template&lt;class HeaderType , typename std::enable_if&lt;!std::is_base_of&lt; H
 <p>assignment operator from type of class other than <a class="el" href="class_m_r_1_1_header.html">Header</a> </p>
 <p>This copies all the relevant parameters over from <em>original</em>, </p>
 
-<p>Definition at line <a class="el" href="header_8h_source.html#l00145">145</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
+<p>Definition at line <a class="el" href="header_8h_source.html#l00147">147</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
 
 </div>
 </div>
@@ -1266,7 +1267,7 @@ template&lt;class HeaderType , typename std::enable_if&lt;!std::is_base_of&lt; H
 
 <p>reset intensity offset to zero and scaling to one </p>
 
-<p>Definition at line <a class="el" href="header_8h_source.html#l00278">278</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
+<p>Definition at line <a class="el" href="header_8h_source.html#l00280">280</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
 
 </div>
 </div>
@@ -1293,7 +1294,7 @@ template&lt;class HeaderType , typename std::enable_if&lt;!std::is_base_of&lt; H
 
 <p>make header self-consistent </p>
 
-<p>Definition at line <a class="el" href="header_8h_source.html#l00283">283</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
+<p>Definition at line <a class="el" href="header_8h_source.html#l00285">285</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
 
 </div>
 </div>
@@ -1318,7 +1319,7 @@ template&lt;class HeaderType , typename std::enable_if&lt;!std::is_base_of&lt; H
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="header_8h_source.html#l00354">354</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
+<p>Definition at line <a class="el" href="header_8h_source.html#l00356">356</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
 
 </div>
 </div>
@@ -1436,7 +1437,7 @@ template&lt;class HeaderType , typename std::enable_if&lt;!std::is_base_of&lt; H
 
 <p>replace existing intensity offset &amp; scale with values supplied </p>
 
-<p>Definition at line <a class="el" href="header_8h_source.html#l00269">269</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
+<p>Definition at line <a class="el" href="header_8h_source.html#l00271">271</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
 
 </div>
 </div>
@@ -1464,7 +1465,7 @@ template&lt;class HeaderType , typename std::enable_if&lt;!std::is_base_of&lt; H
 
 <p>replace existing intensity offset &amp; scale with values in <em>H</em> </p>
 
-<p>Definition at line <a class="el" href="header_8h_source.html#l00276">276</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
+<p>Definition at line <a class="el" href="header_8h_source.html#l00278">278</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
 
 </div>
 </div>
@@ -1491,7 +1492,7 @@ template&lt;class HeaderType , typename std::enable_if&lt;!std::is_base_of&lt; H
 
 <p>get the 4x4 affine transformation matrix mapping image to world coordinates </p>
 
-<p>Definition at line <a class="el" href="header_8h_source.html#l00184">184</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
+<p>Definition at line <a class="el" href="header_8h_source.html#l00186">186</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
 
 </div>
 </div>
@@ -1518,7 +1519,7 @@ template&lt;class HeaderType , typename std::enable_if&lt;!std::is_base_of&lt; H
 
 <p>get/set the 4x4 affine transformation matrix mapping image to world coordinates </p>
 
-<p>Definition at line <a class="el" href="header_8h_source.html#l00186">186</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
+<p>Definition at line <a class="el" href="header_8h_source.html#l00188">188</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
 
 </div>
 </div>
@@ -1543,7 +1544,7 @@ template&lt;class HeaderType , typename std::enable_if&lt;!std::is_base_of&lt; H
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="header_8h_source.html#l00172">172</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
+<p>Definition at line <a class="el" href="header_8h_source.html#l00174">174</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
 
 </div>
 </div>
@@ -1603,7 +1604,7 @@ template&lt;class HeaderType , typename std::enable_if&lt;!std::is_base_of&lt; H
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="header_8h_source.html#l00332">332</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
+<p>Definition at line <a class="el" href="header_8h_source.html#l00334">334</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
 
 </div>
 </div>
@@ -1627,7 +1628,7 @@ template&lt;class HeaderType , typename std::enable_if&lt;!std::is_base_of&lt; H
 
 <p>the type of the data as stored on file </p>
 
-<p>Definition at line <a class="el" href="header_8h_source.html#l00341">341</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
+<p>Definition at line <a class="el" href="header_8h_source.html#l00343">343</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
 
 </div>
 </div>
@@ -1650,7 +1651,7 @@ template&lt;class HeaderType , typename std::enable_if&lt;!std::is_base_of&lt; H
 </div><div class="memdoc">
 <p>use to prevent automatic realignment of transform matrix into near-standard (RAS) coordinate system. </p>
 
-<p>Definition at line <a class="el" href="header_8h_source.html#l00324">324</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
+<p>Definition at line <a class="el" href="header_8h_source.html#l00326">326</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
 
 </div>
 </div>
@@ -1672,7 +1673,7 @@ template&lt;class HeaderType , typename std::enable_if&lt;!std::is_base_of&lt; H
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="header_8h_source.html#l00336">336</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
+<p>Definition at line <a class="el" href="header_8h_source.html#l00338">338</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
 
 </div>
 </div>
@@ -1696,7 +1697,7 @@ template&lt;class HeaderType , typename std::enable_if&lt;!std::is_base_of&lt; H
 
 <p>additional information relevant for images stored on file </p>
 
-<p>Definition at line <a class="el" href="header_8h_source.html#l00339">339</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
+<p>Definition at line <a class="el" href="header_8h_source.html#l00341">341</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
 
 </div>
 </div>
@@ -1718,7 +1719,7 @@ template&lt;class HeaderType , typename std::enable_if&lt;!std::is_base_of&lt; H
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="header_8h_source.html#l00335">335</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
+<p>Definition at line <a class="el" href="header_8h_source.html#l00337">337</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
 
 </div>
 </div>
@@ -1740,7 +1741,7 @@ template&lt;class HeaderType , typename std::enable_if&lt;!std::is_base_of&lt; H
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="header_8h_source.html#l00334">334</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
+<p>Definition at line <a class="el" href="header_8h_source.html#l00336">336</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
 
 </div>
 </div>
@@ -1764,7 +1765,7 @@ template&lt;class HeaderType , typename std::enable_if&lt;!std::is_base_of&lt; H
 
 <p>the values by which to scale the intensities </p>
 
-<p>Definition at line <a class="el" href="header_8h_source.html#l00343">343</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
+<p>Definition at line <a class="el" href="header_8h_source.html#l00345">345</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
 
 </div>
 </div>
@@ -1786,7 +1787,7 @@ template&lt;class HeaderType , typename std::enable_if&lt;!std::is_base_of&lt; H
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="header_8h_source.html#l00343">343</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
+<p>Definition at line <a class="el" href="header_8h_source.html#l00345">345</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
 
 </div>
 </div>
@@ -1808,7 +1809,7 @@ template&lt;class HeaderType , typename std::enable_if&lt;!std::is_base_of&lt; H
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="header_8h_source.html#l00333">333</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
+<p>Definition at line <a class="el" href="header_8h_source.html#l00335">335</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
 
 </div>
 </div>
@@ -1821,7 +1822,7 @@ template&lt;class HeaderType , typename std::enable_if&lt;!std::is_base_of&lt; H
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_header.html">Header</a></li>
-    <li class="footer">Generated on Tue Aug 16 2016 10:02:44 for MRtrix by
+    <li class="footer">Generated on Thu Sep 8 2016 09:51:51 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

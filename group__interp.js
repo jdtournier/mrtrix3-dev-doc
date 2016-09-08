@@ -41,7 +41,7 @@ var group__interp =
       [ "operator!", "class_m_r_1_1_interp_1_1_base.html#aa92869e55bc26d39fda1f574a77fbfbd", null ],
       [ "bounds", "class_m_r_1_1_interp_1_1_base.html#af087eda826cccad7cd645ab61de15d72", null ],
       [ "out_of_bounds", "class_m_r_1_1_interp_1_1_base.html#a0c62bc630c47bf1712e4a2874fa70fc5", null ],
-      [ "out_of_bounds_value", "class_m_r_1_1_interp_1_1_base.html#a67dd8278dfe8eff9e22e08e9bb3cbb94", null ]
+      [ "out_of_bounds_value", "class_m_r_1_1_interp_1_1_base.html#a6aea2ba234fb8daca0033b3d20a59c1e", null ]
     ] ],
     [ "SplineInterpBase", "class_m_r_1_1_interp_1_1_spline_interp_base.html", [
       [ "SplineInterpBase", "class_m_r_1_1_interp_1_1_spline_interp_base.html#ae2c6d9b49033a74fa727516fd1225b0b", null ],
@@ -52,18 +52,17 @@ var group__interp =
     [ "SplineInterp", "class_m_r_1_1_interp_1_1_spline_interp.html", null ],
     [ "SplineInterp< ImageType, SplineType, Math::SplineProcessingType::Value >", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_processing_type_1_1_value_01_4.html", [
       [ "SplineBase", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_processing_type_1_1_value_01_4.html#ad9fec2e86447b9a3a2d67e6920e0a66a", null ],
-      [ "value_type", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_processing_type_1_1_value_01_4.html#a45f7a94ce2ee5e34a50257b54289a9f4", null ],
       [ "SplineInterp", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_processing_type_1_1_value_01_4.html#af01806d597dc69f124cd4368ae3a9f8c", null ],
       [ "image", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_processing_type_1_1_value_01_4.html#a6df7358b53f914620ef004ebc929a5f8", null ],
       [ "row", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_processing_type_1_1_value_01_4.html#af38675d1d1a8eb33eb487e2c9575302a", null ],
       [ "scanner", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_processing_type_1_1_value_01_4.html#ac6c47e454ba7a9d4be085e05d115b36d", null ],
       [ "value", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_processing_type_1_1_value_01_4.html#a2b12e27f6d0b66a7ea832089a7af1974", null ],
       [ "voxel", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_processing_type_1_1_value_01_4.html#afab8d883dca709e3f2fdca40af69fbd4", null ],
+      [ "value_type", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_processing_type_1_1_value_01_4.html#a4e58b15c9913de0e4a44a959a8db2886", null ],
       [ "weights_vec", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_processing_type_1_1_value_01_4.html#a6d23df93006c95378b125d87f498a3be", null ]
     ] ],
     [ "SplineInterp< ImageType, SplineType, Math::SplineProcessingType::Derivative >", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_p71b7b33230e9f6db7179b5005ae1ab41.html", [
       [ "SplineBase", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_p71b7b33230e9f6db7179b5005ae1ab41.html#af908d518f43dd9be694114da2db80151", null ],
-      [ "value_type", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_p71b7b33230e9f6db7179b5005ae1ab41.html#accaf8c8d0b2cb4476e5492f87ea3bfd1", null ],
       [ "SplineInterp", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_p71b7b33230e9f6db7179b5005ae1ab41.html#af5524285380ec90f51c2df6505641d70", null ],
       [ "gradient", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_p71b7b33230e9f6db7179b5005ae1ab41.html#a00050ff1f292f1446b6d93d7f2a2387d", null ],
       [ "gradient_row", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_p71b7b33230e9f6db7179b5005ae1ab41.html#a022554292bf87a595bea4ca009a23982", null ],
@@ -74,12 +73,12 @@ var group__interp =
       [ "voxel", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_p71b7b33230e9f6db7179b5005ae1ab41.html#aea4677c2f84daba09a9effd6b62a8e89", null ],
       [ "out_of_bounds_matrix", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_p71b7b33230e9f6db7179b5005ae1ab41.html#aecaec0779874b6852535ee0a66dfd6cd", null ],
       [ "out_of_bounds_vec", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_p71b7b33230e9f6db7179b5005ae1ab41.html#af69eea1d048e5d2093139eee7bd17f34", null ],
+      [ "value_type", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_p71b7b33230e9f6db7179b5005ae1ab41.html#ae8eebebaeac768daf33444f8fb8332b7", null ],
       [ "weights_matrix", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_p71b7b33230e9f6db7179b5005ae1ab41.html#a0c037e5a401ee501e27cd773e597346d", null ],
       [ "wrt_scanner_transform", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_p71b7b33230e9f6db7179b5005ae1ab41.html#ac451b1da978e1a3849a9788c8616ebb1", null ]
     ] ],
     [ "SplineInterp< ImageType, SplineType, Math::SplineProcessingType::ValueAndDerivative >", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_p67c55abb4645d7286881c1c4671654a0.html", [
       [ "SplineBase", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_p67c55abb4645d7286881c1c4671654a0.html#aa0c1b8cc25205b78e7b964b3da5839fd", null ],
-      [ "value_type", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_p67c55abb4645d7286881c1c4671654a0.html#a31415bde7fb4c87b415917ff7d9dc341", null ],
       [ "SplineInterp", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_p67c55abb4645d7286881c1c4671654a0.html#a5e99c8bd6cd28f51844099ac9c5b6086", null ],
       [ "image", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_p67c55abb4645d7286881c1c4671654a0.html#a869586f4be48776b18a61888de5bac12", null ],
       [ "scanner", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_p67c55abb4645d7286881c1c4671654a0.html#a911a1e4419dedbf00cae53fdab8cf3b8", null ],
@@ -90,6 +89,7 @@ var group__interp =
       [ "voxel", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_p67c55abb4645d7286881c1c4671654a0.html#adbe2720571ce164053048db65c01e618", null ],
       [ "out_of_bounds_matrix", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_p67c55abb4645d7286881c1c4671654a0.html#adaf2007351840f48e8828ed061fd39db", null ],
       [ "out_of_bounds_vec", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_p67c55abb4645d7286881c1c4671654a0.html#aa83b314fffec7acedad0020d4311384b", null ],
+      [ "value_type", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_p67c55abb4645d7286881c1c4671654a0.html#a08132b9d9fa99a5b70ff2f8d071782f0", null ],
       [ "weights_matrix", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_p67c55abb4645d7286881c1c4671654a0.html#a8c2bb4508f031046f0537cf0501c99b4", null ],
       [ "wrt_scanner_transform", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_p67c55abb4645d7286881c1c4671654a0.html#aebb6d8e1dd619f1024d3aba4296336e2", null ]
     ] ],
@@ -101,7 +101,7 @@ var group__interp =
     ] ],
     [ "LinearInterpBase", "class_m_r_1_1_interp_1_1_linear_interp_base.html", [
       [ "coef_type", "class_m_r_1_1_interp_1_1_linear_interp_base.html#adf6740ef17d653839ccbca63fe8704d2", null ],
-      [ "LinearInterpBase", "class_m_r_1_1_interp_1_1_linear_interp_base.html#ac5bf13d1d18cac2b058a735971550142", null ],
+      [ "LinearInterpBase", "class_m_r_1_1_interp_1_1_linear_interp_base.html#a7b953b23f11668bdb47634e0a37740de", null ],
       [ "clamp", "class_m_r_1_1_interp_1_1_linear_interp_base.html#a96435683cf6c520a0c4e9e73696fe0b2", null ],
       [ "eps", "class_m_r_1_1_interp_1_1_linear_interp_base.html#a8cee4350c7062d99eddc51d28d2c29e8", null ],
       [ "P", "class_m_r_1_1_interp_1_1_linear_interp_base.html#aa5dbf960d9b7e85cfe4f0d75e81cc851", null ],
@@ -111,19 +111,18 @@ var group__interp =
     [ "LinearInterp< ImageType, LinearInterpProcessingType::Value >", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_value_01_4.html", [
       [ "coef_type", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_value_01_4.html#a31bd99cc01c915c9663e48afcb99a180", null ],
       [ "LinearBase", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_value_01_4.html#a6e1f9c9ecdf7b16cfb1e38a131811593", null ],
-      [ "value_type", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_value_01_4.html#a4d2432618d1abe8fa3771b1baca7fe1f", null ],
       [ "LinearInterp", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_value_01_4.html#a35e1f0478f9a5d76558a9e10c971c65b", null ],
       [ "image", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_value_01_4.html#abee3d37c217d6e50a822490cd7242f41", null ],
       [ "row", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_value_01_4.html#a3331fc112d0234a30c3ac8608f2782c3", null ],
       [ "scanner", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_value_01_4.html#aab5272f3e4d8e1e4237300eade976fac", null ],
       [ "value", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_value_01_4.html#a68e810e231e0a57ae7286284650a0221", null ],
       [ "voxel", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_value_01_4.html#a6f012eb51704fe0d65d53fd2d2d6d59f", null ],
-      [ "factors", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_value_01_4.html#af26d51790f8b550fbfea09d0e65a3c7b", null ]
+      [ "factors", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_value_01_4.html#af26d51790f8b550fbfea09d0e65a3c7b", null ],
+      [ "value_type", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_value_01_4.html#aebc4a625db5c0e2eb9d69eacd8c96e9e", null ]
     ] ],
     [ "LinearInterp< ImageType, LinearInterpProcessingType::Derivative >", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_derivative_01_4.html", [
       [ "coef_type", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_derivative_01_4.html#ab9b84d93484390d8f51c4abcaba61a17", null ],
       [ "LinearBase", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_derivative_01_4.html#a0e298c668ff8aaddba7548b2c9985a60", null ],
-      [ "value_type", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_derivative_01_4.html#aedce173051074f8a168cddf3b9383dcb", null ],
       [ "LinearInterp", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_derivative_01_4.html#a8d2e478b786ceb2aebdd63902df7a81e", null ],
       [ "gradient", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_derivative_01_4.html#ae3de4fd79038bcaa57885eb16d85138b", null ],
       [ "gradient_row", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_derivative_01_4.html#adf41f6431d567a49e8cafede6099312a", null ],
@@ -133,13 +132,13 @@ var group__interp =
       [ "scanner", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_derivative_01_4.html#a8487d79db2152d5a8ab2773694c0d422", null ],
       [ "voxel", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_derivative_01_4.html#af800863030dd85dd11b3e03680b69421", null ],
       [ "out_of_bounds_vec", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_derivative_01_4.html#aee08c51dcccb349802730429ad479b3f", null ],
+      [ "value_type", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_derivative_01_4.html#ae84a568268a757ba75c73c94bbc6c748", null ],
       [ "weights_matrix", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_derivative_01_4.html#aa5ba140c159c63c87eaf7762eacc49f8", null ],
       [ "wrt_scanner_transform", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_derivative_01_4.html#adf7ee5a8b16c2785e5f9409fcfa1dcc9", null ]
     ] ],
     [ "LinearInterp< ImageType, LinearInterpProcessingType::ValueAndDerivative >", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_value_and_derivative_01_4.html", [
       [ "coef_type", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_value_and_derivative_01_4.html#a6917839cacdf3618703bd2896298709a", null ],
       [ "LinearBase", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_value_and_derivative_01_4.html#a43290d279ad5f5c2dedca9a323958036", null ],
-      [ "value_type", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_value_and_derivative_01_4.html#a3c10edae6f7dc8caa0992eeedbcad2b7", null ],
       [ "LinearInterp", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_value_and_derivative_01_4.html#a5f4f54014a7496d4a4a30caff9c7e919", null ],
       [ "image", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_value_and_derivative_01_4.html#a634e05e984d5c6ebf5b44c5c75b9e1f1", null ],
       [ "scanner", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_value_and_derivative_01_4.html#a789a4c03b81f3848f7aaa40fe5b87c37", null ],
@@ -150,6 +149,7 @@ var group__interp =
       [ "voxel", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_value_and_derivative_01_4.html#aa72cf7d5a62e74e9c0c3e0b7236dbc3c", null ],
       [ "out_of_bounds_matrix", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_value_and_derivative_01_4.html#af9b25bb2a8c9f71054743bb6fa8a4e6b", null ],
       [ "out_of_bounds_vec", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_value_and_derivative_01_4.html#a82e2c2960892440c60645ad87bcdfd28", null ],
+      [ "value_type", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_value_and_derivative_01_4.html#a8c625ad31547ae08cdc1a7bd6e7cec15", null ],
       [ "weights_matrix", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_value_and_derivative_01_4.html#aa92b4b3342c0afa8c5d249ae80fc968f", null ],
       [ "wrt_scanner_transform", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_value_and_derivative_01_4.html#a7ef38408bef59c945202b1b5b98fcb4d", null ]
     ] ],
@@ -159,7 +159,7 @@ var group__interp =
       [ "row", "class_m_r_1_1_interp_1_1_nearest.html#a49e4520bd0b03323281821ae09fb7a99", null ],
       [ "scanner", "class_m_r_1_1_interp_1_1_nearest.html#aff2ffd60b17ba18aa82ca8d6f220cf6e", null ],
       [ "value", "class_m_r_1_1_interp_1_1_nearest.html#a52ac6a9abe173e31ae05de3582206091", null ],
-      [ "voxel", "class_m_r_1_1_interp_1_1_nearest.html#a4bc1f9660c09a7533fc5b87e3bf59c26", null ]
+      [ "voxel", "class_m_r_1_1_interp_1_1_nearest.html#ab272900957929f8975cf7a34040b9244", null ]
     ] ],
     [ "Sinc", "class_m_r_1_1_interp_1_1_sinc.html", [
       [ "Sinc", "class_m_r_1_1_interp_1_1_sinc.html#a99c6cf6723466886fbfb3ed9642ffb90", null ],
@@ -167,7 +167,7 @@ var group__interp =
       [ "row", "class_m_r_1_1_interp_1_1_sinc.html#a6459d70e0f2b433757b8aec9b36612b8", null ],
       [ "scanner", "class_m_r_1_1_interp_1_1_sinc.html#a69eeeaa1e053e896ac474cbf1d829338", null ],
       [ "value", "class_m_r_1_1_interp_1_1_sinc.html#ae0445bed6f5339458d25f76815be2bba", null ],
-      [ "voxel", "class_m_r_1_1_interp_1_1_sinc.html#a98b988ade7fce3d69578ba0d74285e3b", null ],
+      [ "voxel", "class_m_r_1_1_interp_1_1_sinc.html#a5ccd173f82e8f76145f13aa3ccbfdd6b", null ],
       [ "kernel_width", "class_m_r_1_1_interp_1_1_sinc.html#ad108c983af8e61968a2d4d75b1ac7a19", null ],
       [ "Sinc_x", "class_m_r_1_1_interp_1_1_sinc.html#ac1c982ac4b293af6e70515bf85d0dac0", null ],
       [ "Sinc_y", "class_m_r_1_1_interp_1_1_sinc.html#a0ef719453aee50baa8354f9557766784", null ],

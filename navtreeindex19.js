@@ -1,5 +1,14 @@
 var NAVTREEINDEX19 =
 {
+"class_m_r_1_1_math_1_1_gradient_descent.html#a100b78f1911889ad35355051dd323ab7":[9,14,0,6],
+"class_m_r_1_1_math_1_1_gradient_descent.html#a172cad39c85a6f4d9dc228437e5687ac":[9,14,0,30],
+"class_m_r_1_1_math_1_1_gradient_descent.html#a2209a20cc698f196421ad2bba4e4674c":[9,14,0,15],
+"class_m_r_1_1_math_1_1_gradient_descent.html#a23e76deede4d60877ce34a92a5fe4b8e":[9,14,0,16],
+"class_m_r_1_1_math_1_1_gradient_descent.html#a267e8007805e0ec6d9b9f5773a2ba452":[9,14,0,18],
+"class_m_r_1_1_math_1_1_gradient_descent.html#a2e2b7df508b121c154e3af485ab63657":[9,14,0,29],
+"class_m_r_1_1_math_1_1_gradient_descent.html#a3618427f53c7981b0e65037b8e3b150d":[9,14,0,25],
+"class_m_r_1_1_math_1_1_gradient_descent.html#a3b94f000625004f226ab7c10c4246f63":[9,14,0,14],
+"class_m_r_1_1_math_1_1_gradient_descent.html#a3f601b2d15f4526ff65786e985ae65c9":[9,14,0,22],
 "class_m_r_1_1_math_1_1_gradient_descent.html#a416838f491e87d859f1abb53b6660e4e":[9,14,0,2],
 "class_m_r_1_1_math_1_1_gradient_descent.html#a4597ba8e6f87eea2c8db062426ba7251":[9,14,0,26],
 "class_m_r_1_1_math_1_1_gradient_descent.html#a492f29f468da53e21c02fd92bf1c4c76":[9,14,0,3],
@@ -240,14 +249,5 @@ var NAVTREEINDEX19 =
 "class_m_r_1_1_mesh_1_1_mesh.html#abf612633611b337d1f4614843081d263":[11,0,0,12,0,30],
 "class_m_r_1_1_mesh_1_1_mesh.html#ac0839895f3cda218a6fd5968c3e87c13":[11,0,0,12,0,3],
 "class_m_r_1_1_mesh_1_1_mesh.html#ac9ef312dbc5b9733517e4b9ae3c532ae":[11,0,0,12,0,4],
-"class_m_r_1_1_mesh_1_1_mesh.html#acde7d1dec54e69f21dec5a55bef863bd":[11,0,0,12,0,17],
-"class_m_r_1_1_mesh_1_1_mesh.html#ad3169086a3c9946dd5c31f447e1b5533":[11,0,0,12,0,5],
-"class_m_r_1_1_mesh_1_1_mesh.html#ae2ee2b26feca5ec7f6dc0573df7663f7":[11,0,0,12,0,7],
-"class_m_r_1_1_mesh_1_1_mesh.html#ae7abf282a41c305f1748f00cc43e9fc6":[11,0,0,12,0,25],
-"class_m_r_1_1_mesh_1_1_mesh.html#af03ad8c46d90b9c487995bad3c79544e":[11,0,0,12,0,29],
-"class_m_r_1_1_mesh_1_1_mesh.html#af3137c753cd1a7e4c6a75979a8ab3ce4":[11,0,0,12,0,18],
-"class_m_r_1_1_mesh_1_1_mesh.html#afb6305a72e8ade289f388246cb24a184":[11,0,0,12,0,28],
-"class_m_r_1_1_mesh_1_1_mesh_multi.html":[11,0,0,12,1],
-"class_m_r_1_1_mesh_1_1_mesh_multi.html#a84adfb3137cfe764984a9d83c5c403b0":[11,0,0,12,1,0],
-"class_m_r_1_1_mesh_1_1_mesh_multi.html#acfcbfc1944635f868b9209d4f85f3307":[11,0,0,12,1,1]
+"class_m_r_1_1_mesh_1_1_mesh.html#acde7d1dec54e69f21dec5a55bef863bd":[11,0,0,12,0,17]
 };

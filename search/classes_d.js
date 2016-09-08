@@ -9,6 +9,7 @@ var searchData=
   ['mapwriterbase',['MapWriterBase',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_map_writer_base.html',1,'MR::DWI::Tractography::Mapping']]],
   ['mask',['Mask',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_mask.html',1,'MR::DWI::Tractography']]],
   ['mask',['Mask',['../class_m_r_1_1_d_w_i_1_1_directions_1_1_mask.html',1,'MR::DWI::Directions']]],
+  ['maskclean',['MaskClean',['../class_m_r_1_1_filter_1_1_mask_clean.html',1,'MR::Filter']]],
   ['mat2vec',['Mat2Vec',['../class_m_r_1_1_connectome_1_1_mat2_vec.html',1,'MR::Connectome']]],
   ['mat4',['mat4',['../class_m_r_1_1_g_u_i_1_1_g_l_1_1mat4.html',1,'MR::GUI::GL']]],
   ['matrix',['Matrix',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_matrix.html',1,'MR::DWI::Tractography::Connectome']]],

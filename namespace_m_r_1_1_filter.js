@@ -11,6 +11,7 @@ var namespace_m_r_1_1_filter =
     [ "FFT", "class_m_r_1_1_filter_1_1_f_f_t.html", "class_m_r_1_1_filter_1_1_f_f_t" ],
     [ "Gradient", "class_m_r_1_1_filter_1_1_gradient.html", "class_m_r_1_1_filter_1_1_gradient" ],
     [ "ImageCorrelationCostFunction", "class_m_r_1_1_filter_1_1_image_correlation_cost_function.html", "class_m_r_1_1_filter_1_1_image_correlation_cost_function" ],
+    [ "MaskClean", "class_m_r_1_1_filter_1_1_mask_clean.html", "class_m_r_1_1_filter_1_1_mask_clean" ],
     [ "Median", "class_m_r_1_1_filter_1_1_median.html", "class_m_r_1_1_filter_1_1_median" ],
     [ "Normalise", "class_m_r_1_1_filter_1_1_normalise.html", "class_m_r_1_1_filter_1_1_normalise" ],
     [ "OptimalThreshold", "class_m_r_1_1_filter_1_1_optimal_threshold.html", "class_m_r_1_1_filter_1_1_optimal_threshold" ],

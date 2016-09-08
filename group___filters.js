@@ -69,6 +69,16 @@ var group___filters =
       [ "stdev", "class_m_r_1_1_filter_1_1_gradient.html#a0b7afbcb82fd32da5c985e6d8f37f795", null ],
       [ "wrt_scanner", "class_m_r_1_1_filter_1_1_gradient.html#a9aeede6efb2b46e2c7df40c19307f037", null ]
     ] ],
+    [ "MaskClean", "class_m_r_1_1_filter_1_1_mask_clean.html", [
+      [ "MaskClean", "class_m_r_1_1_filter_1_1_mask_clean.html#ad7917b376c1ab9575af2e69892817bb3", null ],
+      [ "MaskClean", "class_m_r_1_1_filter_1_1_mask_clean.html#a51bb9d3c075efad439cfb899f1b759be", null ],
+      [ "differ", "class_m_r_1_1_filter_1_1_mask_clean.html#a4a507a4cebe2e2a9ec4f010164e4b18a", null ],
+      [ "operator()", "class_m_r_1_1_filter_1_1_mask_clean.html#a822a78a55541074389b75985bfb2bb2d", null ],
+      [ "set_scale", "class_m_r_1_1_filter_1_1_mask_clean.html#a5c0388e345c7d007b1157022595639f1", null ],
+      [ "single_pass", "class_m_r_1_1_filter_1_1_mask_clean.html#a3834d5317ec4feb2c1d531eb0abaa26c", null ],
+      [ "single_scale", "class_m_r_1_1_filter_1_1_mask_clean.html#afb1eb01fcf99cd0211aefa87116ceac0", null ],
+      [ "scale", "class_m_r_1_1_filter_1_1_mask_clean.html#ad06d12a61e47390928f581c15c78d9df", null ]
+    ] ],
     [ "Median", "class_m_r_1_1_filter_1_1_median.html", [
       [ "Median", "class_m_r_1_1_filter_1_1_median.html#a75fad8cfc0fe42ed9f3753a2ae5d3446", null ],
       [ "Median", "class_m_r_1_1_filter_1_1_median.html#a5affccab5d86c89865533bd35ab19b6f", null ],
