@@ -4,7 +4,7 @@ var class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1 =
     [ "Shared", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1_1_1_shared.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1_1_1_shared" ],
     [ "iFOD1", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1.html#a8bd7acfc44536c5310d84404dce28853", null ],
     [ "~iFOD1", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1.html#af924c234747f3c959eedd707cf7069c0", null ],
-    [ "FOD", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1.html#a41a1bcd5462ddd3e56ab5c069fea7e31", null ],
+    [ "FOD", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1.html#a51b71eb840190cfb4eaeb6c29e1ee8f6", null ],
     [ "get_metric", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1.html#abc33d86494d080ff27914b7421e74687", null ],
     [ "init", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1.html#a8a0eb6efb32c4746dc3d77aefa947241", null ],
     [ "next", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1.html#ac9910e15100e38bdf897c975d3d3a69d", null ],

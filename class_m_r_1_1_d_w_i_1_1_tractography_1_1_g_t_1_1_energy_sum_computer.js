@@ -4,7 +4,7 @@ var class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_energy_sum_computer =
     [ "~EnergySumComputer", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_energy_sum_computer.html#a228f9fa1ff404bdd6874cd70fc78ad60", null ],
     [ "acceptChanges", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_energy_sum_computer.html#a8927bd196d565062de9ca30721032cfe", null ],
     [ "clearChanges", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_energy_sum_computer.html#ad84a90f70b217cc99db96c6ff848a484", null ],
-    [ "clone", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_energy_sum_computer.html#a621f7f34fba30811ec4595bae0bdd49b", null ],
+    [ "clone", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_energy_sum_computer.html#a43cf90f1bd9e3a4c4f34131ac15a1994", null ],
     [ "stageAdd", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_energy_sum_computer.html#aefee67276579389206d7a2c875d3cfa4", null ],
     [ "stageConnect", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_energy_sum_computer.html#accabda5974c4f3ad2d500cbf2fbc211e", null ],
     [ "stageRemove", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_energy_sum_computer.html#a78927316c90b00c73fdcccda0a01855d", null ],

@@ -13,7 +13,7 @@ var class_m_r_1_1_registration_1_1_metric_1_1_params =
     [ "ProcessedValueType", "class_m_r_1_1_registration_1_1_metric_1_1_params.html#aed0843deaf57717f86c5fd805d46ba36", null ],
     [ "TransformParamType", "class_m_r_1_1_registration_1_1_metric_1_1_params.html#a50fb15be5f06e947f4287d6c15362a92", null ],
     [ "Params", "class_m_r_1_1_registration_1_1_metric_1_1_params.html#a96360e36418adb5424a69574179aee3c", null ],
-    [ "get_extent", "class_m_r_1_1_registration_1_1_metric_1_1_params.html#aab6ae884ac32cac725abbeb3207f003d", null ],
+    [ "get_extent", "class_m_r_1_1_registration_1_1_metric_1_1_params.html#a11c5354a626dd0d37aa8c3737847a092", null ],
     [ "set_control_points_extent", "class_m_r_1_1_registration_1_1_metric_1_1_params.html#acf9377087e4e0dad6172463c0ee3e624", null ],
     [ "set_extent", "class_m_r_1_1_registration_1_1_metric_1_1_params.html#a4cae43f2717ba29f2cd3ae41f15c9f76", null ],
     [ "set_im1_iterpolator", "class_m_r_1_1_registration_1_1_metric_1_1_params.html#a9350c52bb176f2579af96946c0a95cb5", null ],

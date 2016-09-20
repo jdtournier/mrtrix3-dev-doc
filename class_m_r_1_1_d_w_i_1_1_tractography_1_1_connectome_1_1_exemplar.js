@@ -6,8 +6,8 @@ var class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_exemplar =
     [ "add", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_exemplar.html#a7e58a953fc4910d1d61607c7e723fdc7", null ],
     [ "add", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_exemplar.html#acf3c6b181ea5bd89a38b25d5c4a17a2a", null ],
     [ "finalize", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_exemplar.html#a7e2175462e4305022d5f7b64c0967618", null ],
-    [ "get", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_exemplar.html#a28ecf4e33e98a11ece1416c8c9df334e", null ],
-    [ "get_weight", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_exemplar.html#ab3aba6a40b9d3edb3eabd05d6f3f99d1", null ],
-    [ "is_diagonal", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_exemplar.html#a4ab5d5a4a083a2843c534b141c282e42", null ],
+    [ "get", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_exemplar.html#ae50cbc77c580b8073c9791acf9f4b540", null ],
+    [ "get_weight", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_exemplar.html#a32f088cab8129a180ea87be139566312", null ],
+    [ "is_diagonal", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_exemplar.html#aaadf27141f8426694bf89adba84e8836", null ],
     [ "operator=", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_exemplar.html#a2935de821cc35ff1357b1d4ecc631d37", null ]
 ];

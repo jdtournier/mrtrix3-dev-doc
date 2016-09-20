@@ -2,9 +2,9 @@ var class_m_r_1_1_g_u_i_1_1_g_l_1_1_font =
 [
     [ "Font", "class_m_r_1_1_g_u_i_1_1_g_l_1_1_font.html#ab25ed625387b169c46ea1af5aab0026e", null ],
     [ "initGL", "class_m_r_1_1_g_u_i_1_1_g_l_1_1_font.html#a6c85dac68762501a71cee67290f8b37d", null ],
-    [ "render", "class_m_r_1_1_g_u_i_1_1_g_l_1_1_font.html#a89f5779d32b4b37421140f76876f61b4", null ],
-    [ "start", "class_m_r_1_1_g_u_i_1_1_g_l_1_1_font.html#ad1a4ea6246a1d19916f932f8785b7799", null ],
-    [ "stop", "class_m_r_1_1_g_u_i_1_1_g_l_1_1_font.html#af1c09faf5c0bd20c2234dca2dec5e386", null ],
+    [ "render", "class_m_r_1_1_g_u_i_1_1_g_l_1_1_font.html#a6f5faa7c283d4524a22039eee7619085", null ],
+    [ "start", "class_m_r_1_1_g_u_i_1_1_g_l_1_1_font.html#a95deec05b6f63f9cc729779ff47aa366", null ],
+    [ "stop", "class_m_r_1_1_g_u_i_1_1_g_l_1_1_font.html#a184a9412108563a153f03bb6bb6bde16", null ],
     [ "font", "class_m_r_1_1_g_u_i_1_1_g_l_1_1_font.html#a275e9d8faecc7203b8438007bb580113", null ],
     [ "font_height", "class_m_r_1_1_g_u_i_1_1_g_l_1_1_font.html#ac7c27d870f01f63da33c08129291e00c", null ],
     [ "font_tex_pos", "class_m_r_1_1_g_u_i_1_1_g_l_1_1_font.html#aaffa62fb2fa27966506cf0e8419fa328", null ],

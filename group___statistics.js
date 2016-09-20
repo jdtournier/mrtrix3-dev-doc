@@ -2,9 +2,9 @@ var group___statistics =
 [
     [ "GLMTTest", "class_m_r_1_1_math_1_1_stats_1_1_g_l_m_t_test.html", [
       [ "GLMTTest", "class_m_r_1_1_math_1_1_stats_1_1_g_l_m_t_test.html#aed6d6a450fccf244cc94672adf0b4932", null ],
-      [ "num_elements", "class_m_r_1_1_math_1_1_stats_1_1_g_l_m_t_test.html#a51a768cc479ac40539618102a25e03cd", null ],
-      [ "num_subjects", "class_m_r_1_1_math_1_1_stats_1_1_g_l_m_t_test.html#a1e42595b2b7810375e7875e21b4a67a4", null ],
-      [ "operator()", "class_m_r_1_1_math_1_1_stats_1_1_g_l_m_t_test.html#af169a7acc77ab62773a9dad063933ba9", null ],
+      [ "num_elements", "class_m_r_1_1_math_1_1_stats_1_1_g_l_m_t_test.html#a7ae8cad981b1de31475076c940e8625a", null ],
+      [ "num_subjects", "class_m_r_1_1_math_1_1_stats_1_1_g_l_m_t_test.html#a49fafac6d08de0a3f74785f1d82695fe", null ],
+      [ "operator()", "class_m_r_1_1_math_1_1_stats_1_1_g_l_m_t_test.html#af582ba1d27b7546520f484dd294e0522", null ],
       [ "pinvX", "class_m_r_1_1_math_1_1_stats_1_1_g_l_m_t_test.html#ab9d91347290470e2703a037ccea3e3c5", null ],
       [ "scaled_contrasts", "class_m_r_1_1_math_1_1_stats_1_1_g_l_m_t_test.html#ad9e71ccd3a935afa11f982fe4c2f0d43", null ],
       [ "X", "class_m_r_1_1_math_1_1_stats_1_1_g_l_m_t_test.html#ad70c2d9802860c744751d594c7f4588b", null ],
@@ -20,7 +20,7 @@ var group___statistics =
     ] ],
     [ "Enhancer", "class_m_r_1_1_stats_1_1_c_f_e_1_1_enhancer.html", [
       [ "Enhancer", "class_m_r_1_1_stats_1_1_c_f_e_1_1_enhancer.html#a2e505547f78df75d4de6201a112a6816", null ],
-      [ "operator()", "class_m_r_1_1_stats_1_1_c_f_e_1_1_enhancer.html#a10326856728e5bdc202a30969e6dd622", null ],
+      [ "operator()", "class_m_r_1_1_stats_1_1_c_f_e_1_1_enhancer.html#a4c5624dc0ca1162cf9cd1df5df39cc99", null ],
       [ "connectivity_map", "class_m_r_1_1_stats_1_1_c_f_e_1_1_enhancer.html#a41aabaa51d7199f1b09c36cbbc8b70f2", null ],
       [ "dh", "class_m_r_1_1_stats_1_1_c_f_e_1_1_enhancer.html#afe4dcd8e7668ab3a148dabfc0535afaa", null ],
       [ "E", "class_m_r_1_1_stats_1_1_c_f_e_1_1_enhancer.html#a10a0102afefe4f86029b69e5ca5f80f3", null ],
@@ -28,13 +28,13 @@ var group___statistics =
     ] ],
     [ "ClusterSize", "class_m_r_1_1_stats_1_1_cluster_1_1_cluster_size.html", [
       [ "ClusterSize", "class_m_r_1_1_stats_1_1_cluster_1_1_cluster_size.html#a820b7347d0656ada24f818f50d856885", null ],
-      [ "operator()", "class_m_r_1_1_stats_1_1_cluster_1_1_cluster_size.html#a7aa5cb8d7a44cdd82db54e955f0c194f", null ],
+      [ "operator()", "class_m_r_1_1_stats_1_1_cluster_1_1_cluster_size.html#a61140669854cc33de9d5d9ed20b4d47d", null ],
       [ "cluster_forming_threshold", "class_m_r_1_1_stats_1_1_cluster_1_1_cluster_size.html#a5d176e513969d6d092c8e1a3c20a47ed", null ],
       [ "connector", "class_m_r_1_1_stats_1_1_cluster_1_1_cluster_size.html#a000f113bebf405e54d7f3739d7fd35ef", null ]
     ] ],
     [ "Enhancer", "class_m_r_1_1_stats_1_1_t_f_c_e_1_1_enhancer.html", [
       [ "Enhancer", "class_m_r_1_1_stats_1_1_t_f_c_e_1_1_enhancer.html#a4482ddf12959b6db61179ed114ba8d0a", null ],
-      [ "operator()", "class_m_r_1_1_stats_1_1_t_f_c_e_1_1_enhancer.html#ad52781753809205c0b3dab868d685f0b", null ],
+      [ "operator()", "class_m_r_1_1_stats_1_1_t_f_c_e_1_1_enhancer.html#a6c060ffa93c013a79197e5324b6b90e8", null ],
       [ "connector", "class_m_r_1_1_stats_1_1_t_f_c_e_1_1_enhancer.html#ac8af5e40ff6e46f11040af9bd1b34147", null ],
       [ "dh", "class_m_r_1_1_stats_1_1_t_f_c_e_1_1_enhancer.html#adc7d3cc37d2be08c776a614cfc24802b", null ],
       [ "E", "class_m_r_1_1_stats_1_1_t_f_c_e_1_1_enhancer.html#a194df1c582c3aea7e1e2c0098c16e0a0", null ],

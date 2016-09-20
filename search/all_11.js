@@ -1,7 +1,7 @@
 var searchData=
 [
   ['qcolorbutton',['QColorButton',['../class_q_color_button.html',1,'QColorButton'],['../class_q_color_button.html#ad1f7466429b73110c6e5712316afc38b',1,'QColorButton::QColorButton(QWidget *parent=NULL, const char *name=NULL)'],['../class_q_color_button.html#a77247ce4e89ebbf6f6b3ca5a8db09c1d',1,'QColorButton::QColorButton(const QColor &amp;c, QWidget *parent=NULL, const char *name=NULL)']]],
-  ['quad',['quad',['../class_m_r_1_1_mesh_1_1_mesh.html#a2e63302998c6351ed6d5f9a7decf07c3',1,'MR::Mesh::Mesh::quad()'],['../namespace_m_r_1_1_mesh.html#a75d5aae874010b69b050f4c82ba3fe87',1,'MR::Mesh::Quad()']]],
+  ['quad',['quad',['../class_m_r_1_1_mesh_1_1_mesh.html#a30c4f4055ddbf152ab9ad53b6e68b627',1,'MR::Mesh::Mesh::quad()'],['../namespace_m_r_1_1_mesh.html#a75d5aae874010b69b050f4c82ba3fe87',1,'MR::Mesh::Quad()']]],
   ['quadlist',['QuadList',['../namespace_m_r_1_1_mesh.html#a3e72ab58274938d879b317c25b784e30',1,'MR::Mesh']]],
   ['quadratic_5fline_5fsearch_2eh',['quadratic_line_search.h',['../quadratic__line__search_8h.html',1,'']]],
   ['quadraticlinesearch',['QuadraticLineSearch',['../class_m_r_1_1_math_1_1_quadratic_line_search.html',1,'MR::Math']]],

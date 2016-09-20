@@ -3,7 +3,7 @@ var class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography =
     [ "Tractography", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#aa0177db9fbe41a23dfe1274e94e2c5ec", null ],
     [ "~Tractography", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#ad4e7490b3eb289ce471848b3e950a153", null ],
     [ "add_commandline_options", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a5d5e707d437d85c82d6c24051391ecf8", null ],
-    [ "crop_to_slab", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a17890c0f328abed77a49974255e92cc8", null ],
+    [ "crop_to_slab", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a7b00bf927426e4e723a307ee330ee7dd", null ],
     [ "draw", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a294a2ddfbc877dc938d7bb4d212bf964", null ],
     [ "draw_colourbars", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a2a9071b0da6d8158b4c2a735aa7687ee", null ],
     [ "dropEvent", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a1b46a6e47c28174e28cbefe9597687a7", null ],

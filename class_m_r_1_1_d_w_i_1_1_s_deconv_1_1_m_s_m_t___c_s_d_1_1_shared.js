@@ -2,8 +2,8 @@ var class_m_r_1_1_d_w_i_1_1_s_deconv_1_1_m_s_m_t___c_s_d_1_1_shared =
 [
     [ "Shared", "class_m_r_1_1_d_w_i_1_1_s_deconv_1_1_m_s_m_t___c_s_d_1_1_shared.html#a2cf00af4a38bd1dde6568683e9c2973d", null ],
     [ "init", "class_m_r_1_1_d_w_i_1_1_s_deconv_1_1_m_s_m_t___c_s_d_1_1_shared.html#a12a271694dc7beaa39301f1c8d65396b", null ],
-    [ "num_shells", "class_m_r_1_1_d_w_i_1_1_s_deconv_1_1_m_s_m_t___c_s_d_1_1_shared.html#aec996046b7b7f1f304cbdadd4f83baac", null ],
-    [ "num_tissues", "class_m_r_1_1_d_w_i_1_1_s_deconv_1_1_m_s_m_t___c_s_d_1_1_shared.html#a91dd062e42387f07f37ca8b5d6bc185f", null ],
+    [ "num_shells", "class_m_r_1_1_d_w_i_1_1_s_deconv_1_1_m_s_m_t___c_s_d_1_1_shared.html#a8f0f2d3e89e39739741bb9ba9a6245cd", null ],
+    [ "num_tissues", "class_m_r_1_1_d_w_i_1_1_s_deconv_1_1_m_s_m_t___c_s_d_1_1_shared.html#a510394bdc98f75760860efc261ea12c7", null ],
     [ "parse_cmdline_options", "class_m_r_1_1_d_w_i_1_1_s_deconv_1_1_m_s_m_t___c_s_d_1_1_shared.html#a2447097dffe870eaa291a6b9421babb9", null ],
     [ "set_responses", "class_m_r_1_1_d_w_i_1_1_s_deconv_1_1_m_s_m_t___c_s_d_1_1_shared.html#aab308afa2a334338494a6c0f0e005a31", null ],
     [ "set_responses", "class_m_r_1_1_d_w_i_1_1_s_deconv_1_1_m_s_m_t___c_s_d_1_1_shared.html#a56addba4a989f540555d861ee0896d67", null ],

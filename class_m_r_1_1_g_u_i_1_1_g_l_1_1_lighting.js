@@ -3,7 +3,7 @@ var class_m_r_1_1_g_u_i_1_1_g_l_1_1_lighting =
     [ "Lighting", "class_m_r_1_1_g_u_i_1_1_g_l_1_1_lighting.html#a8a9a70895c029b20eea8e1341fa8ea6f", null ],
     [ "changed", "class_m_r_1_1_g_u_i_1_1_g_l_1_1_lighting.html#ab5c4882fb30357492d5980fdf25a5501", null ],
     [ "load_defaults", "class_m_r_1_1_g_u_i_1_1_g_l_1_1_lighting.html#a575552acd20958d52816642ac960476b", null ],
-    [ "set", "class_m_r_1_1_g_u_i_1_1_g_l_1_1_lighting.html#a577543bae8cd77c8a91a974dfedd7b90", null ],
+    [ "set", "class_m_r_1_1_g_u_i_1_1_g_l_1_1_lighting.html#a5118d4d8a723ba6c31421422b348a5ee", null ],
     [ "update", "class_m_r_1_1_g_u_i_1_1_g_l_1_1_lighting.html#a869a306d39112d433ef93849b2067363", null ],
     [ "ambient", "class_m_r_1_1_g_u_i_1_1_g_l_1_1_lighting.html#a28f950a0f6df1757b3ea9d69b444a36c", null ],
     [ "background_color", "class_m_r_1_1_g_u_i_1_1_g_l_1_1_lighting.html#ab90034797732f6d1ec3e02250ba22d77", null ],

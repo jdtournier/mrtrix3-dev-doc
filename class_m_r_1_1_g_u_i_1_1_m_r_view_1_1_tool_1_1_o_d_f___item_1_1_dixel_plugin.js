@@ -8,8 +8,8 @@ var class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f___item_1_1_dixel_plugin 
       [ "FILE", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f___item_1_1_dixel_plugin.html#ad80783ddfc6ec2eb2bdd04db5aa36999a31de9a5ccd004faa29686ef5e7aa43c6", null ]
     ] ],
     [ "DixelPlugin", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f___item_1_1_dixel_plugin.html#a8db4ca52c2c4ca71e137e5fc9cd20211", null ],
-    [ "get_shell_data", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f___item_1_1_dixel_plugin.html#ad1c4150da0677f55d4126350a45674a7", null ],
-    [ "num_DW_shells", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f___item_1_1_dixel_plugin.html#a9c9d83eb9d03b403aba9ad3075f9cd68", null ],
+    [ "get_shell_data", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f___item_1_1_dixel_plugin.html#aca31050fd76b35fa223606a98037c67b", null ],
+    [ "num_DW_shells", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f___item_1_1_dixel_plugin.html#a80a13b01ab7d5c8cbe8900c6831aff84", null ],
     [ "set_from_file", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f___item_1_1_dixel_plugin.html#a6eebeeb440406263ebcf6e1cb9a1a137", null ],
     [ "set_header", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f___item_1_1_dixel_plugin.html#a1e24bd60ecc2c18e79e743cc6ab47708", null ],
     [ "set_internal", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f___item_1_1_dixel_plugin.html#ae75e2be2c23a496eef435790bfbbd9e4", null ],

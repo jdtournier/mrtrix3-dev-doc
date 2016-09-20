@@ -1,8 +1,8 @@
 var class_m_r_1_1_file_1_1_dicom_1_1_series =
 [
     [ "Series", "class_m_r_1_1_file_1_1_dicom_1_1_series.html#a138969e164ea4c440544e26c7ddc63a6", null ],
-    [ "count", "class_m_r_1_1_file_1_1_dicom_1_1_series.html#a6fdc299e32734d19d447dd71d06423a6", null ],
-    [ "operator<", "class_m_r_1_1_file_1_1_dicom_1_1_series.html#a99144608b5248625a685facccf13db96", null ],
+    [ "count", "class_m_r_1_1_file_1_1_dicom_1_1_series.html#a06d06a242ece88d0cce38c00469ea23b", null ],
+    [ "operator<", "class_m_r_1_1_file_1_1_dicom_1_1_series.html#a38db7aafd18764f53d9ab346cda8dbd5", null ],
     [ "read", "class_m_r_1_1_file_1_1_dicom_1_1_series.html#ab72f0edc05fd668ba04678f856170f29", null ],
     [ "operator<<", "class_m_r_1_1_file_1_1_dicom_1_1_series.html#ab024de0dde2d296283c1671c3a88e484", null ],
     [ "date", "class_m_r_1_1_file_1_1_dicom_1_1_series.html#a5d0be964dfbaf48975cd3e6501d0135a", null ],

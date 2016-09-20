@@ -10,7 +10,7 @@ var class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i =
     [ "mouse_move_event", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html#a5411d0b1ddd9099fbe210a55b4bff00a", null ],
     [ "mouse_press_event", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html#a374eb36a37034e08755946ec93d7f310", null ],
     [ "mouse_release_event", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html#a01b6cfdca871d07f844aca16bc44e347", null ],
-    [ "normal2axis", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html#abe61d8e2a356bb1c5d1b22f166dec779", null ],
+    [ "normal2axis", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html#acb43ce0e65881beb410705ac01933987", null ],
     [ "process_commandline_option", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html#a6a2a320c660eca05e22b4dbd9b2bb3c9", null ],
     [ "save", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html#a2412200ab9d811e3c34be71ccaaac71c", null ],
     [ "update_undo_redo", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html#a0c50cbbba08c4f98f1755a67fd27fec7", null ],

@@ -1,7 +1,7 @@
 var class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_ortho =
 [
     [ "Ortho", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_ortho.html#af6c4b181332dd31ea6902735e1e30501", null ],
-    [ "get_current_projection", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_ortho.html#a451844296ff5dff4f3ffacc52d76655d", null ],
+    [ "get_current_projection", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_ortho.html#a4557568b44b3041f69ecb082a701b16c", null ],
     [ "mouse_press_event", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_ortho.html#a0aa23c11407c4273cd5c8a43c56dc29b", null ],
     [ "paint", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_ortho.html#a282a25c831a417016c09fb6b2d9c0b97", null ],
     [ "panthrough_event", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_ortho.html#a15e285c707579259a0eb94b042b908a2", null ],

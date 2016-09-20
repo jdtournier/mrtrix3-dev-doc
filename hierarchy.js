@@ -755,7 +755,7 @@ var hierarchy =
       [ "MR::copy_ptr< T, Deleter >", "class_m_r_1_1copy__ptr.html", null ]
     ] ],
     [ "MR::UnorderedMap< K, V >", "struct_m_r_1_1_unordered_map.html", null ],
-    [ "MR::UnorderedMap< uint32_t, const char * >", "struct_m_r_1_1_unordered_map.html", null ],
+    [ "MR::UnorderedMap< uint32_t, const char *>", "struct_m_r_1_1_unordered_map.html", null ],
     [ "MR::Sparse::Value< DataType >", "class_m_r_1_1_sparse_1_1_value.html", null ],
     [ "MR::Helper::Value< ImageType >", "class_m_r_1_1_helper_1_1_value.html", null ],
     [ "MR::BitSet::Value", "class_m_r_1_1_bit_set_1_1_value.html", null ],

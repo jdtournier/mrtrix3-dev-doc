@@ -8,8 +8,8 @@ var class_m_r_1_1_math_1_1_quadratic_line_search =
       [ "NONCONVERGING", "group___optimisation.html#gga142be9450c9aac5265dc923bab259fceacdfd6bb29ecdd532108415166c69c03e", null ]
     ] ],
     [ "QuadraticLineSearch", "group___optimisation.html#ga7b07349d48ba1b07a95c746b1c6bc2e7", null ],
-    [ "get_status", "group___optimisation.html#gaa583e49af14e6bf72993c552dba7af93", null ],
-    [ "operator()", "group___optimisation.html#gaecc62ed0c98ecea5562c8668768a2914", null ],
+    [ "get_status", "group___optimisation.html#ga4f4071f995616864f7cc478a27b32c3d", null ],
+    [ "operator()", "group___optimisation.html#gad81493aaf378ff8d3b80e5cb27edd492", null ],
     [ "set_exit_if_outside_bounds", "group___optimisation.html#ga6c6a3ceb01adb097390b7c08facc287b", null ],
     [ "set_function_tolerance", "group___optimisation.html#ga5d53c5dd0890e8e23145284f8212b6a6", null ],
     [ "set_init_estimate", "group___optimisation.html#ga97496bb89f378c3a4ab5a1891a8057ac", null ],
@@ -18,5 +18,5 @@ var class_m_r_1_1_math_1_1_quadratic_line_search =
     [ "set_message", "group___optimisation.html#gabc70604db0291a47481c8c16f3651696", null ],
     [ "set_upper_bound", "group___optimisation.html#ga828b4672982914316f003b777ec9ad82", null ],
     [ "set_value_tolerance", "group___optimisation.html#gac81714e03073fb96e21f7b037c5b5eee", null ],
-    [ "verbose", "group___optimisation.html#gad6e6181b483859565c1dd065129fe1bb", null ]
+    [ "verbose", "group___optimisation.html#gaa3707ec7e21ef818aca407e3aaa77306", null ]
 ];

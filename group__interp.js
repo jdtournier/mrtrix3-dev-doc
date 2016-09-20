@@ -3,33 +3,33 @@ var group__interp =
     [ "Reslice", "class_m_r_1_1_adapter_1_1_reslice.html", [
       [ "value_type", "class_m_r_1_1_adapter_1_1_reslice.html#a9ef63bc4c2ca4d8e29fcc935015eb916", null ],
       [ "Reslice", "class_m_r_1_1_adapter_1_1_reslice.html#a2b5c60507c8b7f1728f599d73aa183d6", null ],
-      [ "index", "class_m_r_1_1_adapter_1_1_reslice.html#a7def6d9ffa2e5244a5e704e460178c8b", null ],
+      [ "index", "class_m_r_1_1_adapter_1_1_reslice.html#a8e36895590e2fcbd45e8afc6633b01eb", null ],
       [ "index", "class_m_r_1_1_adapter_1_1_reslice.html#a2a6121de71212dfb1b3bf1994a1e0727", null ],
       [ "move_index", "class_m_r_1_1_adapter_1_1_reslice.html#aac4089be66de98bb01083a72deebc1b9", null ],
-      [ "name", "class_m_r_1_1_adapter_1_1_reslice.html#ac13785de52ac37f80a7ec4fc58c6d1e5", null ],
-      [ "ndim", "class_m_r_1_1_adapter_1_1_reslice.html#a509439dde560178593ce3f058f2e2235", null ],
+      [ "name", "class_m_r_1_1_adapter_1_1_reslice.html#a6d21296b58ed4c65edc3a7df52f26d9a", null ],
+      [ "ndim", "class_m_r_1_1_adapter_1_1_reslice.html#a65c2631d901882f3d0a3f7c6d1bce7b8", null ],
       [ "reset", "class_m_r_1_1_adapter_1_1_reslice.html#af04ed9504e7aa6e04737af6810be1087", null ],
-      [ "size", "class_m_r_1_1_adapter_1_1_reslice.html#aec5f40f633a8a6c547b33a6290e965e5", null ],
-      [ "spacing", "class_m_r_1_1_adapter_1_1_reslice.html#ac476f6c64b2826df9faa63aa05480125", null ],
-      [ "stride", "class_m_r_1_1_adapter_1_1_reslice.html#a4da08e53bcd4d817d8549bd6c15ae690", null ],
-      [ "transform", "class_m_r_1_1_adapter_1_1_reslice.html#a8ec14dde83646a3229b307f78d4bddf8", null ],
-      [ "valid", "class_m_r_1_1_adapter_1_1_reslice.html#afd2066dcac1aa2338725a1f0074954d4", null ],
+      [ "size", "class_m_r_1_1_adapter_1_1_reslice.html#a5a197d1df622f5166d8bc69ec2f33ba4", null ],
+      [ "spacing", "class_m_r_1_1_adapter_1_1_reslice.html#aa3ec78d538c8909bae99f414051e04a9", null ],
+      [ "stride", "class_m_r_1_1_adapter_1_1_reslice.html#a9ed9fb3d8e84befe2e832d024a6022ca", null ],
+      [ "transform", "class_m_r_1_1_adapter_1_1_reslice.html#a606fe10f668247ff906ed114bb783280", null ],
+      [ "valid", "class_m_r_1_1_adapter_1_1_reslice.html#a7823a402d8608a1976b221ed55d19cf2", null ],
       [ "value", "class_m_r_1_1_adapter_1_1_reslice.html#a4d99f9c34ee83dadac24e460abc54b7b", null ]
     ] ],
     [ "Warp", "class_m_r_1_1_adapter_1_1_warp.html", [
       [ "value_type", "class_m_r_1_1_adapter_1_1_warp.html#a08efede5dbb7192421a5ced5a329219f", null ],
       [ "Warp", "class_m_r_1_1_adapter_1_1_warp.html#a443e493b37bbc664270b5b686a6b2156", null ],
-      [ "index", "class_m_r_1_1_adapter_1_1_warp.html#ad0b8f8faf169f159111aa7ae7656fbce", null ],
+      [ "index", "class_m_r_1_1_adapter_1_1_warp.html#a6db17f65c7acaa3623c19785a5529a65", null ],
       [ "index", "class_m_r_1_1_adapter_1_1_warp.html#a5eb8b1ba34c2c0008eaa12c4581f351a", null ],
       [ "move_index", "class_m_r_1_1_adapter_1_1_warp.html#aa7c8d2ce93378b8b00c124786f6ea26a", null ],
-      [ "name", "class_m_r_1_1_adapter_1_1_warp.html#ac97f503d19865ddcd8fcf75198b35baf", null ],
-      [ "ndim", "class_m_r_1_1_adapter_1_1_warp.html#adad55906518f805b8152f9f1cc32ba1a", null ],
+      [ "name", "class_m_r_1_1_adapter_1_1_warp.html#ae636da4edc750589eb43f17a61b4876c", null ],
+      [ "ndim", "class_m_r_1_1_adapter_1_1_warp.html#aa9034658844ba0eb16539a2fcc878f15", null ],
       [ "reset", "class_m_r_1_1_adapter_1_1_warp.html#a421bc296f010efe62d17f69a50e9195c", null ],
       [ "row", "class_m_r_1_1_adapter_1_1_warp.html#a17da396f5b502cc2615761f89277dabb", null ],
-      [ "size", "class_m_r_1_1_adapter_1_1_warp.html#a67ac00026975dca7cd4b4af6418c58ec", null ],
-      [ "spacing", "class_m_r_1_1_adapter_1_1_warp.html#ad411de9b3b4b7c2930d98837a61e4aad", null ],
-      [ "stride", "class_m_r_1_1_adapter_1_1_warp.html#ab67174ad1f97041631324f91a87242c9", null ],
-      [ "valid", "class_m_r_1_1_adapter_1_1_warp.html#a9f515492b588387a4c4afc775baf20d7", null ],
+      [ "size", "class_m_r_1_1_adapter_1_1_warp.html#a560718b45b09505c101ae12118c8930c", null ],
+      [ "spacing", "class_m_r_1_1_adapter_1_1_warp.html#aa846b15b11c5237d42cb9f1f0fc126a0", null ],
+      [ "stride", "class_m_r_1_1_adapter_1_1_warp.html#af0ea6569024b075ec0fc896d050fbe34", null ],
+      [ "valid", "class_m_r_1_1_adapter_1_1_warp.html#ab49872a86a15058f328c415bbac91a95", null ],
       [ "value", "class_m_r_1_1_adapter_1_1_warp.html#a7cf81de35c00fef681b2418c5762c25e", null ]
     ] ],
     [ "Base", "class_m_r_1_1_interp_1_1_base.html", [
@@ -37,15 +37,15 @@ var group__interp =
       [ "Base", "class_m_r_1_1_interp_1_1_base.html#a8210d0eb21f99d8052a6ac0f774d3675", null ],
       [ "default_out_of_bounds_value", "class_m_r_1_1_interp_1_1_base.html#ac8118c180ea28db42c0e00c812169066", null ],
       [ "intravoxel_offset", "class_m_r_1_1_interp_1_1_base.html#af57e9f2db2cec87ed0918a08dc7c01ca", null ],
-      [ "is_out_of_bounds", "class_m_r_1_1_interp_1_1_base.html#a72301d809e6206fdb5cdb2d15e60f71f", null ],
-      [ "operator!", "class_m_r_1_1_interp_1_1_base.html#aa92869e55bc26d39fda1f574a77fbfbd", null ],
+      [ "is_out_of_bounds", "class_m_r_1_1_interp_1_1_base.html#a5ecd6913cbe3c19bd4e2c1640325a1aa", null ],
+      [ "operator!", "class_m_r_1_1_interp_1_1_base.html#a5f1c2d7e6d7957528c668b51682f86ff", null ],
       [ "bounds", "class_m_r_1_1_interp_1_1_base.html#af087eda826cccad7cd645ab61de15d72", null ],
       [ "out_of_bounds", "class_m_r_1_1_interp_1_1_base.html#a0c62bc630c47bf1712e4a2874fa70fc5", null ],
       [ "out_of_bounds_value", "class_m_r_1_1_interp_1_1_base.html#a6aea2ba234fb8daca0033b3d20a59c1e", null ]
     ] ],
     [ "SplineInterpBase", "class_m_r_1_1_interp_1_1_spline_interp_base.html", [
       [ "SplineInterpBase", "class_m_r_1_1_interp_1_1_spline_interp_base.html#ae2c6d9b49033a74fa727516fd1225b0b", null ],
-      [ "clamp", "class_m_r_1_1_interp_1_1_spline_interp_base.html#a35de43a187a07dc967a7324af931be4b", null ],
+      [ "clamp", "class_m_r_1_1_interp_1_1_spline_interp_base.html#a96aeb56d7e3a03271ff51954d655bd22", null ],
       [ "H", "class_m_r_1_1_interp_1_1_spline_interp_base.html#a3b82d0c3070037c6d8b3f162ddc1a79c", null ],
       [ "P", "class_m_r_1_1_interp_1_1_spline_interp_base.html#ad8c68b96c75f564ddfb291c08c9a124d", null ]
     ] ],
@@ -102,7 +102,7 @@ var group__interp =
     [ "LinearInterpBase", "class_m_r_1_1_interp_1_1_linear_interp_base.html", [
       [ "coef_type", "class_m_r_1_1_interp_1_1_linear_interp_base.html#adf6740ef17d653839ccbca63fe8704d2", null ],
       [ "LinearInterpBase", "class_m_r_1_1_interp_1_1_linear_interp_base.html#a7b953b23f11668bdb47634e0a37740de", null ],
-      [ "clamp", "class_m_r_1_1_interp_1_1_linear_interp_base.html#a96435683cf6c520a0c4e9e73696fe0b2", null ],
+      [ "clamp", "class_m_r_1_1_interp_1_1_linear_interp_base.html#abc87cbcc93b6fb7a6fe8a57f308dbfbd", null ],
       [ "eps", "class_m_r_1_1_interp_1_1_linear_interp_base.html#a8cee4350c7062d99eddc51d28d2c29e8", null ],
       [ "P", "class_m_r_1_1_interp_1_1_linear_interp_base.html#aa5dbf960d9b7e85cfe4f0d75e81cc851", null ],
       [ "zero", "class_m_r_1_1_interp_1_1_linear_interp_base.html#ad796fa87b3e4232827909fafde696979", null ]
@@ -158,7 +158,7 @@ var group__interp =
       [ "image", "class_m_r_1_1_interp_1_1_nearest.html#ae09a42f6194174be5a0f5f20d2cf0b45", null ],
       [ "row", "class_m_r_1_1_interp_1_1_nearest.html#a49e4520bd0b03323281821ae09fb7a99", null ],
       [ "scanner", "class_m_r_1_1_interp_1_1_nearest.html#aff2ffd60b17ba18aa82ca8d6f220cf6e", null ],
-      [ "value", "class_m_r_1_1_interp_1_1_nearest.html#a52ac6a9abe173e31ae05de3582206091", null ],
+      [ "value", "class_m_r_1_1_interp_1_1_nearest.html#a357d259ffc007564436b7079a5c33de8", null ],
       [ "voxel", "class_m_r_1_1_interp_1_1_nearest.html#ab272900957929f8975cf7a34040b9244", null ]
     ] ],
     [ "Sinc", "class_m_r_1_1_interp_1_1_sinc.html", [
@@ -184,8 +184,8 @@ var group__interp =
       [ "Derivative", "group__interp.html#ggad719d13abf54b60c8ae7adca3c7d7931a478ab7a0c5144a09cdce14883ef428b3", null ],
       [ "ValueAndDerivative", "group__interp.html#ggad719d13abf54b60c8ae7adca3c7d7931a3a8397a6d8e0bc2d0afb00b7e36d4c65", null ]
     ] ],
-    [ "make_cubic", "group__interp.html#gaae6715150cf0ccae0e4652d633959245", null ],
-    [ "make_linear", "group__interp.html#gab2f345084c90ea39621e6b1579fb9260", null ],
-    [ "make_nearest", "group__interp.html#ga6e8b4f116b6e8a4f7aa5ae0cc7db3849", null ],
-    [ "make_sinc", "group__interp.html#ga1bdacf197c13465d75a361c1684b893f", null ]
+    [ "make_cubic", "group__interp.html#gadbda1fa2e3cefeb7390513605c620892", null ],
+    [ "make_linear", "group__interp.html#gafe48271af44dfe43bf792d759edc76b4", null ],
+    [ "make_nearest", "group__interp.html#gab844b685146db5c5c0cb79183e90d85c", null ],
+    [ "make_sinc", "group__interp.html#gaabe86470b9e558ecaaf831f673bf6f06", null ]
 ];
