@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-308-g145b52a9</div>
+   <div id="projectbrief">Version 0.3.15-310-g16ed820d</div>
   </td>
  </tr>
  </tbody>
@@ -144,7 +144,7 @@ Public Attributes</h2></td></tr>
 <p>The list of options is provided using the OPTIONS macro, like this: </p><div class="fragment"><div class="line"><a class="code" href="group___cmd_parse.html#ga35c7c52f630a8bbc6ea7147c8860ec01">OPTIONS</a></div><div class="line">  + <a class="code" href="group___cmd_parse.html#gaf20082e45788c6e957ed5ecf6f1753d7">Option</a> (<span class="stringliteral">&quot;exact&quot;</span>, </div><div class="line">       <span class="stringliteral">&quot;do not use approximations when processing&quot;</span>)</div><div class="line"></div><div class="line">  + <a class="code" href="group___cmd_parse.html#gaf20082e45788c6e957ed5ecf6f1753d7">Option</a> (<span class="stringliteral">&quot;mask&quot;</span>,</div><div class="line">       <span class="stringliteral">&quot;only perform processing within the voxels contained in &quot;</span></div><div class="line">       <span class="stringliteral">&quot;the binary image specified&quot;</span>)</div><div class="line">    + Argument (<span class="stringliteral">&quot;image&quot;</span>).type_image_in()</div><div class="line"></div><div class="line">  + <a class="code" href="group___cmd_parse.html#gaf20082e45788c6e957ed5ecf6f1753d7">Option</a> (<span class="stringliteral">&quot;regularisation&quot;</span>, </div><div class="line">       <span class="stringliteral">&quot;set the regularisation term&quot;</span>)</div><div class="line">    + Argument (<span class="stringliteral">&quot;value&quot;</span>).type_float (0.0, 1.0, 100.0)</div><div class="line"></div><div class="line">  <a class="code" href="group___cmd_parse.html#gaf20082e45788c6e957ed5ecf6f1753d7">Option</a> (<span class="stringliteral">&quot;dump&quot;</span>, </div><div class="line">       <span class="stringliteral">&quot;dump all intermediate values to file&quot;</span>)</div><div class="line">    + Argument (<span class="stringliteral">&quot;file&quot;</span>).type_file();</div></div><!-- fragment --><p> The example above specifies that the application accepts four options, in addition to the standard ones (see <a class="el" href="command_line_parsing.html">Command-line parsing</a> for details). The first option is a simple switch: specifying '-exact' on the command line will cause the application to behave differently. The next options all expect an additional argument, supplied using the <a class="el" href="class_m_r_1_1_app_1_1_argument.html" title="A class to specify a command-line argument. ">Argument</a> class. Note that the description field of the <a class="el" href="class_m_r_1_1_app_1_1_argument.html" title="A class to specify a command-line argument. ">Argument</a> class is unused in this case. Multiple additional arguments can be specified in this way using the addition operator.</p>
 <p>Options can also be specified as required (see <a class="el" href="group___cmd_parse.html#gaf479c5c26d7fe5a3eca6fb0071cf7d9e" title="specifies that the option is required ">required()</a> function), or as multiple (see <a class="el" href="group___cmd_parse.html#gacb87f73566421a3b62e5d7588b6c9716" title="specifies that multiple such options can be specified ">allow_multiple()</a> function). </p>
 
-<p>Definition at line <a class="el" href="cmdline__option_8h_source.html#l00314">314</a> of file <a class="el" href="cmdline__option_8h_source.html">cmdline_option.h</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__option_8h_source.html#l00319">319</a> of file <a class="el" href="cmdline__option_8h_source.html">cmdline_option.h</a>.</p>
 </div><hr/>The documentation for this class was generated from the following file:<ul>
 <li>lib/<a class="el" href="cmdline__option_8h_source.html">cmdline_option.h</a></li>
 </ul>
@@ -154,7 +154,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_app.html">App</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_app_1_1_option.html">Option</a></li>
-    <li class="footer">Generated on Thu Oct 27 2016 12:48:20 for MRtrix by
+    <li class="footer">Generated on Tue Nov 1 2016 22:54:45 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.12 </li>
   </ul>
