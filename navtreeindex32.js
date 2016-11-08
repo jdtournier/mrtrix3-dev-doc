@@ -1,6 +1,5 @@
 var NAVTREEINDEX32 =
 {
-"study_8h.html":[12,0,0,2,0,8],
 "study_8h.html#a873c66163d39ccae550554ff7a924f89":[12,0,0,2,0,8,1],
 "study_8h_source.html":[12,0,0,2,0,8],
 "subset_8h.html":[12,0,0,0,12],

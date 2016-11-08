@@ -121,8 +121,8 @@ var NAVTREEINDEX =
 "multithreading.html#multithreading_exec",
 "ortho_8h.html",
 "shview_2icons_8h_source.html",
-"stride_8h.html#a27e16882f841e2900178b7be0614cf5f",
-"study_8h.html"
+"stride_8h.html#a26d05f2753aa0a9b38f251e692ad77d5",
+"study_8h.html#a873c66163d39ccae550554ff7a924f89"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

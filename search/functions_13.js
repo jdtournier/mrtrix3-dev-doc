@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['sanitise',['sanitise',['../class_m_r_1_1_header.html#aeb5065d56a69d5d3d0dc79905eb098f1',1,'MR::Header::sanitise()'],['../namespace_m_r_1_1_stride.html#ab80cc1271189822912ff976cb1dba9e0',1,'MR::Stride::sanitise(HeaderType &amp;header)'],['../namespace_m_r_1_1_stride.html#adb1e68c9ac192dbee3b52cb507c80203',1,'MR::Stride::sanitise(List &amp;current, const List &amp;desired)']]],
-  ['sanitise_3c_20list_20_3e',['sanitise&lt; List &gt;',['../namespace_m_r_1_1_stride.html#a62eb55bf537ea04f2dce0cd236fa2daa',1,'MR::Stride']]],
+  ['sanitise',['sanitise',['../class_m_r_1_1_header.html#aeb5065d56a69d5d3d0dc79905eb098f1',1,'MR::Header::sanitise()'],['../namespace_m_r_1_1_stride.html#ab80cc1271189822912ff976cb1dba9e0',1,'MR::Stride::sanitise(HeaderType &amp;header)'],['../namespace_m_r_1_1_stride.html#a445ee64002ed7e3d43b4f131a94bd3c8',1,'MR::Stride::sanitise(List &amp;strides, const HeaderType &amp;header)'],['../namespace_m_r_1_1_stride.html#a11e368274fadfe5fdab37ff616563e08',1,'MR::Stride::sanitise(List &amp;current, const List &amp;desired, const std::vector&lt; ssize_t &gt; &amp;header)']]],
   ['sanitise_5fstrides',['sanitise_strides',['../class_m_r_1_1_header.html#af34351254cdd206df503df7f5b291ca7',1,'MR::Header']]],
   ['sanitise_5ftransform',['sanitise_transform',['../class_m_r_1_1_header.html#a09ffa13c640bd6f0e23fea13e9d5fae3',1,'MR::Header']]],
   ['sanitise_5fvoxel_5fsizes',['sanitise_voxel_sizes',['../class_m_r_1_1_header.html#a53504d96988d46e0d4acfa3556ca2902',1,'MR::Header']]],
