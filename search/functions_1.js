@@ -37,7 +37,7 @@ var searchData=
   ['adjustbutton',['AdjustButton',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_adjust_button.html#a2183b022d4c21d4170375d38e68deb79',1,'MR::GUI::MRView::AdjustButton']]],
   ['adjustsize',['adjustSize',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base.html#ab1eda93df3dad49f95b825d8608933fa',1,'MR::GUI::MRView::Tool::Base']]],
   ['advanced_5flighting_5fslot',['advanced_lighting_slot',['../class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_window.html#a7e744620654b51d3456f477b95aba4d2',1,'MR::GUI::DWI::Window']]],
-  ['affine',['Affine',['../class_m_r_1_1_registration_1_1_transform_1_1_affine.html#a0630402cc97eada1f0727db49bb0d533',1,'MR::Registration::Transform::Affine']]],
+  ['affine',['Affine',['../class_m_r_1_1_registration_1_1_transform_1_1_affine.html#a9bf96c183950aed2f80a9751a0fbe19a',1,'MR::Registration::Transform::Affine']]],
   ['allocate',['allocate',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_volume.html#a5e7c5415dfa951a4e2372c3b6f6c133a',1,'MR::GUI::MRView::Volume']]],
   ['allocate_5fvoxel',['allocate_voxel',['../class_m_r_1_1_d_w_i_1_1_bootstrap.html#af3cb8507bc6149af7fc4971492877455',1,'MR::DWI::Bootstrap']]],
   ['allow_5fmultiple',['allow_multiple',['../group___cmd_parse.html#ga0e4af3973f05e5ba88093a823f02eb9f',1,'MR::App::Argument::allow_multiple()'],['../group___cmd_parse.html#gacb87f73566421a3b62e5d7588b6c9716',1,'MR::App::Option::allow_multiple()']]],

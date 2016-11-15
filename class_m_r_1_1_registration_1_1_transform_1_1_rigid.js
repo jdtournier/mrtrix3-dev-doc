@@ -1,7 +1,6 @@
 var class_m_r_1_1_registration_1_1_transform_1_1_rigid =
 [
     [ "has_robust_estimator", "class_m_r_1_1_registration_1_1_transform_1_1_rigid.html#a2bcf51855deacc012e0dc3b3a3e65e90", null ],
-    [ "ParameterType", "class_m_r_1_1_registration_1_1_transform_1_1_rigid.html#a00afd0309d806d884723a85c794d0aea", null ],
     [ "RobustEstimatorType", "class_m_r_1_1_registration_1_1_transform_1_1_rigid.html#a14714da748a3a059d2040726c416bffb", null ],
     [ "UpdateType", "class_m_r_1_1_registration_1_1_transform_1_1_rigid.html#a4dc9681416e1c89d76400c83e46911c8", null ],
     [ "Rigid", "class_m_r_1_1_registration_1_1_transform_1_1_rigid.html#a663297d1c2cef5cb92b1b8985f55e9c0", null ],
@@ -12,5 +11,6 @@ var class_m_r_1_1_registration_1_1_transform_1_1_rigid =
     [ "robust_estimate", "class_m_r_1_1_registration_1_1_transform_1_1_rigid.html#a1d6a20d8595ab539a2789f4db1070d60", null ],
     [ "set_parameter_vector", "class_m_r_1_1_registration_1_1_transform_1_1_rigid.html#abb1e5fce07de8dafe573a0aafa29ca8d", null ],
     [ "gradient_descent_updator", "class_m_r_1_1_registration_1_1_transform_1_1_rigid.html#a0a84c9a23eb934802c4cf2523ac68054", null ],
+    [ "ParameterType", "class_m_r_1_1_registration_1_1_transform_1_1_rigid.html#a79e6c44e75c8da48b0bbe923420653fa", null ],
     [ "robust_estimator", "class_m_r_1_1_registration_1_1_transform_1_1_rigid.html#a8ed66be0f471cf034b3bf8e21651a311", null ]
 ];

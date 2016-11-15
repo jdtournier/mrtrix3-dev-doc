@@ -5,7 +5,7 @@ var group___transforms =
       [ "ParameterType", "class_m_r_1_1_registration_1_1_transform_1_1_affine.html#ad68285afb7636e7e66d989378944f85d", null ],
       [ "RobustEstimatorType", "class_m_r_1_1_registration_1_1_transform_1_1_affine.html#a56abd27fbf50d4504594c6618408fab7", null ],
       [ "UpdateType", "class_m_r_1_1_registration_1_1_transform_1_1_affine.html#aa4f4652fc340e58c9c15a831db88c587", null ],
-      [ "Affine", "class_m_r_1_1_registration_1_1_transform_1_1_affine.html#a0630402cc97eada1f0727db49bb0d533", null ],
+      [ "Affine", "class_m_r_1_1_registration_1_1_transform_1_1_affine.html#a9bf96c183950aed2f80a9751a0fbe19a", null ],
       [ "get_gradient_descent_updator", "class_m_r_1_1_registration_1_1_transform_1_1_affine.html#a009d9cf1ca3d0d8f30bb1746e2932f44", null ],
       [ "get_jacobian_vector_wrt_params", "class_m_r_1_1_registration_1_1_transform_1_1_affine.html#afe4b584a33dfc4063f871e59e7129ff6", null ],
       [ "get_jacobian_wrt_params", "class_m_r_1_1_registration_1_1_transform_1_1_affine.html#a05a3cd7ff8daa6ea4031afa1f10411b4", null ],
@@ -40,7 +40,7 @@ var group___transforms =
       [ "set_transform", "class_m_r_1_1_registration_1_1_transform_1_1_base.html#abb5d1744cf2988fac484e085977b1b4f", null ],
       [ "set_translation", "class_m_r_1_1_registration_1_1_transform_1_1_base.html#ab9049e47b0410cbb80068c5e6ac6b5f7", null ],
       [ "size", "class_m_r_1_1_registration_1_1_transform_1_1_base.html#af91e8fc813c9208831768ee452579dc7", null ],
-      [ "transform", "class_m_r_1_1_registration_1_1_transform_1_1_base.html#a2305d265e1a3c09df1e439aef71aee28", null ],
+      [ "transform", "class_m_r_1_1_registration_1_1_transform_1_1_base.html#a5684067a7e7ad27f8fb3eaa9da3153fa", null ],
       [ "transform_half", "class_m_r_1_1_registration_1_1_transform_1_1_base.html#a412414cd8455f05ce5d340a8b1e176d3", null ],
       [ "transform_half_inverse", "class_m_r_1_1_registration_1_1_transform_1_1_base.html#a9a0b668f42680507639f62d6daf69e5f", null ],
       [ "centre", "class_m_r_1_1_registration_1_1_transform_1_1_base.html#ad646431fc91c490218e4ce73d9c591f9", null ],
@@ -55,7 +55,6 @@ var group___transforms =
     ] ],
     [ "Rigid", "class_m_r_1_1_registration_1_1_transform_1_1_rigid.html", [
       [ "has_robust_estimator", "class_m_r_1_1_registration_1_1_transform_1_1_rigid.html#a2bcf51855deacc012e0dc3b3a3e65e90", null ],
-      [ "ParameterType", "class_m_r_1_1_registration_1_1_transform_1_1_rigid.html#a00afd0309d806d884723a85c794d0aea", null ],
       [ "RobustEstimatorType", "class_m_r_1_1_registration_1_1_transform_1_1_rigid.html#a14714da748a3a059d2040726c416bffb", null ],
       [ "UpdateType", "class_m_r_1_1_registration_1_1_transform_1_1_rigid.html#a4dc9681416e1c89d76400c83e46911c8", null ],
       [ "Rigid", "class_m_r_1_1_registration_1_1_transform_1_1_rigid.html#a663297d1c2cef5cb92b1b8985f55e9c0", null ],
@@ -66,6 +65,7 @@ var group___transforms =
       [ "robust_estimate", "class_m_r_1_1_registration_1_1_transform_1_1_rigid.html#a1d6a20d8595ab539a2789f4db1070d60", null ],
       [ "set_parameter_vector", "class_m_r_1_1_registration_1_1_transform_1_1_rigid.html#abb1e5fce07de8dafe573a0aafa29ca8d", null ],
       [ "gradient_descent_updator", "class_m_r_1_1_registration_1_1_transform_1_1_rigid.html#a0a84c9a23eb934802c4cf2523ac68054", null ],
+      [ "ParameterType", "class_m_r_1_1_registration_1_1_transform_1_1_rigid.html#a79e6c44e75c8da48b0bbe923420653fa", null ],
       [ "robust_estimator", "class_m_r_1_1_registration_1_1_transform_1_1_rigid.html#a8ed66be0f471cf034b3bf8e21651a311", null ]
     ] ]
 ];

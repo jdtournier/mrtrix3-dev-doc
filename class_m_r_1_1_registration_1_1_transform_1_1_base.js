@@ -24,7 +24,7 @@ var class_m_r_1_1_registration_1_1_transform_1_1_base =
     [ "set_transform", "class_m_r_1_1_registration_1_1_transform_1_1_base.html#abb5d1744cf2988fac484e085977b1b4f", null ],
     [ "set_translation", "class_m_r_1_1_registration_1_1_transform_1_1_base.html#ab9049e47b0410cbb80068c5e6ac6b5f7", null ],
     [ "size", "class_m_r_1_1_registration_1_1_transform_1_1_base.html#af91e8fc813c9208831768ee452579dc7", null ],
-    [ "transform", "class_m_r_1_1_registration_1_1_transform_1_1_base.html#a2305d265e1a3c09df1e439aef71aee28", null ],
+    [ "transform", "class_m_r_1_1_registration_1_1_transform_1_1_base.html#a5684067a7e7ad27f8fb3eaa9da3153fa", null ],
     [ "transform_half", "class_m_r_1_1_registration_1_1_transform_1_1_base.html#a412414cd8455f05ce5d340a8b1e176d3", null ],
     [ "transform_half_inverse", "class_m_r_1_1_registration_1_1_transform_1_1_base.html#a9a0b668f42680507639f62d6daf69e5f", null ],
     [ "centre", "class_m_r_1_1_registration_1_1_transform_1_1_base.html#ad646431fc91c490218e4ce73d9c591f9", null ],

@@ -62,7 +62,7 @@ var searchData=
   ['adjustsize',['adjustSize',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base.html#ab1eda93df3dad49f95b825d8608933fa',1,'MR::GUI::MRView::Tool::Base']]],
   ['adv_5finit_5foptions',['adv_init_options',['../namespace_m_r_1_1_registration.html#a40062a829959d2ebbee0aefda0688910',1,'MR::Registration']]],
   ['advanced_5flighting_5fslot',['advanced_lighting_slot',['../class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_window.html#a7e744620654b51d3456f477b95aba4d2',1,'MR::GUI::DWI::Window']]],
-  ['affine',['Affine',['../class_m_r_1_1_registration_1_1_transform_1_1_affine.html#a0630402cc97eada1f0727db49bb0d533',1,'MR::Registration::Transform::Affine']]],
+  ['affine',['Affine',['../class_m_r_1_1_registration_1_1_transform_1_1_affine.html#a9bf96c183950aed2f80a9751a0fbe19a',1,'MR::Registration::Transform::Affine']]],
   ['affine',['Affine',['../class_m_r_1_1_registration_1_1_transform_1_1_affine.html',1,'MR::Registration::Transform']]],
   ['affine_2eh',['affine.h',['../affine_8h.html',1,'']]],
   ['affine_5foptions',['affine_options',['../namespace_m_r_1_1_registration.html#aac5ec9fa85a76075dae81082bba9d99b',1,'MR::Registration']]],

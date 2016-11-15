@@ -4,7 +4,7 @@ var class_m_r_1_1_registration_1_1_transform_1_1_affine =
     [ "ParameterType", "class_m_r_1_1_registration_1_1_transform_1_1_affine.html#ad68285afb7636e7e66d989378944f85d", null ],
     [ "RobustEstimatorType", "class_m_r_1_1_registration_1_1_transform_1_1_affine.html#a56abd27fbf50d4504594c6618408fab7", null ],
     [ "UpdateType", "class_m_r_1_1_registration_1_1_transform_1_1_affine.html#aa4f4652fc340e58c9c15a831db88c587", null ],
-    [ "Affine", "class_m_r_1_1_registration_1_1_transform_1_1_affine.html#a0630402cc97eada1f0727db49bb0d533", null ],
+    [ "Affine", "class_m_r_1_1_registration_1_1_transform_1_1_affine.html#a9bf96c183950aed2f80a9751a0fbe19a", null ],
     [ "get_gradient_descent_updator", "class_m_r_1_1_registration_1_1_transform_1_1_affine.html#a009d9cf1ca3d0d8f30bb1746e2932f44", null ],
     [ "get_jacobian_vector_wrt_params", "class_m_r_1_1_registration_1_1_transform_1_1_affine.html#afe4b584a33dfc4063f871e59e7129ff6", null ],
     [ "get_jacobian_wrt_params", "class_m_r_1_1_registration_1_1_transform_1_1_affine.html#a05a3cd7ff8daa6ea4031afa1f10411b4", null ],
