@@ -7,7 +7,6 @@ var class_m_r_1_1_d_w_i_1_1_s_deconv_1_1_c_s_d =
     [ "FOD", "class_m_r_1_1_d_w_i_1_1_s_deconv_1_1_c_s_d.html#a14ea1e8b3501ea18b28f9ceefc3aeda6", null ],
     [ "iterate", "class_m_r_1_1_d_w_i_1_1_s_deconv_1_1_c_s_d.html#af32ac7fb86d17076737f62d5b7267e27", null ],
     [ "set", "class_m_r_1_1_d_w_i_1_1_s_deconv_1_1_c_s_d.html#ad619f2a69a9cd5559cbf55c0162e635a", null ],
-    [ "computed_once", "class_m_r_1_1_d_w_i_1_1_s_deconv_1_1_c_s_d.html#a3ed56491ba511f62b982deba4fe4c9ed", null ],
     [ "F", "class_m_r_1_1_d_w_i_1_1_s_deconv_1_1_c_s_d.html#a44365813d3592343403cd142d90f0537", null ],
     [ "HR_amps", "class_m_r_1_1_d_w_i_1_1_s_deconv_1_1_c_s_d.html#af76251f7bb31b32946686b4d825145d1", null ],
     [ "HR_T", "class_m_r_1_1_d_w_i_1_1_s_deconv_1_1_c_s_d.html#adcad27f88b6445dd384c5dbf9e622e37", null ],

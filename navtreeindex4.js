@@ -1,6 +1,5 @@
 var NAVTREEINDEX4 =
 {
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_editing_1_1_worker.html#a4c8320446ba92ea7e7732f3985ecce6a":[11,0,0,3,3,3,2,2],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_editing_1_1_worker.html#a8821f600109c892051fbe5ba7fd78ee8":[11,0,0,3,3,3,2,0],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_editing_1_1_worker.html#ad925ad7ec1c3255e40e9bca23d343a00":[11,0,0,3,3,3,2,1],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_energy_computer.html":[11,0,0,3,3,4,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX4 =
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_dixel_mapping_plugin.html#afad87d2288c8a2132d42b9b20cfb8ac7":[11,0,0,3,3,5,3,1],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_fixel___t_d__map.html":[11,0,0,3,3,5,4],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_fixel___t_d__map.html#a1936e37ce53b0c11c463cab4c7730ecf":[11,0,0,3,3,5,4,1],
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_fixel___t_d__map.html#a3d0ed17a347eae8369cd47ad1bcb6fae":[11,0,0,3,3,5,4,5]
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_fixel___t_d__map.html#a3d0ed17a347eae8369cd47ad1bcb6fae":[11,0,0,3,3,5,4,5],
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_fixel___t_d__map.html#a9595e0e36bfdfc1eca85b5c097d38a08":[11,0,0,3,3,5,4,3]
 };

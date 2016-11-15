@@ -57,7 +57,6 @@ var searchData=
   ['colourmap_5foption_5fgroup',['colourmap_option_group',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_vector.html#a32cce2869aec65ecd4bd8e788c597b8d',1,'MR::GUI::MRView::Tool::Vector']]],
   ['comments',['comments',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_properties.html#a51a7159369aa5072a25a25d4be315487',1,'MR::DWI::Tractography::Properties']]],
   ['complex',['Complex',['../class_m_r_1_1_data_type.html#a808db3c359b3f6bdac92322e863a1359',1,'MR::DataType']]],
-  ['computed_5fonce',['computed_once',['../class_m_r_1_1_d_w_i_1_1_s_deconv_1_1_c_s_d.html#a3ed56491ba511f62b982deba4fe4c9ed',1,'MR::DWI::SDeconv::CSD']]],
   ['connectivity_5fmap',['connectivity_map',['../class_m_r_1_1_stats_1_1_c_f_e_1_1_enhancer.html#a41aabaa51d7199f1b09c36cbbc8b70f2',1,'MR::Stats::CFE::Enhancer']]],
   ['connector',['connector',['../class_m_r_1_1_stats_1_1_cluster_1_1_cluster_size.html#a000f113bebf405e54d7f3739d7fd35ef',1,'MR::Stats::Cluster::ClusterSize::connector()'],['../class_m_r_1_1_stats_1_1_t_f_c_e_1_1_enhancer.html#ac8af5e40ff6e46f11040af9bd1b34147',1,'MR::Stats::TFCE::Enhancer::connector()']]],
   ['contrast',['contrast',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_mapper_t_w_i.html#aa628f9927e0b1a72c1fb2117ba8514e3',1,'MR::DWI::Tractography::Mapping::TrackMapperTWI']]],
