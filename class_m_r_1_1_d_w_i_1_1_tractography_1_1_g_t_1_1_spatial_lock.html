@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-350-g25716d2c</div>
+   <div id="projectbrief">Version 0.3.15-364-ga59ea058</div>
   </td>
  </tr>
  </tbody>
@@ -82,8 +82,10 @@ $(document).ready(function(){initNavTree('class_m_r_1_1_d_w_i_1_1_tractography_1
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -96,6 +98,11 @@ $(document).ready(function(){initNavTree('class_m_r_1_1_d_w_i_1_1_tractography_1
 
 <p><code>#include &quot;<a class="el" href="spatiallock_8h_source.html">dwi/tractography/GT/spatiallock.h</a>&quot;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock_1_1_guard.html">Guard</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:abb935aba68bf618afcd21aff8a891830"><td class="memItemLeft" align="right" valign="top">typedef T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock.html#abb935aba68bf618afcd21aff8a891830">value_type</a></td></tr>
@@ -117,17 +124,20 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af695df79c72073cb180dae85e6ea4f54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4088386612de27ced097df52efc8c0e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock.html#a4088386612de27ced097df52efc8c0e5">setThreshold</a> (const <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock.html#abb935aba68bf618afcd21aff8a891830">value_type</a> tx, const <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock.html#abb935aba68bf618afcd21aff8a891830">value_type</a> ty, const <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock.html#abb935aba68bf618afcd21aff8a891830">value_type</a> tz)</td></tr>
 <tr class="separator:a4088386612de27ced097df52efc8c0e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1296755d00695f282ce537044ef9571"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock.html#ad1296755d00695f282ce537044ef9571">lockIfNotLocked</a> (const <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock.html#ab304b3eb78aca1b2586099913d1ae1dd">point_type</a> &amp;pos)</td></tr>
-<tr class="separator:ad1296755d00695f282ce537044ef9571"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c1db679f5e0a81055ab07abc21152b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock.html#a7c1db679f5e0a81055ab07abc21152b7">unlock</a> (const <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock.html#ab304b3eb78aca1b2586099913d1ae1dd">point_type</a> &amp;pos)</td></tr>
-<tr class="separator:a7c1db679f5e0a81055ab07abc21152b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a5dfbc886061eeec6b26d3c16f3b6edad"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock.html#a5dfbc886061eeec6b26d3c16f3b6edad">try_lock</a> (const <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock.html#ab304b3eb78aca1b2586099913d1ae1dd">point_type</a> &amp;pos, ssize_t &amp;idx)</td></tr>
+<tr class="separator:a5dfbc886061eeec6b26d3c16f3b6edad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac063c01f797d78ee70dd75dcb5cdacbc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock.html#ac063c01f797d78ee70dd75dcb5cdacbc">unlock</a> (const size_t idx)</td></tr>
+<tr class="separator:ac063c01f797d78ee70dd75dcb5cdacbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a6031a263ac3edea104b5f5682eb78ba4"><td class="memItemLeft" align="right" valign="top">std::mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock.html#a6031a263ac3edea104b5f5682eb78ba4">mutex</a></td></tr>
 <tr class="separator:a6031a263ac3edea104b5f5682eb78ba4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab16fa97969fa119749d1eab2a5574c69"><td class="memItemLeft" align="right" valign="top">std::set&lt; <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock.html#ab304b3eb78aca1b2586099913d1ae1dd">point_type</a>, <a class="el" href="struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1vec__compare.html">vec_compare</a>&lt; <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock.html#ab304b3eb78aca1b2586099913d1ae1dd">point_type</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock.html#ab16fa97969fa119749d1eab2a5574c69">lockcentres</a></td></tr>
-<tr class="separator:ab16fa97969fa119749d1eab2a5574c69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a082ef11ed15ec93368d59fc4fb160faf"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::pair&lt; <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock.html#ab304b3eb78aca1b2586099913d1ae1dd">point_type</a>, bool &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock.html#a082ef11ed15ec93368d59fc4fb160faf">lockcentres</a></td></tr>
+<tr class="separator:a082ef11ed15ec93368d59fc4fb160faf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16d9cd69700f7a7e6e7a8d15d9283251"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock.html#abb935aba68bf618afcd21aff8a891830">value_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock.html#a16d9cd69700f7a7e6e7a8d15d9283251">_tx</a></td></tr>
 <tr class="separator:a16d9cd69700f7a7e6e7a8d15d9283251"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe7414a935859c2776d3a9e0d89dbe17"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock.html#abb935aba68bf618afcd21aff8a891830">value_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock.html#afe7414a935859c2776d3a9e0d89dbe17">_ty</a></td></tr>
@@ -141,7 +151,7 @@ class MR::DWI::Tractography::GT::SpatialLock&lt; T &gt;</h3>
 
 <p><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock.html" title="SpatialLock manages a mutex lock on n positions in 3D space. ">SpatialLock</a> manages a mutex lock on n positions in 3D space. </p>
 
-<p>Definition at line <a class="el" href="spatiallock_8h_source.html#l00047">47</a> of file <a class="el" href="spatiallock_8h_source.html">spatiallock.h</a>.</p>
+<p>Definition at line <a class="el" href="spatiallock_8h_source.html#l00034">34</a> of file <a class="el" href="spatiallock_8h_source.html">spatiallock.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="ab304b3eb78aca1b2586099913d1ae1dd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab304b3eb78aca1b2586099913d1ae1dd">&sect;&nbsp;</a></span>point_type</h2>
@@ -157,7 +167,7 @@ template&lt;typename T  = float&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="spatiallock_8h_source.html#l00051">51</a> of file <a class="el" href="spatiallock_8h_source.html">spatiallock.h</a>.</p>
+<p>Definition at line <a class="el" href="spatiallock_8h_source.html#l00038">38</a> of file <a class="el" href="spatiallock_8h_source.html">spatiallock.h</a>.</p>
 
 </div>
 </div>
@@ -175,7 +185,7 @@ template&lt;typename T  = float&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="spatiallock_8h_source.html#l00050">50</a> of file <a class="el" href="spatiallock_8h_source.html">spatiallock.h</a>.</p>
+<p>Definition at line <a class="el" href="spatiallock_8h_source.html#l00037">37</a> of file <a class="el" href="spatiallock_8h_source.html">spatiallock.h</a>.</p>
 
 </div>
 </div>
@@ -205,7 +215,7 @@ template&lt;typename T  = float&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="spatiallock_8h_source.html#l00053">53</a> of file <a class="el" href="spatiallock_8h_source.html">spatiallock.h</a>.</p>
+<p>Definition at line <a class="el" href="spatiallock_8h_source.html#l00040">40</a> of file <a class="el" href="spatiallock_8h_source.html">spatiallock.h</a>.</p>
 
 </div>
 </div>
@@ -235,7 +245,7 @@ template&lt;typename T  = float&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="spatiallock_8h_source.html#l00054">54</a> of file <a class="el" href="spatiallock_8h_source.html">spatiallock.h</a>.</p>
+<p>Definition at line <a class="el" href="spatiallock_8h_source.html#l00041">41</a> of file <a class="el" href="spatiallock_8h_source.html">spatiallock.h</a>.</p>
 
 </div>
 </div>
@@ -281,7 +291,7 @@ template&lt;typename T  = float&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="spatiallock_8h_source.html#l00055">55</a> of file <a class="el" href="spatiallock_8h_source.html">spatiallock.h</a>.</p>
+<p>Definition at line <a class="el" href="spatiallock_8h_source.html#l00042">42</a> of file <a class="el" href="spatiallock_8h_source.html">spatiallock.h</a>.</p>
 
 </div>
 </div>
@@ -310,41 +320,11 @@ template&lt;typename T  = float&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="spatiallock_8h_source.html#l00057">57</a> of file <a class="el" href="spatiallock_8h_source.html">spatiallock.h</a>.</p>
+<p>Definition at line <a class="el" href="spatiallock_8h_source.html#l00044">44</a> of file <a class="el" href="spatiallock_8h_source.html">spatiallock.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ad1296755d00695f282ce537044ef9571"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad1296755d00695f282ce537044ef9571">&sect;&nbsp;</a></span>lockIfNotLocked()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T  = float&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock.html">MR::DWI::Tractography::GT::SpatialLock</a>&lt; T &gt;::lockIfNotLocked </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock.html#ab304b3eb78aca1b2586099913d1ae1dd">point_type</a> &amp;&#160;</td>
-          <td class="paramname"><em>pos</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="spatiallock_8h_source.html#l00071">71</a> of file <a class="el" href="spatiallock_8h_source.html">spatiallock.h</a>.</p>
-
-</div>
-</div>
 <a id="af695df79c72073cb180dae85e6ea4f54"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af695df79c72073cb180dae85e6ea4f54">&sect;&nbsp;</a></span>setThreshold() <span class="overload">[1/2]</span></h2>
 
@@ -371,7 +351,7 @@ template&lt;typename T  = float&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="spatiallock_8h_source.html#l00061">61</a> of file <a class="el" href="spatiallock_8h_source.html">spatiallock.h</a>.</p>
+<p>Definition at line <a class="el" href="spatiallock_8h_source.html#l00048">48</a> of file <a class="el" href="spatiallock_8h_source.html">spatiallock.h</a>.</p>
 
 </div>
 </div>
@@ -417,12 +397,52 @@ template&lt;typename T  = float&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="spatiallock_8h_source.html#l00065">65</a> of file <a class="el" href="spatiallock_8h_source.html">spatiallock.h</a>.</p>
+<p>Definition at line <a class="el" href="spatiallock_8h_source.html#l00052">52</a> of file <a class="el" href="spatiallock_8h_source.html">spatiallock.h</a>.</p>
 
 </div>
 </div>
-<a id="a7c1db679f5e0a81055ab07abc21152b7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c1db679f5e0a81055ab07abc21152b7">&sect;&nbsp;</a></span>unlock()</h2>
+<a id="a5dfbc886061eeec6b26d3c16f3b6edad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5dfbc886061eeec6b26d3c16f3b6edad">&sect;&nbsp;</a></span>try_lock()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T  = float&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock.html">MR::DWI::Tractography::GT::SpatialLock</a>&lt; T &gt;::try_lock </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock.html#ab304b3eb78aca1b2586099913d1ae1dd">point_type</a> &amp;&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ssize_t &amp;&#160;</td>
+          <td class="paramname"><em>idx</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="spatiallock_8h_source.html#l00089">89</a> of file <a class="el" href="spatiallock_8h_source.html">spatiallock.h</a>.</p>
+
+</div>
+</div>
+<a id="ac063c01f797d78ee70dd75dcb5cdacbc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac063c01f797d78ee70dd75dcb5cdacbc">&sect;&nbsp;</a></span>unlock()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -435,19 +455,19 @@ template&lt;typename T  = float&gt; </div>
         <tr>
           <td class="memname">void <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock.html">MR::DWI::Tractography::GT::SpatialLock</a>&lt; T &gt;::unlock </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock.html#ab304b3eb78aca1b2586099913d1ae1dd">point_type</a> &amp;&#160;</td>
-          <td class="paramname"><em>pos</em></td><td>)</td>
+          <td class="paramtype">const size_t&#160;</td>
+          <td class="paramname"><em>idx</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="spatiallock_8h_source.html#l00083">83</a> of file <a class="el" href="spatiallock_8h_source.html">spatiallock.h</a>.</p>
+<p>Definition at line <a class="el" href="spatiallock_8h_source.html#l00114">114</a> of file <a class="el" href="spatiallock_8h_source.html">spatiallock.h</a>.</p>
 
 </div>
 </div>
@@ -474,7 +494,7 @@ template&lt;typename T  = float&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="spatiallock_8h_source.html#l00091">91</a> of file <a class="el" href="spatiallock_8h_source.html">spatiallock.h</a>.</p>
+<p>Definition at line <a class="el" href="spatiallock_8h_source.html#l00087">87</a> of file <a class="el" href="spatiallock_8h_source.html">spatiallock.h</a>.</p>
 
 </div>
 </div>
@@ -500,7 +520,7 @@ template&lt;typename T  = float&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="spatiallock_8h_source.html#l00091">91</a> of file <a class="el" href="spatiallock_8h_source.html">spatiallock.h</a>.</p>
+<p>Definition at line <a class="el" href="spatiallock_8h_source.html#l00087">87</a> of file <a class="el" href="spatiallock_8h_source.html">spatiallock.h</a>.</p>
 
 </div>
 </div>
@@ -526,12 +546,12 @@ template&lt;typename T  = float&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="spatiallock_8h_source.html#l00091">91</a> of file <a class="el" href="spatiallock_8h_source.html">spatiallock.h</a>.</p>
+<p>Definition at line <a class="el" href="spatiallock_8h_source.html#l00087">87</a> of file <a class="el" href="spatiallock_8h_source.html">spatiallock.h</a>.</p>
 
 </div>
 </div>
-<a id="ab16fa97969fa119749d1eab2a5574c69"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab16fa97969fa119749d1eab2a5574c69">&sect;&nbsp;</a></span>lockcentres</h2>
+<a id="a082ef11ed15ec93368d59fc4fb160faf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a082ef11ed15ec93368d59fc4fb160faf">&sect;&nbsp;</a></span>lockcentres</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -542,7 +562,7 @@ template&lt;typename T  = float&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::set&lt;<a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock.html#ab304b3eb78aca1b2586099913d1ae1dd">point_type</a>, <a class="el" href="struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1vec__compare.html">vec_compare</a>&lt;<a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock.html#ab304b3eb78aca1b2586099913d1ae1dd">point_type</a>&gt; &gt; <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock.html">MR::DWI::Tractography::GT::SpatialLock</a>&lt; T &gt;::lockcentres</td>
+          <td class="memname">std::vector&lt; std::pair&lt;<a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock.html#ab304b3eb78aca1b2586099913d1ae1dd">point_type</a>, bool&gt; &gt; <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock.html">MR::DWI::Tractography::GT::SpatialLock</a>&lt; T &gt;::lockcentres</td>
         </tr>
       </table>
   </td>
@@ -552,7 +572,7 @@ template&lt;typename T  = float&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="spatiallock_8h_source.html#l00090">90</a> of file <a class="el" href="spatiallock_8h_source.html">spatiallock.h</a>.</p>
+<p>Definition at line <a class="el" href="spatiallock_8h_source.html#l00086">86</a> of file <a class="el" href="spatiallock_8h_source.html">spatiallock.h</a>.</p>
 
 </div>
 </div>
@@ -578,7 +598,7 @@ template&lt;typename T  = float&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="spatiallock_8h_source.html#l00089">89</a> of file <a class="el" href="spatiallock_8h_source.html">spatiallock.h</a>.</p>
+<p>Definition at line <a class="el" href="spatiallock_8h_source.html#l00085">85</a> of file <a class="el" href="spatiallock_8h_source.html">spatiallock.h</a>.</p>
 
 </div>
 </div>
@@ -591,7 +611,7 @@ template&lt;typename T  = float&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_d_w_i.html">DWI</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography.html">Tractography</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t.html">GT</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock.html">SpatialLock</a></li>
-    <li class="footer">Generated on Fri Nov 18 2016 12:48:18 for MRtrix by
+    <li class="footer">Generated on Fri Nov 18 2016 17:39:05 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.12 </li>
   </ul>

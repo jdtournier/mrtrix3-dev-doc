@@ -11,6 +11,5 @@ var namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t =
     [ "ParticlePool", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle_pool.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle_pool" ],
     [ "Properties", "struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_properties.html", "struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_properties" ],
     [ "SpatialLock", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock" ],
-    [ "Stats", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_stats.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_stats" ],
-    [ "vec_compare", "struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1vec__compare.html", "struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1vec__compare" ]
+    [ "Stats", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_stats.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_stats" ]
 ];

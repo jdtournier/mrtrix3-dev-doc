@@ -22,6 +22,7 @@ var searchData=
   ['gradientdescentbb',['GradientDescentBB',['../class_m_r_1_1_math_1_1_gradient_descent_b_b.html',1,'MR::Math']]],
   ['grid_5fper_5fvoxel',['Grid_per_voxel',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_seeding_1_1_grid__per__voxel.html',1,'MR::DWI::Tractography::Seeding']]],
   ['gridlayout',['GridLayout',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_1_1_grid_layout.html',1,'MR::GUI::MRView::Tool::Base']]],
-  ['gz',['GZ',['../class_m_r_1_1_image_i_o_1_1_g_z.html',1,'MR::ImageIO']]],
-  ['gz',['GZ',['../class_m_r_1_1_file_1_1_g_z.html',1,'MR::File']]]
+  ['guard',['Guard',['../struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock_1_1_guard.html',1,'MR::DWI::Tractography::GT::SpatialLock']]],
+  ['gz',['GZ',['../class_m_r_1_1_file_1_1_g_z.html',1,'MR::File']]],
+  ['gz',['GZ',['../class_m_r_1_1_image_i_o_1_1_g_z.html',1,'MR::ImageIO']]]
 ];

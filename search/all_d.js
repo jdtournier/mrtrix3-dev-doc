@@ -114,7 +114,7 @@ var searchData=
   ['math',['Math',['../namespace_m_r_1_1_math.html',1,'MR']]],
   ['math_2eh',['math.h',['../math_8h.html',1,'']]],
   ['mathematical_20constants',['Mathematical constants',['../group__mathconstants.html',1,'']]],
-  ['matrix',['Matrix',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_matrix.html#ad247b15242f8c0f0aed108f0987e2c80',1,'MR::DWI::Tractography::Connectome::Matrix::Matrix()'],['../class_m_r_1_1_registration_1_1_transform_1_1_base.html#ac31f58fa555868dc8e1722598f870f12',1,'MR::Registration::Transform::Base::matrix()']]],
+  ['matrix',['matrix',['../class_m_r_1_1_registration_1_1_transform_1_1_base.html#ac31f58fa555868dc8e1722598f870f12',1,'MR::Registration::Transform::Base::matrix()'],['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_matrix.html#ad247b15242f8c0f0aed108f0987e2c80',1,'MR::DWI::Tractography::Connectome::Matrix::Matrix()']]],
   ['matrix',['Matrix',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_matrix.html',1,'MR::DWI::Tractography::Connectome']]],
   ['matrix_2eh',['matrix.h',['../matrix_8h.html',1,'']]],
   ['matrix_5faverage',['matrix_average',['../namespace_m_r_1_1_math.html#a8a5dea130ce3a4ebd7aa0d3dd7a38059',1,'MR::Math']]],

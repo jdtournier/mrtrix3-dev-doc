@@ -1,5 +1,10 @@
 var NAVTREEINDEX6 =
 {
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_voxel_dir.html#a31d1eaa5067ae0c055205de4164849f7":[11,0,0,3,3,5,22,7],
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_voxel_dir.html#a42a20df0ffcc4aca58c51e467a514543":[11,0,0,3,3,5,22,1],
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_voxel_dir.html#a4d197d4b18dda2fd886c71a720a910ae":[11,0,0,3,3,5,22,3],
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_voxel_dir.html#a5fc3ecb7c0dcf934c61796eca644e6d8":[11,0,0,3,3,5,22,6],
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_voxel_dir.html#a7789d8b9265c595824a7c199af19e3b3":[11,0,0,3,3,5,22,9],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_voxel_dir.html#ac153898b3cc6edbe1d938f058bf1830b":[11,0,0,3,3,5,22,11],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_voxel_dir.html#acb132ab8e635ae106c7e4f0fbb07d8e2":[11,0,0,3,3,5,22,5],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_voxel_dir.html#add2114cab8fa6d6eabd1982e9bc4dab6":[11,0,0,3,3,5,22,10],
@@ -244,10 +249,5 @@ var NAVTREEINDEX6 =
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_fixel.html#a71f90ca4c10f332a2e603652c45236f4":[11,0,0,3,3,8,1,3],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_fixel.html#ab3dfb4b0b4825ebeac67fbbbbcfdf5c9":[11,0,0,3,3,8,1,4],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_fixel.html#ac0307ea79ce1107d19174553f3f4c18e":[11,0,0,3,3,8,1,5],
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_fixel.html#ade02429aacbf25108c0dc8dbc9a6062a":[11,0,0,3,3,8,1,2],
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_fixel_base.html":[11,0,0,3,3,8,2],
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_fixel_base.html#a126a8cf086ae4338f5282ef7d987e15a":[11,0,0,3,3,8,2,10],
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_fixel_base.html#a293070bb71c26b8725314a97e68e8311":[11,0,0,3,3,8,2,4],
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_fixel_base.html#a2976bc6b5c84e5452dc4e28db0504aad":[11,0,0,3,3,8,2,2],
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_fixel_base.html#a2e31cf08df6eaf2601b52ae29d6d594c":[11,0,0,3,3,8,2,7]
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_fixel.html#ade02429aacbf25108c0dc8dbc9a6062a":[11,0,0,3,3,8,1,2]
 };

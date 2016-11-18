@@ -250,7 +250,7 @@ var searchData=
   ['getposition',['getPosition',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle.html#ab72a87f61d52ef154286af255b6dac9f',1,'MR::DWI::Tractography::GT::Particle']]],
   ['getpredecessor',['getPredecessor',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle.html#aad95bc23bbe20b6ee59f3cbc2fe902bf',1,'MR::DWI::Tractography::GT::Particle']]],
   ['getranddir',['getRandDir',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_m_h_sampler.html#a3edac20acdb598c00f8c0fd698704752',1,'MR::DWI::Tractography::GT::MHSampler']]],
-  ['getrandom',['getRandom',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle_grid.html#a515e288a1991fe16efc2bdf24451c5b8',1,'MR::DWI::Tractography::GT::ParticleGrid']]],
+  ['getrandom',['getRandom',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle_grid.html#a742557b4fd7f6a8ddffd59ff9699874f',1,'MR::DWI::Tractography::GT::ParticleGrid']]],
   ['getrandposinmask',['getRandPosInMask',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_m_h_sampler.html#abdf19fd10a1b70d8f60a8645e519ace9',1,'MR::DWI::Tractography::GT::MHSampler']]],
   ['getsuccessor',['getSuccessor',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle.html#a708e6a2ce63d5044fdba4de69f19fa80',1,'MR::DWI::Tractography::GT::Particle']]],
   ['gettext',['getText',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_stats.html#a628c9dc18b39ebd044343d3d0181dfd6',1,'MR::DWI::Tractography::GT::Stats']]],
@@ -284,5 +284,6 @@ var searchData=
   ['gradimportoptions',['GradImportOptions',['../namespace_m_r_1_1_d_w_i.html#a613894718b2446b2df225c7d0e3075a9',1,'MR::DWI']]],
   ['grid_5fper_5fvoxel',['Grid_per_voxel',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_seeding_1_1_grid__per__voxel.html#a9b3d045b75d71b2150bb215134bdcb63',1,'MR::DWI::Tractography::Seeding::Grid_per_voxel']]],
   ['gridlayout',['GridLayout',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_1_1_grid_layout.html#a4619b5febce33f383bda91973b402e84',1,'MR::GUI::MRView::Tool::Base::GridLayout::GridLayout()'],['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_1_1_grid_layout.html#ab9130879ea735fc3812ac738efa627fd',1,'MR::GUI::MRView::Tool::Base::GridLayout::GridLayout(QWidget *parent)']]],
+  ['guard',['Guard',['../struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock_1_1_guard.html#a2b5ce876922f4027ef5c0618726db96c',1,'MR::DWI::Tractography::GT::SpatialLock::Guard']]],
   ['gz',['GZ',['../class_m_r_1_1_file_1_1_g_z.html#a653ed9251bb40b3f86ab43c7312b9c49',1,'MR::File::GZ::GZ()'],['../class_m_r_1_1_file_1_1_g_z.html#a6d6d1b2dd5132286ec7cff6307dce2b4',1,'MR::File::GZ::GZ(const std::string &amp;fname, const char *mode)'],['../class_m_r_1_1_image_i_o_1_1_g_z.html#a2c50a508ff4daa77c7b0170921081902',1,'MR::ImageIO::GZ::GZ(GZ &amp;&amp;)=default'],['../class_m_r_1_1_image_i_o_1_1_g_z.html#aeb6182dadaf3b6beb795e7b927be031f',1,'MR::ImageIO::GZ::GZ(const Header &amp;header, size_t file_header_size)']]]
 ];

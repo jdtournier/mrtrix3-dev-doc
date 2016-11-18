@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-350-g25716d2c</div>
+   <div id="projectbrief">Version 0.3.15-364-ga59ea058</div>
   </td>
  </tr>
  </tbody>
@@ -111,6 +111,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8191cb13e25d2d51f0bc6383e22c50ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle_pool.html#a8191cb13e25d2d51f0bc6383e22c50ea">destroy</a> (<a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle.html">Particle</a> *p)</td></tr>
 <tr class="memdesc:a8191cb13e25d2d51f0bc6383e22c50ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys the particle at pointer p.  <a href="#a8191cb13e25d2d51f0bc6383e22c50ea">More...</a><br /></td></tr>
 <tr class="separator:a8191cb13e25d2d51f0bc6383e22c50ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac03cd366f11e3989a27ce9fde9c3d230"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle_pool.html#ac03cd366f11e3989a27ce9fde9c3d230">size</a> () const</td></tr>
+<tr class="memdesc:ac03cd366f11e3989a27ce9fde9c3d230"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return number of Particles in the pool.  <a href="#ac03cd366f11e3989a27ce9fde9c3d230">More...</a><br /></td></tr>
+<tr class="separator:ac03cd366f11e3989a27ce9fde9c3d230"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d40a301d05caf0e6a75277da7fbca66"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle.html">Particle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle_pool.html#a5d40a301d05caf0e6a75277da7fbca66">random</a> ()</td></tr>
+<tr class="memdesc:a5d40a301d05caf0e6a75277da7fbca66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select random particle from the pool (uniformly).  <a href="#a5d40a301d05caf0e6a75277da7fbca66">More...</a><br /></td></tr>
+<tr class="separator:a5d40a301d05caf0e6a75277da7fbca66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79a031444075dc0ce7e34075452554d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle_pool.html#a79a031444075dc0ce7e34075452554d8">clear</a> ()</td></tr>
+<tr class="memdesc:a79a031444075dc0ce7e34075452554d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear pool.  <a href="#a79a031444075dc0ce7e34075452554d8">More...</a><br /></td></tr>
+<tr class="separator:a79a031444075dc0ce7e34075452554d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -120,11 +129,13 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a1d9c06aaa1470d556bea2e0e8b2110f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36d5def84ea1d49a1f50c6933f98e964"><td class="memItemLeft" align="right" valign="top">std::stack&lt; <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle.html">Particle</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle_pool.html#a36d5def84ea1d49a1f50c6933f98e964">avail</a></td></tr>
 <tr class="separator:a36d5def84ea1d49a1f50c6933f98e964"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18db85fd233879ab36d5c91374ae2fe5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_r_1_1_math_1_1_r_n_g.html">Math::RNG</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle_pool.html#a18db85fd233879ab36d5c91374ae2fe5">rng</a></td></tr>
+<tr class="separator:a18db85fd233879ab36d5c91374ae2fe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle_pool.html" title="ParticlePool manages creation and deletion of particles, minimizing the no. calls to new/delete...">ParticlePool</a> manages creation and deletion of particles, minimizing the no. calls to new/delete. </p>
 
-<p>Definition at line <a class="el" href="particlepool_8h_source.html#l00037">37</a> of file <a class="el" href="particlepool_8h_source.html">particlepool.h</a>.</p>
+<p>Definition at line <a class="el" href="particlepool_8h_source.html#l00036">36</a> of file <a class="el" href="particlepool_8h_source.html">particlepool.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="adae5793cc004752335c50158316ace46"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adae5793cc004752335c50158316ace46">&sect;&nbsp;</a></span>ParticlePool() <span class="overload">[1/2]</span></h2>
@@ -149,7 +160,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="particlepool_8h_source.html#l00040">40</a> of file <a class="el" href="particlepool_8h_source.html">particlepool.h</a>.</p>
+<p>Definition at line <a class="el" href="particlepool_8h_source.html#l00039">39</a> of file <a class="el" href="particlepool_8h_source.html">particlepool.h</a>.</p>
 
 </div>
 </div>
@@ -202,11 +213,40 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="particlepool_8h_source.html#l00044">44</a> of file <a class="el" href="particlepool_8h_source.html">particlepool.h</a>.</p>
+<p>Definition at line <a class="el" href="particlepool_8h_source.html#l00043">43</a> of file <a class="el" href="particlepool_8h_source.html">particlepool.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a79a031444075dc0ce7e34075452554d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79a031444075dc0ce7e34075452554d8">&sect;&nbsp;</a></span>clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::DWI::Tractography::GT::ParticlePool::clear </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Clear pool. </p>
+
+<p>Definition at line <a class="el" href="particlepool_8h_source.html#l00098">98</a> of file <a class="el" href="particlepool_8h_source.html">particlepool.h</a>.</p>
+
+</div>
+</div>
 <a id="a98c03981137162be314115796cfd20f7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a98c03981137162be314115796cfd20f7">&sect;&nbsp;</a></span>create()</h2>
 
@@ -243,7 +283,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Creates a new particle and returns a pointer to its address. </p>
 
-<p>Definition at line <a class="el" href="particlepool_8h_source.html#l00049">49</a> of file <a class="el" href="particlepool_8h_source.html">particlepool.h</a>.</p>
+<p>Definition at line <a class="el" href="particlepool_8h_source.html#l00048">48</a> of file <a class="el" href="particlepool_8h_source.html">particlepool.h</a>.</p>
 
 </div>
 </div>
@@ -273,7 +313,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Destroys the particle at pointer p. </p>
 
-<p>Definition at line <a class="el" href="particlepool_8h_source.html#l00069">69</a> of file <a class="el" href="particlepool_8h_source.html">particlepool.h</a>.</p>
+<p>Definition at line <a class="el" href="particlepool_8h_source.html#l00065">65</a> of file <a class="el" href="particlepool_8h_source.html">particlepool.h</a>.</p>
 
 </div>
 </div>
@@ -303,6 +343,64 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a5d40a301d05caf0e6a75277da7fbca66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d40a301d05caf0e6a75277da7fbca66">&sect;&nbsp;</a></span>random()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle.html">Particle</a>* MR::DWI::Tractography::GT::ParticlePool::random </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Select random particle from the pool (uniformly). </p>
+
+<p>Definition at line <a class="el" href="particlepool_8h_source.html#l00081">81</a> of file <a class="el" href="particlepool_8h_source.html">particlepool.h</a>.</p>
+
+</div>
+</div>
+<a id="ac03cd366f11e3989a27ce9fde9c3d230"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac03cd366f11e3989a27ce9fde9c3d230">&sect;&nbsp;</a></span>size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t MR::DWI::Tractography::GT::ParticlePool::size </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return number of Particles in the pool. </p>
+
+<p>Definition at line <a class="el" href="particlepool_8h_source.html#l00074">74</a> of file <a class="el" href="particlepool_8h_source.html">particlepool.h</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a36d5def84ea1d49a1f50c6933f98e964"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a36d5def84ea1d49a1f50c6933f98e964">&sect;&nbsp;</a></span>avail</h2>
@@ -324,7 +422,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="particlepool_8h_source.html#l00078">78</a> of file <a class="el" href="particlepool_8h_source.html">particlepool.h</a>.</p>
+<p>Definition at line <a class="el" href="particlepool_8h_source.html#l00108">108</a> of file <a class="el" href="particlepool_8h_source.html">particlepool.h</a>.</p>
 
 </div>
 </div>
@@ -348,7 +446,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="particlepool_8h_source.html#l00076">76</a> of file <a class="el" href="particlepool_8h_source.html">particlepool.h</a>.</p>
+<p>Definition at line <a class="el" href="particlepool_8h_source.html#l00106">106</a> of file <a class="el" href="particlepool_8h_source.html">particlepool.h</a>.</p>
 
 </div>
 </div>
@@ -372,7 +470,31 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="particlepool_8h_source.html#l00077">77</a> of file <a class="el" href="particlepool_8h_source.html">particlepool.h</a>.</p>
+<p>Definition at line <a class="el" href="particlepool_8h_source.html#l00107">107</a> of file <a class="el" href="particlepool_8h_source.html">particlepool.h</a>.</p>
+
+</div>
+</div>
+<a id="a18db85fd233879ab36d5c91374ae2fe5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18db85fd233879ab36d5c91374ae2fe5">&sect;&nbsp;</a></span>rng</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_m_r_1_1_math_1_1_r_n_g.html">Math::RNG</a> MR::DWI::Tractography::GT::ParticlePool::rng</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="particlepool_8h_source.html#l00109">109</a> of file <a class="el" href="particlepool_8h_source.html">particlepool.h</a>.</p>
 
 </div>
 </div>
@@ -385,7 +507,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_d_w_i.html">DWI</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography.html">Tractography</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t.html">GT</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle_pool.html">ParticlePool</a></li>
-    <li class="footer">Generated on Fri Nov 18 2016 12:48:18 for MRtrix by
+    <li class="footer">Generated on Fri Nov 18 2016 17:39:05 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.12 </li>
   </ul>

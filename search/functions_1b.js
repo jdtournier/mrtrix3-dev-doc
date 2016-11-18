@@ -30,6 +30,7 @@ var searchData=
   ['_7eframebuffer',['~FrameBuffer',['../class_m_r_1_1_g_u_i_1_1_g_l_1_1_frame_buffer.html#a2800f50843827f1c8e72d1de0408d718',1,'MR::GUI::GL::FrameBuffer']]],
   ['_7egrab',['~Grab',['../struct_m_r_1_1_g_u_i_1_1_context_1_1_grab.html#a71aefb0ef61760d374e5529c313340c3',1,'MR::GUI::Context::Grab']]],
   ['_7egrid_5fper_5fvoxel',['~Grid_per_voxel',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_seeding_1_1_grid__per__voxel.html#a0a6e06a35791073452e5414a9a093475',1,'MR::DWI::Tractography::Seeding::Grid_per_voxel']]],
+  ['_7eguard',['~Guard',['../struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock_1_1_guard.html#ada9e38aede3402b33c0818f18ce38360',1,'MR::DWI::Tractography::GT::SpatialLock::Guard']]],
   ['_7egz',['~GZ',['../class_m_r_1_1_file_1_1_g_z.html#af6225aaf08437c5666cb0d90b4f12a6e',1,'MR::File::GZ']]],
   ['_7eheader',['~Header',['../class_m_r_1_1_header.html#af540c1d23965ca1dc694510ec1da24b3',1,'MR::Header']]],
   ['_7eifod1',['~iFOD1',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1.html#af924c234747f3c959eedd707cf7069c0',1,'MR::DWI::Tractography::Algorithms::iFOD1']]],

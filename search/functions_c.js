@@ -49,7 +49,6 @@ var searchData=
   ['load_5ftransform',['load_transform',['../namespace_m_r.html#ae2746ab282780c24c1e6e73a01a3f120',1,'MR']]],
   ['load_5fvector',['load_vector',['../namespace_m_r.html#a1714aeef7a274e31aec03d75949272b0',1,'MR']]],
   ['loader',['Loader',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_editing_1_1_loader.html#a997974a9c9664c1c860d2b7023659f63',1,'MR::DWI::Tractography::Editing::Loader']]],
-  ['lockifnotlocked',['lockIfNotLocked',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock.html#ad1296755d00695f282ce537044ef9571',1,'MR::DWI::Tractography::GT::SpatialLock']]],
   ['lod',['LOD',['../class_m_r_1_1_g_u_i_1_1_shapes_1_1_cylinder.html#a1bd76b56c24795eb2d7d0fed35a57ef0',1,'MR::GUI::Shapes::Cylinder::LOD()'],['../class_m_r_1_1_g_u_i_1_1_shapes_1_1_half_sphere.html#af84d38edce118de309626c5c30d8b7b2',1,'MR::GUI::Shapes::HalfSphere::LOD()'],['../class_m_r_1_1_g_u_i_1_1_shapes_1_1_sphere.html#a6eb1a96b814cb307b74d8405b49f37bc',1,'MR::GUI::Shapes::Sphere::LOD()']]],
   ['lod_5fslot',['lod_slot',['../class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_window.html#ab45d1903db62c9fd71264e02874b8fd7',1,'MR::GUI::DWI::Window']]],
   ['loglevellatch',['LogLevelLatch',['../class_m_r_1_1_log_level_latch.html#a8836e05e97c2887dde903e985fecfe11',1,'MR::LogLevelLatch']]],

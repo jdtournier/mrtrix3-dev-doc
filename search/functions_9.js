@@ -96,6 +96,7 @@ var searchData=
   ['is_5fvector',['is_vector',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_matrix.html#a9f331c42e895b7b72b18f09e4bfec0e7',1,'MR::DWI::Tractography::Connectome::Matrix']]],
   ['is_5fvisible',['is_visible',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_edge.html#ad7ce88b00dd1d3e56750ed5402e607fc',1,'MR::GUI::MRView::Tool::Edge::is_visible()'],['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_node.html#a6dbf0ea9bc6ca46b0bb3901569095e87',1,'MR::GUI::MRView::Tool::Node::is_visible()']]],
   ['is_5fwm',['is_wm',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_tissues.html#ac0a8f9c8dced6d48fd160c5027964aff',1,'MR::DWI::Tractography::ACT::Tissues']]],
+  ['isalive',['isAlive',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle.html#a09e1e5f6c11bd50114b595b2dc6f42e4',1,'MR::DWI::Tractography::GT::Particle']]],
   ['ismax',['isMax',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_adjust_button.html#ae340be20d9d9740f4d6ea88be02c86a9',1,'MR::GUI::MRView::AdjustButton']]],
   ['ismin',['isMin',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_adjust_button.html#a00a80a8f95b5810e7b25dbfac050c811',1,'MR::GUI::MRView::AdjustButton']]],
   ['isvisited',['isVisited',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle.html#a09a265fb32ddfa743a2e706f73aa070a',1,'MR::DWI::Tractography::GT::Particle']]],

@@ -1,5 +1,10 @@
 var NAVTREEINDEX5 =
 {
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_dixel_mapping_plugin.html#afad87d2288c8a2132d42b9b20cfb8ac7":[11,0,0,3,3,5,3,1],
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_fixel___t_d__map.html":[11,0,0,3,3,5,4],
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_fixel___t_d__map.html#a1936e37ce53b0c11c463cab4c7730ecf":[11,0,0,3,3,5,4,1],
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_fixel___t_d__map.html#a3d0ed17a347eae8369cd47ad1bcb6fae":[11,0,0,3,3,5,4,5],
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_fixel___t_d__map.html#a9595e0e36bfdfc1eca85b5c097d38a08":[11,0,0,3,3,5,4,3],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_fixel___t_d__map.html#a9b40bdc08c46a242fe7840691daf46b4":[11,0,0,3,3,5,4,4],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_fixel___t_d__map.html#aab869043615f6cf7ef5360939d9823f5":[11,0,0,3,3,5,4,0],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_fixel___t_d__map.html#af4012e2aa7e0f698692112c79ec0fc17":[11,0,0,3,3,5,4,2],
@@ -244,10 +249,5 @@ var NAVTREEINDEX5 =
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_voxel_d_e_c.html#af7da146d7e35d1294dae1c64f154e448":[11,0,0,3,3,5,21,5],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_voxel_dir.html":[11,0,0,3,3,5,22],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_voxel_dir.html#a183738677ef830988aa547040e7153f3":[11,0,0,3,3,5,22,2],
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_voxel_dir.html#a1de82bbe57eabe400d49af9946884a5f":[11,0,0,3,3,5,22,8],
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_voxel_dir.html#a31d1eaa5067ae0c055205de4164849f7":[11,0,0,3,3,5,22,7],
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_voxel_dir.html#a42a20df0ffcc4aca58c51e467a514543":[11,0,0,3,3,5,22,1],
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_voxel_dir.html#a4d197d4b18dda2fd886c71a720a910ae":[11,0,0,3,3,5,22,3],
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_voxel_dir.html#a5fc3ecb7c0dcf934c61796eca644e6d8":[11,0,0,3,3,5,22,6],
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_voxel_dir.html#a7789d8b9265c595824a7c199af19e3b3":[11,0,0,3,3,5,22,9]
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_voxel_dir.html#a1de82bbe57eabe400d49af9946884a5f":[11,0,0,3,3,5,22,8]
 };
