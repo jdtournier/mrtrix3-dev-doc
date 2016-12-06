@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['l',['L',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle.html#a559c99df6423e71c17ebffce741382a2',1,'MR::DWI::Tractography::GT::Particle::L()'],['../class_m_r_1_1_math_1_1_i_c_l_s_1_1_solver.html#ab6caca5843106f78f01d6b4477ded22c',1,'MR::Math::ICLS::Solver::l()']]],
+  ['l',['l',['../class_m_r_1_1_math_1_1_i_c_l_s_1_1_solver.html#ab6caca5843106f78f01d6b4477ded22c',1,'MR::Math::ICLS::Solver::l()'],['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle.html#a559c99df6423e71c17ebffce741382a2',1,'MR::DWI::Tractography::GT::Particle::L()']]],
   ['l1',['l1',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_energy_sum_computer.html#aca0679af981b44ae5f1b2b43a74464fa',1,'MR::DWI::Tractography::GT::EnergySumComputer']]],
   ['l2',['l2',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_energy_sum_computer.html#add26a3c628cc876c0d8901aa858a21ff',1,'MR::DWI::Tractography::GT::EnergySumComputer']]],
   ['label',['label',['../class_m_r_1_1_filter_1_1cluster.html#ab6314166fb3f56506be719aec2c58474',1,'MR::Filter::cluster']]],
