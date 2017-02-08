@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['l',['l',['../class_m_r_1_1_math_1_1_i_c_l_s_1_1_solver.html#ab6caca5843106f78f01d6b4477ded22c',1,'MR::Math::ICLS::Solver::l()'],['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle.html#a559c99df6423e71c17ebffce741382a2',1,'MR::DWI::Tractography::GT::Particle::L()']]],
+  ['l',['L',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle.html#a559c99df6423e71c17ebffce741382a2',1,'MR::DWI::Tractography::GT::Particle::L()'],['../class_m_r_1_1_math_1_1_i_c_l_s_1_1_solver.html#ab6caca5843106f78f01d6b4477ded22c',1,'MR::Math::ICLS::Solver::l()']]],
   ['l1',['L1',['../class_m_r_1_1_registration_1_1_metric_1_1_l1.html',1,'MR::Registration::Metric']]],
   ['l1',['l1',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_energy_sum_computer.html#aca0679af981b44ae5f1b2b43a74464fa',1,'MR::DWI::Tractography::GT::EnergySumComputer::l1()'],['../namespace_m_r_1_1_registration.html#acee95fcf4386a73a2764b491c5cf06a4a5334174ab3df88429a192678800c9de5',1,'MR::Registration::L1()']]],
   ['l2',['L2',['../class_m_r_1_1_registration_1_1_metric_1_1_l2.html',1,'MR::Registration::Metric']]],
@@ -98,7 +98,7 @@ var searchData=
   ['link',['link',['../class_m_r_1_1_g_u_i_1_1_g_l_1_1_shader_1_1_program.html#a2f398fec7e7e4a2b16d30e0abe25c31b',1,'MR::GUI::GL::Shader::Program']]],
   ['list',['List',['../class_m_r_1_1_file_1_1_parsed_name_1_1_list.html',1,'MR::File::ParsedName']]],
   ['list',['List',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_seeding_1_1_list.html',1,'MR::DWI::Tractography::Seeding']]],
-  ['list',['list',['../class_m_r_1_1_histogram.html#ae45dde2a75c3adc05ae242a204a95b5e',1,'MR::Histogram::list()'],['../class_m_r_1_1_file_1_1_parsed_name_1_1_list.html#ad079a3a38755d4f76a0e2016bbcb1eee',1,'MR::File::ParsedName::List::list()'],['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_seeding_1_1_list.html#ac3726a67dc04c450d0600146c62d8ddd',1,'MR::DWI::Tractography::Seeding::List::List()'],['../namespace_m_r_1_1_stride.html#aa51a5a42ff087635f41d357f96c05198',1,'MR::Stride::List()']]],
+  ['list',['List',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_seeding_1_1_list.html#ac3726a67dc04c450d0600146c62d8ddd',1,'MR::DWI::Tractography::Seeding::List::List()'],['../class_m_r_1_1_histogram.html#ae45dde2a75c3adc05ae242a204a95b5e',1,'MR::Histogram::list()'],['../class_m_r_1_1_file_1_1_parsed_name_1_1_list.html#ad079a3a38755d4f76a0e2016bbcb1eee',1,'MR::File::ParsedName::List::list()'],['../namespace_m_r_1_1_stride.html#aa51a5a42ff087635f41d357f96c05198',1,'MR::Stride::List()']]],
   ['list_2eh',['list.h',['../src_2dwi_2tractography_2seeding_2list_8h.html',1,'']]],
   ['list_2eh',['list.h',['../src_2gui_2dialog_2list_8h.html',1,'']]],
   ['list_2eh',['list.h',['../lib_2formats_2list_8h.html',1,'']]],
