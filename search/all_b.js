@@ -9,7 +9,6 @@ var searchData=
   ['keys_2eh',['keys.h',['../keys_8h.html',1,'']]],
   ['keyval',['keyval',['../class_m_r_1_1_adapter_1_1_base.html#a7a53d354ab0082dd7f7f22e82de2ae91',1,'MR::Adapter::Base::keyval()'],['../class_m_r_1_1_header.html#af637500b33eaa6462633f091270e76c8',1,'MR::Header::keyval() const'],['../class_m_r_1_1_header.html#ab031cb996272a821a73a2d7444096888',1,'MR::Header::keyval()'],['../class_m_r_1_1_image.html#acb357882bc33682baf8bae0b94ea820e',1,'MR::Image::keyval()']]],
   ['keyval_5f',['keyval_',['../class_m_r_1_1_header.html#ad26cdf742faae1dc5e973a8b3e9b72c6',1,'MR::Header']]],
-  ['keyvalue',['KeyValue',['../class_m_r_1_1_file_1_1_key_value.html',1,'MR::File']]],
-  ['keyvalue',['KeyValue',['../class_m_r_1_1_file_1_1_key_value.html#ae7a5affd93a75ed26398240016a4492e',1,'MR::File::KeyValue::KeyValue()'],['../class_m_r_1_1_file_1_1_key_value.html#a41585f73142364e66e14e8a127190491',1,'MR::File::KeyValue::KeyValue(const std::string &amp;file, const char *first_line=NULL)']]],
+  ['keyvalue',['KeyValue',['../class_m_r_1_1_file_1_1_key_value.html',1,'MR::File::KeyValue'],['../class_m_r_1_1_file_1_1_key_value.html#ae7a5affd93a75ed26398240016a4492e',1,'MR::File::KeyValue::KeyValue()'],['../class_m_r_1_1_file_1_1_key_value.html#a41585f73142364e66e14e8a127190491',1,'MR::File::KeyValue::KeyValue(const std::string &amp;file, const char *first_line=NULL)']]],
   ['known_5fextensions',['known_extensions',['../namespace_m_r_1_1_formats.html#aa4616324e125e8d0e4f5f6bd76b03a26',1,'MR::Formats']]]
 ];

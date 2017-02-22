@@ -6,7 +6,6 @@ var searchData=
   ['x3',['x3',['../class_m_r_1_1_math_1_1_gradient_descent_b_b.html#ae301bb08540c82a26d355754e9e6ab6e',1,'MR::Math::GradientDescentBB']]],
   ['x_5fposition',['x_position',['../class_m_r_1_1_g_u_i_1_1_projection.html#abaf7f9a9c16add5495b3d5b13be28b79',1,'MR::GUI::Projection']]],
   ['xdim',['xdim',['../class_m_r_1_1_image_i_o_1_1_mosaic.html#a9123377e8ab18d3a36bc9930de4c67bd',1,'MR::ImageIO::Mosaic']]],
-  ['xds',['XDS',['../class_m_r_1_1_formats_1_1_x_d_s.html',1,'MR::Formats']]],
-  ['xds',['XDS',['../class_m_r_1_1_formats_1_1_x_d_s.html#abe2adc5edcc7fdb9dce0bde812c5a3df',1,'MR::Formats::XDS']]],
+  ['xds',['XDS',['../class_m_r_1_1_formats_1_1_x_d_s.html',1,'MR::Formats::XDS'],['../class_m_r_1_1_formats_1_1_x_d_s.html#abe2adc5edcc7fdb9dce0bde812c5a3df',1,'MR::Formats::XDS::XDS()']]],
   ['xyz2idx',['xyz2idx',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle_grid.html#a6ea104e196fc61eadd1f257966508e3c',1,'MR::DWI::Tractography::GT::ParticleGrid']]]
 ];

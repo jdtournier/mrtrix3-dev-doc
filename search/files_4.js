@@ -13,6 +13,5 @@ var searchData=
   ['exec_2eh',['exec.h',['../exec_8h.html',1,'']]],
   ['exemplar_2eh',['exemplar.h',['../exemplar_8h.html',1,'']]],
   ['externalenergy_2eh',['externalenergy.h',['../externalenergy_8h.html',1,'']]],
-  ['extract_2eh',['extract.h',['../lib_2adapter_2extract_8h.html',1,'']]],
-  ['extract_2eh',['extract.h',['../src_2dwi_2tractography_2connectome_2extract_8h.html',1,'']]]
+  ['extract_2eh',['extract.h',['../lib_2adapter_2extract_8h.html',1,'(Global Namespace)'],['../src_2dwi_2tractography_2connectome_2extract_8h.html',1,'(Global Namespace)']]]
 ];

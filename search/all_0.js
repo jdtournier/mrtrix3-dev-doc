@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['_5f_5fbackend',['__Backend',['../class_m_r_1_1_thread_1_1_____backend.html',1,'MR::Thread']]],
-  ['_5f_5fbackend',['__Backend',['../class_m_r_1_1_thread_1_1_____backend.html#a40852fdb2de98c2cba8bb85e90bda19e',1,'MR::Thread::__Backend']]],
+  ['_5f_5fbackend',['__Backend',['../class_m_r_1_1_thread_1_1_____backend.html',1,'MR::Thread::__Backend'],['../class_m_r_1_1_thread_1_1_____backend.html#a40852fdb2de98c2cba8bb85e90bda19e',1,'MR::Thread::__Backend::__Backend()']]],
   ['_5f_5fdefine_5ffetch_5fstore_5ffunction_5ffor_5ftype',['__DEFINE_FETCH_STORE_FUNCTION_FOR_TYPE',['../fetch__store_8h.html#a85b55a135b4b18ef1f54ac49c3b0179c',1,'fetch_store.h']]],
   ['_5f_5fdefine_5ffetch_5fstore_5ffunctions',['__DEFINE_FETCH_STORE_FUNCTIONS',['../fetch__store_8h.html#a8ba288409645183aac38fec3d1f93b20',1,'fetch_store.h']]],
   ['_5f_5ffrom_5fcommand_5fline',['__from_command_line',['../namespace_m_r_1_1_stride.html#a4c0e7d9378a298266a1cb521f42f1410',1,'MR::Stride']]],
