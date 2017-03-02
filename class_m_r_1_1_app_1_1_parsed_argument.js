@@ -20,7 +20,7 @@ var class_m_r_1_1_app_1_1_parsed_argument =
     [ "operator std::vector< default_type >", "group___cmd_parse.html#ga23d914a1d141a49ef956ded5668d70d1", null ],
     [ "operator std::vector< int >", "group___cmd_parse.html#ga2127b177116ab50099ca90126dc46bcd", null ],
     [ "operator unsigned int", "group___cmd_parse.html#ga2e572541936b4fc7a9938effdf08b3d7", null ],
-    [ "MR::App::init", "group___cmd_parse.html#ga6af9c71b18687c8f31fcc13754275bb1", null ],
+    [ "MR::App::init", "group___cmd_parse.html#ga789946af16b9a26d93230524620b8974", null ],
     [ "MR::App::parse", "group___cmd_parse.html#gacd667bae8e58e84cebfee6161523a3ed", null ],
     [ "MR::App::sort_arguments", "group___cmd_parse.html#gaafcccf4b681421ea61aeda0af29a3164", null ],
     [ "Options", "group___cmd_parse.html#gabfa275a2475993fcbc4c531048fac09a", null ],

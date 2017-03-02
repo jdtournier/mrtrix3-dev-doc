@@ -30,7 +30,7 @@ var searchData=
   ['helper',['Helper',['../namespace_m_r_1_1_helper.html',1,'MR']]],
   ['icls',['ICLS',['../namespace_m_r_1_1_math_1_1_i_c_l_s.html',1,'MR::Math']]],
   ['imageio',['ImageIO',['../namespace_m_r_1_1_image_i_o.html',1,'MR']]],
-  ['init',['Init',['../namespace_m_r_1_1_registration_1_1_transform_1_1_init.html',1,'MR::Registration::Transform::Init'],['../group___cmd_parse.html#ga6af9c71b18687c8f31fcc13754275bb1',1,'MR::App::ParsedArgument::init()']]],
+  ['init',['Init',['../namespace_m_r_1_1_registration_1_1_transform_1_1_init.html',1,'MR::Registration::Transform::Init'],['../group___cmd_parse.html#ga789946af16b9a26d93230524620b8974',1,'MR::App::ParsedArgument::init()']]],
   ['interp',['Interp',['../namespace_m_r_1_1_interp.html',1,'MR']]],
   ['legendre',['Legendre',['../namespace_m_r_1_1_math_1_1_legendre.html',1,'MR::Math']]],
   ['lightboxviewcontrols',['LightBoxViewControls',['../namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_light_box_view_controls.html',1,'MR::GUI::MRView::Mode']]],

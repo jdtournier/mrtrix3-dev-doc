@@ -1,5 +1,6 @@
 var NAVTREEINDEX30 =
 {
+"shells_8h_source.html":[12,0,1,1,8],
 "shview_2icons_8h.html":[12,0,1,2,5,0],
 "shview_2icons_8h_source.html":[12,0,1,2,5,0],
 "sift_8h.html":[12,0,1,1,2,8,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX30 =
 "streamline__stats_8h.html":[12,0,1,1,2,9,6],
 "streamline__stats_8h_source.html":[12,0,1,1,2,9,6],
 "stride_8h.html":[12,0,0,26],
-"stride_8h.html#a11e368274fadfe5fdab37ff616563e08":[12,0,0,26,19],
-"stride_8h.html#a132b7628c8eee7e3cc055ed1bf8a6c05":[12,0,0,26,12]
+"stride_8h.html#a11e368274fadfe5fdab37ff616563e08":[12,0,0,26,19]
 };

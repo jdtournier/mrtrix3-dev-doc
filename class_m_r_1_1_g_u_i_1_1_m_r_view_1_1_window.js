@@ -26,6 +26,7 @@ var class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_window =
     [ "on_scaling_changed", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_window.html#a416f882da3cc245523341691ed2986a2", null ],
     [ "orientation", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_window.html#a88c6dc859e4c94e7b0f2a337d66de5be", null ],
     [ "orientationChanged", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_window.html#ab7c55c92a3c31cea8b6024226a231b38", null ],
+    [ "parse_arguments", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_window.html#a31756438378b88e8c9216626aea20d7f", null ],
     [ "plane", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_window.html#a9968fd619de27e078c5de1dd9919ef20", null ],
     [ "planeChanged", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_window.html#a9b12d90cb8bd8971d5f4723981fbc256", null ],
     [ "scalingChanged", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_window.html#a12bcba5327d35ffddcc163f51d2f79a6", null ],
