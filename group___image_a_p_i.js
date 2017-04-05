@@ -16,7 +16,7 @@ var group___image_a_p_i =
         [ "fetch_func", "class_m_r_1_1_image_1_1_buffer.html#a01a8bc25a7bb0caf4a9f294648171f81", null ],
         [ "store_func", "class_m_r_1_1_image_1_1_buffer.html#ad6a16772919c9f6b85529f6a5eafdc38", null ]
       ] ],
-      [ "value_type", "class_m_r_1_1_image.html#a1bdc210a550940fd9ecd6c83bb6d44e9", null ],
+      [ "value_type", "class_m_r_1_1_image.html#ad59026b1952d67a260345a5132203e36", null ],
       [ "Image", "class_m_r_1_1_image.html#abb44e03b695f63f66e921d0e06e6e34c", null ],
       [ "Image", "class_m_r_1_1_image.html#acbedaaa48e9cbc3b032999fcaf66c8a4", null ],
       [ "Image", "class_m_r_1_1_image.html#aa54407fdb2253552bc1dea3a2ed88f1a", null ],

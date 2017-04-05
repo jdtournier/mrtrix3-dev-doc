@@ -1,6 +1,7 @@
 var class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_p67c55abb4645d7286881c1c4671654a0 =
 [
     [ "SplineBase", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_p67c55abb4645d7286881c1c4671654a0.html#aa0c1b8cc25205b78e7b964b3da5839fd", null ],
+    [ "value_type", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_p67c55abb4645d7286881c1c4671654a0.html#aa26cdd2ac07363d8bb71e8567593f7c4", null ],
     [ "SplineInterp", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_p67c55abb4645d7286881c1c4671654a0.html#a5e99c8bd6cd28f51844099ac9c5b6086", null ],
     [ "image", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_p67c55abb4645d7286881c1c4671654a0.html#a869586f4be48776b18a61888de5bac12", null ],
     [ "scanner", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_p67c55abb4645d7286881c1c4671654a0.html#a911a1e4419dedbf00cae53fdab8cf3b8", null ],
@@ -11,7 +12,6 @@ var class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_
     [ "voxel", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_p67c55abb4645d7286881c1c4671654a0.html#adbe2720571ce164053048db65c01e618", null ],
     [ "out_of_bounds_matrix", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_p67c55abb4645d7286881c1c4671654a0.html#adaf2007351840f48e8828ed061fd39db", null ],
     [ "out_of_bounds_vec", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_p67c55abb4645d7286881c1c4671654a0.html#aa83b314fffec7acedad0020d4311384b", null ],
-    [ "value_type", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_p67c55abb4645d7286881c1c4671654a0.html#a08132b9d9fa99a5b70ff2f8d071782f0", null ],
     [ "weights_matrix", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_p67c55abb4645d7286881c1c4671654a0.html#a8c2bb4508f031046f0537cf0501c99b4", null ],
     [ "wrt_scanner_transform", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_p67c55abb4645d7286881c1c4671654a0.html#aebb6d8e1dd619f1024d3aba4296336e2", null ]
 ];

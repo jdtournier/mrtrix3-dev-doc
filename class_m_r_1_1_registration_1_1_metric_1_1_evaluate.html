@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-522-gbc67f1a1</div>
+   <div id="projectbrief">Version 0.3.15-526-gaf0d0067</div>
   </td>
  </tr>
  </tbody>
@@ -101,10 +101,10 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:aa0ceaed7de13c15651bad067789d5ded"><td class="memItemLeft" align="right" valign="top">typedef ParamType::TransformParamType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_evaluate.html#aa0ceaed7de13c15651bad067789d5ded">TransformParamType</a></td></tr>
-<tr class="separator:aa0ceaed7de13c15651bad067789d5ded"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70d1b64abb8045d1fb3df97807f65c11"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_evaluate.html#a70d1b64abb8045d1fb3df97807f65c11">value_type</a></td></tr>
-<tr class="separator:a70d1b64abb8045d1fb3df97807f65c11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ef5f23ee50ed932597574fc8c55d336"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_evaluate.html#a4ef5f23ee50ed932597574fc8c55d336">TransformParamType</a> = typename ParamType::TransformParamType</td></tr>
+<tr class="separator:a4ef5f23ee50ed932597574fc8c55d336"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d442d025d7b1f1e9347414ef2bdc1da"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_evaluate.html#a3d442d025d7b1f1e9347414ef2bdc1da">value_type</a> = <a class="el" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a></td></tr>
+<tr class="separator:a3d442d025d7b1f1e9347414ef2bdc1da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -115,17 +115,17 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab4aac7c27144d07a85d68a17c770e54a"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_evaluate.html#ab4aac7c27144d07a85d68a17c770e54a">Evaluate</a> (const MetricType &amp;<a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_evaluate.html#a1a7576d1680c03a2d259a27e29254470">metric</a>, ParamType &amp;parameters, typename metric_requires_initialisation&lt; U &gt;::no=0)</td></tr>
 <tr class="separator:ab4aac7c27144d07a85d68a17c770e54a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98eb9a9369ae3039640c9d6ab7c79154"><td class="memTemplParams" colspan="2">template&lt;class U  = MetricType&gt; </td></tr>
-<tr class="memitem:a98eb9a9369ae3039640c9d6ab7c79154"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_evaluate.html#a98eb9a9369ae3039640c9d6ab7c79154">operator()</a> (const Eigen::Matrix&lt; <a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a>, Eigen::Dynamic, 1 &gt; &amp;x, Eigen::Matrix&lt; <a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a>, Eigen::Dynamic, 1 &gt; &amp;gradient, typename metric_requires_precompute&lt; U &gt;::yes=0)</td></tr>
+<tr class="memitem:a98eb9a9369ae3039640c9d6ab7c79154"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_evaluate.html#a98eb9a9369ae3039640c9d6ab7c79154">operator()</a> (const Eigen::Matrix&lt; <a class="el" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a>, Eigen::Dynamic, 1 &gt; &amp;x, Eigen::Matrix&lt; <a class="el" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a>, Eigen::Dynamic, 1 &gt; &amp;gradient, typename metric_requires_precompute&lt; U &gt;::yes=0)</td></tr>
 <tr class="separator:a98eb9a9369ae3039640c9d6ab7c79154"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3aad601ca55475878501d40858e10b74"><td class="memTemplParams" colspan="2">template&lt;class TransformType_ &gt; </td></tr>
-<tr class="memitem:a3aad601ca55475878501d40858e10b74"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_evaluate.html#a3aad601ca55475878501d40858e10b74">estimate</a> (TransformType_ &amp;&amp;trafo, const MetricType &amp;<a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_evaluate.html#a1a7576d1680c03a2d259a27e29254470">metric</a>, const ParamType &amp;<a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_evaluate.html#a48cf332234c1522dd9aac4976a5050a7">params</a>, Eigen::VectorXd &amp;cost, Eigen::Matrix&lt; <a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a>, Eigen::Dynamic, 1 &gt; &amp;gradient, const Eigen::Matrix&lt; <a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a>, Eigen::Dynamic, 1 &gt; &amp;x)</td></tr>
+<tr class="memitem:a3aad601ca55475878501d40858e10b74"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_evaluate.html#a3aad601ca55475878501d40858e10b74">estimate</a> (TransformType_ &amp;&amp;trafo, const MetricType &amp;<a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_evaluate.html#a1a7576d1680c03a2d259a27e29254470">metric</a>, const ParamType &amp;<a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_evaluate.html#a48cf332234c1522dd9aac4976a5050a7">params</a>, Eigen::VectorXd &amp;cost, Eigen::Matrix&lt; <a class="el" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a>, Eigen::Dynamic, 1 &gt; &amp;gradient, const Eigen::Matrix&lt; <a class="el" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a>, Eigen::Dynamic, 1 &gt; &amp;x)</td></tr>
 <tr class="separator:a3aad601ca55475878501d40858e10b74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16de48ce03f042cf579e5034e6abc75c"><td class="memTemplParams" colspan="2">template&lt;class U  = MetricType&gt; </td></tr>
-<tr class="memitem:a16de48ce03f042cf579e5034e6abc75c"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_evaluate.html#a16de48ce03f042cf579e5034e6abc75c">operator()</a> (const Eigen::Matrix&lt; <a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a>, Eigen::Dynamic, 1 &gt; &amp;x, Eigen::Matrix&lt; <a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a>, Eigen::Dynamic, 1 &gt; &amp;gradient, typename metric_requires_precompute&lt; U &gt;::no=0)</td></tr>
+<tr class="memitem:a16de48ce03f042cf579e5034e6abc75c"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_evaluate.html#a16de48ce03f042cf579e5034e6abc75c">operator()</a> (const Eigen::Matrix&lt; <a class="el" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a>, Eigen::Dynamic, 1 &gt; &amp;x, Eigen::Matrix&lt; <a class="el" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a>, Eigen::Dynamic, 1 &gt; &amp;gradient, typename metric_requires_precompute&lt; U &gt;::no=0)</td></tr>
 <tr class="separator:a16de48ce03f042cf579e5034e6abc75c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b3f275dad4870c7c2cc5e46afcb1fc9"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_evaluate.html#a4b3f275dad4870c7c2cc5e46afcb1fc9">size</a> ()</td></tr>
 <tr class="separator:a4b3f275dad4870c7c2cc5e46afcb1fc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a13e37ee273525727df8f82b85f6e8eb1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_evaluate.html#a13e37ee273525727df8f82b85f6e8eb1">init</a> (Eigen::VectorXd &amp;x)</td></tr>
+<tr class="memitem:a13e37ee273525727df8f82b85f6e8eb1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_evaluate.html#a13e37ee273525727df8f82b85f6e8eb1">init</a> (Eigen::VectorXd &amp;x)</td></tr>
 <tr class="separator:a13e37ee273525727df8f82b85f6e8eb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14981fdc147fae6fb46e8290724279f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_evaluate.html#a14981fdc147fae6fb46e8290724279f6">set_directions</a> (Eigen::MatrixXd &amp;dir)</td></tr>
 <tr class="separator:a14981fdc147fae6fb46e8290724279f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -150,8 +150,8 @@ class MR::Registration::Metric::Evaluate&lt; MetricType, ParamType &gt;</h3>
 
 <p class="definition">Definition at line <a class="el" href="evaluate_8h_source.html#l00062">62</a> of file <a class="el" href="evaluate_8h_source.html">evaluate.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="aa0ceaed7de13c15651bad067789d5ded"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa0ceaed7de13c15651bad067789d5ded">&#9670;&nbsp;</a></span>TransformParamType</h2>
+<a id="a4ef5f23ee50ed932597574fc8c55d336"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ef5f23ee50ed932597574fc8c55d336">&#9670;&nbsp;</a></span>TransformParamType</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -159,7 +159,7 @@ class MR::Registration::Metric::Evaluate&lt; MetricType, ParamType &gt;</h3>
 template&lt;class MetricType, class ParamType&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">typedef ParamType::TransformParamType <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_evaluate.html">MR::Registration::Metric::Evaluate</a>&lt; MetricType, ParamType &gt;::<a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_evaluate.html#aa0ceaed7de13c15651bad067789d5ded">TransformParamType</a></td>
+          <td class="memname">using <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_evaluate.html">MR::Registration::Metric::Evaluate</a>&lt; MetricType, ParamType &gt;::<a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_evaluate.html#a4ef5f23ee50ed932597574fc8c55d336">TransformParamType</a> =  typename ParamType::TransformParamType</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -168,8 +168,8 @@ template&lt;class MetricType, class ParamType&gt; </div>
 
 </div>
 </div>
-<a id="a70d1b64abb8045d1fb3df97807f65c11"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a70d1b64abb8045d1fb3df97807f65c11">&#9670;&nbsp;</a></span>value_type</h2>
+<a id="a3d442d025d7b1f1e9347414ef2bdc1da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d442d025d7b1f1e9347414ef2bdc1da">&#9670;&nbsp;</a></span>value_type</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -177,7 +177,7 @@ template&lt;class MetricType, class ParamType&gt; </div>
 template&lt;class MetricType, class ParamType&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a> <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_evaluate.html">MR::Registration::Metric::Evaluate</a>&lt; MetricType, ParamType &gt;::<a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_evaluate.html#a70d1b64abb8045d1fb3df97807f65c11">value_type</a></td>
+          <td class="memname">using <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_evaluate.html">MR::Registration::Metric::Evaluate</a>&lt; MetricType, ParamType &gt;::<a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_evaluate.html#a3d442d025d7b1f1e9347414ef2bdc1da">value_type</a> =  <a class="el" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -324,13 +324,13 @@ template&lt;class TransformType_ &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Eigen::Matrix&lt; <a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a>, Eigen::Dynamic, 1 &gt; &amp;&#160;</td>
+          <td class="paramtype">Eigen::Matrix&lt; <a class="el" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a>, Eigen::Dynamic, 1 &gt; &amp;&#160;</td>
           <td class="paramname"><em>gradient</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const Eigen::Matrix&lt; <a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a>, Eigen::Dynamic, 1 &gt; &amp;&#160;</td>
+          <td class="paramtype">const Eigen::Matrix&lt; <a class="el" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a>, Eigen::Dynamic, 1 &gt; &amp;&#160;</td>
           <td class="paramname"><em>x</em>&#160;</td>
         </tr>
         <tr>
@@ -362,7 +362,7 @@ template&lt;class MetricType, class ParamType&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a> <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_evaluate.html">MR::Registration::Metric::Evaluate</a>&lt; MetricType, ParamType &gt;::init </td>
+          <td class="memname"><a class="el" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a> <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_evaluate.html">MR::Registration::Metric::Evaluate</a>&lt; MetricType, ParamType &gt;::init </td>
           <td>(</td>
           <td class="paramtype">Eigen::VectorXd &amp;&#160;</td>
           <td class="paramname"><em>x</em></td><td>)</td>
@@ -394,15 +394,15 @@ template&lt;class U  = MetricType&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a> <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_evaluate.html">MR::Registration::Metric::Evaluate</a>&lt; MetricType, ParamType &gt;::operator() </td>
+          <td class="memname"><a class="el" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a> <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_evaluate.html">MR::Registration::Metric::Evaluate</a>&lt; MetricType, ParamType &gt;::operator() </td>
           <td>(</td>
-          <td class="paramtype">const Eigen::Matrix&lt; <a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a>, Eigen::Dynamic, 1 &gt; &amp;&#160;</td>
+          <td class="paramtype">const Eigen::Matrix&lt; <a class="el" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a>, Eigen::Dynamic, 1 &gt; &amp;&#160;</td>
           <td class="paramname"><em>x</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Eigen::Matrix&lt; <a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a>, Eigen::Dynamic, 1 &gt; &amp;&#160;</td>
+          <td class="paramtype">Eigen::Matrix&lt; <a class="el" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a>, Eigen::Dynamic, 1 &gt; &amp;&#160;</td>
           <td class="paramname"><em>gradient</em>, </td>
         </tr>
         <tr>
@@ -442,15 +442,15 @@ template&lt;class U  = MetricType&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a> <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_evaluate.html">MR::Registration::Metric::Evaluate</a>&lt; MetricType, ParamType &gt;::operator() </td>
+          <td class="memname"><a class="el" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a> <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_evaluate.html">MR::Registration::Metric::Evaluate</a>&lt; MetricType, ParamType &gt;::operator() </td>
           <td>(</td>
-          <td class="paramtype">const Eigen::Matrix&lt; <a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a>, Eigen::Dynamic, 1 &gt; &amp;&#160;</td>
+          <td class="paramtype">const Eigen::Matrix&lt; <a class="el" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a>, Eigen::Dynamic, 1 &gt; &amp;&#160;</td>
           <td class="paramname"><em>x</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Eigen::Matrix&lt; <a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a>, Eigen::Dynamic, 1 &gt; &amp;&#160;</td>
+          <td class="paramtype">Eigen::Matrix&lt; <a class="el" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a>, Eigen::Dynamic, 1 &gt; &amp;&#160;</td>
           <td class="paramname"><em>gradient</em>, </td>
         </tr>
         <tr>
@@ -675,7 +675,7 @@ template&lt;class MetricType, class ParamType&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_registration.html">Registration</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_registration_1_1_metric.html">Metric</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_evaluate.html">Evaluate</a></li>
-    <li class="footer">Generated on Mon Apr 3 2017 11:49:41 for MRtrix by
+    <li class="footer">Generated on Wed Apr 5 2017 20:27:04 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

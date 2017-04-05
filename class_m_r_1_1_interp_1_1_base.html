@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-522-gbc67f1a1</div>
+   <div id="projectbrief">Version 0.3.15-526-gaf0d0067</div>
   </td>
  </tr>
  </tbody>
@@ -120,12 +120,12 @@ Inheritance diagram for MR::Interp::Base&lt; ImageType &gt;:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a779994e0c51742784106f2c5284458a8"><td class="memItemLeft" align="right" valign="top">typedef ImageType::value_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_interp_1_1_base.html#a779994e0c51742784106f2c5284458a8">value_type</a></td></tr>
-<tr class="separator:a779994e0c51742784106f2c5284458a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab35d8d79fcb705e0d48a018d03ac8459"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_interp_1_1_base.html#ab35d8d79fcb705e0d48a018d03ac8459">value_type</a> = typename ImageType::value_type</td></tr>
+<tr class="separator:ab35d8d79fcb705e0d48a018d03ac8459"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a8210d0eb21f99d8052a6ac0f774d3675"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_interp_1_1_base.html#a8210d0eb21f99d8052a6ac0f774d3675">Base</a> (const ImageType &amp;parent, <a class="el" href="class_m_r_1_1_interp_1_1_base.html#a779994e0c51742784106f2c5284458a8">value_type</a> value_when_out_of_bounds=<a class="el" href="class_m_r_1_1_interp_1_1_base.html#ac8118c180ea28db42c0e00c812169066">default_out_of_bounds_value</a>())</td></tr>
+<tr class="memitem:a8210d0eb21f99d8052a6ac0f774d3675"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_interp_1_1_base.html#a8210d0eb21f99d8052a6ac0f774d3675">Base</a> (const ImageType &amp;parent, <a class="el" href="class_m_r_1_1_interp_1_1_base.html#ab35d8d79fcb705e0d48a018d03ac8459">value_type</a> value_when_out_of_bounds=<a class="el" href="class_m_r_1_1_interp_1_1_base.html#ac8118c180ea28db42c0e00c812169066">default_out_of_bounds_value</a>())</td></tr>
 <tr class="separator:a8210d0eb21f99d8052a6ac0f774d3675"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f1c2d7e6d7957528c668b51682f86ff"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_interp_1_1_base.html#a5f1c2d7e6d7957528c668b51682f86ff">operator!</a> () const</td></tr>
 <tr class="memdesc:a5f1c2d7e6d7957528c668b51682f86ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">test whether current position is within bounds.  <a href="#a5f1c2d7e6d7957528c668b51682f86ff">More...</a><br /></td></tr>
@@ -146,28 +146,28 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ac8118c180ea28db42c0e00c812169066"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_m_r_1_1_interp_1_1_base.html#a779994e0c51742784106f2c5284458a8">value_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_interp_1_1_base.html#ac8118c180ea28db42c0e00c812169066">default_out_of_bounds_value</a> ()</td></tr>
+<tr class="memitem:ac8118c180ea28db42c0e00c812169066"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_m_r_1_1_interp_1_1_base.html#ab35d8d79fcb705e0d48a018d03ac8459">value_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_interp_1_1_base.html#ac8118c180ea28db42c0e00c812169066">default_out_of_bounds_value</a> ()</td></tr>
 <tr class="separator:ac8118c180ea28db42c0e00c812169066"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_methods_class_m_r_1_1_transform"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_class_m_r_1_1_transform')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="class_m_r_1_1_transform.html">MR::Transform</a></td></tr>
 <tr class="memitem:a7f3dc0b4e9e0e8230011a23468fa11c2 inherit pub_static_methods_class_m_r_1_1_transform"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
-<tr class="memitem:a7f3dc0b4e9e0e8230011a23468fa11c2 inherit pub_static_methods_class_m_r_1_1_transform"><td class="memTemplItemLeft" align="right" valign="top">static <a class="el" href="namespace_m_r.html#a5fb9f6fdd930a2baf8f8584ae6309c9b">transform_type</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_transform.html#a7f3dc0b4e9e0e8230011a23468fa11c2">get_default</a> (const HeaderType &amp;header)</td></tr>
+<tr class="memitem:a7f3dc0b4e9e0e8230011a23468fa11c2 inherit pub_static_methods_class_m_r_1_1_transform"><td class="memTemplItemLeft" align="right" valign="top">static <a class="el" href="namespace_m_r.html#a8445ea7a4001a6e8532def9abb86d59e">transform_type</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_transform.html#a7f3dc0b4e9e0e8230011a23468fa11c2">get_default</a> (const HeaderType &amp;header)</td></tr>
 <tr class="separator:a7f3dc0b4e9e0e8230011a23468fa11c2 inherit pub_static_methods_class_m_r_1_1_transform"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a6aea2ba234fb8daca0033b3d20a59c1e"><td class="memItemLeft" align="right" valign="top">EIGEN_MAKE_ALIGNED_OPERATOR_NEW const <a class="el" href="class_m_r_1_1_interp_1_1_base.html#a779994e0c51742784106f2c5284458a8">value_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_interp_1_1_base.html#a6aea2ba234fb8daca0033b3d20a59c1e">out_of_bounds_value</a></td></tr>
+<tr class="memitem:a6aea2ba234fb8daca0033b3d20a59c1e"><td class="memItemLeft" align="right" valign="top">EIGEN_MAKE_ALIGNED_OPERATOR_NEW const <a class="el" href="class_m_r_1_1_interp_1_1_base.html#ab35d8d79fcb705e0d48a018d03ac8459">value_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_interp_1_1_base.html#a6aea2ba234fb8daca0033b3d20a59c1e">out_of_bounds_value</a></td></tr>
 <tr class="memdesc:a6aea2ba234fb8daca0033b3d20a59c1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Functions that must be defined by interpolation classes.  <a href="#a6aea2ba234fb8daca0033b3d20a59c1e">More...</a><br /></td></tr>
 <tr class="separator:a6aea2ba234fb8daca0033b3d20a59c1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_class_m_r_1_1_transform"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_m_r_1_1_transform')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_m_r_1_1_transform.html">MR::Transform</a></td></tr>
-<tr class="memitem:aa3c1ba57f3d0ff387e1a635fe4b31486 inherit pub_attribs_class_m_r_1_1_transform"><td class="memItemLeft" align="right" valign="top">const Eigen::DiagonalMatrix&lt; <a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a>, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_transform.html#aa3c1ba57f3d0ff387e1a635fe4b31486">voxelsize</a></td></tr>
+<tr class="memitem:aa3c1ba57f3d0ff387e1a635fe4b31486 inherit pub_attribs_class_m_r_1_1_transform"><td class="memItemLeft" align="right" valign="top">const Eigen::DiagonalMatrix&lt; <a class="el" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a>, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_transform.html#aa3c1ba57f3d0ff387e1a635fe4b31486">voxelsize</a></td></tr>
 <tr class="separator:aa3c1ba57f3d0ff387e1a635fe4b31486 inherit pub_attribs_class_m_r_1_1_transform"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a858a1ad33f11ba33eeeb5e3ad5b919bf inherit pub_attribs_class_m_r_1_1_transform"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespace_m_r.html#a5fb9f6fdd930a2baf8f8584ae6309c9b">transform_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_transform.html#a858a1ad33f11ba33eeeb5e3ad5b919bf">voxel2scanner</a></td></tr>
+<tr class="memitem:a858a1ad33f11ba33eeeb5e3ad5b919bf inherit pub_attribs_class_m_r_1_1_transform"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespace_m_r.html#a8445ea7a4001a6e8532def9abb86d59e">transform_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_transform.html#a858a1ad33f11ba33eeeb5e3ad5b919bf">voxel2scanner</a></td></tr>
 <tr class="separator:a858a1ad33f11ba33eeeb5e3ad5b919bf inherit pub_attribs_class_m_r_1_1_transform"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3103a544cf41a03bfc70436975c7b25 inherit pub_attribs_class_m_r_1_1_transform"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespace_m_r.html#a5fb9f6fdd930a2baf8f8584ae6309c9b">transform_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_transform.html#ad3103a544cf41a03bfc70436975c7b25">scanner2voxel</a></td></tr>
+<tr class="memitem:ad3103a544cf41a03bfc70436975c7b25 inherit pub_attribs_class_m_r_1_1_transform"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespace_m_r.html#a8445ea7a4001a6e8532def9abb86d59e">transform_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_transform.html#ad3103a544cf41a03bfc70436975c7b25">scanner2voxel</a></td></tr>
 <tr class="separator:ad3103a544cf41a03bfc70436975c7b25 inherit pub_attribs_class_m_r_1_1_transform"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a785a7389facb5e605104d384ccd7722d inherit pub_attribs_class_m_r_1_1_transform"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespace_m_r.html#a5fb9f6fdd930a2baf8f8584ae6309c9b">transform_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_transform.html#a785a7389facb5e605104d384ccd7722d">image2scanner</a></td></tr>
+<tr class="memitem:a785a7389facb5e605104d384ccd7722d inherit pub_attribs_class_m_r_1_1_transform"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespace_m_r.html#a8445ea7a4001a6e8532def9abb86d59e">transform_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_transform.html#a785a7389facb5e605104d384ccd7722d">image2scanner</a></td></tr>
 <tr class="separator:a785a7389facb5e605104d384ccd7722d inherit pub_attribs_class_m_r_1_1_transform"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1cb2ee8b72a7a3d54926e616aa6b6196 inherit pub_attribs_class_m_r_1_1_transform"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespace_m_r.html#a5fb9f6fdd930a2baf8f8584ae6309c9b">transform_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_transform.html#a1cb2ee8b72a7a3d54926e616aa6b6196">scanner2image</a></td></tr>
+<tr class="memitem:a1cb2ee8b72a7a3d54926e616aa6b6196 inherit pub_attribs_class_m_r_1_1_transform"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespace_m_r.html#a8445ea7a4001a6e8532def9abb86d59e">transform_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_transform.html#a1cb2ee8b72a7a3d54926e616aa6b6196">scanner2image</a></td></tr>
 <tr class="separator:a1cb2ee8b72a7a3d54926e616aa6b6196 inherit pub_attribs_class_m_r_1_1_transform"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
@@ -176,12 +176,12 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a5ecd6913cbe3c19bd4e2c1640325a1aa"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_interp_1_1_base.html#a5ecd6913cbe3c19bd4e2c1640325a1aa">is_out_of_bounds</a> (const VectorType &amp;pos) const</td></tr>
 <tr class="separator:a5ecd6913cbe3c19bd4e2c1640325a1aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af57e9f2db2cec87ed0918a08dc7c01ca"><td class="memTemplParams" colspan="2">template&lt;class VectorType &gt; </td></tr>
-<tr class="memitem:af57e9f2db2cec87ed0918a08dc7c01ca"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespace_eigen.html#a74adae1418c863869c0090e30f8f1648">Eigen::Vector3</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_interp_1_1_base.html#af57e9f2db2cec87ed0918a08dc7c01ca">intravoxel_offset</a> (const VectorType &amp;pos)</td></tr>
+<tr class="memitem:af57e9f2db2cec87ed0918a08dc7c01ca"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespace_eigen.html#ae545bc6107a8da3311337658493fe51b">Eigen::Vector3</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_interp_1_1_base.html#af57e9f2db2cec87ed0918a08dc7c01ca">intravoxel_offset</a> (const VectorType &amp;pos)</td></tr>
 <tr class="separator:af57e9f2db2cec87ed0918a08dc7c01ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:af087eda826cccad7cd645ab61de15d72"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_interp_1_1_base.html#af087eda826cccad7cd645ab61de15d72">bounds</a> [3]</td></tr>
+<tr class="memitem:af087eda826cccad7cd645ab61de15d72"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_interp_1_1_base.html#af087eda826cccad7cd645ab61de15d72">bounds</a> [3]</td></tr>
 <tr class="separator:af087eda826cccad7cd645ab61de15d72"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c62bc630c47bf1712e4a2874fa70fc5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_interp_1_1_base.html#a0c62bc630c47bf1712e4a2874fa70fc5">out_of_bounds</a></td></tr>
 <tr class="separator:a0c62bc630c47bf1712e4a2874fa70fc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -191,11 +191,11 @@ Protected Attributes</h2></td></tr>
 class MR::Interp::Base&lt; ImageType &gt;</h3>
 
 <p>This class defines the interface for classes that perform image interpolation. </p>
-<p>Interpolation is generally performed along the first 3 (spatial) axes; the (integer) position along the remaining axes should be set using the template ImageType class. The spatial coordinates can be set using the functions voxel(), image(), and scanner(). For example: </p><div class="fragment"><div class="line"><span class="keyword">auto</span> input = <a class="code" href="class_m_r_1_1_image.html#af3e84ff9ee40cdffa21ae551848b9573">Image&lt;float&gt;::create</a> (argument[0]);</div><div class="line"></div><div class="line"><span class="comment">// create an Interp::Cubic object using input as the parent data set:</span></div><div class="line">Interp::Cubic&lt;decltype(input)&gt; interp (input);</div><div class="line"></div><div class="line"><span class="comment">// set the scanner-space position to [ 10.2 3.59 54.1 ]:</span></div><div class="line">interp.scanner (10.2, 3.59, 54.1);</div><div class="line"></div><div class="line"><span class="comment">// get the value at this position:</span></div><div class="line"><span class="keywordtype">float</span> <a class="code" href="namespace_m_r_1_1_helper.html#a9ed82e28212c8811db24b655e7ba8e61">value</a> = interp.value();</div></div><!-- fragment --><p>The template <em>input</em> class must be usable with this type of syntax: </p><div class="fragment"><div class="line"><span class="keywordtype">int</span> xsize = input.size(0);    <span class="comment">// return the dimension</span></div><div class="line"><span class="keywordtype">int</span> ysize = input.size(1);    <span class="comment">// along the x, y &amp; z dimensions</span></div><div class="line"><span class="keywordtype">int</span> zsize = input.size(2);</div><div class="line"><span class="keywordtype">float</span> v[] = { input.spacing(0), input.spacing(1), input.spacing(2) };  <span class="comment">// return voxel dimensions</span></div><div class="line">input.index(0) = 0;               <span class="comment">// these lines are used to</span></div><div class="line">input.index(1)--;                 <span class="comment">// set the current position</span></div><div class="line">input.index(2)++;                 <span class="comment">// within the data set</span></div><div class="line"><span class="keywordtype">float</span> f = input.value();</div><div class="line"><a class="code" href="namespace_m_r.html#a5fb9f6fdd930a2baf8f8584ae6309c9b">transform_type</a> M = input.transform(); <span class="comment">// a valid 4x4 transformation matrix</span></div></div><!-- fragment --> 
+<p>Interpolation is generally performed along the first 3 (spatial) axes; the (integer) position along the remaining axes should be set using the template ImageType class. The spatial coordinates can be set using the functions voxel(), image(), and scanner(). For example: </p><div class="fragment"><div class="line"><span class="keyword">auto</span> input = <a class="code" href="class_m_r_1_1_image.html#af3e84ff9ee40cdffa21ae551848b9573">Image&lt;float&gt;::create</a> (argument[0]);</div><div class="line"></div><div class="line"><span class="comment">// create an Interp::Cubic object using input as the parent data set:</span></div><div class="line">Interp::Cubic&lt;decltype(input)&gt; interp (input);</div><div class="line"></div><div class="line"><span class="comment">// set the scanner-space position to [ 10.2 3.59 54.1 ]:</span></div><div class="line">interp.scanner (10.2, 3.59, 54.1);</div><div class="line"></div><div class="line"><span class="comment">// get the value at this position:</span></div><div class="line"><span class="keywordtype">float</span> <a class="code" href="namespace_m_r_1_1_helper.html#a9ed82e28212c8811db24b655e7ba8e61">value</a> = interp.value();</div></div><!-- fragment --><p>The template <em>input</em> class must be usable with this type of syntax: </p><div class="fragment"><div class="line"><span class="keywordtype">int</span> xsize = input.size(0);    <span class="comment">// return the dimension</span></div><div class="line"><span class="keywordtype">int</span> ysize = input.size(1);    <span class="comment">// along the x, y &amp; z dimensions</span></div><div class="line"><span class="keywordtype">int</span> zsize = input.size(2);</div><div class="line"><span class="keywordtype">float</span> v[] = { input.spacing(0), input.spacing(1), input.spacing(2) };  <span class="comment">// return voxel dimensions</span></div><div class="line">input.index(0) = 0;               <span class="comment">// these lines are used to</span></div><div class="line">input.index(1)--;                 <span class="comment">// set the current position</span></div><div class="line">input.index(2)++;                 <span class="comment">// within the data set</span></div><div class="line"><span class="keywordtype">float</span> f = input.value();</div><div class="line"><a class="code" href="namespace_m_r.html#a8445ea7a4001a6e8532def9abb86d59e">transform_type</a> M = input.transform(); <span class="comment">// a valid 4x4 transformation matrix</span></div></div><!-- fragment --> 
 <p class="definition">Definition at line <a class="el" href="lib_2interp_2base_8h_source.html#l00067">67</a> of file <a class="el" href="lib_2interp_2base_8h_source.html">base.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a779994e0c51742784106f2c5284458a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a779994e0c51742784106f2c5284458a8">&#9670;&nbsp;</a></span>value_type</h2>
+<a id="ab35d8d79fcb705e0d48a018d03ac8459"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab35d8d79fcb705e0d48a018d03ac8459">&#9670;&nbsp;</a></span>value_type</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -203,7 +203,7 @@ class MR::Interp::Base&lt; ImageType &gt;</h3>
 template&lt;class ImageType&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">typedef ImageType::value_type <a class="el" href="class_m_r_1_1_interp_1_1_base.html">MR::Interp::Base</a>&lt; ImageType &gt;::<a class="el" href="class_m_r_1_1_interp_1_1_base.html#a779994e0c51742784106f2c5284458a8">value_type</a></td>
+          <td class="memname">using <a class="el" href="class_m_r_1_1_interp_1_1_base.html">MR::Interp::Base</a>&lt; ImageType &gt;::<a class="el" href="class_m_r_1_1_interp_1_1_base.html#ab35d8d79fcb705e0d48a018d03ac8459">value_type</a> =  typename ImageType::value_type</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -233,7 +233,7 @@ template&lt;class ImageType&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_m_r_1_1_interp_1_1_base.html#a779994e0c51742784106f2c5284458a8">value_type</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="class_m_r_1_1_interp_1_1_base.html#ab35d8d79fcb705e0d48a018d03ac8459">value_type</a>&#160;</td>
           <td class="paramname"><em>value_when_out_of_bounds</em> = <code><a class="el" href="class_m_r_1_1_interp_1_1_base.html#ac8118c180ea28db42c0e00c812169066">default_out_of_bounds_value</a>()</code>&#160;</td>
         </tr>
         <tr>
@@ -267,7 +267,7 @@ template&lt;class ImageType&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="class_m_r_1_1_interp_1_1_base.html#a779994e0c51742784106f2c5284458a8">value_type</a> <a class="el" href="class_m_r_1_1_interp_1_1_base.html">MR::Interp::Base</a>&lt; ImageType &gt;::default_out_of_bounds_value </td>
+          <td class="memname">static <a class="el" href="class_m_r_1_1_interp_1_1_base.html#ab35d8d79fcb705e0d48a018d03ac8459">value_type</a> <a class="el" href="class_m_r_1_1_interp_1_1_base.html">MR::Interp::Base</a>&lt; ImageType &gt;::default_out_of_bounds_value </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -298,7 +298,7 @@ template&lt;class VectorType &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespace_eigen.html#a74adae1418c863869c0090e30f8f1648">Eigen::Vector3</a> <a class="el" href="class_m_r_1_1_interp_1_1_base.html">MR::Interp::Base</a>&lt; ImageType &gt;::intravoxel_offset </td>
+          <td class="memname"><a class="el" href="namespace_eigen.html#ae545bc6107a8da3311337658493fe51b">Eigen::Vector3</a> <a class="el" href="class_m_r_1_1_interp_1_1_base.html">MR::Interp::Base</a>&lt; ImageType &gt;::intravoxel_offset </td>
           <td>(</td>
           <td class="paramtype">const VectorType &amp;&#160;</td>
           <td class="paramname"><em>pos</em></td><td>)</td>
@@ -393,7 +393,7 @@ template&lt;class ImageType&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">default_type</a> <a class="el" href="class_m_r_1_1_interp_1_1_base.html">MR::Interp::Base</a>&lt; ImageType &gt;::bounds[3]</td>
+          <td class="memname"><a class="el" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a> <a class="el" href="class_m_r_1_1_interp_1_1_base.html">MR::Interp::Base</a>&lt; ImageType &gt;::bounds[3]</td>
         </tr>
       </table>
   </td>
@@ -442,7 +442,7 @@ template&lt;class ImageType&gt; </div>
 template&lt;class ImageType&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">EIGEN_MAKE_ALIGNED_OPERATOR_NEW const <a class="el" href="class_m_r_1_1_interp_1_1_base.html#a779994e0c51742784106f2c5284458a8">value_type</a> <a class="el" href="class_m_r_1_1_interp_1_1_base.html">MR::Interp::Base</a>&lt; ImageType &gt;::out_of_bounds_value</td>
+          <td class="memname">EIGEN_MAKE_ALIGNED_OPERATOR_NEW const <a class="el" href="class_m_r_1_1_interp_1_1_base.html#ab35d8d79fcb705e0d48a018d03ac8459">value_type</a> <a class="el" href="class_m_r_1_1_interp_1_1_base.html">MR::Interp::Base</a>&lt; ImageType &gt;::out_of_bounds_value</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -458,7 +458,7 @@ template&lt;class ImageType&gt; </div>
 <p>Derived classes should reproduce the code exactly as it appears below:</p>
 <div class="fragment"><div class="line"><span class="keyword">template</span> &lt;<span class="keyword">class</span> VectorType&gt;</div><div class="line"><a class="code" href="src_2gui_2mrview_2tool_2connectome_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> <span class="keywordtype">bool</span> scanner (<span class="keyword">const</span> VectorType&amp; pos) {</div><div class="line">  <span class="keywordflow">return</span> voxel (<a class="code" href="class_m_r_1_1_transform.html#ad3103a544cf41a03bfc70436975c7b25">Transform::scanner2voxel</a> * pos.template cast&lt;default_type&gt;());</div><div class="line">}</div></div><!-- fragment --><p>Read an interpolated value from the current position</p>
 <p>This function must be preceded by a call to voxel(), image() or scanner(), and perform the core functionality of the derived interpolator class - that is, generating an intensity value based on the image data. The precise implementation of this function will therefore depend on the nature of the interpolator.</p>
-<div class="fragment"><div class="line"><a class="code" href="src_2gui_2mrview_2tool_2connectome_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> <a class="code" href="class_m_r_1_1_interp_1_1_base.html#a779994e0c51742784106f2c5284458a8">value_type</a> <a class="code" href="namespace_m_r_1_1_helper.html#a9ed82e28212c8811db24b655e7ba8e61">value</a> ()</div><div class="line">{</div><div class="line">  <span class="keywordflow">if</span> (<a class="code" href="class_m_r_1_1_interp_1_1_base.html#a0c62bc630c47bf1712e4a2874fa70fc5">out_of_bounds</a>)</div><div class="line">    <span class="keywordflow">return</span> <a class="code" href="class_m_r_1_1_interp_1_1_base.html#a6aea2ba234fb8daca0033b3d20a59c1e">out_of_bounds_value</a>;</div><div class="line">  { ... }</div><div class="line">}</div></div><!-- fragment --><p>Read interpolated values from volumes along axis &gt;= 3</p>
+<div class="fragment"><div class="line"><a class="code" href="src_2gui_2mrview_2tool_2connectome_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> <a class="code" href="class_m_r_1_1_interp_1_1_base.html#ab35d8d79fcb705e0d48a018d03ac8459">value_type</a> <a class="code" href="namespace_m_r_1_1_helper.html#a9ed82e28212c8811db24b655e7ba8e61">value</a> ()</div><div class="line">{</div><div class="line">  <span class="keywordflow">if</span> (<a class="code" href="class_m_r_1_1_interp_1_1_base.html#a0c62bc630c47bf1712e4a2874fa70fc5">out_of_bounds</a>)</div><div class="line">    <span class="keywordflow">return</span> <a class="code" href="class_m_r_1_1_interp_1_1_base.html#a6aea2ba234fb8daca0033b3d20a59c1e">out_of_bounds_value</a>;</div><div class="line">  { ... }</div><div class="line">}</div></div><!-- fragment --><p>Read interpolated values from volumes along axis &gt;= 3</p>
 <p>This function uses the initialisation of interpolation position from the voxel(), image() or scanner() functions to produce interpolated values across a set of volumes, making the process of interpolation much faster. The specific implementation of this function, and indeed whether or not the initialisation from the voxel() function can be exploited across multiple volumes, will depend on the specific details of the interpolator.</p>
 <div class="fragment"><div class="line">Eigen::Matrix&lt;value_type, Eigen::Dynamic, 1&gt; row (<span class="keywordtype">size_t</span> <a class="code" href="noise__estimator_8h.html#a884869744ebf14a092b339ae65c2af37">axis</a>)</div><div class="line">{</div><div class="line">  assert (axis &gt; 2);</div><div class="line">  assert (axis &lt; ImageType::ndim());</div><div class="line">  <span class="keywordflow">if</span> (<a class="code" href="class_m_r_1_1_interp_1_1_base.html#a0c62bc630c47bf1712e4a2874fa70fc5">out_of_bounds</a>) {</div><div class="line">    Eigen::Matrix&lt;value_type, Eigen::Dynamic, 1&gt; out_of_bounds_row (ImageType::size(axis));</div><div class="line">    out_of_bounds_row.setOnes();</div><div class="line">    out_of_bounds_row *= <a class="code" href="class_m_r_1_1_interp_1_1_base.html#a6aea2ba234fb8daca0033b3d20a59c1e">out_of_bounds_value</a>;</div><div class="line">    <span class="keywordflow">return</span> out_of_bounds_row;</div><div class="line">  }</div><div class="line">  { ... }</div><div class="line">}</div></div><!-- fragment --> 
 <p class="definition">Definition at line <a class="el" href="lib_2interp_2base_8h_source.html#l00179">179</a> of file <a class="el" href="lib_2interp_2base_8h_source.html">base.h</a>.</p>
@@ -474,7 +474,7 @@ template&lt;class ImageType&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_interp.html">Interp</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_interp_1_1_base.html">Base</a></li>
-    <li class="footer">Generated on Mon Apr 3 2017 11:49:41 for MRtrix by
+    <li class="footer">Generated on Wed Apr 5 2017 20:27:04 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

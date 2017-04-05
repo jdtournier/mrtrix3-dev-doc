@@ -1,7 +1,7 @@
 var class_m_r_1_1_adapter_1_1_normalise3_d =
 [
-    [ "value_type", "class_m_r_1_1_adapter_1_1_normalise3_d.html#acae014cf81c5e243ac8cff30a611bbf6", null ],
-    [ "voxel_type", "class_m_r_1_1_adapter_1_1_normalise3_d.html#a16112985ee1bd98e03f9c4f42ea406f3", null ],
+    [ "value_type", "class_m_r_1_1_adapter_1_1_normalise3_d.html#a26da45071edeeb0622bef482ae5ffd5a", null ],
+    [ "voxel_type", "class_m_r_1_1_adapter_1_1_normalise3_d.html#a531f4484c40c3d4c10c7e4e1139e8f3d", null ],
     [ "Normalise3D", "class_m_r_1_1_adapter_1_1_normalise3_d.html#a03f29e282ee2229e33b39a161ee544f7", null ],
     [ "Normalise3D", "class_m_r_1_1_adapter_1_1_normalise3_d.html#a0d606ba2f4190c010d68232b645156fd", null ],
     [ "set_extent", "class_m_r_1_1_adapter_1_1_normalise3_d.html#a1ade9eaadc4ab9ed87197aa1d919a8c0", null ],

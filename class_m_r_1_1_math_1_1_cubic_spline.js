@@ -1,7 +1,7 @@
 var class_m_r_1_1_math_1_1_cubic_spline =
 [
-    [ "BasisMatrix", "class_m_r_1_1_math_1_1_cubic_spline.html#a142b041273d8c4e2dc5e57d63db75b4d", null ],
-    [ "WeightVector", "class_m_r_1_1_math_1_1_cubic_spline.html#acdf95a5a4d960cfdef89f1af2b0ce3ff", null ],
+    [ "BasisMatrix", "class_m_r_1_1_math_1_1_cubic_spline.html#ae7d4b8d6b89f06c350f3d736c3f479d1", null ],
+    [ "WeightVector", "class_m_r_1_1_math_1_1_cubic_spline.html#a1104e23a4b804931725bcc0104b036ba", null ],
     [ "CubicSpline", "class_m_r_1_1_math_1_1_cubic_spline.html#ab295f287ce50d571a389aff3eca1f34c", null ],
     [ "coef", "class_m_r_1_1_math_1_1_cubic_spline.html#abb0237eeb096f69f647929b74fa640d0", null ],
     [ "set", "class_m_r_1_1_math_1_1_cubic_spline.html#a37a494d24951da44ea6794fe0da9b010", null ],

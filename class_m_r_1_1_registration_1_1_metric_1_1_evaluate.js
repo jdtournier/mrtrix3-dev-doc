@@ -1,8 +1,8 @@
 var class_m_r_1_1_registration_1_1_metric_1_1_evaluate =
 [
     [ "ThreadFunctor", "struct_m_r_1_1_registration_1_1_metric_1_1_evaluate_1_1_thread_functor.html", "struct_m_r_1_1_registration_1_1_metric_1_1_evaluate_1_1_thread_functor" ],
-    [ "TransformParamType", "class_m_r_1_1_registration_1_1_metric_1_1_evaluate.html#aa0ceaed7de13c15651bad067789d5ded", null ],
-    [ "value_type", "class_m_r_1_1_registration_1_1_metric_1_1_evaluate.html#a70d1b64abb8045d1fb3df97807f65c11", null ],
+    [ "TransformParamType", "class_m_r_1_1_registration_1_1_metric_1_1_evaluate.html#a4ef5f23ee50ed932597574fc8c55d336", null ],
+    [ "value_type", "class_m_r_1_1_registration_1_1_metric_1_1_evaluate.html#a3d442d025d7b1f1e9347414ef2bdc1da", null ],
     [ "Evaluate", "class_m_r_1_1_registration_1_1_metric_1_1_evaluate.html#ac401ce17256e738b5ee812a087411c7d", null ],
     [ "Evaluate", "class_m_r_1_1_registration_1_1_metric_1_1_evaluate.html#ab4aac7c27144d07a85d68a17c770e54a", null ],
     [ "estimate", "class_m_r_1_1_registration_1_1_metric_1_1_evaluate.html#a3aad601ca55475878501d40858e10b74", null ],

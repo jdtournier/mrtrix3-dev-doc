@@ -1,7 +1,7 @@
 var class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model_base =
 [
-    [ "MapVoxel", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model_base.html#a591e14996f46ee2831005a2bcd4abee1", null ],
-    [ "VoxelAccessor", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model_base.html#a2d68aee8a734f1066c9072b07fe860f2", null ],
+    [ "MapVoxel", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model_base.html#aa3ded299151404260ff75330698e080e", null ],
+    [ "VoxelAccessor", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model_base.html#a1dfe1b62522a40800bbddc8608e018b0", null ],
     [ "ModelBase", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model_base.html#a11ea76081ca6e81dd89935963efbec6c", null ],
     [ "ModelBase", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model_base.html#a19b804b2134b7118446b0e9080f1dabb", null ],
     [ "~ModelBase", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model_base.html#a72ccb777c0ae398ac0c9f13614a3ac82", null ],

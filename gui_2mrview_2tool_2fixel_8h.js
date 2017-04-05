@@ -6,8 +6,8 @@ var gui_2mrview_2tool_2fixel_8h =
     [ "FixelType", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_fixel_type.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_fixel_type" ],
     [ "Fixel", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_fixel.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_fixel" ],
     [ "PackedFixel", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_packed_fixel.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_packed_fixel" ],
-    [ "FixelPackedImageType", "gui_2mrview_2tool_2fixel_8h.html#ada2d85f0fa46e764d5073a10951689d1", null ],
-    [ "FixelSparseImageType", "gui_2mrview_2tool_2fixel_8h.html#a24760ed98047077b2fb15f6493a28f03", null ],
+    [ "FixelPackedImageType", "gui_2mrview_2tool_2fixel_8h.html#a3394002363cb8d17ca691eeb25f8bac8", null ],
+    [ "FixelSparseImageType", "gui_2mrview_2tool_2fixel_8h.html#a05a612cfce8316f26ddc6af31eb07325", null ],
     [ "FixelColourType", "gui_2mrview_2tool_2fixel_8h.html#a22348cc42517686fa6f064cc14af1f80", [
       [ "CValue", "gui_2mrview_2tool_2fixel_8h.html#a22348cc42517686fa6f064cc14af1f80a9a6956001eca206a84c339209c9da0bc", null ],
       [ "Direction", "gui_2mrview_2tool_2fixel_8h.html#a22348cc42517686fa6f064cc14af1f80a6abba1d41ef6f443ed72694191fd83ad", null ]

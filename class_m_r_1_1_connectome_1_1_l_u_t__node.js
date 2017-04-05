@@ -1,6 +1,6 @@
 var class_m_r_1_1_connectome_1_1_l_u_t__node =
 [
-    [ "RGB", "class_m_r_1_1_connectome_1_1_l_u_t__node.html#a492cf841280d9cfcdb52a1b1d5facf37", null ],
+    [ "RGB", "class_m_r_1_1_connectome_1_1_l_u_t__node.html#aff784a632270803b85fcf6f6cc85d6fa", null ],
     [ "LUT_node", "class_m_r_1_1_connectome_1_1_l_u_t__node.html#a8af342e0888f3f6be490603a4c37f1cc", null ],
     [ "LUT_node", "class_m_r_1_1_connectome_1_1_l_u_t__node.html#a85cf8e2297f0797bc6c867676dffe55e", null ],
     [ "LUT_node", "class_m_r_1_1_connectome_1_1_l_u_t__node.html#a8f67bd4a01f4b33196bb936a32c8d8d8", null ],

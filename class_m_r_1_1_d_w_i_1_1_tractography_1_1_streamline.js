@@ -1,7 +1,7 @@
 var class_m_r_1_1_d_w_i_1_1_tractography_1_1_streamline =
 [
-    [ "point_type", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_streamline.html#af69833ad20b3f6c4b223f441f1c6ac92", null ],
-    [ "value_type", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_streamline.html#acd9954760fb88d104c1f104988397934", null ],
+    [ "point_type", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_streamline.html#a7b375781e25a1c023740411f696bd246", null ],
+    [ "value_type", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_streamline.html#a7f109d39b690aa41a738e2d50095b5b5", null ],
     [ "Streamline", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_streamline.html#abecf34065716efbf090954f1e75c3d27", null ],
     [ "Streamline", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_streamline.html#a148a8627e21297a7ddff67af6bb0db4f", null ],
     [ "Streamline", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_streamline.html#a3f3773e3163ed3bdb33a2cc0d7d48b09", null ],

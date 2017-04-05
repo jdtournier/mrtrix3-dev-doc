@@ -1,7 +1,7 @@
 var class_m_r_1_1_histogram =
 [
     [ "Entry", "class_m_r_1_1_histogram_1_1_entry.html", "class_m_r_1_1_histogram_1_1_entry" ],
-    [ "value_type", "class_m_r_1_1_histogram.html#ada9d0925050544d8e6f8a25902ef37e4", null ],
+    [ "value_type", "class_m_r_1_1_histogram.html#a051844170c5416c7397bd2aef8048dc3", null ],
     [ "Histogram", "class_m_r_1_1_histogram.html#a9ccb24d72244bd8332f69f66424471dd", null ],
     [ "entropy", "class_m_r_1_1_histogram.html#a65efd86b89c0b8c5880eba0a8d89ab6c", null ],
     [ "first_min", "class_m_r_1_1_histogram.html#a715b3d131ef333b31cefea3c1373334c", null ],

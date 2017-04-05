@@ -1,7 +1,7 @@
 var class_m_r_1_1_sparse_1_1_image =
 [
-    [ "sparse_data_type", "class_m_r_1_1_sparse_1_1_image.html#a9d2f7fb62ec9054120eb6c1fc79cd92f", null ],
-    [ "value_type", "class_m_r_1_1_sparse_1_1_image.html#a5186507b872e6b4a2c8aafd8f7014cdf", null ],
+    [ "sparse_data_type", "class_m_r_1_1_sparse_1_1_image.html#a7fa08db8d83d64265375c37047cf7cbe", null ],
+    [ "value_type", "class_m_r_1_1_sparse_1_1_image.html#a2f5af53d8230ad2b3cabd8c2a75a6a0d", null ],
     [ "Image", "class_m_r_1_1_sparse_1_1_image.html#a38722c8f3dd50f1c7049dfd822a350ec", null ],
     [ "Image", "class_m_r_1_1_sparse_1_1_image.html#affab1d223612e70bca5439393fc3cd4a", null ],
     [ "Image", "class_m_r_1_1_sparse_1_1_image.html#ab4a667f45dd90757eb94f85aca423f56", null ],

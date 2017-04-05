@@ -1,7 +1,7 @@
 var class_m_r_1_1_d_w_i_1_1_bootstrap =
 [
     [ "IndexCompare", "class_m_r_1_1_d_w_i_1_1_bootstrap_1_1_index_compare.html", "class_m_r_1_1_d_w_i_1_1_bootstrap_1_1_index_compare" ],
-    [ "value_type", "class_m_r_1_1_d_w_i_1_1_bootstrap.html#a6a4d8f5825924e72e63078a7cef33904", null ],
+    [ "value_type", "class_m_r_1_1_d_w_i_1_1_bootstrap.html#a6909ddfb9ad27caea35808822c8734a1", null ],
     [ "Bootstrap", "class_m_r_1_1_d_w_i_1_1_bootstrap.html#a8f9fe274a6f5cc55ad2f33c76e889916", null ],
     [ "allocate_voxel", "class_m_r_1_1_d_w_i_1_1_bootstrap.html#af3cb8507bc6149af7fc4971492877455", null ],
     [ "clear", "class_m_r_1_1_d_w_i_1_1_bootstrap.html#a0794a06100b7c9cbe091ef5d5e0021c1", null ],

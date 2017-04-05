@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-522-gbc67f1a1</div>
+   <div id="projectbrief">Version 0.3.15-526-gaf0d0067</div>
   </td>
  </tr>
  </tbody>
@@ -94,16 +94,16 @@ $(document).ready(function(){initNavTree('class_m_r_1_1_filter_1_1_image_correla
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a89da86b956c3b6bba6466a7e45616ed9"><td class="memItemLeft" align="right" valign="top">typedef ImageType::value_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_filter_1_1_image_correlation_cost_function.html#a89da86b956c3b6bba6466a7e45616ed9">value_type</a></td></tr>
-<tr class="separator:a89da86b956c3b6bba6466a7e45616ed9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a674ba739d4d32b2af08f356151b14e4d"><td class="memItemLeft" align="right" valign="top">typedef MaskType::value_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_filter_1_1_image_correlation_cost_function.html#a674ba739d4d32b2af08f356151b14e4d">mask_value_type</a></td></tr>
-<tr class="separator:a674ba739d4d32b2af08f356151b14e4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a963991a5ab4e9dd03435a0706c1217"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_filter_1_1_image_correlation_cost_function.html#a3a963991a5ab4e9dd03435a0706c1217">value_type</a> = typename ImageType::value_type</td></tr>
+<tr class="separator:a3a963991a5ab4e9dd03435a0706c1217"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ae2c75e610269c33f5add83f451947a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_filter_1_1_image_correlation_cost_function.html#a6ae2c75e610269c33f5add83f451947a">mask_value_type</a> = typename MaskType::value_type</td></tr>
+<tr class="separator:a6ae2c75e610269c33f5add83f451947a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a5ef1b6382a083f6d97966a7406ed34f8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_filter_1_1_image_correlation_cost_function.html#a5ef1b6382a083f6d97966a7406ed34f8">ImageCorrelationCostFunction</a> (ImageType &amp;input, MaskType &amp;mask)</td></tr>
 <tr class="separator:a5ef1b6382a083f6d97966a7406ed34f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac75eaddf5be9c6ee588bcbcca177ce8c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_r_1_1_filter_1_1_image_correlation_cost_function.html#a89da86b956c3b6bba6466a7e45616ed9">value_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_filter_1_1_image_correlation_cost_function.html#ac75eaddf5be9c6ee588bcbcca177ce8c">operator()</a> (<a class="el" href="class_m_r_1_1_filter_1_1_image_correlation_cost_function.html#a89da86b956c3b6bba6466a7e45616ed9">value_type</a> threshold) const</td></tr>
+<tr class="memitem:ac75eaddf5be9c6ee588bcbcca177ce8c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_r_1_1_filter_1_1_image_correlation_cost_function.html#a3a963991a5ab4e9dd03435a0706c1217">value_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_filter_1_1_image_correlation_cost_function.html#ac75eaddf5be9c6ee588bcbcca177ce8c">operator()</a> (<a class="el" href="class_m_r_1_1_filter_1_1_image_correlation_cost_function.html#a3a963991a5ab4e9dd03435a0706c1217">value_type</a> threshold) const</td></tr>
 <tr class="separator:ac75eaddf5be9c6ee588bcbcca177ce8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -113,8 +113,8 @@ class MR::Filter::ImageCorrelationCostFunction&lt; ImageType, MaskType &gt;</h3>
 
 <p class="definition">Definition at line <a class="el" href="optimal__threshold_8h_source.html#l00132">132</a> of file <a class="el" href="optimal__threshold_8h_source.html">optimal_threshold.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a674ba739d4d32b2af08f356151b14e4d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a674ba739d4d32b2af08f356151b14e4d">&#9670;&nbsp;</a></span>mask_value_type</h2>
+<a id="a6ae2c75e610269c33f5add83f451947a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ae2c75e610269c33f5add83f451947a">&#9670;&nbsp;</a></span>mask_value_type</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -122,7 +122,7 @@ class MR::Filter::ImageCorrelationCostFunction&lt; ImageType, MaskType &gt;</h3>
 template&lt;class ImageType, class MaskType&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">typedef MaskType::value_type <a class="el" href="class_m_r_1_1_filter_1_1_image_correlation_cost_function.html">MR::Filter::ImageCorrelationCostFunction</a>&lt; ImageType, MaskType &gt;::<a class="el" href="class_m_r_1_1_filter_1_1_image_correlation_cost_function.html#a674ba739d4d32b2af08f356151b14e4d">mask_value_type</a></td>
+          <td class="memname">using <a class="el" href="class_m_r_1_1_filter_1_1_image_correlation_cost_function.html">MR::Filter::ImageCorrelationCostFunction</a>&lt; ImageType, MaskType &gt;::<a class="el" href="class_m_r_1_1_filter_1_1_image_correlation_cost_function.html#a6ae2c75e610269c33f5add83f451947a">mask_value_type</a> =  typename MaskType::value_type</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -131,8 +131,8 @@ template&lt;class ImageType, class MaskType&gt; </div>
 
 </div>
 </div>
-<a id="a89da86b956c3b6bba6466a7e45616ed9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a89da86b956c3b6bba6466a7e45616ed9">&#9670;&nbsp;</a></span>value_type</h2>
+<a id="a3a963991a5ab4e9dd03435a0706c1217"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a963991a5ab4e9dd03435a0706c1217">&#9670;&nbsp;</a></span>value_type</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -140,7 +140,7 @@ template&lt;class ImageType, class MaskType&gt; </div>
 template&lt;class ImageType, class MaskType&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">typedef ImageType::value_type <a class="el" href="class_m_r_1_1_filter_1_1_image_correlation_cost_function.html">MR::Filter::ImageCorrelationCostFunction</a>&lt; ImageType, MaskType &gt;::<a class="el" href="class_m_r_1_1_filter_1_1_image_correlation_cost_function.html#a89da86b956c3b6bba6466a7e45616ed9">value_type</a></td>
+          <td class="memname">using <a class="el" href="class_m_r_1_1_filter_1_1_image_correlation_cost_function.html">MR::Filter::ImageCorrelationCostFunction</a>&lt; ImageType, MaskType &gt;::<a class="el" href="class_m_r_1_1_filter_1_1_image_correlation_cost_function.html#a3a963991a5ab4e9dd03435a0706c1217">value_type</a> =  typename ImageType::value_type</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -203,9 +203,9 @@ template&lt;class ImageType, class MaskType&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_m_r_1_1_filter_1_1_image_correlation_cost_function.html#a89da86b956c3b6bba6466a7e45616ed9">value_type</a> <a class="el" href="class_m_r_1_1_filter_1_1_image_correlation_cost_function.html">MR::Filter::ImageCorrelationCostFunction</a>&lt; ImageType, MaskType &gt;::operator() </td>
+          <td class="memname"><a class="el" href="class_m_r_1_1_filter_1_1_image_correlation_cost_function.html#a3a963991a5ab4e9dd03435a0706c1217">value_type</a> <a class="el" href="class_m_r_1_1_filter_1_1_image_correlation_cost_function.html">MR::Filter::ImageCorrelationCostFunction</a>&lt; ImageType, MaskType &gt;::operator() </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_m_r_1_1_filter_1_1_image_correlation_cost_function.html#a89da86b956c3b6bba6466a7e45616ed9">value_type</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="class_m_r_1_1_filter_1_1_image_correlation_cost_function.html#a3a963991a5ab4e9dd03435a0706c1217">value_type</a>&#160;</td>
           <td class="paramname"><em>threshold</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -230,7 +230,7 @@ template&lt;class ImageType, class MaskType&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_filter.html">Filter</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_filter_1_1_image_correlation_cost_function.html">ImageCorrelationCostFunction</a></li>
-    <li class="footer">Generated on Mon Apr 3 2017 11:49:40 for MRtrix by
+    <li class="footer">Generated on Wed Apr 5 2017 20:27:04 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

@@ -1,6 +1,6 @@
 var class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_entry =
 [
-    [ "basic_map_fn", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_entry.html#ac3982b79e4f400c67d216d54aa2ac80e", null ],
+    [ "basic_map_fn", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_entry.html#a08aec21ac427817a7a152e9ced6adcef", null ],
     [ "Entry", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_entry.html#ad78cc79fc9e24affc321b5d5bfa75f3f", null ],
     [ "amplitude", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_entry.html#a2d024dd9a1d3ecbf9463001c1e012cb4", null ],
     [ "basic_mapping", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_entry.html#ab48e9a872a6be8b9aca8c710fb02e6b0", null ],

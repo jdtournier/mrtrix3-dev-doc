@@ -1,7 +1,7 @@
 var group___optimisation =
 [
     [ "GradientDescent", "class_m_r_1_1_math_1_1_gradient_descent.html", [
-      [ "value_type", "class_m_r_1_1_math_1_1_gradient_descent.html#a663f9874d4db2e3a01a250297ee1d406", null ],
+      [ "value_type", "class_m_r_1_1_math_1_1_gradient_descent.html#afbe1cc9fdeb0b3034475297389ba4e0a", null ],
       [ "GradientDescent", "class_m_r_1_1_math_1_1_gradient_descent.html#ab89c094f1c4d6010b37d42bb802e0b74", null ],
       [ "be_verbose", "class_m_r_1_1_math_1_1_gradient_descent.html#a416838f491e87d859f1abb53b6660e4e", null ],
       [ "compute_normg_and_step_unscaled", "class_m_r_1_1_math_1_1_gradient_descent.html#a492f29f468da53e21c02fd92bf1c4c76", null ],
@@ -40,7 +40,7 @@ var group___optimisation =
       [ "operator()", "class_m_r_1_1_math_1_1_linear_update_b_b.html#ad876d1fedb3b205e7c204b47fced1923", null ]
     ] ],
     [ "GradientDescentBB", "class_m_r_1_1_math_1_1_gradient_descent_b_b.html", [
-      [ "value_type", "class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a480c93eddf6d000362f728c91f2c9b4b", null ],
+      [ "value_type", "class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a435a58092b8d325aae8d33d2e22df037", null ],
       [ "GradientDescentBB", "class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a08f8a3e1ab42a88bff53facd9a49717c", null ],
       [ "be_verbose", "class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a69b6d7f09ef98d263232625099ca57c0", null ],
       [ "compute_normg_and_step", "class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a820f76c65de0e3de385e3068c15e6b80", null ],

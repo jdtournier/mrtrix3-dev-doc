@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-522-gbc67f1a1</div>
+   <div id="projectbrief">Version 0.3.15-526-gaf0d0067</div>
   </td>
  </tr>
  </tbody>
@@ -93,7 +93,7 @@ $(document).ready(function(){initNavTree('src_2gui_2mrview_2tool_2connectome_2ty
 <div class="title">types.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;stdint.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;cstdint&gt;</code><br />
 <code>#include &lt;complex&gt;</code><br />
 <code>#include &lt;iostream&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
@@ -148,30 +148,24 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:ae56c72247af15ef1ffc326c6ed4b7ac5"><td class="memItemLeft" align="right" valign="top">typedef float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#ae56c72247af15ef1ffc326c6ed4b7ac5">MR::float32</a></td></tr>
-<tr class="separator:ae56c72247af15ef1ffc326c6ed4b7ac5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f19269a0f8ff470256e9b793e60b24a"><td class="memItemLeft" align="right" valign="top">typedef double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a5f19269a0f8ff470256e9b793e60b24a">MR::float64</a></td></tr>
-<tr class="separator:a5f19269a0f8ff470256e9b793e60b24a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99adc8169db44e1dc7e351feb7e8041e"><td class="memItemLeft" align="right" valign="top">typedef std::complex&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a99adc8169db44e1dc7e351feb7e8041e">MR::cdouble</a></td></tr>
-<tr class="separator:a99adc8169db44e1dc7e351feb7e8041e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3a6907cd4a6612defc12dee0928a713"><td class="memItemLeft" align="right" valign="top">typedef std::complex&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#ad3a6907cd4a6612defc12dee0928a713">MR::cfloat</a></td></tr>
-<tr class="separator:ad3a6907cd4a6612defc12dee0928a713"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16c5c41740458b08b6377c6dfe499adf"><td class="memItemLeft" align="right" valign="top">typedef double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">MR::default_type</a></td></tr>
-<tr class="memdesc:a16c5c41740458b08b6377c6dfe499adf"><td class="mdescLeft">&#160;</td><td class="mdescRight">the default type used throughout MRtrix  <a href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">More...</a><br /></td></tr>
-<tr class="separator:a16c5c41740458b08b6377c6dfe499adf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5fb9f6fdd930a2baf8f8584ae6309c9b"><td class="memItemLeft" align="right" valign="top">typedef Eigen::Transform&lt; default_type, 3, Eigen::AffineCompact &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a5fb9f6fdd930a2baf8f8584ae6309c9b">MR::transform_type</a></td></tr>
-<tr class="memdesc:a5fb9f6fdd930a2baf8f8584ae6309c9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">the type for the affine transform of an image:  <a href="namespace_m_r.html#a5fb9f6fdd930a2baf8f8584ae6309c9b">More...</a><br /></td></tr>
-<tr class="separator:a5fb9f6fdd930a2baf8f8584ae6309c9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74adae1418c863869c0090e30f8f1648"><td class="memItemLeft" align="right" valign="top">typedef Matrix&lt; <a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">MR::default_type</a>, 3, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_eigen.html#a74adae1418c863869c0090e30f8f1648">Eigen::Vector3</a></td></tr>
-<tr class="separator:a74adae1418c863869c0090e30f8f1648"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a965aa4f610a637abdd19e84d002990b8"><td class="memItemLeft" align="right" valign="top">typedef Matrix&lt; <a class="el" href="namespace_m_r.html#a16c5c41740458b08b6377c6dfe499adf">MR::default_type</a>, 4, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_eigen.html#a965aa4f610a637abdd19e84d002990b8">Eigen::Vector4</a></td></tr>
-<tr class="separator:a965aa4f610a637abdd19e84d002990b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45cbfa3edffcd8e6d399363572fac15b"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="namespace_m_r_1_1_connectome.html#a5acf8424b8c50a23a95aeb98c7ed5318">MR::Connectome::node_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool.html#a45cbfa3edffcd8e6d399363572fac15b">MR::GUI::MRView::Tool::node_t</a></td></tr>
-<tr class="separator:a45cbfa3edffcd8e6d399363572fac15b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2bb3c554b26153dbbc740d66920b7143"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_m_r_1_1_connectome_1_1_l_u_t__node.html">MR::Connectome::LUT_node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool.html#a2bb3c554b26153dbbc740d66920b7143">MR::GUI::MRView::Tool::LUT_node</a></td></tr>
-<tr class="separator:a2bb3c554b26153dbbc740d66920b7143"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7305e1a1160ef6cfff19ee59df3b8607"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_m_r_1_1_connectome_1_1_l_u_t.html">MR::Connectome::LUT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool.html#a7305e1a1160ef6cfff19ee59df3b8607">MR::GUI::MRView::Tool::LUT</a></td></tr>
-<tr class="separator:a7305e1a1160ef6cfff19ee59df3b8607"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3c1623b01659ffb17b94e23a2b782e2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#af3c1623b01659ffb17b94e23a2b782e2">MR::float32</a> = float</td></tr>
+<tr class="separator:af3c1623b01659ffb17b94e23a2b782e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d3cd396aa9801b956008649607b663d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a5d3cd396aa9801b956008649607b663d">MR::float64</a> = double</td></tr>
+<tr class="separator:a5d3cd396aa9801b956008649607b663d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2715900485a01c915556cb5ca99f3c59"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a2715900485a01c915556cb5ca99f3c59">MR::cdouble</a> = std::complex&lt; double &gt;</td></tr>
+<tr class="separator:a2715900485a01c915556cb5ca99f3c59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c123defab6b50885bedeb0456127832"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a0c123defab6b50885bedeb0456127832">MR::cfloat</a> = std::complex&lt; float &gt;</td></tr>
+<tr class="separator:a0c123defab6b50885bedeb0456127832"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43bad69d4b870a61e1d93cd69b7b1270"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">MR::default_type</a> = double</td></tr>
+<tr class="memdesc:a43bad69d4b870a61e1d93cd69b7b1270"><td class="mdescLeft">&#160;</td><td class="mdescRight">the default type used throughout MRtrix  <a href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">More...</a><br /></td></tr>
+<tr class="separator:a43bad69d4b870a61e1d93cd69b7b1270"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8445ea7a4001a6e8532def9abb86d59e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a8445ea7a4001a6e8532def9abb86d59e">MR::transform_type</a> = Eigen::Transform&lt; default_type, 3, Eigen::AffineCompact &gt;</td></tr>
+<tr class="memdesc:a8445ea7a4001a6e8532def9abb86d59e"><td class="mdescLeft">&#160;</td><td class="mdescRight">the type for the affine transform of an image:  <a href="namespace_m_r.html#a8445ea7a4001a6e8532def9abb86d59e">More...</a><br /></td></tr>
+<tr class="separator:a8445ea7a4001a6e8532def9abb86d59e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae545bc6107a8da3311337658493fe51b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_eigen.html#ae545bc6107a8da3311337658493fe51b">Eigen::Vector3</a> = Matrix&lt; <a class="el" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">MR::default_type</a>, 3, 1 &gt;</td></tr>
+<tr class="separator:ae545bc6107a8da3311337658493fe51b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06fe322f6d7fd9b06c2fda85f15b369b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_eigen.html#a06fe322f6d7fd9b06c2fda85f15b369b">Eigen::Vector4</a> = Matrix&lt; <a class="el" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">MR::default_type</a>, 4, 1 &gt;</td></tr>
+<tr class="separator:a06fe322f6d7fd9b06c2fda85f15b369b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -317,7 +311,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_99d0482cf009f9d97a0877749b817f19.html">gui</a></li><li class="navelem"><a class="el" href="dir_d1c552c4fd0ff8e8078b00303a982c35.html">mrview</a></li><li class="navelem"><a class="el" href="dir_f9bd14eff820396be5a782f5d73a737a.html">tool</a></li><li class="navelem"><a class="el" href="dir_0008c5cf4c08f712dec94cc304afebf9.html">connectome</a></li><li class="navelem"><a class="el" href="src_2gui_2mrview_2tool_2connectome_2types_8h.html">types.h</a></li>
-    <li class="footer">Generated on Mon Apr 3 2017 11:49:39 for MRtrix by
+    <li class="footer">Generated on Wed Apr 5 2017 20:27:03 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

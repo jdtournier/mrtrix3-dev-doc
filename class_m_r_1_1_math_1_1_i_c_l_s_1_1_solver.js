@@ -1,8 +1,8 @@
 var class_m_r_1_1_math_1_1_i_c_l_s_1_1_solver =
 [
-    [ "matrix_type", "class_m_r_1_1_math_1_1_i_c_l_s_1_1_solver.html#a0f70c4847a8177a95f6838296773073f", null ],
-    [ "value_type", "class_m_r_1_1_math_1_1_i_c_l_s_1_1_solver.html#ab7f60ac12b061e7dc95b550627b644d1", null ],
-    [ "vector_type", "class_m_r_1_1_math_1_1_i_c_l_s_1_1_solver.html#a485d60230476337ade3e42df6413170a", null ],
+    [ "matrix_type", "class_m_r_1_1_math_1_1_i_c_l_s_1_1_solver.html#a338d53091f12c91c4f985ce81d3550a9", null ],
+    [ "value_type", "class_m_r_1_1_math_1_1_i_c_l_s_1_1_solver.html#a33cd6575cbf20bad002d0ee081fb2e14", null ],
+    [ "vector_type", "class_m_r_1_1_math_1_1_i_c_l_s_1_1_solver.html#aaef9d40330ef15b2c850016750cc8adc", null ],
     [ "Solver", "class_m_r_1_1_math_1_1_i_c_l_s_1_1_solver.html#a44cd2596b0483ac60dd1a0d571620723", null ],
     [ "operator()", "class_m_r_1_1_math_1_1_i_c_l_s_1_1_solver.html#a4a69431b7d20d086b70d11840e2f5636", null ],
     [ "problem", "class_m_r_1_1_math_1_1_i_c_l_s_1_1_solver.html#aae77ab9cbe97addaaa8d8239646a1597", null ],

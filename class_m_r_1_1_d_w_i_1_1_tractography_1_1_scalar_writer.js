@@ -1,6 +1,6 @@
 var class_m_r_1_1_d_w_i_1_1_tractography_1_1_scalar_writer =
 [
-    [ "value_type", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_scalar_writer.html#a4fcfa83955f0e7b040c825e65858aa7f", null ],
+    [ "value_type", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_scalar_writer.html#a034f7e5f6abe4ef956e56a947c522382", null ],
     [ "ScalarWriter", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_scalar_writer.html#a978e28e19074f1ea2095cd1fa497a363", null ],
     [ "~ScalarWriter", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_scalar_writer.html#ac0910df3abbb139c47e057a0ec6fbfe8", null ],
     [ "ScalarWriter", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_scalar_writer.html#a0d93517398dbfdaa83f3f13044432d69", null ],

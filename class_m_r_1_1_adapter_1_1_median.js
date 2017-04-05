@@ -1,7 +1,7 @@
 var class_m_r_1_1_adapter_1_1_median =
 [
-    [ "value_type", "class_m_r_1_1_adapter_1_1_median.html#ae69338d3cbfbb5dd30f663e005e6d527", null ],
-    [ "voxel_type", "class_m_r_1_1_adapter_1_1_median.html#a288b3920cba45539d9b8fd063960f39a", null ],
+    [ "value_type", "class_m_r_1_1_adapter_1_1_median.html#aa48418e613dcc12f2dd5722e8eb391d5", null ],
+    [ "voxel_type", "class_m_r_1_1_adapter_1_1_median.html#aa15ea43da0e6f15f9072cd9a6c8a69b4", null ],
     [ "Median", "class_m_r_1_1_adapter_1_1_median.html#ac3322efbc236ed231fbc53d9b65d53af", null ],
     [ "Median", "class_m_r_1_1_adapter_1_1_median.html#a000602b03937310a7814f99504b711c8", null ],
     [ "set_extent", "class_m_r_1_1_adapter_1_1_median.html#a46b4ab6020604b46ec5f9b5c3c5793ef", null ],

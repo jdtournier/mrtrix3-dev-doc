@@ -1,6 +1,6 @@
 var class_m_r_1_1_math_1_1_hermite =
 [
-    [ "value_type", "class_m_r_1_1_math_1_1_hermite.html#a510c349a6bdd103a7bdcf2a4e508d7bf", null ],
+    [ "value_type", "class_m_r_1_1_math_1_1_hermite.html#aa4083e1e96e79829a17724bfe7f31c26", null ],
     [ "Hermite", "class_m_r_1_1_math_1_1_hermite.html#a77564bf5a11915dda07af46a2ffb8463", null ],
     [ "coef", "class_m_r_1_1_math_1_1_hermite.html#ad5b32be769d1ea437376d0cb4be8480a", null ],
     [ "set", "class_m_r_1_1_math_1_1_hermite.html#ae9e949bdac082c949c571238331e6597", null ],

@@ -1,9 +1,9 @@
 var class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter =
 [
     [ "TrackGradientCalculator", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter_1_1_track_gradient_calculator.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter_1_1_track_gradient_calculator" ],
-    [ "MapType", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html#a5756b4df2fadbe4b1be87c3f610de9a6", null ],
-    [ "MapVoxel", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html#a0bdd5a18e1740b44eaf2a07ee1ba0f99", null ],
-    [ "VoxelAccessor", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html#ab7a65478e26b2c85a65c26c7184f6410", null ],
+    [ "MapType", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html#a3fca75ba52969b9452f79796cf022452", null ],
+    [ "MapVoxel", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html#a8a94607c96dd5e83745a77087fd5a003", null ],
+    [ "VoxelAccessor", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html#acb188125ab5aa662414405405409ac0a", null ],
     [ "SIFTer", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html#a4990ff58aeafcd665d30c5288a461e54", null ],
     [ "SIFTer", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html#a8c2c616a1dcd7accc7ce467312bd165f", null ],
     [ "~SIFTer", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html#a60118d115ca2b51c3816f4e566d9b687", null ],

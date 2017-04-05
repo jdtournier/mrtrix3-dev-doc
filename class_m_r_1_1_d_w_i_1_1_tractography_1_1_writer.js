@@ -1,6 +1,6 @@
 var class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer =
 [
-    [ "vector_type", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer.html#a66e66327e88ee00a58a67644032eec07", null ],
+    [ "vector_type", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer.html#a6e30abe0f518b5eb363d900d2c964d40", null ],
     [ "Writer", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer.html#a7d1f556c2c1700b7d9d2268b35deb0c8", null ],
     [ "Writer", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer.html#a190fb16d4f346322c9384b11bcb7aba2", null ],
     [ "~Writer", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer.html#a3c710c7594231d409931c532b3b4c366", null ],

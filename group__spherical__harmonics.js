@@ -1,7 +1,7 @@
 var group__spherical__harmonics =
 [
     [ "Transform", "class_m_r_1_1_math_1_1_s_h_1_1_transform.html", [
-      [ "matrix_type", "class_m_r_1_1_math_1_1_s_h_1_1_transform.html#a0542796cdc5f83ce16869cf7f9207612", null ],
+      [ "matrix_type", "class_m_r_1_1_math_1_1_s_h_1_1_transform.html#a041d0181f898b9018e6acc5d124f2423", null ],
       [ "Transform", "class_m_r_1_1_math_1_1_s_h_1_1_transform.html#af3c329fc3212b73a36d358c92447234c", null ],
       [ "A2SH", "class_m_r_1_1_math_1_1_s_h_1_1_transform.html#a70842eadefa87f2f4a2405ad3acd03d8", null ],
       [ "mat_A2SH", "class_m_r_1_1_math_1_1_s_h_1_1_transform.html#a133347a4a91a12e72016530798572d50", null ],
@@ -21,7 +21,7 @@ var group__spherical__harmonics =
       [ "p2", "class_m_r_1_1_math_1_1_s_h_1_1_precomputed_fraction.html#a5dd68d18e88d62cb4f0db7d3b63d941b", null ]
     ] ],
     [ "PrecomputedAL", "class_m_r_1_1_math_1_1_s_h_1_1_precomputed_a_l.html", [
-      [ "value_type", "class_m_r_1_1_math_1_1_s_h_1_1_precomputed_a_l.html#a44ea71580e9e22f743c3eb7f8d2bbd5e", null ],
+      [ "value_type", "class_m_r_1_1_math_1_1_s_h_1_1_precomputed_a_l.html#a5200182a2011b5d515566206c19e7cf9", null ],
       [ "PrecomputedAL", "class_m_r_1_1_math_1_1_s_h_1_1_precomputed_a_l.html#a696f88bb74943bca452a577e66881ae2", null ],
       [ "PrecomputedAL", "class_m_r_1_1_math_1_1_s_h_1_1_precomputed_a_l.html#aad1616bf86f6cdaf3082883cb4587235", null ],
       [ "get", "class_m_r_1_1_math_1_1_s_h_1_1_precomputed_a_l.html#a952511ac3879736dca7627605b40a4d1", null ],

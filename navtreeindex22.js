@@ -163,7 +163,7 @@ var NAVTREEINDEX22 =
 "class_q_color_button.html#ad1f7466429b73110c6e5712316afc38b":[11,0,1,0],
 "classes.html":[11,1],
 "cluster_8h.html":[12,0,1,5,1],
-"cluster_8h.html#add0faf3fd57e83a77a34fb8aca160b02":[12,0,1,5,1,0],
+"cluster_8h.html#a615f9d568ad6ac9c11d148fcf113e2c4":[12,0,1,5,1,0],
 "cluster_8h_source.html":[12,0,1,5,1],
 "cmdline__option_8h.html":[12,0,0,12],
 "cmdline__option_8h_source.html":[12,0,0,12],

@@ -1,6 +1,6 @@
 var class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer_unbuffered =
 [
-    [ "vector_type", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer_unbuffered.html#af1fb440d5911416690f1f1d4c48fda40", null ],
+    [ "vector_type", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer_unbuffered.html#ab36628e486a3b5bc375fa42ad1ff88be", null ],
     [ "WriterUnbuffered", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer_unbuffered.html#a265f7f4ed72c9b4173e31702e6cc0e3c", null ],
     [ "WriterUnbuffered", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer_unbuffered.html#a80961a21caea080aeb8b523840cb7d93", null ],
     [ "barrier", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer_unbuffered.html#ab8babe7c84071e0bd9b2ec203eea9c45", null ],

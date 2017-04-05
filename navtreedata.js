@@ -91,7 +91,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_a_c_t_2gmwmi_8h.html",
-"class_m_r_1_1_adapter_1_1_median.html#a46b4ab6020604b46ec5f9b5c3c5793ef",
+"class_m_r_1_1_adapter_1_1_median.html#a6eb6db68882d240d4d78584fb768f074",
 "class_m_r_1_1_d_w_i_1_1_f_m_l_s_1_1_s_h__coefs.html#a054f511549e359255f185e1b1a67581d",
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_s_d_stream.html#a028db62d709a9ac853d82f80ed7ca5b0",
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_editing_1_1_worker.html#a8821f600109c892051fbe5ba7fd78ee8",
@@ -109,9 +109,9 @@ var NAVTREEINDEX =
 "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file_options.html#ad2f7390976fb101f8097b03f6d6a74ed",
 "class_m_r_1_1_g_u_i_1_1_projection.html#a7f30be8e954ccac8129693cb58282c1b",
 "class_m_r_1_1_image_1_1_buffer.html#aca0a4d08ac561ffc451dad199c03ce2f",
-"class_m_r_1_1_math_1_1_cubic_spline.html#ae7691554062e6bcae81be7641a10d019",
+"class_m_r_1_1_math_1_1_cubic_spline.html#ae7d4b8d6b89f06c350f3d736c3f479d1",
 "class_m_r_1_1_mesh_1_1_mesh.html#ab1fb643d49b665782372c65847c45637",
-"class_m_r_1_1_registration_1_1_metric_1_1_params.html#a20fa021a4307b74850726b4c2019a15d",
+"class_m_r_1_1_registration_1_1_metric_1_1_params.html#a20022ac5429d6ffb161008e33eac701a",
 "class_m_r_1_1_sparse_1_1_value.html#afbc3f5e39f3ec878a82c7cabf555e88a",
 "csd_8h.html#aeb25b1e1b910b83a64dd9925a2cef7b6",
 "fetch__store_8h.html#ac5552ba2813d5c56743dec9603d12fa4",
@@ -121,8 +121,8 @@ var NAVTREEINDEX =
 "multi__resolution__lmax_8h.html",
 "opengl_8h_source.html",
 "shells_8h.html#a8fdc3dd3a7b2c4e346b6cd47cc094945",
-"stride_8h.html",
-"struct_m_r_1_1max__digits_3_01_x_00_01typename_01std_1_1enable__if_3_01std_1_1is__fundamental_3_1ef7ff8baa0d3893f596cbe7273651cd.html"
+"stride_8h.html#a189a1ca1d71cebe9267acf0e0b6b2215",
+"struct_m_r_1_1max__digits_3_01_x_00_01typename_01std_1_1enable__if_3_01std_1_1is__fundamental_3_501364762f17ed6e57e6fc02375a30fa.html#a69204d3c07a6705ffac49d24c741c354"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

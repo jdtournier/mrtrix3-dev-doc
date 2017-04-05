@@ -3,7 +3,7 @@ var class_m_r_1_1_d_w_i_1_1_fixel__map =
     [ "ConstIterator", "class_m_r_1_1_d_w_i_1_1_fixel__map_1_1_const_iterator.html", "class_m_r_1_1_d_w_i_1_1_fixel__map_1_1_const_iterator" ],
     [ "Iterator", "class_m_r_1_1_d_w_i_1_1_fixel__map_1_1_iterator.html", "class_m_r_1_1_d_w_i_1_1_fixel__map_1_1_iterator" ],
     [ "MapVoxel", "class_m_r_1_1_d_w_i_1_1_fixel__map_1_1_map_voxel.html", "class_m_r_1_1_d_w_i_1_1_fixel__map_1_1_map_voxel" ],
-    [ "VoxelAccessor", "class_m_r_1_1_d_w_i_1_1_fixel__map.html#af957eb17346d7a8d52d4b25f38852eb3", null ],
+    [ "VoxelAccessor", "class_m_r_1_1_d_w_i_1_1_fixel__map.html#a9f719e95ef0cc0e1d185aec8257176f8", null ],
     [ "Fixel_map", "class_m_r_1_1_d_w_i_1_1_fixel__map.html#a2972522af39ee32c56c17ffc565c74b2", null ],
     [ "Fixel_map", "class_m_r_1_1_d_w_i_1_1_fixel__map.html#a9e5add88310b7b13729160c34042f9b1", null ],
     [ "~Fixel_map", "class_m_r_1_1_d_w_i_1_1_fixel__map.html#a62168d6ae37e0f2739ab166e8ecaa681", null ],

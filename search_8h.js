@@ -1,8 +1,8 @@
 var search_8h =
 [
     [ "ExhaustiveRotationSearch", "class_m_r_1_1_registration_1_1_rotation_search_1_1_exhaustive_rotation_search.html", "class_m_r_1_1_registration_1_1_rotation_search_1_1_exhaustive_rotation_search" ],
-    [ "MatType", "search_8h.html#a7aac9d01707fdc52842110184def856c", null ],
-    [ "QuatType", "search_8h.html#a09bdd00454bb062dedc31e8a51057e63", null ],
-    [ "TrafoType", "search_8h.html#a12a552a3bf0dc99343e1d285c63a63ff", null ],
-    [ "VecType", "search_8h.html#a0cd47312ae8097ea869d7a8ec0fc6ddc", null ]
+    [ "MatType", "search_8h.html#af8b963e5491e4305dec0313ae189690a", null ],
+    [ "QuatType", "search_8h.html#a36b7395ecd0f37173c31160e8abaddd2", null ],
+    [ "TrafoType", "search_8h.html#ac5a84006bd6f61ded34f0aa383019533", null ],
+    [ "VecType", "search_8h.html#ac73aa4f3c03aa789bc6c5c416ba80726", null ]
 ];

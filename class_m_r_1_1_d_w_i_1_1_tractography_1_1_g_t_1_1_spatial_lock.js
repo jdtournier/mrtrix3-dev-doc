@@ -1,8 +1,8 @@
 var class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock =
 [
     [ "Guard", "struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock_1_1_guard.html", "struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock_1_1_guard" ],
-    [ "point_type", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock.html#ab304b3eb78aca1b2586099913d1ae1dd", null ],
-    [ "value_type", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock.html#abb935aba68bf618afcd21aff8a891830", null ],
+    [ "point_type", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock.html#a9db149a1e27f6d1bea368e6d90bda1b3", null ],
+    [ "value_type", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock.html#a32f1966c0bd54b8b1dcb5ae1559f12f4", null ],
     [ "SpatialLock", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock.html#afda64651253ad3abde3d29a7e9e7b28f", null ],
     [ "SpatialLock", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock.html#ae2dd7ffc79e036cfd820654a56751969", null ],
     [ "SpatialLock", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock.html#a5cfa10a7b2dd94b7a6cb4b0efc04673b", null ],

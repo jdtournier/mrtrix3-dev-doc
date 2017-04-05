@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['setvoxeldir',['SetVoxelDir',['../namespace_m_r_1_1_stats_1_1_c_f_e.html#a21264a13404446d4741578adff82ce67',1,'MR::Stats::CFE']]],
-  ['sparse_5fdata_5ftype',['sparse_data_type',['../class_m_r_1_1_sparse_1_1_image.html#a9d2f7fb62ec9054120eb6c1fc79cd92f',1,'MR::Sparse::Image']]],
+  ['setvoxeldir',['SetVoxelDir',['../namespace_m_r_1_1_stats_1_1_c_f_e.html#ac1dc22b812b8704be873eaf9c3176ed2',1,'MR::Stats::CFE']]],
+  ['sparse_5fdata_5ftype',['sparse_data_type',['../class_m_r_1_1_sparse_1_1_image.html#a7fa08db8d83d64265375c37047cf7cbe',1,'MR::Sparse::Image']]],
   ['splinebase',['SplineBase',['../class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_processing_type_1_1_value_01_4.html#ad9fec2e86447b9a3a2d67e6920e0a66a',1,'MR::Interp::SplineInterp&lt; ImageType, SplineType, Math::SplineProcessingType::Value &gt;::SplineBase()'],['../class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_p71b7b33230e9f6db7179b5005ae1ab41.html#af908d518f43dd9be694114da2db80151',1,'MR::Interp::SplineInterp&lt; ImageType, SplineType, Math::SplineProcessingType::Derivative &gt;::SplineBase()'],['../class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_p67c55abb4645d7286881c1c4671654a0.html#aa0c1b8cc25205b78e7b964b3da5839fd',1,'MR::Interp::SplineInterp&lt; ImageType, SplineType, Math::SplineProcessingType::ValueAndDerivative &gt;::SplineBase()']]]
 ];

@@ -1,6 +1,6 @@
 var class_m_r_1_1_math_1_1_gradient_descent_b_b =
 [
-    [ "value_type", "class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a480c93eddf6d000362f728c91f2c9b4b", null ],
+    [ "value_type", "class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a435a58092b8d325aae8d33d2e22df037", null ],
     [ "GradientDescentBB", "class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a08f8a3e1ab42a88bff53facd9a49717c", null ],
     [ "be_verbose", "class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a69b6d7f09ef98d263232625099ca57c0", null ],
     [ "compute_normg_and_step", "class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a820f76c65de0e3de385e3068c15e6b80", null ],
