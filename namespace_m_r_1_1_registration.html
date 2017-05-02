@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-535-g21da6244</div>
+   <div id="projectbrief">Version 3.0_RC1-1-g93f159af</div>
   </td>
  </tr>
  </tbody>
@@ -109,6 +109,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_non_linear.html">NonLinear</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_m_r_1_1_registration_1_1_stage_setting.html">StageSetting</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -122,6 +124,11 @@ Enumerations</h2></td></tr>
 <a class="el" href="namespace_m_r_1_1_registration.html#acee95fcf4386a73a2764b491c5cf06a4abf808a0c8db090f0ae883b792b78a7e3">None</a>
  }</td></tr>
 <tr class="separator:acee95fcf4386a73a2764b491c5cf06a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1595cd6b5fb04c9de6a73964645804b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration.html#af1595cd6b5fb04c9de6a73964645804b">OptimiserAlgoType</a> { <a class="el" href="namespace_m_r_1_1_registration.html#af1595cd6b5fb04c9de6a73964645804ba6132be413377903d0043d4551830d231">bbgd</a>, 
+<a class="el" href="namespace_m_r_1_1_registration.html#af1595cd6b5fb04c9de6a73964645804ba68a4c04d87fb8144f2adb33283f9bd28">gd</a>, 
+<a class="el" href="namespace_m_r_1_1_registration.html#af1595cd6b5fb04c9de6a73964645804ba1715b1632c15ef62c6cb4b4fa139e6d9">none</a>
+ }</td></tr>
+<tr class="separator:af1595cd6b5fb04c9de6a73964645804b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -129,23 +136,27 @@ Functions</h2></td></tr>
 <tr class="separator:a8470b721abb2ae3a7644f6dc727faad9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acccbb860a909b06d80834f6291109738"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration.html#acccbb860a909b06d80834f6291109738">set_init_rotation_model_from_option</a> (<a class="el" href="class_m_r_1_1_registration_1_1_linear.html">Registration::Linear</a> &amp;registration, const int &amp;option)</td></tr>
 <tr class="separator:acccbb860a909b06d80834f6291109738"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6fa8bdf2f553f88a839a6704258848c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration.html#a6fa8bdf2f553f88a839a6704258848c1">parse_general_init_options</a> (<a class="el" href="class_m_r_1_1_registration_1_1_linear.html">Registration::Linear</a> &amp;registration)</td></tr>
-<tr class="separator:a6fa8bdf2f553f88a839a6704258848c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3e8f190d714f5bcb1daedba0cc30fb7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration.html#aa3e8f190d714f5bcb1daedba0cc30fb7">parse_general_options</a> (<a class="el" href="class_m_r_1_1_registration_1_1_linear.html">Registration::Linear</a> &amp;registration)</td></tr>
+<tr class="separator:aa3e8f190d714f5bcb1daedba0cc30fb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65b5d802086e3590ab9998b44d01195c"><td class="memTemplParams" colspan="2">template&lt;class ImageType &gt; </td></tr>
-<tr class="memitem:a65b5d802086e3590ab9998b44d01195c"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="src_2gui_2mrview_2tool_2connectome_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> ImageType&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration.html#a65b5d802086e3590ab9998b44d01195c">multi_resolution_lmax</a> (ImageType &amp;input, const <a class="el" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a> scale_factor, const bool do_reorientation=false, const int lmax=0)</td></tr>
+<tr class="memitem:a65b5d802086e3590ab9998b44d01195c"><td class="memTemplItemLeft" align="right" valign="top">FORCE_INLINE ImageType&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration.html#a65b5d802086e3590ab9998b44d01195c">multi_resolution_lmax</a> (ImageType &amp;input, const default_type scale_factor, const bool do_reorientation=false, const int lmax=0)</td></tr>
 <tr class="separator:a65b5d802086e3590ab9998b44d01195c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a40062a829959d2ebbee0aefda0688910"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_m_r_1_1_app_1_1_option_group.html">App::OptionGroup</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration.html#a40062a829959d2ebbee0aefda0688910">adv_init_options</a></td></tr>
+<tr class="memitem:a40062a829959d2ebbee0aefda0688910"><td class="memItemLeft" align="right" valign="top">const App::OptionGroup&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration.html#a40062a829959d2ebbee0aefda0688910">adv_init_options</a></td></tr>
 <tr class="separator:a40062a829959d2ebbee0aefda0688910"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a036aa9163b02b7935d3f65f172720581"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_m_r_1_1_app_1_1_option_group.html">App::OptionGroup</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration.html#a036aa9163b02b7935d3f65f172720581">rigid_options</a></td></tr>
+<tr class="memitem:a7d18d1d82c50f2cfd84c11b8682ae3d9"><td class="memItemLeft" align="right" valign="top">const App::OptionGroup&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration.html#a7d18d1d82c50f2cfd84c11b8682ae3d9">lin_stage_options</a></td></tr>
+<tr class="separator:a7d18d1d82c50f2cfd84c11b8682ae3d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a036aa9163b02b7935d3f65f172720581"><td class="memItemLeft" align="right" valign="top">const App::OptionGroup&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration.html#a036aa9163b02b7935d3f65f172720581">rigid_options</a></td></tr>
 <tr class="separator:a036aa9163b02b7935d3f65f172720581"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac5ec9fa85a76075dae81082bba9d99b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_m_r_1_1_app_1_1_option_group.html">App::OptionGroup</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration.html#aac5ec9fa85a76075dae81082bba9d99b">affine_options</a></td></tr>
+<tr class="memitem:aac5ec9fa85a76075dae81082bba9d99b"><td class="memItemLeft" align="right" valign="top">const App::OptionGroup&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration.html#aac5ec9fa85a76075dae81082bba9d99b">affine_options</a></td></tr>
 <tr class="separator:aac5ec9fa85a76075dae81082bba9d99b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d3d1600155ad88a0b6789a0e0a3f0b3"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_m_r_1_1_app_1_1_option_group.html">App::OptionGroup</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration.html#a9d3d1600155ad88a0b6789a0e0a3f0b3">fod_options</a></td></tr>
+<tr class="memitem:a9d3d1600155ad88a0b6789a0e0a3f0b3"><td class="memItemLeft" align="right" valign="top">const App::OptionGroup&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration.html#a9d3d1600155ad88a0b6789a0e0a3f0b3">fod_options</a></td></tr>
 <tr class="separator:a9d3d1600155ad88a0b6789a0e0a3f0b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5466ce38010787f5cc903df0e8380b9"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_m_r_1_1_app_1_1_option_group.html">App::OptionGroup</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration.html#ac5466ce38010787f5cc903df0e8380b9">nonlinear_options</a></td></tr>
+<tr class="memitem:a0967b0249e8a6d1342ef75513bce8ca0"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration.html#a0967b0249e8a6d1342ef75513bce8ca0">optim_algo_names</a> []</td></tr>
+<tr class="separator:a0967b0249e8a6d1342ef75513bce8ca0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5466ce38010787f5cc903df0e8380b9"><td class="memItemLeft" align="right" valign="top">const App::OptionGroup&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration.html#ac5466ce38010787f5cc903df0e8380b9">nonlinear_options</a></td></tr>
 <tr class="separator:ac5466ce38010787f5cc903df0e8380b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
@@ -165,7 +176,7 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a2128b8d3c4c2bd10f9a40be6b8fe0bc5a5baacf33ac2a0df4aa198263c8163d00"></a>NCC&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="src_2registration_2linear_8h_source.html#l00053">53</a> of file <a class="el" href="src_2registration_2linear_8h_source.html">linear.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="linear_8h_source.html#l00054">54</a> of file <a class="el" href="linear_8h_source.html">linear.h</a>.</p>
 
 </div>
 </div>
@@ -187,7 +198,28 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="acee95fcf4386a73a2764b491c5cf06a4abf808a0c8db090f0ae883b792b78a7e3"></a>None&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="src_2registration_2linear_8h_source.html#l00054">54</a> of file <a class="el" href="src_2registration_2linear_8h_source.html">linear.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="linear_8h_source.html#l00055">55</a> of file <a class="el" href="linear_8h_source.html">linear.h</a>.</p>
+
+</div>
+</div>
+<a id="af1595cd6b5fb04c9de6a73964645804b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1595cd6b5fb04c9de6a73964645804b">&#9670;&nbsp;</a></span>OptimiserAlgoType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespace_m_r_1_1_registration.html#af1595cd6b5fb04c9de6a73964645804b">MR::Registration::OptimiserAlgoType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="af1595cd6b5fb04c9de6a73964645804ba6132be413377903d0043d4551830d231"></a>bbgd&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af1595cd6b5fb04c9de6a73964645804ba68a4c04d87fb8144f2adb33283f9bd28"></a>gd&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af1595cd6b5fb04c9de6a73964645804ba1715b1632c15ef62c6cb4b4fa139e6d9"></a>none&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="linear_8h_source.html#l00056">56</a> of file <a class="el" href="linear_8h_source.html">linear.h</a>.</p>
 
 </div>
 </div>
@@ -201,7 +233,7 @@ Variables</h2></td></tr>
 template&lt;class ImageType &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="src_2gui_2mrview_2tool_2connectome_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> ImageType MR::Registration::multi_resolution_lmax </td>
+          <td class="memname">FORCE_INLINE ImageType MR::Registration::multi_resolution_lmax </td>
           <td>(</td>
           <td class="paramtype">ImageType &amp;&#160;</td>
           <td class="paramname"><em>input</em>, </td>
@@ -209,7 +241,7 @@ template&lt;class ImageType &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a>&#160;</td>
+          <td class="paramtype">const default_type&#160;</td>
           <td class="paramname"><em>scale_factor</em>, </td>
         </tr>
         <tr>
@@ -232,18 +264,18 @@ template&lt;class ImageType &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="multi__resolution__lmax_8h_source.html#l00029">29</a> of file <a class="el" href="multi__resolution__lmax_8h_source.html">multi_resolution_lmax.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="multi__resolution__lmax_8h_source.html#l00027">27</a> of file <a class="el" href="multi__resolution__lmax_8h_source.html">multi_resolution_lmax.h</a>.</p>
 
 </div>
 </div>
-<a id="a6fa8bdf2f553f88a839a6704258848c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6fa8bdf2f553f88a839a6704258848c1">&#9670;&nbsp;</a></span>parse_general_init_options()</h2>
+<a id="aa3e8f190d714f5bcb1daedba0cc30fb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3e8f190d714f5bcb1daedba0cc30fb7">&#9670;&nbsp;</a></span>parse_general_options()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void MR::Registration::parse_general_init_options </td>
+          <td class="memname">void MR::Registration::parse_general_options </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_m_r_1_1_registration_1_1_linear.html">Registration::Linear</a> &amp;&#160;</td>
           <td class="paramname"><em>registration</em></td><td>)</td>
@@ -318,7 +350,7 @@ template&lt;class ImageType &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="class_m_r_1_1_app_1_1_option_group.html">App::OptionGroup</a> MR::Registration::adv_init_options</td>
+          <td class="memname">const App::OptionGroup MR::Registration::adv_init_options</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -332,7 +364,7 @@ template&lt;class ImageType &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="class_m_r_1_1_app_1_1_option_group.html">App::OptionGroup</a> MR::Registration::affine_options</td>
+          <td class="memname">const App::OptionGroup MR::Registration::affine_options</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -346,7 +378,21 @@ template&lt;class ImageType &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="class_m_r_1_1_app_1_1_option_group.html">App::OptionGroup</a> MR::Registration::fod_options</td>
+          <td class="memname">const App::OptionGroup MR::Registration::fod_options</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7d18d1d82c50f2cfd84c11b8682ae3d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d18d1d82c50f2cfd84c11b8682ae3d9">&#9670;&nbsp;</a></span>lin_stage_options</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const App::OptionGroup MR::Registration::lin_stage_options</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -360,7 +406,21 @@ template&lt;class ImageType &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="class_m_r_1_1_app_1_1_option_group.html">App::OptionGroup</a> MR::Registration::nonlinear_options</td>
+          <td class="memname">const App::OptionGroup MR::Registration::nonlinear_options</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0967b0249e8a6d1342ef75513bce8ca0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0967b0249e8a6d1342ef75513bce8ca0">&#9670;&nbsp;</a></span>optim_algo_names</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char* MR::Registration::optim_algo_names[]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -374,7 +434,7 @@ template&lt;class ImageType &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="class_m_r_1_1_app_1_1_option_group.html">App::OptionGroup</a> MR::Registration::rigid_options</td>
+          <td class="memname">const App::OptionGroup MR::Registration::rigid_options</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -387,7 +447,7 @@ template&lt;class ImageType &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_registration.html">Registration</a></li>
-    <li class="footer">Generated on Wed Apr 19 2017 09:26:46 for MRtrix by
+    <li class="footer">Generated on Tue May 2 2017 10:45:13 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

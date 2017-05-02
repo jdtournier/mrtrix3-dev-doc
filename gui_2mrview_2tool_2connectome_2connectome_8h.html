@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-535-g21da6244</div>
+   <div id="projectbrief">Version 3.0_RC1-1-g93f159af</div>
   </td>
  </tr>
  </tbody>
@@ -85,15 +85,21 @@ $(document).ready(function(){initNavTree('gui_2mrview_2tool_2connectome_2connect
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">connectome.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;types.h&quot;</code><br />
+<div class="textblock"><code>#include &lt;Eigen/Dense&gt;</code><br />
+<code>#include &quot;app.h&quot;</code><br />
+<code>#include &quot;exception.h&quot;</code><br />
+<code>#include &quot;header.h&quot;</code><br />
+<code>#include &quot;mrtrix.h&quot;</code><br />
+<code>#include &quot;types.h&quot;</code><br />
 <code>#include &lt;map&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
-<code>#include &quot;<a class="el" href="bitset_8h_source.html">bitset.h</a>&quot;</code><br />
+<code>#include &quot;bitset.h&quot;</code><br />
 <code>#include &quot;image.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="gl_8h_source.html">gui/opengl/gl.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="lighting_8h_source.html">gui/opengl/lighting.h</a>&quot;</code><br />
@@ -102,14 +108,14 @@ $(document).ready(function(){initNavTree('gui_2mrview_2tool_2connectome_2connect
 <code>#include &quot;<a class="el" href="adjust__button_8h_source.html">gui/mrview/adjust_button.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="colourmap__button_8h_source.html">gui/mrview/colourmap_button.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="spin__box_8h_source.html">gui/mrview/spin_box.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="src_2gui_2mrview_2mode_2base_8h_source.html">gui/mrview/mode/base.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html">gui/mrview/tool/base.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="gui_2mrview_2mode_2base_8h_source.html">gui/mrview/mode/base.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="gui_2mrview_2tool_2base_8h_source.html">gui/mrview/tool/base.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="cube_8h_source.html">gui/shapes/cube.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="cylinder_8h_source.html">gui/shapes/cylinder.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="sphere_8h_source.html">gui/shapes/sphere.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="color__button_8h_source.html">gui/color_button.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="projection_8h_source.html">gui/projection.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="mesh_8h_source.html">mesh/mesh.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="mesh_8h_source.html">surface/mesh.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="mat2vec_8h_source.html">connectome/mat2vec.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="lut_8h_source.html">connectome/lut.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="colourmap__observers_8h_source.html">gui/mrview/tool/connectome/colourmap_observers.h</a>&quot;</code><br />
@@ -121,7 +127,7 @@ $(document).ready(function(){initNavTree('gui_2mrview_2tool_2connectome_2connect
 <code>#include &quot;<a class="el" href="node__overlay_8h_source.html">gui/mrview/tool/connectome/node_overlay.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="selection_8h_source.html">gui/mrview/tool/connectome/selection.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="shaders_8h_source.html">gui/mrview/tool/connectome/shaders.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="src_2gui_2mrview_2tool_2connectome_2types_8h_source.html">gui/mrview/tool/connectome/types.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="gui_2mrview_2tool_2connectome_2types_8h_source.html">gui/mrview/tool/connectome/types.h</a>&quot;</code><br />
 </div>
 <p><a href="gui_2mrview_2tool_2connectome_2connectome_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -147,13 +153,36 @@ Namespaces</h2></td></tr>
 Typedefs</h2></td></tr>
 <tr class="memitem:a23a914dedfa39663090d29972eb3950a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_connectome.html#a23a914dedfa39663090d29972eb3950a">MR::Connectome::node_t</a> = uint32_t</td></tr>
 <tr class="separator:a23a914dedfa39663090d29972eb3950a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa9745a91ccc5ec5673b22291cfcdaec6"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_connectome.html#aa9745a91ccc5ec5673b22291cfcdaec6">MR::Connectome::matrix_type</a> = Eigen::Matrix&lt; default_type, Eigen::Dynamic, Eigen::Dynamic &gt;</td></tr>
-<tr class="separator:aa9745a91ccc5ec5673b22291cfcdaec6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2ef2268203864bf3ff8a123cbd6d2fd"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_connectome.html#af2ef2268203864bf3ff8a123cbd6d2fd">MR::Connectome::value_type</a> = default_type</td></tr>
+<tr class="separator:af2ef2268203864bf3ff8a123cbd6d2fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ec7f19b4d55540a4c954816500c1473"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_connectome.html#a7ec7f19b4d55540a4c954816500c1473">MR::Connectome::matrix_type</a> = Eigen::Array&lt; value_type, Eigen::Dynamic, Eigen::Dynamic &gt;</td></tr>
+<tr class="separator:a7ec7f19b4d55540a4c954816500c1473"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef0695f1e3c4c253f94558094d0c3736"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_connectome.html#aef0695f1e3c4c253f94558094d0c3736">MR::Connectome::vector_type</a> = Eigen::Array&lt; value_type, Eigen::Dynamic, 1 &gt;</td></tr>
+<tr class="separator:aef0695f1e3c4c253f94558094d0c3736"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd89ba0f629052a6c3e77a96f02da713"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_connectome.html#abd89ba0f629052a6c3e77a96f02da713">MR::Connectome::mask_type</a> = Eigen::Array&lt; bool, Eigen::Dynamic, Eigen::Dynamic &gt;</td></tr>
+<tr class="separator:abd89ba0f629052a6c3e77a96f02da713"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a4ed44765108d2de95c60818445c9e236"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_connectome.html#a4ed44765108d2de95c60818445c9e236">MR::Connectome::verify_matrix</a> (matrix_type &amp;, const node_t)</td></tr>
-<tr class="separator:a4ed44765108d2de95c60818445c9e236"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa62023f84834cafc9817bd6d6bb8df21"><td class="memTemplParams" colspan="2">template&lt;class MatrixType &gt; </td></tr>
+<tr class="memitem:aa62023f84834cafc9817bd6d6bb8df21"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_connectome.html#aa62023f84834cafc9817bd6d6bb8df21">MR::Connectome::check</a> (const MatrixType &amp;in, const node_t num_nodes)</td></tr>
+<tr class="separator:aa62023f84834cafc9817bd6d6bb8df21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2962a8ed09fb920efe4868d399191fec"><td class="memTemplParams" colspan="2">template&lt;class MatrixType &gt; </td></tr>
+<tr class="memitem:a2962a8ed09fb920efe4868d399191fec"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_connectome.html#a2962a8ed09fb920efe4868d399191fec">MR::Connectome::is_directed</a> (MatrixType &amp;in)</td></tr>
+<tr class="separator:a2962a8ed09fb920efe4868d399191fec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84863c01e6c872cfb34d3a245cb02503"><td class="memTemplParams" colspan="2">template&lt;class MatrixType &gt; </td></tr>
+<tr class="memitem:a84863c01e6c872cfb34d3a245cb02503"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_connectome.html#a84863c01e6c872cfb34d3a245cb02503">MR::Connectome::to_symmetric</a> (MatrixType &amp;in)</td></tr>
+<tr class="separator:a84863c01e6c872cfb34d3a245cb02503"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9db8f1d1501d1105db6e3307e39d06c4"><td class="memTemplParams" colspan="2">template&lt;class MatrixType &gt; </td></tr>
+<tr class="memitem:a9db8f1d1501d1105db6e3307e39d06c4"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_connectome.html#a9db8f1d1501d1105db6e3307e39d06c4">MR::Connectome::to_upper</a> (MatrixType &amp;in)</td></tr>
+<tr class="separator:a9db8f1d1501d1105db6e3307e39d06c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23219c2984f1ced64a8f9d0f3668450c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_connectome.html#a23219c2984f1ced64a8f9d0f3668450c">MR::Connectome::check</a> (const Header &amp;)</td></tr>
+<tr class="separator:a23219c2984f1ced64a8f9d0f3668450c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:af68a719264ffe502989bc2911cd27d9f"><td class="memItemLeft" align="right" valign="top">const App::OptionGroup&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_connectome.html#af68a719264ffe502989bc2911cd27d9f">MR::Connectome::MatrixOutputOptions</a></td></tr>
+<tr class="separator:af68a719264ffe502989bc2911cd27d9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -161,7 +190,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_99d0482cf009f9d97a0877749b817f19.html">gui</a></li><li class="navelem"><a class="el" href="dir_d1c552c4fd0ff8e8078b00303a982c35.html">mrview</a></li><li class="navelem"><a class="el" href="dir_f9bd14eff820396be5a782f5d73a737a.html">tool</a></li><li class="navelem"><a class="el" href="dir_0008c5cf4c08f712dec94cc304afebf9.html">connectome</a></li><li class="navelem"><a class="el" href="gui_2mrview_2tool_2connectome_2connectome_8h.html">connectome.h</a></li>
-    <li class="footer">Generated on Wed Apr 19 2017 09:26:43 for MRtrix by
+    <li class="footer">Generated on Tue May 2 2017 10:45:11 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

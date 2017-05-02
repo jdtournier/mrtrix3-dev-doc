@@ -1,8 +1,9 @@
 var searchData=
 [
-  ['requires_5finitialisation',['requires_initialisation',['../class_m_r_1_1_registration_1_1_metric_1_1_difference_robust4_d.html#a36337eb6d7bcb6138e4b7058aa269b8d',1,'MR::Registration::Metric::DifferenceRobust4D']]],
-  ['requires_5fprecompute',['requires_precompute',['../class_m_r_1_1_registration_1_1_metric_1_1_cross_correlation_no_gradient.html#af0b66a206bb7fb81f92b45e415ebe374',1,'MR::Registration::Metric::CrossCorrelationNoGradient::requires_precompute()'],['../class_m_r_1_1_registration_1_1_metric_1_1_normalised_cross_correlation.html#a2bdf2a31ff0b889cedc657f4d1922212',1,'MR::Registration::Metric::NormalisedCrossCorrelation::requires_precompute()']]],
-  ['result_5ftype',['result_type',['../class_m_r_1_1_math_1_1_r_n_g_1_1_uniform.html#a08ca658c97bb59badfc363ea08fa6257',1,'MR::Math::RNG::Uniform::result_type()'],['../class_m_r_1_1_math_1_1_r_n_g_1_1_normal.html#a444047b5d7c69690af716d8a80d53e60',1,'MR::Math::RNG::Normal::result_type()']]],
-  ['rgb',['RGB',['../class_m_r_1_1_connectome_1_1_l_u_t__node.html#aff784a632270803b85fcf6f6cc85d6fa',1,'MR::Connectome::LUT_node']]],
-  ['robustestimatortype',['RobustEstimatorType',['../class_m_r_1_1_registration_1_1_transform_1_1_affine.html#abef0c4ef2778adf6aa69ade3f345310e',1,'MR::Registration::Transform::Affine::RobustEstimatorType()'],['../class_m_r_1_1_registration_1_1_transform_1_1_rigid.html#aa4c905f8764ea8d367d6eeff35897246',1,'MR::Registration::Transform::Rigid::RobustEstimatorType()']]]
+  ['track_5ft',['track_t',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t.html#a8ba0c8aa996867266b113250923c7e58',1,'MR::DWI::Tractography::SIFT']]],
+  ['trackindexrange',['TrackIndexRange',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t.html#ae6e9945063edb14a15458036b46c9b12',1,'MR::DWI::Tractography::SIFT']]],
+  ['trackindexrangequeue',['TrackIndexRangeQueue',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t.html#ab26c0a2416568a1e1d14314e0e04452c',1,'MR::DWI::Tractography::SIFT']]],
+  ['trafotype',['TrafoType',['../namespace_m_r_1_1_registration_1_1_rotation_search.html#ac5a84006bd6f61ded34f0aa383019533',1,'MR::Registration::RotationSearch']]],
+  ['triangle',['Triangle',['../namespace_m_r_1_1_surface.html#ae24f13149588ed2ea0467108dff41ad5',1,'MR::Surface']]],
+  ['trianglelist',['TriangleList',['../namespace_m_r_1_1_surface.html#a272441be53f5e2e0bba824c14fdbaa0d',1,'MR::Surface']]]
 ];

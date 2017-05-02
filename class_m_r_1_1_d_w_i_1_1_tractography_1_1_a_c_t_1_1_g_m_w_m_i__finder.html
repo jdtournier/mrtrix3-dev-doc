@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-535-g21da6244</div>
+   <div id="projectbrief">Version 3.0_RC1-1-g93f159af</div>
   </td>
  </tr>
  </tbody>
@@ -83,7 +83,6 @@ $(document).ready(function(){initNavTree('class_m_r_1_1_d_w_i_1_1_tractography_1
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-types">Protected Types</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#friends">Friends</a> &#124;
@@ -106,9 +105,9 @@ Inheritance diagram for MR::DWI::Tractography::ACT::GMWMI_finder:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a62bb08c536b8d1a009babbeffdb080eb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html#a62bb08c536b8d1a009babbeffdb080eb">GMWMI_finder</a> (const <a class="el" href="class_m_r_1_1_image.html">Image</a>&lt; float &gt; &amp;buffer)</td></tr>
+<tr class="memitem:a62bb08c536b8d1a009babbeffdb080eb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html#a62bb08c536b8d1a009babbeffdb080eb">GMWMI_finder</a> (const Image&lt; float &gt; &amp;buffer)</td></tr>
 <tr class="separator:a62bb08c536b8d1a009babbeffdb080eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20a26fe3707431f06c0aff39ee017764"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html#a20a26fe3707431f06c0aff39ee017764">GMWMI_finder</a> (const <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html#a689a3163057992817b9f615f975cfb96">Interp</a> &amp;interp)</td></tr>
+<tr class="memitem:a20a26fe3707431f06c0aff39ee017764"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html#a20a26fe3707431f06c0aff39ee017764">GMWMI_finder</a> (const Interp &amp;interp)</td></tr>
 <tr class="separator:a20a26fe3707431f06c0aff39ee017764"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad27a951b4d040c19abbd7de4d6e8305"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html#aad27a951b4d040c19abbd7de4d6e8305">GMWMI_finder</a> (const <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html">GMWMI_finder</a> &amp;that)</td></tr>
 <tr class="separator:aad27a951b4d040c19abbd7de4d6e8305"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -118,32 +117,27 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1e012fc0d0e4fb8fec7fd7268f206979"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5100cc32d11ed312f95d88b3ee7380e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html#ab5100cc32d11ed312f95d88b3ee7380e">is_cgm</a> (const Eigen::Vector3f &amp;) const</td></tr>
 <tr class="separator:ab5100cc32d11ed312f95d88b3ee7380e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4977531e31cb3c67a05343d0791f7efd"><td class="memItemLeft" align="right" valign="top">Eigen::Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html#a4977531e31cb3c67a05343d0791f7efd">find_interface</a> (const std::vector&lt; Eigen::Vector3f &gt; &amp;, const bool) const</td></tr>
-<tr class="separator:a4977531e31cb3c67a05343d0791f7efd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70603569a06f5e87562ae95f86f18b76"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html#a70603569a06f5e87562ae95f86f18b76">crop_track</a> (std::vector&lt; Eigen::Vector3f &gt; &amp;) const</td></tr>
-<tr class="separator:a70603569a06f5e87562ae95f86f18b76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-types"></a>
-Protected Types</h2></td></tr>
-<tr class="memitem:a689a3163057992817b9f615f975cfb96"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html#a689a3163057992817b9f615f975cfb96">Interp</a> = <a class="el" href="group__interp.html#ga37074808dd977bb4b066a1ef0bc6ddaa">Interp::Linear</a>&lt; <a class="el" href="class_m_r_1_1_image.html">Image</a>&lt; float &gt; &gt;</td></tr>
-<tr class="separator:a689a3163057992817b9f615f975cfb96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3af509a642a7e8835f534ca0f3df0e19"><td class="memItemLeft" align="right" valign="top">Eigen::Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html#a3af509a642a7e8835f534ca0f3df0e19">find_interface</a> (const vector&lt; Eigen::Vector3f &gt; &amp;, const bool) const</td></tr>
+<tr class="separator:a3af509a642a7e8835f534ca0f3df0e19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa44a3abad554b4b952efc7563f33d8a2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html#aa44a3abad554b4b952efc7563f33d8a2">crop_track</a> (vector&lt; Eigen::Vector3f &gt; &amp;) const</td></tr>
+<tr class="separator:aa44a3abad554b4b952efc7563f33d8a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a8b994a9c511ffada54a8428b0bb43a03"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_tissues.html">Tissues</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html#a8b994a9c511ffada54a8428b0bb43a03">get_tissues</a> (const Eigen::Vector3f &amp;p, <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html#a689a3163057992817b9f615f975cfb96">Interp</a> &amp;interp) const</td></tr>
+<tr class="memitem:a8b994a9c511ffada54a8428b0bb43a03"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_tissues.html">Tissues</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html#a8b994a9c511ffada54a8428b0bb43a03">get_tissues</a> (const Eigen::Vector3f &amp;p, Interp &amp;interp) const</td></tr>
 <tr class="separator:a8b994a9c511ffada54a8428b0bb43a03"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54a3a68c45842cbcae40bece3af31739"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html#a54a3a68c45842cbcae40bece3af31739">find_interface</a> (Eigen::Vector3f &amp;, <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html#a689a3163057992817b9f615f975cfb96">Interp</a> &amp;) const</td></tr>
+<tr class="memitem:a54a3a68c45842cbcae40bece3af31739"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html#a54a3a68c45842cbcae40bece3af31739">find_interface</a> (Eigen::Vector3f &amp;, Interp &amp;) const</td></tr>
 <tr class="separator:a54a3a68c45842cbcae40bece3af31739"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58aa3d752aeda9779658240acce74f6a"><td class="memItemLeft" align="right" valign="top">Eigen::Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html#a58aa3d752aeda9779658240acce74f6a">get_normal</a> (const Eigen::Vector3f &amp;, <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html#a689a3163057992817b9f615f975cfb96">Interp</a> &amp;) const</td></tr>
+<tr class="memitem:a58aa3d752aeda9779658240acce74f6a"><td class="memItemLeft" align="right" valign="top">Eigen::Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html#a58aa3d752aeda9779658240acce74f6a">get_normal</a> (const Eigen::Vector3f &amp;, Interp &amp;) const</td></tr>
 <tr class="separator:a58aa3d752aeda9779658240acce74f6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67f49ac8a2a4cc56ce340ffd33885a44"><td class="memItemLeft" align="right" valign="top">Eigen::Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html#a67f49ac8a2a4cc56ce340ffd33885a44">get_cf_min_step</a> (const Eigen::Vector3f &amp;, <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html#a689a3163057992817b9f615f975cfb96">Interp</a> &amp;) const</td></tr>
+<tr class="memitem:a67f49ac8a2a4cc56ce340ffd33885a44"><td class="memItemLeft" align="right" valign="top">Eigen::Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html#a67f49ac8a2a4cc56ce340ffd33885a44">get_cf_min_step</a> (const Eigen::Vector3f &amp;, Interp &amp;) const</td></tr>
 <tr class="separator:a67f49ac8a2a4cc56ce340ffd33885a44"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc08947bc382eab750f494b681fcf0bb"><td class="memItemLeft" align="right" valign="top">Eigen::Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html#adc08947bc382eab750f494b681fcf0bb">find_interface</a> (const std::vector&lt; Eigen::Vector3f &gt; &amp;, const bool, <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html#a689a3163057992817b9f615f975cfb96">Interp</a> &amp;) const</td></tr>
-<tr class="separator:adc08947bc382eab750f494b681fcf0bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a077d8efc3519d7178e2c7f6dbdd52824"><td class="memItemLeft" align="right" valign="top">Eigen::Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html#a077d8efc3519d7178e2c7f6dbdd52824">find_interface</a> (const vector&lt; Eigen::Vector3f &gt; &amp;, const bool, Interp &amp;) const</td></tr>
+<tr class="separator:a077d8efc3519d7178e2c7f6dbdd52824"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a07b58ee6f4b5fd755ecd0c7001d65173"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html#a689a3163057992817b9f615f975cfb96">Interp</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html#a07b58ee6f4b5fd755ecd0c7001d65173">interp_template</a></td></tr>
+<tr class="memitem:a07b58ee6f4b5fd755ecd0c7001d65173"><td class="memItemLeft" align="right" valign="top">const Interp&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html#a07b58ee6f4b5fd755ecd0c7001d65173">interp_template</a></td></tr>
 <tr class="separator:a07b58ee6f4b5fd755ecd0c7001d65173"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03edc1ce45c21383febdb1f8a1689033"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html#a03edc1ce45c21383febdb1f8a1689033">min_vox</a></td></tr>
 <tr class="separator:a03edc1ce45c21383febdb1f8a1689033"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -157,33 +151,8 @@ Friends</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="_a_c_t_2gmwmi_8h_source.html#l00049">49</a> of file <a class="el" href="_a_c_t_2gmwmi_8h_source.html">gmwmi.h</a>.</p>
-</div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a689a3163057992817b9f615f975cfb96"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a689a3163057992817b9f615f975cfb96">&#9670;&nbsp;</a></span>Interp</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html#a689a3163057992817b9f615f975cfb96">MR::DWI::Tractography::ACT::GMWMI_finder::Interp</a> =  <a class="el" href="group__interp.html#ga37074808dd977bb4b066a1ef0bc6ddaa">Interp::Linear</a>&lt;<a class="el" href="class_m_r_1_1_image.html">Image</a>&lt;float&gt; &gt;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_a_c_t_2gmwmi_8h_source.html#l00053">53</a> of file <a class="el" href="_a_c_t_2gmwmi_8h_source.html">gmwmi.h</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<p class="definition">Definition at line <a class="el" href="_a_c_t_2gmwmi_8h_source.html#l00048">48</a> of file <a class="el" href="_a_c_t_2gmwmi_8h_source.html">gmwmi.h</a>.</p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a62bb08c536b8d1a009babbeffdb080eb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a62bb08c536b8d1a009babbeffdb080eb">&#9670;&nbsp;</a></span>GMWMI_finder() <span class="overload">[1/3]</span></h2>
 
@@ -196,7 +165,7 @@ Friends</h2></td></tr>
         <tr>
           <td class="memname">MR::DWI::Tractography::ACT::GMWMI_finder::GMWMI_finder </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_m_r_1_1_image.html">Image</a>&lt; float &gt; &amp;&#160;</td>
+          <td class="paramtype">const Image&lt; float &gt; &amp;&#160;</td>
           <td class="paramname"><em>buffer</em></td><td>)</td>
           <td></td>
         </tr>
@@ -208,7 +177,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_a_c_t_2gmwmi_8h_source.html#l00056">56</a> of file <a class="el" href="_a_c_t_2gmwmi_8h_source.html">gmwmi.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_a_c_t_2gmwmi_8h_source.html#l00055">55</a> of file <a class="el" href="_a_c_t_2gmwmi_8h_source.html">gmwmi.h</a>.</p>
 
 </div>
 </div>
@@ -224,7 +193,7 @@ Friends</h2></td></tr>
         <tr>
           <td class="memname">MR::DWI::Tractography::ACT::GMWMI_finder::GMWMI_finder </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html#a689a3163057992817b9f615f975cfb96">Interp</a> &amp;&#160;</td>
+          <td class="paramtype">const Interp &amp;&#160;</td>
           <td class="paramname"><em>interp</em></td><td>)</td>
           <td></td>
         </tr>
@@ -236,7 +205,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_a_c_t_2gmwmi_8h_source.html#l00060">60</a> of file <a class="el" href="_a_c_t_2gmwmi_8h_source.html">gmwmi.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_a_c_t_2gmwmi_8h_source.html#l00059">59</a> of file <a class="el" href="_a_c_t_2gmwmi_8h_source.html">gmwmi.h</a>.</p>
 
 </div>
 </div>
@@ -264,13 +233,13 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_a_c_t_2gmwmi_8h_source.html#l00064">64</a> of file <a class="el" href="_a_c_t_2gmwmi_8h_source.html">gmwmi.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_a_c_t_2gmwmi_8h_source.html#l00063">63</a> of file <a class="el" href="_a_c_t_2gmwmi_8h_source.html">gmwmi.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a70603569a06f5e87562ae95f86f18b76"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a70603569a06f5e87562ae95f86f18b76">&#9670;&nbsp;</a></span>crop_track()</h2>
+<a id="aa44a3abad554b4b952efc7563f33d8a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa44a3abad554b4b952efc7563f33d8a2">&#9670;&nbsp;</a></span>crop_track()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -278,7 +247,7 @@ Friends</h2></td></tr>
         <tr>
           <td class="memname">void MR::DWI::Tractography::ACT::GMWMI_finder::crop_track </td>
           <td>(</td>
-          <td class="paramtype">std::vector&lt; Eigen::Vector3f &gt; &amp;&#160;</td>
+          <td class="paramtype">vector&lt; Eigen::Vector3f &gt; &amp;&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
@@ -305,8 +274,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a4977531e31cb3c67a05343d0791f7efd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4977531e31cb3c67a05343d0791f7efd">&#9670;&nbsp;</a></span>find_interface() <span class="overload">[2/4]</span></h2>
+<a id="a3af509a642a7e8835f534ca0f3df0e19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3af509a642a7e8835f534ca0f3df0e19">&#9670;&nbsp;</a></span>find_interface() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -314,7 +283,7 @@ Friends</h2></td></tr>
         <tr>
           <td class="memname">Eigen::Vector3f MR::DWI::Tractography::ACT::GMWMI_finder::find_interface </td>
           <td>(</td>
-          <td class="paramtype">const std::vector&lt; Eigen::Vector3f &gt; &amp;&#160;</td>
+          <td class="paramtype">const vector&lt; Eigen::Vector3f &gt; &amp;&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
@@ -351,7 +320,7 @@ Friends</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html#a689a3163057992817b9f615f975cfb96">Interp</a> &amp;&#160;</td>
+          <td class="paramtype">Interp &amp;&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -369,8 +338,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="adc08947bc382eab750f494b681fcf0bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adc08947bc382eab750f494b681fcf0bb">&#9670;&nbsp;</a></span>find_interface() <span class="overload">[4/4]</span></h2>
+<a id="a077d8efc3519d7178e2c7f6dbdd52824"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a077d8efc3519d7178e2c7f6dbdd52824">&#9670;&nbsp;</a></span>find_interface() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -381,7 +350,7 @@ Friends</h2></td></tr>
         <tr>
           <td class="memname">Eigen::Vector3f MR::DWI::Tractography::ACT::GMWMI_finder::find_interface </td>
           <td>(</td>
-          <td class="paramtype">const std::vector&lt; Eigen::Vector3f &gt; &amp;&#160;</td>
+          <td class="paramtype">const vector&lt; Eigen::Vector3f &gt; &amp;&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
@@ -393,7 +362,7 @@ Friends</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html#a689a3163057992817b9f615f975cfb96">Interp</a> &amp;&#160;</td>
+          <td class="paramtype">Interp &amp;&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -429,7 +398,7 @@ Friends</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html#a689a3163057992817b9f615f975cfb96">Interp</a> &amp;&#160;</td>
+          <td class="paramtype">Interp &amp;&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -465,7 +434,7 @@ Friends</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html#a689a3163057992817b9f615f975cfb96">Interp</a> &amp;&#160;</td>
+          <td class="paramtype">Interp &amp;&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -501,7 +470,7 @@ Friends</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html#a689a3163057992817b9f615f975cfb96">Interp</a> &amp;&#160;</td>
+          <td class="paramtype">Interp &amp;&#160;</td>
           <td class="paramname"><em>interp</em>&#160;</td>
         </tr>
         <tr>
@@ -517,7 +486,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_a_c_t_2gmwmi_8h_source.html#l00083">83</a> of file <a class="el" href="_a_c_t_2gmwmi_8h_source.html">gmwmi.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_a_c_t_2gmwmi_8h_source.html#l00082">82</a> of file <a class="el" href="_a_c_t_2gmwmi_8h_source.html">gmwmi.h</a>.</p>
 
 </div>
 </div>
@@ -578,7 +547,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_a_c_t_2gmwmi_8h_source.html#l00096">96</a> of file <a class="el" href="_a_c_t_2gmwmi_8h_source.html">gmwmi.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_a_c_t_2gmwmi_8h_source.html#l00095">95</a> of file <a class="el" href="_a_c_t_2gmwmi_8h_source.html">gmwmi.h</a>.</p>
 
 </div>
 </div>
@@ -602,7 +571,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_a_c_t_2gmwmi_8h_source.html#l00097">97</a> of file <a class="el" href="_a_c_t_2gmwmi_8h_source.html">gmwmi.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_a_c_t_2gmwmi_8h_source.html#l00096">96</a> of file <a class="el" href="_a_c_t_2gmwmi_8h_source.html">gmwmi.h</a>.</p>
 
 </div>
 </div>
@@ -617,7 +586,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html#a689a3163057992817b9f615f975cfb96">Interp</a> MR::DWI::Tractography::ACT::GMWMI_finder::interp_template</td>
+          <td class="memname">const Interp MR::DWI::Tractography::ACT::GMWMI_finder::interp_template</td>
         </tr>
       </table>
   </td>
@@ -627,7 +596,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_a_c_t_2gmwmi_8h_source.html#l00079">79</a> of file <a class="el" href="_a_c_t_2gmwmi_8h_source.html">gmwmi.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_a_c_t_2gmwmi_8h_source.html#l00078">78</a> of file <a class="el" href="_a_c_t_2gmwmi_8h_source.html">gmwmi.h</a>.</p>
 
 </div>
 </div>
@@ -651,7 +620,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_a_c_t_2gmwmi_8h_source.html#l00080">80</a> of file <a class="el" href="_a_c_t_2gmwmi_8h_source.html">gmwmi.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_a_c_t_2gmwmi_8h_source.html#l00079">79</a> of file <a class="el" href="_a_c_t_2gmwmi_8h_source.html">gmwmi.h</a>.</p>
 
 </div>
 </div>
@@ -664,7 +633,7 @@ Friends</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_d_w_i.html">DWI</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography.html">Tractography</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t.html">ACT</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html">GMWMI_finder</a></li>
-    <li class="footer">Generated on Wed Apr 19 2017 09:26:44 for MRtrix by
+    <li class="footer">Generated on Tue May 2 2017 10:45:12 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

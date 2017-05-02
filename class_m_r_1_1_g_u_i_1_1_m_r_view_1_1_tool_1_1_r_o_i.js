@@ -1,17 +1,8 @@
 var class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i =
 [
-    [ "ROI", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html#ab09855f2c7ab8c5352af71a577804cc1", null ],
-    [ "~ROI", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html#a02995701794d8ad7a6c9565ba04c31db", null ],
-    [ "add_commandline_options", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html#a9946f9929a5e049b94ebdd0b7c00d2ba", null ],
-    [ "draw", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html#a2118bc7ada538490263a0cc6b9c79586", null ],
     [ "dropEvent", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html#aab906934d540da9ac352da7fad387a57", null ],
-    [ "get_cursor", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html#a47eda20873e91aecc92753c4acdf8368", null ],
-    [ "load", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html#aad8932dde37c2cb433aa7c1af6e32807", null ],
-    [ "mouse_move_event", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html#a5411d0b1ddd9099fbe210a55b4bff00a", null ],
-    [ "mouse_press_event", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html#a374eb36a37034e08755946ec93d7f310", null ],
-    [ "mouse_release_event", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html#a01b6cfdca871d07f844aca16bc44e347", null ],
+    [ "load", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html#ae6f54ef1232e9432495fbc21a0972422", null ],
     [ "normal2axis", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html#acb43ce0e65881beb410705ac01933987", null ],
-    [ "process_commandline_option", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html#a6a2a320c660eca05e22b4dbd9b2bb3c9", null ],
     [ "save", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html#a2412200ab9d811e3c34be71ccaaac71c", null ],
     [ "update_undo_redo", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html#a0c50cbbba08c4f98f1755a67fd27fec7", null ],
     [ "updateGL", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html#a3606810ac800af077f9cfd710273e4d2", null ],

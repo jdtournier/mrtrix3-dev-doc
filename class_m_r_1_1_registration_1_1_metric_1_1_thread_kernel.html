@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-535-g21da6244</div>
+   <div id="projectbrief">Version 3.0_RC1-1-g93f159af</div>
   </td>
  </tr>
  </tbody>
@@ -82,7 +82,6 @@ $(document).ready(function(){initNavTree('class_m_r_1_1_registration_1_1_metric_
 
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -92,25 +91,6 @@ $(document).ready(function(){initNavTree('class_m_r_1_1_registration_1_1_metric_
 
 <p><code>#include &quot;<a class="el" href="thread__kernel_8h_source.html">registration/metric/thread_kernel.h</a>&quot;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:ae550ce6033dd154efc90651f0bffb2ac"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel.html#ae550ce6033dd154efc90651f0bffb2ac">ThreadKernel</a> (const MetricType &amp;<a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel.html#aa306f9f3e7e3d652cf986a058b10efbe">metric</a>, const ParamType &amp;parameters, Eigen::VectorXd &amp;<a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel.html#a801df4d0890d94d087e1bb83cb08437b">overall_cost_function</a>, Eigen::VectorXd &amp;<a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel.html#acb4d3d39251746cebbd40a769e509c82">overall_gradient</a>, ssize_t *<a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel.html#a37b0b5922b2638b961acbbbcc6a930e3">overall_cnt</a>=nullptr)</td></tr>
-<tr class="separator:ae550ce6033dd154efc90651f0bffb2ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae8c51649b7aeb34f085c727e072ac451"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel.html#ae8c51649b7aeb34f085c727e072ac451">~ThreadKernel</a> ()</td></tr>
-<tr class="separator:ae8c51649b7aeb34f085c727e072ac451"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a607bfdcd6930ca76029726dd44819126"><td class="memTemplParams" colspan="2">template&lt;class U  = MetricType&gt; </td></tr>
-<tr class="memitem:a607bfdcd6930ca76029726dd44819126"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel.html#a607bfdcd6930ca76029726dd44819126">operator()</a> (const <a class="el" href="class_m_r_1_1_iterator.html">Iterator</a> &amp;iter, typename is_neighbourhood_metric&lt; U &gt;::no=0, typename use_processed_image&lt; U &gt;::no=0, typename cost_is_vector&lt; U &gt;::no=0)</td></tr>
-<tr class="separator:a607bfdcd6930ca76029726dd44819126"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4944b2462386e4c46828128ae002bdb"><td class="memTemplParams" colspan="2">template&lt;class U  = MetricType&gt; </td></tr>
-<tr class="memitem:ac4944b2462386e4c46828128ae002bdb"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel.html#ac4944b2462386e4c46828128ae002bdb">operator()</a> (const <a class="el" href="class_m_r_1_1_iterator.html">Iterator</a> &amp;iter, typename is_neighbourhood_metric&lt; U &gt;::no=0, typename use_processed_image&lt; U &gt;::no=0, typename cost_is_vector&lt; U &gt;::yes=0)</td></tr>
-<tr class="separator:ac4944b2462386e4c46828128ae002bdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17d94a54569bfab42ec69a9cd73b5fbf"><td class="memTemplParams" colspan="2">template&lt;class U  = MetricType&gt; </td></tr>
-<tr class="memitem:a17d94a54569bfab42ec69a9cd73b5fbf"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel.html#a17d94a54569bfab42ec69a9cd73b5fbf">operator()</a> (const <a class="el" href="class_m_r_1_1_iterator.html">Iterator</a> &amp;iter, typename is_neighbourhood_metric&lt; U &gt;::no=0, typename use_processed_image&lt; U &gt;::yes=0, typename cost_is_vector&lt; U &gt;::no=0)</td></tr>
-<tr class="separator:a17d94a54569bfab42ec69a9cd73b5fbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e04100dddfbefb27b0a061b51976a4a"><td class="memTemplParams" colspan="2">template&lt;class U  = MetricType&gt; </td></tr>
-<tr class="memitem:a9e04100dddfbefb27b0a061b51976a4a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel.html#a9e04100dddfbefb27b0a061b51976a4a">operator()</a> (const <a class="el" href="class_m_r_1_1_iterator.html">Iterator</a> &amp;iter, typename is_neighbourhood_metric&lt; U &gt;::yes=0, typename use_processed_image&lt; U &gt;::yes=0, typename cost_is_vector&lt; U &gt;::no=0)</td></tr>
-<tr class="separator:a9e04100dddfbefb27b0a061b51976a4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:aa306f9f3e7e3d652cf986a058b10efbe"><td class="memItemLeft" align="right" valign="top">MetricType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel.html#aa306f9f3e7e3d652cf986a058b10efbe">metric</a></td></tr>
@@ -129,7 +109,7 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:acb4d3d39251746cebbd40a769e509c82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37b0b5922b2638b961acbbbcc6a930e3"><td class="memItemLeft" align="right" valign="top">ssize_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel.html#a37b0b5922b2638b961acbbbcc6a930e3">overall_cnt</a></td></tr>
 <tr class="separator:a37b0b5922b2638b961acbbbcc6a930e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17289e7e026d142c32988ea9d267b23f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_r_1_1_transform.html">MR::Transform</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel.html#a17289e7e026d142c32988ea9d267b23f">transform</a></td></tr>
+<tr class="memitem:a17289e7e026d142c32988ea9d267b23f"><td class="memItemLeft" align="right" valign="top">MR::Transform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel.html#a17289e7e026d142c32988ea9d267b23f">transform</a></td></tr>
 <tr class="separator:a17289e7e026d142c32988ea9d267b23f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -137,313 +117,8 @@ Protected Attributes</h2></td></tr>
 class MR::Registration::Metric::ThreadKernel&lt; MetricType, ParamType &gt;</h3>
 
 
-<p class="definition">Definition at line <a class="el" href="thread__kernel_8h_source.html#l00070">70</a> of file <a class="el" href="thread__kernel_8h_source.html">thread_kernel.h</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ae550ce6033dd154efc90651f0bffb2ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae550ce6033dd154efc90651f0bffb2ac">&#9670;&nbsp;</a></span>ThreadKernel()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class MetricType, class ParamType&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel.html">MR::Registration::Metric::ThreadKernel</a>&lt; MetricType, ParamType &gt;::<a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel.html">ThreadKernel</a> </td>
-          <td>(</td>
-          <td class="paramtype">const MetricType &amp;&#160;</td>
-          <td class="paramname"><em>metric</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const ParamType &amp;&#160;</td>
-          <td class="paramname"><em>parameters</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Eigen::VectorXd &amp;&#160;</td>
-          <td class="paramname"><em>overall_cost_function</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Eigen::VectorXd &amp;&#160;</td>
-          <td class="paramname"><em>overall_gradient</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ssize_t *&#160;</td>
-          <td class="paramname"><em>overall_cnt</em> = <code>nullptr</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="thread__kernel_8h_source.html#l00072">72</a> of file <a class="el" href="thread__kernel_8h_source.html">thread_kernel.h</a>.</p>
-
-</div>
-</div>
-<a id="ae8c51649b7aeb34f085c727e072ac451"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae8c51649b7aeb34f085c727e072ac451">&#9670;&nbsp;</a></span>~ThreadKernel()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class MetricType, class ParamType&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel.html">MR::Registration::Metric::ThreadKernel</a>&lt; MetricType, ParamType &gt;::~<a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel.html">ThreadKernel</a> </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="thread__kernel_8h_source.html#l00091">91</a> of file <a class="el" href="thread__kernel_8h_source.html">thread_kernel.h</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a607bfdcd6930ca76029726dd44819126"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a607bfdcd6930ca76029726dd44819126">&#9670;&nbsp;</a></span>operator()() <span class="overload">[1/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class MetricType, class ParamType&gt; </div>
-<div class="memtemplate">
-template&lt;class U  = MetricType&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel.html">MR::Registration::Metric::ThreadKernel</a>&lt; MetricType, ParamType &gt;::operator() </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_m_r_1_1_iterator.html">Iterator</a> &amp;&#160;</td>
-          <td class="paramname"><em>iter</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">typename is_neighbourhood_metric&lt; U &gt;::no&#160;</td>
-          <td class="paramname"> = <code>0</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">typename use_processed_image&lt; U &gt;::no&#160;</td>
-          <td class="paramname"> = <code>0</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">typename cost_is_vector&lt; U &gt;::no&#160;</td>
-          <td class="paramname"> = <code>0</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="thread__kernel_8h_source.html#l00099">99</a> of file <a class="el" href="thread__kernel_8h_source.html">thread_kernel.h</a>.</p>
-
-</div>
-</div>
-<a id="ac4944b2462386e4c46828128ae002bdb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac4944b2462386e4c46828128ae002bdb">&#9670;&nbsp;</a></span>operator()() <span class="overload">[2/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class MetricType, class ParamType&gt; </div>
-<div class="memtemplate">
-template&lt;class U  = MetricType&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel.html">MR::Registration::Metric::ThreadKernel</a>&lt; MetricType, ParamType &gt;::operator() </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_m_r_1_1_iterator.html">Iterator</a> &amp;&#160;</td>
-          <td class="paramname"><em>iter</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">typename is_neighbourhood_metric&lt; U &gt;::no&#160;</td>
-          <td class="paramname"> = <code>0</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">typename use_processed_image&lt; U &gt;::no&#160;</td>
-          <td class="paramname"> = <code>0</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">typename cost_is_vector&lt; U &gt;::yes&#160;</td>
-          <td class="paramname"> = <code>0</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="thread__kernel_8h_source.html#l00137">137</a> of file <a class="el" href="thread__kernel_8h_source.html">thread_kernel.h</a>.</p>
-
-</div>
-</div>
-<a id="a17d94a54569bfab42ec69a9cd73b5fbf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a17d94a54569bfab42ec69a9cd73b5fbf">&#9670;&nbsp;</a></span>operator()() <span class="overload">[3/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class MetricType, class ParamType&gt; </div>
-<div class="memtemplate">
-template&lt;class U  = MetricType&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel.html">MR::Registration::Metric::ThreadKernel</a>&lt; MetricType, ParamType &gt;::operator() </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_m_r_1_1_iterator.html">Iterator</a> &amp;&#160;</td>
-          <td class="paramname"><em>iter</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">typename is_neighbourhood_metric&lt; U &gt;::no&#160;</td>
-          <td class="paramname"> = <code>0</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">typename use_processed_image&lt; U &gt;::yes&#160;</td>
-          <td class="paramname"> = <code>0</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">typename cost_is_vector&lt; U &gt;::no&#160;</td>
-          <td class="paramname"> = <code>0</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="thread__kernel_8h_source.html#l00175">175</a> of file <a class="el" href="thread__kernel_8h_source.html">thread_kernel.h</a>.</p>
-
-</div>
-</div>
-<a id="a9e04100dddfbefb27b0a061b51976a4a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9e04100dddfbefb27b0a061b51976a4a">&#9670;&nbsp;</a></span>operator()() <span class="overload">[4/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class MetricType, class ParamType&gt; </div>
-<div class="memtemplate">
-template&lt;class U  = MetricType&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel.html">MR::Registration::Metric::ThreadKernel</a>&lt; MetricType, ParamType &gt;::operator() </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_m_r_1_1_iterator.html">Iterator</a> &amp;&#160;</td>
-          <td class="paramname"><em>iter</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">typename is_neighbourhood_metric&lt; U &gt;::yes&#160;</td>
-          <td class="paramname"> = <code>0</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">typename use_processed_image&lt; U &gt;::yes&#160;</td>
-          <td class="paramname"> = <code>0</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">typename cost_is_vector&lt; U &gt;::no&#160;</td>
-          <td class="paramname"> = <code>0</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="thread__kernel_8h_source.html#l00191">191</a> of file <a class="el" href="thread__kernel_8h_source.html">thread_kernel.h</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
+<p class="definition">Definition at line <a class="el" href="thread__kernel_8h_source.html#l00069">69</a> of file <a class="el" href="thread__kernel_8h_source.html">thread_kernel.h</a>.</p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="a0997b11af42b557da5267fe60abb2b71"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0997b11af42b557da5267fe60abb2b71">&#9670;&nbsp;</a></span>cnt</h2>
 
@@ -466,7 +141,7 @@ template&lt;class MetricType, class ParamType&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="thread__kernel_8h_source.html#l00217">217</a> of file <a class="el" href="thread__kernel_8h_source.html">thread_kernel.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="thread__kernel_8h_source.html#l00216">216</a> of file <a class="el" href="thread__kernel_8h_source.html">thread_kernel.h</a>.</p>
 
 </div>
 </div>
@@ -492,7 +167,7 @@ template&lt;class MetricType, class ParamType&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="thread__kernel_8h_source.html#l00216">216</a> of file <a class="el" href="thread__kernel_8h_source.html">thread_kernel.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="thread__kernel_8h_source.html#l00215">215</a> of file <a class="el" href="thread__kernel_8h_source.html">thread_kernel.h</a>.</p>
 
 </div>
 </div>
@@ -518,7 +193,7 @@ template&lt;class MetricType, class ParamType&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="thread__kernel_8h_source.html#l00218">218</a> of file <a class="el" href="thread__kernel_8h_source.html">thread_kernel.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="thread__kernel_8h_source.html#l00217">217</a> of file <a class="el" href="thread__kernel_8h_source.html">thread_kernel.h</a>.</p>
 
 </div>
 </div>
@@ -544,7 +219,7 @@ template&lt;class MetricType, class ParamType&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="thread__kernel_8h_source.html#l00213">213</a> of file <a class="el" href="thread__kernel_8h_source.html">thread_kernel.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="thread__kernel_8h_source.html#l00212">212</a> of file <a class="el" href="thread__kernel_8h_source.html">thread_kernel.h</a>.</p>
 
 </div>
 </div>
@@ -570,7 +245,7 @@ template&lt;class MetricType, class ParamType&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="thread__kernel_8h_source.html#l00221">221</a> of file <a class="el" href="thread__kernel_8h_source.html">thread_kernel.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="thread__kernel_8h_source.html#l00220">220</a> of file <a class="el" href="thread__kernel_8h_source.html">thread_kernel.h</a>.</p>
 
 </div>
 </div>
@@ -596,7 +271,7 @@ template&lt;class MetricType, class ParamType&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="thread__kernel_8h_source.html#l00219">219</a> of file <a class="el" href="thread__kernel_8h_source.html">thread_kernel.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="thread__kernel_8h_source.html#l00218">218</a> of file <a class="el" href="thread__kernel_8h_source.html">thread_kernel.h</a>.</p>
 
 </div>
 </div>
@@ -622,7 +297,7 @@ template&lt;class MetricType, class ParamType&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="thread__kernel_8h_source.html#l00220">220</a> of file <a class="el" href="thread__kernel_8h_source.html">thread_kernel.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="thread__kernel_8h_source.html#l00219">219</a> of file <a class="el" href="thread__kernel_8h_source.html">thread_kernel.h</a>.</p>
 
 </div>
 </div>
@@ -648,7 +323,7 @@ template&lt;class MetricType, class ParamType&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="thread__kernel_8h_source.html#l00214">214</a> of file <a class="el" href="thread__kernel_8h_source.html">thread_kernel.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="thread__kernel_8h_source.html#l00213">213</a> of file <a class="el" href="thread__kernel_8h_source.html">thread_kernel.h</a>.</p>
 
 </div>
 </div>
@@ -664,7 +339,7 @@ template&lt;class MetricType, class ParamType&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_m_r_1_1_transform.html">MR::Transform</a> <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel.html">MR::Registration::Metric::ThreadKernel</a>&lt; MetricType, ParamType &gt;::transform</td>
+          <td class="memname">MR::Transform <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel.html">MR::Registration::Metric::ThreadKernel</a>&lt; MetricType, ParamType &gt;::transform</td>
         </tr>
       </table>
   </td>
@@ -674,7 +349,7 @@ template&lt;class MetricType, class ParamType&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="thread__kernel_8h_source.html#l00222">222</a> of file <a class="el" href="thread__kernel_8h_source.html">thread_kernel.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="thread__kernel_8h_source.html#l00221">221</a> of file <a class="el" href="thread__kernel_8h_source.html">thread_kernel.h</a>.</p>
 
 </div>
 </div>
@@ -687,7 +362,7 @@ template&lt;class MetricType, class ParamType&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_registration.html">Registration</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_registration_1_1_metric.html">Metric</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel.html">ThreadKernel</a></li>
-    <li class="footer">Generated on Wed Apr 19 2017 09:26:46 for MRtrix by
+    <li class="footer">Generated on Tue May 2 2017 10:45:13 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

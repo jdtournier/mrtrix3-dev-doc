@@ -1,11 +1,11 @@
 var namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping =
 [
     [ "Gaussian", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian.html", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian" ],
-    [ "BufferScratchDump", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_buffer_scratch_dump.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_buffer_scratch_dump" ],
-    [ "Dixel", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_dixel.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_dixel" ],
-    [ "DixelMappingPlugin", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_dixel_mapping_plugin.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_dixel_mapping_plugin" ],
+    [ "BufferScratchDump", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_buffer_scratch_dump.html", null ],
+    [ "Dixel", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_dixel.html", null ],
+    [ "DixelMappingPlugin", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_dixel_mapping_plugin.html", null ],
     [ "Fixel_TD_map", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_fixel___t_d__map.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_fixel___t_d__map" ],
-    [ "MapWriter", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_map_writer.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_map_writer" ],
+    [ "MapWriter", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_map_writer.html", null ],
     [ "MapWriterBase", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_map_writer_base.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_map_writer_base" ],
     [ "SetDixel", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_dixel.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_dixel" ],
     [ "SetVoxel", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_voxel.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_voxel" ],
@@ -13,15 +13,15 @@ var namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping =
     [ "SetVoxelDir", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_voxel_dir.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_voxel_dir" ],
     [ "SetVoxelExtras", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_voxel_extras.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_voxel_extras" ],
     [ "SetVoxelTOD", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_voxel_t_o_d.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_voxel_t_o_d" ],
-    [ "TODMappingPlugin", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_o_d_mapping_plugin.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_o_d_mapping_plugin" ],
+    [ "TODMappingPlugin", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_o_d_mapping_plugin.html", null ],
     [ "TrackLoader", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_loader.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_loader" ],
     [ "TrackMapperBase", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_mapper_base.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_mapper_base" ],
     [ "TrackMapperTWI", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_mapper_t_w_i.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_mapper_t_w_i" ],
-    [ "TWIFODImagePlugin", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_i_f_o_d_image_plugin.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_i_f_o_d_image_plugin" ],
+    [ "TWIFODImagePlugin", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_i_f_o_d_image_plugin.html", null ],
     [ "TWIImagePluginBase", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_i_image_plugin_base.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_i_image_plugin_base" ],
-    [ "TWIScalarImagePlugin", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_i_scalar_image_plugin.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_i_scalar_image_plugin" ],
-    [ "Voxel", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_voxel.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_voxel" ],
-    [ "VoxelDEC", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_voxel_d_e_c.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_voxel_d_e_c" ],
-    [ "VoxelDir", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_voxel_dir.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_voxel_dir" ],
-    [ "VoxelTOD", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_voxel_t_o_d.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_voxel_t_o_d" ]
+    [ "TWIScalarImagePlugin", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_i_scalar_image_plugin.html", null ],
+    [ "Voxel", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_voxel.html", null ],
+    [ "VoxelDEC", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_voxel_d_e_c.html", null ],
+    [ "VoxelDir", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_voxel_dir.html", null ],
+    [ "VoxelTOD", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_voxel_t_o_d.html", null ]
 ];

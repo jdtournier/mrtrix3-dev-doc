@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
-<title>MRtrix: MR::DWI::Tractography::Connectome::Matrix Class Reference</title>
+<title>MRtrix: MR::DWI::Tractography::Connectome::Matrix&lt; T &gt; Class Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-535-g21da6244</div>
+   <div id="projectbrief">Version 3.0_RC1-1-g93f159af</div>
   </td>
  </tr>
  </tbody>
@@ -82,256 +82,20 @@ $(document).ready(function(){initNavTree('class_m_r_1_1_d_w_i_1_1_tractography_1
 
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_matrix-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">MR::DWI::Tractography::Connectome::Matrix Class Reference</div>  </div>
+<div class="title">MR::DWI::Tractography::Connectome::Matrix&lt; T &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
 <p><code>#include &quot;<a class="el" href="matrix_8h_source.html">dwi/tractography/connectome/matrix.h</a>&quot;</code></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:ad247b15242f8c0f0aed108f0987e2c80"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_matrix.html#ad247b15242f8c0f0aed108f0987e2c80">Matrix</a> (const <a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome.html#a8c7b2504ca8d27e380264dcc142e2e74">node_t</a> max_node_index, const <a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome.html#a697f57b7cbae2343c2932d9cd0f04a14">stat_edge</a> stat, const bool vector_output=false)</td></tr>
-<tr class="separator:ad247b15242f8c0f0aed108f0987e2c80"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07661a4aad25091f399716a306e7cca6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_matrix.html#a07661a4aad25091f399716a306e7cca6">operator()</a> (const <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_mapped__track__nodepair.html">Mapped_track_nodepair</a> &amp;)</td></tr>
-<tr class="separator:a07661a4aad25091f399716a306e7cca6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c1660af66719062dd5be6044d7951f1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_matrix.html#a9c1660af66719062dd5be6044d7951f1">operator()</a> (const <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_mapped__track__nodelist.html">Mapped_track_nodelist</a> &amp;)</td></tr>
-<tr class="separator:a9c1660af66719062dd5be6044d7951f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea66cb3a75558bd1e19060ddb72ceaff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_matrix.html#aea66cb3a75558bd1e19060ddb72ceaff">finalize</a> ()</td></tr>
-<tr class="separator:aea66cb3a75558bd1e19060ddb72ceaff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1af8761f1d53b6eb3133669e6d311fb4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_matrix.html#a1af8761f1d53b6eb3133669e6d311fb4">remove_unassigned</a> ()</td></tr>
-<tr class="separator:a1af8761f1d53b6eb3133669e6d311fb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab42fdea81891c76dca440d73cf21ac7a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_matrix.html#ab42fdea81891c76dca440d73cf21ac7a">zero_diagonal</a> ()</td></tr>
-<tr class="separator:ab42fdea81891c76dca440d73cf21ac7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f0d07436c4a82d9fde1cf98eb90838b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_matrix.html#a1f0d07436c4a82d9fde1cf98eb90838b">error_check</a> (const std::set&lt; <a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome.html#a8c7b2504ca8d27e380264dcc142e2e74">node_t</a> &gt; &amp;)</td></tr>
-<tr class="separator:a1f0d07436c4a82d9fde1cf98eb90838b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d9beb7e93cc6a89e9073a002b58d0d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_matrix.html#a1d9beb7e93cc6a89e9073a002b58d0d9">write</a> (const std::string &amp;) const</td></tr>
-<tr class="separator:a1d9beb7e93cc6a89e9073a002b58d0d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa07d73cd6407582dfc254d7d273884ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_matrix.html#aa07d73cd6407582dfc254d7d273884ff">write_assignments</a> (const std::string &amp;) const</td></tr>
-<tr class="separator:aa07d73cd6407582dfc254d7d273884ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f331c42e895b7b72b18f09e4bfec0e7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_matrix.html#a9f331c42e895b7b72b18f09e4bfec0e7">is_vector</a> () const</td></tr>
-<tr class="separator:a9f331c42e895b7b72b18f09e4bfec0e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="matrix_8h_source.html#l00045">45</a> of file <a class="el" href="matrix_8h_source.html">matrix.h</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ad247b15242f8c0f0aed108f0987e2c80"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad247b15242f8c0f0aed108f0987e2c80">&#9670;&nbsp;</a></span>Matrix()</h2>
+<div class="textblock"><h3>template&lt;typename T&gt;<br />
+class MR::DWI::Tractography::Connectome::Matrix&lt; T &gt;</h3>
 
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">MR::DWI::Tractography::Connectome::Matrix::Matrix </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome.html#a8c7b2504ca8d27e380264dcc142e2e74">node_t</a>&#160;</td>
-          <td class="paramname"><em>max_node_index</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome.html#a697f57b7cbae2343c2932d9cd0f04a14">stat_edge</a>&#160;</td>
-          <td class="paramname"><em>stat</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const bool&#160;</td>
-          <td class="paramname"><em>vector_output</em> = <code>false</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="matrix_8h_source.html#l00049">49</a> of file <a class="el" href="matrix_8h_source.html">matrix.h</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a1f0d07436c4a82d9fde1cf98eb90838b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1f0d07436c4a82d9fde1cf98eb90838b">&#9670;&nbsp;</a></span>error_check()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MR::DWI::Tractography::Connectome::Matrix::error_check </td>
-          <td>(</td>
-          <td class="paramtype">const std::set&lt; <a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome.html#a8c7b2504ca8d27e380264dcc142e2e74">node_t</a> &gt; &amp;&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aea66cb3a75558bd1e19060ddb72ceaff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aea66cb3a75558bd1e19060ddb72ceaff">&#9670;&nbsp;</a></span>finalize()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MR::DWI::Tractography::Connectome::Matrix::finalize </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9f331c42e895b7b72b18f09e4bfec0e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9f331c42e895b7b72b18f09e4bfec0e7">&#9670;&nbsp;</a></span>is_vector()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool MR::DWI::Tractography::Connectome::Matrix::is_vector </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="matrix_8h_source.html#l00072">72</a> of file <a class="el" href="matrix_8h_source.html">matrix.h</a>.</p>
-
-</div>
-</div>
-<a id="a07661a4aad25091f399716a306e7cca6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a07661a4aad25091f399716a306e7cca6">&#9670;&nbsp;</a></span>operator()() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool MR::DWI::Tractography::Connectome::Matrix::operator() </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_mapped__track__nodepair.html">Mapped_track_nodepair</a> &amp;&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9c1660af66719062dd5be6044d7951f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c1660af66719062dd5be6044d7951f1">&#9670;&nbsp;</a></span>operator()() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool MR::DWI::Tractography::Connectome::Matrix::operator() </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_mapped__track__nodelist.html">Mapped_track_nodelist</a> &amp;&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1af8761f1d53b6eb3133669e6d311fb4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1af8761f1d53b6eb3133669e6d311fb4">&#9670;&nbsp;</a></span>remove_unassigned()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MR::DWI::Tractography::Connectome::Matrix::remove_unassigned </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1d9beb7e93cc6a89e9073a002b58d0d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1d9beb7e93cc6a89e9073a002b58d0d9">&#9670;&nbsp;</a></span>write()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MR::DWI::Tractography::Connectome::Matrix::write </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa07d73cd6407582dfc254d7d273884ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa07d73cd6407582dfc254d7d273884ff">&#9670;&nbsp;</a></span>write_assignments()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MR::DWI::Tractography::Connectome::Matrix::write_assignments </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab42fdea81891c76dca440d73cf21ac7a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab42fdea81891c76dca440d73cf21ac7a">&#9670;&nbsp;</a></span>zero_diagonal()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MR::DWI::Tractography::Connectome::Matrix::zero_diagonal </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<p class="definition">Definition at line <a class="el" href="matrix_8h_source.html#l00047">47</a> of file <a class="el" href="matrix_8h_source.html">matrix.h</a>.</p>
+</div><hr/>The documentation for this class was generated from the following file:<ul>
 <li>src/dwi/tractography/connectome/<a class="el" href="matrix_8h_source.html">matrix.h</a></li>
 </ul>
 </div><!-- contents -->
@@ -340,7 +104,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_d_w_i.html">DWI</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography.html">Tractography</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome.html">Connectome</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_matrix.html">Matrix</a></li>
-    <li class="footer">Generated on Wed Apr 19 2017 09:26:44 for MRtrix by
+    <li class="footer">Generated on Tue May 2 2017 10:45:12 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

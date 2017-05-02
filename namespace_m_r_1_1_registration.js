@@ -5,5 +5,6 @@ var namespace_m_r_1_1_registration =
     [ "Transform", "namespace_m_r_1_1_registration_1_1_transform.html", "namespace_m_r_1_1_registration_1_1_transform" ],
     [ "Warp", "namespace_m_r_1_1_registration_1_1_warp.html", "namespace_m_r_1_1_registration_1_1_warp" ],
     [ "Linear", "class_m_r_1_1_registration_1_1_linear.html", "class_m_r_1_1_registration_1_1_linear" ],
-    [ "NonLinear", "class_m_r_1_1_registration_1_1_non_linear.html", "class_m_r_1_1_registration_1_1_non_linear" ]
+    [ "NonLinear", "class_m_r_1_1_registration_1_1_non_linear.html", "class_m_r_1_1_registration_1_1_non_linear" ],
+    [ "StageSetting", "struct_m_r_1_1_registration_1_1_stage_setting.html", "struct_m_r_1_1_registration_1_1_stage_setting" ]
 ];

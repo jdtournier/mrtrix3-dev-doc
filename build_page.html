@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-535-g21da6244</div>
+   <div id="projectbrief">Version 3.0_RC1-1-g93f159af</div>
   </td>
  </tr>
  </tbody>
@@ -100,7 +100,7 @@ Using the MRtrix build process    </h1>
 </ul>
 <h1><a class="anchor" id="configure_section"></a>
 The configure script      </h1>
-<p>The first step required for building the software is to run the <code>configure</code> script, which tailors various parameters to the specific system that it is run on. This includes checking that a compiler is available and behaves as expected, that other required packages are available (such as <a class="el" href="namespace_eigen.html">Eigen</a>), whether the system is a 64-bit machine, etc. It is also possible to create distinct co-existing configurations, for example to compile either release and debug code. For details, see <a class="el" href="configure_page.html">The configure script</a>.</p>
+<p>The first step required for building the software is to run the <code>configure</code> script, which tailors various parameters to the specific system that it is run on. This includes checking that a compiler is available and behaves as expected, that other required packages are available (such as Eigen), whether the system is a 64-bit machine, etc. It is also possible to create distinct co-existing configurations, for example to compile either release and debug code. For details, see <a class="el" href="configure_page.html">The configure script</a>.</p>
 <h1><a class="anchor" id="build_section"></a>
 The build script     </h1>
 <p>This script is responsible for identifying the targets to be built, resolving all their dependencies, compiling all the necessary object files (if they are out of date), and linking them together in the correct order. This is done by first identifying the desired targets, then building a list of their dependencies, and treating these dependencies themselves as targets to be built first. A target can only be built once all its dependencies are satisfied (i.e. all its required dependencies have been built). At this point, the target is built only if one or more of its dependencies is more recent than it is itself (or if it doesn't yet exist). This is done by looking at the timestamps of the relevant files. In this way, the relevant files are regenerated only when and if required.</p>
@@ -116,7 +116,7 @@ $ ./build lib/mrtrix.o lib/app.o
 <ol type="1">
 <li>the MRtrix library <code>lib/mrtrix-X_Y_Z.so</code> is added to the list</li>
 <li>the object file <code>cmd/myapp.o</code> is added to the list</li>
-<li>a list of all local headers included in the source file <code>cmd/myapp.cpp</code> is generated. A header is considered local if it is included using inverted commas rather than angled brackets. For example: <div class="fragment"><div class="line"><span class="comment">// By default, the lib/ &amp; src/ folders are included in the include search path</span></div><div class="line"><span class="preprocessor">#include &quot;<a class="code" href="mrtrix_8h.html">mrtrix.h</a>&quot;</span>    <span class="comment">// the file lib/mrtrix.h exists, and is considered a local header</span></div><div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span>    <span class="comment">// this file is not considered local</span></div></div><!-- fragment --></li>
+<li>a list of all local headers included in the source file <code>cmd/myapp.cpp</code> is generated. A header is considered local if it is included using inverted commas rather than angled brackets. For example: <div class="fragment"><div class="line"><span class="comment">// By default, the lib/ &amp; src/ folders are included in the include search path</span></div><div class="line"><span class="preprocessor">#include &quot;mrtrix.h&quot;</span>    <span class="comment">// the file lib/mrtrix.h exists, and is considered a local header</span></div><div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span>    <span class="comment">// this file is not considered local</span></div></div><!-- fragment --></li>
 <li>if a corresponding source file is found for any of these headers, its corresponding object file is added to the list. For example, if <code>cmd/myapp.cpp</code> includes the header <code>src/histogram.h</code>, and the file <code>src/histogram.cpp</code> exists, the object file <code>src/histogram.o</code> is added to the list of dependencies. Note that object files in the <code>lib/</code> folder are not added to the list of dependencies, since they should already be included in the MRtrix library (see below).</li>
 <li>all headers included in any of the local headers or their corresponding source files are also considered in the same way, recursively until no new dependencies are found. For example, the file <code>src/histogram.cpp</code> might also include the header <code>src/min_max.h</code>. Since the source file <code>src/min_max.cpp</code> exists, the corresponding object file <code>src/min_max.o</code> is added to the list.</li>
 </ol>
@@ -142,7 +142,7 @@ $ ./build lib/mrtrix.o lib/app.o
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Apr 19 2017 09:26:43 for MRtrix by
+    <li class="footer">Generated on Tue May 2 2017 10:45:11 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

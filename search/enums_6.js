@@ -1,6 +1,8 @@
 var searchData=
 [
-  ['linearinterpprocessingtype',['LinearInterpProcessingType',['../group__interp.html#gad719d13abf54b60c8ae7adca3c7d7931',1,'MR::Interp']]],
-  ['linearmetrictype',['LinearMetricType',['../namespace_m_r_1_1_registration.html#a2128b8d3c4c2bd10f9a40be6b8fe0bc5',1,'MR::Registration']]],
-  ['linearrobustmetricestimatortype',['LinearRobustMetricEstimatorType',['../namespace_m_r_1_1_registration.html#acee95fcf4386a73a2764b491c5cf06a4',1,'MR::Registration']]]
+  ['node_5falpha_5ft',['node_alpha_t',['../namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool.html#af011816b3b5600155294c9d21505178a',1,'MR::GUI::MRView::Tool']]],
+  ['node_5fcolour_5ft',['node_colour_t',['../namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool.html#adb27f0866f8206c4bc6f29bda852be4b',1,'MR::GUI::MRView::Tool']]],
+  ['node_5fgeometry_5ft',['node_geometry_t',['../namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool.html#abc28e2ae93312e01595c326ab499e679',1,'MR::GUI::MRView::Tool']]],
+  ['node_5fsize_5ft',['node_size_t',['../namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool.html#a3311291cbca4b2603609de2c12d5d7e0',1,'MR::GUI::MRView::Tool']]],
+  ['node_5fvisibility_5ft',['node_visibility_t',['../namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool.html#a82711adfcd2d5eb552d65bbd3e11e6ca',1,'MR::GUI::MRView::Tool']]]
 ];

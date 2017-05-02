@@ -4,7 +4,7 @@ var namespace_m_r_1_1_g_u_i_1_1_m_r_view =
     [ "Mode", "namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode.html", "namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode" ],
     [ "Tool", "namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool.html", "namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool" ],
     [ "AdjustButton", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_adjust_button.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_adjust_button" ],
-    [ "ColourMapButton", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_button.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_button" ],
+    [ "ColourMapButton", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_button.html", null ],
     [ "ColourMapButtonObserver", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_button_observer.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_button_observer" ],
     [ "ComboBoxWithErrorMsg", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_combo_box_with_error_msg.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_combo_box_with_error_msg" ],
     [ "Displayable", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_displayable.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_displayable" ],

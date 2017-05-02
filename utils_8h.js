@@ -1,10 +1,11 @@
 var utils_8h =
 [
-    [ "create", "utils_8h.html#a2e718453e5ccddd5e2b80845a0c8407d", null ],
-    [ "create_tempfile", "utils_8h.html#af772d527b58e1f86a3266e7b12089df0", null ],
-    [ "is_tempfile", "utils_8h.html#a473058228415d679b45ffe86d084a972", null ],
-    [ "mkdir", "utils_8h.html#a96d170bbaa780fb68f6f2a3b7cb66880", null ],
-    [ "resize", "utils_8h.html#a5aba912969fee7e5c00843c27170adb8", null ],
-    [ "rmdir", "utils_8h.html#aeeaa06d3674399007171e8a00b4ada5c", null ],
-    [ "unlink", "utils_8h.html#a4476fa2ed9b3ed68d0a508689eb40ca6", null ]
+    [ "area", "utils_8h.html#ae7d4f1caf5e41b04ac5b436120377acd", null ],
+    [ "area", "utils_8h.html#a9f8cad3a0205a69d8d9799a187da03c8", null ],
+    [ "area", "utils_8h.html#a9735dbc27f95fccf009c05be4b7e51af", null ],
+    [ "area", "utils_8h.html#aa401c8a21e86a47d52d030aa013b1f44", null ],
+    [ "normal", "utils_8h.html#a5c8677f9a411fe6143c91c4b1a55c7db", null ],
+    [ "normal", "utils_8h.html#ab34857f7de46c5cb0fd23b85b14e7182", null ],
+    [ "normal", "utils_8h.html#aaa0d4553a3d9eda501da6e245b6300ae", null ],
+    [ "normal", "utils_8h.html#a3d10e3db5f3950c430f6a26934e84d43", null ]
 ];

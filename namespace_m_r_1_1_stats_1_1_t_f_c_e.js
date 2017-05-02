@@ -1,4 +1,5 @@
 var namespace_m_r_1_1_stats_1_1_t_f_c_e =
 [
-    [ "Enhancer", "class_m_r_1_1_stats_1_1_t_f_c_e_1_1_enhancer.html", "class_m_r_1_1_stats_1_1_t_f_c_e_1_1_enhancer" ]
+    [ "EnhancerBase", "class_m_r_1_1_stats_1_1_t_f_c_e_1_1_enhancer_base.html", null ],
+    [ "Wrapper", "class_m_r_1_1_stats_1_1_t_f_c_e_1_1_wrapper.html", null ]
 ];

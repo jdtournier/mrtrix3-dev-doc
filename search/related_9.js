@@ -1,9 +1,6 @@
 var searchData=
 [
-  ['base',['Base',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_window.html#a541f5151b9797d5d2f63d750cce7e10e',1,'MR::GUI::MRView::Window']]],
-  ['init',['init',['../group___cmd_parse.html#ga789946af16b9a26d93230524620b8974',1,'MR::App::ParsedArgument']]],
-  ['mask',['Mask',['../class_m_r_1_1_d_w_i_1_1_directions_1_1_set.html#a3201b8c895430d7d98ddfb7bc28ac472',1,'MR::DWI::Directions::Set']]],
-  ['meshmulti',['MeshMulti',['../class_m_r_1_1_mesh_1_1_mesh.html#abf612633611b337d1f4614843081d263',1,'MR::Mesh::Mesh']]],
-  ['parse',['parse',['../group___cmd_parse.html#gacd667bae8e58e84cebfee6161523a3ed',1,'MR::App::ParsedArgument']]],
-  ['sort_5farguments',['sort_arguments',['../group___cmd_parse.html#gaafcccf4b681421ea61aeda0af29a3164',1,'MR::App::ParsedArgument']]]
+  ['odf',['ODF',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f___preview.html#a71e9264671381b001538a9015c515390',1,'MR::GUI::MRView::Tool::ODF_Preview']]],
+  ['odf_5fpreview',['ODF_Preview',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#a8ec23f5296f87058e4912c1a78ec99c1',1,'MR::GUI::MRView::Tool::ODF']]],
+  ['operator_3c_3c',['operator&lt;&lt;',['../class_m_r_1_1_d_w_i_1_1_shell.html#a6bb743c58e21200989a5dc4d203263c5',1,'MR::DWI::Shell::operator&lt;&lt;()'],['../class_m_r_1_1_d_w_i_1_1_shells.html#a34a9932f1b0c0a42c7f414fd629f4da5',1,'MR::DWI::Shells::operator&lt;&lt;()'],['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_stats.html#a32545d475f7ec1b7e45f5d3294c8378e',1,'MR::DWI::Tractography::GT::Stats::operator&lt;&lt;()'],['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_r_o_i.html#ae3d862b192d0e8313e2b5ed94f91dcdc',1,'MR::DWI::Tractography::ROI::operator&lt;&lt;()'],['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_r_o_i_set.html#ad908908d481f011894cfc66599e7260d',1,'MR::DWI::Tractography::ROISet::operator&lt;&lt;()'],['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_seeding_1_1_base.html#aa5e6d201196e6594fecabb13bd51ec6f',1,'MR::DWI::Tractography::Seeding::Base::operator&lt;&lt;()'],['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_seeding_1_1_list.html#a59abbdf95d1711657cff44274f2810f5',1,'MR::DWI::Tractography::Seeding::List::operator&lt;&lt;()'],['../class_m_r_1_1_g_u_i_1_1_g_l_1_1vec4.html#a3ce5ea448017c22341d4c2e24992b205',1,'MR::GUI::GL::vec4::operator&lt;&lt;()'],['../class_m_r_1_1_g_u_i_1_1_g_l_1_1mat4.html#a6f7ca0ab1ddc5c672254409eea374e16',1,'MR::GUI::GL::mat4::operator&lt;&lt;()']]]
 ];

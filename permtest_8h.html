@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-535-g21da6244</div>
+   <div id="projectbrief">Version 3.0_RC1-1-g93f159af</div>
   </td>
  </tr>
  </tbody>
@@ -84,27 +84,32 @@ $(document).ready(function(){initNavTree('permtest_8h.html','');});
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#define-members">Macros</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">permtest.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;mutex&gt;</code><br />
-<code>#include &quot;<a class="el" href="progressbar_8h_source.html">progressbar.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="thread_8h_source.html">thread.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="permutation_8h_source.html">math/stats/permutation.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;memory&gt;</code><br />
+<code>#include &lt;mutex&gt;</code><br />
+<code>#include &quot;app.h&quot;</code><br />
+<code>#include &quot;progressbar.h&quot;</code><br />
+<code>#include &quot;thread.h&quot;</code><br />
+<code>#include &quot;thread_queue.h&quot;</code><br />
+<code>#include &quot;math/math.h&quot;</code><br />
+<code>#include &quot;math/stats/permutation.h&quot;</code><br />
+<code>#include &quot;math/stats/typedefs.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="stats_2enhance_8h_source.html">stats/enhance.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="permstack_8h_source.html">stats/permstack.h</a>&quot;</code><br />
 </div>
 <p><a href="permtest_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_permutation_stack.html">MR::Stats::PermTest::PermutationStack</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_pre_processor.html">MR::Stats::PermTest::PreProcessor&lt; StatsType &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_pre_processor.html">MR::Stats::PermTest::PreProcessor&lt; StatsType, EnchancementType &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html">MR::Stats::PermTest::Processor&lt; StatsType, EnhancementType &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html">MR::Stats::PermTest::Processor&lt; StatsType &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -116,30 +121,80 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespace_m_r_1_1_stats_1_1_perm_test"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_stats_1_1_perm_test.html">MR::Stats::PermTest</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a44eb350d25cc7d16b690ecdb69e41c09"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="permtest_8h.html#a44eb350d25cc7d16b690ecdb69e41c09">DEFAULT_NUMBER_PERMUTATIONS</a>&#160;&#160;&#160;5000</td></tr>
+<tr class="separator:a44eb350d25cc7d16b690ecdb69e41c09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e00c4eea8f017b1e6afda183592681c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="permtest_8h.html#a3e00c4eea8f017b1e6afda183592681c">DEFAULT_NUMBER_PERMUTATIONS_NONSTATIONARITY</a>&#160;&#160;&#160;5000</td></tr>
+<tr class="separator:a3e00c4eea8f017b1e6afda183592681c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a589aa831658db3d5bf1184caa2647994"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_stats_1_1_perm_test.html#a589aa831658db3d5bf1184caa2647994">MR::Stats::PermTest::value_type</a> = float</td></tr>
-<tr class="separator:a589aa831658db3d5bf1184caa2647994"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a848bbd2c081532fe311080d600c268c2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_stats_1_1_perm_test.html#a848bbd2c081532fe311080d600c268c2">MR::Stats::PermTest::value_type</a> = Math::Stats::value_type</td></tr>
+<tr class="separator:a848bbd2c081532fe311080d600c268c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a664df4deab9c1969bbf8cd8288121c0f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_stats_1_1_perm_test.html#a664df4deab9c1969bbf8cd8288121c0f">MR::Stats::PermTest::vector_type</a> = Math::Stats::vector_type</td></tr>
+<tr class="separator:a664df4deab9c1969bbf8cd8288121c0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ae6b86afbd75b79d912d3272090b7c563"><td class="memTemplParams" colspan="2">template&lt;class StatsType , class EnhancementType &gt; </td></tr>
-<tr class="memitem:ae6b86afbd75b79d912d3272090b7c563"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_stats_1_1_perm_test.html#ae6b86afbd75b79d912d3272090b7c563">MR::Stats::PermTest::precompute_empirical_stat</a> (const StatsType &amp;stats_calculator, const EnhancementType &amp;enhancer, size_t num_permutations, std::vector&lt; double &gt; &amp;empirical_statistic)</td></tr>
-<tr class="separator:ae6b86afbd75b79d912d3272090b7c563"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed2f5cbeb813f991380ab60e95ef1b34"><td class="memTemplParams" colspan="2">template&lt;class StatsType , class EnhancementType &gt; </td></tr>
-<tr class="memitem:aed2f5cbeb813f991380ab60e95ef1b34"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_stats_1_1_perm_test.html#aed2f5cbeb813f991380ab60e95ef1b34">MR::Stats::PermTest::precompute_default_permutation</a> (const StatsType &amp;stats_calculator, const EnhancementType &amp;enhancer, const std::shared_ptr&lt; std::vector&lt; double &gt; &gt; &amp;empirical_enhanced_statistic, std::vector&lt; value_type &gt; &amp;default_enhanced_statistics, std::shared_ptr&lt; std::vector&lt; value_type &gt; &gt; &amp;default_enhanced_statistics_neg, std::vector&lt; value_type &gt; &amp;default_statistics)</td></tr>
-<tr class="separator:aed2f5cbeb813f991380ab60e95ef1b34"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a02dcf676faec968e8dafa49ee1a34f5f"><td class="memTemplParams" colspan="2">template&lt;class StatsType , class EnhancementType &gt; </td></tr>
-<tr class="memitem:a02dcf676faec968e8dafa49ee1a34f5f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_stats_1_1_perm_test.html#a02dcf676faec968e8dafa49ee1a34f5f">MR::Stats::PermTest::run_permutations</a> (const StatsType &amp;stats_calculator, const EnhancementType &amp;enhancer, size_t num_permutations, const std::shared_ptr&lt; std::vector&lt; double &gt; &gt; &amp;empirical_enhanced_statistic, const std::vector&lt; value_type &gt; &amp;default_enhanced_statistics, const std::shared_ptr&lt; std::vector&lt; value_type &gt; &gt; &amp;default_enhanced_statistics_neg, Eigen::Matrix&lt; value_type, Eigen::Dynamic, 1 &gt; &amp;perm_dist_pos, std::shared_ptr&lt; Eigen::Matrix&lt; value_type, Eigen::Dynamic, 1 &gt; &gt; &amp;perm_dist_neg, std::vector&lt; value_type &gt; &amp;uncorrected_pvalues, std::shared_ptr&lt; std::vector&lt; value_type &gt; &gt; &amp;uncorrected_pvalues_neg)</td></tr>
-<tr class="separator:a02dcf676faec968e8dafa49ee1a34f5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a324568ad8a171e5c11e284dd2bea69ed"><td class="memItemLeft" align="right" valign="top">const App::OptionGroup&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_stats_1_1_perm_test.html#a324568ad8a171e5c11e284dd2bea69ed">MR::Stats::PermTest::Options</a> (const bool include_nonstationarity)</td></tr>
+<tr class="separator:a324568ad8a171e5c11e284dd2bea69ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa30b971e7e0da61b943bbfaeeab00b79"><td class="memTemplParams" colspan="2">template&lt;class StatsType &gt; </td></tr>
+<tr class="memitem:aa30b971e7e0da61b943bbfaeeab00b79"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_stats_1_1_perm_test.html#aa30b971e7e0da61b943bbfaeeab00b79">MR::Stats::PermTest::precompute_empirical_stat</a> (const StatsType &amp;stats_calculator, const std::shared_ptr&lt; EnhancerBase &gt; enhancer, PermutationStack &amp;perm_stack, vector_type &amp;empirical_statistic)</td></tr>
+<tr class="separator:aa30b971e7e0da61b943bbfaeeab00b79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0cf7f8dd444b0e69727d0af89d7d4584"><td class="memTemplParams" colspan="2">template&lt;class StatsType &gt; </td></tr>
+<tr class="memitem:a0cf7f8dd444b0e69727d0af89d7d4584"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_stats_1_1_perm_test.html#a0cf7f8dd444b0e69727d0af89d7d4584">MR::Stats::PermTest::precompute_default_permutation</a> (const StatsType &amp;stats_calculator, const std::shared_ptr&lt; EnhancerBase &gt; enhancer, const vector_type &amp;empirical_enhanced_statistic, vector_type &amp;default_enhanced_statistics, std::shared_ptr&lt; vector_type &gt; default_enhanced_statistics_neg, vector_type &amp;default_statistics)</td></tr>
+<tr class="separator:a0cf7f8dd444b0e69727d0af89d7d4584"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af19b13323b6bbbc17b85ebf1bd01d74d"><td class="memTemplParams" colspan="2">template&lt;class StatsType &gt; </td></tr>
+<tr class="memitem:af19b13323b6bbbc17b85ebf1bd01d74d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_stats_1_1_perm_test.html#af19b13323b6bbbc17b85ebf1bd01d74d">MR::Stats::PermTest::run_permutations</a> (PermutationStack &amp;perm_stack, const StatsType &amp;stats_calculator, const std::shared_ptr&lt; EnhancerBase &gt; enhancer, const vector_type &amp;empirical_enhanced_statistic, const vector_type &amp;default_enhanced_statistics, const std::shared_ptr&lt; vector_type &gt; default_enhanced_statistics_neg, vector_type &amp;perm_dist_pos, std::shared_ptr&lt; vector_type &gt; perm_dist_neg, vector_type &amp;uncorrected_pvalues, std::shared_ptr&lt; vector_type &gt; uncorrected_pvalues_neg)</td></tr>
+<tr class="separator:af19b13323b6bbbc17b85ebf1bd01d74d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e9d229ac6393ccf854aa38be93eaf36"><td class="memTemplParams" colspan="2">template&lt;class StatsType &gt; </td></tr>
+<tr class="memitem:a6e9d229ac6393ccf854aa38be93eaf36"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_stats_1_1_perm_test.html#a6e9d229ac6393ccf854aa38be93eaf36">MR::Stats::PermTest::run_permutations</a> (vector&lt; vector&lt; size_t &gt;&gt; &amp;permutations, const StatsType &amp;stats_calculator, const std::shared_ptr&lt; EnhancerBase &gt; enhancer, const vector_type &amp;empirical_enhanced_statistic, const vector_type &amp;default_enhanced_statistics, const std::shared_ptr&lt; vector_type &gt; default_enhanced_statistics_neg, vector_type &amp;perm_dist_pos, std::shared_ptr&lt; vector_type &gt; perm_dist_neg, vector_type &amp;uncorrected_pvalues, std::shared_ptr&lt; vector_type &gt; uncorrected_pvalues_neg)</td></tr>
+<tr class="separator:a6e9d229ac6393ccf854aa38be93eaf36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d16510747241c43420bc1c0311ba255"><td class="memTemplParams" colspan="2">template&lt;class StatsType &gt; </td></tr>
+<tr class="memitem:a9d16510747241c43420bc1c0311ba255"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_stats_1_1_perm_test.html#a9d16510747241c43420bc1c0311ba255">MR::Stats::PermTest::run_permutations</a> (const size_t num_permutations, const StatsType &amp;stats_calculator, const std::shared_ptr&lt; EnhancerBase &gt; enhancer, const vector_type &amp;empirical_enhanced_statistic, const vector_type &amp;default_enhanced_statistics, const std::shared_ptr&lt; vector_type &gt; default_enhanced_statistics_neg, vector_type &amp;perm_dist_pos, std::shared_ptr&lt; vector_type &gt; perm_dist_neg, vector_type &amp;uncorrected_pvalues, std::shared_ptr&lt; vector_type &gt; uncorrected_pvalues_neg)</td></tr>
+<tr class="separator:a9d16510747241c43420bc1c0311ba255"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a44eb350d25cc7d16b690ecdb69e41c09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44eb350d25cc7d16b690ecdb69e41c09">&#9670;&nbsp;</a></span>DEFAULT_NUMBER_PERMUTATIONS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DEFAULT_NUMBER_PERMUTATIONS&#160;&#160;&#160;5000</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="permtest_8h_source.html#l00033">33</a> of file <a class="el" href="permtest_8h_source.html">permtest.h</a>.</p>
+
+</div>
+</div>
+<a id="a3e00c4eea8f017b1e6afda183592681c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e00c4eea8f017b1e6afda183592681c">&#9670;&nbsp;</a></span>DEFAULT_NUMBER_PERMUTATIONS_NONSTATIONARITY</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DEFAULT_NUMBER_PERMUTATIONS_NONSTATIONARITY&#160;&#160;&#160;5000</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="permtest_8h_source.html#l00034">34</a> of file <a class="el" href="permtest_8h_source.html">permtest.h</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_3de45fbf08d2e79aacff2f4de113ab26.html">stats</a></li><li class="navelem"><a class="el" href="permtest_8h.html">permtest.h</a></li>
-    <li class="footer">Generated on Wed Apr 19 2017 09:26:43 for MRtrix by
+    <li class="footer">Generated on Tue May 2 2017 10:45:11 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

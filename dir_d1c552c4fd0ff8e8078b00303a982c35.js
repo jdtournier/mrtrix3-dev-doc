@@ -6,7 +6,7 @@ var dir_d1c552c4fd0ff8e8078b00303a982c35 =
     [ "colourmap.h", "colourmap_8h.html", "colourmap_8h" ],
     [ "colourmap_button.h", "colourmap__button_8h.html", [
       [ "ColourMapButtonObserver", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_button_observer.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_button_observer" ],
-      [ "ColourMapButton", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_button.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_button" ]
+      [ "ColourMapButton", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_button.html", null ]
     ] ],
     [ "combo_box_error.h", "combo__box__error_8h.html", [
       [ "ComboBoxWithErrorMsg", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_combo_box_with_error_msg.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_combo_box_with_error_msg" ]

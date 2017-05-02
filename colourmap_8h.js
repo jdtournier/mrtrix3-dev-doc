@@ -1,6 +1,6 @@
 var colourmap_8h =
 [
-    [ "Entry", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_entry.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_entry" ],
+    [ "Entry", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_entry.html", null ],
     [ "Renderer", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_renderer.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_renderer" ],
     [ "Position", "colourmap_8h.html#a0ad493d29631a0f0abf2e3b9afd4e901", [
       [ "None", "colourmap_8h.html#a0ad493d29631a0f0abf2e3b9afd4e901a54b2d465ed9e653f247ae0f48a5d321d", null ],

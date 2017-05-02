@@ -4,6 +4,5 @@ var namespace_m_r_1_1_stats =
     [ "Cluster", "namespace_m_r_1_1_stats_1_1_cluster.html", "namespace_m_r_1_1_stats_1_1_cluster" ],
     [ "PermTest", "namespace_m_r_1_1_stats_1_1_perm_test.html", "namespace_m_r_1_1_stats_1_1_perm_test" ],
     [ "TFCE", "namespace_m_r_1_1_stats_1_1_t_f_c_e.html", "namespace_m_r_1_1_stats_1_1_t_f_c_e" ],
-    [ "CalibrateHistogram", "class_m_r_1_1_stats_1_1_calibrate_histogram.html", "class_m_r_1_1_stats_1_1_calibrate_histogram" ],
-    [ "Stats", "class_m_r_1_1_stats_1_1_stats.html", "class_m_r_1_1_stats_1_1_stats" ]
+    [ "EnhancerBase", "class_m_r_1_1_stats_1_1_enhancer_base.html", "class_m_r_1_1_stats_1_1_enhancer_base" ]
 ];

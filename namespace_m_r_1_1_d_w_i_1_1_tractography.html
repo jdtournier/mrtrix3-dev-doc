@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-535-g21da6244</div>
+   <div id="projectbrief">Version 3.0_RC1-1-g93f159af</div>
   </td>
  </tr>
  </tbody>
@@ -163,14 +163,16 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a1fc2638ee925498027107fb985eb2559"><td class="memItemLeft" align="right" valign="top">thread_local <a class="el" href="class_m_r_1_1_math_1_1_r_n_g.html">Math::RNG</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography.html#a1fc2638ee925498027107fb985eb2559">rng</a></td></tr>
+<tr class="memitem:af692b2e701c2439db4a479e50bd655d2"><td class="memItemLeft" align="right" valign="top">constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography.html#af692b2e701c2439db4a479e50bd655d2">preserve_track_order_desc</a></td></tr>
+<tr class="separator:af692b2e701c2439db4a479e50bd655d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fc2638ee925498027107fb985eb2559"><td class="memItemLeft" align="right" valign="top">thread_local Math::RNG *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography.html#a1fc2638ee925498027107fb985eb2559">rng</a></td></tr>
 <tr class="memdesc:a1fc2638ee925498027107fb985eb2559"><td class="mdescLeft">&#160;</td><td class="mdescRight">thread-local, but globally accessible RNG to vastly simplify multi-threading  <a href="#a1fc2638ee925498027107fb985eb2559">More...</a><br /></td></tr>
 <tr class="separator:a1fc2638ee925498027107fb985eb2559"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6353ef8f36f2760e7f71ccef4dab7c41"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_m_r_1_1_app_1_1_option_group.html">App::OptionGroup</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography.html#a6353ef8f36f2760e7f71ccef4dab7c41">ROIOption</a></td></tr>
+<tr class="memitem:a6353ef8f36f2760e7f71ccef4dab7c41"><td class="memItemLeft" align="right" valign="top">const App::OptionGroup&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography.html#a6353ef8f36f2760e7f71ccef4dab7c41">ROIOption</a></td></tr>
 <tr class="separator:a6353ef8f36f2760e7f71ccef4dab7c41"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8922c52cdfc4ae56a9795bc4efa0b55a"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_m_r_1_1_app_1_1_option.html">App::Option</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography.html#a8922c52cdfc4ae56a9795bc4efa0b55a">TrackWeightsInOption</a></td></tr>
+<tr class="memitem:a8922c52cdfc4ae56a9795bc4efa0b55a"><td class="memItemLeft" align="right" valign="top">const App::Option&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography.html#a8922c52cdfc4ae56a9795bc4efa0b55a">TrackWeightsInOption</a></td></tr>
 <tr class="separator:a8922c52cdfc4ae56a9795bc4efa0b55a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad748b14e024fa1a2a1e1976b3f27e9db"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_m_r_1_1_app_1_1_option.html">App::Option</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography.html#ad748b14e024fa1a2a1e1976b3f27e9db">TrackWeightsOutOption</a></td></tr>
+<tr class="memitem:ad748b14e024fa1a2a1e1976b3f27e9db"><td class="memItemLeft" align="right" valign="top">const App::Option&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography.html#ad748b14e024fa1a2a1e1976b3f27e9db">TrackWeightsOutOption</a></td></tr>
 <tr class="separator:ad748b14e024fa1a2a1e1976b3f27e9db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -220,7 +222,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="properties_8h_source.html#l00091">91</a> of file <a class="el" href="properties_8h_source.html">properties.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="properties_8h_source.html#l00090">90</a> of file <a class="el" href="properties_8h_source.html">properties.h</a>.</p>
 
 </div>
 </div>
@@ -275,7 +277,7 @@ Variables</h2></td></tr>
 <p>Furthermore, in some contexts it may be necessary to ensure that two files contain the same number of streamlines (or scalar data corresponding to the same number of streamlines). This check is also provided: if <em>abort_on_fail</em> is true, a mis-match of the 'count' field results in an exception being thrown, otherwise only a warning is issued and processing is free to continue.</p>
 <p>The <em>type</em> argument is used to specify the type of files being compared, so that more appropriate information can be shown to the user in the event of a mismatch. </p>
 
-<p class="definition">Definition at line <a class="el" href="scalar__file_8h_source.html#l00056">56</a> of file <a class="el" href="scalar__file_8h_source.html">scalar_file.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="scalar__file_8h_source.html#l00055">55</a> of file <a class="el" href="scalar__file_8h_source.html">scalar_file.h</a>.</p>
 
 </div>
 </div>
@@ -319,7 +321,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="properties_8h_source.html#l00078">78</a> of file <a class="el" href="properties_8h_source.html">properties.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="properties_8h_source.html#l00077">77</a> of file <a class="el" href="properties_8h_source.html">properties.h</a>.</p>
 
 </div>
 </div>
@@ -375,11 +377,27 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="properties_8h_source.html#l00111">111</a> of file <a class="el" href="properties_8h_source.html">properties.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="properties_8h_source.html#l00110">110</a> of file <a class="el" href="properties_8h_source.html">properties.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
+<a id="af692b2e701c2439db4a479e50bd655d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af692b2e701c2439db4a479e50bd655d2">&#9670;&nbsp;</a></span>preserve_track_order_desc</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr const char* MR::DWI::Tractography::preserve_track_order_desc</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= <span class="stringliteral">&quot;Note that if multi-threading is used in this command, the ordering of tracks in the &quot;</span></div><div class="line">            <span class="stringliteral">&quot;output file is unlikely to match the order of the incoming data. If your application &quot;</span></div><div class="line">            <span class="stringliteral">&quot;explicitly requires that the order of tracks not change, you should run this command &quot;</span></div><div class="line">            <span class="stringliteral">&quot;with the option -nthreads 0.&quot;</span></div></div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00041">41</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
+
+</div>
+</div>
 <a id="a1fc2638ee925498027107fb985eb2559"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1fc2638ee925498027107fb985eb2559">&#9670;&nbsp;</a></span>rng</h2>
 
@@ -387,7 +405,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">thread_local <a class="el" href="class_m_r_1_1_math_1_1_r_n_g.html">Math::RNG</a>* MR::DWI::Tractography::rng</td>
+          <td class="memname">thread_local Math::RNG* MR::DWI::Tractography::rng</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -403,7 +421,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="class_m_r_1_1_app_1_1_option_group.html">App::OptionGroup</a> MR::DWI::Tractography::ROIOption</td>
+          <td class="memname">const App::OptionGroup MR::DWI::Tractography::ROIOption</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -417,7 +435,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="class_m_r_1_1_app_1_1_option.html">App::Option</a> MR::DWI::Tractography::TrackWeightsInOption</td>
+          <td class="memname">const App::Option MR::DWI::Tractography::TrackWeightsInOption</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -431,7 +449,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="class_m_r_1_1_app_1_1_option.html">App::Option</a> MR::DWI::Tractography::TrackWeightsOutOption</td>
+          <td class="memname">const App::Option MR::DWI::Tractography::TrackWeightsOutOption</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -444,7 +462,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_d_w_i.html">DWI</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography.html">Tractography</a></li>
-    <li class="footer">Generated on Wed Apr 19 2017 09:26:44 for MRtrix by
+    <li class="footer">Generated on Tue May 2 2017 10:45:12 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

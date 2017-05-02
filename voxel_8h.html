@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-535-g21da6244</div>
+   <div id="projectbrief">Version 3.0_RC1-1-g93f159af</div>
   </td>
  </tr>
  </tbody>
@@ -91,6 +91,7 @@ $(document).ready(function(){initNavTree('voxel_8h.html','');});
 <div class="contents">
 <div class="textblock"><code>#include &lt;set&gt;</code><br />
 <code>#include &quot;image.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="set_8h_source.html">dwi/directions/set.h</a>&quot;</code><br />
 </div>
 <p><a href="voxel_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -132,13 +133,24 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a304dd7ff37f80c96fd6ba75f51a60e80"><td class="memItemLeft" align="right" valign="top">Eigen::Vector3i&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping.html#a304dd7ff37f80c96fd6ba75f51a60e80">MR::DWI::Tractography::Mapping::round</a> (const Eigen::Vector3f &amp;p)</td></tr>
-<tr class="separator:a304dd7ff37f80c96fd6ba75f51a60e80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3190521f3bff7165b23cf001df8ba83b"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a3190521f3bff7165b23cf001df8ba83b"><td class="memTemplItemLeft" align="right" valign="top">Eigen::Vector3i&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping.html#a3190521f3bff7165b23cf001df8ba83b">MR::DWI::Tractography::Mapping::round</a> (const Eigen::Matrix&lt; T, 3, 1 &gt; &amp;p)</td></tr>
+<tr class="separator:a3190521f3bff7165b23cf001df8ba83b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a87b064fa6982beec956b16e5a99b0040"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
 <tr class="memitem:a87b064fa6982beec956b16e5a99b0040"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping.html#a87b064fa6982beec956b16e5a99b0040">MR::DWI::Tractography::Mapping::check</a> (const Eigen::Vector3i &amp;V, const HeaderType &amp;<a class="el" href="noise__estimator_8h.html#aaebed747e975509a9b8470c6d7ba93b3">H</a>)</td></tr>
 <tr class="separator:a87b064fa6982beec956b16e5a99b0040"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8ce22a5ab45cc871e58d573132f3926"><td class="memItemLeft" align="right" valign="top">Eigen::Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping.html#ac8ce22a5ab45cc871e58d573132f3926">MR::DWI::Tractography::Mapping::vec2DEC</a> (const Eigen::Vector3f &amp;d)</td></tr>
-<tr class="separator:ac8ce22a5ab45cc871e58d573132f3926"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01911edbff00378615a26186a4a19ccd"><td class="memItemLeft" align="right" valign="top">Eigen::Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping.html#a01911edbff00378615a26186a4a19ccd">MR::DWI::Tractography::Mapping::vec2DEC</a> (const Eigen::Vector3 &amp;d)</td></tr>
+<tr class="separator:a01911edbff00378615a26186a4a19ccd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd83abcc84affee4893dfca1cf61287c"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping.html#afd83abcc84affee4893dfca1cf61287c">MR::DWI::Tractography::Mapping::operator&lt;&lt;</a> (std::ostream &amp;, const Voxel &amp;)</td></tr>
+<tr class="separator:afd83abcc84affee4893dfca1cf61287c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e123a0404e9c8720f8ad1e1cf4f5e41"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping.html#a8e123a0404e9c8720f8ad1e1cf4f5e41">MR::DWI::Tractography::Mapping::operator&lt;&lt;</a> (std::ostream &amp;, const VoxelDEC &amp;)</td></tr>
+<tr class="separator:a8e123a0404e9c8720f8ad1e1cf4f5e41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf2fc888d72d7efaa4ce8086068d977f"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping.html#aaf2fc888d72d7efaa4ce8086068d977f">MR::DWI::Tractography::Mapping::operator&lt;&lt;</a> (std::ostream &amp;, const VoxelDir &amp;)</td></tr>
+<tr class="separator:aaf2fc888d72d7efaa4ce8086068d977f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cfdae10a8b95d1169efaacb250e8e0f"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping.html#a3cfdae10a8b95d1169efaacb250e8e0f">MR::DWI::Tractography::Mapping::operator&lt;&lt;</a> (std::ostream &amp;, const Dixel &amp;)</td></tr>
+<tr class="separator:a3cfdae10a8b95d1169efaacb250e8e0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70a2cff744304e6d75a6d75e01000e9a"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping.html#a70a2cff744304e6d75a6d75e01000e9a">MR::DWI::Tractography::Mapping::operator&lt;&lt;</a> (std::ostream &amp;, const VoxelTOD &amp;)</td></tr>
+<tr class="separator:a70a2cff744304e6d75a6d75e01000e9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -146,7 +158,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_6da8e6f1bfdb5540a85bd819d2a13962.html">dwi</a></li><li class="navelem"><a class="el" href="dir_6f8fcd489e430c1a1b22716f7655ad56.html">tractography</a></li><li class="navelem"><a class="el" href="dir_babb133fdd3988d0466ad2e2cb845fda.html">mapping</a></li><li class="navelem"><a class="el" href="voxel_8h.html">voxel.h</a></li>
-    <li class="footer">Generated on Wed Apr 19 2017 09:26:43 for MRtrix by
+    <li class="footer">Generated on Tue May 2 2017 10:45:11 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

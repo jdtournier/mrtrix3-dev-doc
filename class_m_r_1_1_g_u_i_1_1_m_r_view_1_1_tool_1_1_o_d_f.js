@@ -1,14 +1,9 @@
 var class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f =
 [
-    [ "ODF", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#a2a464a57ec2912ca810ee38b0cf8e390", null ],
-    [ "~ODF", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#ad0a00036e5e417d52c7b57b878ac5a11", null ],
-    [ "add_commandline_options", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#a47643b5cfdff8d9959066829bb43ab10", null ],
-    [ "add_images", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#ab306b88d94767e262c9b2b9ae48bfd69", null ],
+    [ "add_images", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#ac1cc0ba082e754f75b6e8abb35580c8b", null ],
     [ "closeEvent", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#a8444a20c7e1e6acc24182ccd03c21376", null ],
-    [ "draw", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#a7708084bde71fefc743bc33daaa488ab", null ],
     [ "get_image", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#afa4e68c17e5e3df6fb84ea3d7354a23b", null ],
     [ "get_values", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#ac896c10d2f8087d530c385941e4820b4", null ],
-    [ "process_commandline_option", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#a75c29c1e28c0e069d2c3ed368659b368", null ],
     [ "setup_ODFtype_UI", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#a493ffaac196c1307f6d79ca23fb2059c", null ],
     [ "ODF_Preview", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#a8ec23f5296f87058e4912c1a78ec99c1", null ],
     [ "colour_button", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#aca62ec8d875db4734ee3ef8139945ec6", null ],

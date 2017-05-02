@@ -1,32 +1,13 @@
 var class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography =
 [
-    [ "Tractography", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#aa0177db9fbe41a23dfe1274e94e2c5ec", null ],
-    [ "~Tractography", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#ad4e7490b3eb289ce471848b3e950a153", null ],
-    [ "add_commandline_options", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a5d5e707d437d85c82d6c24051391ecf8", null ],
-    [ "crop_to_slab", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a7b00bf927426e4e723a307ee330ee7dd", null ],
-    [ "draw", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a294a2ddfbc877dc938d7bb4d212bf964", null ],
-    [ "draw_colourbars", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a2a9071b0da6d8158b4c2a735aa7687ee", null ],
     [ "dropEvent", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a1b46a6e47c28174e28cbefe9597687a7", null ],
-    [ "process_commandline_option", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a9d62ae5d6e83be63ac7c1a5aafba051e", null ],
     [ "update_scalar_options", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a73cbfcd15c0b82845974bae7dfc7a6cb", null ],
-    [ "visible_number_colourbars", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a471841e16d3d0239b57ffce2990db5c2", null ],
     [ "colour_button", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a98994b7745270b7859183a055f052e6e", null ],
     [ "colour_combobox", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a13c27bf32f2a24a77b9d825181b65774", null ],
-    [ "do_crop_to_slab", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a2d4dcf4a6229a2dabd5f2b2faac94688", null ],
-    [ "hide_all_button", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#acab72d77b936e4ca0f651fe82ef4131e", null ],
-    [ "lighting", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a6508bb974cef617abbeb82abe426fc94", null ],
     [ "lighting_dock", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#ac9c646d7664619eacfdeea4e08f5c252", null ],
-    [ "line_opacity", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#aacad07c3043ad33500f3ff9cf1d3f791", null ],
-    [ "line_thickness", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a4d446278a18457b4e33990b278ac7ec6", null ],
-    [ "not_3D", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a0b387214b9dc7f65c7aef6b682e20d15", null ],
     [ "opacity_slider", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#ab5fba2e1a01fea5c5c1ff9f7e7edd5b0", null ],
     [ "scalar_file_options", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a8f4452f162d16349bb9aa82e1ec315d3", null ],
     [ "slab_entry", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a789f53cd0e942cae3b1b924d2ea4b3b7", null ],
-    [ "slab_thickness", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#afda880adfed16f359b85686ebe774c28", null ],
     [ "thickness_slider", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#ab11af4a1d3896793840ad3456e81b1a2", null ],
-    [ "track_option_menu", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a0956b8a09980aa5e79c06e730eb10b8c", null ],
-    [ "tractogram_list_model", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a25fec94d57cff62a7286a90e80327f90", null ],
-    [ "tractogram_list_view", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a8b65ab7d981f6a717f2838f189692fd3", null ],
-    [ "use_lighting", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a21d1cce0bd5175486559838a2439824a", null ],
-    [ "use_threshold_scalarfile", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a2fcba1addd37310b88c4e30f9ed2f6b6", null ]
+    [ "track_option_menu", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a0956b8a09980aa5e79c06e730eb10b8c", null ]
 ];

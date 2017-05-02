@@ -8,7 +8,7 @@ var class_m_r_1_1_d_w_i_1_1_tractography_1_1_scalar_writer =
     [ "commit", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_scalar_writer.html#a10c3655d1dce29bce30a6624f34b015d", null ],
     [ "delimiter", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_scalar_writer.html#a0a67969b1b2bb47f227cd73b045f9fa7", null ],
     [ "format_scalar", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_scalar_writer.html#a183abe4ce896d84a62bbe61194d29f6c", null ],
-    [ "operator()", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_scalar_writer.html#a8732594fb94e337bc7e99ad9649554c7", null ],
+    [ "operator()", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_scalar_writer.html#a47486285212c16b908734074cadc1d54", null ],
     [ "operator()", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_scalar_writer.html#a24c7668a8e0d086beea72236892f6e0c", null ],
     [ "buffer", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_scalar_writer.html#afb22ae1026f767affe1ac8e98df32cf2", null ],
     [ "buffer_capacity", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_scalar_writer.html#a18d6d14aa30230b634f10c35f4bf8fa5", null ],

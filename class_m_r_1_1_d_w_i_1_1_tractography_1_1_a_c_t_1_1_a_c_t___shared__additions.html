@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-535-g21da6244</div>
+   <div id="projectbrief">Version 3.0_RC1-1-g93f159af</div>
   </td>
  </tr>
  </tbody>
@@ -82,7 +82,6 @@ $(document).ready(function(){initNavTree('class_m_r_1_1_d_w_i_1_1_tractography_1
 
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#friends">Friends</a> &#124;
 <a href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_a_c_t___shared__additions-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -92,17 +91,6 @@ $(document).ready(function(){initNavTree('class_m_r_1_1_d_w_i_1_1_tractography_1
 
 <p><code>#include &quot;<a class="el" href="_a_c_t_2shared_8h_source.html">dwi/tractography/ACT/shared.h</a>&quot;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:adb8e4b7db6b2938ea6d73d148c2f43f4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_a_c_t___shared__additions.html#adb8e4b7db6b2938ea6d73d148c2f43f4">ACT_Shared_additions</a> (const std::string &amp;path, <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_properties.html">Properties</a> &amp;property_set)</td></tr>
-<tr class="separator:adb8e4b7db6b2938ea6d73d148c2f43f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:addd78a62362943804fd22d5368c7b354"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_a_c_t___shared__additions.html#addd78a62362943804fd22d5368c7b354">backtrack</a> () const</td></tr>
-<tr class="separator:addd78a62362943804fd22d5368c7b354"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7362ff98b2b6f614c7f41cdcf3ac7a91"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_a_c_t___shared__additions.html#a7362ff98b2b6f614c7f41cdcf3ac7a91">crop_at_gmwmi</a> () const</td></tr>
-<tr class="separator:a7362ff98b2b6f614c7f41cdcf3ac7a91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acff2f4c464062f27a8afdcaae5a492be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_a_c_t___shared__additions.html#acff2f4c464062f27a8afdcaae5a492be">crop_at_gmwmi</a> (std::vector&lt; Eigen::Vector3f &gt; &amp;tck) const</td></tr>
-<tr class="separator:acff2f4c464062f27a8afdcaae5a492be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
 <tr class="memitem:a5712f67ddd267b4c912081c22dc4a30e"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_a_c_t___shared__additions.html#a5712f67ddd267b4c912081c22dc4a30e">ACT_Method_additions</a></td></tr>
@@ -110,130 +98,8 @@ Friends</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="_a_c_t_2shared_8h_source.html#l00033">33</a> of file <a class="el" href="_a_c_t_2shared_8h_source.html">shared.h</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="adb8e4b7db6b2938ea6d73d148c2f43f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adb8e4b7db6b2938ea6d73d148c2f43f4">&#9670;&nbsp;</a></span>ACT_Shared_additions()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">MR::DWI::Tractography::ACT::ACT_Shared_additions::ACT_Shared_additions </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>path</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_properties.html">Properties</a> &amp;&#160;</td>
-          <td class="paramname"><em>property_set</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_a_c_t_2shared_8h_source.html#l00036">36</a> of file <a class="el" href="_a_c_t_2shared_8h_source.html">shared.h</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="addd78a62362943804fd22d5368c7b354"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#addd78a62362943804fd22d5368c7b354">&#9670;&nbsp;</a></span>backtrack()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool MR::DWI::Tractography::ACT::ACT_Shared_additions::backtrack </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_a_c_t_2shared_8h_source.html#l00047">47</a> of file <a class="el" href="_a_c_t_2shared_8h_source.html">shared.h</a>.</p>
-
-</div>
-</div>
-<a id="a7362ff98b2b6f614c7f41cdcf3ac7a91"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7362ff98b2b6f614c7f41cdcf3ac7a91">&#9670;&nbsp;</a></span>crop_at_gmwmi() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool MR::DWI::Tractography::ACT::ACT_Shared_additions::crop_at_gmwmi </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_a_c_t_2shared_8h_source.html#l00049">49</a> of file <a class="el" href="_a_c_t_2shared_8h_source.html">shared.h</a>.</p>
-
-</div>
-</div>
-<a id="acff2f4c464062f27a8afdcaae5a492be"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acff2f4c464062f27a8afdcaae5a492be">&#9670;&nbsp;</a></span>crop_at_gmwmi() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MR::DWI::Tractography::ACT::ACT_Shared_additions::crop_at_gmwmi </td>
-          <td>(</td>
-          <td class="paramtype">std::vector&lt; Eigen::Vector3f &gt; &amp;&#160;</td>
-          <td class="paramname"><em>tck</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_a_c_t_2shared_8h_source.html#l00050">50</a> of file <a class="el" href="_a_c_t_2shared_8h_source.html">shared.h</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<p class="definition">Definition at line <a class="el" href="_a_c_t_2shared_8h_source.html#l00032">32</a> of file <a class="el" href="_a_c_t_2shared_8h_source.html">shared.h</a>.</p>
+</div><h2 class="groupheader">Friends And Related Function Documentation</h2>
 <a id="a5712f67ddd267b4c912081c22dc4a30e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5712f67ddd267b4c912081c22dc4a30e">&#9670;&nbsp;</a></span>ACT_Method_additions</h2>
 
@@ -254,7 +120,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_a_c_t_2shared_8h_source.html#l00065">65</a> of file <a class="el" href="_a_c_t_2shared_8h_source.html">shared.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_a_c_t_2shared_8h_source.html#l00064">64</a> of file <a class="el" href="_a_c_t_2shared_8h_source.html">shared.h</a>.</p>
 
 </div>
 </div>
@@ -267,7 +133,7 @@ Friends</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_d_w_i.html">DWI</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography.html">Tractography</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t.html">ACT</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_a_c_t___shared__additions.html">ACT_Shared_additions</a></li>
-    <li class="footer">Generated on Wed Apr 19 2017 09:26:44 for MRtrix by
+    <li class="footer">Generated on Tue May 2 2017 10:45:12 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['regularisationcalculator',['RegularisationCalculator',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_tck_factor.html#a1a8cfc194d1a33768ae06f4885fc26ed',1,'MR::DWI::Tractography::SIFT2::TckFactor']]]
+  ['glarea',['GLArea',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_window.html#aa629c283a5e06e8edbfb6f1cbcdba24f',1,'MR::GUI::MRView::Window']]]
 ];

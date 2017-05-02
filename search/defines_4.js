@@ -1,19 +1,8 @@
 var searchData=
 [
-  ['debug',['DEBUG',['../exception_8h.html#aecc1f7a8a2493b9e021e5bff76a00a5b',1,'exception.h']]],
-  ['declare_5fimageformat',['DECLARE_IMAGEFORMAT',['../lib_2formats_2list_8h.html#a55276c15d163652af34f4b28c2e023d0',1,'list.h']]],
-  ['default_5fcsd_5fneg_5flambda',['DEFAULT_CSD_NEG_LAMBDA',['../csd_8h.html#ad573eec2e823d523ba1e496c4a0b1717',1,'csd.h']]],
-  ['default_5fcsd_5fniter',['DEFAULT_CSD_NITER',['../csd_8h.html#a05bee2c23048baf1ba244c9e17be65be',1,'csd.h']]],
-  ['default_5fcsd_5fnorm_5flambda',['DEFAULT_CSD_NORM_LAMBDA',['../csd_8h.html#aeb25b1e1b910b83a64dd9925a2cef7b6',1,'csd.h']]],
-  ['default_5fcsd_5fthreshold',['DEFAULT_CSD_THRESHOLD',['../csd_8h.html#a21b6b07d3f84813d9d3c26f241e17904',1,'csd.h']]],
-  ['default_5fhistogram_5fbins',['DEFAULT_HISTOGRAM_BINS',['../stats_8h.html#ae1c96fafb56edeae5d2538fc258194ad',1,'stats.h']]],
-  ['default_5ftractography_5fcutoff',['DEFAULT_TRACTOGRAPHY_CUTOFF',['../dwi_2tractography_2tracking_2tractography_8h.html#ad389a56637fa4d61880032ec4c0a207c',1,'tractography.h']]],
-  ['default_5ftractography_5fifod2_5fnsamples',['DEFAULT_TRACTOGRAPHY_IFOD2_NSAMPLES',['../dwi_2tractography_2tracking_2tractography_8h.html#ab630b1e80dc3e34e1f07164d2ffe8c32',1,'tractography.h']]],
-  ['default_5ftractography_5fmax_5ftrials',['DEFAULT_TRACTOGRAPHY_MAX_TRIALS',['../dwi_2tractography_2tracking_2tractography_8h.html#a04b53d51a76b0144deb19eb5cc2c73c3',1,'tractography.h']]],
-  ['dwi_5fshells_5fepsilon',['DWI_SHELLS_EPSILON',['../shells_8h.html#a8fdc3dd3a7b2c4e346b6cd47cc094945',1,'shells.h']]],
-  ['dwi_5fshells_5fmin_5fdirections',['DWI_SHELLS_MIN_DIRECTIONS',['../shells_8h.html#a4b9adde3a55a78a0974a94b949bc5228',1,'shells.h']]],
-  ['dwi_5fshells_5fmin_5flinkage',['DWI_SHELLS_MIN_LINKAGE',['../shells_8h.html#ac1356b89e9c0c012ce72b08bc95d1682',1,'shells.h']]],
-  ['dynamic_5fseed_5finitial_5fprob',['DYNAMIC_SEED_INITIAL_PROB',['../dynamic_8h.html#a6bcb8ce3f6a336102591e2125fd6a01f',1,'dynamic.h']]],
-  ['dynamic_5fseed_5finitial_5ftd_5fsum',['DYNAMIC_SEED_INITIAL_TD_SUM',['../dynamic_8h.html#aeed5164b369160fa5f9cc0ad88516ad4',1,'dynamic.h']]],
-  ['dynamic_5fseeding_5fdamping_5ffactor',['DYNAMIC_SEEDING_DAMPING_FACTOR',['../dynamic_8h.html#a5b279ede25458f2b9dcd93f718c533b1',1,'dynamic.h']]]
+  ['fmls_5fintegral_5fthreshold_5fdefault',['FMLS_INTEGRAL_THRESHOLD_DEFAULT',['../fmls_8h.html#a9761c3f6d288fa6dc34411a74a5cf6ca',1,'fmls.h']]],
+  ['fmls_5fpeak_5fvalue_5fthreshold_5fdefault',['FMLS_PEAK_VALUE_THRESHOLD_DEFAULT',['../fmls_8h.html#ab53f854d15f692d1a2192c1a3d3de715',1,'fmls.h']]],
+  ['fmls_5fratio_5fto_5fpeak_5fvalue_5fto_5fmerge_5fdefault',['FMLS_RATIO_TO_PEAK_VALUE_TO_MERGE_DEFAULT',['../fmls_8h.html#ae17f8bc96f00079536f8334797b6a0b9',1,'fmls.h']]],
+  ['frac_5fburnin',['FRAC_BURNIN',['../gt_8h.html#af2ae59df2fa55ae6e0ab4b058e1bf267',1,'gt.h']]],
+  ['frac_5fphaseout',['FRAC_PHASEOUT',['../gt_8h.html#a33658e0a4fbca72adc9a97bcd652ad41',1,'gt.h']]]
 ];

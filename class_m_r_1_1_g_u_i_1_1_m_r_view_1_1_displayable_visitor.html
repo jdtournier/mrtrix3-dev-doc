@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-535-g21da6244</div>
+   <div id="projectbrief">Version 3.0_RC1-1-g93f159af</div>
   </td>
  </tr>
  </tbody>
@@ -96,9 +96,9 @@ Inheritance diagram for MR::GUI::MRView::DisplayableVisitor:</div>
  <div class="center">
   <img src="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_displayable_visitor.png" usemap="#MR::GUI::MRView::DisplayableVisitor_map" alt=""/>
   <map id="MR::GUI::MRView::DisplayableVisitor_map" name="MR::GUI::MRView::DisplayableVisitor_map">
-<area href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_overlay.html" alt="MR::GUI::MRView::Tool::Overlay" shape="rect" coords="0,56,279,80"/>
-<area href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file_options.html" alt="MR::GUI::MRView::Tool::TrackScalarFileOptions" shape="rect" coords="289,56,568,80"/>
-<area href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_vector.html" alt="MR::GUI::MRView::Tool::Vector" shape="rect" coords="578,56,857,80"/>
+<area href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_fixel.html" alt="MR::GUI::MRView::Tool::Fixel" shape="rect" coords="0,56,279,80"/>
+<area href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_overlay.html" alt="MR::GUI::MRView::Tool::Overlay" shape="rect" coords="289,56,568,80"/>
+<area href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file_options.html" alt="MR::GUI::MRView::Tool::TrackScalarFileOptions" shape="rect" coords="578,56,857,80"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -106,8 +106,8 @@ Inheritance diagram for MR::GUI::MRView::DisplayableVisitor:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a4a930dd2012c80de370e5f96e142b840"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_displayable_visitor.html#a4a930dd2012c80de370e5f96e142b840">render_image_colourbar</a> (const <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_image.html">Image</a> &amp;)</td></tr>
 <tr class="separator:a4a930dd2012c80de370e5f96e142b840"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae689d84c4c0412ae43ad25b7099391e5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_displayable_visitor.html#ae689d84c4c0412ae43ad25b7099391e5">render_fixel_colourbar</a> (const <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_abstract_fixel.html">Tool::AbstractFixel</a> &amp;)</td></tr>
-<tr class="separator:ae689d84c4c0412ae43ad25b7099391e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fb6bfe653fd50741bc6d82d61e10b89"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_displayable_visitor.html#a5fb6bfe653fd50741bc6d82d61e10b89">render_fixel_colourbar</a> (const <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_fixel.html">Tool::BaseFixel</a> &amp;)</td></tr>
+<tr class="separator:a5fb6bfe653fd50741bc6d82d61e10b89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7dac8609b2a1f213fdfc77f8f88b7cd4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_displayable_visitor.html#a7dac8609b2a1f213fdfc77f8f88b7cd4">render_tractogram_colourbar</a> (const <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractogram.html">Tool::Tractogram</a> &amp;)</td></tr>
 <tr class="separator:a7dac8609b2a1f213fdfc77f8f88b7cd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -115,8 +115,8 @@ Public Member Functions</h2></td></tr>
 <div class="textblock">
 <p class="definition">Definition at line <a class="el" href="displayable_8h_source.html#l00051">51</a> of file <a class="el" href="displayable_8h_source.html">displayable.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="ae689d84c4c0412ae43ad25b7099391e5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae689d84c4c0412ae43ad25b7099391e5">&#9670;&nbsp;</a></span>render_fixel_colourbar()</h2>
+<a id="a5fb6bfe653fd50741bc6d82d61e10b89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fb6bfe653fd50741bc6d82d61e10b89">&#9670;&nbsp;</a></span>render_fixel_colourbar()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -127,7 +127,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">virtual void MR::GUI::MRView::DisplayableVisitor::render_fixel_colourbar </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_abstract_fixel.html">Tool::AbstractFixel</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_fixel.html">Tool::BaseFixel</a> &amp;&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -138,8 +138,6 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Reimplemented in <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_vector.html#afc83a4ea02fef5594788d7e670a25ca5">MR::GUI::MRView::Tool::Vector</a>.</p>
 
 <p class="definition">Definition at line <a class="el" href="displayable_8h_source.html#l00055">55</a> of file <a class="el" href="displayable_8h_source.html">displayable.h</a>.</p>
 
@@ -169,8 +167,6 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_overlay.html#a732457577037b26a246db3a918bcc0ec">MR::GUI::MRView::Tool::Overlay</a>.</p>
-
 <p class="definition">Definition at line <a class="el" href="displayable_8h_source.html#l00054">54</a> of file <a class="el" href="displayable_8h_source.html">displayable.h</a>.</p>
 
 </div>
@@ -199,8 +195,6 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file_options.html#a69f54abd2313c5bc6fc5a27033f94814">MR::GUI::MRView::Tool::TrackScalarFileOptions</a>.</p>
-
 <p class="definition">Definition at line <a class="el" href="displayable_8h_source.html#l00056">56</a> of file <a class="el" href="displayable_8h_source.html">displayable.h</a>.</p>
 
 </div>
@@ -214,7 +208,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_g_u_i.html">GUI</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_g_u_i_1_1_m_r_view.html">MRView</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_displayable_visitor.html">DisplayableVisitor</a></li>
-    <li class="footer">Generated on Wed Apr 19 2017 09:26:45 for MRtrix by
+    <li class="footer">Generated on Tue May 2 2017 10:45:12 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

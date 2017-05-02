@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-535-g21da6244</div>
+   <div id="projectbrief">Version 3.0_RC1-1-g93f159af</div>
   </td>
  </tr>
  </tbody>
@@ -107,6 +107,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_base.html">Base</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_double_exp_smooth_slope_check.html">DoubleExpSmoothSlopeCheck</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_linear_kernel.html">LinearKernel</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_non_linear_kernel.html">NonLinearKernel</a></td></tr>
@@ -138,19 +140,19 @@ Functions</h2></td></tr>
 <tr class="memitem:a53d596e1e7da282a007104262fed51fa"><td class="memTemplParams" colspan="2">template&lt;class Derived , class ValueType &gt; </td></tr>
 <tr class="memitem:a53d596e1e7da282a007104262fed51fa"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_transform.html#a53d596e1e7da282a007104262fed51fa">param_vec2mat</a> (const Eigen::MatrixBase&lt; Derived &gt; &amp;param_vector, Eigen::Matrix&lt; ValueType, 4, 4 &gt; &amp;transformation_matrix)</td></tr>
 <tr class="separator:a53d596e1e7da282a007104262fed51fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad33dca64fbe2d1c6a82a4faff7f49548"><td class="memItemLeft" align="right" valign="top"><a class="el" href="src_2gui_2mrview_2tool_2connectome_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_transform.html#ad33dca64fbe2d1c6a82a4faff7f49548">aPSF_weights_to_FOD_transform</a> (const int num_SH, const Eigen::MatrixXd &amp;directions)</td></tr>
+<tr class="memitem:ad33dca64fbe2d1c6a82a4faff7f49548"><td class="memItemLeft" align="right" valign="top">FORCE_INLINE Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_transform.html#ad33dca64fbe2d1c6a82a4faff7f49548">aPSF_weights_to_FOD_transform</a> (const int num_SH, const Eigen::MatrixXd &amp;directions)</td></tr>
 <tr class="separator:ad33dca64fbe2d1c6a82a4faff7f49548"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8dd7285b8f1efe039e7b329571cffc06"><td class="memTemplParams" colspan="2">template&lt;class FODImageType &gt; </td></tr>
-<tr class="memitem:a8dd7285b8f1efe039e7b329571cffc06"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_transform.html#a8dd7285b8f1efe039e7b329571cffc06">reorient</a> (FODImageType &amp;input_fod_image, FODImageType &amp;output_fod_image, const <a class="el" href="namespace_m_r.html#a8445ea7a4001a6e8532def9abb86d59e">transform_type</a> &amp;transform, const Eigen::MatrixXd &amp;directions, bool modulate=false)</td></tr>
+<tr class="memitem:a8dd7285b8f1efe039e7b329571cffc06"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_transform.html#a8dd7285b8f1efe039e7b329571cffc06">reorient</a> (FODImageType &amp;input_fod_image, FODImageType &amp;output_fod_image, const transform_type &amp;transform, const Eigen::MatrixXd &amp;directions, bool modulate=false)</td></tr>
 <tr class="separator:a8dd7285b8f1efe039e7b329571cffc06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec6e80f5b8220f8a9a696224ad61a67d"><td class="memTemplParams" colspan="2">template&lt;class FODImageType &gt; </td></tr>
-<tr class="memitem:aec6e80f5b8220f8a9a696224ad61a67d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_transform.html#aec6e80f5b8220f8a9a696224ad61a67d">reorient</a> (const std::string progress_message, FODImageType &amp;input_fod_image, FODImageType &amp;output_fod_image, const <a class="el" href="namespace_m_r.html#a8445ea7a4001a6e8532def9abb86d59e">transform_type</a> &amp;transform, const Eigen::MatrixXd &amp;directions, bool modulate=false)</td></tr>
+<tr class="memitem:aec6e80f5b8220f8a9a696224ad61a67d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_transform.html#aec6e80f5b8220f8a9a696224ad61a67d">reorient</a> (const std::string progress_message, FODImageType &amp;input_fod_image, FODImageType &amp;output_fod_image, const transform_type &amp;transform, const Eigen::MatrixXd &amp;directions, bool modulate=false)</td></tr>
 <tr class="separator:aec6e80f5b8220f8a9a696224ad61a67d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ee2e896ecc201321a9842b04e738361"><td class="memTemplParams" colspan="2">template&lt;class FODImageType &gt; </td></tr>
-<tr class="memitem:a7ee2e896ecc201321a9842b04e738361"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_transform.html#a7ee2e896ecc201321a9842b04e738361">reorient_warp</a> (const std::string progress_message, FODImageType &amp;fod_image, <a class="el" href="class_m_r_1_1_image.html">Image</a>&lt; <a class="el" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a> &gt; &amp;warp, const Eigen::MatrixXd &amp;directions, const bool modulate=false)</td></tr>
+<tr class="memitem:a7ee2e896ecc201321a9842b04e738361"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_transform.html#a7ee2e896ecc201321a9842b04e738361">reorient_warp</a> (const std::string progress_message, FODImageType &amp;fod_image, Image&lt; default_type &gt; &amp;warp, const Eigen::MatrixXd &amp;directions, const bool modulate=false)</td></tr>
 <tr class="separator:a7ee2e896ecc201321a9842b04e738361"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5831c2a1b9d442d401288dcf15eb3ece"><td class="memTemplParams" colspan="2">template&lt;class FODImageType &gt; </td></tr>
-<tr class="memitem:a5831c2a1b9d442d401288dcf15eb3ece"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_transform.html#a5831c2a1b9d442d401288dcf15eb3ece">reorient_warp</a> (FODImageType &amp;fod_image, <a class="el" href="class_m_r_1_1_image.html">Image</a>&lt; <a class="el" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a> &gt; &amp;warp, const Eigen::MatrixXd &amp;directions, const bool modulate=false)</td></tr>
+<tr class="memitem:a5831c2a1b9d442d401288dcf15eb3ece"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_transform.html#a5831c2a1b9d442d401288dcf15eb3ece">reorient_warp</a> (FODImageType &amp;fod_image, Image&lt; default_type &gt; &amp;warp, const Eigen::MatrixXd &amp;directions, const bool modulate=false)</td></tr>
 <tr class="separator:a5831c2a1b9d442d401288dcf15eb3ece"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -161,7 +163,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="src_2gui_2mrview_2tool_2connectome_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> Eigen::MatrixXd MR::Registration::Transform::aPSF_weights_to_FOD_transform </td>
+          <td class="memname">FORCE_INLINE Eigen::MatrixXd MR::Registration::Transform::aPSF_weights_to_FOD_transform </td>
           <td>(</td>
           <td class="paramtype">const int&#160;</td>
           <td class="paramname"><em>num_SH</em>, </td>
@@ -180,7 +182,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="reorient_8h_source.html#l00031">31</a> of file <a class="el" href="reorient_8h_source.html">reorient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="reorient_8h_source.html#l00030">30</a> of file <a class="el" href="reorient_8h_source.html">reorient.h</a>.</p>
 
 </div>
 </div>
@@ -220,7 +222,7 @@ template&lt;class ValueType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="src_2registration_2transform_2base_8h_source.html#l00032">32</a> of file <a class="el" href="src_2registration_2transform_2base_8h_source.html">base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="registration_2transform_2base_8h_source.html#l00033">33</a> of file <a class="el" href="registration_2transform_2base_8h_source.html">base.h</a>.</p>
 
 </div>
 </div>
@@ -260,7 +262,7 @@ template&lt;class ValueType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="src_2registration_2transform_2base_8h_source.html#l00038">38</a> of file <a class="el" href="src_2registration_2transform_2base_8h_source.html">base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="registration_2transform_2base_8h_source.html#l00039">39</a> of file <a class="el" href="registration_2transform_2base_8h_source.html">base.h</a>.</p>
 
 </div>
 </div>
@@ -300,7 +302,7 @@ template&lt;class ValueType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="src_2registration_2transform_2base_8h_source.html#l00044">44</a> of file <a class="el" href="src_2registration_2transform_2base_8h_source.html">base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="registration_2transform_2base_8h_source.html#l00045">45</a> of file <a class="el" href="registration_2transform_2base_8h_source.html">base.h</a>.</p>
 
 </div>
 </div>
@@ -340,7 +342,7 @@ template&lt;class ValueType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="src_2registration_2transform_2base_8h_source.html#l00052">52</a> of file <a class="el" href="src_2registration_2transform_2base_8h_source.html">base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="registration_2transform_2base_8h_source.html#l00053">53</a> of file <a class="el" href="registration_2transform_2base_8h_source.html">base.h</a>.</p>
 
 </div>
 </div>
@@ -380,7 +382,7 @@ template&lt;class Derived , class ValueType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="src_2registration_2transform_2base_8h_source.html#l00060">60</a> of file <a class="el" href="src_2registration_2transform_2base_8h_source.html">base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="registration_2transform_2base_8h_source.html#l00061">61</a> of file <a class="el" href="registration_2transform_2base_8h_source.html">base.h</a>.</p>
 
 </div>
 </div>
@@ -420,7 +422,7 @@ template&lt;class Derived , class ValueType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="src_2registration_2transform_2base_8h_source.html#l00066">66</a> of file <a class="el" href="src_2registration_2transform_2base_8h_source.html">base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="registration_2transform_2base_8h_source.html#l00067">67</a> of file <a class="el" href="registration_2transform_2base_8h_source.html">base.h</a>.</p>
 
 </div>
 </div>
@@ -447,7 +449,7 @@ template&lt;class FODImageType &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespace_m_r.html#a8445ea7a4001a6e8532def9abb86d59e">transform_type</a> &amp;&#160;</td>
+          <td class="paramtype">const transform_type &amp;&#160;</td>
           <td class="paramname"><em>transform</em>, </td>
         </tr>
         <tr>
@@ -470,7 +472,7 @@ template&lt;class FODImageType &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="reorient_8h_source.html#l00084">84</a> of file <a class="el" href="reorient_8h_source.html">reorient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="reorient_8h_source.html#l00087">87</a> of file <a class="el" href="reorient_8h_source.html">reorient.h</a>.</p>
 
 </div>
 </div>
@@ -503,7 +505,7 @@ template&lt;class FODImageType &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespace_m_r.html#a8445ea7a4001a6e8532def9abb86d59e">transform_type</a> &amp;&#160;</td>
+          <td class="paramtype">const transform_type &amp;&#160;</td>
           <td class="paramname"><em>transform</em>, </td>
         </tr>
         <tr>
@@ -526,7 +528,7 @@ template&lt;class FODImageType &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="reorient_8h_source.html#l00101">101</a> of file <a class="el" href="reorient_8h_source.html">reorient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="reorient_8h_source.html#l00104">104</a> of file <a class="el" href="reorient_8h_source.html">reorient.h</a>.</p>
 
 </div>
 </div>
@@ -553,7 +555,7 @@ template&lt;class FODImageType &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_m_r_1_1_image.html">Image</a>&lt; <a class="el" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a> &gt; &amp;&#160;</td>
+          <td class="paramtype">Image&lt; default_type &gt; &amp;&#160;</td>
           <td class="paramname"><em>warp</em>, </td>
         </tr>
         <tr>
@@ -576,7 +578,7 @@ template&lt;class FODImageType &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="reorient_8h_source.html#l00164">164</a> of file <a class="el" href="reorient_8h_source.html">reorient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="reorient_8h_source.html#l00170">170</a> of file <a class="el" href="reorient_8h_source.html">reorient.h</a>.</p>
 
 </div>
 </div>
@@ -597,7 +599,7 @@ template&lt;class FODImageType &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_m_r_1_1_image.html">Image</a>&lt; <a class="el" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a> &gt; &amp;&#160;</td>
+          <td class="paramtype">Image&lt; default_type &gt; &amp;&#160;</td>
           <td class="paramname"><em>warp</em>, </td>
         </tr>
         <tr>
@@ -620,7 +622,7 @@ template&lt;class FODImageType &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="reorient_8h_source.html#l00177">177</a> of file <a class="el" href="reorient_8h_source.html">reorient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="reorient_8h_source.html#l00183">183</a> of file <a class="el" href="reorient_8h_source.html">reorient.h</a>.</p>
 
 </div>
 </div>
@@ -630,7 +632,7 @@ template&lt;class FODImageType &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_registration.html">Registration</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_registration_1_1_transform.html">Transform</a></li>
-    <li class="footer">Generated on Wed Apr 19 2017 09:26:46 for MRtrix by
+    <li class="footer">Generated on Tue May 2 2017 10:45:13 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

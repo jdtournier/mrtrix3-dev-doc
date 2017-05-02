@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-535-g21da6244</div>
+   <div id="projectbrief">Version 3.0_RC1-1-g93f159af</div>
   </td>
  </tr>
  </tbody>
@@ -82,6 +82,7 @@ $(document).ready(function(){initNavTree('struct_m_r_1_1_d_w_i_1_1_tractography_
 
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_properties-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -91,10 +92,13 @@ $(document).ready(function(){initNavTree('struct_m_r_1_1_d_w_i_1_1_tractography_
 
 <p><code>#include &quot;<a class="el" href="gt_8h_source.html">dwi/tractography/GT/gt.h</a>&quot;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:af520f12b5ab2969d0a0dae7f6368cc2f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_properties.html#af520f12b5ab2969d0a0dae7f6368cc2f">MEMALIGN</a> (<a class="el" href="struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_properties.html">Properties</a>) float p_birth</td></tr>
+<tr class="separator:af520f12b5ab2969d0a0dae7f6368cc2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a8fe14411f55360edf3d9d1f2429e5ebc"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_properties.html#a8fe14411f55360edf3d9d1f2429e5ebc">p_birth</a></td></tr>
-<tr class="separator:a8fe14411f55360edf3d9d1f2429e5ebc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51bbc8bc7413998867a1fc0f3c29aaed"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_properties.html#a51bbc8bc7413998867a1fc0f3c29aaed">p_death</a></td></tr>
 <tr class="separator:a51bbc8bc7413998867a1fc0f3c29aaed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c10a8023099ffd0fdf0dc6d1126e43f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_properties.html#a6c10a8023099ffd0fdf0dc6d1126e43f">p_shift</a></td></tr>
@@ -119,13 +123,32 @@ Public Attributes</h2></td></tr>
 <tr class="separator:aec70447438f2431577078bdc3c68e1c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada666bde69dfeecf90c58baa72a467cf"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXf&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_properties.html#ada666bde69dfeecf90c58baa72a467cf">resp_WM</a></td></tr>
 <tr class="separator:ada666bde69dfeecf90c58baa72a467cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3829d304da2942531c4b4c0a672d469"><td class="memItemLeft" align="right" valign="top">std::vector&lt; Eigen::VectorXf &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_properties.html#ac3829d304da2942531c4b4c0a672d469">resp_ISO</a></td></tr>
-<tr class="separator:ac3829d304da2942531c4b4c0a672d469"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca14d658081a05408252e95ca96faa19"><td class="memItemLeft" align="right" valign="top">vector&lt; Eigen::VectorXf &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_properties.html#aca14d658081a05408252e95ca96faa19">resp_ISO</a></td></tr>
+<tr class="separator:aca14d658081a05408252e95ca96faa19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="gt_8h_source.html#l00041">41</a> of file <a class="el" href="gt_8h_source.html">gt.h</a>.</p>
-</div><h2 class="groupheader">Member Data Documentation</h2>
+<p class="definition">Definition at line <a class="el" href="gt_8h_source.html#l00040">40</a> of file <a class="el" href="gt_8h_source.html">gt.h</a>.</p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="af520f12b5ab2969d0a0dae7f6368cc2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af520f12b5ab2969d0a0dae7f6368cc2f">&#9670;&nbsp;</a></span>MEMALIGN()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::DWI::Tractography::GT::Properties::MEMALIGN </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_properties.html">Properties</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
 <a id="a99538d82bf759a7593b00f354db86e40"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a99538d82bf759a7593b00f354db86e40">&#9670;&nbsp;</a></span>beta</h2>
 
@@ -138,7 +161,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gt_8h_source.html#l00056">56</a> of file <a class="el" href="gt_8h_source.html">gt.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gt_8h_source.html#l00055">55</a> of file <a class="el" href="gt_8h_source.html">gt.h</a>.</p>
 
 </div>
 </div>
@@ -154,7 +177,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gt_8h_source.html#l00049">49</a> of file <a class="el" href="gt_8h_source.html">gt.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gt_8h_source.html#l00048">48</a> of file <a class="el" href="gt_8h_source.html">gt.h</a>.</p>
 
 </div>
 </div>
@@ -170,7 +193,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gt_8h_source.html#l00053">53</a> of file <a class="el" href="gt_8h_source.html">gt.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gt_8h_source.html#l00052">52</a> of file <a class="el" href="gt_8h_source.html">gt.h</a>.</p>
 
 </div>
 </div>
@@ -186,7 +209,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gt_8h_source.html#l00054">54</a> of file <a class="el" href="gt_8h_source.html">gt.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gt_8h_source.html#l00053">53</a> of file <a class="el" href="gt_8h_source.html">gt.h</a>.</p>
 
 </div>
 </div>
@@ -202,23 +225,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gt_8h_source.html#l00051">51</a> of file <a class="el" href="gt_8h_source.html">gt.h</a>.</p>
-
-</div>
-</div>
-<a id="a8fe14411f55360edf3d9d1f2429e5ebc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8fe14411f55360edf3d9d1f2429e5ebc">&#9670;&nbsp;</a></span>p_birth</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float MR::DWI::Tractography::GT::Properties::p_birth</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="gt_8h_source.html#l00043">43</a> of file <a class="el" href="gt_8h_source.html">gt.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gt_8h_source.html#l00050">50</a> of file <a class="el" href="gt_8h_source.html">gt.h</a>.</p>
 
 </div>
 </div>
@@ -234,7 +241,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gt_8h_source.html#l00047">47</a> of file <a class="el" href="gt_8h_source.html">gt.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gt_8h_source.html#l00046">46</a> of file <a class="el" href="gt_8h_source.html">gt.h</a>.</p>
 
 </div>
 </div>
@@ -250,7 +257,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gt_8h_source.html#l00044">44</a> of file <a class="el" href="gt_8h_source.html">gt.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gt_8h_source.html#l00043">43</a> of file <a class="el" href="gt_8h_source.html">gt.h</a>.</p>
 
 </div>
 </div>
@@ -266,7 +273,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gt_8h_source.html#l00046">46</a> of file <a class="el" href="gt_8h_source.html">gt.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gt_8h_source.html#l00045">45</a> of file <a class="el" href="gt_8h_source.html">gt.h</a>.</p>
 
 </div>
 </div>
@@ -282,7 +289,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gt_8h_source.html#l00045">45</a> of file <a class="el" href="gt_8h_source.html">gt.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gt_8h_source.html#l00044">44</a> of file <a class="el" href="gt_8h_source.html">gt.h</a>.</p>
 
 </div>
 </div>
@@ -298,23 +305,23 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gt_8h_source.html#l00057">57</a> of file <a class="el" href="gt_8h_source.html">gt.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gt_8h_source.html#l00056">56</a> of file <a class="el" href="gt_8h_source.html">gt.h</a>.</p>
 
 </div>
 </div>
-<a id="ac3829d304da2942531c4b4c0a672d469"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac3829d304da2942531c4b4c0a672d469">&#9670;&nbsp;</a></span>resp_ISO</h2>
+<a id="aca14d658081a05408252e95ca96faa19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca14d658081a05408252e95ca96faa19">&#9670;&nbsp;</a></span>resp_ISO</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt; Eigen::VectorXf &gt; MR::DWI::Tractography::GT::Properties::resp_ISO</td>
+          <td class="memname">vector&lt; Eigen::VectorXf &gt; MR::DWI::Tractography::GT::Properties::resp_ISO</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gt_8h_source.html#l00060">60</a> of file <a class="el" href="gt_8h_source.html">gt.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gt_8h_source.html#l00059">59</a> of file <a class="el" href="gt_8h_source.html">gt.h</a>.</p>
 
 </div>
 </div>
@@ -330,7 +337,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gt_8h_source.html#l00059">59</a> of file <a class="el" href="gt_8h_source.html">gt.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gt_8h_source.html#l00058">58</a> of file <a class="el" href="gt_8h_source.html">gt.h</a>.</p>
 
 </div>
 </div>
@@ -346,7 +353,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gt_8h_source.html#l00050">50</a> of file <a class="el" href="gt_8h_source.html">gt.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gt_8h_source.html#l00049">49</a> of file <a class="el" href="gt_8h_source.html">gt.h</a>.</p>
 
 </div>
 </div>
@@ -359,7 +366,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_d_w_i.html">DWI</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography.html">Tractography</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t.html">GT</a></li><li class="navelem"><a class="el" href="struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_properties.html">Properties</a></li>
-    <li class="footer">Generated on Wed Apr 19 2017 09:26:44 for MRtrix by
+    <li class="footer">Generated on Tue May 2 2017 10:45:12 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

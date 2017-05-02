@@ -1,9 +1,9 @@
 var class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer =
 [
     [ "Dixel", "class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_dixel.html", "class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_dixel" ],
-    [ "SH", "class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_s_h.html", "class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_s_h" ],
+    [ "SH", "class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_s_h.html", null ],
     [ "Shader", "class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_shader.html", "class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_shader" ],
-    [ "Tensor", "class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_tensor.html", "class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_tensor" ],
+    [ "Tensor", "class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_tensor.html", null ],
     [ "mode_t", "class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer.html#aea2f0896bcbc95a6747341721a2db3ee", [
       [ "SH", "class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer.html#aea2f0896bcbc95a6747341721a2db3eeaec5704f0d56945d1e5b8f9a2384a2b4b", null ],
       [ "TENSOR", "class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer.html#aea2f0896bcbc95a6747341721a2db3eeace2f94540fa9914e8fe6f0de9817717b", null ],

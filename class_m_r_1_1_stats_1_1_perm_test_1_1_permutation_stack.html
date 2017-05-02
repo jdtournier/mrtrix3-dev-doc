@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-535-g21da6244</div>
+   <div id="projectbrief">Version 3.0_RC1-1-g93f159af</div>
   </td>
  </tr>
  </tbody>
@@ -82,8 +82,6 @@ $(document).ready(function(){initNavTree('class_m_r_1_1_stats_1_1_perm_test_1_1_
 
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="class_m_r_1_1_stats_1_1_perm_test_1_1_permutation_stack-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -91,39 +89,23 @@ $(document).ready(function(){initNavTree('class_m_r_1_1_stats_1_1_perm_test_1_1_
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="permtest_8h_source.html">stats/permtest.h</a>&quot;</code></p>
+<p><code>#include &quot;<a class="el" href="permstack_8h_source.html">stats/permstack.h</a>&quot;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a5f9e04b41e1fcc054304951fb308905e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_permutation_stack.html#a5f9e04b41e1fcc054304951fb308905e">PermutationStack</a> (size_t <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_permutation_stack.html#a4946a89d657c72e7a9853c605b9280ce">num_permutations</a>, size_t num_samples, std::string msg, bool include_default=true)</td></tr>
-<tr class="separator:a5f9e04b41e1fcc054304951fb308905e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac71d5af6516c0d517217d9a01c5cf85d"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_permutation_stack.html#ac71d5af6516c0d517217d9a01c5cf85d">next</a> ()</td></tr>
-<tr class="separator:ac71d5af6516c0d517217d9a01c5cf85d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6028eb2eed0b2412ea689de2f446a4b"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; size_t &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_permutation_stack.html#ac6028eb2eed0b2412ea689de2f446a4b">permutation</a> (size_t index) const</td></tr>
-<tr class="separator:ac6028eb2eed0b2412ea689de2f446a4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a4946a89d657c72e7a9853c605b9280ce"><td class="memItemLeft" align="right" valign="top">const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_permutation_stack.html#a4946a89d657c72e7a9853c605b9280ce">num_permutations</a></td></tr>
-<tr class="separator:a4946a89d657c72e7a9853c605b9280ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a7ae6884eadca849cdc239a8a77ddc633"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_permutation_stack.html#a7ae6884eadca849cdc239a8a77ddc633">current_permutation</a></td></tr>
-<tr class="separator:a7ae6884eadca849cdc239a8a77ddc633"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d25255470812a8d87ff91553a1f4c0c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_r_1_1_progress_bar.html">ProgressBar</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_permutation_stack.html#a2d25255470812a8d87ff91553a1f4c0c">progress</a></td></tr>
+<tr class="memitem:acff498daaff36db16c7273948e8b4a2c"><td class="memItemLeft" align="right" valign="top">vector&lt; vector&lt; size_t &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_permutation_stack.html#acff498daaff36db16c7273948e8b4a2c">permutations</a></td></tr>
+<tr class="separator:acff498daaff36db16c7273948e8b4a2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a871d0ecdd4c985f7403538c841dd914e"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_permutation_stack.html#a871d0ecdd4c985f7403538c841dd914e">counter</a></td></tr>
+<tr class="separator:a871d0ecdd4c985f7403538c841dd914e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d25255470812a8d87ff91553a1f4c0c"><td class="memItemLeft" align="right" valign="top">ProgressBar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_permutation_stack.html#a2d25255470812a8d87ff91553a1f4c0c">progress</a></td></tr>
 <tr class="separator:a2d25255470812a8d87ff91553a1f4c0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6ec7f9d85f8211bcbddb9450f5999ff"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; size_t &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_permutation_stack.html#ad6ec7f9d85f8211bcbddb9450f5999ff">permutations</a></td></tr>
-<tr class="separator:ad6ec7f9d85f8211bcbddb9450f5999ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a358b57db0ef3ad2134dc0d4acd759709"><td class="memItemLeft" align="right" valign="top">std::mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_permutation_stack.html#a358b57db0ef3ad2134dc0d4acd759709">permutation_mutex</a></td></tr>
-<tr class="separator:a358b57db0ef3ad2134dc0d4acd759709"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="permtest_8h_source.html#l00036">36</a> of file <a class="el" href="permtest_8h_source.html">permtest.h</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a5f9e04b41e1fcc054304951fb308905e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5f9e04b41e1fcc054304951fb308905e">&#9670;&nbsp;</a></span>PermutationStack()</h2>
+<p class="definition">Definition at line <a class="el" href="permstack_8h_source.html#l00041">41</a> of file <a class="el" href="permstack_8h_source.html">permstack.h</a>.</p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="a871d0ecdd4c985f7403538c841dd914e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a871d0ecdd4c985f7403538c841dd914e">&#9670;&nbsp;</a></span>counter</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -132,114 +114,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">MR::Stats::PermTest::PermutationStack::PermutationStack </td>
-          <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>num_permutations</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>num_samples</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>msg</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>include_default</em> = <code>true</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="permtest_8h_source.html#l00038">38</a> of file <a class="el" href="permtest_8h_source.html">permtest.h</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="ac71d5af6516c0d517217d9a01c5cf85d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac71d5af6516c0d517217d9a01c5cf85d">&#9670;&nbsp;</a></span>next()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">size_t MR::Stats::PermTest::PermutationStack::next </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="permtest_8h_source.html#l00045">45</a> of file <a class="el" href="permtest_8h_source.html">permtest.h</a>.</p>
-
-</div>
-</div>
-<a id="ac6028eb2eed0b2412ea689de2f446a4b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac6028eb2eed0b2412ea689de2f446a4b">&#9670;&nbsp;</a></span>permutation()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const std::vector&lt;size_t&gt;&amp; MR::Stats::PermTest::PermutationStack::permutation </td>
-          <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>index</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="permtest_8h_source.html#l00052">52</a> of file <a class="el" href="permtest_8h_source.html">permtest.h</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a7ae6884eadca849cdc239a8a77ddc633"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7ae6884eadca849cdc239a8a77ddc633">&#9670;&nbsp;</a></span>current_permutation</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">size_t MR::Stats::PermTest::PermutationStack::current_permutation</td>
+          <td class="memname">size_t MR::Stats::PermTest::PermutationStack::counter</td>
         </tr>
       </table>
   </td>
@@ -249,28 +124,12 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="permtest_8h_source.html#l00059">59</a> of file <a class="el" href="permtest_8h_source.html">permtest.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="permstack_8h_source.html#l00058">58</a> of file <a class="el" href="permstack_8h_source.html">permstack.h</a>.</p>
 
 </div>
 </div>
-<a id="a4946a89d657c72e7a9853c605b9280ce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4946a89d657c72e7a9853c605b9280ce">&#9670;&nbsp;</a></span>num_permutations</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const size_t MR::Stats::PermTest::PermutationStack::num_permutations</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="permtest_8h_source.html#l00056">56</a> of file <a class="el" href="permtest_8h_source.html">permtest.h</a>.</p>
-
-</div>
-</div>
-<a id="a358b57db0ef3ad2134dc0d4acd759709"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a358b57db0ef3ad2134dc0d4acd759709">&#9670;&nbsp;</a></span>permutation_mutex</h2>
+<a id="acff498daaff36db16c7273948e8b4a2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acff498daaff36db16c7273948e8b4a2c">&#9670;&nbsp;</a></span>permutations</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -279,7 +138,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::mutex MR::Stats::PermTest::PermutationStack::permutation_mutex</td>
+          <td class="memname">vector&lt; vector&lt;size_t&gt; &gt; MR::Stats::PermTest::PermutationStack::permutations</td>
         </tr>
       </table>
   </td>
@@ -289,31 +148,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="permtest_8h_source.html#l00062">62</a> of file <a class="el" href="permtest_8h_source.html">permtest.h</a>.</p>
-
-</div>
-</div>
-<a id="ad6ec7f9d85f8211bcbddb9450f5999ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad6ec7f9d85f8211bcbddb9450f5999ff">&#9670;&nbsp;</a></span>permutations</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;std::vector&lt;size_t&gt; &gt; MR::Stats::PermTest::PermutationStack::permutations</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="permtest_8h_source.html#l00061">61</a> of file <a class="el" href="permtest_8h_source.html">permtest.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="permstack_8h_source.html#l00057">57</a> of file <a class="el" href="permstack_8h_source.html">permstack.h</a>.</p>
 
 </div>
 </div>
@@ -327,7 +162,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_m_r_1_1_progress_bar.html">ProgressBar</a> MR::Stats::PermTest::PermutationStack::progress</td>
+          <td class="memname">ProgressBar MR::Stats::PermTest::PermutationStack::progress</td>
         </tr>
       </table>
   </td>
@@ -337,12 +172,12 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="permtest_8h_source.html#l00060">60</a> of file <a class="el" href="permtest_8h_source.html">permtest.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="permstack_8h_source.html#l00059">59</a> of file <a class="el" href="permstack_8h_source.html">permstack.h</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>src/stats/<a class="el" href="permtest_8h_source.html">permtest.h</a></li>
+<li>src/stats/<a class="el" href="permstack_8h_source.html">permstack.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -350,7 +185,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_stats.html">Stats</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_stats_1_1_perm_test.html">PermTest</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_permutation_stack.html">PermutationStack</a></li>
-    <li class="footer">Generated on Wed Apr 19 2017 09:26:46 for MRtrix by
+    <li class="footer">Generated on Tue May 2 2017 10:45:13 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

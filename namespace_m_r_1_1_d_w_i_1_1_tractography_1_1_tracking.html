@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-535-g21da6244</div>
+   <div id="projectbrief">Version 3.0_RC1-1-g93f159af</div>
   </td>
  </tr>
  </tbody>
@@ -93,6 +93,8 @@ $(document).ready(function(){initNavTree('namespace_m_r_1_1_d_w_i_1_1_tractograp
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_early_exit.html">EarlyExit</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_exec.html">Exec</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_generated_track.html">GeneratedTrack</a></td></tr>
@@ -111,7 +113,7 @@ Enumerations</h2></td></tr>
 <tr class="memitem:a1c30c67185585a9f27b5a581050292f5"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#a1c30c67185585a9f27b5a581050292f5">term_t</a> { <br />
 &#160;&#160;<a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#a1c30c67185585a9f27b5a581050292f5ac24cc98373fa725c1bbbffc65732692c">CONTINUE</a>, 
 <a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#a1c30c67185585a9f27b5a581050292f5a41476e5cbd2fd9b07edb6a532b273ceb">ENTER_CGM</a>, 
-<a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#a1c30c67185585a9f27b5a581050292f5a9c1ee662e1227f28b34f7ec607e77fb2">CALIBRATE_FAIL</a>, 
+<a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#a1c30c67185585a9f27b5a581050292f5a77264fab7e191454f7ae9cd1d11a304c">CALIBRATOR</a>, 
 <a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#a1c30c67185585a9f27b5a581050292f5aabadd272a0347e83a65f6125b9d403ac">EXIT_IMAGE</a>, 
 <br />
 &#160;&#160;<a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#a1c30c67185585a9f27b5a581050292f5ad9b7b45b949c70e2c1627c69f1cd4612">ENTER_CSF</a>, 
@@ -129,12 +131,13 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="separator:a1c30c67185585a9f27b5a581050292f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad956382fab3ffe08fe6398044e9ae01a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#ad956382fab3ffe08fe6398044e9ae01a">reject_t</a> { <br />
-&#160;&#160;<a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#ad956382fab3ffe08fe6398044e9ae01aadb02eb15e5c13335c1593cb74a494ec5">NO_PROPAGATION_FROM_SEED</a>, 
+&#160;&#160;<a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#ad956382fab3ffe08fe6398044e9ae01aa2acaab217db03031c902ec7b623147fa">INVALID_SEED</a>, 
+<a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#ad956382fab3ffe08fe6398044e9ae01aadb02eb15e5c13335c1593cb74a494ec5">NO_PROPAGATION_FROM_SEED</a>, 
 <a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#ad956382fab3ffe08fe6398044e9ae01aa0754d23485a2ac2d2616e14debf5f993">TRACK_TOO_SHORT</a>, 
 <a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#ad956382fab3ffe08fe6398044e9ae01aaf97cf82fd334b4924a364f43c60cb757">TRACK_TOO_LONG</a>, 
-<a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#ad956382fab3ffe08fe6398044e9ae01aa81d3e19b49229c733d59150913f11a39">ENTER_EXCLUDE_REGION</a>, 
 <br />
-&#160;&#160;<a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#ad956382fab3ffe08fe6398044e9ae01aaa6e5c2f37d6a19dc5ce2930b42f80d76">MISSED_INCLUDE_REGION</a>, 
+&#160;&#160;<a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#ad956382fab3ffe08fe6398044e9ae01aa81d3e19b49229c733d59150913f11a39">ENTER_EXCLUDE_REGION</a>, 
+<a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#ad956382fab3ffe08fe6398044e9ae01aaa6e5c2f37d6a19dc5ce2930b42f80d76">MISSED_INCLUDE_REGION</a>, 
 <a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#ad956382fab3ffe08fe6398044e9ae01aaef14026f7b7875a6e2d7e8aac0879e03">ACT_POOR_TERMINATION</a>, 
 <a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#ad956382fab3ffe08fe6398044e9ae01aad13a4cb971480a8a9055acd9683fd145">ACT_FAILED_WM_REQUIREMENT</a>
 <br />
@@ -148,7 +151,7 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a81f5feaac85eccf848e0a63c7b43edd6"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_m_r_1_1_app_1_1_option_group.html">App::OptionGroup</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#a81f5feaac85eccf848e0a63c7b43edd6">TrackOption</a></td></tr>
+<tr class="memitem:a81f5feaac85eccf848e0a63c7b43edd6"><td class="memItemLeft" align="right" valign="top">const App::OptionGroup&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#a81f5feaac85eccf848e0a63c7b43edd6">TrackOption</a></td></tr>
 <tr class="separator:a81f5feaac85eccf848e0a63c7b43edd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5152527c1230048300e584eeaea3b29"><td class="memItemLeft" align="right" valign="top">const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#ae5152527c1230048300e584eeaea3b29">term_add_to_tck</a> [13] = { 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1 }</td></tr>
 <tr class="separator:ae5152527c1230048300e584eeaea3b29"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -166,7 +169,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ad956382fab3ffe08fe6398044e9ae01aadb02eb15e5c13335c1593cb74a494ec5"></a>NO_PROPAGATION_FROM_SEED&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ad956382fab3ffe08fe6398044e9ae01aa2acaab217db03031c902ec7b623147fa"></a>INVALID_SEED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad956382fab3ffe08fe6398044e9ae01aadb02eb15e5c13335c1593cb74a494ec5"></a>NO_PROPAGATION_FROM_SEED&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ad956382fab3ffe08fe6398044e9ae01aa0754d23485a2ac2d2616e14debf5f993"></a>TRACK_TOO_SHORT&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ad956382fab3ffe08fe6398044e9ae01aaf97cf82fd334b4924a364f43c60cb757"></a>TRACK_TOO_LONG&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ad956382fab3ffe08fe6398044e9ae01aa81d3e19b49229c733d59150913f11a39"></a>ENTER_EXCLUDE_REGION&#160;</td><td class="fielddoc"></td></tr>
@@ -175,7 +179,7 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="ad956382fab3ffe08fe6398044e9ae01aad13a4cb971480a8a9055acd9683fd145"></a>ACT_FAILED_WM_REQUIREMENT&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="src_2dwi_2tractography_2tracking_2types_8h_source.html#l00043">43</a> of file <a class="el" href="src_2dwi_2tractography_2tracking_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dwi_2tractography_2tracking_2types_8h_source.html#l00042">42</a> of file <a class="el" href="dwi_2tractography_2tracking_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -193,7 +197,7 @@ Variables</h2></td></tr>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a1c30c67185585a9f27b5a581050292f5ac24cc98373fa725c1bbbffc65732692c"></a>CONTINUE&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a1c30c67185585a9f27b5a581050292f5a41476e5cbd2fd9b07edb6a532b273ceb"></a>ENTER_CGM&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a1c30c67185585a9f27b5a581050292f5a9c1ee662e1227f28b34f7ec607e77fb2"></a>CALIBRATE_FAIL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a1c30c67185585a9f27b5a581050292f5a77264fab7e191454f7ae9cd1d11a304c"></a>CALIBRATOR&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a1c30c67185585a9f27b5a581050292f5aabadd272a0347e83a65f6125b9d403ac"></a>EXIT_IMAGE&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a1c30c67185585a9f27b5a581050292f5ad9b7b45b949c70e2c1627c69f1cd4612"></a>ENTER_CSF&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a1c30c67185585a9f27b5a581050292f5a0a916fd7873519f3a6795211891d0ecb"></a>BAD_SIGNAL&#160;</td><td class="fielddoc"></td></tr>
@@ -206,7 +210,7 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a1c30c67185585a9f27b5a581050292f5a763bf8bed07f3e965b6a3a054a48987f"></a>TRAVERSE_ALL_INCLUDE&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="src_2dwi_2tractography_2tracking_2types_8h_source.html#l00036">36</a> of file <a class="el" href="src_2dwi_2tractography_2tracking_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dwi_2tractography_2tracking_2types_8h_source.html#l00035">35</a> of file <a class="el" href="dwi_2tractography_2tracking_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -242,7 +246,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="src_2dwi_2tractography_2tracking_2types_8h_source.html#l00041">41</a> of file <a class="el" href="src_2dwi_2tractography_2tracking_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dwi_2tractography_2tracking_2types_8h_source.html#l00040">40</a> of file <a class="el" href="dwi_2tractography_2tracking_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -253,7 +257,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="class_m_r_1_1_app_1_1_option_group.html">App::OptionGroup</a> MR::DWI::Tractography::Tracking::TrackOption</td>
+          <td class="memname">const App::OptionGroup MR::DWI::Tractography::Tracking::TrackOption</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -266,7 +270,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_d_w_i.html">DWI</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography.html">Tractography</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html">Tracking</a></li>
-    <li class="footer">Generated on Wed Apr 19 2017 09:26:45 for MRtrix by
+    <li class="footer">Generated on Tue May 2 2017 10:45:12 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

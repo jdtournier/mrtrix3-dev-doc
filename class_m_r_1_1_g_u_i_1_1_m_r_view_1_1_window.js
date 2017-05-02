@@ -3,7 +3,7 @@ var class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_window =
     [ "Window", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_window.html#a7009365c141f07c2a59bf55c1d48b21c", null ],
     [ "~Window", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_window.html#a1547cc32f2c75253bc652a051783a4c0", null ],
     [ "add_commandline_options", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_window.html#a3abfe6a3f7770ffa2156f8bb5b5437a9", null ],
-    [ "add_images", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_window.html#a1e4fe6a8c9c1abf5c4fe7147b9ae22a1", null ],
+    [ "add_images", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_window.html#a8807e9052ddd8cb9b7139aedf90edaa3", null ],
     [ "captureGL", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_window.html#acb0110380cbab7010640d4183245b01c", null ],
     [ "drawGL", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_window.html#ab45ab2555f63d53ca9f32c4170a496bf", null ],
     [ "fieldOfViewChanged", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_window.html#ac67fbe206d7d1b0413f91cc193c77e20", null ],

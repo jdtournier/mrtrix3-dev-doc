@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-535-g21da6244</div>
+   <div id="projectbrief">Version 3.0_RC1-1-g93f159af</div>
   </td>
  </tr>
  </tbody>
@@ -82,7 +82,6 @@ $(document).ready(function(){initNavTree('class_m_r_1_1_registration_1_1_transfo
 
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="class_m_r_1_1_registration_1_1_transform_1_1_linear_kernel-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -92,27 +91,22 @@ $(document).ready(function(){initNavTree('class_m_r_1_1_registration_1_1_transfo
 
 <p><code>#include &quot;<a class="el" href="reorient_8h_source.html">registration/transform/reorient.h</a>&quot;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:ab37e23b0ee7f191918c0a0161bbe5524"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_linear_kernel.html#ab37e23b0ee7f191918c0a0161bbe5524">LinearKernel</a> (const ssize_t n_SH, const <a class="el" href="namespace_m_r.html#a8445ea7a4001a6e8532def9abb86d59e">transform_type</a> &amp;linear_transform, const Eigen::MatrixXd &amp;directions, const bool modulate)</td></tr>
-<tr class="separator:ab37e23b0ee7f191918c0a0161bbe5524"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d883f9aaa51a5c332c1784ffe16ac56"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_linear_kernel.html#a5d883f9aaa51a5c332c1784ffe16ac56">operator()</a> (FODImageType &amp;in, FODImageType &amp;out)</td></tr>
-<tr class="separator:a5d883f9aaa51a5c332c1784ffe16ac56"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:aceb87b8404fd5acdd4f27a2a53f1691d"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix&lt; typename FODImageType::value_type, Eigen::Dynamic, Eigen::Dynamic &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_linear_kernel.html#aceb87b8404fd5acdd4f27a2a53f1691d">transform</a></td></tr>
-<tr class="separator:aceb87b8404fd5acdd4f27a2a53f1691d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d31cd87d343d5cfc57d9b89aeb4bb56"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_linear_kernel.html#a0d31cd87d343d5cfc57d9b89aeb4bb56">transform</a></td></tr>
+<tr class="separator:a0d31cd87d343d5cfc57d9b89aeb4bb56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35f7433c31eb45545f5eae7eb003003b"><td class="memItemLeft" align="right" valign="top">Eigen::VectorXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_linear_kernel.html#a35f7433c31eb45545f5eae7eb003003b">fod</a></td></tr>
+<tr class="separator:a35f7433c31eb45545f5eae7eb003003b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;class FODImageType&gt;<br />
 class MR::Registration::Transform::LinearKernel&lt; FODImageType &gt;</h3>
 
 
-<p class="definition">Definition at line <a class="el" href="reorient_8h_source.html#l00045">45</a> of file <a class="el" href="reorient_8h_source.html">reorient.h</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ab37e23b0ee7f191918c0a0161bbe5524"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab37e23b0ee7f191918c0a0161bbe5524">&#9670;&nbsp;</a></span>LinearKernel()</h2>
+<p class="definition">Definition at line <a class="el" href="reorient_8h_source.html#l00044">44</a> of file <a class="el" href="reorient_8h_source.html">reorient.h</a>.</p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="a35f7433c31eb45545f5eae7eb003003b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35f7433c31eb45545f5eae7eb003003b">&#9670;&nbsp;</a></span>fod</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -123,101 +117,7 @@ template&lt;class FODImageType &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_linear_kernel.html">MR::Registration::Transform::LinearKernel</a>&lt; FODImageType &gt;::<a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_linear_kernel.html">LinearKernel</a> </td>
-          <td>(</td>
-          <td class="paramtype">const ssize_t&#160;</td>
-          <td class="paramname"><em>n_SH</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="namespace_m_r.html#a8445ea7a4001a6e8532def9abb86d59e">transform_type</a> &amp;&#160;</td>
-          <td class="paramname"><em>linear_transform</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const Eigen::MatrixXd &amp;&#160;</td>
-          <td class="paramname"><em>directions</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const bool&#160;</td>
-          <td class="paramname"><em>modulate</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="reorient_8h_source.html#l00048">48</a> of file <a class="el" href="reorient_8h_source.html">reorient.h</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a5d883f9aaa51a5c332c1784ffe16ac56"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5d883f9aaa51a5c332c1784ffe16ac56">&#9670;&nbsp;</a></span>operator()()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class FODImageType &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_linear_kernel.html">MR::Registration::Transform::LinearKernel</a>&lt; FODImageType &gt;::operator() </td>
-          <td>(</td>
-          <td class="paramtype">FODImageType &amp;&#160;</td>
-          <td class="paramname"><em>in</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">FODImageType &amp;&#160;</td>
-          <td class="paramname"><em>out</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="reorient_8h_source.html#l00067">67</a> of file <a class="el" href="reorient_8h_source.html">reorient.h</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="aceb87b8404fd5acdd4f27a2a53f1691d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aceb87b8404fd5acdd4f27a2a53f1691d">&#9670;&nbsp;</a></span>transform</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class FODImageType &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Eigen::Matrix&lt;typename FODImageType::value_type, Eigen::Dynamic, Eigen::Dynamic&gt; <a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_linear_kernel.html">MR::Registration::Transform::LinearKernel</a>&lt; FODImageType &gt;::transform</td>
+          <td class="memname">Eigen::VectorXd <a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_linear_kernel.html">MR::Registration::Transform::LinearKernel</a>&lt; FODImageType &gt;::fod</td>
         </tr>
       </table>
   </td>
@@ -227,7 +127,33 @@ template&lt;class FODImageType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="reorient_8h_source.html#l00075">75</a> of file <a class="el" href="reorient_8h_source.html">reorient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="reorient_8h_source.html#l00078">78</a> of file <a class="el" href="reorient_8h_source.html">reorient.h</a>.</p>
+
+</div>
+</div>
+<a id="a0d31cd87d343d5cfc57d9b89aeb4bb56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d31cd87d343d5cfc57d9b89aeb4bb56">&#9670;&nbsp;</a></span>transform</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class FODImageType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::MatrixXd <a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_linear_kernel.html">MR::Registration::Transform::LinearKernel</a>&lt; FODImageType &gt;::transform</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="reorient_8h_source.html#l00077">77</a> of file <a class="el" href="reorient_8h_source.html">reorient.h</a>.</p>
 
 </div>
 </div>
@@ -240,7 +166,7 @@ template&lt;class FODImageType &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_registration.html">Registration</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_registration_1_1_transform.html">Transform</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_linear_kernel.html">LinearKernel</a></li>
-    <li class="footer">Generated on Wed Apr 19 2017 09:26:46 for MRtrix by
+    <li class="footer">Generated on Tue May 2 2017 10:45:13 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

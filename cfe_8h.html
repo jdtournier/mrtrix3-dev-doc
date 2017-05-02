@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-535-g21da6244</div>
+   <div id="projectbrief">Version 3.0_RC1-1-g93f159af</div>
   </td>
  </tr>
  </tbody>
@@ -89,9 +89,12 @@ $(document).ready(function(){initNavTree('cfe_8h.html','');});
 <div class="title">cfe.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="math_8h_source.html">math/math.h</a>&quot;</code><br />
-<code>#include &quot;image.h&quot;</code><br />
-<code>#include &quot;<a class="el" href="src_2dwi_2tractography_2mapping_2mapper_8h_source.html">dwi/tractography/mapping/mapper.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;image.h&quot;</code><br />
+<code>#include &quot;image_helpers.h&quot;</code><br />
+<code>#include &quot;math/math.h&quot;</code><br />
+<code>#include &quot;math/stats/typedefs.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="mapping_2mapper_8h_source.html">dwi/tractography/mapping/mapper.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="stats_2enhance_8h_source.html">stats/enhance.h</a>&quot;</code><br />
 </div>
 <p><a href="cfe_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -115,8 +118,16 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a797271a18629653ed6dcc4fda0351b88"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_stats_1_1_c_f_e.html#a797271a18629653ed6dcc4fda0351b88">MR::Stats::CFE::value_type</a> = float</td></tr>
-<tr class="separator:a797271a18629653ed6dcc4fda0351b88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2d1279dffb7318760bfd7b5b4aa206a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_stats_1_1_c_f_e.html#aa2d1279dffb7318760bfd7b5b4aa206a">MR::Stats::CFE::value_type</a> = Math::Stats::value_type</td></tr>
+<tr class="separator:aa2d1279dffb7318760bfd7b5b4aa206a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a528114c0749ddcb349bdbce16656bd0a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_stats_1_1_c_f_e.html#a528114c0749ddcb349bdbce16656bd0a">MR::Stats::CFE::vector_type</a> = Math::Stats::vector_type</td></tr>
+<tr class="separator:a528114c0749ddcb349bdbce16656bd0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7106519ec194bb1ca0383b9b68332490"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_stats_1_1_c_f_e.html#a7106519ec194bb1ca0383b9b68332490">MR::Stats::CFE::connectivity_value_type</a> = float</td></tr>
+<tr class="separator:a7106519ec194bb1ca0383b9b68332490"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3ecd5f5f578b07cac19cfb64d05f7e3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_stats_1_1_c_f_e.html#ae3ecd5f5f578b07cac19cfb64d05f7e3">MR::Stats::CFE::direction_type</a> = Eigen::Matrix&lt; value_type, 3, 1 &gt;</td></tr>
+<tr class="separator:ae3ecd5f5f578b07cac19cfb64d05f7e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45ded2212f8834049d18cac4ede454c7"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_stats_1_1_c_f_e.html#a45ded2212f8834049d18cac4ede454c7">MR::Stats::CFE::connectivity_vector_type</a> = Eigen::Array&lt; connectivity_value_type, Eigen::Dynamic, 1 &gt;</td></tr>
+<tr class="separator:a45ded2212f8834049d18cac4ede454c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1dc22b812b8704be873eaf9c3176ed2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_stats_1_1_c_f_e.html#ac1dc22b812b8704be873eaf9c3176ed2">MR::Stats::CFE::SetVoxelDir</a> = DWI::Tractography::Mapping::SetVoxelDir</td></tr>
 <tr class="separator:ac1dc22b812b8704be873eaf9c3176ed2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -126,7 +137,7 @@ Typedefs</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_3de45fbf08d2e79aacff2f4de113ab26.html">stats</a></li><li class="navelem"><a class="el" href="cfe_8h.html">cfe.h</a></li>
-    <li class="footer">Generated on Wed Apr 19 2017 09:26:43 for MRtrix by
+    <li class="footer">Generated on Tue May 2 2017 10:45:11 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

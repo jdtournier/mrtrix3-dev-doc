@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-535-g21da6244</div>
+   <div id="projectbrief">Version 3.0_RC1-1-g93f159af</div>
   </td>
  </tr>
  </tbody>
@@ -93,7 +93,8 @@ $(document).ready(function(){initNavTree('matrix_8h.html','');});
 <div class="textblock"><code>#include &lt;set&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
 <code>#include &quot;connectome/connectome.h&quot;</code><br />
-<code>#include &quot;<a class="el" href="math_8h_source.html">math/math.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="mat2vec_8h_source.html">connectome/mat2vec.h</a>&quot;</code><br />
+<code>#include &quot;math/math.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="dwi_2tractography_2connectome_2connectome_8h_source.html">dwi/tractography/connectome/connectome.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="mapped__track_8h_source.html">dwi/tractography/connectome/mapped_track.h</a>&quot;</code><br />
 </div>
@@ -101,7 +102,7 @@ $(document).ready(function(){initNavTree('matrix_8h.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_matrix.html">MR::DWI::Tractography::Connectome::Matrix</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_matrix.html">MR::DWI::Tractography::Connectome::Matrix&lt; T &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -130,6 +131,8 @@ Variables</h2></td></tr>
 <tr class="separator:ad3bc862bd4204a422b9fc3d31f59503e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1379587c26fa8e01fc075c9f1fb9e86b"><td class="memItemLeft" align="right" valign="top">const App::Option&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome.html#a1379587c26fa8e01fc075c9f1fb9e86b">MR::DWI::Tractography::Connectome::EdgeStatisticOption</a></td></tr>
 <tr class="separator:a1379587c26fa8e01fc075c9f1fb9e86b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7de8b5480fe7830d5c658acbf331d01"><td class="memItemLeft" align="right" valign="top">constexpr node_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome.html#ad7de8b5480fe7830d5c658acbf331d01">MR::DWI::Tractography::Connectome::node_count_ram_limit</a> = 1024</td></tr>
+<tr class="separator:ad7de8b5480fe7830d5c658acbf331d01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -137,7 +140,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_6da8e6f1bfdb5540a85bd819d2a13962.html">dwi</a></li><li class="navelem"><a class="el" href="dir_6f8fcd489e430c1a1b22716f7655ad56.html">tractography</a></li><li class="navelem"><a class="el" href="dir_b79783b9e4d142f865a2bc97583576b9.html">connectome</a></li><li class="navelem"><a class="el" href="matrix_8h.html">matrix.h</a></li>
-    <li class="footer">Generated on Wed Apr 19 2017 09:26:43 for MRtrix by
+    <li class="footer">Generated on Tue May 2 2017 10:45:11 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

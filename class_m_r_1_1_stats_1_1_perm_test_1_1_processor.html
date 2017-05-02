@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
-<title>MRtrix: MR::Stats::PermTest::Processor&lt; StatsType, EnhancementType &gt; Class Template Reference</title>
+<title>MRtrix: MR::Stats::PermTest::Processor&lt; StatsType &gt; Class Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-535-g21da6244</div>
+   <div id="projectbrief">Version 3.0_RC1-1-g93f159af</div>
   </td>
  </tr>
  </tbody>
@@ -82,261 +82,67 @@ $(document).ready(function(){initNavTree('class_m_r_1_1_stats_1_1_perm_test_1_1_
 
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">MR::Stats::PermTest::Processor&lt; StatsType, EnhancementType &gt; Class Template Reference</div>  </div>
+<div class="title">MR::Stats::PermTest::Processor&lt; StatsType &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
 <p><code>#include &quot;<a class="el" href="permtest_8h_source.html">stats/permtest.h</a>&quot;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a31475451a0707222a58c6d6ee6d38293"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#a31475451a0707222a58c6d6ee6d38293">Processor</a> (<a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_permutation_stack.html">PermutationStack</a> &amp;permutation_stack, const StatsType &amp;<a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#a5533c532c0a798ee25277209aac972b2">stats_calculator</a>, const EnhancementType &amp;<a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#a4262409d9e9f9b3cf09ac03d1cd2f309">enhancer</a>, const std::shared_ptr&lt; std::vector&lt; double &gt; &gt; &amp;<a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#af35ff923f8a8e364df7815369ad4a6d0">empirical_enhanced_statistics</a>, const std::vector&lt; <a class="el" href="namespace_m_r_1_1_stats_1_1_perm_test.html#a589aa831658db3d5bf1184caa2647994">value_type</a> &gt; &amp;<a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#ac20fa67922e10a719d58ca48f3fc1e2f">default_enhanced_statistics</a>, const std::shared_ptr&lt; std::vector&lt; <a class="el" href="namespace_m_r_1_1_stats_1_1_perm_test.html#a589aa831658db3d5bf1184caa2647994">value_type</a> &gt; &gt; &amp;<a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#aebd13fbeb88ab896ab9157771abcff18">default_enhanced_statistics_neg</a>, Eigen::Matrix&lt; <a class="el" href="namespace_m_r_1_1_stats_1_1_perm_test.html#a589aa831658db3d5bf1184caa2647994">value_type</a>, Eigen::Dynamic, 1 &gt; &amp;<a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#a575be0cc7b2379ca4b5adacdcc76961d">perm_dist_pos</a>, std::shared_ptr&lt; Eigen::Matrix&lt; <a class="el" href="namespace_m_r_1_1_stats_1_1_perm_test.html#a589aa831658db3d5bf1184caa2647994">value_type</a>, Eigen::Dynamic, 1 &gt; &gt; &amp;<a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#aeb135d009eb7739110e86917f02291f1">perm_dist_neg</a>, std::vector&lt; size_t &gt; &amp;<a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#a0215c07b6b92714497321955120edf9a">global_uncorrected_pvalue_counter</a>, std::shared_ptr&lt; std::vector&lt; size_t &gt; &gt; &amp;<a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#ae938cecd96a836791264b77a06a86f99">global_uncorrected_pvalue_counter_neg</a>)</td></tr>
-<tr class="separator:a31475451a0707222a58c6d6ee6d38293"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a530ebb62cadb2359e332864a85de6738"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#a530ebb62cadb2359e332864a85de6738">~Processor</a> ()</td></tr>
-<tr class="separator:a530ebb62cadb2359e332864a85de6738"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0989cac41ea87a7a96221ad76bbf656b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#a0989cac41ea87a7a96221ad76bbf656b">execute</a> ()</td></tr>
-<tr class="separator:a0989cac41ea87a7a96221ad76bbf656b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
-<tr class="memitem:aa237d7e91a05199b5a6ff1d2cd29ec8a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#aa237d7e91a05199b5a6ff1d2cd29ec8a">process_permutation</a> (size_t index)</td></tr>
-<tr class="separator:aa237d7e91a05199b5a6ff1d2cd29ec8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:aa84128f989f770e1686fef199d1b0dae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_permutation_stack.html">PermutationStack</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#aa84128f989f770e1686fef199d1b0dae">perm_stack</a></td></tr>
-<tr class="separator:aa84128f989f770e1686fef199d1b0dae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5533c532c0a798ee25277209aac972b2"><td class="memItemLeft" align="right" valign="top">StatsType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#a5533c532c0a798ee25277209aac972b2">stats_calculator</a></td></tr>
-<tr class="separator:a5533c532c0a798ee25277209aac972b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4262409d9e9f9b3cf09ac03d1cd2f309"><td class="memItemLeft" align="right" valign="top">EnhancementType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#a4262409d9e9f9b3cf09ac03d1cd2f309">enhancer</a></td></tr>
-<tr class="separator:a4262409d9e9f9b3cf09ac03d1cd2f309"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af35ff923f8a8e364df7815369ad4a6d0"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; std::vector&lt; double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#af35ff923f8a8e364df7815369ad4a6d0">empirical_enhanced_statistics</a></td></tr>
-<tr class="separator:af35ff923f8a8e364df7815369ad4a6d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac20fa67922e10a719d58ca48f3fc1e2f"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="namespace_m_r_1_1_stats_1_1_perm_test.html#a589aa831658db3d5bf1184caa2647994">value_type</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#ac20fa67922e10a719d58ca48f3fc1e2f">default_enhanced_statistics</a></td></tr>
-<tr class="separator:ac20fa67922e10a719d58ca48f3fc1e2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aebd13fbeb88ab896ab9157771abcff18"><td class="memItemLeft" align="right" valign="top">const std::shared_ptr&lt; std::vector&lt; <a class="el" href="namespace_m_r_1_1_stats_1_1_perm_test.html#a589aa831658db3d5bf1184caa2647994">value_type</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#aebd13fbeb88ab896ab9157771abcff18">default_enhanced_statistics_neg</a></td></tr>
-<tr class="separator:aebd13fbeb88ab896ab9157771abcff18"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2925b506082e396914e337541a412b0c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="namespace_m_r_1_1_stats_1_1_perm_test.html#a589aa831658db3d5bf1184caa2647994">value_type</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#a2925b506082e396914e337541a412b0c">statistics</a></td></tr>
-<tr class="separator:a2925b506082e396914e337541a412b0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22c196245d2f0babf1d7565dd2b6083e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="namespace_m_r_1_1_stats_1_1_perm_test.html#a589aa831658db3d5bf1184caa2647994">value_type</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#a22c196245d2f0babf1d7565dd2b6083e">enhanced_statistics</a></td></tr>
-<tr class="separator:a22c196245d2f0babf1d7565dd2b6083e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a821b9988a63a7a6a68a48b29ab97428b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#a821b9988a63a7a6a68a48b29ab97428b">uncorrected_pvalue_counter</a></td></tr>
-<tr class="separator:a821b9988a63a7a6a68a48b29ab97428b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7d275b9ea9d3eab377f470b594dc9a1"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; std::vector&lt; size_t &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#af7d275b9ea9d3eab377f470b594dc9a1">uncorrected_pvalue_counter_neg</a></td></tr>
-<tr class="separator:af7d275b9ea9d3eab377f470b594dc9a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a575be0cc7b2379ca4b5adacdcc76961d"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix&lt; <a class="el" href="namespace_m_r_1_1_stats_1_1_perm_test.html#a589aa831658db3d5bf1184caa2647994">value_type</a>, Eigen::Dynamic, 1 &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#a575be0cc7b2379ca4b5adacdcc76961d">perm_dist_pos</a></td></tr>
-<tr class="separator:a575be0cc7b2379ca4b5adacdcc76961d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb135d009eb7739110e86917f02291f1"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; Eigen::Matrix&lt; <a class="el" href="namespace_m_r_1_1_stats_1_1_perm_test.html#a589aa831658db3d5bf1184caa2647994">value_type</a>, Eigen::Dynamic, 1 &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#aeb135d009eb7739110e86917f02291f1">perm_dist_neg</a></td></tr>
-<tr class="separator:aeb135d009eb7739110e86917f02291f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0215c07b6b92714497321955120edf9a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; size_t &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#a0215c07b6b92714497321955120edf9a">global_uncorrected_pvalue_counter</a></td></tr>
-<tr class="separator:a0215c07b6b92714497321955120edf9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae938cecd96a836791264b77a06a86f99"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; std::vector&lt; size_t &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#ae938cecd96a836791264b77a06a86f99">global_uncorrected_pvalue_counter_neg</a></td></tr>
-<tr class="separator:ae938cecd96a836791264b77a06a86f99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4055b5b4670cc7caec1cc2e249989fb"><td class="memItemLeft" align="right" valign="top">StatsType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#af4055b5b4670cc7caec1cc2e249989fb">stats_calculator</a></td></tr>
+<tr class="separator:af4055b5b4670cc7caec1cc2e249989fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a230a3ac784ec9349bbc2186075aaed8d"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_m_r_1_1_stats_1_1_enhancer_base.html">EnhancerBase</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#a230a3ac784ec9349bbc2186075aaed8d">enhancer</a></td></tr>
+<tr class="separator:a230a3ac784ec9349bbc2186075aaed8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc473486f165684cfc7b40294b40718d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespace_m_r_1_1_stats_1_1_perm_test.html#a664df4deab9c1969bbf8cd8288121c0f">vector_type</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#afc473486f165684cfc7b40294b40718d">empirical_enhanced_statistics</a></td></tr>
+<tr class="separator:afc473486f165684cfc7b40294b40718d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38ba9848567312319ae8e03b867ff44d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespace_m_r_1_1_stats_1_1_perm_test.html#a664df4deab9c1969bbf8cd8288121c0f">vector_type</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#a38ba9848567312319ae8e03b867ff44d">default_enhanced_statistics</a></td></tr>
+<tr class="separator:a38ba9848567312319ae8e03b867ff44d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e812270c6d96d07786c48452647b6f2"><td class="memItemLeft" align="right" valign="top">const std::shared_ptr&lt; <a class="el" href="namespace_m_r_1_1_stats_1_1_perm_test.html#a664df4deab9c1969bbf8cd8288121c0f">vector_type</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#a5e812270c6d96d07786c48452647b6f2">default_enhanced_statistics_neg</a></td></tr>
+<tr class="separator:a5e812270c6d96d07786c48452647b6f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b63d1b0a14fcfb00ad77be533002d9c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_m_r_1_1_stats_1_1_perm_test.html#a664df4deab9c1969bbf8cd8288121c0f">vector_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#a5b63d1b0a14fcfb00ad77be533002d9c">statistics</a></td></tr>
+<tr class="separator:a5b63d1b0a14fcfb00ad77be533002d9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7fad635452e2ef23d4118385b56d6ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_m_r_1_1_stats_1_1_perm_test.html#a664df4deab9c1969bbf8cd8288121c0f">vector_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#ab7fad635452e2ef23d4118385b56d6ed">enhanced_statistics</a></td></tr>
+<tr class="separator:ab7fad635452e2ef23d4118385b56d6ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a690d1797cb90798ccb1ff5592efe3979"><td class="memItemLeft" align="right" valign="top">vector&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#a690d1797cb90798ccb1ff5592efe3979">uncorrected_pvalue_counter</a></td></tr>
+<tr class="separator:a690d1797cb90798ccb1ff5592efe3979"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32ba645b96ef703e70a733334abab586"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; vector&lt; size_t &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#a32ba645b96ef703e70a733334abab586">uncorrected_pvalue_counter_neg</a></td></tr>
+<tr class="separator:a32ba645b96ef703e70a733334abab586"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada5b1ccf9de895b0665af23913406425"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_m_r_1_1_stats_1_1_perm_test.html#a664df4deab9c1969bbf8cd8288121c0f">vector_type</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#ada5b1ccf9de895b0665af23913406425">perm_dist_pos</a></td></tr>
+<tr class="separator:ada5b1ccf9de895b0665af23913406425"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f31cb3cf0a676b6231d6731ea5b35bb"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="namespace_m_r_1_1_stats_1_1_perm_test.html#a664df4deab9c1969bbf8cd8288121c0f">vector_type</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#a7f31cb3cf0a676b6231d6731ea5b35bb">perm_dist_neg</a></td></tr>
+<tr class="separator:a7f31cb3cf0a676b6231d6731ea5b35bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad14596811a729bc3d5e6c4b2ad0f735c"><td class="memItemLeft" align="right" valign="top">vector&lt; size_t &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#ad14596811a729bc3d5e6c4b2ad0f735c">global_uncorrected_pvalue_counter</a></td></tr>
+<tr class="separator:ad14596811a729bc3d5e6c4b2ad0f735c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70731edf18409049c4f4f4db47a4a9e5"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; vector&lt; size_t &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#a70731edf18409049c4f4f4db47a4a9e5">global_uncorrected_pvalue_counter_neg</a></td></tr>
+<tr class="separator:a70731edf18409049c4f4f4db47a4a9e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc3a084975f77fd1bd3295b99e149135"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; std::mutex &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#acc3a084975f77fd1bd3295b99e149135">mutex</a></td></tr>
+<tr class="separator:acc3a084975f77fd1bd3295b99e149135"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;class StatsType, class EnhancementType&gt;<br />
-class MR::Stats::PermTest::Processor&lt; StatsType, EnhancementType &gt;</h3>
+<div class="textblock"><h3>template&lt;class StatsType&gt;<br />
+class MR::Stats::PermTest::Processor&lt; StatsType &gt;</h3>
 
 <p>A class to perform the permutation testing </p>
 
-<p class="definition">Definition at line <a class="el" href="permtest_8h_source.html#l00129">129</a> of file <a class="el" href="permtest_8h_source.html">permtest.h</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a31475451a0707222a58c6d6ee6d38293"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a31475451a0707222a58c6d6ee6d38293">&#9670;&nbsp;</a></span>Processor()</h2>
+<p class="definition">Definition at line <a class="el" href="permtest_8h_source.html#l00105">105</a> of file <a class="el" href="permtest_8h_source.html">permtest.h</a>.</p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="a38ba9848567312319ae8e03b867ff44d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38ba9848567312319ae8e03b867ff44d">&#9670;&nbsp;</a></span>default_enhanced_statistics</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class StatsType , class EnhancementType &gt; </div>
+template&lt;class StatsType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html">MR::Stats::PermTest::Processor</a>&lt; StatsType, EnhancementType &gt;::<a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html">Processor</a> </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_permutation_stack.html">PermutationStack</a> &amp;&#160;</td>
-          <td class="paramname"><em>permutation_stack</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const StatsType &amp;&#160;</td>
-          <td class="paramname"><em>stats_calculator</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const EnhancementType &amp;&#160;</td>
-          <td class="paramname"><em>enhancer</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::shared_ptr&lt; std::vector&lt; double &gt; &gt; &amp;&#160;</td>
-          <td class="paramname"><em>empirical_enhanced_statistics</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="namespace_m_r_1_1_stats_1_1_perm_test.html#a589aa831658db3d5bf1184caa2647994">value_type</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>default_enhanced_statistics</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::shared_ptr&lt; std::vector&lt; <a class="el" href="namespace_m_r_1_1_stats_1_1_perm_test.html#a589aa831658db3d5bf1184caa2647994">value_type</a> &gt; &gt; &amp;&#160;</td>
-          <td class="paramname"><em>default_enhanced_statistics_neg</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Eigen::Matrix&lt; <a class="el" href="namespace_m_r_1_1_stats_1_1_perm_test.html#a589aa831658db3d5bf1184caa2647994">value_type</a>, Eigen::Dynamic, 1 &gt; &amp;&#160;</td>
-          <td class="paramname"><em>perm_dist_pos</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::shared_ptr&lt; Eigen::Matrix&lt; <a class="el" href="namespace_m_r_1_1_stats_1_1_perm_test.html#a589aa831658db3d5bf1184caa2647994">value_type</a>, Eigen::Dynamic, 1 &gt; &gt; &amp;&#160;</td>
-          <td class="paramname"><em>perm_dist_neg</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::vector&lt; size_t &gt; &amp;&#160;</td>
-          <td class="paramname"><em>global_uncorrected_pvalue_counter</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::shared_ptr&lt; std::vector&lt; size_t &gt; &gt; &amp;&#160;</td>
-          <td class="paramname"><em>global_uncorrected_pvalue_counter_neg</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="permtest_8h_source.html#l00131">131</a> of file <a class="el" href="permtest_8h_source.html">permtest.h</a>.</p>
-
-</div>
-</div>
-<a id="a530ebb62cadb2359e332864a85de6738"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a530ebb62cadb2359e332864a85de6738">&#9670;&nbsp;</a></span>~Processor()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class StatsType , class EnhancementType &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html">MR::Stats::PermTest::Processor</a>&lt; StatsType, EnhancementType &gt;::~<a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html">Processor</a> </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="permtest_8h_source.html#l00149">149</a> of file <a class="el" href="permtest_8h_source.html">permtest.h</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a0989cac41ea87a7a96221ad76bbf656b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0989cac41ea87a7a96221ad76bbf656b">&#9670;&nbsp;</a></span>execute()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class StatsType , class EnhancementType &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html">MR::Stats::PermTest::Processor</a>&lt; StatsType, EnhancementType &gt;::execute </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="permtest_8h_source.html#l00157">157</a> of file <a class="el" href="permtest_8h_source.html">permtest.h</a>.</p>
-
-</div>
-</div>
-<a id="aa237d7e91a05199b5a6ff1d2cd29ec8a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa237d7e91a05199b5a6ff1d2cd29ec8a">&#9670;&nbsp;</a></span>process_permutation()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class StatsType , class EnhancementType &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html">MR::Stats::PermTest::Processor</a>&lt; StatsType, EnhancementType &gt;::process_permutation </td>
-          <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>index</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="permtest_8h_source.html#l00167">167</a> of file <a class="el" href="permtest_8h_source.html">permtest.h</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="ac20fa67922e10a719d58ca48f3fc1e2f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac20fa67922e10a719d58ca48f3fc1e2f">&#9670;&nbsp;</a></span>default_enhanced_statistics</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class StatsType , class EnhancementType &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const std::vector&lt;<a class="el" href="namespace_m_r_1_1_stats_1_1_perm_test.html#a589aa831658db3d5bf1184caa2647994">value_type</a>&gt;&amp; <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html">MR::Stats::PermTest::Processor</a>&lt; StatsType, EnhancementType &gt;::default_enhanced_statistics</td>
+          <td class="memname">const <a class="el" href="namespace_m_r_1_1_stats_1_1_perm_test.html#a664df4deab9c1969bbf8cd8288121c0f">vector_type</a>&amp; <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html">MR::Stats::PermTest::Processor</a>&lt; StatsType &gt;::default_enhanced_statistics</td>
         </tr>
       </table>
   </td>
@@ -346,23 +152,23 @@ template&lt;class StatsType , class EnhancementType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="permtest_8h_source.html#l00215">215</a> of file <a class="el" href="permtest_8h_source.html">permtest.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="permtest_8h_source.html#l00190">190</a> of file <a class="el" href="permtest_8h_source.html">permtest.h</a>.</p>
 
 </div>
 </div>
-<a id="aebd13fbeb88ab896ab9157771abcff18"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aebd13fbeb88ab896ab9157771abcff18">&#9670;&nbsp;</a></span>default_enhanced_statistics_neg</h2>
+<a id="a5e812270c6d96d07786c48452647b6f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e812270c6d96d07786c48452647b6f2">&#9670;&nbsp;</a></span>default_enhanced_statistics_neg</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class StatsType , class EnhancementType &gt; </div>
+template&lt;class StatsType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const std::shared_ptr&lt;std::vector&lt;<a class="el" href="namespace_m_r_1_1_stats_1_1_perm_test.html#a589aa831658db3d5bf1184caa2647994">value_type</a>&gt; &gt; <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html">MR::Stats::PermTest::Processor</a>&lt; StatsType, EnhancementType &gt;::default_enhanced_statistics_neg</td>
+          <td class="memname">const std::shared_ptr&lt;<a class="el" href="namespace_m_r_1_1_stats_1_1_perm_test.html#a664df4deab9c1969bbf8cd8288121c0f">vector_type</a>&gt; <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html">MR::Stats::PermTest::Processor</a>&lt; StatsType &gt;::default_enhanced_statistics_neg</td>
         </tr>
       </table>
   </td>
@@ -372,23 +178,23 @@ template&lt;class StatsType , class EnhancementType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="permtest_8h_source.html#l00216">216</a> of file <a class="el" href="permtest_8h_source.html">permtest.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="permtest_8h_source.html#l00191">191</a> of file <a class="el" href="permtest_8h_source.html">permtest.h</a>.</p>
 
 </div>
 </div>
-<a id="af35ff923f8a8e364df7815369ad4a6d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af35ff923f8a8e364df7815369ad4a6d0">&#9670;&nbsp;</a></span>empirical_enhanced_statistics</h2>
+<a id="afc473486f165684cfc7b40294b40718d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc473486f165684cfc7b40294b40718d">&#9670;&nbsp;</a></span>empirical_enhanced_statistics</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class StatsType , class EnhancementType &gt; </div>
+template&lt;class StatsType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::shared_ptr&lt;std::vector&lt;double&gt; &gt; <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html">MR::Stats::PermTest::Processor</a>&lt; StatsType, EnhancementType &gt;::empirical_enhanced_statistics</td>
+          <td class="memname">const <a class="el" href="namespace_m_r_1_1_stats_1_1_perm_test.html#a664df4deab9c1969bbf8cd8288121c0f">vector_type</a>&amp; <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html">MR::Stats::PermTest::Processor</a>&lt; StatsType &gt;::empirical_enhanced_statistics</td>
         </tr>
       </table>
   </td>
@@ -398,23 +204,23 @@ template&lt;class StatsType , class EnhancementType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="permtest_8h_source.html#l00214">214</a> of file <a class="el" href="permtest_8h_source.html">permtest.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="permtest_8h_source.html#l00189">189</a> of file <a class="el" href="permtest_8h_source.html">permtest.h</a>.</p>
 
 </div>
 </div>
-<a id="a22c196245d2f0babf1d7565dd2b6083e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a22c196245d2f0babf1d7565dd2b6083e">&#9670;&nbsp;</a></span>enhanced_statistics</h2>
+<a id="ab7fad635452e2ef23d4118385b56d6ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7fad635452e2ef23d4118385b56d6ed">&#9670;&nbsp;</a></span>enhanced_statistics</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class StatsType , class EnhancementType &gt; </div>
+template&lt;class StatsType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="namespace_m_r_1_1_stats_1_1_perm_test.html#a589aa831658db3d5bf1184caa2647994">value_type</a>&gt; <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html">MR::Stats::PermTest::Processor</a>&lt; StatsType, EnhancementType &gt;::enhanced_statistics</td>
+          <td class="memname"><a class="el" href="namespace_m_r_1_1_stats_1_1_perm_test.html#a664df4deab9c1969bbf8cd8288121c0f">vector_type</a> <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html">MR::Stats::PermTest::Processor</a>&lt; StatsType &gt;::enhanced_statistics</td>
         </tr>
       </table>
   </td>
@@ -424,23 +230,23 @@ template&lt;class StatsType , class EnhancementType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="permtest_8h_source.html#l00218">218</a> of file <a class="el" href="permtest_8h_source.html">permtest.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="permtest_8h_source.html#l00193">193</a> of file <a class="el" href="permtest_8h_source.html">permtest.h</a>.</p>
 
 </div>
 </div>
-<a id="a4262409d9e9f9b3cf09ac03d1cd2f309"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4262409d9e9f9b3cf09ac03d1cd2f309">&#9670;&nbsp;</a></span>enhancer</h2>
+<a id="a230a3ac784ec9349bbc2186075aaed8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a230a3ac784ec9349bbc2186075aaed8d">&#9670;&nbsp;</a></span>enhancer</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class StatsType , class EnhancementType &gt; </div>
+template&lt;class StatsType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">EnhancementType <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html">MR::Stats::PermTest::Processor</a>&lt; StatsType, EnhancementType &gt;::enhancer</td>
+          <td class="memname">std::shared_ptr&lt;<a class="el" href="class_m_r_1_1_stats_1_1_enhancer_base.html">EnhancerBase</a>&gt; <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html">MR::Stats::PermTest::Processor</a>&lt; StatsType &gt;::enhancer</td>
         </tr>
       </table>
   </td>
@@ -450,23 +256,23 @@ template&lt;class StatsType , class EnhancementType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="permtest_8h_source.html#l00213">213</a> of file <a class="el" href="permtest_8h_source.html">permtest.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="permtest_8h_source.html#l00188">188</a> of file <a class="el" href="permtest_8h_source.html">permtest.h</a>.</p>
 
 </div>
 </div>
-<a id="a0215c07b6b92714497321955120edf9a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0215c07b6b92714497321955120edf9a">&#9670;&nbsp;</a></span>global_uncorrected_pvalue_counter</h2>
+<a id="ad14596811a729bc3d5e6c4b2ad0f735c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad14596811a729bc3d5e6c4b2ad0f735c">&#9670;&nbsp;</a></span>global_uncorrected_pvalue_counter</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class StatsType , class EnhancementType &gt; </div>
+template&lt;class StatsType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;size_t&gt;&amp; <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html">MR::Stats::PermTest::Processor</a>&lt; StatsType, EnhancementType &gt;::global_uncorrected_pvalue_counter</td>
+          <td class="memname">vector&lt;size_t&gt;&amp; <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html">MR::Stats::PermTest::Processor</a>&lt; StatsType &gt;::global_uncorrected_pvalue_counter</td>
         </tr>
       </table>
   </td>
@@ -476,23 +282,23 @@ template&lt;class StatsType , class EnhancementType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="permtest_8h_source.html#l00223">223</a> of file <a class="el" href="permtest_8h_source.html">permtest.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="permtest_8h_source.html#l00199">199</a> of file <a class="el" href="permtest_8h_source.html">permtest.h</a>.</p>
 
 </div>
 </div>
-<a id="ae938cecd96a836791264b77a06a86f99"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae938cecd96a836791264b77a06a86f99">&#9670;&nbsp;</a></span>global_uncorrected_pvalue_counter_neg</h2>
+<a id="a70731edf18409049c4f4f4db47a4a9e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70731edf18409049c4f4f4db47a4a9e5">&#9670;&nbsp;</a></span>global_uncorrected_pvalue_counter_neg</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class StatsType , class EnhancementType &gt; </div>
+template&lt;class StatsType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::shared_ptr&lt;std::vector&lt;size_t&gt; &gt; <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html">MR::Stats::PermTest::Processor</a>&lt; StatsType, EnhancementType &gt;::global_uncorrected_pvalue_counter_neg</td>
+          <td class="memname">std::shared_ptr&lt;vector&lt;size_t&gt; &gt; <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html">MR::Stats::PermTest::Processor</a>&lt; StatsType &gt;::global_uncorrected_pvalue_counter_neg</td>
         </tr>
       </table>
   </td>
@@ -502,23 +308,23 @@ template&lt;class StatsType , class EnhancementType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="permtest_8h_source.html#l00224">224</a> of file <a class="el" href="permtest_8h_source.html">permtest.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="permtest_8h_source.html#l00200">200</a> of file <a class="el" href="permtest_8h_source.html">permtest.h</a>.</p>
 
 </div>
 </div>
-<a id="aeb135d009eb7739110e86917f02291f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeb135d009eb7739110e86917f02291f1">&#9670;&nbsp;</a></span>perm_dist_neg</h2>
+<a id="acc3a084975f77fd1bd3295b99e149135"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc3a084975f77fd1bd3295b99e149135">&#9670;&nbsp;</a></span>mutex</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class StatsType , class EnhancementType &gt; </div>
+template&lt;class StatsType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::shared_ptr&lt;Eigen::Matrix&lt;<a class="el" href="namespace_m_r_1_1_stats_1_1_perm_test.html#a589aa831658db3d5bf1184caa2647994">value_type</a>, Eigen::Dynamic, 1&gt; &gt; <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html">MR::Stats::PermTest::Processor</a>&lt; StatsType, EnhancementType &gt;::perm_dist_neg</td>
+          <td class="memname">std::shared_ptr&lt;std::mutex&gt; <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html">MR::Stats::PermTest::Processor</a>&lt; StatsType &gt;::mutex</td>
         </tr>
       </table>
   </td>
@@ -528,23 +334,23 @@ template&lt;class StatsType , class EnhancementType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="permtest_8h_source.html#l00222">222</a> of file <a class="el" href="permtest_8h_source.html">permtest.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="permtest_8h_source.html#l00201">201</a> of file <a class="el" href="permtest_8h_source.html">permtest.h</a>.</p>
 
 </div>
 </div>
-<a id="a575be0cc7b2379ca4b5adacdcc76961d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a575be0cc7b2379ca4b5adacdcc76961d">&#9670;&nbsp;</a></span>perm_dist_pos</h2>
+<a id="a7f31cb3cf0a676b6231d6731ea5b35bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f31cb3cf0a676b6231d6731ea5b35bb">&#9670;&nbsp;</a></span>perm_dist_neg</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class StatsType , class EnhancementType &gt; </div>
+template&lt;class StatsType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Eigen::Matrix&lt;<a class="el" href="namespace_m_r_1_1_stats_1_1_perm_test.html#a589aa831658db3d5bf1184caa2647994">value_type</a>, Eigen::Dynamic, 1&gt;&amp; <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html">MR::Stats::PermTest::Processor</a>&lt; StatsType, EnhancementType &gt;::perm_dist_pos</td>
+          <td class="memname">std::shared_ptr&lt;<a class="el" href="namespace_m_r_1_1_stats_1_1_perm_test.html#a664df4deab9c1969bbf8cd8288121c0f">vector_type</a>&gt; <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html">MR::Stats::PermTest::Processor</a>&lt; StatsType &gt;::perm_dist_neg</td>
         </tr>
       </table>
   </td>
@@ -554,23 +360,23 @@ template&lt;class StatsType , class EnhancementType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="permtest_8h_source.html#l00221">221</a> of file <a class="el" href="permtest_8h_source.html">permtest.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="permtest_8h_source.html#l00197">197</a> of file <a class="el" href="permtest_8h_source.html">permtest.h</a>.</p>
 
 </div>
 </div>
-<a id="aa84128f989f770e1686fef199d1b0dae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa84128f989f770e1686fef199d1b0dae">&#9670;&nbsp;</a></span>perm_stack</h2>
+<a id="ada5b1ccf9de895b0665af23913406425"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada5b1ccf9de895b0665af23913406425">&#9670;&nbsp;</a></span>perm_dist_pos</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class StatsType , class EnhancementType &gt; </div>
+template&lt;class StatsType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_permutation_stack.html">PermutationStack</a>&amp; <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html">MR::Stats::PermTest::Processor</a>&lt; StatsType, EnhancementType &gt;::perm_stack</td>
+          <td class="memname"><a class="el" href="namespace_m_r_1_1_stats_1_1_perm_test.html#a664df4deab9c1969bbf8cd8288121c0f">vector_type</a>&amp; <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html">MR::Stats::PermTest::Processor</a>&lt; StatsType &gt;::perm_dist_pos</td>
         </tr>
       </table>
   </td>
@@ -580,23 +386,23 @@ template&lt;class StatsType , class EnhancementType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="permtest_8h_source.html#l00211">211</a> of file <a class="el" href="permtest_8h_source.html">permtest.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="permtest_8h_source.html#l00196">196</a> of file <a class="el" href="permtest_8h_source.html">permtest.h</a>.</p>
 
 </div>
 </div>
-<a id="a2925b506082e396914e337541a412b0c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2925b506082e396914e337541a412b0c">&#9670;&nbsp;</a></span>statistics</h2>
+<a id="a5b63d1b0a14fcfb00ad77be533002d9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b63d1b0a14fcfb00ad77be533002d9c">&#9670;&nbsp;</a></span>statistics</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class StatsType , class EnhancementType &gt; </div>
+template&lt;class StatsType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="namespace_m_r_1_1_stats_1_1_perm_test.html#a589aa831658db3d5bf1184caa2647994">value_type</a>&gt; <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html">MR::Stats::PermTest::Processor</a>&lt; StatsType, EnhancementType &gt;::statistics</td>
+          <td class="memname"><a class="el" href="namespace_m_r_1_1_stats_1_1_perm_test.html#a664df4deab9c1969bbf8cd8288121c0f">vector_type</a> <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html">MR::Stats::PermTest::Processor</a>&lt; StatsType &gt;::statistics</td>
         </tr>
       </table>
   </td>
@@ -606,23 +412,23 @@ template&lt;class StatsType , class EnhancementType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="permtest_8h_source.html#l00217">217</a> of file <a class="el" href="permtest_8h_source.html">permtest.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="permtest_8h_source.html#l00192">192</a> of file <a class="el" href="permtest_8h_source.html">permtest.h</a>.</p>
 
 </div>
 </div>
-<a id="a5533c532c0a798ee25277209aac972b2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5533c532c0a798ee25277209aac972b2">&#9670;&nbsp;</a></span>stats_calculator</h2>
+<a id="af4055b5b4670cc7caec1cc2e249989fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4055b5b4670cc7caec1cc2e249989fb">&#9670;&nbsp;</a></span>stats_calculator</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class StatsType , class EnhancementType &gt; </div>
+template&lt;class StatsType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">StatsType <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html">MR::Stats::PermTest::Processor</a>&lt; StatsType, EnhancementType &gt;::stats_calculator</td>
+          <td class="memname">StatsType <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html">MR::Stats::PermTest::Processor</a>&lt; StatsType &gt;::stats_calculator</td>
         </tr>
       </table>
   </td>
@@ -632,23 +438,23 @@ template&lt;class StatsType , class EnhancementType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="permtest_8h_source.html#l00212">212</a> of file <a class="el" href="permtest_8h_source.html">permtest.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="permtest_8h_source.html#l00187">187</a> of file <a class="el" href="permtest_8h_source.html">permtest.h</a>.</p>
 
 </div>
 </div>
-<a id="a821b9988a63a7a6a68a48b29ab97428b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a821b9988a63a7a6a68a48b29ab97428b">&#9670;&nbsp;</a></span>uncorrected_pvalue_counter</h2>
+<a id="a690d1797cb90798ccb1ff5592efe3979"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a690d1797cb90798ccb1ff5592efe3979">&#9670;&nbsp;</a></span>uncorrected_pvalue_counter</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class StatsType , class EnhancementType &gt; </div>
+template&lt;class StatsType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;size_t&gt; <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html">MR::Stats::PermTest::Processor</a>&lt; StatsType, EnhancementType &gt;::uncorrected_pvalue_counter</td>
+          <td class="memname">vector&lt;size_t&gt; <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html">MR::Stats::PermTest::Processor</a>&lt; StatsType &gt;::uncorrected_pvalue_counter</td>
         </tr>
       </table>
   </td>
@@ -658,23 +464,23 @@ template&lt;class StatsType , class EnhancementType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="permtest_8h_source.html#l00219">219</a> of file <a class="el" href="permtest_8h_source.html">permtest.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="permtest_8h_source.html#l00194">194</a> of file <a class="el" href="permtest_8h_source.html">permtest.h</a>.</p>
 
 </div>
 </div>
-<a id="af7d275b9ea9d3eab377f470b594dc9a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af7d275b9ea9d3eab377f470b594dc9a1">&#9670;&nbsp;</a></span>uncorrected_pvalue_counter_neg</h2>
+<a id="a32ba645b96ef703e70a733334abab586"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32ba645b96ef703e70a733334abab586">&#9670;&nbsp;</a></span>uncorrected_pvalue_counter_neg</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class StatsType , class EnhancementType &gt; </div>
+template&lt;class StatsType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::shared_ptr&lt;std::vector&lt;size_t&gt; &gt; <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html">MR::Stats::PermTest::Processor</a>&lt; StatsType, EnhancementType &gt;::uncorrected_pvalue_counter_neg</td>
+          <td class="memname">std::shared_ptr&lt;vector&lt;size_t&gt; &gt; <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html">MR::Stats::PermTest::Processor</a>&lt; StatsType &gt;::uncorrected_pvalue_counter_neg</td>
         </tr>
       </table>
   </td>
@@ -684,7 +490,7 @@ template&lt;class StatsType , class EnhancementType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="permtest_8h_source.html#l00220">220</a> of file <a class="el" href="permtest_8h_source.html">permtest.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="permtest_8h_source.html#l00195">195</a> of file <a class="el" href="permtest_8h_source.html">permtest.h</a>.</p>
 
 </div>
 </div>
@@ -697,7 +503,7 @@ template&lt;class StatsType , class EnhancementType &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_stats.html">Stats</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_stats_1_1_perm_test.html">PermTest</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html">Processor</a></li>
-    <li class="footer">Generated on Wed Apr 19 2017 09:26:46 for MRtrix by
+    <li class="footer">Generated on Tue May 2 2017 10:45:13 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

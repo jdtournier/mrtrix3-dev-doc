@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['layout_5fspacing',['LAYOUT_SPACING',['../src_2gui_2mrview_2tool_2base_8h.html#a2f50957f8d7bcda87b9df75e447b508c',1,'base.h']]],
-  ['length_5fundefined',['LENGTH_UNDEFINED',['../definitions_8h.html#a7070cdafbc6b035d614c0d6cfabe4222',1,'definitions.h']]]
+  ['rejection_5freason_5fcount',['REJECTION_REASON_COUNT',['../dwi_2tractography_2tracking_2types_8h.html#a8b24e73a0437a8c6b813f55548c68929',1,'types.h']]],
+  ['rotation_5finc',['ROTATION_INC',['../gui_2mrview_2mode_2base_8h.html#a648b42eb3cac9079e831d083482128f2',1,'base.h']]]
 ];

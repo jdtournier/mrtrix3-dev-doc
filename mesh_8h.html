@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
-<title>MRtrix: src/mesh/mesh.h File Reference</title>
+<title>MRtrix: src/surface/mesh.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-535-g21da6244</div>
+   <div id="projectbrief">Version 3.0_RC1-1-g93f159af</div>
   </td>
  </tr>
  </tbody>
@@ -83,8 +83,7 @@ $(document).ready(function(){initNavTree('mesh_8h.html','');});
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#typedef-members">Typedefs</a>  </div>
+<a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle">
 <div class="title">mesh.h File Reference</div>  </div>
 </div><!--header-->
@@ -92,54 +91,36 @@ $(document).ready(function(){initNavTree('mesh_8h.html','');});
 <div class="textblock"><code>#include &lt;fstream&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
 <code>#include &lt;cstdint&gt;</code><br />
-<code>#include &quot;<a class="el" href="header_8h_source.html">header.h</a>&quot;</code><br />
+<code>#include &quot;header.h&quot;</code><br />
 <code>#include &quot;image.h&quot;</code><br />
-<code>#include &quot;<a class="el" href="transform_8h_source.html">transform.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="algo_2copy_8h_source.html">algo/copy.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="loop_8h_source.html">algo/loop.h</a>&quot;</code><br />
+<code>#include &quot;transform.h&quot;</code><br />
+<code>#include &quot;algo/copy.h&quot;</code><br />
+<code>#include &quot;algo/loop.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="surface_2types_8h_source.html">surface/types.h</a>&quot;</code><br />
 </div>
 <p><a href="mesh_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_mesh_1_1_vox.html">MR::Mesh::Vox</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_mesh_1_1_polygon.html">MR::Mesh::Polygon&lt; vertices &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_mesh_1_1_mesh.html">MR::Mesh::Mesh</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_mesh_1_1_mesh_multi.html">MR::Mesh::MeshMulti</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_surface_1_1_mesh.html">MR::Surface::Mesh</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespace_m_r"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html">MR</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespace_m_r_1_1_mesh"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_mesh.html">MR::Mesh</a></td></tr>
+<tr class="memitem:namespace_m_r_1_1_surface"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_surface.html">MR::Surface</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:aeb93df750f1c6ff06dbf043a480f7b3a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_mesh.html#aeb93df750f1c6ff06dbf043a480f7b3a">MR::Mesh::Vertex</a> = <a class="el" href="namespace_eigen.html#ae545bc6107a8da3311337658493fe51b">Eigen::Vector3</a></td></tr>
-<tr class="separator:aeb93df750f1c6ff06dbf043a480f7b3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a735689fda7a7c141e31952505bc88a78"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_mesh.html#a735689fda7a7c141e31952505bc88a78">MR::Mesh::VertexList</a> = std::vector&lt; Vertex &gt;</td></tr>
-<tr class="separator:a735689fda7a7c141e31952505bc88a78"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a705d0bd29d947a3a0168270bd285a094"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_mesh.html#a705d0bd29d947a3a0168270bd285a094">MR::Mesh::Triangle</a> = Polygon&lt; 3 &gt;</td></tr>
-<tr class="separator:a705d0bd29d947a3a0168270bd285a094"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0102d0ca8be0993fde35875f0e75a426"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_mesh.html#a0102d0ca8be0993fde35875f0e75a426">MR::Mesh::TriangleList</a> = std::vector&lt; Triangle &gt;</td></tr>
-<tr class="separator:a0102d0ca8be0993fde35875f0e75a426"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92b09740627a3ebd060ea4a20208b5d4"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_mesh.html#a92b09740627a3ebd060ea4a20208b5d4">MR::Mesh::Quad</a> = Polygon&lt; 4 &gt;</td></tr>
-<tr class="separator:a92b09740627a3ebd060ea4a20208b5d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a952adea5c1975113fe57bce3ea14d73e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_mesh.html#a952adea5c1975113fe57bce3ea14d73e">MR::Mesh::QuadList</a> = std::vector&lt; Quad &gt;</td></tr>
-<tr class="separator:a952adea5c1975113fe57bce3ea14d73e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespace_m_r_1_1_surface_1_1_filter"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_surface_1_1_filter.html">MR::Surface::Filter</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_7be0d8c199b9408ae01f5d77515b8def.html">mesh</a></li><li class="navelem"><a class="el" href="mesh_8h.html">mesh.h</a></li>
-    <li class="footer">Generated on Wed Apr 19 2017 09:26:43 for MRtrix by
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_93b0d6a552827721ec9247642283aaa7.html">surface</a></li><li class="navelem"><a class="el" href="mesh_8h.html">mesh.h</a></li>
+    <li class="footer">Generated on Tue May 2 2017 10:45:11 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

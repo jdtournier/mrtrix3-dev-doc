@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-535-g21da6244</div>
+   <div id="projectbrief">Version 3.0_RC1-1-g93f159af</div>
   </td>
  </tr>
  </tbody>
@@ -87,13 +87,18 @@ $(document).ready(function(){initNavTree('functions_e.html','');});
 <li>E
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_m_h_sampler.html#ac55b66c130a6ca5fc97a8c06f246ef54">MR::DWI::Tractography::GT::MHSampler</a>
 , <a class="el" href="class_m_r_1_1_stats_1_1_c_f_e_1_1_enhancer.html#a10a0102afefe4f86029b69e5ca5f80f3">MR::Stats::CFE::Enhancer</a>
-, <a class="el" href="class_m_r_1_1_stats_1_1_t_f_c_e_1_1_enhancer.html#a194df1c582c3aea7e1e2c0098c16e0a0">MR::Stats::TFCE::Enhancer</a>
 </li>
 <li>e_conn
 : <a class="el" href="struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle_end.html#acb22eef95e633ca27e7d41320b34f599">MR::DWI::Tractography::GT::ParticleEnd</a>
 </li>
+<li>early_exit
+: <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_write_kernel.html#aeed2d60551c53c64437d1c526bddcf51">MR::DWI::Tractography::Tracking::WriteKernel</a>
+</li>
+<li>EarlyExit()
+: <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_early_exit.html#ae56c0976a105f4559305bd0031694cb0">MR::DWI::Tractography::Tracking::EarlyExit</a>
+</li>
 <li>Edge()
-: <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_edge.html#a95997e0b354d4b08b1e22242739e226e">MR::GUI::MRView::Tool::Edge</a>
+: <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_edge.html#a530724e713d1905263233b0925ddf65b">MR::GUI::MRView::Tool::Edge</a>
 </li>
 <li>edge_alpha_combobox
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_connectome.html#afe6ce7638e6124ff2907cc9bf503fc40">MR::GUI::MRView::Tool::Connectome</a>
@@ -232,11 +237,9 @@ $(document).ready(function(){initNavTree('functions_e.html','');});
 </li>
 <li>EdgeColourObserver
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_connectome.html#a0e3d8d8a08e326bf63bfc0df45c15449">MR::GUI::MRView::Tool::Connectome</a>
-, <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_edge_colour_observer.html#aeca1bbe5f95080911c5f2f631a53e947">MR::GUI::MRView::Tool::EdgeColourObserver</a>
 </li>
 <li>EdgeShader
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_connectome.html#ac56977efa5c70fadd077ea3006f2bd8c">MR::GUI::MRView::Tool::Connectome</a>
-, <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_edge_shader.html#a73d5ef105504028a5a49aafb46377331">MR::GUI::MRView::Tool::EdgeShader</a>
 </li>
 <li>edit_mode_group
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html#a508c606f86d799498f22fd1608cc6b41">MR::GUI::MRView::Tool::ROI</a>
@@ -253,35 +256,11 @@ $(document).ready(function(){initNavTree('functions_e.html','');});
 <li>EintTot
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_stats.html#a86e4f4edb036f2cb69b5dfa37e3e0479">MR::DWI::Tractography::GT::Stats</a>
 </li>
-<li>elapsed()
-: <a class="el" href="class_m_r_1_1_timer.html#a80438b68199bf2a6e9de2faf197546d1">MR::Timer</a>
-</li>
-<li>element
-: <a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_element.html#afb6fadf127257372fb02fca8211f6372">MR::File::Dicom::Element</a>
-, <a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_sequence.html#a8271d3a79d945a37f9190f33536ab22f">MR::File::Dicom::Sequence</a>
-</li>
 <li>elevation_slider
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_lighting_settings.html#aba116922a714b24cea1662173a8b1950">MR::GUI::LightingSettings</a>
 </li>
-<li>ellipsis
-: <a class="el" href="class_m_r_1_1_progress_info.html#a7615298349c608eb5382478d0d711cbd">MR::ProgressInfo</a>
-</li>
 <li>empirical_enhanced_statistics
-: <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#af35ff923f8a8e364df7815369ad4a6d0">MR::Stats::PermTest::Processor&lt; StatsType, EnhancementType &gt;</a>
-</li>
-<li>empty()
-: <a class="el" href="class_m_r_1_1_bit_set.html#a2b0baeb5c8e38fe67b8189fad4682f65">MR::BitSet</a>
-, <a class="el" href="class_m_r_1_1_d_w_i_1_1_fixel__map_1_1_map_voxel.html#a69704b2dd7f43671d7da705d59d2f9c6">MR::DWI::Fixel_map&lt; Fixel &gt;::MapVoxel</a>
-</li>
-<li>end
-: <a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_c_s_a_entry.html#aa55981039ce5923128ca3653c21e9908">MR::File::Dicom::CSAEntry</a>
-, <a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_sequence.html#a6e003720a7f5ae89006dbd922498897e">MR::File::Dicom::Sequence</a>
-</li>
-<li>end_render_colourbars()
-: <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_renderer.html#a6e9102c41fb5cd6e416f02a3cf805334">MR::GUI::MRView::ColourMap::Renderer</a>
-</li>
-<li>end_seq
-: <a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_element.html#aa15c287d9f4e549f819312dc18cab74e">MR::File::Dicom::Element</a>
+: <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#afc473486f165684cfc7b40294b40718d">MR::Stats::PermTest::Processor&lt; StatsType &gt;</a>
 </li>
 <li>Endpoints()
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_resampling_1_1_endpoints.html#a7f5bebb4c779de025c6329ec4956cd7e">MR::DWI::Tractography::Resampling::Endpoints</a>
@@ -289,78 +268,30 @@ $(document).ready(function(){initNavTree('functions_e.html','');});
 <li>ends_only
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_mapper_base.html#aaade66e8ff838a4441c0f9be7981b592">MR::DWI::Tractography::Mapping::TrackMapperBase</a>
 </li>
-<li>EnergyComputer()
-: <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_energy_computer.html#a2629b08cf832a98952352a165c4a08f8">MR::DWI::Tractography::GT::EnergyComputer</a>
-</li>
-<li>EnergySumComputer()
-: <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_energy_sum_computer.html#ab179fec4763db3c5990f5e3279c2fbed">MR::DWI::Tractography::GT::EnergySumComputer</a>
-</li>
 <li>enforce_quantisation
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html#afba11e79b3c6a32470d62631e8164288">MR::DWI::Tractography::SIFT::SIFTer</a>
 </li>
 <li>enhanced_count
-: <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_pre_processor.html#a69a619d740b79bc767a9e14f6a6a1b5d">MR::Stats::PermTest::PreProcessor&lt; StatsType, EnchancementType &gt;</a>
+: <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_pre_processor.html#ab5fceb3186bbc86d887f3f4ea8825eae">MR::Stats::PermTest::PreProcessor&lt; StatsType &gt;</a>
 </li>
 <li>enhanced_statistics
-: <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#a22c196245d2f0babf1d7565dd2b6083e">MR::Stats::PermTest::Processor&lt; StatsType, EnhancementType &gt;</a>
+: <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#ab7fad635452e2ef23d4118385b56d6ed">MR::Stats::PermTest::Processor&lt; StatsType &gt;</a>
 </li>
 <li>enhanced_stats
-: <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_pre_processor.html#a7cd4b19899bfb405025f67db5a3e6859">MR::Stats::PermTest::PreProcessor&lt; StatsType, EnchancementType &gt;</a>
+: <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_pre_processor.html#a529c6a627b6bd8cbf3fb5eb06cd37f11">MR::Stats::PermTest::PreProcessor&lt; StatsType &gt;</a>
 </li>
 <li>enhanced_sum
-: <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_pre_processor.html#ab7363c0aab89d6d730760fa940772dd8">MR::Stats::PermTest::PreProcessor&lt; StatsType, EnchancementType &gt;</a>
-</li>
-<li>Enhancer()
-: <a class="el" href="class_m_r_1_1_stats_1_1_c_f_e_1_1_enhancer.html#a2e505547f78df75d4de6201a112a6816">MR::Stats::CFE::Enhancer</a>
+: <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_pre_processor.html#af3cdfb5faee82d3ceb17ac9b469742be">MR::Stats::PermTest::PreProcessor&lt; StatsType &gt;</a>
 </li>
 <li>enhancer
-: <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_pre_processor.html#a0223b8255f4ca0b770f8fe5b7abe4ce8">MR::Stats::PermTest::PreProcessor&lt; StatsType, EnchancementType &gt;</a>
-, <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#a4262409d9e9f9b3cf09ac03d1cd2f309">MR::Stats::PermTest::Processor&lt; StatsType, EnhancementType &gt;</a>
-</li>
-<li>Enhancer()
-: <a class="el" href="class_m_r_1_1_stats_1_1_t_f_c_e_1_1_enhancer.html#a4482ddf12959b6db61179ed114ba8d0a">MR::Stats::TFCE::Enhancer</a>
-</li>
-<li>entropy()
-: <a class="el" href="class_m_r_1_1_histogram.html#a65efd86b89c0b8c5880eba0a8d89ab6c">MR::Histogram&lt; Set &gt;</a>
-</li>
-<li>Entry()
-: <a class="el" href="class_m_r_1_1_file_1_1_entry.html#a435e8ca255114ae5de633ea6d77e4d0a">MR::File::Entry</a>
-, <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_entry.html#ad78cc79fc9e24affc321b5d5bfa75f3f">MR::GUI::MRView::ColourMap::Entry</a>
-, <a class="el" href="class_m_r_1_1_histogram_1_1_entry.html#af30f6ef4f3f51b780b38e4b1fc6bea46">MR::Histogram&lt; Set &gt;::Entry</a>
-</li>
-<li>eof()
-: <a class="el" href="class_m_r_1_1_file_1_1_g_z.html#a9bb0fc6e398d1ba9da9bcd399f7fd931">MR::File::GZ</a>
-</li>
-<li>eps
-: <a class="el" href="class_m_r_1_1_interp_1_1_linear_interp_base.html#a8cee4350c7062d99eddc51d28d2c29e8">MR::Interp::LinearInterpBase&lt; ImageType, PType &gt;</a>
+: <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_pre_processor.html#a81b1659ae8ad8bf277b4906242c8fdad">MR::Stats::PermTest::PreProcessor&lt; StatsType &gt;</a>
+, <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#a230a3ac784ec9349bbc2186075aaed8d">MR::Stats::PermTest::Processor&lt; StatsType &gt;</a>
 </li>
 <li>erase
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_cursor.html#a0b0a9dbe6838a235910ec637e612e5f4">MR::GUI::Cursor</a>
-, <a class="el" href="class_m_r_1_1_min__mem__array.html#ac123603d3f1a2da599a35a63300592c6">MR::Min_mem_array&lt; T &gt;</a>
-</li>
-<li>erase_colour_data()
-: <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractogram.html#abefe4a9618a9378eaad90f237ffaa9a3">MR::GUI::MRView::Tool::Tractogram</a>
-</li>
-<li>erase_intensity_scalar_data()
-: <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractogram.html#accfefcea1accab02c04895c21e818f3e">MR::GUI::MRView::Tool::Tractogram</a>
-</li>
-<li>erase_threshold_scalar_data()
-: <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractogram.html#a16d8698b24dac57998b3aab30aef097b">MR::GUI::MRView::Tool::Tractogram</a>
 </li>
 <li>erode()
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_directions_1_1_mask.html#a4a194de14fc1f9987be73d3dffc068ea">MR::DWI::Directions::Mask</a>
-</li>
-<li>Erode()
-: <a class="el" href="class_m_r_1_1_filter_1_1_erode.html#aa4c82db3812a0b414009d37219981f7b">MR::Filter::Erode</a>
-</li>
-<li>erode()
-: <a class="el" href="class_m_r_1_1_filter_1_1_erode.html#a79c19d3fdfb79ccd9d572f99ac8f61ef">MR::Filter::Erode</a>
-</li>
-<li>error()
-: <a class="el" href="class_m_r_1_1_file_1_1_g_z.html#a13d6b9110e829ba9c0d7f9b85017cdbb">MR::File::GZ</a>
-</li>
-<li>error_check()
-: <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_matrix.html#a1f0d07436c4a82d9fde1cf98eb90838b">MR::DWI::Tractography::Connectome::Matrix</a>
 </li>
 <li>error_index
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_combo_box_with_error_msg.html#acb1c7443226fa56f02988fe7f18be1d6">MR::GUI::MRView::ComboBoxWithErrorMsg</a>
@@ -368,81 +299,22 @@ $(document).ready(function(){initNavTree('functions_e.html','');});
 <li>error_message
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_combo_box_with_error_msg.html#a1eaf502deb40d47293f73fbff23d9af6">MR::GUI::MRView::ComboBoxWithErrorMsg</a>
 </li>
-<li>estimate()
-: <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_evaluate.html#a3aad601ca55475878501d40858e10b74">MR::Registration::Metric::Evaluate&lt; MetricType, ParamType &gt;</a>
-</li>
-<li>estimate_factors()
-: <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_tck_factor.html#adfde5dc2611bc8be746b2d4bf9b1c300">MR::DWI::Tractography::SIFT2::TckFactor</a>
-</li>
-<li>estimator
-: <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_difference_robust.html#a9fcb37991ba35998a05db11571b3e559">MR::Registration::Metric::DifferenceRobust&lt; Estimator &gt;</a>
-</li>
 <li>eval()
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_external_energy_computer.html#a86eabd655b41af32311f6ae385a805f4">MR::DWI::Tractography::GT::ExternalEnergyComputer</a>
-</li>
-<li>Evaluate()
-: <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_evaluate.html#ab4aac7c27144d07a85d68a17c770e54a">MR::Registration::Metric::Evaluate&lt; MetricType, ParamType &gt;</a>
-</li>
-<li>evaluate_func()
-: <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent.html#a5f7c765d5a1e8a3f735108c0ae80a3c9">MR::Math::GradientDescent&lt; Function, UpdateFunctor &gt;</a>
-, <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a0d0786869ba2a493b8433aa2c975325b">MR::Math::GradientDescentBB&lt; Function, UpdateFunctor &gt;</a>
 </li>
 <li>eventFilter()
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_adjust_button.html#ae875a2f4e832bdb25f8c643b752a9439">MR::GUI::MRView::AdjustButton</a>
 </li>
-<li>Exception()
-: <a class="el" href="class_m_r_1_1_exception.html#aefec3950c232df9e33c4f29f72b49c69">MR::Exception</a>
-</li>
-<li>excess_bits()
-: <a class="el" href="class_m_r_1_1_bit_set.html#a69f4c0b368962bd4d9722cf37593ad44">MR::BitSet</a>
-</li>
-<li>exclude
-: <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_properties.html#a7d6ee148e125b66c1f881e7de8d10d60">MR::DWI::Tractography::Properties</a>
-, <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_fixel.html#a88ec156fcc89db164647b322b7aa3780">MR::DWI::Tractography::SIFT2::Fixel</a>
-</li>
-<li>Exec()
-: <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_exec.html#a16c54ba92d6e5ac3c3d34c7ee81bf8c4">MR::DWI::Tractography::Tracking::Exec&lt; Method &gt;</a>
-</li>
-<li>execute()
-: <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_m_h_sampler.html#a9446e984f68617780941588225e6a8d8">MR::DWI::Tractography::GT::MHSampler</a>
-, <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_pre_processor.html#afe96b4c2f6328201fde1309d458841c5">MR::Stats::PermTest::PreProcessor&lt; StatsType, EnchancementType &gt;</a>
-, <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#a0989cac41ea87a7a96221ad76bbf656b">MR::Stats::PermTest::Processor&lt; StatsType, EnhancementType &gt;</a>
-</li>
-<li>EXECUTING
-: <a class="el" href="group___optimisation.html#gga142be9450c9aac5265dc923bab259fcea96f5c11f8cbb1ec77c39936bbf9cabe3">MR::Math::QuadraticLineSearch&lt; ValueType &gt;</a>
-</li>
-<li>Exemplar()
-: <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_exemplar.html#ae7d0fba8a0f7f828d8db5783eacb2652">MR::DWI::Tractography::Connectome::Exemplar</a>
-</li>
-<li>ExhaustiveRotationSearch()
-: <a class="el" href="class_m_r_1_1_registration_1_1_rotation_search_1_1_exhaustive_rotation_search.html#ad1855a36649a92cfd074525caea04af6">MR::Registration::RotationSearch::ExhaustiveRotationSearch&lt; MetricType &gt;</a>
+<li>exclude()
+: <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_fixel.html#a88ec156fcc89db164647b322b7aa3780">MR::DWI::Tractography::SIFT2::Fixel</a>
 </li>
 <li>expmeanFs
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_line_search_functor_1_1_fixel.html#ae33ec700ec5d67b8326daf724d4b505c">MR::DWI::Tractography::SIFT2::LineSearchFunctor::Fixel</a>
 </li>
-<li>exportTracks()
-: <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle_grid.html#a28b1ec708e26721193fafd8cad6c92ef">MR::DWI::Tractography::GT::ParticleGrid</a>
-</li>
 <li>extent
-: <a class="el" href="class_m_r_1_1_adapter_1_1_median.html#a6eb6db68882d240d4d78584fb768f074">MR::Adapter::Median&lt; ImageType &gt;</a>
-, <a class="el" href="class_m_r_1_1_adapter_1_1_normalise3_d.html#ae1abc565212d90e7ecebc09e77e8ce75">MR::Adapter::Normalise3D&lt; ImageType &gt;</a>
-, <a class="el" href="class_m_r_1_1_filter_1_1_median.html#a96e2dff0cb4b657b67a5d4c9fd20ab36">MR::Filter::Median</a>
-, <a class="el" href="class_m_r_1_1_filter_1_1_normalise.html#ac38fdb96a1a80b290ee15d8499e2759b">MR::Filter::Normalise</a>
-, <a class="el" href="class_m_r_1_1_filter_1_1_smooth.html#a0eb015e812ad5f8dacf7b56bb37cb4fd">MR::Filter::Smooth</a>
-, <a class="el" href="class_m_r_1_1_neighbourhood_iterator.html#a299f00740d6ab464831cd3bc9c65fb1d">MR::NeighbourhoodIterator</a>
-, <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_evaluate.html#abdfd9954ba5d9be9987f8f89717683de">MR::Registration::Metric::Evaluate&lt; MetricType, ParamType &gt;</a>
-, <a class="el" href="struct_m_r_1_1_registration_1_1_metric_1_1_n_c_c_precompute_functor_masked___d_e_b_u_g.html#a779b6dda055251d6754ce84796b13bd2">MR::Registration::Metric::NCCPrecomputeFunctorMasked_DEBUG&lt; ImageType1, ImageType2 &gt;</a>
-, <a class="el" href="struct_m_r_1_1_registration_1_1_metric_1_1_n_c_c_precompute_functor_masked___naive.html#a137e0f63656ca7a29dea8c4724677eda">MR::Registration::Metric::NCCPrecomputeFunctorMasked_Naive&lt; ImageType1, ImageType2 &gt;</a>
-, <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_params.html#aadac9cec2e49f980914491767c97f31c">MR::Registration::Metric::Params&lt; TransformType, Im1ImageType, Im2ImageType, MidwayImageType, Im1MaskType, Im2MaskType, Im1ImageInterpType, Im2ImageInterpType, Im1MaskInterpolatorType, Im2MaskInterpolatorType, ProcImageType, ProcImageInterpolatorType, ProcMaskType, ProcessedMaskInterpolatorType &gt;</a>
-</li>
-<li>ExternalEnergyComputer()
-: <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_external_energy_computer.html#a4c1294b3b22eb3545ce36f3e14b7a847">MR::DWI::Tractography::GT::ExternalEnergyComputer</a>
-</li>
-<li>Extract()
-: <a class="el" href="class_m_r_1_1_adapter_1_1_extract.html#ac0de063b1821f24cdca2b5f83591bd97">MR::Adapter::Extract&lt; ImageType &gt;</a>
-</li>
-<li>Extract1D()
-: <a class="el" href="class_m_r_1_1_adapter_1_1_extract1_d.html#ac94467c7359941801d2f52002b41e24b">MR::Adapter::Extract1D&lt; ImageType &gt;</a>
+: <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_evaluate.html#a415500991e0ff7baf07d135fef87947e">MR::Registration::Metric::Evaluate&lt; MetricType, ParamType &gt;</a>
+, <a class="el" href="struct_m_r_1_1_registration_1_1_metric_1_1_n_c_c_precompute_functor_masked___d_e_b_u_g.html#a316ff5823247326fab88440474893457">MR::Registration::Metric::NCCPrecomputeFunctorMasked_DEBUG&lt; ImageType1, ImageType2 &gt;</a>
+, <a class="el" href="struct_m_r_1_1_registration_1_1_metric_1_1_n_c_c_precompute_functor_masked___naive.html#a1a36d34b001ed9fb7fe0d676ddab9fa9">MR::Registration::Metric::NCCPrecomputeFunctorMasked_Naive&lt; ImageType1, ImageType2 &gt;</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -450,7 +322,7 @@ $(document).ready(function(){initNavTree('functions_e.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Apr 19 2017 09:27:04 for MRtrix by
+    <li class="footer">Generated on Tue May 2 2017 10:45:21 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

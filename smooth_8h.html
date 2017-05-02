@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
-<title>MRtrix: lib/filter/smooth.h File Reference</title>
+<title>MRtrix: src/surface/filter/smooth.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-535-g21da6244</div>
+   <div id="projectbrief">Version 3.0_RC1-1-g93f159af</div>
   </td>
  </tr>
  </tbody>
@@ -83,39 +83,45 @@ $(document).ready(function(){initNavTree('smooth_8h.html','');});
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">smooth.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="memory_8h_source.html">memory.h</a>&quot;</code><br />
-<code>#include &quot;image.h&quot;</code><br />
-<code>#include &quot;<a class="el" href="algo_2copy_8h_source.html">algo/copy.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="threaded__copy_8h_source.html">algo/threaded_copy.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="gaussian1_d_8h_source.html">adapter/gaussian1D.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="lib_2filter_2base_8h_source.html">filter/base.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="mesh_8h_source.html">surface/mesh.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="surface_2filter_2base_8h_source.html">surface/filter/base.h</a>&quot;</code><br />
 </div>
 <p><a href="smooth_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_filter_1_1_smooth.html">MR::Filter::Smooth</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_surface_1_1_filter_1_1_smooth.html">MR::Surface::Filter::Smooth</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespace_m_r"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html">MR</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespace_m_r_1_1_filter"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_filter.html">MR::Filter</a></td></tr>
+<tr class="memitem:namespace_m_r_1_1_surface"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_surface.html">MR::Surface</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespace_m_r_1_1_surface_1_1_filter"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_surface_1_1_filter.html">MR::Surface::Filter</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a54617fa4b9efa9f828198e9d97f77e5e"><td class="memItemLeft" align="right" valign="top">constexpr default_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_surface_1_1_filter.html#a54617fa4b9efa9f828198e9d97f77e5e">MR::Surface::Filter::default_smoothing_spatial_factor</a> = 10.0</td></tr>
+<tr class="separator:a54617fa4b9efa9f828198e9d97f77e5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b3e71054e3c59b4d7c2bad07c125f6f"><td class="memItemLeft" align="right" valign="top">constexpr default_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_surface_1_1_filter.html#a9b3e71054e3c59b4d7c2bad07c125f6f">MR::Surface::Filter::default_smoothing_influence_factor</a> = 10.0</td></tr>
+<tr class="separator:a9b3e71054e3c59b4d7c2bad07c125f6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_2023ebe2d07d97f5a48719246b8446bc.html">filter</a></li><li class="navelem"><a class="el" href="smooth_8h.html">smooth.h</a></li>
-    <li class="footer">Generated on Wed Apr 19 2017 09:26:43 for MRtrix by
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_93b0d6a552827721ec9247642283aaa7.html">surface</a></li><li class="navelem"><a class="el" href="dir_ddc7f31eb0e7c20aa083a693c022f924.html">filter</a></li><li class="navelem"><a class="el" href="smooth_8h.html">smooth.h</a></li>
+    <li class="footer">Generated on Tue May 2 2017 10:45:11 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

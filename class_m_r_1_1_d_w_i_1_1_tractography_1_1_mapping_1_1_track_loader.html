@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-535-g21da6244</div>
+   <div id="projectbrief">Version 3.0_RC1-1-g93f159af</div>
   </td>
  </tr>
  </tbody>
@@ -82,7 +82,6 @@ $(document).ready(function(){initNavTree('class_m_r_1_1_d_w_i_1_1_tractography_1
 
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_loader-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -92,129 +91,19 @@ $(document).ready(function(){initNavTree('class_m_r_1_1_d_w_i_1_1_tractography_1
 
 <p><code>#include &quot;<a class="el" href="mapping_2loader_8h_source.html">dwi/tractography/mapping/loader.h</a>&quot;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a5f60ce07db0e552a961015cdf78ef7b6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_loader.html#a5f60ce07db0e552a961015cdf78ef7b6">TrackLoader</a> (<a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_reader.html">Reader</a>&lt;&gt; &amp;file, const size_t to_load=0, const std::string &amp;msg=&quot;mapping tracks <a class="el" href="namespace_m_r.html#ad5a737bfbb3fcb51accf1a329da6fb7c">to</a> image&quot;)</td></tr>
-<tr class="separator:a5f60ce07db0e552a961015cdf78ef7b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee82c97c815b67dcf4e9f0f589928b08"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_loader.html#aee82c97c815b67dcf4e9f0f589928b08">~TrackLoader</a> ()</td></tr>
-<tr class="separator:aee82c97c815b67dcf4e9f0f589928b08"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acaa42c0121ba4fe7fd42c88e89b58320"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_loader.html#acaa42c0121ba4fe7fd42c88e89b58320">operator()</a> (<a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_streamline.html">Streamline</a>&lt;&gt; &amp;out)</td></tr>
-<tr class="separator:acaa42c0121ba4fe7fd42c88e89b58320"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a40e409ade9e15c1f668011727441a2ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_reader.html">Reader</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_loader.html#a40e409ade9e15c1f668011727441a2ca">reader</a></td></tr>
 <tr class="separator:a40e409ade9e15c1f668011727441a2ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab69fd0d0745bd157f0957f05fc7f9845"><td class="memItemLeft" align="right" valign="top">const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_loader.html#ab69fd0d0745bd157f0957f05fc7f9845">tracks_to_load</a></td></tr>
 <tr class="separator:ab69fd0d0745bd157f0957f05fc7f9845"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c5b1137d4c8eb070da0127d2471e777"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="class_m_r_1_1_progress_bar.html">ProgressBar</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_loader.html#a3c5b1137d4c8eb070da0127d2471e777">progress</a></td></tr>
+<tr class="memitem:a3c5b1137d4c8eb070da0127d2471e777"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; ProgressBar &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_loader.html#a3c5b1137d4c8eb070da0127d2471e777">progress</a></td></tr>
 <tr class="separator:a3c5b1137d4c8eb070da0127d2471e777"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="mapping_2loader_8h_source.html#l00034">34</a> of file <a class="el" href="mapping_2loader_8h_source.html">loader.h</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a5f60ce07db0e552a961015cdf78ef7b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5f60ce07db0e552a961015cdf78ef7b6">&#9670;&nbsp;</a></span>TrackLoader()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">MR::DWI::Tractography::Mapping::TrackLoader::TrackLoader </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_reader.html">Reader</a>&lt;&gt; &amp;&#160;</td>
-          <td class="paramname"><em>file</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const size_t&#160;</td>
-          <td class="paramname"><em>to_load</em> = <code>0</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>msg</em> = <code>&quot;mapping&#160;tracks&#160;<a class="el" href="namespace_m_r.html#ad5a737bfbb3fcb51accf1a329da6fb7c">to</a>&#160;image&quot;</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="mapping_2loader_8h_source.html#l00038">38</a> of file <a class="el" href="mapping_2loader_8h_source.html">loader.h</a>.</p>
-
-</div>
-</div>
-<a id="aee82c97c815b67dcf4e9f0f589928b08"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aee82c97c815b67dcf4e9f0f589928b08">&#9670;&nbsp;</a></span>~TrackLoader()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual MR::DWI::Tractography::Mapping::TrackLoader::~TrackLoader </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="mapping_2loader_8h_source.html#l00043">43</a> of file <a class="el" href="mapping_2loader_8h_source.html">loader.h</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="acaa42c0121ba4fe7fd42c88e89b58320"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acaa42c0121ba4fe7fd42c88e89b58320">&#9670;&nbsp;</a></span>operator()()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual bool MR::DWI::Tractography::Mapping::TrackLoader::operator() </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_streamline.html">Streamline</a>&lt;&gt; &amp;&#160;</td>
-          <td class="paramname"><em>out</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="mapping_2loader_8h_source.html#l00044">44</a> of file <a class="el" href="mapping_2loader_8h_source.html">loader.h</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
+<p class="definition">Definition at line <a class="el" href="mapping_2loader_8h_source.html#l00033">33</a> of file <a class="el" href="mapping_2loader_8h_source.html">loader.h</a>.</p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="a3c5b1137d4c8eb070da0127d2471e777"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3c5b1137d4c8eb070da0127d2471e777">&#9670;&nbsp;</a></span>progress</h2>
 
@@ -225,7 +114,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt;<a class="el" href="class_m_r_1_1_progress_bar.html">ProgressBar</a>&gt; MR::DWI::Tractography::Mapping::TrackLoader::progress</td>
+          <td class="memname">std::unique_ptr&lt;ProgressBar&gt; MR::DWI::Tractography::Mapping::TrackLoader::progress</td>
         </tr>
       </table>
   </td>
@@ -235,7 +124,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mapping_2loader_8h_source.html#l00063">63</a> of file <a class="el" href="mapping_2loader_8h_source.html">loader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mapping_2loader_8h_source.html#l00062">62</a> of file <a class="el" href="mapping_2loader_8h_source.html">loader.h</a>.</p>
 
 </div>
 </div>
@@ -259,7 +148,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mapping_2loader_8h_source.html#l00061">61</a> of file <a class="el" href="mapping_2loader_8h_source.html">loader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mapping_2loader_8h_source.html#l00060">60</a> of file <a class="el" href="mapping_2loader_8h_source.html">loader.h</a>.</p>
 
 </div>
 </div>
@@ -283,7 +172,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mapping_2loader_8h_source.html#l00062">62</a> of file <a class="el" href="mapping_2loader_8h_source.html">loader.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mapping_2loader_8h_source.html#l00061">61</a> of file <a class="el" href="mapping_2loader_8h_source.html">loader.h</a>.</p>
 
 </div>
 </div>
@@ -296,7 +185,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_d_w_i.html">DWI</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography.html">Tractography</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping.html">Mapping</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_loader.html">TrackLoader</a></li>
-    <li class="footer">Generated on Wed Apr 19 2017 09:26:44 for MRtrix by
+    <li class="footer">Generated on Tue May 2 2017 10:45:12 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

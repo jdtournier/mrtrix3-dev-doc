@@ -1,5 +1,5 @@
 var struct_m_r_1_1_registration_1_1_transform_1_1_init_1_1_linear_initialisation_params_1_1_rotation1359ce80abca0ed08d29084512a24159 =
 [
     [ "global_search", "struct_m_r_1_1_registration_1_1_transform_1_1_init_1_1_linear_initialisation_params_1_1_rotation1359ce80abca0ed08d29084512a24159.html#a89e8b3ae7ca9ef65c29bd0d0971d390e", null ],
-    [ "iterations", "struct_m_r_1_1_registration_1_1_transform_1_1_init_1_1_linear_initialisation_params_1_1_rotation1359ce80abca0ed08d29084512a24159.html#a77e460b832590c5064727db50913d2a7", null ]
+    [ "MEMALIGN", "struct_m_r_1_1_registration_1_1_transform_1_1_init_1_1_linear_initialisation_params_1_1_rotation1359ce80abca0ed08d29084512a24159.html#af24cc7d22b1ee780340b15a60ab3b96d", null ]
 ];

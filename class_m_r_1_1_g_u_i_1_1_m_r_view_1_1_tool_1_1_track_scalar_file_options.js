@@ -1,11 +1,6 @@
 var class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file_options =
 [
-    [ "TrackScalarFileOptions", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file_options.html#a3a0f9a5b52685b7a76565f7c06bf6a89", null ],
-    [ "~TrackScalarFileOptions", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file_options.html#ad2f7390976fb101f8097b03f6d6a74ed", null ],
     [ "open_intensity_track_scalar_file_slot", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file_options.html#a0f3492647b9aee10399b722cfed983e8", null ],
-    [ "render_tractogram_colourbar", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file_options.html#a69f54abd2313c5bc6fc5a27033f94814", null ],
-    [ "set_tractogram", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file_options.html#a9b09436faaa7a95f7c3d01367bf0daa5", null ],
-    [ "update_UI", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file_options.html#a156b172aba6ffadc9bcc998a32815224", null ],
     [ "colour_groupbox", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file_options.html#a67d5219a65f42aaa9f936c8234b28d1e", null ],
     [ "colourmap_actions", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file_options.html#ae8bddf09f9a7e4c063284d6506ec9e46", null ],
     [ "colourmap_button", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file_options.html#a0eb2d45bd0e1f466c2a40076028476d8", null ],

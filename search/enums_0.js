@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['_5ftype',['_Type',['../class_m_r_1_1_file_1_1_dicom_1_1_element.html#ae9217c91240fb8e69f77bf9f6a973173',1,'MR::File::Dicom::Element']]]
+  ['contrast_5ft',['contrast_t',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping.html#a6d8085a00765609c3f8ee435f8cdf31d',1,'MR::DWI::Tractography::Mapping']]]
 ];

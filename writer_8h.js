@@ -1,7 +1,7 @@
 var writer_8h =
 [
     [ "MapWriterBase", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_map_writer_base.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_map_writer_base" ],
-    [ "MapWriter", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_map_writer.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_map_writer" ],
+    [ "MapWriter", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_map_writer.html", null ],
     [ "writer_dim", "writer_8h.html#a89a945a433c16dd9dec81f827d6226b9", [
       [ "UNDEFINED", "writer_8h.html#a89a945a433c16dd9dec81f827d6226b9a752f5817980e85fdb87743f4289f23e6", null ],
       [ "GREYSCALE", "writer_8h.html#a89a945a433c16dd9dec81f827d6226b9a244513a3736c9ff9efc50f1a9694023d", null ],

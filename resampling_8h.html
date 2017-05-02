@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-535-g21da6244</div>
+   <div id="projectbrief">Version 3.0_RC1-1-g93f159af</div>
   </td>
  </tr>
  </tbody>
@@ -84,6 +84,7 @@ $(document).ready(function(){initNavTree('resampling_8h.html','');});
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
@@ -91,13 +92,16 @@ $(document).ready(function(){initNavTree('resampling_8h.html','');});
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;vector&gt;</code><br />
-<code>#include &quot;<a class="el" href="generated__track_8h_source.html">dwi/tractography/tracking/generated_track.h</a>&quot;</code><br />
+<code>#include &quot;app.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="streamline_8h_source.html">dwi/tractography/streamline.h</a>&quot;</code><br />
 </div>
 <p><a href="resampling_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_resampling_1_1_base.html">MR::DWI::Tractography::Resampling::Base</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_resampling_1_1_base_c_r_t_p.html">MR::DWI::Tractography::Resampling::BaseCRTP&lt; Derived &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -111,6 +115,13 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_resampling"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_resampling.html">MR::DWI::Tractography::Resampling</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:ae1e428f1e09d1f8310ed3deebaf11f6e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_resampling.html#ae1e428f1e09d1f8310ed3deebaf11f6e">MR::DWI::Tractography::Resampling::value_type</a> = float</td></tr>
+<tr class="separator:ae1e428f1e09d1f8310ed3deebaf11f6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a227607cf0d263b3d0a29da0f459647"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_resampling.html#a8a227607cf0d263b3d0a29da0f459647">MR::DWI::Tractography::Resampling::point_type</a> = typename Streamline&lt;&gt;::point_type</td></tr>
+<tr class="separator:a8a227607cf0d263b3d0a29da0f459647"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a73981257dcf50653d99cf17f89a6925e"><td class="memItemLeft" align="right" valign="top">Base *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_resampling.html#a73981257dcf50653d99cf17f89a6925e">MR::DWI::Tractography::Resampling::get_resampler</a> ()</td></tr>
@@ -120,8 +131,8 @@ Functions</h2></td></tr>
 Variables</h2></td></tr>
 <tr class="memitem:a6c354a5629c4bee0b1f1c0432c3cd2cb"><td class="memItemLeft" align="right" valign="top">const App::OptionGroup&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_resampling.html#a6c354a5629c4bee0b1f1c0432c3cd2cb">MR::DWI::Tractography::Resampling::ResampleOption</a></td></tr>
 <tr class="separator:a6c354a5629c4bee0b1f1c0432c3cd2cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace68ff6a33c429cfa839a9a50b2d032f"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_resampling.html#ace68ff6a33c429cfa839a9a50b2d032f">MR::DWI::Tractography::Resampling::hermite_tension</a> = 0.1f</td></tr>
-<tr class="separator:ace68ff6a33c429cfa839a9a50b2d032f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b28e0b6c71ce5e94554dc52520eb3ce"><td class="memItemLeft" align="right" valign="top">constexpr value_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_resampling.html#a2b28e0b6c71ce5e94554dc52520eb3ce">MR::DWI::Tractography::Resampling::hermite_tension</a> = value_type(0.1)</td></tr>
+<tr class="separator:a2b28e0b6c71ce5e94554dc52520eb3ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -129,7 +140,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_6da8e6f1bfdb5540a85bd819d2a13962.html">dwi</a></li><li class="navelem"><a class="el" href="dir_6f8fcd489e430c1a1b22716f7655ad56.html">tractography</a></li><li class="navelem"><a class="el" href="dir_aaa7744cb4a24a2fd4af369f11a51c31.html">resampling</a></li><li class="navelem"><a class="el" href="resampling_8h.html">resampling.h</a></li>
-    <li class="footer">Generated on Wed Apr 19 2017 09:26:43 for MRtrix by
+    <li class="footer">Generated on Tue May 2 2017 10:45:11 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

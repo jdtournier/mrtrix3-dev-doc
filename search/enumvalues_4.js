@@ -9,7 +9,6 @@ var searchData=
   ['enter_5fcsf',['ENTER_CSF',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#a1c30c67185585a9f27b5a581050292f5ad9b7b45b949c70e2c1627c69f1cd4612',1,'MR::DWI::Tractography::Tracking']]],
   ['enter_5fexclude',['ENTER_EXCLUDE',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#a1c30c67185585a9f27b5a581050292f5abec0556f0c620b426ac707278523450b',1,'MR::DWI::Tractography::Tracking']]],
   ['enter_5fexclude_5fregion',['ENTER_EXCLUDE_REGION',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#ad956382fab3ffe08fe6398044e9ae01aa81d3e19b49229c733d59150913f11a39',1,'MR::DWI::Tractography::Tracking']]],
-  ['executing',['EXECUTING',['../group___optimisation.html#gga142be9450c9aac5265dc923bab259fcea96f5c11f8cbb1ec77c39936bbf9cabe3',1,'MR::Math::QuadraticLineSearch']]],
   ['exit_5fimage',['EXIT_IMAGE',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#a1c30c67185585a9f27b5a581050292f5aabadd272a0347e83a65f6125b9d403ac',1,'MR::DWI::Tractography::Tracking']]],
   ['exit_5fmask',['EXIT_MASK',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#a1c30c67185585a9f27b5a581050292f5ac22cdc8e9af290d32c1755f8805306c7',1,'MR::DWI::Tractography::Tracking']]],
   ['exit_5fsgm',['EXIT_SGM',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#a1c30c67185585a9f27b5a581050292f5aa848b265aba6446e2454c8262740ac47',1,'MR::DWI::Tractography::Tracking']]]

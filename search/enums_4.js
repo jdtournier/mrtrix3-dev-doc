@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['fixelcolourtype',['FixelColourType',['../namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool.html#a22348cc42517686fa6f064cc14af1f80',1,'MR::GUI::MRView::Tool']]],
-  ['fixellengthtype',['FixelLengthType',['../namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool.html#a408750a8aad3442af457e2caecb7a7f1',1,'MR::GUI::MRView::Tool']]]
+  ['linearmetrictype',['LinearMetricType',['../namespace_m_r_1_1_registration.html#a2128b8d3c4c2bd10f9a40be6b8fe0bc5',1,'MR::Registration']]],
+  ['linearrobustmetricestimatortype',['LinearRobustMetricEstimatorType',['../namespace_m_r_1_1_registration.html#acee95fcf4386a73a2764b491c5cf06a4',1,'MR::Registration']]]
 ];

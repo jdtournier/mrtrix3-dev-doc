@@ -22,7 +22,6 @@ var dir_5c6e491a6f0b5a7dc66dd7ffa9f23a0b =
       [ "ParticlePool", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle_pool.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle_pool" ]
     ] ],
     [ "spatiallock.h", "spatiallock_8h.html", [
-      [ "SpatialLock", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock" ],
-      [ "Guard", "struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock_1_1_guard.html", "struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock_1_1_guard" ]
+      [ "SpatialLock", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock" ]
     ] ]
 ];

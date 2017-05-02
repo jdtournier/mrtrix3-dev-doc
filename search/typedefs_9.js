@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['node_5ft',['node_t',['../namespace_m_r_1_1_connectome.html#a23a914dedfa39663090d29972eb3950a',1,'MR::Connectome::node_t()'],['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome.html#a8c7b2504ca8d27e380264dcc142e2e74',1,'MR::DWI::Tractography::Connectome::node_t()']]],
-  ['nodepair',['NodePair',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome.html#a25ce9f433c45fcf7c5d0adf8f69079c4',1,'MR::DWI::Tractography::Connectome']]]
+  ['point_5ft',['Point_t',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t.html#a9bb65262d80c12459def723732318f31',1,'MR::DWI::Tractography::GT']]],
+  ['point_5ftype',['point_type',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_resampling.html#a8a227607cf0d263b3d0a29da0f459647',1,'MR::DWI::Tractography::Resampling']]]
 ];

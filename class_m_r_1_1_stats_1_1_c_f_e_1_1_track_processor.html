@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-535-g21da6244</div>
+   <div id="projectbrief">Version 3.0_RC1-1-g93f159af</div>
   </td>
  </tr>
  </tbody>
@@ -82,7 +82,6 @@ $(document).ready(function(){initNavTree('class_m_r_1_1_stats_1_1_c_f_e_1_1_trac
 
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="class_m_r_1_1_stats_1_1_c_f_e_1_1_track_processor-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">MR::Stats::CFE::TrackProcessor Class Reference<div class="ingroups"><a class="el" href="group___statistics.html">Statistics</a></div></div>  </div>
@@ -90,105 +89,11 @@ $(document).ready(function(){initNavTree('class_m_r_1_1_stats_1_1_c_f_e_1_1_trac
 <div class="contents">
 
 <p><code>#include &quot;<a class="el" href="cfe_8h_source.html">stats/cfe.h</a>&quot;</code></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:aa9362359a2b770baf94f71b3490f457a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_c_f_e_1_1_track_processor.html#aa9362359a2b770baf94f71b3490f457a">TrackProcessor</a> (<a class="el" href="class_m_r_1_1_image.html">Image</a>&lt; int32_t &gt; &amp;fixel_indexer, const std::vector&lt; Eigen::Matrix&lt; <a class="el" href="namespace_m_r_1_1_stats_1_1_c_f_e.html#a797271a18629653ed6dcc4fda0351b88">value_type</a>, 3, 1 &gt; &gt; &amp;fixel_directions, std::vector&lt; uint16_t &gt; &amp;fixel_TDI, std::vector&lt; std::map&lt; int32_t, <a class="el" href="class_m_r_1_1_stats_1_1_c_f_e_1_1connectivity.html">connectivity</a> &gt; &gt; &amp;connectivity_matrix, <a class="el" href="namespace_m_r_1_1_stats_1_1_c_f_e.html#a797271a18629653ed6dcc4fda0351b88">value_type</a> angular_threshold)</td></tr>
-<tr class="separator:aa9362359a2b770baf94f71b3490f457a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace3911260ec2bb7580f89e9491bd2aab"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_c_f_e_1_1_track_processor.html#ace3911260ec2bb7580f89e9491bd2aab">operator()</a> (<a class="el" href="namespace_m_r_1_1_stats_1_1_c_f_e.html#ac1dc22b812b8704be873eaf9c3176ed2">SetVoxelDir</a> &amp;in)</td></tr>
-<tr class="separator:ace3911260ec2bb7580f89e9491bd2aab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Process each track by converting each streamline to a set of dixels, and map these to fixels. </p>
 
-<p class="definition">Definition at line <a class="el" href="cfe_8h_source.html#l00049">49</a> of file <a class="el" href="cfe_8h_source.html">cfe.h</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aa9362359a2b770baf94f71b3490f457a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa9362359a2b770baf94f71b3490f457a">&#9670;&nbsp;</a></span>TrackProcessor()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">MR::Stats::CFE::TrackProcessor::TrackProcessor </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_m_r_1_1_image.html">Image</a>&lt; int32_t &gt; &amp;&#160;</td>
-          <td class="paramname"><em>fixel_indexer</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::vector&lt; Eigen::Matrix&lt; <a class="el" href="namespace_m_r_1_1_stats_1_1_c_f_e.html#a797271a18629653ed6dcc4fda0351b88">value_type</a>, 3, 1 &gt; &gt; &amp;&#160;</td>
-          <td class="paramname"><em>fixel_directions</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::vector&lt; uint16_t &gt; &amp;&#160;</td>
-          <td class="paramname"><em>fixel_TDI</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::vector&lt; std::map&lt; int32_t, <a class="el" href="class_m_r_1_1_stats_1_1_c_f_e_1_1connectivity.html">connectivity</a> &gt; &gt; &amp;&#160;</td>
-          <td class="paramname"><em>connectivity_matrix</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="namespace_m_r_1_1_stats_1_1_c_f_e.html#a797271a18629653ed6dcc4fda0351b88">value_type</a>&#160;</td>
-          <td class="paramname"><em>angular_threshold</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="cfe_8h_source.html#l00052">52</a> of file <a class="el" href="cfe_8h_source.html">cfe.h</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="ace3911260ec2bb7580f89e9491bd2aab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ace3911260ec2bb7580f89e9491bd2aab">&#9670;&nbsp;</a></span>operator()()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool MR::Stats::CFE::TrackProcessor::operator() </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="namespace_m_r_1_1_stats_1_1_c_f_e.html#ac1dc22b812b8704be873eaf9c3176ed2">SetVoxelDir</a> &amp;&#160;</td>
-          <td class="paramname"><em>in</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="cfe_8h_source.html#l00064">64</a> of file <a class="el" href="cfe_8h_source.html">cfe.h</a>.</p>
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<p class="definition">Definition at line <a class="el" href="cfe_8h_source.html#l00059">59</a> of file <a class="el" href="cfe_8h_source.html">cfe.h</a>.</p>
+</div><hr/>The documentation for this class was generated from the following file:<ul>
 <li>src/stats/<a class="el" href="cfe_8h_source.html">cfe.h</a></li>
 </ul>
 </div><!-- contents -->
@@ -197,7 +102,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_stats.html">Stats</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_stats_1_1_c_f_e.html">CFE</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_stats_1_1_c_f_e_1_1_track_processor.html">TrackProcessor</a></li>
-    <li class="footer">Generated on Wed Apr 19 2017 09:26:46 for MRtrix by
+    <li class="footer">Generated on Tue May 2 2017 10:45:13 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

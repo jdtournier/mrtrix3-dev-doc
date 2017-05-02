@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-535-g21da6244</div>
+   <div id="projectbrief">Version 3.0_RC1-1-g93f159af</div>
   </td>
  </tr>
  </tbody>
@@ -82,10 +82,6 @@ $(document).ready(function(){initNavTree('class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_c
 
 <div class="header">
   <div class="summary">
-<a href="#pub-types">Public Types</a> &#124;
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_entry-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">MR::GUI::MRView::ColourMap::Entry Class Reference</div>  </div>
@@ -93,242 +89,10 @@ $(document).ready(function(){initNavTree('class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_c
 <div class="contents">
 
 <p><code>#include &quot;<a class="el" href="colourmap_8h_source.html">gui/mrview/colourmap.h</a>&quot;</code></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
-Public Types</h2></td></tr>
-<tr class="memitem:a08aec21ac427817a7a152e9ced6adcef"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_entry.html#a08aec21ac427817a7a152e9ced6adcef">basic_map_fn</a> = std::function&lt; Eigen::Array3f(float) &gt;</td></tr>
-<tr class="separator:a08aec21ac427817a7a152e9ced6adcef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:ad78cc79fc9e24affc321b5d5bfa75f3f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_entry.html#ad78cc79fc9e24affc321b5d5bfa75f3f">Entry</a> (const char *<a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_entry.html#a91e31784e5859caa81358b5b5196d5b0">name</a>, const char *<a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_entry.html#a883102676aa779b5680cb311cc0c0a81">glsl_mapping</a>, <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_entry.html#a08aec21ac427817a7a152e9ced6adcef">basic_map_fn</a> <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_entry.html#ab48e9a872a6be8b9aca8c710fb02e6b0">basic_mapping</a>, const char *<a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_entry.html#a2d024dd9a1d3ecbf9463001c1e012cb4">amplitude</a>=NULL, bool <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_entry.html#a655a90d31f7c7917ce81c204aa44c4e3">special</a>=false, bool <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_entry.html#a78c503b9f07e77a7485aaa25d6ccf428">is_colour</a>=false)</td></tr>
-<tr class="separator:ad78cc79fc9e24affc321b5d5bfa75f3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a91e31784e5859caa81358b5b5196d5b0"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_entry.html#a91e31784e5859caa81358b5b5196d5b0">name</a></td></tr>
-<tr class="separator:a91e31784e5859caa81358b5b5196d5b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a883102676aa779b5680cb311cc0c0a81"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_entry.html#a883102676aa779b5680cb311cc0c0a81">glsl_mapping</a></td></tr>
-<tr class="separator:a883102676aa779b5680cb311cc0c0a81"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab48e9a872a6be8b9aca8c710fb02e6b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_entry.html#a08aec21ac427817a7a152e9ced6adcef">basic_map_fn</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_entry.html#ab48e9a872a6be8b9aca8c710fb02e6b0">basic_mapping</a></td></tr>
-<tr class="separator:ab48e9a872a6be8b9aca8c710fb02e6b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d024dd9a1d3ecbf9463001c1e012cb4"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_entry.html#a2d024dd9a1d3ecbf9463001c1e012cb4">amplitude</a></td></tr>
-<tr class="separator:a2d024dd9a1d3ecbf9463001c1e012cb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a655a90d31f7c7917ce81c204aa44c4e3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_entry.html#a655a90d31f7c7917ce81c204aa44c4e3">special</a></td></tr>
-<tr class="separator:a655a90d31f7c7917ce81c204aa44c4e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a78c503b9f07e77a7485aaa25d6ccf428"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_entry.html#a78c503b9f07e77a7485aaa25d6ccf428">is_colour</a></td></tr>
-<tr class="separator:a78c503b9f07e77a7485aaa25d6ccf428"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:ad56983c23f2cd17b4ad42f6870fecd82"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_entry.html#ad56983c23f2cd17b4ad42f6870fecd82">default_amplitude</a></td></tr>
-<tr class="separator:ad56983c23f2cd17b4ad42f6870fecd82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="colourmap_8h_source.html#l00050">50</a> of file <a class="el" href="colourmap_8h_source.html">colourmap.h</a>.</p>
-</div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a08aec21ac427817a7a152e9ced6adcef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a08aec21ac427817a7a152e9ced6adcef">&#9670;&nbsp;</a></span>basic_map_fn</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_entry.html#a08aec21ac427817a7a152e9ced6adcef">MR::GUI::MRView::ColourMap::Entry::basic_map_fn</a> =  std::function&lt; Eigen::Array3f (float) &gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="colourmap_8h_source.html#l00053">53</a> of file <a class="el" href="colourmap_8h_source.html">colourmap.h</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ad78cc79fc9e24affc321b5d5bfa75f3f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad78cc79fc9e24affc321b5d5bfa75f3f">&#9670;&nbsp;</a></span>Entry()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">MR::GUI::MRView::ColourMap::Entry::Entry </td>
-          <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>glsl_mapping</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_entry.html#a08aec21ac427817a7a152e9ced6adcef">basic_map_fn</a>&#160;</td>
-          <td class="paramname"><em>basic_mapping</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>amplitude</em> = <code>NULL</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>special</em> = <code>false</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>is_colour</em> = <code>false</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="colourmap_8h_source.html#l00055">55</a> of file <a class="el" href="colourmap_8h_source.html">colourmap.h</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a2d024dd9a1d3ecbf9463001c1e012cb4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d024dd9a1d3ecbf9463001c1e012cb4">&#9670;&nbsp;</a></span>amplitude</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const char* MR::GUI::MRView::ColourMap::Entry::amplitude</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="colourmap_8h_source.html#l00067">67</a> of file <a class="el" href="colourmap_8h_source.html">colourmap.h</a>.</p>
-
-</div>
-</div>
-<a id="ab48e9a872a6be8b9aca8c710fb02e6b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab48e9a872a6be8b9aca8c710fb02e6b0">&#9670;&nbsp;</a></span>basic_mapping</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_entry.html#a08aec21ac427817a7a152e9ced6adcef">basic_map_fn</a> MR::GUI::MRView::ColourMap::Entry::basic_mapping</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="colourmap_8h_source.html#l00066">66</a> of file <a class="el" href="colourmap_8h_source.html">colourmap.h</a>.</p>
-
-</div>
-</div>
-<a id="ad56983c23f2cd17b4ad42f6870fecd82"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad56983c23f2cd17b4ad42f6870fecd82">&#9670;&nbsp;</a></span>default_amplitude</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const char* MR::GUI::MRView::ColourMap::Entry::default_amplitude</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="colourmap_8h_source.html#l00070">70</a> of file <a class="el" href="colourmap_8h_source.html">colourmap.h</a>.</p>
-
-</div>
-</div>
-<a id="a883102676aa779b5680cb311cc0c0a81"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a883102676aa779b5680cb311cc0c0a81">&#9670;&nbsp;</a></span>glsl_mapping</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const char* MR::GUI::MRView::ColourMap::Entry::glsl_mapping</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="colourmap_8h_source.html#l00065">65</a> of file <a class="el" href="colourmap_8h_source.html">colourmap.h</a>.</p>
-
-</div>
-</div>
-<a id="a78c503b9f07e77a7485aaa25d6ccf428"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a78c503b9f07e77a7485aaa25d6ccf428">&#9670;&nbsp;</a></span>is_colour</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool MR::GUI::MRView::ColourMap::Entry::is_colour</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="colourmap_8h_source.html#l00068">68</a> of file <a class="el" href="colourmap_8h_source.html">colourmap.h</a>.</p>
-
-</div>
-</div>
-<a id="a91e31784e5859caa81358b5b5196d5b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a91e31784e5859caa81358b5b5196d5b0">&#9670;&nbsp;</a></span>name</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const char* MR::GUI::MRView::ColourMap::Entry::name</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="colourmap_8h_source.html#l00064">64</a> of file <a class="el" href="colourmap_8h_source.html">colourmap.h</a>.</p>
-
-</div>
-</div>
-<a id="a655a90d31f7c7917ce81c204aa44c4e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a655a90d31f7c7917ce81c204aa44c4e3">&#9670;&nbsp;</a></span>special</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool MR::GUI::MRView::ColourMap::Entry::special</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="colourmap_8h_source.html#l00068">68</a> of file <a class="el" href="colourmap_8h_source.html">colourmap.h</a>.</p>
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<p class="definition">Definition at line <a class="el" href="colourmap_8h_source.html#l00049">49</a> of file <a class="el" href="colourmap_8h_source.html">colourmap.h</a>.</p>
+</div><hr/>The documentation for this class was generated from the following file:<ul>
 <li>src/gui/mrview/<a class="el" href="colourmap_8h_source.html">colourmap.h</a></li>
 </ul>
 </div><!-- contents -->
@@ -337,7 +101,7 @@ Static Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_g_u_i.html">GUI</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_g_u_i_1_1_m_r_view.html">MRView</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map.html">ColourMap</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_entry.html">Entry</a></li>
-    <li class="footer">Generated on Wed Apr 19 2017 09:26:45 for MRtrix by
+    <li class="footer">Generated on Tue May 2 2017 10:45:12 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

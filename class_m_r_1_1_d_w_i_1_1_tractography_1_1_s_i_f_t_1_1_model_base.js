@@ -1,14 +1,12 @@
 var class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model_base =
 [
-    [ "MapVoxel", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model_base.html#aa3ded299151404260ff75330698e080e", null ],
-    [ "VoxelAccessor", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model_base.html#a1dfe1b62522a40800bbddc8608e018b0", null ],
     [ "ModelBase", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model_base.html#a11ea76081ca6e81dd89935963efbec6c", null ],
     [ "ModelBase", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model_base.html#a19b804b2134b7118446b0e9080f1dabb", null ],
     [ "~ModelBase", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model_base.html#a72ccb777c0ae398ac0c9f13614a3ac82", null ],
-    [ "calc_cost_function", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model_base.html#a76703cbd51b8dddc63973c2adda660d1", null ],
+    [ "calc_cost_function", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model_base.html#a67ae2fc5d2438b5c232799d1ebd89e53", null ],
     [ "have_act_data", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model_base.html#ac93a41c73581efcfb010a687aa08bfb6", null ],
     [ "map_streamlines", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model_base.html#ae03cf47b52b1186033697a174b4aab13", null ],
-    [ "mu", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model_base.html#a92e9d79763722a675590dfd00d7547df", null ],
+    [ "mu", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model_base.html#a3c5d380bb53f7d18a52f63c97f0a3835", null ],
     [ "operator()", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model_base.html#a88ac848f31e96a5fb9613a23fdb35962", null ],
     [ "operator()", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model_base.html#aafbfaf65eed79f696c48fbcc0d997ff3", null ],
     [ "output_5tt_image", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model_base.html#a4c00704aacaa4df82d27b6ba52f086d1", null ],
@@ -29,8 +27,8 @@ var class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model_base =
     [ "perform_FOD_segmentation", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model_base.html#ad239571cbe2261c7c67ace7a62a73b90", null ],
     [ "scale_FDs_by_GM", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model_base.html#adce556824c469cf6f389356270650d28", null ],
     [ "act_5tt", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model_base.html#a548a973db334b28070aa93dc6dd949f2", null ],
-    [ "FOD_sum", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model_base.html#a48e5c00fdcbfc9e4d7f2e1fef8090442", null ],
+    [ "FOD_sum", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model_base.html#ac8a95d14738480bce595956406f303cc", null ],
     [ "have_null_lobes", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model_base.html#a2ba83c468a85d8f559ff2bd976fad085", null ],
     [ "proc_mask", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model_base.html#aff2f9f66b46f2da797c974d195739349", null ],
-    [ "TD_sum", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model_base.html#aa3523732dddab14f0a2b39ea23a6487d", null ]
+    [ "TD_sum", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model_base.html#a49c3302f55618de0266168c72679ba2f", null ]
 ];

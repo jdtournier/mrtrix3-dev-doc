@@ -1,7 +1,7 @@
 var csd_8h =
 [
     [ "CSD", "class_m_r_1_1_d_w_i_1_1_s_deconv_1_1_c_s_d.html", "class_m_r_1_1_d_w_i_1_1_s_deconv_1_1_c_s_d" ],
-    [ "Shared", "class_m_r_1_1_d_w_i_1_1_s_deconv_1_1_c_s_d_1_1_shared.html", "class_m_r_1_1_d_w_i_1_1_s_deconv_1_1_c_s_d_1_1_shared" ],
+    [ "DEFAULT_CSD_LMAX", "csd_8h.html#a5a3bcc543ee739052309f0e564216b25", null ],
     [ "DEFAULT_CSD_NEG_LAMBDA", "csd_8h.html#ad573eec2e823d523ba1e496c4a0b1717", null ],
     [ "DEFAULT_CSD_NITER", "csd_8h.html#a05bee2c23048baf1ba244c9e17be65be", null ],
     [ "DEFAULT_CSD_NORM_LAMBDA", "csd_8h.html#aeb25b1e1b910b83a64dd9925a2cef7b6", null ],

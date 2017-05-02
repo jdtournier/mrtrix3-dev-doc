@@ -1,7 +1,5 @@
 var class_m_r_1_1_registration_1_1_warp_1_1_compose_halfway_kernel =
 [
-    [ "ComposeHalfwayKernel", "class_m_r_1_1_registration_1_1_warp_1_1_compose_halfway_kernel.html#a293f0db21614a8f24ffcd774e7eac2ee", null ],
-    [ "operator()", "class_m_r_1_1_registration_1_1_warp_1_1_compose_halfway_kernel.html#af03cedc303e9b22de961fd553a3c15a4", null ],
     [ "deform1_interp", "class_m_r_1_1_registration_1_1_warp_1_1_compose_halfway_kernel.html#a08579526bd1f06053465c1076c092e87", null ],
     [ "deform2_interp", "class_m_r_1_1_registration_1_1_warp_1_1_compose_halfway_kernel.html#a6845ac1982b032d2d5e1d7eb1d8a65fb", null ],
     [ "linear1", "class_m_r_1_1_registration_1_1_warp_1_1_compose_halfway_kernel.html#a9fadc3dd05eff56239bb2d021f321ff4", null ],
