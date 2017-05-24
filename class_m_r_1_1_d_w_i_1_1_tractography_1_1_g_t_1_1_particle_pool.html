@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC1-60-gfebedf5b</div>
+   <div id="projectbrief">Version 3.0_RC1-65-gb19f24ab</div>
   </td>
  </tr>
  </tbody>
@@ -98,10 +98,10 @@ $(document).ready(function(){initNavTree('class_m_r_1_1_d_w_i_1_1_tractography_1
 Protected Attributes</h2></td></tr>
 <tr class="memitem:abab4d35a724441b8f540aad338b13c82"><td class="memItemLeft" align="right" valign="top">std::mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle_pool.html#abab4d35a724441b8f540aad338b13c82">mutex</a></td></tr>
 <tr class="separator:abab4d35a724441b8f540aad338b13c82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d9c06aaa1470d556bea2e0e8b2110f1"><td class="memItemLeft" align="right" valign="top">std::deque&lt; <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle.html">Particle</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle_pool.html#a1d9c06aaa1470d556bea2e0e8b2110f1">pool</a></td></tr>
-<tr class="separator:a1d9c06aaa1470d556bea2e0e8b2110f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36d5def84ea1d49a1f50c6933f98e964"><td class="memItemLeft" align="right" valign="top">std::stack&lt; <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle.html">Particle</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle_pool.html#a36d5def84ea1d49a1f50c6933f98e964">avail</a></td></tr>
-<tr class="separator:a36d5def84ea1d49a1f50c6933f98e964"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9311314f9604309be3650a8ca427c10e"><td class="memItemLeft" align="right" valign="top">std::deque&lt; <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle.html">Particle</a>, Eigen::aligned_allocator&lt; <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle.html">Particle</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle_pool.html#a9311314f9604309be3650a8ca427c10e">pool</a></td></tr>
+<tr class="separator:a9311314f9604309be3650a8ca427c10e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9aa24c769cece0f16181da6ac461af9"><td class="memItemLeft" align="right" valign="top">std::stack&lt; <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle.html">Particle</a> *, vector&lt; <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle.html">Particle</a> * &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle_pool.html#ad9aa24c769cece0f16181da6ac461af9">avail</a></td></tr>
+<tr class="separator:ad9aa24c769cece0f16181da6ac461af9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18db85fd233879ab36d5c91374ae2fe5"><td class="memItemLeft" align="right" valign="top">Math::RNG&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle_pool.html#a18db85fd233879ab36d5c91374ae2fe5">rng</a></td></tr>
 <tr class="separator:a18db85fd233879ab36d5c91374ae2fe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -110,8 +110,8 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="particlepool_8h_source.html#l00035">35</a> of file <a class="el" href="particlepool_8h_source.html">particlepool.h</a>.</p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
-<a id="a36d5def84ea1d49a1f50c6933f98e964"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a36d5def84ea1d49a1f50c6933f98e964">&#9670;&nbsp;</a></span>avail</h2>
+<a id="ad9aa24c769cece0f16181da6ac461af9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9aa24c769cece0f16181da6ac461af9">&#9670;&nbsp;</a></span>avail</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -120,7 +120,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::stack&lt;<a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle.html">Particle</a>*&gt; MR::DWI::Tractography::GT::ParticlePool::avail</td>
+          <td class="memname">std::stack&lt;<a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle.html">Particle</a>*, vector&lt;<a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle.html">Particle</a>*&gt; &gt; MR::DWI::Tractography::GT::ParticlePool::avail</td>
         </tr>
       </table>
   </td>
@@ -158,8 +158,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a1d9c06aaa1470d556bea2e0e8b2110f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1d9c06aaa1470d556bea2e0e8b2110f1">&#9670;&nbsp;</a></span>pool</h2>
+<a id="a9311314f9604309be3650a8ca427c10e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9311314f9604309be3650a8ca427c10e">&#9670;&nbsp;</a></span>pool</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -168,7 +168,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::deque&lt;<a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle.html">Particle</a>&gt; MR::DWI::Tractography::GT::ParticlePool::pool</td>
+          <td class="memname">std::deque&lt;<a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle.html">Particle</a>, Eigen::aligned_allocator&lt;<a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle.html">Particle</a>&gt; &gt; MR::DWI::Tractography::GT::ParticlePool::pool</td>
         </tr>
       </table>
   </td>
@@ -215,7 +215,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_d_w_i.html">DWI</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography.html">Tractography</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t.html">GT</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle_pool.html">ParticlePool</a></li>
-    <li class="footer">Generated on Mon May 22 2017 15:48:44 for MRtrix by
+    <li class="footer">Generated on Wed May 24 2017 16:46:16 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>
