@@ -50,7 +50,7 @@ var searchData=
   ['point_5ftype',['point_type',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_resampling.html#a8a227607cf0d263b3d0a29da0f459647',1,'MR::DWI::Tractography::Resampling']]],
   ['polygon',['Polygon',['../class_m_r_1_1_surface_1_1_polygon.html',1,'MR::Surface']]],
   ['polygon_2eh',['polygon.h',['../polygon_8h.html',1,'']]],
-  ['pool',['pool',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle_grid.html#a222d233bc38406872bbda35c54398c26',1,'MR::DWI::Tractography::GT::ParticleGrid::pool()'],['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle_pool.html#a9311314f9604309be3650a8ca427c10e',1,'MR::DWI::Tractography::GT::ParticlePool::pool()']]],
+  ['pool',['pool',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle_grid.html#a222d233bc38406872bbda35c54398c26',1,'MR::DWI::Tractography::GT::ParticleGrid::pool()'],['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle_pool.html#a1d2a5842525797e291c2790b7987d019',1,'MR::DWI::Tractography::GT::ParticlePool::pool()']]],
   ['pos',['pos',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle.html#aa301e82f31a0a9e330e12bf14b5652c0',1,'MR::DWI::Tractography::GT::Particle::pos()'],['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_volume.html#aedeb6b3e014b64cb3b69b34003d1220f',1,'MR::GUI::MRView::Volume::pos()']]],
   ['pos2idx',['pos2idx',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle_grid.html#a7daff65e74372c58989833fb9deb94f8',1,'MR::DWI::Tractography::GT::ParticleGrid']]],
   ['pos2xyz',['pos2xyz',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle_grid.html#a912532571b3c220eeedc7907ece3faaa',1,'MR::DWI::Tractography::GT::ParticleGrid']]],
