@@ -88,6 +88,7 @@ var searchData=
   ['get_5fslice_5fincrement',['get_slice_increment',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_light_box.html#a873c8dc4e096e2a8aa032df34d00354f',1,'MR::GUI::MRView::Mode::LightBox']]],
   ['get_5fsorted_5feigen_5fvecs_5fvals',['get_sorted_eigen_vecs_vals',['../namespace_m_r_1_1_registration_1_1_transform_1_1_init.html#a8c48da3b05bce637f984df3a8daf6972',1,'MR::Registration::Transform::Init']]],
   ['get_5fstdev',['get_stdev',['../class_m_r_1_1_d_w_i_1_1_shell.html#a8cca01cc6d347b4b6e7106dab9fedb88',1,'MR::DWI::Shell']]],
+  ['get_5fstep_5fsize',['get_step_size',['../namespace_m_r_1_1_d_w_i_1_1_tractography.html#a9d032579c566767ba67a931727a1d6cc',1,'MR::DWI::Tractography']]],
   ['get_5ftissues',['get_tissues',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html#a8b994a9c511ffada54a8428b0bb43a03',1,'MR::DWI::Tractography::ACT::GMWMI_finder']]],
   ['get_5fuse_5flighting',['get_use_lighting',['../class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_render_frame.html#a1aca8ff3e45047f8a08761399886be89',1,'MR::GUI::DWI::RenderFrame']]],
   ['get_5fvalid_5fdw_5fscheme',['get_valid_DW_scheme',['../namespace_m_r_1_1_d_w_i.html#a9ab90e27c863a6d7e6960a8987703301',1,'MR::DWI']]],

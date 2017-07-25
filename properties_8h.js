@@ -4,5 +4,6 @@ var properties_8h =
     [ "TRACTOGRAPHY_FILE_TIMESTAMP_PRECISION", "properties_8h.html#ae9cc41bc8452e9fa4d47965fed37fe69", null ],
     [ "check_counts", "properties_8h.html#a3a9a245cca205a94e0797bdd11072b9c", null ],
     [ "check_timestamps", "properties_8h.html#aa850db9932acaba873e490e12b4c1769", null ],
+    [ "get_step_size", "properties_8h.html#a9d032579c566767ba67a931727a1d6cc", null ],
     [ "operator<<", "properties_8h.html#a9427bbfd59e89210b77946c9b49cff3d", null ]
 ];

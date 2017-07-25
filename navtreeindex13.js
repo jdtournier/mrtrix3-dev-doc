@@ -1,5 +1,6 @@
 var NAVTREEINDEX13 =
 {
+"struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___undo_entry.html#af7254603a7da9871c5c36e34a7d5bf34":[11,0,0,2,4,2,37,19],
 "struct_m_r_1_1_registration_1_1_metric_1_1_n_c_c_precompute_functor_masked___d_e_b_u_g.html":[11,0,0,3,0,14],
 "struct_m_r_1_1_registration_1_1_metric_1_1_n_c_c_precompute_functor_masked___d_e_b_u_g.html#a1947205b6dbbae2ee1c15244d18e18ef":[11,0,0,3,0,14,4],
 "struct_m_r_1_1_registration_1_1_metric_1_1_n_c_c_precompute_functor_masked___d_e_b_u_g.html#a316ff5823247326fab88440474893457":[11,0,0,3,0,14,3],
