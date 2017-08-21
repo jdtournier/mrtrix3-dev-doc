@@ -1,6 +1,7 @@
 var class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file_options =
 [
     [ "open_intensity_track_scalar_file_slot", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file_options.html#a0f3492647b9aee10399b722cfed983e8", null ],
+    [ "open_intensity_track_scalar_file_slot", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file_options.html#a6eb6201b0c668474a039e548666ea3d1", null ],
     [ "colour_groupbox", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file_options.html#a67d5219a65f42aaa9f936c8234b28d1e", null ],
     [ "colourmap_actions", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file_options.html#ae8bddf09f9a7e4c063284d6506ec9e46", null ],
     [ "colourmap_button", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file_options.html#a0eb2d45bd0e1f466c2a40076028476d8", null ],

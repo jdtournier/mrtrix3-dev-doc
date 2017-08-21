@@ -28,7 +28,7 @@ var searchData=
   ['colourmap_5fgroup',['colourmap_group',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file_options.html#a34df9f5bbacc6e07e711036397139676',1,'MR::GUI::MRView::Tool::TrackScalarFileOptions']]],
   ['colourmap_5fmenu',['colourmap_menu',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file_options.html#a86efdb1ed4e40aa26d6a01944bfecb3f',1,'MR::GUI::MRView::Tool::TrackScalarFileOptions']]],
   ['colourmap_5foption_5fgroup',['colourmap_option_group',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_fixel.html#a091e64e787e376c855b31db3584887a0',1,'MR::GUI::MRView::Tool::Fixel']]],
-  ['connectivity_5fmap',['connectivity_map',['../class_m_r_1_1_stats_1_1_c_f_e_1_1_enhancer.html#a1e943972da564c5a470c6210764081f9',1,'MR::Stats::CFE::Enhancer']]],
+  ['connectivity_5fmatrix',['connectivity_matrix',['../class_m_r_1_1_stats_1_1_c_f_e_1_1_enhancer.html#ae3088dc16d0a78acd8f1de449bd17137',1,'MR::Stats::CFE::Enhancer']]],
   ['connector',['connector',['../class_m_r_1_1_stats_1_1_cluster_1_1_cluster_size.html#a000f113bebf405e54d7f3739d7fd35ef',1,'MR::Stats::Cluster::ClusterSize']]],
   ['contrast',['contrast',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_mapper_t_w_i.html#aa628f9927e0b1a72c1fb2117ba8514e3',1,'MR::DWI::Tractography::Mapping::TrackMapperTWI']]],
   ['contrasts',['contrasts',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping.html#aabab0b14dee9b810620d2afea898e964',1,'MR::DWI::Tractography::Mapping']]],

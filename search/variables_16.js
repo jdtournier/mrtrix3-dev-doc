@@ -1,6 +1,7 @@
 var searchData=
 [
   ['v',['v',['../class_m_r_1_1_g_u_i_1_1_g_l_1_1vec4.html#a554ecf36168a7f4698df0e30fc7e75e0',1,'MR::GUI::GL::vec4']]],
+  ['value',['value',['../class_m_r_1_1_stats_1_1_c_f_e_1_1connectivity.html#a80c77d8c52c48942881121a422aed8e0',1,'MR::Stats::CFE::connectivity']]],
   ['value_5fbuffer_5fdirty',['value_buffer_dirty',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_fixel.html#a3dbfe0d150cecf52181cba6c0c3ed027',1,'MR::GUI::MRView::Tool::BaseFixel']]],
   ['value_5fmax',['value_max',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_displayable.html#a29eaf9c18bad2115a062606f9fbbe202',1,'MR::GUI::MRView::Displayable::value_max()'],['../struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_fixel_value.html#a4f961e063a252f686c3436142b6b3c00',1,'MR::GUI::MRView::Tool::FixelValue::value_max()']]],
   ['value_5fmin',['value_min',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_displayable.html#afc49cfff61f8c3109f61b9ad48727e55',1,'MR::GUI::MRView::Displayable::value_min()'],['../struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_fixel_value.html#adeea3332612a9eb004ecd34fe829a879',1,'MR::GUI::MRView::Tool::FixelValue::value_min()']]],

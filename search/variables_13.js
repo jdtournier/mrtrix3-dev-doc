@@ -43,6 +43,7 @@ var searchData=
   ['size',['size',['../struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___undo_entry.html#a7a1cbfa56848e572f7f7beca82d8ece5',1,'MR::GUI::MRView::Tool::ROI_UndoEntry']]],
   ['sl_5feff',['SL_eff',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_line_search_functor_1_1_fixel.html#ac5245c51521b580617ec13019fc6168e',1,'MR::DWI::Tractography::SIFT2::LineSearchFunctor::Fixel']]],
   ['slab_5fentry',['slab_entry',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a789f53cd0e942cae3b1b924d2ea4b3b7',1,'MR::GUI::MRView::Tool::Tractography']]],
+  ['slab_5fgroup_5fbox',['slab_group_box',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a152cd8eb456b5be176b43df3801c0332',1,'MR::GUI::MRView::Tool::Tractography']]],
   ['slab_5fthickness',['slab_thickness',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_shader_base.html#a6e30fb26ba8d676049ae229314712d12',1,'MR::GUI::MRView::Tool::ShaderBase']]],
   ['slice_5faxes',['slice_axes',['../struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___undo_entry.html#a3333d03fc158c06114a8179b90d72be9',1,'MR::GUI::MRView::Tool::ROI_UndoEntry']]],
   ['slice_5fcopy_5fgroup',['slice_copy_group',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html#aa94cecdf38e21721d871a5166e96b53e',1,'MR::GUI::MRView::Tool::ROI']]],

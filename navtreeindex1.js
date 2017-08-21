@@ -1,5 +1,7 @@
 var NAVTREEINDEX1 =
 {
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_matrix.html":[11,0,0,1,3,2,5],
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric.html":[11,0,0,1,3,2,6],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_selector.html":[11,0,0,1,3,2,7],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_streamline__nodelist.html":[11,0,0,1,3,2,8],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_streamline__nodepair.html":[11,0,0,1,3,2,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX1 =
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_voxel_d_e_c.html":[11,0,0,1,3,5,9],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_voxel_d_e_c.html#a1d36f44f532b04dfcee18949a2b7225e":[11,0,0,1,3,5,9,1],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_voxel_d_e_c.html#a2df07b32ef620bec14a34475485638cb":[11,0,0,1,3,5,9,0],
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_voxel_d_e_c.html#ad0ac8bbb3a0bf2fe6e4cc67af786dc4e":[11,0,0,1,3,5,9,2],
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_voxel_d_e_c.html#af385e64afb2413f6c55f12d33d744aa8":[11,0,0,1,3,5,9,3],
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_voxel_dir.html":[11,0,0,1,3,5,10]
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_voxel_d_e_c.html#ad0ac8bbb3a0bf2fe6e4cc67af786dc4e":[11,0,0,1,3,5,9,2]
 };

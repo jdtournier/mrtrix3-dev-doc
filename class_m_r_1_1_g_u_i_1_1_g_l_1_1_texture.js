@@ -5,6 +5,7 @@ var class_m_r_1_1_g_u_i_1_1_g_l_1_1_texture =
     [ "Texture", "class_m_r_1_1_g_u_i_1_1_g_l_1_1_texture.html#a4541a86906a1fd041c98cc0821cb6085", null ],
     [ "Texture", "class_m_r_1_1_g_u_i_1_1_g_l_1_1_texture.html#afa47c3df73168d570d249ff742c32000", null ],
     [ "bind", "class_m_r_1_1_g_u_i_1_1_g_l_1_1_texture.html#a5a8fe0ed5fa5d5e9241d8bcfece234dd", null ],
+    [ "cache_copy", "class_m_r_1_1_g_u_i_1_1_g_l_1_1_texture.html#aa631caf0965061aefbf1a6290f9cf69b", null ],
     [ "clear", "class_m_r_1_1_g_u_i_1_1_g_l_1_1_texture.html#a78792918336afb6a688dc9488ebdef0f", null ],
     [ "gen", "class_m_r_1_1_g_u_i_1_1_g_l_1_1_texture.html#a475b59fc56940960d592156cb72219aa", null ],
     [ "operator GLuint", "class_m_r_1_1_g_u_i_1_1_g_l_1_1_texture.html#a25c0812e6a9ae943f35e9c82d677527d", null ],

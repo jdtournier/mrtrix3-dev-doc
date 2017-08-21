@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['cache_5fcopy',['cache_copy',['../class_m_r_1_1_g_u_i_1_1_g_l_1_1_texture.html#aa631caf0965061aefbf1a6290f9cf69b',1,'MR::GUI::GL::Texture']]],
   ['calc_5fcost_5ffunction',['calc_cost_function',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model_base.html#a67ae2fc5d2438b5c232799d1ebd89e53',1,'MR::DWI::Tractography::SIFT::ModelBase']]],
   ['calc_5fgradient',['calc_gradient',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html#af64ff53ee29cd0c001d8f539ac432cc9',1,'MR::DWI::Tractography::SIFT::SIFTer']]],
   ['calc_5froc_5fcost_5ffunction',['calc_roc_cost_function',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html#a7159bde204ebc7bdbd95c7aae4af10c9',1,'MR::DWI::Tractography::SIFT::SIFTer']]],
@@ -26,6 +27,7 @@ var searchData=
   ['choosecolor',['chooseColor',['../class_q_color_button.html#abba1486efd226cbb646a6a7ecfe874a3',1,'QColorButton']]],
   ['clear',['clear',['../class_m_r_1_1_g_u_i_1_1_g_l_1_1_texture.html#a78792918336afb6a688dc9488ebdef0f',1,'MR::GUI::GL::Texture::clear()'],['../class_m_r_1_1_g_u_i_1_1_g_l_1_1_vertex_buffer.html#ac09150f253d36225965f4f991a35f975',1,'MR::GUI::GL::VertexBuffer::clear()'],['../class_m_r_1_1_g_u_i_1_1_g_l_1_1_vertex_array_object.html#a3ecc884a564f2d83f04d8b99aa67d7a8',1,'MR::GUI::GL::VertexArrayObject::clear()'],['../class_m_r_1_1_g_u_i_1_1_g_l_1_1_index_buffer.html#ab7a281a2fcf05603ff8f8dcf8d42fc33',1,'MR::GUI::GL::IndexBuffer::clear()'],['../class_m_r_1_1_g_u_i_1_1_g_l_1_1_frame_buffer.html#acd8ae14369bfa2a9c4d3de69e9a3bc28',1,'MR::GUI::GL::FrameBuffer::clear()']]],
   ['clear_5fdixels',['clear_dixels',['../class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_render_frame.html#aaebe0da389ff44123c1516bf88808f72',1,'MR::GUI::DWI::RenderFrame']]],
+  ['clear_5fdw_5fscheme',['clear_DW_scheme',['../namespace_m_r_1_1_d_w_i.html#ae117dd90bf286df96d693fdf91c6d645',1,'MR::DWI']]],
   ['clear_5fexemplar',['clear_exemplar',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_edge.html#a78a589c6449b17bf2d09a5c3cdda651e',1,'MR::GUI::MRView::Tool::Edge']]],
   ['clear_5fmean_5fcoeff',['clear_mean_coeff',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_fixel.html#a34fde3ecb42f8ff72f45cfbc3101a5a1',1,'MR::DWI::Tractography::SIFT2::Fixel']]],
   ['clear_5fstreamline',['clear_streamline',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_edge.html#a5ae25998e3f6d516a8167d51a0778254',1,'MR::GUI::MRView::Tool::Edge']]],
@@ -49,6 +51,7 @@ var searchData=
   ['compute_5foffset',['compute_offset',['../class_m_r_1_1_registration_1_1_transform_1_1_base.html#a56d1a493806cee17c5dfd70dbdb19e79',1,'MR::Registration::Transform::Base']]],
   ['compute_5fsh2amp_5fmapping',['compute_SH2amp_mapping',['../namespace_m_r_1_1_d_w_i.html#a0bdc4d1d1ef356d553defaa2d17844f8',1,'MR::DWI']]],
   ['condition_5fnumber_5ffor_5flmax',['condition_number_for_lmax',['../namespace_m_r_1_1_d_w_i.html#aafb846be002815f88b4c941058af46f2',1,'MR::DWI']]],
+  ['connectivity',['connectivity',['../class_m_r_1_1_stats_1_1_c_f_e_1_1connectivity.html#a06bd3b341d864619111011b88a963cbf',1,'MR::Stats::CFE::connectivity::connectivity()'],['../class_m_r_1_1_stats_1_1_c_f_e_1_1connectivity.html#a754e3deccf9aa29e9f1fceafdb8426a4',1,'MR::Stats::CFE::connectivity::connectivity(const connectivity_value_type v)']]],
   ['connectome',['Connectome',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_connectome.html#a5fe425df644d3e3a2ea10c11155163db',1,'MR::GUI::MRView::Tool::Connectome']]],
   ['constiterator',['ConstIterator',['../class_m_r_1_1_d_w_i_1_1_fixel__map_1_1_const_iterator.html#a516652cf8f19477ed5199cf5ee2b7f0e',1,'MR::DWI::Fixel_map::ConstIterator::ConstIterator(const MapVoxel *const voxel, const Fixel_map &amp;parent)'],['../class_m_r_1_1_d_w_i_1_1_fixel__map_1_1_const_iterator.html#aa51eb3477be6d4616340172c85c35a3b',1,'MR::DWI::Fixel_map::ConstIterator::ConstIterator(const ConstIterator &amp;)=default']]],
   ['copy',['copy',['../struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___undo_entry.html#a4cffc8fa9757c7547d924713aa82103a',1,'MR::GUI::MRView::Tool::ROI_UndoEntry']]],

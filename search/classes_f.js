@@ -6,7 +6,7 @@ var searchData=
   ['receiver',['Receiver',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_editing_1_1_receiver.html',1,'MR::DWI::Tractography::Editing']]],
   ['regularisationcalculator',['RegularisationCalculator',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_regularisation_calculator.html',1,'MR::DWI::Tractography::SIFT2']]],
   ['rejection',['Rejection',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_seeding_1_1_rejection.html',1,'MR::DWI::Tractography::Seeding']]],
-  ['renderer',['Renderer',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_renderer.html',1,'MR::GUI::MRView::ColourMap::Renderer'],['../class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer.html',1,'MR::GUI::DWI::Renderer']]],
+  ['renderer',['Renderer',['../class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer.html',1,'MR::GUI::DWI::Renderer'],['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_renderer.html',1,'MR::GUI::MRView::ColourMap::Renderer']]],
   ['renderframe',['RenderFrame',['../class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_render_frame.html',1,'MR::GUI::DWI']]],
   ['resamplefunctor',['ResampleFunctor',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_resample_functor.html',1,'MR::DWI::Tractography::SIFT']]],
   ['rigid',['Rigid',['../class_m_r_1_1_registration_1_1_transform_1_1_rigid.html',1,'MR::Registration::Transform']]],

@@ -16,6 +16,7 @@ var searchData=
   ['nonlinear',['NonLinear',['../class_m_r_1_1_registration_1_1_non_linear.html',1,'MR::Registration']]],
   ['nonlinearkernel',['NonLinearKernel',['../class_m_r_1_1_registration_1_1_transform_1_1_non_linear_kernel.html',1,'MR::Registration::Transform']]],
   ['normalisedcrosscorrelation',['NormalisedCrossCorrelation',['../class_m_r_1_1_registration_1_1_metric_1_1_normalised_cross_correlation.html',1,'MR::Registration::Metric']]],
+  ['normmatrixelement',['NormMatrixElement',['../class_m_r_1_1_stats_1_1_c_f_e_1_1_norm_matrix_element.html',1,'MR::Stats::CFE']]],
   ['nulldist1',['NullDist1',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_null_dist1.html',1,'MR::DWI::Tractography::Algorithms']]],
   ['nulldist2',['NullDist2',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_null_dist2.html',1,'MR::DWI::Tractography::Algorithms']]]
 ];

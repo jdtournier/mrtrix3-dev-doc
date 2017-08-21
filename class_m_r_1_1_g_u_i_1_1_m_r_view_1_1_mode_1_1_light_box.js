@@ -6,9 +6,12 @@ var class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_light_box =
     [ "get_current_projection", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_light_box.html#a566f1d3c3be95da242e75879534487af", null ],
     [ "get_rows", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_light_box.html#ad5fe81a4169d45740376686624487da2", null ],
     [ "get_show_grid", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_light_box.html#a4efe2d813c6866618850df2b62cd4b7f", null ],
+    [ "get_show_volumes", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_light_box.html#af31150f8ca17fd88082700a0f5eb6a07", null ],
     [ "get_slice_inc_adjust_rate", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_light_box.html#a8621baa55891f6ead23ec7b750aae9e3", null ],
     [ "get_slice_increment", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_light_box.html#a873c8dc4e096e2a8aa032df34d00354f", null ],
+    [ "get_volume_increment", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_light_box.html#afc10c0f07d9cd2cfde666457f19a1de3", null ],
     [ "image_changed_event", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_light_box.html#ab3433d48f2f1f93e68ef659fb5f01927", null ],
+    [ "image_volume_changed_slot", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_light_box.html#a9ff1585fac07b1e3f12cf17767f65b44", null ],
     [ "mouse_press_event", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_light_box.html#af8a8a50b2d33060beb32735a01a7fc1c", null ],
     [ "ncolumns_slot", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_light_box.html#aa1e0ec6df8c8ed8c9c732dd82acdd197", null ],
     [ "nrows_slot", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_light_box.html#a7a92eeac25c4dc47df1373408f79b583", null ],
@@ -18,8 +21,12 @@ var class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_light_box =
     [ "set_focus_event", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_light_box.html#a3e6e8e1a01baf7d9031c8b1147fc09cd", null ],
     [ "set_rows", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_light_box.html#a91c6bef71a1494ce88b9b0c8d7295345", null ],
     [ "set_show_grid", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_light_box.html#a9f18f48b3b438fd548651174c42f627f", null ],
+    [ "set_show_volumes", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_light_box.html#a8d8c3d0bc94e7fc87aa1f4ddf44a5aed", null ],
     [ "set_slice_increment", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_light_box.html#a6c9399dc292460c64dda2bae11ec9ce7", null ],
+    [ "set_volume_increment", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_light_box.html#a25a4cf025e16c2ad82a378ee6b928b8a", null ],
     [ "show_grid_slot", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_light_box.html#a91e606977e3178ca39066c4cde8b4cfc", null ],
+    [ "show_volumes_slot", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_light_box.html#a52e3281b2b5950df0f841295d37f2b75", null ],
     [ "slice_inc_slot", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_light_box.html#a7e5d370a8d53c3a97247193123144362", null ],
-    [ "slice_increment_reset", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_light_box.html#a2597a505568e0f897bd471fadab20a6b", null ]
+    [ "slice_increment_reset", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_light_box.html#a2597a505568e0f897bd471fadab20a6b", null ],
+    [ "volume_inc_slot", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_light_box.html#a9370322ab36c7c6c371b45da7489dcb8", null ]
 ];
