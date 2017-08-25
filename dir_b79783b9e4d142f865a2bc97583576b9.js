@@ -4,7 +4,7 @@ var dir_b79783b9e4d142f865a2bc97583576b9 =
     [ "exemplar.h", "exemplar_8h.html", [
       [ "Exemplar", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_exemplar.html", null ]
     ] ],
-    [ "extract.h", "extract_8h.html", [
+    [ "extract.h", "src_2dwi_2tractography_2connectome_2extract_8h.html", [
       [ "Selector", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_selector.html", null ],
       [ "WriterExemplars", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_writer_exemplars.html", null ],
       [ "WriterExtraction", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_writer_extraction.html", null ]
@@ -14,10 +14,10 @@ var dir_b79783b9e4d142f865a2bc97583576b9 =
       [ "Mapped_track_nodepair", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_mapped__track__nodepair.html", null ],
       [ "Mapped_track_nodelist", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_mapped__track__nodelist.html", null ]
     ] ],
-    [ "mapper.h", "connectome_2mapper_8h.html", [
+    [ "mapper.h", "src_2dwi_2tractography_2connectome_2mapper_8h.html", [
       [ "Mapper", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_mapper.html", null ]
     ] ],
-    [ "matrix.h", "matrix_8h.html", "matrix_8h" ],
+    [ "matrix.h", "src_2dwi_2tractography_2connectome_2matrix_8h.html", "src_2dwi_2tractography_2connectome_2matrix_8h" ],
     [ "metric.h", "metric_8h.html", [
       [ "Metric", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_metric.html", null ]
     ] ],

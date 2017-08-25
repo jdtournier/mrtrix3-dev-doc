@@ -1,27 +1,5 @@
 var class_m_r_1_1_adapter_1_1_base =
 [
-    [ "value_type", "class_m_r_1_1_adapter_1_1_base.html#ad0933415139ee75cbd7412fdbc8ebf90", null ],
-    [ "Base", "class_m_r_1_1_adapter_1_1_base.html#a301761642fdc4ef44aa42d8149d4d8e3", null ],
-    [ "index", "class_m_r_1_1_adapter_1_1_base.html#a275fae8b2f7e98a6bb4cba3591fdba6b", null ],
-    [ "index", "class_m_r_1_1_adapter_1_1_base.html#ad9534da8c1fb945affc7e8d1798704bb", null ],
-    [ "keyval", "class_m_r_1_1_adapter_1_1_base.html#a7a53d354ab0082dd7f7f22e82de2ae91", null ],
-    [ "move_index", "class_m_r_1_1_adapter_1_1_base.html#a456266c5ebbf7442a4f5065b28dfdf41", null ],
-    [ "name", "class_m_r_1_1_adapter_1_1_base.html#a98a00fdeac3ee5400ce751ed853abd1d", null ],
-    [ "ndim", "class_m_r_1_1_adapter_1_1_base.html#af1468e5a26b287d72c8ef1d1681ef8aa", null ],
-    [ "operator!", "class_m_r_1_1_adapter_1_1_base.html#a8388c82cd4f50136db88b09bfd027708", null ],
-    [ "operator=", "class_m_r_1_1_adapter_1_1_base.html#ab5ee89ae0d5863def240754d1a46e2c3", null ],
-    [ "parent", "class_m_r_1_1_adapter_1_1_base.html#a3d46409e0fc1873b57aedb490cb99e06", null ],
-    [ "parent", "class_m_r_1_1_adapter_1_1_base.html#af5eb5f03a80f276c752d4d54d0c00fdf", null ],
-    [ "reset", "class_m_r_1_1_adapter_1_1_base.html#a534e6149d5fd5c01d24b67676e2d2fe3", null ],
-    [ "row", "class_m_r_1_1_adapter_1_1_base.html#ae7ae8f3ff5252c81b827d90390b15b77", null ],
-    [ "set_value", "class_m_r_1_1_adapter_1_1_base.html#afaec5478c8fdee20b019350ed051f96b", null ],
-    [ "size", "class_m_r_1_1_adapter_1_1_base.html#ac69afa634fbe95a1064e9a5ac4397421", null ],
-    [ "spacing", "class_m_r_1_1_adapter_1_1_base.html#ac4e5cade51830b458df64e3760ead7d6", null ],
-    [ "stride", "class_m_r_1_1_adapter_1_1_base.html#ad6b8ada36110bf0868140c100c9a538a", null ],
-    [ "transform", "class_m_r_1_1_adapter_1_1_base.html#adc134c9612dff92d32ef1e8e5fe203fd", null ],
-    [ "valid", "class_m_r_1_1_adapter_1_1_base.html#a1140787f997cf5bc16c6d6c6a2a0e222", null ],
-    [ "value", "class_m_r_1_1_adapter_1_1_base.html#af2d4cc9152a581f5e680aba97996f1bc", null ],
-    [ "value", "class_m_r_1_1_adapter_1_1_base.html#a8e9b8c45fdf47db6236318d407cc14f9", null ],
     [ "operator<<", "class_m_r_1_1_adapter_1_1_base.html#a537580ba5ea0570297668b0d042c9b0c", null ],
-    [ "parent_", "class_m_r_1_1_adapter_1_1_base.html#af73720a6e1ad68ada16c0213891fd000", null ]
+    [ "parent_", "class_m_r_1_1_adapter_1_1_base.html#a217cde397b590a0d4204e8d1512ff0d9", null ]
 ];

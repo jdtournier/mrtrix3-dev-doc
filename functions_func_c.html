@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC2-22-gb30ad75c</div>
+   <div id="projectbrief">Version 3.0_RC2-24-gfc18ca90</div>
   </td>
  </tr>
  </tbody>
@@ -84,6 +84,9 @@ $(document).ready(function(){initNavTree('functions_func_c.html','');});
 &#160;
 
 <h3><a id="index_c"></a>- c -</h3><ul>
+<li>c_str()
+: <a class="el" href="group___cmd_parse.html#ga0f30251358e91f326410f547e9f48d25">MR::App::ParsedArgument</a>
+</li>
 <li>cache_copy()
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_g_l_1_1_texture.html#aa631caf0965061aefbf1a6290f9cf69b">MR::GUI::GL::Texture</a>
 </li>
@@ -92,6 +95,9 @@ $(document).ready(function(){initNavTree('functions_func_c.html','');});
 </li>
 <li>calc_gradient()
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html#af64ff53ee29cd0c001d8f539ac432cc9">MR::DWI::Tractography::SIFT::SIFTer</a>
+</li>
+<li>calc_padding()
+: <a class="el" href="class_m_r_1_1_file_1_1_name_parser_1_1_item.html#a807860d075bed3fa514665604aec5937">MR::File::NameParser::Item</a>
 </li>
 <li>calc_roc_cost_function()
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html#a7159bde204ebc7bdbd95c7aae4af10c9">MR::DWI::Tractography::SIFT::SIFTer</a>
@@ -106,15 +112,36 @@ $(document).ready(function(){initNavTree('functions_func_c.html','');});
 <li>calculate_eigenvectors()
 : <a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_init_1_1_moments_initialiser.html#a9b9094a6649a3d8af8ec385fdedb739c">MR::Registration::Transform::Init::MomentsInitialiser</a>
 </li>
+<li>calculate_padding()
+: <a class="el" href="class_m_r_1_1_file_1_1_name_parser.html#a6f03d36a3164436131fb1bc19fde56de">MR::File::NameParser</a>
+</li>
 <li>captureGL()
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_window.html#acb0110380cbab7010640d4183245b01c">MR::GUI::MRView::Window</a>
 </li>
 <li>changed()
-: <a class="el" href="class_m_r_1_1_g_u_i_1_1_g_l_1_1_lighting.html#ab5c4882fb30357492d5980fdf25a5501">MR::GUI::GL::Lighting</a>
+: <a class="el" href="class_m_r_1_1_file_1_1_m_map.html#aea90e6ef9891546a3e2f5d4bd69bba59">MR::File::MMap</a>
+, <a class="el" href="class_m_r_1_1_g_u_i_1_1_g_l_1_1_lighting.html#ab5c4882fb30357492d5980fdf25a5501">MR::GUI::GL::Lighting</a>
 , <a class="el" href="class_q_color_button.html#aabfb7246d77358cc2e4d7b1eefc3b359">QColorButton</a>
 </li>
 <li>check()
-: <a class="el" href="class_m_r_1_1_g_u_i_1_1_g_l_1_1_frame_buffer.html#ae3757df6f58c2c4011072291a420f604">MR::GUI::GL::FrameBuffer</a>
+: <a class="el" href="class_m_r_1_1_fixel_1_1_legacy_1_1_image.html#a9340b36923da88e9ebb9a6683b03533b">MR::Fixel::Legacy::Image&lt; DataType &gt;</a>
+, <a class="el" href="class_m_r_1_1_formats_1_1_analyse.html#ad3b13e8f3eecaaebc54c153b2796bd53">MR::Formats::Analyse</a>
+, <a class="el" href="class_m_r_1_1_formats_1_1_base.html#a3fd60217543ddd7cace1a2d7834c548c">MR::Formats::Base</a>
+, <a class="el" href="class_m_r_1_1_formats_1_1_d_i_c_o_m.html#aebd1bc5abe17d9972716e3c93db43b05">MR::Formats::DICOM</a>
+, <a class="el" href="class_m_r_1_1_formats_1_1_m_g_h.html#a8c0ebf3e582ba616e4dede425fb0e5b4">MR::Formats::MGH</a>
+, <a class="el" href="class_m_r_1_1_formats_1_1_m_g_z.html#ac21833910f4d8fcd7295ee6f5abd4244">MR::Formats::MGZ</a>
+, <a class="el" href="class_m_r_1_1_formats_1_1_m_r_i.html#a443d64d981ae2a3e6046e34c5c05f97a">MR::Formats::MRI</a>
+, <a class="el" href="class_m_r_1_1_formats_1_1_m_rtrix.html#a056e2cb7f80d9d45b6b19e6509d17a30">MR::Formats::MRtrix</a>
+, <a class="el" href="class_m_r_1_1_formats_1_1_m_rtrix___g_z.html#a6d2a6c8254a60015390a3996970d2861">MR::Formats::MRtrix_GZ</a>
+, <a class="el" href="class_m_r_1_1_formats_1_1_m_rtrix__sparse.html#ac2926227dcfdf4624f217f865026a75c">MR::Formats::MRtrix_sparse</a>
+, <a class="el" href="class_m_r_1_1_formats_1_1_n_if_t_i1.html#a53579e3fe252aab47b964ad87707684d">MR::Formats::NIfTI1</a>
+, <a class="el" href="class_m_r_1_1_formats_1_1_n_if_t_i1___g_z.html#a1c11547f598f30c78b8436fadd7287ea">MR::Formats::NIfTI1_GZ</a>
+, <a class="el" href="class_m_r_1_1_formats_1_1_n_if_t_i2.html#ac281000a83aa6900107a9534eb2dfaae">MR::Formats::NIfTI2</a>
+, <a class="el" href="class_m_r_1_1_formats_1_1_n_if_t_i2___g_z.html#ac36bb9ada3fde7b6984583b41dd2716b">MR::Formats::NIfTI2_GZ</a>
+, <a class="el" href="class_m_r_1_1_formats_1_1_pipe.html#a4ff3d8a7b55e495a8ebddc110396c167">MR::Formats::Pipe</a>
+, <a class="el" href="class_m_r_1_1_formats_1_1_x_d_s.html#a5f58d4574ae36a025c480746daf176b1">MR::Formats::XDS</a>
+, <a class="el" href="class_m_r_1_1_g_u_i_1_1_g_l_1_1_frame_buffer.html#ae3757df6f58c2c4011072291a420f604">MR::GUI::GL::FrameBuffer</a>
+, <a class="el" href="class_m_r_1_1_image_i_o_1_1_base.html#a2c6fe97db7222177a46982b90fe34a90">MR::ImageIO::Base</a>
 </li>
 <li>check_context()
 : <a class="el" href="struct_m_r_1_1_g_u_i_1_1_g_l_1_1_check_context.html#aced6759c53db3635c32dc3924efacae9">MR::GUI::GL::CheckContext</a>
@@ -134,8 +161,14 @@ $(document).ready(function(){initNavTree('functions_func_c.html','');});
 <li>chooseColor()
 : <a class="el" href="class_q_color_button.html#abba1486efd226cbb646a6a7ecfe874a3">QColorButton</a>
 </li>
+<li>clamp()
+: <a class="el" href="class_m_r_1_1_interp_1_1_linear_interp_base.html#abc87cbcc93b6fb7a6fe8a57f308dbfbd">MR::Interp::LinearInterpBase&lt; ImageType, PType &gt;</a>
+, <a class="el" href="class_m_r_1_1_interp_1_1_spline_interp_base.html#a96aeb56d7e3a03271ff51954d655bd22">MR::Interp::SplineInterpBase&lt; ImageType, SplineType, PType &gt;</a>
+</li>
 <li>clear()
-: <a class="el" href="class_m_r_1_1_g_u_i_1_1_g_l_1_1_frame_buffer.html#acd8ae14369bfa2a9c4d3de69e9a3bc28">MR::GUI::GL::FrameBuffer</a>
+: <a class="el" href="class_m_r_1_1_bit_set.html#a4672d1304198c7163d7f155632637c9b">MR::BitSet</a>
+, <a class="el" href="class_m_r_1_1_file_1_1_name_parser_1_1_item.html#a06c3a83790374002e9ca94abb5ab09f0">MR::File::NameParser::Item</a>
+, <a class="el" href="class_m_r_1_1_g_u_i_1_1_g_l_1_1_frame_buffer.html#acd8ae14369bfa2a9c4d3de69e9a3bc28">MR::GUI::GL::FrameBuffer</a>
 , <a class="el" href="class_m_r_1_1_g_u_i_1_1_g_l_1_1_index_buffer.html#ab7a281a2fcf05603ff8f8dcf8d42fc33">MR::GUI::GL::IndexBuffer</a>
 , <a class="el" href="class_m_r_1_1_g_u_i_1_1_g_l_1_1_texture.html#a78792918336afb6a688dc9488ebdef0f">MR::GUI::GL::Texture</a>
 , <a class="el" href="class_m_r_1_1_g_u_i_1_1_g_l_1_1_vertex_array_object.html#a3ecc884a564f2d83f04d8b99aa67d7a8">MR::GUI::GL::VertexArrayObject</a>
@@ -160,11 +193,17 @@ $(document).ready(function(){initNavTree('functions_func_c.html','');});
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_fixel.html#a8c759edd02b743342d5c8e5e7afb7175">MR::DWI::Tractography::SIFT2::Fixel</a>
 </li>
 <li>clearError()
-: <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_combo_box_with_error_msg.html#a2ff97b8a6d90a4f8fd662dc6fd87eedb">MR::GUI::MRView::ComboBoxWithErrorMsg</a>
+: <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_combo_box_with_error_msg.html#a9fb8a00ed31a70dac793d235a983472d">MR::GUI::MRView::ComboBoxWithErrorMsg</a>
 </li>
 <li>clone()
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_resampling_1_1_base.html#a9403a16bfa6ecc05a0088c9b0927b8a4">MR::DWI::Tractography::Resampling::Base</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_resampling_1_1_base_c_r_t_p.html#aaad2b624990cde568833009c939491db">MR::DWI::Tractography::Resampling::BaseCRTP&lt; Derived &gt;</a>
+</li>
+<li>close()
+: <a class="el" href="class_m_r_1_1_file_1_1_g_z.html#ad857bf80a9247e081f2dd8407d0a6e39">MR::File::GZ</a>
+, <a class="el" href="class_m_r_1_1_file_1_1_key_value.html#ac5835e635fd9f23d3bd276280547ff4a">MR::File::KeyValue</a>
+, <a class="el" href="class_m_r_1_1_image_i_o_1_1_base.html#a1e4956d21476d74744eab8ab1316ee13">MR::ImageIO::Base</a>
+, <a class="el" href="class_m_r_1_1_path_1_1_dir.html#abe62e506e08b04d8a07c8a68e94e206b">MR::Path::Dir</a>
 </li>
 <li>close_event()
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base.html#aca037a939aff2b13f3241b294821d2ff">MR::GUI::MRView::Tool::Base</a>
@@ -176,6 +215,9 @@ $(document).ready(function(){initNavTree('functions_func_c.html','');});
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_dock.html#a6e3b26ac2cc843e95dd9434b6720c0d0">MR::GUI::MRView::Tool::Dock</a>
 , <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#a8444a20c7e1e6acc24182ccd03c21376">MR::GUI::MRView::Tool::ODF</a>
 , <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_view.html#a5732578b75ee08dfd5be8283e5f2d953">MR::GUI::MRView::Tool::View</a>
+</li>
+<li>coef()
+: <a class="el" href="class_m_r_1_1_math_1_1_hermite.html#ad5b32be769d1ea437376d0cb4be8480a">MR::Math::Hermite&lt; T &gt;</a>
 </li>
 <li>color()
 : <a class="el" href="class_q_color_button.html#aacedcfd3416289c21317c49d52e440aa">QColorButton</a>
@@ -199,28 +241,77 @@ $(document).ready(function(){initNavTree('functions_func_c.html','');});
 <li>compute_halfspace_transformations()
 : <a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_base.html#ada5ee9472c90a775718717286bf6b4a2">MR::Registration::Transform::Base</a>
 </li>
+<li>compute_kernel()
+: <a class="el" href="class_m_r_1_1_adapter_1_1_gaussian1_d.html#ad1e468d54e8e6942cdd1ec91488b2cf1">MR::Adapter::Gaussian1D&lt; ImageType &gt;</a>
+</li>
+<li>compute_normg_and_step()
+: <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a820f76c65de0e3de385e3068c15e6b80">MR::Math::GradientDescentBB&lt; Function, UpdateFunctor &gt;</a>
+</li>
+<li>compute_normg_and_step_unscaled()
+: <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent.html#a492f29f468da53e21c02fd92bf1c4c76">MR::Math::GradientDescent&lt; Function, UpdateFunctor &gt;</a>
+</li>
 <li>compute_offset()
 : <a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_base.html#a56d1a493806cee17c5dfd70dbdb19e79">MR::Registration::Transform::Base</a>
 </li>
 <li>connectivity()
-: <a class="el" href="class_m_r_1_1_stats_1_1_c_f_e_1_1connectivity.html#a754e3deccf9aa29e9f1fceafdb8426a4">MR::Stats::CFE::connectivity</a>
+: <a class="el" href="class_m_r_1_1_stats_1_1_c_f_e_1_1connectivity.html#a06bd3b341d864619111011b88a963cbf">MR::Stats::CFE::connectivity</a>
 </li>
 <li>Connectome()
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_connectome.html#a5fe425df644d3e3a2ea10c11155163db">MR::GUI::MRView::Tool::Connectome</a>
 </li>
+<li>Connector()
+: <a class="el" href="class_m_r_1_1_filter_1_1_connector.html#a41f4833007ddd31bd2170fc71155dd79">MR::Filter::Connector</a>
+</li>
 <li>ConstIterator()
-: <a class="el" href="class_m_r_1_1_d_w_i_1_1_fixel__map_1_1_const_iterator.html#aa51eb3477be6d4616340172c85c35a3b">MR::DWI::Fixel_map&lt; Fixel &gt;::ConstIterator</a>
+: <a class="el" href="class_m_r_1_1_d_w_i_1_1_fixel__map_1_1_const_iterator.html#a516652cf8f19477ed5199cf5ee2b7f0e">MR::DWI::Fixel_map&lt; Fixel &gt;::ConstIterator</a>
+</li>
+<li>ConstValue()
+: <a class="el" href="class_m_r_1_1_bit_set_1_1_const_value.html#a972a8d265a1517b7a709fd4d75074bda">MR::BitSet::ConstValue</a>
+</li>
+<li>container_cast()
+: <a class="el" href="struct_m_r_1_1container__cast.html#affab8bf3b5a1e06dc20cc011afd3da9c">MR::container_cast&lt; T &gt;</a>
+</li>
+<li>contents()
+: <a class="el" href="group___cmd_parse.html#gaa0f72939d2205e133d61f81a57887493">MR::App::OptionGroup</a>
 </li>
 <li>copy()
 : <a class="el" href="struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___undo_entry.html#a4cffc8fa9757c7547d924713aa82103a">MR::GUI::MRView::Tool::ROI_UndoEntry</a>
 </li>
+<li>copy_ptr()
+: <a class="el" href="class_m_r_1_1copy__ptr.html#aa97d93577c813546c7dbd29ea927aa46">MR::copy_ptr&lt; T, Deleter &gt;</a>
+</li>
+<li>copy_to_mem()
+: <a class="el" href="class_m_r_1_1_image_i_o_1_1_default.html#aa5f1548d90964995ebd0988f5f4b7407">MR::ImageIO::Default</a>
+</li>
 <li>count()
-: <a class="el" href="class_m_r_1_1_d_w_i_1_1_shell.html#a9969753f010e0f22ea99bfd3c0719af5">MR::DWI::Shell</a>
+: <a class="el" href="class_m_r_1_1_bit_set.html#a17e0223c41aab6c8fc19d6a022688a69">MR::BitSet</a>
+, <a class="el" href="class_m_r_1_1_d_w_i_1_1_shell.html#a9969753f010e0f22ea99bfd3c0719af5">MR::DWI::Shell</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_shells.html#ae94a8f6a5395f1b5f132e62872c8c0ec">MR::DWI::Shells</a>
+, <a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_series.html#a4f4211e218f96be93a26990e80fe1ff8">MR::File::Dicom::Series</a>
+, <a class="el" href="class_m_r_1_1_file_1_1_parsed_name_1_1_list.html#a3985fc633fd5afc2cf7d1024e2f1b899">MR::File::ParsedName::List</a>
+</li>
+<li>count_dim()
+: <a class="el" href="class_m_r_1_1_file_1_1_parsed_name_1_1_list.html#ae7a974a52bb03403022b132eb55c4934">MR::File::ParsedName::List</a>
 </li>
 <li>create()
-: <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_action.html#abe4686f0f7d2b7e1ec597f1aebf6d6fc">MR::GUI::MRView::Mode::Action&lt; T &gt;</a>
+: <a class="el" href="class_m_r_1_1_formats_1_1_analyse.html#a4db7f4bf0251bb4d02e592ea4ade4d60">MR::Formats::Analyse</a>
+, <a class="el" href="class_m_r_1_1_formats_1_1_base.html#a3c84a9167a55f73fdbbf1c850e72d0a4">MR::Formats::Base</a>
+, <a class="el" href="class_m_r_1_1_formats_1_1_d_i_c_o_m.html#ab73aea2e57124b657cba42f7d7834fbc">MR::Formats::DICOM</a>
+, <a class="el" href="class_m_r_1_1_formats_1_1_m_g_h.html#ac439b326b10fab738d71900fba98a9aa">MR::Formats::MGH</a>
+, <a class="el" href="class_m_r_1_1_formats_1_1_m_g_z.html#ac5237415b3e5339874c0719029655dc2">MR::Formats::MGZ</a>
+, <a class="el" href="class_m_r_1_1_formats_1_1_m_r_i.html#a761f253ee6f05231d4e6605ba5778989">MR::Formats::MRI</a>
+, <a class="el" href="class_m_r_1_1_formats_1_1_m_rtrix.html#a5e6a9bd2ab5ee786f4fd541ca977333b">MR::Formats::MRtrix</a>
+, <a class="el" href="class_m_r_1_1_formats_1_1_m_rtrix___g_z.html#a0872c8e5cd2f3710e8a02a223adc03f4">MR::Formats::MRtrix_GZ</a>
+, <a class="el" href="class_m_r_1_1_formats_1_1_m_rtrix__sparse.html#a6615e81b5d9fa300347dfa6893082f49">MR::Formats::MRtrix_sparse</a>
+, <a class="el" href="class_m_r_1_1_formats_1_1_n_if_t_i1.html#a943fa3c5993265077435680cc6d7fed6">MR::Formats::NIfTI1</a>
+, <a class="el" href="class_m_r_1_1_formats_1_1_n_if_t_i1___g_z.html#af2a599a665459649088d08c56f3239a2">MR::Formats::NIfTI1_GZ</a>
+, <a class="el" href="class_m_r_1_1_formats_1_1_n_if_t_i2.html#a19dfbb967881820d81b7add918205b68">MR::Formats::NIfTI2</a>
+, <a class="el" href="class_m_r_1_1_formats_1_1_n_if_t_i2___g_z.html#a0d8025b3b2f3b416708842a76e8566b7">MR::Formats::NIfTI2_GZ</a>
+, <a class="el" href="class_m_r_1_1_formats_1_1_pipe.html#ae5cc0de48b51a5b8503be6737a27aad7">MR::Formats::Pipe</a>
+, <a class="el" href="class_m_r_1_1_formats_1_1_x_d_s.html#a84b5b235458808f745d1d9ff77975724">MR::Formats::XDS</a>
+, <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_action.html#abe4686f0f7d2b7e1ec597f1aebf6d6fc">MR::GUI::MRView::Mode::Action&lt; T &gt;</a>
 , <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_action.html#a9f2dc26bb2b58ebc70eecdc94021780f">MR::GUI::MRView::Tool::Action&lt; T &gt;</a>
+, <a class="el" href="class_m_r_1_1_image.html#af3e84ff9ee40cdffa21ae551848b9573">MR::Image&lt; ValueType &gt;</a>
 </li>
 <li>create_moments_images()
 : <a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_init_1_1_moments_initialiser.html#a60e3dc6474367abbacc670458db9081e">MR::Registration::Transform::Init::MomentsInitialiser</a>
@@ -234,6 +325,12 @@ $(document).ready(function(){initNavTree('functions_func_c.html','');});
 <li>crop_track()
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html#aa44a3abad554b4b952efc7563f33d8a2">MR::DWI::Tractography::ACT::GMWMI_finder</a>
 </li>
+<li>CSAEntry()
+: <a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_c_s_a_entry.html#a67b4517814884129583a0e1fdbda4155">MR::File::Dicom::CSAEntry</a>
+</li>
+<li>CubicSpline()
+: <a class="el" href="class_m_r_1_1_math_1_1_cubic_spline.html#ab295f287ce50d571a389aff3eca1f34c">MR::Math::CubicSpline&lt; T &gt;</a>
+</li>
 <li>current_fixel_colour_state()
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_fixel.html#ad4ba5c1ed0d279f4903cf49f6d94767c">MR::GUI::MRView::Tool::BaseFixel</a>
 </li>
@@ -242,6 +339,9 @@ $(document).ready(function(){initNavTree('functions_func_c.html','');});
 </li>
 <li>current_fixel_value_state()
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_fixel.html#abf256bb0141567a18d794f9ffd0b01af">MR::GUI::MRView::Tool::BaseFixel</a>
+</li>
+<li>current_time()
+: <a class="el" href="class_m_r_1_1_timer.html#acb6c1e9a6b9344a9b60e9da26b06e16d">MR::Timer</a>
 </li>
 <li>Cursor()
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_cursor.html#a42865a75a297016f4e4bf883a6eefa00">MR::GUI::Cursor</a>
@@ -252,7 +352,7 @@ $(document).ready(function(){initNavTree('functions_func_c.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Aug 24 2017 14:00:53 for MRtrix by
+    <li class="footer">Generated on Fri Aug 25 2017 11:14:47 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

@@ -1,7 +1,7 @@
 var nifti1__utils_8h =
 [
-    [ "adjust_transform", "nifti1__utils_8h.html#aa750ac9a49d25fe02632403c4d519ee5", null ],
-    [ "check", "nifti1__utils_8h.html#a2db8949c7b74018a0b833743a3f6b0fe", null ],
-    [ "read", "nifti1__utils_8h.html#ae84f21fee29017e69c5f5d9a8bea704e", null ],
-    [ "write", "nifti1__utils_8h.html#a7baba9bcf6c7ba6862fdaefebdd2ae43", null ]
+    [ "read", "nifti1__utils_8h.html#a6b3d2279acf7495464c4dcc0f34dcffd", null ],
+    [ "write", "nifti1__utils_8h.html#a0b1b9bf3b88c0c40db048189039f3a84", null ],
+    [ "header_size", "nifti1__utils_8h.html#a2dfebe65aa9633e4a198a7300283f451", null ],
+    [ "header_with_ext_size", "nifti1__utils_8h.html#a233f5dea2107ed41178225499a82647b", null ]
 ];

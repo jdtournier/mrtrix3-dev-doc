@@ -23,5 +23,5 @@ var dir_f70c15b9fc3962713444fafff316e7f9 =
       [ "TrackContribution", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_track_contribution.html", null ]
     ] ],
     [ "track_index_range.h", "track__index__range_8h.html", "track__index__range_8h" ],
-    [ "types.h", "dwi_2tractography_2_s_i_f_t_2types_8h.html", "dwi_2tractography_2_s_i_f_t_2types_8h" ]
+    [ "types.h", "src_2dwi_2tractography_2_s_i_f_t_2types_8h.html", "src_2dwi_2tractography_2_s_i_f_t_2types_8h" ]
 ];

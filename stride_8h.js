@@ -1,6 +1,6 @@
 var stride_8h =
 [
-    [ "List", "stride_8h.html#ad8ba4e32d50cafb1f4feb92b97adbcde", null ],
+    [ "List", "stride_8h.html#a4d5ccb17d9163ba81bfd7266df11649c", null ],
     [ "__from_command_line", "stride_8h.html#a4c0e7d9378a298266a1cb521f42f1410", null ],
     [ "actualise", "stride_8h.html#a27e16882f841e2900178b7be0614cf5f", null ],
     [ "actualise", "stride_8h.html#aff28c33c2520bee22309e3d5bb433742", null ],
@@ -15,11 +15,11 @@ var stride_8h =
     [ "get_symbolic", "stride_8h.html#a132b7628c8eee7e3cc055ed1bf8a6c05", null ],
     [ "offset", "stride_8h.html#aa2b67434f985614ddd2eeabe1caf42dc", null ],
     [ "offset", "stride_8h.html#a189a1ca1d71cebe9267acf0e0b6b2215", null ],
-    [ "order", "stride_8h.html#aa41e5622b38166debaac4d11b1ef7154", null ],
-    [ "order< List >", "stride_8h.html#a75fb7d5c97d27d0df0d1ec2a3c488214", null ],
+    [ "order", "stride_8h.html#a3c0ec257b26e5cee6dc8e010480092e3", null ],
+    [ "order< List >", "stride_8h.html#a0cb6ebce1d8ce9b0f4ab2bef1ca186fb", null ],
     [ "sanitise", "stride_8h.html#ab80cc1271189822912ff976cb1dba9e0", null ],
     [ "sanitise", "stride_8h.html#a445ee64002ed7e3d43b4f131a94bd3c8", null ],
-    [ "sanitise", "stride_8h.html#a11e368274fadfe5fdab37ff616563e08", null ],
+    [ "sanitise", "stride_8h.html#a9189283497c650899759b54a0b192b99", null ],
     [ "set", "stride_8h.html#ad0d8a3bc4524bfcc4f0d89190079ffea", null ],
     [ "set", "stride_8h.html#a26d05f2753aa0a9b38f251e692ad77d5", null ],
     [ "set_from_command_line", "stride_8h.html#ac2e94b8ceb6dc879a5a5e49e638a3faf", null ],

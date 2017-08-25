@@ -1,10 +1,9 @@
 var glm_8h =
 [
-    [ "GLM_BATCH_SIZE", "glm_8h.html#ab994a79b4e752d48ae9b0a0af61b1b09", null ],
-    [ "abs_effect_size", "glm_8h.html#gadb9e5d1763d3d32c5b0be556c378200b", null ],
-    [ "scale_contrasts", "glm_8h.html#a47682992bff17baa59c7439d34e31301", null ],
-    [ "solve_betas", "glm_8h.html#gac513ddc8fb4401b2b5a602615b2b42aa", null ],
-    [ "std_effect_size", "glm_8h.html#ga87c1bc0437a490662db48fe63136779f", null ],
-    [ "stdev", "glm_8h.html#gac01ebf7d66c8e4efe7ed7c5046c61e08", null ],
-    [ "ttest", "glm_8h.html#a2ef925137dcf8ff61299ced731af4880", null ]
+    [ "abs_effect_size", "glm_8h.html#gaa1423ce86ca3e337c908585889b3e608", null ],
+    [ "scale_contrasts", "glm_8h.html#a271c2320c40cde1a7b2d8d7405317ee0", null ],
+    [ "solve_betas", "glm_8h.html#ga845666d29619462609302b219953022c", null ],
+    [ "std_effect_size", "glm_8h.html#gabd2ec2a03b33239f336eb21a0834d6c4", null ],
+    [ "stdev", "glm_8h.html#gabb3e9dfaf5d8beca09b08977a3a9eaa3", null ],
+    [ "ttest", "glm_8h.html#a402b1c51d1c2f7b27f803ee8e942d4c5", null ]
 ];

@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
-<title>MRtrix: lib/mrtrix.h File Reference</title>
+<title>MRtrix: core/mrtrix.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-535-g21da6244</div>
+   <div id="projectbrief">Version 3.0_RC2-24-gfc18ca90</div>
   </td>
  </tr>
  </tbody>
@@ -98,7 +98,6 @@ $(document).ready(function(){initNavTree('mrtrix_8h.html','');});
 <code>#include &lt;algorithm&gt;</code><br />
 <code>#include &lt;cctype&gt;</code><br />
 <code>#include &lt;iostream&gt;</code><br />
-<code>#include &lt;vector&gt;</code><br />
 <code>#include &lt;array&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
 <code>#include &lt;cstring&gt;</code><br />
@@ -157,18 +156,18 @@ Functions</h2></td></tr>
 <tr class="separator:a18e0d7e1612f262bb9202f52c802b6e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad420ef6dab9cc5565ac3b8961bb11228"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#ad420ef6dab9cc5565ac3b8961bb11228">MR::replace</a> (std::string &amp;str, const std::string &amp;from, const std::string &amp;to)</td></tr>
 <tr class="separator:ad420ef6dab9cc5565ac3b8961bb11228"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7beb223331acbb5e81e2ae07532efe81"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a7beb223331acbb5e81e2ae07532efe81">MR::split</a> (const std::string &amp;string, const char *delimiters=&quot; \&quot;, bool ignore_empty_fields=false, size_t <a class="el" href="thread_8h.html#a140d449f4eaaa9afc56f07abb4922597">num</a>=std::numeric_limits&lt; size_t &gt;::max())</td></tr>
-<tr class="separator:a7beb223331acbb5e81e2ae07532efe81"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab717a8f87e160a86d4ac5a15bdc52e10"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#ab717a8f87e160a86d4ac5a15bdc52e10">MR::split_lines</a> (const std::string &amp;string, bool ignore_empty_fields=true, size_t <a class="el" href="thread_8h.html#a140d449f4eaaa9afc56f07abb4922597">num</a>=std::numeric_limits&lt; size_t &gt;::max())</td></tr>
-<tr class="separator:ab717a8f87e160a86d4ac5a15bdc52e10"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa959b5eb8094f43f14b0ff88425b423f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#aa959b5eb8094f43f14b0ff88425b423f">MR::join</a> (const std::vector&lt; std::string &gt; &amp;V, const std::string &amp;delimiter)</td></tr>
-<tr class="separator:aa959b5eb8094f43f14b0ff88425b423f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5e69a17a222e4bebf9aee1a8aa9c017"><td class="memItemLeft" align="right" valign="top">vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#af5e69a17a222e4bebf9aee1a8aa9c017">MR::split</a> (const std::string &amp;string, const char *delimiters=&quot; \&quot;, bool ignore_empty_fields=false, size_t <a class="el" href="thread_8h.html#a140d449f4eaaa9afc56f07abb4922597">num</a>=std::numeric_limits&lt; size_t &gt;::max())</td></tr>
+<tr class="separator:af5e69a17a222e4bebf9aee1a8aa9c017"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53bd649f796062310596c969b308c73c"><td class="memItemLeft" align="right" valign="top">vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a53bd649f796062310596c969b308c73c">MR::split_lines</a> (const std::string &amp;string, bool ignore_empty_fields=true, size_t <a class="el" href="thread_8h.html#a140d449f4eaaa9afc56f07abb4922597">num</a>=std::numeric_limits&lt; size_t &gt;::max())</td></tr>
+<tr class="separator:a53bd649f796062310596c969b308c73c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a506fc895e0a464c01cb1b41f52a60b6e"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a506fc895e0a464c01cb1b41f52a60b6e">MR::join</a> (const vector&lt; std::string &gt; &amp;V, const std::string &amp;delimiter)</td></tr>
+<tr class="separator:a506fc895e0a464c01cb1b41f52a60b6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae0536aa0338b1a8ec230ef6666ae4c8"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#aae0536aa0338b1a8ec230ef6666ae4c8">MR::join</a> (const char *const *null_terminated_array, const std::string &amp;delimiter)</td></tr>
 <tr class="separator:aae0536aa0338b1a8ec230ef6666ae4c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aafb8ec89937ad83da7da844ad666b1a7"><td class="memItemLeft" align="right" valign="top">std::vector&lt; default_type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#aafb8ec89937ad83da7da844ad666b1a7">MR::parse_floats</a> (const std::string &amp;spec)</td></tr>
-<tr class="separator:aafb8ec89937ad83da7da844ad666b1a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8585886b506d23996a75e690f12631c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#aa8585886b506d23996a75e690f12631c">MR::parse_ints</a> (const std::string &amp;spec, int last=std::numeric_limits&lt; int &gt;::max())</td></tr>
-<tr class="separator:aa8585886b506d23996a75e690f12631c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac33220cbc8e5d211f07d3375053765e4"><td class="memItemLeft" align="right" valign="top">vector&lt; default_type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#ac33220cbc8e5d211f07d3375053765e4">MR::parse_floats</a> (const std::string &amp;spec)</td></tr>
+<tr class="separator:ac33220cbc8e5d211f07d3375053765e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9081adc1216301dfd5fb42322103737a"><td class="memItemLeft" align="right" valign="top">vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a9081adc1216301dfd5fb42322103737a">MR::parse_ints</a> (const std::string &amp;spec, int last=std::numeric_limits&lt; int &gt;::max())</td></tr>
+<tr class="separator:a9081adc1216301dfd5fb42322103737a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf7a9d5cf0c28b1ada565992ec749917"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
 <tr class="memitem:abf7a9d5cf0c28b1ada565992ec749917"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#abf7a9d5cf0c28b1ada565992ec749917">MR::str&lt; cfloat &gt;</a> (const cfloat &amp;value, int precision)</td></tr>
 <tr class="separator:abf7a9d5cf0c28b1ada565992ec749917"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -190,8 +189,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="mrtrix_8h.html">mrtrix.h</a></li>
-    <li class="footer">Generated on Wed Apr 19 2017 09:26:43 for MRtrix by
+    <li class="navelem"><a class="el" href="dir_4270bfced15e0e73154b13468c7c9ad9.html">core</a></li><li class="navelem"><a class="el" href="mrtrix_8h.html">mrtrix.h</a></li>
+    <li class="footer">Generated on Fri Aug 25 2017 11:14:45 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

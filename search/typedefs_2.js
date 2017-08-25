@@ -3,6 +3,8 @@ var searchData=
   ['fixelimage4dtype',['FixelImage4DType',['../namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool.html#a1a9193e615b1cdcc87ae463baf4c2518',1,'MR::GUI::MRView::Tool']]],
   ['fixelindeximagetype',['FixelIndexImageType',['../namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool.html#adc249fe5ae0f33616e57d2fd9faa9c32',1,'MR::GUI::MRView::Tool']]],
   ['fixellegacytype',['FixelLegacyType',['../namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool.html#ad3337eb5f1ea57d293759c617aa1d835',1,'MR::GUI::MRView::Tool']]],
+  ['float32',['float32',['../namespace_m_r.html#af3c1623b01659ffb17b94e23a2b782e2',1,'MR']]],
+  ['float64',['float64',['../namespace_m_r.html#a5d3cd396aa9801b956008649607b663d',1,'MR']]],
   ['format',['Format',['../namespace_m_r_1_1_g_u_i_1_1_g_l.html#ab07b06e625b801baaf974e740d550363',1,'MR::GUI::GL']]],
   ['fragment',['Fragment',['../namespace_m_r_1_1_g_u_i_1_1_g_l_1_1_shader.html#a05d3a3116da598b311347ae0dbb02cc0',1,'MR::GUI::GL::Shader']]]
 ];

@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-535-g21da6244</div>
+   <div id="projectbrief">Version 3.0_RC2-24-gfc18ca90</div>
   </td>
  </tr>
  </tbody>
@@ -90,55 +90,44 @@ $(document).ready(function(){initNavTree('namespace_m_r_1_1_math_1_1_stats_1_1_g
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a47682992bff17baa59c7439d34e31301"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
-<tr class="memitem:a47682992bff17baa59c7439d34e31301"><td class="memTemplItemLeft" align="right" valign="top">Eigen::Matrix&lt; ValueType, Eigen::Dynamic, Eigen::Dynamic &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_math_1_1_stats_1_1_g_l_m.html#a47682992bff17baa59c7439d34e31301">scale_contrasts</a> (const Eigen::Matrix&lt; ValueType, Eigen::Dynamic, Eigen::Dynamic &gt; &amp;contrasts, const Eigen::Matrix&lt; ValueType, Eigen::Dynamic, Eigen::Dynamic &gt; &amp;design, size_t degrees_of_freedom)</td></tr>
-<tr class="memdesc:a47682992bff17baa59c7439d34e31301"><td class="mdescLeft">&#160;</td><td class="mdescRight">scale contrasts for use in t-test  <a href="#a47682992bff17baa59c7439d34e31301">More...</a><br /></td></tr>
-<tr class="separator:a47682992bff17baa59c7439d34e31301"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ef925137dcf8ff61299ced731af4880"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
-<tr class="memitem:a2ef925137dcf8ff61299ced731af4880"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_math_1_1_stats_1_1_g_l_m.html#a2ef925137dcf8ff61299ced731af4880">ttest</a> (Eigen::Matrix&lt; ValueType, Eigen::Dynamic, Eigen::Dynamic &gt; &amp;tvalues, const Eigen::Matrix&lt; ValueType, Eigen::Dynamic, Eigen::Dynamic &gt; &amp;design, const Eigen::Matrix&lt; ValueType, Eigen::Dynamic, Eigen::Dynamic &gt; &amp;pinv_design, const Eigen::Matrix&lt; ValueType, Eigen::Dynamic, Eigen::Dynamic &gt; &amp;measurements, const Eigen::Matrix&lt; ValueType, Eigen::Dynamic, Eigen::Dynamic &gt; &amp;scaled_contrasts, Eigen::Matrix&lt; ValueType, Eigen::Dynamic, Eigen::Dynamic &gt; &amp;betas, Eigen::Matrix&lt; ValueType, Eigen::Dynamic, Eigen::Dynamic &gt; &amp;residuals)</td></tr>
-<tr class="memdesc:a2ef925137dcf8ff61299ced731af4880"><td class="mdescLeft">&#160;</td><td class="mdescRight">generic <a class="el" href="namespace_m_r_1_1_math_1_1_stats_1_1_g_l_m.html">GLM</a> t-test  <a href="#a2ef925137dcf8ff61299ced731af4880">More...</a><br /></td></tr>
-<tr class="separator:a2ef925137dcf8ff61299ced731af4880"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac513ddc8fb4401b2b5a602615b2b42aa"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
-<tr class="memitem:gac513ddc8fb4401b2b5a602615b2b42aa"><td class="memTemplItemLeft" align="right" valign="top">Eigen::Matrix&lt; ValueType, Eigen::Dynamic, Eigen::Dynamic &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___statistics.html#gac513ddc8fb4401b2b5a602615b2b42aa">solve_betas</a> (const Eigen::Matrix&lt; ValueType, Eigen::Dynamic, Eigen::Dynamic &gt; &amp;measurements, const Eigen::Matrix&lt; ValueType, Eigen::Dynamic, Eigen::Dynamic &gt; &amp;design)</td></tr>
-<tr class="separator:gac513ddc8fb4401b2b5a602615b2b42aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gadb9e5d1763d3d32c5b0be556c378200b"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
-<tr class="memitem:gadb9e5d1763d3d32c5b0be556c378200b"><td class="memTemplItemLeft" align="right" valign="top">Eigen::Matrix&lt; ValueType, Eigen::Dynamic, Eigen::Dynamic &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___statistics.html#gadb9e5d1763d3d32c5b0be556c378200b">abs_effect_size</a> (const Eigen::Matrix&lt; ValueType, Eigen::Dynamic, Eigen::Dynamic &gt; &amp;measurements, const Eigen::Matrix&lt; ValueType, Eigen::Dynamic, Eigen::Dynamic &gt; &amp;design, const Eigen::Matrix&lt; ValueType, Eigen::Dynamic, Eigen::Dynamic &gt; &amp;contrast)</td></tr>
-<tr class="separator:gadb9e5d1763d3d32c5b0be556c378200b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac01ebf7d66c8e4efe7ed7c5046c61e08"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
-<tr class="memitem:gac01ebf7d66c8e4efe7ed7c5046c61e08"><td class="memTemplItemLeft" align="right" valign="top">Eigen::Matrix&lt; ValueType, Eigen::Dynamic, Eigen::Dynamic &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___statistics.html#gac01ebf7d66c8e4efe7ed7c5046c61e08">stdev</a> (const Eigen::Matrix&lt; ValueType, Eigen::Dynamic, Eigen::Dynamic &gt; &amp;measurements, const Eigen::Matrix&lt; ValueType, Eigen::Dynamic, Eigen::Dynamic &gt; &amp;design)</td></tr>
-<tr class="separator:gac01ebf7d66c8e4efe7ed7c5046c61e08"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga87c1bc0437a490662db48fe63136779f"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
-<tr class="memitem:ga87c1bc0437a490662db48fe63136779f"><td class="memTemplItemLeft" align="right" valign="top">Eigen::Matrix&lt; ValueType, Eigen::Dynamic, Eigen::Dynamic &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___statistics.html#ga87c1bc0437a490662db48fe63136779f">std_effect_size</a> (const Eigen::Matrix&lt; ValueType, Eigen::Dynamic, Eigen::Dynamic &gt; &amp;measurements, const Eigen::Matrix&lt; ValueType, Eigen::Dynamic, Eigen::Dynamic &gt; &amp;design, const Eigen::Matrix&lt; ValueType, Eigen::Dynamic, Eigen::Dynamic &gt; &amp;contrast)</td></tr>
-<tr class="separator:ga87c1bc0437a490662db48fe63136779f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a271c2320c40cde1a7b2d8d7405317ee0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_math_1_1_stats_1_1_g_l_m.html#a271c2320c40cde1a7b2d8d7405317ee0">scale_contrasts</a> (const <a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a> &amp;contrasts, const <a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a> &amp;design, const size_t degrees_of_freedom)</td></tr>
+<tr class="memdesc:a271c2320c40cde1a7b2d8d7405317ee0"><td class="mdescLeft">&#160;</td><td class="mdescRight">scale contrasts for use in t-test  <a href="#a271c2320c40cde1a7b2d8d7405317ee0">More...</a><br /></td></tr>
+<tr class="separator:a271c2320c40cde1a7b2d8d7405317ee0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a402b1c51d1c2f7b27f803ee8e942d4c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_math_1_1_stats_1_1_g_l_m.html#a402b1c51d1c2f7b27f803ee8e942d4c5">ttest</a> (<a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a> &amp;tvalues, const <a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a> &amp;design, const <a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a> &amp;pinv_design, const <a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a> &amp;measurements, const <a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a> &amp;scaled_contrasts, <a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a> &amp;betas, <a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a> &amp;residuals)</td></tr>
+<tr class="memdesc:a402b1c51d1c2f7b27f803ee8e942d4c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">generic <a class="el" href="namespace_m_r_1_1_math_1_1_stats_1_1_g_l_m.html">GLM</a> t-test  <a href="#a402b1c51d1c2f7b27f803ee8e942d4c5">More...</a><br /></td></tr>
+<tr class="separator:a402b1c51d1c2f7b27f803ee8e942d4c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga845666d29619462609302b219953022c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___statistics.html#ga845666d29619462609302b219953022c">solve_betas</a> (const <a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a> &amp;measurements, const <a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a> &amp;design)</td></tr>
+<tr class="separator:ga845666d29619462609302b219953022c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa1423ce86ca3e337c908585889b3e608"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___statistics.html#gaa1423ce86ca3e337c908585889b3e608">abs_effect_size</a> (const <a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a> &amp;measurements, const <a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a> &amp;design, const <a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a> &amp;contrast)</td></tr>
+<tr class="separator:gaa1423ce86ca3e337c908585889b3e608"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabb3e9dfaf5d8beca09b08977a3a9eaa3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___statistics.html#gabb3e9dfaf5d8beca09b08977a3a9eaa3">stdev</a> (const <a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a> &amp;measurements, const <a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a> &amp;design)</td></tr>
+<tr class="separator:gabb3e9dfaf5d8beca09b08977a3a9eaa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabd2ec2a03b33239f336eb21a0834d6c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___statistics.html#gabd2ec2a03b33239f336eb21a0834d6c4">std_effect_size</a> (const <a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a> &amp;measurements, const <a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a> &amp;design, const <a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a> &amp;contrast)</td></tr>
+<tr class="separator:gabd2ec2a03b33239f336eb21a0834d6c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a47682992bff17baa59c7439d34e31301"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a47682992bff17baa59c7439d34e31301">&#9670;&nbsp;</a></span>scale_contrasts()</h2>
+<a id="a271c2320c40cde1a7b2d8d7405317ee0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a271c2320c40cde1a7b2d8d7405317ee0">&#9670;&nbsp;</a></span>scale_contrasts()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename ValueType &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Eigen::Matrix&lt;ValueType, Eigen::Dynamic, Eigen::Dynamic&gt; MR::Math::Stats::GLM::scale_contrasts </td>
+          <td class="memname"><a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a> MR::Math::Stats::GLM::scale_contrasts </td>
           <td>(</td>
-          <td class="paramtype">const Eigen::Matrix&lt; ValueType, Eigen::Dynamic, Eigen::Dynamic &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a> &amp;&#160;</td>
           <td class="paramname"><em>contrasts</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const Eigen::Matrix&lt; ValueType, Eigen::Dynamic, Eigen::Dynamic &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a> &amp;&#160;</td>
           <td class="paramname"><em>design</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">size_t&#160;</td>
+          <td class="paramtype">const size_t&#160;</td>
           <td class="paramname"><em>degrees_of_freedom</em>&#160;</td>
         </tr>
         <tr>
@@ -147,71 +136,59 @@ template&lt;typename ValueType &gt; </div>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>scale contrasts for use in t-test </p>
 <p>Note each row of the contrast matrix will be treated as an independent contrast. The number of elements in each contrast vector must equal the number of columns in the design matrix </p>
 
-<p class="definition">Definition at line <a class="el" href="glm_8h_source.html#l00036">36</a> of file <a class="el" href="glm_8h_source.html">glm.h</a>.</p>
-
 </div>
 </div>
-<a id="a2ef925137dcf8ff61299ced731af4880"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2ef925137dcf8ff61299ced731af4880">&#9670;&nbsp;</a></span>ttest()</h2>
+<a id="a402b1c51d1c2f7b27f803ee8e942d4c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a402b1c51d1c2f7b27f803ee8e942d4c5">&#9670;&nbsp;</a></span>ttest()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename ValueType &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void MR::Math::Stats::GLM::ttest </td>
           <td>(</td>
-          <td class="paramtype">Eigen::Matrix&lt; ValueType, Eigen::Dynamic, Eigen::Dynamic &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a> &amp;&#160;</td>
           <td class="paramname"><em>tvalues</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const Eigen::Matrix&lt; ValueType, Eigen::Dynamic, Eigen::Dynamic &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a> &amp;&#160;</td>
           <td class="paramname"><em>design</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const Eigen::Matrix&lt; ValueType, Eigen::Dynamic, Eigen::Dynamic &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a> &amp;&#160;</td>
           <td class="paramname"><em>pinv_design</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const Eigen::Matrix&lt; ValueType, Eigen::Dynamic, Eigen::Dynamic &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a> &amp;&#160;</td>
           <td class="paramname"><em>measurements</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const Eigen::Matrix&lt; ValueType, Eigen::Dynamic, Eigen::Dynamic &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a> &amp;&#160;</td>
           <td class="paramname"><em>scaled_contrasts</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Eigen::Matrix&lt; ValueType, Eigen::Dynamic, Eigen::Dynamic &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a> &amp;&#160;</td>
           <td class="paramname"><em>betas</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Eigen::Matrix&lt; ValueType, Eigen::Dynamic, Eigen::Dynamic &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a> &amp;&#160;</td>
           <td class="paramname"><em>residuals</em>&#160;</td>
         </tr>
         <tr>
@@ -220,18 +197,11 @@ template&lt;typename ValueType &gt; </div>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>generic <a class="el" href="namespace_m_r_1_1_math_1_1_stats_1_1_g_l_m.html">GLM</a> t-test </p>
 <p>note that the data, effects, and residual matrices are transposed. This is to take advantage of <a class="el" href="namespace_eigen.html">Eigen</a>'s convention of storing matrices in column-major format by default.</p>
-<p>Note also that the contrast matrix should already have been scaled using the <a class="el" href="namespace_m_r_1_1_math_1_1_stats_1_1_g_l_m.html#a47682992bff17baa59c7439d34e31301" title="scale contrasts for use in t-test ">GLM::scale_contrasts()</a> function. </p>
-
-<p class="definition">Definition at line <a class="el" href="glm_8h_source.html#l00062">62</a> of file <a class="el" href="glm_8h_source.html">glm.h</a>.</p>
+<p>Note also that the contrast matrix should already have been scaled using the <a class="el" href="namespace_m_r_1_1_math_1_1_stats_1_1_g_l_m.html#a271c2320c40cde1a7b2d8d7405317ee0" title="scale contrasts for use in t-test ">GLM::scale_contrasts()</a> function. </p>
 
 </div>
 </div>
@@ -241,7 +211,7 @@ template&lt;typename ValueType &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_math.html">Math</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_math_1_1_stats.html">Stats</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_math_1_1_stats_1_1_g_l_m.html">GLM</a></li>
-    <li class="footer">Generated on Wed Apr 19 2017 09:26:46 for MRtrix by
+    <li class="footer">Generated on Fri Aug 25 2017 11:14:47 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

@@ -1,4 +1,32 @@
 var searchData=
 [
-  ['upsampler',['Upsampler',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_resampling_1_1_upsampler.html',1,'MR::DWI::Tractography::Resampling']]]
+  ['ram',['RAM',['../class_m_r_1_1_image_i_o_1_1_r_a_m.html',1,'MR::ImageIO']]],
+  ['random_5floop',['Random_loop',['../class_m_r_1_1_random__loop.html',1,'MR']]],
+  ['random_5fper_5fvoxel',['Random_per_voxel',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_seeding_1_1_random__per__voxel.html',1,'MR::DWI::Tractography::Seeding']]],
+  ['random_5fsparse_5floop',['Random_sparse_loop',['../class_m_r_1_1_random__sparse__loop.html',1,'MR']]],
+  ['reader',['Reader',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_reader.html',1,'MR::DWI::Tractography::Reader&lt; ValueType &gt;'],['../class_m_r_1_1_thread_1_1_queue_1_1_reader.html',1,'MR::Thread::Queue&lt; T &gt;::Reader']]],
+  ['readerinterface',['ReaderInterface',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_reader_interface.html',1,'MR::DWI::Tractography']]],
+  ['receiver',['Receiver',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_editing_1_1_receiver.html',1,'MR::DWI::Tractography::Editing']]],
+  ['regularisationcalculator',['RegularisationCalculator',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_regularisation_calculator.html',1,'MR::DWI::Tractography::SIFT2']]],
+  ['rejection',['Rejection',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_seeding_1_1_rejection.html',1,'MR::DWI::Tractography::Seeding']]],
+  ['renderer',['Renderer',['../class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer.html',1,'MR::GUI::DWI::Renderer'],['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_renderer.html',1,'MR::GUI::MRView::ColourMap::Renderer']]],
+  ['renderframe',['RenderFrame',['../class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_render_frame.html',1,'MR::GUI::DWI']]],
+  ['replicate',['Replicate',['../class_m_r_1_1_adapter_1_1_replicate.html',1,'MR::Adapter']]],
+  ['resamplefunctor',['ResampleFunctor',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_resample_functor.html',1,'MR::DWI::Tractography::SIFT']]],
+  ['resize',['Resize',['../class_m_r_1_1_filter_1_1_resize.html',1,'MR::Filter']]],
+  ['reslice',['Reslice',['../class_m_r_1_1_adapter_1_1_reslice.html',1,'MR::Adapter']]],
+  ['rigid',['Rigid',['../class_m_r_1_1_registration_1_1_transform_1_1_rigid.html',1,'MR::Registration::Transform']]],
+  ['rigidlinearnonsymmetricupdate',['RigidLinearNonSymmetricUpdate',['../class_m_r_1_1_registration_1_1_transform_1_1_rigid_linear_non_symmetric_update.html',1,'MR::Registration::Transform']]],
+  ['rigidrobustestimator',['RigidRobustEstimator',['../class_m_r_1_1_registration_1_1_transform_1_1_rigid_robust_estimator.html',1,'MR::Registration::Transform']]],
+  ['rng',['RNG',['../class_m_r_1_1_math_1_1_r_n_g.html',1,'MR::Math']]],
+  ['roi',['ROI',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_r_o_i.html',1,'MR::DWI::Tractography::ROI'],['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html',1,'MR::GUI::MRView::Tool::ROI']]],
+  ['roi_5fitem',['ROI_Item',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___item.html',1,'MR::GUI::MRView::Tool']]],
+  ['roi_5fmodel',['ROI_Model',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___model.html',1,'MR::GUI::MRView::Tool']]],
+  ['roi_5fundoentry',['ROI_UndoEntry',['../struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___undo_entry.html',1,'MR::GUI::MRView::Tool']]],
+  ['roiset',['ROISet',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_r_o_i_set.html',1,'MR::DWI::Tractography']]],
+  ['rot_5fsearch',['rot_search',['../struct_m_r_1_1_registration_1_1_transform_1_1_init_1_1_linear_initialisation_params_1_1_rotation_init_1_1rot__search.html',1,'MR::Registration::Transform::Init::LinearInitialisationParams::RotationInit']]],
+  ['rotationinit',['RotationInit',['../struct_m_r_1_1_registration_1_1_transform_1_1_init_1_1_linear_initialisation_params_1_1_rotation_init.html',1,'MR::Registration::Transform::Init::LinearInitialisationParams']]],
+  ['row',['Row',['../class_m_r_1_1_helper_1_1_row.html',1,'MR::Helper']]],
+  ['run',['Run',['../struct_m_r_1_1_loop_along_static_axes_progress_1_1_run.html',1,'MR::LoopAlongStaticAxesProgress::Run&lt; ImageType &gt;'],['../struct_m_r_1_1_loop_along_dynamic_axes_1_1_run.html',1,'MR::LoopAlongDynamicAxes::Run&lt; ImageType &gt;'],['../struct_m_r_1_1_loop_along_single_axis_1_1_run.html',1,'MR::LoopAlongSingleAxis::Run&lt; ImageType &gt;'],['../struct_m_r_1_1_loop_along_single_axis_progress_1_1_run.html',1,'MR::LoopAlongSingleAxisProgress::Run&lt; ImageType &gt;'],['../struct_m_r_1_1_loop_along_dynamic_axes_progress_1_1_run.html',1,'MR::LoopAlongDynamicAxesProgress::Run&lt; ImageType &gt;'],['../struct_m_r_1_1_loop_along_axis_range_1_1_run.html',1,'MR::LoopAlongAxisRange::Run&lt; ImageType &gt;'],['../struct_m_r_1_1_loop_along_axis_range_progress_1_1_run.html',1,'MR::LoopAlongAxisRangeProgress::Run&lt; ImageType &gt;'],['../struct_m_r_1_1_loop_along_static_axes_1_1_run.html',1,'MR::LoopAlongStaticAxes::Run&lt; ImageType &gt;'],['../struct_m_r_1_1_fixel_1_1_loop_fixels_in_voxel_1_1_run.html',1,'MR::Fixel::LoopFixelsInVoxel::Run&lt; DataType &gt;']]],
+  ['run_3c_20imagetype_2e_2e_2e_20_3e',['Run&lt; ImageType... &gt;',['../struct_m_r_1_1_loop_along_static_axes_1_1_run.html',1,'MR::LoopAlongStaticAxes::Run&lt; ImageType... &gt;'],['../struct_m_r_1_1_loop_along_axis_range_1_1_run.html',1,'MR::LoopAlongAxisRange::Run&lt; ImageType... &gt;'],['../struct_m_r_1_1_loop_along_dynamic_axes_1_1_run.html',1,'MR::LoopAlongDynamicAxes::Run&lt; ImageType... &gt;']]]
 ];

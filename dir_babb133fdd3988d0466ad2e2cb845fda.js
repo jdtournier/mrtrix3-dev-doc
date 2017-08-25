@@ -10,7 +10,7 @@ var dir_babb133fdd3988d0466ad2e2cb845fda =
     [ "loader.h", "mapping_2loader_8h.html", [
       [ "TrackLoader", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_loader.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_loader" ]
     ] ],
-    [ "mapper.h", "mapping_2mapper_8h.html", "mapping_2mapper_8h" ],
+    [ "mapper.h", "src_2dwi_2tractography_2mapping_2mapper_8h.html", "src_2dwi_2tractography_2mapping_2mapper_8h" ],
     [ "mapper_plugins.h", "mapper__plugins_8h.html", [
       [ "DixelMappingPlugin", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_dixel_mapping_plugin.html", null ],
       [ "TODMappingPlugin", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_o_d_mapping_plugin.html", null ],

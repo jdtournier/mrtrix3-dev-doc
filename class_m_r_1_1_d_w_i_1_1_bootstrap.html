@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC2-22-gb30ad75c</div>
+   <div id="projectbrief">Version 3.0_RC2-24-gfc18ca90</div>
   </td>
  </tr>
  </tbody>
@@ -98,6 +98,7 @@ Inheritance diagram for MR::DWI::Bootstrap&lt; ImageType, Functor, NUM_VOX_PER_C
  <div class="center">
   <img src="class_m_r_1_1_d_w_i_1_1_bootstrap.png" usemap="#MR::DWI::Bootstrap_3C_20ImageType_2C_20Functor_2C_20NUM_5FVOX_5FPER_5FCHUNK_20_3E_map" alt=""/>
   <map id="MR::DWI::Bootstrap_3C_20ImageType_2C_20Functor_2C_20NUM_5FVOX_5FPER_5FCHUNK_20_3E_map" name="MR::DWI::Bootstrap_3C_20ImageType_2C_20Functor_2C_20NUM_5FVOX_5FPER_5FCHUNK_20_3E_map">
+<area href="class_m_r_1_1_adapter_1_1_base.html" alt="MR::Adapter::Base&lt; Bootstrap&lt; ImageType, Functor, NUM_VOX_PER_CHUNK &gt;, ImageType &gt;" shape="rect" coords="0,56,579,80"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -114,7 +115,7 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a86ccac532a7c2c25461d6271ad517f1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30d9544b03f3375e32c0e1c862b9c469"><td class="memItemLeft" align="right" valign="top">std::map&lt; Eigen::Vector3i, value_type *, IndexCompare &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_bootstrap.html#a30d9544b03f3375e32c0e1c862b9c469">voxels</a></td></tr>
 <tr class="separator:a30d9544b03f3375e32c0e1c862b9c469"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abff830b20f4e21b80586ca3c153bdb6b"><td class="memItemLeft" align="right" valign="top">vector&lt; vector&lt; value_type &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_bootstrap.html#abff830b20f4e21b80586ca3c153bdb6b">voxel_buffer</a></td></tr>
+<tr class="memitem:abff830b20f4e21b80586ca3c153bdb6b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_r_1_1vector.html">vector</a>&lt; <a class="el" href="class_m_r_1_1vector.html">vector</a>&lt; value_type &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_bootstrap.html#abff830b20f4e21b80586ca3c153bdb6b">voxel_buffer</a></td></tr>
 <tr class="separator:abff830b20f4e21b80586ca3c153bdb6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc90a21e6dd75f66122dc81f1c32ac22"><td class="memItemLeft" align="right" valign="top">value_type *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_bootstrap.html#abc90a21e6dd75f66122dc81f1c32ac22">next_voxel</a></td></tr>
 <tr class="separator:abc90a21e6dd75f66122dc81f1c32ac22"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -122,6 +123,9 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a262c0faa4e4cf88445bfb89968bc309e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27d705eadf0cbf712c38625087a54175"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_bootstrap.html#a27d705eadf0cbf712c38625087a54175">current_chunk</a></td></tr>
 <tr class="separator:a27d705eadf0cbf712c38625087a54175"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_class_m_r_1_1_adapter_1_1_base"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_m_r_1_1_adapter_1_1_base')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_m_r_1_1_adapter_1_1_base.html">MR::Adapter::Base&lt; Bootstrap&lt; ImageType, Functor, NUM_VOX_PER_CHUNK &gt;, ImageType &gt;</a></td></tr>
+<tr class="memitem:a217cde397b590a0d4204e8d1512ff0d9 inherit pro_attribs_class_m_r_1_1_adapter_1_1_base"><td class="memItemLeft" align="right" valign="top">ImageType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_adapter_1_1_base.html#a217cde397b590a0d4204e8d1512ff0d9">parent_</a></td></tr>
+<tr class="separator:a217cde397b590a0d4204e8d1512ff0d9 inherit pro_attribs_class_m_r_1_1_adapter_1_1_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;class ImageType, class Functor, size_t NUM_VOX_PER_CHUNK = 256&gt;<br />
@@ -305,7 +309,7 @@ template&lt;class ImageType , class Functor , size_t NUM_VOX_PER_CHUNK = 256&gt;
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">vector&lt;vector&lt;value_type&gt; &gt; <a class="el" href="class_m_r_1_1_d_w_i_1_1_bootstrap.html">MR::DWI::Bootstrap</a>&lt; ImageType, Functor, NUM_VOX_PER_CHUNK &gt;::voxel_buffer</td>
+          <td class="memname"><a class="el" href="class_m_r_1_1vector.html">vector</a>&lt;<a class="el" href="class_m_r_1_1vector.html">vector</a>&lt;value_type&gt; &gt; <a class="el" href="class_m_r_1_1_d_w_i_1_1_bootstrap.html">MR::DWI::Bootstrap</a>&lt; ImageType, Functor, NUM_VOX_PER_CHUNK &gt;::voxel_buffer</td>
         </tr>
       </table>
   </td>
@@ -354,7 +358,7 @@ template&lt;class ImageType , class Functor , size_t NUM_VOX_PER_CHUNK = 256&gt;
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_d_w_i.html">DWI</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_d_w_i_1_1_bootstrap.html">Bootstrap</a></li>
-    <li class="footer">Generated on Thu Aug 24 2017 14:00:52 for MRtrix by
+    <li class="footer">Generated on Fri Aug 25 2017 11:14:46 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

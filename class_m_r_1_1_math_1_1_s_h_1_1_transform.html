@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-535-g21da6244</div>
+   <div id="projectbrief">Version 3.0_RC2-24-gfc18ca90</div>
   </td>
  </tr>
  </tbody>
@@ -82,8 +82,6 @@ $(document).ready(function(){initNavTree('class_m_r_1_1_math_1_1_s_h_1_1_transfo
 
 <div class="header">
   <div class="summary">
-<a href="#pub-types">Public Types</a> &#124;
-<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="class_m_r_1_1_math_1_1_s_h_1_1_transform-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -93,39 +91,11 @@ $(document).ready(function(){initNavTree('class_m_r_1_1_math_1_1_s_h_1_1_transfo
 
 <p><code>#include &quot;<a class="el" href="_s_h_8h_source.html">math/SH.h</a>&quot;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
-Public Types</h2></td></tr>
-<tr class="memitem:a041d0181f898b9018e6acc5d124f2423"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_s_h_1_1_transform.html#a041d0181f898b9018e6acc5d124f2423">matrix_type</a> = Eigen::Matrix&lt; ValueType, Eigen::Dynamic, Eigen::Dynamic &gt;</td></tr>
-<tr class="separator:a041d0181f898b9018e6acc5d124f2423"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:af3c329fc3212b73a36d358c92447234c"><td class="memTemplParams" colspan="2">template&lt;class MatrixType &gt; </td></tr>
-<tr class="memitem:af3c329fc3212b73a36d358c92447234c"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_s_h_1_1_transform.html#af3c329fc3212b73a36d358c92447234c">Transform</a> (const MatrixType &amp;dirs, int lmax)</td></tr>
-<tr class="separator:af3c329fc3212b73a36d358c92447234c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a78db1bf5aa2bfc55984db82afa49f185"><td class="memTemplParams" colspan="2">template&lt;class VectorType &gt; </td></tr>
-<tr class="memitem:a78db1bf5aa2bfc55984db82afa49f185"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_s_h_1_1_transform.html#a78db1bf5aa2bfc55984db82afa49f185">set_filter</a> (const VectorType &amp;filter)</td></tr>
-<tr class="separator:a78db1bf5aa2bfc55984db82afa49f185"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70842eadefa87f2f4a2405ad3acd03d8"><td class="memTemplParams" colspan="2">template&lt;class VectorType1 , class VectorType2 &gt; </td></tr>
-<tr class="memitem:a70842eadefa87f2f4a2405ad3acd03d8"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_s_h_1_1_transform.html#a70842eadefa87f2f4a2405ad3acd03d8">A2SH</a> (VectorType1 &amp;sh, const VectorType2 &amp;amplitudes) const</td></tr>
-<tr class="separator:a70842eadefa87f2f4a2405ad3acd03d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6aa1c127282febc40f8c5169c1d12e40"><td class="memTemplParams" colspan="2">template&lt;class VectorType1 , class VectorType2 &gt; </td></tr>
-<tr class="memitem:a6aa1c127282febc40f8c5169c1d12e40"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_s_h_1_1_transform.html#a6aa1c127282febc40f8c5169c1d12e40">SH2A</a> (VectorType1 &amp;amplitudes, const VectorType2 &amp;sh) const</td></tr>
-<tr class="separator:a6aa1c127282febc40f8c5169c1d12e40"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20b7a342052d4ca9b2e5657c63bbdd7e"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_s_h_1_1_transform.html#a20b7a342052d4ca9b2e5657c63bbdd7e">n_SH</a> () const</td></tr>
-<tr class="separator:a20b7a342052d4ca9b2e5657c63bbdd7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac87df99817b904084657a5dec3337a1e"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_s_h_1_1_transform.html#ac87df99817b904084657a5dec3337a1e">n_amp</a> () const</td></tr>
-<tr class="separator:ac87df99817b904084657a5dec3337a1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a133347a4a91a12e72016530798572d50"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_m_r_1_1_math_1_1_s_h_1_1_transform.html#a041d0181f898b9018e6acc5d124f2423">matrix_type</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_s_h_1_1_transform.html#a133347a4a91a12e72016530798572d50">mat_A2SH</a> () const</td></tr>
-<tr class="separator:a133347a4a91a12e72016530798572d50"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c8f410f4199c5c88d1ab84b084af0ce"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_m_r_1_1_math_1_1_s_h_1_1_transform.html#a041d0181f898b9018e6acc5d124f2423">matrix_type</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_s_h_1_1_transform.html#a1c8f410f4199c5c88d1ab84b084af0ce">mat_SH2A</a> () const</td></tr>
-<tr class="separator:a1c8f410f4199c5c88d1ab84b084af0ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a3f3e81061b4248a70e8ccca3c13fa903"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_r_1_1_math_1_1_s_h_1_1_transform.html#a041d0181f898b9018e6acc5d124f2423">matrix_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_s_h_1_1_transform.html#a3f3e81061b4248a70e8ccca3c13fa903">SHT</a></td></tr>
+<tr class="memitem:a3f3e81061b4248a70e8ccca3c13fa903"><td class="memItemLeft" align="right" valign="top">matrix_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_s_h_1_1_transform.html#a3f3e81061b4248a70e8ccca3c13fa903">SHT</a></td></tr>
 <tr class="separator:a3f3e81061b4248a70e8ccca3c13fa903"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a090fc82b5df426e29a31cfe1d85cba72"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_r_1_1_math_1_1_s_h_1_1_transform.html#a041d0181f898b9018e6acc5d124f2423">matrix_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_s_h_1_1_transform.html#a090fc82b5df426e29a31cfe1d85cba72">iSHT</a></td></tr>
+<tr class="memitem:a090fc82b5df426e29a31cfe1d85cba72"><td class="memItemLeft" align="right" valign="top">matrix_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_s_h_1_1_transform.html#a090fc82b5df426e29a31cfe1d85cba72">iSHT</a></td></tr>
 <tr class="separator:a090fc82b5df426e29a31cfe1d85cba72"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -133,303 +103,8 @@ Protected Attributes</h2></td></tr>
 class MR::Math::SH::Transform&lt; ValueType &gt;</h3>
 
 
-<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00161">161</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
-</div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a041d0181f898b9018e6acc5d124f2423"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a041d0181f898b9018e6acc5d124f2423">&#9670;&nbsp;</a></span>matrix_type</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename ValueType &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_m_r_1_1_math_1_1_s_h_1_1_transform.html">MR::Math::SH::Transform</a>&lt; ValueType &gt;::<a class="el" href="class_m_r_1_1_math_1_1_s_h_1_1_transform.html#a041d0181f898b9018e6acc5d124f2423">matrix_type</a> =  Eigen::Matrix&lt;ValueType,Eigen::Dynamic,Eigen::Dynamic&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00163">163</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="af3c329fc3212b73a36d358c92447234c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af3c329fc3212b73a36d358c92447234c">&#9670;&nbsp;</a></span>Transform()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename ValueType &gt; </div>
-<div class="memtemplate">
-template&lt;class MatrixType &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_m_r_1_1_math_1_1_s_h_1_1_transform.html">MR::Math::SH::Transform</a>&lt; ValueType &gt;::<a class="el" href="class_m_r_1_1_math_1_1_s_h_1_1_transform.html">Transform</a> </td>
-          <td>(</td>
-          <td class="paramtype">const MatrixType &amp;&#160;</td>
-          <td class="paramname"><em>dirs</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>lmax</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00166">166</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a70842eadefa87f2f4a2405ad3acd03d8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a70842eadefa87f2f4a2405ad3acd03d8">&#9670;&nbsp;</a></span>A2SH()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename ValueType &gt; </div>
-<div class="memtemplate">
-template&lt;class VectorType1 , class VectorType2 &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="class_m_r_1_1_math_1_1_s_h_1_1_transform.html">MR::Math::SH::Transform</a>&lt; ValueType &gt;::A2SH </td>
-          <td>(</td>
-          <td class="paramtype">VectorType1 &amp;&#160;</td>
-          <td class="paramname"><em>sh</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const VectorType2 &amp;&#160;</td>
-          <td class="paramname"><em>amplitudes</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00176">176</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
-
-</div>
-</div>
-<a id="a133347a4a91a12e72016530798572d50"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a133347a4a91a12e72016530798572d50">&#9670;&nbsp;</a></span>mat_A2SH()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename ValueType &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="class_m_r_1_1_math_1_1_s_h_1_1_transform.html#a041d0181f898b9018e6acc5d124f2423">matrix_type</a>&amp; <a class="el" href="class_m_r_1_1_math_1_1_s_h_1_1_transform.html">MR::Math::SH::Transform</a>&lt; ValueType &gt;::mat_A2SH </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00191">191</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
-
-</div>
-</div>
-<a id="a1c8f410f4199c5c88d1ab84b084af0ce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1c8f410f4199c5c88d1ab84b084af0ce">&#9670;&nbsp;</a></span>mat_SH2A()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename ValueType &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="class_m_r_1_1_math_1_1_s_h_1_1_transform.html#a041d0181f898b9018e6acc5d124f2423">matrix_type</a>&amp; <a class="el" href="class_m_r_1_1_math_1_1_s_h_1_1_transform.html">MR::Math::SH::Transform</a>&lt; ValueType &gt;::mat_SH2A </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00194">194</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
-
-</div>
-</div>
-<a id="ac87df99817b904084657a5dec3337a1e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac87df99817b904084657a5dec3337a1e">&#9670;&nbsp;</a></span>n_amp()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename ValueType &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">size_t <a class="el" href="class_m_r_1_1_math_1_1_s_h_1_1_transform.html">MR::Math::SH::Transform</a>&lt; ValueType &gt;::n_amp </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00187">187</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
-
-</div>
-</div>
-<a id="a20b7a342052d4ca9b2e5657c63bbdd7e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a20b7a342052d4ca9b2e5657c63bbdd7e">&#9670;&nbsp;</a></span>n_SH()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename ValueType &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">size_t <a class="el" href="class_m_r_1_1_math_1_1_s_h_1_1_transform.html">MR::Math::SH::Transform</a>&lt; ValueType &gt;::n_SH </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00184">184</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
-
-</div>
-</div>
-<a id="a78db1bf5aa2bfc55984db82afa49f185"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a78db1bf5aa2bfc55984db82afa49f185">&#9670;&nbsp;</a></span>set_filter()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename ValueType &gt; </div>
-<div class="memtemplate">
-template&lt;class VectorType &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="class_m_r_1_1_math_1_1_s_h_1_1_transform.html">MR::Math::SH::Transform</a>&lt; ValueType &gt;::set_filter </td>
-          <td>(</td>
-          <td class="paramtype">const VectorType &amp;&#160;</td>
-          <td class="paramname"><em>filter</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00171">171</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
-
-</div>
-</div>
-<a id="a6aa1c127282febc40f8c5169c1d12e40"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6aa1c127282febc40f8c5169c1d12e40">&#9670;&nbsp;</a></span>SH2A()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename ValueType &gt; </div>
-<div class="memtemplate">
-template&lt;class VectorType1 , class VectorType2 &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="class_m_r_1_1_math_1_1_s_h_1_1_transform.html">MR::Math::SH::Transform</a>&lt; ValueType &gt;::SH2A </td>
-          <td>(</td>
-          <td class="paramtype">VectorType1 &amp;&#160;</td>
-          <td class="paramname"><em>amplitudes</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const VectorType2 &amp;&#160;</td>
-          <td class="paramname"><em>sh</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00180">180</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
+<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00160">160</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="a090fc82b5df426e29a31cfe1d85cba72"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a090fc82b5df426e29a31cfe1d85cba72">&#9670;&nbsp;</a></span>iSHT</h2>
 
@@ -442,7 +117,7 @@ template&lt;typename ValueType &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_m_r_1_1_math_1_1_s_h_1_1_transform.html#a041d0181f898b9018e6acc5d124f2423">matrix_type</a> <a class="el" href="class_m_r_1_1_math_1_1_s_h_1_1_transform.html">MR::Math::SH::Transform</a>&lt; ValueType &gt;::iSHT</td>
+          <td class="memname">matrix_type <a class="el" href="class_m_r_1_1_math_1_1_s_h_1_1_transform.html">MR::Math::SH::Transform</a>&lt; ValueType &gt;::iSHT</td>
         </tr>
       </table>
   </td>
@@ -452,7 +127,7 @@ template&lt;typename ValueType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00199">199</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00198">198</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
 
 </div>
 </div>
@@ -468,7 +143,7 @@ template&lt;typename ValueType &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_m_r_1_1_math_1_1_s_h_1_1_transform.html#a041d0181f898b9018e6acc5d124f2423">matrix_type</a> <a class="el" href="class_m_r_1_1_math_1_1_s_h_1_1_transform.html">MR::Math::SH::Transform</a>&lt; ValueType &gt;::SHT</td>
+          <td class="memname">matrix_type <a class="el" href="class_m_r_1_1_math_1_1_s_h_1_1_transform.html">MR::Math::SH::Transform</a>&lt; ValueType &gt;::SHT</td>
         </tr>
       </table>
   </td>
@@ -478,12 +153,12 @@ template&lt;typename ValueType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00199">199</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00198">198</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>lib/math/<a class="el" href="_s_h_8h_source.html">SH.h</a></li>
+<li>core/math/<a class="el" href="_s_h_8h_source.html">SH.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -491,7 +166,7 @@ template&lt;typename ValueType &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_math.html">Math</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_math_1_1_s_h.html">SH</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_math_1_1_s_h_1_1_transform.html">Transform</a></li>
-    <li class="footer">Generated on Wed Apr 19 2017 09:26:46 for MRtrix by
+    <li class="footer">Generated on Fri Aug 25 2017 11:14:47 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

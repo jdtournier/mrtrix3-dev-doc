@@ -36,5 +36,5 @@ var dir_0008c5cf4c08f712dec94cc304afebf9 =
       [ "NodeShader", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_node_shader.html", null ],
       [ "EdgeShader", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_edge_shader.html", null ]
     ] ],
-    [ "types.h", "gui_2mrview_2tool_2connectome_2types_8h.html", "gui_2mrview_2tool_2connectome_2types_8h" ]
+    [ "types.h", "src_2gui_2mrview_2tool_2connectome_2types_8h.html", "src_2gui_2mrview_2tool_2connectome_2types_8h" ]
 ];

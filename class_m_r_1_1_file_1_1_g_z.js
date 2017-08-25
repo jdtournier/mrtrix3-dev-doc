@@ -17,6 +17,7 @@ var class_m_r_1_1_file_1_1_g_z =
     [ "read", "class_m_r_1_1_file_1_1_g_z.html#a34cdf230b59cb8a24ee715a82bbd14ff", null ],
     [ "seek", "class_m_r_1_1_file_1_1_g_z.html#a7d073bb3fac934aaada156fce853ef96", null ],
     [ "tell", "class_m_r_1_1_file_1_1_g_z.html#a2e2c55fe33b78b47c91348ba88895a18", null ],
+    [ "tellg", "class_m_r_1_1_file_1_1_g_z.html#a521c8c832026f3f198d2fa000703ac5b", null ],
     [ "write", "class_m_r_1_1_file_1_1_g_z.html#a7fe5a613ea9e6ed84b785f2af713790b", null ],
     [ "write", "class_m_r_1_1_file_1_1_g_z.html#aa151f25d2dd4e442a011a9a9faf181a9", null ],
     [ "filename", "class_m_r_1_1_file_1_1_g_z.html#a463bbb79118a41b81a59869eaab502d1", null ],

@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC2-22-gb30ad75c</div>
+   <div id="projectbrief">Version 3.0_RC2-24-gfc18ca90</div>
   </td>
  </tr>
  </tbody>
@@ -92,10 +92,10 @@ $(document).ready(function(){initNavTree('initialiser__helpers_8h.html','');});
 <div class="textblock"><code>#include &lt;algorithm&gt;</code><br />
 <code>#include &lt;Eigen/Geometry&gt;</code><br />
 <code>#include &quot;image.h&quot;</code><br />
-<code>#include &quot;transform.h&quot;</code><br />
-<code>#include &quot;math/math.h&quot;</code><br />
-<code>#include &quot;math/SH.h&quot;</code><br />
-<code>#include &quot;<a class="el" href="registration_2transform_2base_8h_source.html">registration/transform/base.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="transform_8h_source.html">transform.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="math_8h_source.html">math/math.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_s_h_8h_source.html">math/SH.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="src_2registration_2transform_2base_8h_source.html">registration/transform/base.h</a>&quot;</code><br />
 </div>
 <p><a href="initialiser__helpers_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -120,13 +120,13 @@ Namespaces</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a9bb9d274f366e2ceef730d42f073a94a"><td class="memTemplParams" colspan="2">template&lt;class ImageType , class ValueType &gt; </td></tr>
-<tr class="memitem:a9bb9d274f366e2ceef730d42f073a94a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_transform_1_1_init.html#a9bb9d274f366e2ceef730d42f073a94a">MR::Registration::Transform::Init::get_geometric_centre</a> (const ImageType &amp;image, Eigen::Matrix&lt; ValueType, 3, 1 &gt; &amp;centre)</td></tr>
+<tr class="memitem:a9bb9d274f366e2ceef730d42f073a94a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_transform_1_1_init.html#a9bb9d274f366e2ceef730d42f073a94a">MR::Registration::Transform::Init::get_geometric_centre</a> (const ImageType &amp;image, <a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt; ValueType, 3, 1 &gt; &amp;centre)</td></tr>
 <tr class="separator:a9bb9d274f366e2ceef730d42f073a94a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b59587d7af00009cf77dc9c7317205f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_transform_1_1_init.html#a3b59587d7af00009cf77dc9c7317205f">MR::Registration::Transform::Init::get_centre_of_mass</a> (Image&lt; default_type &gt; &amp;im, Image&lt; default_type &gt; &amp;mask, Eigen::Vector3 &amp;centre_of_mass)</td></tr>
+<tr class="memitem:a3b59587d7af00009cf77dc9c7317205f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_transform_1_1_init.html#a3b59587d7af00009cf77dc9c7317205f">MR::Registration::Transform::Init::get_centre_of_mass</a> (Image&lt; default_type &gt; &amp;im, Image&lt; default_type &gt; &amp;mask, <a class="el" href="namespace_eigen.html#a614e7946e0926e533cf7d49a487ce245">Eigen::Vector3</a> &amp;centre_of_mass)</td></tr>
 <tr class="separator:a3b59587d7af00009cf77dc9c7317205f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c48da3b05bce637f984df3a8daf6972"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_transform_1_1_init.html#a8c48da3b05bce637f984df3a8daf6972">MR::Registration::Transform::Init::get_sorted_eigen_vecs_vals</a> (const Eigen::Matrix&lt; default_type, 3, 3 &gt; &amp;mat, Eigen::Matrix&lt; default_type, Eigen::Dynamic, Eigen::Dynamic &gt; &amp;eigenvectors, Eigen::Matrix&lt; default_type, Eigen::Dynamic, 1 &gt; &amp;eigenvals)</td></tr>
+<tr class="memitem:a8c48da3b05bce637f984df3a8daf6972"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_transform_1_1_init.html#a8c48da3b05bce637f984df3a8daf6972">MR::Registration::Transform::Init::get_sorted_eigen_vecs_vals</a> (const <a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt; default_type, 3, 3 &gt; &amp;mat, <a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt; default_type, Eigen::Dynamic, Eigen::Dynamic &gt; &amp;eigenvectors, <a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt; default_type, Eigen::Dynamic, 1 &gt; &amp;eigenvals)</td></tr>
 <tr class="separator:a8c48da3b05bce637f984df3a8daf6972"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3c186e2cdcc27306c02b139441e923b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_transform_1_1_init.html#ab3c186e2cdcc27306c02b139441e923b">MR::Registration::Transform::Init::get_moments</a> (Image&lt; default_type &gt; &amp;image, Image&lt; default_type &gt; &amp;mask, const Eigen::Matrix&lt; default_type, 3, 1 &gt; &amp;centre, default_type &amp;m000, default_type &amp;m100, default_type &amp;m010, default_type &amp;m001, default_type &amp;mu110, default_type &amp;mu011, default_type &amp;mu101, default_type &amp;mu200, default_type &amp;mu020, default_type &amp;mu002)</td></tr>
+<tr class="memitem:ab3c186e2cdcc27306c02b139441e923b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_transform_1_1_init.html#ab3c186e2cdcc27306c02b139441e923b">MR::Registration::Transform::Init::get_moments</a> (Image&lt; default_type &gt; &amp;image, Image&lt; default_type &gt; &amp;mask, const <a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt; default_type, 3, 1 &gt; &amp;centre, default_type &amp;m000, default_type &amp;m100, default_type &amp;m010, default_type &amp;m001, default_type &amp;mu110, default_type &amp;mu011, default_type &amp;mu101, default_type &amp;mu200, default_type &amp;mu020, default_type &amp;mu002)</td></tr>
 <tr class="separator:ab3c186e2cdcc27306c02b139441e923b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
@@ -135,7 +135,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_2809abdae02e13f948aa32ba36e8b7d2.html">registration</a></li><li class="navelem"><a class="el" href="dir_c46313a679aed6c8a03f3be8eae3909f.html">transform</a></li><li class="navelem"><a class="el" href="initialiser__helpers_8h.html">initialiser_helpers.h</a></li>
-    <li class="footer">Generated on Thu Aug 24 2017 14:00:52 for MRtrix by
+    <li class="footer">Generated on Fri Aug 25 2017 11:14:45 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

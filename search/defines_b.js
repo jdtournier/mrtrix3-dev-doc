@@ -1,15 +1,20 @@
 var searchData=
 [
-  ['sift2_5fmax_5fcoeff_5fdefault',['SIFT2_MAX_COEFF_DEFAULT',['../tckfactor_8h.html#a294a6aa328fd0e2a961aa618331d595f',1,'tckfactor.h']]],
-  ['sift2_5fmax_5fcoeff_5fstep_5fdefault',['SIFT2_MAX_COEFF_STEP_DEFAULT',['../tckfactor_8h.html#a2d2ca5642852965bcbf1e72cc001e570',1,'tckfactor.h']]],
-  ['sift2_5fmax_5fiters_5fdefault',['SIFT2_MAX_ITERS_DEFAULT',['../tckfactor_8h.html#a3462caa37aeae245f777817683e40c64',1,'tckfactor.h']]],
-  ['sift2_5fmin_5fcf_5fdecrease_5fdefault',['SIFT2_MIN_CF_DECREASE_DEFAULT',['../tckfactor_8h.html#a3242ce21172f0df29094debb2958a225',1,'tckfactor.h']]],
-  ['sift2_5fmin_5fcoeff_5fdefault',['SIFT2_MIN_COEFF_DEFAULT',['../tckfactor_8h.html#a057a0e79f49011d129f4451c73c082eb',1,'tckfactor.h']]],
-  ['sift2_5fmin_5fiters_5fdefault',['SIFT2_MIN_ITERS_DEFAULT',['../tckfactor_8h.html#aab4e0cc3964f2babe596659498f17519',1,'tckfactor.h']]],
-  ['sift2_5fmin_5ftd_5ffrac_5fdefault',['SIFT2_MIN_TD_FRAC_DEFAULT',['../tckfactor_8h.html#a00b535e93965265a55503dc345fe4008',1,'tckfactor.h']]],
-  ['sift2_5fregularisation_5ftikhonov_5fdefault',['SIFT2_REGULARISATION_TIKHONOV_DEFAULT',['../tckfactor_8h.html#aa62e09323eff556af2e98f10305afcee',1,'tckfactor.h']]],
-  ['sift2_5fregularisation_5ftv_5fdefault',['SIFT2_REGULARISATION_TV_DEFAULT',['../tckfactor_8h.html#a13de10f4301051fa6e4636de10b0555d',1,'tckfactor.h']]],
-  ['sift_5fmodel_5foutput_5ffixel_5fimages',['SIFT_MODEL_OUTPUT_FIXEL_IMAGES',['../model__base_8h.html#ab9ce267606a453e08aabbd807a3b4943',1,'model_base.h']]],
-  ['sift_5ftrack_5findex_5fbuffer_5fsize',['SIFT_TRACK_INDEX_BUFFER_SIZE',['../track__index__range_8h.html#a9aa0e94f624cb0820454db2b37cffad6',1,'track_index_range.h']]],
-  ['sqrt_5f3_5fover_5f2',['SQRT_3_OVER_2',['../calibrator_8h.html#a1b33f6d4c5af51c0fa88d1ab5eae029a',1,'calibrator.h']]]
+  ['max_5fdir_5fchange',['MAX_DIR_CHANGE',['../_s_h_8h.html#a4ee2d519e14dc95a5ed11efa93fe465f',1,'SH.h']]],
+  ['max_5ffiles_5fper_5fimage',['MAX_FILES_PER_IMAGE',['../core_2image__io_2base_8h.html#a7193549885ce5a853a54e36686211fcd',1,'base.h']]],
+  ['max_5flod',['MAX_LOD',['../render__frame_8h.html#ad1a06b5c4c6181f46fd25cbd4ec71112',1,'render_frame.h']]],
+  ['max_5fnum_5fseed_5fattempts',['MAX_NUM_SEED_ATTEMPTS',['../exec_8h.html#a2e4e7d03a17f6a7ec4c9af9613940b3a',1,'exec.h']]],
+  ['max_5ftracking_5fseed_5fattempts_5fdynamic',['MAX_TRACKING_SEED_ATTEMPTS_DYNAMIC',['../src_2dwi_2tractography_2seeding_2base_8h.html#a31d19a2dd79f595a21f898c72b515357',1,'base.h']]],
+  ['max_5ftracking_5fseed_5fattempts_5ffixed',['MAX_TRACKING_SEED_ATTEMPTS_FIXED',['../src_2dwi_2tractography_2seeding_2base_8h.html#aa3cf37d9ed697f9c8843155e84d8513d',1,'base.h']]],
+  ['max_5ftracking_5fseed_5fattempts_5fgmwmi',['MAX_TRACKING_SEED_ATTEMPTS_GMWMI',['../src_2dwi_2tractography_2seeding_2base_8h.html#ac1903244c31138ed978e7349dad834bb',1,'base.h']]],
+  ['max_5ftracking_5fseed_5fattempts_5frandom',['MAX_TRACKING_SEED_ATTEMPTS_RANDOM',['../src_2dwi_2tractography_2seeding_2base_8h.html#aa5fd5f27448bc33809bf3e8cc5230f6f',1,'base.h']]],
+  ['max_5ftracks_5fread_5ffor_5fheader',['MAX_TRACKS_READ_FOR_HEADER',['../mapping_8h.html#a8a5451d17fbd5ca06748306af7062467',1,'mapping.h']]],
+  ['memalign',['MEMALIGN',['../src_2surface_2types_8h.html#a11d7eae3ab5178ebcf0e62cae9c26cd4',1,'types.h']]],
+  ['move_5fin_5fout_5ffov_5fmultiplier',['MOVE_IN_OUT_FOV_MULTIPLIER',['../src_2gui_2mrview_2mode_2base_8h.html#a08d8e96d624c1d2ce648318bfe726000',1,'base.h']]],
+  ['mrtrix_5fextern',['MRTRIX_EXTERN',['../fetch__store_8h.html#a2ac0e3ee61ca417be1935bf4a3066011',1,'fetch_store.h']]],
+  ['mrtrix_5fis_5fbig_5fendian',['MRTRIX_IS_BIG_ENDIAN',['../raw_8h.html#aa8a7b49754688429d8dd84275cafc067',1,'raw.h']]],
+  ['mrtrix_5fop',['MRTRIX_OP',['../array_8h.html#ae43cbffad7bdb21564292a344b0ca3b5',1,'MRTRIX_OP():&#160;array.h'],['../dense__base_8h.html#ae43cbffad7bdb21564292a344b0ca3b5',1,'MRTRIX_OP():&#160;dense_base.h'],['../core_2eigen__plugins_2matrix_8h.html#ae43cbffad7bdb21564292a344b0ca3b5',1,'MRTRIX_OP():&#160;matrix.h'],['../image__helpers_8h.html#ae43cbffad7bdb21564292a344b0ca3b5',1,'MRTRIX_OP():&#160;image_helpers.h'],['../image__helpers_8h.html#ae43cbffad7bdb21564292a344b0ca3b5',1,'MRTRIX_OP():&#160;image_helpers.h'],['../image__helpers_8h.html#ae43cbffad7bdb21564292a344b0ca3b5',1,'MRTRIX_OP():&#160;image_helpers.h']]],
+  ['mrtrix_5fqueue_5fdefault_5fbatch_5fsize',['MRTRIX_QUEUE_DEFAULT_BATCH_SIZE',['../thread__queue_8h.html#a62376d0ebde62dc99133121cec75e9bf',1,'thread_queue.h']]],
+  ['mrtrix_5fqueue_5fdefault_5fcapacity',['MRTRIX_QUEUE_DEFAULT_CAPACITY',['../thread__queue_8h.html#a5d6010ef52ccc0b08a310e6a141c3e79',1,'thread_queue.h']]],
+  ['mrtrix_5fupdated_5fapi',['MRTRIX_UPDATED_API',['../command_8h.html#a9e3f39f12bf0d533aee44874f794fd48',1,'command.h']]]
 ];

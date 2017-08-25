@@ -1,5 +1,9 @@
 var searchData=
 [
+  ['g',['g',['../class_m_r_1_1_math_1_1_gradient_descent.html#a053c444313998545909f867d36124dc5',1,'MR::Math::GradientDescent']]],
+  ['g1',['g1',['../class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a89aafc335e4923b1739e27e6b82f5556',1,'MR::Math::GradientDescentBB']]],
+  ['g2',['g2',['../class_m_r_1_1_math_1_1_gradient_descent.html#a3f601b2d15f4526ff65786e985ae65c9',1,'MR::Math::GradientDescent::g2()'],['../class_m_r_1_1_math_1_1_gradient_descent_b_b.html#ad1c7503beebcfff3ecbd7de80323275d',1,'MR::Math::GradientDescentBB::g2()']]],
+  ['g3',['g3',['../class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a8d4171c57e3da6df94fbe497d2847d88',1,'MR::Math::GradientDescentBB']]],
   ['gaussian_5fdenominator',['gaussian_denominator',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_track_mapper.html#af30f7eba81f17c8aaff02a9ef317a0cf',1,'MR::DWI::Tractography::Mapping::Gaussian::TrackMapper']]],
   ['gd_5fmax_5fiter',['gd_max_iter',['../struct_m_r_1_1_registration_1_1_stage_setting.html#a3da37218b253296eb3b951af3925c8bb',1,'MR::Registration::StageSetting']]],
   ['geometry_5fshader_5fsource',['geometry_shader_source',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_shader_base.html#acee5f9226713b0d385cacd924cdd1db6',1,'MR::GUI::MRView::Tool::ShaderBase']]],
@@ -12,10 +16,14 @@ var searchData=
   ['global_5funcorrected_5fpvalue_5fcounter',['global_uncorrected_pvalue_counter',['../class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#ad14596811a729bc3d5e6c4b2ad0f735c',1,'MR::Stats::PermTest::Processor']]],
   ['global_5funcorrected_5fpvalue_5fcounter_5fneg',['global_uncorrected_pvalue_counter_neg',['../class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#a70731edf18409049c4f4f4db47a4a9e5',1,'MR::Stats::PermTest::Processor']]],
   ['global_5fvoxel_5fcount',['global_voxel_count',['../class_m_r_1_1_registration_1_1_metric_1_1_demons.html#af8f92a344fa689b48773c7437f547ac2',1,'MR::Registration::Metric::Demons::global_voxel_count()'],['../class_m_r_1_1_registration_1_1_metric_1_1_demons4_d.html#a95197377ab230c670b60c638e720a4e9',1,'MR::Registration::Metric::Demons4D::global_voxel_count()']]],
+  ['grad',['grad',['../class_m_r_1_1_filter_1_1_d_w_i_brain_mask.html#a2a6b2fbf82f17ce44241d63877965060',1,'MR::Filter::DWIBrainMask']]],
   ['grad_5ftolerance',['grad_tolerance',['../class_m_r_1_1_registration_1_1_linear.html#a0a3ab90df1cba0342974fe9a1179680f',1,'MR::Registration::Linear']]],
   ['gradient',['gradient',['../class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel.html#aa37ff02922b6aaeb372dc4e8e5b8a6be',1,'MR::Registration::Metric::ThreadKernel']]],
+  ['gradient1d',['gradient1D',['../class_m_r_1_1_adapter_1_1_jacobian.html#abfc482f7599168cc1421d8b83078cfca',1,'MR::Adapter::Jacobian']]],
   ['gradient_5fdescent_5fupdator',['gradient_descent_updator',['../class_m_r_1_1_registration_1_1_transform_1_1_affine.html#a769849970116b2c982cd182da42d4f60',1,'MR::Registration::Transform::Affine::gradient_descent_updator()'],['../class_m_r_1_1_registration_1_1_transform_1_1_rigid.html#a0a84c9a23eb934802c4cf2523ac68054',1,'MR::Registration::Transform::Rigid::gradient_descent_updator()']]],
   ['gradient_5fstep',['gradient_step',['../class_m_r_1_1_registration_1_1_non_linear.html#ad6e913e3946273f257094728f8fefeef',1,'MR::Registration::NonLinear']]],
   ['greaterthan',['greaterthan',['../struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_fixel_value.html#a8ea745b77c40b57395ac9d4bb2af773c',1,'MR::GUI::MRView::Tool::FixelValue']]],
-  ['grid',['grid',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle_grid.html#aa37768bb9cd668082ed0bb94d5cbfd6b',1,'MR::DWI::Tractography::GT::ParticleGrid']]]
+  ['grid',['grid',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle_grid.html#aa37768bb9cd668082ed0bb94d5cbfd6b',1,'MR::DWI::Tractography::GT::ParticleGrid']]],
+  ['group',['group',['../class_m_r_1_1_file_1_1_dicom_1_1_sequence.html#af689db7b408ce8aeb5df0014efbec8be',1,'MR::File::Dicom::Sequence::group()'],['../class_m_r_1_1_file_1_1_dicom_1_1_element.html#a87112ae58a5c73dbd1868228ae320388',1,'MR::File::Dicom::Element::group()']]],
+  ['gz',['gz',['../class_m_r_1_1_file_1_1_g_z.html#abd6fc408d208b328178ef90b72ed66a4',1,'MR::File::GZ']]]
 ];

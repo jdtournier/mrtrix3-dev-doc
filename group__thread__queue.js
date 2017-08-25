@@ -29,7 +29,7 @@ var group__thread__queue =
       [ "~Queue", "class_m_r_1_1_thread_1_1_queue.html#a10e77b98f99c23522a35614c421bee4e", null ],
       [ "status", "class_m_r_1_1_thread_1_1_queue.html#a295dac9bf8d8f56e6c5caf2e10a98358", null ]
     ] ],
-    [ "batch", "group__thread__queue.html#ga0f24ace83aae4402e171baeccad1860d", null ],
+    [ "batch", "group__thread__queue.html#ga0f607ce91002c91228d8d17709ad0d5e", null ],
     [ "run_queue", "group__thread__queue.html#gaad717471c1771f5e794d0d8907cc3efc", null ],
     [ "run_queue", "group__thread__queue.html#gafc6cce63581cb9be1e2e0c0910efb66b", null ],
     [ "run_queue", "group__thread__queue.html#ga1ccafaf26b4312b34de4da1ac0dfbf6f", null ]

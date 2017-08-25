@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['tck_5fstat_5ft',['tck_stat_t',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping.html#a3fa21a08c7f0bffb34976f520d129275',1,'MR::DWI::Tractography::Mapping']]],
-  ['term_5ft',['term_t',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#a1c30c67185585a9f27b5a581050292f5',1,'MR::DWI::Tractography::Tracking']]],
-  ['trackcolourtype',['TrackColourType',['../namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool.html#aaaad2794ce9a61c10224a1e448785ed7',1,'MR::GUI::MRView::Tool']]],
-  ['trackthresholdtype',['TrackThresholdType',['../namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool.html#aea5cc47ce98f43fef58488de9f7fd608',1,'MR::GUI::MRView::Tool']]]
+  ['splineprocessingtype',['SplineProcessingType',['../namespace_m_r_1_1_math.html#aee19b72e8be7c00a41f0173678f4f83f',1,'MR::Math']]],
+  ['stat_5fedge',['stat_edge',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome.html#a697f57b7cbae2343c2932d9cd0f04a14',1,'MR::DWI::Tractography::Connectome']]]
 ];

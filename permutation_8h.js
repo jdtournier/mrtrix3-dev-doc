@@ -1,8 +1,10 @@
 var permutation_8h =
 [
-    [ "value_type", "permutation_8h.html#a64c07d3e4463edda98755c2ceefa3103", null ],
-    [ "generate_permutations", "permutation_8h.html#af791b8b10d01b2857391f87cd77cfe73", null ],
-    [ "is_duplicate_permutation", "permutation_8h.html#aba9c2cc693aac5eceeddb024c1c3566e", null ],
-    [ "is_duplicate_vector", "permutation_8h.html#a8113e60234e1827697aa6aa8a4fb1228", null ],
-    [ "statistic2pvalue", "permutation_8h.html#a06da1514b9c72351816342c298c4510b", null ]
+    [ "value_type", "permutation_8h.html#a6e36810910f6550442993fe58705013b", null ],
+    [ "vector_type", "permutation_8h.html#a350f547331e99b77d86702c3f84a9d88", null ],
+    [ "generate", "permutation_8h.html#acfb7339326cbdfd9d9c7445c3e4b2436", null ],
+    [ "is_duplicate", "permutation_8h.html#a12ad422a62fa1d83e2a95e9292d28c54", null ],
+    [ "is_duplicate", "permutation_8h.html#a05f513512ef1fdc9cd01eb6db7e82f66", null ],
+    [ "load_permutations_file", "permutation_8h.html#a96bd2ba65b5478a73426f2fdf6944f36", null ],
+    [ "statistic2pvalue", "permutation_8h.html#af58d00d51437b4892e89a9d1e2e5c2ce", null ]
 ];

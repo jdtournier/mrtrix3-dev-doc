@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['statistics',['Statistics',['../group___statistics.html',1,'']]]
+  ['command_2dline_20parsing',['Command-Line Parsing',['../group___cmd_parse.html',1,'']]]
 ];

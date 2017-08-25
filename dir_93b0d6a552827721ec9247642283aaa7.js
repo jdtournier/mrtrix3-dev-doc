@@ -15,6 +15,6 @@ var dir_93b0d6a552827721ec9247642283aaa7 =
     [ "scalar.h", "scalar_8h.html", [
       [ "Scalar", "class_m_r_1_1_surface_1_1_scalar.html", null ]
     ] ],
-    [ "types.h", "surface_2types_8h.html", "surface_2types_8h" ],
-    [ "utils.h", "utils_8h.html", "utils_8h" ]
+    [ "types.h", "src_2surface_2types_8h.html", "src_2surface_2types_8h" ],
+    [ "utils.h", "src_2surface_2utils_8h.html", "src_2surface_2utils_8h" ]
 ];

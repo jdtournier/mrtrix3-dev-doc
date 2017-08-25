@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC2-22-gb30ad75c</div>
+   <div id="projectbrief">Version 3.0_RC2-24-gfc18ca90</div>
   </td>
  </tr>
  </tbody>
@@ -83,7 +83,8 @@ $(document).ready(function(){initNavTree('group___statistics.html','');});
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#typedef-members">Typedefs</a>  </div>
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">Statistics</div>  </div>
 </div><!--header-->
@@ -91,6 +92,8 @@ $(document).ready(function(){initNavTree('group___statistics.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_stats_1_1_g_l_m_t_test.html">MR::Math::Stats::GLMTTest</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_c_f_e_1_1connectivity.html">MR::Stats::CFE::connectivity</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_c_f_e_1_1_norm_matrix_element.html">MR::Stats::CFE::NormMatrixElement</a></td></tr>
@@ -104,10 +107,21 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:gaa347d72aedf45cdc22548dc466c25ea5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___statistics.html#gaa347d72aedf45cdc22548dc466c25ea5">MR::Stats::CFE::init_connectivity_matrix_type</a> = vector&lt; std::map&lt; <a class="el" href="namespace_m_r_1_1_stats_1_1_c_f_e.html#a48dc0442dfe758d826935ef2c3e028d2">index_type</a>, <a class="el" href="class_m_r_1_1_stats_1_1_c_f_e_1_1connectivity.html">connectivity</a> &gt; &gt;</td></tr>
+<tr class="memitem:gaa347d72aedf45cdc22548dc466c25ea5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___statistics.html#gaa347d72aedf45cdc22548dc466c25ea5">MR::Stats::CFE::init_connectivity_matrix_type</a> = <a class="el" href="class_m_r_1_1vector.html">vector</a>&lt; std::map&lt; <a class="el" href="namespace_m_r_1_1_stats_1_1_c_f_e.html#a48dc0442dfe758d826935ef2c3e028d2">index_type</a>, <a class="el" href="class_m_r_1_1_stats_1_1_c_f_e_1_1connectivity.html">connectivity</a> &gt; &gt;</td></tr>
 <tr class="separator:gaa347d72aedf45cdc22548dc466c25ea5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad01fd43ff15d42419f267906b44feeec"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___statistics.html#gad01fd43ff15d42419f267906b44feeec">MR::Stats::CFE::norm_connectivity_matrix_type</a> = vector&lt; vector&lt; <a class="el" href="class_m_r_1_1_stats_1_1_c_f_e_1_1_norm_matrix_element.html">NormMatrixElement</a> &gt; &gt;</td></tr>
+<tr class="memitem:gad01fd43ff15d42419f267906b44feeec"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___statistics.html#gad01fd43ff15d42419f267906b44feeec">MR::Stats::CFE::norm_connectivity_matrix_type</a> = <a class="el" href="class_m_r_1_1vector.html">vector</a>&lt; <a class="el" href="class_m_r_1_1vector.html">vector</a>&lt; <a class="el" href="class_m_r_1_1_stats_1_1_c_f_e_1_1_norm_matrix_element.html">NormMatrixElement</a> &gt; &gt;</td></tr>
 <tr class="separator:gad01fd43ff15d42419f267906b44feeec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ga845666d29619462609302b219953022c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___statistics.html#ga845666d29619462609302b219953022c">MR::Math::Stats::GLM::solve_betas</a> (const <a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a> &amp;measurements, const <a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a> &amp;design)</td></tr>
+<tr class="separator:ga845666d29619462609302b219953022c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa1423ce86ca3e337c908585889b3e608"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___statistics.html#gaa1423ce86ca3e337c908585889b3e608">MR::Math::Stats::GLM::abs_effect_size</a> (const <a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a> &amp;measurements, const <a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a> &amp;design, const <a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a> &amp;contrast)</td></tr>
+<tr class="separator:gaa1423ce86ca3e337c908585889b3e608"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabb3e9dfaf5d8beca09b08977a3a9eaa3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___statistics.html#gabb3e9dfaf5d8beca09b08977a3a9eaa3">MR::Math::Stats::GLM::stdev</a> (const <a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a> &amp;measurements, const <a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a> &amp;design)</td></tr>
+<tr class="separator:gabb3e9dfaf5d8beca09b08977a3a9eaa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabd2ec2a03b33239f336eb21a0834d6c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___statistics.html#gabd2ec2a03b33239f336eb21a0834d6c4">MR::Math::Stats::GLM::std_effect_size</a> (const <a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a> &amp;measurements, const <a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a> &amp;design, const <a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a> &amp;contrast)</td></tr>
+<tr class="separator:gabd2ec2a03b33239f336eb21a0834d6c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -118,7 +132,7 @@ Typedefs</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="group___statistics.html#gaa347d72aedf45cdc22548dc466c25ea5">MR::Stats::CFE::init_connectivity_matrix_type</a> = typedef vector&lt;std::map&lt;<a class="el" href="namespace_m_r_1_1_stats_1_1_c_f_e.html#a48dc0442dfe758d826935ef2c3e028d2">index_type</a>, <a class="el" href="class_m_r_1_1_stats_1_1_c_f_e_1_1connectivity.html">connectivity</a>&gt; &gt;</td>
+          <td class="memname">using <a class="el" href="group___statistics.html#gaa347d72aedf45cdc22548dc466c25ea5">MR::Stats::CFE::init_connectivity_matrix_type</a> = typedef <a class="el" href="class_m_r_1_1vector.html">vector</a>&lt;std::map&lt;<a class="el" href="namespace_m_r_1_1_stats_1_1_c_f_e.html#a48dc0442dfe758d826935ef2c3e028d2">index_type</a>, <a class="el" href="class_m_r_1_1_stats_1_1_c_f_e_1_1connectivity.html">connectivity</a>&gt; &gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -134,7 +148,7 @@ Typedefs</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="group___statistics.html#gad01fd43ff15d42419f267906b44feeec">MR::Stats::CFE::norm_connectivity_matrix_type</a> = typedef vector&lt;vector&lt;<a class="el" href="class_m_r_1_1_stats_1_1_c_f_e_1_1_norm_matrix_element.html">NormMatrixElement</a>&gt; &gt;</td>
+          <td class="memname">using <a class="el" href="group___statistics.html#gad01fd43ff15d42419f267906b44feeec">MR::Stats::CFE::norm_connectivity_matrix_type</a> = typedef <a class="el" href="class_m_r_1_1vector.html">vector</a>&lt;<a class="el" href="class_m_r_1_1vector.html">vector</a>&lt;<a class="el" href="class_m_r_1_1_stats_1_1_c_f_e_1_1_norm_matrix_element.html">NormMatrixElement</a>&gt; &gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -143,12 +157,171 @@ Typedefs</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="gaa1423ce86ca3e337c908585889b3e608"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa1423ce86ca3e337c908585889b3e608">&#9670;&nbsp;</a></span>abs_effect_size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a> MR::Math::Stats::GLM::abs_effect_size </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a> &amp;&#160;</td>
+          <td class="paramname"><em>measurements</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a> &amp;&#160;</td>
+          <td class="paramname"><em>design</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a> &amp;&#160;</td>
+          <td class="paramname"><em>contrast</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Compute the effect of interest </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">measurements</td><td>a matrix storing the measured data for each subject in a column </td></tr>
+    <tr><td class="paramname">design</td><td>the design matrix (unlike other packages a column of ones is NOT automatically added for correlation analysis) </td></tr>
+    <tr><td class="paramname">contrast</td><td>a matrix defining the group difference </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the matrix containing the output effect </dd></dl>
+
+</div>
+</div>
+<a id="ga845666d29619462609302b219953022c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga845666d29619462609302b219953022c">&#9670;&nbsp;</a></span>solve_betas()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a> MR::Math::Stats::GLM::solve_betas </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a> &amp;&#160;</td>
+          <td class="paramname"><em>measurements</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a> &amp;&#160;</td>
+          <td class="paramname"><em>design</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Compute a matrix of the beta coefficients </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">measurements</td><td>a matrix storing the measured data for each subject in a column </td></tr>
+    <tr><td class="paramname">design</td><td>the design matrix (unlike other packages a column of ones is NOT automatically added for correlation analysis) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the matrix containing the output effect </dd></dl>
+
+</div>
+</div>
+<a id="gabd2ec2a03b33239f336eb21a0834d6c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabd2ec2a03b33239f336eb21a0834d6c4">&#9670;&nbsp;</a></span>std_effect_size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a> MR::Math::Stats::GLM::std_effect_size </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a> &amp;&#160;</td>
+          <td class="paramname"><em>measurements</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a> &amp;&#160;</td>
+          <td class="paramname"><em>design</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a> &amp;&#160;</td>
+          <td class="paramname"><em>contrast</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Compute cohen's d, the standardised effect size between two means </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">measurements</td><td>a matrix storing the measured data for each subject in a column </td></tr>
+    <tr><td class="paramname">design</td><td>the design matrix (unlike other packages a column of ones is NOT automatically added for correlation analysis) </td></tr>
+    <tr><td class="paramname">contrast</td><td>a matrix defining the group difference </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the matrix containing the output standardised effect size </dd></dl>
+
+</div>
+</div>
+<a id="gabb3e9dfaf5d8beca09b08977a3a9eaa3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabb3e9dfaf5d8beca09b08977a3a9eaa3">&#9670;&nbsp;</a></span>stdev()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a> MR::Math::Stats::GLM::stdev </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a> &amp;&#160;</td>
+          <td class="paramname"><em>measurements</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">matrix_type</a> &amp;&#160;</td>
+          <td class="paramname"><em>design</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Compute the pooled standard deviation </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">measurements</td><td>a matrix storing the measured data for each subject in a column </td></tr>
+    <tr><td class="paramname">design</td><td>the design matrix (unlike other packages a column of ones is NOT automatically added for correlation analysis) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the matrix containing the output standard deviation size </dd></dl>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Aug 24 2017 14:00:52 for MRtrix by
+    <li class="footer">Generated on Fri Aug 25 2017 11:14:46 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

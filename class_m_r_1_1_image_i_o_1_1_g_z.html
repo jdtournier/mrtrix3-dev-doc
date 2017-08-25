@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-535-g21da6244</div>
+   <div id="projectbrief">Version 3.0_RC2-24-gfc18ca90</div>
   </td>
  </tr>
  </tbody>
@@ -106,10 +106,12 @@ Inheritance diagram for MR::ImageIO::GZ:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a2c50a508ff4daa77c7b0170921081902"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_image_i_o_1_1_g_z.html#a2c50a508ff4daa77c7b0170921081902">GZ</a> (<a class="el" href="class_m_r_1_1_image_i_o_1_1_g_z.html">GZ</a> &amp;&amp;)=default</td></tr>
 <tr class="separator:a2c50a508ff4daa77c7b0170921081902"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb6182dadaf3b6beb795e7b927be031f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_image_i_o_1_1_g_z.html#aeb6182dadaf3b6beb795e7b927be031f">GZ</a> (const <a class="el" href="class_m_r_1_1_header.html">Header</a> &amp;<a class="el" href="class_m_r_1_1_image_i_o_1_1_g_z.html#aa348672f6ea33335cc2106584d40ce12">header</a>, size_t file_header_size)</td></tr>
-<tr class="separator:aeb6182dadaf3b6beb795e7b927be031f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec6d7a33ef9333425371184acd609d5b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_image_i_o_1_1_g_z.html#aec6d7a33ef9333425371184acd609d5b">GZ</a> (const <a class="el" href="class_m_r_1_1_header.html">Header</a> &amp;<a class="el" href="class_m_r_1_1_image_i_o_1_1_g_z.html#aa348672f6ea33335cc2106584d40ce12">header</a>, size_t file_header_size, size_t file_tailer_size=0)</td></tr>
+<tr class="separator:aec6d7a33ef9333425371184acd609d5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa348672f6ea33335cc2106584d40ce12"><td class="memItemLeft" align="right" valign="top">uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_image_i_o_1_1_g_z.html#aa348672f6ea33335cc2106584d40ce12">header</a> ()</td></tr>
 <tr class="separator:aa348672f6ea33335cc2106584d40ce12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a659874b9c8a1fa7b3efc5017036300a6"><td class="memItemLeft" align="right" valign="top">uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_image_i_o_1_1_g_z.html#a659874b9c8a1fa7b3efc5017036300a6">tailer</a> ()</td></tr>
+<tr class="separator:a659874b9c8a1fa7b3efc5017036300a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_m_r_1_1_image_i_o_1_1_base"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_m_r_1_1_image_i_o_1_1_base')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_m_r_1_1_image_i_o_1_1_base.html">MR::ImageIO::Base</a></td></tr>
 <tr class="memitem:a5a36ba99398aa3c45024995c71648f8c inherit pub_methods_class_m_r_1_1_image_i_o_1_1_base"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_image_i_o_1_1_base.html#a5a36ba99398aa3c45024995c71648f8c">Base</a> (const <a class="el" href="class_m_r_1_1_header.html">Header</a> &amp;header)</td></tr>
 <tr class="separator:a5a36ba99398aa3c45024995c71648f8c inherit pub_methods_class_m_r_1_1_image_i_o_1_1_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -162,13 +164,17 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:ae06319aaa3329aa1b37dec77ede56b1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b4e55d99ec8dc6e97ec5adfe35f4a68"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_image_i_o_1_1_g_z.html#a2b4e55d99ec8dc6e97ec5adfe35f4a68">lead_in_size</a></td></tr>
 <tr class="separator:a2b4e55d99ec8dc6e97ec5adfe35f4a68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37dae06e042b1676feab1418de27cfa0"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_image_i_o_1_1_g_z.html#a37dae06e042b1676feab1418de27cfa0">lead_out_size</a></td></tr>
+<tr class="separator:a37dae06e042b1676feab1418de27cfa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84b903970c7dc017de42cdecf760d6ff"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; uint8_t[]&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_image_i_o_1_1_g_z.html#a84b903970c7dc017de42cdecf760d6ff">lead_in</a></td></tr>
 <tr class="separator:a84b903970c7dc017de42cdecf760d6ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53ac4b8bba789bf71400de7c14707e0b"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; uint8_t[]&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_image_i_o_1_1_g_z.html#a53ac4b8bba789bf71400de7c14707e0b">lead_out</a></td></tr>
+<tr class="separator:a53ac4b8bba789bf71400de7c14707e0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_m_r_1_1_image_i_o_1_1_base"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_m_r_1_1_image_i_o_1_1_base')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_m_r_1_1_image_i_o_1_1_base.html">MR::ImageIO::Base</a></td></tr>
 <tr class="memitem:a5f51942b1e948a16e2fa3176fff338c2 inherit pro_attribs_class_m_r_1_1_image_i_o_1_1_base"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_image_i_o_1_1_base.html#a5f51942b1e948a16e2fa3176fff338c2">segsize</a></td></tr>
 <tr class="separator:a5f51942b1e948a16e2fa3176fff338c2 inherit pro_attribs_class_m_r_1_1_image_i_o_1_1_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b3a169a2d58d31bf925e76d6240185e inherit pro_attribs_class_m_r_1_1_image_i_o_1_1_base"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::unique_ptr&lt; uint8_t[]&gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_image_i_o_1_1_base.html#a9b3a169a2d58d31bf925e76d6240185e">addresses</a></td></tr>
-<tr class="separator:a9b3a169a2d58d31bf925e76d6240185e inherit pro_attribs_class_m_r_1_1_image_i_o_1_1_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a045f5b498a4a682355012a761e22b9ef inherit pro_attribs_class_m_r_1_1_image_i_o_1_1_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_r_1_1vector.html">vector</a>&lt; std::unique_ptr&lt; uint8_t[]&gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_image_i_o_1_1_base.html#a045f5b498a4a682355012a761e22b9ef">addresses</a></td></tr>
+<tr class="separator:a045f5b498a4a682355012a761e22b9ef inherit pro_attribs_class_m_r_1_1_image_i_o_1_1_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a907fa4102d42387e435b14234113826c inherit pro_attribs_class_m_r_1_1_image_i_o_1_1_base"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_image_i_o_1_1_base.html#a907fa4102d42387e435b14234113826c">is_new</a></td></tr>
 <tr class="separator:a907fa4102d42387e435b14234113826c inherit pro_attribs_class_m_r_1_1_image_i_o_1_1_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0983be4e0c2b4e10dc0e0833314a182b inherit pro_attribs_class_m_r_1_1_image_i_o_1_1_base"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_image_i_o_1_1_base.html#a0983be4e0c2b4e10dc0e0833314a182b">writable</a></td></tr>
@@ -177,12 +183,12 @@ Protected Attributes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pub_attribs_class_m_r_1_1_image_i_o_1_1_base"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_m_r_1_1_image_i_o_1_1_base')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_m_r_1_1_image_i_o_1_1_base.html">MR::ImageIO::Base</a></td></tr>
-<tr class="memitem:a4a0159292a4aca692daec35ed3726e55 inherit pub_attribs_class_m_r_1_1_image_i_o_1_1_base"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_m_r_1_1_file_1_1_entry.html">File::Entry</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_image_i_o_1_1_base.html#a4a0159292a4aca692daec35ed3726e55">files</a></td></tr>
-<tr class="separator:a4a0159292a4aca692daec35ed3726e55 inherit pub_attribs_class_m_r_1_1_image_i_o_1_1_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a120f5e4db259d3e4a16a6119fdd82949 inherit pub_attribs_class_m_r_1_1_image_i_o_1_1_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_r_1_1vector.html">vector</a>&lt; <a class="el" href="class_m_r_1_1_file_1_1_entry.html">File::Entry</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_image_i_o_1_1_base.html#a120f5e4db259d3e4a16a6119fdd82949">files</a></td></tr>
+<tr class="separator:a120f5e4db259d3e4a16a6119fdd82949 inherit pub_attribs_class_m_r_1_1_image_i_o_1_1_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="image__io_2gz_8h_source.html#l00028">28</a> of file <a class="el" href="image__io_2gz_8h_source.html">gz.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="image__io_2gz_8h_source.html#l00027">27</a> of file <a class="el" href="image__io_2gz_8h_source.html">gz.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a2c50a508ff4daa77c7b0170921081902"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2c50a508ff4daa77c7b0170921081902">&#9670;&nbsp;</a></span>GZ() <span class="overload">[1/2]</span></h2>
@@ -210,8 +216,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="aeb6182dadaf3b6beb795e7b927be031f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeb6182dadaf3b6beb795e7b927be031f">&#9670;&nbsp;</a></span>GZ() <span class="overload">[2/2]</span></h2>
+<a id="aec6d7a33ef9333425371184acd609d5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec6d7a33ef9333425371184acd609d5b">&#9670;&nbsp;</a></span>GZ() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -229,7 +235,13 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>file_header_size</em>&#160;</td>
+          <td class="paramname"><em>file_header_size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>file_tailer_size</em> = <code>0</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -244,7 +256,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="image__io_2gz_8h_source.html#l00032">32</a> of file <a class="el" href="image__io_2gz_8h_source.html">gz.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="image__io_2gz_8h_source.html#l00031">31</a> of file <a class="el" href="image__io_2gz_8h_source.html">gz.h</a>.</p>
 
 </div>
 </div>
@@ -272,7 +284,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="image__io_2gz_8h_source.html#l00037">37</a> of file <a class="el" href="image__io_2gz_8h_source.html">gz.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="image__io_2gz_8h_source.html#l00038">38</a> of file <a class="el" href="image__io_2gz_8h_source.html">gz.h</a>.</p>
 
 </div>
 </div>
@@ -311,6 +323,33 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="class_m_r_1_1_image_i_o_1_1_base.html#ac1636657fd12ef42ebd5e3912230917a">MR::ImageIO::Base</a>.</p>
+
+</div>
+</div>
+<a id="a659874b9c8a1fa7b3efc5017036300a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a659874b9c8a1fa7b3efc5017036300a6">&#9670;&nbsp;</a></span>tailer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t* MR::ImageIO::GZ::tailer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="image__io_2gz_8h_source.html#l00042">42</a> of file <a class="el" href="image__io_2gz_8h_source.html">gz.h</a>.</p>
 
 </div>
 </div>
@@ -363,7 +402,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="image__io_2gz_8h_source.html#l00042">42</a> of file <a class="el" href="image__io_2gz_8h_source.html">gz.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="image__io_2gz_8h_source.html#l00047">47</a> of file <a class="el" href="image__io_2gz_8h_source.html">gz.h</a>.</p>
 
 </div>
 </div>
@@ -387,7 +426,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="image__io_2gz_8h_source.html#l00044">44</a> of file <a class="el" href="image__io_2gz_8h_source.html">gz.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="image__io_2gz_8h_source.html#l00049">49</a> of file <a class="el" href="image__io_2gz_8h_source.html">gz.h</a>.</p>
 
 </div>
 </div>
@@ -411,12 +450,60 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="image__io_2gz_8h_source.html#l00043">43</a> of file <a class="el" href="image__io_2gz_8h_source.html">gz.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="image__io_2gz_8h_source.html#l00048">48</a> of file <a class="el" href="image__io_2gz_8h_source.html">gz.h</a>.</p>
+
+</div>
+</div>
+<a id="a53ac4b8bba789bf71400de7c14707e0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53ac4b8bba789bf71400de7c14707e0b">&#9670;&nbsp;</a></span>lead_out</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt;uint8_t[]&gt; MR::ImageIO::GZ::lead_out</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="image__io_2gz_8h_source.html#l00049">49</a> of file <a class="el" href="image__io_2gz_8h_source.html">gz.h</a>.</p>
+
+</div>
+</div>
+<a id="a37dae06e042b1676feab1418de27cfa0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37dae06e042b1676feab1418de27cfa0">&#9670;&nbsp;</a></span>lead_out_size</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t MR::ImageIO::GZ::lead_out_size</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="image__io_2gz_8h_source.html#l00048">48</a> of file <a class="el" href="image__io_2gz_8h_source.html">gz.h</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>lib/image_io/<a class="el" href="image__io_2gz_8h_source.html">gz.h</a></li>
+<li>core/image_io/<a class="el" href="image__io_2gz_8h_source.html">gz.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -424,7 +511,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_image_i_o.html">ImageIO</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_image_i_o_1_1_g_z.html">GZ</a></li>
-    <li class="footer">Generated on Wed Apr 19 2017 09:26:45 for MRtrix by
+    <li class="footer">Generated on Fri Aug 25 2017 11:14:47 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

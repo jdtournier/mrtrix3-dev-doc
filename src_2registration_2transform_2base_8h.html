@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-535-g21da6244</div>
+   <div id="projectbrief">Version 3.0_RC2-24-gfc18ca90</div>
   </td>
  </tr>
  </tbody>
@@ -94,6 +94,8 @@ $(document).ready(function(){initNavTree('src_2registration_2transform_2base_8h.
 <code>#include &lt;Eigen/SVD&gt;</code><br />
 <code>#include &lt;Eigen/Geometry&gt;</code><br />
 <code>#include &quot;<a class="el" href="datatype_8h_source.html">datatype.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="config_8h_source.html">file/config.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="convergence__check_8h_source.html">registration/transform/convergence_check.h</a>&quot;</code><br />
 </div>
 <p><a href="src_2registration_2transform_2base_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -114,22 +116,22 @@ Namespaces</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ac77440da2d0622eb40f0909b20efb885"><td class="memTemplParams" colspan="2">template&lt;class ValueType &gt; </td></tr>
-<tr class="memitem:ac77440da2d0622eb40f0909b20efb885"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_transform.html#ac77440da2d0622eb40f0909b20efb885">MR::Registration::Transform::param_mat2vec</a> (const Eigen::Matrix&lt; ValueType, 3, 4, Eigen::RowMajor &gt; &amp;transformation_matrix, Eigen::Matrix&lt; ValueType, Eigen::Dynamic, 1 &gt; &amp;param_vector)</td></tr>
+<tr class="memitem:ac77440da2d0622eb40f0909b20efb885"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_transform.html#ac77440da2d0622eb40f0909b20efb885">MR::Registration::Transform::param_mat2vec</a> (const <a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt; ValueType, 3, 4, Eigen::RowMajor &gt; &amp;transformation_matrix, <a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt; ValueType, Eigen::Dynamic, 1 &gt; &amp;param_vector)</td></tr>
 <tr class="separator:ac77440da2d0622eb40f0909b20efb885"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae29cd09e027218a238e19eb2f2db11bc"><td class="memTemplParams" colspan="2">template&lt;class ValueType &gt; </td></tr>
-<tr class="memitem:ae29cd09e027218a238e19eb2f2db11bc"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_transform.html#ae29cd09e027218a238e19eb2f2db11bc">MR::Registration::Transform::param_mat2vec</a> (const Eigen::Matrix&lt; ValueType, 4, 4, Eigen::RowMajor &gt; &amp;transformation_matrix, Eigen::Matrix&lt; ValueType, Eigen::Dynamic, 1 &gt; &amp;param_vector)</td></tr>
+<tr class="memitem:ae29cd09e027218a238e19eb2f2db11bc"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_transform.html#ae29cd09e027218a238e19eb2f2db11bc">MR::Registration::Transform::param_mat2vec</a> (const <a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt; ValueType, 4, 4, Eigen::RowMajor &gt; &amp;transformation_matrix, <a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt; ValueType, Eigen::Dynamic, 1 &gt; &amp;param_vector)</td></tr>
 <tr class="separator:ae29cd09e027218a238e19eb2f2db11bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaee93d6581ffc4fd36cfc0fdb9cc2545"><td class="memTemplParams" colspan="2">template&lt;class ValueType &gt; </td></tr>
-<tr class="memitem:aaee93d6581ffc4fd36cfc0fdb9cc2545"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_transform.html#aaee93d6581ffc4fd36cfc0fdb9cc2545">MR::Registration::Transform::param_mat2vec</a> (const Eigen::Matrix&lt; ValueType, 3, 4, Eigen::ColMajor &gt; &amp;transformation_matrix, Eigen::Matrix&lt; ValueType, Eigen::Dynamic, 1 &gt; &amp;param_vector)</td></tr>
+<tr class="memitem:aaee93d6581ffc4fd36cfc0fdb9cc2545"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_transform.html#aaee93d6581ffc4fd36cfc0fdb9cc2545">MR::Registration::Transform::param_mat2vec</a> (const <a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt; ValueType, 3, 4, Eigen::ColMajor &gt; &amp;transformation_matrix, <a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt; ValueType, Eigen::Dynamic, 1 &gt; &amp;param_vector)</td></tr>
 <tr class="separator:aaee93d6581ffc4fd36cfc0fdb9cc2545"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0db35598e39bc05699596d9e9a1c7df"><td class="memTemplParams" colspan="2">template&lt;class ValueType &gt; </td></tr>
-<tr class="memitem:af0db35598e39bc05699596d9e9a1c7df"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_transform.html#af0db35598e39bc05699596d9e9a1c7df">MR::Registration::Transform::param_mat2vec</a> (const Eigen::Matrix&lt; ValueType, 4, 4, Eigen::ColMajor &gt; &amp;transformation_matrix, Eigen::Matrix&lt; ValueType, Eigen::Dynamic, 1 &gt; &amp;param_vector)</td></tr>
+<tr class="memitem:af0db35598e39bc05699596d9e9a1c7df"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_transform.html#af0db35598e39bc05699596d9e9a1c7df">MR::Registration::Transform::param_mat2vec</a> (const <a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt; ValueType, 4, 4, Eigen::ColMajor &gt; &amp;transformation_matrix, <a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt; ValueType, Eigen::Dynamic, 1 &gt; &amp;param_vector)</td></tr>
 <tr class="separator:af0db35598e39bc05699596d9e9a1c7df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f294d55a70740b95eef9b2092ac07b5"><td class="memTemplParams" colspan="2">template&lt;class Derived , class ValueType &gt; </td></tr>
-<tr class="memitem:a5f294d55a70740b95eef9b2092ac07b5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_transform.html#a5f294d55a70740b95eef9b2092ac07b5">MR::Registration::Transform::param_vec2mat</a> (const Eigen::MatrixBase&lt; Derived &gt; &amp;param_vector, Eigen::Matrix&lt; ValueType, 3, 4 &gt; &amp;transformation_matrix)</td></tr>
+<tr class="memitem:a5f294d55a70740b95eef9b2092ac07b5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_transform.html#a5f294d55a70740b95eef9b2092ac07b5">MR::Registration::Transform::param_vec2mat</a> (const Eigen::MatrixBase&lt; Derived &gt; &amp;param_vector, <a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt; ValueType, 3, 4 &gt; &amp;transformation_matrix)</td></tr>
 <tr class="separator:a5f294d55a70740b95eef9b2092ac07b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53d596e1e7da282a007104262fed51fa"><td class="memTemplParams" colspan="2">template&lt;class Derived , class ValueType &gt; </td></tr>
-<tr class="memitem:a53d596e1e7da282a007104262fed51fa"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_transform.html#a53d596e1e7da282a007104262fed51fa">MR::Registration::Transform::param_vec2mat</a> (const Eigen::MatrixBase&lt; Derived &gt; &amp;param_vector, Eigen::Matrix&lt; ValueType, 4, 4 &gt; &amp;transformation_matrix)</td></tr>
+<tr class="memitem:a53d596e1e7da282a007104262fed51fa"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_transform.html#a53d596e1e7da282a007104262fed51fa">MR::Registration::Transform::param_vec2mat</a> (const Eigen::MatrixBase&lt; Derived &gt; &amp;param_vector, <a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt; ValueType, 4, 4 &gt; &amp;transformation_matrix)</td></tr>
 <tr class="separator:a53d596e1e7da282a007104262fed51fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
@@ -138,7 +140,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_2809abdae02e13f948aa32ba36e8b7d2.html">registration</a></li><li class="navelem"><a class="el" href="dir_c46313a679aed6c8a03f3be8eae3909f.html">transform</a></li><li class="navelem"><a class="el" href="src_2registration_2transform_2base_8h.html">base.h</a></li>
-    <li class="footer">Generated on Wed Apr 19 2017 09:26:43 for MRtrix by
+    <li class="footer">Generated on Fri Aug 25 2017 11:14:45 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

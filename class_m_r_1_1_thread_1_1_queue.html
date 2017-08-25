@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-535-g21da6244</div>
+   <div id="projectbrief">Version 3.0_RC2-24-gfc18ca90</div>
   </td>
  </tr>
  </tbody>
@@ -136,8 +136,8 @@ Usage overview</h1>
 <li>create an instance of <a class="el" href="class_m_r_1_1_thread_1_1_queue_1_1_writer_1_1_item.html" title="This class is used to write items to the queue. ">Thread::Queue::Writer::Item</a>, constructed from the corresponding <a class="el" href="class_m_r_1_1_thread_1_1_queue_1_1_writer.html" title="This class is used to register a writer with the queue. ">Thread::Queue::Writer</a>;</li>
 <li>perform processing in a loop:<ul>
 <li>prepare the item using pointer semantics (i.e. *item or item-&gt;method());</li>
-<li>use the <a class="el" href="namespace_m_r_1_1_file_1_1_n_if_t_i.html#a7baba9bcf6c7ba6862fdaefebdd2ae43">write()</a> method of this class to write to the queue;</li>
-<li>break out of loop if <a class="el" href="namespace_m_r_1_1_file_1_1_n_if_t_i.html#a7baba9bcf6c7ba6862fdaefebdd2ae43">write()</a> returns <code>false</code>.</li>
+<li>use the <a class="el" href="namespace_m_r_1_1_file_1_1_n_if_t_i1.html#a0b1b9bf3b88c0c40db048189039f3a84">write()</a> method of this class to write to the queue;</li>
+<li>break out of loop if <a class="el" href="namespace_m_r_1_1_file_1_1_n_if_t_i1.html#a0b1b9bf3b88c0c40db048189039f3a84">write()</a> returns <code>false</code>.</li>
 </ul>
 </li>
 <li>when the execute() method returns, the destructor of the <a class="el" href="class_m_r_1_1_thread_1_1_queue_1_1_writer_1_1_item.html" title="This class is used to write items to the queue. ">Thread::Queue::Writer::Item</a> class will notify the queue that its thread has finished writing to the queue.</li>
@@ -146,8 +146,8 @@ Usage overview</h1>
 <li>Within the execute() method of each thread with a <a class="el" href="class_m_r_1_1_thread_1_1_queue_1_1_reader.html" title="This class is used to register a reader with the queue. ">Thread::Queue::Reader</a>:<ul>
 <li>create an instance of <a class="el" href="class_m_r_1_1_thread_1_1_queue_1_1_reader_1_1_item.html" title="This class is used to read items from the queue. ">Thread::Queue::Reader::Item</a>, constructed from the corresponding <a class="el" href="class_m_r_1_1_thread_1_1_queue_1_1_reader.html" title="This class is used to register a reader with the queue. ">Thread::Queue::Reader</a>;</li>
 <li>perform processing in a loop:<ul>
-<li>use the <a class="el" href="namespace_m_r_1_1_file_1_1_n_if_t_i.html#ae84f21fee29017e69c5f5d9a8bea704e">read()</a> method of this class to read the next item from the queue;</li>
-<li>break out of the loop if <a class="el" href="namespace_m_r_1_1_file_1_1_n_if_t_i.html#ae84f21fee29017e69c5f5d9a8bea704e">read()</a> returns <code>false</code>;</li>
+<li>use the <a class="el" href="namespace_m_r_1_1_file_1_1_n_if_t_i1.html#a6b3d2279acf7495464c4dcc0f34dcffd">read()</a> method of this class to read the next item from the queue;</li>
+<li>break out of the loop if <a class="el" href="namespace_m_r_1_1_file_1_1_n_if_t_i1.html#a6b3d2279acf7495464c4dcc0f34dcffd">read()</a> returns <code>false</code>;</li>
 <li>process the item using pointer semantics (i.e. *item or item-&gt;method()).</li>
 </ul>
 </li>
@@ -178,7 +178,7 @@ Rationale for the Writer, Reader, and Item member classes</h1>
 <p>The Item classes additionally simplify the memory management of the items in the queue, by preventing direct access to the underlying pointers, and ensuring the <a class="el" href="class_m_r_1_1_thread_1_1_queue.html" title="A first-in first-out thread-safe item queue. ">Queue</a> itself is responsible for all allocation and deallocation of items as needed.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="group__thread__queue.html#gaad717471c1771f5e794d0d8907cc3efc" title="convenience function to set up and run a 2-stage multi-threaded pipeline. ">Thread::run_queue()</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00351">351</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00347">347</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aba4475ce84874c2591ef62f6300e0577"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aba4475ce84874c2591ef62f6300e0577">&#9670;&nbsp;</a></span>Queue() <span class="overload">[1/2]</span></h2>
@@ -225,7 +225,7 @@ template&lt;class T&gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00362">362</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00357">357</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
 
 </div>
 </div>
@@ -273,7 +273,7 @@ template&lt;class T&gt; </div>
 
 <p>needed for <a class="el" href="group__thread__queue.html#gaad717471c1771f5e794d0d8907cc3efc" title="convenience function to set up and run a 2-stage multi-threaded pipeline. ">Thread::run_queue()</a> </p>
 
-<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00374">374</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00369">369</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
 
 </div>
 </div>
@@ -302,7 +302,7 @@ template&lt;class T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00386">386</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00381">381</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
 
 </div>
 </div>
@@ -334,12 +334,12 @@ template&lt;class T&gt; </div>
 
 <p>Print out a status report for debugging purposes. </p>
 
-<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00526">526</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00517">517</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>lib/<a class="el" href="thread__queue_8h_source.html">thread_queue.h</a></li>
+<li>core/<a class="el" href="thread__queue_8h_source.html">thread_queue.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -347,7 +347,7 @@ template&lt;class T&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_thread.html">Thread</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_thread_1_1_queue.html">Queue</a></li>
-    <li class="footer">Generated on Wed Apr 19 2017 09:26:46 for MRtrix by
+    <li class="footer">Generated on Fri Aug 25 2017 11:14:47 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

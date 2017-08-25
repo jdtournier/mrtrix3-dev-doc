@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-535-g21da6244</div>
+   <div id="projectbrief">Version 3.0_RC2-24-gfc18ca90</div>
   </td>
  </tr>
  </tbody>
@@ -93,6 +93,7 @@ $(document).ready(function(){initNavTree('src_2dwi_2gradient_8h.html','');});
 <code>#include &quot;<a class="el" href="path_8h_source.html">file/path.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="config_8h_source.html">file/config.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="header_8h_source.html">header.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="core_2math_2sphere_8h_source.html">math/sphere.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="_s_h_8h_source.html">math/SH.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="shells_8h_source.html">dwi/shells.h</a>&quot;</code><br />
 </div>
@@ -141,6 +142,13 @@ Functions</h2></td></tr>
 <tr class="memitem:a3d1753b9a40cfffa51960c8429031266"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i.html#a3d1753b9a40cfffa51960c8429031266">MR::DWI::parse_DW_scheme</a> (const Header &amp;header)</td></tr>
 <tr class="memdesc:a3d1753b9a40cfffa51960c8429031266"><td class="mdescLeft">&#160;</td><td class="mdescRight">parse the DW gradient encoding matrix from a header  <a href="namespace_m_r_1_1_d_w_i.html#a3d1753b9a40cfffa51960c8429031266">More...</a><br /></td></tr>
 <tr class="separator:a3d1753b9a40cfffa51960c8429031266"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05ba5f46bd1c97b2a899b688300cddba"><td class="memTemplParams" colspan="2">template&lt;class MatrixType &gt; </td></tr>
+<tr class="memitem:a05ba5f46bd1c97b2a899b688300cddba"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i.html#a05ba5f46bd1c97b2a899b688300cddba">MR::DWI::stash_DW_scheme</a> (Header &amp;header, const MatrixType &amp;grad)</td></tr>
+<tr class="memdesc:a05ba5f46bd1c97b2a899b688300cddba"><td class="mdescLeft">&#160;</td><td class="mdescRight">'stash' the DW gradient table  <a href="namespace_m_r_1_1_d_w_i.html#a05ba5f46bd1c97b2a899b688300cddba">More...</a><br /></td></tr>
+<tr class="separator:a05ba5f46bd1c97b2a899b688300cddba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae117dd90bf286df96d693fdf91c6d645"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i.html#ae117dd90bf286df96d693fdf91c6d645">MR::DWI::clear_DW_scheme</a> (Header &amp;)</td></tr>
+<tr class="memdesc:ae117dd90bf286df96d693fdf91c6d645"><td class="mdescLeft">&#160;</td><td class="mdescRight">clear any DW gradient encoding scheme from the header  <a href="namespace_m_r_1_1_d_w_i.html#ae117dd90bf286df96d693fdf91c6d645">More...</a><br /></td></tr>
+<tr class="separator:ae117dd90bf286df96d693fdf91c6d645"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0aea8cd6b152634a184fe4b969e9d9a"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i.html#aa0aea8cd6b152634a184fe4b969e9d9a">MR::DWI::get_DW_scheme</a> (const Header &amp;header)</td></tr>
 <tr class="memdesc:aa0aea8cd6b152634a184fe4b969e9d9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the DW gradient encoding matrix  <a href="namespace_m_r_1_1_d_w_i.html#aa0aea8cd6b152634a184fe4b969e9d9a">More...</a><br /></td></tr>
 <tr class="separator:aa0aea8cd6b152634a184fe4b969e9d9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -151,6 +159,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a2a11f8c1cbb86aaf5cdd543c7475fecb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i.html#a2a11f8c1cbb86aaf5cdd543c7475fecb">MR::DWI::export_grad_commandline</a> (const Header &amp;header)</td></tr>
 <tr class="memdesc:a2a11f8c1cbb86aaf5cdd543c7475fecb"><td class="mdescLeft">&#160;</td><td class="mdescRight">process GradExportOptions command-line options  <a href="namespace_m_r_1_1_d_w_i.html#a2a11f8c1cbb86aaf5cdd543c7475fecb">More...</a><br /></td></tr>
 <tr class="separator:a2a11f8c1cbb86aaf5cdd543c7475fecb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ea9d38013f04c4ac2153ad9b6dd29e2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i.html#a7ea9d38013f04c4ac2153ad9b6dd29e2">MR::DWI::validate_DW_scheme</a> (Eigen::MatrixXd &amp;grad, const Header &amp;header, bool nofail=false)</td></tr>
+<tr class="memdesc:a7ea9d38013f04c4ac2153ad9b6dd29e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">validate the DW encoding matrix <em>grad</em> and check that it matches the DW header in <em>header</em>  <a href="namespace_m_r_1_1_d_w_i.html#a7ea9d38013f04c4ac2153ad9b6dd29e2">More...</a><br /></td></tr>
+<tr class="separator:a7ea9d38013f04c4ac2153ad9b6dd29e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ab90e27c863a6d7e6960a8987703301"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i.html#a9ab90e27c863a6d7e6960a8987703301">MR::DWI::get_valid_DW_scheme</a> (const Header &amp;header, bool nofail=false)</td></tr>
 <tr class="memdesc:a9ab90e27c863a6d7e6960a8987703301"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the DW encoding matrix as per <a class="el" href="namespace_m_r_1_1_d_w_i.html#aa0aea8cd6b152634a184fe4b969e9d9a" title="get the DW gradient encoding matrix ">get_DW_scheme()</a>, and check that it matches the DW header in <em>header</em>  <a href="namespace_m_r_1_1_d_w_i.html#a9ab90e27c863a6d7e6960a8987703301">More...</a><br /></td></tr>
 <tr class="separator:a9ab90e27c863a6d7e6960a8987703301"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -168,7 +179,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_6da8e6f1bfdb5540a85bd819d2a13962.html">dwi</a></li><li class="navelem"><a class="el" href="src_2dwi_2gradient_8h.html">gradient.h</a></li>
-    <li class="footer">Generated on Wed Apr 19 2017 09:26:43 for MRtrix by
+    <li class="footer">Generated on Fri Aug 25 2017 11:14:45 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

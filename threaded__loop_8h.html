@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
-<title>MRtrix: lib/algo/threaded_loop.h File Reference</title>
+<title>MRtrix: core/algo/threaded_loop.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-535-g21da6244</div>
+   <div id="projectbrief">Version 3.0_RC2-24-gfc18ca90</div>
   </td>
  </tr>
  </tbody>
@@ -89,7 +89,7 @@ $(document).ready(function(){initNavTree('threaded__loop_8h.html','');});
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="debug_8h_source.html">debug.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="loop_8h_source.html">algo/loop.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="algo_2loop_8h_source.html">algo/loop.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="iterator_8h_source.html">algo/iterator.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="thread_8h_source.html">thread.h</a>&quot;</code><br />
 </div>
@@ -102,38 +102,38 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aabd8f92107cecfc3c11490e5630283e0"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
-<tr class="memitem:aabd8f92107cecfc3c11490e5630283e0"><td class="memTemplItemLeft" align="right" valign="top">ThreadedLoopRunOuter&lt; decltype(Loop(std::vector&lt; size_t &gt;)))&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#aabd8f92107cecfc3c11490e5630283e0">MR::ThreadedLoop</a> (const HeaderType &amp;source, const std::vector&lt; size_t &gt; &amp;outer_axes, const std::vector&lt; size_t &gt; &amp;inner_axes)</td></tr>
-<tr class="memdesc:aabd8f92107cecfc3c11490e5630283e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multi-threaded loop object.  <a href="namespace_m_r.html#aabd8f92107cecfc3c11490e5630283e0">More...</a><br /></td></tr>
-<tr class="separator:aabd8f92107cecfc3c11490e5630283e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2be46056dfcc1577cb62fa8ab3993341"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
-<tr class="memitem:a2be46056dfcc1577cb62fa8ab3993341"><td class="memTemplItemLeft" align="right" valign="top">ThreadedLoopRunOuter&lt; decltype(Loop(std::vector&lt; size_t &gt;)))&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a2be46056dfcc1577cb62fa8ab3993341">MR::ThreadedLoop</a> (const HeaderType &amp;source, const std::vector&lt; size_t &gt; &amp;axes, size_t num_inner_axes=1)</td></tr>
-<tr class="memdesc:a2be46056dfcc1577cb62fa8ab3993341"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multi-threaded loop object.  <a href="namespace_m_r.html#a2be46056dfcc1577cb62fa8ab3993341">More...</a><br /></td></tr>
-<tr class="separator:a2be46056dfcc1577cb62fa8ab3993341"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85794d3439789d9f44afa1c3140f5747"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
-<tr class="memitem:a85794d3439789d9f44afa1c3140f5747"><td class="memTemplItemLeft" align="right" valign="top">ThreadedLoopRunOuter&lt; decltype(Loop(std::vector&lt; size_t &gt;)))&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a85794d3439789d9f44afa1c3140f5747">MR::ThreadedLoop</a> (const HeaderType &amp;source, size_t from_axis=0, size_t to_axis=std::numeric_limits&lt; size_t &gt;::max(), size_t num_inner_axes=1)</td></tr>
-<tr class="memdesc:a85794d3439789d9f44afa1c3140f5747"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multi-threaded loop object.  <a href="namespace_m_r.html#a85794d3439789d9f44afa1c3140f5747">More...</a><br /></td></tr>
-<tr class="separator:a85794d3439789d9f44afa1c3140f5747"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d494554f8a055216aa4045abf11da41"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
-<tr class="memitem:a2d494554f8a055216aa4045abf11da41"><td class="memTemplItemLeft" align="right" valign="top">ThreadedLoopRunOuter&lt; decltype(Loop(&quot;&quot;, std::vector&lt; size_t &gt;)))&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a2d494554f8a055216aa4045abf11da41">MR::ThreadedLoop</a> (const std::string &amp;progress_message, const HeaderType &amp;source, const std::vector&lt; size_t &gt; &amp;outer_axes, const std::vector&lt; size_t &gt; &amp;inner_axes)</td></tr>
-<tr class="memdesc:a2d494554f8a055216aa4045abf11da41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multi-threaded loop object.  <a href="namespace_m_r.html#a2d494554f8a055216aa4045abf11da41">More...</a><br /></td></tr>
-<tr class="separator:a2d494554f8a055216aa4045abf11da41"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad98ca1694ab37158ccd3c2a2d6562865"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
-<tr class="memitem:ad98ca1694ab37158ccd3c2a2d6562865"><td class="memTemplItemLeft" align="right" valign="top">ThreadedLoopRunOuter&lt; decltype(Loop(&quot;&quot;, std::vector&lt; size_t &gt;)))&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#ad98ca1694ab37158ccd3c2a2d6562865">MR::ThreadedLoop</a> (const std::string &amp;progress_message, const HeaderType &amp;source, const std::vector&lt; size_t &gt; &amp;axes, size_t num_inner_axes=1)</td></tr>
-<tr class="memdesc:ad98ca1694ab37158ccd3c2a2d6562865"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multi-threaded loop object.  <a href="namespace_m_r.html#ad98ca1694ab37158ccd3c2a2d6562865">More...</a><br /></td></tr>
-<tr class="separator:ad98ca1694ab37158ccd3c2a2d6562865"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d369bd78659f693b9a830fc8929bdbf"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
-<tr class="memitem:a2d369bd78659f693b9a830fc8929bdbf"><td class="memTemplItemLeft" align="right" valign="top">ThreadedLoopRunOuter&lt; decltype(Loop(&quot;&quot;, std::vector&lt; size_t &gt;)))&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a2d369bd78659f693b9a830fc8929bdbf">MR::ThreadedLoop</a> (const std::string &amp;progress_message, const HeaderType &amp;source, size_t from_axis=0, size_t to_axis=std::numeric_limits&lt; size_t &gt;::max(), size_t num_inner_axes=1)</td></tr>
-<tr class="memdesc:a2d369bd78659f693b9a830fc8929bdbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multi-threaded loop object.  <a href="namespace_m_r.html#a2d369bd78659f693b9a830fc8929bdbf">More...</a><br /></td></tr>
-<tr class="separator:a2d369bd78659f693b9a830fc8929bdbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a883ba9c9e266f971e692c688c0daa0b7"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
+<tr class="memitem:a883ba9c9e266f971e692c688c0daa0b7"><td class="memTemplItemLeft" align="right" valign="top">ThreadedLoopRunOuter&lt; decltype(Loop(vector&lt; size_t &gt;)))&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a883ba9c9e266f971e692c688c0daa0b7">MR::ThreadedLoop</a> (const HeaderType &amp;source, const vector&lt; size_t &gt; &amp;outer_axes, const vector&lt; size_t &gt; &amp;inner_axes)</td></tr>
+<tr class="memdesc:a883ba9c9e266f971e692c688c0daa0b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multi-threaded loop object.  <a href="namespace_m_r.html#a883ba9c9e266f971e692c688c0daa0b7">More...</a><br /></td></tr>
+<tr class="separator:a883ba9c9e266f971e692c688c0daa0b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ccd947a9dc64e58b480cb543f81f7e5"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
+<tr class="memitem:a1ccd947a9dc64e58b480cb543f81f7e5"><td class="memTemplItemLeft" align="right" valign="top">ThreadedLoopRunOuter&lt; decltype(Loop(vector&lt; size_t &gt;)))&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a1ccd947a9dc64e58b480cb543f81f7e5">MR::ThreadedLoop</a> (const HeaderType &amp;source, const vector&lt; size_t &gt; &amp;axes, size_t num_inner_axes=1)</td></tr>
+<tr class="memdesc:a1ccd947a9dc64e58b480cb543f81f7e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multi-threaded loop object.  <a href="namespace_m_r.html#a1ccd947a9dc64e58b480cb543f81f7e5">More...</a><br /></td></tr>
+<tr class="separator:a1ccd947a9dc64e58b480cb543f81f7e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a954da683a1d0407ea8551cd375c22bd2"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
+<tr class="memitem:a954da683a1d0407ea8551cd375c22bd2"><td class="memTemplItemLeft" align="right" valign="top">ThreadedLoopRunOuter&lt; decltype(Loop(vector&lt; size_t &gt;)))&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a954da683a1d0407ea8551cd375c22bd2">MR::ThreadedLoop</a> (const HeaderType &amp;source, size_t from_axis=0, size_t to_axis=std::numeric_limits&lt; size_t &gt;::max(), size_t num_inner_axes=1)</td></tr>
+<tr class="memdesc:a954da683a1d0407ea8551cd375c22bd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multi-threaded loop object.  <a href="namespace_m_r.html#a954da683a1d0407ea8551cd375c22bd2">More...</a><br /></td></tr>
+<tr class="separator:a954da683a1d0407ea8551cd375c22bd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a440f5efd403a6a4adb19eb0262db1619"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
+<tr class="memitem:a440f5efd403a6a4adb19eb0262db1619"><td class="memTemplItemLeft" align="right" valign="top">ThreadedLoopRunOuter&lt; decltype(Loop(&quot;&quot;, vector&lt; size_t &gt;)))&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a440f5efd403a6a4adb19eb0262db1619">MR::ThreadedLoop</a> (const std::string &amp;progress_message, const HeaderType &amp;source, const vector&lt; size_t &gt; &amp;outer_axes, const vector&lt; size_t &gt; &amp;inner_axes)</td></tr>
+<tr class="memdesc:a440f5efd403a6a4adb19eb0262db1619"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multi-threaded loop object.  <a href="namespace_m_r.html#a440f5efd403a6a4adb19eb0262db1619">More...</a><br /></td></tr>
+<tr class="separator:a440f5efd403a6a4adb19eb0262db1619"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c9cddc24998e25155fe928ecd71d15a"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
+<tr class="memitem:a0c9cddc24998e25155fe928ecd71d15a"><td class="memTemplItemLeft" align="right" valign="top">ThreadedLoopRunOuter&lt; decltype(Loop(&quot;&quot;, vector&lt; size_t &gt;)))&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a0c9cddc24998e25155fe928ecd71d15a">MR::ThreadedLoop</a> (const std::string &amp;progress_message, const HeaderType &amp;source, const vector&lt; size_t &gt; &amp;axes, size_t num_inner_axes=1)</td></tr>
+<tr class="memdesc:a0c9cddc24998e25155fe928ecd71d15a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multi-threaded loop object.  <a href="namespace_m_r.html#a0c9cddc24998e25155fe928ecd71d15a">More...</a><br /></td></tr>
+<tr class="separator:a0c9cddc24998e25155fe928ecd71d15a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a500d40a6d4939f0e5084e695f7a13519"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
+<tr class="memitem:a500d40a6d4939f0e5084e695f7a13519"><td class="memTemplItemLeft" align="right" valign="top">ThreadedLoopRunOuter&lt; decltype(Loop(&quot;&quot;, vector&lt; size_t &gt;)))&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a500d40a6d4939f0e5084e695f7a13519">MR::ThreadedLoop</a> (const std::string &amp;progress_message, const HeaderType &amp;source, size_t from_axis=0, size_t to_axis=std::numeric_limits&lt; size_t &gt;::max(), size_t num_inner_axes=1)</td></tr>
+<tr class="memdesc:a500d40a6d4939f0e5084e695f7a13519"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multi-threaded loop object.  <a href="namespace_m_r.html#a500d40a6d4939f0e5084e695f7a13519">More...</a><br /></td></tr>
+<tr class="separator:a500d40a6d4939f0e5084e695f7a13519"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_7c0873e6b80b34380e48b0b11ab08777.html">algo</a></li><li class="navelem"><a class="el" href="threaded__loop_8h.html">threaded_loop.h</a></li>
-    <li class="footer">Generated on Wed Apr 19 2017 09:26:43 for MRtrix by
+    <li class="navelem"><a class="el" href="dir_4270bfced15e0e73154b13468c7c9ad9.html">core</a></li><li class="navelem"><a class="el" href="dir_2220cedab4ecc4510f0c7ae8221004de.html">algo</a></li><li class="navelem"><a class="el" href="threaded__loop_8h.html">threaded_loop.h</a></li>
+    <li class="footer">Generated on Fri Aug 25 2017 11:14:45 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

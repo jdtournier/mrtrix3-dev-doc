@@ -1,23 +1,5 @@
 var src_2gui_2mrview_2tool_2connectome_2types_8h =
 [
-    [ "container_cast", "struct_m_r_1_1container__cast.html", "struct_m_r_1_1container__cast" ],
-    [ "is_complex", "struct_m_r_1_1is__complex.html", null ],
-    [ "is_complex< std::complex< ValueType > >", "struct_m_r_1_1is__complex_3_01std_1_1complex_3_01_value_type_01_4_01_4.html", null ],
-    [ "is_data_type", "struct_m_r_1_1is__data__type.html", null ],
-    [ "EIGEN_DONT_PARALLELIZE", "src_2gui_2mrview_2tool_2connectome_2types_8h.html#a78868c5bb48a430b0cf4247122dbc73b", null ],
-    [ "FORCE_INLINE", "src_2gui_2mrview_2tool_2connectome_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18", null ],
-    [ "NON_POD_VLA", "group___v_l_a.html#gafdeb6bac959b6c3716e6ea242e5bfd8c", null ],
-    [ "NON_POD_VLA_MAX", "group___v_l_a.html#gac4b223848b0e85a7cc733ae8261181cd", null ],
-    [ "VLA", "group___v_l_a.html#ga587ba4d66cf53e7de57f71997aaa1993", null ],
-    [ "VLA_MAX", "group___v_l_a.html#ga5b4337ca14d00af715a3548de3d9bb84", null ],
-    [ "cdouble", "src_2gui_2mrview_2tool_2connectome_2types_8h.html#a2715900485a01c915556cb5ca99f3c59", null ],
-    [ "cfloat", "src_2gui_2mrview_2tool_2connectome_2types_8h.html#a0c123defab6b50885bedeb0456127832", null ],
-    [ "default_type", "src_2gui_2mrview_2tool_2connectome_2types_8h.html#a43bad69d4b870a61e1d93cd69b7b1270", null ],
-    [ "float32", "src_2gui_2mrview_2tool_2connectome_2types_8h.html#af3c1623b01659ffb17b94e23a2b782e2", null ],
-    [ "float64", "src_2gui_2mrview_2tool_2connectome_2types_8h.html#a5d3cd396aa9801b956008649607b663d", null ],
-    [ "transform_type", "src_2gui_2mrview_2tool_2connectome_2types_8h.html#a8445ea7a4001a6e8532def9abb86d59e", null ],
-    [ "Vector3", "src_2gui_2mrview_2tool_2connectome_2types_8h.html#ae545bc6107a8da3311337658493fe51b", null ],
-    [ "Vector4", "src_2gui_2mrview_2tool_2connectome_2types_8h.html#a06fe322f6d7fd9b06c2fda85f15b369b", null ],
     [ "edge_alpha_t", "src_2gui_2mrview_2tool_2connectome_2types_8h.html#a8820b8f4668e3b1b8bdaf2bb01fb3463", [
       [ "FIXED", "src_2gui_2mrview_2tool_2connectome_2types_8h.html#a8820b8f4668e3b1b8bdaf2bb01fb3463ac6e6dc18b53b4c2681394b9d8aefcec7", null ],
       [ "CONNECTOME", "src_2gui_2mrview_2tool_2connectome_2types_8h.html#a8820b8f4668e3b1b8bdaf2bb01fb3463aa58ee90bd0ddad71dcfcfb8766a89af2", null ],
@@ -82,12 +64,5 @@ var src_2gui_2mrview_2tool_2connectome_2types_8h =
       [ "CONNECTOME", "src_2gui_2mrview_2tool_2connectome_2types_8h.html#a82711adfcd2d5eb552d65bbd3e11e6caaa58ee90bd0ddad71dcfcfb8766a89af2", null ],
       [ "VECTOR_FILE", "src_2gui_2mrview_2tool_2connectome_2types_8h.html#a82711adfcd2d5eb552d65bbd3e11e6caa94871beef89e45cc91c8c2f5cba83bfd", null ],
       [ "MATRIX_FILE", "src_2gui_2mrview_2tool_2connectome_2types_8h.html#a82711adfcd2d5eb552d65bbd3e11e6caadb774f799c1b7d938dc58b716c436cea", null ]
-    ] ],
-    [ "abs", "src_2gui_2mrview_2tool_2connectome_2types_8h.html#a91be51640ed06aa50e92247a4d945cf0", null ],
-    [ "abs", "src_2gui_2mrview_2tool_2connectome_2types_8h.html#ab7c200cc7c846acf0de19c96405363f7", null ],
-    [ "abs", "src_2gui_2mrview_2tool_2connectome_2types_8h.html#a1690cc9ad6e93e9c6b6356f762623a28", null ],
-    [ "operator<<", "src_2gui_2mrview_2tool_2connectome_2types_8h.html#a8033a8f741f11e3d52c4743763cb686f", null ],
-    [ "operator<<", "src_2gui_2mrview_2tool_2connectome_2types_8h.html#ac70c53041e26a47a9d4d65b195777893", null ],
-    [ "Inf", "src_2gui_2mrview_2tool_2connectome_2types_8h.html#a8dc392684a5a46072368904936029734", null ],
-    [ "NaN", "src_2gui_2mrview_2tool_2connectome_2types_8h.html#ac8c755bf9a6bd0ee7dfe784c1aff7fcb", null ]
+    ] ]
 ];

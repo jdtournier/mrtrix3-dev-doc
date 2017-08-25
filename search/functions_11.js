@@ -1,30 +1,5 @@
 var searchData=
 [
-  ['target',['target',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_window.html#a03639acb9dbd08a693badb7a9a14a32b',1,'MR::GUI::MRView::Window']]],
-  ['targetchanged',['targetChanged',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_window.html#a2ec16c131e00a243bb4971b2e9c863bc',1,'MR::GUI::MRView::Window']]],
-  ['tck_5findex_5fto_5ffactor',['tck_index_to_factor',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_track_mapper.html#a52a5b17e4256f7cdf6f00ba960bae73d',1,'MR::DWI::Tractography::Mapping::Gaussian::TrackMapper']]],
-  ['tensor2adc',['tensor2ADC',['../namespace_m_r_1_1_d_w_i.html#ae03d39c614c4b4a77b116dda393b4542',1,'MR::DWI']]],
-  ['tensor2fa',['tensor2FA',['../namespace_m_r_1_1_d_w_i.html#addde273e8f7eefe211353ab850136efc',1,'MR::DWI']]],
-  ['tensor2ra',['tensor2RA',['../namespace_m_r_1_1_d_w_i.html#a1e49126d3388e0348b35a06752161866',1,'MR::DWI']]],
-  ['tesselation_5f1281',['tesselation_1281',['../namespace_m_r_1_1_d_w_i_1_1_directions.html#a4c902a15395491714fc0eba6cdb62b69',1,'MR::DWI::Directions']]],
-  ['tesselation_5f129',['tesselation_129',['../namespace_m_r_1_1_d_w_i_1_1_directions.html#a201f4ae6fb040ea55c593cc2ab1e72bb',1,'MR::DWI::Directions']]],
-  ['tesselation_5f321',['tesselation_321',['../namespace_m_r_1_1_d_w_i_1_1_directions.html#a87c3893e21fbd7ad135be27cd23a6ce6',1,'MR::DWI::Directions']]],
-  ['tesselation_5f469',['tesselation_469',['../namespace_m_r_1_1_d_w_i_1_1_directions.html#ad7d56467ab2462a6bcb8df0fffeb2ffd',1,'MR::DWI::Directions']]],
-  ['tesselation_5f513',['tesselation_513',['../namespace_m_r_1_1_d_w_i_1_1_directions.html#a9e51cc21f8561b8188a5933b28126ed4',1,'MR::DWI::Directions']]],
-  ['test_5fsorting_5fblock_5fsize',['test_sorting_block_size',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html#ab113a9b9857ae21d194da8676573c000',1,'MR::DWI::Tractography::SIFT::SIFTer']]],
-  ['texture',['Texture',['../class_m_r_1_1_g_u_i_1_1_g_l_1_1_texture.html#a7be828a25a4502ab1dfcb6dee13aab50',1,'MR::GUI::GL::Texture::Texture()'],['../class_m_r_1_1_g_u_i_1_1_g_l_1_1_texture.html#a4541a86906a1fd041c98cc0821cb6085',1,'MR::GUI::GL::Texture::Texture(const Texture &amp;)'],['../class_m_r_1_1_g_u_i_1_1_g_l_1_1_texture.html#afa47c3df73168d570d249ff742c32000',1,'MR::GUI::GL::Texture::Texture(Texture &amp;&amp;t)']]],
-  ['to_5fdraw',['to_draw',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_edge.html#ab1b340bcaf7f52c7c4e849261a2dda53',1,'MR::GUI::MRView::Tool::Edge']]],
-  ['to_5fsymmetric',['to_symmetric',['../namespace_m_r_1_1_connectome.html#a84863c01e6c872cfb34d3a245cb02503',1,'MR::Connectome']]],
-  ['to_5fupper',['to_upper',['../namespace_m_r_1_1_connectome.html#a9db8f1d1501d1105db6e3307e39d06c4',1,'MR::Connectome']]],
-  ['toggle_5finvert_5fcolourmap',['toggle_invert_colourmap',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_button_observer.html#ad4c5cc80642bb7fe056de619910abb71',1,'MR::GUI::MRView::ColourMapButtonObserver']]],
-  ['toggle_5fshow_5fcolour_5fbar',['toggle_show_colour_bar',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_button_observer.html#ae2cb7926e49f0d23e6cf5be7c547779c',1,'MR::GUI::MRView::ColourMapButtonObserver']]],
-  ['tools',['tools',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_window.html#a7099cd218e86891e0e009dfa8998e500',1,'MR::GUI::MRView::Window']]],
-  ['trackmapper',['TrackMapper',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_track_mapper.html#aacb3faac261e9f8e2de46b531ff90434',1,'MR::DWI::Tractography::Mapping::Gaussian::TrackMapper::TrackMapper(const HeaderType &amp;template_image, const contrast_t c)'],['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_track_mapper.html#a1b4ce56a20f9e41d91847f7486c8a2c5',1,'MR::DWI::Tractography::Mapping::Gaussian::TrackMapper::TrackMapper(const TrackMapper &amp;)=default']]],
-  ['translate',['translate',['../namespace_m_r_1_1_g_u_i_1_1_g_l.html#aee9e8427975aef838c6e4cb47200543f',1,'MR::GUI::GL::translate(float x, float y, float z)'],['../namespace_m_r_1_1_g_u_i_1_1_g_l.html#a085ae11d50a88ceca279886a4efa5df1',1,'MR::GUI::GL::translate(const Cont &amp;x)']]],
-  ['transpose',['transpose',['../namespace_m_r_1_1_g_u_i_1_1_g_l.html#aec5199fabd7dc79288e5efe2e6cf2ea4',1,'MR::GUI::GL']]],
-  ['treeitem',['TreeItem',['../class_m_r_1_1_g_u_i_1_1_dialog_1_1_tree_item.html#aa67253d4a261ebbb020a7e17a6624fb7',1,'MR::GUI::Dialog::TreeItem']]],
-  ['treemodel',['TreeModel',['../class_m_r_1_1_g_u_i_1_1_dialog_1_1_tree_model.html#a52f627134477c7ed4b25342663d5b04d',1,'MR::GUI::Dialog::TreeModel']]],
-  ['try_5flock',['try_lock',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock.html#a5dfbc886061eeec6b26d3c16f3b6edad',1,'MR::DWI::Tractography::GT::SpatialLock']]],
-  ['tvreg',['tvreg',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2.html#aafee43d92d4f2be9c57b8e6bb967880f',1,'MR::DWI::Tractography::SIFT2']]],
-  ['type',['type',['../class_m_r_1_1_g_u_i_1_1_g_l_1_1_texture.html#a2c7f29a44afcb1c3159d32d0774da0eb',1,'MR::GUI::GL::Texture']]]
+  ['qcolorbutton',['QColorButton',['../class_q_color_button.html#ad1f7466429b73110c6e5712316afc38b',1,'QColorButton::QColorButton(QWidget *parent=NULL, const char *name=NULL)'],['../class_q_color_button.html#a77247ce4e89ebbf6f6b3ca5a8db09c1d',1,'QColorButton::QColorButton(const QColor &amp;c, QWidget *parent=NULL, const char *name=NULL)']]],
+  ['queue',['Queue',['../class_m_r_1_1_thread_1_1_queue.html#aba4475ce84874c2591ef62f6300e0577',1,'MR::Thread::Queue::Queue(const std::string &amp;description=&quot;unnamed&quot;, size_t buffer_size=128)'],['../class_m_r_1_1_thread_1_1_queue.html#ad5de7335cd21407f7a6c4165bc7e0619',1,'MR::Thread::Queue::Queue(const T &amp;, const std::string &amp;description=&quot;unnamed&quot;, size_t buffer_size=128)']]]
 ];

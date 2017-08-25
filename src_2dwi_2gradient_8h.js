@@ -1,6 +1,7 @@
 var src_2dwi_2gradient_8h =
 [
     [ "check_DW_scheme", "src_2dwi_2gradient_8h.html#ae7cb4c23a01953166fddf8806ac3304a", null ],
+    [ "clear_DW_scheme", "src_2dwi_2gradient_8h.html#ae117dd90bf286df96d693fdf91c6d645", null ],
     [ "compute_SH2amp_mapping", "src_2dwi_2gradient_8h.html#a0bdc4d1d1ef356d553defaa2d17844f8", null ],
     [ "condition_number_for_lmax", "src_2dwi_2gradient_8h.html#aafb846be002815f88b4c941058af46f2", null ],
     [ "export_grad_commandline", "src_2dwi_2gradient_8h.html#a2a11f8c1cbb86aaf5cdd543c7475fecb", null ],
@@ -15,5 +16,7 @@ var src_2dwi_2gradient_8h =
     [ "parse_DW_scheme", "src_2dwi_2gradient_8h.html#a3d1753b9a40cfffa51960c8429031266", null ],
     [ "save_bvecs_bvals", "src_2dwi_2gradient_8h.html#a196b806510481ab211d13bd09bea0440", null ],
     [ "scale_bvalue_by_G_squared", "src_2dwi_2gradient_8h.html#a03f7a11472c7a5c02c7819c522fc75f5", null ],
-    [ "set_DW_scheme", "src_2dwi_2gradient_8h.html#a1c1d82920357a15ebe6f05844f21dd71", null ]
+    [ "set_DW_scheme", "src_2dwi_2gradient_8h.html#a1c1d82920357a15ebe6f05844f21dd71", null ],
+    [ "stash_DW_scheme", "src_2dwi_2gradient_8h.html#a05ba5f46bd1c97b2a899b688300cddba", null ],
+    [ "validate_DW_scheme", "src_2dwi_2gradient_8h.html#a7ea9d38013f04c4ac2153ad9b6dd29e2", null ]
 ];

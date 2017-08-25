@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-535-g21da6244</div>
+   <div id="projectbrief">Version 3.0_RC2-24-gfc18ca90</div>
   </td>
  </tr>
  </tbody>
@@ -114,9 +114,13 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_formats_1_1_m_rtrix__sparse.html">MRtrix_sparse</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_formats_1_1_n_if_t_i.html">NIfTI</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_formats_1_1_n_if_t_i1.html">NIfTI1</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_formats_1_1_n_if_t_i___g_z.html">NIfTI_GZ</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_formats_1_1_n_if_t_i1___g_z.html">NIfTI1_GZ</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_formats_1_1_n_if_t_i2.html">NIfTI2</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_formats_1_1_n_if_t_i2___g_z.html">NIfTI2_GZ</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_formats_1_1_pipe.html">Pipe</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -137,8 +141,8 @@ Functions</h2></td></tr>
 <tr class="memitem:aaaa9984e4b6c537eb25d4072cedd1c1c"><td class="memTemplParams" colspan="2">template&lt;class StreamType &gt; </td></tr>
 <tr class="memitem:aaaa9984e4b6c537eb25d4072cedd1c1c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_formats.html#aaaa9984e4b6c537eb25d4072cedd1c1c">write_mrtrix_header</a> (const <a class="el" href="class_m_r_1_1_header.html">Header</a> &amp;, StreamType &amp;)</td></tr>
 <tr class="separator:aaaa9984e4b6c537eb25d4072cedd1c1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e4d08839075d392155197aa85c55ee9"><td class="memItemLeft" align="right" valign="top">std::vector&lt; ssize_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_formats.html#a8e4d08839075d392155197aa85c55ee9">parse_axes</a> (size_t ndim, const std::string &amp;specifier)</td></tr>
-<tr class="separator:a8e4d08839075d392155197aa85c55ee9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66d600571043fa918e7c8d12d52334dc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_r_1_1vector.html">vector</a>&lt; ssize_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_formats.html#a66d600571043fa918e7c8d12d52334dc">parse_axes</a> (size_t ndim, const std::string &amp;specifier)</td></tr>
+<tr class="separator:a66d600571043fa918e7c8d12d52334dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -258,14 +262,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a8e4d08839075d392155197aa85c55ee9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e4d08839075d392155197aa85c55ee9">&#9670;&nbsp;</a></span>parse_axes()</h2>
+<a id="a66d600571043fa918e7c8d12d52334dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66d600571043fa918e7c8d12d52334dc">&#9670;&nbsp;</a></span>parse_axes()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;ssize_t&gt; MR::Formats::parse_axes </td>
+          <td class="memname"><a class="el" href="class_m_r_1_1vector.html">vector</a>&lt;ssize_t&gt; MR::Formats::parse_axes </td>
           <td>(</td>
           <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>ndim</em>, </td>
@@ -314,7 +318,7 @@ template&lt;class SourceType &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mrtrix__utils_8h_source.html#l00064">64</a> of file <a class="el" href="mrtrix__utils_8h_source.html">mrtrix_utils.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mrtrix__utils_8h_source.html#l00062">62</a> of file <a class="el" href="mrtrix__utils_8h_source.html">mrtrix_utils.h</a>.</p>
 
 </div>
 </div>
@@ -346,7 +350,7 @@ template&lt;class StreamType &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mrtrix__utils_8h_source.html#l00149">149</a> of file <a class="el" href="mrtrix__utils_8h_source.html">mrtrix_utils.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mrtrix__utils_8h_source.html#l00147">147</a> of file <a class="el" href="mrtrix__utils_8h_source.html">mrtrix_utils.h</a>.</p>
 
 </div>
 </div>
@@ -387,7 +391,7 @@ template&lt;class StreamType &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_formats.html">Formats</a></li>
-    <li class="footer">Generated on Wed Apr 19 2017 09:26:45 for MRtrix by
+    <li class="footer">Generated on Fri Aug 25 2017 11:14:46 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

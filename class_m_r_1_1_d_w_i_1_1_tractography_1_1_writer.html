@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC2-22-gb30ad75c</div>
+   <div id="projectbrief">Version 3.0_RC2-24-gfc18ca90</div>
   </td>
  </tr>
  </tbody>
@@ -112,7 +112,7 @@ Public Types</h2></td></tr>
 <tr class="memitem:a6e30abe0f518b5eb363d900d2c964d40"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer.html#a6e30abe0f518b5eb363d900d2c964d40">vector_type</a> = typename <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer_unbuffered.html">WriterUnbuffered</a>&lt; ValueType &gt;::<a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer.html#a6e30abe0f518b5eb363d900d2c964d40">vector_type</a></td></tr>
 <tr class="separator:a6e30abe0f518b5eb363d900d2c964d40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_types_class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer_unbuffered"><td colspan="2" onclick="javascript:toggleInherit('pub_types_class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer_unbuffered')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer_unbuffered.html">MR::DWI::Tractography::WriterUnbuffered&lt; ValueType &gt;</a></td></tr>
-<tr class="memitem:ab36628e486a3b5bc375fa42ad1ff88be inherit pub_types_class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer_unbuffered"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer_unbuffered.html#ab36628e486a3b5bc375fa42ad1ff88be">vector_type</a> = Eigen::Matrix&lt; ValueType, 3, 1 &gt;</td></tr>
+<tr class="memitem:ab36628e486a3b5bc375fa42ad1ff88be inherit pub_types_class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer_unbuffered"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer_unbuffered.html#ab36628e486a3b5bc375fa42ad1ff88be">vector_type</a> = <a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt; ValueType, 3, 1 &gt;</td></tr>
 <tr class="separator:ab36628e486a3b5bc375fa42ad1ff88be inherit pub_types_class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer_unbuffered"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -188,7 +188,7 @@ class MR::DWI::Tractography::Writer&lt; ValueType &gt;</h3>
 
 <p>class to handle writing tracks to file, with RAM buffer </p>
 <p>writes track header as specified in <em>properties</em> and individual tracks to the file specified in <em>file</em>. Writing individual tracks is done using the append() method.</p>
-<p>This class implements a large write-back RAM buffer to hold the track data in RAM, and only commits to file when the buffer capacity is reached. This minimises the number of write() calls, which can otherwise become a bottleneck on distributed or network filesystems. It also helps reduce file fragmentation when multiple processes write to file concurrently. The size of the write-back buffer defaults to 16MB, and can be set in the config file using the TrackWriterBufferSize field (in bytes). </p>
+<p>This class implements a large write-back RAM buffer to hold the track data in RAM, and only commits to file when the buffer capacity is reached. This minimises the number of <a class="el" href="namespace_m_r_1_1_file_1_1_n_if_t_i1.html#a0b1b9bf3b88c0c40db048189039f3a84">write()</a> calls, which can otherwise become a bottleneck on distributed or network filesystems. It also helps reduce file fragmentation when multiple processes write to file concurrently. The size of the write-back buffer defaults to 16MB, and can be set in the config file using the TrackWriterBufferSize field (in bytes). </p>
 
 <p class="definition">Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00358">358</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
@@ -529,7 +529,7 @@ template&lt;typename ValueType = float&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_d_w_i.html">DWI</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography.html">Tractography</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer.html">Writer</a></li>
-    <li class="footer">Generated on Thu Aug 24 2017 14:00:52 for MRtrix by
+    <li class="footer">Generated on Fri Aug 25 2017 11:14:46 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

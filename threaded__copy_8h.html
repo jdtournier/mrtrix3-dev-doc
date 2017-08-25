@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
-<title>MRtrix: lib/algo/threaded_copy.h File Reference</title>
+<title>MRtrix: core/algo/threaded_copy.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-535-g21da6244</div>
+   <div id="projectbrief">Version 3.0_RC2-24-gfc18ca90</div>
   </td>
  </tr>
  </tbody>
@@ -99,21 +99,21 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a2dd7487b230e4c292c7bf142920f8182"><td class="memTemplParams" colspan="2">template&lt;class InputImageType , class OutputImageType &gt; </td></tr>
-<tr class="memitem:a2dd7487b230e4c292c7bf142920f8182"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a2dd7487b230e4c292c7bf142920f8182">MR::threaded_copy</a> (InputImageType &amp;source, OutputImageType &amp;destination, const std::vector&lt; size_t &gt; &amp;axes, size_t num_axes_in_thread=1)</td></tr>
-<tr class="separator:a2dd7487b230e4c292c7bf142920f8182"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb0801c2d578f591c6cac1a9c6484200"><td class="memTemplParams" colspan="2">template&lt;class InputImageType , class OutputImageType &gt; </td></tr>
+<tr class="memitem:acb0801c2d578f591c6cac1a9c6484200"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#acb0801c2d578f591c6cac1a9c6484200">MR::threaded_copy</a> (InputImageType &amp;source, OutputImageType &amp;destination, const vector&lt; size_t &gt; &amp;axes, size_t num_axes_in_thread=1)</td></tr>
+<tr class="separator:acb0801c2d578f591c6cac1a9c6484200"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d1bceb173460b293e703ce18b6f6633"><td class="memTemplParams" colspan="2">template&lt;class InputImageType , class OutputImageType &gt; </td></tr>
 <tr class="memitem:a1d1bceb173460b293e703ce18b6f6633"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a1d1bceb173460b293e703ce18b6f6633">MR::threaded_copy</a> (InputImageType &amp;source, OutputImageType &amp;destination, size_t from_axis=0, size_t to_axis=std::numeric_limits&lt; size_t &gt;::max(), size_t num_axes_in_thread=1)</td></tr>
 <tr class="separator:a1d1bceb173460b293e703ce18b6f6633"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef98ed85d28230c70a4180c39e5eb6b5"><td class="memTemplParams" colspan="2">template&lt;class InputImageType , class OutputImageType &gt; </td></tr>
-<tr class="memitem:aef98ed85d28230c70a4180c39e5eb6b5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#aef98ed85d28230c70a4180c39e5eb6b5">MR::threaded_copy_with_progress_message</a> (const std::string &amp;message, InputImageType &amp;source, OutputImageType &amp;destination, const std::vector&lt; size_t &gt; &amp;axes, size_t num_axes_in_thread=1)</td></tr>
-<tr class="separator:aef98ed85d28230c70a4180c39e5eb6b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af50699b8970ce7ee97fd9d13f3400844"><td class="memTemplParams" colspan="2">template&lt;class InputImageType , class OutputImageType &gt; </td></tr>
+<tr class="memitem:af50699b8970ce7ee97fd9d13f3400844"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#af50699b8970ce7ee97fd9d13f3400844">MR::threaded_copy_with_progress_message</a> (const std::string &amp;message, InputImageType &amp;source, OutputImageType &amp;destination, const vector&lt; size_t &gt; &amp;axes, size_t num_axes_in_thread=1)</td></tr>
+<tr class="separator:af50699b8970ce7ee97fd9d13f3400844"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af405fb52ec9882fea469d5f742c36165"><td class="memTemplParams" colspan="2">template&lt;class InputImageType , class OutputImageType &gt; </td></tr>
 <tr class="memitem:af405fb52ec9882fea469d5f742c36165"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#af405fb52ec9882fea469d5f742c36165">MR::threaded_copy_with_progress_message</a> (const std::string &amp;message, InputImageType &amp;source, OutputImageType &amp;destination, size_t from_axis=0, size_t to_axis=std::numeric_limits&lt; size_t &gt;::max(), size_t num_axes_in_thread=1)</td></tr>
 <tr class="separator:af405fb52ec9882fea469d5f742c36165"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe34403183e0c96f8b7ac52dccab440d"><td class="memTemplParams" colspan="2">template&lt;class InputImageType , class OutputImageType &gt; </td></tr>
-<tr class="memitem:abe34403183e0c96f8b7ac52dccab440d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#abe34403183e0c96f8b7ac52dccab440d">MR::threaded_copy_with_progress</a> (InputImageType &amp;source, OutputImageType &amp;destination, const std::vector&lt; size_t &gt; &amp;axes, size_t num_axes_in_thread=1)</td></tr>
-<tr class="separator:abe34403183e0c96f8b7ac52dccab440d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a405955e46245acb6b2ca9cd2b6779f88"><td class="memTemplParams" colspan="2">template&lt;class InputImageType , class OutputImageType &gt; </td></tr>
+<tr class="memitem:a405955e46245acb6b2ca9cd2b6779f88"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a405955e46245acb6b2ca9cd2b6779f88">MR::threaded_copy_with_progress</a> (InputImageType &amp;source, OutputImageType &amp;destination, const vector&lt; size_t &gt; &amp;axes, size_t num_axes_in_thread=1)</td></tr>
+<tr class="separator:a405955e46245acb6b2ca9cd2b6779f88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0cda45f79df958c498cda9566ad3c859"><td class="memTemplParams" colspan="2">template&lt;class InputImageType , class OutputImageType &gt; </td></tr>
 <tr class="memitem:a0cda45f79df958c498cda9566ad3c859"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a0cda45f79df958c498cda9566ad3c859">MR::threaded_copy_with_progress</a> (InputImageType &amp;source, OutputImageType &amp;destination, size_t from_axis=0, size_t to_axis=std::numeric_limits&lt; size_t &gt;::max(), size_t num_axes_in_thread=1)</td></tr>
 <tr class="separator:a0cda45f79df958c498cda9566ad3c859"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -123,8 +123,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_7c0873e6b80b34380e48b0b11ab08777.html">algo</a></li><li class="navelem"><a class="el" href="threaded__copy_8h.html">threaded_copy.h</a></li>
-    <li class="footer">Generated on Wed Apr 19 2017 09:26:43 for MRtrix by
+    <li class="navelem"><a class="el" href="dir_4270bfced15e0e73154b13468c7c9ad9.html">core</a></li><li class="navelem"><a class="el" href="dir_2220cedab4ecc4510f0c7ae8221004de.html">algo</a></li><li class="navelem"><a class="el" href="threaded__copy_8h.html">threaded_copy.h</a></li>
+    <li class="footer">Generated on Fri Aug 25 2017 11:14:45 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

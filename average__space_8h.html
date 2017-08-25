@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
-<title>MRtrix: lib/math/average_space.h File Reference</title>
+<title>MRtrix: core/math/average_space.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-535-g21da6244</div>
+   <div id="projectbrief">Version 3.0_RC2-24-gfc18ca90</div>
   </td>
  </tr>
  </tbody>
@@ -106,16 +106,16 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a8a5dea130ce3a4ebd7aa0d3dd7a38059"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_math.html#a8a5dea130ce3a4ebd7aa0d3dd7a38059">MR::Math::matrix_average</a> (std::vector&lt; Eigen::MatrixXd &gt; const &amp;mat_in, Eigen::MatrixXd &amp;mat_avg, bool verbose=false)</td></tr>
-<tr class="separator:a8a5dea130ce3a4ebd7aa0d3dd7a38059"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f939ea75aa7c9c1aa6caf50aed7dcc1"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix&lt; default_type, 8, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a2f939ea75aa7c9c1aa6caf50aed7dcc1">MR::get_cuboid_corners</a> (const Eigen::Matrix&lt; default_type, 4, 1 &gt; &amp;xzx1)</td></tr>
+<tr class="memitem:af91e0fac62e3328bfa32315c3531908f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_math.html#af91e0fac62e3328bfa32315c3531908f">MR::Math::matrix_average</a> (vector&lt; Eigen::MatrixXd &gt; const &amp;mat_in, Eigen::MatrixXd &amp;mat_avg, bool verbose=false)</td></tr>
+<tr class="separator:af91e0fac62e3328bfa32315c3531908f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f939ea75aa7c9c1aa6caf50aed7dcc1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt; default_type, 8, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a2f939ea75aa7c9c1aa6caf50aed7dcc1">MR::get_cuboid_corners</a> (const <a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt; default_type, 4, 1 &gt; &amp;xzx1)</td></tr>
 <tr class="separator:a2f939ea75aa7c9c1aa6caf50aed7dcc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8df1164abb7dd70a8cb7f230ace61d86"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix&lt; default_type, 8, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a8df1164abb7dd70a8cb7f230ace61d86">MR::get_bounding_box</a> (const Header &amp;header, const Eigen::Transform&lt; default_type, 3, Eigen::Projective &gt; &amp;voxel2scanner)</td></tr>
+<tr class="memitem:a8df1164abb7dd70a8cb7f230ace61d86"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt; default_type, 8, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a8df1164abb7dd70a8cb7f230ace61d86">MR::get_bounding_box</a> (const Header &amp;header, const Eigen::Transform&lt; default_type, 3, Eigen::Projective &gt; &amp;voxel2scanner)</td></tr>
 <tr class="separator:a8df1164abb7dd70a8cb7f230ace61d86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1717b6c3a024e44a9f25f0d3ff26c6de"><td class="memItemLeft" align="right" valign="top">Header&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a1717b6c3a024e44a9f25f0d3ff26c6de">MR::compute_minimum_average_header</a> (const std::vector&lt; Header &gt; &amp;input_headers, int voxel_subsampling, const Eigen::Matrix&lt; default_type, 4, 1 &gt; &amp;padding, const std::vector&lt; Eigen::Transform&lt; default_type, 3, Eigen::Projective &gt;&gt; &amp;transform_header_with)</td></tr>
-<tr class="separator:a1717b6c3a024e44a9f25f0d3ff26c6de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb80c0167b92315a4e317b74f52fe1fd"><td class="memItemLeft" align="right" valign="top">Header&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#aeb80c0167b92315a4e317b74f52fe1fd">MR::compute_minimum_average_header</a> (const vector&lt; Header &gt; &amp;input_headers, int voxel_subsampling, const <a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt; default_type, 4, 1 &gt; &amp;padding, const vector&lt; Eigen::Transform&lt; default_type, 3, Eigen::Projective &gt;&gt; &amp;transform_header_with)</td></tr>
+<tr class="separator:aeb80c0167b92315a4e317b74f52fe1fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4196e34492f94bda358648cdd1f67620"><td class="memTemplParams" colspan="2">template&lt;class ImageType1 , class ImageType2 , class TransformationType &gt; </td></tr>
-<tr class="memitem:a4196e34492f94bda358648cdd1f67620"><td class="memTemplItemLeft" align="right" valign="top">Header&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a4196e34492f94bda358648cdd1f67620">MR::compute_minimum_average_header</a> (const ImageType1 &amp;im1, const ImageType2 &amp;im2, const TransformationType &amp;transformation, const default_type &amp;voxel_subsampling, const Eigen::Matrix&lt; default_type, 4, 1 &gt; &amp;padding)</td></tr>
+<tr class="memitem:a4196e34492f94bda358648cdd1f67620"><td class="memTemplItemLeft" align="right" valign="top">Header&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a4196e34492f94bda358648cdd1f67620">MR::compute_minimum_average_header</a> (const ImageType1 &amp;im1, const ImageType2 &amp;im2, const TransformationType &amp;transformation, const default_type &amp;voxel_subsampling, const <a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt; default_type, 4, 1 &gt; &amp;padding)</td></tr>
 <tr class="separator:a4196e34492f94bda358648cdd1f67620"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
@@ -123,8 +123,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_a36354df93aef5eec904487b77fa4fab.html">math</a></li><li class="navelem"><a class="el" href="average__space_8h.html">average_space.h</a></li>
-    <li class="footer">Generated on Wed Apr 19 2017 09:26:43 for MRtrix by
+    <li class="navelem"><a class="el" href="dir_4270bfced15e0e73154b13468c7c9ad9.html">core</a></li><li class="navelem"><a class="el" href="dir_e07ac01d65d17e829451634057f91345.html">math</a></li><li class="navelem"><a class="el" href="average__space_8h.html">average_space.h</a></li>
+    <li class="footer">Generated on Fri Aug 25 2017 11:14:45 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
-<title>MRtrix: lib/math/SH.h File Reference</title>
+<title>MRtrix: core/math/SH.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-535-g21da6244</div>
+   <div id="projectbrief">Version 3.0_RC2-24-gfc18ca90</div>
   </td>
  </tr>
  </tbody>
@@ -146,7 +146,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga28d9e09433f42e5036ec45ed6e7806bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the largest <em>lmax</em> given <em>N</em> parameters  <a href="group__spherical__harmonics.html#ga28d9e09433f42e5036ec45ed6e7806bf">More...</a><br /></td></tr>
 <tr class="separator:ga28d9e09433f42e5036ec45ed6e7806bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga26f3b0200dfcecf06b917680b3f96069"><td class="memTemplParams" colspan="2">template&lt;class MatrixType &gt; </td></tr>
-<tr class="memitem:ga26f3b0200dfcecf06b917680b3f96069"><td class="memTemplItemLeft" align="right" valign="top">Eigen::Matrix&lt; typename MatrixType::Scalar, Eigen::Dynamic, Eigen::Dynamic &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__spherical__harmonics.html#ga26f3b0200dfcecf06b917680b3f96069">MR::Math::SH::init_transform</a> (const MatrixType &amp;dirs, const int lmax)</td></tr>
+<tr class="memitem:ga26f3b0200dfcecf06b917680b3f96069"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt; typename MatrixType::Scalar, Eigen::Dynamic, Eigen::Dynamic &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__spherical__harmonics.html#ga26f3b0200dfcecf06b917680b3f96069">MR::Math::SH::init_transform</a> (const MatrixType &amp;dirs, const int lmax)</td></tr>
 <tr class="memdesc:ga26f3b0200dfcecf06b917680b3f96069"><td class="mdescLeft">&#160;</td><td class="mdescRight">form the SH-&gt;amplitudes matrix  <a href="group__spherical__harmonics.html#ga26f3b0200dfcecf06b917680b3f96069">More...</a><br /></td></tr>
 <tr class="separator:ga26f3b0200dfcecf06b917680b3f96069"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga301ff6a6409f78ce405d2ed51f2bdbde"><td class="memTemplParams" colspan="2">template&lt;class MatrixType , class VectorType &gt; </td></tr>
@@ -158,7 +158,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga24a1163b39e02424abbe3ed456bb0a1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">scale the coefficients of each <a class="el" href="namespace_m_r_1_1_math_1_1_s_h.html">SH</a> degree by the corresponding value in <em>coefs</em>  <a href="group__spherical__harmonics.html#ga24a1163b39e02424abbe3ed456bb0a1c">More...</a><br /></td></tr>
 <tr class="separator:ga24a1163b39e02424abbe3ed456bb0a1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga41841d8320883a03ce43a417c46e7fa1"><td class="memTemplParams" colspan="2">template&lt;typename VectorType &gt; </td></tr>
-<tr class="memitem:ga41841d8320883a03ce43a417c46e7fa1"><td class="memTemplItemLeft" align="right" valign="top">Eigen::Matrix&lt; typename VectorType::Scalar, Eigen::Dynamic, 1 &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__spherical__harmonics.html#ga41841d8320883a03ce43a417c46e7fa1">MR::Math::SH::invert</a> (const VectorType &amp;coefs)</td></tr>
+<tr class="memitem:ga41841d8320883a03ce43a417c46e7fa1"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt; typename VectorType::Scalar, Eigen::Dynamic, 1 &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__spherical__harmonics.html#ga41841d8320883a03ce43a417c46e7fa1">MR::Math::SH::invert</a> (const VectorType &amp;coefs)</td></tr>
 <tr class="memdesc:ga41841d8320883a03ce43a417c46e7fa1"><td class="mdescLeft">&#160;</td><td class="mdescRight">invert any non-zero coefficients in <em>coefs</em>  <a href="group__spherical__harmonics.html#ga41841d8320883a03ce43a417c46e7fa1">More...</a><br /></td></tr>
 <tr class="separator:ga41841d8320883a03ce43a417c46e7fa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac405578b4137cf1c22a0cf646d260b05"><td class="memTemplParams" colspan="2">template&lt;class VectorType &gt; </td></tr>
@@ -177,7 +177,7 @@ Functions</h2></td></tr>
 <tr class="memitem:ga1edb8517a3781197c8b7dbdd3ec65ad1"><td class="memTemplItemLeft" align="right" valign="top">VectorType1 &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__spherical__harmonics.html#ga1edb8517a3781197c8b7dbdd3ec65ad1">MR::Math::SH::SH2RH</a> (VectorType1 &amp;RH, const VectorType2 &amp;sh)</td></tr>
 <tr class="separator:ga1edb8517a3781197c8b7dbdd3ec65ad1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga2832fa6af188bae8ca224b1dd261bc2d"><td class="memTemplParams" colspan="2">template&lt;class VectorType &gt; </td></tr>
-<tr class="memitem:ga2832fa6af188bae8ca224b1dd261bc2d"><td class="memTemplItemLeft" align="right" valign="top">Eigen::Matrix&lt; typename VectorType::Scalar, Eigen::Dynamic, 1 &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__spherical__harmonics.html#ga2832fa6af188bae8ca224b1dd261bc2d">MR::Math::SH::SH2RH</a> (const VectorType &amp;sh)</td></tr>
+<tr class="memitem:ga2832fa6af188bae8ca224b1dd261bc2d"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt; typename VectorType::Scalar, Eigen::Dynamic, 1 &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__spherical__harmonics.html#ga2832fa6af188bae8ca224b1dd261bc2d">MR::Math::SH::SH2RH</a> (const VectorType &amp;sh)</td></tr>
 <tr class="separator:ga2832fa6af188bae8ca224b1dd261bc2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6bc14abe263b2812d92454a199b30a03"><td class="memTemplParams" colspan="2">template&lt;class VectorType1 , class VectorType2 &gt; </td></tr>
 <tr class="memitem:ga6bc14abe263b2812d92454a199b30a03"><td class="memTemplItemLeft" align="right" valign="top">VectorType1 &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__spherical__harmonics.html#ga6bc14abe263b2812d92454a199b30a03">MR::Math::SH::sconv</a> (VectorType1 &amp;sh, const VectorType2 &amp;RH)</td></tr>
@@ -187,34 +187,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ga5bf1dcd250252635f4faa97a1b732703"><td class="memTemplItemLeft" align="right" valign="top">VectorType1 &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__spherical__harmonics.html#ga5bf1dcd250252635f4faa97a1b732703">MR::Math::SH::sconv</a> (VectorType1 &amp;C, const VectorType2 &amp;RH, const VectorType3 &amp;sh)</td></tr>
 <tr class="memdesc:ga5bf1dcd250252635f4faa97a1b732703"><td class="mdescLeft">&#160;</td><td class="mdescRight">perform spherical convolution  <a href="group__spherical__harmonics.html#ga5bf1dcd250252635f4faa97a1b732703">More...</a><br /></td></tr>
 <tr class="separator:ga5bf1dcd250252635f4faa97a1b732703"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0a2fca17b641a0afc1fa27540d70da34"><td class="memTemplParams" colspan="2">template&lt;class VectorType1 , class VectorType2 &gt; </td></tr>
-<tr class="memitem:ga0a2fca17b641a0afc1fa27540d70da34"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if&lt; VectorType1::IsVectorAtCompileTime, void &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__spherical__harmonics.html#ga0a2fca17b641a0afc1fa27540d70da34">MR::Math::SH::spherical2cartesian</a> (const VectorType1 &amp;az_el_r, VectorType2 &amp;&amp;xyz)</td></tr>
-<tr class="memdesc:ga0a2fca17b641a0afc1fa27540d70da34"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert spherical coordinates to Cartesian coordinates  <a href="group__spherical__harmonics.html#ga0a2fca17b641a0afc1fa27540d70da34">More...</a><br /></td></tr>
-<tr class="separator:ga0a2fca17b641a0afc1fa27540d70da34"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa84cbf06c73e471c851d91394d566ea8"><td class="memTemplParams" colspan="2">template&lt;class MatrixType1 , class MatrixType2 &gt; </td></tr>
-<tr class="memitem:gaa84cbf06c73e471c851d91394d566ea8"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if&lt;!MatrixType1::IsVectorAtCompileTime, void &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__spherical__harmonics.html#gaa84cbf06c73e471c851d91394d566ea8">MR::Math::SH::spherical2cartesian</a> (const MatrixType1 &amp;az_el, MatrixType2 &amp;&amp;cartesian)</td></tr>
-<tr class="memdesc:gaa84cbf06c73e471c851d91394d566ea8"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert matrix of spherical coordinates to Cartesian coordinates  <a href="group__spherical__harmonics.html#gaa84cbf06c73e471c851d91394d566ea8">More...</a><br /></td></tr>
-<tr class="separator:gaa84cbf06c73e471c851d91394d566ea8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga702d2685be89a15796a89f3dd2f227f1"><td class="memTemplParams" colspan="2">template&lt;class MatrixType &gt; </td></tr>
-<tr class="memitem:ga702d2685be89a15796a89f3dd2f227f1"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if&lt;!MatrixType::IsVectorAtCompileTime, Eigen::MatrixXd &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__spherical__harmonics.html#ga702d2685be89a15796a89f3dd2f227f1">MR::Math::SH::spherical2cartesian</a> (const MatrixType &amp;az_el)</td></tr>
-<tr class="memdesc:ga702d2685be89a15796a89f3dd2f227f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert matrix of spherical coordinates to Cartesian coordinates  <a href="group__spherical__harmonics.html#ga702d2685be89a15796a89f3dd2f227f1">More...</a><br /></td></tr>
-<tr class="separator:ga702d2685be89a15796a89f3dd2f227f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga551d994a128f4489b485bf0669c1c80a"><td class="memTemplParams" colspan="2">template&lt;class VectorType1 , class VectorType2 &gt; </td></tr>
-<tr class="memitem:ga551d994a128f4489b485bf0669c1c80a"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if&lt; VectorType1::IsVectorAtCompileTime, void &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__spherical__harmonics.html#ga551d994a128f4489b485bf0669c1c80a">MR::Math::SH::cartesian2spherical</a> (const VectorType1 &amp;xyz, VectorType2 &amp;&amp;az_el_r)</td></tr>
-<tr class="memdesc:ga551d994a128f4489b485bf0669c1c80a"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert Cartesian coordinates to spherical coordinates  <a href="group__spherical__harmonics.html#ga551d994a128f4489b485bf0669c1c80a">More...</a><br /></td></tr>
-<tr class="separator:ga551d994a128f4489b485bf0669c1c80a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9ed72421c529c70f60699c6731566402"><td class="memTemplParams" colspan="2">template&lt;class MatrixType1 , class MatrixType2 &gt; </td></tr>
-<tr class="memitem:ga9ed72421c529c70f60699c6731566402"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if&lt;!MatrixType1::IsVectorAtCompileTime, void &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__spherical__harmonics.html#ga9ed72421c529c70f60699c6731566402">MR::Math::SH::cartesian2spherical</a> (const MatrixType1 &amp;cartesian, MatrixType2 &amp;&amp;az_el, bool include_r=false)</td></tr>
-<tr class="memdesc:ga9ed72421c529c70f60699c6731566402"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert matrix of Cartesian coordinates to spherical coordinates  <a href="group__spherical__harmonics.html#ga9ed72421c529c70f60699c6731566402">More...</a><br /></td></tr>
-<tr class="separator:ga9ed72421c529c70f60699c6731566402"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa3daa539e42342cb44a693370a283c8e"><td class="memTemplParams" colspan="2">template&lt;class MatrixType &gt; </td></tr>
-<tr class="memitem:gaa3daa539e42342cb44a693370a283c8e"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if&lt;!MatrixType::IsVectorAtCompileTime, Eigen::MatrixXd &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__spherical__harmonics.html#gaa3daa539e42342cb44a693370a283c8e">MR::Math::SH::cartesian2spherical</a> (const MatrixType &amp;cartesian, bool include_r=false)</td></tr>
-<tr class="memdesc:gaa3daa539e42342cb44a693370a283c8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert matrix of Cartesian coordinates to spherical coordinates  <a href="group__spherical__harmonics.html#gaa3daa539e42342cb44a693370a283c8e">More...</a><br /></td></tr>
-<tr class="separator:gaa3daa539e42342cb44a693370a283c8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga355d9a9fba1cee8cdb291b2c70fe9796"><td class="memTemplParams" colspan="2">template&lt;class VectorType &gt; </td></tr>
-<tr class="memitem:ga355d9a9fba1cee8cdb291b2c70fe9796"><td class="memTemplItemLeft" align="right" valign="top">VectorType &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__spherical__harmonics.html#ga355d9a9fba1cee8cdb291b2c70fe9796">MR::Math::SH::FA2SH</a> (VectorType &amp;sh, default_type FA, default_type ADC, default_type bvalue, int lmax, int precision=100)</td></tr>
-<tr class="memdesc:ga355d9a9fba1cee8cdb291b2c70fe9796"><td class="mdescLeft">&#160;</td><td class="mdescRight">compute axially-symmetric <a class="el" href="namespace_m_r_1_1_math_1_1_s_h.html">SH</a> coefficients corresponding to specified tensor  <a href="group__spherical__harmonics.html#ga355d9a9fba1cee8cdb291b2c70fe9796">More...</a><br /></td></tr>
-<tr class="separator:ga355d9a9fba1cee8cdb291b2c70fe9796"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab875ad53d217ba8e06a79749d3901f68"><td class="memTemplParams" colspan="2">template&lt;class VectorType , class UnitVectorType , class ValueType  = float&gt; </td></tr>
 <tr class="memitem:gab875ad53d217ba8e06a79749d3901f68"><td class="memTemplItemLeft" align="right" valign="top">VectorType::Scalar&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__spherical__harmonics.html#gab875ad53d217ba8e06a79749d3901f68">MR::Math::SH::get_peak</a> (const VectorType &amp;sh, int lmax, UnitVectorType &amp;unit_init_dir, PrecomputedAL&lt; typename VectorType::Scalar &gt; *precomputer=nullptr)</td></tr>
 <tr class="memdesc:gab875ad53d217ba8e06a79749d3901f68"><td class="mdescLeft">&#160;</td><td class="mdescRight">estimate direction &amp; amplitude of <a class="el" href="namespace_m_r_1_1_math_1_1_s_h.html">SH</a> peak  <a href="group__spherical__harmonics.html#gab875ad53d217ba8e06a79749d3901f68">More...</a><br /></td></tr>
@@ -247,7 +219,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00027">27</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00026">26</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
 
 </div>
 </div>
@@ -263,7 +235,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00026">26</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00025">25</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
 
 </div>
 </div>
@@ -272,8 +244,8 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_a36354df93aef5eec904487b77fa4fab.html">math</a></li><li class="navelem"><a class="el" href="_s_h_8h.html">SH.h</a></li>
-    <li class="footer">Generated on Wed Apr 19 2017 09:26:43 for MRtrix by
+    <li class="navelem"><a class="el" href="dir_4270bfced15e0e73154b13468c7c9ad9.html">core</a></li><li class="navelem"><a class="el" href="dir_e07ac01d65d17e829451634057f91345.html">math</a></li><li class="navelem"><a class="el" href="_s_h_8h.html">SH.h</a></li>
+    <li class="footer">Generated on Fri Aug 25 2017 11:14:45 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

@@ -12,7 +12,7 @@ var dir_e52cf29ec87f46add90075c2a6c67f9c =
       [ "SharedBase", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_shared_base.html", null ]
     ] ],
     [ "tractography.h", "dwi_2tractography_2tracking_2tractography_8h.html", "dwi_2tractography_2tracking_2tractography_8h" ],
-    [ "types.h", "dwi_2tractography_2tracking_2types_8h.html", "dwi_2tractography_2tracking_2types_8h" ],
+    [ "types.h", "src_2dwi_2tractography_2tracking_2types_8h.html", "src_2dwi_2tractography_2tracking_2types_8h" ],
     [ "write_kernel.h", "write__kernel_8h.html", [
       [ "WriteKernel", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_write_kernel.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_write_kernel" ]
     ] ]

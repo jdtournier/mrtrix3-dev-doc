@@ -13,7 +13,7 @@ var dir_6da8e6f1bfdb5540a85bd819d2a13962 =
       [ "ConstIterator", "class_m_r_1_1_d_w_i_1_1_fixel__map_1_1_const_iterator.html", "class_m_r_1_1_d_w_i_1_1_fixel__map_1_1_const_iterator" ]
     ] ],
     [ "fmls.h", "fmls_8h.html", "fmls_8h" ],
-    [ "gradient.h", "gradient_8h.html", "gradient_8h" ],
+    [ "gradient.h", "src_2dwi_2gradient_8h.html", "src_2dwi_2gradient_8h" ],
     [ "noise_estimator.h", "noise__estimator_8h.html", "noise__estimator_8h" ],
     [ "shells.h", "shells_8h.html", "shells_8h" ],
     [ "tensor.h", "tensor_8h.html", "tensor_8h" ]

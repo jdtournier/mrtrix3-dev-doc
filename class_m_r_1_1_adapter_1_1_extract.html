@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-535-g21da6244</div>
+   <div id="projectbrief">Version 3.0_RC2-24-gfc18ca90</div>
   </td>
  </tr>
  </tbody>
@@ -82,357 +82,37 @@ $(document).ready(function(){initNavTree('class_m_r_1_1_adapter_1_1_extract.html
 
 <div class="header">
   <div class="summary">
-<a href="#pub-types">Public Types</a> &#124;
-<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="class_m_r_1_1_adapter_1_1_extract-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">MR::Adapter::Extract&lt; ImageType &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="lib_2adapter_2extract_8h_source.html">adapter/extract.h</a>&quot;</code></p>
+<p><code>#include &quot;<a class="el" href="core_2adapter_2extract_8h_source.html">adapter/extract.h</a>&quot;</code></p>
 <div class="dynheader">
 Inheritance diagram for MR::Adapter::Extract&lt; ImageType &gt;:</div>
 <div class="dyncontent">
  <div class="center">
   <img src="class_m_r_1_1_adapter_1_1_extract.png" usemap="#MR::Adapter::Extract_3C_20ImageType_20_3E_map" alt=""/>
   <map id="MR::Adapter::Extract_3C_20ImageType_20_3E_map" name="MR::Adapter::Extract_3C_20ImageType_20_3E_map">
-<area href="class_m_r_1_1_adapter_1_1_base.html" alt="MR::Adapter::Base&lt; ImageType &gt;" shape="rect" coords="0,0,212,24"/>
+<area href="class_m_r_1_1_adapter_1_1_base.html" alt="MR::Adapter::Base&lt; Extract&lt; ImageType &gt;, ImageType &gt;" shape="rect" coords="0,56,359,80"/>
 </map>
  </div></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
-Public Types</h2></td></tr>
-<tr class="memitem:a91f4a47b69171aa85f5d695450ce4aa4"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_adapter_1_1_extract.html#a91f4a47b69171aa85f5d695450ce4aa4">value_type</a> = typename ImageType::value_type</td></tr>
-<tr class="separator:a91f4a47b69171aa85f5d695450ce4aa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_types_class_m_r_1_1_adapter_1_1_base"><td colspan="2" onclick="javascript:toggleInherit('pub_types_class_m_r_1_1_adapter_1_1_base')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="class_m_r_1_1_adapter_1_1_base.html">MR::Adapter::Base&lt; ImageType &gt;</a></td></tr>
-<tr class="memitem:ad0933415139ee75cbd7412fdbc8ebf90 inherit pub_types_class_m_r_1_1_adapter_1_1_base"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_adapter_1_1_base.html#ad0933415139ee75cbd7412fdbc8ebf90">value_type</a> = typename ImageType::value_type</td></tr>
-<tr class="separator:ad0933415139ee75cbd7412fdbc8ebf90 inherit pub_types_class_m_r_1_1_adapter_1_1_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:ac0de063b1821f24cdca2b5f83591bd97"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_adapter_1_1_extract.html#ac0de063b1821f24cdca2b5f83591bd97">Extract</a> (const ImageType &amp;original, const std::vector&lt; std::vector&lt; int &gt;&gt; &amp;indices)</td></tr>
-<tr class="separator:ac0de063b1821f24cdca2b5f83591bd97"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa93a3c96ed3afd4ca2492723fddd09c3"><td class="memItemLeft" align="right" valign="top">EIGEN_MAKE_ALIGNED_OPERATOR_NEW ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_adapter_1_1_extract.html#aa93a3c96ed3afd4ca2492723fddd09c3">size</a> (size_t <a class="el" href="noise__estimator_8h.html#a884869744ebf14a092b339ae65c2af37">axis</a>) const</td></tr>
-<tr class="separator:aa93a3c96ed3afd4ca2492723fddd09c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6dd67fdac796f8503137056829722dac"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespace_m_r.html#a8445ea7a4001a6e8532def9abb86d59e">transform_type</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_adapter_1_1_extract.html#a6dd67fdac796f8503137056829722dac">transform</a> () const</td></tr>
-<tr class="separator:a6dd67fdac796f8503137056829722dac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62e2dd6dab2b63b33582c48779554535"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_adapter_1_1_extract.html#a62e2dd6dab2b63b33582c48779554535">reset</a> ()</td></tr>
-<tr class="separator:a62e2dd6dab2b63b33582c48779554535"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98873e39a3fc3fed6ed3cbe3b8085bfb"><td class="memItemLeft" align="right" valign="top">ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_adapter_1_1_extract.html#a98873e39a3fc3fed6ed3cbe3b8085bfb">index</a> (size_t <a class="el" href="noise__estimator_8h.html#a884869744ebf14a092b339ae65c2af37">axis</a>) const</td></tr>
-<tr class="separator:a98873e39a3fc3fed6ed3cbe3b8085bfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac17f4171e4cb198cdc79696b4be0396e"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_adapter_1_1_extract.html#ac17f4171e4cb198cdc79696b4be0396e">index</a> (size_t <a class="el" href="noise__estimator_8h.html#a884869744ebf14a092b339ae65c2af37">axis</a>) -&gt; decltype(Helper::index(*this, <a class="el" href="noise__estimator_8h.html#a884869744ebf14a092b339ae65c2af37">axis</a>))</td></tr>
-<tr class="separator:ac17f4171e4cb198cdc79696b4be0396e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace1fc73ba3bb69ac6ef97f313d2febec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_adapter_1_1_extract.html#ace1fc73ba3bb69ac6ef97f313d2febec">move_index</a> (size_t <a class="el" href="noise__estimator_8h.html#a884869744ebf14a092b339ae65c2af37">axis</a>, ssize_t increment)</td></tr>
-<tr class="separator:ace1fc73ba3bb69ac6ef97f313d2febec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_class_m_r_1_1_adapter_1_1_base"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_m_r_1_1_adapter_1_1_base')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_m_r_1_1_adapter_1_1_base.html">MR::Adapter::Base&lt; ImageType &gt;</a></td></tr>
-<tr class="memitem:a301761642fdc4ef44aa42d8149d4d8e3 inherit pub_methods_class_m_r_1_1_adapter_1_1_base"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_adapter_1_1_base.html#a301761642fdc4ef44aa42d8149d4d8e3">Base</a> (const ImageType &amp;<a class="el" href="class_m_r_1_1_adapter_1_1_base.html#a3d46409e0fc1873b57aedb490cb99e06">parent</a>)</td></tr>
-<tr class="separator:a301761642fdc4ef44aa42d8149d4d8e3 inherit pub_methods_class_m_r_1_1_adapter_1_1_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5ee89ae0d5863def240754d1a46e2c3 inherit pub_methods_class_m_r_1_1_adapter_1_1_base"><td class="memTemplParams" colspan="2">template&lt;class U &gt; </td></tr>
-<tr class="memitem:ab5ee89ae0d5863def240754d1a46e2c3 inherit pub_methods_class_m_r_1_1_adapter_1_1_base"><td class="memTemplItemLeft" align="right" valign="top">const <a class="el" href="class_m_r_1_1_adapter_1_1_base.html">Base</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_adapter_1_1_base.html#ab5ee89ae0d5863def240754d1a46e2c3">operator=</a> (const U &amp;V)</td></tr>
-<tr class="separator:ab5ee89ae0d5863def240754d1a46e2c3 inherit pub_methods_class_m_r_1_1_adapter_1_1_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d46409e0fc1873b57aedb490cb99e06 inherit pub_methods_class_m_r_1_1_adapter_1_1_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="src_2gui_2mrview_2tool_2connectome_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> ImageType &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_adapter_1_1_base.html#a3d46409e0fc1873b57aedb490cb99e06">parent</a> ()</td></tr>
-<tr class="separator:a3d46409e0fc1873b57aedb490cb99e06 inherit pub_methods_class_m_r_1_1_adapter_1_1_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1140787f997cf5bc16c6d6c6a2a0e222 inherit pub_methods_class_m_r_1_1_adapter_1_1_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="src_2gui_2mrview_2tool_2connectome_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_adapter_1_1_base.html#a1140787f997cf5bc16c6d6c6a2a0e222">valid</a> () const</td></tr>
-<tr class="separator:a1140787f997cf5bc16c6d6c6a2a0e222 inherit pub_methods_class_m_r_1_1_adapter_1_1_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8388c82cd4f50136db88b09bfd027708 inherit pub_methods_class_m_r_1_1_adapter_1_1_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="src_2gui_2mrview_2tool_2connectome_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_adapter_1_1_base.html#a8388c82cd4f50136db88b09bfd027708">operator!</a> () const</td></tr>
-<tr class="separator:a8388c82cd4f50136db88b09bfd027708 inherit pub_methods_class_m_r_1_1_adapter_1_1_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5eb5f03a80f276c752d4d54d0c00fdf inherit pub_methods_class_m_r_1_1_adapter_1_1_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="src_2gui_2mrview_2tool_2connectome_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> const ImageType &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_adapter_1_1_base.html#af5eb5f03a80f276c752d4d54d0c00fdf">parent</a> () const</td></tr>
-<tr class="separator:af5eb5f03a80f276c752d4d54d0c00fdf inherit pub_methods_class_m_r_1_1_adapter_1_1_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98a00fdeac3ee5400ce751ed853abd1d inherit pub_methods_class_m_r_1_1_adapter_1_1_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="src_2gui_2mrview_2tool_2connectome_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_adapter_1_1_base.html#a98a00fdeac3ee5400ce751ed853abd1d">name</a> () const</td></tr>
-<tr class="separator:a98a00fdeac3ee5400ce751ed853abd1d inherit pub_methods_class_m_r_1_1_adapter_1_1_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1468e5a26b287d72c8ef1d1681ef8aa inherit pub_methods_class_m_r_1_1_adapter_1_1_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="src_2gui_2mrview_2tool_2connectome_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_adapter_1_1_base.html#af1468e5a26b287d72c8ef1d1681ef8aa">ndim</a> () const</td></tr>
-<tr class="separator:af1468e5a26b287d72c8ef1d1681ef8aa inherit pub_methods_class_m_r_1_1_adapter_1_1_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac69afa634fbe95a1064e9a5ac4397421 inherit pub_methods_class_m_r_1_1_adapter_1_1_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="src_2gui_2mrview_2tool_2connectome_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_adapter_1_1_base.html#ac69afa634fbe95a1064e9a5ac4397421">size</a> (size_t <a class="el" href="noise__estimator_8h.html#a884869744ebf14a092b339ae65c2af37">axis</a>) const</td></tr>
-<tr class="separator:ac69afa634fbe95a1064e9a5ac4397421 inherit pub_methods_class_m_r_1_1_adapter_1_1_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4e5cade51830b458df64e3760ead7d6 inherit pub_methods_class_m_r_1_1_adapter_1_1_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="src_2gui_2mrview_2tool_2connectome_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> <a class="el" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_adapter_1_1_base.html#ac4e5cade51830b458df64e3760ead7d6">spacing</a> (size_t <a class="el" href="noise__estimator_8h.html#a884869744ebf14a092b339ae65c2af37">axis</a>) const</td></tr>
-<tr class="separator:ac4e5cade51830b458df64e3760ead7d6 inherit pub_methods_class_m_r_1_1_adapter_1_1_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6b8ada36110bf0868140c100c9a538a inherit pub_methods_class_m_r_1_1_adapter_1_1_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="src_2gui_2mrview_2tool_2connectome_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_adapter_1_1_base.html#ad6b8ada36110bf0868140c100c9a538a">stride</a> (size_t <a class="el" href="noise__estimator_8h.html#a884869744ebf14a092b339ae65c2af37">axis</a>) const</td></tr>
-<tr class="separator:ad6b8ada36110bf0868140c100c9a538a inherit pub_methods_class_m_r_1_1_adapter_1_1_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc134c9612dff92d32ef1e8e5fe203fd inherit pub_methods_class_m_r_1_1_adapter_1_1_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="src_2gui_2mrview_2tool_2connectome_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> const <a class="el" href="namespace_m_r.html#a8445ea7a4001a6e8532def9abb86d59e">transform_type</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_adapter_1_1_base.html#adc134c9612dff92d32ef1e8e5fe203fd">transform</a> () const</td></tr>
-<tr class="separator:adc134c9612dff92d32ef1e8e5fe203fd inherit pub_methods_class_m_r_1_1_adapter_1_1_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a53d354ab0082dd7f7f22e82de2ae91 inherit pub_methods_class_m_r_1_1_adapter_1_1_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="src_2gui_2mrview_2tool_2connectome_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> const std::map&lt; std::string, std::string &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_adapter_1_1_base.html#a7a53d354ab0082dd7f7f22e82de2ae91">keyval</a> () const</td></tr>
-<tr class="separator:a7a53d354ab0082dd7f7f22e82de2ae91 inherit pub_methods_class_m_r_1_1_adapter_1_1_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a275fae8b2f7e98a6bb4cba3591fdba6b inherit pub_methods_class_m_r_1_1_adapter_1_1_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="src_2gui_2mrview_2tool_2connectome_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_adapter_1_1_base.html#a275fae8b2f7e98a6bb4cba3591fdba6b">index</a> (size_t <a class="el" href="noise__estimator_8h.html#a884869744ebf14a092b339ae65c2af37">axis</a>) const</td></tr>
-<tr class="separator:a275fae8b2f7e98a6bb4cba3591fdba6b inherit pub_methods_class_m_r_1_1_adapter_1_1_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9534da8c1fb945affc7e8d1798704bb inherit pub_methods_class_m_r_1_1_adapter_1_1_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="src_2gui_2mrview_2tool_2connectome_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_adapter_1_1_base.html#ad9534da8c1fb945affc7e8d1798704bb">index</a> (size_t <a class="el" href="noise__estimator_8h.html#a884869744ebf14a092b339ae65c2af37">axis</a>) -&gt; decltype(Helper::index(*this, <a class="el" href="noise__estimator_8h.html#a884869744ebf14a092b339ae65c2af37">axis</a>))</td></tr>
-<tr class="separator:ad9534da8c1fb945affc7e8d1798704bb inherit pub_methods_class_m_r_1_1_adapter_1_1_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a456266c5ebbf7442a4f5065b28dfdf41 inherit pub_methods_class_m_r_1_1_adapter_1_1_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="src_2gui_2mrview_2tool_2connectome_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_adapter_1_1_base.html#a456266c5ebbf7442a4f5065b28dfdf41">move_index</a> (size_t <a class="el" href="noise__estimator_8h.html#a884869744ebf14a092b339ae65c2af37">axis</a>, ssize_t increment)</td></tr>
-<tr class="separator:a456266c5ebbf7442a4f5065b28dfdf41 inherit pub_methods_class_m_r_1_1_adapter_1_1_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2d4cc9152a581f5e680aba97996f1bc inherit pub_methods_class_m_r_1_1_adapter_1_1_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="src_2gui_2mrview_2tool_2connectome_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> <a class="el" href="class_m_r_1_1_adapter_1_1_base.html#ad0933415139ee75cbd7412fdbc8ebf90">value_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_adapter_1_1_base.html#af2d4cc9152a581f5e680aba97996f1bc">value</a> () const</td></tr>
-<tr class="separator:af2d4cc9152a581f5e680aba97996f1bc inherit pub_methods_class_m_r_1_1_adapter_1_1_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e9b8c45fdf47db6236318d407cc14f9 inherit pub_methods_class_m_r_1_1_adapter_1_1_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="src_2gui_2mrview_2tool_2connectome_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_adapter_1_1_base.html#a8e9b8c45fdf47db6236318d407cc14f9">value</a> () -&gt; decltype(Helper::value(*this))</td></tr>
-<tr class="separator:a8e9b8c45fdf47db6236318d407cc14f9 inherit pub_methods_class_m_r_1_1_adapter_1_1_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afaec5478c8fdee20b019350ed051f96b inherit pub_methods_class_m_r_1_1_adapter_1_1_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="src_2gui_2mrview_2tool_2connectome_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_adapter_1_1_base.html#afaec5478c8fdee20b019350ed051f96b">set_value</a> (<a class="el" href="class_m_r_1_1_adapter_1_1_base.html#ad0933415139ee75cbd7412fdbc8ebf90">value_type</a> val)</td></tr>
-<tr class="separator:afaec5478c8fdee20b019350ed051f96b inherit pub_methods_class_m_r_1_1_adapter_1_1_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7ae8f3ff5252c81b827d90390b15b77 inherit pub_methods_class_m_r_1_1_adapter_1_1_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="src_2gui_2mrview_2tool_2connectome_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> Eigen::Map&lt; Eigen::Matrix&lt; <a class="el" href="class_m_r_1_1_adapter_1_1_base.html#ad0933415139ee75cbd7412fdbc8ebf90">value_type</a>, Eigen::Dynamic, 1 &gt;, Eigen::Unaligned, Eigen::InnerStride&lt;&gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_adapter_1_1_base.html#ae7ae8f3ff5252c81b827d90390b15b77">row</a> (size_t <a class="el" href="noise__estimator_8h.html#a884869744ebf14a092b339ae65c2af37">axis</a>)</td></tr>
-<tr class="separator:ae7ae8f3ff5252c81b827d90390b15b77 inherit pub_methods_class_m_r_1_1_adapter_1_1_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a534e6149d5fd5c01d24b67676e2d2fe3 inherit pub_methods_class_m_r_1_1_adapter_1_1_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="src_2gui_2mrview_2tool_2connectome_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_adapter_1_1_base.html#a534e6149d5fd5c01d24b67676e2d2fe3">reset</a> ()</td></tr>
-<tr class="separator:a534e6149d5fd5c01d24b67676e2d2fe3 inherit pub_methods_class_m_r_1_1_adapter_1_1_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_attribs_class_m_r_1_1_adapter_1_1_base"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_m_r_1_1_adapter_1_1_base')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_m_r_1_1_adapter_1_1_base.html">MR::Adapter::Base&lt; ImageType &gt;</a></td></tr>
-<tr class="memitem:af73720a6e1ad68ada16c0213891fd000 inherit pro_attribs_class_m_r_1_1_adapter_1_1_base"><td class="memItemLeft" align="right" valign="top">ImageType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_adapter_1_1_base.html#af73720a6e1ad68ada16c0213891fd000">parent_</a></td></tr>
-<tr class="separator:af73720a6e1ad68ada16c0213891fd000 inherit pro_attribs_class_m_r_1_1_adapter_1_1_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_class_m_r_1_1_adapter_1_1_base"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_m_r_1_1_adapter_1_1_base')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_m_r_1_1_adapter_1_1_base.html">MR::Adapter::Base&lt; Extract&lt; ImageType &gt;, ImageType &gt;</a></td></tr>
+<tr class="memitem:a217cde397b590a0d4204e8d1512ff0d9 inherit pro_attribs_class_m_r_1_1_adapter_1_1_base"><td class="memItemLeft" align="right" valign="top">ImageType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_adapter_1_1_base.html#a217cde397b590a0d4204e8d1512ff0d9">parent_</a></td></tr>
+<tr class="separator:a217cde397b590a0d4204e8d1512ff0d9 inherit pro_attribs_class_m_r_1_1_adapter_1_1_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;class ImageType&gt;<br />
 class MR::Adapter::Extract&lt; ImageType &gt;</h3>
 
 
-<p class="definition">Definition at line <a class="el" href="lib_2adapter_2extract_8h_source.html#l00107">107</a> of file <a class="el" href="lib_2adapter_2extract_8h_source.html">extract.h</a>.</p>
-</div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a91f4a47b69171aa85f5d695450ce4aa4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a91f4a47b69171aa85f5d695450ce4aa4">&#9670;&nbsp;</a></span>value_type</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class ImageType &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_m_r_1_1_adapter_1_1_extract.html">MR::Adapter::Extract</a>&lt; ImageType &gt;::<a class="el" href="class_m_r_1_1_adapter_1_1_base.html#ad0933415139ee75cbd7412fdbc8ebf90">value_type</a> =  typename ImageType::value_type</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="lib_2adapter_2extract_8h_source.html#l00113">113</a> of file <a class="el" href="lib_2adapter_2extract_8h_source.html">extract.h</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ac0de063b1821f24cdca2b5f83591bd97"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac0de063b1821f24cdca2b5f83591bd97">&#9670;&nbsp;</a></span>Extract()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class ImageType &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_m_r_1_1_adapter_1_1_extract.html">MR::Adapter::Extract</a>&lt; ImageType &gt;::<a class="el" href="class_m_r_1_1_adapter_1_1_extract.html">Extract</a> </td>
-          <td>(</td>
-          <td class="paramtype">const ImageType &amp;&#160;</td>
-          <td class="paramname"><em>original</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::vector&lt; std::vector&lt; int &gt;&gt; &amp;&#160;</td>
-          <td class="paramname"><em>indices</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="lib_2adapter_2extract_8h_source.html#l00115">115</a> of file <a class="el" href="lib_2adapter_2extract_8h_source.html">extract.h</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a98873e39a3fc3fed6ed3cbe3b8085bfb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a98873e39a3fc3fed6ed3cbe3b8085bfb">&#9670;&nbsp;</a></span>index() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class ImageType &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">ssize_t <a class="el" href="class_m_r_1_1_adapter_1_1_extract.html">MR::Adapter::Extract</a>&lt; ImageType &gt;::index </td>
-          <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>axis</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="lib_2adapter_2extract_8h_source.html#l00146">146</a> of file <a class="el" href="lib_2adapter_2extract_8h_source.html">extract.h</a>.</p>
-
-</div>
-</div>
-<a id="ac17f4171e4cb198cdc79696b4be0396e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac17f4171e4cb198cdc79696b4be0396e">&#9670;&nbsp;</a></span>index() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class ImageType &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">auto <a class="el" href="class_m_r_1_1_adapter_1_1_extract.html">MR::Adapter::Extract</a>&lt; ImageType &gt;::index </td>
-          <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>axis</em></td><td>)</td>
-          <td> -&gt; decltype(Helper::index(*this, <a class="el" href="noise__estimator_8h.html#a884869744ebf14a092b339ae65c2af37">axis</a>)) </td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="lib_2adapter_2extract_8h_source.html#l00147">147</a> of file <a class="el" href="lib_2adapter_2extract_8h_source.html">extract.h</a>.</p>
-
-</div>
-</div>
-<a id="ace1fc73ba3bb69ac6ef97f313d2febec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ace1fc73ba3bb69ac6ef97f313d2febec">&#9670;&nbsp;</a></span>move_index()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class ImageType &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="class_m_r_1_1_adapter_1_1_extract.html">MR::Adapter::Extract</a>&lt; ImageType &gt;::move_index </td>
-          <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>axis</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ssize_t&#160;</td>
-          <td class="paramname"><em>increment</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="lib_2adapter_2extract_8h_source.html#l00148">148</a> of file <a class="el" href="lib_2adapter_2extract_8h_source.html">extract.h</a>.</p>
-
-</div>
-</div>
-<a id="a62e2dd6dab2b63b33582c48779554535"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a62e2dd6dab2b63b33582c48779554535">&#9670;&nbsp;</a></span>reset()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class ImageType &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="class_m_r_1_1_adapter_1_1_extract.html">MR::Adapter::Extract</a>&lt; ImageType &gt;::reset </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="lib_2adapter_2extract_8h_source.html#l00139">139</a> of file <a class="el" href="lib_2adapter_2extract_8h_source.html">extract.h</a>.</p>
-
-</div>
-</div>
-<a id="aa93a3c96ed3afd4ca2492723fddd09c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa93a3c96ed3afd4ca2492723fddd09c3">&#9670;&nbsp;</a></span>size()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class ImageType &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">EIGEN_MAKE_ALIGNED_OPERATOR_NEW ssize_t <a class="el" href="class_m_r_1_1_adapter_1_1_extract.html">MR::Adapter::Extract</a>&lt; ImageType &gt;::size </td>
-          <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>axis</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="lib_2adapter_2extract_8h_source.html#l00135">135</a> of file <a class="el" href="lib_2adapter_2extract_8h_source.html">extract.h</a>.</p>
-
-</div>
-</div>
-<a id="a6dd67fdac796f8503137056829722dac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6dd67fdac796f8503137056829722dac">&#9670;&nbsp;</a></span>transform()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class ImageType &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="namespace_m_r.html#a8445ea7a4001a6e8532def9abb86d59e">transform_type</a>&amp; <a class="el" href="class_m_r_1_1_adapter_1_1_extract.html">MR::Adapter::Extract</a>&lt; ImageType &gt;::transform </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="lib_2adapter_2extract_8h_source.html#l00137">137</a> of file <a class="el" href="lib_2adapter_2extract_8h_source.html">extract.h</a>.</p>
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li>lib/adapter/<a class="el" href="lib_2adapter_2extract_8h_source.html">extract.h</a></li>
+<p class="definition">Definition at line <a class="el" href="core_2adapter_2extract_8h_source.html#l00111">111</a> of file <a class="el" href="core_2adapter_2extract_8h_source.html">extract.h</a>.</p>
+</div><hr/>The documentation for this class was generated from the following file:<ul>
+<li>core/adapter/<a class="el" href="core_2adapter_2extract_8h_source.html">extract.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -440,7 +120,7 @@ template&lt;class ImageType &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_adapter.html">Adapter</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_adapter_1_1_extract.html">Extract</a></li>
-    <li class="footer">Generated on Wed Apr 19 2017 09:26:44 for MRtrix by
+    <li class="footer">Generated on Fri Aug 25 2017 11:14:46 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

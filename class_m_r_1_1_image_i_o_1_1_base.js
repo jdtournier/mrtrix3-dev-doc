@@ -21,8 +21,8 @@ var class_m_r_1_1_image_i_o_1_1_base =
     [ "set_readwrite_if_existing", "class_m_r_1_1_image_i_o_1_1_base.html#a9daa128ac0ba1de2e4ab1c47eb2d0f39", null ],
     [ "unload", "class_m_r_1_1_image_i_o_1_1_base.html#aefa99be437576e1e4f92e9b635b6f664", null ],
     [ "operator<<", "class_m_r_1_1_image_i_o_1_1_base.html#aa5e6d201196e6594fecabb13bd51ec6f", null ],
-    [ "addresses", "class_m_r_1_1_image_i_o_1_1_base.html#a9b3a169a2d58d31bf925e76d6240185e", null ],
-    [ "files", "class_m_r_1_1_image_i_o_1_1_base.html#a4a0159292a4aca692daec35ed3726e55", null ],
+    [ "addresses", "class_m_r_1_1_image_i_o_1_1_base.html#a045f5b498a4a682355012a761e22b9ef", null ],
+    [ "files", "class_m_r_1_1_image_i_o_1_1_base.html#a120f5e4db259d3e4a16a6119fdd82949", null ],
     [ "is_new", "class_m_r_1_1_image_i_o_1_1_base.html#a907fa4102d42387e435b14234113826c", null ],
     [ "segsize", "class_m_r_1_1_image_i_o_1_1_base.html#a5f51942b1e948a16e2fa3176fff338c2", null ],
     [ "writable", "class_m_r_1_1_image_i_o_1_1_base.html#a0983be4e0c2b4e10dc0e0833314a182b", null ]

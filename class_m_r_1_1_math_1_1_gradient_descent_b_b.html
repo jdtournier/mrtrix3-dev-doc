@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-535-g21da6244</div>
+   <div id="projectbrief">Version 3.0_RC2-24-gfc18ca90</div>
   </td>
  </tr>
  </tbody>
@@ -82,8 +82,6 @@ $(document).ready(function(){initNavTree('class_m_r_1_1_math_1_1_gradient_descen
 
 <div class="header">
   <div class="summary">
-<a href="#pub-types">Public Types</a> &#124;
-<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="class_m_r_1_1_math_1_1_gradient_descent_b_b-members.html">List of all members</a>  </div>
@@ -97,45 +95,9 @@ $(document).ready(function(){initNavTree('class_m_r_1_1_math_1_1_gradient_descen
 
 <p><code>#include &quot;<a class="el" href="gradient__descent__bb_8h_source.html">math/gradient_descent_bb.h</a>&quot;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
-Public Types</h2></td></tr>
-<tr class="memitem:a435a58092b8d325aae8d33d2e22df037"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a435a58092b8d325aae8d33d2e22df037">value_type</a> = typename Function::value_type</td></tr>
-<tr class="separator:a435a58092b8d325aae8d33d2e22df037"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a08f8a3e1ab42a88bff53facd9a49717c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a08f8a3e1ab42a88bff53facd9a49717c">GradientDescentBB</a> (Function &amp;function, UpdateFunctor update_functor=<a class="el" href="class_m_r_1_1_math_1_1_linear_update_b_b.html">LinearUpdateBB</a>(), bool <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#aabaee7d37112096c1257e77a73245f7a">verbose</a>=false)</td></tr>
-<tr class="separator:a08f8a3e1ab42a88bff53facd9a49717c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67ea96edba525e0ae7ae5214c3a1d1ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a435a58092b8d325aae8d33d2e22df037">value_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a67ea96edba525e0ae7ae5214c3a1d1ad">value</a> () const</td></tr>
-<tr class="separator:a67ea96edba525e0ae7ae5214c3a1d1ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c3cfe5629f078c791a30858f8528f99"><td class="memItemLeft" align="right" valign="top">const Eigen::Matrix&lt; <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a435a58092b8d325aae8d33d2e22df037">value_type</a>, Eigen::Dynamic, 1 &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a1c3cfe5629f078c791a30858f8528f99">state</a> () const</td></tr>
-<tr class="separator:a1c3cfe5629f078c791a30858f8528f99"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac946e9dc187ad78542a69a6e4e32fb7"><td class="memItemLeft" align="right" valign="top">const Eigen::Matrix&lt; <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a435a58092b8d325aae8d33d2e22df037">value_type</a>, Eigen::Dynamic, 1 &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#aac946e9dc187ad78542a69a6e4e32fb7">gradient</a> () const</td></tr>
-<tr class="separator:aac946e9dc187ad78542a69a6e4e32fb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af58ee0ddbc7c93932b9f654dd601f76f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a435a58092b8d325aae8d33d2e22df037">value_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#af58ee0ddbc7c93932b9f654dd601f76f">step_size</a> () const</td></tr>
-<tr class="separator:af58ee0ddbc7c93932b9f654dd601f76f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22f4b9c6cdc057af681dd04100440873"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a435a58092b8d325aae8d33d2e22df037">value_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a22f4b9c6cdc057af681dd04100440873">gradient_norm</a> () const</td></tr>
-<tr class="separator:a22f4b9c6cdc057af681dd04100440873"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad7d248b81bfc4a0b27ffcc2e6522a5ce"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#ad7d248b81bfc4a0b27ffcc2e6522a5ce">function_evaluations</a> () const</td></tr>
-<tr class="separator:ad7d248b81bfc4a0b27ffcc2e6522a5ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69b6d7f09ef98d263232625099ca57c0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a69b6d7f09ef98d263232625099ca57c0">be_verbose</a> (bool v)</td></tr>
-<tr class="separator:a69b6d7f09ef98d263232625099ca57c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0bf61792313739fc411c52166061b31c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a0bf61792313739fc411c52166061b31c">precondition</a> (const Eigen::Matrix&lt; <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a435a58092b8d325aae8d33d2e22df037">value_type</a>, Eigen::Dynamic, 1 &gt; &amp;weights)</td></tr>
-<tr class="separator:a0bf61792313739fc411c52166061b31c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94f4a9623dc564d1506b2c7590ab773a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a94f4a9623dc564d1506b2c7590ab773a">run</a> (const size_t max_iterations=1000, const <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a435a58092b8d325aae8d33d2e22df037">value_type</a> grad_tolerance=1e-6, std::streambuf *log_stream=nullptr)</td></tr>
-<tr class="separator:a94f4a9623dc564d1506b2c7590ab773a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac1c1ccfa63efb00f44257d521715e0be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#ac1c1ccfa63efb00f44257d521715e0be">init</a> ()</td></tr>
-<tr class="separator:ac1c1ccfa63efb00f44257d521715e0be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a687ecd419ac0e6a878609ed9b2487065"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a687ecd419ac0e6a878609ed9b2487065">init</a> (std::ostream &amp;log_os)</td></tr>
-<tr class="separator:a687ecd419ac0e6a878609ed9b2487065"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a447c73f99c99066a63b74996066784db"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a447c73f99c99066a63b74996066784db">iterate</a> ()</td></tr>
-<tr class="separator:a447c73f99c99066a63b74996066784db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2474a8347ee8508c766a0fe6ad625e8a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a2474a8347ee8508c766a0fe6ad625e8a">iterate</a> (std::ostream &amp;log_os)</td></tr>
-<tr class="separator:a2474a8347ee8508c766a0fe6ad625e8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a0d0786869ba2a493b8433aa2c975325b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a435a58092b8d325aae8d33d2e22df037">value_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a0d0786869ba2a493b8433aa2c975325b">evaluate_func</a> (const Eigen::Matrix&lt; <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a435a58092b8d325aae8d33d2e22df037">value_type</a>, Eigen::Dynamic, 1 &gt; &amp;newx, Eigen::Matrix&lt; <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a435a58092b8d325aae8d33d2e22df037">value_type</a>, Eigen::Dynamic, 1 &gt; &amp;newg, bool <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#aabaee7d37112096c1257e77a73245f7a">verbose</a>=false)</td></tr>
+<tr class="memitem:a0d0786869ba2a493b8433aa2c975325b"><td class="memItemLeft" align="right" valign="top">value_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a0d0786869ba2a493b8433aa2c975325b">evaluate_func</a> (const <a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt; value_type, Eigen::Dynamic, 1 &gt; &amp;newx, <a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt; value_type, Eigen::Dynamic, 1 &gt; &amp;newg, bool <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#aabaee7d37112096c1257e77a73245f7a">verbose</a>=false)</td></tr>
 <tr class="separator:a0d0786869ba2a493b8433aa2c975325b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a820f76c65de0e3de385e3068c15e6b80"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a820f76c65de0e3de385e3068c15e6b80">compute_normg_and_step</a> ()</td></tr>
 <tr class="separator:a820f76c65de0e3de385e3068c15e6b80"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -146,25 +108,25 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a8d4f8efcc54c07a28757eb0369630f32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46207d672de092a61ef99dad47f55e2d"><td class="memItemLeft" align="right" valign="top">UpdateFunctor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a46207d672de092a61ef99dad47f55e2d">update_func</a></td></tr>
 <tr class="separator:a46207d672de092a61ef99dad47f55e2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae8a5f81e9dc56f8aa580396223da5751"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix&lt; <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a435a58092b8d325aae8d33d2e22df037">value_type</a>, Eigen::Dynamic, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#ae8a5f81e9dc56f8aa580396223da5751">x1</a></td></tr>
+<tr class="memitem:ae8a5f81e9dc56f8aa580396223da5751"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt; value_type, Eigen::Dynamic, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#ae8a5f81e9dc56f8aa580396223da5751">x1</a></td></tr>
 <tr class="separator:ae8a5f81e9dc56f8aa580396223da5751"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a074a8b9728dc57cdc8ec50b05ea54b37"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix&lt; <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a435a58092b8d325aae8d33d2e22df037">value_type</a>, Eigen::Dynamic, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a074a8b9728dc57cdc8ec50b05ea54b37">x2</a></td></tr>
+<tr class="memitem:a074a8b9728dc57cdc8ec50b05ea54b37"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt; value_type, Eigen::Dynamic, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a074a8b9728dc57cdc8ec50b05ea54b37">x2</a></td></tr>
 <tr class="separator:a074a8b9728dc57cdc8ec50b05ea54b37"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae301bb08540c82a26d355754e9e6ab6e"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix&lt; <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a435a58092b8d325aae8d33d2e22df037">value_type</a>, Eigen::Dynamic, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#ae301bb08540c82a26d355754e9e6ab6e">x3</a></td></tr>
+<tr class="memitem:ae301bb08540c82a26d355754e9e6ab6e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt; value_type, Eigen::Dynamic, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#ae301bb08540c82a26d355754e9e6ab6e">x3</a></td></tr>
 <tr class="separator:ae301bb08540c82a26d355754e9e6ab6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89aafc335e4923b1739e27e6b82f5556"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix&lt; <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a435a58092b8d325aae8d33d2e22df037">value_type</a>, Eigen::Dynamic, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a89aafc335e4923b1739e27e6b82f5556">g1</a></td></tr>
+<tr class="memitem:a89aafc335e4923b1739e27e6b82f5556"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt; value_type, Eigen::Dynamic, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a89aafc335e4923b1739e27e6b82f5556">g1</a></td></tr>
 <tr class="separator:a89aafc335e4923b1739e27e6b82f5556"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1c7503beebcfff3ecbd7de80323275d"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix&lt; <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a435a58092b8d325aae8d33d2e22df037">value_type</a>, Eigen::Dynamic, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#ad1c7503beebcfff3ecbd7de80323275d">g2</a></td></tr>
+<tr class="memitem:ad1c7503beebcfff3ecbd7de80323275d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt; value_type, Eigen::Dynamic, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#ad1c7503beebcfff3ecbd7de80323275d">g2</a></td></tr>
 <tr class="separator:ad1c7503beebcfff3ecbd7de80323275d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d4171c57e3da6df94fbe497d2847d88"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix&lt; <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a435a58092b8d325aae8d33d2e22df037">value_type</a>, Eigen::Dynamic, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a8d4171c57e3da6df94fbe497d2847d88">g3</a></td></tr>
+<tr class="memitem:a8d4171c57e3da6df94fbe497d2847d88"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt; value_type, Eigen::Dynamic, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a8d4171c57e3da6df94fbe497d2847d88">g3</a></td></tr>
 <tr class="separator:a8d4171c57e3da6df94fbe497d2847d88"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a475c243a07893d58fc10ec858991cfe6"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix&lt; <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a435a58092b8d325aae8d33d2e22df037">value_type</a>, Eigen::Dynamic, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a475c243a07893d58fc10ec858991cfe6">preconditioner_weights</a></td></tr>
+<tr class="memitem:a475c243a07893d58fc10ec858991cfe6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt; value_type, Eigen::Dynamic, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a475c243a07893d58fc10ec858991cfe6">preconditioner_weights</a></td></tr>
 <tr class="separator:a475c243a07893d58fc10ec858991cfe6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a733f2dfdc3e9129fceb48dcd61bc3582"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a435a58092b8d325aae8d33d2e22df037">value_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a733f2dfdc3e9129fceb48dcd61bc3582">f</a></td></tr>
+<tr class="memitem:a733f2dfdc3e9129fceb48dcd61bc3582"><td class="memItemLeft" align="right" valign="top">value_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a733f2dfdc3e9129fceb48dcd61bc3582">f</a></td></tr>
 <tr class="separator:a733f2dfdc3e9129fceb48dcd61bc3582"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba1208436a09fd943b04af41eb9324ec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a435a58092b8d325aae8d33d2e22df037">value_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#aba1208436a09fd943b04af41eb9324ec">dt</a></td></tr>
+<tr class="memitem:aba1208436a09fd943b04af41eb9324ec"><td class="memItemLeft" align="right" valign="top">value_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#aba1208436a09fd943b04af41eb9324ec">dt</a></td></tr>
 <tr class="separator:aba1208436a09fd943b04af41eb9324ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed810cef6d76e37a1beba7d94b096111"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a435a58092b8d325aae8d33d2e22df037">value_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#aed810cef6d76e37a1beba7d94b096111">normg</a></td></tr>
+<tr class="memitem:aed810cef6d76e37a1beba7d94b096111"><td class="memItemLeft" align="right" valign="top">value_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#aed810cef6d76e37a1beba7d94b096111">normg</a></td></tr>
 <tr class="separator:aed810cef6d76e37a1beba7d94b096111"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab179aea4d9df9a52b6daf22ba48088d0"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#ab179aea4d9df9a52b6daf22ba48088d0">nfeval</a></td></tr>
 <tr class="separator:ab179aea4d9df9a52b6daf22ba48088d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -181,104 +143,8 @@ class MR::Math::GradientDescentBB&lt; Function, UpdateFunctor &gt;</h3>
 
 <p>Computes the minimum of a function using a Barzilai Borwein gradient descent approach. </p>
 
-<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00049">49</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
-</div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a435a58092b8d325aae8d33d2e22df037"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a435a58092b8d325aae8d33d2e22df037">&#9670;&nbsp;</a></span>value_type</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html">MR::Math::GradientDescentBB</a>&lt; Function, UpdateFunctor &gt;::<a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a435a58092b8d325aae8d33d2e22df037">value_type</a> =  typename Function::value_type</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00052">52</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a08f8a3e1ab42a88bff53facd9a49717c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a08f8a3e1ab42a88bff53facd9a49717c">&#9670;&nbsp;</a></span>GradientDescentBB()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html">MR::Math::GradientDescentBB</a>&lt; Function, UpdateFunctor &gt;::<a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html">GradientDescentBB</a> </td>
-          <td>(</td>
-          <td class="paramtype">Function &amp;&#160;</td>
-          <td class="paramname"><em>function</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">UpdateFunctor&#160;</td>
-          <td class="paramname"><em>update_functor</em> = <code><a class="el" href="class_m_r_1_1_math_1_1_linear_update_b_b.html">LinearUpdateBB</a>()</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>verbose</em> = <code>false</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00054">54</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a69b6d7f09ef98d263232625099ca57c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a69b6d7f09ef98d263232625099ca57c0">&#9670;&nbsp;</a></span>be_verbose()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html">MR::Math::GradientDescentBB</a>&lt; Function, UpdateFunctor &gt;::be_verbose </td>
-          <td>(</td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>v</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00075">75</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
-
-</div>
-</div>
+<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00048">48</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a820f76c65de0e3de385e3068c15e6b80"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a820f76c65de0e3de385e3068c15e6b80">&#9670;&nbsp;</a></span>compute_normg_and_step()</h2>
 
@@ -304,7 +170,7 @@ template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00216">216</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00215">215</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
 
 </div>
 </div>
@@ -320,15 +186,15 @@ template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a435a58092b8d325aae8d33d2e22df037">value_type</a> <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html">MR::Math::GradientDescentBB</a>&lt; Function, UpdateFunctor &gt;::evaluate_func </td>
+          <td class="memname">value_type <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html">MR::Math::GradientDescentBB</a>&lt; Function, UpdateFunctor &gt;::evaluate_func </td>
           <td>(</td>
-          <td class="paramtype">const Eigen::Matrix&lt; <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a435a58092b8d325aae8d33d2e22df037">value_type</a>, Eigen::Dynamic, 1 &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt; value_type, Eigen::Dynamic, 1 &gt; &amp;&#160;</td>
           <td class="paramname"><em>newx</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Eigen::Matrix&lt; <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a435a58092b8d325aae8d33d2e22df037">value_type</a>, Eigen::Dynamic, 1 &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt; value_type, Eigen::Dynamic, 1 &gt; &amp;&#160;</td>
           <td class="paramname"><em>newg</em>, </td>
         </tr>
         <tr>
@@ -350,375 +216,7 @@ template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00203">203</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
-
-</div>
-</div>
-<a id="ad7d248b81bfc4a0b27ffcc2e6522a5ce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad7d248b81bfc4a0b27ffcc2e6522a5ce">&#9670;&nbsp;</a></span>function_evaluations()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html">MR::Math::GradientDescentBB</a>&lt; Function, UpdateFunctor &gt;::function_evaluations </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00073">73</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
-
-</div>
-</div>
-<a id="aac946e9dc187ad78542a69a6e4e32fb7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aac946e9dc187ad78542a69a6e4e32fb7">&#9670;&nbsp;</a></span>gradient()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const Eigen::Matrix&lt;<a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a435a58092b8d325aae8d33d2e22df037">value_type</a>, Eigen::Dynamic, 1&gt;&amp; <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html">MR::Math::GradientDescentBB</a>&lt; Function, UpdateFunctor &gt;::gradient </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00070">70</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
-
-</div>
-</div>
-<a id="a22f4b9c6cdc057af681dd04100440873"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a22f4b9c6cdc057af681dd04100440873">&#9670;&nbsp;</a></span>gradient_norm()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a435a58092b8d325aae8d33d2e22df037">value_type</a> <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html">MR::Math::GradientDescentBB</a>&lt; Function, UpdateFunctor &gt;::gradient_norm </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00072">72</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
-
-</div>
-</div>
-<a id="ac1c1ccfa63efb00f44257d521715e0be"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac1c1ccfa63efb00f44257d521715e0be">&#9670;&nbsp;</a></span>init() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html">MR::Math::GradientDescentBB</a>&lt; Function, UpdateFunctor &gt;::init </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00121">121</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
-
-</div>
-</div>
-<a id="a687ecd419ac0e6a878609ed9b2487065"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a687ecd419ac0e6a878609ed9b2487065">&#9670;&nbsp;</a></span>init() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html">MR::Math::GradientDescentBB</a>&lt; Function, UpdateFunctor &gt;::init </td>
-          <td>(</td>
-          <td class="paramtype">std::ostream &amp;&#160;</td>
-          <td class="paramname"><em>log_os</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00126">126</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
-
-</div>
-</div>
-<a id="a447c73f99c99066a63b74996066784db"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a447c73f99c99066a63b74996066784db">&#9670;&nbsp;</a></span>iterate() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html">MR::Math::GradientDescentBB</a>&lt; Function, UpdateFunctor &gt;::iterate </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00167">167</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
-
-</div>
-</div>
-<a id="a2474a8347ee8508c766a0fe6ad625e8a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2474a8347ee8508c766a0fe6ad625e8a">&#9670;&nbsp;</a></span>iterate() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html">MR::Math::GradientDescentBB</a>&lt; Function, UpdateFunctor &gt;::iterate </td>
-          <td>(</td>
-          <td class="paramtype">std::ostream &amp;&#160;</td>
-          <td class="paramname"><em>log_os</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00172">172</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
-
-</div>
-</div>
-<a id="a0bf61792313739fc411c52166061b31c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0bf61792313739fc411c52166061b31c">&#9670;&nbsp;</a></span>precondition()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html">MR::Math::GradientDescentBB</a>&lt; Function, UpdateFunctor &gt;::precondition </td>
-          <td>(</td>
-          <td class="paramtype">const Eigen::Matrix&lt; <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a435a58092b8d325aae8d33d2e22df037">value_type</a>, Eigen::Dynamic, 1 &gt; &amp;&#160;</td>
-          <td class="paramname"><em>weights</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00076">76</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
-
-</div>
-</div>
-<a id="a94f4a9623dc564d1506b2c7590ab773a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a94f4a9623dc564d1506b2c7590ab773a">&#9670;&nbsp;</a></span>run()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html">MR::Math::GradientDescentBB</a>&lt; Function, UpdateFunctor &gt;::run </td>
-          <td>(</td>
-          <td class="paramtype">const size_t&#160;</td>
-          <td class="paramname"><em>max_iterations</em> = <code>1000</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a435a58092b8d325aae8d33d2e22df037">value_type</a>&#160;</td>
-          <td class="paramname"><em>grad_tolerance</em> = <code>1e-6</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::streambuf *&#160;</td>
-          <td class="paramname"><em>log_stream</em> = <code>nullptr</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00080">80</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
-
-</div>
-</div>
-<a id="a1c3cfe5629f078c791a30858f8528f99"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1c3cfe5629f078c791a30858f8528f99">&#9670;&nbsp;</a></span>state()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const Eigen::Matrix&lt;<a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a435a58092b8d325aae8d33d2e22df037">value_type</a>, Eigen::Dynamic, 1&gt;&amp; <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html">MR::Math::GradientDescentBB</a>&lt; Function, UpdateFunctor &gt;::state </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00069">69</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
-
-</div>
-</div>
-<a id="af58ee0ddbc7c93932b9f654dd601f76f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af58ee0ddbc7c93932b9f654dd601f76f">&#9670;&nbsp;</a></span>step_size()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a435a58092b8d325aae8d33d2e22df037">value_type</a> <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html">MR::Math::GradientDescentBB</a>&lt; Function, UpdateFunctor &gt;::step_size </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00071">71</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
-
-</div>
-</div>
-<a id="a67ea96edba525e0ae7ae5214c3a1d1ad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a67ea96edba525e0ae7ae5214c3a1d1ad">&#9670;&nbsp;</a></span>value()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a435a58092b8d325aae8d33d2e22df037">value_type</a> <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html">MR::Math::GradientDescentBB</a>&lt; Function, UpdateFunctor &gt;::value </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00068">68</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00202">202</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
 
 </div>
 </div>
@@ -745,7 +243,7 @@ template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00201">201</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00200">200</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
 
 </div>
 </div>
@@ -761,7 +259,7 @@ template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a435a58092b8d325aae8d33d2e22df037">value_type</a> <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html">MR::Math::GradientDescentBB</a>&lt; Function, UpdateFunctor &gt;::dt</td>
+          <td class="memname">value_type <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html">MR::Math::GradientDescentBB</a>&lt; Function, UpdateFunctor &gt;::dt</td>
         </tr>
       </table>
   </td>
@@ -771,7 +269,7 @@ template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00197">197</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00196">196</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
 
 </div>
 </div>
@@ -787,7 +285,7 @@ template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a435a58092b8d325aae8d33d2e22df037">value_type</a> <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html">MR::Math::GradientDescentBB</a>&lt; Function, UpdateFunctor &gt;::f</td>
+          <td class="memname">value_type <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html">MR::Math::GradientDescentBB</a>&lt; Function, UpdateFunctor &gt;::f</td>
         </tr>
       </table>
   </td>
@@ -797,7 +295,7 @@ template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00197">197</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00196">196</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
 
 </div>
 </div>
@@ -823,7 +321,7 @@ template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00194">194</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00193">193</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
 
 </div>
 </div>
@@ -839,7 +337,7 @@ template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Eigen::Matrix&lt;<a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a435a58092b8d325aae8d33d2e22df037">value_type</a>, Eigen::Dynamic, 1&gt; <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html">MR::Math::GradientDescentBB</a>&lt; Function, UpdateFunctor &gt;::g1</td>
+          <td class="memname"><a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt;value_type, Eigen::Dynamic, 1&gt; <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html">MR::Math::GradientDescentBB</a>&lt; Function, UpdateFunctor &gt;::g1</td>
         </tr>
       </table>
   </td>
@@ -849,7 +347,7 @@ template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00196">196</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00195">195</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
 
 </div>
 </div>
@@ -865,7 +363,7 @@ template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Eigen::Matrix&lt;<a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a435a58092b8d325aae8d33d2e22df037">value_type</a>, Eigen::Dynamic, 1&gt; <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html">MR::Math::GradientDescentBB</a>&lt; Function, UpdateFunctor &gt;::g2</td>
+          <td class="memname"><a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt;value_type, Eigen::Dynamic, 1&gt; <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html">MR::Math::GradientDescentBB</a>&lt; Function, UpdateFunctor &gt;::g2</td>
         </tr>
       </table>
   </td>
@@ -875,7 +373,7 @@ template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00196">196</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00195">195</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
 
 </div>
 </div>
@@ -891,7 +389,7 @@ template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Eigen::Matrix&lt;<a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a435a58092b8d325aae8d33d2e22df037">value_type</a>, Eigen::Dynamic, 1&gt; <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html">MR::Math::GradientDescentBB</a>&lt; Function, UpdateFunctor &gt;::g3</td>
+          <td class="memname"><a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt;value_type, Eigen::Dynamic, 1&gt; <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html">MR::Math::GradientDescentBB</a>&lt; Function, UpdateFunctor &gt;::g3</td>
         </tr>
       </table>
   </td>
@@ -901,7 +399,7 @@ template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00196">196</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00195">195</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
 
 </div>
 </div>
@@ -927,7 +425,7 @@ template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00198">198</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00197">197</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
 
 </div>
 </div>
@@ -953,7 +451,7 @@ template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00199">199</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00198">198</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
 
 </div>
 </div>
@@ -969,7 +467,7 @@ template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a435a58092b8d325aae8d33d2e22df037">value_type</a> <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html">MR::Math::GradientDescentBB</a>&lt; Function, UpdateFunctor &gt;::normg</td>
+          <td class="memname">value_type <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html">MR::Math::GradientDescentBB</a>&lt; Function, UpdateFunctor &gt;::normg</td>
         </tr>
       </table>
   </td>
@@ -979,7 +477,7 @@ template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00197">197</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00196">196</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
 
 </div>
 </div>
@@ -995,7 +493,7 @@ template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Eigen::Matrix&lt;<a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a435a58092b8d325aae8d33d2e22df037">value_type</a>, Eigen::Dynamic, 1&gt; <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html">MR::Math::GradientDescentBB</a>&lt; Function, UpdateFunctor &gt;::preconditioner_weights</td>
+          <td class="memname"><a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt;value_type, Eigen::Dynamic, 1&gt; <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html">MR::Math::GradientDescentBB</a>&lt; Function, UpdateFunctor &gt;::preconditioner_weights</td>
         </tr>
       </table>
   </td>
@@ -1005,7 +503,7 @@ template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00196">196</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00195">195</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
 
 </div>
 </div>
@@ -1031,7 +529,7 @@ template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00195">195</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00194">194</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
 
 </div>
 </div>
@@ -1057,7 +555,7 @@ template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00200">200</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00199">199</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
 
 </div>
 </div>
@@ -1073,7 +571,7 @@ template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Eigen::Matrix&lt;<a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a435a58092b8d325aae8d33d2e22df037">value_type</a>, Eigen::Dynamic, 1&gt; <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html">MR::Math::GradientDescentBB</a>&lt; Function, UpdateFunctor &gt;::x1</td>
+          <td class="memname"><a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt;value_type, Eigen::Dynamic, 1&gt; <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html">MR::Math::GradientDescentBB</a>&lt; Function, UpdateFunctor &gt;::x1</td>
         </tr>
       </table>
   </td>
@@ -1083,7 +581,7 @@ template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00196">196</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00195">195</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
 
 </div>
 </div>
@@ -1099,7 +597,7 @@ template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Eigen::Matrix&lt;<a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a435a58092b8d325aae8d33d2e22df037">value_type</a>, Eigen::Dynamic, 1&gt; <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html">MR::Math::GradientDescentBB</a>&lt; Function, UpdateFunctor &gt;::x2</td>
+          <td class="memname"><a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt;value_type, Eigen::Dynamic, 1&gt; <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html">MR::Math::GradientDescentBB</a>&lt; Function, UpdateFunctor &gt;::x2</td>
         </tr>
       </table>
   </td>
@@ -1109,7 +607,7 @@ template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00196">196</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00195">195</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
 
 </div>
 </div>
@@ -1125,7 +623,7 @@ template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Eigen::Matrix&lt;<a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a435a58092b8d325aae8d33d2e22df037">value_type</a>, Eigen::Dynamic, 1&gt; <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html">MR::Math::GradientDescentBB</a>&lt; Function, UpdateFunctor &gt;::x3</td>
+          <td class="memname"><a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt;value_type, Eigen::Dynamic, 1&gt; <a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html">MR::Math::GradientDescentBB</a>&lt; Function, UpdateFunctor &gt;::x3</td>
         </tr>
       </table>
   </td>
@@ -1135,12 +633,12 @@ template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00196">196</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00195">195</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>lib/math/<a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a></li>
+<li>core/math/<a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -1148,7 +646,7 @@ template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_math.html">Math</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html">GradientDescentBB</a></li>
-    <li class="footer">Generated on Wed Apr 19 2017 09:26:46 for MRtrix by
+    <li class="footer">Generated on Fri Aug 25 2017 11:14:47 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

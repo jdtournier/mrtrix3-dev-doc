@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC2-22-gb30ad75c</div>
+   <div id="projectbrief">Version 3.0_RC2-24-gfc18ca90</div>
   </td>
  </tr>
  </tbody>
@@ -89,13 +89,13 @@ $(document).ready(function(){initNavTree('compose_8h.html','');});
 <div class="title">compose.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;algo/threaded_loop.h&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="threaded__loop_8h_source.html">algo/threaded_loop.h</a>&quot;</code><br />
 <code>#include &quot;image.h&quot;</code><br />
-<code>#include &quot;transform.h&quot;</code><br />
-<code>#include &quot;interp/linear.h&quot;</code><br />
-<code>#include &quot;adapter/jacobian.h&quot;</code><br />
-<code>#include &quot;<a class="el" href="helpers_8h_source.html">registration/warp/helpers.h</a>&quot;</code><br />
-<code>#include &quot;adapter/extract.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="transform_8h_source.html">transform.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="core_2interp_2linear_8h_source.html">interp/linear.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="jacobian_8h_source.html">adapter/jacobian.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="src_2registration_2warp_2helpers_8h_source.html">registration/warp/helpers.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="core_2adapter_2extract_8h_source.html">adapter/extract.h</a>&quot;</code><br />
 </div>
 <p><a href="compose_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -122,26 +122,26 @@ Namespaces</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a5796ee7ec9f5807b8a2d0645f74297a2"><td class="memTemplParams" colspan="2">template&lt;class DisplacementFieldType , class DeformationFieldType &gt; </td></tr>
-<tr class="memitem:a5796ee7ec9f5807b8a2d0645f74297a2"><td class="memTemplItemLeft" align="right" valign="top">FORCE_INLINE void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_warp.html#a5796ee7ec9f5807b8a2d0645f74297a2">MR::Registration::Warp::compose_linear_displacement</a> (const transform_type &amp;transform, DisplacementFieldType &amp;disp_in, DeformationFieldType &amp;deform_out)</td></tr>
+<tr class="memitem:a5796ee7ec9f5807b8a2d0645f74297a2"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="src_2surface_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_warp.html#a5796ee7ec9f5807b8a2d0645f74297a2">MR::Registration::Warp::compose_linear_displacement</a> (const transform_type &amp;transform, DisplacementFieldType &amp;disp_in, DeformationFieldType &amp;deform_out)</td></tr>
 <tr class="separator:a5796ee7ec9f5807b8a2d0645f74297a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adfb0e43a9dce687719cfd1ea539bf80f"><td class="memTemplParams" colspan="2">template&lt;class InputDeformationFieldType , class OutputDeformationFieldType &gt; </td></tr>
-<tr class="memitem:adfb0e43a9dce687719cfd1ea539bf80f"><td class="memTemplItemLeft" align="right" valign="top">FORCE_INLINE void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_warp.html#adfb0e43a9dce687719cfd1ea539bf80f">MR::Registration::Warp::compose_linear_deformation</a> (const transform_type &amp;transform, InputDeformationFieldType &amp;deform_in, OutputDeformationFieldType &amp;deform_out)</td></tr>
+<tr class="memitem:adfb0e43a9dce687719cfd1ea539bf80f"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="src_2surface_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_warp.html#adfb0e43a9dce687719cfd1ea539bf80f">MR::Registration::Warp::compose_linear_deformation</a> (const transform_type &amp;transform, InputDeformationFieldType &amp;deform_in, OutputDeformationFieldType &amp;deform_out)</td></tr>
 <tr class="separator:adfb0e43a9dce687719cfd1ea539bf80f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61e25d3d1663a72f88a6688f40d5e7cf"><td class="memItemLeft" align="right" valign="top">FORCE_INLINE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_warp.html#a61e25d3d1663a72f88a6688f40d5e7cf">MR::Registration::Warp::update_displacement</a> (Image&lt; default_type &gt; &amp;input, Image&lt; default_type &gt; &amp;update, Image&lt; default_type &gt; &amp;output, default_type step=1.0)</td></tr>
+<tr class="memitem:a61e25d3d1663a72f88a6688f40d5e7cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="src_2surface_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_warp.html#a61e25d3d1663a72f88a6688f40d5e7cf">MR::Registration::Warp::update_displacement</a> (Image&lt; default_type &gt; &amp;input, Image&lt; default_type &gt; &amp;update, Image&lt; default_type &gt; &amp;output, default_type step=1.0)</td></tr>
 <tr class="separator:a61e25d3d1663a72f88a6688f40d5e7cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0097922d59c825a54810e691053e4ed1"><td class="memItemLeft" align="right" valign="top">FORCE_INLINE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_warp.html#a0097922d59c825a54810e691053e4ed1">MR::Registration::Warp::update_displacement_scaling_and_squaring</a> (Image&lt; default_type &gt; &amp;input, Image&lt; default_type &gt; &amp;update, Image&lt; default_type &gt; &amp;output, const default_type step=1.0)</td></tr>
+<tr class="memitem:a0097922d59c825a54810e691053e4ed1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="src_2surface_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_warp.html#a0097922d59c825a54810e691053e4ed1">MR::Registration::Warp::update_displacement_scaling_and_squaring</a> (Image&lt; default_type &gt; &amp;input, Image&lt; default_type &gt; &amp;update, Image&lt; default_type &gt; &amp;output, const default_type step=1.0)</td></tr>
 <tr class="separator:a0097922d59c825a54810e691053e4ed1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae59b92fea830e4bfbb3258e0da1c6d86"><td class="memTemplParams" colspan="2">template&lt;class DeformationField1Type , class DeformationField2Type , class OutputDeformationFieldType &gt; </td></tr>
-<tr class="memitem:ae59b92fea830e4bfbb3258e0da1c6d86"><td class="memTemplItemLeft" align="right" valign="top">FORCE_INLINE void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_warp.html#ae59b92fea830e4bfbb3258e0da1c6d86">MR::Registration::Warp::compute_full_deformation</a> (const transform_type &amp;linear1, DeformationField1Type &amp;deform1, DeformationField2Type &amp;deform2, const transform_type &amp;linear2, OutputDeformationFieldType &amp;deform_out)</td></tr>
+<tr class="memitem:ae59b92fea830e4bfbb3258e0da1c6d86"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="src_2surface_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_warp.html#ae59b92fea830e4bfbb3258e0da1c6d86">MR::Registration::Warp::compute_full_deformation</a> (const transform_type &amp;linear1, DeformationField1Type &amp;deform1, DeformationField2Type &amp;deform2, const transform_type &amp;linear2, OutputDeformationFieldType &amp;deform_out)</td></tr>
 <tr class="separator:ae59b92fea830e4bfbb3258e0da1c6d86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5f3cfedf73a11734aef078f6d9d0704"><td class="memTemplParams" colspan="2">template&lt;class DeformationField1Type , class DeformationField2Type , class OutputDeformationFieldType &gt; </td></tr>
-<tr class="memitem:af5f3cfedf73a11734aef078f6d9d0704"><td class="memTemplItemLeft" align="right" valign="top">FORCE_INLINE void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_warp.html#af5f3cfedf73a11734aef078f6d9d0704">MR::Registration::Warp::compute_full_deformation</a> (std::string message, const transform_type &amp;linear1, DeformationField1Type &amp;deform1, DeformationField2Type &amp;deform2, const transform_type &amp;linear2, OutputDeformationFieldType &amp;deform_out)</td></tr>
+<tr class="memitem:af5f3cfedf73a11734aef078f6d9d0704"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="src_2surface_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_warp.html#af5f3cfedf73a11734aef078f6d9d0704">MR::Registration::Warp::compute_full_deformation</a> (std::string message, const transform_type &amp;linear1, DeformationField1Type &amp;deform1, DeformationField2Type &amp;deform2, const transform_type &amp;linear2, OutputDeformationFieldType &amp;deform_out)</td></tr>
 <tr class="separator:af5f3cfedf73a11734aef078f6d9d0704"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73ebce0f5f90fe7f3bd7c2a53b7a5742"><td class="memTemplParams" colspan="2">template&lt;class WarpType &gt; </td></tr>
-<tr class="memitem:a73ebce0f5f90fe7f3bd7c2a53b7a5742"><td class="memTemplItemLeft" align="right" valign="top">FORCE_INLINE WarpType&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_warp.html#a73ebce0f5f90fe7f3bd7c2a53b7a5742">MR::Registration::Warp::compute_midway_deformation</a> (WarpType &amp;warp, const int from)</td></tr>
+<tr class="memitem:a73ebce0f5f90fe7f3bd7c2a53b7a5742"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="src_2surface_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> WarpType&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_warp.html#a73ebce0f5f90fe7f3bd7c2a53b7a5742">MR::Registration::Warp::compute_midway_deformation</a> (WarpType &amp;warp, const int from)</td></tr>
 <tr class="separator:a73ebce0f5f90fe7f3bd7c2a53b7a5742"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a77f0b975b8c190a70c6d54b77ab578fa"><td class="memTemplParams" colspan="2">template&lt;class WarpType , class TemplateType &gt; </td></tr>
-<tr class="memitem:a77f0b975b8c190a70c6d54b77ab578fa"><td class="memTemplItemLeft" align="right" valign="top">FORCE_INLINE WarpType&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_warp.html#a77f0b975b8c190a70c6d54b77ab578fa">MR::Registration::Warp::compute_full_deformation</a> (WarpType &amp;warp, TemplateType &amp;template_image, const int from)</td></tr>
+<tr class="memitem:a77f0b975b8c190a70c6d54b77ab578fa"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="src_2surface_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> WarpType&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration_1_1_warp.html#a77f0b975b8c190a70c6d54b77ab578fa">MR::Registration::Warp::compute_full_deformation</a> (WarpType &amp;warp, TemplateType &amp;template_image, const int from)</td></tr>
 <tr class="separator:a77f0b975b8c190a70c6d54b77ab578fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
@@ -150,7 +150,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_2809abdae02e13f948aa32ba36e8b7d2.html">registration</a></li><li class="navelem"><a class="el" href="dir_e615916324bdf494d557bc1f6b524884.html">warp</a></li><li class="navelem"><a class="el" href="compose_8h.html">compose.h</a></li>
-    <li class="footer">Generated on Thu Aug 24 2017 14:00:52 for MRtrix by
+    <li class="footer">Generated on Fri Aug 25 2017 11:14:45 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

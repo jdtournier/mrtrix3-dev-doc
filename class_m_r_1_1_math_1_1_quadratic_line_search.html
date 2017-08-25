@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-535-g21da6244</div>
+   <div id="projectbrief">Version 3.0_RC2-24-gfc18ca90</div>
   </td>
  </tr>
  </tbody>
@@ -82,8 +82,6 @@ $(document).ready(function(){initNavTree('class_m_r_1_1_math_1_1_quadratic_line_
 
 <div class="header">
   <div class="summary">
-<a href="#pub-types">Public Types</a> &#124;
-<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="class_m_r_1_1_math_1_1_quadratic_line_search-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">MR::Math::QuadraticLineSearch&lt; ValueType &gt; Class Template Reference<div class="ingroups"><a class="el" href="group___optimisation.html">Optimisation</a></div></div>  </div>
@@ -94,49 +92,6 @@ $(document).ready(function(){initNavTree('class_m_r_1_1_math_1_1_quadratic_line_
  <a href="class_m_r_1_1_math_1_1_quadratic_line_search.html#details">More...</a></p>
 
 <p><code>#include &quot;<a class="el" href="quadratic__line__search_8h_source.html">math/quadratic_line_search.h</a>&quot;</code></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
-Public Types</h2></td></tr>
-<tr class="memitem:ga142be9450c9aac5265dc923bab259fce"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___optimisation.html#ga142be9450c9aac5265dc923bab259fce">return_t</a> { <br />
-&#160;&#160;<a class="el" href="group___optimisation.html#gga142be9450c9aac5265dc923bab259fcea81bb1ffbe60cc7d057a3a307a8d98dae">SUCCESS</a>, 
-<a class="el" href="group___optimisation.html#gga142be9450c9aac5265dc923bab259fcea96f5c11f8cbb1ec77c39936bbf9cabe3">EXECUTING</a>, 
-<a class="el" href="group___optimisation.html#gga142be9450c9aac5265dc923bab259fcea2bf76fde2951b3b7f6255db1be6fd680">OUTSIDE_BOUNDS</a>, 
-<a class="el" href="group___optimisation.html#gga142be9450c9aac5265dc923bab259fceaa00ffe3d33bb595c282fd1cd8dfa7fd2">NONCONVEX</a>, 
-<br />
-&#160;&#160;<a class="el" href="group___optimisation.html#gga142be9450c9aac5265dc923bab259fceacdfd6bb29ecdd532108415166c69c03e">NONCONVERGING</a>
-<br />
- }</td></tr>
-<tr class="separator:ga142be9450c9aac5265dc923bab259fce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:ga7b07349d48ba1b07a95c746b1c6bc2e7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___optimisation.html#ga7b07349d48ba1b07a95c746b1c6bc2e7">QuadraticLineSearch</a> (const ValueType lower_bound, const ValueType upper_bound)</td></tr>
-<tr class="separator:ga7b07349d48ba1b07a95c746b1c6bc2e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9a0bbf2131b259f6a5c4b15af14a3d8a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___optimisation.html#ga9a0bbf2131b259f6a5c4b15af14a3d8a">set_lower_bound</a> (const ValueType i)</td></tr>
-<tr class="separator:ga9a0bbf2131b259f6a5c4b15af14a3d8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga97496bb89f378c3a4ab5a1891a8057ac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___optimisation.html#ga97496bb89f378c3a4ab5a1891a8057ac">set_init_estimate</a> (const ValueType i)</td></tr>
-<tr class="separator:ga97496bb89f378c3a4ab5a1891a8057ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga828b4672982914316f003b777ec9ad82"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___optimisation.html#ga828b4672982914316f003b777ec9ad82">set_upper_bound</a> (const ValueType i)</td></tr>
-<tr class="separator:ga828b4672982914316f003b777ec9ad82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac81714e03073fb96e21f7b037c5b5eee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___optimisation.html#gac81714e03073fb96e21f7b037c5b5eee">set_value_tolerance</a> (const ValueType i)</td></tr>
-<tr class="separator:gac81714e03073fb96e21f7b037c5b5eee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5d53c5dd0890e8e23145284f8212b6a6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___optimisation.html#ga5d53c5dd0890e8e23145284f8212b6a6">set_function_tolerance</a> (const ValueType i)</td></tr>
-<tr class="separator:ga5d53c5dd0890e8e23145284f8212b6a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6c6a3ceb01adb097390b7c08facc287b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___optimisation.html#ga6c6a3ceb01adb097390b7c08facc287b">set_exit_if_outside_bounds</a> (const bool i)</td></tr>
-<tr class="separator:ga6c6a3ceb01adb097390b7c08facc287b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7068311c5c9a7216fe8ae7122d202355"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___optimisation.html#ga7068311c5c9a7216fe8ae7122d202355">set_max_iterations</a> (const size_t i)</td></tr>
-<tr class="separator:ga7068311c5c9a7216fe8ae7122d202355"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabc70604db0291a47481c8c16f3651696"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___optimisation.html#gabc70604db0291a47481c8c16f3651696">set_message</a> (const std::string &amp;i)</td></tr>
-<tr class="separator:gabc70604db0291a47481c8c16f3651696"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4f4071f995616864f7cc478a27b32c3d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___optimisation.html#ga142be9450c9aac5265dc923bab259fce">return_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___optimisation.html#ga4f4071f995616864f7cc478a27b32c3d">get_status</a> () const</td></tr>
-<tr class="separator:ga4f4071f995616864f7cc478a27b32c3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad81493aaf378ff8d3b80e5cb27edd492"><td class="memTemplParams" colspan="2">template&lt;class Functor &gt; </td></tr>
-<tr class="memitem:gad81493aaf378ff8d3b80e5cb27edd492"><td class="memTemplItemLeft" align="right" valign="top">ValueType&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___optimisation.html#gad81493aaf378ff8d3b80e5cb27edd492">operator()</a> (Functor &amp;<a class="el" href="thread_8h.html#aece92f5ed23ab311f706fc6069e61689">functor</a>) const</td></tr>
-<tr class="separator:gad81493aaf378ff8d3b80e5cb27edd492"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa3707ec7e21ef818aca407e3aaa77306"><td class="memTemplParams" colspan="2">template&lt;class Functor &gt; </td></tr>
-<tr class="memitem:gaa3707ec7e21ef818aca407e3aaa77306"><td class="memTemplItemLeft" align="right" valign="top">ValueType&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___optimisation.html#gaa3707ec7e21ef818aca407e3aaa77306">verbose</a> (Functor &amp;<a class="el" href="thread_8h.html#aece92f5ed23ab311f706fc6069e61689">functor</a>) const</td></tr>
-<tr class="separator:gaa3707ec7e21ef818aca407e3aaa77306"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename ValueType&gt;<br />
 class MR::Math::QuadraticLineSearch&lt; ValueType &gt;</h3>
@@ -144,12 +99,12 @@ class MR::Math::QuadraticLineSearch&lt; ValueType &gt;</h3>
 <p>Computes the minimum of a 1D function using a quadratic line search. </p>
 <p>This functor operates on a cost function class that must define a operator() const method. The method must take a single ValueType argument x and return the cost of the function at x.</p>
 <p>This line search is fast for functions that are smooth and convex. Functions that do not obey these criteria may not converge.</p>
-<p>The min_bound and max_bound arguments define values that are used to initialise the search. If these bounds do not bracket the minimum, then the search will return NAN. Furthermore, if the relevant function is not sufficiently smooth, and the search begins to diverge before finding a local minimum to within the specified tolerance, then the search will also return NAN.</p>
-<p>This effect can be cancelled by calling: </p><div class="fragment"><div class="line"><a class="code" href="group___optimisation.html#ga6c6a3ceb01adb097390b7c08facc287b">set_exit_if_outside_bounds</a> (<span class="keyword">false</span>);</div></div><!-- fragment --><p> That way, if the estimated minimum is outside the current bracketed area, the search area will be widened accordingly, and the process repeated until a local minimum is found to within the specified tolerance. Beware however; there is no guarantee that the search will converge in all cases, so be conscious of the nature of your data.</p>
+<p>The min_bound and max_bound arguments define values that are used to initialise the search. If these bounds do not bracket the minimum, then the search will return NaN. Furthermore, if the relevant function is not sufficiently smooth, and the search begins to diverge before finding a local minimum to within the specified tolerance, then the search will also return NaN.</p>
+<p>This effect can be cancelled by calling: </p><div class="fragment"><div class="line">set_exit_if_outside_bounds (<span class="keyword">false</span>);</div></div><!-- fragment --><p> That way, if the estimated minimum is outside the current bracketed area, the search area will be widened accordingly, and the process repeated until a local minimum is found to within the specified tolerance. Beware however; there is no guarantee that the search will converge in all cases, so be conscious of the nature of your data.</p>
 <p>Typical usage: </p><div class="fragment"><div class="line">CostFunction cost_function();</div><div class="line">QuadraticLineSearch&lt;double&gt; line_search (-1.0, 1.0);</div><div class="line">line_search.set_tolerance (0.01);</div><div class="line">line_search.set_message (<span class="stringliteral">&quot;optimising&quot;</span>);</div><div class="line"><span class="keyword">const</span> <span class="keywordtype">double</span> optimal_value = line_search (cost_function);</div></div><!-- fragment --> 
-<p class="definition">Definition at line <a class="el" href="quadratic__line__search_8h_source.html#l00071">71</a> of file <a class="el" href="quadratic__line__search_8h_source.html">quadratic_line_search.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="quadratic__line__search_8h_source.html#l00070">70</a> of file <a class="el" href="quadratic__line__search_8h_source.html">quadratic_line_search.h</a>.</p>
 </div><hr/>The documentation for this class was generated from the following file:<ul>
-<li>lib/math/<a class="el" href="quadratic__line__search_8h_source.html">quadratic_line_search.h</a></li>
+<li>core/math/<a class="el" href="quadratic__line__search_8h_source.html">quadratic_line_search.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -157,7 +112,7 @@ class MR::Math::QuadraticLineSearch&lt; ValueType &gt;</h3>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_math.html">Math</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_math_1_1_quadratic_line_search.html">QuadraticLineSearch</a></li>
-    <li class="footer">Generated on Wed Apr 19 2017 09:26:46 for MRtrix by
+    <li class="footer">Generated on Fri Aug 25 2017 11:14:47 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

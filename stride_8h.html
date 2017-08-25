@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
-<title>MRtrix: lib/stride.h File Reference</title>
+<title>MRtrix: core/stride.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-535-g21da6244</div>
+   <div id="projectbrief">Version 3.0_RC2-24-gfc18ca90</div>
   </td>
  </tr>
  </tbody>
@@ -108,31 +108,31 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:ad8ba4e32d50cafb1f4feb92b97adbcde"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_stride.html#ad8ba4e32d50cafb1f4feb92b97adbcde">MR::Stride::List</a> = std::vector&lt; ssize_t &gt;</td></tr>
-<tr class="separator:ad8ba4e32d50cafb1f4feb92b97adbcde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d5ccb17d9163ba81bfd7266df11649c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_stride.html#a4d5ccb17d9163ba81bfd7266df11649c">MR::Stride::List</a> = vector&lt; ssize_t &gt;</td></tr>
+<tr class="separator:a4d5ccb17d9163ba81bfd7266df11649c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ad9facafc6079f3d664122fb1134c0512"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
 <tr class="memitem:ad9facafc6079f3d664122fb1134c0512"><td class="memTemplItemLeft" align="right" valign="top">List&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_stride.html#ad9facafc6079f3d664122fb1134c0512">MR::Stride::get</a> (const HeaderType &amp;header)</td></tr>
-<tr class="memdesc:ad9facafc6079f3d664122fb1134c0512"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the strides of <em>header</em> as a std::vector&lt;ssize_t&gt;  <a href="namespace_m_r_1_1_stride.html#ad9facafc6079f3d664122fb1134c0512">More...</a><br /></td></tr>
+<tr class="memdesc:ad9facafc6079f3d664122fb1134c0512"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the strides of <em>header</em> as a <a class="el" href="class_m_r_1_1vector.html">vector&lt;ssize_t&gt;</a>  <a href="namespace_m_r_1_1_stride.html#ad9facafc6079f3d664122fb1134c0512">More...</a><br /></td></tr>
 <tr class="separator:ad9facafc6079f3d664122fb1134c0512"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad0d8a3bc4524bfcc4f0d89190079ffea"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
 <tr class="memitem:ad0d8a3bc4524bfcc4f0d89190079ffea"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_stride.html#ad0d8a3bc4524bfcc4f0d89190079ffea">MR::Stride::set</a> (HeaderType &amp;header, const List &amp;stride)</td></tr>
-<tr class="memdesc:ad0d8a3bc4524bfcc4f0d89190079ffea"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the strides of <em>header</em> from a std::vector&lt;ssize_t&gt;  <a href="namespace_m_r_1_1_stride.html#ad0d8a3bc4524bfcc4f0d89190079ffea">More...</a><br /></td></tr>
+<tr class="memdesc:ad0d8a3bc4524bfcc4f0d89190079ffea"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the strides of <em>header</em> from a <a class="el" href="class_m_r_1_1vector.html">vector&lt;ssize_t&gt;</a>  <a href="namespace_m_r_1_1_stride.html#ad0d8a3bc4524bfcc4f0d89190079ffea">More...</a><br /></td></tr>
 <tr class="separator:ad0d8a3bc4524bfcc4f0d89190079ffea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26d05f2753aa0a9b38f251e692ad77d5"><td class="memTemplParams" colspan="2">template&lt;class HeaderType , class FromHeaderType &gt; </td></tr>
 <tr class="memitem:a26d05f2753aa0a9b38f251e692ad77d5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_stride.html#a26d05f2753aa0a9b38f251e692ad77d5">MR::Stride::set</a> (HeaderType &amp;header, const FromHeaderType &amp;from)</td></tr>
 <tr class="memdesc:a26d05f2753aa0a9b38f251e692ad77d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the strides of <em>header</em> from another HeaderType  <a href="namespace_m_r_1_1_stride.html#a26d05f2753aa0a9b38f251e692ad77d5">More...</a><br /></td></tr>
 <tr class="separator:a26d05f2753aa0a9b38f251e692ad77d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa41e5622b38166debaac4d11b1ef7154"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
-<tr class="memitem:aa41e5622b38166debaac4d11b1ef7154"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; size_t &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_stride.html#aa41e5622b38166debaac4d11b1ef7154">MR::Stride::order</a> (const HeaderType &amp;header, size_t from_axis=0, size_t to_axis=std::numeric_limits&lt; size_t &gt;::max())</td></tr>
-<tr class="memdesc:aa41e5622b38166debaac4d11b1ef7154"><td class="mdescLeft">&#160;</td><td class="mdescRight">sort range of axes with respect to their absolute stride.  <a href="namespace_m_r_1_1_stride.html#aa41e5622b38166debaac4d11b1ef7154">More...</a><br /></td></tr>
-<tr class="separator:aa41e5622b38166debaac4d11b1ef7154"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75fb7d5c97d27d0df0d1ec2a3c488214"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
-<tr class="memitem:a75fb7d5c97d27d0df0d1ec2a3c488214"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; size_t &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_stride.html#a75fb7d5c97d27d0df0d1ec2a3c488214">MR::Stride::order&lt; List &gt;</a> (const List &amp;strides, size_t from_axis, size_t to_axis)</td></tr>
-<tr class="memdesc:a75fb7d5c97d27d0df0d1ec2a3c488214"><td class="mdescLeft">&#160;</td><td class="mdescRight">sort axes with respect to their absolute stride.  <a href="namespace_m_r_1_1_stride.html#a75fb7d5c97d27d0df0d1ec2a3c488214">More...</a><br /></td></tr>
-<tr class="separator:a75fb7d5c97d27d0df0d1ec2a3c488214"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c0ec257b26e5cee6dc8e010480092e3"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
+<tr class="memitem:a3c0ec257b26e5cee6dc8e010480092e3"><td class="memTemplItemLeft" align="right" valign="top">vector&lt; size_t &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_stride.html#a3c0ec257b26e5cee6dc8e010480092e3">MR::Stride::order</a> (const HeaderType &amp;header, size_t from_axis=0, size_t to_axis=std::numeric_limits&lt; size_t &gt;::max())</td></tr>
+<tr class="memdesc:a3c0ec257b26e5cee6dc8e010480092e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">sort range of axes with respect to their absolute stride.  <a href="namespace_m_r_1_1_stride.html#a3c0ec257b26e5cee6dc8e010480092e3">More...</a><br /></td></tr>
+<tr class="separator:a3c0ec257b26e5cee6dc8e010480092e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0cb6ebce1d8ce9b0f4ab2bef1ca186fb"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:a0cb6ebce1d8ce9b0f4ab2bef1ca186fb"><td class="memTemplItemLeft" align="right" valign="top">vector&lt; size_t &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_stride.html#a0cb6ebce1d8ce9b0f4ab2bef1ca186fb">MR::Stride::order&lt; List &gt;</a> (const List &amp;strides, size_t from_axis, size_t to_axis)</td></tr>
+<tr class="memdesc:a0cb6ebce1d8ce9b0f4ab2bef1ca186fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">sort axes with respect to their absolute stride.  <a href="namespace_m_r_1_1_stride.html#a0cb6ebce1d8ce9b0f4ab2bef1ca186fb">More...</a><br /></td></tr>
+<tr class="separator:a0cb6ebce1d8ce9b0f4ab2bef1ca186fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab80cc1271189822912ff976cb1dba9e0"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
 <tr class="memitem:ab80cc1271189822912ff976cb1dba9e0"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_stride.html#ab80cc1271189822912ff976cb1dba9e0">MR::Stride::sanitise</a> (HeaderType &amp;header)</td></tr>
 <tr class="memdesc:ab80cc1271189822912ff976cb1dba9e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">remove duplicate and invalid strides.  <a href="namespace_m_r_1_1_stride.html#ab80cc1271189822912ff976cb1dba9e0">More...</a><br /></td></tr>
@@ -141,9 +141,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a445ee64002ed7e3d43b4f131a94bd3c8"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_stride.html#a445ee64002ed7e3d43b4f131a94bd3c8">MR::Stride::sanitise</a> (List &amp;strides, const HeaderType &amp;header)</td></tr>
 <tr class="memdesc:a445ee64002ed7e3d43b4f131a94bd3c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">remove duplicate and invalid strides.  <a href="namespace_m_r_1_1_stride.html#a445ee64002ed7e3d43b4f131a94bd3c8">More...</a><br /></td></tr>
 <tr class="separator:a445ee64002ed7e3d43b4f131a94bd3c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11e368274fadfe5fdab37ff616563e08"><td class="memItemLeft" align="right" valign="top">List &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_stride.html#a11e368274fadfe5fdab37ff616563e08">MR::Stride::sanitise</a> (List &amp;current, const List &amp;desired, const std::vector&lt; ssize_t &gt; &amp;header)</td></tr>
-<tr class="memdesc:a11e368274fadfe5fdab37ff616563e08"><td class="mdescLeft">&#160;</td><td class="mdescRight">remove duplicate and invalid strides.  <a href="namespace_m_r_1_1_stride.html#a11e368274fadfe5fdab37ff616563e08">More...</a><br /></td></tr>
-<tr class="separator:a11e368274fadfe5fdab37ff616563e08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9189283497c650899759b54a0b192b99"><td class="memItemLeft" align="right" valign="top">List &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_stride.html#a9189283497c650899759b54a0b192b99">MR::Stride::sanitise</a> (List &amp;current, const List &amp;desired, const vector&lt; ssize_t &gt; &amp;header)</td></tr>
+<tr class="memdesc:a9189283497c650899759b54a0b192b99"><td class="mdescLeft">&#160;</td><td class="mdescRight">remove duplicate and invalid strides.  <a href="namespace_m_r_1_1_stride.html#a9189283497c650899759b54a0b192b99">More...</a><br /></td></tr>
+<tr class="separator:a9189283497c650899759b54a0b192b99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27e16882f841e2900178b7be0614cf5f"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
 <tr class="memitem:a27e16882f841e2900178b7be0614cf5f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_stride.html#a27e16882f841e2900178b7be0614cf5f">MR::Stride::actualise</a> (HeaderType &amp;header)</td></tr>
 <tr class="memdesc:a27e16882f841e2900178b7be0614cf5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert strides from symbolic to actual strides  <a href="namespace_m_r_1_1_stride.html#a27e16882f841e2900178b7be0614cf5f">More...</a><br /></td></tr>
@@ -215,8 +215,8 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="stride_8h.html">stride.h</a></li>
-    <li class="footer">Generated on Wed Apr 19 2017 09:26:43 for MRtrix by
+    <li class="navelem"><a class="el" href="dir_4270bfced15e0e73154b13468c7c9ad9.html">core</a></li><li class="navelem"><a class="el" href="stride_8h.html">stride.h</a></li>
+    <li class="footer">Generated on Fri Aug 25 2017 11:14:45 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

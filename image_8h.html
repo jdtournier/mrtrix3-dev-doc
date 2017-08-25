@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
-<title>MRtrix: lib/image.h File Reference</title>
+<title>MRtrix: core/image.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-535-g21da6244</div>
+   <div id="projectbrief">Version 3.0_RC2-24-gfc18ca90</div>
   </td>
  </tr>
  </tbody>
@@ -81,19 +81,68 @@ $(document).ready(function(){initNavTree('image_8h.html','');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">image.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
+<div class="textblock"><code>#include &lt;functional&gt;</code><br />
+<code>#include &lt;type_traits&gt;</code><br />
+<code>#include &lt;tuple&gt;</code><br />
+<code>#include &quot;<a class="el" href="debug_8h_source.html">debug.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="header_8h_source.html">header.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="fetch__store_8h_source.html">image_io/fetch_store.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="image__helpers_8h_source.html">image_helpers.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="mrtrix__utils_8h_source.html">formats/mrtrix_utils.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="algo_2copy_8h_source.html">algo/copy.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="threaded__copy_8h_source.html">algo/threaded_copy.h</a>&quot;</code><br />
+</div>
 <p><a href="image_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_image.html">MR::Image&lt; ValueType &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">functions and classes related to image data input/output  <a href="class_m_r_1_1_image.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_image_1_1_buffer.html">MR::Image&lt; ValueType &gt;::Buffer</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:namespace_m_r"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html">MR</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:aa136508eba5f48d57c4706aa2130e55d"><td class="memTemplParams" colspan="2">template&lt;class ImageType &gt; </td></tr>
+<tr class="memitem:aa136508eba5f48d57c4706aa2130e55d"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if&lt; is_adapter_type&lt; typename std::remove_reference&lt; ImageType &gt;::type &gt;::value, std::string &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#aa136508eba5f48d57c4706aa2130e55d">MR::save</a> (ImageType &amp;&amp;x, const std::string &amp;filename, bool use_multi_threading=true)</td></tr>
+<tr class="memdesc:aa136508eba5f48d57c4706aa2130e55d"><td class="mdescLeft">&#160;</td><td class="mdescRight">save contents of an existing image to file (for debugging only)  <a href="namespace_m_r.html#aa136508eba5f48d57c4706aa2130e55d">More...</a><br /></td></tr>
+<tr class="separator:aa136508eba5f48d57c4706aa2130e55d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bc88b71912a3270142a6fb239d09d92"><td class="memTemplParams" colspan="2">template&lt;class ImageType &gt; </td></tr>
+<tr class="memitem:a5bc88b71912a3270142a6fb239d09d92"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if&lt; is_pure_image&lt; typename std::remove_reference&lt; ImageType &gt;::type &gt;::value, std::string &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a5bc88b71912a3270142a6fb239d09d92">MR::save</a> (ImageType &amp;&amp;x, const std::string &amp;filename, bool use_multi_threading=true)</td></tr>
+<tr class="memdesc:a5bc88b71912a3270142a6fb239d09d92"><td class="mdescLeft">&#160;</td><td class="mdescRight">save contents of an existing image to file (for debugging only)  <a href="namespace_m_r.html#a5bc88b71912a3270142a6fb239d09d92">More...</a><br /></td></tr>
+<tr class="separator:a5bc88b71912a3270142a6fb239d09d92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36dacc02b4b40aa743306dd1d74f8852"><td class="memTemplParams" colspan="2">template&lt;class ImageType &gt; </td></tr>
+<tr class="memitem:a36dacc02b4b40aa743306dd1d74f8852"><td class="memTemplItemLeft" align="right" valign="top">enable_if_image_type&lt; ImageType, void &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a36dacc02b4b40aa743306dd1d74f8852">MR::display</a> (ImageType &amp;x)</td></tr>
+<tr class="memdesc:a36dacc02b4b40aa743306dd1d74f8852"><td class="mdescLeft">&#160;</td><td class="mdescRight">display the contents of an image in MRView (for debugging only)  <a href="namespace_m_r.html#a36dacc02b4b40aa743306dd1d74f8852">More...</a><br /></td></tr>
+<tr class="separator:a36dacc02b4b40aa743306dd1d74f8852"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a07dc328a917f2f85bab60a53dc6bff6a"><td class="memItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a07dc328a917f2f85bab60a53dc6bff6a">MR::SpatiallyContiguous</a> = -1</td></tr>
+<tr class="separator:a07dc328a917f2f85bab60a53dc6bff6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="image_8h.html">image.h</a></li>
-    <li class="footer">Generated on Wed Apr 19 2017 09:26:43 for MRtrix by
+    <li class="navelem"><a class="el" href="dir_4270bfced15e0e73154b13468c7c9ad9.html">core</a></li><li class="navelem"><a class="el" href="image_8h.html">image.h</a></li>
+    <li class="footer">Generated on Fri Aug 25 2017 11:14:45 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
-<title>MRtrix: lib/algo/random_threaded_loop.h File Reference</title>
+<title>MRtrix: core/algo/random_threaded_loop.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-535-g21da6244</div>
+   <div id="projectbrief">Version 3.0_RC2-24-gfc18ca90</div>
   </td>
  </tr>
  </tbody>
@@ -89,10 +89,10 @@ $(document).ready(function(){initNavTree('random__threaded__loop_8h.html','');})
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="debug_8h_source.html">debug.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="loop_8h_source.html">algo/loop.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="algo_2loop_8h_source.html">algo/loop.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="iterator_8h_source.html">algo/iterator.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="thread_8h_source.html">thread.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="lib_2math_2rng_8h_source.html">math/rng.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="core_2math_2rng_8h_source.html">math/rng.h</a>&quot;</code><br />
 <code>#include &lt;algorithm&gt;</code><br />
 <code>#include &lt;random&gt;</code><br />
 </div>
@@ -105,32 +105,32 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a5081f671da1d62560c122954ecc7ddea"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
-<tr class="memitem:a5081f671da1d62560c122954ecc7ddea"><td class="memTemplItemLeft" align="right" valign="top">RandomThreadedLoopRunOuter&lt; decltype(Loop(std::vector&lt; size_t &gt;)))&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a5081f671da1d62560c122954ecc7ddea">MR::RandomThreadedLoop</a> (const HeaderType &amp;source, const std::vector&lt; size_t &gt; &amp;outer_axes, const std::vector&lt; size_t &gt; &amp;inner_axes)</td></tr>
-<tr class="separator:a5081f671da1d62560c122954ecc7ddea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9090248870a0c6c815b7d2ae3dc5b7f5"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
-<tr class="memitem:a9090248870a0c6c815b7d2ae3dc5b7f5"><td class="memTemplItemLeft" align="right" valign="top">RandomThreadedLoopRunOuter&lt; decltype(Loop(std::vector&lt; size_t &gt;)))&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a9090248870a0c6c815b7d2ae3dc5b7f5">MR::RandomThreadedLoop</a> (const HeaderType &amp;source, const std::vector&lt; size_t &gt; &amp;axes, size_t num_inner_axes=1)</td></tr>
-<tr class="separator:a9090248870a0c6c815b7d2ae3dc5b7f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3896fae2515c26794d7115d5904d5b2a"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
-<tr class="memitem:a3896fae2515c26794d7115d5904d5b2a"><td class="memTemplItemLeft" align="right" valign="top">RandomThreadedLoopRunOuter&lt; decltype(Loop(std::vector&lt; size_t &gt;)))&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a3896fae2515c26794d7115d5904d5b2a">MR::RandomThreadedLoop</a> (const HeaderType &amp;source, size_t from_axis=0, size_t to_axis=std::numeric_limits&lt; size_t &gt;::max(), size_t num_inner_axes=1)</td></tr>
-<tr class="separator:a3896fae2515c26794d7115d5904d5b2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6039b94badc105ebb2f7de105f9d4d90"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
-<tr class="memitem:a6039b94badc105ebb2f7de105f9d4d90"><td class="memTemplItemLeft" align="right" valign="top">RandomThreadedLoopRunOuter&lt; decltype(Loop(&quot;&quot;, std::vector&lt; size_t &gt;)))&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a6039b94badc105ebb2f7de105f9d4d90">MR::RandomThreadedLoop</a> (const std::string &amp;progress_message, const HeaderType &amp;source, const std::vector&lt; size_t &gt; &amp;outer_axes, const std::vector&lt; size_t &gt; &amp;inner_axes)</td></tr>
-<tr class="separator:a6039b94badc105ebb2f7de105f9d4d90"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a062360693057a4d80a87ffa8f438290a"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
-<tr class="memitem:a062360693057a4d80a87ffa8f438290a"><td class="memTemplItemLeft" align="right" valign="top">RandomThreadedLoopRunOuter&lt; decltype(Loop(&quot;&quot;, std::vector&lt; size_t &gt;)))&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a062360693057a4d80a87ffa8f438290a">MR::RandomThreadedLoop</a> (const std::string &amp;progress_message, const HeaderType &amp;source, const std::vector&lt; size_t &gt; &amp;axes, size_t num_inner_axes=1)</td></tr>
-<tr class="separator:a062360693057a4d80a87ffa8f438290a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa87a4e5a31d5356065759f6740cd5b17"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
-<tr class="memitem:aa87a4e5a31d5356065759f6740cd5b17"><td class="memTemplItemLeft" align="right" valign="top">RandomThreadedLoopRunOuter&lt; decltype(Loop(&quot;&quot;, std::vector&lt; size_t &gt;)))&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#aa87a4e5a31d5356065759f6740cd5b17">MR::RandomThreadedLoop</a> (const std::string &amp;progress_message, const HeaderType &amp;source, size_t from_axis=0, size_t to_axis=std::numeric_limits&lt; size_t &gt;::max(), size_t num_inner_axes=1)</td></tr>
-<tr class="separator:aa87a4e5a31d5356065759f6740cd5b17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1af2eca3687d521803954d31091e6f81"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
+<tr class="memitem:a1af2eca3687d521803954d31091e6f81"><td class="memTemplItemLeft" align="right" valign="top">RandomThreadedLoopRunOuter&lt; decltype(Loop(vector&lt; size_t &gt;)))&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a1af2eca3687d521803954d31091e6f81">MR::RandomThreadedLoop</a> (const HeaderType &amp;source, const vector&lt; size_t &gt; &amp;outer_axes, const vector&lt; size_t &gt; &amp;inner_axes)</td></tr>
+<tr class="separator:a1af2eca3687d521803954d31091e6f81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49a099ea15c24213c93d9bb8584281ca"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
+<tr class="memitem:a49a099ea15c24213c93d9bb8584281ca"><td class="memTemplItemLeft" align="right" valign="top">RandomThreadedLoopRunOuter&lt; decltype(Loop(vector&lt; size_t &gt;)))&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a49a099ea15c24213c93d9bb8584281ca">MR::RandomThreadedLoop</a> (const HeaderType &amp;source, const vector&lt; size_t &gt; &amp;axes, size_t num_inner_axes=1)</td></tr>
+<tr class="separator:a49a099ea15c24213c93d9bb8584281ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab524f7b65688ae9db5fba073a9e0c01c"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
+<tr class="memitem:ab524f7b65688ae9db5fba073a9e0c01c"><td class="memTemplItemLeft" align="right" valign="top">RandomThreadedLoopRunOuter&lt; decltype(Loop(vector&lt; size_t &gt;)))&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#ab524f7b65688ae9db5fba073a9e0c01c">MR::RandomThreadedLoop</a> (const HeaderType &amp;source, size_t from_axis=0, size_t to_axis=std::numeric_limits&lt; size_t &gt;::max(), size_t num_inner_axes=1)</td></tr>
+<tr class="separator:ab524f7b65688ae9db5fba073a9e0c01c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77533c8e4fa4f3e905fc5a1dafa15b81"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
+<tr class="memitem:a77533c8e4fa4f3e905fc5a1dafa15b81"><td class="memTemplItemLeft" align="right" valign="top">RandomThreadedLoopRunOuter&lt; decltype(Loop(&quot;&quot;, vector&lt; size_t &gt;)))&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a77533c8e4fa4f3e905fc5a1dafa15b81">MR::RandomThreadedLoop</a> (const std::string &amp;progress_message, const HeaderType &amp;source, const vector&lt; size_t &gt; &amp;outer_axes, const vector&lt; size_t &gt; &amp;inner_axes)</td></tr>
+<tr class="separator:a77533c8e4fa4f3e905fc5a1dafa15b81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af316499b9e4acf7a6d3e3ace6e004f92"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
+<tr class="memitem:af316499b9e4acf7a6d3e3ace6e004f92"><td class="memTemplItemLeft" align="right" valign="top">RandomThreadedLoopRunOuter&lt; decltype(Loop(&quot;&quot;, vector&lt; size_t &gt;)))&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#af316499b9e4acf7a6d3e3ace6e004f92">MR::RandomThreadedLoop</a> (const std::string &amp;progress_message, const HeaderType &amp;source, const vector&lt; size_t &gt; &amp;axes, size_t num_inner_axes=1)</td></tr>
+<tr class="separator:af316499b9e4acf7a6d3e3ace6e004f92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b5a4a61d9fce002a8f373525b967a06"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
+<tr class="memitem:a4b5a4a61d9fce002a8f373525b967a06"><td class="memTemplItemLeft" align="right" valign="top">RandomThreadedLoopRunOuter&lt; decltype(Loop(&quot;&quot;, vector&lt; size_t &gt;)))&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a4b5a4a61d9fce002a8f373525b967a06">MR::RandomThreadedLoop</a> (const std::string &amp;progress_message, const HeaderType &amp;source, size_t from_axis=0, size_t to_axis=std::numeric_limits&lt; size_t &gt;::max(), size_t num_inner_axes=1)</td></tr>
+<tr class="separator:a4b5a4a61d9fce002a8f373525b967a06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_7c0873e6b80b34380e48b0b11ab08777.html">algo</a></li><li class="navelem"><a class="el" href="random__threaded__loop_8h.html">random_threaded_loop.h</a></li>
-    <li class="footer">Generated on Wed Apr 19 2017 09:26:43 for MRtrix by
+    <li class="navelem"><a class="el" href="dir_4270bfced15e0e73154b13468c7c9ad9.html">core</a></li><li class="navelem"><a class="el" href="dir_2220cedab4ecc4510f0c7ae8221004de.html">algo</a></li><li class="navelem"><a class="el" href="random__threaded__loop_8h.html">random_threaded_loop.h</a></li>
+    <li class="footer">Generated on Fri Aug 25 2017 11:14:45 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

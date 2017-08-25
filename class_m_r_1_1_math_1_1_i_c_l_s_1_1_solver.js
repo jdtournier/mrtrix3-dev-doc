@@ -1,12 +1,6 @@
 var class_m_r_1_1_math_1_1_i_c_l_s_1_1_solver =
 [
-    [ "matrix_type", "class_m_r_1_1_math_1_1_i_c_l_s_1_1_solver.html#a338d53091f12c91c4f985ce81d3550a9", null ],
-    [ "value_type", "class_m_r_1_1_math_1_1_i_c_l_s_1_1_solver.html#a33cd6575cbf20bad002d0ee081fb2e14", null ],
-    [ "vector_type", "class_m_r_1_1_math_1_1_i_c_l_s_1_1_solver.html#aaef9d40330ef15b2c850016750cc8adc", null ],
-    [ "Solver", "class_m_r_1_1_math_1_1_i_c_l_s_1_1_solver.html#a44cd2596b0483ac60dd1a0d571620723", null ],
-    [ "operator()", "class_m_r_1_1_math_1_1_i_c_l_s_1_1_solver.html#a4a69431b7d20d086b70d11840e2f5636", null ],
-    [ "problem", "class_m_r_1_1_math_1_1_i_c_l_s_1_1_solver.html#aae77ab9cbe97addaaa8d8239646a1597", null ],
-    [ "active", "class_m_r_1_1_math_1_1_i_c_l_s_1_1_solver.html#a53bafa048448ccd769754e54941b24be", null ],
+    [ "active", "class_m_r_1_1_math_1_1_i_c_l_s_1_1_solver.html#ab53cbcdcc706f461b9124184e85e9cfb", null ],
     [ "B", "class_m_r_1_1_math_1_1_i_c_l_s_1_1_solver.html#aa7484a3c6c145ee55060f25393a1c54a", null ],
     [ "BtB", "class_m_r_1_1_math_1_1_i_c_l_s_1_1_solver.html#a29cc85f5eaa6daededebb77147954e9d", null ],
     [ "c", "class_m_r_1_1_math_1_1_i_c_l_s_1_1_solver.html#a21da252ac0cd1af57b13e53ae965e8e5", null ],

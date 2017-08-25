@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
-<title>MRtrix: lib/math/math.h File Reference</title>
+<title>MRtrix: core/math/math.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-535-g21da6244</div>
+   <div id="projectbrief">Version 3.0_RC2-24-gfc18ca90</div>
   </td>
  </tr>
  </tbody>
@@ -82,6 +82,7 @@ $(document).ready(function(){initNavTree('math_8h.html','');});
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
@@ -98,6 +99,17 @@ $(document).ready(function(){initNavTree('math_8h.html','');});
 </div>
 <p><a href="math_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1is__eigen__type.html">MR::is_eigen_type&lt; Cont &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">convenience functions for SFINAE on std:: / <a class="el" href="namespace_eigen.html">Eigen</a> containers  <a href="class_m_r_1_1is__eigen__type.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1container__value__type.html">MR::container_value_type&lt; Cont, ReturnType &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the underlying scalar value type for both std:: containers and <a class="el" href="namespace_eigen.html">Eigen</a>.  <a href="class_m_r_1_1container__value__type.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1container__value__type_3_01_cont_00_01typename_01std_1_1enable__if_3_01is__eigen__t692f11ad51e37a7c24062a6b07049f0b.html">MR::container_value_type&lt; Cont, typename std::enable_if&lt; is_eigen_type&lt; Cont &gt;::value, int &gt;::type &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespace_m_r"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html">MR</a></td></tr>
@@ -157,12 +169,12 @@ Functions</h2></td></tr>
 <tr class="memitem:adf37629cef73608a4d356b77a0514b08"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#adf37629cef73608a4d356b77a0514b08">MR::save_matrix</a> (const MatrixType &amp;M, const std::string &amp;filename)</td></tr>
 <tr class="memdesc:adf37629cef73608a4d356b77a0514b08"><td class="mdescLeft">&#160;</td><td class="mdescRight">write the matrix <em>M</em> to file  <a href="namespace_m_r.html#adf37629cef73608a4d356b77a0514b08">More...</a><br /></td></tr>
 <tr class="separator:adf37629cef73608a4d356b77a0514b08"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af4343da4edeaf484cde4eac48e4142ab"><td class="memTemplParams" colspan="2">template&lt;class ValueType  = default_type&gt; </td></tr>
-<tr class="memitem:af4343da4edeaf484cde4eac48e4142ab"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; ValueType &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#af4343da4edeaf484cde4eac48e4142ab">MR::load_matrix_2D_vector</a> (const std::string &amp;filename)</td></tr>
-<tr class="memdesc:af4343da4edeaf484cde4eac48e4142ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">read matrix data into a 2D vector <em>filename</em>  <a href="namespace_m_r.html#af4343da4edeaf484cde4eac48e4142ab">More...</a><br /></td></tr>
-<tr class="separator:af4343da4edeaf484cde4eac48e4142ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8028b8b7cf637b47a6e01ddcdf340d8a"><td class="memTemplParams" colspan="2">template&lt;class ValueType  = default_type&gt; </td></tr>
+<tr class="memitem:a8028b8b7cf637b47a6e01ddcdf340d8a"><td class="memTemplItemLeft" align="right" valign="top">vector&lt; vector&lt; ValueType &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a8028b8b7cf637b47a6e01ddcdf340d8a">MR::load_matrix_2D_vector</a> (const std::string &amp;filename)</td></tr>
+<tr class="memdesc:a8028b8b7cf637b47a6e01ddcdf340d8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">read matrix data into a 2D vector <em>filename</em>  <a href="namespace_m_r.html#a8028b8b7cf637b47a6e01ddcdf340d8a">More...</a><br /></td></tr>
+<tr class="separator:a8028b8b7cf637b47a6e01ddcdf340d8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae95611ab298c2593fd1c4877d0937da7"><td class="memTemplParams" colspan="2">template&lt;class ValueType  = default_type&gt; </td></tr>
-<tr class="memitem:ae95611ab298c2593fd1c4877d0937da7"><td class="memTemplItemLeft" align="right" valign="top">Eigen::Matrix&lt; ValueType, Eigen::Dynamic, Eigen::Dynamic &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#ae95611ab298c2593fd1c4877d0937da7">MR::load_matrix</a> (const std::string &amp;filename)</td></tr>
+<tr class="memitem:ae95611ab298c2593fd1c4877d0937da7"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt; ValueType, Eigen::Dynamic, Eigen::Dynamic &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#ae95611ab298c2593fd1c4877d0937da7">MR::load_matrix</a> (const std::string &amp;filename)</td></tr>
 <tr class="memdesc:ae95611ab298c2593fd1c4877d0937da7"><td class="mdescLeft">&#160;</td><td class="mdescRight">read matrix data into an Eigen::Matrix <em>filename</em>  <a href="namespace_m_r.html#ae95611ab298c2593fd1c4877d0937da7">More...</a><br /></td></tr>
 <tr class="separator:ae95611ab298c2593fd1c4877d0937da7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2746ab282780c24c1e6e73a01a3f120"><td class="memItemLeft" align="right" valign="top">transform_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#ae2746ab282780c24c1e6e73a01a3f120">MR::load_transform</a> (const std::string &amp;filename)</td></tr>
@@ -176,7 +188,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:a35373fae315b4be8559d20b82fed1525"><td class="mdescLeft">&#160;</td><td class="mdescRight">write the vector <em>V</em> to file  <a href="namespace_m_r.html#a35373fae315b4be8559d20b82fed1525">More...</a><br /></td></tr>
 <tr class="separator:a35373fae315b4be8559d20b82fed1525"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1714aeef7a274e31aec03d75949272b0"><td class="memTemplParams" colspan="2">template&lt;class ValueType  = default_type&gt; </td></tr>
-<tr class="memitem:a1714aeef7a274e31aec03d75949272b0"><td class="memTemplItemLeft" align="right" valign="top">Eigen::Matrix&lt; ValueType, Eigen::Dynamic, 1 &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a1714aeef7a274e31aec03d75949272b0">MR::load_vector</a> (const std::string &amp;filename)</td></tr>
+<tr class="memitem:a1714aeef7a274e31aec03d75949272b0"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt; ValueType, Eigen::Dynamic, 1 &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a1714aeef7a274e31aec03d75949272b0">MR::load_vector</a> (const std::string &amp;filename)</td></tr>
 <tr class="memdesc:a1714aeef7a274e31aec03d75949272b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">read the vector data from <em>filename</em>  <a href="namespace_m_r.html#a1714aeef7a274e31aec03d75949272b0">More...</a><br /></td></tr>
 <tr class="separator:a1714aeef7a274e31aec03d75949272b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -198,8 +210,8 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_a36354df93aef5eec904487b77fa4fab.html">math</a></li><li class="navelem"><a class="el" href="math_8h.html">math.h</a></li>
-    <li class="footer">Generated on Wed Apr 19 2017 09:26:43 for MRtrix by
+    <li class="navelem"><a class="el" href="dir_4270bfced15e0e73154b13468c7c9ad9.html">core</a></li><li class="navelem"><a class="el" href="dir_e07ac01d65d17e829451634057f91345.html">math</a></li><li class="navelem"><a class="el" href="math_8h.html">math.h</a></li>
+    <li class="footer">Generated on Fri Aug 25 2017 11:14:45 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-535-g21da6244</div>
+   <div id="projectbrief">Version 3.0_RC2-24-gfc18ca90</div>
   </td>
  </tr>
  </tbody>
@@ -89,6 +89,8 @@ $(document).ready(function(){initNavTree('namespacemembers_func_s.html','');});
 </li>
 <li>save()
 : <a class="el" href="namespace_m_r_1_1_d_w_i_1_1_directions.html#a8e1981071851965b8dec0298cc502c4d">MR::DWI::Directions</a>
+, <a class="el" href="namespace_m_r_1_1_file_1_1_j_s_o_n.html#a8b307ad6a321313c0374f56904e29688">MR::File::JSON</a>
+, <a class="el" href="namespace_m_r_1_1_phase_encoding.html#aed9dc8d78b533d1868299729ee60c5b8">MR::PhaseEncoding</a>
 , <a class="el" href="namespace_m_r.html#aa136508eba5f48d57c4706aa2130e55d">MR</a>
 </li>
 <li>save_bvecs_bvals()
@@ -96,6 +98,9 @@ $(document).ready(function(){initNavTree('namespacemembers_func_s.html','');});
 </li>
 <li>save_cartesian()
 : <a class="el" href="namespace_m_r_1_1_d_w_i_1_1_directions.html#a0918506ec3b5c25c486c42a3bccbb71b">MR::DWI::Directions</a>
+</li>
+<li>save_eddy()
+: <a class="el" href="namespace_m_r_1_1_phase_encoding.html#ad56e5f0cec31a928fe6abf57cde47c7c">MR::PhaseEncoding</a>
 </li>
 <li>save_matrix()
 : <a class="el" href="namespace_m_r.html#adf37629cef73608a4d356b77a0514b08">MR</a>
@@ -116,7 +121,7 @@ $(document).ready(function(){initNavTree('namespacemembers_func_s.html','');});
 : <a class="el" href="namespace_m_r_1_1_d_w_i.html#a03f7a11472c7a5c02c7819c522fc75f5">MR::DWI</a>
 </li>
 <li>scale_contrasts()
-: <a class="el" href="namespace_m_r_1_1_math_1_1_stats_1_1_g_l_m.html#a47682992bff17baa59c7439d34e31301">MR::Math::Stats::GLM</a>
+: <a class="el" href="namespace_m_r_1_1_math_1_1_stats_1_1_g_l_m.html#a271c2320c40cde1a7b2d8d7405317ee0">MR::Math::Stats::GLM</a>
 </li>
 <li>scale_degrees_forward()
 : <a class="el" href="group__spherical__harmonics.html#ga301ff6a6409f78ce405d2ed51f2bdbde">MR::Math::SH</a>
@@ -124,11 +129,14 @@ $(document).ready(function(){initNavTree('namespacemembers_func_s.html','');});
 <li>scale_degrees_inverse()
 : <a class="el" href="group__spherical__harmonics.html#ga24a1163b39e02424abbe3ed456bb0a1c">MR::Math::SH</a>
 </li>
+<li>scheme2eddy()
+: <a class="el" href="namespace_m_r_1_1_phase_encoding.html#a2ae52eaa8f875533f3bd23d7e71bc9ce">MR::PhaseEncoding</a>
+</li>
 <li>sconv()
 : <a class="el" href="group__spherical__harmonics.html#ga6bc14abe263b2812d92454a199b30a03">MR::Math::SH</a>
 </li>
 <li>select_dicom()
-: <a class="el" href="namespace_m_r_1_1_g_u_i_1_1_dialog.html#a662514ed3d63cd42d52bee57de7eb3d1">MR::GUI::Dialog</a>
+: <a class="el" href="namespace_m_r_1_1_g_u_i_1_1_dialog.html#a2c2ba89619bf302780ad2a397675ad0d">MR::GUI::Dialog</a>
 </li>
 <li>set()
 : <a class="el" href="namespace_m_r_1_1_stride.html#ad0d8a3bc4524bfcc4f0d89190079ffea">MR::Stride</a>
@@ -154,6 +162,9 @@ $(document).ready(function(){initNavTree('namespacemembers_func_s.html','');});
 <li>set_init_translation_model_from_option()
 : <a class="el" href="namespace_m_r_1_1_registration.html#a8470b721abb2ae3a7644f6dc727faad9">MR::Registration</a>
 </li>
+<li>set_scheme()
+: <a class="el" href="namespace_m_r_1_1_phase_encoding.html#afcc94a66e37aec4e3cc4ddb410d0286f">MR::PhaseEncoding</a>
+</li>
 <li>setup_metric()
 : <a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome.html#aaa1570e2e15e1459ba28dfd81523f5e2">MR::DWI::Tractography::Connectome</a>
 </li>
@@ -163,53 +174,53 @@ $(document).ready(function(){initNavTree('namespacemembers_func_s.html','');});
 <li>SH2RH()
 : <a class="el" href="group__spherical__harmonics.html#ga1edb8517a3781197c8b7dbdd3ec65ad1">MR::Math::SH</a>
 </li>
+<li>SH2ZSH()
+: <a class="el" href="group__zonal__spherical__harmonics.html#ga5d0ac8a7f71d66e5b595a1e0bbbe826e">MR::Math::ZSH</a>
+</li>
 <li>shorten()
 : <a class="el" href="namespace_m_r.html#ab9d4ebe5d50262f04a41e66e030e3e16">MR</a>
 </li>
 <li>size_key()
-: <a class="el" href="namespace_m_r_1_1_sparse.html#a6594660c36c6bb1b89357c05ef720d01">MR::Sparse</a>
+: <a class="el" href="namespace_m_r_1_1_fixel_1_1_legacy.html#ab3ac55fff7d901ed329de718a36535bc">MR::Fixel::Legacy</a>
 </li>
 <li>solve_betas()
-: <a class="el" href="group___statistics.html#gac513ddc8fb4401b2b5a602615b2b42aa">MR::Math::Stats::GLM</a>
+: <a class="el" href="group___statistics.html#ga845666d29619462609302b219953022c">MR::Math::Stats::GLM</a>
 </li>
 <li>sort_arguments()
 : <a class="el" href="group___cmd_parse.html#gacf7de87699f4fc18c4189b1e08d0286d">MR::App</a>
 </li>
-<li>spacings_match()
-: <a class="el" href="namespace_m_r.html#ae0f7b6cb16b1e744f0c4bfba38d4847a">MR</a>
-</li>
 <li>spherical2cartesian()
-: <a class="el" href="group__spherical__harmonics.html#gaa84cbf06c73e471c851d91394d566ea8">MR::Math::SH</a>
+: <a class="el" href="namespace_m_r_1_1_math_1_1_sphere.html#a7359d463ab1c9f9ed42904edaf234be5">MR::Math::Sphere</a>
 </li>
 <li>split()
-: <a class="el" href="namespace_m_r.html#a7beb223331acbb5e81e2ae07532efe81">MR</a>
+: <a class="el" href="namespace_m_r.html#af5e69a17a222e4bebf9aee1a8aa9c017">MR</a>
 </li>
 <li>split_lines()
-: <a class="el" href="namespace_m_r.html#ab717a8f87e160a86d4ac5a15bdc52e10">MR</a>
+: <a class="el" href="namespace_m_r.html#a53bd649f796062310596c969b308c73c">MR</a>
 </li>
-<li>squeeze_dim()
-: <a class="el" href="namespace_m_r.html#a931cc2c4aad869b6be61ad8339f51921">MR</a>
+<li>stash_DW_scheme()
+: <a class="el" href="namespace_m_r_1_1_d_w_i.html#a05ba5f46bd1c97b2a899b688300cddba">MR::DWI</a>
 </li>
 <li>statistic2pvalue()
-: <a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#a06da1514b9c72351816342c298c4510b">MR::Math::Stats</a>
+: <a class="el" href="namespace_m_r_1_1_math_1_1_stats_1_1_permutation.html#af58d00d51437b4892e89a9d1e2e5c2ce">MR::Math::Stats::Permutation</a>
 </li>
 <li>std_effect_size()
-: <a class="el" href="group___statistics.html#ga87c1bc0437a490662db48fe63136779f">MR::Math::Stats::GLM</a>
+: <a class="el" href="group___statistics.html#gabd2ec2a03b33239f336eb21a0834d6c4">MR::Math::Stats::GLM</a>
 </li>
 <li>stdev()
-: <a class="el" href="group___statistics.html#gac01ebf7d66c8e4efe7ed7c5046c61e08">MR::Math::Stats::GLM</a>
+: <a class="el" href="group___statistics.html#gabb3e9dfaf5d8beca09b08977a3a9eaa3">MR::Math::Stats::GLM</a>
 </li>
 <li>StochasticThreadedLoop()
-: <a class="el" href="namespace_m_r.html#a8bb0b9a20e66e05f90ab58a9dfc0b6c9">MR</a>
+: <a class="el" href="namespace_m_r.html#a84587bdf0c7ae0d15c7aae9927e6fc29">MR</a>
 </li>
 <li>store()
 : <a class="el" href="namespace_m_r_1_1_raw.html#a03afa279da1b9a30bdf4d29ac462e92a">MR::Raw</a>
 </li>
 <li>store_BE()
-: <a class="el" href="namespace_m_r_1_1_raw.html#a93551a2e7b11f209f8f08f8212e85ba9">MR::Raw</a>
+: <a class="el" href="namespace_m_r_1_1_raw.html#ae3fd6bdf8b8874049075a08944f5c413">MR::Raw</a>
 </li>
 <li>store_LE()
-: <a class="el" href="namespace_m_r_1_1_raw.html#a8390d3838bd706be52a4631a004230f4">MR::Raw</a>
+: <a class="el" href="namespace_m_r_1_1_raw.html#aed44d1758bb448e16ccdae694e3f21fa">MR::Raw</a>
 </li>
 <li>store_native()
 : <a class="el" href="namespace_m_r_1_1_raw.html#aa34ed5792e6e79a3e034a742fd4fe53d">MR::Raw</a>
@@ -227,10 +238,10 @@ $(document).ready(function(){initNavTree('namespacemembers_func_s.html','');});
 : <a class="el" href="namespace_m_r.html#aa0d6d75d8e9b51bdbefb37dff159478a">MR</a>
 </li>
 <li>swap()
-: <a class="el" href="namespace_m_r_1_1_byte_order.html#a50cc17a51219711493e44200056d4c86">MR::ByteOrder</a>
+: <a class="el" href="namespace_m_r_1_1_byte_order.html#a2a9c41437cf77d36b955eb2848adcd29">MR::ByteOrder</a>
 </li>
 <li>symbolise()
-: <a class="el" href="namespace_m_r_1_1_stride.html#a7c5e7ebc783a764a660a53a63f3c5188">MR::Stride</a>
+: <a class="el" href="namespace_m_r_1_1_stride.html#af507b3709b18b93d1657e8f47844d23c">MR::Stride</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -238,7 +249,7 @@ $(document).ready(function(){initNavTree('namespacemembers_func_s.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Apr 19 2017 09:26:46 for MRtrix by
+    <li class="footer">Generated on Fri Aug 25 2017 11:14:47 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

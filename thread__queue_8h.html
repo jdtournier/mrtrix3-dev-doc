@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
-<title>MRtrix: lib/thread_queue.h File Reference</title>
+<title>MRtrix: core/thread_queue.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-535-g21da6244</div>
+   <div id="projectbrief">Version 3.0_RC2-24-gfc18ca90</div>
   </td>
  </tr>
  </tbody>
@@ -131,10 +131,10 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga0f24ace83aae4402e171baeccad1860d"><td class="memTemplParams" colspan="2">template&lt;class Item &gt; </td></tr>
-<tr class="memitem:ga0f24ace83aae4402e171baeccad1860d"><td class="memTemplItemLeft" align="right" valign="top">__Batch&lt; Item &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__thread__queue.html#ga0f24ace83aae4402e171baeccad1860d">MR::Thread::batch</a> (const Item &amp;object, size_t number=128)</td></tr>
-<tr class="memdesc:ga0f24ace83aae4402e171baeccad1860d"><td class="mdescLeft">&#160;</td><td class="mdescRight">used to request batched processing of items  <a href="group__thread__queue.html#ga0f24ace83aae4402e171baeccad1860d">More...</a><br /></td></tr>
-<tr class="separator:ga0f24ace83aae4402e171baeccad1860d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0f607ce91002c91228d8d17709ad0d5e"><td class="memTemplParams" colspan="2">template&lt;class Item &gt; </td></tr>
+<tr class="memitem:ga0f607ce91002c91228d8d17709ad0d5e"><td class="memTemplItemLeft" align="right" valign="top">__Batch&lt; Item &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__thread__queue.html#ga0f607ce91002c91228d8d17709ad0d5e">MR::Thread::batch</a> (const Item &amp;, size_t number=128)</td></tr>
+<tr class="memdesc:ga0f607ce91002c91228d8d17709ad0d5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">used to request batched processing of items  <a href="group__thread__queue.html#ga0f607ce91002c91228d8d17709ad0d5e">More...</a><br /></td></tr>
+<tr class="separator:ga0f607ce91002c91228d8d17709ad0d5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaad717471c1771f5e794d0d8907cc3efc"><td class="memTemplParams" colspan="2">template&lt;class Source , class Type , class Sink &gt; </td></tr>
 <tr class="memitem:gaad717471c1771f5e794d0d8907cc3efc"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__thread__queue.html#gaad717471c1771f5e794d0d8907cc3efc">MR::Thread::run_queue</a> (Source &amp;&amp;source, const Type &amp;item_type, Sink &amp;&amp;sink, size_t capacity=128)</td></tr>
 <tr class="memdesc:gaad717471c1771f5e794d0d8907cc3efc"><td class="mdescLeft">&#160;</td><td class="mdescRight">convenience function to set up and run a 2-stage multi-threaded pipeline.  <a href="group__thread__queue.html#gaad717471c1771f5e794d0d8907cc3efc">More...</a><br /></td></tr>
@@ -161,7 +161,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00027">27</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00025">25</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
 
 </div>
 </div>
@@ -177,7 +177,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00026">26</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00024">24</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
 
 </div>
 </div>
@@ -186,8 +186,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="thread__queue_8h.html">thread_queue.h</a></li>
-    <li class="footer">Generated on Wed Apr 19 2017 09:26:43 for MRtrix by
+    <li class="navelem"><a class="el" href="dir_4270bfced15e0e73154b13468c7c9ad9.html">core</a></li><li class="navelem"><a class="el" href="thread__queue_8h.html">thread_queue.h</a></li>
+    <li class="footer">Generated on Fri Aug 25 2017 11:14:45 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

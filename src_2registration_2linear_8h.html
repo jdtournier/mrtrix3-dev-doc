@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-535-g21da6244</div>
+   <div id="projectbrief">Version 3.0_RC2-24-gfc18ca90</div>
   </td>
  </tr>
  </tbody>
@@ -91,16 +91,17 @@ $(document).ready(function(){initNavTree('src_2registration_2linear_8h.html','')
 <div class="title">linear.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;vector&gt;</code><br />
+<div class="textblock"><code>#include &lt;iostream&gt;</code><br />
 <code>#include &quot;<a class="el" href="app_8h_source.html">app.h</a>&quot;</code><br />
 <code>#include &quot;image.h&quot;</code><br />
+<code>#include &quot;types.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="average__space_8h_source.html">math/average_space.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="normalise_8h_source.html">filter/normalise.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="resize_8h_source.html">filter/resize.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="filter_2reslice_8h_source.html">filter/reslice.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="adapter_2reslice_8h_source.html">adapter/reslice.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="threaded__loop_8h_source.html">algo/threaded_loop.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="lib_2interp_2linear_8h_source.html">interp/linear.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="core_2interp_2linear_8h_source.html">interp/linear.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="nearest_8h_source.html">interp/nearest.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="params_8h_source.html">registration/metric/params.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="normalised__cross__correlation_8h_source.html">registration/metric/normalised_cross_correlation.h</a>&quot;</code><br />
@@ -108,15 +109,16 @@ $(document).ready(function(){initNavTree('src_2registration_2linear_8h.html','')
 <code>#include &quot;<a class="el" href="initialiser_8h_source.html">registration/transform/initialiser.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="gradient__descent_8h_source.html">math/gradient_descent.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="gradient__descent__bb_8h_source.html">math/gradient_descent_bb.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="lib_2math_2rng_8h_source.html">math/rng.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="core_2math_2rng_8h_source.html">math/rng.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="math_8h_source.html">math/math.h</a>&quot;</code><br />
-<code>#include &lt;iostream&gt;</code><br />
 <code>#include &quot;<a class="el" href="multi__resolution__lmax_8h_source.html">registration/multi_resolution_lmax.h</a>&quot;</code><br />
 </div>
 <p><a href="src_2registration_2linear_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_m_r_1_1_registration_1_1_stage_setting.html">MR::Registration::StageSetting</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_linear.html">MR::Registration::Linear</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -139,6 +141,11 @@ Enumerations</h2></td></tr>
 <a class="el" href="namespace_m_r_1_1_registration.html#acee95fcf4386a73a2764b491c5cf06a4abf808a0c8db090f0ae883b792b78a7e3">MR::Registration::None</a>
  }</td></tr>
 <tr class="separator:acee95fcf4386a73a2764b491c5cf06a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1595cd6b5fb04c9de6a73964645804b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration.html#af1595cd6b5fb04c9de6a73964645804b">MR::Registration::OptimiserAlgoType</a> { <a class="el" href="namespace_m_r_1_1_registration.html#af1595cd6b5fb04c9de6a73964645804ba6132be413377903d0043d4551830d231">MR::Registration::bbgd</a>, 
+<a class="el" href="namespace_m_r_1_1_registration.html#af1595cd6b5fb04c9de6a73964645804ba68a4c04d87fb8144f2adb33283f9bd28">MR::Registration::gd</a>, 
+<a class="el" href="namespace_m_r_1_1_registration.html#af1595cd6b5fb04c9de6a73964645804ba1715b1632c15ef62c6cb4b4fa139e6d9">MR::Registration::none</a>
+ }</td></tr>
+<tr class="separator:af1595cd6b5fb04c9de6a73964645804b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -146,19 +153,23 @@ Functions</h2></td></tr>
 <tr class="separator:a8470b721abb2ae3a7644f6dc727faad9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acccbb860a909b06d80834f6291109738"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration.html#acccbb860a909b06d80834f6291109738">MR::Registration::set_init_rotation_model_from_option</a> (Registration::Linear &amp;registration, const int &amp;option)</td></tr>
 <tr class="separator:acccbb860a909b06d80834f6291109738"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6fa8bdf2f553f88a839a6704258848c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration.html#a6fa8bdf2f553f88a839a6704258848c1">MR::Registration::parse_general_init_options</a> (Registration::Linear &amp;registration)</td></tr>
-<tr class="separator:a6fa8bdf2f553f88a839a6704258848c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3e8f190d714f5bcb1daedba0cc30fb7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration.html#aa3e8f190d714f5bcb1daedba0cc30fb7">MR::Registration::parse_general_options</a> (Registration::Linear &amp;registration)</td></tr>
+<tr class="separator:aa3e8f190d714f5bcb1daedba0cc30fb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:a40062a829959d2ebbee0aefda0688910"><td class="memItemLeft" align="right" valign="top">const App::OptionGroup&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration.html#a40062a829959d2ebbee0aefda0688910">MR::Registration::adv_init_options</a></td></tr>
 <tr class="separator:a40062a829959d2ebbee0aefda0688910"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d18d1d82c50f2cfd84c11b8682ae3d9"><td class="memItemLeft" align="right" valign="top">const App::OptionGroup&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration.html#a7d18d1d82c50f2cfd84c11b8682ae3d9">MR::Registration::lin_stage_options</a></td></tr>
+<tr class="separator:a7d18d1d82c50f2cfd84c11b8682ae3d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a036aa9163b02b7935d3f65f172720581"><td class="memItemLeft" align="right" valign="top">const App::OptionGroup&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration.html#a036aa9163b02b7935d3f65f172720581">MR::Registration::rigid_options</a></td></tr>
 <tr class="separator:a036aa9163b02b7935d3f65f172720581"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac5ec9fa85a76075dae81082bba9d99b"><td class="memItemLeft" align="right" valign="top">const App::OptionGroup&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration.html#aac5ec9fa85a76075dae81082bba9d99b">MR::Registration::affine_options</a></td></tr>
 <tr class="separator:aac5ec9fa85a76075dae81082bba9d99b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d3d1600155ad88a0b6789a0e0a3f0b3"><td class="memItemLeft" align="right" valign="top">const App::OptionGroup&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration.html#a9d3d1600155ad88a0b6789a0e0a3f0b3">MR::Registration::fod_options</a></td></tr>
 <tr class="separator:a9d3d1600155ad88a0b6789a0e0a3f0b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0967b0249e8a6d1342ef75513bce8ca0"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration.html#a0967b0249e8a6d1342ef75513bce8ca0">MR::Registration::optim_algo_names</a> []</td></tr>
+<tr class="separator:a0967b0249e8a6d1342ef75513bce8ca0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -166,7 +177,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_2809abdae02e13f948aa32ba36e8b7d2.html">registration</a></li><li class="navelem"><a class="el" href="src_2registration_2linear_8h.html">linear.h</a></li>
-    <li class="footer">Generated on Wed Apr 19 2017 09:26:43 for MRtrix by
+    <li class="footer">Generated on Fri Aug 25 2017 11:14:45 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

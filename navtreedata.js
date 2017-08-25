@@ -54,7 +54,7 @@ var NAVTREE =
       [ "Namespace List", "namespaces.html", "namespaces" ],
       [ "Namespace Members", "namespacemembers.html", [
         [ "All", "namespacemembers.html", "namespacemembers_dup" ],
-        [ "Functions", "namespacemembers_func.html", null ],
+        [ "Functions", "namespacemembers_func.html", "namespacemembers_func" ],
         [ "Variables", "namespacemembers_vars.html", null ],
         [ "Typedefs", "namespacemembers_type.html", null ],
         [ "Enumerations", "namespacemembers_enum.html", null ],
@@ -71,6 +71,7 @@ var NAVTREE =
         [ "Variables", "functions_vars.html", "functions_vars" ],
         [ "Typedefs", "functions_type.html", null ],
         [ "Enumerations", "functions_enum.html", null ],
+        [ "Enumerator", "functions_eval.html", null ],
         [ "Properties", "functions_prop.html", null ],
         [ "Related Functions", "functions_rela.html", null ]
       ] ]
@@ -79,7 +80,9 @@ var NAVTREE =
       [ "File List", "files.html", "files" ],
       [ "File Members", "globals.html", [
         [ "All", "globals.html", null ],
+        [ "Functions", "globals_func.html", null ],
         [ "Variables", "globals_vars.html", null ],
+        [ "Typedefs", "globals_type.html", null ],
         [ "Macros", "globals_defs.html", null ]
       ] ]
     ] ]
@@ -89,20 +92,30 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_a_c_t_2gmwmi_8h.html",
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_matrix.html",
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_voxel_d_e_c.html#af385e64afb2413f6c55f12d33d744aa8",
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter_1_1_track_gradient_calculator.html",
-"class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_window.html#aa7d2367827e5881ff1d98b2a8a0b9686",
-"class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_light_box.html#a9ff1585fac07b1e3f12cf17767f65b44",
-"class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_edge_shader.html",
-"class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_volume.html#a2f8b19e7155452880f6b7d60d016061b",
-"class_m_r_1_1_registration_1_1_transform_1_1_rigid.html",
-"displayable_8h.html#aa6f718e66d3406606cc3ee9bd8f1ecc8",
-"gaussian_2voxel_8h_source.html",
-"lightbox__gui_8h_source.html",
-"nonlinear_8h.html",
-"struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_fixel_value.html#a7f9fedb3d3e09e5311e3a516d411e66a",
-"writer_8h.html#a89a945a433c16dd9dec81f827d6226b9af0c84c695211721a958d030309b97209"
+"class_m_r_1_1_adapter_1_1_normalise3_d.html#a50465876340c000576c1a10c1121d998",
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1.html#abea43627fe9ef3c3f8fab01a7ac39bd6",
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_dixel.html#a7396dc51a7d9c56c3d1d17ddc82f0c06",
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html#a8c2c616a1dcd7accc7ce467312bd165f",
+"class_m_r_1_1_file_1_1_dicom_1_1_element.html#a25759034f2e04ab776e09177d19babc1",
+"class_m_r_1_1_filter_1_1_gradient.html",
+"class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_window.html#a53550eda214cd9ff640c421ef3dd267d",
+"class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_light_box.html#a6cd25f0b26d55df5d994a573d0b4e88a",
+"class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_edge.html#a842ed3cdf2a462a17e50ae4efce9c42c",
+"class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a98994b7745270b7859183a055f052e6e",
+"class_m_r_1_1_image_i_o_1_1_pipe.html",
+"class_m_r_1_1_math_1_1_versor.html#aba80c42d1b110b4b7d6519d32e5dc10b",
+"class_m_r_1_1_stats_1_1_c_f_e_1_1_track_processor.html",
+"core_2file_2dicom_2mapper_8h.html#af2183169b6c043d0e7a2a5f9e888e57c",
+"dwi_2tractography_2connectome_2connectome_8h.html#a25ce9f433c45fcf7c5d0adf8f69079c4",
+"functions_vars_v.html",
+"group___cmd_parse.html#gaeb6c52b492e3b47d30fc7e82e2b67710",
+"histogram_8h.html#afb0a82587faa29c26114046869816f44",
+"mrtrix__utils_8h.html#a1faa2f82eedeae2afa4dbce5867b978d",
+"nifti2__utils_8h.html#a6958d70a90c73357b97cdb4ebe65b317",
+"reorient_8h_source.html",
+"src_2gui_2mrview_2tool_2connectome_2types_8h.html#a8d45c76502d5d380c3608fc7e88925c8a4fa2ffca48a4555454e8527de971934b",
+"struct_m_r_1_1_loop_along_axes.html",
+"thread__queue_8h.html#ga1ccafaf26b4312b34de4da1ac0dfbf6f"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

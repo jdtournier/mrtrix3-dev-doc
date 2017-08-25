@@ -1,11 +1,16 @@
 var class_m_r_1_1_image_1_1_buffer =
 [
+    [ "Buffer", "class_m_r_1_1_image_1_1_buffer.html#adf1675c2f72bff384fcad4d1f01ca03f", null ],
     [ "Buffer", "class_m_r_1_1_image_1_1_buffer.html#a68056bd7b5c66ddd0bd0cb2d1b6c6e16", null ],
     [ "Buffer", "class_m_r_1_1_image_1_1_buffer.html#aca0a4d08ac561ffc451dad199c03ce2f", null ],
     [ "Buffer", "class_m_r_1_1_image_1_1_buffer.html#ae612afaac3305e43c643bf032328dfa6", null ],
     [ "get_data_pointer", "class_m_r_1_1_image_1_1_buffer.html#a8473427da5030d138487c403a728824c", null ],
     [ "get_io", "class_m_r_1_1_image_1_1_buffer.html#a516ef0e082db46cf4983de94255185e8", null ],
-    [ "get_value", "class_m_r_1_1_image_1_1_buffer.html#a4b7f0ed8e71a5ffdd0880a2933784217", null ],
+    [ "get_value", "class_m_r_1_1_image_1_1_buffer.html#a3fd98acd4f8e1cbf42000820b0578536", null ],
+    [ "operator delete", "class_m_r_1_1_image_1_1_buffer.html#a0466b68e2870b6f6f8d81502b7458322", null ],
+    [ "operator delete[]", "class_m_r_1_1_image_1_1_buffer.html#a2340f2eb9364df6736997c569982c0a9", null ],
+    [ "operator new", "class_m_r_1_1_image_1_1_buffer.html#a7932c96c229b5b0a1b0c34be00f58ff8", null ],
+    [ "operator new[]", "class_m_r_1_1_image_1_1_buffer.html#adb10ff45f84b846513b30897f80a9e19", null ],
     [ "operator=", "class_m_r_1_1_image_1_1_buffer.html#a8b362121c03a8235729a4543fd97069f", null ],
     [ "operator=", "class_m_r_1_1_image_1_1_buffer.html#ac40a402222670f017690ce81580e843e", null ],
     [ "set_fetch_store_functions", "class_m_r_1_1_image_1_1_buffer.html#a5e3bc1208a7cbc1e341c33fedd9bf413", null ],

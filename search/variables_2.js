@@ -1,13 +1,26 @@
 var searchData=
 [
+  ['b',['B',['../class_m_r_1_1_math_1_1_i_c_l_s_1_1_solver.html#aa7484a3c6c145ee55060f25393a1c54a',1,'MR::Math::ICLS::Solver']]],
+  ['backend',['backend',['../class_m_r_1_1_thread_1_1_____backend.html#afe372c9045fcbeb1a12cf1dfff211a2d',1,'MR::Thread::__Backend']]],
   ['barrier_5faddr',['barrier_addr',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer_unbuffered.html#a35949a2c937a21073a741daa190ebbda',1,'MR::DWI::Tractography::WriterUnbuffered']]],
+  ['basis_5fmatrix',['basis_matrix',['../class_m_r_1_1_math_1_1_cubic_spline.html#ada1d8a05121417df8c8399c7963b9011',1,'MR::Math::CubicSpline']]],
   ['before',['before',['../struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___undo_entry.html#a5088127eb0ca84cec0234dd466ffe54c',1,'MR::GUI::MRView::Tool::ROI_UndoEntry']]],
   ['beta',['beta',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_external_energy_computer.html#a00d5c6b08de1be29a712dc69c9f42c79',1,'MR::DWI::Tractography::GT::ExternalEnergyComputer::beta()'],['../struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_properties.html#a99538d82bf759a7593b00f354db86e40',1,'MR::DWI::Tractography::GT::Properties::beta()']]],
+  ['bigendian',['BigEndian',['../class_m_r_1_1_data_type.html#a670e05d31f5849f3eb5555cc4f1bc08f',1,'MR::DataType']]],
+  ['bit',['Bit',['../class_m_r_1_1_data_type.html#afa1b1abfcc85cb90394b71196a5cd864',1,'MR::DataType']]],
+  ['bitpix',['bitpix',['../structnifti__2__header.html#ac844bb3e94d04e075dd127b49a9f223b',1,'nifti_2_header']]],
+  ['bits',['bits',['../class_m_r_1_1_bit_set.html#ad0a57bf42145e77ebccd2b50f245cb8a',1,'MR::BitSet']]],
+  ['bits_5falloc',['bits_alloc',['../class_m_r_1_1_file_1_1_dicom_1_1_quick_scan.html#a0a3e5f0b651f6bf19bea0d32c7a109b4',1,'MR::File::Dicom::QuickScan']]],
   ['bottomedge',['BottomEdge',['../namespace_m_r_1_1_g_u_i.html#a2c841acd3b2d23a953280b8de62248ad',1,'MR::GUI']]],
+  ['bounds',['bounds',['../class_m_r_1_1_interp_1_1_base.html#af087eda826cccad7cd645ab61de15d72',1,'MR::Interp::Base']]],
   ['brush_5fbutton',['brush_button',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html#a266200783ed420f1840c6d6135b2acdf',1,'MR::GUI::MRView::Tool::ROI']]],
   ['brush_5fsize_5fbutton',['brush_size_button',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html#a5549bc9a97181708396de8cc13d5614f',1,'MR::GUI::MRView::Tool::ROI']]],
-  ['buffer',['buffer',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer.html#ae2492d026201b78ab3c1a1d4c91ab08d',1,'MR::DWI::Tractography::Writer::buffer()'],['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_scalar_writer.html#afb22ae1026f767affe1ac8e98df32cf2',1,'MR::DWI::Tractography::ScalarWriter::buffer()']]],
+  ['btb',['BtB',['../class_m_r_1_1_math_1_1_i_c_l_s_1_1_solver.html#a29cc85f5eaa6daededebb77147954e9d',1,'MR::Math::ICLS::Solver']]],
+  ['buffer',['buffer',['../class_m_r_1_1_image.html#a809cf662d3a7449adcbc7c0af0e2b28d',1,'MR::Image::buffer()'],['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer.html#ae2492d026201b78ab3c1a1d4c91ab08d',1,'MR::DWI::Tractography::Writer::buffer()'],['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_scalar_writer.html#afb22ae1026f767affe1ac8e98df32cf2',1,'MR::DWI::Tractography::ScalarWriter::buffer()']]],
   ['buffer_5fcapacity',['buffer_capacity',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer.html#a8e5cd9d4fc5881fb2cd605efeb6a8e55',1,'MR::DWI::Tractography::Writer::buffer_capacity()'],['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_scalar_writer.html#a18d6d14aa30230b634f10c35f4bf8fa5',1,'MR::DWI::Tractography::ScalarWriter::buffer_capacity()']]],
   ['buffer_5fsize',['buffer_size',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer.html#a9a24c5c6f3fdcbce3d34f1c961c6da4a',1,'MR::DWI::Tractography::Writer::buffer_size()'],['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_scalar_writer.html#a27e1ec52cba6c289b0bc1e20c2b4cae4',1,'MR::DWI::Tractography::ScalarWriter::buffer_size()']]],
-  ['buffer_5fstore',['buffer_store',['../struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_fixel_value.html#a33cfc7fd9cd5c093ca59bc8ae7c176d7',1,'MR::GUI::MRView::Tool::FixelValue']]]
+  ['buffer_5fstore',['buffer_store',['../struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_fixel_value.html#a33cfc7fd9cd5c093ca59bc8ae7c176d7',1,'MR::GUI::MRView::Tool::FixelValue']]],
+  ['build_5fdate',['build_date',['../namespace_m_r_1_1_app.html#af0aeea45aeb00a652d21e8a4d7b21ef8',1,'MR::App']]],
+  ['bytes',['bytes',['../class_m_r_1_1_bit_set.html#ac60069bf1d91959f72deaaeb93590dbe',1,'MR::BitSet']]],
+  ['bytes_5fper_5fsegment',['bytes_per_segment',['../class_m_r_1_1_image_i_o_1_1_default.html#a518e4b06f06a1c735e653d4c55631fbc',1,'MR::ImageIO::Default::bytes_per_segment()'],['../class_m_r_1_1_image_i_o_1_1_g_z.html#ae06319aaa3329aa1b37dec77ede56b1f',1,'MR::ImageIO::GZ::bytes_per_segment()']]]
 ];

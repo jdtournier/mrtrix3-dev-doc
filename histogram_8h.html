@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
-<title>MRtrix: lib/algo/histogram.h File Reference</title>
+<title>MRtrix: core/algo/histogram.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 0.3.15-535-g21da6244</div>
+   <div id="projectbrief">Version 3.0_RC2-24-gfc18ca90</div>
   </td>
  </tr>
  </tbody>
@@ -83,36 +83,71 @@ $(document).ready(function(){initNavTree('histogram_8h.html','');});
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">histogram.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;vector&gt;</code><br />
-<code>#include &quot;<a class="el" href="loop_8h_source.html">algo/loop.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="min__max_8h_source.html">algo/min_max.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;cmath&gt;</code><br />
+<code>#include &quot;<a class="el" href="image__helpers_8h_source.html">image_helpers.h</a>&quot;</code><br />
+<code>#include &quot;types.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="algo_2loop_8h_source.html">algo/loop.h</a>&quot;</code><br />
 </div>
 <p><a href="histogram_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_histogram.html">MR::Histogram&lt; Set &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_algo_1_1_histogram_1_1_calibrator.html">MR::Algo::Histogram::Calibrator</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_histogram_1_1_entry.html">MR::Histogram&lt; Set &gt;::Entry</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_algo_1_1_histogram_1_1_data.html">MR::Algo::Histogram::Data</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_algo_1_1_histogram_1_1_matcher.html">MR::Algo::Histogram::Matcher</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespace_m_r"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html">MR</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespace_m_r_1_1_algo"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_algo.html">MR::Algo</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespace_m_r_1_1_algo_1_1_histogram"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_algo_1_1_histogram.html">MR::Algo::Histogram</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:afb0a82587faa29c26114046869816f44"><td class="memTemplParams" colspan="2">template&lt;class ImageType &gt; </td></tr>
+<tr class="memitem:afb0a82587faa29c26114046869816f44"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_algo_1_1_histogram.html#afb0a82587faa29c26114046869816f44">MR::Algo::Histogram::calibrate</a> (Calibrator &amp;result, ImageType &amp;image)</td></tr>
+<tr class="separator:afb0a82587faa29c26114046869816f44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a598dbfeeee9f71afb8e38f22f8c8be97"><td class="memTemplParams" colspan="2">template&lt;class ImageType , class MaskType &gt; </td></tr>
+<tr class="memitem:a598dbfeeee9f71afb8e38f22f8c8be97"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_algo_1_1_histogram.html#a598dbfeeee9f71afb8e38f22f8c8be97">MR::Algo::Histogram::calibrate</a> (Calibrator &amp;result, ImageType &amp;image, MaskType &amp;mask)</td></tr>
+<tr class="separator:a598dbfeeee9f71afb8e38f22f8c8be97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3395d22535563977f6350775911e2e62"><td class="memTemplParams" colspan="2">template&lt;class ImageType &gt; </td></tr>
+<tr class="memitem:a3395d22535563977f6350775911e2e62"><td class="memTemplItemLeft" align="right" valign="top">Data&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_algo_1_1_histogram.html#a3395d22535563977f6350775911e2e62">MR::Algo::Histogram::generate</a> (ImageType &amp;image, const size_t num_bins, const bool ignore_zero=false)</td></tr>
+<tr class="separator:a3395d22535563977f6350775911e2e62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f166a11bb3f13fe5faae97e8bb16631"><td class="memTemplParams" colspan="2">template&lt;class ImageType , class MaskType &gt; </td></tr>
+<tr class="memitem:a7f166a11bb3f13fe5faae97e8bb16631"><td class="memTemplItemLeft" align="right" valign="top">Data&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_algo_1_1_histogram.html#a7f166a11bb3f13fe5faae97e8bb16631">MR::Algo::Histogram::generate</a> (ImageType &amp;image, MaskType &amp;mask, const size_t num_bins, const bool ignore_zero=false)</td></tr>
+<tr class="separator:a7f166a11bb3f13fe5faae97e8bb16631"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2649ec50ed234ddd20444224d974b32d"><td class="memTemplParams" colspan="2">template&lt;class ImageType &gt; </td></tr>
+<tr class="memitem:a2649ec50ed234ddd20444224d974b32d"><td class="memTemplItemLeft" align="right" valign="top">Data&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_algo_1_1_histogram.html#a2649ec50ed234ddd20444224d974b32d">MR::Algo::Histogram::generate</a> (const Calibrator &amp;calibrator, ImageType &amp;image)</td></tr>
+<tr class="separator:a2649ec50ed234ddd20444224d974b32d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bd18f8ed3a8f30403edcf6eb76ca89b"><td class="memTemplParams" colspan="2">template&lt;class ImageType , class MaskType &gt; </td></tr>
+<tr class="memitem:a9bd18f8ed3a8f30403edcf6eb76ca89b"><td class="memTemplItemLeft" align="right" valign="top">Data&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_algo_1_1_histogram.html#a9bd18f8ed3a8f30403edcf6eb76ca89b">MR::Algo::Histogram::generate</a> (const Calibrator &amp;calibrator, ImageType &amp;image, MaskType &amp;mask)</td></tr>
+<tr class="separator:a9bd18f8ed3a8f30403edcf6eb76ca89b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a6b08317b74b073cac8a9399c465faf9f"><td class="memItemLeft" align="right" valign="top">const App::OptionGroup&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_algo_1_1_histogram.html#a6b08317b74b073cac8a9399c465faf9f">MR::Algo::Histogram::Options</a></td></tr>
+<tr class="separator:a6b08317b74b073cac8a9399c465faf9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_7c0873e6b80b34380e48b0b11ab08777.html">algo</a></li><li class="navelem"><a class="el" href="histogram_8h.html">histogram.h</a></li>
-    <li class="footer">Generated on Wed Apr 19 2017 09:26:43 for MRtrix by
+    <li class="navelem"><a class="el" href="dir_4270bfced15e0e73154b13468c7c9ad9.html">core</a></li><li class="navelem"><a class="el" href="dir_2220cedab4ecc4510f0c7ae8221004de.html">algo</a></li><li class="navelem"><a class="el" href="histogram_8h.html">histogram.h</a></li>
+    <li class="footer">Generated on Fri Aug 25 2017 11:14:45 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>
