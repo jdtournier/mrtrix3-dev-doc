@@ -1,5 +1,6 @@
 var NAVTREEINDEX21 =
 {
+"reorient_8h.html#aec6e80f5b8220f8a9a696224ad61a67d":[12,0,1,3,1,5,4],
 "reorient_8h_source.html":[12,0,1,3,1,5],
 "replicate_8h.html":[12,0,0,0,10],
 "replicate_8h_source.html":[12,0,0,0,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX21 =
 "src_2gui_2mrview_2tool_2connectome_2types_8h.html#a8820b8f4668e3b1b8bdaf2bb01fb3463aa58ee90bd0ddad71dcfcfb8766a89af2":[12,0,1,2,2,1,0,10,0,1],
 "src_2gui_2mrview_2tool_2connectome_2types_8h.html#a8820b8f4668e3b1b8bdaf2bb01fb3463ac6e6dc18b53b4c2681394b9d8aefcec7":[12,0,1,2,2,1,0,10,0,0],
 "src_2gui_2mrview_2tool_2connectome_2types_8h.html#a8820b8f4668e3b1b8bdaf2bb01fb3463adb774f799c1b7d938dc58b716c436cea":[12,0,1,2,2,1,0,10,0,2],
-"src_2gui_2mrview_2tool_2connectome_2types_8h.html#a8d45c76502d5d380c3608fc7e88925c8":[12,0,1,2,2,1,0,10,2],
-"src_2gui_2mrview_2tool_2connectome_2types_8h.html#a8d45c76502d5d380c3608fc7e88925c8a17b8ef2c330f1430e00c9de5469fc7e7":[12,0,1,2,2,1,0,10,2,0]
+"src_2gui_2mrview_2tool_2connectome_2types_8h.html#a8d45c76502d5d380c3608fc7e88925c8":[12,0,1,2,2,1,0,10,2]
 };

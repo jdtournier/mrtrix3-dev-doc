@@ -15,5 +15,6 @@ var gl_8h =
     [ "check_error", "gl_8h.html#afc6754dfc2cb09c95c8ae17014fffeec", null ],
     [ "ErrorString", "gl_8h.html#ac85e70d2ca57d79bc6f1e064cf46fa22", null ],
     [ "init", "gl_8h.html#a8cc7f12e80a44f3edf1704afb3fbb844", null ],
+    [ "offset", "gl_8h.html#add67468ed10f064587a713e3801f8539", null ],
     [ "set_default_context", "gl_8h.html#aa21a27e6204b502f18f5f3bb0b051ae6", null ]
 ];

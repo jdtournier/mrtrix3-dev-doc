@@ -1,5 +1,6 @@
 var NAVTREEINDEX20 =
 {
+"nifti2__utils_8h.html#a65aebe9f5ef4da6e8e438acc270afd1d":[12,0,0,3,11,0],
 "nifti2__utils_8h.html#a6958d70a90c73357b97cdb4ebe65b317":[12,0,0,3,11,1],
 "nifti2__utils_8h.html#a750a3a67fced42f86c5ec98ca4c99d29":[12,0,0,3,11,2],
 "nifti2__utils_8h.html#a80843d548c41790d27cc96da64f46320":[12,0,0,3,11,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX20 =
 "reorient_8h.html#a5831c2a1b9d442d401288dcf15eb3ece":[12,0,1,3,1,5,6],
 "reorient_8h.html#a7ee2e896ecc201321a9842b04e738361":[12,0,1,3,1,5,5],
 "reorient_8h.html#a8dd7285b8f1efe039e7b329571cffc06":[12,0,1,3,1,5,3],
-"reorient_8h.html#ad33dca64fbe2d1c6a82a4faff7f49548":[12,0,1,3,1,5,2],
-"reorient_8h.html#aec6e80f5b8220f8a9a696224ad61a67d":[12,0,1,3,1,5,4]
+"reorient_8h.html#ad33dca64fbe2d1c6a82a4faff7f49548":[12,0,1,3,1,5,2]
 };

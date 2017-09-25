@@ -1,5 +1,6 @@
 var NAVTREEINDEX18 =
 {
+"histogram_8h.html#a9bd18f8ed3a8f30403edcf6eb76ca89b":[12,0,0,1,1,8],
 "histogram_8h.html#afb0a82587faa29c26114046869816f44":[12,0,0,1,1,3],
 "histogram_8h_source.html":[12,0,0,1,1],
 "i_f_o_d1_8h.html":[12,0,1,1,2,1,2],
@@ -47,8 +48,8 @@ var NAVTREEINDEX18 =
 "image_access.html#image_example":[5,1],
 "image_access.html#image_loop":[5,6],
 "image_access.html#iterator_class":[5,7],
-"index.html":[],
 "index.html":[0],
+"index.html":[],
 "initialiser_8h.html":[12,0,1,3,1,3],
 "initialiser_8h.html#a20ec23f05d86104654c83273fe4911a5":[12,0,1,3,1,3,8],
 "initialiser_8h.html#a2350e7964621930d2c67dc2080494614":[12,0,1,3,1,3,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX18 =
 "mrtrix_8h.html#af5e69a17a222e4bebf9aee1a8aa9c017":[12,0,0,23,15],
 "mrtrix_8h_source.html":[12,0,0,23],
 "mrtrix__utils_8h.html":[12,0,0,6,1],
-"mrtrix__utils_8h.html#a08c176a16bf956ac913f77df218da338":[12,0,0,6,1,0],
-"mrtrix__utils_8h.html#a1da38faf3682adb2795010fef29f6a21":[12,0,0,6,1,2]
+"mrtrix__utils_8h.html#a08c176a16bf956ac913f77df218da338":[12,0,0,6,1,0]
 };
