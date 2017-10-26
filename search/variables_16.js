@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['v',['V',['../class_m_r_1_1_file_1_1_key_value.html#a3cd704e71a191bd3246e1d8451f664ba',1,'MR::File::KeyValue::V()'],['../class_m_r_1_1_g_u_i_1_1_g_l_1_1vec4.html#a554ecf36168a7f4698df0e30fc7e75e0',1,'MR::GUI::GL::vec4::v()']]],
+  ['v',['v',['../class_m_r_1_1_g_u_i_1_1_g_l_1_1vec4.html#a554ecf36168a7f4698df0e30fc7e75e0',1,'MR::GUI::GL::vec4::v()'],['../class_m_r_1_1_file_1_1_key_value.html#a3cd704e71a191bd3246e1d8451f664ba',1,'MR::File::KeyValue::V()']]],
   ['value',['value',['../class_m_r_1_1is__eigen__type.html#a3d621af3dc0b6974d62408d1a110805b',1,'MR::is_eigen_type::value()'],['../class_m_r_1_1_progress_info.html#ad73eb160a6a7772a7c8e0d5e00ac8075',1,'MR::ProgressInfo::value()'],['../class_m_r_1_1_stats_1_1_c_f_e_1_1connectivity.html#a80c77d8c52c48942881121a422aed8e0',1,'MR::Stats::CFE::connectivity::value()']]],
   ['value_5fbuffer_5fdirty',['value_buffer_dirty',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_fixel.html#a3dbfe0d150cecf52181cba6c0c3ed027',1,'MR::GUI::MRView::Tool::BaseFixel']]],
   ['value_5fmax',['value_max',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_displayable.html#a29eaf9c18bad2115a062606f9fbbe202',1,'MR::GUI::MRView::Displayable::value_max()'],['../struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_fixel_value.html#a4f961e063a252f686c3436142b6b3c00',1,'MR::GUI::MRView::Tool::FixelValue::value_max()']]],
@@ -36,5 +36,5 @@ var searchData=
   ['voxel_5fto_5findices_5fmap',['voxel_to_indices_map',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_fixel.html#a847149eaa2f099999667a4c0236bf991',1,'MR::GUI::MRView::Tool::BaseFixel']]],
   ['voxels',['voxels',['../class_m_r_1_1_d_w_i_1_1_bootstrap.html#a30d9544b03f3375e32c0e1c862b9c469',1,'MR::DWI::Bootstrap']]],
   ['voxelsize',['voxelsize',['../class_m_r_1_1_transform.html#aa3c1ba57f3d0ff387e1a635fe4b31486',1,'MR::Transform']]],
-  ['vr',['VR',['../class_m_r_1_1_file_1_1_dicom_1_1_element.html#a13740d6f2c5a67940448889058302c08',1,'MR::File::Dicom::Element::VR()'],['../class_m_r_1_1_file_1_1_dicom_1_1_c_s_a_entry.html#a0817613b4dd1ef5f9deca03c93cf19e1',1,'MR::File::Dicom::CSAEntry::vr()']]]
+  ['vr',['vr',['../class_m_r_1_1_file_1_1_dicom_1_1_c_s_a_entry.html#a0817613b4dd1ef5f9deca03c93cf19e1',1,'MR::File::Dicom::CSAEntry::vr()'],['../class_m_r_1_1_file_1_1_dicom_1_1_element.html#a13740d6f2c5a67940448889058302c08',1,'MR::File::Dicom::Element::VR()']]]
 ];

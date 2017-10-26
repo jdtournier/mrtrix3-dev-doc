@@ -7,7 +7,7 @@ var searchData=
   ['wrapper',['Wrapper',['../class_m_r_1_1_stats_1_1_t_f_c_e_1_1_wrapper.html',1,'MR::Stats::TFCE']]],
   ['writekernel',['WriteKernel',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_write_kernel.html',1,'MR::DWI::Tractography::Tracking']]],
   ['writekerneldynamic',['WriteKernelDynamic',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_seeding_1_1_write_kernel_dynamic.html',1,'MR::DWI::Tractography::Seeding']]],
-  ['writer',['Writer',['../class_m_r_1_1_thread_1_1_queue_1_1_writer.html',1,'MR::Thread::Queue&lt; T &gt;::Writer'],['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer.html',1,'MR::DWI::Tractography::Writer&lt; ValueType &gt;']]],
+  ['writer',['Writer',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer.html',1,'MR::DWI::Tractography::Writer&lt; ValueType &gt;'],['../class_m_r_1_1_thread_1_1_queue_1_1_writer.html',1,'MR::Thread::Queue&lt; T &gt;::Writer']]],
   ['writerexemplars',['WriterExemplars',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_writer_exemplars.html',1,'MR::DWI::Tractography::Connectome']]],
   ['writerextraction',['WriterExtraction',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_writer_extraction.html',1,'MR::DWI::Tractography::Connectome']]],
   ['writerinterface',['WriterInterface',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer_interface.html',1,'MR::DWI::Tractography']]],
