@@ -14,6 +14,7 @@ var searchData=
   ['map',['map',['../class_m_r_1_1_file_1_1_m_map.html#a3acf6d1477a457cf3f09bb474545f7b6',1,'MR::File::MMap']]],
   ['map_5ffiles',['map_files',['../class_m_r_1_1_image_i_o_1_1_default.html#ab0c285919189eb80e2d1108046de6909',1,'MR::ImageIO::Default']]],
   ['map_5fstreamlines',['map_streamlines',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model.html#a4a891ecdb3463b5d8d1c7198ac079ccc',1,'MR::DWI::Tractography::SIFT::Model::map_streamlines()'],['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model_base.html#ae03cf47b52b1186033697a174b4aab13',1,'MR::DWI::Tractography::SIFT::ModelBase::map_streamlines()']]],
+  ['mark_5ffile_5ffor_5fdeletion',['mark_file_for_deletion',['../namespace_m_r_1_1_signal_handler.html#a20f665a55420163caaeaaa0f00c60fe2',1,'MR::SignalHandler']]],
   ['mask',['Mask',['../class_m_r_1_1_d_w_i_1_1_directions_1_1_mask.html#a5e674f5be071de68a11b3dbc418a242c',1,'MR::DWI::Directions::Mask::Mask(const Set &amp;master, const bool allocator=false)'],['../class_m_r_1_1_d_w_i_1_1_directions_1_1_mask.html#a7733b2655236fc0382e78e0080ebaa5b',1,'MR::DWI::Directions::Mask::Mask(const Mask &amp;that)']]],
   ['mat2vec',['Mat2Vec',['../class_m_r_1_1_connectome_1_1_mat2_vec.html#a9b89eabd37afcfb0e906603d4bd862e3',1,'MR::Connectome::Mat2Vec']]],
   ['mat_5fsize',['mat_size',['../class_m_r_1_1_connectome_1_1_mat2_vec.html#a5fa77b4d100192550b29f9f74b946a97',1,'MR::Connectome::Mat2Vec']]],

@@ -1,11 +1,5 @@
 var NAVTREEINDEX14 =
 {
-"core_2file_2dicom_2mapper_8h.html#af2183169b6c043d0e7a2a5f9e888e57c":[12,0,0,3,0,4,0],
-"core_2file_2dicom_2mapper_8h_source.html":[12,0,0,3,0,4],
-"core_2file_2utils_8h.html":[12,0,0,3,16],
-"core_2file_2utils_8h.html#a2e718453e5ccddd5e2b80845a0c8407d":[12,0,0,3,16,0],
-"core_2file_2utils_8h.html#a4476fa2ed9b3ed68d0a508689eb40ca6":[12,0,0,3,16,6],
-"core_2file_2utils_8h.html#a473058228415d679b45ffe86d084a972":[12,0,0,3,16,2],
 "core_2file_2utils_8h.html#a5aba912969fee7e5c00843c27170adb8":[12,0,0,3,16,4],
 "core_2file_2utils_8h.html#a96d170bbaa780fb68f6f2a3b7cb66880":[12,0,0,3,16,3],
 "core_2file_2utils_8h.html#aeeaa06d3674399007171e8a00b4ada5c":[12,0,0,3,16,5],
@@ -249,5 +243,11 @@ var NAVTREEINDEX14 =
 "dwi_2tractography_2_s_i_f_t_2model_8h.html":[12,0,1,1,2,8,2],
 "dwi_2tractography_2_s_i_f_t_2model_8h_source.html":[12,0,1,1,2,8,2],
 "dwi_2tractography_2connectome_2connectome_8h.html":[12,0,1,1,2,2,0],
-"dwi_2tractography_2connectome_2connectome_8h.html#a057e0e51b55217bf51231d5979fa2084":[12,0,1,1,2,2,0,1]
+"dwi_2tractography_2connectome_2connectome_8h.html#a057e0e51b55217bf51231d5979fa2084":[12,0,1,1,2,2,0,1],
+"dwi_2tractography_2connectome_2connectome_8h.html#a25ce9f433c45fcf7c5d0adf8f69079c4":[12,0,1,1,2,2,0,4],
+"dwi_2tractography_2connectome_2connectome_8h.html#a4b0286ffd8a79a1b4fc467bb9ea367b1":[12,0,1,1,2,2,0,7],
+"dwi_2tractography_2connectome_2connectome_8h.html#a7c68a52841fe6a7f3d39b698b283a26a":[12,0,1,1,2,2,0,5],
+"dwi_2tractography_2connectome_2connectome_8h.html#a8c7b2504ca8d27e380264dcc142e2e74":[12,0,1,1,2,2,0,3],
+"dwi_2tractography_2connectome_2connectome_8h.html#aaa1570e2e15e1459ba28dfd81523f5e2":[12,0,1,1,2,2,0,6],
+"dwi_2tractography_2connectome_2connectome_8h.html#ab6c38a3e427417f3b56b0ba7b9838016":[12,0,1,1,2,2,0,8]
 };

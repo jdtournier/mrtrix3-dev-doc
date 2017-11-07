@@ -149,7 +149,6 @@ var searchData=
   ['show_5fvoxel_5finfo',['show_voxel_info',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_window.html#a9ff01161f6d6dc3c49d79705dc01d56c',1,'MR::GUI::MRView::Window']]],
   ['showevent',['showEvent',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_view.html#acc2bbf151ae6e63d38035d6f70bbe2d7',1,'MR::GUI::MRView::Tool::View']]],
   ['sifter',['SIFTer',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html#a4990ff58aeafcd665d30c5288a461e54',1,'MR::DWI::Tractography::SIFT::SIFTer::SIFTer(Image&lt; float &gt; &amp;i, const DWI::Directions::FastLookupSet &amp;d)'],['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html#a8c2c616a1dcd7accc7ce467312bd165f',1,'MR::DWI::Tractography::SIFT::SIFTer::SIFTer(const SIFTer &amp;that)=delete']]],
-  ['signalhandler',['SignalHandler',['../class_m_r_1_1_signal_handler.html#ac56c50ea8fa191fbfb95ff93764ab0f8',1,'MR::SignalHandler::SignalHandler()'],['../class_m_r_1_1_signal_handler.html#a670eb46c877133ac3a177586a8e9636d',1,'MR::SignalHandler::SignalHandler(const SignalHandler &amp;)=delete']]],
   ['sinc',['Sinc',['../class_m_r_1_1_math_1_1_sinc.html#a5be554a03e1bb65407e616d4f87eae2a',1,'MR::Math::Sinc']]],
   ['single_5fpass',['single_pass',['../class_m_r_1_1_filter_1_1_mask_clean.html#a3834d5317ec4feb2c1d531eb0abaa26c',1,'MR::Filter::MaskClean']]],
   ['single_5fscale',['single_scale',['../class_m_r_1_1_filter_1_1_mask_clean.html#afb1eb01fcf99cd0211aefa87116ceac0',1,'MR::Filter::MaskClean']]],

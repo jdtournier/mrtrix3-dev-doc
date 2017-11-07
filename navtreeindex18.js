@@ -1,11 +1,5 @@
 var NAVTREEINDEX18 =
 {
-"histogram_8h.html#a9bd18f8ed3a8f30403edcf6eb76ca89b":[12,0,0,1,1,8],
-"histogram_8h.html#afb0a82587faa29c26114046869816f44":[12,0,0,1,1,3],
-"histogram_8h_source.html":[12,0,0,1,1],
-"i_f_o_d1_8h.html":[12,0,1,1,2,1,2],
-"i_f_o_d1_8h_source.html":[12,0,1,1,2,1,2],
-"i_f_o_d2_8h.html":[12,0,1,1,2,1,3],
 "i_f_o_d2_8h_source.html":[12,0,1,1,2,1,3],
 "image2mesh_8h.html":[12,0,1,5,0,0],
 "image2mesh_8h.html#a09dbdf50c7ab454a0e691cb2d9c79519":[12,0,1,5,0,0,0],
@@ -29,9 +23,9 @@ var NAVTREEINDEX18 =
 "image__diff_8h.html#aff573394148778e85f92ffa04f259c92":[12,0,0,20,4],
 "image__diff_8h_source.html":[12,0,0,20],
 "image__helpers_8h.html":[12,0,0,21],
-"image__helpers_8h.html#ae43cbffad7bdb21564292a344b0ca3b5":[12,0,0,21,1],
-"image__helpers_8h.html#ae43cbffad7bdb21564292a344b0ca3b5":[12,0,0,21,0],
 "image__helpers_8h.html#ae43cbffad7bdb21564292a344b0ca3b5":[12,0,0,21,2],
+"image__helpers_8h.html#ae43cbffad7bdb21564292a344b0ca3b5":[12,0,0,21,0],
+"image__helpers_8h.html#ae43cbffad7bdb21564292a344b0ca3b5":[12,0,0,21,1],
 "image__helpers_8h_source.html":[12,0,0,21],
 "image__io_2gz_8h.html":[12,0,0,7,3],
 "image__io_2gz_8h_source.html":[12,0,0,7,3],
@@ -48,8 +42,8 @@ var NAVTREEINDEX18 =
 "image_access.html#image_example":[5,1],
 "image_access.html#image_loop":[5,6],
 "image_access.html#iterator_class":[5,7],
-"index.html":[0],
 "index.html":[],
+"index.html":[0],
 "initialiser_8h.html":[12,0,1,3,1,3],
 "initialiser_8h.html#a20ec23f05d86104654c83273fe4911a5":[12,0,1,3,1,3,8],
 "initialiser_8h.html#a2350e7964621930d2c67dc2080494614":[12,0,1,3,1,3,11],
@@ -249,5 +243,11 @@ var NAVTREEINDEX18 =
 "mrtrix_8h.html#af5e69a17a222e4bebf9aee1a8aa9c017":[12,0,0,23,15],
 "mrtrix_8h_source.html":[12,0,0,23],
 "mrtrix__utils_8h.html":[12,0,0,6,1],
-"mrtrix__utils_8h.html#a08c176a16bf956ac913f77df218da338":[12,0,0,6,1,0]
+"mrtrix__utils_8h.html#a08c176a16bf956ac913f77df218da338":[12,0,0,6,1,0],
+"mrtrix__utils_8h.html#a1da38faf3682adb2795010fef29f6a21":[12,0,0,6,1,2],
+"mrtrix__utils_8h.html#a1faa2f82eedeae2afa4dbce5867b978d":[12,0,0,6,1,1],
+"mrtrix__utils_8h.html#a66d600571043fa918e7c8d12d52334dc":[12,0,0,6,1,3],
+"mrtrix__utils_8h.html#aaaa9984e4b6c537eb25d4072cedd1c1c":[12,0,0,6,1,5],
+"mrtrix__utils_8h.html#ad280cc12a8d2e213dc9683a3227e3b87":[12,0,0,6,1,4],
+"mrtrix__utils_8h_source.html":[12,0,0,6,1]
 };

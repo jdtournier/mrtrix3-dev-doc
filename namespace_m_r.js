@@ -61,7 +61,6 @@ var namespace_m_r =
     [ "ProgressInfo", "class_m_r_1_1_progress_info.html", "class_m_r_1_1_progress_info" ],
     [ "Random_loop", "class_m_r_1_1_random__loop.html", "class_m_r_1_1_random__loop" ],
     [ "Random_sparse_loop", "class_m_r_1_1_random__sparse__loop.html", "class_m_r_1_1_random__sparse__loop" ],
-    [ "SignalHandler", "class_m_r_1_1_signal_handler.html", "class_m_r_1_1_signal_handler" ],
     [ "Timer", "class_m_r_1_1_timer.html", "class_m_r_1_1_timer" ],
     [ "Transform", "class_m_r_1_1_transform.html", "class_m_r_1_1_transform" ],
     [ "vector", "class_m_r_1_1vector.html", "class_m_r_1_1vector" ],

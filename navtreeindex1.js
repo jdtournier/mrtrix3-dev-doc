@@ -1,6 +1,5 @@
 var NAVTREEINDEX1 =
 {
-"class_m_r_1_1_adapter_1_1_normalise3_d.html#a50465876340c000576c1a10c1121d998":[11,0,0,0,9,1],
 "class_m_r_1_1_adapter_1_1_normalise3_d.html#acb4ce0c527e44e27a0dff2e8b68f39c9":[11,0,0,0,9,0],
 "class_m_r_1_1_adapter_1_1_permute_axes.html":[11,0,0,0,10],
 "class_m_r_1_1_adapter_1_1_replicate.html":[11,0,0,0,11],
@@ -249,5 +248,6 @@ var NAVTREEINDEX1 =
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1.html#a51b71eb840190cfb4eaeb6c29e1ee8f6":[11,0,0,4,3,1,1,1],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1.html#a760eedd1ba48996bc39d36350c39a916":[11,0,0,4,3,1,1,9],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1.html#aa178ea88507da5a7eddf680c97f44467":[11,0,0,4,3,1,1,4],
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1.html#abcc03ba1f373384580ea1a85992dd621":[11,0,0,4,3,1,1,10]
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1.html#abcc03ba1f373384580ea1a85992dd621":[11,0,0,4,3,1,1,10],
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1.html#abea43627fe9ef3c3f8fab01a7ac39bd6":[11,0,0,4,3,1,1,3]
 };

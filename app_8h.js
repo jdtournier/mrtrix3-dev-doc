@@ -37,7 +37,6 @@ var app_8h =
     [ "project_version", "app_8h.html#aac29ab240475b73bf131d8e647f183a2", null ],
     [ "REFERENCES", "app_8h.html#gaacc0939705855fbe9a4374679b40ad87", null ],
     [ "REQUIRES_AT_LEAST_ONE_ARGUMENT", "app_8h.html#gab96c7fb47f8bff5c76d5d1a521381bd6", null ],
-    [ "signal_handler", "app_8h.html#a3a6896d048fa5b5f5595ea6e3fdda9ba", null ],
     [ "SYNOPSIS", "app_8h.html#ga8aa09ea88ed8632e3048ff29168f090f", null ],
     [ "terminal_use_colour", "app_8h.html#ad9b67843776675eccf8f47392d17c155", null ]
 ];

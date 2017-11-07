@@ -1,6 +1,5 @@
 var NAVTREEINDEX2 =
 {
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1.html#abea43627fe9ef3c3f8fab01a7ac39bd6":[11,0,0,4,3,1,1,3],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1_1_1_calibrate.html":[11,0,0,4,3,1,1,0],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d2.html":[11,0,0,4,3,1,2],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d2.html#a60e1d70d7fb4d6eb5c09a88db0f87d15":[11,0,0,4,3,1,2,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX2 =
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_map_writer_base.html#afe76f714d30aa9c88deb7b48895f04f4":[11,0,0,4,3,5,6,0],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_dixel.html":[11,0,0,4,3,5,7],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_dixel.html#a1e4af031c921a6e3f37a283c229b44e0":[11,0,0,4,3,5,7,1],
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_dixel.html#a52eb45940ae36de32775a91fbed8033e":[11,0,0,4,3,5,7,2]
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_dixel.html#a52eb45940ae36de32775a91fbed8033e":[11,0,0,4,3,5,7,2],
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_dixel.html#a7396dc51a7d9c56c3d1d17ddc82f0c06":[11,0,0,4,3,5,7,3]
 };

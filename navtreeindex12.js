@@ -1,6 +1,5 @@
 var NAVTREEINDEX12 =
 {
-"class_m_r_1_1_math_1_1_versor.html#aba80c42d1b110b4b7d6519d32e5dc10b":[11,0,0,13,15,16],
 "class_m_r_1_1_math_1_1_versor.html#ac86c63ed124dc1daf5bbc7cb89d43116":[11,0,0,13,15,11],
 "class_m_r_1_1_math_1_1_versor.html#ad45dd0d569a9916ec6ccf03eaff49db7":[11,0,0,13,15,13],
 "class_m_r_1_1_math_1_1_versor.html#aecb947691c2b22dbdb84cb5be4f67c7d":[11,0,0,13,15,20],
@@ -235,11 +234,6 @@ var NAVTREEINDEX12 =
 "class_m_r_1_1_registration_1_1_warp_1_1_compose_linear_disp_kernel.html":[11,0,0,15,3,3],
 "class_m_r_1_1_registration_1_1_warp_1_1_compose_linear_disp_kernel.html#a139867fd0210cc5da2c0ba9d9e5c47da":[11,0,0,15,3,3,0],
 "class_m_r_1_1_registration_1_1_warp_1_1_compose_linear_disp_kernel.html#a1f76040d25b9df6d58d543608492acc0":[11,0,0,15,3,3,1],
-"class_m_r_1_1_signal_handler.html":[11,0,0,61],
-"class_m_r_1_1_signal_handler.html#a670eb46c877133ac3a177586a8e9636d":[11,0,0,61,1],
-"class_m_r_1_1_signal_handler.html#a673f55982c95a1a9159cedbb68913fa3":[11,0,0,61,2],
-"class_m_r_1_1_signal_handler.html#ac199abbcf307af848342d3caa25ff312":[11,0,0,61,3],
-"class_m_r_1_1_signal_handler.html#ac56c50ea8fa191fbfb95ff93764ab0f8":[11,0,0,61,0],
 "class_m_r_1_1_stats_1_1_c_f_e_1_1_enhancer.html":[9,16,4],
 "class_m_r_1_1_stats_1_1_c_f_e_1_1_enhancer.html#a10a0102afefe4f86029b69e5ca5f80f3":[9,16,4,2],
 "class_m_r_1_1_stats_1_1_c_f_e_1_1_enhancer.html#a3041a4acf9da8e2fd142e70930f1657a":[9,16,4,3],
@@ -249,5 +243,11 @@ var NAVTREEINDEX12 =
 "class_m_r_1_1_stats_1_1_c_f_e_1_1_norm_matrix_element.html#a1ab87c715129e4c3dbdc1f2b22dba5d0":[9,16,2,3],
 "class_m_r_1_1_stats_1_1_c_f_e_1_1_norm_matrix_element.html#a5acce9af89002f9522091295d8c6e9d1":[9,16,2,0],
 "class_m_r_1_1_stats_1_1_c_f_e_1_1_norm_matrix_element.html#a6bc516cd7e62bf210fd4e98569b266be":[9,16,2,1],
-"class_m_r_1_1_stats_1_1_c_f_e_1_1_norm_matrix_element.html#ad5840b10b56076f9db8a1bc78326ec2c":[9,16,2,2]
+"class_m_r_1_1_stats_1_1_c_f_e_1_1_norm_matrix_element.html#ad5840b10b56076f9db8a1bc78326ec2c":[9,16,2,2],
+"class_m_r_1_1_stats_1_1_c_f_e_1_1_track_processor.html":[9,16,3],
+"class_m_r_1_1_stats_1_1_c_f_e_1_1connectivity.html":[9,16,1],
+"class_m_r_1_1_stats_1_1_c_f_e_1_1connectivity.html#a06bd3b341d864619111011b88a963cbf":[9,16,1,0],
+"class_m_r_1_1_stats_1_1_c_f_e_1_1connectivity.html#a754e3deccf9aa29e9f1fceafdb8426a4":[9,16,1,1],
+"class_m_r_1_1_stats_1_1_c_f_e_1_1connectivity.html#a80c77d8c52c48942881121a422aed8e0":[9,16,1,2],
+"class_m_r_1_1_stats_1_1_cluster_1_1_cluster_size.html":[9,16,5]
 };

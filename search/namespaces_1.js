@@ -67,6 +67,7 @@ var searchData=
   ['shapes',['Shapes',['../namespace_m_r_1_1_g_u_i_1_1_shapes.html',1,'MR::GUI']]],
   ['sift',['SIFT',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t.html',1,'MR::DWI::Tractography']]],
   ['sift2',['SIFT2',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2.html',1,'MR::DWI::Tractography']]],
+  ['signalhandler',['SignalHandler',['../namespace_m_r_1_1_signal_handler.html',1,'MR']]],
   ['sphere',['Sphere',['../namespace_m_r_1_1_math_1_1_sphere.html',1,'MR::Math']]],
   ['stats',['Stats',['../namespace_m_r_1_1_math_1_1_stats.html',1,'MR::Math::Stats'],['../namespace_m_r_1_1_stats.html',1,'MR::Stats']]],
   ['stride',['Stride',['../namespace_m_r_1_1_stride.html',1,'MR']]],

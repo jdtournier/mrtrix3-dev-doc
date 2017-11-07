@@ -56,7 +56,6 @@ var searchData=
   ['siftoutputoption',['SIFTOutputOption',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t.html#a1bcd49b626305d199a7e38376e856610',1,'MR::DWI::Tractography::SIFT']]],
   ['sifttermoption',['SIFTTermOption',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t.html#a6f3c0c40c93f945c5f5238df5052982b',1,'MR::DWI::Tractography::SIFT']]],
   ['sigdir',['sigdir',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_m_h_sampler.html#aa012ab4a5943dfefa50d5ee77898e469',1,'MR::DWI::Tractography::GT::MHSampler']]],
-  ['signal_5fhandler',['signal_handler',['../namespace_m_r_1_1_app.html#a3a6896d048fa5b5f5595ea6e3fdda9ba',1,'MR::App']]],
   ['signature_5fextra',['signature_extra',['../namespace_m_r_1_1_file_1_1_n_if_t_i2.html#a80843d548c41790d27cc96da64f46320',1,'MR::File::NIfTI2']]],
   ['signed',['Signed',['../class_m_r_1_1_data_type.html#a86b9c9b13e0a6a0c8110549e204e7385',1,'MR::DataType']]],
   ['sigpos',['sigpos',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_m_h_sampler.html#a3fbce19d1cd7b71bda339021bf779d3f',1,'MR::DWI::Tractography::GT::MHSampler']]],

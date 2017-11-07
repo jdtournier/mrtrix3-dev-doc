@@ -33,9 +33,7 @@ var dir_4270bfced15e0e73154b13468c7c9ad9 =
     [ "phase_encoding.h", "phase__encoding_8h.html", "phase__encoding_8h" ],
     [ "progressbar.h", "progressbar_8h.html", "progressbar_8h" ],
     [ "raw.h", "raw_8h.html", "raw_8h" ],
-    [ "signal_handler.h", "signal__handler_8h.html", [
-      [ "SignalHandler", "class_m_r_1_1_signal_handler.html", "class_m_r_1_1_signal_handler" ]
-    ] ],
+    [ "signal_handler.h", "signal__handler_8h.html", "signal__handler_8h" ],
     [ "signals.h", "signals_8h.html", null ],
     [ "stats.h", "stats_8h.html", "stats_8h" ],
     [ "stride.h", "stride_8h.html", "stride_8h" ],
