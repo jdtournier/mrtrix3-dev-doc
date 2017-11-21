@@ -27,6 +27,8 @@ var searchData=
   ['eof',['eof',['../class_m_r_1_1_file_1_1_g_z.html#a9bb0fc6e398d1ba9da9bcd399f7fd931',1,'MR::File::GZ']]],
   ['erode',['erode',['../class_m_r_1_1_filter_1_1_erode.html#a79c19d3fdfb79ccd9d572f99ac8f61ef',1,'MR::Filter::Erode::erode()'],['../class_m_r_1_1_d_w_i_1_1_directions_1_1_mask.html#a4a194de14fc1f9987be73d3dffc068ea',1,'MR::DWI::Directions::Mask::erode()']]],
   ['error',['error',['../class_m_r_1_1_file_1_1_g_z.html#a13d6b9110e829ba9c0d7f9b85017cdbb',1,'MR::File::GZ']]],
+  ['error_5fin_5fcheck_5fsize',['error_in_check_size',['../class_m_r_1_1_file_1_1_dicom_1_1_element.html#a9665ecdcee79a91f0ccf514a09f764d4',1,'MR::File::Dicom::Element']]],
+  ['error_5fin_5fget',['error_in_get',['../class_m_r_1_1_file_1_1_dicom_1_1_element.html#a819f1d6644b07783f5f1ada3e93026c9',1,'MR::File::Dicom::Element']]],
   ['errorstring',['ErrorString',['../namespace_m_r_1_1_g_u_i_1_1_g_l.html#ac85e70d2ca57d79bc6f1e064cf46fa22',1,'MR::GUI::GL']]],
   ['estimate_5fnoise',['estimate_noise',['../namespace_m_r_1_1_d_w_i.html#adc17a6db87c13b333a192e282c2ea2c4',1,'MR::DWI']]],
   ['estimate_5foptimal_5fthreshold',['estimate_optimal_threshold',['../namespace_m_r_1_1_filter.html#a74ae818a10f569ef717ee268d103e3b2',1,'MR::Filter::estimate_optimal_threshold(ImageType &amp;input, MaskType &amp;mask)'],['../namespace_m_r_1_1_filter.html#aed72e3f2dadb7b9986692b4395668ee9',1,'MR::Filter::estimate_optimal_threshold(ImageType &amp;input)']]],

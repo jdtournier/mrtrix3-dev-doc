@@ -1,5 +1,13 @@
 var NAVTREEINDEX6 =
 {
+"class_m_r_1_1_filter_1_1_dilate.html#a41e26767c9a9b348871b9ba6eb8da81c":[9,13,2,1],
+"class_m_r_1_1_filter_1_1_dilate.html#a71496f6a26b5dd3a75ed6058811268a6":[9,13,2,0],
+"class_m_r_1_1_filter_1_1_erode.html":[9,13,4],
+"class_m_r_1_1_filter_1_1_erode.html#a63d590a9893eae9c474adf399a090161":[9,13,4,1],
+"class_m_r_1_1_filter_1_1_erode.html#a79c19d3fdfb79ccd9d572f99ac8f61ef":[9,13,4,0],
+"class_m_r_1_1_filter_1_1_f_f_t.html":[9,13,6],
+"class_m_r_1_1_filter_1_1_f_f_t_1_1_f_f_t_kernel.html":[9,13,5],
+"class_m_r_1_1_filter_1_1_gradient.html":[9,13,7],
 "class_m_r_1_1_filter_1_1_gradient.html#a4bce57ade2f7a085549d539971502a56":[9,13,7,1],
 "class_m_r_1_1_filter_1_1_gradient.html#a60a36290d03e5e26dfc63bc49b249072":[9,13,7,0],
 "class_m_r_1_1_filter_1_1_gradient.html#a9aeede6efb2b46e2c7df40c19307f037":[9,13,7,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX6 =
 "class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_shader.html#ab6f161788e3d381519b824ae5a54880e":[11,0,0,9,2,0,2,3],
 "class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_shader.html#adb99bb69e9d903d3567ca86705abab41":[11,0,0,9,2,0,2,6],
 "class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_tensor.html":[11,0,0,9,2,0,3],
-"class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_window.html":[11,0,0,9,2,2],
-"class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_window.html#a1c9a8069c72acd6fa0b6284472c6da86":[11,0,0,9,2,2,33],
-"class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_window.html#a23b8498cb6119de6e05284c8606a5331":[11,0,0,9,2,2,32],
-"class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_window.html#a2850087734153f8a0a7dfcc953dcb512":[11,0,0,9,2,2,1],
-"class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_window.html#a41f48271e275eabdfab10ec43a2028fa":[11,0,0,9,2,2,19],
-"class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_window.html#a445995bebb3a551717f3411f37210450":[11,0,0,9,2,2,4],
-"class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_window.html#a497c9fc397d4791295906fde95921ae9":[11,0,0,9,2,2,34],
-"class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_window.html#a52558c4c9959f14c31eb1f2b8dc6e05f":[11,0,0,9,2,2,12],
-"class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_window.html#a53550eda214cd9ff640c421ef3dd267d":[11,0,0,9,2,2,15]
+"class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_window.html":[11,0,0,9,2,2]
 };

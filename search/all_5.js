@@ -127,6 +127,8 @@ var searchData=
   ['erode',['Erode',['../class_m_r_1_1_filter_1_1_erode.html',1,'MR::Filter::Erode'],['../class_m_r_1_1_filter_1_1_erode.html#a79c19d3fdfb79ccd9d572f99ac8f61ef',1,'MR::Filter::Erode::erode()'],['../class_m_r_1_1_d_w_i_1_1_directions_1_1_mask.html#a4a194de14fc1f9987be73d3dffc068ea',1,'MR::DWI::Directions::Mask::erode()']]],
   ['erode_2eh',['erode.h',['../erode_8h.html',1,'']]],
   ['error',['error',['../class_m_r_1_1_file_1_1_g_z.html#a13d6b9110e829ba9c0d7f9b85017cdbb',1,'MR::File::GZ']]],
+  ['error_5fin_5fcheck_5fsize',['error_in_check_size',['../class_m_r_1_1_file_1_1_dicom_1_1_element.html#a9665ecdcee79a91f0ccf514a09f764d4',1,'MR::File::Dicom::Element']]],
+  ['error_5fin_5fget',['error_in_get',['../class_m_r_1_1_file_1_1_dicom_1_1_element.html#a819f1d6644b07783f5f1ada3e93026c9',1,'MR::File::Dicom::Element']]],
   ['error_5findex',['error_index',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_combo_box_with_error_msg.html#acb1c7443226fa56f02988fe7f18be1d6',1,'MR::GUI::MRView::ComboBoxWithErrorMsg']]],
   ['error_5fmessage',['error_message',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_combo_box_with_error_msg.html#a1eaf502deb40d47293f73fbff23d9af6',1,'MR::GUI::MRView::ComboBoxWithErrorMsg']]],
   ['errorstring',['ErrorString',['../namespace_m_r_1_1_g_u_i_1_1_g_l.html#ac85e70d2ca57d79bc6f1e064cf46fa22',1,'MR::GUI::GL']]],

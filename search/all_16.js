@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['v',['V',['../class_m_r_1_1_file_1_1_key_value.html#a3cd704e71a191bd3246e1d8451f664ba',1,'MR::File::KeyValue::V()'],['../class_m_r_1_1_g_u_i_1_1_g_l_1_1vec4.html#a554ecf36168a7f4698df0e30fc7e75e0',1,'MR::GUI::GL::vec4::v()']]],
+  ['v',['v',['../class_m_r_1_1_g_u_i_1_1_g_l_1_1vec4.html#a554ecf36168a7f4698df0e30fc7e75e0',1,'MR::GUI::GL::vec4::v()'],['../class_m_r_1_1_file_1_1_key_value.html#a3cd704e71a191bd3246e1d8451f664ba',1,'MR::File::KeyValue::V()']]],
   ['v2m',['V2M',['../class_m_r_1_1_connectome_1_1_mat2_vec.html#a0680cd01c69f4852b625875f0db81612',1,'MR::Connectome::Mat2Vec::V2M(const VecType &amp;, MatType &amp;) const'],['../class_m_r_1_1_connectome_1_1_mat2_vec.html#a2416a7a3fe3cbd4c80a654018812520a',1,'MR::Connectome::Mat2Vec::V2M(const VecType &amp;) const']]],
   ['v_5fmax',['V_MAX',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping.html#a11697b8a24621d1aab532b3f6af729bba6361d77931494f095d10c63c069cd987',1,'MR::DWI::Tractography::Mapping']]],
   ['v_5fmean',['V_MEAN',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping.html#a11697b8a24621d1aab532b3f6af729bbaea31bb30359e706dc1016ef11f4971e8',1,'MR::DWI::Tractography::Mapping']]],

@@ -41,7 +41,7 @@ var searchData=
   ['legacy',['Legacy',['../namespace_m_r_1_1_fixel_1_1_legacy.html',1,'MR::Fixel']]],
   ['legendre',['Legendre',['../namespace_m_r_1_1_math_1_1_legendre.html',1,'MR::Math']]],
   ['lightboxviewcontrols',['LightBoxViewControls',['../namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_light_box_view_controls.html',1,'MR::GUI::MRView::Mode']]],
-  ['m',['M',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_tensor___det.html#a28b2fd8dca4215d10b28a9719c39c627',1,'MR::DWI::Tractography::Algorithms::Tensor_Det::M()'],['../class_m_r_1_1_g_u_i_1_1_g_l_1_1mat4.html#a38a1e3a0be485bd93d53d4d83017076f',1,'MR::GUI::GL::mat4::m()']]],
+  ['m',['m',['../class_m_r_1_1_g_u_i_1_1_g_l_1_1mat4.html#a38a1e3a0be485bd93d53d4d83017076f',1,'MR::GUI::GL::mat4::m()'],['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_tensor___det.html#a28b2fd8dca4215d10b28a9719c39c627',1,'MR::DWI::Tractography::Algorithms::Tensor_Det::M()']]],
   ['m2v',['M2V',['../class_m_r_1_1_connectome_1_1_mat2_vec.html#a05f7ca7cd04005792dab272868be6bd7',1,'MR::Connectome::Mat2Vec::M2V(const MatType &amp;, VecType &amp;) const'],['../class_m_r_1_1_connectome_1_1_mat2_vec.html#a76cb2c3ea34c204e792668d881865bf3',1,'MR::Connectome::Mat2Vec::M2V(const MatType &amp;) const']]],
   ['m_5f4pi',['M_4PI',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t.html#ac0ce46647775ec2def73d597cfca511c',1,'MR::DWI::Tractography::GT']]],
   ['m_5fsqrt4pi',['M_sqrt4PI',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t.html#a0307aa703f12ee39be706059df87536f',1,'MR::DWI::Tractography::GT']]],

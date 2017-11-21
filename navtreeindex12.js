@@ -1,5 +1,13 @@
 var NAVTREEINDEX12 =
 {
+"class_m_r_1_1_math_1_1_versor.html#a5685d8df20e964be4a2e34a5f44c8e35":[11,0,0,13,15,7],
+"class_m_r_1_1_math_1_1_versor.html#a7a618328a61da74d40b55da09013cc07":[11,0,0,13,15,8],
+"class_m_r_1_1_math_1_1_versor.html#a8390a8589d3f92c2c1893713de798d9f":[11,0,0,13,15,10],
+"class_m_r_1_1_math_1_1_versor.html#a8683b54fdeeff8c9fb9d0ff3a4f35e20":[11,0,0,13,15,17],
+"class_m_r_1_1_math_1_1_versor.html#aa99385db66ab3d050c237bc28ab1ecb1":[11,0,0,13,15,15],
+"class_m_r_1_1_math_1_1_versor.html#aa9ca09e40b4404e1aa276a7947adaf27":[11,0,0,13,15,6],
+"class_m_r_1_1_math_1_1_versor.html#ab01de8a92d8ff0c564d7e1ed55353b93":[11,0,0,13,15,18],
+"class_m_r_1_1_math_1_1_versor.html#aba80c42d1b110b4b7d6519d32e5dc10b":[11,0,0,13,15,16],
 "class_m_r_1_1_math_1_1_versor.html#ac86c63ed124dc1daf5bbc7cb89d43116":[11,0,0,13,15,11],
 "class_m_r_1_1_math_1_1_versor.html#ad45dd0d569a9916ec6ccf03eaff49db7":[11,0,0,13,15,13],
 "class_m_r_1_1_math_1_1_versor.html#aecb947691c2b22dbdb84cb5be4f67c7d":[11,0,0,13,15,20],
@@ -241,13 +249,5 @@ var NAVTREEINDEX12 =
 "class_m_r_1_1_stats_1_1_c_f_e_1_1_enhancer.html#afe4dcd8e7668ab3a148dabfc0535afaa":[9,16,4,1],
 "class_m_r_1_1_stats_1_1_c_f_e_1_1_norm_matrix_element.html":[9,16,2],
 "class_m_r_1_1_stats_1_1_c_f_e_1_1_norm_matrix_element.html#a1ab87c715129e4c3dbdc1f2b22dba5d0":[9,16,2,3],
-"class_m_r_1_1_stats_1_1_c_f_e_1_1_norm_matrix_element.html#a5acce9af89002f9522091295d8c6e9d1":[9,16,2,0],
-"class_m_r_1_1_stats_1_1_c_f_e_1_1_norm_matrix_element.html#a6bc516cd7e62bf210fd4e98569b266be":[9,16,2,1],
-"class_m_r_1_1_stats_1_1_c_f_e_1_1_norm_matrix_element.html#ad5840b10b56076f9db8a1bc78326ec2c":[9,16,2,2],
-"class_m_r_1_1_stats_1_1_c_f_e_1_1_track_processor.html":[9,16,3],
-"class_m_r_1_1_stats_1_1_c_f_e_1_1connectivity.html":[9,16,1],
-"class_m_r_1_1_stats_1_1_c_f_e_1_1connectivity.html#a06bd3b341d864619111011b88a963cbf":[9,16,1,0],
-"class_m_r_1_1_stats_1_1_c_f_e_1_1connectivity.html#a754e3deccf9aa29e9f1fceafdb8426a4":[9,16,1,1],
-"class_m_r_1_1_stats_1_1_c_f_e_1_1connectivity.html#a80c77d8c52c48942881121a422aed8e0":[9,16,1,2],
-"class_m_r_1_1_stats_1_1_cluster_1_1_cluster_size.html":[9,16,5]
+"class_m_r_1_1_stats_1_1_c_f_e_1_1_norm_matrix_element.html#a5acce9af89002f9522091295d8c6e9d1":[9,16,2,0]
 };
