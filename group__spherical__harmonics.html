@@ -31,7 +31,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC2-96-g1eba1df8</div>
+   <div id="projectbrief">Version 3.0_RC2-99-gd31bb084</div>
   </td>
  </tr>
  </tbody>
@@ -206,7 +206,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00362">362</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00363">363</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
 
 </div>
 </div>
@@ -231,7 +231,7 @@ template&lt;class ImageType &gt; </div>
 
 <p>convenience function to check if an input image can contain <a class="el" href="namespace_m_r_1_1_math_1_1_s_h.html">SH</a> coefficients </p>
 
-<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00716">716</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00721">721</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
 
 </div>
 </div>
@@ -277,7 +277,7 @@ template&lt;class VectorType1 , class VectorType2 &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00255">255</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00256">256</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
 
 </div>
 </div>
@@ -374,7 +374,7 @@ template&lt;class VectorType &gt; </div>
 <p>computes first and second order derivatives of <a class="el" href="namespace_m_r_1_1_math_1_1_s_h.html">SH</a> series </p>
 <p>This is used primarily in the <a class="el" href="group__spherical__harmonics.html#gab875ad53d217ba8e06a79749d3901f68" title="estimate direction &amp; amplitude of SH peak ">get_peak()</a> function. </p>
 
-<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00534">534</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00539">539</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
 
 </div>
 </div>
@@ -429,7 +429,7 @@ template&lt;class VectorType , class UnitVectorType , class ValueType  = float&g
 <p>estimate direction &amp; amplitude of <a class="el" href="namespace_m_r_1_1_math_1_1_s_h.html">SH</a> peak </p>
 <p>find a peak of an <a class="el" href="namespace_m_r_1_1_math_1_1_s_h.html">SH</a> series using Gauss-Newton optimisation, modified to operate directly in spherical coordinates. The initial search direction is <em>unit_init_dir</em>. If <em>precomputer</em> is not nullptr, it will be used to speed up the calculations, at the cost of a minor reduction in accuracy. </p>
 
-<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00484">484</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00485">485</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
 
 </div>
 </div>
@@ -469,7 +469,7 @@ template&lt;class VectorType , class UnitVectorType , class ValueType  = float&g
 
 <p>compute the index for coefficient (l,m) </p>
 
-<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00054">54</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00055">55</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
 
 </div>
 </div>
@@ -509,7 +509,7 @@ template&lt;class VectorType , class UnitVectorType , class ValueType  = float&g
 
 <p>same as <a class="el" href="group__spherical__harmonics.html#ga12049806261f71471fea43484670d8f5" title="compute the index for coefficient (l,m) ">index()</a>, but consider only non-negative orders <em>m</em> </p>
 
-<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00066">66</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00067">67</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
 
 </div>
 </div>
@@ -544,7 +544,7 @@ template&lt;class MatrixType &gt; </div>
 <p>form the SH-&gt;amplitudes matrix </p>
 <p>This computes the matrix <em>SHT</em> mapping spherical harmonic coefficients up to maximum harmonic degree <em>lmax</em> onto directions <em>dirs</em> (in spherical coordinates, with columns [ azimuth elevation ]). </p>
 
-<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00084">84</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00085">85</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
 
 </div>
 </div>
@@ -576,7 +576,7 @@ template&lt;typename VectorType &gt; </div>
 
 <p>invert any non-zero coefficients in <em>coefs</em> </p>
 
-<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00151">151</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00152">152</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
 
 </div>
 </div>
@@ -606,7 +606,7 @@ template&lt;typename VectorType &gt; </div>
 
 <p>returns the largest <em>lmax</em> given <em>N</em> parameters </p>
 
-<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00072">72</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00073">73</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
 
 </div>
 </div>
@@ -636,7 +636,7 @@ template&lt;typename VectorType &gt; </div>
 
 <p>the number of (even-degree) coefficients for the given value of <em>lmax</em> </p>
 
-<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00048">48</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00049">49</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
 
 </div>
 </div>
@@ -666,7 +666,7 @@ template&lt;typename VectorType &gt; </div>
 
 <p>same as <a class="el" href="group__spherical__harmonics.html#ga96a93012c20066bfbdb6c1a1ec1cfe15" title="the number of (even-degree) coefficients for the given value of lmax ">NforL()</a>, but consider only non-negative orders <em>m</em> </p>
 
-<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00060">60</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00061">61</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
 
 </div>
 </div>
@@ -708,7 +708,7 @@ template&lt;class MatrixType , class VectorType &gt; </div>
 
 <p>scale the coefficients of each <a class="el" href="namespace_m_r_1_1_math_1_1_s_h.html">SH</a> degree by the corresponding value in <em>coefs</em> </p>
 
-<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00118">118</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00119">119</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
 
 </div>
 </div>
@@ -750,7 +750,7 @@ template&lt;typename MatrixType , class VectorType &gt; </div>
 
 <p>scale the coefficients of each <a class="el" href="namespace_m_r_1_1_math_1_1_s_h.html">SH</a> degree by the corresponding value in <em>coefs</em> </p>
 
-<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00134">134</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00135">135</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
 
 </div>
 </div>
@@ -793,7 +793,7 @@ template&lt;class VectorType1 , class VectorType2 &gt; </div>
 <p>perform spherical convolution, in place </p>
 <p>perform spherical convolution of <a class="el" href="namespace_m_r_1_1_math_1_1_s_h.html">SH</a> coefficients <em>sh</em> with response function <em>RH</em>, storing the results in place in vector <em>sh</em>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00314">314</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00315">315</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
 
 </div>
 </div>
@@ -842,7 +842,7 @@ template&lt;class VectorType1 , class VectorType2 , class VectorType3 &gt; </div
 <p>perform spherical convolution </p>
 <p>perform spherical convolution of <a class="el" href="namespace_m_r_1_1_math_1_1_s_h.html">SH</a> coefficients <em>sh</em> with response function <em>RH</em>, storing the results in vector <em>C</em>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00330">330</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00331">331</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
 
 </div>
 </div>
@@ -882,7 +882,7 @@ template&lt;class VectorType1 , class VectorType2 &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00289">289</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00290">290</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
 
 </div>
 </div>
@@ -912,7 +912,7 @@ template&lt;class VectorType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00302">302</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00303">303</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
 
 </div>
 </div>
@@ -970,7 +970,7 @@ template&lt;class VectorType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00204">204</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00205">205</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
 
 </div>
 </div>
@@ -1022,7 +1022,7 @@ template&lt;class VectorType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00235">235</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00236">236</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
 
 </div>
 </div>
@@ -1068,7 +1068,7 @@ template&lt;class VectorType1 , class VectorType2 &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00244">244</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_s_h_8h_source.html#l00245">245</a> of file <a class="el" href="_s_h_8h_source.html">SH.h</a>.</p>
 
 </div>
 </div>
@@ -1095,7 +1095,7 @@ template&lt;class VectorType1 , class VectorType2 &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Dec 1 2017 09:46:27 for MRtrix by
+    <li class="footer">Generated on Fri Dec 1 2017 10:37:00 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>
