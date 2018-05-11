@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['cachedtexture',['CachedTexture',['../struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_image_1_1_cached_texture.html',1,'MR::GUI::MRView::Image']]],
   ['calibrate',['Calibrate',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1_1_1_calibrate.html',1,'MR::DWI::Tractography::Algorithms::iFOD1']]],
   ['calibrator',['Calibrator',['../class_m_r_1_1_algo_1_1_histogram_1_1_calibrator.html',1,'MR::Algo::Histogram']]],
   ['capture',['Capture',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_capture.html',1,'MR::GUI::MRView::Tool']]],

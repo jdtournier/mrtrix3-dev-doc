@@ -2,7 +2,7 @@ var searchData=
 [
   ['i0_5fscaled',['I0_scaled',['../namespace_m_r_1_1_math_1_1_bessel.html#a1f8f9befd18cad7f26526f5f3e0d87a2',1,'MR::Math::Bessel']]],
   ['i1_5fscaled',['I1_scaled',['../namespace_m_r_1_1_math_1_1_bessel.html#a3deeb383576f3d7a352a4ba53578c503',1,'MR::Math::Bessel']]],
-  ['id2dir',['id2dir',['../namespace_m_r_1_1_phase_encoding.html#a4b3c5ae21dc6d6822175a83b933be6a5',1,'MR::PhaseEncoding']]],
+  ['id2dir',['id2dir',['../namespace_m_r_1_1_axes.html#a2627a77e58548e742fa183010fd8d8f6',1,'MR::Axes']]],
   ['identity',['identity',['../namespace_m_r_1_1_g_u_i_1_1_g_l.html#adf99c7d69ea22130a60ce7a75a09b602',1,'MR::GUI::GL']]],
   ['image',['Image',['../class_m_r_1_1_image.html#abb44e03b695f63f66e921d0e06e6e34c',1,'MR::Image::Image()'],['../class_m_r_1_1_image.html#acbedaaa48e9cbc3b032999fcaf66c8a4',1,'MR::Image::Image(const Image &amp;)=default'],['../class_m_r_1_1_image.html#aa54407fdb2253552bc1dea3a2ed88f1a',1,'MR::Image::Image(Image &amp;&amp;)=default'],['../class_m_r_1_1_image.html#a9758b0014207cceca6bc77b5ef5d1a40',1,'MR::Image::Image(const std::shared_ptr&lt; Buffer &gt; &amp;, const Stride::List &amp;=Stride::List())'],['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_window.html#a791086e3119f15ed770d7951d77bd2bf',1,'MR::GUI::MRView::Window::image() const'],['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_window.html#a1de5128048faaf207a08533f4fada69a',1,'MR::GUI::MRView::Window::image()']]],
   ['image2mesh_5fblocky',['image2mesh_blocky',['../namespace_m_r_1_1_surface_1_1_algo.html#a09dbdf50c7ab454a0e691cb2d9c79519',1,'MR::Surface::Algo']]],
@@ -51,7 +51,6 @@ var searchData=
   ['is_5fadjacent',['is_adjacent',['../class_m_r_1_1_d_w_i_1_1_directions_1_1_mask.html#a5003f3f23c2667e10a80a7f80f6981a8',1,'MR::DWI::Directions::Mask']]],
   ['is_5fbig_5fendian',['is_big_endian',['../class_m_r_1_1_data_type.html#aa8aae66c436fb0eb1128ffb0c3c97b99',1,'MR::DataType::is_big_endian()'],['../class_m_r_1_1_file_1_1_dicom_1_1_element.html#a868cd8d81d9f049355516b4559d209fd',1,'MR::File::Dicom::Element::is_big_endian()']]],
   ['is_5fbzero',['is_bzero',['../class_m_r_1_1_d_w_i_1_1_shell.html#a085ad5e477dc9afccaee872779f6b9e3',1,'MR::DWI::Shell']]],
-  ['is_5fcgm',['is_cgm',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html#ab5100cc32d11ed312f95d88b3ee7380e',1,'MR::DWI::Tractography::ACT::GMWMI_finder']]],
   ['is_5fcomplex',['is_complex',['../class_m_r_1_1_data_type.html#a942d9c5c63cb2c5402f97318fab2f53f',1,'MR::DataType']]],
   ['is_5fdata_5ffile',['is_data_file',['../namespace_m_r_1_1_fixel.html#aa21e9d655ddcdc588cde861e0fac71eb',1,'MR::Fixel']]],
   ['is_5fdiagonal',['is_diagonal',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_edge.html#aa0cfa8876bc63a63ae1c5fd3a4b742f1',1,'MR::GUI::MRView::Tool::Edge']]],

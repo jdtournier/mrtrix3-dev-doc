@@ -15,6 +15,7 @@ var searchData=
   ['update_5fcursor',['update_cursor',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base.html#a49a6bc01fae5286d83e7e12a054a2270',1,'MR::GUI::MRView::Tool::Base']]],
   ['update_5fdisplacement',['update_displacement',['../namespace_m_r_1_1_registration_1_1_warp.html#a61e25d3d1663a72f88a6688f40d5e7cf',1,'MR::Registration::Warp']]],
   ['update_5fdisplacement_5fscaling_5fand_5fsquaring',['update_displacement_scaling_and_squaring',['../namespace_m_r_1_1_registration_1_1_warp.html#a0097922d59c825a54810e691053e4ed1',1,'MR::Registration::Warp']]],
+  ['update_5fgeometry_5ftype_5fgui',['update_geometry_type_gui',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a8c4ff3cbfc0d1873d0bbd8ef6ae0f604',1,'MR::GUI::MRView::Tool::Tractography']]],
   ['update_5fimage_5fbuffers',['update_image_buffers',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_fixel.html#a39bdf6e58f5c54234a033a37b6db66d0',1,'MR::GUI::MRView::Tool::BaseFixel']]],
   ['update_5finterp_5fimage_5fbuffer',['update_interp_image_buffer',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_fixel.html#a7b579dc859d3fd7cd795867109b5ee9a',1,'MR::GUI::MRView::Tool::BaseFixel']]],
   ['update_5flevels',['update_levels',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_displayable.html#a04f8f4701302e5f81eae6864b351fce6',1,'MR::GUI::MRView::Displayable']]],

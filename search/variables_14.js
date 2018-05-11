@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['t',['t',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_external_energy_computer.html#a908ff2744a9d412bba5f1a72bf80353e',1,'MR::DWI::Tractography::GT::ExternalEnergyComputer::t()'],['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_external_energy_computer.html#aac8671cd84ff7192839875c91b4eba1b',1,'MR::DWI::Tractography::GT::ExternalEnergyComputer::T()'],['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_m_h_sampler.html#ac2a82c3266908e294b0420fff7753e74',1,'MR::DWI::Tractography::GT::MHSampler::T()']]],
+  ['t',['T',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_external_energy_computer.html#aac8671cd84ff7192839875c91b4eba1b',1,'MR::DWI::Tractography::GT::ExternalEnergyComputer::T()'],['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_m_h_sampler.html#ac2a82c3266908e294b0420fff7753e74',1,'MR::DWI::Tractography::GT::MHSampler::T()'],['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_external_energy_computer.html#a908ff2744a9d412bba5f1a72bf80353e',1,'MR::DWI::Tractography::GT::ExternalEnergyComputer::t()']]],
   ['t_5fs2g',['T_s2g',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle_grid.html#a1a30828a04f61088bca402bddb641ace',1,'MR::DWI::Tractography::GT::ParticleGrid']]],
   ['tangents',['tangents',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_null_dist2.html#abb838842175e5d5307bf01b636427351',1,'MR::DWI::Tractography::Algorithms::NullDist2']]],
   ['tck_5ffile_5fpath',['tck_file_path',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model.html#a16a1a06bf0fadcd1de4c62d8317c6fda',1,'MR::DWI::Tractography::SIFT::Model']]],
@@ -18,7 +18,7 @@ var searchData=
   ['tesselation_5f469_5fdata',['tesselation_469_data',['../namespace_m_r_1_1_d_w_i_1_1_directions.html#a0ee41f1ac7a7107f531f1bd11e0c8b0b',1,'MR::DWI::Directions']]],
   ['tesselation_5f513_5fdata',['tesselation_513_data',['../namespace_m_r_1_1_d_w_i_1_1_directions.html#af78a0bb3c1b34e73e4855468893c6e8a',1,'MR::DWI::Directions']]],
   ['tex',['tex',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_volume.html#a4ea6e1537287eef6495ac3951535be75',1,'MR::GUI::MRView::Volume::tex()'],['../class_m_r_1_1_g_u_i_1_1_g_l_1_1_font.html#ab705ce5fb79887d1d5c231777175b791',1,'MR::GUI::GL::Font::tex()']]],
-  ['tex_5f4d_5fcache',['tex_4d_cache',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_image.html#a7497b829794e23404e3e0cf6421de3d3',1,'MR::GUI::MRView::Image']]],
+  ['tex_5f4d_5fcache',['tex_4d_cache',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_image.html#aebb0ff43e61389dba05cda304d92cd0a',1,'MR::GUI::MRView::Image']]],
   ['tex_5fpositions',['tex_positions',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_image_base.html#aba8da8584620ac4182bcb18aa593a12f',1,'MR::GUI::MRView::ImageBase']]],
   ['tex_5fsize',['tex_size',['../struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___undo_entry.html#a20e969ac4bc4d411e3105ea90d3a6133',1,'MR::GUI::MRView::Tool::ROI_UndoEntry']]],
   ['tex_5ftype',['tex_type',['../class_m_r_1_1_g_u_i_1_1_g_l_1_1_texture.html#a9edb11f021313ac5efe51df11afcb544',1,'MR::GUI::GL::Texture']]],
@@ -27,6 +27,7 @@ var searchData=
   ['text_5foffset',['text_offset',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_renderer.html#adb2b2c7ee3d514a6a64de32da69ce5e8',1,'MR::GUI::MRView::ColourMap::Renderer']]],
   ['texture2d',['texture2D',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_image_base.html#a9bb2507bfed3e78cc27d3f0375ddcc53',1,'MR::GUI::MRView::ImageBase']]],
   ['texture_5fmode_5fchanged',['texture_mode_changed',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_volume.html#a7dca8770f49cd543c113afeee000fb2c',1,'MR::GUI::MRView::Volume']]],
+  ['thickness_5flabel',['thickness_label',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#aad05adef4252cc18936f24ab0ea92c32',1,'MR::GUI::MRView::Tool::Tractography']]],
   ['thickness_5fslider',['thickness_slider',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#ab11af4a1d3896793840ad3456e81b1a2',1,'MR::GUI::MRView::Tool::Tractography']]],
   ['thread',['thread',['../thread_8h.html#a21dd9bf05a6e95e902e1e22f7b9d1422',1,'thread.h']]],
   ['thread_5fcost',['thread_cost',['../class_m_r_1_1_registration_1_1_metric_1_1_demons.html#a1d9c1ae12daf9ad1365b144e35d2a3de',1,'MR::Registration::Metric::Demons::thread_cost()'],['../class_m_r_1_1_registration_1_1_metric_1_1_demons4_d.html#a846a8ed72a54681a0d31c51d349bc3c5',1,'MR::Registration::Metric::Demons4D::thread_cost()']]],
@@ -62,6 +63,7 @@ var searchData=
   ['trackweightsinoption',['TrackWeightsInOption',['../namespace_m_r_1_1_d_w_i_1_1_tractography.html#a8922c52cdfc4ae56a9795bc4efa0b55a',1,'MR::DWI::Tractography']]],
   ['trackweightsoutoption',['TrackWeightsOutOption',['../namespace_m_r_1_1_d_w_i_1_1_tractography.html#ad748b14e024fa1a2a1e1976b3f27e9db',1,'MR::DWI::Tractography']]],
   ['tractogram',['tractogram',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file_options.html#a2cc3742ccdf6e3fd084022f8f3dff16a',1,'MR::GUI::MRView::Tool::TrackScalarFileOptions']]],
+  ['tractogram_5fgeometry_5ftypes',['tractogram_geometry_types',['../namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool.html#a6f289aeae01e555b9f39c55a6415af8e',1,'MR::GUI::MRView::Tool']]],
   ['trafo',['trafo',['../class_m_r_1_1_registration_1_1_transform_1_1_base.html#a4a47880fa7b195d70eae475eb7187ea9',1,'MR::Registration::Transform::Base']]],
   ['trafo_5fhalf',['trafo_half',['../class_m_r_1_1_registration_1_1_transform_1_1_base.html#a8d74fbfb746701496d6cdff9cbdccb18',1,'MR::Registration::Transform::Base']]],
   ['trafo_5fhalf_5finverse',['trafo_half_inverse',['../class_m_r_1_1_registration_1_1_transform_1_1_base.html#a9dd58a699dfabefeeeed509dbba11dec',1,'MR::Registration::Transform::Base']]],
@@ -73,5 +75,5 @@ var searchData=
   ['triangle_5ffile_5fmagic_5fnumber',['triangle_file_magic_number',['../namespace_m_r_1_1_surface_1_1_free_surfer.html#a26659621362f6877e6fea8030123ccbd',1,'MR::Surface::FreeSurfer']]],
   ['triangles',['triangles',['../class_m_r_1_1_surface_1_1_mesh.html#a7b344092512a7b9a603009c2cd06a9f4',1,'MR::Surface::Mesh']]],
   ['truncateoption',['TruncateOption',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_editing.html#aca98e6751d6c5833cfac694a9100ba70',1,'MR::DWI::Tractography::Editing']]],
-  ['type',['type',['../group___cmd_parse.html#ga1bdc76e01c35b959b7105ed789dcdad0',1,'MR::App::Argument::type()'],['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_map_writer_base.html#a60ce05793a68cb202d0fe332e0eb0739',1,'MR::DWI::Tractography::Mapping::MapWriterBase::type()'],['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_seeding_1_1_base.html#a3875984092a366ec96b06eafe2c98c1f',1,'MR::DWI::Tractography::Seeding::Base::type()'],['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_volume.html#afd0430ad5804185f93e7c4280b1ad591',1,'MR::GUI::MRView::Volume::type()'],['../class_m_r_1_1_data_type.html#aee9c55521422baf166875b1a4523dc64',1,'MR::DataType::Type()']]]
+  ['type',['Type',['../class_m_r_1_1_data_type.html#aee9c55521422baf166875b1a4523dc64',1,'MR::DataType::Type()'],['../group___cmd_parse.html#ga1bdc76e01c35b959b7105ed789dcdad0',1,'MR::App::Argument::type()'],['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_map_writer_base.html#a60ce05793a68cb202d0fe332e0eb0739',1,'MR::DWI::Tractography::Mapping::MapWriterBase::type()'],['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_seeding_1_1_base.html#a3875984092a366ec96b06eafe2c98c1f',1,'MR::DWI::Tractography::Seeding::Base::type()'],['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_volume.html#afd0430ad5804185f93e7c4280b1ad591',1,'MR::GUI::MRView::Volume::type()']]]
 ];

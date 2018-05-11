@@ -1,6 +1,7 @@
 var namespace_m_r_1_1_file_1_1_dicom =
 [
     [ "CSAEntry", "class_m_r_1_1_file_1_1_dicom_1_1_c_s_a_entry.html", "class_m_r_1_1_file_1_1_dicom_1_1_c_s_a_entry" ],
+    [ "Date", "class_m_r_1_1_file_1_1_dicom_1_1_date.html", "class_m_r_1_1_file_1_1_dicom_1_1_date" ],
     [ "Element", "class_m_r_1_1_file_1_1_dicom_1_1_element.html", "class_m_r_1_1_file_1_1_dicom_1_1_element" ],
     [ "Frame", "class_m_r_1_1_file_1_1_dicom_1_1_frame.html", "class_m_r_1_1_file_1_1_dicom_1_1_frame" ],
     [ "Image", "class_m_r_1_1_file_1_1_dicom_1_1_image.html", "class_m_r_1_1_file_1_1_dicom_1_1_image" ],
@@ -9,5 +10,6 @@ var namespace_m_r_1_1_file_1_1_dicom =
     [ "Sequence", "class_m_r_1_1_file_1_1_dicom_1_1_sequence.html", "class_m_r_1_1_file_1_1_dicom_1_1_sequence" ],
     [ "Series", "class_m_r_1_1_file_1_1_dicom_1_1_series.html", "class_m_r_1_1_file_1_1_dicom_1_1_series" ],
     [ "Study", "class_m_r_1_1_file_1_1_dicom_1_1_study.html", "class_m_r_1_1_file_1_1_dicom_1_1_study" ],
+    [ "Time", "class_m_r_1_1_file_1_1_dicom_1_1_time.html", "class_m_r_1_1_file_1_1_dicom_1_1_time" ],
     [ "Tree", "class_m_r_1_1_file_1_1_dicom_1_1_tree.html", "class_m_r_1_1_file_1_1_dicom_1_1_tree" ]
 ];

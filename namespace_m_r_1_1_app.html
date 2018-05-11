@@ -32,7 +32,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC2-136-ge27b1200</div>
+   <div id="projectbrief">Version 3.0_RC3</div>
   </td>
  </tr>
  </tbody>
@@ -139,6 +139,12 @@ Functions</h2></td></tr>
 <tr class="memitem:ga190032c75a862904d07987b2d787f8a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___cmd_parse.html#ga190032c75a862904d07987b2d787f8a3">init</a> (int <a class="el" href="namespace_m_r_1_1_app.html#a720565b90cbeea3c197ad5fb19dd1e46">argc</a>, const char *const *<a class="el" href="namespace_m_r_1_1_app.html#a36656026fc9f2697f2706a50dbf9a957">argv</a>)</td></tr>
 <tr class="memdesc:ga190032c75a862904d07987b2d787f8a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialise MRtrix and parse command-line arguments  <a href="group___cmd_parse.html#ga190032c75a862904d07987b2d787f8a3">More...</a><br /></td></tr>
 <tr class="separator:ga190032c75a862904d07987b2d787f8a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0cf0c7526415ad944a79638153b1bbc3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___cmd_parse.html#ga0cf0c7526415ad944a79638153b1bbc3">verify_usage</a> ()</td></tr>
+<tr class="memdesc:ga0cf0c7526415ad944a79638153b1bbc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">verify that command's <a class="el" href="app_8h.html#a2ef30c42cbc289d899a8be5d2d8f77d0">usage()</a> function has set requisite fields [used internally]  <a href="group___cmd_parse.html#ga0cf0c7526415ad944a79638153b1bbc3">More...</a><br /></td></tr>
+<tr class="separator:ga0cf0c7526415ad944a79638153b1bbc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga87e40c7c05c9ec889d2ffd325729e3dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___cmd_parse.html#ga87e40c7c05c9ec889d2ffd325729e3dd">parse_special_options</a> ()</td></tr>
+<tr class="memdesc:ga87e40c7c05c9ec889d2ffd325729e3dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">option parsing that should happen before <a class="el" href="namespace_m_r_1_1_g_u_i.html">GUI</a> creation [used internally]  <a href="group___cmd_parse.html#ga87e40c7c05c9ec889d2ffd325729e3dd">More...</a><br /></td></tr>
+<tr class="separator:ga87e40c7c05c9ec889d2ffd325729e3dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf1a74841efd2f897d660092ce08607de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___cmd_parse.html#gaf1a74841efd2f897d660092ce08607de">parse</a> ()</td></tr>
 <tr class="memdesc:gaf1a74841efd2f897d660092ce08607de"><td class="mdescLeft">&#160;</td><td class="mdescRight">do the actual parsing of the command-line [used internally]  <a href="group___cmd_parse.html#gaf1a74841efd2f897d660092ce08607de">More...</a><br /></td></tr>
 <tr class="separator:gaf1a74841efd2f897d660092ce08607de"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -163,13 +169,19 @@ Functions</h2></td></tr>
 <tr class="separator:ga33348e73a57ff4cad29f8500177acc35"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4c91e340905228301cc590fcb9c0f8f3"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___cmd_parse.html#ga4c91e340905228301cc590fcb9c0f8f3">operator&lt;&lt;</a> (std::ostream &amp;stream, const <a class="el" href="class_m_r_1_1_app_1_1_parsed_argument.html">App::ParsedArgument</a> &amp;arg)</td></tr>
 <tr class="separator:ga4c91e340905228301cc590fcb9c0f8f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa142934e7f510da611f6ad7fe0b3911e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_app.html#aa142934e7f510da611f6ad7fe0b3911e">set_executable_uses_mrtrix_version</a> ()</td></tr>
+<tr class="separator:aa142934e7f510da611f6ad7fe0b3911e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:a3b993447da07796fda5a22bb0b8d932d"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_app.html#a3b993447da07796fda5a22bb0b8d932d">mrtrix_version</a></td></tr>
 <tr class="separator:a3b993447da07796fda5a22bb0b8d932d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0aeea45aeb00a652d21e8a4d7b21ef8"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_app.html#af0aeea45aeb00a652d21e8a4d7b21ef8">build_date</a></td></tr>
+<tr class="separator:af0aeea45aeb00a652d21e8a4d7b21ef8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f9775805bffa71ef27062a5b74ca175"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_app.html#a0f9775805bffa71ef27062a5b74ca175">log_level</a></td></tr>
 <tr class="separator:a0f9775805bffa71ef27062a5b74ca175"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a838f52a975d7498c1798f645859bbb25"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_app.html#a838f52a975d7498c1798f645859bbb25">exit_error_code</a></td></tr>
+<tr class="separator:a838f52a975d7498c1798f645859bbb25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6a0d42e4a8aa8335837c2fa53a448ab"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_app.html#ac6a0d42e4a8aa8335837c2fa53a448ab">NAME</a></td></tr>
 <tr class="separator:ac6a0d42e4a8aa8335837c2fa53a448ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adcb9d0edb4ae63d08f3a121b87ef5d7b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_app.html#adcb9d0edb4ae63d08f3a121b87ef5d7b">overwrite_files</a></td></tr>
@@ -186,8 +198,8 @@ Variables</h2></td></tr>
 <tr class="separator:a36656026fc9f2697f2706a50dbf9a957"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac29ab240475b73bf131d8e647f183a2"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_app.html#aac29ab240475b73bf131d8e647f183a2">project_version</a></td></tr>
 <tr class="separator:aac29ab240475b73bf131d8e647f183a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af0aeea45aeb00a652d21e8a4d7b21ef8"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_app.html#af0aeea45aeb00a652d21e8a4d7b21ef8">build_date</a></td></tr>
-<tr class="separator:af0aeea45aeb00a652d21e8a4d7b21ef8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6f069b1c688b25f7f202e256e0524f3"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_app.html#ab6f069b1c688b25f7f202e256e0524f3">project_build_date</a></td></tr>
+<tr class="separator:ab6f069b1c688b25f7f202e256e0524f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga47e73afc38d3e364e0aab23e78e467f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_r_1_1vector.html">vector</a>&lt; <a class="el" href="class_m_r_1_1_app_1_1_parsed_argument.html">ParsedArgument</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___cmd_parse.html#ga47e73afc38d3e364e0aab23e78e467f9">argument</a></td></tr>
 <tr class="memdesc:ga47e73afc38d3e364e0aab23e78e467f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">the list of arguments parsed from the command-line  <a href="group___cmd_parse.html#ga47e73afc38d3e364e0aab23e78e467f9">More...</a><br /></td></tr>
 <tr class="separator:ga47e73afc38d3e364e0aab23e78e467f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -295,6 +307,23 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="aa142934e7f510da611f6ad7fe0b3911e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa142934e7f510da611f6ad7fe0b3911e">&#9670;&nbsp;</a></span>set_executable_uses_mrtrix_version()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::App::set_executable_uses_mrtrix_version </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a8da6321489c536ceffbf549cda3fa452"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8da6321489c536ceffbf549cda3fa452">&#9670;&nbsp;</a></span>usage_syntax()</h2>
 
@@ -370,6 +399,22 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a838f52a975d7498c1798f645859bbb25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a838f52a975d7498c1798f645859bbb25">&#9670;&nbsp;</a></span>exit_error_code</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::App::exit_error_code</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="exception_8h_source.html#l00034">34</a> of file <a class="el" href="exception_8h_source.html">exception.h</a>.</p>
+
+</div>
+</div>
 <a id="a35f7963fc6de4ef46c7b22a2b419fc05"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a35f7963fc6de4ef46c7b22a2b419fc05">&#9670;&nbsp;</a></span>fail_on_warn</h2>
 
@@ -396,7 +441,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="exception_8h_source.html#l00032">32</a> of file <a class="el" href="exception_8h_source.html">exception.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="exception_8h_source.html#l00033">33</a> of file <a class="el" href="exception_8h_source.html">exception.h</a>.</p>
 
 </div>
 </div>
@@ -426,7 +471,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debug_8h_source.html#l00023">23</a> of file <a class="el" href="debug_8h_source.html">debug.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debug_8h_source.html#l00024">24</a> of file <a class="el" href="debug_8h_source.html">debug.h</a>.</p>
 
 </div>
 </div>
@@ -438,6 +483,20 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">bool MR::App::overwrite_files</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab6f069b1c688b25f7f202e256e0524f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6f069b1c688b25f7f202e256e0524f3">&#9670;&nbsp;</a></span>project_build_date</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char* MR::App::project_build_date</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -478,7 +537,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_app.html">App</a></li>
-    <li class="footer">Generated on Tue Apr 24 2018 16:15:57 for MRtrix by
+    <li class="footer">Generated on Fri May 11 2018 15:02:54 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
   </ul>

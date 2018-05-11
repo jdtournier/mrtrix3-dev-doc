@@ -13,6 +13,7 @@ var searchData=
   ['texture',['Texture',['../class_m_r_1_1_g_u_i_1_1_g_l_1_1_texture.html',1,'MR::GUI::GL']]],
   ['threadkernel',['ThreadKernel',['../class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel.html',1,'MR::Registration::Metric']]],
   ['tiff',['TIFF',['../class_m_r_1_1_file_1_1_t_i_f_f.html',1,'MR::File']]],
+  ['time',['Time',['../class_m_r_1_1_file_1_1_dicom_1_1_time.html',1,'MR::File::Dicom']]],
   ['timer',['Timer',['../class_m_r_1_1_timer.html',1,'MR']]],
   ['tissues',['Tissues',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_tissues.html',1,'MR::DWI::Tractography::ACT']]],
   ['todmappingplugin',['TODMappingPlugin',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_o_d_mapping_plugin.html',1,'MR::DWI::Tractography::Mapping']]],
@@ -32,6 +33,8 @@ var searchData=
   ['tree',['Tree',['../class_m_r_1_1_file_1_1_dicom_1_1_tree.html',1,'MR::File::Dicom']]],
   ['treeitem',['TreeItem',['../class_m_r_1_1_g_u_i_1_1_dialog_1_1_tree_item.html',1,'MR::GUI::Dialog']]],
   ['treemodel',['TreeModel',['../class_m_r_1_1_g_u_i_1_1_dialog_1_1_tree_model.html',1,'MR::GUI::Dialog']]],
+  ['twdfcdynamicimageplugin',['TWDFCDynamicImagePlugin',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_d_f_c_dynamic_image_plugin.html',1,'MR::DWI::Tractography::Mapping']]],
+  ['twdfcstaticimageplugin',['TWDFCStaticImagePlugin',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_d_f_c_static_image_plugin.html',1,'MR::DWI::Tractography::Mapping']]],
   ['twifodimageplugin',['TWIFODImagePlugin',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_i_f_o_d_image_plugin.html',1,'MR::DWI::Tractography::Mapping']]],
   ['twiimagepluginbase',['TWIImagePluginBase',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_i_image_plugin_base.html',1,'MR::DWI::Tractography::Mapping']]],
   ['twiscalarimageplugin',['TWIScalarImagePlugin',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_i_scalar_image_plugin.html',1,'MR::DWI::Tractography::Mapping']]]

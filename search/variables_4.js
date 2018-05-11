@@ -11,6 +11,7 @@ var searchData=
   ['datatype',['datatype',['../structnifti__2__header.html#a17059564511f48f9e9e129dbb0d06c9f',1,'nifti_2_header']]],
   ['datatype_5f',['datatype_',['../class_m_r_1_1_header.html#a7c463859a41215b7c8fcd164ebf8c2a9',1,'MR::Header']]],
   ['date',['date',['../class_m_r_1_1_file_1_1_dicom_1_1_series.html#a5d0be964dfbaf48975cd3e6501d0135a',1,'MR::File::Dicom::Series::date()'],['../class_m_r_1_1_file_1_1_dicom_1_1_study.html#a97a003459ac19d9ed52a88ec4b7a618f',1,'MR::File::Dicom::Study::date()']]],
+  ['day',['day',['../class_m_r_1_1_file_1_1_dicom_1_1_date.html#ad00871545864fc5f4e585d935649eb7a',1,'MR::File::Dicom::Date']]],
   ['de',['dE',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_external_energy_computer.html#adc7a1e749f1133d1bc30435144a276ed',1,'MR::DWI::Tractography::GT::ExternalEnergyComputer']]],
   ['deadzone_5fvalue',['deadzone_value',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_adjust_button.html#a4e871c220c27d4757ccfaf6cd8cb2655',1,'MR::GUI::MRView::AdjustButton']]],
   ['deadzone_5fy',['deadzone_y',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_adjust_button.html#a97666cbda46e2e36158fb9dc6dc739f6',1,'MR::GUI::MRView::AdjustButton']]],

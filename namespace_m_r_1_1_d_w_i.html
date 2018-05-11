@@ -32,7 +32,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC2-136-ge27b1200</div>
+   <div id="projectbrief">Version 3.0_RC3</div>
   </td>
  </tr>
  </tbody>
@@ -206,8 +206,8 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a2c929fcd572aa04a8c1f6bceebc7fc2c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_m_r_1_1_app_1_1_option_group.html">App::OptionGroup</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i.html#a2c929fcd572aa04a8c1f6bceebc7fc2c">ShellOption</a></td></tr>
-<tr class="separator:a2c929fcd572aa04a8c1f6bceebc7fc2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5e985819ac68c6b74393f3e44b69cf6"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_m_r_1_1_app_1_1_option_group.html">App::OptionGroup</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i.html#af5e985819ac68c6b74393f3e44b69cf6">ShellsOption</a></td></tr>
+<tr class="separator:af5e985819ac68c6b74393f3e44b69cf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a193e8562884686580e7bac55f531d7c3"></a>
@@ -225,7 +225,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="shells_8h_source.html#l00059">59</a> of file <a class="el" href="shells_8h_source.html">shells.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="shells_8h_source.html#l00060">60</a> of file <a class="el" href="shells_8h_source.html">shells.h</a>.</p>
 
 </div>
 </div>
@@ -267,7 +267,7 @@ template&lt;class MatrixType &gt; </div>
 
 <p>check that the DW scheme matches the <a class="el" href="namespace_m_r_1_1_d_w_i.html">DWI</a> data in <em>header</em> </p>
 
-<p class="definition">Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00216">216</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00217">217</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
 
 </div>
 </div>
@@ -329,7 +329,7 @@ template&lt;class MatrixType &gt; </div>
 <p>Computes the matrix mapping SH coefficients to the directions specified in <em>directions</em> (in spherical coordinates), up to a given lmax. By default, this is computed from the number of DW directions, up to a maximum value of <em>default_lmax</em> (defaults to 8), or the value specified using c -lmax command-line option (if <em>lmax_from_command_line</em> is true). If the resulting DW scheme is ill-posed (condition number less than 10), lmax will be reduced until it becomes sufficiently well conditioned (unless overridden on the command-line).</p>
 <p>Note that this uses <a class="el" href="namespace_m_r_1_1_d_w_i.html#a9ab90e27c863a6d7e6960a8987703301" title="get the DW encoding matrix as per get_DW_scheme(), and check that it matches the DW header in header ...">get_valid_DW_scheme()</a> to get the DW_scheme, so will check for the -grad option as required. </p>
 
-<p class="definition">Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00268">268</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00269">269</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
 
 </div>
 </div>
@@ -361,7 +361,7 @@ template&lt;class MatrixType &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00087">87</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00088">88</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
 
 </div>
 </div>
@@ -407,7 +407,7 @@ template&lt;class MatrixType , class VectorTypeOut , class VectorTypeIn &gt; </d
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="tensor_8h_source.html#l00077">77</a> of file <a class="el" href="tensor_8h_source.html">tensor.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tensor_8h_source.html#l00078">78</a> of file <a class="el" href="tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -453,7 +453,7 @@ template&lt;class InputImageType , class OutputImageType , class MatrixType &gt;
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="noise__estimator_8h_source.html#l00074">74</a> of file <a class="el" href="noise__estimator_8h_source.html">noise_estimator.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="noise__estimator_8h_source.html#l00075">75</a> of file <a class="el" href="noise__estimator_8h_source.html">noise_estimator.h</a>.</p>
 
 </div>
 </div>
@@ -516,7 +516,7 @@ template&lt;class MatrixType , class IndexVectorType &gt; </div>
 
 <p>convert the DW encoding matrix in <em>grad</em> into a azimuth/elevation direction set, using only the <a class="el" href="namespace_m_r_1_1_d_w_i.html">DWI</a> volumes as per <em>dwi</em> </p>
 
-<p class="definition">Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00064">64</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00065">65</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
 
 </div>
 </div>
@@ -583,7 +583,7 @@ template&lt;class MatrixType , class IndexVectorType &gt; </div>
 <p>get the DW encoding matrix as per <a class="el" href="namespace_m_r_1_1_d_w_i.html#aa0aea8cd6b152634a184fe4b969e9d9a" title="get the DW gradient encoding matrix ">get_DW_scheme()</a>, and check that it matches the DW header in <em>header</em> </p>
 <p>This is the version that should be used in any application that processes the <a class="el" href="namespace_m_r_1_1_d_w_i.html">DWI</a> raw data. </p>
 
-<p class="definition">Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00247">247</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00248">248</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
 
 </div>
 </div>
@@ -623,7 +623,7 @@ template&lt;typename T , class MatrixType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="tensor_8h_source.html#l00028">28</a> of file <a class="el" href="tensor_8h_source.html">tensor.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tensor_8h_source.html#l00029">29</a> of file <a class="el" href="tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -705,7 +705,7 @@ template&lt;typename T , class MatrixType &gt; </div>
 <p>get the maximum spherical harmonic order given a set of directions </p>
 <p>Computes the maximum spherical harmonic order <em>lmax</em> given a set of directions on the sphere. This may be less than the value requested at the command-line, or that calculated from the number of directions, if the resulting transform matrix is ill-posed. </p>
 
-<p class="definition">Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00329">329</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00330">330</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
 
 </div>
 </div>
@@ -766,7 +766,7 @@ template&lt;class MatrixType &gt; </div>
 
 <p>ensure each non-b=0 gradient vector is normalised to unit amplitude </p>
 
-<p class="definition">Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00047">47</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00048">48</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
 
 </div>
 </div>
@@ -848,7 +848,7 @@ template&lt;class MatrixType &gt; </div>
 
 <p>scale b-values by square of gradient norm </p>
 
-<p class="definition">Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00124">124</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00125">125</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
 
 </div>
 </div>
@@ -883,7 +883,7 @@ template&lt;class MatrixType &gt; </div>
 <p>store the DW gradient encoding matrix in a header </p>
 <p>this will store the DW gradient encoding matrix into the Header::keyval() structure of <em>header</em>, under the key 'dw_scheme'. </p>
 
-<p class="definition">Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00140">140</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00141">141</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
 
 </div>
 </div>
@@ -918,7 +918,7 @@ template&lt;class MatrixType &gt; </div>
 <p>'stash' the DW gradient table </p>
 <p>Store the <em>used</em> DW gradient table to Header::keyval() key 'prior_dw_scheme', and delete the key 'dw_scheme' if it exists. This means that the scheme will no longer be identified by function <a class="el" href="namespace_m_r_1_1_d_w_i.html#a3d1753b9a40cfffa51960c8429031266" title="parse the DW gradient encoding matrix from a header ">parse_DW_scheme()</a>, but still resides within the header data and can be extracted manually. This should be used when diffusion-weighted images are used to generate something that is <em>not</em> diffusion_weighted volumes. </p>
 
-<p class="definition">Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00184">184</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="src_2dwi_2gradient_8h_source.html#l00185">185</a> of file <a class="el" href="src_2dwi_2gradient_8h_source.html">gradient.h</a>.</p>
 
 </div>
 </div>
@@ -948,7 +948,7 @@ template&lt;class VectorType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="tensor_8h_source.html#l00086">86</a> of file <a class="el" href="tensor_8h_source.html">tensor.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tensor_8h_source.html#l00087">87</a> of file <a class="el" href="tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -978,7 +978,7 @@ template&lt;class VectorType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="tensor_8h_source.html#l00093">93</a> of file <a class="el" href="tensor_8h_source.html">tensor.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tensor_8h_source.html#l00094">94</a> of file <a class="el" href="tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -1008,7 +1008,7 @@ template&lt;class VectorType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="tensor_8h_source.html#l00105">105</a> of file <a class="el" href="tensor_8h_source.html">tensor.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tensor_8h_source.html#l00106">106</a> of file <a class="el" href="tensor_8h_source.html">tensor.h</a>.</p>
 
 </div>
 </div>
@@ -1050,14 +1050,14 @@ template&lt;class VectorType &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a2c929fcd572aa04a8c1f6bceebc7fc2c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2c929fcd572aa04a8c1f6bceebc7fc2c">&#9670;&nbsp;</a></span>ShellOption</h2>
+<a id="af5e985819ac68c6b74393f3e44b69cf6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5e985819ac68c6b74393f3e44b69cf6">&#9670;&nbsp;</a></span>ShellsOption</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="class_m_r_1_1_app_1_1_option_group.html">App::OptionGroup</a> MR::DWI::ShellOption</td>
+          <td class="memname">const <a class="el" href="class_m_r_1_1_app_1_1_option_group.html">App::OptionGroup</a> MR::DWI::ShellsOption</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1070,7 +1070,7 @@ template&lt;class VectorType &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_d_w_i.html">DWI</a></li>
-    <li class="footer">Generated on Tue Apr 24 2018 16:15:57 for MRtrix by
+    <li class="footer">Generated on Fri May 11 2018 15:02:54 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
   </ul>

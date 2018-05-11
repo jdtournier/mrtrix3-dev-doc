@@ -25,7 +25,6 @@ var src_2gui_2mrview_2tool_2connectome_2types_8h =
     [ "edge_visibility_t", "src_2gui_2mrview_2tool_2connectome_2types_8h.html#a4c5768658fab097817689a9c6de487e2", [
       [ "ALL", "src_2gui_2mrview_2tool_2connectome_2types_8h.html#a4c5768658fab097817689a9c6de487e2a5fb1f955b45e38e31789286a1790398d", null ],
       [ "NONE", "src_2gui_2mrview_2tool_2connectome_2types_8h.html#a4c5768658fab097817689a9c6de487e2ab50339a10e1de285ac99d4c3990b8693", null ],
-      [ "VISIBLE_NODES", "src_2gui_2mrview_2tool_2connectome_2types_8h.html#a4c5768658fab097817689a9c6de487e2abc73d027080ed95fc36b0b0fd88b86e9", null ],
       [ "CONNECTOME", "src_2gui_2mrview_2tool_2connectome_2types_8h.html#a4c5768658fab097817689a9c6de487e2aa58ee90bd0ddad71dcfcfb8766a89af2", null ],
       [ "MATRIX_FILE", "src_2gui_2mrview_2tool_2connectome_2types_8h.html#a4c5768658fab097817689a9c6de487e2adb774f799c1b7d938dc58b716c436cea", null ]
     ] ],

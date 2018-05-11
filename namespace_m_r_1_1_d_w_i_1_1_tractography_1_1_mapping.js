@@ -17,6 +17,8 @@ var namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping =
     [ "TrackLoader", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_loader.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_loader" ],
     [ "TrackMapperBase", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_mapper_base.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_mapper_base" ],
     [ "TrackMapperTWI", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_mapper_t_w_i.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_mapper_t_w_i" ],
+    [ "TWDFCDynamicImagePlugin", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_d_f_c_dynamic_image_plugin.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_d_f_c_dynamic_image_plugin" ],
+    [ "TWDFCStaticImagePlugin", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_d_f_c_static_image_plugin.html", null ],
     [ "TWIFODImagePlugin", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_i_f_o_d_image_plugin.html", null ],
     [ "TWIImagePluginBase", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_i_image_plugin_base.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_i_image_plugin_base" ],
     [ "TWIScalarImagePlugin", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_i_scalar_image_plugin.html", null ],

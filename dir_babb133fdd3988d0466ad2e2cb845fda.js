@@ -16,7 +16,9 @@ var dir_babb133fdd3988d0466ad2e2cb845fda =
       [ "TODMappingPlugin", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_o_d_mapping_plugin.html", null ],
       [ "TWIImagePluginBase", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_i_image_plugin_base.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_i_image_plugin_base" ],
       [ "TWIScalarImagePlugin", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_i_scalar_image_plugin.html", null ],
-      [ "TWIFODImagePlugin", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_i_f_o_d_image_plugin.html", null ]
+      [ "TWIFODImagePlugin", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_i_f_o_d_image_plugin.html", null ],
+      [ "TWDFCStaticImagePlugin", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_d_f_c_static_image_plugin.html", null ],
+      [ "TWDFCDynamicImagePlugin", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_d_f_c_dynamic_image_plugin.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_d_f_c_dynamic_image_plugin" ]
     ] ],
     [ "mapping.h", "mapping_8h.html", "mapping_8h" ],
     [ "twi_stats.h", "twi__stats_8h.html", "twi__stats_8h" ],

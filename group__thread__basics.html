@@ -32,7 +32,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC2-136-ge27b1200</div>
+   <div id="projectbrief">Version 3.0_RC3</div>
   </td>
  </tr>
  </tbody>
@@ -88,6 +88,7 @@ $(document).ready(function(){initNavTree('group__thread__basics.html','');});
 
 <div class="header">
   <div class="summary">
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">Basic multi-threading primitives<div class="ingroups"><a class="el" href="group__thread__classes.html">Multi-threading</a></div></div>  </div>
@@ -97,10 +98,20 @@ $(document).ready(function(){initNavTree('group__thread__basics.html','');});
 <p>basic functions and classes to allow multi-threading  
 <a href="#details">More...</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:gaff2bf599166ff69fd4b6219269c96bdb"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__thread__basics.html#gaff2bf599166ff69fd4b6219269c96bdb">MR::Thread::nthreads_t</a> { <a class="el" href="group__thread__basics.html#ggaff2bf599166ff69fd4b6219269c96bdba034100353265e344701d054b597a2770">MR::Thread::nthreads_t::UNINITIALISED</a>, 
+<a class="el" href="group__thread__basics.html#ggaff2bf599166ff69fd4b6219269c96bdba440806ada035e97a59ec9d2ca6796cb3">MR::Thread::nthreads_t::EXPLICIT</a>, 
+<a class="el" href="group__thread__basics.html#ggaff2bf599166ff69fd4b6219269c96bdba12afe8f66c5af8e690fbf6ead4c55ab2">MR::Thread::nthreads_t::IMPLICIT</a>
+ }</td></tr>
+<tr class="separator:gaff2bf599166ff69fd4b6219269c96bdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ga86984fa489ba954903690da0836a4f08"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__thread__basics.html#ga86984fa489ba954903690da0836a4f08">MR::Thread::number_of_threads</a> ()</td></tr>
 <tr class="separator:ga86984fa489ba954903690da0836a4f08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga635dcd8aac0bb5ea995a3dbf42423a10"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__thread__basics.html#gaff2bf599166ff69fd4b6219269c96bdb">nthreads_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__thread__basics.html#ga635dcd8aac0bb5ea995a3dbf42423a10">MR::Thread::type_nthreads</a> ()</td></tr>
+<tr class="separator:ga635dcd8aac0bb5ea995a3dbf42423a10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf01d13fdb672f4a8c8727a7a70760cea"><td class="memTemplParams" colspan="2">template&lt;class Functor &gt; </td></tr>
 <tr class="memitem:gaf01d13fdb672f4a8c8727a7a70760cea"><td class="memTemplItemLeft" align="right" valign="top">__Multi&lt; typename std::remove_reference&lt; Functor &gt;::type &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__thread__basics.html#gaf01d13fdb672f4a8c8727a7a70760cea">MR::Thread::multi</a> (Functor &amp;&amp;<a class="el" href="thread_8h.html#aece92f5ed23ab311f706fc6069e61689">functor</a>, size_t nthreads=<a class="el" href="group__thread__basics.html#ga86984fa489ba954903690da0836a4f08">number_of_threads</a>())</td></tr>
 <tr class="memdesc:gaf01d13fdb672f4a8c8727a7a70760cea"><td class="mdescLeft">&#160;</td><td class="mdescRight">used to request multiple threads of the corresponding functor  <a href="group__thread__basics.html#gaf01d13fdb672f4a8c8727a7a70760cea">More...</a><br /></td></tr>
@@ -113,6 +124,37 @@ Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>basic functions and classes to allow multi-threading </p>
 <p>These functions and classes mostly provide a thin wrapper around the C++11 threads API. While they can be used as-is to develop multi-threaded applications, in practice the <a class="el" href="group__image__thread__looping.html">Thread-safe image looping</a> and <a class="el" href="group__thread__queue.html">Thread-safe queue</a> APIs provide much more convenient and powerful ways of developing robust and efficient applications. </p>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="gaff2bf599166ff69fd4b6219269c96bdb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaff2bf599166ff69fd4b6219269c96bdb">&#9670;&nbsp;</a></span>nthreads_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group__thread__basics.html#gaff2bf599166ff69fd4b6219269c96bdb">MR::Thread::nthreads_t</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>provides information regarding whether the number of threads has been initialised, set explicitly, or determined implicitly. This may affect how particular algorithms choose to launch threads depending on the presence of a user request. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ggaff2bf599166ff69fd4b6219269c96bdba034100353265e344701d054b597a2770"></a>UNINITIALISED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ggaff2bf599166ff69fd4b6219269c96bdba440806ada035e97a59ec9d2ca6796cb3"></a>EXPLICIT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ggaff2bf599166ff69fd4b6219269c96bdba12afe8f66c5af8e690fbf6ead4c55ab2"></a>IMPLICIT&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="thread_8h_source.html#l00249">249</a> of file <a class="el" href="thread_8h_source.html">thread.h</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="gaf01d13fdb672f4a8c8727a7a70760cea"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gaf01d13fdb672f4a8c8727a7a70760cea">&#9670;&nbsp;</a></span>multi()</h2>
@@ -155,7 +197,7 @@ template&lt;class Functor &gt; </div>
 <dd>
 <a class="el" href="group__thread__queue.html#gaad717471c1771f5e794d0d8907cc3efc" title="convenience function to set up and run a 2-stage multi-threaded pipeline. ">Thread::run_queue()</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="thread_8h_source.html#l00255">255</a> of file <a class="el" href="thread_8h_source.html">thread.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="thread_8h_source.html#l00263">263</a> of file <a class="el" href="thread_8h_source.html">thread.h</a>.</p>
 
 </div>
 </div>
@@ -220,7 +262,24 @@ template&lt;class Functor &gt; </div>
 <dl class="section note"><dt>Note</dt><dd>while the wait() function will also be invoked in the destructor, any exceptions thrown will be caught and <em>not</em> re-thrown (throwing in the destructor is considered bad practice). This is to prevent undefined behaviour (i.e. crashes) when multiple thread objects are launched within the same scope, each of which might throw. In these cases, it is best to explicitly call wait() for each of the objects returned by <a class="el" href="group__thread__basics.html#gaab961106219ef4fa4076d24edb123b48" title="Execute the functor&#39;s execute method in a separate thread. ">Thread::run()</a>, rather than relying on the destructor alone (note <a class="el" href="class_m_r_1_1_thread_1_1_queue.html" title="A first-in first-out thread-safe item queue. ">Thread::Queue</a> already does this).</dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="group__thread__basics.html#gaf01d13fdb672f4a8c8727a7a70760cea" title="used to request multiple threads of the corresponding functor ">Thread::multi()</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="thread_8h_source.html#l00338">338</a> of file <a class="el" href="thread_8h_source.html">thread.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="thread_8h_source.html#l00346">346</a> of file <a class="el" href="thread_8h_source.html">thread.h</a>.</p>
+
+</div>
+</div>
+<a id="ga635dcd8aac0bb5ea995a3dbf42423a10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga635dcd8aac0bb5ea995a3dbf42423a10">&#9670;&nbsp;</a></span>type_nthreads()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__thread__basics.html#gaff2bf599166ff69fd4b6219269c96bdb">nthreads_t</a> MR::Thread::type_nthreads </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -229,7 +288,7 @@ template&lt;class Functor &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Apr 24 2018 16:15:57 for MRtrix by
+    <li class="footer">Generated on Fri May 11 2018 15:02:54 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
   </ul>

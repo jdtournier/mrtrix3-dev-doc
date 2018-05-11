@@ -10,6 +10,7 @@ var namespace_m_r_1_1_g_u_i =
     [ "Cursor", "class_m_r_1_1_g_u_i_1_1_cursor.html", "class_m_r_1_1_g_u_i_1_1_cursor" ],
     [ "LightingDock", "class_m_r_1_1_g_u_i_1_1_lighting_dock.html", "class_m_r_1_1_g_u_i_1_1_lighting_dock" ],
     [ "LightingSettings", "class_m_r_1_1_g_u_i_1_1_lighting_settings.html", "class_m_r_1_1_g_u_i_1_1_lighting_settings" ],
+    [ "ModelViewProjection", "class_m_r_1_1_g_u_i_1_1_model_view_projection.html", "class_m_r_1_1_g_u_i_1_1_model_view_projection" ],
     [ "Projection", "class_m_r_1_1_g_u_i_1_1_projection.html", "class_m_r_1_1_g_u_i_1_1_projection" ],
     [ "SpinBox", "class_m_r_1_1_g_u_i_1_1_spin_box.html", null ]
 ];

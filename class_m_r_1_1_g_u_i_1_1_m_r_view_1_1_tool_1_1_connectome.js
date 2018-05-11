@@ -43,6 +43,7 @@ var class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_connectome =
     [ "edge_size_range_controls", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_connectome.html#aedda952a6521fab8d069efe9ff96bdfc", null ],
     [ "edge_size_range_label", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_connectome.html#acee7c3b36a0ea27e0f45ddd908139e0b", null ],
     [ "edge_size_upper_button", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_connectome.html#af3a61762cb02cdb895b3f4681d54fa8d", null ],
+    [ "edge_visibility_by_nodes_checkbox", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_connectome.html#a013af6231b8701150605e4b2149c6d01", null ],
     [ "edge_visibility_combobox", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_connectome.html#a3e5d6b2b4e43571c5370c756c7a1ac49", null ],
     [ "edge_visibility_threshold_button", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_connectome.html#a4adf0da01a27385b88de7d058c56ab0a", null ],
     [ "edge_visibility_threshold_controls", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_connectome.html#a49705c7ed8a6368dafae268d73420786", null ],

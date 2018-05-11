@@ -11,7 +11,6 @@ var class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder =
     [ "get_cf_min_step", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html#a67f49ac8a2a4cc56ce340ffd33885a44", null ],
     [ "get_normal", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html#a58aa3d752aeda9779658240acce74f6a", null ],
     [ "get_tissues", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html#a8b994a9c511ffada54a8428b0bb43a03", null ],
-    [ "is_cgm", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html#ab5100cc32d11ed312f95d88b3ee7380e", null ],
     [ "normal", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html#a1e012fc0d0e4fb8fec7fd7268f206979", null ],
     [ "Track_extender", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html#afe5b300952372c3a05c36bb3d02cee0b", null ],
     [ "Tractography::Seeding::Dynamic_ACT_additions", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html#a0cd80dfae9589ac2dd7d04ca9926dc1b", null ],

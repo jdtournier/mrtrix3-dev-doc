@@ -30,7 +30,6 @@ var group__spherical__harmonics =
       [ "ndir", "class_m_r_1_1_math_1_1_s_h_1_1_precomputed_a_l.html#ae7c66cf90354d50a6ea0f7185baabf75", null ]
     ] ],
     [ "aPSF", "class_m_r_1_1_math_1_1_s_h_1_1a_p_s_f.html", null ],
-    [ "SH_NON_M0_SCALE_FACTOR", "group__spherical__harmonics.html#gaa5599527d6d00f72e280f55ccb190fcf", null ],
     [ "check", "group__spherical__harmonics.html#ga02fbff506863d7c1a4b79eea0ac5660c", null ],
     [ "delta", "group__spherical__harmonics.html#gae9a8ddabd463387e10a641f4fcd32858", null ],
     [ "derivatives", "group__spherical__harmonics.html#ga3da04937bcc39217f2c49365eb286315", null ],

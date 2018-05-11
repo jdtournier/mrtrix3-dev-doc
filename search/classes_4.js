@@ -2,6 +2,7 @@ var searchData=
 [
   ['data',['Data',['../class_m_r_1_1_algo_1_1_histogram_1_1_data.html',1,'MR::Algo::Histogram']]],
   ['datatype',['DataType',['../class_m_r_1_1_data_type.html',1,'MR']]],
+  ['date',['Date',['../class_m_r_1_1_file_1_1_dicom_1_1_date.html',1,'MR::File::Dicom']]],
   ['default',['Default',['../class_m_r_1_1_image_i_o_1_1_default.html',1,'MR::ImageIO']]],
   ['demons',['Demons',['../class_m_r_1_1_registration_1_1_metric_1_1_demons.html',1,'MR::Registration::Metric']]],
   ['demons4d',['Demons4D',['../class_m_r_1_1_registration_1_1_metric_1_1_demons4_d.html',1,'MR::Registration::Metric']]],

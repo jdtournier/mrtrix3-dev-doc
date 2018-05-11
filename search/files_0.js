@@ -7,5 +7,6 @@ var searchData=
   ['apply_2eh',['apply.h',['../apply_8h.html',1,'']]],
   ['arc_2eh',['arc.h',['../arc_8h.html',1,'']]],
   ['array_2eh',['array.h',['../array_8h.html',1,'']]],
-  ['average_5fspace_2eh',['average_space.h',['../average__space_8h.html',1,'']]]
+  ['average_5fspace_2eh',['average_space.h',['../average__space_8h.html',1,'']]],
+  ['axes_2eh',['axes.h',['../axes_8h.html',1,'']]]
 ];

@@ -32,7 +32,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC2-136-ge27b1200</div>
+   <div id="projectbrief">Version 3.0_RC3</div>
   </td>
  </tr>
  </tbody>
@@ -123,12 +123,14 @@ Macros</h2></td></tr>
 <tr class="separator:a6cb40c6914e137b11a4cdd9de782aca9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93073f1e5ec75ba7287ed76ae1b8db92"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dwi_2tractography_2tracking_2tractography_8h.html#a93073f1e5ec75ba7287ed76ae1b8db92">TCKGEN_DEFAULT_MAX_ATTEMPTS_PER_SEED</a>&#160;&#160;&#160;1000</td></tr>
 <tr class="separator:a93073f1e5ec75ba7287ed76ae1b8db92"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27f1b1119b9f4ab68912d9c87dbaad5a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dwi_2tractography_2tracking_2tractography_8h.html#a27f1b1119b9f4ab68912d9c87dbaad5a">TCKGEN_DEFAULT_CUTOFF</a>&#160;&#160;&#160;0.1</td></tr>
-<tr class="separator:a27f1b1119b9f4ab68912d9c87dbaad5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78d628051df16ad2b7497cc2a4633e14"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dwi_2tractography_2tracking_2tractography_8h.html#a78d628051df16ad2b7497cc2a4633e14">TCKGEN_DEFAULT_CUTOFF_FOD</a>&#160;&#160;&#160;0.05</td></tr>
+<tr class="separator:a78d628051df16ad2b7497cc2a4633e14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a183e8d7013b0ccfe1b0806f94bd96a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dwi_2tractography_2tracking_2tractography_8h.html#a4a183e8d7013b0ccfe1b0806f94bd96a">TCKGEN_DEFAULT_CUTOFF_FIXEL</a>&#160;&#160;&#160;0.05</td></tr>
+<tr class="separator:a4a183e8d7013b0ccfe1b0806f94bd96a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c735b4acc850ef5c4e0ebbca2b0de13"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dwi_2tractography_2tracking_2tractography_8h.html#a0c735b4acc850ef5c4e0ebbca2b0de13">TCKGEN_DEFAULT_CUTOFF_FA</a>&#160;&#160;&#160;0.10</td></tr>
+<tr class="separator:a0c735b4acc850ef5c4e0ebbca2b0de13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:addd34efedb84d21c0ab44c7277d36818"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dwi_2tractography_2tracking_2tractography_8h.html#addd34efedb84d21c0ab44c7277d36818">TCKGEN_DEFAULT_MAX_TRIALS_PER_STEP</a>&#160;&#160;&#160;1000</td></tr>
 <tr class="separator:addd34efedb84d21c0ab44c7277d36818"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4dde614e53743a50c819b2085bc302ea"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dwi_2tractography_2tracking_2tractography_8h.html#a4dde614e53743a50c819b2085bc302ea">TCKGEN_DEFAULT_IFOD2_NSAMPLES</a>&#160;&#160;&#160;4</td></tr>
-<tr class="separator:a4dde614e53743a50c819b2085bc302ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -141,35 +143,51 @@ Variables</h2></td></tr>
 <tr class="separator:a81f5feaac85eccf848e0a63c7b43edd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a27f1b1119b9f4ab68912d9c87dbaad5a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a27f1b1119b9f4ab68912d9c87dbaad5a">&#9670;&nbsp;</a></span>TCKGEN_DEFAULT_CUTOFF</h2>
+<a id="a0c735b4acc850ef5c4e0ebbca2b0de13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c735b4acc850ef5c4e0ebbca2b0de13">&#9670;&nbsp;</a></span>TCKGEN_DEFAULT_CUTOFF_FA</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TCKGEN_DEFAULT_CUTOFF&#160;&#160;&#160;0.1</td>
+          <td class="memname">#define TCKGEN_DEFAULT_CUTOFF_FA&#160;&#160;&#160;0.10</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="dwi_2tractography_2tracking_2tractography_8h_source.html#l00026">26</a> of file <a class="el" href="dwi_2tractography_2tracking_2tractography_8h_source.html">tractography.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dwi_2tractography_2tracking_2tractography_8h_source.html#l00029">29</a> of file <a class="el" href="dwi_2tractography_2tracking_2tractography_8h_source.html">tractography.h</a>.</p>
 
 </div>
 </div>
-<a id="a4dde614e53743a50c819b2085bc302ea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4dde614e53743a50c819b2085bc302ea">&#9670;&nbsp;</a></span>TCKGEN_DEFAULT_IFOD2_NSAMPLES</h2>
+<a id="a4a183e8d7013b0ccfe1b0806f94bd96a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a183e8d7013b0ccfe1b0806f94bd96a">&#9670;&nbsp;</a></span>TCKGEN_DEFAULT_CUTOFF_FIXEL</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TCKGEN_DEFAULT_IFOD2_NSAMPLES&#160;&#160;&#160;4</td>
+          <td class="memname">#define TCKGEN_DEFAULT_CUTOFF_FIXEL&#160;&#160;&#160;0.05</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="dwi_2tractography_2tracking_2tractography_8h_source.html#l00028">28</a> of file <a class="el" href="dwi_2tractography_2tracking_2tractography_8h_source.html">tractography.h</a>.</p>
+
+</div>
+</div>
+<a id="a78d628051df16ad2b7497cc2a4633e14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78d628051df16ad2b7497cc2a4633e14">&#9670;&nbsp;</a></span>TCKGEN_DEFAULT_CUTOFF_FOD</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TCKGEN_DEFAULT_CUTOFF_FOD&#160;&#160;&#160;0.05</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="dwi_2tractography_2tracking_2tractography_8h_source.html#l00027">27</a> of file <a class="el" href="dwi_2tractography_2tracking_2tractography_8h_source.html">tractography.h</a>.</p>
 
 </div>
 </div>
@@ -185,7 +203,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="dwi_2tractography_2tracking_2tractography_8h_source.html#l00025">25</a> of file <a class="el" href="dwi_2tractography_2tracking_2tractography_8h_source.html">tractography.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dwi_2tractography_2tracking_2tractography_8h_source.html#l00026">26</a> of file <a class="el" href="dwi_2tractography_2tracking_2tractography_8h_source.html">tractography.h</a>.</p>
 
 </div>
 </div>
@@ -201,7 +219,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="dwi_2tractography_2tracking_2tractography_8h_source.html#l00027">27</a> of file <a class="el" href="dwi_2tractography_2tracking_2tractography_8h_source.html">tractography.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dwi_2tractography_2tracking_2tractography_8h_source.html#l00030">30</a> of file <a class="el" href="dwi_2tractography_2tracking_2tractography_8h_source.html">tractography.h</a>.</p>
 
 </div>
 </div>
@@ -217,7 +235,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="dwi_2tractography_2tracking_2tractography_8h_source.html#l00023">23</a> of file <a class="el" href="dwi_2tractography_2tracking_2tractography_8h_source.html">tractography.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dwi_2tractography_2tracking_2tractography_8h_source.html#l00024">24</a> of file <a class="el" href="dwi_2tractography_2tracking_2tractography_8h_source.html">tractography.h</a>.</p>
 
 </div>
 </div>
@@ -233,7 +251,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="dwi_2tractography_2tracking_2tractography_8h_source.html#l00024">24</a> of file <a class="el" href="dwi_2tractography_2tracking_2tractography_8h_source.html">tractography.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dwi_2tractography_2tracking_2tractography_8h_source.html#l00025">25</a> of file <a class="el" href="dwi_2tractography_2tracking_2tractography_8h_source.html">tractography.h</a>.</p>
 
 </div>
 </div>
@@ -243,7 +261,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_6da8e6f1bfdb5540a85bd819d2a13962.html">dwi</a></li><li class="navelem"><a class="el" href="dir_6f8fcd489e430c1a1b22716f7655ad56.html">tractography</a></li><li class="navelem"><a class="el" href="dir_e52cf29ec87f46add90075c2a6c67f9c.html">tracking</a></li><li class="navelem"><a class="el" href="dwi_2tractography_2tracking_2tractography_8h.html">tractography.h</a></li>
-    <li class="footer">Generated on Tue Apr 24 2018 16:15:57 for MRtrix by
+    <li class="footer">Generated on Fri May 11 2018 15:02:54 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
   </ul>

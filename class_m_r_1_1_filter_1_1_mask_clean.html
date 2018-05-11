@@ -32,7 +32,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC2-136-ge27b1200</div>
+   <div id="projectbrief">Version 3.0_RC3</div>
   </td>
  </tr>
  </tbody>
@@ -171,7 +171,7 @@ Protected Attributes</h2></td></tr>
 <div class="textblock"><p>a filter to clean up masks typically output by <a class="el" href="class_m_r_1_1_filter_1_1_d_w_i_brain_mask.html" title="a filter to compute a whole brain mask from a DWI image. ">DWIBrainMask</a> filter </p>
 <p>Removes peninsula-like extensions of binary masks, where the peninsula itself is wider than the bridge connecting it to the mask. Typical examples are eyes connected to the mask by parts of the optical nerves; or other non-brain parts or artefacts.</p>
 <p>Typical usage: </p><div class="fragment"><div class="line"><span class="keyword">auto</span> input = <a class="code" href="class_m_r_1_1_image.html#aab488a42d712e19da34e089333c14c15">Image&lt;bool&gt;::open</a> (<a class="code" href="group___cmd_parse.html#ga47e73afc38d3e364e0aab23e78e467f9">argument</a>[0]);</div><div class="line">Filter::MaskClean mask_clean_filter (input);</div><div class="line"><span class="keyword">auto</span> output = <a class="code" href="class_m_r_1_1_image.html#af3e84ff9ee40cdffa21ae551848b9573">Image&lt;bool&gt;::create</a> (<a class="code" href="group___cmd_parse.html#ga47e73afc38d3e364e0aab23e78e467f9">argument</a>[1], mask_clean_filter);</div><div class="line">mask_clean_filter (input, output);</div></div><!-- fragment --> 
-<p class="definition">Definition at line <a class="el" href="mask__clean_8h_source.html#l00054">54</a> of file <a class="el" href="mask__clean_8h_source.html">mask_clean.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mask__clean_8h_source.html#l00055">55</a> of file <a class="el" href="mask__clean_8h_source.html">mask_clean.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a4a507a4cebe2e2a9ec4f010164e4b18a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4a507a4cebe2e2a9ec4f010164e4b18a">&#9670;&nbsp;</a></span>differ()</h2>
@@ -209,7 +209,7 @@ template&lt;class InputImageType , class OutputImageType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mask__clean_8h_source.html#l00171">171</a> of file <a class="el" href="mask__clean_8h_source.html">mask_clean.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mask__clean_8h_source.html#l00172">172</a> of file <a class="el" href="mask__clean_8h_source.html">mask_clean.h</a>.</p>
 
 </div>
 </div>
@@ -249,7 +249,7 @@ template&lt;class InputImageType , class OutputImageType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mask__clean_8h_source.html#l00124">124</a> of file <a class="el" href="mask__clean_8h_source.html">mask_clean.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mask__clean_8h_source.html#l00125">125</a> of file <a class="el" href="mask__clean_8h_source.html">mask_clean.h</a>.</p>
 
 </div>
 </div>
@@ -295,7 +295,7 @@ template&lt;class InputImageType , class OutputImageType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mask__clean_8h_source.html#l00143">143</a> of file <a class="el" href="mask__clean_8h_source.html">mask_clean.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mask__clean_8h_source.html#l00144">144</a> of file <a class="el" href="mask__clean_8h_source.html">mask_clean.h</a>.</p>
 
 </div>
 </div>
@@ -320,7 +320,7 @@ template&lt;class InputImageType , class OutputImageType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mask__clean_8h_source.html#l00180">180</a> of file <a class="el" href="mask__clean_8h_source.html">mask_clean.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mask__clean_8h_source.html#l00181">181</a> of file <a class="el" href="mask__clean_8h_source.html">mask_clean.h</a>.</p>
 
 </div>
 </div>
@@ -333,7 +333,7 @@ template&lt;class InputImageType , class OutputImageType &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_filter.html">Filter</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_filter_1_1_mask_clean.html">MaskClean</a></li>
-    <li class="footer">Generated on Tue Apr 24 2018 16:15:58 for MRtrix by
+    <li class="footer">Generated on Fri May 11 2018 15:02:55 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
   </ul>

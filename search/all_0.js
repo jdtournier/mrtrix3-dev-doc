@@ -24,6 +24,7 @@ var searchData=
   ['_5f_5fstandard_5foptions',['__standard_options',['../group___cmd_parse.html#gaf23780445b3268cd62f606a1e435198d',1,'MR::App']]],
   ['_5f_5fstr',['__STR',['../src_2gui_2mrview_2tool_2base_8h.html#af3192660ce6b091819a6f5db69b8d54f',1,'base.h']]],
   ['_5f_5fstr_5f_5f',['__STR__',['../src_2gui_2mrview_2tool_2base_8h.html#ab1c719d72953053ecea4915641ad3567',1,'base.h']]],
+  ['_5fcurrent_5ftexture',['_current_texture',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_volume.html#a9d28989ccd8e79623a17804fa12e6bce',1,'MR::GUI::MRView::Volume']]],
   ['_5fe1',['_e1',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_energy_sum_computer.html#a6d390eba795b81cf715babf3626277a9',1,'MR::DWI::Tractography::GT::EnergySumComputer']]],
   ['_5fe2',['_e2',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_energy_sum_computer.html#a3b3c2bcbe66de900f17d17437ee662aa',1,'MR::DWI::Tractography::GT::EnergySumComputer']]],
   ['_5fheader',['_header',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_volume.html#a3c4c58b7fea07590d13cd94893e02993',1,'MR::GUI::MRView::Volume']]],

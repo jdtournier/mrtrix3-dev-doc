@@ -32,7 +32,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC2-136-ge27b1200</div>
+   <div id="projectbrief">Version 3.0_RC3</div>
   </td>
  </tr>
  </tbody>
@@ -103,27 +103,37 @@ Inheritance diagram for MR::DWI::Tractography::Mapping::TWIImagePluginBase:</div
  <div class="center">
   <img src="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_i_image_plugin_base.png" usemap="#MR::DWI::Tractography::Mapping::TWIImagePluginBase_map" alt=""/>
   <map id="MR::DWI::Tractography::Mapping::TWIImagePluginBase_map" name="MR::DWI::Tractography::Mapping::TWIImagePluginBase_map">
-<area href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_i_f_o_d_image_plugin.html" alt="MR::DWI::Tractography::Mapping::TWIFODImagePlugin" shape="rect" coords="0,56,329,80"/>
-<area href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_i_scalar_image_plugin.html" alt="MR::DWI::Tractography::Mapping::TWIScalarImagePlugin" shape="rect" coords="339,56,668,80"/>
+<area href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_d_f_c_dynamic_image_plugin.html" alt="MR::DWI::Tractography::Mapping::TWDFCDynamicImagePlugin" shape="rect" coords="0,56,364,80"/>
+<area href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_d_f_c_static_image_plugin.html" alt="MR::DWI::Tractography::Mapping::TWDFCStaticImagePlugin" shape="rect" coords="374,56,738,80"/>
+<area href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_i_f_o_d_image_plugin.html" alt="MR::DWI::Tractography::Mapping::TWIFODImagePlugin" shape="rect" coords="748,56,1112,80"/>
+<area href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_i_scalar_image_plugin.html" alt="MR::DWI::Tractography::Mapping::TWIScalarImagePlugin" shape="rect" coords="1122,56,1486,80"/>
 </map>
  </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:af63b4d252c689d9eb7e714efbd6eef7b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_streamline.html">Streamline</a> ::point_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_i_image_plugin_base.html#af63b4d252c689d9eb7e714efbd6eef7b">get_last_point_in_fov</a> (const <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_streamline.html">Streamline</a>&lt;&gt; &amp;, const bool) const</td></tr>
-<tr class="separator:af63b4d252c689d9eb7e714efbd6eef7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2630fbc339858db3023fdf48f4e2ebe"><td class="memItemLeft" align="right" valign="top">const ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_i_image_plugin_base.html#ab2630fbc339858db3023fdf48f4e2ebe">get_end_index</a> (const <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_streamline.html">Streamline</a>&lt;&gt; &amp;, const bool) const</td></tr>
+<tr class="separator:ab2630fbc339858db3023fdf48f4e2ebe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5cee5e57053c588a12a2ed659ccd0f01"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_streamline.html">Streamline</a> ::point_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_i_image_plugin_base.html#a5cee5e57053c588a12a2ed659ccd0f01">get_end_point</a> (const <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_streamline.html">Streamline</a>&lt;&gt; &amp;, const bool) const</td></tr>
+<tr class="separator:a5cee5e57053c588a12a2ed659ccd0f01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
+<tr class="memitem:af08464282f408a9c4e68545ce2f7609c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping.html#a3fa21a08c7f0bffb34976f520d129275">tck_stat_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_i_image_plugin_base.html#af08464282f408a9c4e68545ce2f7609c">statistic</a></td></tr>
+<tr class="separator:af08464282f408a9c4e68545ce2f7609c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76961595044b23f87fdcc47e2878d0ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__interp.html#ga37074808dd977bb4b066a1ef0bc6ddaa">Interp::Linear</a>&lt; <a class="el" href="class_m_r_1_1_image.html">Image</a>&lt; float &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_i_image_plugin_base.html#a76961595044b23f87fdcc47e2878d0ce">interp</a></td></tr>
 <tr class="separator:a76961595044b23f87fdcc47e2878d0ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a169c43c50d65dc540d07cb381e61d043"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_i_image_plugin_base.html#a169c43c50d65dc540d07cb381e61d043">backtrack</a></td></tr>
+<tr class="separator:a169c43c50d65dc540d07cb381e61d043"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02228f997907b856c643e9deac155ec3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_r_1_1_image.html">Image</a>&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_i_image_plugin_base.html#a02228f997907b856c643e9deac155ec3">backtrack_mask</a></td></tr>
+<tr class="separator:a02228f997907b856c643e9deac155ec3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="mapper__plugins_8h_source.html#l00068">68</a> of file <a class="el" href="mapper__plugins_8h_source.html">mapper_plugins.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mapper__plugins_8h_source.html#l00069">69</a> of file <a class="el" href="mapper__plugins_8h_source.html">mapper_plugins.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="af63b4d252c689d9eb7e714efbd6eef7b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af63b4d252c689d9eb7e714efbd6eef7b">&#9670;&nbsp;</a></span>get_last_point_in_fov()</h2>
+<a id="ab2630fbc339858db3023fdf48f4e2ebe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2630fbc339858db3023fdf48f4e2ebe">&#9670;&nbsp;</a></span>get_end_index()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -132,7 +142,43 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_streamline.html">Streamline</a> ::point_type MR::DWI::Tractography::Mapping::TWIImagePluginBase::get_last_point_in_fov </td>
+          <td class="memname">const ssize_t MR::DWI::Tractography::Mapping::TWIImagePluginBase::get_end_index </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_streamline.html">Streamline</a>&lt;&gt; &amp;&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5cee5e57053c588a12a2ed659ccd0f01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5cee5e57053c588a12a2ed659ccd0f01">&#9670;&nbsp;</a></span>get_end_point()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_streamline.html">Streamline</a> ::point_type MR::DWI::Tractography::Mapping::TWIImagePluginBase::get_end_point </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_streamline.html">Streamline</a>&lt;&gt; &amp;&#160;</td>
           <td class="paramname">, </td>
@@ -159,6 +205,54 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a169c43c50d65dc540d07cb381e61d043"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a169c43c50d65dc540d07cb381e61d043">&#9670;&nbsp;</a></span>backtrack</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::DWI::Tractography::Mapping::TWIImagePluginBase::backtrack</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="mapper__plugins_8h_source.html#l00106">106</a> of file <a class="el" href="mapper__plugins_8h_source.html">mapper_plugins.h</a>.</p>
+
+</div>
+</div>
+<a id="a02228f997907b856c643e9deac155ec3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02228f997907b856c643e9deac155ec3">&#9670;&nbsp;</a></span>backtrack_mask</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_m_r_1_1_image.html">Image</a>&lt;bool&gt; MR::DWI::Tractography::Mapping::TWIImagePluginBase::backtrack_mask</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="mapper__plugins_8h_source.html#l00107">107</a> of file <a class="el" href="mapper__plugins_8h_source.html">mapper_plugins.h</a>.</p>
+
+</div>
+</div>
 <a id="a76961595044b23f87fdcc47e2878d0ce"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a76961595044b23f87fdcc47e2878d0ce">&#9670;&nbsp;</a></span>interp</h2>
 
@@ -179,7 +273,31 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mapper__plugins_8h_source.html#l00083">83</a> of file <a class="el" href="mapper__plugins_8h_source.html">mapper_plugins.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mapper__plugins_8h_source.html#l00103">103</a> of file <a class="el" href="mapper__plugins_8h_source.html">mapper_plugins.h</a>.</p>
+
+</div>
+</div>
+<a id="af08464282f408a9c4e68545ce2f7609c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af08464282f408a9c4e68545ce2f7609c">&#9670;&nbsp;</a></span>statistic</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping.html#a3fa21a08c7f0bffb34976f520d129275">tck_stat_t</a> MR::DWI::Tractography::Mapping::TWIImagePluginBase::statistic</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="mapper__plugins_8h_source.html#l00098">98</a> of file <a class="el" href="mapper__plugins_8h_source.html">mapper_plugins.h</a>.</p>
 
 </div>
 </div>
@@ -192,7 +310,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_d_w_i.html">DWI</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography.html">Tractography</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping.html">Mapping</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_i_image_plugin_base.html">TWIImagePluginBase</a></li>
-    <li class="footer">Generated on Tue Apr 24 2018 16:15:57 for MRtrix by
+    <li class="footer">Generated on Fri May 11 2018 15:02:54 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
   </ul>

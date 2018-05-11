@@ -32,7 +32,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC2-136-ge27b1200</div>
+   <div id="projectbrief">Version 3.0_RC3</div>
   </td>
  </tr>
  </tbody>
@@ -231,14 +231,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a365391fd1640264abd82a19ca09a11db"><td class="memTemplParams" colspan="2">template&lt;typename X , typename... Args&gt; </td></tr>
 <tr class="memitem:a365391fd1640264abd82a19ca09a11db"><td class="memTemplItemLeft" align="right" valign="top">std::unique_ptr&lt; X &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a365391fd1640264abd82a19ca09a11db">MR::make_unique</a> (Args &amp;&amp;... args)</td></tr>
 <tr class="separator:a365391fd1640264abd82a19ca09a11db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91be51640ed06aa50e92247a4d945cf0"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacestd.html#a91be51640ed06aa50e92247a4d945cf0">std::abs</a> (uint8_t x)</td></tr>
-<tr class="separator:a91be51640ed06aa50e92247a4d945cf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7c200cc7c846acf0de19c96405363f7"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacestd.html#ab7c200cc7c846acf0de19c96405363f7">std::abs</a> (uint16_t x)</td></tr>
-<tr class="separator:ab7c200cc7c846acf0de19c96405363f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1690cc9ad6e93e9c6b6356f762623a28"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacestd.html#a1690cc9ad6e93e9c6b6356f762623a28">std::abs</a> (uint32_t x)</td></tr>
-<tr class="separator:a1690cc9ad6e93e9c6b6356f762623a28"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af0623fb5969914edf28e79543c8b6ba9"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacestd.html#af0623fb5969914edf28e79543c8b6ba9">std::abs</a> (uint64_t x)</td></tr>
-<tr class="separator:af0623fb5969914edf28e79543c8b6ba9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bf1316228ffe93b9651db6c2adaa145"><td class="memTemplParams" colspan="2">template&lt;typename X &gt; </td></tr>
+<tr class="memitem:a5bf1316228ffe93b9651db6c2adaa145"><td class="memTemplItemLeft" align="right" valign="top">constexpr std::enable_if&lt; std::is_arithmetic&lt; X &gt;::value &amp;&amp;std::is_unsigned&lt; X &gt;::value, X &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a5bf1316228ffe93b9651db6c2adaa145">MR::abs</a> (X x)</td></tr>
+<tr class="separator:a5bf1316228ffe93b9651db6c2adaa145"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7cce08b2ec1defb19ef7c602d345aa7"><td class="memTemplParams" colspan="2">template&lt;typename X &gt; </td></tr>
+<tr class="memitem:ac7cce08b2ec1defb19ef7c602d345aa7"><td class="memTemplItemLeft" align="right" valign="top">constexpr std::enable_if&lt; std::is_arithmetic&lt; X &gt;::value &amp;&amp;!std::is_unsigned&lt; X &gt;::value, X &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#ac7cce08b2ec1defb19ef7c602d345aa7">MR::abs</a> (X x)</td></tr>
+<tr class="separator:ac7cce08b2ec1defb19ef7c602d345aa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8033a8f741f11e3d52c4743763cb686f"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a8033a8f741f11e3d52c4743763cb686f"><td class="memTemplItemLeft" align="right" valign="top">ostream &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacestd.html#a8033a8f741f11e3d52c4743763cb686f">std::operator&lt;&lt;</a> (ostream &amp;stream, const vector&lt; T &gt; &amp;V)</td></tr>
 <tr class="separator:a8033a8f741f11e3d52c4743763cb686f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -271,14 +269,14 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">static_assert ( (<span class="keyword">alignof</span>(__VA_ARGS__) &lt;= ::<a class="code" href="namespace_m_r.html#a57bc63b29daf275689c183dc0a9dfca9">MR::malloc_align</a>) || <a class="code" href="class____has__custom__new__operator.html">__has_custom_new_operator&lt;__VA_ARGS__&gt;::value</a>, \</div><div class="line">        <span class="stringliteral">&quot;class requires over-alignment, but no operator new defined! Please insert MEMALIGN() into class definition.&quot;</span>)</div><div class="ttc" id="namespace_m_r_html_a57bc63b29daf275689c183dc0a9dfca9"><div class="ttname"><a href="namespace_m_r.html#a57bc63b29daf275689c183dc0a9dfca9">MR::malloc_align</a></div><div class="ttdeci">constexpr size_t malloc_align</div><div class="ttdef"><b>Definition:</b> <a href="src_2surface_2types_8h_source.html#l00045">types.h:45</a></div></div>
-<div class="ttc" id="class____has__custom__new__operator_html"><div class="ttname"><a href="class____has__custom__new__operator.html">__has_custom_new_operator</a></div><div class="ttdef"><b>Definition:</b> <a href="src_2surface_2types_8h_source.html#l00152">types.h:152</a></div></div>
+<b>Value:</b><div class="fragment"><div class="line">static_assert ( (<span class="keyword">alignof</span>(__VA_ARGS__) &lt;= ::<a class="code" href="namespace_m_r.html#a57bc63b29daf275689c183dc0a9dfca9">MR::malloc_align</a>) || <a class="code" href="class____has__custom__new__operator.html">__has_custom_new_operator&lt;__VA_ARGS__&gt;::value</a>, \</div><div class="line">        <span class="stringliteral">&quot;class requires over-alignment, but no operator new defined! Please insert MEMALIGN() into class definition.&quot;</span>)</div><div class="ttc" id="namespace_m_r_html_a57bc63b29daf275689c183dc0a9dfca9"><div class="ttname"><a href="namespace_m_r.html#a57bc63b29daf275689c183dc0a9dfca9">MR::malloc_align</a></div><div class="ttdeci">constexpr size_t malloc_align</div><div class="ttdef"><b>Definition:</b> <a href="src_2surface_2types_8h_source.html#l00046">types.h:46</a></div></div>
+<div class="ttc" id="class____has__custom__new__operator_html"><div class="ttname"><a href="class____has__custom__new__operator.html">__has_custom_new_operator</a></div><div class="ttdef"><b>Definition:</b> <a href="src_2surface_2types_8h_source.html#l00153">types.h:153</a></div></div>
 </div><!-- fragment --><p>used to verify that the class is set up approriately for memory alignment when dynamically allocated. This checks whether the class's alignment requirements exceed that of the default allocator, and if so whether it has custom operator new methods defined to deal with this. Conversely, it also checks whether a custom allocator has been defined needlessly, which is to be avoided for performance reasons.</p>
 <p>The compiler will check whether this is indeed needed, and fail with an appropriate warning if this is not true. In this case, you need to replace MEMALIGN with NOMEMALIGN. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="src_2surface_2types_8h.html#a5d1aa93e600a93cee8523d1d34c1ace5">NOMEMALIGN</a> </dd>
 <dd>
 <a class="el" href="src_2surface_2types_8h.html#a11d7eae3ab5178ebcf0e62cae9c26cd4">MEMALIGN</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="src_2surface_2types_8h_source.html#l00192">192</a> of file <a class="el" href="src_2surface_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="src_2surface_2types_8h_source.html#l00193">193</a> of file <a class="el" href="src_2surface_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -294,7 +292,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="src_2surface_2types_8h_source.html#l00062">62</a> of file <a class="el" href="src_2surface_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="src_2surface_2types_8h_source.html#l00063">63</a> of file <a class="el" href="src_2surface_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -310,7 +308,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="src_2surface_2types_8h_source.html#l00060">60</a> of file <a class="el" href="src_2surface_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="src_2surface_2types_8h_source.html#l00061">61</a> of file <a class="el" href="src_2surface_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -326,7 +324,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="src_2surface_2types_8h_source.html#l00148">148</a> of file <a class="el" href="src_2surface_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="src_2surface_2types_8h_source.html#l00149">149</a> of file <a class="el" href="src_2surface_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -342,7 +340,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="src_2surface_2types_8h_source.html#l00058">58</a> of file <a class="el" href="src_2surface_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="src_2surface_2types_8h_source.html#l00059">59</a> of file <a class="el" href="src_2surface_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -358,7 +356,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="src_2surface_2types_8h_source.html#l00061">61</a> of file <a class="el" href="src_2surface_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="src_2surface_2types_8h_source.html#l00062">62</a> of file <a class="el" href="src_2surface_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -374,7 +372,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="src_2surface_2types_8h_source.html#l00059">59</a> of file <a class="el" href="src_2surface_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="src_2surface_2types_8h_source.html#l00060">60</a> of file <a class="el" href="src_2surface_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -390,7 +388,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="src_2surface_2types_8h_source.html#l00142">142</a> of file <a class="el" href="src_2surface_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="src_2surface_2types_8h_source.html#l00143">143</a> of file <a class="el" href="src_2surface_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -409,11 +407,11 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">public</span>: \</div><div class="line">  FORCE_INLINE <span class="keywordtype">void</span>* <span class="keyword">operator</span> <span class="keyword">new</span> (std::size_t size) { <span class="keywordflow">return</span> (<span class="keyword">alignof</span>(__VA_ARGS__)&gt;<a class="code" href="namespace_m_r.html#a57bc63b29daf275689c183dc0a9dfca9">::MR::malloc_align</a>) ? <a class="code" href="src_2surface_2types_8h.html#aba17a16dd5da4189701f8bfce74aac02">__aligned_malloc</a> (size) : ::operator <span class="keyword">new</span> (size); } \</div><div class="line">  FORCE_INLINE <span class="keywordtype">void</span>* <span class="keyword">operator</span> <span class="keyword">new</span>[] (std::size_t size) { <span class="keywordflow">return</span> (<span class="keyword">alignof</span>(__VA_ARGS__)&gt;<a class="code" href="namespace_m_r.html#a57bc63b29daf275689c183dc0a9dfca9">::MR::malloc_align</a>) ? <a class="code" href="src_2surface_2types_8h.html#aba17a16dd5da4189701f8bfce74aac02">__aligned_malloc</a> (size) : ::operator <span class="keyword">new</span>[] (size); } \</div><div class="line">  FORCE_INLINE <span class="keywordtype">void</span> <span class="keyword">operator</span> <span class="keyword">delete</span> (<span class="keywordtype">void</span>* ptr) { <span class="keywordflow">if</span> (<span class="keyword">alignof</span>(__VA_ARGS__)&gt;<a class="code" href="namespace_m_r.html#a57bc63b29daf275689c183dc0a9dfca9">::MR::malloc_align</a>) <a class="code" href="src_2surface_2types_8h.html#a49b087ab59df8fb1326110765fce1199">__aligned_free</a> (ptr); else ::operator <span class="keyword">delete</span> (ptr); } \</div><div class="line">  FORCE_INLINE <span class="keywordtype">void</span> <span class="keyword">operator</span> <span class="keyword">delete</span>[] (<span class="keywordtype">void</span>* ptr) { <span class="keywordflow">if</span> (<span class="keyword">alignof</span>(__VA_ARGS__)&gt;<a class="code" href="namespace_m_r.html#a57bc63b29daf275689c183dc0a9dfca9">::MR::malloc_align</a>) <a class="code" href="src_2surface_2types_8h.html#a49b087ab59df8fb1326110765fce1199">__aligned_free</a> (ptr); else ::operator <span class="keyword">delete</span>[] (ptr); }</div><div class="ttc" id="src_2surface_2types_8h_html_aba17a16dd5da4189701f8bfce74aac02"><div class="ttname"><a href="src_2surface_2types_8h.html#aba17a16dd5da4189701f8bfce74aac02">__aligned_malloc</a></div><div class="ttdeci">void * __aligned_malloc(std::size_t size)</div><div class="ttdef"><b>Definition:</b> <a href="src_2surface_2types_8h_source.html#l00160">types.h:160</a></div></div>
-<div class="ttc" id="src_2surface_2types_8h_html_a49b087ab59df8fb1326110765fce1199"><div class="ttname"><a href="src_2surface_2types_8h.html#a49b087ab59df8fb1326110765fce1199">__aligned_free</a></div><div class="ttdeci">void __aligned_free(void *ptr)</div><div class="ttdef"><b>Definition:</b> <a href="src_2surface_2types_8h_source.html#l00168">types.h:168</a></div></div>
-<div class="ttc" id="namespace_m_r_html_a57bc63b29daf275689c183dc0a9dfca9"><div class="ttname"><a href="namespace_m_r.html#a57bc63b29daf275689c183dc0a9dfca9">MR::malloc_align</a></div><div class="ttdeci">constexpr size_t malloc_align</div><div class="ttdef"><b>Definition:</b> <a href="src_2surface_2types_8h_source.html#l00045">types.h:45</a></div></div>
+<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">public</span>: \</div><div class="line">  FORCE_INLINE <span class="keywordtype">void</span>* <span class="keyword">operator</span> <span class="keyword">new</span> (std::size_t size) { <span class="keywordflow">return</span> (<span class="keyword">alignof</span>(__VA_ARGS__)&gt;<a class="code" href="namespace_m_r.html#a57bc63b29daf275689c183dc0a9dfca9">::MR::malloc_align</a>) ? <a class="code" href="src_2surface_2types_8h.html#aba17a16dd5da4189701f8bfce74aac02">__aligned_malloc</a> (size) : ::operator <span class="keyword">new</span> (size); } \</div><div class="line">  FORCE_INLINE <span class="keywordtype">void</span>* <span class="keyword">operator</span> <span class="keyword">new</span>[] (std::size_t size) { <span class="keywordflow">return</span> (<span class="keyword">alignof</span>(__VA_ARGS__)&gt;<a class="code" href="namespace_m_r.html#a57bc63b29daf275689c183dc0a9dfca9">::MR::malloc_align</a>) ? <a class="code" href="src_2surface_2types_8h.html#aba17a16dd5da4189701f8bfce74aac02">__aligned_malloc</a> (size) : ::operator <span class="keyword">new</span>[] (size); } \</div><div class="line">  FORCE_INLINE <span class="keywordtype">void</span> <span class="keyword">operator</span> <span class="keyword">delete</span> (<span class="keywordtype">void</span>* ptr) { <span class="keywordflow">if</span> (<span class="keyword">alignof</span>(__VA_ARGS__)&gt;<a class="code" href="namespace_m_r.html#a57bc63b29daf275689c183dc0a9dfca9">::MR::malloc_align</a>) <a class="code" href="src_2surface_2types_8h.html#a49b087ab59df8fb1326110765fce1199">__aligned_free</a> (ptr); else ::operator <span class="keyword">delete</span> (ptr); } \</div><div class="line">  FORCE_INLINE <span class="keywordtype">void</span> <span class="keyword">operator</span> <span class="keyword">delete</span>[] (<span class="keywordtype">void</span>* ptr) { <span class="keywordflow">if</span> (<span class="keyword">alignof</span>(__VA_ARGS__)&gt;<a class="code" href="namespace_m_r.html#a57bc63b29daf275689c183dc0a9dfca9">::MR::malloc_align</a>) <a class="code" href="src_2surface_2types_8h.html#a49b087ab59df8fb1326110765fce1199">__aligned_free</a> (ptr); else ::operator <span class="keyword">delete</span>[] (ptr); }</div><div class="ttc" id="src_2surface_2types_8h_html_aba17a16dd5da4189701f8bfce74aac02"><div class="ttname"><a href="src_2surface_2types_8h.html#aba17a16dd5da4189701f8bfce74aac02">__aligned_malloc</a></div><div class="ttdeci">void * __aligned_malloc(std::size_t size)</div><div class="ttdef"><b>Definition:</b> <a href="src_2surface_2types_8h_source.html#l00161">types.h:161</a></div></div>
+<div class="ttc" id="src_2surface_2types_8h_html_a49b087ab59df8fb1326110765fce1199"><div class="ttname"><a href="src_2surface_2types_8h.html#a49b087ab59df8fb1326110765fce1199">__aligned_free</a></div><div class="ttdeci">void __aligned_free(void *ptr)</div><div class="ttdef"><b>Definition:</b> <a href="src_2surface_2types_8h_source.html#l00169">types.h:169</a></div></div>
+<div class="ttc" id="namespace_m_r_html_a57bc63b29daf275689c183dc0a9dfca9"><div class="ttname"><a href="namespace_m_r.html#a57bc63b29daf275689c183dc0a9dfca9">MR::malloc_align</a></div><div class="ttdeci">constexpr size_t malloc_align</div><div class="ttdef"><b>Definition:</b> <a href="src_2surface_2types_8h_source.html#l00046">types.h:46</a></div></div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="src_2surface_2types_8h_source.html#l00171">171</a> of file <a class="el" href="src_2surface_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="src_2surface_2types_8h_source.html#l00172">172</a> of file <a class="el" href="src_2surface_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -456,7 +454,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="src_2surface_2types_8h_source.html#l00168">168</a> of file <a class="el" href="src_2surface_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="src_2surface_2types_8h_source.html#l00169">169</a> of file <a class="el" href="src_2surface_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -484,7 +482,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="src_2surface_2types_8h_source.html#l00160">160</a> of file <a class="el" href="src_2surface_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="src_2surface_2types_8h_source.html#l00161">161</a> of file <a class="el" href="src_2surface_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -494,7 +492,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_93b0d6a552827721ec9247642283aaa7.html">surface</a></li><li class="navelem"><a class="el" href="src_2surface_2types_8h.html">types.h</a></li>
-    <li class="footer">Generated on Tue Apr 24 2018 16:15:57 for MRtrix by
+    <li class="footer">Generated on Fri May 11 2018 15:02:53 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
   </ul>

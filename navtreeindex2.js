@@ -1,9 +1,17 @@
 var NAVTREEINDEX2 =
 {
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1.html#a3734b65dc5a84a815ad365cf277492e0":[11,0,0,4,3,1,1,6],
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1.html#a3cb18cf7d42a3e75664ea421ba0cfc8f":[11,0,0,4,3,1,1,11],
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1.html#a49fa010616a5b290366e54b250dccce7":[11,0,0,4,3,1,1,5],
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1.html#a51b71eb840190cfb4eaeb6c29e1ee8f6":[11,0,0,4,3,1,1,1],
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1.html#a760eedd1ba48996bc39d36350c39a916":[11,0,0,4,3,1,1,9],
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1.html#aa178ea88507da5a7eddf680c97f44467":[11,0,0,4,3,1,1,4],
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1.html#abcc03ba1f373384580ea1a85992dd621":[11,0,0,4,3,1,1,10],
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1.html#abea43627fe9ef3c3f8fab01a7ac39bd6":[11,0,0,4,3,1,1,3],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1_1_1_calibrate.html":[11,0,0,4,3,1,1,0],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d2.html":[11,0,0,4,3,1,2],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d2.html#a60e1d70d7fb4d6eb5c09a88db0f87d15":[11,0,0,4,3,1,2,2],
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d2.html#ab0055f80d1498fbc1cab6e68754d81e2":[11,0,0,4,3,1,2,1],
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d2.html#ab40e2a3d7eba37b72318af3ac89cca3e":[11,0,0,4,3,1,2,1],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d2.html#adedb247f57becec6efa730639271e048":[11,0,0,4,3,1,2,0],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_exemplar.html":[11,0,0,4,3,2,0],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_mapped__track__base.html":[11,0,0,4,3,2,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX2 =
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_voxel_t_o_d.html#af7d346968d8d5b8c15f81351d31bface":[11,0,0,4,3,5,0,9,10],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_map_writer.html":[11,0,0,4,3,5,5],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_map_writer_base.html":[11,0,0,4,3,5,6],
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_map_writer_base.html#a119555c32a5ba9ad476ccfe41fd32374":[11,0,0,4,3,5,6,2],
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_map_writer_base.html#a60ce05793a68cb202d0fe332e0eb0739":[11,0,0,4,3,5,6,3],
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_map_writer_base.html#aab34c550426f0b3a166997ef517daa2f":[11,0,0,4,3,5,6,4],
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_map_writer_base.html#af292bc82acd998b58ef2791891b90c6c":[11,0,0,4,3,5,6,1],
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_map_writer_base.html#afe76f714d30aa9c88deb7b48895f04f4":[11,0,0,4,3,5,6,0],
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_dixel.html":[11,0,0,4,3,5,7],
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_dixel.html#a1e4af031c921a6e3f37a283c229b44e0":[11,0,0,4,3,5,7,1],
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_dixel.html#a52eb45940ae36de32775a91fbed8033e":[11,0,0,4,3,5,7,2],
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_dixel.html#a7396dc51a7d9c56c3d1d17ddc82f0c06":[11,0,0,4,3,5,7,3]
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_map_writer_base.html#a119555c32a5ba9ad476ccfe41fd32374":[11,0,0,4,3,5,6,2]
 };

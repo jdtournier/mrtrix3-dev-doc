@@ -46,6 +46,7 @@ var searchData=
   ['format',['format',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_volume.html#a41fd7f8c58acf7120cdef4bc7f47d287',1,'MR::GUI::MRView::Volume']]],
   ['format_5f',['format_',['../class_m_r_1_1_header.html#a27249fa6fca3ae38915ae444814d4a41',1,'MR::Header']]],
   ['forward_5fbackward',['forward_backward',['../class_m_r_1_1_g_u_i_1_1_cursor.html#a99d816e553f5f9e8d7ba421c87e2a098',1,'MR::GUI::Cursor']]],
+  ['fraction',['fraction',['../class_m_r_1_1_file_1_1_dicom_1_1_time.html#a3791460a04dc3c9c23b41bd79902a6fa',1,'MR::File::Dicom::Time']]],
   ['fragment_5fshader_5fsource',['fragment_shader_source',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_shader_base.html#aadcfc6eec36a3e31ce295da6240a6dc0',1,'MR::GUI::MRView::Tool::ShaderBase']]],
   ['frame',['frame',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_node_selection_settings_dialog.html#a8c61a11bf9ddd33cc85946b2c8134341',1,'MR::GUI::MRView::Tool::NodeSelectionSettingsDialog']]],
   ['frame_5fprogram',['frame_program',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_renderer.html#afb29ef5b675218788796adadf60957ef',1,'MR::GUI::MRView::ColourMap::Renderer::frame_program()'],['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_ortho.html#a9708e2f82c670a0b0fe2342d100625ea',1,'MR::GUI::MRView::Mode::Ortho::frame_program()']]],

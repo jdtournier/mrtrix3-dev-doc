@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['abs',['abs',['../namespacestd.html#a91be51640ed06aa50e92247a4d945cf0',1,'std::abs(uint8_t x)'],['../namespacestd.html#ab7c200cc7c846acf0de19c96405363f7',1,'std::abs(uint16_t x)'],['../namespacestd.html#a1690cc9ad6e93e9c6b6356f762623a28',1,'std::abs(uint32_t x)'],['../namespacestd.html#af0623fb5969914edf28e79543c8b6ba9',1,'std::abs(uint64_t x)']]],
+  ['abs',['abs',['../namespace_m_r.html#a5bf1316228ffe93b9651db6c2adaa145',1,'MR::abs(X x)'],['../namespace_m_r.html#ac7cce08b2ec1defb19ef7c602d345aa7',1,'MR::abs(X x)']]],
   ['abs_5feffect_5fsize',['abs_effect_size',['../group___statistics.html#gaa1423ce86ca3e337c908585889b3e608',1,'MR::Math::Stats::GLM']]],
   ['acquire_5fio',['acquire_io',['../class_m_r_1_1_header.html#a31cba6fe131dcd7993755a7fc8c6d7fd',1,'MR::Header']]],
   ['action',['Action',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_action.html#af51631044f37e7fafa281b53b8fd005f',1,'MR::GUI::MRView::Mode::Action::Action()'],['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_action.html#aa7bde3096e40b70e91d2d15385d78719',1,'MR::GUI::MRView::Tool::Action::Action()']]],

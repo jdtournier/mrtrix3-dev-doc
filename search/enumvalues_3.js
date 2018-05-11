@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['date',['DATE',['../class_m_r_1_1_file_1_1_dicom_1_1_element.html#ae9217c91240fb8e69f77bf9f6a973173a2a0f6e93b3e25ed30b5d1b25b909f6bb',1,'MR::File::Dicom::Element']]],
   ['dec',['DEC',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping.html#a89a945a433c16dd9dec81f827d6226b9a6089739bde8a2ebf8ce94018a39c9bb7',1,'MR::DWI::Tractography::Mapping']]],
   ['degree',['DEGREE',['../namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool.html#a82711adfcd2d5eb552d65bbd3e11e6caa536890ac9b7738283f05d5c2cf979fe1',1,'MR::GUI::MRView::Tool']]],
   ['derivative',['Derivative',['../group__interp.html#ggad719d13abf54b60c8ae7adca3c7d7931a478ab7a0c5144a09cdce14883ef428b3',1,'MR::Interp::Derivative()'],['../namespace_m_r_1_1_math.html#aee19b72e8be7c00a41f0173678f4f83fa5345a24930bc829438a83af0805437ed',1,'MR::Math::Derivative()']]],

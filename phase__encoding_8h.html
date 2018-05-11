@@ -32,7 +32,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC2-136-ge27b1200</div>
+   <div id="projectbrief">Version 3.0_RC3</div>
   </td>
  </tr>
  </tbody>
@@ -97,6 +97,7 @@ $(document).ready(function(){initNavTree('phase__encoding_8h.html','');});
 <div class="contents">
 <div class="textblock"><code>#include &lt;Eigen/Dense&gt;</code><br />
 <code>#include &quot;<a class="el" href="app_8h_source.html">app.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="axes_8h_source.html">axes.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="header_8h_source.html">header.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="ofstream_8h_source.html">file/ofstream.h</a>&quot;</code><br />
 </div>
@@ -119,11 +120,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a2c143a3497e71b06ddaedc72b30886b6"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_phase_encoding.html#a2c143a3497e71b06ddaedc72b30886b6">MR::PhaseEncoding::check</a> (const Header &amp;header, const MatrixType &amp;PE)</td></tr>
 <tr class="memdesc:a2c143a3497e71b06ddaedc72b30886b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">check that the PE scheme matches the <a class="el" href="namespace_m_r_1_1_d_w_i.html">DWI</a> data in <em>header</em>  <a href="namespace_m_r_1_1_phase_encoding.html#a2c143a3497e71b06ddaedc72b30886b6">More...</a><br /></td></tr>
 <tr class="separator:a2c143a3497e71b06ddaedc72b30886b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a028d28bdac08bdd36228715c188c024b"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_phase_encoding.html#a028d28bdac08bdd36228715c188c024b">MR::PhaseEncoding::dir2id</a> (const <a class="el" href="namespace_eigen.html#a614e7946e0926e533cf7d49a487ce245">Eigen::Vector3</a> &amp;)</td></tr>
-<tr class="memdesc:a028d28bdac08bdd36228715c188c024b"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert phase encoding direction between formats  <a href="namespace_m_r_1_1_phase_encoding.html#a028d28bdac08bdd36228715c188c024b">More...</a><br /></td></tr>
-<tr class="separator:a028d28bdac08bdd36228715c188c024b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b3c5ae21dc6d6822175a83b933be6a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_eigen.html#a614e7946e0926e533cf7d49a487ce245">Eigen::Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_phase_encoding.html#a4b3c5ae21dc6d6822175a83b933be6a5">MR::PhaseEncoding::id2dir</a> (const std::string &amp;)</td></tr>
-<tr class="separator:a4b3c5ae21dc6d6822175a83b933be6a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afcc94a66e37aec4e3cc4ddb410d0286f"><td class="memTemplParams" colspan="2">template&lt;class MatrixType &gt; </td></tr>
 <tr class="memitem:afcc94a66e37aec4e3cc4ddb410d0286f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_phase_encoding.html#afcc94a66e37aec4e3cc4ddb410d0286f">MR::PhaseEncoding::set_scheme</a> (Header &amp;header, const MatrixType &amp;PE)</td></tr>
 <tr class="memdesc:afcc94a66e37aec4e3cc4ddb410d0286f"><td class="mdescLeft">&#160;</td><td class="mdescRight">store the phase encoding matrix in a header  <a href="namespace_m_r_1_1_phase_encoding.html#afcc94a66e37aec4e3cc4ddb410d0286f">More...</a><br /></td></tr>
@@ -176,7 +172,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4270bfced15e0e73154b13468c7c9ad9.html">core</a></li><li class="navelem"><a class="el" href="phase__encoding_8h.html">phase_encoding.h</a></li>
-    <li class="footer">Generated on Tue Apr 24 2018 16:15:57 for MRtrix by
+    <li class="footer">Generated on Fri May 11 2018 15:02:53 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
   </ul>

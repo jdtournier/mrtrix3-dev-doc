@@ -20,7 +20,7 @@ var searchData=
   ['header_5fwith_5fext_5fsize',['header_with_ext_size',['../namespace_m_r_1_1_file_1_1_n_if_t_i1.html#a233f5dea2107ed41178225499a82647b',1,'MR::File::NIfTI1::header_with_ext_size()'],['../namespace_m_r_1_1_file_1_1_n_if_t_i2.html#af691147c2dcb7e56088688d53b173e33',1,'MR::File::NIfTI2::header_with_ext_size()']]],
   ['headerdata',['headerData',['../class_m_r_1_1_g_u_i_1_1_dialog_1_1_tree_model.html#a1f3ed004554849ee6eac8c76931c918f',1,'MR::GUI::Dialog::TreeModel']]],
   ['headers_5fmatch',['headers_match',['../namespace_m_r.html#a766cac11cb380726bce3bd75985be51a',1,'MR']]],
-  ['height',['height',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_renderer.html#a5624874b21e952f5f61b42fa95510790',1,'MR::GUI::MRView::ColourMap::Renderer']]],
+  ['height',['height',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_renderer.html#a5624874b21e952f5f61b42fa95510790',1,'MR::GUI::MRView::ColourMap::Renderer::height()'],['../class_m_r_1_1_g_u_i_1_1_model_view_projection.html#aa2262e574fe844334154e47357895a3e',1,'MR::GUI::ModelViewProjection::height()']]],
   ['help_5fhead',['help_head',['../namespace_m_r_1_1_app.html#a9c26d5c3e182e1da805b9210006553c2',1,'MR::App']]],
   ['help_5fsynopsis',['help_synopsis',['../namespace_m_r_1_1_app.html#a5813d7ec58739c0b7ce32e897d0f31b5',1,'MR::App']]],
   ['help_5ftail',['help_tail',['../namespace_m_r_1_1_app.html#add1a3a5ad6c6c5183be46e4362c62e64',1,'MR::App']]],
@@ -38,6 +38,7 @@ var searchData=
   ['histogram_2eh',['histogram.h',['../histogram_8h.html',1,'']]],
   ['home',['home',['../namespace_m_r_1_1_path.html#a26b413dad682a7c0de584352f63fe660',1,'MR::Path']]],
   ['home_5fenv',['HOME_ENV',['../path_8h.html#ab48997083586c4b7c562db5e51a3d451',1,'path.h']]],
+  ['hour',['hour',['../class_m_r_1_1_file_1_1_dicom_1_1_time.html#a817d811e1f69691929a75fc17db2f2c0',1,'MR::File::Dicom::Time']]],
   ['hr_5famps',['HR_amps',['../class_m_r_1_1_d_w_i_1_1_s_deconv_1_1_c_s_d.html#af76251f7bb31b32946686b4d825145d1',1,'MR::DWI::SDeconv::CSD']]],
   ['hr_5ft',['HR_T',['../class_m_r_1_1_d_w_i_1_1_s_deconv_1_1_c_s_d.html#adcad27f88b6445dd384c5dbf9e622e37',1,'MR::DWI::SDeconv::CSD']]]
 ];

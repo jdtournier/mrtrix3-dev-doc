@@ -7,6 +7,7 @@ var mrtrix_8h =
     [ "add_line", "mrtrix_8h.html#abc5dbe7f4a0c56627ff6950c84ca4fc5", null ],
     [ "getline", "mrtrix_8h.html#a1319114438a7f3a08f04a03023ad62e2", null ],
     [ "join", "mrtrix_8h.html#a506fc895e0a464c01cb1b41f52a60b6e", null ],
+    [ "join", "mrtrix_8h.html#a8607b8b09505f9a758b752358cd7930d", null ],
     [ "join", "mrtrix_8h.html#aae0536aa0338b1a8ec230ef6666ae4c8", null ],
     [ "lowercase", "mrtrix_8h.html#a9a772e12ea826bd1f7e871aaee86e736", null ],
     [ "parse_floats", "mrtrix_8h.html#ac33220cbc8e5d211f07d3375053765e4", null ],

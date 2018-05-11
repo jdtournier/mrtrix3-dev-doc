@@ -14,7 +14,8 @@ var dir_d1c552c4fd0ff8e8078b00303a982c35 =
     [ "displayable.h", "displayable_8h.html", "displayable_8h" ],
     [ "gui_image.h", "gui__image_8h.html", [
       [ "ImageBase", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_image_base.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_image_base" ],
-      [ "Image", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_image.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_image" ]
+      [ "Image", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_image.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_image" ],
+      [ "CachedTexture", "struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_image_1_1_cached_texture.html", "struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_image_1_1_cached_texture" ]
     ] ],
     [ "icons.h", "mrview_2icons_8h.html", null ],
     [ "spin_box.h", "spin__box_8h.html", [

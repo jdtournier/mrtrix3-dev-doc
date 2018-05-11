@@ -32,7 +32,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC2-136-ge27b1200</div>
+   <div id="projectbrief">Version 3.0_RC3</div>
   </td>
  </tr>
  </tbody>
@@ -89,6 +89,7 @@ $(document).ready(function(){initNavTree('namespace_m_r_1_1_thread.html','');});
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">MR::Thread Namespace Reference</div>  </div>
@@ -103,10 +104,20 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A first-in first-out thread-safe item queue.  <a href="class_m_r_1_1_thread_1_1_queue.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:gaff2bf599166ff69fd4b6219269c96bdb"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__thread__basics.html#gaff2bf599166ff69fd4b6219269c96bdb">nthreads_t</a> { <a class="el" href="group__thread__basics.html#ggaff2bf599166ff69fd4b6219269c96bdba034100353265e344701d054b597a2770">nthreads_t::UNINITIALISED</a>, 
+<a class="el" href="group__thread__basics.html#ggaff2bf599166ff69fd4b6219269c96bdba440806ada035e97a59ec9d2ca6796cb3">nthreads_t::EXPLICIT</a>, 
+<a class="el" href="group__thread__basics.html#ggaff2bf599166ff69fd4b6219269c96bdba12afe8f66c5af8e690fbf6ead4c55ab2">nthreads_t::IMPLICIT</a>
+ }</td></tr>
+<tr class="separator:gaff2bf599166ff69fd4b6219269c96bdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ga86984fa489ba954903690da0836a4f08"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__thread__basics.html#ga86984fa489ba954903690da0836a4f08">number_of_threads</a> ()</td></tr>
 <tr class="separator:ga86984fa489ba954903690da0836a4f08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga635dcd8aac0bb5ea995a3dbf42423a10"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__thread__basics.html#gaff2bf599166ff69fd4b6219269c96bdb">nthreads_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__thread__basics.html#ga635dcd8aac0bb5ea995a3dbf42423a10">type_nthreads</a> ()</td></tr>
+<tr class="separator:ga635dcd8aac0bb5ea995a3dbf42423a10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf01d13fdb672f4a8c8727a7a70760cea"><td class="memTemplParams" colspan="2">template&lt;class Functor &gt; </td></tr>
 <tr class="memitem:gaf01d13fdb672f4a8c8727a7a70760cea"><td class="memTemplItemLeft" align="right" valign="top">__Multi&lt; typename std::remove_reference&lt; Functor &gt;::type &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__thread__basics.html#gaf01d13fdb672f4a8c8727a7a70760cea">multi</a> (Functor &amp;&amp;<a class="el" href="thread_8h.html#aece92f5ed23ab311f706fc6069e61689">functor</a>, size_t nthreads=<a class="el" href="group__thread__basics.html#ga86984fa489ba954903690da0836a4f08">number_of_threads</a>())</td></tr>
 <tr class="memdesc:gaf01d13fdb672f4a8c8727a7a70760cea"><td class="mdescLeft">&#160;</td><td class="mdescRight">used to request multiple threads of the corresponding functor  <a href="group__thread__basics.html#gaf01d13fdb672f4a8c8727a7a70760cea">More...</a><br /></td></tr>
@@ -138,7 +149,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_thread.html">Thread</a></li>
-    <li class="footer">Generated on Tue Apr 24 2018 16:15:59 for MRtrix by
+    <li class="footer">Generated on Fri May 11 2018 15:02:55 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
   </ul>

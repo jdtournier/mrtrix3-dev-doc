@@ -30,6 +30,10 @@ var hierarchy =
     [ "Array3i", null, [
       [ "MR::Surface::Vox", "class_m_r_1_1_surface_1_1_vox.html", null ]
     ] ],
+    [ "MR::Registration::Transform::Base", "class_m_r_1_1_registration_1_1_transform_1_1_base.html", [
+      [ "MR::Registration::Transform::Affine", "class_m_r_1_1_registration_1_1_transform_1_1_affine.html", null ],
+      [ "MR::Registration::Transform::Rigid", "class_m_r_1_1_registration_1_1_transform_1_1_rigid.html", null ]
+    ] ],
     [ "MR::ImageIO::Base", "class_m_r_1_1_image_i_o_1_1_base.html", [
       [ "MR::ImageIO::Default", "class_m_r_1_1_image_i_o_1_1_default.html", [
         [ "MR::ImageIO::SparseLegacy", "class_m_r_1_1_image_i_o_1_1_sparse_legacy.html", null ]
@@ -39,10 +43,6 @@ var hierarchy =
       [ "MR::ImageIO::Pipe", "class_m_r_1_1_image_i_o_1_1_pipe.html", null ],
       [ "MR::ImageIO::RAM", "class_m_r_1_1_image_i_o_1_1_r_a_m.html", null ],
       [ "MR::ImageIO::Scratch", "class_m_r_1_1_image_i_o_1_1_scratch.html", null ]
-    ] ],
-    [ "MR::Registration::Transform::Base", "class_m_r_1_1_registration_1_1_transform_1_1_base.html", [
-      [ "MR::Registration::Transform::Affine", "class_m_r_1_1_registration_1_1_transform_1_1_affine.html", null ],
-      [ "MR::Registration::Transform::Rigid", "class_m_r_1_1_registration_1_1_transform_1_1_rigid.html", null ]
     ] ],
     [ "MR::Surface::Filter::Base", "class_m_r_1_1_surface_1_1_filter_1_1_base.html", [
       [ "MR::Surface::Filter::Smooth", "class_m_r_1_1_surface_1_1_filter_1_1_smooth.html", null ],
@@ -97,6 +97,7 @@ var hierarchy =
     [ "MR::BitSet", "class_m_r_1_1_bit_set.html", [
       [ "MR::DWI::Directions::Mask", "class_m_r_1_1_d_w_i_1_1_directions_1_1_mask.html", null ]
     ] ],
+    [ "MR::GUI::MRView::Image::CachedTexture", "struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_image_1_1_cached_texture.html", null ],
     [ "MR::DWI::Tractography::Algorithms::iFOD1::Calibrate", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1_1_1_calibrate.html", null ],
     [ "MR::Algo::Histogram::Calibrator", "class_m_r_1_1_algo_1_1_histogram_1_1_calibrator.html", null ],
     [ "MR::GUI::GL::CheckContext", "struct_m_r_1_1_g_u_i_1_1_g_l_1_1_check_context.html", [
@@ -147,6 +148,7 @@ var hierarchy =
     [ "MR::GUI::Shapes::Cylinder", "class_m_r_1_1_g_u_i_1_1_shapes_1_1_cylinder.html", null ],
     [ "MR::Algo::Histogram::Data", "class_m_r_1_1_algo_1_1_histogram_1_1_data.html", null ],
     [ "MR::DataType", "class_m_r_1_1_data_type.html", null ],
+    [ "MR::File::Dicom::Date", "class_m_r_1_1_file_1_1_dicom_1_1_date.html", null ],
     [ "MR::Registration::Metric::Demons< Im1ImageType, Im2ImageType, Im1MaskType, Im2MaskType >", "class_m_r_1_1_registration_1_1_metric_1_1_demons.html", null ],
     [ "MR::Registration::Metric::Demons4D< Im1ImageType, Im2ImageType, Im1MaskType, Im2MaskType >", "class_m_r_1_1_registration_1_1_metric_1_1_demons4_d.html", null ],
     [ "deque", null, [
@@ -446,6 +448,9 @@ var hierarchy =
     [ "MR::GUI::MRView::Mode::ModeGuiVisitor", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_mode_gui_visitor.html", [
       [ "MR::GUI::MRView::Tool::View", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_view.html", null ]
     ] ],
+    [ "MR::GUI::ModelViewProjection", "class_m_r_1_1_g_u_i_1_1_model_view_projection.html", [
+      [ "MR::GUI::Projection", "class_m_r_1_1_g_u_i_1_1_projection.html", null ]
+    ] ],
     [ "MR::Registration::Transform::Init::MomentsInitialiser", "class_m_r_1_1_registration_1_1_transform_1_1_init_1_1_moments_initialiser.html", null ],
     [ "MR::DWI::SDeconv::MSMT_CSD", "class_m_r_1_1_d_w_i_1_1_s_deconv_1_1_m_s_m_t___c_s_d.html", null ],
     [ "mt19937", null, [
@@ -499,7 +504,6 @@ var hierarchy =
     ] ],
     [ "MR::ProgressBar", "class_m_r_1_1_progress_bar.html", null ],
     [ "MR::ProgressInfo", "class_m_r_1_1_progress_info.html", null ],
-    [ "MR::GUI::Projection", "class_m_r_1_1_g_u_i_1_1_projection.html", null ],
     [ "MR::DWI::Tractography::GT::Properties", "struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_properties.html", null ],
     [ "QAbstractItemModel", null, [
       [ "MR::GUI::Dialog::TreeModel", "class_m_r_1_1_g_u_i_1_1_dialog_1_1_tree_model.html", null ],
@@ -636,8 +640,8 @@ var hierarchy =
     ] ],
     [ "MR::DWI::Tractography::Editing::Receiver", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_editing_1_1_receiver.html", null ],
     [ "MR::DWI::Tractography::SIFT2::RegularisationCalculator", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_regularisation_calculator.html", null ],
-    [ "MR::GUI::MRView::ColourMap::Renderer", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_renderer.html", null ],
     [ "MR::GUI::DWI::Renderer", "class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer.html", null ],
+    [ "MR::GUI::MRView::ColourMap::Renderer", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_renderer.html", null ],
     [ "MR::DWI::Tractography::SIFT::ResampleFunctor", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_resample_functor.html", null ],
     [ "MR::Registration::Transform::RigidLinearNonSymmetricUpdate", "class_m_r_1_1_registration_1_1_transform_1_1_rigid_linear_non_symmetric_update.html", null ],
     [ "MR::Registration::Transform::RigidRobustEstimator", "class_m_r_1_1_registration_1_1_transform_1_1_rigid_robust_estimator.html", null ],
@@ -647,12 +651,12 @@ var hierarchy =
     [ "MR::Registration::Transform::Init::LinearInitialisationParams::RotationInit::rot_search", "struct_m_r_1_1_registration_1_1_transform_1_1_init_1_1_linear_initialisation_params_1_1_rotation_init_1_1rot__search.html", null ],
     [ "MR::Registration::Transform::Init::LinearInitialisationParams::RotationInit", "struct_m_r_1_1_registration_1_1_transform_1_1_init_1_1_linear_initialisation_params_1_1_rotation_init.html", null ],
     [ "MR::Helper::Row< ImageType >", "class_m_r_1_1_helper_1_1_row.html", null ],
-    [ "MR::Fixel::LoopFixelsInVoxel::Run< DataType >", "struct_m_r_1_1_fixel_1_1_loop_fixels_in_voxel_1_1_run.html", null ],
     [ "MR::LoopAlongStaticAxes::Run< ImageType >", "struct_m_r_1_1_loop_along_static_axes_1_1_run.html", null ],
     [ "MR::LoopAlongDynamicAxes::Run< ImageType >", "struct_m_r_1_1_loop_along_dynamic_axes_1_1_run.html", null ],
-    [ "MR::LoopAlongAxisRange::Run< ImageType >", "struct_m_r_1_1_loop_along_axis_range_1_1_run.html", null ],
-    [ "MR::LoopAlongSingleAxisProgress::Run< ImageType >", "struct_m_r_1_1_loop_along_single_axis_progress_1_1_run.html", null ],
     [ "MR::LoopAlongSingleAxis::Run< ImageType >", "struct_m_r_1_1_loop_along_single_axis_1_1_run.html", null ],
+    [ "MR::LoopAlongSingleAxisProgress::Run< ImageType >", "struct_m_r_1_1_loop_along_single_axis_progress_1_1_run.html", null ],
+    [ "MR::LoopAlongAxisRange::Run< ImageType >", "struct_m_r_1_1_loop_along_axis_range_1_1_run.html", null ],
+    [ "MR::Fixel::LoopFixelsInVoxel::Run< DataType >", "struct_m_r_1_1_fixel_1_1_loop_fixels_in_voxel_1_1_run.html", null ],
     [ "MR::LoopAlongStaticAxes::Run< ImageType... >", "struct_m_r_1_1_loop_along_static_axes_1_1_run.html", [
       [ "MR::LoopAlongStaticAxesProgress::Run< ImageType >", "struct_m_r_1_1_loop_along_static_axes_progress_1_1_run.html", null ]
     ] ],
@@ -691,8 +695,8 @@ var hierarchy =
       [ "MR::DWI::Tractography::Mapping::SetVoxelTOD", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_voxel_t_o_d.html", null ]
     ] ],
     [ "MR::GUI::DWI::Renderer::SH", "class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_s_h.html", null ],
-    [ "MR::GUI::MRView::Tool::NodeOverlay::Shader", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_node_overlay_1_1_shader.html", null ],
     [ "MR::GUI::MRView::Mode::Volume::Shader", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume_1_1_shader.html", null ],
+    [ "MR::GUI::MRView::Tool::NodeOverlay::Shader", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_node_overlay_1_1_shader.html", null ],
     [ "MR::GUI::MRView::Tool::ROI_UndoEntry::Shared", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___undo_entry_1_1_shared.html", null ],
     [ "MR::DWI::Tractography::Tracking::SharedBase", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_shared_base.html", null ],
     [ "MR::DWI::Shell", "class_m_r_1_1_d_w_i_1_1_shell.html", null ],
@@ -722,6 +726,7 @@ var hierarchy =
     [ "MR::GUI::DWI::Renderer::Tensor", "class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_tensor.html", null ],
     [ "MR::Registration::Metric::ThreadKernel< MetricType, ParamType >", "class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel.html", null ],
     [ "MR::File::TIFF", "class_m_r_1_1_file_1_1_t_i_f_f.html", null ],
+    [ "MR::File::Dicom::Time", "class_m_r_1_1_file_1_1_dicom_1_1_time.html", null ],
     [ "MR::Timer", "class_m_r_1_1_timer.html", [
       [ "MR::IntervalTimer", "class_m_r_1_1_interval_timer.html", null ]
     ] ],
@@ -776,6 +781,8 @@ var hierarchy =
       [ "MR::is_complex< std::complex< ValueType > >", "struct_m_r_1_1is__complex_3_01std_1_1complex_3_01_value_type_01_4_01_4.html", null ]
     ] ],
     [ "MR::DWI::Tractography::Mapping::TWIImagePluginBase", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_i_image_plugin_base.html", [
+      [ "MR::DWI::Tractography::Mapping::TWDFCDynamicImagePlugin", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_d_f_c_dynamic_image_plugin.html", null ],
+      [ "MR::DWI::Tractography::Mapping::TWDFCStaticImagePlugin", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_d_f_c_static_image_plugin.html", null ],
       [ "MR::DWI::Tractography::Mapping::TWIFODImagePlugin", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_i_f_o_d_image_plugin.html", null ],
       [ "MR::DWI::Tractography::Mapping::TWIScalarImagePlugin", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_i_scalar_image_plugin.html", null ]
     ] ],
@@ -888,7 +895,6 @@ var hierarchy =
       ] ],
       [ "MR::vector< ParticleVectorType >", "class_m_r_1_1vector.html", null ],
       [ "MR::vector< Plane >", "class_m_r_1_1vector.html", null ],
-      [ "MR::vector< proj_focusdelta >", "class_m_r_1_1vector.html", null ],
       [ "MR::vector< QAction *>", "class_m_r_1_1vector.html", null ],
       [ "MR::vector< Quad >", "class_m_r_1_1vector.html", null ],
       [ "MR::vector< SIFT::track_t >", "class_m_r_1_1vector.html", null ],

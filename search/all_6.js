@@ -127,6 +127,7 @@ var searchData=
   ['fov',['FOV',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_window.html#aa8ca8225d62a6e31168d3e5b935f0d01',1,'MR::GUI::MRView::Window']]],
   ['frac_5fburnin',['FRAC_BURNIN',['../gt_8h.html#af2ae59df2fa55ae6e0ab4b058e1bf267',1,'gt.h']]],
   ['frac_5fphaseout',['FRAC_PHASEOUT',['../gt_8h.html#a33658e0a4fbca72adc9a97bcd652ad41',1,'gt.h']]],
+  ['fraction',['fraction',['../class_m_r_1_1_file_1_1_dicom_1_1_time.html#a3791460a04dc3c9c23b41bd79902a6fa',1,'MR::File::Dicom::Time']]],
   ['fragment',['Fragment',['../namespace_m_r_1_1_g_u_i_1_1_g_l_1_1_shader.html#a05d3a3116da598b311347ae0dbb02cc0',1,'MR::GUI::GL::Shader']]],
   ['fragment_5fshader_5fsource',['fragment_shader_source',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_shader_base.html#aadcfc6eec36a3e31ce295da6240a6dc0',1,'MR::GUI::MRView::Tool::ShaderBase::fragment_shader_source()'],['../class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_shader.html#a711ac3374a9a4d3b58d87f04c27d0c14',1,'MR::GUI::DWI::Renderer::Shader::fragment_shader_source()']]],
   ['frame',['Frame',['../class_m_r_1_1_file_1_1_dicom_1_1_frame.html',1,'MR::File::Dicom::Frame'],['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_node_selection_settings_dialog.html#a8c61a11bf9ddd33cc85946b2c8134341',1,'MR::GUI::MRView::Tool::NodeSelectionSettingsDialog::frame()']]],

@@ -6,6 +6,7 @@ var searchData=
   ['g3',['g3',['../class_m_r_1_1_math_1_1_gradient_descent_b_b.html#a8d4171c57e3da6df94fbe497d2847d88',1,'MR::Math::GradientDescentBB']]],
   ['gaussian_5fdenominator',['gaussian_denominator',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_track_mapper.html#af30f7eba81f17c8aaff02a9ef317a0cf',1,'MR::DWI::Tractography::Mapping::Gaussian::TrackMapper']]],
   ['gd_5fmax_5fiter',['gd_max_iter',['../struct_m_r_1_1_registration_1_1_stage_setting.html#a3da37218b253296eb3b951af3925c8bb',1,'MR::Registration::StageSetting']]],
+  ['geom_5ftype_5fcombobox',['geom_type_combobox',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html#a2788f05641b6fbd16b5649ab1684b480',1,'MR::GUI::MRView::Tool::Tractography']]],
   ['geometry_5fshader_5fsource',['geometry_shader_source',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_shader_base.html#acee5f9226713b0d385cacd924cdd1db6',1,'MR::GUI::MRView::Tool::ShaderBase']]],
   ['glarea',['glarea',['../class_m_r_1_1_g_u_i_1_1_projection.html#a039f32622bbf9da45743018e2ea35f4b',1,'MR::GUI::Projection']]],
   ['glfont',['glfont',['../class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_render_frame.html#a8a338b4fc76d7580f6df1114c9664c73',1,'MR::GUI::DWI::RenderFrame']]],

@@ -5,6 +5,7 @@ var searchData=
   ['algo',['Algo',['../namespace_m_r_1_1_algo.html',1,'MR::Algo'],['../namespace_m_r_1_1_surface_1_1_algo.html',1,'MR::Surface::Algo']]],
   ['algorithms',['Algorithms',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms.html',1,'MR::DWI::Tractography']]],
   ['app',['App',['../namespace_m_r_1_1_app.html',1,'MR']]],
+  ['axes',['Axes',['../namespace_m_r_1_1_axes.html',1,'MR']]],
   ['bessel',['Bessel',['../namespace_m_r_1_1_math_1_1_bessel.html',1,'MR::Math']]],
   ['byteorder',['ByteOrder',['../namespace_m_r_1_1_byte_order.html',1,'MR']]],
   ['cfe',['CFE',['../namespace_m_r_1_1_stats_1_1_c_f_e.html',1,'MR::Stats']]],

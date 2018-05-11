@@ -21,7 +21,8 @@ var twi__stats_8h =
       [ "ENDS_MIN", "twi__stats_8h.html#a3fa21a08c7f0bffb34976f520d129275a42a640c1b024c1e984b97c0624eee127", null ],
       [ "ENDS_MEAN", "twi__stats_8h.html#a3fa21a08c7f0bffb34976f520d129275a2076ca4962a860d6e7f5218c721d66ac", null ],
       [ "ENDS_MAX", "twi__stats_8h.html#a3fa21a08c7f0bffb34976f520d129275a2031db12ec3540ec05257f9693ccb0e3", null ],
-      [ "ENDS_PROD", "twi__stats_8h.html#a3fa21a08c7f0bffb34976f520d129275aec34e0a2d59fd234b7030f7a870b454e", null ]
+      [ "ENDS_PROD", "twi__stats_8h.html#a3fa21a08c7f0bffb34976f520d129275aec34e0a2d59fd234b7030f7a870b454e", null ],
+      [ "ENDS_CORR", "twi__stats_8h.html#a3fa21a08c7f0bffb34976f520d129275aee5a197b57738c2b0c86c779ad467f87", null ]
     ] ],
     [ "vox_stat_t", "twi__stats_8h.html#a11697b8a24621d1aab532b3f6af729bb", [
       [ "V_SUM", "twi__stats_8h.html#a11697b8a24621d1aab532b3f6af729bba6a371889661981da84b47550a804d1e7", null ],

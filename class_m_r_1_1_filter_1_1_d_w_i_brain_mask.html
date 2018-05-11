@@ -32,7 +32,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC2-136-ge27b1200</div>
+   <div id="projectbrief">Version 3.0_RC3</div>
   </td>
  </tr>
  </tbody>
@@ -161,7 +161,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="textblock"><p>a filter to compute a whole brain mask from a <a class="el" href="namespace_m_r_1_1_d_w_i.html">DWI</a> image. </p>
 <p>Both diffusion weighted and b=0 volumes are required to obtain a mask that includes both brain tissue and CSF.</p>
 <p>Typical usage: </p><div class="fragment"><div class="line"><span class="keyword">auto</span> input = <a class="code" href="class_m_r_1_1_image.html#aab488a42d712e19da34e089333c14c15">Image&lt;value_type&gt;::open</a> (<a class="code" href="group___cmd_parse.html#ga47e73afc38d3e364e0aab23e78e467f9">argument</a>[0]);</div><div class="line"><span class="keyword">auto</span> <a class="code" href="class_m_r_1_1_filter_1_1_d_w_i_brain_mask.html#a2a6b2fbf82f17ce44241d63877965060">grad</a> = <a class="code" href="namespace_m_r_1_1_d_w_i.html#aa0aea8cd6b152634a184fe4b969e9d9a">DWI::get_DW_scheme</a> (input);</div><div class="line">Filter::DWIBrainMask dwi_brain_mask_filter (input, <a class="code" href="class_m_r_1_1_filter_1_1_d_w_i_brain_mask.html#a2a6b2fbf82f17ce44241d63877965060">grad</a>);</div><div class="line"><span class="keyword">auto</span> output = <a class="code" href="class_m_r_1_1_image.html#af3e84ff9ee40cdffa21ae551848b9573">Image&lt;bool&gt;::create</a> (<a class="code" href="group___cmd_parse.html#ga47e73afc38d3e364e0aab23e78e467f9">argument</a>[1], dwi_brain_mask_filter);</div><div class="line">dwi_brain_mask_filter (input, output);</div></div><!-- fragment --> 
-<p class="definition">Definition at line <a class="el" href="dwi__brain__mask_8h_source.html#l00055">55</a> of file <a class="el" href="dwi__brain__mask_8h_source.html">dwi_brain_mask.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dwi__brain__mask_8h_source.html#l00056">56</a> of file <a class="el" href="dwi__brain__mask_8h_source.html">dwi_brain_mask.h</a>.</p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="a2a6b2fbf82f17ce44241d63877965060"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2a6b2fbf82f17ce44241d63877965060">&#9670;&nbsp;</a></span>grad</h2>
@@ -183,7 +183,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="dwi__brain__mask_8h_source.html#l00146">146</a> of file <a class="el" href="dwi__brain__mask_8h_source.html">dwi_brain_mask.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dwi__brain__mask_8h_source.html#l00147">147</a> of file <a class="el" href="dwi__brain__mask_8h_source.html">dwi_brain_mask.h</a>.</p>
 
 </div>
 </div>
@@ -196,7 +196,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_filter.html">Filter</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_filter_1_1_d_w_i_brain_mask.html">DWIBrainMask</a></li>
-    <li class="footer">Generated on Tue Apr 24 2018 16:15:58 for MRtrix by
+    <li class="footer">Generated on Fri May 11 2018 15:02:55 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
   </ul>

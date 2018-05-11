@@ -26,6 +26,7 @@ var searchData=
   ['load_5fexemplar',['load_exemplar',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_edge.html#a240dacc2a2481f9bfc2b265ec892572a',1,'MR::GUI::MRView::Tool::Edge']]],
   ['load_5ffactors',['load_factors',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_mapper_t_w_i.html#ab3faed01425dad722acf389959a35c74',1,'MR::DWI::Tractography::Mapping::TrackMapperTWI']]],
   ['load_5ffmls_5fthresholds',['load_fmls_thresholds',['../namespace_m_r_1_1_d_w_i_1_1_f_m_l_s.html#a034345c19fee7adc4551accd69567f65',1,'MR::DWI::FMLS']]],
+  ['load_5fifod2_5foptions',['load_iFOD2_options',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms.html#a17748322943ad6e339338dabf5cdb6f5',1,'MR::DWI::Tractography::Algorithms']]],
   ['load_5fimage_5fbuffer',['load_image_buffer',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_fixel.html#a0553bc13a39ff2e0c10133034b868fbc',1,'MR::GUI::MRView::Tool::BaseFixel']]],
   ['load_5fmatrix',['load_matrix',['../namespace_m_r.html#ae95611ab298c2593fd1c4877d0937da7',1,'MR']]],
   ['load_5fmatrix_5f2d_5fvector',['load_matrix_2D_vector',['../namespace_m_r.html#a8028b8b7cf637b47a6e01ddcdf340d8a',1,'MR']]],

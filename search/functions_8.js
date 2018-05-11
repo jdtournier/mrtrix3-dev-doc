@@ -10,6 +10,7 @@ var searchData=
   ['header',['header',['../group___cmd_parse.html#ga6c578e2b64cb78cb3bf7811215c3863f',1,'MR::App::OptionGroup::header()'],['../class_m_r_1_1_image_i_o_1_1_g_z.html#aa348672f6ea33335cc2106584d40ce12',1,'MR::ImageIO::GZ::header()']]],
   ['headerdata',['headerData',['../class_m_r_1_1_g_u_i_1_1_dialog_1_1_tree_model.html#a1f3ed004554849ee6eac8c76931c918f',1,'MR::GUI::Dialog::TreeModel']]],
   ['headers_5fmatch',['headers_match',['../namespace_m_r.html#a766cac11cb380726bce3bd75985be51a',1,'MR']]],
+  ['height',['height',['../class_m_r_1_1_g_u_i_1_1_model_view_projection.html#aa2262e574fe844334154e47357895a3e',1,'MR::GUI::ModelViewProjection']]],
   ['help_5fhead',['help_head',['../namespace_m_r_1_1_app.html#a9c26d5c3e182e1da805b9210006553c2',1,'MR::App']]],
   ['help_5fsynopsis',['help_synopsis',['../namespace_m_r_1_1_app.html#a5813d7ec58739c0b7ce32e897d0f31b5',1,'MR::App']]],
   ['help_5ftail',['help_tail',['../namespace_m_r_1_1_app.html#add1a3a5ad6c6c5183be46e4362c62e64',1,'MR::App']]],

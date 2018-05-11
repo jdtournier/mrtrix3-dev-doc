@@ -6,6 +6,8 @@ var dir_a0e960ad71aca9da31cf4bd35c48c0bb =
     [ "definitions.h", "definitions_8h.html", "definitions_8h" ],
     [ "element.h", "element_8h.html", [
       [ "Sequence", "class_m_r_1_1_file_1_1_dicom_1_1_sequence.html", "class_m_r_1_1_file_1_1_dicom_1_1_sequence" ],
+      [ "Date", "class_m_r_1_1_file_1_1_dicom_1_1_date.html", "class_m_r_1_1_file_1_1_dicom_1_1_date" ],
+      [ "Time", "class_m_r_1_1_file_1_1_dicom_1_1_time.html", "class_m_r_1_1_file_1_1_dicom_1_1_time" ],
       [ "Element", "class_m_r_1_1_file_1_1_dicom_1_1_element.html", "class_m_r_1_1_file_1_1_dicom_1_1_element" ]
     ] ],
     [ "image.h", "file_2dicom_2image_8h.html", [

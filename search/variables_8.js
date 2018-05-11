@@ -14,6 +14,7 @@ var searchData=
   ['hide_5fneg_5fvalues',['hide_neg_values',['../class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_render_frame.html#a3db4b9ebabdc55b9b5afa441466a0f0f',1,'MR::GUI::DWI::RenderFrame']]],
   ['hide_5fneg_5fvalues_5f',['hide_neg_values_',['../class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_shader.html#ab22f2c7a5338dc3bbe129dc4516420e8',1,'MR::GUI::DWI::Renderer::Shader']]],
   ['hide_5fnegative_5fvalues_5fbox',['hide_negative_values_box',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#ae3cd0c2483887f0651db93ed912f86b4',1,'MR::GUI::MRView::Tool::ODF']]],
+  ['hour',['hour',['../class_m_r_1_1_file_1_1_dicom_1_1_time.html#a817d811e1f69691929a75fc17db2f2c0',1,'MR::File::Dicom::Time']]],
   ['hr_5famps',['HR_amps',['../class_m_r_1_1_d_w_i_1_1_s_deconv_1_1_c_s_d.html#af76251f7bb31b32946686b4d825145d1',1,'MR::DWI::SDeconv::CSD']]],
   ['hr_5ft',['HR_T',['../class_m_r_1_1_d_w_i_1_1_s_deconv_1_1_c_s_d.html#adcad27f88b6445dd384c5dbf9e622e37',1,'MR::DWI::SDeconv::CSD']]]
 ];

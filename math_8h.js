@@ -11,6 +11,7 @@ var math_8h =
     [ "load_matrix_2D_vector", "math_8h.html#a8028b8b7cf637b47a6e01ddcdf340d8a", null ],
     [ "load_transform", "math_8h.html#ae2746ab282780c24c1e6e73a01a3f120", null ],
     [ "load_vector", "math_8h.html#a1714aeef7a274e31aec03d75949272b0", null ],
+    [ "parse_matrix", "math_8h.html#a71615ba8aacdd8079ab92958507274e1", null ],
     [ "pow10", "math_8h.html#gaab47314effd3fa3c1223c1c7abe21eff", null ],
     [ "pow2", "math_8h.html#ga8bf8967471ef09d762367a1844985db8", null ],
     [ "pow3", "math_8h.html#gaa5be6dfa9c446af78ea87902e6214d8b", null ],

@@ -38,6 +38,7 @@ var searchData=
   ['model',['Model',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model.html',1,'MR::DWI::Tractography::SIFT']]],
   ['modelbase',['ModelBase',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model_base.html',1,'MR::DWI::Tractography::SIFT']]],
   ['modelbase_3c_20fixel_5ftd_5fseed_20_3e',['ModelBase&lt; Fixel_TD_seed &gt;',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model_base.html',1,'MR::DWI::Tractography::SIFT']]],
+  ['modelviewprojection',['ModelViewProjection',['../class_m_r_1_1_g_u_i_1_1_model_view_projection.html',1,'MR::GUI']]],
   ['momentsinitialiser',['MomentsInitialiser',['../class_m_r_1_1_registration_1_1_transform_1_1_init_1_1_moments_initialiser.html',1,'MR::Registration::Transform::Init']]],
   ['mosaic',['Mosaic',['../class_m_r_1_1_image_i_o_1_1_mosaic.html',1,'MR::ImageIO']]],
   ['mri',['MRI',['../class_m_r_1_1_formats_1_1_m_r_i.html',1,'MR::Formats']]],

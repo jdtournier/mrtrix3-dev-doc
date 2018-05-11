@@ -1,19 +1,16 @@
 var searchData=
 [
-  ['t_5fmax',['T_MAX',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping.html#a3fa21a08c7f0bffb34976f520d129275aa578180573dee7ab79eed33885f6ce49',1,'MR::DWI::Tractography::Mapping']]],
-  ['t_5fmean',['T_MEAN',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping.html#a3fa21a08c7f0bffb34976f520d129275a45713dacee18d0fee0f3ca66acf9a0f2',1,'MR::DWI::Tractography::Mapping']]],
-  ['t_5fmean_5fnonzero',['T_MEAN_NONZERO',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping.html#a3fa21a08c7f0bffb34976f520d129275ae14b0d3e7a35006ebf2482d46c7f18a2',1,'MR::DWI::Tractography::Mapping']]],
-  ['t_5fmedian',['T_MEDIAN',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping.html#a3fa21a08c7f0bffb34976f520d129275a2dbdfb535ef3dc050add13a9a0c80350',1,'MR::DWI::Tractography::Mapping']]],
-  ['t_5fmin',['T_MIN',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping.html#a3fa21a08c7f0bffb34976f520d129275a02148dff70cbf6fcef0aef00a753c2c8',1,'MR::DWI::Tractography::Mapping']]],
-  ['t_5fsum',['T_SUM',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping.html#a3fa21a08c7f0bffb34976f520d129275adbd1d80fca6963bbd40db7776992559d',1,'MR::DWI::Tractography::Mapping']]],
-  ['tdi',['TDI',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping.html#a6d8085a00765609c3f8ee435f8cdf31da5840d95b6be1bd9468bf319001467ae3',1,'MR::DWI::Tractography::Mapping']]],
-  ['tensor',['TENSOR',['../class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer.html#aea2f0896bcbc95a6747341721a2db3eeace2f94540fa9914e8fe6f0de9817717b',1,'MR::GUI::DWI::Renderer']]],
-  ['term_5fin_5fsgm',['TERM_IN_SGM',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#a1c30c67185585a9f27b5a581050292f5a1eb2310a7998da4f8a297228b5be1393',1,'MR::DWI::Tractography::Tracking']]],
-  ['tod',['TOD',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping.html#a89a945a433c16dd9dec81f827d6226b9af0c84c695211721a958d030309b97209',1,'MR::DWI::Tractography::Mapping']]],
-  ['top',['Top',['../namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map.html#a0ad493d29631a0f0abf2e3b9afd4e901aaaf92f2125c282564c4ed5d020576c00',1,'MR::GUI::MRView::ColourMap']]],
-  ['topleft',['TopLeft',['../namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map.html#a0ad493d29631a0f0abf2e3b9afd4e901a35d770b2de89b367464471d87008299f',1,'MR::GUI::MRView::ColourMap']]],
-  ['topright',['TopRight',['../namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map.html#a0ad493d29631a0f0abf2e3b9afd4e901a3cf88040492a1863c1b4f121c8c414cb',1,'MR::GUI::MRView::ColourMap']]],
-  ['track_5ftoo_5flong',['TRACK_TOO_LONG',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#ad956382fab3ffe08fe6398044e9ae01aaf97cf82fd334b4924a364f43c60cb757',1,'MR::DWI::Tractography::Tracking']]],
-  ['track_5ftoo_5fshort',['TRACK_TOO_SHORT',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#ad956382fab3ffe08fe6398044e9ae01aa0754d23485a2ac2d2616e14debf5f993',1,'MR::DWI::Tractography::Tracking']]],
-  ['traverse_5fall_5finclude',['TRAVERSE_ALL_INCLUDE',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#a1c30c67185585a9f27b5a581050292f5a763bf8bed07f3e965b6a3a054a48987f',1,'MR::DWI::Tractography::Tracking']]]
+  ['scalar_5fmap',['SCALAR_MAP',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping.html#a6d8085a00765609c3f8ee435f8cdf31daacfcd743eb2709ea6f0620e405ce6b88',1,'MR::DWI::Tractography::Mapping']]],
+  ['scalar_5fmap_5fcount',['SCALAR_MAP_COUNT',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping.html#a6d8085a00765609c3f8ee435f8cdf31da2cc3957f725b6542ba92c9a8472786bc',1,'MR::DWI::Tractography::Mapping']]],
+  ['scalarfile',['ScalarFile',['../namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool.html#aaaad2794ce9a61c10224a1e448785ed7a9ffd5defa0be04a26c198c23ac87c2d9',1,'MR::GUI::MRView::Tool']]],
+  ['separatefile',['SeparateFile',['../namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool.html#aea5cc47ce98f43fef58488de9f7fd608a652b2e9f875be61d1fefe94ee261ee80',1,'MR::GUI::MRView::Tool']]],
+  ['seq',['SEQ',['../class_m_r_1_1_file_1_1_dicom_1_1_element.html#ae9217c91240fb8e69f77bf9f6a973173a0c12ec4fe3e31988aeb880e08fedd1a9',1,'MR::File::Dicom::Element']]],
+  ['set_5fcentre_5fgeometric',['set_centre_geometric',['../namespace_m_r_1_1_registration_1_1_transform_1_1_init.html#afa3a967714d843a5733b8bdc70eb5868a7017b29a1c5b606a4a755114ad20879b',1,'MR::Registration::Transform::Init']]],
+  ['set_5fcentre_5fmass',['set_centre_mass',['../namespace_m_r_1_1_registration_1_1_transform_1_1_init.html#afa3a967714d843a5733b8bdc70eb5868a6cd77be47d5a2e0d2fdace2d419a0d0a',1,'MR::Registration::Transform::Init']]],
+  ['sh',['SH',['../class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer.html#aea2f0896bcbc95a6747341721a2db3eeaec5704f0d56945d1e5b8f9a2384a2b4b',1,'MR::GUI::DWI::Renderer']]],
+  ['sphere',['SPHERE',['../namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool.html#abc28e2ae93312e01595c326ab499e679a6f7cea7381e843e2ee0338b4a92b0d43',1,'MR::GUI::MRView::Tool']]],
+  ['streamline',['STREAMLINE',['../namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool.html#a8d45c76502d5d380c3608fc7e88925c8a91d600b1ae66df8823e6ca50708b10f7',1,'MR::GUI::MRView::Tool']]],
+  ['streamtube',['STREAMTUBE',['../namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool.html#a8d45c76502d5d380c3608fc7e88925c8a4fa2ffca48a4555454e8527de971934b',1,'MR::GUI::MRView::Tool']]],
+  ['string',['STRING',['../class_m_r_1_1_file_1_1_dicom_1_1_element.html#ae9217c91240fb8e69f77bf9f6a973173a2a5ee806d0c553c6d67c2cb8332a93a2',1,'MR::File::Dicom::Element']]],
+  ['sum',['SUM',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome.html#a697f57b7cbae2343c2932d9cd0f04a14a5934b5be59f95704d8164237b90d838e',1,'MR::DWI::Tractography::Connectome']]]
 ];

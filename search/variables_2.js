@@ -2,6 +2,8 @@ var searchData=
 [
   ['b',['B',['../class_m_r_1_1_math_1_1_i_c_l_s_1_1_solver.html#aa7484a3c6c145ee55060f25393a1c54a',1,'MR::Math::ICLS::Solver']]],
   ['backend',['backend',['../class_m_r_1_1_thread_1_1_____backend.html#afe372c9045fcbeb1a12cf1dfff211a2d',1,'MR::Thread::__Backend']]],
+  ['backtrack',['backtrack',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_i_image_plugin_base.html#a169c43c50d65dc540d07cb381e61d043',1,'MR::DWI::Tractography::Mapping::TWIImagePluginBase']]],
+  ['backtrack_5fmask',['backtrack_mask',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_i_image_plugin_base.html#a02228f997907b856c643e9deac155ec3',1,'MR::DWI::Tractography::Mapping::TWIImagePluginBase']]],
   ['barrier_5faddr',['barrier_addr',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer_unbuffered.html#a35949a2c937a21073a741daa190ebbda',1,'MR::DWI::Tractography::WriterUnbuffered']]],
   ['basis_5fmatrix',['basis_matrix',['../class_m_r_1_1_math_1_1_cubic_spline.html#ada1d8a05121417df8c8399c7963b9011',1,'MR::Math::CubicSpline']]],
   ['before',['before',['../struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___undo_entry.html#a5088127eb0ca84cec0234dd466ffe54c',1,'MR::GUI::MRView::Tool::ROI_UndoEntry']]],

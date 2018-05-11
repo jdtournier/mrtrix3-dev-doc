@@ -64,7 +64,6 @@ var searchData=
   ['vector_3c_20optiongroup_20_3e',['vector&lt; OptionGroup &gt;',['../class_m_r_1_1vector.html',1,'MR']]],
   ['vector_3c_20particlevectortype_20_3e',['vector&lt; ParticleVectorType &gt;',['../class_m_r_1_1vector.html',1,'MR']]],
   ['vector_3c_20plane_20_3e',['vector&lt; Plane &gt;',['../class_m_r_1_1vector.html',1,'MR']]],
-  ['vector_3c_20proj_5ffocusdelta_20_3e',['vector&lt; proj_focusdelta &gt;',['../class_m_r_1_1vector.html',1,'MR']]],
   ['vector_3c_20qaction_20_2a_3e',['vector&lt; QAction *&gt;',['../class_m_r_1_1vector.html',1,'MR']]],
   ['vector_3c_20quad_20_3e',['vector&lt; Quad &gt;',['../class_m_r_1_1vector.html',1,'MR']]],
   ['vector_3c_20sift_3a_3atrack_5ft_20_3e',['vector&lt; SIFT::track_t &gt;',['../class_m_r_1_1vector.html',1,'MR']]],
@@ -109,5 +108,5 @@ var searchData=
   ['voxeladdon',['VoxelAddon',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_voxel_addon.html',1,'MR::DWI::Tractography::Mapping::Gaussian']]],
   ['voxeldec',['VoxelDEC',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_voxel_d_e_c.html',1,'MR::DWI::Tractography::Mapping::Gaussian::VoxelDEC'],['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_voxel_d_e_c.html',1,'MR::DWI::Tractography::Mapping::VoxelDEC']]],
   ['voxeldir',['VoxelDir',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_voxel_dir.html',1,'MR::DWI::Tractography::Mapping']]],
-  ['voxeltod',['VoxelTOD',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_voxel_t_o_d.html',1,'MR::DWI::Tractography::Mapping::Gaussian::VoxelTOD'],['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_voxel_t_o_d.html',1,'MR::DWI::Tractography::Mapping::VoxelTOD']]]
+  ['voxeltod',['VoxelTOD',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_voxel_t_o_d.html',1,'MR::DWI::Tractography::Mapping::VoxelTOD'],['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_voxel_t_o_d.html',1,'MR::DWI::Tractography::Mapping::Gaussian::VoxelTOD']]]
 ];

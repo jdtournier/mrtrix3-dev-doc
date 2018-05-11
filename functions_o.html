@@ -32,7 +32,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC2-136-ge27b1200</div>
+   <div id="projectbrief">Version 3.0_RC3</div>
   </td>
  </tr>
  </tbody>
@@ -184,6 +184,9 @@ $(document).ready(function(){initNavTree('functions_o.html','');});
 , <a class="el" href="class_m_r_1_1_progress_bar.html#a61c96db7f1aa7598db7f77525d8e043c">MR::ProgressBar</a>
 , <a class="el" href="class_m_r_1_1_random__loop.html#a9a337af06ec3251f5dd71bda15e471da">MR::Random_loop&lt; ImageType, RandomEngine &gt;</a>
 , <a class="el" href="class_m_r_1_1_random__sparse__loop.html#aa83d2353abd0e9cf2a5535af9349dec1">MR::Random_sparse_loop&lt; ImageType &gt;</a>
+</li>
+<li>operator default_type()
+: <a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_time.html#acda7723588f0499562ba461e5631069f">MR::File::Dicom::Time</a>
 </li>
 <li>operator delete()
 : <a class="el" href="struct_m_r_1_1container__cast.html#aea095b30dfcbb57386a5164083ee9511">MR::container_cast&lt; T &gt;</a>
@@ -341,7 +344,7 @@ $(document).ready(function(){initNavTree('functions_o.html','');});
 , <a class="el" href="struct_m_r_1_1_loop_along_axis_range_1_1_run.html#a367aa8042e3c8ee9a8604be6667b0dcc">MR::LoopAlongAxisRange::Run&lt; ImageType &gt;</a>
 , <a class="el" href="struct_m_r_1_1_loop_along_axis_range_progress_1_1_run.html#a20f75ef4203032314521cad21fce6f5e">MR::LoopAlongAxisRangeProgress::Run&lt; ImageType &gt;</a>
 , <a class="el" href="struct_m_r_1_1_loop_along_dynamic_axes_1_1_run.html#a40fa047b2224ad5c85556a8c687ec882">MR::LoopAlongDynamicAxes::Run&lt; ImageType &gt;</a>
-, <a class="el" href="struct_m_r_1_1_loop_along_dynamic_axes_progress_1_1_run.html#a1f6da83c6508f03ab6dffe566370ea85">MR::LoopAlongDynamicAxesProgress::Run&lt; ImageType &gt;</a>
+, <a class="el" href="struct_m_r_1_1_loop_along_dynamic_axes_progress_1_1_run.html#a6f04fcf77bc9c20f1fb41fd1628d3999">MR::LoopAlongDynamicAxesProgress::Run&lt; ImageType &gt;</a>
 , <a class="el" href="struct_m_r_1_1_loop_along_single_axis_1_1_run.html#a8ef51b036be75dd936a8f17296762a29">MR::LoopAlongSingleAxis::Run&lt; ImageType &gt;</a>
 , <a class="el" href="struct_m_r_1_1_loop_along_single_axis_progress_1_1_run.html#a4736f1c94aa24b64c7d6801c1504b180">MR::LoopAlongSingleAxisProgress::Run&lt; ImageType &gt;</a>
 , <a class="el" href="struct_m_r_1_1_loop_along_static_axes_1_1_run.html#a4436bf3b5b9c4c6bf267956ed1362967">MR::LoopAlongStaticAxes::Run&lt; ImageType &gt;</a>
@@ -358,7 +361,10 @@ $(document).ready(function(){initNavTree('functions_o.html','');});
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_voxel_d_e_c.html#a90cad3ae3bf9a7f8ebbdfdff36b59c2e">MR::DWI::Tractography::Mapping::Gaussian::VoxelDEC</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_voxel_t_o_d.html#abed5774ef515c8e31cbb569d0b7ef888">MR::DWI::Tractography::Mapping::Gaussian::VoxelTOD</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_fixel.html#ad70a28de6b3bac0f1e9e2872fcbd552d">MR::DWI::Tractography::SIFT2::Fixel</a>
-, <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_streamline_stats.html#ac5a38d8182e6bd9ce3ab5b2e847ccdf3">MR::DWI::Tractography::SIFT2::StreamlineStats</a>
+, <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_streamline_stats.html#a833411afe80c5ee24f435e8127f7809e">MR::DWI::Tractography::SIFT2::StreamlineStats</a>
+</li>
+<li>operator-()
+: <a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_time.html#aeda57b5b93a32151998e09ce7f5f27c1">MR::File::Dicom::Time</a>
 </li>
 <li>operator-&gt;()
 : <a class="el" href="class_m_r_1_1_thread_1_1_queue_1_1_reader_1_1_item.html#aabae82f61cfc98a2c40e3691fefd656b">MR::Thread::Queue&lt; T &gt;::Reader::Item</a>
@@ -389,10 +395,12 @@ $(document).ready(function(){initNavTree('functions_o.html','');});
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_seeding_1_1_base.html#aa5e6d201196e6594fecabb13bd51ec6f">MR::DWI::Tractography::Seeding::Base</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_seeding_1_1_list.html#a59abbdf95d1711657cff44274f2810f5">MR::DWI::Tractography::Seeding::List</a>
 , <a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_c_s_a_entry.html#a1bfdc7d563f14ef8818d8e317b61af0d">MR::File::Dicom::CSAEntry</a>
+, <a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_date.html#a9daf645e611f51023d4276cd3577c2fb">MR::File::Dicom::Date</a>
 , <a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_element.html#aed108082db230ab9262df7b7c88eff5e">MR::File::Dicom::Element</a>
 , <a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_frame.html#a68f79726fe41706acf962563529ac07f">MR::File::Dicom::Frame</a>
 , <a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_image.html#a8a6e97ca8294bcf35330faeec775edff">MR::File::Dicom::Image</a>
 , <a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_series.html#ab024de0dde2d296283c1671c3a88e484">MR::File::Dicom::Series</a>
+, <a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_time.html#af7b3ef33b186f8881dfbf66294e4d9ce">MR::File::Dicom::Time</a>
 , <a class="el" href="class_m_r_1_1_file_1_1_m_map.html#a4a06c9cf86ce0a4fc8d0a2ed2b859833">MR::File::MMap</a>
 , <a class="el" href="class_m_r_1_1_file_1_1_name_parser_1_1_item.html#a4a39cd399f202e3225cd7976dcf4ae3d">MR::File::NameParser::Item</a>
 , <a class="el" href="class_m_r_1_1_file_1_1_name_parser.html#a20ca7e05acdc8510be11c12b0b3f1dfb">MR::File::NameParser</a>
@@ -424,9 +432,9 @@ $(document).ready(function(){initNavTree('functions_o.html','');});
 , <a class="el" href="class_m_r_1_1_g_u_i_1_1_g_l_1_1_texture.html#a192ca819f1c37df8581284d749aed69e">MR::GUI::GL::Texture</a>
 , <a class="el" href="class_m_r_1_1_g_u_i_1_1_g_l_1_1_vertex_array_object.html#a828b39c6fd8160280c8feca79bca7be0">MR::GUI::GL::VertexArrayObject</a>
 , <a class="el" href="class_m_r_1_1_g_u_i_1_1_g_l_1_1_vertex_buffer.html#a35552839af82c1c7c2ebd1c518a55730">MR::GUI::GL::VertexBuffer</a>
-, <a class="el" href="struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___undo_entry.html#ae30383477b7d4579a7fe2a2add866dfe">MR::GUI::MRView::Tool::ROI_UndoEntry</a>
-, <a class="el" href="class_m_r_1_1_image_1_1_buffer.html#ac40a402222670f017690ce81580e843e">MR::Image&lt; ValueType &gt;::Buffer</a>
-, <a class="el" href="class_m_r_1_1_image.html#a393407bbeff913560b4f41d2fe8ccfb3">MR::Image&lt; ValueType &gt;</a>
+, <a class="el" href="struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___undo_entry.html#aa53e34ff65116363ce551fa032605423">MR::GUI::MRView::Tool::ROI_UndoEntry</a>
+, <a class="el" href="class_m_r_1_1_image_1_1_buffer.html#a8b362121c03a8235729a4543fd97069f">MR::Image&lt; ValueType &gt;::Buffer</a>
+, <a class="el" href="class_m_r_1_1_image.html#a70c116a358e4108e459fdc4db849f6a0">MR::Image&lt; ValueType &gt;</a>
 , <a class="el" href="class_m_r_1_1_image_i_o_1_1_base.html#a9626e766e01b74d2c0098dcdf451e71c">MR::ImageIO::Base</a>
 , <a class="el" href="class_m_r_1_1_image_i_o_1_1_default.html#a7382ac110176cb9e7d1c1542242a30b7">MR::ImageIO::Default</a>
 , <a class="el" href="class_m_r_1_1_transform.html#aca542451a88b63561759500598f53e29">MR::Transform</a>
@@ -626,7 +634,7 @@ $(document).ready(function(){initNavTree('functions_o.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Apr 24 2018 16:15:59 for MRtrix by
+    <li class="footer">Generated on Fri May 11 2018 15:02:55 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
   </ul>

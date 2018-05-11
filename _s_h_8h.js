@@ -2,7 +2,6 @@ var _s_h_8h =
 [
     [ "ANGLE_TOLERANCE", "_s_h_8h.html#a5835d2253221816d4f18e65f9796d3c6", null ],
     [ "MAX_DIR_CHANGE", "_s_h_8h.html#a4ee2d519e14dc95a5ed11efa93fe465f", null ],
-    [ "SH_NON_M0_SCALE_FACTOR", "group__spherical__harmonics.html#gaa5599527d6d00f72e280f55ccb190fcf", null ],
     [ "check", "_s_h_8h.html#ga02fbff506863d7c1a4b79eea0ac5660c", null ],
     [ "delta", "_s_h_8h.html#gae9a8ddabd463387e10a641f4fcd32858", null ],
     [ "derivatives", "_s_h_8h.html#ga3da04937bcc39217f2c49365eb286315", null ],

@@ -32,7 +32,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC2-136-ge27b1200</div>
+   <div id="projectbrief">Version 3.0_RC3</div>
   </td>
  </tr>
  </tbody>
@@ -159,7 +159,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Note that if the image is 4D, then only the first 3 dimensions can be resized.</p>
 <p>Also note that if the image is down-sampled, the appropriate smoothing is automatically applied. using Gaussian smoothing.</p>
 <p>Typical usage: </p><div class="fragment"><div class="line"><span class="keyword">auto</span> input = <a class="code" href="class_m_r_1_1_image.html#aab488a42d712e19da34e089333c14c15">Image&lt;default_type&gt;::open</a> (<a class="code" href="group___cmd_parse.html#ga47e73afc38d3e364e0aab23e78e467f9">argument</a>[0]);</div><div class="line">Image::Filter::Resize resize_filter (input);</div><div class="line"><a class="code" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a> <a class="code" href="namespace_m_r_1_1_g_u_i_1_1_g_l.html#aa4ed88648ec63ee6195da0d07f50c57e">scale</a> = 0.5;</div><div class="line">resize_filter.set_scale_factor (<a class="code" href="namespace_m_r_1_1_g_u_i_1_1_g_l.html#aa4ed88648ec63ee6195da0d07f50c57e">scale</a>);</div><div class="line"><span class="keyword">auto</span> output = <a class="code" href="class_m_r_1_1_image.html#af3e84ff9ee40cdffa21ae551848b9573">Image::create</a> (<a class="code" href="group___cmd_parse.html#ga47e73afc38d3e364e0aab23e78e467f9">argument</a>[1], resize_filter);</div><div class="line"></div><div class="line">resize_filter (src, dest);</div></div><!-- fragment --> 
-<p class="definition">Definition at line <a class="el" href="resize_8h_source.html#l00054">54</a> of file <a class="el" href="resize_8h_source.html">resize.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="resize_8h_source.html#l00055">55</a> of file <a class="el" href="resize_8h_source.html">resize.h</a>.</p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="a56ace62ecaa899ffd7b62dfda5997efb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a56ace62ecaa899ffd7b62dfda5997efb">&#9670;&nbsp;</a></span>interp_type</h2>
@@ -181,7 +181,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="resize_8h_source.html#l00153">153</a> of file <a class="el" href="resize_8h_source.html">resize.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="resize_8h_source.html#l00154">154</a> of file <a class="el" href="resize_8h_source.html">resize.h</a>.</p>
 
 </div>
 </div>
@@ -194,7 +194,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_filter.html">Filter</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_filter_1_1_resize.html">Resize</a></li>
-    <li class="footer">Generated on Tue Apr 24 2018 16:15:58 for MRtrix by
+    <li class="footer">Generated on Fri May 11 2018 15:02:55 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
   </ul>

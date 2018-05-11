@@ -32,7 +32,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC2-136-ge27b1200</div>
+   <div id="projectbrief">Version 3.0_RC3</div>
   </td>
  </tr>
  </tbody>
@@ -91,7 +91,7 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 
 <h3><a id="index_p"></a>- p -</h3><ul>
 <li>P
-: <a class="el" href="class_m_r_1_1_g_u_i_1_1_projection.html#af73d4442af1aab0a91e07d9703dcbd1c">MR::GUI::Projection</a>
+: <a class="el" href="class_m_r_1_1_g_u_i_1_1_model_view_projection.html#a2435148bdca1f6d520e355e5deb7189c">MR::GUI::ModelViewProjection</a>
 , <a class="el" href="class_m_r_1_1_interp_1_1_linear_interp_base.html#aa5dbf960d9b7e85cfe4f0d75e81cc851">MR::Interp::LinearInterpBase&lt; ImageType, PType &gt;</a>
 , <a class="el" href="class_m_r_1_1_interp_1_1_spline_interp_base.html#ad8c68b96c75f564ddfb291c08c9a124d">MR::Interp::SplineInterpBase&lt; ImageType, SplineType, PType &gt;</a>
 , <a class="el" href="class_m_r_1_1_math_1_1_i_c_l_s_1_1_solver.html#acb6140cbf181ef1dfda6b094fc6767c0">MR::Math::ICLS::Solver&lt; ValueType &gt;</a>
@@ -134,6 +134,14 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 </li>
 <li>pan_crosshair
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_cursor.html#a115a92725af5f04cd0644c44fa648d19">MR::GUI::Cursor</a>
+</li>
+<li>pan_event()
+: <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_base.html#a35edf2fd6ca1360ef16bf2bf02b3cecd">MR::GUI::MRView::Mode::Base</a>
+, <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_light_box.html#ab14bea65fc4b2d79a7d6d736fcbb0728">MR::GUI::MRView::Mode::LightBox</a>
+</li>
+<li>panthrough_event()
+: <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_base.html#a50f3c71b8c664a0d99d8d88357229297">MR::GUI::MRView::Mode::Base</a>
+, <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_light_box.html#a7636b6fba8a1af36624dc0fb7f874fc4">MR::GUI::MRView::Mode::LightBox</a>
 </li>
 <li>params
 : <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_evaluate.html#a48cf332234c1522dd9aac4976a5050a7">MR::Registration::Metric::Evaluate&lt; MetricType, ParamType &gt;</a>
@@ -349,10 +357,10 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 , <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_permutation_stack.html#a2d25255470812a8d87ff91553a1f4c0c">MR::Stats::PermTest::PermutationStack</a>
 </li>
 <li>ProgressBar()
-: <a class="el" href="class_m_r_1_1_progress_bar.html#af982fab36da9a8e803850408c028aea3">MR::ProgressBar</a>
+: <a class="el" href="class_m_r_1_1_progress_bar.html#a15bcc8f49f7452e98990a638226da787">MR::ProgressBar</a>
 </li>
 <li>ProgressInfo()
-: <a class="el" href="class_m_r_1_1_progress_info.html#a00b2d0ebd44e9749a1733564bb57c807">MR::ProgressInfo</a>
+: <a class="el" href="class_m_r_1_1_progress_info.html#a7ad0428d3d4fb38d6162466dad6f444e">MR::ProgressInfo</a>
 </li>
 <li>projection
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_render_frame.html#ab61140bb93af7cdbf6f88be00c73ed0b">MR::GUI::DWI::RenderFrame</a>
@@ -372,7 +380,7 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Apr 24 2018 16:15:59 for MRtrix by
+    <li class="footer">Generated on Fri May 11 2018 15:02:55 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
   </ul>
