@@ -1,5 +1,6 @@
 var NAVTREEINDEX12 =
 {
+"class_m_r_1_1_math_1_1_linear_update_b_b.html":[9,15,1],
 "class_m_r_1_1_math_1_1_linear_update_b_b.html#ad876d1fedb3b205e7c204b47fced1923":[9,15,1,0],
 "class_m_r_1_1_math_1_1_quadratic_line_search.html":[9,15,3],
 "class_m_r_1_1_math_1_1_r_n_g.html":[11,0,0,13,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX12 =
 "class_m_r_1_1_registration_1_1_non_linear.html#a29e3a63a59d7ea80256c36354e3a08e0":[11,0,0,15,5,10],
 "class_m_r_1_1_registration_1_1_non_linear.html#a372621dbcb7bfaa58479c64706d40e67":[11,0,0,15,5,20],
 "class_m_r_1_1_registration_1_1_non_linear.html#a42eed90d9e4630f2fc8d2da2972f024f":[11,0,0,15,5,1],
-"class_m_r_1_1_registration_1_1_non_linear.html#a43b1fc6cf5295209ebfae2d9dfbf891a":[11,0,0,15,5,2],
-"class_m_r_1_1_registration_1_1_non_linear.html#a500d5a5a50741b09a9300cb8a2c4ec91":[11,0,0,15,5,11]
+"class_m_r_1_1_registration_1_1_non_linear.html#a43b1fc6cf5295209ebfae2d9dfbf891a":[11,0,0,15,5,2]
 };

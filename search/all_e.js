@@ -181,6 +181,7 @@ var searchData=
   ['num_5felements',['num_elements',['../class_m_r_1_1_math_1_1_stats_1_1_g_l_m_t_test.html#a7ae8cad981b1de31475076c940e8625a',1,'MR::Math::Stats::GLMTTest']]],
   ['num_5ffixels',['num_fixels',['../struct_m_r_1_1_fixel_1_1_loop_fixels_in_voxel.html#a58b8a5f51d5ff0a8822e29fcf5cd4d0f',1,'MR::Fixel::LoopFixelsInVoxel::num_fixels()'],['../struct_m_r_1_1_fixel_1_1_loop_fixels_in_voxel_1_1_run.html#a433f69874c22ee0262f7f3d962f8c068',1,'MR::Fixel::LoopFixelsInVoxel::Run::num_fixels()']]],
   ['num_5findices',['num_indices',['../class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_dixel.html#a7a263ffb59debe9d153fc8e898f706a5',1,'MR::GUI::DWI::Renderer::Dixel']]],
+  ['num_5fitems',['num_items',['../class_m_r_1_1_file_1_1_dicom_1_1_c_s_a_entry.html#ad5a543435ea48d9836bbff1192cc4148',1,'MR::File::Dicom::CSAEntry']]],
   ['num_5fnodes',['num_nodes',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_connectome.html#a80f39996e22be7a4b6a96889a71a7855',1,'MR::GUI::MRView::Tool::Connectome']]],
   ['num_5fsample_5fruns',['num_sample_runs',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1.html#a15d0648f79c98dec164a2acf08e08a85',1,'MR::DWI::Tractography::Algorithms::iFOD1']]],
   ['num_5fscalar',['num_scalar',['../namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map.html#a450f354c85771b8f44bc9bbe298b0a69',1,'MR::GUI::MRView::ColourMap']]],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX22 =
 {
+"src_2dwi_2tractography_2connectome_2matrix_8h.html#ad3bc862bd4204a422b9fc3d31f59503e":[12,0,1,1,2,2,5,4],
 "src_2dwi_2tractography_2connectome_2matrix_8h.html#ad7de8b5480fe7830d5c658acbf331d01":[12,0,1,1,2,2,5,3],
 "src_2dwi_2tractography_2connectome_2matrix_8h_source.html":[12,0,1,1,2,2,5],
 "src_2dwi_2tractography_2mapping_2gaussian_2mapper_8h.html":[12,0,1,1,2,5,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX22 =
 "stride_8h.html#a26d05f2753aa0a9b38f251e692ad77d5":[12,0,0,31,21],
 "stride_8h.html#a27e16882f841e2900178b7be0614cf5f":[12,0,0,31,2],
 "stride_8h.html#a3c0ec257b26e5cee6dc8e010480092e3":[12,0,0,31,15],
-"stride_8h.html#a3c468ad8e541058bbd88b98c6053ef59":[12,0,0,31,11],
-"stride_8h.html#a445ee64002ed7e3d43b4f131a94bd3c8":[12,0,0,31,18]
+"stride_8h.html#a3c468ad8e541058bbd88b98c6053ef59":[12,0,0,31,11]
 };
