@@ -24,6 +24,7 @@ var src_2surface_2types_8h =
     [ "NOMEMALIGN", "src_2surface_2types_8h.html#a5d1aa93e600a93cee8523d1d34c1ace5", null ],
     [ "NON_POD_VLA", "group___v_l_a.html#gafdeb6bac959b6c3716e6ea242e5bfd8c", null ],
     [ "NON_POD_VLA_MAX", "group___v_l_a.html#gac4b223848b0e85a7cc733ae8261181cd", null ],
+    [ "PRI_SIZET", "src_2surface_2types_8h.html#ab62a1f0b6800e57dafd68ba76d698ada", null ],
     [ "VLA", "group___v_l_a.html#ga587ba4d66cf53e7de57f71997aaa1993", null ],
     [ "VLA_MAX", "group___v_l_a.html#ga5b4337ca14d00af715a3548de3d9bb84", null ],
     [ "cdouble", "src_2surface_2types_8h.html#a2715900485a01c915556cb5ca99f3c59", null ],

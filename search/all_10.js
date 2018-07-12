@@ -132,6 +132,7 @@ var searchData=
   ['previous_5freport_5fto_5fuser_5ffunc',['previous_report_to_user_func',['../class_m_r_1_1_thread_1_1_____backend.html#a188410a9f8ba655b655dc5b87057de5c',1,'MR::Thread::__Backend']]],
   ['previous_5fslot',['previous_slot',['../class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_window.html#a53550eda214cd9ff640c421ef3dd267d',1,'MR::GUI::DWI::Window']]],
   ['previous_5fy',['previous_y',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_adjust_button.html#a7fe829e498b794cc2798396f6d95ad6f',1,'MR::GUI::MRView::AdjustButton']]],
+  ['pri_5fsizet',['PRI_SIZET',['../src_2surface_2types_8h.html#ab62a1f0b6800e57dafd68ba76d698ada',1,'types.h']]],
   ['print',['print',['../class_m_r_1_1_file_1_1_dicom_1_1_c_s_a_entry.html#a6fc5952247fc73483f03b45916b4534d',1,'MR::File::Dicom::CSAEntry::print()'],['../class_m_r_1_1_stats_1_1_stats.html#afa6b8b6b43fd8bdce963b8c4f2170b17',1,'MR::Stats::Stats::print()'],['../namespace_m_r.html#a66792f7e70e2ea8b404314eeebcd4dbb',1,'MR::print()']]],
   ['print_5fheader',['print_header',['../class_m_r_1_1_file_1_1_dicom_1_1_element.html#a39fe6ef70bc68a330672367faa32e7ee',1,'MR::File::Dicom::Element::print_header()'],['../namespace_m_r_1_1_stats.html#a772bb1aedd53e8e2dd96af73beb3d970',1,'MR::Stats::print_header()']]],
   ['print_5flog',['print_log',['../namespace_m_r_1_1_g_u_i_1_1_g_l_1_1_shader.html#abed5c17c7ea5bc73fc2a37e4b6d45287',1,'MR::GUI::GL::Shader']]],

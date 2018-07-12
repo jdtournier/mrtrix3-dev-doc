@@ -1,5 +1,6 @@
 var NAVTREEINDEX23 =
 {
+"stride_8h.html#a3c468ad8e541058bbd88b98c6053ef59":[12,0,0,31,11],
 "stride_8h.html#a445ee64002ed7e3d43b4f131a94bd3c8":[12,0,0,31,18],
 "stride_8h.html#a4c0e7d9378a298266a1cb521f42f1410":[12,0,0,31,1],
 "stride_8h.html#a4d5ccb17d9163ba81bfd7266df11649c":[12,0,0,31,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX23 =
 "struct_m_r_1_1_registration_1_1_transform_1_1_init_1_1_linear_initialisation_params_1_1_rotation_init_1_1rot__search.html#aa609cb466a04d3f8a10fb94616661e8d":[11,0,0,15,2,0,1,0,0,6],
 "struct_m_r_1_1_registration_1_1_transform_1_1_init_1_1_linear_initialisation_params_1_1_rotation_init_1_1rot__search.html#aebfbb57f59d3844436c482afaec31cab":[11,0,0,15,2,0,1,0,0,2],
 "struct_m_r_1_1_registration_1_1_transform_1_1_init_1_1_linear_initialisation_params_1_1_rotation_init_1_1rot__search.html#aec5c855596ca18fac491ee5e350d7642":[11,0,0,15,2,0,1,0,0,5],
-"struct_m_r_1_1compare__ptr__contents.html":[11,0,0,20],
-"struct_m_r_1_1compare__ptr__contents.html#a836e6f17a7ac16eb68583f982e3df1a2":[11,0,0,20,0]
+"struct_m_r_1_1compare__ptr__contents.html":[11,0,0,20]
 };

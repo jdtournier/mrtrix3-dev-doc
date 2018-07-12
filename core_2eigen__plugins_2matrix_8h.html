@@ -32,7 +32,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC3-54-g8241f489</div>
+   <div id="projectbrief">Version 3.0_RC3-59-gc1ebbc5e</div>
   </td>
  </tr>
  </tbody>
@@ -130,7 +130,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">template</span> &lt;<span class="keyword">class</span> ImageType&gt; <span class="keyword">inline</span> <a class="code" href="core_2eigen__plugins_2matrix_8h.html#a4af958d85f260635db9533261244bb90">Matrix</a>&amp; <span class="keyword">operator</span> ARG (<span class="keyword">const</span> <a class="code" href="class_m_r_1_1_helper_1_1_const_row.html">MR::Helper::ConstRow&lt;ImageType&gt;</a>&amp; row) { \</div><div class="line">  this-&gt;resize (row.image.size(row.axis),1); \</div><div class="line">  for (row.image.index(row.axis) = 0; row.image.index (row.axis) &lt; row.image.size (row.axis); ++row.image.index (row.axis)) \</div><div class="line">    this-&gt;<span class="keyword">operator</span>() (row.image.index (row.axis), 0) ARG row.image.value(); \</div><div class="line">  return *<span class="keyword">this</span>; \</div><div class="line">}</div><div class="ttc" id="class_m_r_1_1_helper_1_1_const_row_html"><div class="ttname"><a href="class_m_r_1_1_helper_1_1_const_row.html">MR::Helper::ConstRow</a></div><div class="ttdef"><b>Definition:</b> <a href="src_2surface_2types_8h_source.html#l00050">types.h:50</a></div></div>
+<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">template</span> &lt;<span class="keyword">class</span> ImageType&gt; <span class="keyword">inline</span> <a class="code" href="core_2eigen__plugins_2matrix_8h.html#a4af958d85f260635db9533261244bb90">Matrix</a>&amp; <span class="keyword">operator</span> ARG (<span class="keyword">const</span> <a class="code" href="class_m_r_1_1_helper_1_1_const_row.html">MR::Helper::ConstRow&lt;ImageType&gt;</a>&amp; row) { \</div><div class="line">  this-&gt;resize (row.image.size(row.axis),1); \</div><div class="line">  for (row.image.index(row.axis) = 0; row.image.index (row.axis) &lt; row.image.size (row.axis); ++row.image.index (row.axis)) \</div><div class="line">    this-&gt;<span class="keyword">operator</span>() (row.image.index (row.axis), 0) ARG row.image.value(); \</div><div class="line">  return *<span class="keyword">this</span>; \</div><div class="line">}</div><div class="ttc" id="class_m_r_1_1_helper_1_1_const_row_html"><div class="ttname"><a href="class_m_r_1_1_helper_1_1_const_row.html">MR::Helper::ConstRow</a></div><div class="ttdef"><b>Definition:</b> <a href="src_2surface_2types_8h_source.html#l00060">types.h:60</a></div></div>
 <div class="ttc" id="core_2eigen__plugins_2matrix_8h_html_a4af958d85f260635db9533261244bb90"><div class="ttname"><a href="core_2eigen__plugins_2matrix_8h.html#a4af958d85f260635db9533261244bb90">Matrix</a></div><div class="ttdeci">Matrix(const MR::Helper::ConstRow&lt; ImageType &gt; &amp;row)</div><div class="ttdef"><b>Definition:</b> <a href="core_2eigen__plugins_2matrix_8h_source.html#l00016">matrix.h:16</a></div></div>
 </div><!-- fragment -->
 <p class="definition">Definition at line <a class="el" href="core_2eigen__plugins_2matrix_8h_source.html#l00019">19</a> of file <a class="el" href="core_2eigen__plugins_2matrix_8h_source.html">matrix.h</a>.</p>
@@ -218,7 +218,7 @@ template&lt;class ImageType &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4270bfced15e0e73154b13468c7c9ad9.html">core</a></li><li class="navelem"><a class="el" href="dir_7afe1cd4c65f9097aec3754989460876.html">eigen_plugins</a></li><li class="navelem"><a class="el" href="core_2eigen__plugins_2matrix_8h.html">matrix.h</a></li>
-    <li class="footer">Generated on Thu Jul 12 2018 12:19:24 for MRtrix by
+    <li class="footer">Generated on Thu Jul 12 2018 13:29:57 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
   </ul>
