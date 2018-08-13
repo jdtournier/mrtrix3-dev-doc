@@ -21,7 +21,7 @@ var mrtrix_8h =
     [ "str", "mrtrix_8h.html#a7dcea37fdb5fba1961d121fca36c22c4", null ],
     [ "str< cdouble >", "mrtrix_8h.html#a7bcdfb769116c6c2473aaec6d14cc188", null ],
     [ "str< cfloat >", "mrtrix_8h.html#abf7a9d5cf0c28b1ada565992ec749917", null ],
-    [ "strip", "mrtrix_8h.html#aa0d6d75d8e9b51bdbefb37dff159478a", null ],
+    [ "strip", "mrtrix_8h.html#a7f5c516bf4102c56b775f1cacef19d2b", null ],
     [ "to", "mrtrix_8h.html#ad5a737bfbb3fcb51accf1a329da6fb7c", null ],
     [ "to< bool >", "mrtrix_8h.html#a7a3f228024f9079f1cfbb57f5588f294", null ],
     [ "to< cdouble >", "mrtrix_8h.html#a3110479a6319030fd248dfcc3b277da6", null ],

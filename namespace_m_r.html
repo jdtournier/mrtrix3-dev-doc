@@ -32,7 +32,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC3-62-gd6656921</div>
+   <div id="projectbrief">Version 3.0_RC3-83-g538f905c</div>
   </td>
  </tr>
  </tbody>
@@ -554,8 +554,8 @@ Functions</h2></td></tr>
 <tr class="separator:ad5a737bfbb3fcb51accf1a329da6fb7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abdf39e7ac1a9bf50af2a20eb69b0bb89"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#abdf39e7ac1a9bf50af2a20eb69b0bb89">printf</a> (const char *format,...)</td></tr>
 <tr class="separator:abdf39e7ac1a9bf50af2a20eb69b0bb89"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0d6d75d8e9b51bdbefb37dff159478a"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#aa0d6d75d8e9b51bdbefb37dff159478a">strip</a> (const std::string &amp;string, const char *ws=&quot; \&quot;, bool left=true, bool right=true)</td></tr>
-<tr class="separator:aa0d6d75d8e9b51bdbefb37dff159478a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f5c516bf4102c56b775f1cacef19d2b"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a7f5c516bf4102c56b775f1cacef19d2b">strip</a> (const std::string &amp;string, const std::string &amp;ws={&quot; \\, 4}, bool left=true, bool right=true)</td></tr>
+<tr class="separator:a7f5c516bf4102c56b775f1cacef19d2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18e0d7e1612f262bb9202f52c802b6e6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a18e0d7e1612f262bb9202f52c802b6e6">replace</a> (std::string &amp;string, char orig, char final)</td></tr>
 <tr class="separator:a18e0d7e1612f262bb9202f52c802b6e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad420ef6dab9cc5565ac3b8961bb11228"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#ad420ef6dab9cc5565ac3b8961bb11228">replace</a> (std::string &amp;<a class="el" href="namespace_m_r.html#a7dcea37fdb5fba1961d121fca36c22c4">str</a>, const std::string &amp;from, const std::string &amp;<a class="el" href="namespace_m_r.html#ad5a737bfbb3fcb51accf1a329da6fb7c">to</a>)</td></tr>
@@ -3728,8 +3728,8 @@ template&lt;&gt; </div>
 
 </div>
 </div>
-<a id="aa0d6d75d8e9b51bdbefb37dff159478a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa0d6d75d8e9b51bdbefb37dff159478a">&#9670;&nbsp;</a></span>strip()</h2>
+<a id="a7f5c516bf4102c56b775f1cacef19d2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f5c516bf4102c56b775f1cacef19d2b">&#9670;&nbsp;</a></span>strip()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3746,8 +3746,8 @@ template&lt;&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>ws</em> = <code>&quot;&#160;\t\n&quot;</code>, </td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>ws</em> = <code>{&quot;&#160;\0\t\n&quot;,&#160;4}</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -4752,7 +4752,7 @@ template&lt;typename F , typename T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li>
-    <li class="footer">Generated on Fri Jul 13 2018 03:32:25 for MRtrix by
+    <li class="footer">Generated on Mon Aug 13 2018 12:29:15 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
   </ul>
