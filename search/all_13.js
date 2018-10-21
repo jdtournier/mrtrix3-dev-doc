@@ -396,7 +396,7 @@ var searchData=
   ['stride_2eh',['stride.h',['../stride_8h.html',1,'']]],
   ['stride_5forder',['stride_order',['../class_m_r_1_1_filter_1_1_smooth.html#aefcbd905a8ccc5665ad6958e0b7592d8',1,'MR::Filter::Smooth']]],
   ['strides',['strides',['../class_m_r_1_1_image.html#a9c45f691d7a3b6845fa207443d1a6b2b',1,'MR::Image']]],
-  ['string',['STRING',['../class_m_r_1_1_file_1_1_dicom_1_1_element.html#ae9217c91240fb8e69f77bf9f6a973173a2a5ee806d0c553c6d67c2cb8332a93a2',1,'MR::File::Dicom::Element::STRING()'],['../class_m_r_1_1_file_1_1_name_parser_1_1_item.html#a6ed0f0214eacd88006fac86f770f886b',1,'MR::File::NameParser::Item::string()']]],
+  ['string',['string',['../class_m_r_1_1_file_1_1_name_parser_1_1_item.html#a6ed0f0214eacd88006fac86f770f886b',1,'MR::File::NameParser::Item::string()'],['../class_m_r_1_1_file_1_1_dicom_1_1_element.html#ae9217c91240fb8e69f77bf9f6a973173a2a5ee806d0c553c6d67c2cb8332a93a2',1,'MR::File::Dicom::Element::STRING()']]],
   ['strip',['strip',['../namespace_m_r.html#a7f5c516bf4102c56b775f1cacef19d2b',1,'MR']]],
   ['study',['Study',['../class_m_r_1_1_file_1_1_dicom_1_1_study.html',1,'MR::File::Dicom::Study'],['../class_m_r_1_1_file_1_1_dicom_1_1_study.html#aa816af18cbdab1afd378a9469381181a',1,'MR::File::Dicom::Study::Study()'],['../class_m_r_1_1_file_1_1_dicom_1_1_quick_scan.html#a30580483d3168326738ff0145b32646a',1,'MR::File::Dicom::QuickScan::study()'],['../class_m_r_1_1_file_1_1_dicom_1_1_series.html#aa256e4cbf9e98dcf9b798ab2eab566f8',1,'MR::File::Dicom::Series::study()']]],
   ['study_2eh',['study.h',['../study_8h.html',1,'']]],

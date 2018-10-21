@@ -87,6 +87,7 @@ var searchData=
   ['as_5fint',['as_int',['../group___cmd_parse.html#ga728cdc0587dbf94d95dbafedc3839f4d',1,'MR::App::ParsedArgument']]],
   ['as_5fsequence_5ffloat',['as_sequence_float',['../group___cmd_parse.html#gab8c620d8af53d8cb3322664ab29d7bf0',1,'MR::App::ParsedArgument']]],
   ['as_5fsequence_5fint',['as_sequence_int',['../group___cmd_parse.html#ga1130c618ac4c64febb2f6d6ab56fe0fb',1,'MR::App::ParsedArgument']]],
+  ['as_5fstring',['as_string',['../class_m_r_1_1_file_1_1_dicom_1_1_element.html#ab9b0367de0ed8f312138f149b6fb8fd5',1,'MR::File::Dicom::Element']]],
   ['as_5ftext',['as_text',['../group___cmd_parse.html#gaaccfbb630b980cc2b114765423deb5ac',1,'MR::App::ParsedArgument']]],
   ['as_5fuint',['as_uint',['../group___cmd_parse.html#gacf02f4f3038fa6c023b42485c89da35b',1,'MR::App::ParsedArgument']]],
   ['assert_5fgl_5fcontext_5fis_5fcurrent',['ASSERT_GL_CONTEXT_IS_CURRENT',['../gui_8h.html#a4989148487f784996d780f0b03585c60',1,'gui.h']]],

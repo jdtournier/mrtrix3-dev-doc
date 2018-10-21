@@ -40,6 +40,7 @@ var searchData=
   ['as_5fint',['as_int',['../group___cmd_parse.html#ga728cdc0587dbf94d95dbafedc3839f4d',1,'MR::App::ParsedArgument']]],
   ['as_5fsequence_5ffloat',['as_sequence_float',['../group___cmd_parse.html#gab8c620d8af53d8cb3322664ab29d7bf0',1,'MR::App::ParsedArgument']]],
   ['as_5fsequence_5fint',['as_sequence_int',['../group___cmd_parse.html#ga1130c618ac4c64febb2f6d6ab56fe0fb',1,'MR::App::ParsedArgument']]],
+  ['as_5fstring',['as_string',['../class_m_r_1_1_file_1_1_dicom_1_1_element.html#ab9b0367de0ed8f312138f149b6fb8fd5',1,'MR::File::Dicom::Element']]],
   ['as_5ftext',['as_text',['../group___cmd_parse.html#gaaccfbb630b980cc2b114765423deb5ac',1,'MR::App::ParsedArgument']]],
   ['as_5fuint',['as_uint',['../group___cmd_parse.html#gacf02f4f3038fa6c023b42485c89da35b',1,'MR::App::ParsedArgument']]],
   ['attach_5fcolor',['attach_color',['../class_m_r_1_1_g_u_i_1_1_g_l_1_1_frame_buffer.html#a42852c8fa382c2b9e55376f706bae831',1,'MR::GUI::GL::FrameBuffer']]]

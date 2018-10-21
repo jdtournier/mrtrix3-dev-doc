@@ -12,6 +12,7 @@ var class_m_r_1_1_file_1_1_dicom_1_1_element =
       [ "SEQ", "class_m_r_1_1_file_1_1_dicom_1_1_element.html#ae9217c91240fb8e69f77bf9f6a973173a0c12ec4fe3e31988aeb880e08fedd1a9", null ],
       [ "OTHER", "class_m_r_1_1_file_1_1_dicom_1_1_element.html#ae9217c91240fb8e69f77bf9f6a973173aa7231a47f65f351ee91c7bba994c8195", null ]
     ] ],
+    [ "as_string", "class_m_r_1_1_file_1_1_dicom_1_1_element.html#ab9b0367de0ed8f312138f149b6fb8fd5", null ],
     [ "check_get", "class_m_r_1_1_file_1_1_dicom_1_1_element.html#a5405d8d3b813c95974c1742eecfb098b", null ],
     [ "check_size", "class_m_r_1_1_file_1_1_dicom_1_1_element.html#a47ce4424c6a9aef7d8d7aa385ee19c1e", null ],
     [ "error_in_check_size", "class_m_r_1_1_file_1_1_dicom_1_1_element.html#a9665ecdcee79a91f0ccf514a09f764d4", null ],
