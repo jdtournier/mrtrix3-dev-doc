@@ -49,7 +49,7 @@ var searchData=
   ['mouse_5frelease_5fevent',['mouse_release_event',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base.html#a9e51c9ef4dc521a5a45a3c3806099b43',1,'MR::GUI::MRView::Tool::Base']]],
   ['mousemoveevent',['mouseMoveEvent',['../class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_render_frame.html#a1439f8c89f7dd400d87fdb4b4191e0b8',1,'MR::GUI::DWI::RenderFrame']]],
   ['mousepressevent',['mousePressEvent',['../class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_render_frame.html#ad52c152a5fc31eb35144dbbec7f5696b',1,'MR::GUI::DWI::RenderFrame']]],
-  ['move_5fclip_5fplanes_5fin_5fout',['move_clip_planes_in_out',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume.html#a1ff707f709bccba844f6de11387556da',1,'MR::GUI::MRView::Mode::Volume']]],
+  ['move_5fclip_5fplanes_5fin_5fout',['move_clip_planes_in_out',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume.html#a2d7b9f4c37e861f6094ec2ee0c9ee7e8',1,'MR::GUI::MRView::Mode::Volume']]],
   ['move_5findex',['move_index',['../class_m_r_1_1_image.html#aa0015f1bd86375b5f27891ad784e621b',1,'MR::Image']]],
   ['moveoptimal',['moveOptimal',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_m_h_sampler.html#a3c2e9575e4c8455c7c630d557ce31455',1,'MR::DWI::Tractography::GT::MHSampler']]],
   ['moverandom',['moveRandom',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_m_h_sampler.html#a4e6ac310c926a6e3e0a42da559b419c9',1,'MR::DWI::Tractography::GT::MHSampler']]],

@@ -1,8 +1,5 @@
 var NAVTREEINDEX2 =
 {
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1.html#a3734b65dc5a84a815ad365cf277492e0":[11,0,0,4,3,1,1,6],
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1.html#a3cb18cf7d42a3e75664ea421ba0cfc8f":[11,0,0,4,3,1,1,11],
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1.html#a49fa010616a5b290366e54b250dccce7":[11,0,0,4,3,1,1,5],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1.html#a51b71eb840190cfb4eaeb6c29e1ee8f6":[11,0,0,4,3,1,1,1],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1.html#a760eedd1ba48996bc39d36350c39a916":[11,0,0,4,3,1,1,9],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1.html#aa178ea88507da5a7eddf680c97f44467":[11,0,0,4,3,1,1,4],
@@ -249,5 +246,8 @@ var NAVTREEINDEX2 =
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_voxel_t_o_d.html#af7d346968d8d5b8c15f81351d31bface":[11,0,0,4,3,5,0,9,10],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_map_writer.html":[11,0,0,4,3,5,5],
 "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_map_writer_base.html":[11,0,0,4,3,5,6],
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_map_writer_base.html#a119555c32a5ba9ad476ccfe41fd32374":[11,0,0,4,3,5,6,2]
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_map_writer_base.html#a119555c32a5ba9ad476ccfe41fd32374":[11,0,0,4,3,5,6,2],
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_map_writer_base.html#a60ce05793a68cb202d0fe332e0eb0739":[11,0,0,4,3,5,6,3],
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_map_writer_base.html#aab34c550426f0b3a166997ef517daa2f":[11,0,0,4,3,5,6,4],
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_map_writer_base.html#af292bc82acd998b58ef2791891b90c6c":[11,0,0,4,3,5,6,1]
 };

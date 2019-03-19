@@ -818,7 +818,7 @@ var hierarchy =
       ] ],
       [ "MR::vector< Axis >", "class_m_r_1_1vector.html", null ],
       [ "MR::vector< bool >", "class_m_r_1_1vector.html", null ],
-      [ "MR::vector< const char *>", "class_m_r_1_1vector.html", [
+      [ "MR::vector< const char * >", "class_m_r_1_1vector.html", [
         [ "MR::App::Description", "class_m_r_1_1_app_1_1_description.html", null ]
       ] ],
       [ "MR::vector< default_type >", "class_m_r_1_1vector.html", null ],
@@ -862,7 +862,7 @@ var hierarchy =
       [ "MR::vector< MR::DWI::Tractography::ROI >", "class_m_r_1_1vector.html", null ],
       [ "MR::vector< MR::DWI::Tractography::SIFT2::LineSearchFunctor::Fixel >", "class_m_r_1_1vector.html", null ],
       [ "MR::vector< MR::DWI::Tractography::SIFT::Cost_fn_gradient_sort >", "class_m_r_1_1vector.html", null ],
-      [ "MR::vector< MR::DWI::Tractography::SIFT::TrackContribution *>", "class_m_r_1_1vector.html", null ],
+      [ "MR::vector< MR::DWI::Tractography::SIFT::TrackContribution * >", "class_m_r_1_1vector.html", null ],
       [ "MR::vector< MR::File::Dicom::Sequence >", "class_m_r_1_1vector.html", null ],
       [ "MR::vector< MR::File::Entry >", "class_m_r_1_1vector.html", null ],
       [ "MR::vector< MR::File::NameParser::Item >", "class_m_r_1_1vector.html", null ],
@@ -895,7 +895,7 @@ var hierarchy =
       ] ],
       [ "MR::vector< ParticleVectorType >", "class_m_r_1_1vector.html", null ],
       [ "MR::vector< Plane >", "class_m_r_1_1vector.html", null ],
-      [ "MR::vector< QAction *>", "class_m_r_1_1vector.html", null ],
+      [ "MR::vector< QAction * >", "class_m_r_1_1vector.html", null ],
       [ "MR::vector< Quad >", "class_m_r_1_1vector.html", null ],
       [ "MR::vector< SIFT::track_t >", "class_m_r_1_1vector.html", null ],
       [ "MR::vector< size_t >", "class_m_r_1_1vector.html", null ],
@@ -928,7 +928,7 @@ var hierarchy =
       [ "MR::vector< Triangle >", "class_m_r_1_1vector.html", null ],
       [ "MR::vector< uint16_t >", "class_m_r_1_1vector.html", null ],
       [ "MR::vector< uint32_t >", "class_m_r_1_1vector.html", null ],
-      [ "MR::vector< uint8_t *>", "class_m_r_1_1vector.html", null ],
+      [ "MR::vector< uint8_t * >", "class_m_r_1_1vector.html", null ],
       [ "MR::vector< value_type >", "class_m_r_1_1vector.html", null ],
       [ "MR::vector< ValueType >", "class_m_r_1_1vector.html", null ],
       [ "MR::vector< Vertex >", "class_m_r_1_1vector.html", null ],
