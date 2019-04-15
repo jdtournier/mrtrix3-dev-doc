@@ -1,6 +1,5 @@
 var NAVTREEINDEX18 =
 {
-"group__zonal__spherical__harmonics.html":[9,8],
 "group__zonal__spherical__harmonics.html#ga054963adb080b7424d6eeb3fac1f4dee":[9,8,12],
 "group__zonal__spherical__harmonics.html#ga4abc2348f5240ae5205ca7a39769cfaa":[9,8,9],
 "group__zonal__spherical__harmonics.html#ga504fda03427ae2e965a29e526543df51":[9,8,1],
@@ -119,9 +118,9 @@ var NAVTREEINDEX18 =
 "image__diff_8h.html#aff573394148778e85f92ffa04f259c92":[12,0,0,21,4],
 "image__diff_8h_source.html":[12,0,0,21],
 "image__helpers_8h.html":[12,0,0,22],
-"image__helpers_8h.html#ae43cbffad7bdb21564292a344b0ca3b5":[12,0,0,22,1],
-"image__helpers_8h.html#ae43cbffad7bdb21564292a344b0ca3b5":[12,0,0,22,0],
 "image__helpers_8h.html#ae43cbffad7bdb21564292a344b0ca3b5":[12,0,0,22,2],
+"image__helpers_8h.html#ae43cbffad7bdb21564292a344b0ca3b5":[12,0,0,22,0],
+"image__helpers_8h.html#ae43cbffad7bdb21564292a344b0ca3b5":[12,0,0,22,1],
 "image__helpers_8h_source.html":[12,0,0,22],
 "image__io_2gz_8h.html":[12,0,0,7,3],
 "image__io_2gz_8h_source.html":[12,0,0,7,3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX18 =
 "math_8h.html#a35373fae315b4be8559d20b82fed1525":[12,0,0,9,15,24],
 "math_8h.html#a71615ba8aacdd8079ab92958507274e1":[12,0,0,9,15,11],
 "math_8h.html#a8028b8b7cf637b47a6e01ddcdf340d8a":[12,0,0,9,15,8],
-"math_8h.html#a8cd67b2b47af1418dc3ba299f0f719de":[12,0,0,9,15,23]
+"math_8h.html#a8cd67b2b47af1418dc3ba299f0f719de":[12,0,0,9,15,23],
+"math_8h.html#adf37629cef73608a4d356b77a0514b08":[12,0,0,9,15,22]
 };

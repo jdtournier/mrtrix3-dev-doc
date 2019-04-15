@@ -1,6 +1,5 @@
 var NAVTREEINDEX21 =
 {
-"properties_8h.html#aa850db9932acaba873e490e12b4c1769":[12,0,1,2,2,13,3],
 "properties_8h.html#ae9cc41bc8452e9fa4d47965fed37fe69":[12,0,1,2,2,13,1],
 "properties_8h_source.html":[12,0,1,2,2,13],
 "quadratic__line__search_8h.html":[12,0,0,9,17],
@@ -249,5 +248,6 @@ var NAVTREEINDEX21 =
 "src_2dwi_2tractography_2tracking_2types_8h.html#a1c30c67185585a9f27b5a581050292f5a2c954b8e880f1b90f34fe6cbbdfcaedb":[12,0,1,2,2,10,6,4,6],
 "src_2dwi_2tractography_2tracking_2types_8h.html#a1c30c67185585a9f27b5a581050292f5a41476e5cbd2fd9b07edb6a532b273ceb":[12,0,1,2,2,10,6,4,1],
 "src_2dwi_2tractography_2tracking_2types_8h.html#a1c30c67185585a9f27b5a581050292f5a763bf8bed07f3e965b6a3a054a48987f":[12,0,1,2,2,10,6,4,12],
-"src_2dwi_2tractography_2tracking_2types_8h.html#a1c30c67185585a9f27b5a581050292f5a77264fab7e191454f7ae9cd1d11a304c":[12,0,1,2,2,10,6,4,2]
+"src_2dwi_2tractography_2tracking_2types_8h.html#a1c30c67185585a9f27b5a581050292f5a77264fab7e191454f7ae9cd1d11a304c":[12,0,1,2,2,10,6,4,2],
+"src_2dwi_2tractography_2tracking_2types_8h.html#a1c30c67185585a9f27b5a581050292f5aa848b265aba6446e2454c8262740ac47":[12,0,1,2,2,10,6,4,9]
 };

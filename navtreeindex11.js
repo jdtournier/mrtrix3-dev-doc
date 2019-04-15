@@ -55,14 +55,13 @@ var NAVTREEINDEX11 =
 "class_m_r_1_1_image_i_o_1_1_base.html#aefa99be437576e1e4f92e9b635b6f664":[11,0,0,11,0,19],
 "class_m_r_1_1_image_i_o_1_1_base.html#af00a310c4e622f2a108d8f89f95a042f":[11,0,0,11,0,6],
 "class_m_r_1_1_image_i_o_1_1_default.html":[11,0,0,11,1],
-"class_m_r_1_1_image_i_o_1_1_default.html#a518e4b06f06a1c735e653d4c55631fbc":[11,0,0,11,1,7],
-"class_m_r_1_1_image_i_o_1_1_default.html#a7382ac110176cb9e7d1c1542242a30b7":[11,0,0,11,1,5],
+"class_m_r_1_1_image_i_o_1_1_default.html#a518e4b06f06a1c735e653d4c55631fbc":[11,0,0,11,1,6],
 "class_m_r_1_1_image_i_o_1_1_default.html#a7f28d0aaf4c3d62a3757fb91f562ecff":[11,0,0,11,1,0],
 "class_m_r_1_1_image_i_o_1_1_default.html#aa5f1548d90964995ebd0988f5f4b7407":[11,0,0,11,1,2],
 "class_m_r_1_1_image_i_o_1_1_default.html#ab0c285919189eb80e2d1108046de6909":[11,0,0,11,1,4],
-"class_m_r_1_1_image_i_o_1_1_default.html#ac772d4ed5797af95523de2676ecd5122":[11,0,0,11,1,6],
+"class_m_r_1_1_image_i_o_1_1_default.html#ac772d4ed5797af95523de2676ecd5122":[11,0,0,11,1,5],
 "class_m_r_1_1_image_i_o_1_1_default.html#aebfe284d0457856d7277021c9c04ed9d":[11,0,0,11,1,3],
-"class_m_r_1_1_image_i_o_1_1_default.html#afdedb106bc879693fcfcffe758e3f2a4":[11,0,0,11,1,8],
+"class_m_r_1_1_image_i_o_1_1_default.html#afdedb106bc879693fcfcffe758e3f2a4":[11,0,0,11,1,7],
 "class_m_r_1_1_image_i_o_1_1_default.html#afec91f2a450f5140783642b488dcd4e0":[11,0,0,11,1,1],
 "class_m_r_1_1_image_i_o_1_1_g_z.html":[11,0,0,11,2],
 "class_m_r_1_1_image_i_o_1_1_g_z.html#a2b4e55d99ec8dc6e97ec5adfe35f4a68":[11,0,0,11,2,8],
@@ -249,5 +248,6 @@ var NAVTREEINDEX11 =
 "class_m_r_1_1_math_1_1_i_c_l_s_1_1_solver.html#ae8655c1df3c6fdf10ee3d853dd3f09f6":[11,0,0,13,0,1,9],
 "class_m_r_1_1_math_1_1_i_c_l_s_1_1_solver.html#aff9fc63bcc6fc9f4ee78713a65869c9f":[11,0,0,13,0,1,7],
 "class_m_r_1_1_math_1_1_linear_update_b_b.html":[9,15,1],
-"class_m_r_1_1_math_1_1_linear_update_b_b.html#ad876d1fedb3b205e7c204b47fced1923":[9,15,1,0]
+"class_m_r_1_1_math_1_1_linear_update_b_b.html#ad876d1fedb3b205e7c204b47fced1923":[9,15,1,0],
+"class_m_r_1_1_math_1_1_quadratic_line_search.html":[9,15,3]
 };
