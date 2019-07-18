@@ -137,6 +137,7 @@ var hierarchy =
     [ "MR::Filter::CopyKernel4D", "class_m_r_1_1_filter_1_1_copy_kernel4_d.html", null ],
     [ "MR::DWI::Tractography::SIFT::Cost_fn_gradient_sort", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_cost__fn__gradient__sort.html", null ],
     [ "MR::Registration::Metric::CrossCorrelationNoGradient", "class_m_r_1_1_registration_1_1_metric_1_1_cross_correlation_no_gradient.html", null ],
+    [ "MR::GUI::Crosshair", "class_m_r_1_1_g_u_i_1_1_crosshair.html", null ],
     [ "MR::File::Dicom::CSAEntry", "class_m_r_1_1_file_1_1_dicom_1_1_c_s_a_entry.html", null ],
     [ "MR::DWI::SDeconv::CSD", "class_m_r_1_1_d_w_i_1_1_s_deconv_1_1_c_s_d.html", null ],
     [ "MR::GUI::Shapes::Cube", "class_m_r_1_1_g_u_i_1_1_shapes_1_1_cube.html", null ],
@@ -412,10 +413,10 @@ var hierarchy =
     [ "MR::Connectome::Mat2Vec", "class_m_r_1_1_connectome_1_1_mat2_vec.html", null ],
     [ "MR::GUI::GL::mat4", "class_m_r_1_1_g_u_i_1_1_g_l_1_1mat4.html", null ],
     [ "MR::Algo::Histogram::Matcher", "class_m_r_1_1_algo_1_1_histogram_1_1_matcher.html", null ],
-    [ "MR::DWI::Tractography::Connectome::Matrix< T >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_matrix.html", null ],
     [ "Matrix", null, [
       [ "MR::DWI::FMLS::SH_coefs", "class_m_r_1_1_d_w_i_1_1_f_m_l_s_1_1_s_h__coefs.html", null ]
     ] ],
+    [ "MR::DWI::Tractography::Connectome::Matrix< T >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_matrix.html", null ],
     [ "MR::max_digits< X, ReturnType >", "struct_m_r_1_1max__digits.html", null ],
     [ "MR::max_digits< X, typename std::enable_if< std::is_fundamental< typename X::Scalar >::value, int >::type >", "struct_m_r_1_1max__digits_3_01_x_00_01typename_01std_1_1enable__if_3_01std_1_1is__fundamental_3_8467db8cf8cb55f508d8abceaab32928.html", null ],
     [ "MR::max_digits< X, typename std::enable_if< std::is_fundamental< typename X::value_type >::value &&!std::is_fundamental< typename X::Scalar >::value, int >::type >", "struct_m_r_1_1max__digits_3_01_x_00_01typename_01std_1_1enable__if_3_01std_1_1is__fundamental_3_1ef7ff8baa0d3893f596cbe7273651cd.html", null ],
@@ -651,20 +652,20 @@ var hierarchy =
     [ "MR::Registration::Transform::Init::LinearInitialisationParams::RotationInit::rot_search", "struct_m_r_1_1_registration_1_1_transform_1_1_init_1_1_linear_initialisation_params_1_1_rotation_init_1_1rot__search.html", null ],
     [ "MR::Registration::Transform::Init::LinearInitialisationParams::RotationInit", "struct_m_r_1_1_registration_1_1_transform_1_1_init_1_1_linear_initialisation_params_1_1_rotation_init.html", null ],
     [ "MR::Helper::Row< ImageType >", "class_m_r_1_1_helper_1_1_row.html", null ],
-    [ "MR::LoopAlongStaticAxes::Run< ImageType >", "struct_m_r_1_1_loop_along_static_axes_1_1_run.html", null ],
     [ "MR::LoopAlongDynamicAxes::Run< ImageType >", "struct_m_r_1_1_loop_along_dynamic_axes_1_1_run.html", null ],
+    [ "MR::LoopAlongAxisRange::Run< ImageType >", "struct_m_r_1_1_loop_along_axis_range_1_1_run.html", null ],
     [ "MR::LoopAlongSingleAxis::Run< ImageType >", "struct_m_r_1_1_loop_along_single_axis_1_1_run.html", null ],
     [ "MR::LoopAlongSingleAxisProgress::Run< ImageType >", "struct_m_r_1_1_loop_along_single_axis_progress_1_1_run.html", null ],
-    [ "MR::LoopAlongAxisRange::Run< ImageType >", "struct_m_r_1_1_loop_along_axis_range_1_1_run.html", null ],
     [ "MR::Fixel::LoopFixelsInVoxel::Run< DataType >", "struct_m_r_1_1_fixel_1_1_loop_fixels_in_voxel_1_1_run.html", null ],
-    [ "MR::LoopAlongStaticAxes::Run< ImageType... >", "struct_m_r_1_1_loop_along_static_axes_1_1_run.html", [
-      [ "MR::LoopAlongStaticAxesProgress::Run< ImageType >", "struct_m_r_1_1_loop_along_static_axes_progress_1_1_run.html", null ]
+    [ "MR::LoopAlongStaticAxes::Run< ImageType >", "struct_m_r_1_1_loop_along_static_axes_1_1_run.html", null ],
+    [ "MR::LoopAlongDynamicAxes::Run< ImageType... >", "struct_m_r_1_1_loop_along_dynamic_axes_1_1_run.html", [
+      [ "MR::LoopAlongDynamicAxesProgress::Run< ImageType >", "struct_m_r_1_1_loop_along_dynamic_axes_progress_1_1_run.html", null ]
     ] ],
     [ "MR::LoopAlongAxisRange::Run< ImageType... >", "struct_m_r_1_1_loop_along_axis_range_1_1_run.html", [
       [ "MR::LoopAlongAxisRangeProgress::Run< ImageType >", "struct_m_r_1_1_loop_along_axis_range_progress_1_1_run.html", null ]
     ] ],
-    [ "MR::LoopAlongDynamicAxes::Run< ImageType... >", "struct_m_r_1_1_loop_along_dynamic_axes_1_1_run.html", [
-      [ "MR::LoopAlongDynamicAxesProgress::Run< ImageType >", "struct_m_r_1_1_loop_along_dynamic_axes_progress_1_1_run.html", null ]
+    [ "MR::LoopAlongStaticAxes::Run< ImageType... >", "struct_m_r_1_1_loop_along_static_axes_1_1_run.html", [
+      [ "MR::LoopAlongStaticAxesProgress::Run< ImageType >", "struct_m_r_1_1_loop_along_static_axes_progress_1_1_run.html", null ]
     ] ],
     [ "MR::DWI::FMLS::Segmenter", "class_m_r_1_1_d_w_i_1_1_f_m_l_s_1_1_segmenter.html", null ],
     [ "MR::DWI::Tractography::Connectome::Selector", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_selector.html", null ],
@@ -742,6 +743,8 @@ var hierarchy =
       ] ]
     ] ],
     [ "MR::Stats::CFE::TrackProcessor", "class_m_r_1_1_stats_1_1_c_f_e_1_1_track_processor.html", null ],
+    [ "MR::Math::ZSH::Transform< ValueType >", "class_m_r_1_1_math_1_1_z_s_h_1_1_transform.html", null ],
+    [ "MR::Math::SH::Transform< ValueType >", "class_m_r_1_1_math_1_1_s_h_1_1_transform.html", null ],
     [ "MR::Transform", "class_m_r_1_1_transform.html", [
       [ "MR::Interp::Base< MR::Image< cfloat > >", "class_m_r_1_1_interp_1_1_base.html", null ],
       [ "MR::Interp::Base< MR::Image< float > >", "class_m_r_1_1_interp_1_1_base.html", null ],
@@ -774,8 +777,6 @@ var hierarchy =
         ] ]
       ] ]
     ] ],
-    [ "MR::Math::SH::Transform< ValueType >", "class_m_r_1_1_math_1_1_s_h_1_1_transform.html", null ],
-    [ "MR::Math::ZSH::Transform< ValueType >", "class_m_r_1_1_math_1_1_z_s_h_1_1_transform.html", null ],
     [ "MR::GUI::Dialog::TreeItem", "class_m_r_1_1_g_u_i_1_1_dialog_1_1_tree_item.html", null ],
     [ "true_type", null, [
       [ "MR::is_complex< std::complex< ValueType > >", "struct_m_r_1_1is__complex_3_01std_1_1complex_3_01_value_type_01_4_01_4.html", null ]

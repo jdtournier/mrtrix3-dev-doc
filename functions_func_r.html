@@ -32,7 +32,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC3-166-gcac05b6f</div>
+   <div id="projectbrief">Version 3.0_RC3-178-g32afe60f</div>
   </td>
  </tr>
  </tbody>
@@ -176,6 +176,14 @@ $(document).ready(function(){initNavTree('functions_func_r.html','');});
 <li>removeRows()
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_list_model_base.html#aac56cc2d6265150ceb837ba75436c6a1">MR::GUI::MRView::Tool::ListModelBase</a>
 </li>
+<li>render()
+: <a class="el" href="class_m_r_1_1_g_u_i_1_1_crosshair.html#ab190797cd9772da71c225bb84e4a5188">MR::GUI::Crosshair</a>
+, <a class="el" href="class_m_r_1_1_g_u_i_1_1_g_l_1_1_font.html#a6f5faa7c283d4524a22039eee7619085">MR::GUI::GL::Font</a>
+, <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_renderer.html#ade6ad4a772a8be85a252509699144014">MR::GUI::MRView::ColourMap::Renderer</a>
+</li>
+<li>render_crosshairs()
+: <a class="el" href="class_m_r_1_1_g_u_i_1_1_projection.html#a99602a34c4924b15bf6c72f3928e7357">MR::GUI::Projection</a>
+</li>
 <li>render_fixel_colourbar()
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_displayable_visitor.html#a5fb6bfe653fd50741bc6d82d61e10b89">MR::GUI::MRView::DisplayableVisitor</a>
 </li>
@@ -191,11 +199,21 @@ $(document).ready(function(){initNavTree('functions_func_r.html','');});
 <li>render_streamtube()
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_edge.html#a328301a2739437791160fba30fadba97">MR::GUI::MRView::Tool::Edge</a>
 </li>
+<li>render_text()
+: <a class="el" href="class_m_r_1_1_g_u_i_1_1_projection.html#a4643b3451daf2f59150f5698b0644bc8">MR::GUI::Projection</a>
+</li>
+<li>render_text_align()
+: <a class="el" href="class_m_r_1_1_g_u_i_1_1_projection.html#a127448808410944ae12d95f799235ff9">MR::GUI::Projection</a>
+</li>
+<li>render_text_inset()
+: <a class="el" href="class_m_r_1_1_g_u_i_1_1_projection.html#a737bcea5f3c7a18b7cf50e7b4c6d98c1">MR::GUI::Projection</a>
+</li>
 <li>render_tractogram_colourbar()
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_displayable_visitor.html#a7dac8609b2a1f213fdfc77f8f88b7cd4">MR::GUI::MRView::DisplayableVisitor</a>
 </li>
 <li>Renderer()
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer.html#acb94c342953ecea76300f198db8af747">MR::GUI::DWI::Renderer</a>
+, <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_renderer.html#a59a69c0a13c429ba365d7327e7984fe1">MR::GUI::MRView::ColourMap::Renderer</a>
 </li>
 <li>RenderFrame()
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_render_frame.html#a419dd3018d548006e7dff71f573ff01f">MR::GUI::DWI::RenderFrame</a>
@@ -214,7 +232,7 @@ $(document).ready(function(){initNavTree('functions_func_r.html','');});
 : <a class="el" href="group___cmd_parse.html#gaf479c5c26d7fe5a3eca6fb0071cf7d9e">MR::App::Option</a>
 </li>
 <li>ResampleFunctor()
-: <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_resample_functor.html#ab08b020674f53fceb45a323d7bfa7069">MR::DWI::Tractography::SIFT::ResampleFunctor</a>
+: <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_resample_functor.html#a9377c17a6102d988ae6cc362e4c59094">MR::DWI::Tractography::SIFT::ResampleFunctor</a>
 </li>
 <li>reset()
 : <a class="el" href="class_m_r_1_1_bit_set.html#ac0b1c6af8c6988e55c83ff0edae7a358">MR::BitSet</a>
@@ -258,7 +276,7 @@ $(document).ready(function(){initNavTree('functions_func_r.html','');});
 : <a class="el" href="class_m_r_1_1_path_1_1_dir.html#a54815cf85383cdb5f171837d21ff1b1c">MR::Path::Dir</a>
 </li>
 <li>RNG()
-: <a class="el" href="class_m_r_1_1_math_1_1_r_n_g.html#afb98ce8a82347664d8dcc3cba11f131a">MR::Math::RNG</a>
+: <a class="el" href="class_m_r_1_1_math_1_1_r_n_g.html#ace6ee44964eb01887c28db0a92e7cc4d">MR::Math::RNG</a>
 </li>
 <li>ROI_UndoEntry()
 : <a class="el" href="struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___undo_entry.html#a4cd603b24feb457a5244af3c561e50be">MR::GUI::MRView::Tool::ROI_UndoEntry</a>
@@ -306,7 +324,7 @@ $(document).ready(function(){initNavTree('functions_func_r.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Jul 9 2019 17:23:19 for MRtrix by
+    <li class="footer">Generated on Thu Jul 18 2019 12:26:02 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.15 </li>
   </ul>

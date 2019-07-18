@@ -96,6 +96,7 @@ var searchData=
   ['empty',['empty',['../class_m_r_1_1_bit_set.html#a2b0baeb5c8e38fe67b8189fad4682f65',1,'MR::BitSet']]],
   ['encoding_5fdescription',['encoding_description',['../group__spherical__harmonics.html#gaafe2e54ee9df648cfb1372aa7ae2fa6a',1,'MR::Math::SH']]],
   ['end',['end',['../class_m_r_1_1_file_1_1_dicom_1_1_c_s_a_entry.html#aa55981039ce5923128ca3653c21e9908',1,'MR::File::Dicom::CSAEntry::end()'],['../class_m_r_1_1_file_1_1_dicom_1_1_sequence.html#a6e003720a7f5ae89006dbd922498897e',1,'MR::File::Dicom::Sequence::end()']]],
+  ['end_5frender_5fcolourbars',['end_render_colourbars',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_renderer.html#a6e9102c41fb5cd6e416f02a3cf805334',1,'MR::GUI::MRView::ColourMap::Renderer']]],
   ['end_5fseq',['end_seq',['../class_m_r_1_1_file_1_1_dicom_1_1_element.html#a7207594106a01335c733804fbaa4a4dc',1,'MR::File::Dicom::Element']]],
   ['endpoints',['Endpoints',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_resampling_1_1_endpoints.html',1,'MR::DWI::Tractography::Resampling::Endpoints'],['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_resampling_1_1_endpoints.html#a7f5bebb4c779de025c6329ec4956cd7e',1,'MR::DWI::Tractography::Resampling::Endpoints::Endpoints()']]],
   ['endpoints_2eh',['endpoints.h',['../endpoints_8h.html',1,'']]],

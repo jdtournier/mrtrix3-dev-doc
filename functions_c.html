@@ -32,7 +32,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC3-166-gcac05b6f</div>
+   <div id="projectbrief">Version 3.0_RC3-178-g32afe60f</div>
   </td>
  </tr>
  </tbody>
@@ -249,6 +249,8 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 , <a class="el" href="class_m_r_1_1_file_1_1_name_parser_1_1_item.html#a06c3a83790374002e9ca94abb5ab09f0">MR::File::NameParser::Item</a>
 , <a class="el" href="class_m_r_1_1_g_u_i_1_1_g_l_1_1_frame_buffer.html#acd8ae14369bfa2a9c4d3de69e9a3bc28">MR::GUI::GL::FrameBuffer</a>
 , <a class="el" href="class_m_r_1_1_g_u_i_1_1_g_l_1_1_index_buffer.html#ab7a281a2fcf05603ff8f8dcf8d42fc33">MR::GUI::GL::IndexBuffer</a>
+, <a class="el" href="class_m_r_1_1_g_u_i_1_1_g_l_1_1_shader_1_1_object.html#ae434733901aecb36216ff935e46f6c90">MR::GUI::GL::Shader::Object&lt; TYPE &gt;</a>
+, <a class="el" href="class_m_r_1_1_g_u_i_1_1_g_l_1_1_shader_1_1_program.html#af44bc97ec38d7c82557fd6e3a91d472e">MR::GUI::GL::Shader::Program</a>
 , <a class="el" href="class_m_r_1_1_g_u_i_1_1_g_l_1_1_texture.html#a78792918336afb6a688dc9488ebdef0f">MR::GUI::GL::Texture</a>
 , <a class="el" href="class_m_r_1_1_g_u_i_1_1_g_l_1_1_vertex_array_object.html#a3ecc884a564f2d83f04d8b99aa67d7a8">MR::GUI::GL::VertexArrayObject</a>
 , <a class="el" href="class_m_r_1_1_g_u_i_1_1_g_l_1_1_vertex_buffer.html#ac09150f253d36225965f4f991a35f975">MR::GUI::GL::VertexBuffer</a>
@@ -400,6 +402,9 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer.html#aed81e1e0f09794b52eb8b5c59d05ca3c">MR::DWI::Tractography::Writer&lt; ValueType &gt;</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer_unbuffered.html#a5da15d141122e78fe212cdafb9d1335b">MR::DWI::Tractography::WriterUnbuffered&lt; ValueType &gt;</a>
 </li>
+<li>compile()
+: <a class="el" href="class_m_r_1_1_g_u_i_1_1_g_l_1_1_shader_1_1_object.html#a5bcf83c770923b75c1e2d7e0c00f0e83">MR::GUI::GL::Shader::Object&lt; TYPE &gt;</a>
+</li>
 <li>Complex
 : <a class="el" href="class_m_r_1_1_data_type.html#a808db3c359b3f6bdac92322e863a1359">MR::DataType</a>
 </li>
@@ -434,7 +439,7 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 : <a class="el" href="class_m_r_1_1_stats_1_1_cluster_1_1_cluster_size.html#a000f113bebf405e54d7f3739d7fd35ef">MR::Stats::Cluster::ClusterSize</a>
 </li>
 <li>ConstIterator()
-: <a class="el" href="class_m_r_1_1_d_w_i_1_1_fixel__map_1_1_const_iterator.html#a516652cf8f19477ed5199cf5ee2b7f0e">MR::DWI::Fixel_map&lt; Fixel &gt;::ConstIterator</a>
+: <a class="el" href="class_m_r_1_1_d_w_i_1_1_fixel__map_1_1_const_iterator.html#aa51eb3477be6d4616340172c85c35a3b">MR::DWI::Fixel_map&lt; Fixel &gt;::ConstIterator</a>
 </li>
 <li>ConstValue()
 : <a class="el" href="class_m_r_1_1_bit_set_1_1_const_value.html#a972a8d265a1517b7a709fd4d75074bda">MR::BitSet::ConstValue</a>
@@ -461,7 +466,7 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html#a55ecb3470d66405bf0496cef3ebbe28f">MR::GUI::MRView::Tool::ROI</a>
 </li>
 <li>copy_ptr()
-: <a class="el" href="class_m_r_1_1copy__ptr.html#acd03cd23b62eefab190e08f255d08a46">MR::copy_ptr&lt; T, Deleter &gt;</a>
+: <a class="el" href="class_m_r_1_1copy__ptr.html#ab4752be0fa56ab46199cde48ae0639b7">MR::copy_ptr&lt; T, Deleter &gt;</a>
 </li>
 <li>copy_to_mem()
 : <a class="el" href="class_m_r_1_1_image_i_o_1_1_default.html#aa5f1548d90964995ebd0988f5f4b7407">MR::ImageIO::Default</a>
@@ -539,17 +544,12 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 <li>crop_track()
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_a_c_t_1_1_g_m_w_m_i__finder.html#aa44a3abad554b4b952efc7563f33d8a2">MR::DWI::Tractography::ACT::GMWMI_finder</a>
 </li>
+<li>Crosshair()
+: <a class="el" href="class_m_r_1_1_g_u_i_1_1_crosshair.html#a23c2d167cab7a3b8b69244449870da29">MR::GUI::Crosshair</a>
+</li>
 <li>crosshair
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_cursor.html#a8dc03ae643a503223f62520dff828135">MR::GUI::Cursor</a>
-</li>
-<li>crosshairs_program
-: <a class="el" href="class_m_r_1_1_g_u_i_1_1_projection.html#af145a94e2a46e04f8f1e1b5bdedfa90a">MR::GUI::Projection</a>
-</li>
-<li>crosshairs_VAO
-: <a class="el" href="class_m_r_1_1_g_u_i_1_1_projection.html#ae2d6df8ea63e40f0ba507a825dbf5899">MR::GUI::Projection</a>
-</li>
-<li>crosshairs_VB
-: <a class="el" href="class_m_r_1_1_g_u_i_1_1_projection.html#aa3c4ad4dc4d153778f4885ce652341fa">MR::GUI::Projection</a>
+, <a class="el" href="class_m_r_1_1_g_u_i_1_1_projection.html#a1e00fcd0b4f2015049a330c2b5df51e2">MR::GUI::Projection</a>
 </li>
 <li>CSAEntry()
 : <a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_c_s_a_entry.html#a67b4517814884129583a0e1fdbda4155">MR::File::Dicom::CSAEntry</a>
@@ -624,7 +624,7 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Jul 9 2019 17:23:19 for MRtrix by
+    <li class="footer">Generated on Thu Jul 18 2019 12:26:02 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.15 </li>
   </ul>

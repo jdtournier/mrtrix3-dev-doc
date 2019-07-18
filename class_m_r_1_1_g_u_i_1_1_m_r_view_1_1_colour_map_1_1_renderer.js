@@ -1,5 +1,10 @@
 var class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_renderer =
 [
+    [ "Renderer", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_renderer.html#a59a69c0a13c429ba365d7327e7984fe1", null ],
+    [ "begin_render_colourbars", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_renderer.html#a586502526eaf6a8b7f472052dcb9bb68", null ],
+    [ "end_render_colourbars", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_renderer.html#a6e9102c41fb5cd6e416f02a3cf805334", null ],
+    [ "render", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_renderer.html#ade6ad4a772a8be85a252509699144014", null ],
+    [ "render", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_renderer.html#a6ea68087f9e92114fb8686b384578633", null ],
     [ "setup", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_renderer.html#a895b9ecac8c0cd9837e4b2202dbbbdc0", null ],
     [ "colourbar_padding", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_renderer.html#a47f3d8f501fd122584fb362ada74e4a7", null ],
     [ "current_index", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_renderer.html#ad1c0ab126e29d46a2449dbfaf456c6d0", null ],

@@ -22,6 +22,7 @@ var searchData=
   ['electrostatic_5frepulsion_5f5000',['electrostatic_repulsion_5000',['../namespace_m_r_1_1_d_w_i_1_1_directions.html#ae48caa495898fa1c5364a8f53c4ce05f',1,'MR::DWI::Directions']]],
   ['electrostatic_5frepulsion_5f60',['electrostatic_repulsion_60',['../namespace_m_r_1_1_d_w_i_1_1_directions.html#aa6eaca19d7372d446aa057301037816d',1,'MR::DWI::Directions']]],
   ['empty',['empty',['../class_m_r_1_1_bit_set.html#a2b0baeb5c8e38fe67b8189fad4682f65',1,'MR::BitSet']]],
+  ['end_5frender_5fcolourbars',['end_render_colourbars',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_renderer.html#a6e9102c41fb5cd6e416f02a3cf805334',1,'MR::GUI::MRView::ColourMap::Renderer']]],
   ['endpoints',['Endpoints',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_resampling_1_1_endpoints.html#a7f5bebb4c779de025c6329ec4956cd7e',1,'MR::DWI::Tractography::Resampling::Endpoints']]],
   ['entry',['Entry',['../class_m_r_1_1_file_1_1_entry.html#a435e8ca255114ae5de633ea6d77e4d0a',1,'MR::File::Entry::Entry(const std::string &amp;fname, int64_t offset=0)'],['../class_m_r_1_1_file_1_1_entry.html#acc33338059cf8f0ee904d2f59801cafa',1,'MR::File::Entry::Entry(const Entry &amp;)=default'],['../class_m_r_1_1_file_1_1_entry.html#a1ea77c593a7ad6fc6599367fc3d3b7f7',1,'MR::File::Entry::Entry(Entry &amp;&amp;) noexcept=default']]],
   ['eof',['eof',['../class_m_r_1_1_file_1_1_g_z.html#a9bb0fc6e398d1ba9da9bcd399f7fd931',1,'MR::File::GZ']]],

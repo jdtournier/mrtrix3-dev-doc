@@ -24,6 +24,8 @@ var searchData=
   ['_7emodel',['~Model',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model.html#a277fd72c45f1dae68455c4078f6cacc9',1,'MR::DWI::Tractography::SIFT::Model']]],
   ['_7emodelbase',['~ModelBase',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model_base.html#a72ccb777c0ae398ac0c9f13614a3ac82',1,'MR::DWI::Tractography::SIFT::ModelBase']]],
   ['_7enodeselectionsettingsframe',['~NodeSelectionSettingsFrame',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_node_selection_settings_frame.html#a6b8a21ee176b96c2d9443f078e9a6a8e',1,'MR::GUI::MRView::Tool::NodeSelectionSettingsFrame']]],
+  ['_7eobject',['~Object',['../class_m_r_1_1_g_u_i_1_1_g_l_1_1_shader_1_1_object.html#a09a18c5a10290754c74962f2fb50d6a5',1,'MR::GUI::GL::Shader::Object']]],
+  ['_7eprogram',['~Program',['../class_m_r_1_1_g_u_i_1_1_g_l_1_1_shader_1_1_program.html#a5ed98c057e54d3b8fb69c4723fe4e81f',1,'MR::GUI::GL::Shader::Program']]],
   ['_7eprogressinfo',['~ProgressInfo',['../class_m_r_1_1_progress_info.html#ac3dccfece510dc32a81aa814bb7a907c',1,'MR::ProgressInfo']]],
   ['_7eqcolorbutton',['~QColorButton',['../class_q_color_button.html#a6d168cee4146a00ddd108479723f70c4',1,'QColorButton']]],
   ['_7equeue',['~Queue',['../class_m_r_1_1_thread_1_1_queue.html#a10e77b98f99c23522a35614c421bee4e',1,'MR::Thread::Queue']]],

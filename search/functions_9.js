@@ -23,7 +23,7 @@ var searchData=
   ['init_5fderiv_5ftransform',['init_deriv_transform',['../group__zonal__spherical__harmonics.html#ga9d133d36bad9ce4fd763fd0917408b77',1,'MR::Math::ZSH']]],
   ['init_5fdict',['init_dict',['../class_m_r_1_1_file_1_1_dicom_1_1_element.html#affbd049e7e8b57a7774fe6310420ae9b',1,'MR::File::Dicom::Element']]],
   ['init_5ftransform',['init_transform',['../group__spherical__harmonics.html#ga26f3b0200dfcecf06b917680b3f96069',1,'MR::Math::SH']]],
-  ['initgl',['initGL',['../class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer.html#a06aa817263f8ade07c78750eb8b0cb2d',1,'MR::GUI::DWI::Renderer::initGL()'],['../class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_dixel.html#ac0fb6c70e97db4dd45d2a219d8b9ffe4',1,'MR::GUI::DWI::Renderer::Dixel::initGL()']]],
+  ['initgl',['initGL',['../class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer.html#a06aa817263f8ade07c78750eb8b0cb2d',1,'MR::GUI::DWI::Renderer::initGL()'],['../class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_renderer_1_1_dixel.html#ac0fb6c70e97db4dd45d2a219d8b9ffe4',1,'MR::GUI::DWI::Renderer::Dixel::initGL()'],['../class_m_r_1_1_g_u_i_1_1_g_l_1_1_font.html#a59f6434944360d7de7fa1a34701529d0',1,'MR::GUI::GL::Font::initGL()']]],
   ['initialise_5fprocessing_5fmask',['initialise_processing_mask',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t.html#a2ef60177b5c0b230d62be9bd301c6bfc',1,'MR::DWI::Tractography::SIFT']]],
   ['initialise_5fusing_5ffod',['initialise_using_FOD',['../namespace_m_r_1_1_registration_1_1_transform_1_1_init.html#aeb677f14037b98c1bcf9fca33fa92ceb',1,'MR::Registration::Transform::Init']]],
   ['initialise_5fusing_5fimage_5fcentres',['initialise_using_image_centres',['../namespace_m_r_1_1_registration_1_1_transform_1_1_init.html#ac1fbbe5b9a92dc81615a10f064b4c263',1,'MR::Registration::Transform::Init']]],

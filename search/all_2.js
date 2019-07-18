@@ -45,6 +45,7 @@ var searchData=
   ['bbgd',['bbgd',['../namespace_m_r_1_1_registration.html#af1595cd6b5fb04c9de6a73964645804ba6132be413377903d0043d4551830d231',1,'MR::Registration']]],
   ['be',['BE',['../namespace_m_r_1_1_byte_order.html#a0e47ec66ab5d35bdc8a59e71d3ed09f6',1,'MR::ByteOrder']]],
   ['before',['before',['../struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___undo_entry.html#a5088127eb0ca84cec0234dd466ffe54c',1,'MR::GUI::MRView::Tool::ROI_UndoEntry']]],
+  ['begin_5frender_5fcolourbars',['begin_render_colourbars',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_renderer.html#a586502526eaf6a8b7f472052dcb9bb68',1,'MR::GUI::MRView::ColourMap::Renderer']]],
   ['bessel_2eh',['bessel.h',['../bessel_8h.html',1,'']]],
   ['beta',['beta',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_external_energy_computer.html#a00d5c6b08de1be29a712dc69c9f42c79',1,'MR::DWI::Tractography::GT::ExternalEnergyComputer::beta()'],['../struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_properties.html#a99538d82bf759a7593b00f354db86e40',1,'MR::DWI::Tractography::GT::Properties::beta()']]],
   ['bigendian',['BigEndian',['../class_m_r_1_1_data_type.html#a670e05d31f5849f3eb5555cc4f1bc08f',1,'MR::DataType']]],

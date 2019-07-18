@@ -7,6 +7,7 @@ var namespace_m_r_1_1_g_u_i =
     [ "MRView", "namespace_m_r_1_1_g_u_i_1_1_m_r_view.html", "namespace_m_r_1_1_g_u_i_1_1_m_r_view" ],
     [ "Shapes", "namespace_m_r_1_1_g_u_i_1_1_shapes.html", "namespace_m_r_1_1_g_u_i_1_1_shapes" ],
     [ "App", "class_m_r_1_1_g_u_i_1_1_app.html", "class_m_r_1_1_g_u_i_1_1_app" ],
+    [ "Crosshair", "class_m_r_1_1_g_u_i_1_1_crosshair.html", "class_m_r_1_1_g_u_i_1_1_crosshair" ],
     [ "Cursor", "class_m_r_1_1_g_u_i_1_1_cursor.html", "class_m_r_1_1_g_u_i_1_1_cursor" ],
     [ "LightingDock", "class_m_r_1_1_g_u_i_1_1_lighting_dock.html", "class_m_r_1_1_g_u_i_1_1_lighting_dock" ],
     [ "LightingSettings", "class_m_r_1_1_g_u_i_1_1_lighting_settings.html", "class_m_r_1_1_g_u_i_1_1_lighting_settings" ],

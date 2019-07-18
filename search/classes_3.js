@@ -43,6 +43,7 @@ var searchData=
   ['copykernel4d',['CopyKernel4D',['../class_m_r_1_1_filter_1_1_copy_kernel4_d.html',1,'MR::Filter']]],
   ['cost_5ffn_5fgradient_5fsort',['Cost_fn_gradient_sort',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_cost__fn__gradient__sort.html',1,'MR::DWI::Tractography::SIFT']]],
   ['crosscorrelationnogradient',['CrossCorrelationNoGradient',['../class_m_r_1_1_registration_1_1_metric_1_1_cross_correlation_no_gradient.html',1,'MR::Registration::Metric']]],
+  ['crosshair',['Crosshair',['../class_m_r_1_1_g_u_i_1_1_crosshair.html',1,'MR::GUI']]],
   ['csaentry',['CSAEntry',['../class_m_r_1_1_file_1_1_dicom_1_1_c_s_a_entry.html',1,'MR::File::Dicom']]],
   ['csd',['CSD',['../class_m_r_1_1_d_w_i_1_1_s_deconv_1_1_c_s_d.html',1,'MR::DWI::SDeconv']]],
   ['cube',['Cube',['../class_m_r_1_1_g_u_i_1_1_shapes_1_1_cube.html',1,'MR::GUI::Shapes']]],

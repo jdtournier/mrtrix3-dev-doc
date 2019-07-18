@@ -1,8 +1,25 @@
 var class_m_r_1_1_g_u_i_1_1_projection =
 [
-    [ "crosshairs_program", "class_m_r_1_1_g_u_i_1_1_projection.html#af145a94e2a46e04f8f1e1b5bdedfa90a", null ],
-    [ "crosshairs_VAO", "class_m_r_1_1_g_u_i_1_1_projection.html#ae2d6df8ea63e40f0ba507a825dbf5899", null ],
-    [ "crosshairs_VB", "class_m_r_1_1_g_u_i_1_1_projection.html#aa3c4ad4dc4d153778f4885ce652341fa", null ],
+    [ "Projection", "class_m_r_1_1_g_u_i_1_1_projection.html#af2f8460f041d481d9abaa7cf140462f6", null ],
+    [ "done_render_text", "class_m_r_1_1_g_u_i_1_1_projection.html#a620d50d70c8d91927b50f23956c66a7b", null ],
+    [ "draw_orientation_labels", "class_m_r_1_1_g_u_i_1_1_projection.html#a3352a94eebb286d1c224f8a8788c6e0b", null ],
+    [ "modelview", "class_m_r_1_1_g_u_i_1_1_projection.html#a00e3fb51c09622c88ed6428d38380178", null ],
+    [ "modelview_inverse", "class_m_r_1_1_g_u_i_1_1_projection.html#a7f30be8e954ccac8129693cb58282c1b", null ],
+    [ "modelview_projection", "class_m_r_1_1_g_u_i_1_1_projection.html#a26eb504c286a0a6b01839aa8a6f381fa", null ],
+    [ "modelview_projection_inverse", "class_m_r_1_1_g_u_i_1_1_projection.html#aa8f85758bdded5bc7f3be1d5e2707548", null ],
+    [ "projection", "class_m_r_1_1_g_u_i_1_1_projection.html#ac1a1f8c498bb1c453ab359a4d58c12d5", null ],
+    [ "projection_inverse", "class_m_r_1_1_g_u_i_1_1_projection.html#a5dc739a7f1aa97978e36910f2110dc18", null ],
+    [ "render_crosshairs", "class_m_r_1_1_g_u_i_1_1_projection.html#a99602a34c4924b15bf6c72f3928e7357", null ],
+    [ "render_text", "class_m_r_1_1_g_u_i_1_1_projection.html#a4643b3451daf2f59150f5698b0644bc8", null ],
+    [ "render_text", "class_m_r_1_1_g_u_i_1_1_projection.html#a1f6101281f15b9d43ced2a3b4bfb6e44", null ],
+    [ "render_text_align", "class_m_r_1_1_g_u_i_1_1_projection.html#a127448808410944ae12d95f799235ff9", null ],
+    [ "render_text_inset", "class_m_r_1_1_g_u_i_1_1_projection.html#a737bcea5f3c7a18b7cf50e7b4c6d98c1", null ],
+    [ "set", "class_m_r_1_1_g_u_i_1_1_projection.html#aead70ec76536a0ee42404eb76a1e24ec", null ],
+    [ "set", "class_m_r_1_1_g_u_i_1_1_projection.html#a8218e992d218723b44ff980400c929d6", null ],
+    [ "set_viewport", "class_m_r_1_1_g_u_i_1_1_projection.html#aed42bfb5a4867fb56f4b8782bd93f736", null ],
+    [ "set_viewport", "class_m_r_1_1_g_u_i_1_1_projection.html#a7b93c5a4d2d91371a58891d286b5ca1c", null ],
+    [ "setup_render_text", "class_m_r_1_1_g_u_i_1_1_projection.html#ab160583e162a94091efac483e7c287f1", null ],
+    [ "crosshair", "class_m_r_1_1_g_u_i_1_1_projection.html#a1e00fcd0b4f2015049a330c2b5df51e2", null ],
     [ "font", "class_m_r_1_1_g_u_i_1_1_projection.html#a93ee876e39537588e0eb61003fca6b23", null ],
     [ "glarea", "class_m_r_1_1_g_u_i_1_1_projection.html#a039f32622bbf9da45743018e2ea35f4b", null ]
 ];

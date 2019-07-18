@@ -9,6 +9,9 @@ var dir_99d0482cf009f9d97a0877749b817f19 =
     [ "color_button.h", "color__button_8h.html", [
       [ "QColorButton", "class_q_color_button.html", "class_q_color_button" ]
     ] ],
+    [ "crosshair.h", "crosshair_8h.html", [
+      [ "Crosshair", "class_m_r_1_1_g_u_i_1_1_crosshair.html", "class_m_r_1_1_g_u_i_1_1_crosshair" ]
+    ] ],
     [ "cursor.h", "cursor_8h.html", [
       [ "Cursor", "class_m_r_1_1_g_u_i_1_1_cursor.html", "class_m_r_1_1_g_u_i_1_1_cursor" ]
     ] ],
