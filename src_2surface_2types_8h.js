@@ -48,8 +48,8 @@ var src_2surface_2types_8h =
     [ "abs", "src_2surface_2types_8h.html#ac7cce08b2ec1defb19ef7c602d345aa7", null ],
     [ "make_shared", "src_2surface_2types_8h.html#a3f750d3a96faf0aa8358b1cb47d470cd", null ],
     [ "make_unique", "src_2surface_2types_8h.html#a365391fd1640264abd82a19ca09a11db", null ],
-    [ "operator<<", "src_2surface_2types_8h.html#a8033a8f741f11e3d52c4743763cb686f", null ],
     [ "operator<<", "src_2surface_2types_8h.html#ac70c53041e26a47a9d4d65b195777893", null ],
+    [ "operator<<", "src_2surface_2types_8h.html#a8033a8f741f11e3d52c4743763cb686f", null ],
     [ "Inf", "src_2surface_2types_8h.html#a8dc392684a5a46072368904936029734", null ],
     [ "malloc_align", "src_2surface_2types_8h.html#a57bc63b29daf275689c183dc0a9dfca9", null ],
     [ "NaN", "src_2surface_2types_8h.html#ac8c755bf9a6bd0ee7dfe784c1aff7fcb", null ]

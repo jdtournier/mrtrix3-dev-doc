@@ -43,12 +43,12 @@ var group__spherical__harmonics =
     [ "NforL_mpos", "group__spherical__harmonics.html#ga8bc0c976c67b9eb91e2dfd71bede4fe1", null ],
     [ "scale_degrees_forward", "group__spherical__harmonics.html#ga301ff6a6409f78ce405d2ed51f2bdbde", null ],
     [ "scale_degrees_inverse", "group__spherical__harmonics.html#ga24a1163b39e02424abbe3ed456bb0a1c", null ],
-    [ "sconv", "group__spherical__harmonics.html#ga6bc14abe263b2812d92454a199b30a03", null ],
     [ "sconv", "group__spherical__harmonics.html#ga5bf1dcd250252635f4faa97a1b732703", null ],
-    [ "SH2RH", "group__spherical__harmonics.html#ga1edb8517a3781197c8b7dbdd3ec65ad1", null ],
+    [ "sconv", "group__spherical__harmonics.html#ga6bc14abe263b2812d92454a199b30a03", null ],
     [ "SH2RH", "group__spherical__harmonics.html#ga2832fa6af188bae8ca224b1dd261bc2d", null ],
-    [ "value", "group__spherical__harmonics.html#gac405578b4137cf1c22a0cf646d260b05", null ],
+    [ "SH2RH", "group__spherical__harmonics.html#ga1edb8517a3781197c8b7dbdd3ec65ad1", null ],
     [ "value", "group__spherical__harmonics.html#ga7516a6376d493b95726c8c41ee8ecd84", null ],
+    [ "value", "group__spherical__harmonics.html#gac405578b4137cf1c22a0cf646d260b05", null ],
     [ "value", "group__spherical__harmonics.html#ga9a848ad288e26cd2bdf74da968ea14cd", null ],
     [ "encoding_description", "group__spherical__harmonics.html#gaafe2e54ee9df648cfb1372aa7ae2fa6a", null ]
 ];

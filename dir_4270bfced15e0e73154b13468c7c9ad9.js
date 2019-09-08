@@ -18,7 +18,11 @@ var dir_4270bfced15e0e73154b13468c7c9ad9 =
       [ "Value", "class_m_r_1_1_bit_set_1_1_value.html", "class_m_r_1_1_bit_set_1_1_value" ],
       [ "ConstValue", "class_m_r_1_1_bit_set_1_1_const_value.html", "class_m_r_1_1_bit_set_1_1_const_value" ]
     ] ],
-    [ "cmdline_option.h", "cmdline__option_8h.html", null ],
+    [ "cmdline_option.h", "cmdline__option_8h.html", [
+      [ "Argument", "class_m_r_1_1_app_1_1_argument.html", "class_m_r_1_1_app_1_1_argument" ],
+      [ "Option", "class_m_r_1_1_app_1_1_option.html", "class_m_r_1_1_app_1_1_option" ],
+      [ "OptionGroup", "class_m_r_1_1_app_1_1_option_group.html", "class_m_r_1_1_app_1_1_option_group" ]
+    ] ],
     [ "command.h", "command_8h.html", "command_8h" ],
     [ "datatype.h", "datatype_8h.html", [
       [ "DataType", "class_m_r_1_1_data_type.html", "class_m_r_1_1_data_type" ]

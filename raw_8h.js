@@ -22,10 +22,10 @@ var raw_8h =
     [ "store_LE", "raw_8h.html#aed44d1758bb448e16ccdae694e3f21fa", null ],
     [ "store_native", "raw_8h.html#a529148db9e0d4900e32f3918d6ca3228", null ],
     [ "store_native", "raw_8h.html#aa34ed5792e6e79a3e034a742fd4fe53d", null ],
+    [ "swap", "raw_8h.html#a2a9c41437cf77d36b955eb2848adcd29", null ],
     [ "swap", "raw_8h.html#a4179ee384fa8987ce3e3816227cf3873", null ],
     [ "swap", "raw_8h.html#a553120256772768567981c19b9a6adea", null ],
     [ "swap", "raw_8h.html#af0c12a541267c7d3f74b99ed8e3a8d28", null ],
     [ "swap", "raw_8h.html#a50cc17a51219711493e44200056d4c86", null ],
-    [ "swap", "raw_8h.html#a2f744901cd2c0ca01a8b6ea8b1e3f3e5", null ],
-    [ "swap", "raw_8h.html#a2a9c41437cf77d36b955eb2848adcd29", null ]
+    [ "swap", "raw_8h.html#a2f744901cd2c0ca01a8b6ea8b1e3f3e5", null ]
 ];

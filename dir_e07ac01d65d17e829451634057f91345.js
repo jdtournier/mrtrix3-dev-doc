@@ -13,8 +13,13 @@ var dir_e07ac01d65d17e829451634057f91345 =
     [ "cubic_spline.h", "cubic__spline_8h.html", "cubic__spline_8h" ],
     [ "gaussian.h", "gaussian_8h.html", "gaussian_8h" ],
     [ "golden_section_search.h", "golden__section__search_8h.html", "golden__section__search_8h" ],
-    [ "gradient_descent.h", "gradient__descent_8h.html", null ],
-    [ "gradient_descent_bb.h", "gradient__descent__bb_8h.html", null ],
+    [ "gradient_descent.h", "gradient__descent_8h.html", [
+      [ "GradientDescent", "class_m_r_1_1_math_1_1_gradient_descent.html", "class_m_r_1_1_math_1_1_gradient_descent" ]
+    ] ],
+    [ "gradient_descent_bb.h", "gradient__descent__bb_8h.html", [
+      [ "LinearUpdateBB", "class_m_r_1_1_math_1_1_linear_update_b_b.html", "class_m_r_1_1_math_1_1_linear_update_b_b" ],
+      [ "GradientDescentBB", "class_m_r_1_1_math_1_1_gradient_descent_b_b.html", "class_m_r_1_1_math_1_1_gradient_descent_b_b" ]
+    ] ],
     [ "hermite.h", "hermite_8h.html", [
       [ "Hermite", "class_m_r_1_1_math_1_1_hermite.html", "class_m_r_1_1_math_1_1_hermite" ]
     ] ],

@@ -9,7 +9,7 @@ var permtest_8h =
     [ "Options", "permtest_8h.html#a324568ad8a171e5c11e284dd2bea69ed", null ],
     [ "precompute_default_permutation", "permtest_8h.html#a0cf7f8dd444b0e69727d0af89d7d4584", null ],
     [ "precompute_empirical_stat", "permtest_8h.html#aa30b971e7e0da61b943bbfaeeab00b79", null ],
+    [ "run_permutations", "permtest_8h.html#a9d16510747241c43420bc1c0311ba255", null ],
     [ "run_permutations", "permtest_8h.html#af19b13323b6bbbc17b85ebf1bd01d74d", null ],
-    [ "run_permutations", "permtest_8h.html#a6e9d229ac6393ccf854aa38be93eaf36", null ],
-    [ "run_permutations", "permtest_8h.html#a9d16510747241c43420bc1c0311ba255", null ]
+    [ "run_permutations", "permtest_8h.html#a6e9d229ac6393ccf854aa38be93eaf36", null ]
 ];

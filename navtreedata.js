@@ -1,18 +1,17 @@
 /*
-@ @licstart  The following is the entire license notice for the
+@licstart  The following is the entire license notice for the
 JavaScript code in this file.
 
-Copyright (C) 1997-2017 by Dimitri van Heesch
+Copyright (C) 1997-2019 by Dimitri van Heesch
 
 This program is free software; you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation; either version 2 of the License, or
-(at your option) any later version.
+it under the terms of version 2 of the GNU General Public License as published by
+the Free Software Foundation
 
 This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License along
 with this program; if not, write to the Free Software Foundation, Inc.,
@@ -25,14 +24,53 @@ var NAVTREE =
 [
   [ "MRtrix", "index.html", [
     [ "Overview", "index.html", null ],
-    [ "The build process", "build_page.html", null ],
-    [ "Command-line parsing", "command_line_parsing.html", null ],
-    [ "The configure script", "configure_page.html", null ],
+    [ "The build process", "build_page.html", [
+      [ "Using the MRtrix build process", "build_page.html#build_process_usage", null ],
+      [ "The configure script", "build_page.html#configure_section", null ],
+      [ "The build script", "build_page.html#build_section", null ]
+    ] ],
+    [ "Command-line parsing", "command_line_parsing.html", [
+      [ "Overview", "command_line_parsing.html#command_line_overview", null ],
+      [ "Specifying the description and syntax", "command_line_parsing.html#command_line_usage", null ],
+      [ "The DESCRIPTION", "command_line_parsing.html#command_line_description", null ],
+      [ "The ARGUMENTS", "command_line_parsing.html#command_line_arguments", null ],
+      [ "The OPTIONS", "command_line_parsing.html#command_line_options", [
+        [ "Defining option groups", "command_line_parsing.html#command_line_option_group", null ]
+      ] ],
+      [ "Breaking up an option group into multiple lists", "command_line_parsing.html#command_line_option_group_broken_up", null ],
+      [ "Retrieving command-line argument and option values", "command_line_parsing.html#command_line_retrieve", null ]
+    ] ],
+    [ "The configure script", "configure_page.html", [
+      [ "Using multiple co-existing configurations", "configure_page.html#multiconfig", null ]
+    ] ],
     [ "Example applications", "examples.html", "examples" ],
-    [ "Accessing image data", "image_access.html", null ],
+    [ "Accessing image data", "image_access.html", [
+      [ "Overview", "image_access.html#image_access_overview", null ],
+      [ "An example application", "image_access.html#image_example", null ],
+      [ "Header", "image_access.html#header_class", null ],
+      [ "Image", "image_access.html#image_class", null ],
+      [ "Adapter", "image_access.html#adapter_class", null ],
+      [ "Filter", "image_access.html#filter_class", null ],
+      [ "Loop & ThreadedLoop", "image_access.html#image_loop", null ],
+      [ "Iterator", "image_access.html#iterator_class", null ]
+    ] ],
     [ "Writing separate modules", "module_howto.html", null ],
-    [ "Writing multi-threaded applications", "multithreading.html", null ],
-    [ "Creating a new MRtrix command", "command_howto.html", null ],
+    [ "Writing multi-threaded applications", "multithreading.html", [
+      [ "Overview", "multithreading.html#multithreading_overview", null ],
+      [ "How to design a multi-threading application", "multithreading.html#multithreading_planning", null ],
+      [ "Sharing read-only data", "multithreading.html#multithreading_shared", null ],
+      [ "Sharing read/write data", "multithreading.html#multithreading_concurrent", null ],
+      [ "Achieving maximum performance", "multithreading.html#multithreading_performance", null ],
+      [ "Multi-threading API in MRtrix", "multithreading.html#multithreading_in_mrtrix", null ],
+      [ "Launching threads", "multithreading.html#multithreading_exec", null ],
+      [ "The ThreadedLoop", "multithreading.html#multithreading_loop", null ],
+      [ "The Thread::Queue", "multithreading.html#multithreading_queue", null ]
+    ] ],
+    [ "Creating a new MRtrix command", "command_howto.html", [
+      [ "The anatomy of a command", "command_howto.html#command_layout", null ],
+      [ "Error handling", "command_howto.html#error_handling", null ],
+      [ "Header search path", "command_howto.html#include_path", null ]
+    ] ],
     [ "Modules", "modules.html", "modules" ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
@@ -76,31 +114,30 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_a_c_t_2gmwmi_8h.html",
-"class_m_r_1_1_adapter_1_1_neighbourhood_coord.html#a568728bfd16585c6bd0b21a8fdcd5762",
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1.html#a51b71eb840190cfb4eaeb6c29e1ee8f6",
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_map_writer_base.html#afe76f714d30aa9c88deb7b48895f04f4",
-"class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_resample_functor.html#a444749ae4dccc54fb0fe4218b0cdf81f",
-"class_m_r_1_1_file_1_1_dicom_1_1_c_s_a_entry.html#a60f3fd7bb1cc6d697b3aec0662f4563e",
-"class_m_r_1_1_file_1_1_parsed_name.html#ae1d184f39a8a147989ee414871bc5531",
-"class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_render_frame.html#afd5cd81556f0afbfa47018ddafda7af1",
-"class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_adjust_button.html#a640d96baf0a083639eca9295b07787c7",
-"class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_connectome.html#a484352e5d6ee33c27f1cea5e3f4c1250",
-"class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f___preview.html#aa9d904d787866729d5e565c15951ffc1",
-"class_m_r_1_1_g_u_i_1_1_projection.html#ac1a1f8c498bb1c453ab359a4d58c12d5",
-"class_m_r_1_1_math_1_1_gradient_descent.html",
-"class_m_r_1_1_registration_1_1_metric_1_1_demons4_d.html#a846a8ed72a54681a0d31c51d349bc3c5",
-"class_m_r_1_1_transform.html#a6e81d6f0eccd1572fabe11cc3c6cbdd4",
-"definitions_8h.html#a4d8757f9e75789c8618db28e35391857",
-"file_2copy_8h.html",
-"group___cmd_parse.html#ga2f0db24e0a53e2c262c575395761307f",
-"group__interp.html#ggad719d13abf54b60c8ae7adca3c7d7931a3a8397a6d8e0bc2d0afb00b7e36d4c65",
-"least__squares_8h.html#gacc15373310523fa6a0cce8ac4e31314e",
-"namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_light_box_view_controls.html",
-"phase__encoding_8h.html",
-"src_2dwi_2gradient_8h.html#a05ba5f46bd1c97b2a899b688300cddba",
-"src_2surface_2utils_8h.html#a9f8cad3a0205a69d8d9799a187da03c8",
-"struct_m_r_1_1_registration_1_1_metric_1_1_n_c_c_precompute_functor_masked___naive.html#aead57f7a4298b91df7f8dcbcd0ef838d",
-"twi__stats_8h.html#aabab0b14dee9b810620d2afea898e964"
+"class_m_r_1_1_adapter_1_1_jacobian.html#a4e244b5291231a42916ccf943e5c239a",
+"class_m_r_1_1_d_w_i_1_1_s_deconv_1_1_c_s_d.html#a6ab12de97e5ebbc1ce08897b17cfe169",
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_stats.html#ae72b22571420f4f169f4e435c1c6203b",
+"class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_fixel.html#afe99c32e50883564478b689d7acffb1e",
+"class_m_r_1_1_data_type.html#a41f427425411070421b11b6177560736",
+"class_m_r_1_1_file_1_1_dicom_1_1_tree.html#a952b3fc8615d84178c03c3b3d7142179",
+"class_m_r_1_1_formats_1_1_n_if_t_i2___g_z.html",
+"class_m_r_1_1_g_u_i_1_1_g_l_1_1_index_buffer.html#af0c9e3fda7b46cbed8a5060a3ed186d3",
+"class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume_1_1_shader.html",
+"class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_list_model_base.html#a8867665af2332fb5276503c878bb3520",
+"class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_window.html#a2ec16c131e00a243bb4971b2e9c863bc",
+"class_m_r_1_1_image_i_o_1_1_pipe.html#a920199cf2ecbe3181254f480a3357b8f",
+"class_m_r_1_1_math_1_1_versor.html#ad45dd0d569a9916ec6ccf03eaff49db7",
+"class_m_r_1_1_stats_1_1_cluster_1_1_cluster_size.html#a25648ae5f6b98263aa052dfeb894a847",
+"core_2file_2utils_8h.html#a5aba912969fee7e5c00843c27170adb8",
+"dwi_2tractography_2connectome_2connectome_8h.html#a7c68a52841fe6a7f3d39b698b283a26a",
+"functions_vars_t.html",
+"gui_2mrview_2tool_2connectome_2connectome_8h_source.html",
+"min__max_8h_source.html",
+"namespacemembers_func_u.html",
+"raw_8h.html#a553120256772768567981c19b9a6adea",
+"src_2gui_2mrview_2mode_2list_8h.html",
+"struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_image_1_1_cached_texture.html#a3ad8d220b9b3b2264e5362a21608e978",
+"tckfactor_8h.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -1,5 +1,6 @@
 var image_8h =
 [
+    [ "Image", "class_m_r_1_1_image.html", "class_m_r_1_1_image" ],
     [ "Buffer", "class_m_r_1_1_image_1_1_buffer.html", "class_m_r_1_1_image_1_1_buffer" ],
     [ "display", "image_8h.html#a36dacc02b4b40aa743306dd1d74f8852", null ],
     [ "save", "image_8h.html#aa136508eba5f48d57c4706aa2130e55d", null ],

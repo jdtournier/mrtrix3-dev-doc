@@ -36,5 +36,7 @@ var dir_e7cf60664e1399b64d285725d0a06efa =
     [ "subset.h", "subset_8h.html", [
       [ "Subset", "class_m_r_1_1_adapter_1_1_subset.html", "class_m_r_1_1_adapter_1_1_subset" ]
     ] ],
-    [ "warp.h", "adapter_2warp_8h.html", null ]
+    [ "warp.h", "adapter_2warp_8h.html", [
+      [ "Warp", "class_m_r_1_1_adapter_1_1_warp.html", null ]
+    ] ]
 ];
