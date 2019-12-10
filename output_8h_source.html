@@ -32,7 +32,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC3_latest-63-g2d00f457</div>
+   <div id="projectbrief">Version 3.0_RC3_latest-66-g323bc8ac</div>
   </td>
  </tr>
  </tbody>
@@ -260,7 +260,7 @@ $(document).ready(function(){initNavTree('output_8h_source.html','');});
 <div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;        H_sh.stride (3) = 0;</div>
 <div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;        <span class="keyword">auto</span> out = <a class="code" href="class_m_r_1_1_image.html#af3e84ff9ee40cdffa21ae551848b9573">Image&lt;float&gt;::create</a> (path, H_sh);</div>
 <div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;        <a class="code" href="class_m_r_1_1_image.html">VoxelAccessor</a> v (accessor());</div>
-<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;        <span class="keywordflow">for</span> (<span class="keyword">auto</span> l = <a class="code" href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">Loop</a> (out) (out, v); l; ++l) {</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;        <span class="keywordflow">for</span> (<span class="keyword">auto</span> l = <a class="code" href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">Loop</a> (v) (out, v); l; ++l) {</div>
 <div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;          <span class="keywordflow">if</span> (v.value()) {</div>
 <div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;            Eigen::Matrix&lt;default_type, Eigen::Dynamic, 1&gt; sum = Eigen::Matrix&lt;default_type, Eigen::Dynamic, 1&gt;::Zero (N);</div>
 <div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;            <span class="keywordflow">for</span> (<span class="keyword">typename</span> <a class="code" href="class_m_r_1_1_d_w_i_1_1_fixel__map_1_1_const_iterator.html">Fixel_map&lt;Fixel&gt;::ConstIterator</a> i = begin (v); i; ++i) {</div>
@@ -475,7 +475,7 @@ $(document).ready(function(){initNavTree('output_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_6da8e6f1bfdb5540a85bd819d2a13962.html">dwi</a></li><li class="navelem"><a class="el" href="dir_6f8fcd489e430c1a1b22716f7655ad56.html">tractography</a></li><li class="navelem"><a class="el" href="dir_f70c15b9fc3962713444fafff316e7f9.html">SIFT</a></li><li class="navelem"><a class="el" href="output_8h.html">output.h</a></li>
-    <li class="footer">Generated on Tue Dec 10 2019 17:52:02 for MRtrix by
+    <li class="footer">Generated on Tue Dec 10 2019 23:23:09 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.16 </li>
   </ul>
