@@ -10,7 +10,7 @@ var class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume =
     [ "rotate_clip_planes", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume.html#ac7a9a3919a9e36ebcc46f57b9e0c11f9", null ],
     [ "clip", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume.html#aa75a5bc563f4f98c1fe2bfa23f0a6d9d", null ],
     [ "depth_texture", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume.html#aaf9369ab0a4f7dff6ffbfe5046fa7824", null ],
-    [ "volume_shader", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume.html#a5efba7d1e8f0390aa9db5fb4cd633229", null ],
+    [ "volume_shader", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume.html#ae4b9153f390e4e1002e72536248c68bb", null ],
     [ "volume_VAO", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume.html#a977f67a718b93d774782393cb8ceba71", null ],
     [ "volume_VB", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume.html#aec7d86b0b2f8e55699522e072b23e8a5", null ],
     [ "volume_VI", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume.html#ac50f9e10fbdf7f58f39c78d9d0957b4d", null ]

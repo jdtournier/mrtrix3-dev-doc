@@ -12,7 +12,8 @@ var hierarchy =
     ] ],
     [ "__WriterBase__", null, [
       [ "MR::DWI::Tractography::ScalarWriter< T >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_scalar_writer.html", null ],
-      [ "MR::DWI::Tractography::WriterUnbuffered< ValueType >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer_unbuffered.html", [
+      [ "MR::DWI::Tractography::WriterUnbuffered< ValueType >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer_unbuffered.html", null ],
+      [ "MR::DWI::Tractography::WriterUnbuffered< float >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer_unbuffered.html", [
         [ "MR::DWI::Tractography::Writer< ValueType >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer.html", null ]
       ] ]
     ] ],
@@ -267,8 +268,32 @@ var hierarchy =
       [ "MR::Image< ValueType >::Buffer", "class_m_r_1_1_image_1_1_buffer.html", null ]
     ] ],
     [ "MR::Math::Hermite< T >", "class_m_r_1_1_math_1_1_hermite.html", null ],
+    [ "MR::Image< ValueType >", "class_m_r_1_1_image.html", null ],
+    [ "MR::Image< bool >", "class_m_r_1_1_image.html", [
+      [ "MR::DWI::Tractography::Mask", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mask.html", null ]
+    ] ],
+    [ "MR::Image< cfloat >", "class_m_r_1_1_image.html", [
+      [ "MR::Interp::Base< MR::Image< cfloat > >", "class_m_r_1_1_interp_1_1_base.html", [
+        [ "MR::Interp::Nearest< MR::Image< cfloat > >", "class_m_r_1_1_interp_1_1_nearest.html", null ]
+      ] ]
+    ] ],
+    [ "MR::Image< default_type >", "class_m_r_1_1_image.html", null ],
+    [ "MR::Image< float >", "class_m_r_1_1_image.html", [
+      [ "MR::Interp::Base< MR::Image< float > >", "class_m_r_1_1_interp_1_1_base.html", [
+        [ "MR::Interp::Nearest< MR::Image< float > >", "class_m_r_1_1_interp_1_1_nearest.html", null ]
+      ] ]
+    ] ],
+    [ "MR::Image< index_type >", "class_m_r_1_1_image.html", null ],
+    [ "MR::Image< MapVoxel * >", "class_m_r_1_1_image.html", null ],
+    [ "MR::Image< node_t >", "class_m_r_1_1_image.html", null ],
+    [ "MR::Image< uint64_t >", "class_m_r_1_1_image.html", [
+      [ "MR::Fixel::Legacy::Image< DataType >", "class_m_r_1_1_fixel_1_1_legacy_1_1_image.html", null ]
+    ] ],
+    [ "MR::Image< value_type >", "class_m_r_1_1_image.html", [
+      [ "MR::DWI::Tractography::Mapping::BufferScratchDump< value_type >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_buffer_scratch_dump.html", null ]
+    ] ],
     [ "ImageBase", null, [
-      [ "MR::Adapter::Base< Bootstrap< ImageType, Functor, NUM_VOX_PER_CHUNK >, ImageType >", "class_m_r_1_1_adapter_1_1_base.html", [
+      [ "MR::Adapter::Base< Bootstrap< ImageType, Functor, 256 >, ImageType >", "class_m_r_1_1_adapter_1_1_base.html", [
         [ "MR::DWI::Bootstrap< ImageType, Functor, NUM_VOX_PER_CHUNK >", "class_m_r_1_1_d_w_i_1_1_bootstrap.html", null ]
       ] ],
       [ "MR::Adapter::Base< Extract1D< ImageType >, ImageType >", "class_m_r_1_1_adapter_1_1_base.html", [
@@ -325,36 +350,41 @@ var hierarchy =
       [ "MR::Adapter::Base< Subset< ImageType >, ImageType >", "class_m_r_1_1_adapter_1_1_base.html", [
         [ "MR::Adapter::Subset< ImageType >", "class_m_r_1_1_adapter_1_1_subset.html", null ]
       ] ],
-      [ "MR::Image< bool >", "class_m_r_1_1_image.html", [
-        [ "MR::DWI::Tractography::Mask", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mask.html", null ]
-      ] ],
-      [ "MR::Image< cfloat >", "class_m_r_1_1_image.html", [
-        [ "MR::Interp::Base< MR::Image< cfloat > >", "class_m_r_1_1_interp_1_1_base.html", [
-          [ "MR::Interp::Nearest< MR::Image< cfloat > >", "class_m_r_1_1_interp_1_1_nearest.html", null ]
-        ] ]
-      ] ],
-      [ "MR::Image< default_type >", "class_m_r_1_1_image.html", null ],
-      [ "MR::Image< float >", "class_m_r_1_1_image.html", [
-        [ "MR::Interp::Base< MR::Image< float > >", "class_m_r_1_1_interp_1_1_base.html", [
-          [ "MR::Interp::Nearest< MR::Image< float > >", "class_m_r_1_1_interp_1_1_nearest.html", null ]
-        ] ]
-      ] ],
-      [ "MR::Image< index_type >", "class_m_r_1_1_image.html", null ],
-      [ "MR::Image< MapVoxel * >", "class_m_r_1_1_image.html", null ],
-      [ "MR::Image< node_t >", "class_m_r_1_1_image.html", null ],
-      [ "MR::Image< uint64_t >", "class_m_r_1_1_image.html", [
-        [ "MR::Fixel::Legacy::Image< DataType >", "class_m_r_1_1_fixel_1_1_legacy_1_1_image.html", null ]
-      ] ],
-      [ "MR::Image< value_type >", "class_m_r_1_1_image.html", [
-        [ "MR::DWI::Tractography::Mapping::BufferScratchDump< value_type >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_buffer_scratch_dump.html", null ]
-      ] ],
       [ "MR::Adapter::Base< AdapterType, ImageType >", "class_m_r_1_1_adapter_1_1_base.html", null ],
       [ "MR::Adapter::Reslice< Interpolator, ImageType >", "class_m_r_1_1_adapter_1_1_reslice.html", null ],
-      [ "MR::Adapter::Warp< Interpolator, ImageType, WarpType >", "class_m_r_1_1_adapter_1_1_warp.html", null ],
-      [ "MR::Image< ValueType >", "class_m_r_1_1_image.html", null ]
+      [ "MR::Adapter::Warp< Interpolator, ImageType, WarpType >", "class_m_r_1_1_adapter_1_1_warp.html", null ]
     ] ],
-    [ "MR::GUI::MRView::ImageBase< Image< cfloat >, cfloat >", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_image_base.html", null ],
     [ "MR::Filter::ImageCorrelationCostFunction< ImageType, MaskType >", "class_m_r_1_1_filter_1_1_image_correlation_cost_function.html", null ],
+    [ "ImageType", null, [
+      [ "MR::Interp::Base< ImageType >", "class_m_r_1_1_interp_1_1_base.html", [
+        [ "MR::Interp::LinearInterpBase< ImageType, LinearInterpProcessingType::Derivative >", "class_m_r_1_1_interp_1_1_linear_interp_base.html", [
+          [ "MR::Interp::LinearInterp< ImageType, LinearInterpProcessingType::Derivative >", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_derivative_01_4.html", null ]
+        ] ],
+        [ "MR::Interp::LinearInterpBase< ImageType, LinearInterpProcessingType::Value >", "class_m_r_1_1_interp_1_1_linear_interp_base.html", [
+          [ "MR::Interp::LinearInterp< ImageType, LinearInterpProcessingType::Value >", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_value_01_4.html", null ]
+        ] ],
+        [ "MR::Interp::LinearInterpBase< ImageType, LinearInterpProcessingType::ValueAndDerivative >", "class_m_r_1_1_interp_1_1_linear_interp_base.html", [
+          [ "MR::Interp::LinearInterp< ImageType, LinearInterpProcessingType::ValueAndDerivative >", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_value_and_derivative_01_4.html", null ]
+        ] ],
+        [ "MR::Interp::LinearInterpBase< ImageType, PType >", "class_m_r_1_1_interp_1_1_linear_interp_base.html", [
+          [ "MR::Interp::LinearInterp< ImageType, PType >", "class_m_r_1_1_interp_1_1_linear_interp.html", null ]
+        ] ],
+        [ "MR::Interp::Nearest< ImageType >", "class_m_r_1_1_interp_1_1_nearest.html", null ],
+        [ "MR::Interp::Sinc< ImageType >", "class_m_r_1_1_interp_1_1_sinc.html", null ],
+        [ "MR::Interp::SplineInterpBase< ImageType, SplineType, PType >", "class_m_r_1_1_interp_1_1_spline_interp_base.html", [
+          [ "MR::Interp::SplineInterp< ImageType, SplineType, PType >", "class_m_r_1_1_interp_1_1_spline_interp.html", null ]
+        ] ],
+        [ "MR::Interp::SplineInterpBase< ImageType, SplineType, Math::SplineProcessingType::Derivative >", "class_m_r_1_1_interp_1_1_spline_interp_base.html", [
+          [ "MR::Interp::SplineInterp< ImageType, SplineType, Math::SplineProcessingType::Derivative >", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_p71b7b33230e9f6db7179b5005ae1ab41.html", null ]
+        ] ],
+        [ "MR::Interp::SplineInterpBase< ImageType, SplineType, Math::SplineProcessingType::Value >", "class_m_r_1_1_interp_1_1_spline_interp_base.html", [
+          [ "MR::Interp::SplineInterp< ImageType, SplineType, Math::SplineProcessingType::Value >", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_processing_type_1_1_value_01_4.html", null ]
+        ] ],
+        [ "MR::Interp::SplineInterpBase< ImageType, SplineType, Math::SplineProcessingType::ValueAndDerivative >", "class_m_r_1_1_interp_1_1_spline_interp_base.html", [
+          [ "MR::Interp::SplineInterp< ImageType, SplineType, Math::SplineProcessingType::ValueAndDerivative >", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_p67c55abb4645d7286881c1c4671654a0.html", null ]
+        ] ]
+      ] ]
+    ] ],
     [ "MR::Math::RNG::Integer< ValueType >", "class_m_r_1_1_math_1_1_r_n_g_1_1_integer.html", null ],
     [ "integral_constant", null, [
       [ "MR::is_data_type< ValueType >", "struct_m_r_1_1is__data__type.html", null ]
@@ -413,10 +443,10 @@ var hierarchy =
     [ "MR::Connectome::Mat2Vec", "class_m_r_1_1_connectome_1_1_mat2_vec.html", null ],
     [ "MR::GUI::GL::mat4", "class_m_r_1_1_g_u_i_1_1_g_l_1_1mat4.html", null ],
     [ "MR::Algo::Histogram::Matcher", "class_m_r_1_1_algo_1_1_histogram_1_1_matcher.html", null ],
+    [ "MR::DWI::Tractography::Connectome::Matrix< T >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_matrix.html", null ],
     [ "Matrix", null, [
       [ "MR::DWI::FMLS::SH_coefs", "class_m_r_1_1_d_w_i_1_1_f_m_l_s_1_1_s_h__coefs.html", null ]
     ] ],
-    [ "MR::DWI::Tractography::Connectome::Matrix< T >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_matrix.html", null ],
     [ "MR::max_digits< X, ReturnType >", "struct_m_r_1_1max__digits.html", null ],
     [ "MR::max_digits< X, typename std::enable_if< std::is_fundamental< typename X::Scalar >::value, int >::type >", "struct_m_r_1_1max__digits_3_01_x_00_01typename_01std_1_1enable__if_3_01std_1_1is__fundamental_3_8467db8cf8cb55f508d8abceaab32928.html", null ],
     [ "MR::max_digits< X, typename std::enable_if< std::is_fundamental< typename X::value_type >::value &&!std::is_fundamental< typename X::Scalar >::value, int >::type >", "struct_m_r_1_1max__digits_3_01_x_00_01typename_01std_1_1enable__if_3_01std_1_1is__fundamental_3_1ef7ff8baa0d3893f596cbe7273651cd.html", null ],
@@ -636,7 +666,8 @@ var hierarchy =
     [ "MR::Random_loop< ImageType, RandomEngine >", "class_m_r_1_1_random__loop.html", null ],
     [ "MR::Random_sparse_loop< ImageType >", "class_m_r_1_1_random__sparse__loop.html", null ],
     [ "MR::Thread::Queue< T >::Reader", "class_m_r_1_1_thread_1_1_queue_1_1_reader.html", null ],
-    [ "MR::DWI::Tractography::ReaderInterface< ValueType >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_reader_interface.html", [
+    [ "MR::DWI::Tractography::ReaderInterface< ValueType >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_reader_interface.html", null ],
+    [ "MR::DWI::Tractography::ReaderInterface< float >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_reader_interface.html", [
       [ "MR::DWI::Tractography::Reader< ValueType >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_reader.html", null ]
     ] ],
     [ "MR::DWI::Tractography::Editing::Receiver", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_editing_1_1_receiver.html", null ],
@@ -652,27 +683,24 @@ var hierarchy =
     [ "MR::Registration::Transform::Init::LinearInitialisationParams::RotationInit::rot_search", "struct_m_r_1_1_registration_1_1_transform_1_1_init_1_1_linear_initialisation_params_1_1_rotation_init_1_1rot__search.html", null ],
     [ "MR::Registration::Transform::Init::LinearInitialisationParams::RotationInit", "struct_m_r_1_1_registration_1_1_transform_1_1_init_1_1_linear_initialisation_params_1_1_rotation_init.html", null ],
     [ "MR::Helper::Row< ImageType >", "class_m_r_1_1_helper_1_1_row.html", null ],
-    [ "MR::LoopAlongDynamicAxes::Run< ImageType >", "struct_m_r_1_1_loop_along_dynamic_axes_1_1_run.html", null ],
-    [ "MR::LoopAlongAxisRange::Run< ImageType >", "struct_m_r_1_1_loop_along_axis_range_1_1_run.html", null ],
     [ "MR::LoopAlongSingleAxis::Run< ImageType >", "struct_m_r_1_1_loop_along_single_axis_1_1_run.html", null ],
-    [ "MR::LoopAlongSingleAxisProgress::Run< ImageType >", "struct_m_r_1_1_loop_along_single_axis_progress_1_1_run.html", null ],
-    [ "MR::Fixel::LoopFixelsInVoxel::Run< DataType >", "struct_m_r_1_1_fixel_1_1_loop_fixels_in_voxel_1_1_run.html", null ],
-    [ "MR::LoopAlongStaticAxes::Run< ImageType >", "struct_m_r_1_1_loop_along_static_axes_1_1_run.html", null ],
-    [ "MR::LoopAlongDynamicAxes::Run< ImageType... >", "struct_m_r_1_1_loop_along_dynamic_axes_1_1_run.html", [
+    [ "MR::LoopAlongDynamicAxes::Run< ImageType >", "struct_m_r_1_1_loop_along_dynamic_axes_1_1_run.html", [
       [ "MR::LoopAlongDynamicAxesProgress::Run< ImageType >", "struct_m_r_1_1_loop_along_dynamic_axes_progress_1_1_run.html", null ]
     ] ],
-    [ "MR::LoopAlongAxisRange::Run< ImageType... >", "struct_m_r_1_1_loop_along_axis_range_1_1_run.html", [
+    [ "MR::LoopAlongSingleAxisProgress::Run< ImageType >", "struct_m_r_1_1_loop_along_single_axis_progress_1_1_run.html", null ],
+    [ "MR::LoopAlongAxisRange::Run< ImageType >", "struct_m_r_1_1_loop_along_axis_range_1_1_run.html", [
       [ "MR::LoopAlongAxisRangeProgress::Run< ImageType >", "struct_m_r_1_1_loop_along_axis_range_progress_1_1_run.html", null ]
     ] ],
+    [ "MR::Fixel::LoopFixelsInVoxel::Run< DataType >", "struct_m_r_1_1_fixel_1_1_loop_fixels_in_voxel_1_1_run.html", null ],
+    [ "MR::LoopAlongStaticAxes::Run< ImageType >", "struct_m_r_1_1_loop_along_static_axes_1_1_run.html", null ],
     [ "MR::LoopAlongStaticAxes::Run< ImageType... >", "struct_m_r_1_1_loop_along_static_axes_1_1_run.html", [
       [ "MR::LoopAlongStaticAxesProgress::Run< ImageType >", "struct_m_r_1_1_loop_along_static_axes_progress_1_1_run.html", null ]
     ] ],
+    [ "MR::LoopAlongDynamicAxes::Run< ImageType... >", "struct_m_r_1_1_loop_along_dynamic_axes_1_1_run.html", null ],
+    [ "MR::LoopAlongAxisRange::Run< ImageType... >", "struct_m_r_1_1_loop_along_axis_range_1_1_run.html", null ],
     [ "MR::DWI::FMLS::Segmenter", "class_m_r_1_1_d_w_i_1_1_f_m_l_s_1_1_segmenter.html", null ],
     [ "MR::DWI::Tractography::Connectome::Selector", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_selector.html", null ],
     [ "MR::File::Dicom::Sequence", "class_m_r_1_1_file_1_1_dicom_1_1_sequence.html", null ],
-    [ "MR::DWI::Directions::Set", "class_m_r_1_1_d_w_i_1_1_directions_1_1_set.html", [
-      [ "MR::DWI::Directions::FastLookupSet", "class_m_r_1_1_d_w_i_1_1_directions_1_1_fast_lookup_set.html", null ]
-    ] ],
     [ "set", null, [
       [ "MR::DWI::Tractography::Mapping::Gaussian::SetDixel", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_set_dixel.html", null ],
       [ "MR::DWI::Tractography::Mapping::Gaussian::SetVoxel", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_set_voxel.html", null ],
@@ -683,6 +711,9 @@ var hierarchy =
       [ "MR::DWI::Tractography::Mapping::SetVoxelDEC", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_voxel_d_e_c.html", null ],
       [ "MR::DWI::Tractography::Mapping::SetVoxelDir", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_voxel_dir.html", null ],
       [ "MR::DWI::Tractography::Mapping::SetVoxelTOD", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_voxel_t_o_d.html", null ]
+    ] ],
+    [ "MR::DWI::Directions::Set", "class_m_r_1_1_d_w_i_1_1_directions_1_1_set.html", [
+      [ "MR::DWI::Directions::FastLookupSet", "class_m_r_1_1_d_w_i_1_1_directions_1_1_fast_lookup_set.html", null ]
     ] ],
     [ "MR::DWI::Tractography::Mapping::SetVoxelExtras", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_voxel_extras.html", [
       [ "MR::DWI::Tractography::Mapping::Gaussian::SetDixel", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_set_dixel.html", null ],
@@ -743,40 +774,13 @@ var hierarchy =
       ] ]
     ] ],
     [ "MR::Stats::CFE::TrackProcessor", "class_m_r_1_1_stats_1_1_c_f_e_1_1_track_processor.html", null ],
-    [ "MR::Math::ZSH::Transform< ValueType >", "class_m_r_1_1_math_1_1_z_s_h_1_1_transform.html", null ],
-    [ "MR::Math::SH::Transform< ValueType >", "class_m_r_1_1_math_1_1_s_h_1_1_transform.html", null ],
     [ "MR::Transform", "class_m_r_1_1_transform.html", [
       [ "MR::Interp::Base< MR::Image< cfloat > >", "class_m_r_1_1_interp_1_1_base.html", null ],
       [ "MR::Interp::Base< MR::Image< float > >", "class_m_r_1_1_interp_1_1_base.html", null ],
-      [ "MR::Interp::Base< ImageType >", "class_m_r_1_1_interp_1_1_base.html", [
-        [ "MR::Interp::LinearInterpBase< ImageType, LinearInterpProcessingType::Derivative >", "class_m_r_1_1_interp_1_1_linear_interp_base.html", [
-          [ "MR::Interp::LinearInterp< ImageType, LinearInterpProcessingType::Derivative >", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_derivative_01_4.html", null ]
-        ] ],
-        [ "MR::Interp::LinearInterpBase< ImageType, LinearInterpProcessingType::Value >", "class_m_r_1_1_interp_1_1_linear_interp_base.html", [
-          [ "MR::Interp::LinearInterp< ImageType, LinearInterpProcessingType::Value >", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_value_01_4.html", null ]
-        ] ],
-        [ "MR::Interp::LinearInterpBase< ImageType, LinearInterpProcessingType::ValueAndDerivative >", "class_m_r_1_1_interp_1_1_linear_interp_base.html", [
-          [ "MR::Interp::LinearInterp< ImageType, LinearInterpProcessingType::ValueAndDerivative >", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_value_and_derivative_01_4.html", null ]
-        ] ],
-        [ "MR::Interp::LinearInterpBase< ImageType, PType >", "class_m_r_1_1_interp_1_1_linear_interp_base.html", [
-          [ "MR::Interp::LinearInterp< ImageType, PType >", "class_m_r_1_1_interp_1_1_linear_interp.html", null ]
-        ] ],
-        [ "MR::Interp::Nearest< ImageType >", "class_m_r_1_1_interp_1_1_nearest.html", null ],
-        [ "MR::Interp::Sinc< ImageType >", "class_m_r_1_1_interp_1_1_sinc.html", null ],
-        [ "MR::Interp::SplineInterpBase< ImageType, SplineType, PType >", "class_m_r_1_1_interp_1_1_spline_interp_base.html", [
-          [ "MR::Interp::SplineInterp< ImageType, SplineType, PType >", "class_m_r_1_1_interp_1_1_spline_interp.html", null ]
-        ] ],
-        [ "MR::Interp::SplineInterpBase< ImageType, SplineType, Math::SplineProcessingType::Derivative >", "class_m_r_1_1_interp_1_1_spline_interp_base.html", [
-          [ "MR::Interp::SplineInterp< ImageType, SplineType, Math::SplineProcessingType::Derivative >", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_p71b7b33230e9f6db7179b5005ae1ab41.html", null ]
-        ] ],
-        [ "MR::Interp::SplineInterpBase< ImageType, SplineType, Math::SplineProcessingType::Value >", "class_m_r_1_1_interp_1_1_spline_interp_base.html", [
-          [ "MR::Interp::SplineInterp< ImageType, SplineType, Math::SplineProcessingType::Value >", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_processing_type_1_1_value_01_4.html", null ]
-        ] ],
-        [ "MR::Interp::SplineInterpBase< ImageType, SplineType, Math::SplineProcessingType::ValueAndDerivative >", "class_m_r_1_1_interp_1_1_spline_interp_base.html", [
-          [ "MR::Interp::SplineInterp< ImageType, SplineType, Math::SplineProcessingType::ValueAndDerivative >", "class_m_r_1_1_interp_1_1_spline_interp_3_01_image_type_00_01_spline_type_00_01_math_1_1_spline_p67c55abb4645d7286881c1c4671654a0.html", null ]
-        ] ]
-      ] ]
+      [ "MR::Interp::Base< ImageType >", "class_m_r_1_1_interp_1_1_base.html", null ]
     ] ],
+    [ "MR::Math::SH::Transform< ValueType >", "class_m_r_1_1_math_1_1_s_h_1_1_transform.html", null ],
+    [ "MR::Math::ZSH::Transform< ValueType >", "class_m_r_1_1_math_1_1_z_s_h_1_1_transform.html", null ],
     [ "MR::GUI::Dialog::TreeItem", "class_m_r_1_1_g_u_i_1_1_dialog_1_1_tree_item.html", null ],
     [ "true_type", null, [
       [ "MR::is_complex< std::complex< ValueType > >", "struct_m_r_1_1is__complex_3_01std_1_1complex_3_01_value_type_01_4_01_4.html", null ]
@@ -801,12 +805,10 @@ var hierarchy =
       [ "MR::copy_ptr< Im2ImageInterpolatorType >", "class_m_r_1_1copy__ptr.html", null ],
       [ "MR::copy_ptr< Im2ImageInterpType >", "class_m_r_1_1copy__ptr.html", null ],
       [ "MR::copy_ptr< Im2MaskInterpolatorType >", "class_m_r_1_1copy__ptr.html", null ],
-      [ "MR::copy_ptr< ProcessedMaskInterpolatorType >", "class_m_r_1_1copy__ptr.html", null ],
-      [ "MR::copy_ptr< ProcImageInterpolatorType >", "class_m_r_1_1copy__ptr.html", null ],
       [ "MR::copy_ptr< T, Deleter >", "class_m_r_1_1copy__ptr.html", null ]
     ] ],
-    [ "MR::BitSet::Value", "class_m_r_1_1_bit_set_1_1_value.html", null ],
     [ "MR::Fixel::Legacy::Value< DataType >", "class_m_r_1_1_fixel_1_1_legacy_1_1_value.html", null ],
+    [ "MR::BitSet::Value", "class_m_r_1_1_bit_set_1_1_value.html", null ],
     [ "MR::Interp::value_type_of< C >", "struct_m_r_1_1_interp_1_1value__type__of.html", null ],
     [ "MR::Interp::value_type_of< std::complex< X > >", "struct_m_r_1_1_interp_1_1value__type__of_3_01std_1_1complex_3_01_x_01_4_01_4.html", null ],
     [ "MR::GUI::GL::vec4", "class_m_r_1_1_g_u_i_1_1_g_l_1_1vec4.html", null ],
@@ -826,6 +828,7 @@ var hierarchy =
       [ "MR::vector< direction_type >", "class_m_r_1_1vector.html", null ],
       [ "MR::vector< double >", "class_m_r_1_1vector.html", null ],
       [ "MR::vector< Eigen::Matrix< float, 3, 1 > >", "class_m_r_1_1vector.html", [
+        [ "MR::DWI::Tractography::Streamline< ValueType >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_streamline.html", null ],
         [ "MR::DWI::Tractography::Streamline< float >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_streamline.html", [
           [ "MR::DWI::Tractography::Connectome::Exemplar", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_exemplar.html", null ]
         ] ],
@@ -833,9 +836,6 @@ var hierarchy =
           [ "MR::DWI::Tractography::Connectome::Streamline_nodelist", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_streamline__nodelist.html", null ],
           [ "MR::DWI::Tractography::Connectome::Streamline_nodepair", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_streamline__nodepair.html", null ]
         ] ]
-      ] ],
-      [ "MR::vector< Eigen::Matrix< ValueType, 3, 1 > >", "class_m_r_1_1vector.html", [
-        [ "MR::DWI::Tractography::Streamline< ValueType >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_streamline.html", null ]
       ] ],
       [ "MR::vector< Eigen::Vector3 >", "class_m_r_1_1vector.html", null ],
       [ "MR::vector< Eigen::Vector3f >", "class_m_r_1_1vector.html", [
@@ -967,10 +967,9 @@ var hierarchy =
     [ "MR::Thread::Queue< T >::Writer", "class_m_r_1_1_thread_1_1_queue_1_1_writer.html", null ],
     [ "MR::DWI::Tractography::Connectome::WriterExemplars", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_writer_exemplars.html", null ],
     [ "MR::DWI::Tractography::Connectome::WriterExtraction", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_writer_extraction.html", null ],
-    [ "MR::DWI::Tractography::WriterInterface< ValueType >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer_interface.html", [
-      [ "MR::DWI::Tractography::WriterUnbuffered< ValueType >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer_unbuffered.html", null ]
-    ] ],
-    [ "ImageType", null, [
-      [ "MR::Interp::Base< ImageType >", "class_m_r_1_1_interp_1_1_base.html", null ]
+    [ "MR::DWI::Tractography::WriterInterface< ValueType >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer_interface.html", null ],
+    [ "MR::DWI::Tractography::WriterInterface< float >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer_interface.html", [
+      [ "MR::DWI::Tractography::WriterUnbuffered< ValueType >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer_unbuffered.html", null ],
+      [ "MR::DWI::Tractography::WriterUnbuffered< float >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer_unbuffered.html", null ]
     ] ]
 ];
