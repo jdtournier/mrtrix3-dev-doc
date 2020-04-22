@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['reject_5ft_7377',['reject_t',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#ad956382fab3ffe08fe6398044e9ae01a',1,'MR::DWI::Tractography::Tracking']]]
+  ['optimiseralgotype_7888',['OptimiserAlgoType',['../namespace_m_r_1_1_registration.html#af1595cd6b5fb04c9de6a73964645804b',1,'MR::Registration']]]
 ];

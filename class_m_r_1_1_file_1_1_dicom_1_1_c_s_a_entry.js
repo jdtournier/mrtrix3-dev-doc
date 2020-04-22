@@ -4,6 +4,7 @@ var class_m_r_1_1_file_1_1_dicom_1_1_c_s_a_entry =
     [ "get_float", "class_m_r_1_1_file_1_1_dicom_1_1_c_s_a_entry.html#a79955f3214e16fc63a55cac54ee35ab1", null ],
     [ "get_float", "class_m_r_1_1_file_1_1_dicom_1_1_c_s_a_entry.html#a73e831b780e3b4a023762435b9424eef", null ],
     [ "get_int", "class_m_r_1_1_file_1_1_dicom_1_1_c_s_a_entry.html#a2dbd72fd1ec3d6b9945030ebd35a99d1", null ],
+    [ "get_string", "class_m_r_1_1_file_1_1_dicom_1_1_c_s_a_entry.html#aa383ccf36c43441675d81aec3dc5f5ba", null ],
     [ "key", "class_m_r_1_1_file_1_1_dicom_1_1_c_s_a_entry.html#a43628b7dcdd052b11f727394cdba5f7e", null ],
     [ "num_items", "class_m_r_1_1_file_1_1_dicom_1_1_c_s_a_entry.html#ad5a543435ea48d9836bbff1192cc4148", null ],
     [ "parse", "class_m_r_1_1_file_1_1_dicom_1_1_c_s_a_entry.html#a2c8aa7467e6216b0563e39f85c3d0843", null ],

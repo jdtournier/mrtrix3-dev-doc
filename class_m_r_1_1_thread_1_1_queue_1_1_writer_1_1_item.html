@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC3_latest-86-gcc3600ed</div>
+   <div id="projectbrief">Version 3.0_RC4-882-gb3b8647f</div>
   </td>
  </tr>
  </tbody>
@@ -84,6 +84,7 @@ $(document).ready(function(){initNavTree('class_m_r_1_1_thread_1_1_queue_1_1_wri
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="class_m_r_1_1_thread_1_1_queue_1_1_writer_1_1_item-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -96,6 +97,11 @@ $(document).ready(function(){initNavTree('class_m_r_1_1_thread_1_1_queue_1_1_wri
 
 <p><code>#include &quot;<a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>&quot;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a1f719638bdfd07ff68d5fc211882dfa3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_thread_1_1_queue_1_1_writer_1_1_item.html#a1f719638bdfd07ff68d5fc211882dfa3">item_type</a> = T</td></tr>
+<tr class="separator:a1f719638bdfd07ff68d5fc211882dfa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a21a053b8c154747c4fc827dd50601d66"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_thread_1_1_queue_1_1_writer_1_1_item.html#a21a053b8c154747c4fc827dd50601d66">Item</a> (const <a class="el" href="class_m_r_1_1_thread_1_1_queue_1_1_writer.html">Writer</a> &amp;writer)</td></tr>
@@ -120,11 +126,30 @@ class MR::Thread::Queue&lt; T &gt;::Writer::Item</h3>
 <p>Items cannot be written directly onto a <a class="el" href="class_m_r_1_1_thread_1_1_queue.html" title="A first-in first-out thread-safe item queue.">Thread::Queue</a> queue. An object of this class must be instantiated and used to write to the queue.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="class_m_r_1_1_thread_1_1_queue.html" title="A first-in first-out thread-safe item queue.">Thread::Queue</a> for more detailed information and examples. </dd>
 <dd>
-<a class="el" href="group__thread__queue.html#gaad717471c1771f5e794d0d8907cc3efc" title="convenience function to set up and run a 2-stage multi-threaded pipeline.">Thread::run_queue()</a> for a much more user-friendly way of setting up a queue. <br  />
+<a class="el" href="group__thread__queue.html#ga379ecfe538318b967e6d6fc74ab61b11" title="convenience function to set up and run a 2-stage multi-threaded pipeline.">Thread::run_queue()</a> for a much more user-friendly way of setting up a queue. <br  />
  </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00417">417</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00395">395</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="a1f719638bdfd07ff68d5fc211882dfa3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f719638bdfd07ff68d5fc211882dfa3">&#9670;&nbsp;</a></span>item_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="class_m_r_1_1_thread_1_1_queue.html">MR::Thread::Queue</a>&lt; T &gt;::<a class="el" href="class_m_r_1_1_thread_1_1_queue_1_1_writer_1_1_item.html#a1f719638bdfd07ff68d5fc211882dfa3">Writer::Item::item_type</a> =  T</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00411">411</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a21a053b8c154747c4fc827dd50601d66"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a21a053b8c154747c4fc827dd50601d66">&#9670;&nbsp;</a></span>Item()</h2>
 
@@ -155,7 +180,7 @@ template&lt;class T &gt; </div>
 <p>The <a class="el" href="class_m_r_1_1_thread_1_1_queue_1_1_writer_1_1_item.html" title="This class is used to write items to the queue.">Writer::Item</a> object can only be instantiated from a <a class="el" href="class_m_r_1_1_thread_1_1_queue_1_1_writer.html" title="This class is used to register a writer with the queue.">Writer</a> object, ensuring that the corresponding section of code has already registered as a writer with the queue. The destructor for this object will unregister from the queue.</p>
 <dl class="section note"><dt>Note</dt><dd>There should only be one <a class="el" href="class_m_r_1_1_thread_1_1_queue_1_1_writer_1_1_item.html" title="This class is used to write items to the queue.">Writer::Item</a> object per <a class="el" href="class_m_r_1_1_thread_1_1_queue_1_1_writer.html" title="This class is used to register a writer with the queue.">Writer</a>. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00427">427</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00405">405</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
 
 </div>
 </div>
@@ -186,7 +211,7 @@ template&lt;class T &gt; </div>
 
 <p>Unregister the parent <a class="el" href="class_m_r_1_1_thread_1_1_queue_1_1_writer.html" title="This class is used to register a writer with the queue.">Writer</a> from the queue. </p>
 
-<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00429">429</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00407">407</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
 
 </div>
 </div>
@@ -222,7 +247,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00436">436</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00417">417</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
 
 </div>
 </div>
@@ -257,7 +282,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00439">439</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00420">420</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
 
 </div>
 </div>
@@ -288,7 +313,7 @@ template&lt;class T &gt; </div>
 
 <p>Push the item onto the queue. </p>
 
-<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00433">433</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00414">414</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
 
 </div>
 </div>
@@ -301,7 +326,7 @@ template&lt;class T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_thread.html">Thread</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_thread_1_1_queue.html">Queue</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_thread_1_1_queue_1_1_writer.html">Writer</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_thread_1_1_queue_1_1_writer_1_1_item.html">Item</a></li>
-    <li class="footer">Generated on Mon Apr 13 2020 22:01:56 for MRtrix by
+    <li class="footer">Generated on Wed Apr 22 2020 19:06:16 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

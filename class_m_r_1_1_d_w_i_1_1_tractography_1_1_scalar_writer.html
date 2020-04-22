@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC3_latest-86-gcc3600ed</div>
+   <div id="projectbrief">Version 3.0_RC4-882-gb3b8647f</div>
   </td>
  </tr>
  </tbody>
@@ -116,11 +116,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a978e28e19074f1ea2095cd1fa497a363"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0910df3abbb139c47e057a0ec6fbfe8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_scalar_writer.html#ac0910df3abbb139c47e057a0ec6fbfe8">~ScalarWriter</a> ()</td></tr>
 <tr class="separator:ac0910df3abbb139c47e057a0ec6fbfe8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47486285212c16b908734074cadc1d54"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_scalar_writer.html#a47486285212c16b908734074cadc1d54">operator()</a> (const <a class="el" href="class_m_r_1_1vector.html">vector</a>&lt; <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_scalar_writer.html#a034f7e5f6abe4ef956e56a947c522382">value_type</a> &gt; &amp;tck_scalar)</td></tr>
-<tr class="separator:a47486285212c16b908734074cadc1d54"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a24c7668a8e0d086beea72236892f6e0c"><td class="memTemplParams" colspan="2">template&lt;typename matrix_type &gt; </td></tr>
-<tr class="memitem:a24c7668a8e0d086beea72236892f6e0c"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_scalar_writer.html#a24c7668a8e0d086beea72236892f6e0c">operator()</a> (const <a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt; matrix_type, Eigen::Dynamic, 1 &gt; &amp;data)</td></tr>
-<tr class="separator:a24c7668a8e0d086beea72236892f6e0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18245c240397ba85f0ab0d19844766ff"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_scalar_writer.html#a18245c240397ba85f0ab0d19844766ff">operator()</a> (const <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_track_scalar.html">TrackScalar</a>&lt; T &gt; &amp;tck_scalar)</td></tr>
+<tr class="separator:a18245c240397ba85f0ab0d19844766ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -152,9 +149,9 @@ class MR::DWI::Tractography::ScalarWriter&lt; T &gt;</h3>
 
 <p>class to handle writing track scalars to file </p>
 <p>writes track scalar file header as specified in <em>properties</em> and individual track scalars to the file specified in <em>file</em>. Writing individual scalars is done using the append() method.</p>
-<p>This class implements a large write-back RAM buffer to hold the track scalar data in RAM, and only commits to file when the buffer capacity is reached. This minimises the number of <a class="el" href="namespace_m_r_1_1_file_1_1_n_if_t_i1.html#a0b1b9bf3b88c0c40db048189039f3a84">write()</a> calls, which can otherwise become a bottleneck on distributed or network filesystems. It also helps reduce file fragmentation when multiple processes write to file concurrently. The size of the write-back buffer defaults to 16MB, and can be set in the config file using the TrackWriterBufferSize field (in bytes). </p>
+<p>This class implements a large write-back RAM buffer to hold the track scalar data in RAM, and only commits to file when the buffer capacity is reached. This minimises the number of <a class="el" href="namespace_m_r_1_1_file_1_1_j_s_o_n.html#a4a8114f3a91dd93e130ec5f8eb02ab3d">write()</a> calls, which can otherwise become a bottleneck on distributed or network filesystems. It also helps reduce file fragmentation when multiple processes write to file concurrently. The size of the write-back buffer defaults to 16MB, and can be set in the config file using the TrackWriterBufferSize field (in bytes). </p>
 
-<p class="definition">Definition at line <a class="el" href="scalar__file_8h_source.html#l00162">162</a> of file <a class="el" href="scalar__file_8h_source.html">scalar_file.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="scalar__file_8h_source.html#l00167">167</a> of file <a class="el" href="scalar__file_8h_source.html">scalar_file.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a034f7e5f6abe4ef956e56a947c522382"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a034f7e5f6abe4ef956e56a947c522382">&#9670;&nbsp;</a></span>value_type</h2>
@@ -170,7 +167,7 @@ template&lt;typename T  = float&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="scalar__file_8h_source.html#l00165">165</a> of file <a class="el" href="scalar__file_8h_source.html">scalar_file.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="scalar__file_8h_source.html#l00170">170</a> of file <a class="el" href="scalar__file_8h_source.html">scalar_file.h</a>.</p>
 
 </div>
 </div>
@@ -211,7 +208,7 @@ template&lt;typename T  = float&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="scalar__file_8h_source.html#l00176">176</a> of file <a class="el" href="scalar__file_8h_source.html">scalar_file.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="scalar__file_8h_source.html#l00181">181</a> of file <a class="el" href="scalar__file_8h_source.html">scalar_file.h</a>.</p>
 
 </div>
 </div>
@@ -240,7 +237,7 @@ template&lt;typename T  = float&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="scalar__file_8h_source.html#l00196">196</a> of file <a class="el" href="scalar__file_8h_source.html">scalar_file.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="scalar__file_8h_source.html#l00202">202</a> of file <a class="el" href="scalar__file_8h_source.html">scalar_file.h</a>.</p>
 
 </div>
 </div>
@@ -299,7 +296,7 @@ template&lt;typename T  = float&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="scalar__file_8h_source.html#l00242">242</a> of file <a class="el" href="scalar__file_8h_source.html">scalar_file.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="scalar__file_8h_source.html#l00230">230</a> of file <a class="el" href="scalar__file_8h_source.html">scalar_file.h</a>.</p>
 
 </div>
 </div>
@@ -328,7 +325,7 @@ template&lt;typename T  = float&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="scalar__file_8h_source.html#l00257">257</a> of file <a class="el" href="scalar__file_8h_source.html">scalar_file.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="scalar__file_8h_source.html#l00245">245</a> of file <a class="el" href="scalar__file_8h_source.html">scalar_file.h</a>.</p>
 
 </div>
 </div>
@@ -357,7 +354,7 @@ template&lt;typename T  = float&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="scalar__file_8h_source.html#l00246">246</a> of file <a class="el" href="scalar__file_8h_source.html">scalar_file.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="scalar__file_8h_source.html#l00234">234</a> of file <a class="el" href="scalar__file_8h_source.html">scalar_file.h</a>.</p>
 
 </div>
 </div>
@@ -397,44 +394,12 @@ template&lt;typename T  = float&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="scalar__file_8h_source.html#l00248">248</a> of file <a class="el" href="scalar__file_8h_source.html">scalar_file.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="scalar__file_8h_source.html#l00236">236</a> of file <a class="el" href="scalar__file_8h_source.html">scalar_file.h</a>.</p>
 
 </div>
 </div>
-<a id="a24c7668a8e0d086beea72236892f6e0c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a24c7668a8e0d086beea72236892f6e0c">&#9670;&nbsp;</a></span>operator()() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T  = float&gt; </div>
-<div class="memtemplate">
-template&lt;typename matrix_type &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_scalar_writer.html">MR::DWI::Tractography::ScalarWriter</a>&lt; T &gt;::operator() </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt; matrix_type, Eigen::Dynamic, 1 &gt; &amp;&#160;</td>
-          <td class="paramname"><em>data</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="scalar__file_8h_source.html#l00218">218</a> of file <a class="el" href="scalar__file_8h_source.html">scalar_file.h</a>.</p>
-
-</div>
-</div>
-<a id="a47486285212c16b908734074cadc1d54"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a47486285212c16b908734074cadc1d54">&#9670;&nbsp;</a></span>operator()() <span class="overload">[2/2]</span></h2>
+<a id="a18245c240397ba85f0ab0d19844766ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18245c240397ba85f0ab0d19844766ff">&#9670;&nbsp;</a></span>operator()()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -447,7 +412,7 @@ template&lt;typename T  = float&gt; </div>
         <tr>
           <td class="memname">bool <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_scalar_writer.html">MR::DWI::Tractography::ScalarWriter</a>&lt; T &gt;::operator() </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_m_r_1_1vector.html">vector</a>&lt; <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_scalar_writer.html#a034f7e5f6abe4ef956e56a947c522382">value_type</a> &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_track_scalar.html">TrackScalar</a>&lt; T &gt; &amp;&#160;</td>
           <td class="paramname"><em>tck_scalar</em></td><td>)</td>
           <td></td>
         </tr>
@@ -459,7 +424,7 @@ template&lt;typename T  = float&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="scalar__file_8h_source.html#l00201">201</a> of file <a class="el" href="scalar__file_8h_source.html">scalar_file.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="scalar__file_8h_source.html#l00207">207</a> of file <a class="el" href="scalar__file_8h_source.html">scalar_file.h</a>.</p>
 
 </div>
 </div>
@@ -486,7 +451,7 @@ template&lt;typename T  = float&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="scalar__file_8h_source.html#l00238">238</a> of file <a class="el" href="scalar__file_8h_source.html">scalar_file.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="scalar__file_8h_source.html#l00226">226</a> of file <a class="el" href="scalar__file_8h_source.html">scalar_file.h</a>.</p>
 
 </div>
 </div>
@@ -512,7 +477,7 @@ template&lt;typename T  = float&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="scalar__file_8h_source.html#l00237">237</a> of file <a class="el" href="scalar__file_8h_source.html">scalar_file.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="scalar__file_8h_source.html#l00225">225</a> of file <a class="el" href="scalar__file_8h_source.html">scalar_file.h</a>.</p>
 
 </div>
 </div>
@@ -538,7 +503,7 @@ template&lt;typename T  = float&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="scalar__file_8h_source.html#l00239">239</a> of file <a class="el" href="scalar__file_8h_source.html">scalar_file.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="scalar__file_8h_source.html#l00227">227</a> of file <a class="el" href="scalar__file_8h_source.html">scalar_file.h</a>.</p>
 
 </div>
 </div>
@@ -564,7 +529,7 @@ template&lt;typename T  = float&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="scalar__file_8h_source.html#l00240">240</a> of file <a class="el" href="scalar__file_8h_source.html">scalar_file.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="scalar__file_8h_source.html#l00228">228</a> of file <a class="el" href="scalar__file_8h_source.html">scalar_file.h</a>.</p>
 
 </div>
 </div>
@@ -577,7 +542,7 @@ template&lt;typename T  = float&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_d_w_i.html">DWI</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography.html">Tractography</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_scalar_writer.html">ScalarWriter</a></li>
-    <li class="footer">Generated on Mon Apr 13 2020 22:01:55 for MRtrix by
+    <li class="footer">Generated on Wed Apr 22 2020 19:06:15 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

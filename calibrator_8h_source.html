@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC3_latest-86-gcc3600ed</div>
+   <div id="projectbrief">Version 3.0_RC4-882-gb3b8647f</div>
   </td>
  </tr>
  </tbody>
@@ -87,140 +87,142 @@ $(document).ready(function(){initNavTree('calibrator_8h_source.html',''); initRe
 <div class="title">calibrator.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="calibrator_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * Copyright (c) 2008-2018 the MRtrix3 contributors.</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * This Source Code Form is subject to the terms of the Mozilla Public</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> * License, v. 2.0. If a copy of the MPL was not distributed with this</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> * file, you can obtain one at http://mozilla.org/MPL/2.0/</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"> * MRtrix3 is distributed in the hope that it will be useful,</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> * but WITHOUT ANY WARRANTY; without even the implied warranty</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"> * of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"> * For more details, see http://www.mrtrix.org/</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#ifndef __dwi_tractography_algorithms_iFOD_calibrator_h__</span></div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#define __dwi_tractography_algorithms_iFOD_calibrator_h__</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="src_2dwi_2tractography_2tracking_2types_8h.html">types.h</a>&quot;</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_s_h_8h.html">math/SH.h</a>&quot;</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="tracking_2shared_8h.html">dwi/tractography/tracking/shared.h</a>&quot;</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="src_2dwi_2tractography_2tracking_2types_8h.html">dwi/tractography/tracking/types.h</a>&quot;</span></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
-<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="calibrator_8h.html#a1b33f6d4c5af51c0fa88d1ab5eae029a">   24</a></span>&#160;<span class="preprocessor">#define SQRT_3_OVER_2 0.866025403784439</span></div>
-<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="calibrator_8h.html#a2a8ba3b84a6d2723dcc924a470647ad0">   25</a></span>&#160;<span class="preprocessor">#define NUM_CALIBRATE 1000</span></div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespace_m_r.html">MR</a> {</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;  <span class="keyword">namespace </span>DWI {</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keyword">namespace </span>Tractography {</div>
-<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms.html">   30</a></span>&#160;      <span class="keyword">namespace </span>Algorithms {</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;      <span class="keyword">using namespace </span><a class="code" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html">MR::DWI::Tractography::Tracking</a>;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
-<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms.html#a9fab993082430928fb0ffffd53a1352b">   34</a></span>&#160;      <a class="code" href="src_2surface_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> <a class="code" href="class_m_r_1_1vector.html">vector&lt;Eigen::Vector3f&gt;</a> <a class="code" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms.html#a9fab993082430928fb0ffffd53a1352b">direction_grid</a> (<span class="keywordtype">float</span> max_angle, <span class="keywordtype">float</span> spacing)</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;      {</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keyword">const</span> <span class="keywordtype">float</span> maxR = <a class="code" href="group__elfun.html#ga8bf8967471ef09d762367a1844985db8">Math::pow2</a> (max_angle / spacing);</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <a class="code" href="class_m_r_1_1vector.html">vector&lt;Eigen::Vector3f&gt;</a> list;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        ssize_t extent = <a class="code" href="group__elfun.html#ga929c0b6d5d5154833c7387b2c65b0775">std::ceil</a> (max_angle / spacing);</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordflow">for</span> (ssize_t i = -extent; i &lt;= extent; ++i) {</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;          <span class="keywordflow">for</span> (ssize_t j = -extent; j &lt;= extent; ++j) {</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            <span class="keywordtype">float</span> x = i + 0.5*j, y = <a class="code" href="calibrator_8h.html#a1b33f6d4c5af51c0fa88d1ab5eae029a">SQRT_3_OVER_2</a>*j;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            <span class="keywordtype">float</span> n = <a class="code" href="group__elfun.html#ga8bf8967471ef09d762367a1844985db8">Math::pow2</a>(x) + <a class="code" href="group__elfun.html#ga8bf8967471ef09d762367a1844985db8">Math::pow2</a>(y);</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            <span class="keywordflow">if</span> (n &gt; maxR) </div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;              <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            n = spacing * std::sqrt (n);</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;            <span class="keywordtype">float</span> z = std::cos (n);</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            <span class="keywordflow">if</span> (n) n = spacing * std::sin (n) / n;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;            list.push_back ({ n*x, n*y, z });</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;          }</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        }</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="keywordflow">return</span> (list);</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;      }</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;      <span class="keyword">namespace </span>{</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="keyword">class </span>Pair { <a class="code" href="memory_8h.html#a5d1aa93e600a93cee8523d1d34c1ace5">NOMEMALIGN</a></div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;          <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;            Pair (<span class="keywordtype">float</span> elevation, <span class="keywordtype">float</span> amplitude) : <a class="code" href="calibrator_8h.html#aed7ba788c50defe48678c3e5359c6ceb">el</a> (elevation), <a class="code" href="calibrator_8h.html#ab508ded41392ee86a2a619d3e93d2373">amp</a> (amplitude) { }</div>
-<div class="line"><a name="l00060"></a><span class="lineno"><a class="line" href="calibrator_8h.html#aed7ba788c50defe48678c3e5359c6ceb">   60</a></span>&#160;            <span class="keywordtype">float</span> <a class="code" href="calibrator_8h.html#aed7ba788c50defe48678c3e5359c6ceb">el</a>, <a class="code" href="calibrator_8h.html#ab508ded41392ee86a2a619d3e93d2373">amp</a>;</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        };</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;      }</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;      <span class="keyword">template</span> &lt;<span class="keyword">class</span> Method&gt; </div>
-<div class="line"><a name="l00065"></a><span class="lineno"><a class="line" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms.html#a9687c81fa921cb37581e74620fc4cf85">   65</a></span>&#160;        <span class="keywordtype">void</span> <a class="code" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms.html#a9687c81fa921cb37581e74620fc4cf85">calibrate</a> (Method&amp; method) </div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        {</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;          <span class="keyword">typename</span> Method::Calibrate calibrate_func (method);</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;          <span class="keyword">const</span> <span class="keywordtype">float</span> sqrt3 = std::sqrt (3.0);</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160; </div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;          <a class="code" href="class_m_r_1_1vector.html">vector&lt;Pair&gt;</a> amps;</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;          <span class="keywordflow">for</span> (<span class="keywordtype">float</span> <a class="code" href="calibrator_8h.html#aed7ba788c50defe48678c3e5359c6ceb">el</a> = 0.0; <a class="code" href="calibrator_8h.html#aed7ba788c50defe48678c3e5359c6ceb">el</a> &lt; method.S.max_angle; <a class="code" href="calibrator_8h.html#aed7ba788c50defe48678c3e5359c6ceb">el</a> += 0.001) {</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;            amps.push_back (Pair (<a class="code" href="calibrator_8h.html#aed7ba788c50defe48678c3e5359c6ceb">el</a>, calibrate_func (<a class="code" href="calibrator_8h.html#aed7ba788c50defe48678c3e5359c6ceb">el</a>)));</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;            <span class="keywordflow">if</span> (!std::isfinite (amps.back().amp) || amps.back().amp &lt;= 0.0) <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;          }</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;          <span class="keywordtype">float</span> zero = amps.back().el;</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160; </div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;          <span class="keywordtype">float</span> N_min = <a class="code" href="namespace_m_r.html#a8dc392684a5a46072368904936029734">Inf</a>, theta_min = <a class="code" href="namespace_m_r.html#ac8c755bf9a6bd0ee7dfe784c1aff7fcb">NaN</a>, ratio = <a class="code" href="namespace_m_r.html#ac8c755bf9a6bd0ee7dfe784c1aff7fcb">NaN</a>;</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;          <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 1; i &lt; amps.size(); ++i) {</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;            <span class="keywordtype">float</span> N = <a class="code" href="group__elfun.html#ga8bf8967471ef09d762367a1844985db8">Math::pow2</a> (method.S.max_angle);</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;            <span class="keywordtype">float</span> Ns =  N * (1.0+amps[0].amp/amps[i].amp)/(2.0*<a class="code" href="group__elfun.html#ga8bf8967471ef09d762367a1844985db8">Math::pow2</a>(zero));</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;            <span class="keyword">auto</span> dirs = <a class="code" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms.html#a9fab993082430928fb0ffffd53a1352b">direction_grid</a> (method.S.max_angle + amps[i].el, sqrt3*amps[i].el);</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;            N = Ns+dirs.size();</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;            <span class="comment">//std::cout &lt;&lt; amps[i].el &lt;&lt; &quot; &quot; &lt;&lt; amps[i].amp &lt;&lt; &quot; &quot; &lt;&lt; Ns &lt;&lt; &quot; &quot; &lt;&lt; dirs.size() &lt;&lt; &quot; &quot; &lt;&lt; Ns+dirs.size() &lt;&lt; &quot;\n&quot;;</span></div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;            <span class="keywordflow">if</span> (N &gt; 0.0 &amp;&amp; N &lt; N_min) {</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;              N_min = N;</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;              theta_min = amps[i].el;</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;              ratio = amps[0].amp / amps[i].amp;</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;            }</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;          }</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160; </div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;          method.calibrate_list = <a class="code" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms.html#a9fab993082430928fb0ffffd53a1352b">direction_grid</a> (method.S.max_angle+theta_min, sqrt3*theta_min);</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;          method.calibrate_ratio = ratio;</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160; </div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;          <a class="code" href="exception_8h.html#a3ae64706314066fdc8b6c8029a915aa7">INFO</a> (<span class="stringliteral">&quot;rejection sampling will use &quot;</span> + <a class="code" href="namespace_m_r.html#a7dcea37fdb5fba1961d121fca36c22c4">str</a> (method.calibrate_list.size()) </div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;              + <span class="stringliteral">&quot; directions with a ratio of &quot;</span> + <a class="code" href="namespace_m_r.html#a7dcea37fdb5fba1961d121fca36c22c4">str</a> (method.calibrate_ratio) + <span class="stringliteral">&quot; (predicted number of samples per step = &quot;</span> + <a class="code" href="namespace_m_r.html#a7dcea37fdb5fba1961d121fca36c22c4">str</a> (N_min) + <span class="stringliteral">&quot;)&quot;</span>);</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        }</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160; </div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160; </div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;      }</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    }</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;  }</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;}</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160; </div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="preprocessor">#endif</span></div>
+<a href="calibrator_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/* Copyright (c) 2008-2019 the MRtrix3 contributors.</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> * This Source Code Form is subject to the terms of the Mozilla Public</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * License, v. 2.0. If a copy of the MPL was not distributed with this</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> * file, You can obtain one at http://mozilla.org/MPL/2.0/.</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> * Covered Software is provided under this License on an &quot;as is&quot;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"> * basis, without warranty of any kind, either expressed, implied, or</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> * statutory, including, without limitation, warranties that the</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"> * Covered Software is free of defects, merchantable, fit for a</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment"> * particular purpose or non-infringing.</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"> * See the Mozilla Public License v. 2.0 for more details.</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> * For more details, see http://www.mrtrix.org/.</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#ifndef __dwi_tractography_algorithms_iFOD_calibrator_h__</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#define __dwi_tractography_algorithms_iFOD_calibrator_h__</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="src_2dwi_2tractography_2tracking_2types_8h.html">types.h</a>&quot;</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_s_h_8h.html">math/SH.h</a>&quot;</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="dwi_2tractography_2tracking_2shared_8h.html">dwi/tractography/tracking/shared.h</a>&quot;</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="src_2dwi_2tractography_2tracking_2types_8h.html">dwi/tractography/tracking/types.h</a>&quot;</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="calibrator_8h.html#a1b33f6d4c5af51c0fa88d1ab5eae029a">   25</a></span>&#160;<span class="preprocessor">#define SQRT_3_OVER_2 0.866025403784439</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="calibrator_8h.html#a2a8ba3b84a6d2723dcc924a470647ad0">   26</a></span>&#160;<span class="preprocessor">#define NUM_CALIBRATE 1000</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespace_m_r.html">MR</a> {</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  <span class="keyword">namespace </span>DWI {</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keyword">namespace </span>Tractography {</div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms.html">   31</a></span>&#160;      <span class="keyword">namespace </span>Algorithms {</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;      <span class="keyword">using namespace </span><a class="code" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html">MR::DWI::Tractography::Tracking</a>;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms.html#a9fab993082430928fb0ffffd53a1352b">   35</a></span>&#160;      <a class="code" href="src_2surface_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> <a class="code" href="class_m_r_1_1vector.html">vector&lt;Eigen::Vector3f&gt;</a> <a class="code" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms.html#a9fab993082430928fb0ffffd53a1352b">direction_grid</a> (<span class="keywordtype">float</span> max_angle, <span class="keywordtype">float</span> spacing)</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;      {</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="keyword">const</span> <span class="keywordtype">float</span> maxR = <a class="code" href="group__elfun.html#ga8bf8967471ef09d762367a1844985db8">Math::pow2</a> (max_angle / spacing);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <a class="code" href="class_m_r_1_1vector.html">vector&lt;Eigen::Vector3f&gt;</a> list;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        ssize_t extent = <a class="code" href="group__elfun.html#ga929c0b6d5d5154833c7387b2c65b0775">std::ceil</a> (max_angle / spacing);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="keywordflow">for</span> (ssize_t i = -extent; i &lt;= extent; ++i) {</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;          <span class="keywordflow">for</span> (ssize_t j = -extent; j &lt;= extent; ++j) {</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            <span class="keywordtype">float</span> x = i + 0.5*j, y = <a class="code" href="calibrator_8h.html#a1b33f6d4c5af51c0fa88d1ab5eae029a">SQRT_3_OVER_2</a>*j;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            <span class="keywordtype">float</span> n = <a class="code" href="group__elfun.html#ga8bf8967471ef09d762367a1844985db8">Math::pow2</a>(x) + <a class="code" href="group__elfun.html#ga8bf8967471ef09d762367a1844985db8">Math::pow2</a>(y);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            <span class="keywordflow">if</span> (n &gt; maxR)</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;              <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;            n = spacing * std::sqrt (n);</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            <span class="keywordtype">float</span> z = std::cos (n);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;            <span class="keywordflow">if</span> (n) n = spacing * std::sin (n) / n;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;            list.push_back ({ n*x, n*y, z });</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;          }</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        }</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <span class="keywordflow">return</span> (list);</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;      }</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;      <span class="keyword">namespace </span>{</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <span class="keyword">class </span>Pair { <a class="code" href="memory_8h.html#a5d1aa93e600a93cee8523d1d34c1ace5">NOMEMALIGN</a></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;          <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;            Pair (<span class="keywordtype">float</span> elevation, <span class="keywordtype">float</span> amplitude) : <a class="code" href="calibrator_8h.html#aed7ba788c50defe48678c3e5359c6ceb">el</a> (elevation), <a class="code" href="calibrator_8h.html#ab508ded41392ee86a2a619d3e93d2373">amp</a> (amplitude) { }</div>
+<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="calibrator_8h.html#aed7ba788c50defe48678c3e5359c6ceb">   61</a></span>&#160;            <span class="keywordtype">float</span> <a class="code" href="calibrator_8h.html#aed7ba788c50defe48678c3e5359c6ceb">el</a>, <a class="code" href="calibrator_8h.html#ab508ded41392ee86a2a619d3e93d2373">amp</a>;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        };</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;      }</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160; </div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;      <span class="keyword">template</span> &lt;<span class="keyword">class</span> Method&gt;</div>
+<div class="line"><a name="l00066"></a><span class="lineno"><a class="line" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms.html#a9687c81fa921cb37581e74620fc4cf85">   66</a></span>&#160;        <span class="keywordtype">void</span> <a class="code" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms.html#a9687c81fa921cb37581e74620fc4cf85">calibrate</a> (Method&amp; method)</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        {</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;          <span class="keyword">typename</span> Method::Calibrate calibrate_func (method);</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;          <span class="keyword">const</span> <span class="keywordtype">float</span> sqrt3 = std::sqrt (3.0);</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;          <span class="keyword">const</span> <span class="keywordtype">float</span> max_angle = std::isfinite (method.S.max_angle_ho) ? method.S.max_angle_ho : method.S.max_angle_1o;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160; </div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;          <a class="code" href="class_m_r_1_1vector.html">vector&lt;Pair&gt;</a> amps;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;          <span class="keywordflow">for</span> (<span class="keywordtype">float</span> <a class="code" href="calibrator_8h.html#aed7ba788c50defe48678c3e5359c6ceb">el</a> = 0.0; <a class="code" href="calibrator_8h.html#aed7ba788c50defe48678c3e5359c6ceb">el</a> &lt; max_angle; <a class="code" href="calibrator_8h.html#aed7ba788c50defe48678c3e5359c6ceb">el</a> += 0.001) {</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;            amps.push_back (Pair (<a class="code" href="calibrator_8h.html#aed7ba788c50defe48678c3e5359c6ceb">el</a>, calibrate_func (<a class="code" href="calibrator_8h.html#aed7ba788c50defe48678c3e5359c6ceb">el</a>)));</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            <span class="keywordflow">if</span> (!std::isfinite (amps.back().amp) || amps.back().amp &lt;= 0.0) <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;          }</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;          <span class="keywordtype">float</span> zero = amps.back().el;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160; </div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;          <span class="keywordtype">float</span> N_min = <a class="code" href="namespace_m_r.html#a8dc392684a5a46072368904936029734">Inf</a>, theta_min = <a class="code" href="namespace_m_r.html#ac8c755bf9a6bd0ee7dfe784c1aff7fcb">NaN</a>, ratio = <a class="code" href="namespace_m_r.html#ac8c755bf9a6bd0ee7dfe784c1aff7fcb">NaN</a>;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;          <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 1; i &lt; amps.size(); ++i) {</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;            <span class="keywordtype">float</span> N = <a class="code" href="group__elfun.html#ga8bf8967471ef09d762367a1844985db8">Math::pow2</a> (max_angle);</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;            <span class="keywordtype">float</span> Ns =  N * (1.0+amps[0].amp/amps[i].amp)/(2.0*<a class="code" href="group__elfun.html#ga8bf8967471ef09d762367a1844985db8">Math::pow2</a>(zero));</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;            <span class="keyword">auto</span> dirs = <a class="code" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms.html#a9fab993082430928fb0ffffd53a1352b">direction_grid</a> (max_angle + amps[i].<a class="code" href="calibrator_8h.html#aed7ba788c50defe48678c3e5359c6ceb">el</a>, sqrt3*amps[i].<a class="code" href="calibrator_8h.html#aed7ba788c50defe48678c3e5359c6ceb">el</a>);</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;            N = Ns+dirs.size();</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;            <span class="comment">//std::cout &lt;&lt; amps[i].el &lt;&lt; &quot; &quot; &lt;&lt; amps[i].amp &lt;&lt; &quot; &quot; &lt;&lt; Ns &lt;&lt; &quot; &quot; &lt;&lt; dirs.size() &lt;&lt; &quot; &quot; &lt;&lt; Ns+dirs.size() &lt;&lt; &quot;\n&quot;;</span></div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;            <span class="keywordflow">if</span> (N &gt; 0.0 &amp;&amp; N &lt; N_min) {</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;              N_min = N;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;              theta_min = amps[i].el;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;              ratio = amps[0].amp / amps[i].amp;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;            }</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;          }</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160; </div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;          method.calibrate_list = <a class="code" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms.html#a9fab993082430928fb0ffffd53a1352b">direction_grid</a> (max_angle+theta_min, sqrt3*theta_min);</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;          method.calibrate_ratio = ratio;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160; </div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;          <a class="code" href="exception_8h.html#a3ae64706314066fdc8b6c8029a915aa7">INFO</a> (<span class="stringliteral">&quot;rejection sampling will use &quot;</span> + <a class="code" href="namespace_m_r.html#a7dcea37fdb5fba1961d121fca36c22c4">str</a> (method.calibrate_list.size())</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;              + <span class="stringliteral">&quot; directions with a ratio of &quot;</span> + <a class="code" href="namespace_m_r.html#a7dcea37fdb5fba1961d121fca36c22c4">str</a> (method.calibrate_ratio) + <span class="stringliteral">&quot; (predicted number of samples per step = &quot;</span> + <a class="code" href="namespace_m_r.html#a7dcea37fdb5fba1961d121fca36c22c4">str</a> (N_min) + <span class="stringliteral">&quot;)&quot;</span>);</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        }</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160; </div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160; </div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;      }</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    }</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;  }</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;}</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160; </div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160; </div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160; </div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160; </div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160; </div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160; </div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="aexception_8h_html_a3ae64706314066fdc8b6c8029a915aa7"><div class="ttname"><a href="exception_8h.html#a3ae64706314066fdc8b6c8029a915aa7">INFO</a></div><div class="ttdeci">#define INFO(msg)</div><div class="ttdef"><b>Definition:</b> <a href="exception_8h_source.html#l00073">exception.h:73</a></div></div>
-<div class="ttc" id="anamespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_html"><div class="ttname"><a href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html">MR::DWI::Tractography::Tracking</a></div><div class="ttdef"><b>Definition:</b> <a href="early__exit_8h_source.html#l00042">early_exit.h:42</a></div></div>
-<div class="ttc" id="anamespace_m_r_html_a8dc392684a5a46072368904936029734"><div class="ttname"><a href="namespace_m_r.html#a8dc392684a5a46072368904936029734">MR::Inf</a></div><div class="ttdeci">constexpr default_type Inf</div><div class="ttdef"><b>Definition:</b> <a href="src_2surface_2types_8h_source.html#l00228">types.h:228</a></div></div>
+<div class="ttc" id="aexception_8h_html_a3ae64706314066fdc8b6c8029a915aa7"><div class="ttname"><a href="exception_8h.html#a3ae64706314066fdc8b6c8029a915aa7">INFO</a></div><div class="ttdeci">#define INFO(msg)</div><div class="ttdef"><b>Definition:</b> <a href="exception_8h_source.html#l00074">exception.h:74</a></div></div>
+<div class="ttc" id="anamespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_html"><div class="ttname"><a href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html">MR::DWI::Tractography::Tracking</a></div><div class="ttdef"><b>Definition:</b> <a href="early__exit_8h_source.html#l00043">early_exit.h:43</a></div></div>
+<div class="ttc" id="anamespace_m_r_html_a8dc392684a5a46072368904936029734"><div class="ttname"><a href="namespace_m_r.html#a8dc392684a5a46072368904936029734">MR::Inf</a></div><div class="ttdeci">constexpr default_type Inf</div><div class="ttdef"><b>Definition:</b> <a href="src_2surface_2types_8h_source.html#l00231">types.h:231</a></div></div>
 <div class="ttc" id="a_s_h_8h_html"><div class="ttname"><a href="_s_h_8h.html">SH.h</a></div></div>
-<div class="ttc" id="anamespace_m_r_html_a7dcea37fdb5fba1961d121fca36c22c4"><div class="ttname"><a href="namespace_m_r.html#a7dcea37fdb5fba1961d121fca36c22c4">MR::str</a></div><div class="ttdeci">std::string str(const T &amp;value, int precision=0)</div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00079">mrtrix.h:79</a></div></div>
-<div class="ttc" id="acalibrator_8h_html_a1b33f6d4c5af51c0fa88d1ab5eae029a"><div class="ttname"><a href="calibrator_8h.html#a1b33f6d4c5af51c0fa88d1ab5eae029a">SQRT_3_OVER_2</a></div><div class="ttdeci">#define SQRT_3_OVER_2</div><div class="ttdef"><b>Definition:</b> <a href="calibrator_8h_source.html#l00024">calibrator.h:24</a></div></div>
-<div class="ttc" id="agroup__elfun_html_ga8bf8967471ef09d762367a1844985db8"><div class="ttname"><a href="group__elfun.html#ga8bf8967471ef09d762367a1844985db8">MR::Math::pow2</a></div><div class="ttdeci">constexpr T pow2(const T &amp;v)</div><div class="ttdef"><b>Definition:</b> <a href="math_8h_source.html#l00048">math.h:48</a></div></div>
+<div class="ttc" id="anamespace_m_r_html_a7dcea37fdb5fba1961d121fca36c22c4"><div class="ttname"><a href="namespace_m_r.html#a7dcea37fdb5fba1961d121fca36c22c4">MR::str</a></div><div class="ttdeci">std::string str(const T &amp;value, int precision=0)</div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00205">mrtrix.h:205</a></div></div>
+<div class="ttc" id="acalibrator_8h_html_a1b33f6d4c5af51c0fa88d1ab5eae029a"><div class="ttname"><a href="calibrator_8h.html#a1b33f6d4c5af51c0fa88d1ab5eae029a">SQRT_3_OVER_2</a></div><div class="ttdeci">#define SQRT_3_OVER_2</div><div class="ttdef"><b>Definition:</b> <a href="calibrator_8h_source.html#l00025">calibrator.h:25</a></div></div>
+<div class="ttc" id="agroup__elfun_html_ga8bf8967471ef09d762367a1844985db8"><div class="ttname"><a href="group__elfun.html#ga8bf8967471ef09d762367a1844985db8">MR::Math::pow2</a></div><div class="ttdeci">constexpr T pow2(const T &amp;v)</div><div class="ttdef"><b>Definition:</b> <a href="math_8h_source.html#l00053">math.h:53</a></div></div>
 <div class="ttc" id="asrc_2dwi_2tractography_2tracking_2types_8h_html"><div class="ttname"><a href="src_2dwi_2tractography_2tracking_2types_8h.html">types.h</a></div></div>
-<div class="ttc" id="anamespace_m_r_html"><div class="ttname"><a href="namespace_m_r.html">MR</a></div><div class="ttdef"><b>Definition:</b> <a href="core_2adapter_2base_8h_source.html#l00021">base.h:21</a></div></div>
-<div class="ttc" id="anamespace_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_html_a9fab993082430928fb0ffffd53a1352b"><div class="ttname"><a href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms.html#a9fab993082430928fb0ffffd53a1352b">MR::DWI::Tractography::Algorithms::direction_grid</a></div><div class="ttdeci">FORCE_INLINE vector&lt; Eigen::Vector3f &gt; direction_grid(float max_angle, float spacing)</div><div class="ttdef"><b>Definition:</b> <a href="calibrator_8h_source.html#l00034">calibrator.h:34</a></div></div>
-<div class="ttc" id="anamespace_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_html_a9687c81fa921cb37581e74620fc4cf85"><div class="ttname"><a href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms.html#a9687c81fa921cb37581e74620fc4cf85">MR::DWI::Tractography::Algorithms::calibrate</a></div><div class="ttdeci">void calibrate(Method &amp;method)</div><div class="ttdef"><b>Definition:</b> <a href="calibrator_8h_source.html#l00065">calibrator.h:65</a></div></div>
-<div class="ttc" id="anamespace_m_r_html_ac8c755bf9a6bd0ee7dfe784c1aff7fcb"><div class="ttname"><a href="namespace_m_r.html#ac8c755bf9a6bd0ee7dfe784c1aff7fcb">MR::NaN</a></div><div class="ttdeci">constexpr default_type NaN</div><div class="ttdef"><b>Definition:</b> <a href="src_2surface_2types_8h_source.html#l00227">types.h:227</a></div></div>
-<div class="ttc" id="asrc_2surface_2types_8h_html_ac032d233a8ebfcd82fd49d0824eefb18"><div class="ttname"><a href="src_2surface_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a></div><div class="ttdeci">#define FORCE_INLINE</div><div class="ttdef"><b>Definition:</b> <a href="src_2surface_2types_8h_source.html#l00153">types.h:153</a></div></div>
+<div class="ttc" id="adwi_2tractography_2tracking_2shared_8h_html"><div class="ttname"><a href="dwi_2tractography_2tracking_2shared_8h.html">shared.h</a></div></div>
+<div class="ttc" id="anamespace_m_r_html"><div class="ttname"><a href="namespace_m_r.html">MR</a></div><div class="ttdef"><b>Definition:</b> <a href="core_2adapter_2base_8h_source.html#l00023">base.h:23</a></div></div>
+<div class="ttc" id="anamespace_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_html_a9fab993082430928fb0ffffd53a1352b"><div class="ttname"><a href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms.html#a9fab993082430928fb0ffffd53a1352b">MR::DWI::Tractography::Algorithms::direction_grid</a></div><div class="ttdeci">FORCE_INLINE vector&lt; Eigen::Vector3f &gt; direction_grid(float max_angle, float spacing)</div><div class="ttdef"><b>Definition:</b> <a href="calibrator_8h_source.html#l00035">calibrator.h:35</a></div></div>
+<div class="ttc" id="anamespace_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_html_a9687c81fa921cb37581e74620fc4cf85"><div class="ttname"><a href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms.html#a9687c81fa921cb37581e74620fc4cf85">MR::DWI::Tractography::Algorithms::calibrate</a></div><div class="ttdeci">void calibrate(Method &amp;method)</div><div class="ttdef"><b>Definition:</b> <a href="calibrator_8h_source.html#l00066">calibrator.h:66</a></div></div>
+<div class="ttc" id="anamespace_m_r_html_ac8c755bf9a6bd0ee7dfe784c1aff7fcb"><div class="ttname"><a href="namespace_m_r.html#ac8c755bf9a6bd0ee7dfe784c1aff7fcb">MR::NaN</a></div><div class="ttdeci">constexpr default_type NaN</div><div class="ttdef"><b>Definition:</b> <a href="src_2surface_2types_8h_source.html#l00230">types.h:230</a></div></div>
+<div class="ttc" id="asrc_2surface_2types_8h_html_ac032d233a8ebfcd82fd49d0824eefb18"><div class="ttname"><a href="src_2surface_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a></div><div class="ttdeci">#define FORCE_INLINE</div><div class="ttdef"><b>Definition:</b> <a href="src_2surface_2types_8h_source.html#l00156">types.h:156</a></div></div>
 <div class="ttc" id="aclass_m_r_1_1vector_html"><div class="ttname"><a href="class_m_r_1_1vector.html">MR::vector&lt; Eigen::Vector3f &gt;</a></div></div>
-<div class="ttc" id="acalibrator_8h_html_ab508ded41392ee86a2a619d3e93d2373"><div class="ttname"><a href="calibrator_8h.html#ab508ded41392ee86a2a619d3e93d2373">amp</a></div><div class="ttdeci">float amp</div><div class="ttdef"><b>Definition:</b> <a href="calibrator_8h_source.html#l00060">calibrator.h:60</a></div></div>
-<div class="ttc" id="amemory_8h_html_a5d1aa93e600a93cee8523d1d34c1ace5"><div class="ttname"><a href="memory_8h.html#a5d1aa93e600a93cee8523d1d34c1ace5">NOMEMALIGN</a></div><div class="ttdeci">#define NOMEMALIGN</div><div class="ttdef"><b>Definition:</b> <a href="memory_8h_source.html#l00021">memory.h:21</a></div></div>
-<div class="ttc" id="agroup__elfun_html_ga929c0b6d5d5154833c7387b2c65b0775"><div class="ttname"><a href="group__elfun.html#ga929c0b6d5d5154833c7387b2c65b0775">MR::Math::ceil</a></div><div class="ttdeci">constexpr I ceil(const T x)</div><div class="ttdoc">template function with cast to different type</div><div class="ttdef"><b>Definition:</b> <a href="math_8h_source.html#l00081">math.h:81</a></div></div>
-<div class="ttc" id="atracking_2shared_8h_html"><div class="ttname"><a href="tracking_2shared_8h.html">shared.h</a></div></div>
-<div class="ttc" id="acalibrator_8h_html_aed7ba788c50defe48678c3e5359c6ceb"><div class="ttname"><a href="calibrator_8h.html#aed7ba788c50defe48678c3e5359c6ceb">el</a></div><div class="ttdeci">float el</div><div class="ttdef"><b>Definition:</b> <a href="calibrator_8h_source.html#l00060">calibrator.h:60</a></div></div>
+<div class="ttc" id="acalibrator_8h_html_ab508ded41392ee86a2a619d3e93d2373"><div class="ttname"><a href="calibrator_8h.html#ab508ded41392ee86a2a619d3e93d2373">amp</a></div><div class="ttdeci">float amp</div><div class="ttdef"><b>Definition:</b> <a href="calibrator_8h_source.html#l00061">calibrator.h:61</a></div></div>
+<div class="ttc" id="amemory_8h_html_a5d1aa93e600a93cee8523d1d34c1ace5"><div class="ttname"><a href="memory_8h.html#a5d1aa93e600a93cee8523d1d34c1ace5">NOMEMALIGN</a></div><div class="ttdeci">#define NOMEMALIGN</div><div class="ttdef"><b>Definition:</b> <a href="memory_8h_source.html#l00022">memory.h:22</a></div></div>
+<div class="ttc" id="agroup__elfun_html_ga929c0b6d5d5154833c7387b2c65b0775"><div class="ttname"><a href="group__elfun.html#ga929c0b6d5d5154833c7387b2c65b0775">MR::Math::ceil</a></div><div class="ttdeci">constexpr I ceil(const T x)</div><div class="ttdoc">template function with cast to different type</div><div class="ttdef"><b>Definition:</b> <a href="math_8h_source.html#l00086">math.h:86</a></div></div>
+<div class="ttc" id="acalibrator_8h_html_aed7ba788c50defe48678c3e5359c6ceb"><div class="ttname"><a href="calibrator_8h.html#aed7ba788c50defe48678c3e5359c6ceb">el</a></div><div class="ttdeci">float el</div><div class="ttdef"><b>Definition:</b> <a href="calibrator_8h_source.html#l00061">calibrator.h:61</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_6da8e6f1bfdb5540a85bd819d2a13962.html">dwi</a></li><li class="navelem"><a class="el" href="dir_6f8fcd489e430c1a1b22716f7655ad56.html">tractography</a></li><li class="navelem"><a class="el" href="dir_c3d45e16a24ca48b419ac9ef1787930e.html">algorithms</a></li><li class="navelem"><a class="el" href="calibrator_8h.html">calibrator.h</a></li>
-    <li class="footer">Generated on Mon Apr 13 2020 22:01:53 for MRtrix by
+    <li class="footer">Generated on Wed Apr 22 2020 19:06:14 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

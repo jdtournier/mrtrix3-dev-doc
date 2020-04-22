@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC3_latest-86-gcc3600ed</div>
+   <div id="projectbrief">Version 3.0_RC4-882-gb3b8647f</div>
   </td>
  </tr>
  </tbody>
@@ -106,16 +106,16 @@ Inheritance diagram for MR::File::OFStream:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aae00645ad8336b415b9a18a1dcc9dcf7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_file_1_1_o_f_stream.html#aae00645ad8336b415b9a18a1dcc9dcf7">OFStream</a> ()</td></tr>
 <tr class="separator:aae00645ad8336b415b9a18a1dcc9dcf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af657658c90700a01ad01853e32521837"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_file_1_1_o_f_stream.html#af657658c90700a01ad01853e32521837">OFStream</a> (const std::string &amp;path, const std::ios_base::openmode mode=std::ios_base::out)</td></tr>
-<tr class="separator:af657658c90700a01ad01853e32521837"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad73a01beb966e114d16d0e9090aaad45"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_file_1_1_o_f_stream.html#ad73a01beb966e114d16d0e9090aaad45">open</a> (const std::string &amp;path, const std::ios_base::openmode mode=std::ios_base::out)</td></tr>
-<tr class="separator:ad73a01beb966e114d16d0e9090aaad45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2448e2a8e637d76c9e2e745b3fd0d74"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_file_1_1_o_f_stream.html#ad2448e2a8e637d76c9e2e745b3fd0d74">OFStream</a> (const std::string &amp;path, const std::ios_base::openmode mode=std::ios_base::out|std::ios_base::binary)</td></tr>
+<tr class="separator:ad2448e2a8e637d76c9e2e745b3fd0d74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07e88b51b2890d22df6cc8c2a1068317"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_file_1_1_o_f_stream.html#a07e88b51b2890d22df6cc8c2a1068317">open</a> (const std::string &amp;path, const std::ios_base::openmode mode=std::ios_base::out|std::ios_base::binary)</td></tr>
+<tr class="separator:a07e88b51b2890d22df6cc8c2a1068317"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>open output files for writing, checking for pre-existing file if necessary </p>
 <p>This class is intended to be used as a substitute for std::ofstream. It ensures that if the user has not given the command permission to overwrite output files, the presence of an existing file is first checked. It also removes the necessity to explicitly convert a path expressed as a std::string to a c-style string. </p>
 
-<p class="definition">Definition at line <a class="el" href="ofstream_8h_source.html#l00038">38</a> of file <a class="el" href="ofstream_8h_source.html">ofstream.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ofstream_8h_source.html#l00039">39</a> of file <a class="el" href="ofstream_8h_source.html">ofstream.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aae00645ad8336b415b9a18a1dcc9dcf7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aae00645ad8336b415b9a18a1dcc9dcf7">&#9670;&nbsp;</a></span>OFStream() <span class="overload">[1/2]</span></h2>
@@ -140,12 +140,12 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ofstream_8h_source.html#l00040">40</a> of file <a class="el" href="ofstream_8h_source.html">ofstream.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ofstream_8h_source.html#l00041">41</a> of file <a class="el" href="ofstream_8h_source.html">ofstream.h</a>.</p>
 
 </div>
 </div>
-<a id="af657658c90700a01ad01853e32521837"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af657658c90700a01ad01853e32521837">&#9670;&nbsp;</a></span>OFStream() <span class="overload">[2/2]</span></h2>
+<a id="ad2448e2a8e637d76c9e2e745b3fd0d74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2448e2a8e637d76c9e2e745b3fd0d74">&#9670;&nbsp;</a></span>OFStream() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -163,7 +163,7 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::ios_base::openmode&#160;</td>
-          <td class="paramname"><em>mode</em> = <code>std::ios_base::out</code>&#160;</td>
+          <td class="paramname"><em>mode</em> = <code>std::ios_base::out&#160;|&#160;std::ios_base::binary</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -178,13 +178,13 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ofstream_8h_source.html#l00041">41</a> of file <a class="el" href="ofstream_8h_source.html">ofstream.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ofstream_8h_source.html#l00042">42</a> of file <a class="el" href="ofstream_8h_source.html">ofstream.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ad73a01beb966e114d16d0e9090aaad45"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad73a01beb966e114d16d0e9090aaad45">&#9670;&nbsp;</a></span>open()</h2>
+<a id="a07e88b51b2890d22df6cc8c2a1068317"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07e88b51b2890d22df6cc8c2a1068317">&#9670;&nbsp;</a></span>open()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -199,7 +199,7 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::ios_base::openmode&#160;</td>
-          <td class="paramname"><em>mode</em> = <code>std::ios_base::out</code>&#160;</td>
+          <td class="paramname"><em>mode</em> = <code>std::ios_base::out|std::ios_base::binary</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -220,7 +220,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_file.html">File</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_file_1_1_o_f_stream.html">OFStream</a></li>
-    <li class="footer">Generated on Mon Apr 13 2020 22:01:55 for MRtrix by
+    <li class="footer">Generated on Wed Apr 22 2020 19:06:15 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

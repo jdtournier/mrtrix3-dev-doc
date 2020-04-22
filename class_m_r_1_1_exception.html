@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC3_latest-86-gcc3600ed</div>
+   <div id="projectbrief">Version 3.0_RC4-882-gb3b8647f</div>
   </td>
  </tr>
  </tbody>
@@ -100,8 +100,9 @@ Inheritance diagram for MR::Exception:</div>
  <div class="center">
   <img src="class_m_r_1_1_exception.png" usemap="#MR::Exception_map" alt=""/>
   <map id="MR::Exception_map" name="MR::Exception_map">
-<area href="class_m_r_1_1_invalid_fixel_directory_exception.html" alt="MR::InvalidFixelDirectoryException" shape="rect" coords="0,56,209,80"/>
-<area href="class_m_r_1_1_invalid_image_exception.html" alt="MR::InvalidImageException" shape="rect" coords="219,56,428,80"/>
+<area href="class_m_r_1_1_cancel_exception.html" alt="MR::CancelException" shape="rect" coords="0,56,209,80"/>
+<area href="class_m_r_1_1_invalid_fixel_directory_exception.html" alt="MR::InvalidFixelDirectoryException" shape="rect" coords="219,56,428,80"/>
+<area href="class_m_r_1_1_invalid_image_exception.html" alt="MR::InvalidImageException" shape="rect" coords="438,56,647,80"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -119,6 +120,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:abbb95f70ffa224cac52d04c8e35c007e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10ca5a866d74bb3ac52c91d859f1a8cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_exception.html#a10ca5a866d74bb3ac52c91d859f1a8cf">push_back</a> (const std::string &amp;s)</td></tr>
 <tr class="separator:a10ca5a866d74bb3ac52c91d859f1a8cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed62a67eb899ebe1f846131b572af073"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_exception.html#aed62a67eb899ebe1f846131b572af073">push_back</a> (const <a class="el" href="class_m_r_1_1_exception.html">Exception</a> &amp;e)</td></tr>
+<tr class="separator:aed62a67eb899ebe1f846131b572af073"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -132,7 +135,7 @@ Static Public Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="exception_8h_source.html#l00079">79</a> of file <a class="el" href="exception_8h_source.html">exception.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="exception_8h_source.html#l00080">80</a> of file <a class="el" href="exception_8h_source.html">exception.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aefec3950c232df9e33c4f29f72b49c69"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aefec3950c232df9e33c4f29f72b49c69">&#9670;&nbsp;</a></span>Exception() <span class="overload">[1/2]</span></h2>
@@ -158,7 +161,7 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="exception_8h_source.html#l00081">81</a> of file <a class="el" href="exception_8h_source.html">exception.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="exception_8h_source.html#l00082">82</a> of file <a class="el" href="exception_8h_source.html">exception.h</a>.</p>
 
 </div>
 </div>
@@ -196,7 +199,7 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="exception_8h_source.html#l00084">84</a> of file <a class="el" href="exception_8h_source.html">exception.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="exception_8h_source.html#l00085">85</a> of file <a class="el" href="exception_8h_source.html">exception.h</a>.</p>
 
 </div>
 </div>
@@ -225,7 +228,7 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="exception_8h_source.html#l00089">89</a> of file <a class="el" href="exception_8h_source.html">exception.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="exception_8h_source.html#l00090">90</a> of file <a class="el" href="exception_8h_source.html">exception.h</a>.</p>
 
 </div>
 </div>
@@ -252,7 +255,7 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="exception_8h_source.html#l00093">93</a> of file <a class="el" href="exception_8h_source.html">exception.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="exception_8h_source.html#l00094">94</a> of file <a class="el" href="exception_8h_source.html">exception.h</a>.</p>
 
 </div>
 </div>
@@ -280,12 +283,40 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="exception_8h_source.html#l00096">96</a> of file <a class="el" href="exception_8h_source.html">exception.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="exception_8h_source.html#l00097">97</a> of file <a class="el" href="exception_8h_source.html">exception.h</a>.</p>
+
+</div>
+</div>
+<a id="aed62a67eb899ebe1f846131b572af073"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed62a67eb899ebe1f846131b572af073">&#9670;&nbsp;</a></span>push_back() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::Exception::push_back </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_m_r_1_1_exception.html">Exception</a> &amp;&#160;</td>
+          <td class="paramname"><em>e</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="exception_8h_source.html#l00103">103</a> of file <a class="el" href="exception_8h_source.html">exception.h</a>.</p>
 
 </div>
 </div>
 <a id="a10ca5a866d74bb3ac52c91d859f1a8cf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a10ca5a866d74bb3ac52c91d859f1a8cf">&#9670;&nbsp;</a></span>push_back()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a10ca5a866d74bb3ac52c91d859f1a8cf">&#9670;&nbsp;</a></span>push_back() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -308,7 +339,7 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="exception_8h_source.html#l00099">99</a> of file <a class="el" href="exception_8h_source.html">exception.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="exception_8h_source.html#l00100">100</a> of file <a class="el" href="exception_8h_source.html">exception.h</a>.</p>
 
 </div>
 </div>
@@ -325,7 +356,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="exception_8h_source.html#l00105">105</a> of file <a class="el" href="exception_8h_source.html">exception.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="exception_8h_source.html#l00110">110</a> of file <a class="el" href="exception_8h_source.html">exception.h</a>.</p>
 
 </div>
 </div>
@@ -349,7 +380,7 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="exception_8h_source.html#l00103">103</a> of file <a class="el" href="exception_8h_source.html">exception.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="exception_8h_source.html#l00108">108</a> of file <a class="el" href="exception_8h_source.html">exception.h</a>.</p>
 
 </div>
 </div>
@@ -362,7 +393,7 @@ Static Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_exception.html">Exception</a></li>
-    <li class="footer">Generated on Mon Apr 13 2020 22:01:54 for MRtrix by
+    <li class="footer">Generated on Wed Apr 22 2020 19:06:15 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

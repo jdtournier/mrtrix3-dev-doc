@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC3_latest-86-gcc3600ed</div>
+   <div id="projectbrief">Version 3.0_RC4-882-gb3b8647f</div>
   </td>
  </tr>
  </tbody>
@@ -87,6 +87,7 @@ $(document).ready(function(){initNavTree('class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_t
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">MR::GUI::MRView::Tool::Base Class Reference</div>  </div>
@@ -108,7 +109,8 @@ Inheritance diagram for MR::GUI::MRView::Tool::Base:</div>
 <area href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_overlay.html" alt="MR::GUI::MRView::Tool::Overlay" shape="rect" coords="232,392,454,416"/>
 <area href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html" alt="MR::GUI::MRView::Tool::ROI" shape="rect" coords="232,448,454,472"/>
 <area href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html" alt="MR::GUI::MRView::Tool::Tractography" shape="rect" coords="232,504,454,528"/>
-<area href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_view.html" alt="MR::GUI::MRView::Tool::View" shape="rect" coords="232,560,454,584"/>
+<area href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform.html" alt="MR::GUI::MRView::Tool::Transform" shape="rect" coords="232,560,454,584"/>
+<area href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_view.html" alt="MR::GUI::MRView::Tool::View" shape="rect" coords="232,616,454,640"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -137,8 +139,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1ba896dd5d8fb547908455b5d2540618"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a434513090be96b9ebda6eb67afd75109"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base.html#a434513090be96b9ebda6eb67afd75109">release_focus</a> ()</td></tr>
 <tr class="separator:a434513090be96b9ebda6eb67afd75109"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1eda93df3dad49f95b825d8608933fa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base.html#ab1eda93df3dad49f95b825d8608933fa">adjustSize</a> ()</td></tr>
-<tr class="separator:ab1eda93df3dad49f95b825d8608933fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6bff14a2771e1e1b21733268de8ad97b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base.html#a6bff14a2771e1e1b21733268de8ad97b">draw</a> (const <a class="el" href="class_m_r_1_1_g_u_i_1_1_projection.html">Projection</a> &amp;transform, bool is_3D, int <a class="el" href="noise__estimator_8h.html#a884869744ebf14a092b339ae65c2af37">axis</a>, int slice)</td></tr>
 <tr class="separator:a6bff14a2771e1e1b21733268de8ad97b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ab10f856e0a8e4cfd2a9a91271edcbd"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base.html#a1ab10f856e0a8e4cfd2a9a91271edcbd">draw_colourbars</a> ()</td></tr>
@@ -172,10 +172,15 @@ Public Member Functions</h2></td></tr>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a312db50d8b09265c002bd5f2ad9384f4"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base.html#a312db50d8b09265c002bd5f2ad9384f4">add_commandline_options</a> (<a class="el" href="class_m_r_1_1_app_1_1_option_list.html">MR::App::OptionList</a> &amp;options)</td></tr>
 <tr class="separator:a312db50d8b09265c002bd5f2ad9384f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:ad40a77483361b0c685f143e5798a5dd6"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base.html#ad40a77483361b0c685f143e5798a5dd6">current_folder</a></td></tr>
+<tr class="separator:ad40a77483361b0c685f143e5798a5dd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html#l00064">64</a> of file <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html">base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html#l00084">84</a> of file <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html">base.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a42ed8e191e94fcd2f7b2a4591ecc4fe5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a42ed8e191e94fcd2f7b2a4591ecc4fe5">&#9670;&nbsp;</a></span>Base()</h2>
@@ -222,23 +227,6 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ab1eda93df3dad49f95b825d8608933fa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab1eda93df3dad49f95b825d8608933fa">&#9670;&nbsp;</a></span>adjustSize()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MR::GUI::MRView::Tool::Base::adjustSize </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="aca037a939aff2b13f3241b294821d2ff"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aca037a939aff2b13f3241b294821d2ff">&#9670;&nbsp;</a></span>close_event()</h2>
 
@@ -262,7 +250,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html#l00138">138</a> of file <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html">base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html#l00159">159</a> of file <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html">base.h</a>.</p>
 
 </div>
 </div>
@@ -290,7 +278,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html#l00143">143</a> of file <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html">base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html#l00164">164</a> of file <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html">base.h</a>.</p>
 
 </div>
 </div>
@@ -318,7 +306,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html#l00149">149</a> of file <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html">base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html#l00170">170</a> of file <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html">base.h</a>.</p>
 
 </div>
 </div>
@@ -346,7 +334,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html#l00146">146</a> of file <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html">base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html#l00167">167</a> of file <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html">base.h</a>.</p>
 
 </div>
 </div>
@@ -467,7 +455,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html#l00134">134</a> of file <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html">base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html#l00155">155</a> of file <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html">base.h</a>.</p>
 
 </div>
 </div>
@@ -519,7 +507,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html#l00074">74</a> of file <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html">base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html#l00096">96</a> of file <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html">base.h</a>.</p>
 
 </div>
 </div>
@@ -649,7 +637,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html#l00078">78</a> of file <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html">base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html#l00100">100</a> of file <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html">base.h</a>.</p>
 
 </div>
 </div>
@@ -676,7 +664,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html#l00139">139</a> of file <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html">base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html#l00160">160</a> of file <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html">base.h</a>.</p>
 
 </div>
 </div>
@@ -728,7 +716,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html#l00141">141</a> of file <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html">base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html#l00162">162</a> of file <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html">base.h</a>.</p>
 
 </div>
 </div>
@@ -757,7 +745,7 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_connectome.html#a3d67ddad4804197fcfcfe6533b8c67e6">MR::GUI::MRView::Tool::Connectome</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html#l00133">133</a> of file <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html">base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html#l00154">154</a> of file <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html">base.h</a>.</p>
 
 </div>
 </div>
@@ -784,7 +772,24 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html#l00067">67</a> of file <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html">base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html#l00087">87</a> of file <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html">base.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ad40a77483361b0c685f143e5798a5dd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad40a77483361b0c685f143e5798a5dd6">&#9670;&nbsp;</a></span>current_folder</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string MR::GUI::MRView::Tool::Base::current_folder</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html#l00089">89</a> of file <a class="el" href="src_2gui_2mrview_2tool_2base_8h_source.html">base.h</a>.</p>
 
 </div>
 </div>
@@ -797,7 +802,7 @@ Static Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_g_u_i.html">GUI</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_g_u_i_1_1_m_r_view.html">MRView</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool.html">Tool</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base.html">Base</a></li>
-    <li class="footer">Generated on Mon Apr 13 2020 22:01:56 for MRtrix by
+    <li class="footer">Generated on Wed Apr 22 2020 19:06:16 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

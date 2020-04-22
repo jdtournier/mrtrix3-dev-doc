@@ -1,5 +1,6 @@
 var class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_ortho =
 [
+    [ "set_show_as_row_slot", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_ortho.html#af1a2498efe45460f4344388be297520a", null ],
     [ "current_plane", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_ortho.html#a459e1c69b1e2deeaa74a19ee2ba8217a", null ],
     [ "frame_program", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_ortho.html#a9708e2f82c670a0b0fe2342d100625ea", null ],
     [ "frame_VAO", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_ortho.html#afdd2ee840f0c375593f15291d38c10e0", null ],

@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC3_latest-86-gcc3600ed</div>
+   <div id="projectbrief">Version 3.0_RC4-882-gb3b8647f</div>
   </td>
  </tr>
  </tbody>
@@ -113,6 +113,7 @@ $(document).ready(function(){initNavTree('functions_vars_s.html',''); initResiza
 : <a class="el" href="class_m_r_1_1_filter_1_1_mask_clean.html#ad06d12a61e47390928f581c15c78d9df">MR::Filter::MaskClean</a>
 , <a class="el" href="class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_render_frame.html#a0a1ea7c7a2fcf22eeb0f7a557ca4561b">MR::GUI::DWI::RenderFrame</a>
 , <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#a58eda07b848bcf0fc39a595244f2a536">MR::GUI::MRView::Tool::ODF</a>
+, <a class="el" href="class_m_r_1_1_image_i_o_1_1_variable_scaling_1_1_scale_factor.html#ab38355d5aec2af2b50cfc89f3a37a315">MR::ImageIO::VariableScaling::ScaleFactor</a>
 , <a class="el" href="struct_m_r_1_1_registration_1_1_transform_1_1_init_1_1_linear_initialisation_params_1_1_rotation_init_1_1rot__search.html#aa609cb466a04d3f8a10fb94616661e8d">MR::Registration::Transform::Init::LinearInitialisationParams::RotationInit::rot_search</a>
 </li>
 <li>scale_
@@ -122,14 +123,14 @@ $(document).ready(function(){initNavTree('functions_vars_s.html',''); initResiza
 : <a class="el" href="class_m_r_1_1_registration_1_1_non_linear.html#ac7750f2a60f710611e81f6c6232c0a08">MR::Registration::NonLinear</a>
 , <a class="el" href="struct_m_r_1_1_registration_1_1_stage_setting.html#ae090a1300abdfca8ef6516b73d0ec34f">MR::Registration::StageSetting</a>
 </li>
+<li>scale_factors
+: <a class="el" href="class_m_r_1_1_image_i_o_1_1_variable_scaling.html#a9ca64e7757d670153dcbeb09f4bcf320">MR::ImageIO::VariableScaling</a>
+</li>
 <li>scale_type
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_fixel.html#a8b4e7f986e6dd1caad91030e87fbcf09">MR::GUI::MRView::Tool::BaseFixel</a>
 </li>
 <li>scale_type_index
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_fixel.html#a55b35020e402c69bbcd7f95a904ef0b6">MR::GUI::MRView::Tool::BaseFixel</a>
-</li>
-<li>scaled_contrasts
-: <a class="el" href="class_m_r_1_1_math_1_1_stats_1_1_g_l_m_t_test.html#ac501384fd8cf92cffb457a40abc83f99">MR::Math::Stats::GLMTTest</a>
 </li>
 <li>scanner2image
 : <a class="el" href="class_m_r_1_1_transform.html#a1cb2ee8b72a7a3d54926e616aa6b6196">MR::Transform</a>
@@ -250,7 +251,7 @@ $(document).ready(function(){initNavTree('functions_vars_s.html',''); initResiza
 </li>
 <li>size
 : <a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_element.html#a79b515dc6fb2261d20aaf2f966969702">MR::File::Dicom::Element</a>
-, <a class="el" href="class_m_r_1_1_filter_1_1cluster.html#ae55e1bff3dac101a832f374a686f1046">MR::Filter::cluster</a>
+, <a class="el" href="class_m_r_1_1_filter_1_1_connector_1_1_cluster.html#a734326ad76af3ba8e2e44957306ea896">MR::Filter::Connector::Cluster</a>
 , <a class="el" href="struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___undo_entry.html#a7a1cbfa56848e572f7f7beca82d8ece5">MR::GUI::MRView::Tool::ROI_UndoEntry</a>
 </li>
 <li>size0
@@ -262,10 +263,14 @@ $(document).ready(function(){initNavTree('functions_vars_s.html',''); initResiza
 </li>
 <li>size_
 : <a class="el" href="class_m_r_1_1_adapter_1_1_neighbourhood_coord.html#a568728bfd16585c6bd0b21a8fdcd5762">MR::Adapter::NeighbourhoodCoord&lt; ImageType &gt;</a>
+, <a class="el" href="class_m_r_1_1_adapter_1_1_regrid.html#aeea549887fc41cccc3b942d580b07b15">MR::Adapter::Regrid&lt; ImageType &gt;</a>
 , <a class="el" href="class_m_r_1_1_adapter_1_1_subset.html#ab00484c48cdffab8840c3278e2733ff6">MR::Adapter::Subset&lt; ImageType &gt;</a>
 </li>
 <li>sizeof_hdr
 : <a class="el" href="structnifti__2__header.html#a0d14ac0a10fa174bc576b50917e538d8">nifti_2_header</a>
+</li>
+<li>skew
+: <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_pre_processor.html#a41e6a1451652bcf77d417570b5b763f5">MR::Stats::PermTest::PreProcessor</a>
 </li>
 <li>SL_eff
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_line_search_functor_1_1_fixel.html#ac5245c51521b580617ec13019fc6168e">MR::DWI::Tractography::SIFT2::LineSearchFunctor::Fixel</a>
@@ -330,6 +335,12 @@ $(document).ready(function(){initNavTree('functions_vars_s.html',''); initResiza
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_tensor___det.html#a37e5a9567d5e3e8e640937173b0bf5ec">MR::DWI::Tractography::Algorithms::Tensor_Det</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_tensor___prob.html#aac96f350c57931741982783fd0ddb49f">MR::DWI::Tractography::Algorithms::Tensor_Prob</a>
 </li>
+<li>speed
+: <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_demons4_d.html#a27362d84826d5a2b1cc4577cd922d541">MR::Registration::Metric::Demons4D&lt; Im1ImageType, Im2ImageType, Im1MaskType, Im2MaskType &gt;</a>
+</li>
+<li>speed_squared
+: <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_demons4_d.html#a86c5ac793cda2aadeb11f69f39556df3">MR::Registration::Metric::Demons4D&lt; Im1ImageType, Im2ImageType, Im1MaskType, Im2MaskType &gt;</a>
+</li>
 <li>srow_x
 : <a class="el" href="structnifti__2__header.html#a0ca71fb149a16072bdb49b4a1aea1adb">nifti_2_header</a>
 </li>
@@ -338,6 +349,10 @@ $(document).ready(function(){initNavTree('functions_vars_s.html',''); initResiza
 </li>
 <li>srow_z
 : <a class="el" href="structnifti__2__header.html#ab46bb5cdd894cf50a5af94843dd5115a">nifti_2_header</a>
+</li>
+<li>stage_contrasts
+: <a class="el" href="class_m_r_1_1_registration_1_1_linear.html#a85365cc61d11c28cf3830ecc52c11dfe">MR::Registration::Linear</a>
+, <a class="el" href="class_m_r_1_1_registration_1_1_non_linear.html#a335a6d1e9aaa1b7ac0625bde269a8117">MR::Registration::NonLinear</a>
 </li>
 <li>stage_iterations
 : <a class="el" href="struct_m_r_1_1_registration_1_1_stage_setting.html#ae79b38372d7d6ccca4f93a8a3075f597">MR::Registration::StageSetting</a>
@@ -349,27 +364,39 @@ $(document).ready(function(){initNavTree('functions_vars_s.html',''); initResiza
 : <a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_c_s_a_entry.html#ad9ddd41ad9c7f3643787462201cf9819">MR::File::Dicom::CSAEntry</a>
 , <a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_element.html#ab2a1f2737d0efa67e38192becb3488b4">MR::File::Dicom::Element</a>
 , <a class="el" href="class_m_r_1_1_file_1_1_entry.html#abf8ad0d0cfeca6643824d47e3723f5db">MR::File::Entry</a>
+, <a class="el" href="struct_m_r_1_1_registration_1_1_multi_contrast_setting.html#a6916cf6550ba65f672686158eeca56f5">MR::Registration::MultiContrastSetting</a>
+</li>
+<li>start_nvols
+: <a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_linear_kernel_multi_contrast.html#a776e78114dc666454ce4c5da0601a353">MR::Registration::Transform::LinearKernelMultiContrast&lt; FODImageType &gt;</a>
+, <a class="el" href="class_m_r_1_1_registration_1_1_transform_1_1_non_linear_kernel_multi_contrast.html#acafabe342092e7b22d1e621bc6dd7811">MR::Registration::Transform::NonLinearKernelMultiContrast&lt; FODImageType &gt;</a>
+</li>
+<li>stat2z
+: <a class="el" href="group___statistics.html#ga8e13fc05130d22f88aa4ddacd9fd2041">MR::Math::Stats::GLM::TestBase</a>
+</li>
+<li>state
+: <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_include_r_o_i_visitation.html#a82c96b113c8483ec4d3e3df4b2c52096">MR::DWI::Tractography::IncludeROIVisitation</a>
 </li>
 <li>statistic
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_t_w_i_image_plugin_base.html#af08464282f408a9c4e68545ce2f7609c">MR::DWI::Tractography::Mapping::TWIImagePluginBase</a>
 </li>
 <li>statistics
-: <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#a5b63d1b0a14fcfb00ad77be533002d9c">MR::Stats::PermTest::Processor&lt; StatsType &gt;</a>
+: <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#a3cf1bea813126ed2d25816075c85d195">MR::Stats::PermTest::Processor</a>
 </li>
 <li>stats
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_energy_computer.html#a596976d5c1745dd19c1907c3d072439a">MR::DWI::Tractography::GT::EnergyComputer</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_m_h_sampler.html#abc85c835a36443bf93a62220bc6e5b1c">MR::DWI::Tractography::GT::MHSampler</a>
-, <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_pre_processor.html#aab77b072d6839024d78100adac7ef1a4">MR::Stats::PermTest::PreProcessor&lt; StatsType &gt;</a>
+, <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_pre_processor.html#a67fc72b051adc3731feab29952ab1d75">MR::Stats::PermTest::PreProcessor</a>
 </li>
 <li>stats_calculator
-: <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_pre_processor.html#a977ce3a7dd7c38e86b780b0dc402bffd">MR::Stats::PermTest::PreProcessor&lt; StatsType &gt;</a>
-, <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#af4055b5b4670cc7caec1cc2e249989fb">MR::Stats::PermTest::Processor&lt; StatsType &gt;</a>
+: <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_pre_processor.html#a7f92075644d742db9fc96d721ae57904">MR::Stats::PermTest::PreProcessor</a>
+, <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#ac5290a145e1472ade2f109542f66c867">MR::Stats::PermTest::Processor</a>
 </li>
 <li>stdev
 : <a class="el" href="class_m_r_1_1_adapter_1_1_gaussian1_d.html#a99b0a43ea2b4c22875c8d4855fcc36e8">MR::Adapter::Gaussian1D&lt; ImageType &gt;</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_shell.html#a987d2ee22ca76dd6f6c701f0711f9aee">MR::DWI::Shell</a>
 , <a class="el" href="class_m_r_1_1_filter_1_1_gradient.html#aeb8533ad11e6ee7f590c2cc925a4863f">MR::Filter::Gradient</a>
 , <a class="el" href="class_m_r_1_1_filter_1_1_smooth.html#a0e22b50bfd51e7730ee33adae0e9b341">MR::Filter::Smooth</a>
+, <a class="el" href="class_m_r_1_1_fixel_1_1_filter_1_1_smooth.html#a8f226989244f6815c4724298e24081cb">MR::Fixel::Filter::Smooth</a>
 </li>
 <li>step
 : <a class="el" href="class_m_r_1_1_registration_1_1_warp_1_1_compose_disp_kernel.html#ab26a33d2b864434e04dd9a2114082ca3">MR::Registration::Warp::ComposeDispKernel</a>
@@ -423,7 +450,7 @@ $(document).ready(function(){initNavTree('functions_vars_s.html',''); initResiza
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Apr 13 2020 22:01:56 for MRtrix by
+    <li class="footer">Generated on Wed Apr 22 2020 19:06:17 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

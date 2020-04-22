@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC3_latest-86-gcc3600ed</div>
+   <div id="projectbrief">Version 3.0_RC4-882-gb3b8647f</div>
   </td>
  </tr>
  </tbody>
@@ -91,25 +91,16 @@ $(document).ready(function(){initNavTree('cfe_8h.html',''); initResizable(); });
 <div class="title">cfe.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;image.h&quot;</code><br />
-<code>#include &quot;<a class="el" href="image__helpers_8h_source.html">image_helpers.h</a>&quot;</code><br />
-<code>#include &quot;types.h&quot;</code><br />
-<code>#include &quot;<a class="el" href="math_8h_source.html">math/math.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;types.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="typedefs_8h_source.html">math/stats/typedefs.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="src_2dwi_2tractography_2mapping_2mapper_8h_source.html">dwi/tractography/mapping/mapper.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="stats_2enhance_8h_source.html">stats/enhance.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="src_2fixel_2matrix_8h_source.html">fixel/matrix.h</a>&quot;</code><br />
 </div>
 <p><a href="cfe_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_c_f_e_1_1connectivity.html">MR::Stats::CFE::connectivity</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_c_f_e_1_1_norm_matrix_element.html">MR::Stats::CFE::NormMatrixElement</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_c_f_e_1_1_track_processor.html">MR::Stats::CFE::TrackProcessor</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_c_f_e_1_1_enhancer.html">MR::Stats::CFE::Enhancer</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_c_f_e.html">MR::Stats::CFE</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -118,27 +109,11 @@ Namespaces</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespace_m_r_1_1_stats"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_stats.html">MR::Stats</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespace_m_r_1_1_stats_1_1_c_f_e"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_stats_1_1_c_f_e.html">MR::Stats::CFE</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a48dc0442dfe758d826935ef2c3e028d2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_stats_1_1_c_f_e.html#a48dc0442dfe758d826935ef2c3e028d2">MR::Stats::CFE::index_type</a> = uint32_t</td></tr>
-<tr class="separator:a48dc0442dfe758d826935ef2c3e028d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa2d1279dffb7318760bfd7b5b4aa206a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_stats_1_1_c_f_e.html#aa2d1279dffb7318760bfd7b5b4aa206a">MR::Stats::CFE::value_type</a> = Math::Stats::value_type</td></tr>
-<tr class="separator:aa2d1279dffb7318760bfd7b5b4aa206a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a528114c0749ddcb349bdbce16656bd0a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_stats_1_1_c_f_e.html#a528114c0749ddcb349bdbce16656bd0a">MR::Stats::CFE::vector_type</a> = Math::Stats::vector_type</td></tr>
-<tr class="separator:a528114c0749ddcb349bdbce16656bd0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7106519ec194bb1ca0383b9b68332490"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_stats_1_1_c_f_e.html#a7106519ec194bb1ca0383b9b68332490">MR::Stats::CFE::connectivity_value_type</a> = float</td></tr>
-<tr class="separator:a7106519ec194bb1ca0383b9b68332490"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3ecd5f5f578b07cac19cfb64d05f7e3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_stats_1_1_c_f_e.html#ae3ecd5f5f578b07cac19cfb64d05f7e3">MR::Stats::CFE::direction_type</a> = <a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt; value_type, 3, 1 &gt;</td></tr>
-<tr class="separator:ae3ecd5f5f578b07cac19cfb64d05f7e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac1dc22b812b8704be873eaf9c3176ed2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_stats_1_1_c_f_e.html#ac1dc22b812b8704be873eaf9c3176ed2">MR::Stats::CFE::SetVoxelDir</a> = DWI::Tractography::Mapping::SetVoxelDir</td></tr>
-<tr class="separator:ac1dc22b812b8704be873eaf9c3176ed2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa347d72aedf45cdc22548dc466c25ea5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___statistics.html#gaa347d72aedf45cdc22548dc466c25ea5">MR::Stats::CFE::init_connectivity_matrix_type</a> = vector&lt; std::map&lt; index_type, connectivity &gt; &gt;</td></tr>
-<tr class="separator:gaa347d72aedf45cdc22548dc466c25ea5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad01fd43ff15d42419f267906b44feeec"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___statistics.html#gad01fd43ff15d42419f267906b44feeec">MR::Stats::CFE::norm_connectivity_matrix_type</a> = vector&lt; vector&lt; NormMatrixElement &gt; &gt;</td></tr>
-<tr class="separator:gad01fd43ff15d42419f267906b44feeec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e9bb6174ef5abb7cf420bc113addc82"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_stats.html#a4e9bb6174ef5abb7cf420bc113addc82">MR::Stats::direction_type</a> = <a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt; value_type, 3, 1 &gt;</td></tr>
+<tr class="separator:a4e9bb6174ef5abb7cf420bc113addc82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -146,7 +121,7 @@ Typedefs</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_3de45fbf08d2e79aacff2f4de113ab26.html">stats</a></li><li class="navelem"><a class="el" href="cfe_8h.html">cfe.h</a></li>
-    <li class="footer">Generated on Mon Apr 13 2020 22:01:54 for MRtrix by
+    <li class="footer">Generated on Wed Apr 22 2020 19:06:14 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

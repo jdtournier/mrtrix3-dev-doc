@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC3_latest-86-gcc3600ed</div>
+   <div id="projectbrief">Version 3.0_RC4-882-gb3b8647f</div>
   </td>
  </tr>
  </tbody>
@@ -90,7 +90,8 @@ $(document).ready(function(){initNavTree('image__diff_8h.html',''); initResizabl
 <div class="title">image_diff.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="image__helpers_8h_source.html">image_helpers.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;set&gt;</code><br />
+<code>#include &quot;<a class="el" href="image__helpers_8h_source.html">image_helpers.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="algo_2loop_8h_source.html">algo/loop.h</a>&quot;</code><br />
 </div>
 <p><a href="image__diff_8h_source.html">Go to the source code of this file.</a></p>
@@ -122,6 +123,10 @@ Functions</h2></td></tr>
 <tr class="memitem:aff573394148778e85f92ffa04f259c92"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#aff573394148778e85f92ffa04f259c92">MR::check_images_voxel</a> (ImageType1 &amp;in1, ImageType2 &amp;in2, const double tol=0.0)</td></tr>
 <tr class="memdesc:aff573394148778e85f92ffa04f259c92"><td class="mdescLeft">&#160;</td><td class="mdescRight">check images are the same within a fractional tolerance relative to the maximum value in the voxel  <a href="namespace_m_r.html#aff573394148778e85f92ffa04f259c92">More...</a><br /></td></tr>
 <tr class="separator:aff573394148778e85f92ffa04f259c92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad35e03f6a039dd5b0af8601341858363"><td class="memTemplParams" colspan="2">template&lt;class HeaderType1 , class HeaderType2 &gt; </td></tr>
+<tr class="memitem:ad35e03f6a039dd5b0af8601341858363"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#ad35e03f6a039dd5b0af8601341858363">MR::check_keyvals</a> (const HeaderType1 &amp;in1, const HeaderType2 &amp;in2)</td></tr>
+<tr class="memdesc:ad35e03f6a039dd5b0af8601341858363"><td class="mdescLeft">&#160;</td><td class="mdescRight">check headers contain the same key-value entries  <a href="namespace_m_r.html#ad35e03f6a039dd5b0af8601341858363">More...</a><br /></td></tr>
+<tr class="separator:ad35e03f6a039dd5b0af8601341858363"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a766cac11cb380726bce3bd75985be51a"><td class="memTemplParams" colspan="2">template&lt;class HeaderType1 , class HeaderType2 &gt; </td></tr>
 <tr class="memitem:a766cac11cb380726bce3bd75985be51a"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a766cac11cb380726bce3bd75985be51a">MR::headers_match</a> (HeaderType1 &amp;in1, HeaderType2 &amp;in2)</td></tr>
 <tr class="memdesc:a766cac11cb380726bce3bd75985be51a"><td class="mdescLeft">&#160;</td><td class="mdescRight">check image headers are the same (dimensions, spacing &amp; transform)  <a href="namespace_m_r.html#a766cac11cb380726bce3bd75985be51a">More...</a><br /></td></tr>
@@ -137,7 +142,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4270bfced15e0e73154b13468c7c9ad9.html">core</a></li><li class="navelem"><a class="el" href="image__diff_8h.html">image_diff.h</a></li>
-    <li class="footer">Generated on Mon Apr 13 2020 22:01:54 for MRtrix by
+    <li class="footer">Generated on Wed Apr 22 2020 19:06:14 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

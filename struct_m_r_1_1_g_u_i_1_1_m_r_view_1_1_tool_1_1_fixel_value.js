@@ -1,6 +1,7 @@
 var struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_fixel_value =
 [
     [ "add_value", "struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_fixel_value.html#a29b0b09de97f4a5b8b8f54b8bddc726e", null ],
+    [ "clear", "struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_fixel_value.html#a646d712a3c0b6191a730acd898eebbaa", null ],
     [ "get_relative_threshold_lower", "struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_fixel_value.html#a177a786f6f06fbccdb03d6860f0e3370", null ],
     [ "get_relative_threshold_upper", "struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_fixel_value.html#a7f9fedb3d3e09e5311e3a516d411e66a", null ],
     [ "initialise_windowing", "struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_fixel_value.html#ae8006a1ba0af1fb7b71ad98f62027791", null ],

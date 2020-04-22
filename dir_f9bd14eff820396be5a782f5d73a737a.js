@@ -17,6 +17,10 @@ var dir_f9bd14eff820396be5a782f5d73a737a =
     [ "screen_capture.h", "screen__capture_8h.html", [
       [ "Capture", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_capture.html", null ]
     ] ],
+    [ "transform.h", "src_2gui_2mrview_2tool_2transform_8h.html", [
+      [ "Transform", "class_m_r_1_1_transform.html", "class_m_r_1_1_transform" ],
+      [ "Transform", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform" ]
+    ] ],
     [ "view.h", "view_8h.html", [
       [ "ClipPlane", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_clip_plane.html", null ],
       [ "View", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_view.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_view" ]

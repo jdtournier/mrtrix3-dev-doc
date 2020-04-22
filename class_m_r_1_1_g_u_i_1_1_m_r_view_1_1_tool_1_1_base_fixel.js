@@ -7,7 +7,7 @@ var class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_fixel =
     [ "get_fixel_value", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_fixel.html#ab88a0d5295531d7413b13c7ad080dab2", null ],
     [ "load_image_buffer", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_fixel.html#a0553bc13a39ff2e0c10133034b868fbc", null ],
     [ "request_update_interp_image_buffer", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_fixel.html#a0953e6e4593e4b8668665a4c7da9dbac", null ],
-    [ "update_image_buffers", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_fixel.html#a39bdf6e58f5c54234a033a37b6db66d0", null ],
+    [ "update_image_buffers", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_fixel.html#a7bd55044104537af11dbaf88e98abfb6", null ],
     [ "update_interp_image_buffer", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_fixel.html#a7b579dc859d3fd7cd795867109b5ee9a", null ],
     [ "colour_buffer_dirty", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_fixel.html#a9c833b9a7fd2cb2f7dd4c764ead7f40d", null ],
     [ "colour_type", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_fixel.html#a38cafd9d77bfa3f92c10d3a3ca4215c1", null ],

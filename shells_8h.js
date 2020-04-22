@@ -2,6 +2,7 @@ var shells_8h =
 [
     [ "Shell", "class_m_r_1_1_d_w_i_1_1_shell.html", "class_m_r_1_1_d_w_i_1_1_shell" ],
     [ "Shells", "class_m_r_1_1_d_w_i_1_1_shells.html", "class_m_r_1_1_d_w_i_1_1_shells" ],
+    [ "DWI_SHELLS_BZERO_THREHSOLD", "shells_8h.html#a7fb47ea8fe20f62968bbd1d0a46042ab", null ],
     [ "DWI_SHELLS_EPSILON", "shells_8h.html#a8fdc3dd3a7b2c4e346b6cd47cc094945", null ],
     [ "DWI_SHELLS_MIN_DIRECTIONS", "shells_8h.html#a4b9adde3a55a78a0974a94b949bc5228", null ],
     [ "DWI_SHELLS_MIN_LINKAGE", "shells_8h.html#ac1356b89e9c0c012ce72b08bc95d1682", null ],

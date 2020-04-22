@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC3_latest-86-gcc3600ed</div>
+   <div id="projectbrief">Version 3.0_RC4-882-gb3b8647f</div>
   </td>
  </tr>
  </tbody>
@@ -196,13 +196,13 @@ Arbitrary order loop</h1>
 <div class="line">vector&lt;size_t&gt; <a class="code" href="namespace_m_r_1_1_stride.html#a3c0ec257b26e5cee6dc8e010480092e3">order</a> = { 1, 0, 2 };</div>
 <div class="line"> </div>
 <div class="line">LoopInOrder loop (vox, <a class="code" href="namespace_m_r_1_1_stride.html#a3c0ec257b26e5cee6dc8e010480092e3">order</a>);</div>
-<div class="line"><span class="keywordflow">for</span> (<span class="keyword">auto</span> i = loop.run (vox); i; ++i) </div>
+<div class="line"><span class="keywordflow">for</span> (<span class="keyword">auto</span> i = loop.run (vox); i; ++i)</div>
 <div class="line">  <a class="code" href="group__spherical__harmonics.html#gac405578b4137cf1c22a0cf646d260b05">value</a> += std::exp (-vox.value());</div>
 </div><!-- fragment --><p> This will iterate over the axes in the same order as the first example above, irrespective of the strides of the ImageType.</p>
 <h1><a class="anchor" id="multiorderloop"></a>
 Looping over multiple ImageType objects:</h1>
 <p>As with the Loop class, it is possible to loop over more than one ImageType of the same dimensions, by passing any additional ImageType objects to be looped over to the <a class="el" href="app_8h.html#a13a43e6d814de94978c515cb084873b1">run()</a> member function. For example, this code snippet will copy the contents of the ImageType <em>src</em> into a ImageType <em>dest</em> (assumed to have the same dimensions as <em>src</em>), with the looping order optimised for the <em>src</em> ImageType: </p><div class="fragment"><div class="line">LoopInOrder loop (src);</div>
-<div class="line"><span class="keywordflow">for</span> (<span class="keyword">auto</span> i = loop.run(src, dest); i; ++i) </div>
+<div class="line"><span class="keywordflow">for</span> (<span class="keyword">auto</span> i = loop.run(src, dest); i; ++i)</div>
 <div class="line">  dest.value() = src.value();</div>
 </div><!-- fragment --><h1><a class="anchor" id="progressloopinroder"></a>
 Displaying progress status</h1>
@@ -232,7 +232,7 @@ Displaying progress status</h1>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="algo_2loop_8h_source.html#l00417">417</a> of file <a class="el" href="algo_2loop_8h_source.html">loop.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="algo_2loop_8h_source.html#l00419">419</a> of file <a class="el" href="algo_2loop_8h_source.html">loop.h</a>.</p>
 
 </div>
 </div>
@@ -276,7 +276,7 @@ template&lt;class ImageType &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="algo_2loop_8h_source.html#l00430">430</a> of file <a class="el" href="algo_2loop_8h_source.html">loop.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="algo_2loop_8h_source.html#l00459">459</a> of file <a class="el" href="algo_2loop_8h_source.html">loop.h</a>.</p>
 
 </div>
 </div>
@@ -296,7 +296,7 @@ template&lt;class ImageType &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="algo_2loop_8h_source.html#l00418">418</a> of file <a class="el" href="algo_2loop_8h_source.html">loop.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="algo_2loop_8h_source.html#l00423">423</a> of file <a class="el" href="algo_2loop_8h_source.html">loop.h</a>.</p>
 
 </div>
 </div>
@@ -346,7 +346,7 @@ template&lt;class ImageType &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="algo_2loop_8h_source.html#l00436">436</a> of file <a class="el" href="algo_2loop_8h_source.html">loop.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="algo_2loop_8h_source.html#l00466">466</a> of file <a class="el" href="algo_2loop_8h_source.html">loop.h</a>.</p>
 
 </div>
 </div>
@@ -376,7 +376,7 @@ template&lt;class ImageType &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="algo_2loop_8h_source.html#l00426">426</a> of file <a class="el" href="algo_2loop_8h_source.html">loop.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="algo_2loop_8h_source.html#l00455">455</a> of file <a class="el" href="algo_2loop_8h_source.html">loop.h</a>.</p>
 
 </div>
 </div>
@@ -406,7 +406,7 @@ template&lt;class ImageType &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="algo_2loop_8h_source.html#l00420">420</a> of file <a class="el" href="algo_2loop_8h_source.html">loop.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="algo_2loop_8h_source.html#l00431">431</a> of file <a class="el" href="algo_2loop_8h_source.html">loop.h</a>.</p>
 
 </div>
 </div>
@@ -442,7 +442,7 @@ template&lt;class ImageType &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="algo_2loop_8h_source.html#l00422">422</a> of file <a class="el" href="algo_2loop_8h_source.html">loop.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="algo_2loop_8h_source.html#l00439">439</a> of file <a class="el" href="algo_2loop_8h_source.html">loop.h</a>.</p>
 
 </div>
 </div>
@@ -472,7 +472,7 @@ template&lt;class ImageType &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="algo_2loop_8h_source.html#l00424">424</a> of file <a class="el" href="algo_2loop_8h_source.html">loop.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="algo_2loop_8h_source.html#l00447">447</a> of file <a class="el" href="algo_2loop_8h_source.html">loop.h</a>.</p>
 
 </div>
 </div>
@@ -492,7 +492,7 @@ template&lt;class ImageType &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="algo_2loop_8h_source.html#l00425">425</a> of file <a class="el" href="algo_2loop_8h_source.html">loop.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="algo_2loop_8h_source.html#l00451">451</a> of file <a class="el" href="algo_2loop_8h_source.html">loop.h</a>.</p>
 
 </div>
 </div>
@@ -512,7 +512,7 @@ template&lt;class ImageType &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="algo_2loop_8h_source.html#l00419">419</a> of file <a class="el" href="algo_2loop_8h_source.html">loop.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="algo_2loop_8h_source.html#l00427">427</a> of file <a class="el" href="algo_2loop_8h_source.html">loop.h</a>.</p>
 
 </div>
 </div>
@@ -542,7 +542,7 @@ template&lt;class ImageType &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="algo_2loop_8h_source.html#l00421">421</a> of file <a class="el" href="algo_2loop_8h_source.html">loop.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="algo_2loop_8h_source.html#l00435">435</a> of file <a class="el" href="algo_2loop_8h_source.html">loop.h</a>.</p>
 
 </div>
 </div>
@@ -562,23 +562,23 @@ template&lt;class ImageType &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="algo_2loop_8h_source.html#l00423">423</a> of file <a class="el" href="algo_2loop_8h_source.html">loop.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="algo_2loop_8h_source.html#l00443">443</a> of file <a class="el" href="algo_2loop_8h_source.html">loop.h</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="agroup__loop_html_ga2210102d90cf5ddfe7089fc025e7a3d8"><div class="ttname"><a href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">MR::Loop</a></div><div class="ttdeci">FORCE_INLINE LoopAlongAxes Loop()</div><div class="ttdef"><b>Definition:</b> <a href="algo_2loop_8h_source.html#l00417">loop.h:417</a></div></div>
-<div class="ttc" id="agroup__spherical__harmonics_html_gac405578b4137cf1c22a0cf646d260b05"><div class="ttname"><a href="group__spherical__harmonics.html#gac405578b4137cf1c22a0cf646d260b05">MR::Math::SH::value</a></div><div class="ttdeci">VectorType::Scalar value(const VectorType &amp;coefs, typename VectorType::Scalar cos_elevation, typename VectorType::Scalar cos_azimuth, typename VectorType::Scalar sin_azimuth, int lmax)</div><div class="ttdef"><b>Definition:</b> <a href="_s_h_8h_source.html#l00196">SH.h:196</a></div></div>
-<div class="ttc" id="anoise__estimator_8h_html_a884869744ebf14a092b339ae65c2af37"><div class="ttname"><a href="noise__estimator_8h.html#a884869744ebf14a092b339ae65c2af37">axis</a></div><div class="ttdeci">int axis</div><div class="ttdef"><b>Definition:</b> <a href="noise__estimator_8h_source.html#l00067">noise_estimator.h:67</a></div></div>
+<div class="ttc" id="agroup__loop_html_ga2210102d90cf5ddfe7089fc025e7a3d8"><div class="ttname"><a href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">MR::Loop</a></div><div class="ttdeci">FORCE_INLINE LoopAlongAxes Loop()</div><div class="ttdef"><b>Definition:</b> <a href="algo_2loop_8h_source.html#l00419">loop.h:419</a></div></div>
+<div class="ttc" id="agroup__spherical__harmonics_html_gac405578b4137cf1c22a0cf646d260b05"><div class="ttname"><a href="group__spherical__harmonics.html#gac405578b4137cf1c22a0cf646d260b05">MR::Math::SH::value</a></div><div class="ttdeci">VectorType::Scalar value(const VectorType &amp;coefs, typename VectorType::Scalar cos_elevation, typename VectorType::Scalar cos_azimuth, typename VectorType::Scalar sin_azimuth, int lmax)</div><div class="ttdef"><b>Definition:</b> <a href="_s_h_8h_source.html#l00233">SH.h:233</a></div></div>
+<div class="ttc" id="anoise__estimator_8h_html_a884869744ebf14a092b339ae65c2af37"><div class="ttname"><a href="noise__estimator_8h.html#a884869744ebf14a092b339ae65c2af37">axis</a></div><div class="ttdeci">int axis</div><div class="ttdef"><b>Definition:</b> <a href="noise__estimator_8h_source.html#l00068">noise_estimator.h:68</a></div></div>
 <div class="ttc" id="aapp_8h_html_a13a43e6d814de94978c515cb084873b1"><div class="ttname"><a href="app_8h.html#a13a43e6d814de94978c515cb084873b1">run</a></div><div class="ttdeci">void run()</div></div>
-<div class="ttc" id="anamespace_m_r_html_a7dcea37fdb5fba1961d121fca36c22c4"><div class="ttname"><a href="namespace_m_r.html#a7dcea37fdb5fba1961d121fca36c22c4">MR::str</a></div><div class="ttdeci">std::string str(const T &amp;value, int precision=0)</div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00079">mrtrix.h:79</a></div></div>
+<div class="ttc" id="anamespace_m_r_html_a7dcea37fdb5fba1961d121fca36c22c4"><div class="ttname"><a href="namespace_m_r.html#a7dcea37fdb5fba1961d121fca36c22c4">MR::str</a></div><div class="ttdeci">std::string str(const T &amp;value, int precision=0)</div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00205">mrtrix.h:205</a></div></div>
 <div class="ttc" id="anamespace_m_r_html_a66792f7e70e2ea8b404314eeebcd4dbb"><div class="ttname"><a href="namespace_m_r.html#a66792f7e70e2ea8b404314eeebcd4dbb">MR::print</a></div><div class="ttdeci">void(* print)(const std::string &amp;msg)</div><div class="ttdoc">print primary output to stdout as-is.</div></div>
-<div class="ttc" id="anamespace_m_r_1_1_stride_html_a3c0ec257b26e5cee6dc8e010480092e3"><div class="ttname"><a href="namespace_m_r_1_1_stride.html#a3c0ec257b26e5cee6dc8e010480092e3">MR::Stride::order</a></div><div class="ttdeci">vector&lt; size_t &gt; order(const HeaderType &amp;header, size_t from_axis=0, size_t to_axis=std::numeric_limits&lt; size_t &gt;::max())</div><div class="ttdoc">sort range of axes with respect to their absolute stride.</div><div class="ttdef"><b>Definition:</b> <a href="stride_8h_source.html#l00158">stride.h:158</a></div></div>
+<div class="ttc" id="anamespace_m_r_1_1_stride_html_a3c0ec257b26e5cee6dc8e010480092e3"><div class="ttname"><a href="namespace_m_r_1_1_stride.html#a3c0ec257b26e5cee6dc8e010480092e3">MR::Stride::order</a></div><div class="ttdeci">vector&lt; size_t &gt; order(const HeaderType &amp;header, size_t from_axis=0, size_t to_axis=std::numeric_limits&lt; size_t &gt;::max())</div><div class="ttdoc">sort range of axes with respect to their absolute stride.</div><div class="ttdef"><b>Definition:</b> <a href="stride_8h_source.html#l00159">stride.h:159</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Apr 13 2020 22:01:54 for MRtrix by
+    <li class="footer">Generated on Wed Apr 22 2020 19:06:14 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

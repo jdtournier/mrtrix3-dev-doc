@@ -3,6 +3,8 @@ var namespace_m_r_1_1_app =
     [ "Argument", "class_m_r_1_1_app_1_1_argument.html", "class_m_r_1_1_app_1_1_argument" ],
     [ "ArgumentList", "class_m_r_1_1_app_1_1_argument_list.html", "class_m_r_1_1_app_1_1_argument_list" ],
     [ "Description", "class_m_r_1_1_app_1_1_description.html", "class_m_r_1_1_app_1_1_description" ],
+    [ "Example", "class_m_r_1_1_app_1_1_example.html", "class_m_r_1_1_app_1_1_example" ],
+    [ "ExampleList", "class_m_r_1_1_app_1_1_example_list.html", "class_m_r_1_1_app_1_1_example_list" ],
     [ "Option", "class_m_r_1_1_app_1_1_option.html", "class_m_r_1_1_app_1_1_option" ],
     [ "OptionGroup", "class_m_r_1_1_app_1_1_option_group.html", "class_m_r_1_1_app_1_1_option_group" ],
     [ "OptionList", "class_m_r_1_1_app_1_1_option_list.html", "class_m_r_1_1_app_1_1_option_list" ],

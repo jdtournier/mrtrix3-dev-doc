@@ -18,5 +18,6 @@ var class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file_options =
     [ "threshold_lower_box", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file_options.html#ab3103ef9e0d082a2ec2335a65b0f2936", null ],
     [ "threshold_upper", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file_options.html#a1d6c29943bcde0b6b5f166be5494037b", null ],
     [ "threshold_upper_box", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file_options.html#a1760ae4b1d6738d2f0b10500ae23223a", null ],
+    [ "tool", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file_options.html#a23b734774d288db865b54b00560bd6b3", null ],
     [ "tractogram", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file_options.html#a2cc3742ccdf6e3fd084022f8f3dff16a", null ]
 ];

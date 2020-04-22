@@ -19,7 +19,7 @@ var src_2dwi_2tractography_2tracking_2types_8h =
       [ "CALIBRATOR", "src_2dwi_2tractography_2tracking_2types_8h.html#a1c30c67185585a9f27b5a581050292f5a77264fab7e191454f7ae9cd1d11a304c", null ],
       [ "EXIT_IMAGE", "src_2dwi_2tractography_2tracking_2types_8h.html#a1c30c67185585a9f27b5a581050292f5aabadd272a0347e83a65f6125b9d403ac", null ],
       [ "ENTER_CSF", "src_2dwi_2tractography_2tracking_2types_8h.html#a1c30c67185585a9f27b5a581050292f5ad9b7b45b949c70e2c1627c69f1cd4612", null ],
-      [ "BAD_SIGNAL", "src_2dwi_2tractography_2tracking_2types_8h.html#a1c30c67185585a9f27b5a581050292f5a0a916fd7873519f3a6795211891d0ecb", null ],
+      [ "MODEL", "src_2dwi_2tractography_2tracking_2types_8h.html#a1c30c67185585a9f27b5a581050292f5af93247a07036841db5fa29a6cd48c720", null ],
       [ "HIGH_CURVATURE", "src_2dwi_2tractography_2tracking_2types_8h.html#a1c30c67185585a9f27b5a581050292f5a2c954b8e880f1b90f34fe6cbbdfcaedb", null ],
       [ "LENGTH_EXCEED", "src_2dwi_2tractography_2tracking_2types_8h.html#a1c30c67185585a9f27b5a581050292f5aa9c048181e78e768e1d0ba4dbe47d987", null ],
       [ "TERM_IN_SGM", "src_2dwi_2tractography_2tracking_2types_8h.html#a1c30c67185585a9f27b5a581050292f5a1eb2310a7998da4f8a297228b5be1393", null ],

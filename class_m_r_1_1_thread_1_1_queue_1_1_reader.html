@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC3_latest-86-gcc3600ed</div>
+   <div id="projectbrief">Version 3.0_RC4-882-gb3b8647f</div>
   </td>
  </tr>
  </tbody>
@@ -110,6 +110,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a516b06a7ffbb605650ea7aec8717b4a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8008426d0bb129f5549d33eb1bbbe778"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_thread_1_1_queue_1_1_reader.html#a8008426d0bb129f5549d33eb1bbbe778">Reader</a> (const <a class="el" href="class_m_r_1_1_thread_1_1_queue_1_1_reader.html">Reader</a> &amp;reader)</td></tr>
 <tr class="separator:a8008426d0bb129f5549d33eb1bbbe778"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a125474024e584dde87f78a40ca0c907f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_r_1_1_thread_1_1_queue_1_1_reader_1_1_item.html">Item</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_thread_1_1_queue_1_1_reader.html#a125474024e584dde87f78a40ca0c907f">placeholder</a> () const</td></tr>
+<tr class="separator:a125474024e584dde87f78a40ca0c907f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;class T&gt;<br />
@@ -119,10 +121,10 @@ class MR::Thread::Queue&lt; T &gt;::Reader</h3>
 <p>Items cannot be read directly from a <a class="el" href="class_m_r_1_1_thread_1_1_queue.html" title="A first-in first-out thread-safe item queue.">Thread::Queue</a> queue. An object of this class must be instanciated to notify the queue that a section of code will be reading from the queue. The actual process of reading items from the queue is done via the <a class="el" href="class_m_r_1_1_thread_1_1_queue_1_1_reader_1_1_item.html" title="This class is used to read items from the queue.">Reader::Item</a> class.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="class_m_r_1_1_thread_1_1_queue.html" title="A first-in first-out thread-safe item queue.">Thread::Queue</a> for more detailed information and examples. </dd>
 <dd>
-<a class="el" href="group__thread__queue.html#gaad717471c1771f5e794d0d8907cc3efc" title="convenience function to set up and run a 2-stage multi-threaded pipeline.">Thread::run_queue()</a> for a much more user-friendly way of setting up a queue. <br  />
+<a class="el" href="group__thread__queue.html#ga379ecfe538318b967e6d6fc74ab61b11" title="convenience function to set up and run a 2-stage multi-threaded pipeline.">Thread::run_queue()</a> for a much more user-friendly way of setting up a queue. <br  />
  </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00462">462</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00445">445</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a516b06a7ffbb605650ea7aec8717b4a4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a516b06a7ffbb605650ea7aec8717b4a4">&#9670;&nbsp;</a></span>Reader() <span class="overload">[1/2]</span></h2>
@@ -153,7 +155,7 @@ template&lt;class T &gt; </div>
 <p>Register a <a class="el" href="class_m_r_1_1_thread_1_1_queue_1_1_reader.html" title="This class is used to register a reader with the queue.">Reader</a> object with the queue. </p>
 <p>The <a class="el" href="class_m_r_1_1_thread_1_1_queue_1_1_reader.html" title="This class is used to register a reader with the queue.">Reader</a> object will register itself with the queue as a reader. </p>
 
-<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00467">467</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00450">450</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
 
 </div>
 </div>
@@ -183,7 +185,37 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00470">470</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00453">453</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a125474024e584dde87f78a40ca0c907f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a125474024e584dde87f78a40ca0c907f">&#9670;&nbsp;</a></span>placeholder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_m_r_1_1_thread_1_1_queue_1_1_reader_1_1_item.html">Item</a> <a class="el" href="class_m_r_1_1_thread_1_1_queue.html">MR::Thread::Queue</a>&lt; T &gt;::Reader::placeholder </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00509">509</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
 
 </div>
 </div>
@@ -196,7 +228,7 @@ template&lt;class T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_thread.html">Thread</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_thread_1_1_queue.html">Queue</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_thread_1_1_queue_1_1_reader.html">Reader</a></li>
-    <li class="footer">Generated on Mon Apr 13 2020 22:01:56 for MRtrix by
+    <li class="footer">Generated on Wed Apr 22 2020 19:06:16 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

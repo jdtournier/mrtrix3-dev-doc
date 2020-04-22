@@ -22,7 +22,7 @@ var src_2registration_2linear_8h =
     [ "set_init_translation_model_from_option", "src_2registration_2linear_8h.html#a8470b721abb2ae3a7644f6dc727faad9", null ],
     [ "adv_init_options", "src_2registration_2linear_8h.html#a40062a829959d2ebbee0aefda0688910", null ],
     [ "affine_options", "src_2registration_2linear_8h.html#aac5ec9fa85a76075dae81082bba9d99b", null ],
-    [ "fod_options", "src_2registration_2linear_8h.html#a9d3d1600155ad88a0b6789a0e0a3f0b3", null ],
+    [ "fod_options", "src_2registration_2linear_8h.html#ac8dc557373081edec651b16a73236779", null ],
     [ "lin_stage_options", "src_2registration_2linear_8h.html#a7d18d1d82c50f2cfd84c11b8682ae3d9", null ],
     [ "optim_algo_names", "src_2registration_2linear_8h.html#a0967b0249e8a6d1342ef75513bce8ca0", null ],
     [ "rigid_options", "src_2registration_2linear_8h.html#a036aa9163b02b7935d3f65f172720581", null ]

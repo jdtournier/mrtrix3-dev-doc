@@ -11,6 +11,7 @@ var namespace_m_r_1_1_adapter =
     [ "NeighbourhoodCoord", "class_m_r_1_1_adapter_1_1_neighbourhood_coord.html", "class_m_r_1_1_adapter_1_1_neighbourhood_coord" ],
     [ "Normalise3D", "class_m_r_1_1_adapter_1_1_normalise3_d.html", "class_m_r_1_1_adapter_1_1_normalise3_d" ],
     [ "PermuteAxes", "class_m_r_1_1_adapter_1_1_permute_axes.html", null ],
+    [ "Regrid", "class_m_r_1_1_adapter_1_1_regrid.html", "class_m_r_1_1_adapter_1_1_regrid" ],
     [ "Replicate", "class_m_r_1_1_adapter_1_1_replicate.html", "class_m_r_1_1_adapter_1_1_replicate" ],
     [ "Reslice", "class_m_r_1_1_adapter_1_1_reslice.html", null ],
     [ "Subset", "class_m_r_1_1_adapter_1_1_subset.html", "class_m_r_1_1_adapter_1_1_subset" ],

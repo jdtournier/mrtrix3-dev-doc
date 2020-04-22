@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC3_latest-86-gcc3600ed</div>
+   <div id="projectbrief">Version 3.0_RC4-882-gb3b8647f</div>
   </td>
  </tr>
  </tbody>
@@ -110,14 +110,22 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a51d0df44d48634a066bd756c1ecf6395"><td class="memTemplParams" colspan="2">template&lt;class Source , class Item1 , class Pipe , class Item2 , class Sink &gt; </td></tr>
+<tr class="memitem:a51d0df44d48634a066bd756c1ecf6395"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_thread.html#a51d0df44d48634a066bd756c1ecf6395">run_ordered_queue</a> (Source &amp;&amp;source, const Item1 &amp;item1, Pipe &amp;&amp;pipe, const Item2 &amp;item2, Sink &amp;&amp;sink, size_t capacity=128)</td></tr>
+<tr class="separator:a51d0df44d48634a066bd756c1ecf6395"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27253d09028745ddb585c7603e2b7f98"><td class="memTemplParams" colspan="2">template&lt;class Source , class Item1 , class Pipe1 , class Item2 , class Pipe2 , class Item3 , class Sink &gt; </td></tr>
+<tr class="memitem:a27253d09028745ddb585c7603e2b7f98"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_thread.html#a27253d09028745ddb585c7603e2b7f98">run_ordered_queue</a> (Source &amp;&amp;source, const Item1 &amp;item1, Pipe1 &amp;&amp;pipe1, const Item2 &amp;item2, Pipe2 &amp;&amp;pipe2, const Item3 &amp;item3, Sink &amp;&amp;sink, size_t capacity=128)</td></tr>
+<tr class="separator:a27253d09028745ddb585c7603e2b7f98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga86984fa489ba954903690da0836a4f08"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__thread__basics.html#ga86984fa489ba954903690da0836a4f08">number_of_threads</a> ()</td></tr>
 <tr class="separator:ga86984fa489ba954903690da0836a4f08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga635dcd8aac0bb5ea995a3dbf42423a10"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__thread__basics.html#gaff2bf599166ff69fd4b6219269c96bdb">nthreads_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__thread__basics.html#ga635dcd8aac0bb5ea995a3dbf42423a10">type_nthreads</a> ()</td></tr>
 <tr class="separator:ga635dcd8aac0bb5ea995a3dbf42423a10"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf01d13fdb672f4a8c8727a7a70760cea"><td class="memTemplParams" colspan="2">template&lt;class Functor &gt; </td></tr>
-<tr class="memitem:gaf01d13fdb672f4a8c8727a7a70760cea"><td class="memTemplItemLeft" align="right" valign="top">__Multi&lt; typename std::remove_reference&lt; Functor &gt;::type &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__thread__basics.html#gaf01d13fdb672f4a8c8727a7a70760cea">multi</a> (Functor &amp;&amp;<a class="el" href="thread_8h.html#aece92f5ed23ab311f706fc6069e61689">functor</a>, size_t nthreads=<a class="el" href="group__thread__basics.html#ga86984fa489ba954903690da0836a4f08">number_of_threads</a>())</td></tr>
-<tr class="memdesc:gaf01d13fdb672f4a8c8727a7a70760cea"><td class="mdescLeft">&#160;</td><td class="mdescRight">used to request multiple threads of the corresponding functor  <a href="group__thread__basics.html#gaf01d13fdb672f4a8c8727a7a70760cea">More...</a><br /></td></tr>
-<tr class="separator:gaf01d13fdb672f4a8c8727a7a70760cea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga48ca3b9de4d762dfc3697e2f7d78b8d6"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__thread__basics.html#ga48ca3b9de4d762dfc3697e2f7d78b8d6">threads_to_execute</a> ()</td></tr>
+<tr class="separator:ga48ca3b9de4d762dfc3697e2f7d78b8d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad614f2a6b5c31020d13e5ac510f2b315"><td class="memTemplParams" colspan="2">template&lt;class Functor &gt; </td></tr>
+<tr class="memitem:gad614f2a6b5c31020d13e5ac510f2b315"><td class="memTemplItemLeft" align="right" valign="top">__Multi&lt; typename std::remove_reference&lt; Functor &gt;::type &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__thread__basics.html#gad614f2a6b5c31020d13e5ac510f2b315">multi</a> (Functor &amp;&amp;<a class="el" href="thread_8h.html#aece92f5ed23ab311f706fc6069e61689">functor</a>, size_t nthreads=<a class="el" href="group__thread__basics.html#ga48ca3b9de4d762dfc3697e2f7d78b8d6">threads_to_execute</a>())</td></tr>
+<tr class="memdesc:gad614f2a6b5c31020d13e5ac510f2b315"><td class="mdescLeft">&#160;</td><td class="mdescRight">used to request multiple threads of the corresponding functor  <a href="group__thread__basics.html#gad614f2a6b5c31020d13e5ac510f2b315">More...</a><br /></td></tr>
+<tr class="separator:gad614f2a6b5c31020d13e5ac510f2b315"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaab961106219ef4fa4076d24edb123b48"><td class="memTemplParams" colspan="2">template&lt;class Functor &gt; </td></tr>
 <tr class="memitem:gaab961106219ef4fa4076d24edb123b48"><td class="memTemplItemLeft" align="right" valign="top">__run&lt; Functor &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__thread__basics.html#gaab961106219ef4fa4076d24edb123b48">run</a> (Functor &amp;&amp;<a class="el" href="thread_8h.html#aece92f5ed23ab311f706fc6069e61689">functor</a>, const std::string &amp;<a class="el" href="thread_8h.html#ac673bc430bdc3fdaa09f7becf98ef267">name</a>=&quot;unnamed&quot;)</td></tr>
 <tr class="memdesc:gaab961106219ef4fa4076d24edb123b48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Execute the functor's execute method in a separate thread.  <a href="group__thread__basics.html#gaab961106219ef4fa4076d24edb123b48">More...</a><br /></td></tr>
@@ -126,26 +134,167 @@ Functions</h2></td></tr>
 <tr class="memitem:ga0f607ce91002c91228d8d17709ad0d5e"><td class="memTemplItemLeft" align="right" valign="top">__Batch&lt; Item &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__thread__queue.html#ga0f607ce91002c91228d8d17709ad0d5e">batch</a> (const Item &amp;, size_t number=128)</td></tr>
 <tr class="memdesc:ga0f607ce91002c91228d8d17709ad0d5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">used to request batched processing of items  <a href="group__thread__queue.html#ga0f607ce91002c91228d8d17709ad0d5e">More...</a><br /></td></tr>
 <tr class="separator:ga0f607ce91002c91228d8d17709ad0d5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaad717471c1771f5e794d0d8907cc3efc"><td class="memTemplParams" colspan="2">template&lt;class Source , class Type , class Sink &gt; </td></tr>
-<tr class="memitem:gaad717471c1771f5e794d0d8907cc3efc"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__thread__queue.html#gaad717471c1771f5e794d0d8907cc3efc">run_queue</a> (Source &amp;&amp;source, const Type &amp;item_type, Sink &amp;&amp;sink, size_t capacity=128)</td></tr>
-<tr class="memdesc:gaad717471c1771f5e794d0d8907cc3efc"><td class="mdescLeft">&#160;</td><td class="mdescRight">convenience function to set up and run a 2-stage multi-threaded pipeline.  <a href="group__thread__queue.html#gaad717471c1771f5e794d0d8907cc3efc">More...</a><br /></td></tr>
-<tr class="separator:gaad717471c1771f5e794d0d8907cc3efc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gafc6cce63581cb9be1e2e0c0910efb66b"><td class="memTemplParams" colspan="2">template&lt;class Source , class Type1 , class Pipe , class Type2 , class Sink &gt; </td></tr>
-<tr class="memitem:gafc6cce63581cb9be1e2e0c0910efb66b"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__thread__queue.html#gafc6cce63581cb9be1e2e0c0910efb66b">run_queue</a> (Source &amp;&amp;source, const Type1 &amp;item_type1, Pipe &amp;&amp;pipe, const Type2 &amp;item_type2, Sink &amp;&amp;sink, size_t capacity=128)</td></tr>
-<tr class="memdesc:gafc6cce63581cb9be1e2e0c0910efb66b"><td class="mdescLeft">&#160;</td><td class="mdescRight">convenience functions to set up and run a 3-stage multi-threaded pipeline.  <a href="group__thread__queue.html#gafc6cce63581cb9be1e2e0c0910efb66b">More...</a><br /></td></tr>
-<tr class="separator:gafc6cce63581cb9be1e2e0c0910efb66b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1ccafaf26b4312b34de4da1ac0dfbf6f"><td class="memTemplParams" colspan="2">template&lt;class Source , class Type1 , class Pipe1 , class Type2 , class Pipe2 , class Type3 , class Sink &gt; </td></tr>
-<tr class="memitem:ga1ccafaf26b4312b34de4da1ac0dfbf6f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__thread__queue.html#ga1ccafaf26b4312b34de4da1ac0dfbf6f">run_queue</a> (Source &amp;&amp;source, const Type1 &amp;item_type1, Pipe1 &amp;&amp;pipe1, const Type2 &amp;item_type2, Pipe2 &amp;&amp;pipe2, const Type3 &amp;item_type3, Sink &amp;&amp;sink, size_t capacity=128)</td></tr>
-<tr class="memdesc:ga1ccafaf26b4312b34de4da1ac0dfbf6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">convenience functions to set up and run a 4-stage multi-threaded pipeline.  <a href="group__thread__queue.html#ga1ccafaf26b4312b34de4da1ac0dfbf6f">More...</a><br /></td></tr>
-<tr class="separator:ga1ccafaf26b4312b34de4da1ac0dfbf6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga379ecfe538318b967e6d6fc74ab61b11"><td class="memTemplParams" colspan="2">template&lt;class Source , class Item , class Sink &gt; </td></tr>
+<tr class="memitem:ga379ecfe538318b967e6d6fc74ab61b11"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__thread__queue.html#ga379ecfe538318b967e6d6fc74ab61b11">run_queue</a> (Source &amp;&amp;source, const Item &amp;<a class="el" href="ordered__thread__queue_8h.html#a372a2aab9def10f1f1a04135b1e949d8">item</a>, Sink &amp;&amp;sink, size_t capacity=128)</td></tr>
+<tr class="memdesc:ga379ecfe538318b967e6d6fc74ab61b11"><td class="mdescLeft">&#160;</td><td class="mdescRight">convenience function to set up and run a 2-stage multi-threaded pipeline.  <a href="group__thread__queue.html#ga379ecfe538318b967e6d6fc74ab61b11">More...</a><br /></td></tr>
+<tr class="separator:ga379ecfe538318b967e6d6fc74ab61b11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga77ad4e886a8d05904e9ef2d4beba621b"><td class="memTemplParams" colspan="2">template&lt;class Source , class Item1 , class Pipe , class Item2 , class Sink &gt; </td></tr>
+<tr class="memitem:ga77ad4e886a8d05904e9ef2d4beba621b"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__thread__queue.html#ga77ad4e886a8d05904e9ef2d4beba621b">run_queue</a> (Source &amp;&amp;source, const Item1 &amp;item1, Pipe &amp;&amp;pipe, const Item2 &amp;item2, Sink &amp;&amp;sink, size_t capacity=128)</td></tr>
+<tr class="memdesc:ga77ad4e886a8d05904e9ef2d4beba621b"><td class="mdescLeft">&#160;</td><td class="mdescRight">convenience functions to set up and run a 3-stage multi-threaded pipeline.  <a href="group__thread__queue.html#ga77ad4e886a8d05904e9ef2d4beba621b">More...</a><br /></td></tr>
+<tr class="separator:ga77ad4e886a8d05904e9ef2d4beba621b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9952d15c6bbdf026520cfa654bbd090f"><td class="memTemplParams" colspan="2">template&lt;class Source , class Item1 , class Pipe1 , class Item2 , class Pipe2 , class Item3 , class Sink &gt; </td></tr>
+<tr class="memitem:ga9952d15c6bbdf026520cfa654bbd090f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__thread__queue.html#ga9952d15c6bbdf026520cfa654bbd090f">run_queue</a> (Source &amp;&amp;source, const Item1 &amp;item1, Pipe1 &amp;&amp;pipe1, const Item2 &amp;item2, Pipe2 &amp;&amp;pipe2, const Item3 &amp;item3, Sink &amp;&amp;sink, size_t capacity=128)</td></tr>
+<tr class="memdesc:ga9952d15c6bbdf026520cfa654bbd090f"><td class="mdescLeft">&#160;</td><td class="mdescRight">convenience functions to set up and run a 4-stage multi-threaded pipeline.  <a href="group__thread__queue.html#ga9952d15c6bbdf026520cfa654bbd090f">More...</a><br /></td></tr>
+<tr class="separator:ga9952d15c6bbdf026520cfa654bbd090f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a51d0df44d48634a066bd756c1ecf6395"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51d0df44d48634a066bd756c1ecf6395">&#9670;&nbsp;</a></span>run_ordered_queue() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Source , class Item1 , class Pipe , class Item2 , class Sink &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::Thread::run_ordered_queue </td>
+          <td>(</td>
+          <td class="paramtype">Source &amp;&amp;&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Item1 &amp;&#160;</td>
+          <td class="paramname"><em>item1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Pipe &amp;&amp;&#160;</td>
+          <td class="paramname"><em>pipe</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Item2 &amp;&#160;</td>
+          <td class="paramname"><em>item2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Sink &amp;&amp;&#160;</td>
+          <td class="paramname"><em>sink</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>capacity</em> = <code>128</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="ordered__thread__queue_8h_source.html#l00356">356</a> of file <a class="el" href="ordered__thread__queue_8h_source.html">ordered_thread_queue.h</a>.</p>
+
+</div>
+</div>
+<a id="a27253d09028745ddb585c7603e2b7f98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27253d09028745ddb585c7603e2b7f98">&#9670;&nbsp;</a></span>run_ordered_queue() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Source , class Item1 , class Pipe1 , class Item2 , class Pipe2 , class Item3 , class Sink &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::Thread::run_ordered_queue </td>
+          <td>(</td>
+          <td class="paramtype">Source &amp;&amp;&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Item1 &amp;&#160;</td>
+          <td class="paramname"><em>item1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Pipe1 &amp;&amp;&#160;</td>
+          <td class="paramname"><em>pipe1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Item2 &amp;&#160;</td>
+          <td class="paramname"><em>item2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Pipe2 &amp;&amp;&#160;</td>
+          <td class="paramname"><em>pipe2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Item3 &amp;&#160;</td>
+          <td class="paramname"><em>item3</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Sink &amp;&amp;&#160;</td>
+          <td class="paramname"><em>sink</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>capacity</em> = <code>128</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="ordered__thread__queue_8h_source.html#l00383">383</a> of file <a class="el" href="ordered__thread__queue_8h_source.html">ordered_thread_queue.h</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_thread.html">Thread</a></li>
-    <li class="footer">Generated on Mon Apr 13 2020 22:01:56 for MRtrix by
+    <li class="footer">Generated on Wed Apr 22 2020 19:06:16 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

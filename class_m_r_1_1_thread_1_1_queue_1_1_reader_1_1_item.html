@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC3_latest-86-gcc3600ed</div>
+   <div id="projectbrief">Version 3.0_RC4-882-gb3b8647f</div>
   </td>
  </tr>
  </tbody>
@@ -84,6 +84,7 @@ $(document).ready(function(){initNavTree('class_m_r_1_1_thread_1_1_queue_1_1_rea
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="class_m_r_1_1_thread_1_1_queue_1_1_reader_1_1_item-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -96,6 +97,11 @@ $(document).ready(function(){initNavTree('class_m_r_1_1_thread_1_1_queue_1_1_rea
 
 <p><code>#include &quot;<a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>&quot;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:aebab36395506f58335880f8a64972b42"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_thread_1_1_queue_1_1_reader_1_1_item.html#aebab36395506f58335880f8a64972b42">item_type</a> = T</td></tr>
+<tr class="separator:aebab36395506f58335880f8a64972b42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a6e1f260cea540f925bb6e7f00bb130ac"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_thread_1_1_queue_1_1_reader_1_1_item.html#a6e1f260cea540f925bb6e7f00bb130ac">Item</a> (const <a class="el" href="class_m_r_1_1_thread_1_1_queue_1_1_reader.html">Reader</a> &amp;reader)</td></tr>
@@ -107,6 +113,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acaab061ec72604e032106e6bcc1ea007"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_thread_1_1_queue_1_1_reader_1_1_item.html#acaab061ec72604e032106e6bcc1ea007">read</a> ()</td></tr>
 <tr class="memdesc:acaab061ec72604e032106e6bcc1ea007"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get next item from the queue.  <a href="class_m_r_1_1_thread_1_1_queue_1_1_reader_1_1_item.html#acaab061ec72604e032106e6bcc1ea007">More...</a><br /></td></tr>
 <tr class="separator:acaab061ec72604e032106e6bcc1ea007"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f24db4e0d0d8df289351b8db2243316"><td class="memItemLeft" align="right" valign="top">T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_thread_1_1_queue_1_1_reader_1_1_item.html#a6f24db4e0d0d8df289351b8db2243316">stash</a> ()  throw ()</td></tr>
+<tr class="separator:a6f24db4e0d0d8df289351b8db2243316"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50bdd0304b08b0170908d897904b1d8d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_thread_1_1_queue_1_1_reader_1_1_item.html#a50bdd0304b08b0170908d897904b1d8d">recycle</a> (T *<a class="el" href="ordered__thread__queue_8h.html#a372a2aab9def10f1f1a04135b1e949d8">item</a>) const  throw ()</td></tr>
+<tr class="separator:a50bdd0304b08b0170908d897904b1d8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f9f0a47eaa87b8e57762289baaf2f7c"><td class="memItemLeft" align="right" valign="top">T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_thread_1_1_queue_1_1_reader_1_1_item.html#a5f9f0a47eaa87b8e57762289baaf2f7c">operator*</a> () const  throw ()</td></tr>
 <tr class="separator:a5f9f0a47eaa87b8e57762289baaf2f7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aabae82f61cfc98a2c40e3691fefd656b"><td class="memItemLeft" align="right" valign="top">T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_thread_1_1_queue_1_1_reader_1_1_item.html#aabae82f61cfc98a2c40e3691fefd656b">operator-&gt;</a> () const  throw ()</td></tr>
@@ -122,11 +132,30 @@ class MR::Thread::Queue&lt; T &gt;::Reader::Item</h3>
 <p>Items cannot be read directly from a <a class="el" href="class_m_r_1_1_thread_1_1_queue.html" title="A first-in first-out thread-safe item queue.">Thread::Queue</a> queue. An object of this class must be instanciated and used to read from the queue.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="class_m_r_1_1_thread_1_1_queue.html" title="A first-in first-out thread-safe item queue.">Thread::Queue</a> for more detailed information and examples. </dd>
 <dd>
-<a class="el" href="group__thread__queue.html#gaad717471c1771f5e794d0d8907cc3efc" title="convenience function to set up and run a 2-stage multi-threaded pipeline.">Thread::run_queue()</a> for a much more user-friendly way of setting up a queue. <br  />
+<a class="el" href="group__thread__queue.html#ga379ecfe538318b967e6d6fc74ab61b11" title="convenience function to set up and run a 2-stage multi-threaded pipeline.">Thread::run_queue()</a> for a much more user-friendly way of setting up a queue. <br  />
  </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00482">482</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00465">465</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="aebab36395506f58335880f8a64972b42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebab36395506f58335880f8a64972b42">&#9670;&nbsp;</a></span>item_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="class_m_r_1_1_thread_1_1_queue.html">MR::Thread::Queue</a>&lt; T &gt;::<a class="el" href="class_m_r_1_1_thread_1_1_queue_1_1_reader_1_1_item.html#aebab36395506f58335880f8a64972b42">Reader::Item::item_type</a> =  T</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00481">481</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a6e1f260cea540f925bb6e7f00bb130ac"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6e1f260cea540f925bb6e7f00bb130ac">&#9670;&nbsp;</a></span>Item()</h2>
 
@@ -157,7 +186,7 @@ template&lt;class T &gt; </div>
 <p>The <a class="el" href="class_m_r_1_1_thread_1_1_queue_1_1_reader_1_1_item.html" title="This class is used to read items from the queue.">Reader::Item</a> object can only be instantiated from a <a class="el" href="class_m_r_1_1_thread_1_1_queue_1_1_reader.html" title="This class is used to register a reader with the queue.">Reader</a> object, ensuring that the corresponding section of code has already registered as a reader with the queue. The destructor for this object will unregister from the queue.</p>
 <dl class="section note"><dt>Note</dt><dd>There should only be one <a class="el" href="class_m_r_1_1_thread_1_1_queue_1_1_reader_1_1_item.html" title="This class is used to read items from the queue.">Reader::Item</a> object per <a class="el" href="class_m_r_1_1_thread_1_1_queue_1_1_reader.html" title="This class is used to register a reader with the queue.">Reader</a>. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00492">492</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00475">475</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
 
 </div>
 </div>
@@ -188,7 +217,7 @@ template&lt;class T &gt; </div>
 
 <p>Unregister the parent <a class="el" href="class_m_r_1_1_thread_1_1_queue_1_1_reader.html" title="This class is used to register a reader with the queue.">Reader</a> from the queue. </p>
 
-<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00494">494</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00477">477</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
 
 </div>
 </div>
@@ -224,7 +253,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00507">507</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00501">501</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
 
 </div>
 </div>
@@ -259,7 +288,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00501">501</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00495">495</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
 
 </div>
 </div>
@@ -294,7 +323,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00504">504</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00498">498</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
 
 </div>
 </div>
@@ -325,7 +354,78 @@ template&lt;class T &gt; </div>
 
 <p>Get next item from the queue. </p>
 
-<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00498">498</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00484">484</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
+
+</div>
+</div>
+<a id="a50bdd0304b08b0170908d897904b1d8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50bdd0304b08b0170908d897904b1d8d">&#9670;&nbsp;</a></span>recycle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="class_m_r_1_1_thread_1_1_queue.html">MR::Thread::Queue</a>&lt; T &gt;::Reader::Item::recycle </td>
+          <td>(</td>
+          <td class="paramtype">T *&#160;</td>
+          <td class="paramname"><em>item</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+        <tr>
+          <td align="right">throw </td><td>(</td><td colspan="2"></td>
+        </tr>
+        <tr>
+          <td align="right"></td><td>)</td><td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00492">492</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
+
+</div>
+</div>
+<a id="a6f24db4e0d0d8df289351b8db2243316"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f24db4e0d0d8df289351b8db2243316">&#9670;&nbsp;</a></span>stash()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T* <a class="el" href="class_m_r_1_1_thread_1_1_queue.html">MR::Thread::Queue</a>&lt; T &gt;::Reader::Item::stash </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td align="right">throw </td><td>(</td><td colspan="2"></td>
+        </tr>
+        <tr>
+          <td align="right"></td><td>)</td><td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00487">487</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
 
 </div>
 </div>
@@ -338,7 +438,7 @@ template&lt;class T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_thread.html">Thread</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_thread_1_1_queue.html">Queue</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_thread_1_1_queue_1_1_reader.html">Reader</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_thread_1_1_queue_1_1_reader_1_1_item.html">Item</a></li>
-    <li class="footer">Generated on Mon Apr 13 2020 22:01:56 for MRtrix by
+    <li class="footer">Generated on Wed Apr 22 2020 19:06:16 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

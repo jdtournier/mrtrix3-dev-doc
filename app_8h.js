@@ -1,6 +1,8 @@
 var app_8h =
 [
     [ "Description", "class_m_r_1_1_app_1_1_description.html", "class_m_r_1_1_app_1_1_description" ],
+    [ "Example", "class_m_r_1_1_app_1_1_example.html", "class_m_r_1_1_app_1_1_example" ],
+    [ "ExampleList", "class_m_r_1_1_app_1_1_example_list.html", "class_m_r_1_1_app_1_1_example_list" ],
     [ "ArgumentList", "class_m_r_1_1_app_1_1_argument_list.html", "class_m_r_1_1_app_1_1_argument_list" ],
     [ "OptionList", "class_m_r_1_1_app_1_1_option_list.html", "class_m_r_1_1_app_1_1_option_list" ],
     [ "ParsedArgument", "class_m_r_1_1_app_1_1_parsed_argument.html", "class_m_r_1_1_app_1_1_parsed_argument" ],
@@ -32,11 +34,14 @@ var app_8h =
     [ "AUTHOR", "app_8h.html#a56b22fa8e19eb68dacf817b185d0b386", null ],
     [ "build_date", "app_8h.html#af0aeea45aeb00a652d21e8a4d7b21ef8", null ],
     [ "check_overwrite_files_func", "app_8h.html#aa87eb63cffd5e40c2e76aa4da4f56772", null ],
+    [ "command_history_string", "app_8h.html#aafcf6d517b40d09d2fc23b7018aa415a", null ],
     [ "COPYRIGHT", "app_8h.html#a72d063b4ddbb21fcbd9dd6b1a897a9ee", null ],
     [ "DESCRIPTION", "app_8h.html#a90b52f988a728c86e793f645d3a4ef3a", null ],
+    [ "EXAMPLES", "app_8h.html#a3a5edf89299e3bd92815d9da4af3b43a", null ],
     [ "exit_error_code", "app_8h.html#a838f52a975d7498c1798f645859bbb25", null ],
     [ "fail_on_warn", "app_8h.html#a35f7963fc6de4ef46c7b22a2b419fc05", null ],
     [ "log_level", "app_8h.html#a0f9775805bffa71ef27062a5b74ca175", null ],
+    [ "main_thread_ID", "app_8h.html#ab663f38baa2c64a86e88e72f18fb8696", null ],
     [ "mrtrix_version", "app_8h.html#a3b993447da07796fda5a22bb0b8d932d", null ],
     [ "NAME", "app_8h.html#ac6a0d42e4a8aa8335837c2fa53a448ab", null ],
     [ "option", "app_8h.html#afa224c260d0ee5ab86df56049cea3acd", null ],

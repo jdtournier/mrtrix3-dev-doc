@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['bad_5fsignal_7390',['BAD_SIGNAL',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#a1c30c67185585a9f27b5a581050292f5a0a916fd7873519f3a6795211891d0ecb',1,'MR::DWI::Tractography::Tracking']]],
-  ['bbgd_7391',['bbgd',['../namespace_m_r_1_1_registration.html#af1595cd6b5fb04c9de6a73964645804ba6132be413377903d0043d4551830d231',1,'MR::Registration']]],
-  ['bottom_7392',['Bottom',['../namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map.html#a0ad493d29631a0f0abf2e3b9afd4e901a0284b2d58aa1a9697f9a884c0fa10193',1,'MR::GUI::MRView::ColourMap']]],
-  ['bottomleft_7393',['BottomLeft',['../namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map.html#a0ad493d29631a0f0abf2e3b9afd4e901a36651533553b169bf5b69bfbdc616149',1,'MR::GUI::MRView::ColourMap']]],
-  ['bottomright_7394',['BottomRight',['../namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map.html#a0ad493d29631a0f0abf2e3b9afd4e901a653d707ec2d3165a0a4fef41a528d1f1',1,'MR::GUI::MRView::ColourMap']]]
+  ['bbgd_7907',['bbgd',['../namespace_m_r_1_1_registration.html#af1595cd6b5fb04c9de6a73964645804ba6132be413377903d0043d4551830d231',1,'MR::Registration']]],
+  ['both_7908',['BOTH',['../class_m_r_1_1_math_1_1_stats_1_1_shuffler.html#ab10db8abd45ffcf9e9c3e79372e8a694a6328e5e3186c227a021ef2ff77e40197',1,'MR::Math::Stats::Shuffler']]],
+  ['bottom_7909',['Bottom',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_bars.html#a0ce109dc861fc272f74b14c8add1db15a8047c1c7174083e16ae71ee156a59500',1,'MR::GUI::MRView::ColourBars']]],
+  ['bottomleft_7910',['BottomLeft',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_bars.html#a0ce109dc861fc272f74b14c8add1db15aeb60f31db7ee7a9a8d777b242f8a1933',1,'MR::GUI::MRView::ColourBars']]],
+  ['bottomright_7911',['BottomRight',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_bars.html#a0ce109dc861fc272f74b14c8add1db15a4874a003b96ba63213d13d0c9ae24aa3',1,'MR::GUI::MRView::ColourBars']]]
 ];

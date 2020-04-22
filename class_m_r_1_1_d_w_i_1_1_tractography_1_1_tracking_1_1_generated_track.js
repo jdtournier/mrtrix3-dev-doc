@@ -1,8 +1,4 @@
 var class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_generated_track =
 [
-    [ "GeneratedTrack", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_generated_track.html#abe13394e0ba7adcb9420534d18424c65", null ],
-    [ "clear", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_generated_track.html#a1051bf2dd1934fb41e8b84eb0d98eef6", null ],
-    [ "get_seed_index", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_generated_track.html#ac5ea980c3e486c3f46ed90a52c15a1d9", null ],
-    [ "reverse", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_generated_track.html#a133d16c53e740bfd00da7982380288e4", null ],
-    [ "set_seed_index", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_generated_track.html#a17b89dbb0ce790511a6babbea8ce8a97", null ]
+    [ "operator<<", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_generated_track.html#aa1aafc7570a22a74abfca4e8b1f5e066", null ]
 ];

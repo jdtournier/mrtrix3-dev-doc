@@ -15,5 +15,5 @@ var namespace_m_r_1_1_math =
     [ "Sinc", "class_m_r_1_1_math_1_1_sinc.html", "class_m_r_1_1_math_1_1_sinc" ],
     [ "Sn_scale_estimator", "class_m_r_1_1_math_1_1_sn__scale__estimator.html", "class_m_r_1_1_math_1_1_sn__scale__estimator" ],
     [ "UniformBSpline", "class_m_r_1_1_math_1_1_uniform_b_spline.html", null ],
-    [ "Versor", "class_m_r_1_1_math_1_1_versor.html", "class_m_r_1_1_math_1_1_versor" ]
+    [ "Zstatistic", "class_m_r_1_1_math_1_1_zstatistic.html", "class_m_r_1_1_math_1_1_zstatistic" ]
 ];

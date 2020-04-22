@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC3_latest-86-gcc3600ed</div>
+   <div id="projectbrief">Version 3.0_RC4-882-gb3b8647f</div>
   </td>
  </tr>
  </tbody>
@@ -87,40 +87,41 @@ $(document).ready(function(){initNavTree('array_8h_source.html',''); initResizab
 <div class="title">array.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="array_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * Copyright (c) 2008-2018 the MRtrix3 contributors.</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * This Source Code Form is subject to the terms of the Mozilla Public</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> * License, v. 2.0. If a copy of the MPL was not distributed with this</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> * file, you can obtain one at http://mozilla.org/MPL/2.0/</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"> * MRtrix3 is distributed in the hope that it will be useful,</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> * but WITHOUT ANY WARRANTY; without even the implied warranty</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"> * of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"> * For more details, see http://www.mrtrix.org/</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
-<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="array_8h.html#ae43cbffad7bdb21564292a344b0ca3b5">   16</a></span>&#160;<span class="preprocessor">#define MRTRIX_OP(ARG) \</span></div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">template &lt;class ImageType&gt; inline Array&amp; operator ARG (const MR::Helper::ConstRow&lt;ImageType&gt;&amp; row) {\</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">  this-&gt;resize (row.image.size(row.axis),1); \</span></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">  for (row.image.index(row.axis) = 0; row.image.index (row.axis) &lt; row.image.size (row.axis); ++row.image.index (row.axis)) \</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">    this-&gt;operator() (row.image.index (row.axis), 0) ARG row.image.value(); \</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">  return *this; \</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">}</span></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
-<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="array_8h.html#aabe48cf3ec1079c731b3d851b8ca5ec5">   24</a></span>&#160;<a class="code" href="array_8h.html#ae43cbffad7bdb21564292a344b0ca3b5">MRTRIX_OP</a>(=)</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#undef MRTRIX_OP</span></div>
+<a href="array_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/* Copyright (c) 2008-2019 the MRtrix3 contributors.</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> * This Source Code Form is subject to the terms of the Mozilla Public</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * License, v. 2.0. If a copy of the MPL was not distributed with this</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> * file, You can obtain one at http://mozilla.org/MPL/2.0/.</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> * Covered Software is provided under this License on an &quot;as is&quot;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"> * basis, without warranty of any kind, either expressed, implied, or</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> * statutory, including, without limitation, warranties that the</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"> * Covered Software is free of defects, merchantable, fit for a</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment"> * particular purpose or non-infringing.</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"> * See the Mozilla Public License v. 2.0 for more details.</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> * For more details, see http://www.mrtrix.org/.</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="array_8h.html#ae43cbffad7bdb21564292a344b0ca3b5">   17</a></span>&#160;<span class="preprocessor">#define MRTRIX_OP(ARG) \</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">template &lt;class ImageType&gt; inline Array&amp; operator ARG (const MR::Helper::ConstRow&lt;ImageType&gt;&amp; row) {\</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">  this-&gt;resize (row.image.size(row.axis),1); \</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">  for (row.image.index(row.axis) = 0; row.image.index (row.axis) &lt; row.image.size (row.axis); ++row.image.index (row.axis)) \</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">    this-&gt;operator() (row.image.index (row.axis), 0) ARG row.image.value(); \</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">  return *this; \</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">}</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="array_8h.html#aabe48cf3ec1079c731b3d851b8ca5ec5">   25</a></span>&#160;<a class="code" href="array_8h.html#ae43cbffad7bdb21564292a344b0ca3b5">MRTRIX_OP</a>(=)</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#undef MRTRIX_OP</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="aarray_8h_html_ae43cbffad7bdb21564292a344b0ca3b5"><div class="ttname"><a href="array_8h.html#ae43cbffad7bdb21564292a344b0ca3b5">MRTRIX_OP</a></div><div class="ttdeci">#define MRTRIX_OP(ARG)</div><div class="ttdef"><b>Definition:</b> <a href="array_8h_source.html#l00016">array.h:16</a></div></div>
+<div class="ttc" id="aarray_8h_html_ae43cbffad7bdb21564292a344b0ca3b5"><div class="ttname"><a href="array_8h.html#ae43cbffad7bdb21564292a344b0ca3b5">MRTRIX_OP</a></div><div class="ttdeci">#define MRTRIX_OP(ARG)</div><div class="ttdef"><b>Definition:</b> <a href="array_8h_source.html#l00017">array.h:17</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4270bfced15e0e73154b13468c7c9ad9.html">core</a></li><li class="navelem"><a class="el" href="dir_7afe1cd4c65f9097aec3754989460876.html">eigen_plugins</a></li><li class="navelem"><a class="el" href="array_8h.html">array.h</a></li>
-    <li class="footer">Generated on Mon Apr 13 2020 22:01:53 for MRtrix by
+    <li class="footer">Generated on Wed Apr 22 2020 19:06:13 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

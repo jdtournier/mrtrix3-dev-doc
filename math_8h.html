@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC3_latest-86-gcc3600ed</div>
+   <div id="projectbrief">Version 3.0_RC4-882-gb3b8647f</div>
   </td>
  </tr>
  </tbody>
@@ -94,10 +94,13 @@ $(document).ready(function(){initNavTree('math_8h.html',''); initResizable(); })
 <div class="contents">
 <div class="textblock"><code>#include &lt;cmath&gt;</code><br />
 <code>#include &lt;cstdlib&gt;</code><br />
-<code>#include &quot;types.h&quot;</code><br />
-<code>#include &quot;<a class="el" href="mrtrix_8h_source.html">mrtrix.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="app_8h_source.html">app.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="exception_8h_source.html">exception.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="mrtrix_8h_source.html">mrtrix.h</a>&quot;</code><br />
+<code>#include &quot;types.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="key__value_8h_source.html">file/key_value.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="ofstream_8h_source.html">file/ofstream.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="path_8h_source.html">file/path.h</a>&quot;</code><br />
 </div>
 <p><a href="math_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -167,14 +170,14 @@ Functions</h2></td></tr>
 <tr class="memitem:ga5de5c24270862b37e4e62ea94a962c9d"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__elfun.html#ga5de5c24270862b37e4e62ea94a962c9d">MR::is_nan</a> (const Eigen::MatrixBase&lt; Derived &gt; &amp;x)</td></tr>
 <tr class="memdesc:ga5de5c24270862b37e4e62ea94a962c9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">check if all elements of an <a class="el" href="namespace_eigen.html">Eigen</a> MatrixBase object are a number  <a href="group__elfun.html#ga5de5c24270862b37e4e62ea94a962c9d">More...</a><br /></td></tr>
 <tr class="separator:ga5de5c24270862b37e4e62ea94a962c9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf37629cef73608a4d356b77a0514b08"><td class="memTemplParams" colspan="2">template&lt;class MatrixType &gt; </td></tr>
-<tr class="memitem:adf37629cef73608a4d356b77a0514b08"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#adf37629cef73608a4d356b77a0514b08">MR::save_matrix</a> (const MatrixType &amp;M, const std::string &amp;filename)</td></tr>
-<tr class="memdesc:adf37629cef73608a4d356b77a0514b08"><td class="mdescLeft">&#160;</td><td class="mdescRight">write the matrix <em>M</em> to file  <a href="namespace_m_r.html#adf37629cef73608a4d356b77a0514b08">More...</a><br /></td></tr>
-<tr class="separator:adf37629cef73608a4d356b77a0514b08"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8028b8b7cf637b47a6e01ddcdf340d8a"><td class="memTemplParams" colspan="2">template&lt;class ValueType  = default_type&gt; </td></tr>
-<tr class="memitem:a8028b8b7cf637b47a6e01ddcdf340d8a"><td class="memTemplItemLeft" align="right" valign="top">vector&lt; vector&lt; ValueType &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a8028b8b7cf637b47a6e01ddcdf340d8a">MR::load_matrix_2D_vector</a> (const std::string &amp;filename)</td></tr>
-<tr class="memdesc:a8028b8b7cf637b47a6e01ddcdf340d8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">read matrix data into a 2D vector <em>filename</em>  <a href="namespace_m_r.html#a8028b8b7cf637b47a6e01ddcdf340d8a">More...</a><br /></td></tr>
-<tr class="separator:a8028b8b7cf637b47a6e01ddcdf340d8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae49a93cb8c5d162b2c14fa065a3c8c6f"><td class="memTemplParams" colspan="2">template&lt;class MatrixType &gt; </td></tr>
+<tr class="memitem:ae49a93cb8c5d162b2c14fa065a3c8c6f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#ae49a93cb8c5d162b2c14fa065a3c8c6f">MR::save_matrix</a> (const MatrixType &amp;M, const std::string &amp;filename, const KeyValues &amp;keyvals=KeyValues(), const bool add_to_command_history=true)</td></tr>
+<tr class="memdesc:ae49a93cb8c5d162b2c14fa065a3c8c6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">write the matrix <em>M</em> to file  <a href="namespace_m_r.html#ae49a93cb8c5d162b2c14fa065a3c8c6f">More...</a><br /></td></tr>
+<tr class="separator:ae49a93cb8c5d162b2c14fa065a3c8c6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad05bd06f7c75b71c49c9d48142fba259"><td class="memTemplParams" colspan="2">template&lt;class ValueType  = default_type&gt; </td></tr>
+<tr class="memitem:ad05bd06f7c75b71c49c9d48142fba259"><td class="memTemplItemLeft" align="right" valign="top">vector&lt; vector&lt; ValueType &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#ad05bd06f7c75b71c49c9d48142fba259">MR::load_matrix_2D_vector</a> (const std::string &amp;filename, vector&lt; std::string &gt; *comments=nullptr)</td></tr>
+<tr class="memdesc:ad05bd06f7c75b71c49c9d48142fba259"><td class="mdescLeft">&#160;</td><td class="mdescRight">read matrix data into a 2D vector <em>filename</em>  <a href="namespace_m_r.html#ad05bd06f7c75b71c49c9d48142fba259">More...</a><br /></td></tr>
+<tr class="separator:ad05bd06f7c75b71c49c9d48142fba259"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae95611ab298c2593fd1c4877d0937da7"><td class="memTemplParams" colspan="2">template&lt;class ValueType  = default_type&gt; </td></tr>
 <tr class="memitem:ae95611ab298c2593fd1c4877d0937da7"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt; ValueType, Eigen::Dynamic, Eigen::Dynamic &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#ae95611ab298c2593fd1c4877d0937da7">MR::load_matrix</a> (const std::string &amp;filename)</td></tr>
 <tr class="memdesc:ae95611ab298c2593fd1c4877d0937da7"><td class="mdescLeft">&#160;</td><td class="mdescRight">read matrix data into an Eigen::Matrix <em>filename</em>  <a href="namespace_m_r.html#ae95611ab298c2593fd1c4877d0937da7">More...</a><br /></td></tr>
@@ -183,16 +186,22 @@ Functions</h2></td></tr>
 <tr class="memitem:a71615ba8aacdd8079ab92958507274e1"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt; ValueType, Eigen::Dynamic, Eigen::Dynamic &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a71615ba8aacdd8079ab92958507274e1">MR::parse_matrix</a> (const std::string &amp;spec)</td></tr>
 <tr class="memdesc:a71615ba8aacdd8079ab92958507274e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">read matrix data from a text string <em>spec</em>  <a href="namespace_m_r.html#a71615ba8aacdd8079ab92958507274e1">More...</a><br /></td></tr>
 <tr class="separator:a71615ba8aacdd8079ab92958507274e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a273afce60e5c5b3de04690ad6df4cfcd"><td class="memTemplParams" colspan="2">template&lt;class VectorType &gt; </td></tr>
+<tr class="memitem:a273afce60e5c5b3de04690ad6df4cfcd"><td class="memTemplItemLeft" align="right" valign="top">transform_type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a273afce60e5c5b3de04690ad6df4cfcd">MR::load_transform</a> (const std::string &amp;filename, VectorType &amp;centre)</td></tr>
+<tr class="memdesc:a273afce60e5c5b3de04690ad6df4cfcd"><td class="mdescLeft">&#160;</td><td class="mdescRight">read matrix data from <em>filename</em> into an Eigen::Tranform class  <a href="namespace_m_r.html#a273afce60e5c5b3de04690ad6df4cfcd">More...</a><br /></td></tr>
+<tr class="separator:a273afce60e5c5b3de04690ad6df4cfcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2746ab282780c24c1e6e73a01a3f120"><td class="memItemLeft" align="right" valign="top">transform_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#ae2746ab282780c24c1e6e73a01a3f120">MR::load_transform</a> (const std::string &amp;filename)</td></tr>
-<tr class="memdesc:ae2746ab282780c24c1e6e73a01a3f120"><td class="mdescLeft">&#160;</td><td class="mdescRight">read matrix data from <em>filename</em> into an Eigen::Tranform class  <a href="namespace_m_r.html#ae2746ab282780c24c1e6e73a01a3f120">More...</a><br /></td></tr>
 <tr class="separator:ae2746ab282780c24c1e6e73a01a3f120"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8cd67b2b47af1418dc3ba299f0f719de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a8cd67b2b47af1418dc3ba299f0f719de">MR::save_transform</a> (const transform_type &amp;M, const std::string &amp;filename)</td></tr>
-<tr class="memdesc:a8cd67b2b47af1418dc3ba299f0f719de"><td class="mdescLeft">&#160;</td><td class="mdescRight">write the transform <em>M</em> to file  <a href="namespace_m_r.html#a8cd67b2b47af1418dc3ba299f0f719de">More...</a><br /></td></tr>
-<tr class="separator:a8cd67b2b47af1418dc3ba299f0f719de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35373fae315b4be8559d20b82fed1525"><td class="memTemplParams" colspan="2">template&lt;class VectorType &gt; </td></tr>
-<tr class="memitem:a35373fae315b4be8559d20b82fed1525"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a35373fae315b4be8559d20b82fed1525">MR::save_vector</a> (const VectorType &amp;V, const std::string &amp;filename)</td></tr>
-<tr class="memdesc:a35373fae315b4be8559d20b82fed1525"><td class="mdescLeft">&#160;</td><td class="mdescRight">write the vector <em>V</em> to file  <a href="namespace_m_r.html#a35373fae315b4be8559d20b82fed1525">More...</a><br /></td></tr>
-<tr class="separator:a35373fae315b4be8559d20b82fed1525"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62c7d9581a73a020772a5129f97ac3e2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a62c7d9581a73a020772a5129f97ac3e2">MR::save_transform</a> (const transform_type &amp;M, const std::string &amp;filename, const KeyValues &amp;keyvals=KeyValues(), const bool add_to_command_history=true)</td></tr>
+<tr class="memdesc:a62c7d9581a73a020772a5129f97ac3e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">write the transform <em>M</em> to file  <a href="namespace_m_r.html#a62c7d9581a73a020772a5129f97ac3e2">More...</a><br /></td></tr>
+<tr class="separator:a62c7d9581a73a020772a5129f97ac3e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4b64ec43685a7135a2886d1c41bb63d"><td class="memTemplParams" colspan="2">template&lt;class Derived &gt; </td></tr>
+<tr class="memitem:af4b64ec43685a7135a2886d1c41bb63d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#af4b64ec43685a7135a2886d1c41bb63d">MR::save_transform</a> (const transform_type &amp;M, const Eigen::MatrixBase&lt; Derived &gt; &amp;centre, const std::string &amp;filename, const KeyValues &amp;keyvals=KeyValues(), const bool add_to_command_history=true)</td></tr>
+<tr class="separator:af4b64ec43685a7135a2886d1c41bb63d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae534c1625b4c4762057512d1f4b7ab9f"><td class="memTemplParams" colspan="2">template&lt;class VectorType &gt; </td></tr>
+<tr class="memitem:ae534c1625b4c4762057512d1f4b7ab9f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#ae534c1625b4c4762057512d1f4b7ab9f">MR::save_vector</a> (const VectorType &amp;V, const std::string &amp;filename, const KeyValues &amp;keyvals=KeyValues(), const bool add_to_command_history=true)</td></tr>
+<tr class="memdesc:ae534c1625b4c4762057512d1f4b7ab9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">write the vector <em>V</em> to file  <a href="namespace_m_r.html#ae534c1625b4c4762057512d1f4b7ab9f">More...</a><br /></td></tr>
+<tr class="separator:ae534c1625b4c4762057512d1f4b7ab9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1714aeef7a274e31aec03d75949272b0"><td class="memTemplParams" colspan="2">template&lt;class ValueType  = default_type&gt; </td></tr>
 <tr class="memitem:a1714aeef7a274e31aec03d75949272b0"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt; ValueType, Eigen::Dynamic, 1 &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a1714aeef7a274e31aec03d75949272b0">MR::load_vector</a> (const std::string &amp;filename)</td></tr>
 <tr class="memdesc:a1714aeef7a274e31aec03d75949272b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">read the vector data from <em>filename</em>  <a href="namespace_m_r.html#a1714aeef7a274e31aec03d75949272b0">More...</a><br /></td></tr>
@@ -200,6 +209,8 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
+<tr class="memitem:ga4bded66901b06bc4f71952e3cd3185ea"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__mathconstants.html#ga4bded66901b06bc4f71952e3cd3185ea">MR::Math::e</a> = 2.71828182845904523536</td></tr>
+<tr class="separator:ga4bded66901b06bc4f71952e3cd3185ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gafe1ee4d398733ae71a15130062a9c2a4"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__mathconstants.html#gafe1ee4d398733ae71a15130062a9c2a4">MR::Math::pi</a> = 3.14159265358979323846</td></tr>
 <tr class="separator:gafe1ee4d398733ae71a15130062a9c2a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab2066f6fa71b66e0e1bbccadc90a221e"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__mathconstants.html#gab2066f6fa71b66e0e1bbccadc90a221e">MR::Math::pi_2</a> = pi / 2.0</td></tr>
@@ -217,7 +228,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4270bfced15e0e73154b13468c7c9ad9.html">core</a></li><li class="navelem"><a class="el" href="dir_e07ac01d65d17e829451634057f91345.html">math</a></li><li class="navelem"><a class="el" href="math_8h.html">math.h</a></li>
-    <li class="footer">Generated on Mon Apr 13 2020 22:01:54 for MRtrix by
+    <li class="footer">Generated on Wed Apr 22 2020 19:06:14 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

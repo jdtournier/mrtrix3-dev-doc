@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC3_latest-86-gcc3600ed</div>
+   <div id="projectbrief">Version 3.0_RC4-882-gb3b8647f</div>
   </td>
  </tr>
  </tbody>
@@ -89,6 +89,9 @@ $(document).ready(function(){initNavTree('namespace_m_r_1_1_math_1_1_i_c_l_s.htm
 <div class="title">MR::Math::ICLS Namespace Reference<div class="ingroups"><a class="el" href="group__linalg.html">Linalg</a> &raquo; <a class="el" href="group__icls.html">Inequality-constrained Least-squares</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>functionality for solving constrained least-squares problems  
+<a href="namespace_m_r_1_1_math_1_1_i_c_l_s.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -97,13 +100,26 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_i_c_l_s_1_1_solver.html">Solver</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-</div><!-- contents -->
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>functionality for solving constrained least-squares problems </p>
+<p>the problem is to solve norm(<em>Hx</em> - <em>b</em>) subject to <em>Ax</em> &gt;= t and optionally <em>Bx</em> = s. This sets up a class to be re-used and shared across threads, assuming the matrices <em>H</em>, <em>A</em> &amp; <em>B</em> and vectors <em>t</em> &amp; <em>s</em> don't change, but the vector <em>b</em> does.</p>
+<p>The arguments passed to the <a class="el" href="class_m_r_1_1_math_1_1_i_c_l_s_1_1_problem.html">Problem</a> constructor correspond to:</p><ul>
+<li><em>H</em> - <em>problem_matrix</em> </li>
+<li><em>A</em> - <em>inequality_constraint_matrix</em> </li>
+<li><em>B</em> - <em>equality_constraint_matrix</em> </li>
+<li><em>b</em> - <em>problem_vector</em> </li>
+<li><em>t</em> - <em>inequality_constraint_vector</em> </li>
+<li><em>s</em> - <em>equality_constraint_vector</em> </li>
+</ul>
+<p>It is also possible to apply an additional minimum norm constraint that will be added to the problem cost function, to stablise ill-posed problems, and/or a separate minimum norm constraint on the Lagrangian multipliers to handle cases where they become degenerate (otherwise leads to errors in the Cholesky decomposition). Both default to zero, set one or both of them to a small value such as 1e-10 to help with these kinds of problem.</p>
+<p>It is also possible to pass the problem already in standard form, whereby the matrix provided as <em>problem_matrix</em> is assumed to contain <em>H<sup>T</sup>H</em> (only its lower triangular part is taken into account), while the vectors provided to the solver will be assumed to contain <em>H<sup>T</sup>b</em>. </p>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_math.html">Math</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_math_1_1_i_c_l_s.html">ICLS</a></li>
-    <li class="footer">Generated on Mon Apr 13 2020 22:01:56 for MRtrix by
+    <li class="footer">Generated on Wed Apr 22 2020 19:06:16 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

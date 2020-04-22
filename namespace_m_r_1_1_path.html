@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC3_latest-86-gcc3600ed</div>
+   <div id="projectbrief">Version 3.0_RC4-882-gb3b8647f</div>
   </td>
  </tr>
  </tbody>
@@ -114,10 +114,16 @@ Functions</h2></td></tr>
 <tr class="separator:aec71ef62d6df55a69e640af475ae3057"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab14271e383bdc70db1e02b9913fd3e9d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_path.html#ab14271e383bdc70db1e02b9913fd3e9d">has_suffix</a> (const std::string &amp;<a class="el" href="thread_8h.html#ac673bc430bdc3fdaa09f7becf98ef267">name</a>, const std::initializer_list&lt; const std::string &gt; &amp;suffix_list)</td></tr>
 <tr class="separator:ab14271e383bdc70db1e02b9913fd3e9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb49cc1a1bf3e19e9267c812d0bd4920"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_path.html#afb49cc1a1bf3e19e9267c812d0bd4920">has_suffix</a> (const std::string &amp;<a class="el" href="thread_8h.html#ac673bc430bdc3fdaa09f7becf98ef267">name</a>, const <a class="el" href="class_m_r_1_1vector.html">vector</a>&lt; std::string &gt; &amp;suffix_list)</td></tr>
+<tr class="separator:afb49cc1a1bf3e19e9267c812d0bd4920"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4188390cdfad4c41a7c1f4a67a8b49c6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_path.html#a4188390cdfad4c41a7c1f4a67a8b49c6">is_mrtrix_image</a> (const std::string &amp;<a class="el" href="thread_8h.html#ac673bc430bdc3fdaa09f7becf98ef267">name</a>)</td></tr>
+<tr class="separator:a4188390cdfad4c41a7c1f4a67a8b49c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b8a4a76a52b68184e67600f23f9fd5e"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_path.html#a5b8a4a76a52b68184e67600f23f9fd5e">cwd</a> ()</td></tr>
 <tr class="separator:a5b8a4a76a52b68184e67600f23f9fd5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26b413dad682a7c0de584352f63fe660"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_path.html#a26b413dad682a7c0de584352f63fe660">home</a> ()</td></tr>
 <tr class="separator:a26b413dad682a7c0de584352f63fe660"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a0e50200309c39e3082ae4a849f5834"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_path.html#a1a0e50200309c39e3082ae4a849f5834">delimiter</a> (const std::string &amp;filename)</td></tr>
+<tr class="separator:a1a0e50200309c39e3082ae4a849f5834"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a271a0f6e88f149cc7d645388ccabcca5"></a>
@@ -144,7 +150,7 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="path_8h_source.html#l00044">44</a> of file <a class="el" href="path_8h_source.html">path.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="path_8h_source.html#l00060">60</a> of file <a class="el" href="path_8h_source.html">path.h</a>.</p>
 
 </div>
 </div>
@@ -171,7 +177,35 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="path_8h_source.html#l00117">117</a> of file <a class="el" href="path_8h_source.html">path.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="path_8h_source.html#l00156">156</a> of file <a class="el" href="path_8h_source.html">path.h</a>.</p>
+
+</div>
+</div>
+<a id="a1a0e50200309c39e3082ae4a849f5834"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a0e50200309c39e3082ae4a849f5834">&#9670;&nbsp;</a></span>delimiter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">char MR::Path::delimiter </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>filename</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="path_8h_source.html#l00214">214</a> of file <a class="el" href="path_8h_source.html">path.h</a>.</p>
 
 </div>
 </div>
@@ -199,7 +233,7 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="path_8h_source.html#l00051">51</a> of file <a class="el" href="path_8h_source.html">path.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="path_8h_source.html#l00067">67</a> of file <a class="el" href="path_8h_source.html">path.h</a>.</p>
 
 </div>
 </div>
@@ -227,12 +261,12 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="path_8h_source.html#l00072">72</a> of file <a class="el" href="path_8h_source.html">path.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="path_8h_source.html#l00088">88</a> of file <a class="el" href="path_8h_source.html">path.h</a>.</p>
 
 </div>
 </div>
 <a id="ab14271e383bdc70db1e02b9913fd3e9d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab14271e383bdc70db1e02b9913fd3e9d">&#9670;&nbsp;</a></span>has_suffix() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab14271e383bdc70db1e02b9913fd3e9d">&#9670;&nbsp;</a></span>has_suffix() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -265,12 +299,12 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="path_8h_source.html#l00108">108</a> of file <a class="el" href="path_8h_source.html">path.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="path_8h_source.html#l00136">136</a> of file <a class="el" href="path_8h_source.html">path.h</a>.</p>
 
 </div>
 </div>
 <a id="aec71ef62d6df55a69e640af475ae3057"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec71ef62d6df55a69e640af475ae3057">&#9670;&nbsp;</a></span>has_suffix() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aec71ef62d6df55a69e640af475ae3057">&#9670;&nbsp;</a></span>has_suffix() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -303,7 +337,45 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="path_8h_source.html#l00101">101</a> of file <a class="el" href="path_8h_source.html">path.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="path_8h_source.html#l00130">130</a> of file <a class="el" href="path_8h_source.html">path.h</a>.</p>
+
+</div>
+</div>
+<a id="afb49cc1a1bf3e19e9267c812d0bd4920"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb49cc1a1bf3e19e9267c812d0bd4920">&#9670;&nbsp;</a></span>has_suffix() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::Path::has_suffix </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_m_r_1_1vector.html">vector</a>&lt; std::string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>suffix_list</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="path_8h_source.html#l00143">143</a> of file <a class="el" href="path_8h_source.html">path.h</a>.</p>
 
 </div>
 </div>
@@ -330,7 +402,7 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="path_8h_source.html#l00132">132</a> of file <a class="el" href="path_8h_source.html">path.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="path_8h_source.html#l00171">171</a> of file <a class="el" href="path_8h_source.html">path.h</a>.</p>
 
 </div>
 </div>
@@ -358,7 +430,7 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="path_8h_source.html#l00082">82</a> of file <a class="el" href="path_8h_source.html">path.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="path_8h_source.html#l00104">104</a> of file <a class="el" href="path_8h_source.html">path.h</a>.</p>
 
 </div>
 </div>
@@ -386,7 +458,35 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="path_8h_source.html#l00092">92</a> of file <a class="el" href="path_8h_source.html">path.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="path_8h_source.html#l00120">120</a> of file <a class="el" href="path_8h_source.html">path.h</a>.</p>
+
+</div>
+</div>
+<a id="a4188390cdfad4c41a7c1f4a67a8b49c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4188390cdfad4c41a7c1f4a67a8b49c6">&#9670;&nbsp;</a></span>is_mrtrix_image()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::Path::is_mrtrix_image </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="path_8h_source.html#l00150">150</a> of file <a class="el" href="path_8h_source.html">path.h</a>.</p>
 
 </div>
 </div>
@@ -424,7 +524,7 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="path_8h_source.html#l00058">58</a> of file <a class="el" href="path_8h_source.html">path.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="path_8h_source.html#l00074">74</a> of file <a class="el" href="path_8h_source.html">path.h</a>.</p>
 
 </div>
 </div>
@@ -434,7 +534,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_path.html">Path</a></li>
-    <li class="footer">Generated on Mon Apr 13 2020 22:01:56 for MRtrix by
+    <li class="footer">Generated on Wed Apr 22 2020 19:06:16 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

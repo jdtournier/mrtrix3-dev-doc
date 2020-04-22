@@ -14,5 +14,6 @@ var class_m_r_1_1_g_u_i_1_1_g_l_1_1_frame_buffer =
     [ "operator GLuint", "class_m_r_1_1_g_u_i_1_1_g_l_1_1_frame_buffer.html#a43617eae4e938ddeffd5e267e02a6a2e", null ],
     [ "operator=", "class_m_r_1_1_g_u_i_1_1_g_l_1_1_frame_buffer.html#a7486a6804cc25161d14ce179177ea211", null ],
     [ "unbind", "class_m_r_1_1_g_u_i_1_1_g_l_1_1_frame_buffer.html#a0d9d05c45d70292b1cfb79232bd5d109", null ],
+    [ "check_context", "class_m_r_1_1_g_u_i_1_1_g_l_1_1_frame_buffer.html#a8e26d5d51bc129c1ea66c23cca52dc8e", null ],
     [ "id", "class_m_r_1_1_g_u_i_1_1_g_l_1_1_frame_buffer.html#a16dfbd13fa8243a682e17930aa950f0d", null ]
 ];

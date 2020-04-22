@@ -8,6 +8,7 @@ var class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f =
     [ "ODF_Preview", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#a8ec23f5296f87058e4912c1a78ec99c1", null ],
     [ "colour_button", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#aca62ec8d875db4734ee3ef8139945ec6", null ],
     [ "colour_by_direction_box", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#a493adc5deb7025dac3ed17ded235f9af", null ],
+    [ "colour_relative_to_projection_box", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#abd4c930b43f3590b89b253f99afdf762", null ],
     [ "dirs_label", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#acd1886f47051c3cbb144ef982b8772c9", null ],
     [ "dirs_selector", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#a6f87eefc357039058cfe3512dbe65e98", null ],
     [ "hide_all_button", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#a9126a31c6a99cc6bd0d8ae44329cae7c", null ],

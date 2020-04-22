@@ -6,9 +6,10 @@ var thread_8h =
       [ "EXPLICIT", "thread_8h.html#ggaff2bf599166ff69fd4b6219269c96bdba440806ada035e97a59ec9d2ca6796cb3", null ],
       [ "IMPLICIT", "thread_8h.html#ggaff2bf599166ff69fd4b6219269c96bdba12afe8f66c5af8e690fbf6ead4c55ab2", null ]
     ] ],
-    [ "multi", "thread_8h.html#gaf01d13fdb672f4a8c8727a7a70760cea", null ],
+    [ "multi", "thread_8h.html#gad614f2a6b5c31020d13e5ac510f2b315", null ],
     [ "number_of_threads", "thread_8h.html#ga86984fa489ba954903690da0836a4f08", null ],
     [ "run", "thread_8h.html#gaab961106219ef4fa4076d24edb123b48", null ],
+    [ "threads_to_execute", "thread_8h.html#ga48ca3b9de4d762dfc3697e2f7d78b8d6", null ],
     [ "type_nthreads", "thread_8h.html#ga635dcd8aac0bb5ea995a3dbf42423a10", null ],
     [ "functor", "thread_8h.html#aece92f5ed23ab311f706fc6069e61689", null ],
     [ "functors", "thread_8h.html#a3a9850e0333717ed28b28c1c9f912631", null ],

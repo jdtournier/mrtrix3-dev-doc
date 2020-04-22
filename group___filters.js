@@ -4,8 +4,8 @@ var group___filters =
       [ "message", "class_m_r_1_1_filter_1_1_base.html#ac81802c82747313871e7db40b58207cc", null ]
     ] ],
     [ "ConnectedComponents", "class_m_r_1_1_filter_1_1_connected_components.html", [
-      [ "dim_to_ignore", "class_m_r_1_1_filter_1_1_connected_components.html#a7ccdbcf047d86db59c1781958592fb40", null ],
       [ "do_26_connectivity", "class_m_r_1_1_filter_1_1_connected_components.html#a919cdf5c64de8fcc2c690c3637dc16bb", null ],
+      [ "enabled_axes", "class_m_r_1_1_filter_1_1_connected_components.html#ab57fcca27a652801d5480ff05b69d177", null ],
       [ "largest_only", "class_m_r_1_1_filter_1_1_connected_components.html#a32cbbb383ff878e8173d5a8e1cc1880f", null ]
     ] ],
     [ "Dilate", "class_m_r_1_1_filter_1_1_dilate.html", [
@@ -52,7 +52,10 @@ var group___filters =
     ] ],
     [ "OptimalThreshold", "class_m_r_1_1_filter_1_1_optimal_threshold.html", null ],
     [ "Resize", "class_m_r_1_1_filter_1_1_resize.html", [
-      [ "interp_type", "class_m_r_1_1_filter_1_1_resize.html#a56ace62ecaa899ffd7b62dfda5997efb", null ]
+      [ "interp_type", "class_m_r_1_1_filter_1_1_resize.html#a56ace62ecaa899ffd7b62dfda5997efb", null ],
+      [ "out_of_bounds_value", "class_m_r_1_1_filter_1_1_resize.html#aa609b7a54b1c6610e3af3401f1276908", null ],
+      [ "oversampling", "class_m_r_1_1_filter_1_1_resize.html#a716bc0e1264a77b6a1cc7232f73b49c2", null ],
+      [ "transformation", "class_m_r_1_1_filter_1_1_resize.html#acf18004ad979ef68f68c43778a487f52", null ]
     ] ],
     [ "Smooth", "class_m_r_1_1_filter_1_1_smooth.html", [
       [ "SmoothFunctor1D", "class_m_r_1_1_filter_1_1_smooth_1_1_smooth_functor1_d.html", null ],
@@ -60,6 +63,20 @@ var group___filters =
       [ "stdev", "class_m_r_1_1_filter_1_1_smooth.html#a0e22b50bfd51e7730ee33adae0e9b341", null ],
       [ "stride_order", "class_m_r_1_1_filter_1_1_smooth.html#aefcbd905a8ccc5665ad6958e0b7592d8", null ],
       [ "zero_boundary", "class_m_r_1_1_filter_1_1_smooth.html#ab230599a62e39e3b5d8668219b84baaa", null ]
+    ] ],
+    [ "Connect", "class_m_r_1_1_fixel_1_1_filter_1_1_connect.html", [
+      [ "connectivity_threshold", "class_m_r_1_1_fixel_1_1_filter_1_1_connect.html#a1482719763d3b15908ca1d2324ba6d91", null ],
+      [ "matrix", "class_m_r_1_1_fixel_1_1_filter_1_1_connect.html#a888781025ace9b4f7a6fda640e1c2c36", null ],
+      [ "value_threshold", "class_m_r_1_1_fixel_1_1_filter_1_1_connect.html#a92113e265ba73a1dede38fb0eb6675a2", null ]
+    ] ],
+    [ "Smooth", "class_m_r_1_1_fixel_1_1_filter_1_1_smooth.html", [
+      [ "fixel_positions", "class_m_r_1_1_fixel_1_1_filter_1_1_smooth.html#abe2bc5b7dddf819fc629eb9e438d01c9", null ],
+      [ "gaussian_const1", "class_m_r_1_1_fixel_1_1_filter_1_1_smooth.html#a7962e3128dd3cb29d5bd9ff14f22953e", null ],
+      [ "gaussian_const2", "class_m_r_1_1_fixel_1_1_filter_1_1_smooth.html#a61f5b0e2b3224c0ff4613e26c08b3b1c", null ],
+      [ "mask_image", "class_m_r_1_1_fixel_1_1_filter_1_1_smooth.html#a50f3ab9b8ce594482c0aeeebe4d3182c", null ],
+      [ "matrix", "class_m_r_1_1_fixel_1_1_filter_1_1_smooth.html#a40557c4e07292763ffadf3a7d5addf2a", null ],
+      [ "stdev", "class_m_r_1_1_fixel_1_1_filter_1_1_smooth.html#a8f226989244f6815c4724298e24081cb", null ],
+      [ "threshold", "class_m_r_1_1_fixel_1_1_filter_1_1_smooth.html#a5c4a4dedeffbbe549a8557383f534d55", null ]
     ] ],
     [ "fft", "group___filters.html#ga5924da72ae3f5fec7be0ac67f919c01c", null ],
     [ "axes_to_process", "group___filters.html#gac0c75f21c005120ca0f9061398294492", null ],

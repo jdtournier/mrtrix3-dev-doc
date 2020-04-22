@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC3_latest-86-gcc3600ed</div>
+   <div id="projectbrief">Version 3.0_RC4-882-gb3b8647f</div>
   </td>
  </tr>
  </tbody>
@@ -85,20 +85,22 @@ $(document).ready(function(){initNavTree('msmt__csd_8h.html',''); initResizable(
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#define-members">Macros</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">msmt_csd.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="header_8h_source.html">header.h</a>&quot;</code><br />
 <code>#include &quot;types.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="dwi_2gradient_8h_source.html">dwi/gradient.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="shells_8h_source.html">dwi/shells.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="constrained__least__squares_8h_source.html">math/constrained_least_squares.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="math_8h_source.html">math/math.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="_s_h_8h_source.html">math/SH.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="_z_s_h_8h_source.html">math/ZSH.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="predefined_8h_source.html">dwi/directions/predefined.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="src_2dwi_2gradient_8h_source.html">dwi/gradient.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="shells_8h_source.html">dwi/shells.h</a>&quot;</code><br />
 </div>
 <p><a href="msmt__csd_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -115,14 +117,77 @@ Namespaces</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespace_m_r_1_1_d_w_i_1_1_s_deconv"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_s_deconv.html">MR::DWI::SDeconv</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a5c72170cefe4e3157c03189d056c4565"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="msmt__csd_8h.html#a5c72170cefe4e3157c03189d056c4565">DEFAULT_MSMTCSD_LMAX</a>&#160;&#160;&#160;8</td></tr>
+<tr class="separator:a5c72170cefe4e3157c03189d056c4565"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a984d91dbbb97a5609c02a9fe7a934a5f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="msmt__csd_8h.html#a984d91dbbb97a5609c02a9fe7a934a5f">DEFAULT_MSMTCSD_NORM_LAMBDA</a>&#160;&#160;&#160;1.0e-10</td></tr>
+<tr class="separator:a984d91dbbb97a5609c02a9fe7a934a5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac0c1fc326964626098f031036bf3e5f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="msmt__csd_8h.html#aac0c1fc326964626098f031036bf3e5f">DEFAULT_MSMTCSD_NEG_LAMBDA</a>&#160;&#160;&#160;1.0e-10</td></tr>
+<tr class="separator:aac0c1fc326964626098f031036bf3e5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a0cec379571c777ee79a2a1d83d8ba4cf"><td class="memItemLeft" align="right" valign="top">const App::OptionGroup&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_s_deconv.html#a0cec379571c777ee79a2a1d83d8ba4cf">MR::DWI::SDeconv::MSMT_CSD_options</a></td></tr>
+<tr class="separator:a0cec379571c777ee79a2a1d83d8ba4cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a5c72170cefe4e3157c03189d056c4565"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c72170cefe4e3157c03189d056c4565">&#9670;&nbsp;</a></span>DEFAULT_MSMTCSD_LMAX</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DEFAULT_MSMTCSD_LMAX&#160;&#160;&#160;8</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="msmt__csd_8h_source.html#l00031">31</a> of file <a class="el" href="msmt__csd_8h_source.html">msmt_csd.h</a>.</p>
+
+</div>
+</div>
+<a id="aac0c1fc326964626098f031036bf3e5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac0c1fc326964626098f031036bf3e5f">&#9670;&nbsp;</a></span>DEFAULT_MSMTCSD_NEG_LAMBDA</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DEFAULT_MSMTCSD_NEG_LAMBDA&#160;&#160;&#160;1.0e-10</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="msmt__csd_8h_source.html#l00033">33</a> of file <a class="el" href="msmt__csd_8h_source.html">msmt_csd.h</a>.</p>
+
+</div>
+</div>
+<a id="a984d91dbbb97a5609c02a9fe7a934a5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a984d91dbbb97a5609c02a9fe7a934a5f">&#9670;&nbsp;</a></span>DEFAULT_MSMTCSD_NORM_LAMBDA</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DEFAULT_MSMTCSD_NORM_LAMBDA&#160;&#160;&#160;1.0e-10</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="msmt__csd_8h_source.html#l00032">32</a> of file <a class="el" href="msmt__csd_8h_source.html">msmt_csd.h</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_6da8e6f1bfdb5540a85bd819d2a13962.html">dwi</a></li><li class="navelem"><a class="el" href="dir_d4929246ada30bd6abe63c5309b3312d.html">sdeconv</a></li><li class="navelem"><a class="el" href="msmt__csd_8h.html">msmt_csd.h</a></li>
-    <li class="footer">Generated on Mon Apr 13 2020 22:01:54 for MRtrix by
+    <li class="footer">Generated on Wed Apr 22 2020 19:06:14 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

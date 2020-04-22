@@ -6,8 +6,6 @@ var class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume =
     [ "get_cliphighlightstate", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume.html#ae2aa3067c9af19f26cf322be5bfe46df", null ],
     [ "get_clipintersectionmodestate", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume.html#aaa266619a14b59c732d754fd1651a621", null ],
     [ "get_view_tool", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume.html#af55baae1be3cede21f002c417634ec2f", null ],
-    [ "move_clip_planes_in_out", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume.html#a2d7b9f4c37e861f6094ec2ee0c9ee7e8", null ],
-    [ "rotate_clip_planes", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume.html#ac7a9a3919a9e36ebcc46f57b9e0c11f9", null ],
     [ "clip", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume.html#aa75a5bc563f4f98c1fe2bfa23f0a6d9d", null ],
     [ "depth_texture", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume.html#aaf9369ab0a4f7dff6ffbfe5046fa7824", null ],
     [ "volume_shader", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume.html#ae4b9153f390e4e1002e72536248c68bb", null ],

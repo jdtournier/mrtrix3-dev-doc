@@ -1,7 +1,6 @@
 var namespace_m_r_1_1_filter =
 [
     [ "Base", "class_m_r_1_1_filter_1_1_base.html", "class_m_r_1_1_filter_1_1_base" ],
-    [ "cluster", "class_m_r_1_1_filter_1_1cluster.html", "class_m_r_1_1_filter_1_1cluster" ],
     [ "ConnectedComponents", "class_m_r_1_1_filter_1_1_connected_components.html", "class_m_r_1_1_filter_1_1_connected_components" ],
     [ "Connector", "class_m_r_1_1_filter_1_1_connector.html", "class_m_r_1_1_filter_1_1_connector" ],
     [ "CopyKernel4D", "class_m_r_1_1_filter_1_1_copy_kernel4_d.html", "class_m_r_1_1_filter_1_1_copy_kernel4_d" ],
@@ -16,5 +15,6 @@ var namespace_m_r_1_1_filter =
     [ "Normalise", "class_m_r_1_1_filter_1_1_normalise.html", "class_m_r_1_1_filter_1_1_normalise" ],
     [ "OptimalThreshold", "class_m_r_1_1_filter_1_1_optimal_threshold.html", null ],
     [ "Resize", "class_m_r_1_1_filter_1_1_resize.html", "class_m_r_1_1_filter_1_1_resize" ],
-    [ "Smooth", "class_m_r_1_1_filter_1_1_smooth.html", "class_m_r_1_1_filter_1_1_smooth" ]
+    [ "Smooth", "class_m_r_1_1_filter_1_1_smooth.html", "class_m_r_1_1_filter_1_1_smooth" ],
+    [ "ZClean", "class_m_r_1_1_filter_1_1_z_clean.html", "class_m_r_1_1_filter_1_1_z_clean" ]
 ];

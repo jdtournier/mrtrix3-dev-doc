@@ -2,6 +2,7 @@ var exception_8h =
 [
     [ "Exception", "class_m_r_1_1_exception.html", "class_m_r_1_1_exception" ],
     [ "InvalidImageException", "class_m_r_1_1_invalid_image_exception.html", "class_m_r_1_1_invalid_image_exception" ],
+    [ "CancelException", "class_m_r_1_1_cancel_exception.html", "class_m_r_1_1_cancel_exception" ],
     [ "LogLevelLatch", "class_m_r_1_1_log_level_latch.html", "class_m_r_1_1_log_level_latch" ],
     [ "CONSOLE", "exception_8h.html#af531cf8fc8f1277c97e662f5c10d4678", null ],
     [ "DEBUG", "exception_8h.html#aecc1f7a8a2493b9e021e5bff76a00a5b", null ],

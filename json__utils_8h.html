@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC3_latest-86-gcc3600ed</div>
+   <div id="projectbrief">Version 3.0_RC4-882-gb3b8647f</div>
   </td>
  </tr>
  </tbody>
@@ -91,6 +91,7 @@ $(document).ready(function(){initNavTree('json__utils_8h.html',''); initResizabl
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;file/json.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="key__value_8h_source.html">file/key_value.h</a>&quot;</code><br />
 </div>
 <p><a href="json__utils_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -105,10 +106,18 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a131812caeafe8ba0c0a24817e55391af"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_file_1_1_j_s_o_n.html#a131812caeafe8ba0c0a24817e55391af">MR::File::JSON::load</a> (Header &amp;, const std::string &amp;)</td></tr>
-<tr class="separator:a131812caeafe8ba0c0a24817e55391af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b307ad6a321313c0374f56904e29688"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_file_1_1_j_s_o_n.html#a8b307ad6a321313c0374f56904e29688">MR::File::JSON::save</a> (const Header &amp;, const std::string &amp;)</td></tr>
-<tr class="separator:a8b307ad6a321313c0374f56904e29688"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abba9b533b5d86019bc1832d6228f3fbe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_file_1_1_j_s_o_n.html#abba9b533b5d86019bc1832d6228f3fbe">MR::File::JSON::load</a> (Header &amp;<a class="el" href="noise__estimator_8h.html#aaebed747e975509a9b8470c6d7ba93b3">H</a>, const std::string &amp;path)</td></tr>
+<tr class="separator:abba9b533b5d86019bc1832d6228f3fbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79566654d2516b82dc42cd1cdc12eacf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_file_1_1_j_s_o_n.html#a79566654d2516b82dc42cd1cdc12eacf">MR::File::JSON::save</a> (const Header &amp;<a class="el" href="noise__estimator_8h.html#aaebed747e975509a9b8470c6d7ba93b3">H</a>, const std::string &amp;json_path, const std::string &amp;image_path)</td></tr>
+<tr class="separator:a79566654d2516b82dc42cd1cdc12eacf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae482daa83e4fabde24f0fa4cccfe0bab"><td class="memItemLeft" align="right" valign="top">KeyValues&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_file_1_1_j_s_o_n.html#ae482daa83e4fabde24f0fa4cccfe0bab">MR::File::JSON::read</a> (const nlohmann::json &amp;json, const KeyValues &amp;preexisting=KeyValues())</td></tr>
+<tr class="separator:ae482daa83e4fabde24f0fa4cccfe0bab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5cd127624dcbce528da8524e783854b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_file_1_1_j_s_o_n.html#ad5cd127624dcbce528da8524e783854b">MR::File::JSON::read</a> (const nlohmann::json &amp;json, Header &amp;header, const bool realign)</td></tr>
+<tr class="separator:ad5cd127624dcbce528da8524e783854b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a8114f3a91dd93e130ec5f8eb02ab3d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_file_1_1_j_s_o_n.html#a4a8114f3a91dd93e130ec5f8eb02ab3d">MR::File::JSON::write</a> (const KeyValues &amp;keyval, nlohmann::json &amp;json)</td></tr>
+<tr class="separator:a4a8114f3a91dd93e130ec5f8eb02ab3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4d8c19ad239b5e36b5ec6952127d842"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_file_1_1_j_s_o_n.html#af4d8c19ad239b5e36b5ec6952127d842">MR::File::JSON::write</a> (const Header &amp;header, nlohmann::json &amp;json, const std::string &amp;image_path)</td></tr>
+<tr class="separator:af4d8c19ad239b5e36b5ec6952127d842"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -116,7 +125,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4270bfced15e0e73154b13468c7c9ad9.html">core</a></li><li class="navelem"><a class="el" href="dir_3cf79a01c77d233dd5dadaf9c60ce692.html">file</a></li><li class="navelem"><a class="el" href="json__utils_8h.html">json_utils.h</a></li>
-    <li class="footer">Generated on Mon Apr 13 2020 22:01:54 for MRtrix by
+    <li class="footer">Generated on Wed Apr 22 2020 19:06:14 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

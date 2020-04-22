@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC3_latest-86-gcc3600ed</div>
+   <div id="projectbrief">Version 3.0_RC4-882-gb3b8647f</div>
   </td>
  </tr>
  </tbody>
@@ -109,6 +109,8 @@ Namespaces</h2></td></tr>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_linear.html">Linear</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_m_r_1_1_registration_1_1_multi_contrast_setting.html">MultiContrastSetting</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_registration_1_1_non_linear.html">NonLinear</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_m_r_1_1_registration_1_1_stage_setting.html">StageSetting</a></td></tr>
@@ -140,9 +142,18 @@ Functions</h2></td></tr>
 <tr class="separator:acccbb860a909b06d80834f6291109738"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3e8f190d714f5bcb1daedba0cc30fb7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration.html#aa3e8f190d714f5bcb1daedba0cc30fb7">parse_general_options</a> (<a class="el" href="class_m_r_1_1_registration_1_1_linear.html">Registration::Linear</a> &amp;registration)</td></tr>
 <tr class="separator:aa3e8f190d714f5bcb1daedba0cc30fb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcf4f8e187d98522924bd371fb69f267"><td class="memItemLeft" align="right" valign="top"><a class="el" href="src_2surface_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration.html#adcf4f8e187d98522924bd371fb69f267">check_image_output</a> (const std::string &amp;image_name, const <a class="el" href="class_m_r_1_1_header.html">Header</a> &amp;reference)</td></tr>
+<tr class="separator:adcf4f8e187d98522924bd371fb69f267"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a139844bc435d84e5f7c1e200b1a41c26"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration.html#a139844bc435d84e5f7c1e200b1a41c26">operator&lt;&lt;</a> (std::ostream &amp;o, const <a class="el" href="struct_m_r_1_1_registration_1_1_multi_contrast_setting.html">MultiContrastSetting</a> &amp;a)</td></tr>
+<tr class="separator:a139844bc435d84e5f7c1e200b1a41c26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a307f7d6032b46d9e2ed0cab7c79d647b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration.html#a307f7d6032b46d9e2ed0cab7c79d647b">preload_data</a> (<a class="el" href="class_m_r_1_1vector.html">vector</a>&lt; <a class="el" href="class_m_r_1_1_header.html">Header</a> &gt; &amp;input, <a class="el" href="class_m_r_1_1_image.html">Image</a>&lt; <a class="el" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a> &gt; &amp;images, const <a class="el" href="class_m_r_1_1vector.html">vector</a>&lt; <a class="el" href="struct_m_r_1_1_registration_1_1_multi_contrast_setting.html">MultiContrastSetting</a> &gt; &amp;mc_params)</td></tr>
+<tr class="separator:a307f7d6032b46d9e2ed0cab7c79d647b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65b5d802086e3590ab9998b44d01195c"><td class="memTemplParams" colspan="2">template&lt;class ImageType &gt; </td></tr>
 <tr class="memitem:a65b5d802086e3590ab9998b44d01195c"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="src_2surface_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> ImageType&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration.html#a65b5d802086e3590ab9998b44d01195c">multi_resolution_lmax</a> (ImageType &amp;input, const <a class="el" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a> scale_factor, const bool do_reorientation=false, const int lmax=0)</td></tr>
 <tr class="separator:a65b5d802086e3590ab9998b44d01195c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a272c6fb2078cf227ac1bc28963a568a7"><td class="memTemplParams" colspan="2">template&lt;class ImageType &gt; </td></tr>
+<tr class="memitem:a272c6fb2078cf227ac1bc28963a568a7"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="src_2surface_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> ImageType&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration.html#a272c6fb2078cf227ac1bc28963a568a7">multi_resolution_lmax</a> (ImageType &amp;input, const <a class="el" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a> scale_factor, const bool do_reorientation, const <a class="el" href="class_m_r_1_1vector.html">vector</a>&lt; <a class="el" href="struct_m_r_1_1_registration_1_1_multi_contrast_setting.html">MultiContrastSetting</a> &gt; &amp;contrast, <a class="el" href="class_m_r_1_1vector.html">vector</a>&lt; <a class="el" href="struct_m_r_1_1_registration_1_1_multi_contrast_setting.html">MultiContrastSetting</a> &gt; *contrast_updated=nullptr)</td></tr>
+<tr class="separator:a272c6fb2078cf227ac1bc28963a568a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -154,12 +165,14 @@ Variables</h2></td></tr>
 <tr class="separator:a036aa9163b02b7935d3f65f172720581"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac5ec9fa85a76075dae81082bba9d99b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_m_r_1_1_app_1_1_option_group.html">App::OptionGroup</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration.html#aac5ec9fa85a76075dae81082bba9d99b">affine_options</a></td></tr>
 <tr class="separator:aac5ec9fa85a76075dae81082bba9d99b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d3d1600155ad88a0b6789a0e0a3f0b3"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_m_r_1_1_app_1_1_option_group.html">App::OptionGroup</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration.html#a9d3d1600155ad88a0b6789a0e0a3f0b3">fod_options</a></td></tr>
-<tr class="separator:a9d3d1600155ad88a0b6789a0e0a3f0b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8dc557373081edec651b16a73236779"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_m_r_1_1_app_1_1_option_group.html">App::OptionGroup</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration.html#ac8dc557373081edec651b16a73236779">fod_options</a></td></tr>
+<tr class="separator:ac8dc557373081edec651b16a73236779"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0967b0249e8a6d1342ef75513bce8ca0"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration.html#a0967b0249e8a6d1342ef75513bce8ca0">optim_algo_names</a> []</td></tr>
 <tr class="separator:a0967b0249e8a6d1342ef75513bce8ca0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5466ce38010787f5cc903df0e8380b9"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_m_r_1_1_app_1_1_option_group.html">App::OptionGroup</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration.html#ac5466ce38010787f5cc903df0e8380b9">nonlinear_options</a></td></tr>
 <tr class="separator:ac5466ce38010787f5cc903df0e8380b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8a485575833abb2c27be30ea90ace6e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_m_r_1_1_app_1_1_option_group.html">OptionGroup</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_registration.html#af8a485575833abb2c27be30ea90ace6e">multiContrastOptions</a></td></tr>
+<tr class="separator:af8a485575833abb2c27be30ea90ace6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
 <a id="a2128b8d3c4c2bd10f9a40be6b8fe0bc5"></a>
@@ -178,7 +191,7 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a2128b8d3c4c2bd10f9a40be6b8fe0bc5a5baacf33ac2a0df4aa198263c8163d00"></a>NCC&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="src_2registration_2linear_8h_source.html#l00056">56</a> of file <a class="el" href="src_2registration_2linear_8h_source.html">linear.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="src_2registration_2linear_8h_source.html#l00058">58</a> of file <a class="el" href="src_2registration_2linear_8h_source.html">linear.h</a>.</p>
 
 </div>
 </div>
@@ -200,7 +213,7 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="acee95fcf4386a73a2764b491c5cf06a4abf808a0c8db090f0ae883b792b78a7e3"></a>None&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="src_2registration_2linear_8h_source.html#l00057">57</a> of file <a class="el" href="src_2registration_2linear_8h_source.html">linear.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="src_2registration_2linear_8h_source.html#l00059">59</a> of file <a class="el" href="src_2registration_2linear_8h_source.html">linear.h</a>.</p>
 
 </div>
 </div>
@@ -221,13 +234,93 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="af1595cd6b5fb04c9de6a73964645804ba1715b1632c15ef62c6cb4b4fa139e6d9"></a>none&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="src_2registration_2linear_8h_source.html#l00058">58</a> of file <a class="el" href="src_2registration_2linear_8h_source.html">linear.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="src_2registration_2linear_8h_source.html#l00060">60</a> of file <a class="el" href="src_2registration_2linear_8h_source.html">linear.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="adcf4f8e187d98522924bd371fb69f267"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adcf4f8e187d98522924bd371fb69f267">&#9670;&nbsp;</a></span>check_image_output()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="src_2surface_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> void MR::Registration::check_image_output </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>image_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_m_r_1_1_header.html">Header</a> &amp;&#160;</td>
+          <td class="paramname"><em>reference</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="multi__contrast_8h_source.html#l00036">36</a> of file <a class="el" href="multi__contrast_8h_source.html">multi_contrast.h</a>.</p>
+
+</div>
+</div>
+<a id="a272c6fb2078cf227ac1bc28963a568a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a272c6fb2078cf227ac1bc28963a568a7">&#9670;&nbsp;</a></span>multi_resolution_lmax() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ImageType &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="src_2surface_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> ImageType MR::Registration::multi_resolution_lmax </td>
+          <td>(</td>
+          <td class="paramtype">ImageType &amp;&#160;</td>
+          <td class="paramname"><em>input</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a>&#160;</td>
+          <td class="paramname"><em>scale_factor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>do_reorientation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_m_r_1_1vector.html">vector</a>&lt; <a class="el" href="struct_m_r_1_1_registration_1_1_multi_contrast_setting.html">MultiContrastSetting</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>contrast</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_m_r_1_1vector.html">vector</a>&lt; <a class="el" href="struct_m_r_1_1_registration_1_1_multi_contrast_setting.html">MultiContrastSetting</a> &gt; *&#160;</td>
+          <td class="paramname"><em>contrast_updated</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="multi__resolution__lmax_8h_source.html#l00060">60</a> of file <a class="el" href="multi__resolution__lmax_8h_source.html">multi_resolution_lmax.h</a>.</p>
+
+</div>
+</div>
 <a id="a65b5d802086e3590ab9998b44d01195c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a65b5d802086e3590ab9998b44d01195c">&#9670;&nbsp;</a></span>multi_resolution_lmax()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a65b5d802086e3590ab9998b44d01195c">&#9670;&nbsp;</a></span>multi_resolution_lmax() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -266,7 +359,45 @@ template&lt;class ImageType &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="multi__resolution__lmax_8h_source.html#l00028">28</a> of file <a class="el" href="multi__resolution__lmax_8h_source.html">multi_resolution_lmax.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="multi__resolution__lmax_8h_source.html#l00031">31</a> of file <a class="el" href="multi__resolution__lmax_8h_source.html">multi_resolution_lmax.h</a>.</p>
+
+</div>
+</div>
+<a id="a139844bc435d84e5f7c1e200b1a41c26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a139844bc435d84e5f7c1e200b1a41c26">&#9670;&nbsp;</a></span>operator&lt;&lt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ostream&amp; MR::Registration::operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>o</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_m_r_1_1_registration_1_1_multi_contrast_setting.html">MultiContrastSetting</a> &amp;&#160;</td>
+          <td class="paramname"><em>a</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="multi__contrast_8h_source.html#l00099">99</a> of file <a class="el" href="multi__contrast_8h_source.html">multi_contrast.h</a>.</p>
 
 </div>
 </div>
@@ -282,6 +413,40 @@ template&lt;class ImageType &gt; </div>
           <td class="paramtype"><a class="el" href="class_m_r_1_1_registration_1_1_linear.html">Registration::Linear</a> &amp;&#160;</td>
           <td class="paramname"><em>registration</em></td><td>)</td>
           <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a307f7d6032b46d9e2ed0cab7c79d647b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a307f7d6032b46d9e2ed0cab7c79d647b">&#9670;&nbsp;</a></span>preload_data()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::Registration::preload_data </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_m_r_1_1vector.html">vector</a>&lt; <a class="el" href="class_m_r_1_1_header.html">Header</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>input</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_m_r_1_1_image.html">Image</a>&lt; <a class="el" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>images</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_m_r_1_1vector.html">vector</a>&lt; <a class="el" href="struct_m_r_1_1_registration_1_1_multi_contrast_setting.html">MultiContrastSetting</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>mc_params</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -373,17 +538,28 @@ template&lt;class ImageType &gt; </div>
 
 </div>
 </div>
-<a id="a9d3d1600155ad88a0b6789a0e0a3f0b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d3d1600155ad88a0b6789a0e0a3f0b3">&#9670;&nbsp;</a></span>fod_options</h2>
+<a id="ac8dc557373081edec651b16a73236779"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8dc557373081edec651b16a73236779">&#9670;&nbsp;</a></span>fod_options</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="class_m_r_1_1_app_1_1_option_group.html">App::OptionGroup</a> MR::Registration::fod_options</td>
+          <td class="memname">const <a class="el" href="class_m_r_1_1_app_1_1_option_group.html">OptionGroup</a> MR::Registration::fod_options</td>
         </tr>
       </table>
 </div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">          OptionGroup (<span class="stringliteral">&quot;FOD registration options&quot;</span>)</div>
+<div class="line"> </div>
+<div class="line">          + Option (<span class="stringliteral">&quot;directions&quot;</span>, <span class="stringliteral">&quot;the directions used for FOD reorienation using apodised point spread functions (Default: 60 directions)&quot;</span>)</div>
+<div class="line">          + Argument (<span class="stringliteral">&quot;file&quot;</span>, <span class="stringliteral">&quot;a list of directions [az el] generated using the gendir command.&quot;</span>).type_file_in ()</div>
+<div class="line"> </div>
+<div class="line">          + Option (<span class="stringliteral">&quot;noreorientation&quot;</span>, <span class="stringliteral">&quot;turn off FOD reorientation. Reorientation is on by default if the number &quot;</span></div>
+<div class="line">                                       <span class="stringliteral">&quot;of volumes in the 4th dimension corresponds to the number of coefficients in an &quot;</span></div>
+<div class="line">                                       <span class="stringliteral">&quot;antipodally symmetric spherical harmonic series (i.e. 6, 15, 28, 45, 66 etc&quot;</span>)</div>
+</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="registration_2shared_8h_source.html#l00032">32</a> of file <a class="el" href="registration_2shared_8h_source.html">shared.h</a>.</p>
 
 </div>
 </div>
@@ -398,6 +574,26 @@ template&lt;class ImageType &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="af8a485575833abb2c27be30ea90ace6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8a485575833abb2c27be30ea90ace6e">&#9670;&nbsp;</a></span>multiContrastOptions</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_m_r_1_1_app_1_1_option_group.html">OptionGroup</a> MR::Registration::multiContrastOptions</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">      OptionGroup (<span class="stringliteral">&quot;Multi-contrast options&quot;</span>)</div>
+<div class="line">      + Option (<span class="stringliteral">&quot;mc_weights&quot;</span>, <span class="stringliteral">&quot;relative weight of images used for multi-contrast registration. Default: 1.0 (equal weighting)&quot;</span>)</div>
+<div class="line">        + Argument (<span class="stringliteral">&quot;weights&quot;</span>).type_sequence_float ()</div>
+</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="registration_2shared_8h_source.html#l00027">27</a> of file <a class="el" href="registration_2shared_8h_source.html">shared.h</a>.</p>
 
 </div>
 </div>
@@ -449,7 +645,7 @@ template&lt;class ImageType &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_registration.html">Registration</a></li>
-    <li class="footer">Generated on Mon Apr 13 2020 22:01:56 for MRtrix by
+    <li class="footer">Generated on Wed Apr 22 2020 19:06:16 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

@@ -6,7 +6,6 @@ var class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base =
     [ "VBoxLayout", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_1_1_v_box_layout.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_1_1_v_box_layout" ],
     [ "Base", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base.html#a42ed8e191e94fcd2f7b2a4591ecc4fe5", null ],
     [ "add_commandline_options", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base.html#a312db50d8b09265c002bd5f2ad9384f4", null ],
-    [ "adjustSize", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base.html#ab1eda93df3dad49f95b825d8608933fa", null ],
     [ "close_event", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base.html#aca037a939aff2b13f3241b294821d2ff", null ],
     [ "dragEnterEvent", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base.html#a54e0309ecfa61b3cfc604b47f197496f", null ],
     [ "dragLeaveEvent", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base.html#a535e7065161f7ddb9de62c8d0dc2a5e0", null ],
@@ -25,5 +24,6 @@ var class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base =
     [ "sizeHint", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base.html#aa9736bc03c89de53511baad67c1411c7", null ],
     [ "update_cursor", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base.html#a49a6bc01fae5286d83e7e12a054a2270", null ],
     [ "visible_number_colourbars", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base.html#a0c8f34c205f35d062734c3444e05dd94", null ],
-    [ "window", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base.html#a4c02181cb5b9385eca1bb24df894f7f3", null ]
+    [ "window", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base.html#a4c02181cb5b9385eca1bb24df894f7f3", null ],
+    [ "current_folder", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base.html#ad40a77483361b0c685f143e5798a5dd6", null ]
 ];

@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC3_latest-86-gcc3600ed</div>
+   <div id="projectbrief">Version 3.0_RC4-882-gb3b8647f</div>
   </td>
  </tr>
  </tbody>
@@ -86,13 +86,13 @@ $(document).ready(function(){initNavTree('gui_8h.html',''); initResizable(); });
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">gui.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="app_8h_source.html">app.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;QApplication&gt;</code><br />
+<code>#include &quot;<a class="el" href="app_8h_source.html">app.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="config_8h_source.html">file/config.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="gl_8h_source.html">gui/opengl/gl.h</a>&quot;</code><br />
 </div>
@@ -100,8 +100,6 @@ $(document).ready(function(){initNavTree('gui_8h.html',''); initResizable(); });
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_m_r_1_1_g_u_i_1_1_context_1_1_grab.html">MR::GUI::Context::Grab</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_g_u_i_1_1_app.html">MR::GUI::App</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -111,60 +109,19 @@ Namespaces</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespace_m_r_1_1_g_u_i"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_g_u_i.html">MR::GUI</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespace_m_r_1_1_g_u_i_1_1_context"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_g_u_i_1_1_context.html">MR::GUI::Context</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a4989148487f784996d780f0b03585c60"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gui_8h.html#a4989148487f784996d780f0b03585c60">ASSERT_GL_CONTEXT_IS_CURRENT</a>(window)</td></tr>
-<tr class="separator:a4989148487f784996d780f0b03585c60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a00ed3ae3ad0da7d8facef4f8e1f9c903"><td class="memItemLeft" align="right" valign="top">std::pair&lt; int, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_g_u_i_1_1_context.html#a00ed3ae3ad0da7d8facef4f8e1f9c903">MR::GUI::Context::current</a> ()</td></tr>
-<tr class="separator:a00ed3ae3ad0da7d8facef4f8e1f9c903"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18b4ee237bf50523f8e0194248313e53"><td class="memItemLeft" align="right" valign="top">std::pair&lt; int, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_g_u_i_1_1_context.html#a18b4ee237bf50523f8e0194248313e53">MR::GUI::Context::get</a> (QWidget *)</td></tr>
-<tr class="separator:a18b4ee237bf50523f8e0194248313e53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43e7f430f67d34d780f10cf52b27e314"><td class="memItemLeft" align="right" valign="top">std::pair&lt; int, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_g_u_i_1_1_context.html#a43e7f430f67d34d780f10cf52b27e314">MR::GUI::Context::makeCurrent</a> (QWidget *)</td></tr>
-<tr class="separator:a43e7f430f67d34d780f10cf52b27e314"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55e045fcd220170eb2f0f3e5289dd53a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_g_u_i_1_1_context.html#a55e045fcd220170eb2f0f3e5289dd53a">MR::GUI::Context::restore</a> (std::pair&lt; int, int &gt;)</td></tr>
-<tr class="separator:a55e045fcd220170eb2f0f3e5289dd53a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b1b77877b492d7a1638364a3a94fc1b"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_g_u_i.html#a9b1b77877b492d7a1638364a3a94fc1b">MR::GUI::qstr</a> (const std::string &amp;s)</td></tr>
+<tr class="separator:a9b1b77877b492d7a1638364a3a94fc1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a4989148487f784996d780f0b03585c60"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4989148487f784996d780f0b03585c60">&#9670;&nbsp;</a></span>ASSERT_GL_CONTEXT_IS_CURRENT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ASSERT_GL_CONTEXT_IS_CURRENT</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">window</td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">  { \</div>
-<div class="line">  auto __current_context = <a class="code" href="namespace_m_r_1_1_g_u_i_1_1_context.html#a00ed3ae3ad0da7d8facef4f8e1f9c903">::MR::GUI::Context::current</a>(); \</div>
-<div class="line">  auto __expected_context = <a class="code" href="namespace_m_r_1_1_g_u_i_1_1_context.html#a18b4ee237bf50523f8e0194248313e53">::MR::GUI::Context::get</a> (window); \</div>
-<div class="line">  assert (__current_context == __expected_context); \</div>
-<div class="line">}</div>
-</div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="gui_8h_source.html#l00071">71</a> of file <a class="el" href="gui_8h_source.html">gui.h</a>.</p>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="anamespace_m_r_1_1_g_u_i_1_1_context_html_a18b4ee237bf50523f8e0194248313e53"><div class="ttname"><a href="namespace_m_r_1_1_g_u_i_1_1_context.html#a18b4ee237bf50523f8e0194248313e53">MR::GUI::Context::get</a></div><div class="ttdeci">std::pair&lt; int, int &gt; get(QWidget *)</div></div>
-<div class="ttc" id="anamespace_m_r_1_1_g_u_i_1_1_context_html_a00ed3ae3ad0da7d8facef4f8e1f9c903"><div class="ttname"><a href="namespace_m_r_1_1_g_u_i_1_1_context.html#a00ed3ae3ad0da7d8facef4f8e1f9c903">MR::GUI::Context::current</a></div><div class="ttdeci">std::pair&lt; int, int &gt; current()</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_99d0482cf009f9d97a0877749b817f19.html">gui</a></li><li class="navelem"><a class="el" href="gui_8h.html">gui.h</a></li>
-    <li class="footer">Generated on Mon Apr 13 2020 22:01:54 for MRtrix by
+    <li class="footer">Generated on Wed Apr 22 2020 19:06:14 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

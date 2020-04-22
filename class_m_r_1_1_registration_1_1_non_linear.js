@@ -3,6 +3,9 @@ var class_m_r_1_1_registration_1_1_non_linear =
     [ "has_negative_jacobians", "class_m_r_1_1_registration_1_1_non_linear.html#a792153eebac1da952b286f48cf7cc52c", null ],
     [ "reslice", "class_m_r_1_1_registration_1_1_non_linear.html#a42eed90d9e4630f2fc8d2da2972f024f", null ],
     [ "aPSF_directions", "class_m_r_1_1_registration_1_1_non_linear.html#a43b1fc6cf5295209ebfae2d9dfbf891a", null ],
+    [ "cc_extent", "class_m_r_1_1_registration_1_1_non_linear.html#a53471f9899c3cbf6bb93b0923b6751c8", null ],
+    [ "contrasts", "class_m_r_1_1_registration_1_1_non_linear.html#abb4b9a93ec6164b5903ce5196c87eece", null ],
+    [ "diagnostics_image_prefix", "class_m_r_1_1_registration_1_1_non_linear.html#a26cfa2be2691807241efb92d59a84ec8", null ],
     [ "disp_smoothing", "class_m_r_1_1_registration_1_1_non_linear.html#adcda21bc474008aa988c9f34a45e8bcb", null ],
     [ "do_reorientation", "class_m_r_1_1_registration_1_1_non_linear.html#aa0e106a39b2a5cc1da2ea43dd5f6cc67", null ],
     [ "fod_lmax", "class_m_r_1_1_registration_1_1_non_linear.html#a89bf5081d43e36629f1cccedd1ca243f", null ],
@@ -23,5 +26,7 @@ var class_m_r_1_1_registration_1_1_non_linear =
     [ "mid_to_im2", "class_m_r_1_1_registration_1_1_non_linear.html#a372621dbcb7bfaa58479c64706d40e67", null ],
     [ "midway_image_header", "class_m_r_1_1_registration_1_1_non_linear.html#a7dae106ecb4d116c30393393d10357da", null ],
     [ "scale_factor", "class_m_r_1_1_registration_1_1_non_linear.html#ac7750f2a60f710611e81f6c6232c0a08", null ],
-    [ "update_smoothing", "class_m_r_1_1_registration_1_1_non_linear.html#acaa2eb12901d6d39ecd2057588bf5e12", null ]
+    [ "stage_contrasts", "class_m_r_1_1_registration_1_1_non_linear.html#a335a6d1e9aaa1b7ac0625bde269a8117", null ],
+    [ "update_smoothing", "class_m_r_1_1_registration_1_1_non_linear.html#acaa2eb12901d6d39ecd2057588bf5e12", null ],
+    [ "use_cc", "class_m_r_1_1_registration_1_1_non_linear.html#a2313d912ebd2967ec8e0468588abea87", null ]
 ];

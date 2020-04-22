@@ -9,5 +9,6 @@ var class_m_r_1_1_g_u_i_1_1_g_l_1_1_vertex_array_object =
     [ "gen", "class_m_r_1_1_g_u_i_1_1_g_l_1_1_vertex_array_object.html#aff6fd9f602c8d9f56e16a1617d349be0", null ],
     [ "operator GLuint", "class_m_r_1_1_g_u_i_1_1_g_l_1_1_vertex_array_object.html#a8ba38d3788d71ddd7d2359ba55f94c15", null ],
     [ "operator=", "class_m_r_1_1_g_u_i_1_1_g_l_1_1_vertex_array_object.html#a828b39c6fd8160280c8feca79bca7be0", null ],
+    [ "check_context", "class_m_r_1_1_g_u_i_1_1_g_l_1_1_vertex_array_object.html#ab0dd5d2a12fbcd98b4baa17214e5cb33", null ],
     [ "id", "class_m_r_1_1_g_u_i_1_1_g_l_1_1_vertex_array_object.html#a240e913f86a7fb5519f0b72c773a4559", null ]
 ];

@@ -29,6 +29,9 @@ var dir_e7cf60664e1399b64d285725d0a06efa =
     [ "permute_axes.h", "permute__axes_8h.html", [
       [ "PermuteAxes", "class_m_r_1_1_adapter_1_1_permute_axes.html", null ]
     ] ],
+    [ "regrid.h", "regrid_8h.html", [
+      [ "Regrid", "class_m_r_1_1_adapter_1_1_regrid.html", "class_m_r_1_1_adapter_1_1_regrid" ]
+    ] ],
     [ "replicate.h", "replicate_8h.html", [
       [ "Replicate", "class_m_r_1_1_adapter_1_1_replicate.html", "class_m_r_1_1_adapter_1_1_replicate" ]
     ] ],

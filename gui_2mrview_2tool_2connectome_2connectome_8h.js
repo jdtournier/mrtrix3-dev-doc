@@ -7,7 +7,7 @@ var gui_2mrview_2tool_2connectome_2connectome_8h =
     [ "value_type", "gui_2mrview_2tool_2connectome_2connectome_8h.html#af2ef2268203864bf3ff8a123cbd6d2fd", null ],
     [ "vector_type", "gui_2mrview_2tool_2connectome_2connectome_8h.html#aef0695f1e3c4c253f94558094d0c3736", null ],
     [ "check", "gui_2mrview_2tool_2connectome_2connectome_8h.html#a23219c2984f1ced64a8f9d0f3668450c", null ],
-    [ "check", "gui_2mrview_2tool_2connectome_2connectome_8h.html#aa62023f84834cafc9817bd6d6bb8df21", null ],
+    [ "check", "gui_2mrview_2tool_2connectome_2connectome_8h.html#a52c0b9bde534f27f62f08f2ad51f0982", null ],
     [ "is_directed", "gui_2mrview_2tool_2connectome_2connectome_8h.html#a2962a8ed09fb920efe4868d399191fec", null ],
     [ "to_symmetric", "gui_2mrview_2tool_2connectome_2connectome_8h.html#a84863c01e6c872cfb34d3a245cb02503", null ],
     [ "to_upper", "gui_2mrview_2tool_2connectome_2connectome_8h.html#a9db8f1d1501d1105db6e3307e39d06c4", null ],

@@ -10,9 +10,7 @@ var dir_3cf79a01c77d233dd5dadaf9c60ce692 =
       [ "GZ", "class_m_r_1_1_file_1_1_g_z.html", "class_m_r_1_1_file_1_1_g_z" ]
     ] ],
     [ "json_utils.h", "json__utils_8h.html", "json__utils_8h" ],
-    [ "key_value.h", "key__value_8h.html", [
-      [ "KeyValue", "class_m_r_1_1_file_1_1_key_value.html", "class_m_r_1_1_file_1_1_key_value" ]
-    ] ],
+    [ "key_value.h", "key__value_8h.html", "key__value_8h" ],
     [ "mmap.h", "mmap_8h.html", [
       [ "MMap", "class_m_r_1_1_file_1_1_m_map.html", "class_m_r_1_1_file_1_1_m_map" ]
     ] ],
@@ -22,14 +20,13 @@ var dir_3cf79a01c77d233dd5dadaf9c60ce692 =
       [ "ParsedName", "class_m_r_1_1_file_1_1_parsed_name.html", "class_m_r_1_1_file_1_1_parsed_name" ],
       [ "List", "class_m_r_1_1_file_1_1_parsed_name_1_1_list.html", "class_m_r_1_1_file_1_1_parsed_name_1_1_list" ]
     ] ],
-    [ "nifti1_utils.h", "nifti1__utils_8h.html", "nifti1__utils_8h" ],
     [ "nifti2.h", "nifti2_8h.html", "nifti2_8h" ],
-    [ "nifti2_utils.h", "nifti2__utils_8h.html", "nifti2__utils_8h" ],
     [ "nifti_utils.h", "nifti__utils_8h.html", "nifti__utils_8h" ],
     [ "ofstream.h", "ofstream_8h.html", [
       [ "OFStream", "class_m_r_1_1_file_1_1_o_f_stream.html", "class_m_r_1_1_file_1_1_o_f_stream" ]
     ] ],
     [ "path.h", "path_8h.html", "path_8h" ],
+    [ "png.h", "file_2png_8h.html", null ],
     [ "tiff.h", "file_2tiff_8h.html", [
       [ "TIFF", "class_m_r_1_1_file_1_1_t_i_f_f.html", null ]
     ] ],

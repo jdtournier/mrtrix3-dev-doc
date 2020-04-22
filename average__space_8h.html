@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC3_latest-86-gcc3600ed</div>
+   <div id="projectbrief">Version 3.0_RC4-882-gb3b8647f</div>
   </td>
  </tr>
  </tbody>
@@ -93,7 +93,7 @@ $(document).ready(function(){initNavTree('average__space_8h.html',''); initResiz
 <div class="textblock"><code>#include &lt;unsupported/Eigen/MatrixFunctions&gt;</code><br />
 <code>#include &lt;Eigen/SVD&gt;</code><br />
 <code>#include &lt;Eigen/Geometry&gt;</code><br />
-<code>#include &quot;<a class="el" href="transform_8h_source.html">transform.h</a>&quot;</code><br />
+<code>#include &quot;transform.h&quot;</code><br />
 <code>#include &quot;image.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="debug_8h_source.html">debug.h</a>&quot;</code><br />
 </div>
@@ -114,11 +114,11 @@ Functions</h2></td></tr>
 <tr class="separator:a2f939ea75aa7c9c1aa6caf50aed7dcc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8df1164abb7dd70a8cb7f230ace61d86"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt; default_type, 8, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a8df1164abb7dd70a8cb7f230ace61d86">MR::get_bounding_box</a> (const Header &amp;header, const Eigen::Transform&lt; default_type, 3, Eigen::Projective &gt; &amp;voxel2scanner)</td></tr>
 <tr class="separator:a8df1164abb7dd70a8cb7f230ace61d86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb80c0167b92315a4e317b74f52fe1fd"><td class="memItemLeft" align="right" valign="top">Header&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#aeb80c0167b92315a4e317b74f52fe1fd">MR::compute_minimum_average_header</a> (const vector&lt; Header &gt; &amp;input_headers, int voxel_subsampling, const <a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt; default_type, 4, 1 &gt; &amp;padding, const vector&lt; Eigen::Transform&lt; default_type, 3, Eigen::Projective &gt;&gt; &amp;transform_header_with)</td></tr>
-<tr class="separator:aeb80c0167b92315a4e317b74f52fe1fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4196e34492f94bda358648cdd1f67620"><td class="memTemplParams" colspan="2">template&lt;class ImageType1 , class ImageType2 , class TransformationType &gt; </td></tr>
-<tr class="memitem:a4196e34492f94bda358648cdd1f67620"><td class="memTemplItemLeft" align="right" valign="top">Header&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a4196e34492f94bda358648cdd1f67620">MR::compute_minimum_average_header</a> (const ImageType1 &amp;im1, const ImageType2 &amp;im2, const TransformationType &amp;transformation, const default_type &amp;voxel_subsampling, const <a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt; default_type, 4, 1 &gt; &amp;padding)</td></tr>
-<tr class="separator:a4196e34492f94bda358648cdd1f67620"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2da826014b60c4f669f335735c6c9018"><td class="memItemLeft" align="right" valign="top">Header&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a2da826014b60c4f669f335735c6c9018">MR::compute_minimum_average_header</a> (const vector&lt; Header &gt; &amp;input_headers, const vector&lt; Eigen::Transform&lt; default_type, 3, Eigen::Projective &gt;&gt; &amp;transform_header_with, int voxel_subsampling=1, <a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt; default_type, 4, 1 &gt; padding=<a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt; default_type, 4, 1 &gt;(1.0, 1.0, 1.0, 1.0))</td></tr>
+<tr class="separator:a2da826014b60c4f669f335735c6c9018"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fadd59ba502c089cdf4b64ef3f95c7d"><td class="memTemplParams" colspan="2">template&lt;class ImageType1 , class ImageType2 &gt; </td></tr>
+<tr class="memitem:a5fadd59ba502c089cdf4b64ef3f95c7d"><td class="memTemplItemLeft" align="right" valign="top">Header&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a5fadd59ba502c089cdf4b64ef3f95c7d">MR::compute_minimum_average_header</a> (const ImageType1 &amp;im1, const ImageType2 &amp;im2, Eigen::Transform&lt; default_type, 3, Eigen::Projective &gt; transform_1=Eigen::Transform&lt; default_type, 3, Eigen::Projective &gt;::Identity(), Eigen::Transform&lt; default_type, 3, Eigen::Projective &gt; transform_2=Eigen::Transform&lt; default_type, 3, Eigen::Projective &gt;::Identity(), <a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt; default_type, 4, 1 &gt; padding=<a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt; default_type, 4, 1 &gt;(1.0, 1.0, 1.0, 1.0), int voxel_subsampling=1)</td></tr>
+<tr class="separator:a5fadd59ba502c089cdf4b64ef3f95c7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -126,7 +126,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4270bfced15e0e73154b13468c7c9ad9.html">core</a></li><li class="navelem"><a class="el" href="dir_e07ac01d65d17e829451634057f91345.html">math</a></li><li class="navelem"><a class="el" href="average__space_8h.html">average_space.h</a></li>
-    <li class="footer">Generated on Mon Apr 13 2020 22:01:54 for MRtrix by
+    <li class="footer">Generated on Wed Apr 22 2020 19:06:14 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

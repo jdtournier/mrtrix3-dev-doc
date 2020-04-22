@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC3_latest-86-gcc3600ed</div>
+   <div id="projectbrief">Version 3.0_RC4-882-gb3b8647f</div>
   </td>
  </tr>
  </tbody>
@@ -88,7 +88,8 @@ $(document).ready(function(){initNavTree('gl_8h.html',''); initResizable(); });
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#define-members">Macros</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">gl.h File Reference</div>  </div>
 </div><!--header-->
@@ -106,7 +107,9 @@ $(document).ready(function(){initNavTree('gl_8h.html',''); initResizable(); });
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_g_u_i_1_1_g_l_1_1_area.html">MR::GUI::GL::Area</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_m_r_1_1_g_u_i_1_1_g_l_1_1_check_context.html">MR::GUI::GL::CheckContext</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_m_r_1_1_g_u_i_1_1_g_l_1_1_context_1_1_grab.html">MR::GUI::GL::Context::Grab</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_m_r_1_1_g_u_i_1_1_g_l_1_1_context_1_1_checker.html">MR::GUI::GL::Context::Checker</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_g_u_i_1_1_g_l_1_1_texture.html">MR::GUI::GL::Texture</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -126,6 +129,8 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespace_m_r_1_1_g_u_i"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_g_u_i.html">MR::GUI</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespace_m_r_1_1_g_u_i_1_1_g_l"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_g_u_i_1_1_g_l.html">MR::GUI::GL</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespace_m_r_1_1_g_u_i_1_1_g_l_1_1_context"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_g_u_i_1_1_g_l_1_1_context.html">MR::GUI::GL::Context</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
@@ -154,6 +159,23 @@ Functions</h2></td></tr>
 <tr class="separator:ac85e70d2ca57d79bc6f1e064cf46fa22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc6754dfc2cb09c95c8ae17014fffeec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_g_u_i_1_1_g_l.html#afc6754dfc2cb09c95c8ae17014fffeec">MR::GUI::GL::check_error</a> (const char *filename, int line)</td></tr>
 <tr class="separator:afc6754dfc2cb09c95c8ae17014fffeec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a638eb9d8bc9ea0e5aae40bcdb44cd838"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_g_u_i_1_1_g_l.html#a638eb9d8bc9ea0e5aae40bcdb44cd838">MR::GUI::GL::__assert_context_is_current</a> (QWidget *glarea)</td></tr>
+<tr class="separator:a638eb9d8bc9ea0e5aae40bcdb44cd838"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a693feafc768d8efc7724123f073ce400"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_g_u_i_1_1_g_l.html#a693feafc768d8efc7724123f073ce400">MR::GUI::GL::assert_context_is_current</a> (QWidget *glarea=nullptr)</td></tr>
+<tr class="separator:a693feafc768d8efc7724123f073ce400"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd98d153ab9a171ae2ccbfd974d2f1a8"><td class="memItemLeft" align="right" valign="top">std::pair&lt; int, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_g_u_i_1_1_g_l_1_1_context.html#acd98d153ab9a171ae2ccbfd974d2f1a8">MR::GUI::GL::Context::current</a> ()</td></tr>
+<tr class="separator:acd98d153ab9a171ae2ccbfd974d2f1a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a42792918dfdd79d9133b7392aada91"><td class="memItemLeft" align="right" valign="top">std::pair&lt; int, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_g_u_i_1_1_g_l_1_1_context.html#a9a42792918dfdd79d9133b7392aada91">MR::GUI::GL::Context::get</a> (QWidget *)</td></tr>
+<tr class="separator:a9a42792918dfdd79d9133b7392aada91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07b247e2b0e3526b99ca0a10726bbf40"><td class="memItemLeft" align="right" valign="top">std::pair&lt; int, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_g_u_i_1_1_g_l_1_1_context.html#a07b247e2b0e3526b99ca0a10726bbf40">MR::GUI::GL::Context::makeCurrent</a> (QWidget *)</td></tr>
+<tr class="separator:a07b247e2b0e3526b99ca0a10726bbf40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6421b1422198d0c7c0d65efb8bf365cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_g_u_i_1_1_g_l_1_1_context.html#a6421b1422198d0c7c0d65efb8bf365cb">MR::GUI::GL::Context::restore</a> (std::pair&lt; int, int &gt;)</td></tr>
+<tr class="separator:a6421b1422198d0c7c0d65efb8bf365cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a1b4b028b099669062175c7a8a814aa4e"><td class="memItemLeft" align="right" valign="top">Area *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_g_u_i_1_1_g_l.html#a1b4b028b099669062175c7a8a814aa4e">MR::GUI::GL::glwidget</a></td></tr>
+<tr class="separator:a1b4b028b099669062175c7a8a814aa4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a56aaa83bc346bbef34e231c43cb3b443"></a>
@@ -168,7 +190,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gl_8h_source.html#l00051">51</a> of file <a class="el" href="gl_8h_source.html">gl.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gl_8h_source.html#l00052">52</a> of file <a class="el" href="gl_8h_source.html">gl.h</a>.</p>
 
 </div>
 </div>
@@ -188,7 +210,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gl_8h_source.html#l00045">45</a> of file <a class="el" href="gl_8h_source.html">gl.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gl_8h_source.html#l00046">46</a> of file <a class="el" href="gl_8h_source.html">gl.h</a>.</p>
 
 </div>
 </div>
@@ -218,7 +240,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gl_8h_source.html#l00055">55</a> of file <a class="el" href="gl_8h_source.html">gl.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gl_8h_source.html#l00056">56</a> of file <a class="el" href="gl_8h_source.html">gl.h</a>.</p>
 
 </div>
 </div>
@@ -248,7 +270,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gl_8h_source.html#l00056">56</a> of file <a class="el" href="gl_8h_source.html">gl.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gl_8h_source.html#l00057">57</a> of file <a class="el" href="gl_8h_source.html">gl.h</a>.</p>
 
 </div>
 </div>
@@ -258,7 +280,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_99d0482cf009f9d97a0877749b817f19.html">gui</a></li><li class="navelem"><a class="el" href="dir_5c745fd05c845d9b8d647dd1dc577b4b.html">opengl</a></li><li class="navelem"><a class="el" href="gl_8h.html">gl.h</a></li>
-    <li class="footer">Generated on Mon Apr 13 2020 22:01:54 for MRtrix by
+    <li class="footer">Generated on Wed Apr 22 2020 19:06:14 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

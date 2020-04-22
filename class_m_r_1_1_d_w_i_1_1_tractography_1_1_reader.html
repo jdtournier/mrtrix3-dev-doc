@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC3_latest-86-gcc3600ed</div>
+   <div id="projectbrief">Version 3.0_RC4-882-gb3b8647f</div>
   </td>
  </tr>
  </tbody>
@@ -134,10 +134,8 @@ Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a913e5c779af7d35f9e584ae235240f79"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_reader.html#a913e5c779af7d35f9e584ae235240f79">current_index</a></td></tr>
-<tr class="separator:a913e5c779af7d35f9e584ae235240f79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ef581a36d491287ea221480de092751"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; std::ifstream &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_reader.html#a9ef581a36d491287ea221480de092751">weights_file</a></td></tr>
-<tr class="separator:a9ef581a36d491287ea221480de092751"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cbf6ed587dcb699e04237ac4bd21140"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt; ValueType, Eigen::Dynamic, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_reader.html#a4cbf6ed587dcb699e04237ac4bd21140">weights</a></td></tr>
+<tr class="separator:a4cbf6ed587dcb699e04237ac4bd21140"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;class ValueType = float&gt;<br />
@@ -145,7 +143,7 @@ class MR::DWI::Tractography::Reader&lt; ValueType &gt;</h3>
 
 <p>A class to read streamlines data. </p>
 
-<p class="definition">Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00068">68</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00062">62</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a791220e3cfa5d16a34dec1809909f914"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a791220e3cfa5d16a34dec1809909f914">&#9670;&nbsp;</a></span>Reader() <span class="overload">[1/2]</span></h2>
@@ -185,7 +183,7 @@ template&lt;class ValueType  = float&gt; </div>
 
 <p>open the <code>file</code> for reading and load header into <code>properties</code> </p>
 
-<p class="definition">Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00073">73</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00067">67</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
 
 </div>
 </div>
@@ -245,7 +243,7 @@ template&lt;class ValueType  = float&gt; </div>
 
 <p>Check that the weights file does not contain excess entries. </p>
 
-<p class="definition">Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00179">179</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00172">172</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
 
 </div>
 </div>
@@ -276,7 +274,7 @@ template&lt;class ValueType  = float&gt; </div>
 
 <p>takes care of byte ordering issues </p>
 
-<p class="definition">Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00143">143</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00136">136</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
 
 </div>
 </div>
@@ -308,13 +306,13 @@ template&lt;class ValueType  = float&gt; </div>
 
 <p>fetch next track from file </p>
 
-<p class="definition">Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00086">86</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00077">77</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a913e5c779af7d35f9e584ae235240f79"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a913e5c779af7d35f9e584ae235240f79">&#9670;&nbsp;</a></span>current_index</h2>
+<a id="a4cbf6ed587dcb699e04237ac4bd21140"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4cbf6ed587dcb699e04237ac4bd21140">&#9670;&nbsp;</a></span>weights</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -325,7 +323,7 @@ template&lt;class ValueType  = float&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint64_t <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_reader.html">MR::DWI::Tractography::Reader</a>&lt; ValueType &gt;::current_index</td>
+          <td class="memname"><a class="el" href="core_2eigen__plugins_2matrix_8h.html#a0dbfdb5c21751ef81e4f7d5173bf4705">Eigen::Matrix</a>&lt;ValueType, Eigen::Dynamic, 1&gt; <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_reader.html">MR::DWI::Tractography::Reader</a>&lt; ValueType &gt;::weights</td>
         </tr>
       </table>
   </td>
@@ -335,33 +333,7 @@ template&lt;class ValueType  = float&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00138">138</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
-
-</div>
-</div>
-<a id="a9ef581a36d491287ea221480de092751"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9ef581a36d491287ea221480de092751">&#9670;&nbsp;</a></span>weights_file</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class ValueType  = float&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::unique_ptr&lt;std::ifstream&gt; <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_reader.html">MR::DWI::Tractography::Reader</a>&lt; ValueType &gt;::weights_file</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00139">139</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00132">132</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
 
 </div>
 </div>
@@ -374,7 +346,7 @@ template&lt;class ValueType  = float&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_d_w_i.html">DWI</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography.html">Tractography</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_reader.html">Reader</a></li>
-    <li class="footer">Generated on Mon Apr 13 2020 22:01:55 for MRtrix by
+    <li class="footer">Generated on Wed Apr 22 2020 19:06:15 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

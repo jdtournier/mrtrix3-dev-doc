@@ -4,10 +4,7 @@ var dir_c3d45e16a24ca48b419ac9ef1787930e =
     [ "fact.h", "fact_8h.html", [
       [ "FACT", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_f_a_c_t.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_f_a_c_t" ]
     ] ],
-    [ "iFOD1.h", "i_f_o_d1_8h.html", [
-      [ "iFOD1", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1" ],
-      [ "Calibrate", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1i_f_o_d1_1_1_calibrate.html", null ]
-    ] ],
+    [ "iFOD1.h", "i_f_o_d1_8h.html", "i_f_o_d1_8h" ],
     [ "iFOD2.h", "i_f_o_d2_8h.html", "i_f_o_d2_8h" ],
     [ "nulldist.h", "nulldist_8h.html", [
       [ "NullDist1", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_null_dist1.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_null_dist1" ],

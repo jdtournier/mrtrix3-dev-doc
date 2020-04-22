@@ -2,15 +2,16 @@ var class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_fixel =
 [
     [ "add_images", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_fixel.html#a7bd5c0c56e4842bc862fcb62d9e18b9a", null ],
     [ "dropEvent", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_fixel.html#ab012ccd0f90e7d8c43468c5131d4ebee", null ],
+    [ "bidirectional", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_fixel.html#a17f774034538225eef6ce0528b9ae469", null ],
     [ "colour_combobox", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_fixel.html#a3eed0e08bea2a0756b017bab2053a619", null ],
     [ "colourmap_button", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_fixel.html#af5bbeedd03a26509709b1ba6cc39a907", null ],
     [ "colourmap_option_group", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_fixel.html#a091e64e787e376c855b31db3584887a0", null ],
-    [ "crop_to_slice", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_fixel.html#a1118ea4370ed825d60e5ba12cd95abca", null ],
+    [ "crop_to_slice", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_fixel.html#a2890e8fd6da8667799647cfb0aa09941", null ],
     [ "invert_scale", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_fixel.html#ab49895802e8212752036882bb829de64", null ],
     [ "length_combobox", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_fixel.html#a10cb9e143eb63aecaba8fd1e0ee3f41e", null ],
     [ "length_multiplier", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_fixel.html#aef45a4bb3b48b033274fa5aaf649436f", null ],
     [ "line_thickness_slider", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_fixel.html#a20f50eeb41fdc2e4e222d89d6d54d046", null ],
-    [ "lock_to_grid", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_fixel.html#ad17dba19be0427941f48d327a64f026d", null ],
+    [ "lock_to_grid", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_fixel.html#a0a1ee49f98d8540a13d2d926de0df0f1", null ],
     [ "max_value", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_fixel.html#a66931d27c4798809ab8acfde4668d60e", null ],
     [ "min_value", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_fixel.html#abdc60f33e3872b3b3cff3289ee03be51", null ],
     [ "opacity_slider", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_fixel.html#a867685cc055231c43994ab04f1d20c6f", null ],
@@ -19,5 +20,6 @@ var class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_fixel =
     [ "threshold_lower", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_fixel.html#a05ecaf52fd4c7e31dd2c7ab537926f4b", null ],
     [ "threshold_lower_box", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_fixel.html#aa215d0b1161e3b134ca791ec2aa08465", null ],
     [ "threshold_upper", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_fixel.html#a90a3e7f8edbbc78ac859bc8c16ded4dc", null ],
-    [ "threshold_upper_box", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_fixel.html#a132a4fc1d55fa53e42891d3831b18332", null ]
+    [ "threshold_upper_box", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_fixel.html#a132a4fc1d55fa53e42891d3831b18332", null ],
+    [ "track_main_volume", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_fixel.html#ae730dfe032aa6f54d010c4ecd9e42d62", null ]
 ];

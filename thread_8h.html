@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC3_latest-86-gcc3600ed</div>
+   <div id="projectbrief">Version 3.0_RC4-882-gb3b8647f</div>
   </td>
  </tr>
  </tbody>
@@ -127,10 +127,12 @@ Functions</h2></td></tr>
 <tr class="separator:ga86984fa489ba954903690da0836a4f08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga635dcd8aac0bb5ea995a3dbf42423a10"><td class="memItemLeft" align="right" valign="top">nthreads_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__thread__basics.html#ga635dcd8aac0bb5ea995a3dbf42423a10">MR::Thread::type_nthreads</a> ()</td></tr>
 <tr class="separator:ga635dcd8aac0bb5ea995a3dbf42423a10"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf01d13fdb672f4a8c8727a7a70760cea"><td class="memTemplParams" colspan="2">template&lt;class Functor &gt; </td></tr>
-<tr class="memitem:gaf01d13fdb672f4a8c8727a7a70760cea"><td class="memTemplItemLeft" align="right" valign="top">__Multi&lt; typename std::remove_reference&lt; Functor &gt;::type &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__thread__basics.html#gaf01d13fdb672f4a8c8727a7a70760cea">MR::Thread::multi</a> (Functor &amp;&amp;<a class="el" href="thread_8h.html#aece92f5ed23ab311f706fc6069e61689">functor</a>, size_t nthreads=number_of_threads())</td></tr>
-<tr class="memdesc:gaf01d13fdb672f4a8c8727a7a70760cea"><td class="mdescLeft">&#160;</td><td class="mdescRight">used to request multiple threads of the corresponding functor  <a href="group__thread__basics.html#gaf01d13fdb672f4a8c8727a7a70760cea">More...</a><br /></td></tr>
-<tr class="separator:gaf01d13fdb672f4a8c8727a7a70760cea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga48ca3b9de4d762dfc3697e2f7d78b8d6"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__thread__basics.html#ga48ca3b9de4d762dfc3697e2f7d78b8d6">MR::Thread::threads_to_execute</a> ()</td></tr>
+<tr class="separator:ga48ca3b9de4d762dfc3697e2f7d78b8d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad614f2a6b5c31020d13e5ac510f2b315"><td class="memTemplParams" colspan="2">template&lt;class Functor &gt; </td></tr>
+<tr class="memitem:gad614f2a6b5c31020d13e5ac510f2b315"><td class="memTemplItemLeft" align="right" valign="top">__Multi&lt; typename std::remove_reference&lt; Functor &gt;::type &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__thread__basics.html#gad614f2a6b5c31020d13e5ac510f2b315">MR::Thread::multi</a> (Functor &amp;&amp;<a class="el" href="thread_8h.html#aece92f5ed23ab311f706fc6069e61689">functor</a>, size_t nthreads=threads_to_execute())</td></tr>
+<tr class="memdesc:gad614f2a6b5c31020d13e5ac510f2b315"><td class="mdescLeft">&#160;</td><td class="mdescRight">used to request multiple threads of the corresponding functor  <a href="group__thread__basics.html#gad614f2a6b5c31020d13e5ac510f2b315">More...</a><br /></td></tr>
+<tr class="separator:gad614f2a6b5c31020d13e5ac510f2b315"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaab961106219ef4fa4076d24edb123b48"><td class="memTemplParams" colspan="2">template&lt;class Functor &gt; </td></tr>
 <tr class="memitem:gaab961106219ef4fa4076d24edb123b48"><td class="memTemplItemLeft" align="right" valign="top">__run&lt; Functor &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__thread__basics.html#gaab961106219ef4fa4076d24edb123b48">MR::Thread::run</a> (Functor &amp;&amp;<a class="el" href="thread_8h.html#aece92f5ed23ab311f706fc6069e61689">functor</a>, const std::string &amp;<a class="el" href="thread_8h.html#ac673bc430bdc3fdaa09f7becf98ef267">name</a>=&quot;unnamed&quot;)</td></tr>
 <tr class="memdesc:gaab961106219ef4fa4076d24edb123b48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Execute the functor's execute method in a separate thread.  <a href="group__thread__basics.html#gaab961106219ef4fa4076d24edb123b48">More...</a><br /></td></tr>
@@ -149,7 +151,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="thread_8h_source.html#l00200">200</a> of file <a class="el" href="thread_8h_source.html">thread.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="thread_8h_source.html#l00215">215</a> of file <a class="el" href="thread_8h_source.html">thread.h</a>.</p>
 
 </div>
 </div>
@@ -173,7 +175,7 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="thread_8h_source.html#l00187">187</a> of file <a class="el" href="thread_8h_source.html">thread.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="thread_8h_source.html#l00202">202</a> of file <a class="el" href="thread_8h_source.html">thread.h</a>.</p>
 
 </div>
 </div>
@@ -197,7 +199,7 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="thread_8h_source.html#l00105">105</a> of file <a class="el" href="thread_8h_source.html">thread.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="thread_8h_source.html#l00108">108</a> of file <a class="el" href="thread_8h_source.html">thread.h</a>.</p>
 
 </div>
 </div>
@@ -213,7 +215,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="thread_8h_source.html#l00201">201</a> of file <a class="el" href="thread_8h_source.html">thread.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="thread_8h_source.html#l00216">216</a> of file <a class="el" href="thread_8h_source.html">thread.h</a>.</p>
 
 </div>
 </div>
@@ -237,7 +239,7 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="thread_8h_source.html#l00135">135</a> of file <a class="el" href="thread_8h_source.html">thread.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="thread_8h_source.html#l00143">143</a> of file <a class="el" href="thread_8h_source.html">thread.h</a>.</p>
 
 </div>
 </div>
@@ -261,7 +263,7 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="thread_8h_source.html#l00186">186</a> of file <a class="el" href="thread_8h_source.html">thread.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="thread_8h_source.html#l00201">201</a> of file <a class="el" href="thread_8h_source.html">thread.h</a>.</p>
 
 </div>
 </div>
@@ -271,7 +273,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4270bfced15e0e73154b13468c7c9ad9.html">core</a></li><li class="navelem"><a class="el" href="thread_8h.html">thread.h</a></li>
-    <li class="footer">Generated on Mon Apr 13 2020 22:01:54 for MRtrix by
+    <li class="footer">Generated on Wed Apr 22 2020 19:06:14 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

@@ -10,6 +10,7 @@ var mrtrix_8h =
     [ "join", "mrtrix_8h.html#a506fc895e0a464c01cb1b41f52a60b6e", null ],
     [ "join", "mrtrix_8h.html#a8607b8b09505f9a758b752358cd7930d", null ],
     [ "lowercase", "mrtrix_8h.html#a9a772e12ea826bd1f7e871aaee86e736", null ],
+    [ "match", "mrtrix_8h.html#a6819d5032fcbb470b911e336d061287a", null ],
     [ "parse_floats", "mrtrix_8h.html#ac33220cbc8e5d211f07d3375053765e4", null ],
     [ "parse_ints", "mrtrix_8h.html#a9081adc1216301dfd5fb42322103737a", null ],
     [ "printf", "mrtrix_8h.html#abdf39e7ac1a9bf50af2a20eb69b0bb89", null ],
@@ -21,10 +22,11 @@ var mrtrix_8h =
     [ "str", "mrtrix_8h.html#a7dcea37fdb5fba1961d121fca36c22c4", null ],
     [ "str< cdouble >", "mrtrix_8h.html#a7bcdfb769116c6c2473aaec6d14cc188", null ],
     [ "str< cfloat >", "mrtrix_8h.html#abf7a9d5cf0c28b1ada565992ec749917", null ],
-    [ "strip", "mrtrix_8h.html#a77b69a9b66bee6feb8d54aa29836f0ac", null ],
+    [ "strip", "mrtrix_8h.html#a681de423680268551aa143bb728879f6", null ],
     [ "to", "mrtrix_8h.html#ad5a737bfbb3fcb51accf1a329da6fb7c", null ],
     [ "to< bool >", "mrtrix_8h.html#a7a3f228024f9079f1cfbb57f5588f294", null ],
     [ "to< cdouble >", "mrtrix_8h.html#a3110479a6319030fd248dfcc3b277da6", null ],
     [ "to< cfloat >", "mrtrix_8h.html#a68611edfac7f1f97a928906edc376f70", null ],
+    [ "unquote", "mrtrix_8h.html#a60ae1c79a00f8cb0bf8ab4ede354c045", null ],
     [ "uppercase", "mrtrix_8h.html#a65cb760c27508e37872dc2705bb5aa3e", null ]
 ];

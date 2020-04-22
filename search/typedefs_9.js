@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['point_5ft_7328',['Point_t',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t.html#a9bb65262d80c12459def723732318f31',1,'MR::DWI::Tractography::GT']]],
-  ['point_5ftype_7329',['point_type',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_resampling.html#a8a227607cf0d263b3d0a29da0f459647',1,'MR::DWI::Tractography::Resampling']]]
+  ['odf_5ftype_5ft_7836',['odf_type_t',['../namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool.html#a2d3404fd223b7af1a48a188251be9eb9',1,'MR::GUI::MRView::Tool']]],
+  ['out_5fcolumn_5ftype_7837',['out_column_type',['../class_m_r_1_1_stats_1_1_enhancer_base.html#abcf47219aaf9521455b83ea07747df43',1,'MR::Stats::EnhancerBase']]]
 ];

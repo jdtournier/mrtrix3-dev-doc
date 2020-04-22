@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC3_latest-86-gcc3600ed</div>
+   <div id="projectbrief">Version 3.0_RC4-882-gb3b8647f</div>
   </td>
  </tr>
  </tbody>
@@ -124,6 +124,7 @@ $(document).ready(function(){initNavTree('functions_vars_p.html',''); initResiza
 </li>
 <li>params
 : <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_evaluate.html#a48cf332234c1522dd9aac4976a5050a7">MR::Registration::Metric::Evaluate&lt; MetricType, ParamType &gt;</a>
+, <a class="el" href="struct_m_r_1_1_registration_1_1_metric_1_1_stochastic_thread_kernel.html#a4d61582ff5e6a0ad86d991a87ee75a78">MR::Registration::Metric::StochasticThreadKernel&lt; MetricType, ParamType &gt;</a>
 , <a class="el" href="class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel.html#a4310d5787541212a35bbec6531002b45">MR::Registration::Metric::ThreadKernel&lt; MetricType, ParamType &gt;</a>
 </li>
 <li>parent
@@ -135,6 +136,12 @@ $(document).ready(function(){initNavTree('functions_vars_p.html',''); initResiza
 <li>parents
 : <a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_element.html#a34cfedef7d808901036822ad119685ad">MR::File::Dicom::Element</a>
 </li>
+<li>partitions
+: <a class="el" href="group___statistics.html#gae688e6e60c37dbb07450be55211f95cd">MR::Math::Stats::GLM::TestFixedHomoscedastic</a>
+</li>
+<li>path
+: <a class="el" href="class_m_r_1_1_math_1_1_stats_1_1_subject_data_import_base.html#a43b1d85450974e0936687aaa6aa20288">MR::Math::Stats::SubjectDataImportBase</a>
+</li>
 <li>patient
 : <a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_quick_scan.html#a2abd8f07249255b70be3f6ba30a3fb66">MR::File::Dicom::QuickScan</a>
 , <a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_study.html#ad861fc85b08c0ddd1e5c60ee6b6d6282">MR::File::Dicom::Study</a>
@@ -145,12 +152,6 @@ $(document).ready(function(){initNavTree('functions_vars_p.html',''); initResiza
 <li>patient_ID
 : <a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_quick_scan.html#a8a7c7b0606f6ac0291b18f437cb1a1d9">MR::File::Dicom::QuickScan</a>
 </li>
-<li>perm_dist_neg
-: <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#a7f31cb3cf0a676b6231d6731ea5b35bb">MR::Stats::PermTest::Processor&lt; StatsType &gt;</a>
-</li>
-<li>perm_dist_pos
-: <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#ada5b1ccf9de895b0665af23913406425">MR::Stats::PermTest::Processor&lt; StatsType &gt;</a>
-</li>
 <li>permutations
 : <a class="el" href="class_m_r_1_1_stats_1_1_perm_test_1_1_permutation_stack.html#acff498daaff36db16c7273948e8b4a2c">MR::Stats::PermTest::PermutationStack</a>
 </li>
@@ -158,8 +159,8 @@ $(document).ready(function(){initNavTree('functions_vars_p.html',''); initResiza
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_internal_energy_computer.html#ab350592f00146e8e34937706b618c999">MR::DWI::Tractography::GT::InternalEnergyComputer</a>
 , <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_m_h_sampler.html#a723da609e16ba228704a2efef6bff6f4">MR::DWI::Tractography::GT::MHSampler</a>
 </li>
-<li>pinvX
-: <a class="el" href="class_m_r_1_1_math_1_1_stats_1_1_g_l_m_t_test.html#a0e02ec57cc79e60c5bc175a41179ad80">MR::Math::Stats::GLMTTest</a>
+<li>pinvM
+: <a class="el" href="group___statistics.html#ga983c0353ae054737a0490d5db8169d7f">MR::Math::Stats::GLM::TestFixedHomoscedastic</a>
 </li>
 <li>pix
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_render_frame.html#a78dcc3717618bfb7fafe5106cbe2d73a">MR::GUI::DWI::RenderFrame</a>
@@ -210,7 +211,10 @@ $(document).ready(function(){initNavTree('functions_vars_p.html',''); initResiza
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#a09f97061f9faa741a63241f34e34726b">MR::GUI::MRView::Tool::ODF</a>
 </li>
 <li>previous_context
-: <a class="el" href="struct_m_r_1_1_g_u_i_1_1_context_1_1_grab.html#a6358f266c58caedeeb31d281a371f73f">MR::GUI::Context::Grab</a>
+: <a class="el" href="struct_m_r_1_1_g_u_i_1_1_g_l_1_1_context_1_1_grab.html#afa04d58f85ebcc7a64da6828f50302e4">MR::GUI::GL::Context::Grab</a>
+</li>
+<li>previous_display_func
+: <a class="el" href="class_m_r_1_1_progress_bar.html#a9013682940d07c83b0d235a3aa60330f">MR::ProgressBar</a>
 </li>
 <li>previous_print_func
 : <a class="el" href="class_m_r_1_1_thread_1_1_____backend.html#ac869b161bc806567b3f3444af8354f14">MR::Thread::__Backend</a>
@@ -230,7 +234,7 @@ $(document).ready(function(){initNavTree('functions_vars_p.html',''); initResiza
 <li>program
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_crosshair.html#a8840b609cd2fc55822b7bed690ebcc2c">MR::GUI::Crosshair</a>
 , <a class="el" href="class_m_r_1_1_g_u_i_1_1_g_l_1_1_font.html#aa2374a6ff4b40a10df65c6e451fe8612">MR::GUI::GL::Font</a>
-, <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_renderer.html#a8c16aca6ea154405ebfc2842413b34f5">MR::GUI::MRView::ColourMap::Renderer</a>
+, <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_bars.html#a55f6a49e87055622ad6eda804abd0e55">MR::GUI::MRView::ColourBars</a>
 </li>
 <li>progress
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_stats.html#afd69ba7c7469315c60718dd3ceb1dab8">MR::DWI::Tractography::GT::Stats</a>
@@ -257,7 +261,7 @@ $(document).ready(function(){initNavTree('functions_vars_p.html',''); initResiza
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Apr 13 2020 22:01:56 for MRtrix by
+    <li class="footer">Generated on Wed Apr 22 2020 19:06:17 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC3_latest-86-gcc3600ed</div>
+   <div id="projectbrief">Version 3.0_RC4-882-gb3b8647f</div>
   </td>
  </tr>
  </tbody>
@@ -95,6 +95,7 @@ $(document).ready(function(){initNavTree('app_8h.html',''); initResizable(); });
 <div class="textblock"><code>#include &lt;cstring&gt;</code><br />
 <code>#include &lt;limits&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
+<code>#include &lt;thread&gt;</code><br />
 <code>#include &quot;<a class="el" href="cmdline__option_8h_source.html">cmdline_option.h</a>&quot;</code><br />
 <code>#include &quot;types.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="path_8h_source.html">file/path.h</a>&quot;</code><br />
@@ -105,6 +106,12 @@ $(document).ready(function(){initNavTree('app_8h.html',''); initResizable(); });
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_app_1_1_description.html">MR::App::Description</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">vector of strings to hold more comprehensive command description  <a href="class_m_r_1_1_app_1_1_description.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_app_1_1_example.html">MR::App::Example</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">object for storing a single example command usage  <a href="class_m_r_1_1_app_1_1_example.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_app_1_1_example_list.html">MR::App::ExampleList</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">a class to hold the list of <a class="el" href="class_m_r_1_1_app_1_1_example.html" title="object for storing a single example command usage">Example</a>'s  <a href="class_m_r_1_1_app_1_1_example_list.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_app_1_1_argument_list.html">MR::App::ArgumentList</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">a class to hold the list of <a class="el" href="class_m_r_1_1_app_1_1_argument.html" title="A class to specify a command-line argument.">Argument</a>'s  <a href="class_m_r_1_1_app_1_1_argument_list.html#details">More...</a><br /></td></tr>
@@ -189,6 +196,8 @@ Variables</h2></td></tr>
 <tr class="separator:a838f52a975d7498c1798f645859bbb25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6a0d42e4a8aa8335837c2fa53a448ab"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_app.html#ac6a0d42e4a8aa8335837c2fa53a448ab">MR::App::NAME</a></td></tr>
 <tr class="separator:ac6a0d42e4a8aa8335837c2fa53a448ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafcf6d517b40d09d2fc23b7018aa415a"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_app.html#aafcf6d517b40d09d2fc23b7018aa415a">MR::App::command_history_string</a></td></tr>
+<tr class="separator:aafcf6d517b40d09d2fc23b7018aa415a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adcb9d0edb4ae63d08f3a121b87ef5d7b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_app.html#adcb9d0edb4ae63d08f3a121b87ef5d7b">MR::App::overwrite_files</a></td></tr>
 <tr class="separator:adcb9d0edb4ae63d08f3a121b87ef5d7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa87eb63cffd5e40c2e76aa4da4f56772"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_app.html#aa87eb63cffd5e40c2e76aa4da4f56772">MR::App::check_overwrite_files_func</a> )(const std::string &amp;<a class="el" href="thread_8h.html#ac673bc430bdc3fdaa09f7becf98ef267">name</a>)</td></tr>
@@ -197,6 +206,8 @@ Variables</h2></td></tr>
 <tr class="separator:a35f7963fc6de4ef46c7b22a2b419fc05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9b67843776675eccf8f47392d17c155"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_app.html#ad9b67843776675eccf8f47392d17c155">MR::App::terminal_use_colour</a></td></tr>
 <tr class="separator:ad9b67843776675eccf8f47392d17c155"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab663f38baa2c64a86e88e72f18fb8696"><td class="memItemLeft" align="right" valign="top">const std::thread::id&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_app.html#ab663f38baa2c64a86e88e72f18fb8696">MR::App::main_thread_ID</a></td></tr>
+<tr class="separator:ab663f38baa2c64a86e88e72f18fb8696"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a720565b90cbeea3c197ad5fb19dd1e46"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_app.html#a720565b90cbeea3c197ad5fb19dd1e46">MR::App::argc</a></td></tr>
 <tr class="separator:a720565b90cbeea3c197ad5fb19dd1e46"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36656026fc9f2697f2706a50dbf9a957"><td class="memItemLeft" align="right" valign="top">const char *const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_app.html#a36656026fc9f2697f2706a50dbf9a957">MR::App::argv</a></td></tr>
@@ -214,6 +225,9 @@ Variables</h2></td></tr>
 <tr class="memitem:a90b52f988a728c86e793f645d3a4ef3a"><td class="memItemLeft" align="right" valign="top">Description&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_app.html#a90b52f988a728c86e793f645d3a4ef3a">MR::App::DESCRIPTION</a></td></tr>
 <tr class="memdesc:a90b52f988a728c86e793f645d3a4ef3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">additional description of the command over and above the synopsis  <a href="namespace_m_r_1_1_app.html#a90b52f988a728c86e793f645d3a4ef3a">More...</a><br /></td></tr>
 <tr class="separator:a90b52f988a728c86e793f645d3a4ef3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a5edf89299e3bd92815d9da4af3b43a"><td class="memItemLeft" align="right" valign="top">ExampleList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_app.html#a3a5edf89299e3bd92815d9da4af3b43a">MR::App::EXAMPLES</a></td></tr>
+<tr class="memdesc:a3a5edf89299e3bd92815d9da4af3b43a"><td class="mdescLeft">&#160;</td><td class="mdescRight">example usages of the command  <a href="namespace_m_r_1_1_app.html#a3a5edf89299e3bd92815d9da4af3b43a">More...</a><br /></td></tr>
+<tr class="separator:a3a5edf89299e3bd92815d9da4af3b43a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aebb09da9ab1a53e73b575b2e52b4dbc0"><td class="memItemLeft" align="right" valign="top">ArgumentList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_app.html#aebb09da9ab1a53e73b575b2e52b4dbc0">MR::App::ARGUMENTS</a></td></tr>
 <tr class="memdesc:aebb09da9ab1a53e73b575b2e52b4dbc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">the arguments expected by the command  <a href="namespace_m_r_1_1_app.html#aebb09da9ab1a53e73b575b2e52b4dbc0">More...</a><br /></td></tr>
 <tr class="separator:aebb09da9ab1a53e73b575b2e52b4dbc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -280,7 +294,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4270bfced15e0e73154b13468c7c9ad9.html">core</a></li><li class="navelem"><a class="el" href="app_8h.html">app.h</a></li>
-    <li class="footer">Generated on Mon Apr 13 2020 22:01:54 for MRtrix by
+    <li class="footer">Generated on Wed Apr 22 2020 19:06:14 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

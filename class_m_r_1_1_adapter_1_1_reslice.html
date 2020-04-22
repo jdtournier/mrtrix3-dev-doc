@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC3_latest-86-gcc3600ed</div>
+   <div id="projectbrief">Version 3.0_RC4-882-gb3b8647f</div>
   </td>
  </tr>
  </tbody>
@@ -120,20 +120,20 @@ class MR::Adapter::Reslice&lt; Interpolator, ImageType &gt;</h3>
 <p>To deal with possible aliasing due to sparse sampling of a high-resolution image, the <a class="el" href="class_m_r_1_1_adapter_1_1_reslice.html" title="an Image providing interpolated values from another Image">Reslice</a> object may perform over-sampling, whereby multiple samples are taken at regular sub-voxel intervals and averaged. By default, oversampling will be performed along those axes where it is deemed necessary. This can be over-ridden using the <em>oversampling</em> parameter, which should contain one (integer) over-sampling factor for each of the 3 imaging axes. Specifying the vector [ 1 1 1 ] will therefore disable over-sampling.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="namespace_m_r_1_1_filter.html#aabd75ac4ad1d40a7969a505b1c14e958" title="convenience function to regrid one Image onto another">Interp::reslice()</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="adapter_2reslice_8h_source.html#l00108">108</a> of file <a class="el" href="adapter_2reslice_8h_source.html">reslice.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="adapter_2reslice_8h_source.html#l00109">109</a> of file <a class="el" href="adapter_2reslice_8h_source.html">reslice.h</a>.</p>
 </div><hr/>The documentation for this class was generated from the following file:<ul>
 <li>core/adapter/<a class="el" href="adapter_2reslice_8h_source.html">reslice.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="aclass_m_r_1_1_image_html_aab488a42d712e19da34e089333c14c15"><div class="ttname"><a href="class_m_r_1_1_image.html#aab488a42d712e19da34e089333c14c15">MR::Image::open</a></div><div class="ttdeci">static Image open(const std::string &amp;image_name, bool read_write_if_existing=false)</div><div class="ttdef"><b>Definition:</b> <a href="image_8h_source.html#l00188">image.h:188</a></div></div>
+<div class="ttc" id="aclass_m_r_1_1_image_html_aab488a42d712e19da34e089333c14c15"><div class="ttname"><a href="class_m_r_1_1_image.html#aab488a42d712e19da34e089333c14c15">MR::Image::open</a></div><div class="ttdeci">static Image open(const std::string &amp;image_name, bool read_write_if_existing=false)</div><div class="ttdef"><b>Definition:</b> <a href="image_8h_source.html#l00189">image.h:189</a></div></div>
 <div class="ttc" id="anamespace_m_r_1_1_app_html_a47e73afc38d3e364e0aab23e78e467f9"><div class="ttname"><a href="namespace_m_r_1_1_app.html#a47e73afc38d3e364e0aab23e78e467f9">MR::App::argument</a></div><div class="ttdeci">vector&lt; ParsedArgument &gt; argument</div><div class="ttdoc">the list of arguments parsed from the command-line</div></div>
-<div class="ttc" id="anamespace_m_r_html_ab40acd6056af28c4a36450a0ebe8b916"><div class="ttname"><a href="namespace_m_r.html#ab40acd6056af28c4a36450a0ebe8b916">MR::copy</a></div><div class="ttdeci">void copy(InputImageType &amp;&amp;source, OutputImageType &amp;&amp;destination, size_t from_axis=0, size_t to_axis=std::numeric_limits&lt; size_t &gt;::max())</div><div class="ttdef"><b>Definition:</b> <a href="algo_2copy_8h_source.html#l00026">copy.h:26</a></div></div>
+<div class="ttc" id="anamespace_m_r_html_ab40acd6056af28c4a36450a0ebe8b916"><div class="ttname"><a href="namespace_m_r.html#ab40acd6056af28c4a36450a0ebe8b916">MR::copy</a></div><div class="ttdeci">void copy(InputImageType &amp;&amp;source, OutputImageType &amp;&amp;destination, size_t from_axis=0, size_t to_axis=std::numeric_limits&lt; size_t &gt;::max())</div><div class="ttdef"><b>Definition:</b> <a href="algo_2copy_8h_source.html#l00027">copy.h:27</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_adapter.html">Adapter</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_adapter_1_1_reslice.html">Reslice</a></li>
-    <li class="footer">Generated on Mon Apr 13 2020 22:01:55 for MRtrix by
+    <li class="footer">Generated on Wed Apr 22 2020 19:06:15 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['linearinterpprocessingtype_7365',['LinearInterpProcessingType',['../namespace_m_r_1_1_interp.html#ad719d13abf54b60c8ae7adca3c7d7931',1,'MR::Interp']]],
-  ['linearmetrictype_7366',['LinearMetricType',['../namespace_m_r_1_1_registration.html#a2128b8d3c4c2bd10f9a40be6b8fe0bc5',1,'MR::Registration']]],
-  ['linearrobustmetricestimatortype_7367',['LinearRobustMetricEstimatorType',['../namespace_m_r_1_1_registration.html#acee95fcf4386a73a2764b491c5cf06a4',1,'MR::Registration']]]
+  ['fixelcolourtype_7874',['FixelColourType',['../namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool.html#a22348cc42517686fa6f064cc14af1f80',1,'MR::GUI::MRView::Tool']]],
+  ['fixelscaletype_7875',['FixelScaleType',['../namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool.html#a4bcbf30ba13504149d113663afc3f976',1,'MR::GUI::MRView::Tool']]]
 ];

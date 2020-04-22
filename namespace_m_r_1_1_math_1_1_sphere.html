@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC3_latest-86-gcc3600ed</div>
+   <div id="projectbrief">Version 3.0_RC4-882-gb3b8647f</div>
   </td>
  </tr>
  </tbody>
@@ -116,6 +116,10 @@ Functions</h2></td></tr>
 <tr class="memitem:a4222698cb29132c5379d48e79ad68544"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if&lt;!MatrixType::IsVectorAtCompileTime, Eigen::MatrixXd &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_math_1_1_sphere.html#a4222698cb29132c5379d48e79ad68544">cartesian2spherical</a> (const MatrixType &amp;cartesian, bool include_r=false)</td></tr>
 <tr class="memdesc:a4222698cb29132c5379d48e79ad68544"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert matrix of Cartesian coordinates to spherical coordinates  <a href="namespace_m_r_1_1_math_1_1_sphere.html#a4222698cb29132c5379d48e79ad68544">More...</a><br /></td></tr>
 <tr class="separator:a4222698cb29132c5379d48e79ad68544"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad755d032ae6368d50f7b37f47e14bcd5"><td class="memTemplParams" colspan="2">template&lt;class MatrixType &gt; </td></tr>
+<tr class="memitem:ad755d032ae6368d50f7b37f47e14bcd5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_math_1_1_sphere.html#ad755d032ae6368d50f7b37f47e14bcd5">normalise_cartesian</a> (MatrixType &amp;cartesian)</td></tr>
+<tr class="memdesc:ad755d032ae6368d50f7b37f47e14bcd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">normalise a set of Cartesian coordinates  <a href="namespace_m_r_1_1_math_1_1_sphere.html#ad755d032ae6368d50f7b37f47e14bcd5">More...</a><br /></td></tr>
+<tr class="separator:ad755d032ae6368d50f7b37f47e14bcd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a4222698cb29132c5379d48e79ad68544"></a>
@@ -156,7 +160,7 @@ template&lt;class MatrixType &gt; </div>
 
 <p>convert matrix of Cartesian coordinates to spherical coordinates </p>
 
-<p class="definition">Definition at line <a class="el" href="core_2math_2sphere_8h_source.html#l00108">108</a> of file <a class="el" href="core_2math_2sphere_8h_source.html">sphere.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="core_2math_2sphere_8h_source.html#l00109">109</a> of file <a class="el" href="core_2math_2sphere_8h_source.html">sphere.h</a>.</p>
 
 </div>
 </div>
@@ -204,7 +208,7 @@ template&lt;class MatrixType1 , class MatrixType2 &gt; </div>
 
 <p>convert matrix of Cartesian coordinates to spherical coordinates </p>
 
-<p class="definition">Definition at line <a class="el" href="core_2math_2sphere_8h_source.html#l00096">96</a> of file <a class="el" href="core_2math_2sphere_8h_source.html">sphere.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="core_2math_2sphere_8h_source.html#l00097">97</a> of file <a class="el" href="core_2math_2sphere_8h_source.html">sphere.h</a>.</p>
 
 </div>
 </div>
@@ -246,7 +250,39 @@ template&lt;class VectorType1 , class VectorType2 &gt; </div>
 
 <p>convert Cartesian coordinates to spherical coordinates </p>
 
-<p class="definition">Definition at line <a class="el" href="core_2math_2sphere_8h_source.html#l00082">82</a> of file <a class="el" href="core_2math_2sphere_8h_source.html">sphere.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="core_2math_2sphere_8h_source.html#l00083">83</a> of file <a class="el" href="core_2math_2sphere_8h_source.html">sphere.h</a>.</p>
+
+</div>
+</div>
+<a id="ad755d032ae6368d50f7b37f47e14bcd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad755d032ae6368d50f7b37f47e14bcd5">&#9670;&nbsp;</a></span>normalise_cartesian()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class MatrixType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::Math::Sphere::normalise_cartesian </td>
+          <td>(</td>
+          <td class="paramtype">MatrixType &amp;&#160;</td>
+          <td class="paramname"><em>cartesian</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>normalise a set of Cartesian coordinates </p>
+
+<p class="definition">Definition at line <a class="el" href="core_2math_2sphere_8h_source.html#l00121">121</a> of file <a class="el" href="core_2math_2sphere_8h_source.html">sphere.h</a>.</p>
 
 </div>
 </div>
@@ -278,7 +314,7 @@ template&lt;class MatrixType &gt; </div>
 
 <p>convert matrix of spherical coordinates to Cartesian coordinates </p>
 
-<p class="definition">Definition at line <a class="el" href="core_2math_2sphere_8h_source.html#l00069">69</a> of file <a class="el" href="core_2math_2sphere_8h_source.html">sphere.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="core_2math_2sphere_8h_source.html#l00070">70</a> of file <a class="el" href="core_2math_2sphere_8h_source.html">sphere.h</a>.</p>
 
 </div>
 </div>
@@ -320,7 +356,7 @@ template&lt;class MatrixType1 , class MatrixType2 &gt; </div>
 
 <p>convert matrix of spherical coordinates to Cartesian coordinates </p>
 
-<p class="definition">Definition at line <a class="el" href="core_2math_2sphere_8h_source.html#l00057">57</a> of file <a class="el" href="core_2math_2sphere_8h_source.html">sphere.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="core_2math_2sphere_8h_source.html#l00058">58</a> of file <a class="el" href="core_2math_2sphere_8h_source.html">sphere.h</a>.</p>
 
 </div>
 </div>
@@ -362,7 +398,7 @@ template&lt;class VectorType1 , class VectorType2 &gt; </div>
 
 <p>convert spherical coordinates to Cartesian coordinates </p>
 
-<p class="definition">Definition at line <a class="el" href="core_2math_2sphere_8h_source.html#l00039">39</a> of file <a class="el" href="core_2math_2sphere_8h_source.html">sphere.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="core_2math_2sphere_8h_source.html#l00040">40</a> of file <a class="el" href="core_2math_2sphere_8h_source.html">sphere.h</a>.</p>
 
 </div>
 </div>
@@ -372,7 +408,7 @@ template&lt;class VectorType1 , class VectorType2 &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_math.html">Math</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_math_1_1_sphere.html">Sphere</a></li>
-    <li class="footer">Generated on Mon Apr 13 2020 22:01:56 for MRtrix by
+    <li class="footer">Generated on Wed Apr 22 2020 19:06:16 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

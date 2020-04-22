@@ -3,6 +3,7 @@ var namespace_m_r =
     [ "Adapter", "namespace_m_r_1_1_adapter.html", "namespace_m_r_1_1_adapter" ],
     [ "Algo", "namespace_m_r_1_1_algo.html", "namespace_m_r_1_1_algo" ],
     [ "App", "namespace_m_r_1_1_app.html", "namespace_m_r_1_1_app" ],
+    [ "ColourMap", "namespace_m_r_1_1_colour_map.html", "namespace_m_r_1_1_colour_map" ],
     [ "Connectome", "namespace_m_r_1_1_connectome.html", "namespace_m_r_1_1_connectome" ],
     [ "DWI", "namespace_m_r_1_1_d_w_i.html", "namespace_m_r_1_1_d_w_i" ],
     [ "File", "namespace_m_r_1_1_file.html", "namespace_m_r_1_1_file" ],
@@ -20,6 +21,7 @@ var namespace_m_r =
     [ "Surface", "namespace_m_r_1_1_surface.html", "namespace_m_r_1_1_surface" ],
     [ "Thread", "namespace_m_r_1_1_thread.html", "namespace_m_r_1_1_thread" ],
     [ "BitSet", "class_m_r_1_1_bit_set.html", "class_m_r_1_1_bit_set" ],
+    [ "CancelException", "class_m_r_1_1_cancel_exception.html", "class_m_r_1_1_cancel_exception" ],
     [ "compare_ptr_contents", "struct_m_r_1_1compare__ptr__contents.html", "struct_m_r_1_1compare__ptr__contents" ],
     [ "container_cast", "struct_m_r_1_1container__cast.html", "struct_m_r_1_1container__cast" ],
     [ "container_value_type", "class_m_r_1_1container__value__type.html", "class_m_r_1_1container__value__type" ],
@@ -58,11 +60,11 @@ var namespace_m_r =
     [ "Min_mem_array", "class_m_r_1_1_min__mem__array.html", null ],
     [ "NeighbourhoodIterator", "class_m_r_1_1_neighbourhood_iterator.html", "class_m_r_1_1_neighbourhood_iterator" ],
     [ "ProgressBar", "class_m_r_1_1_progress_bar.html", "class_m_r_1_1_progress_bar" ],
-    [ "ProgressInfo", "class_m_r_1_1_progress_info.html", "class_m_r_1_1_progress_info" ],
     [ "Random_loop", "class_m_r_1_1_random__loop.html", "class_m_r_1_1_random__loop" ],
     [ "Random_sparse_loop", "class_m_r_1_1_random__sparse__loop.html", "class_m_r_1_1_random__sparse__loop" ],
     [ "Timer", "class_m_r_1_1_timer.html", "class_m_r_1_1_timer" ],
     [ "Transform", "class_m_r_1_1_transform.html", "class_m_r_1_1_transform" ],
     [ "vector", "class_m_r_1_1vector.html", "class_m_r_1_1vector" ],
-    [ "vector< X, 0 >", "class_m_r_1_1vector_3_01_x_00_010_01_4.html", "class_m_r_1_1vector_3_01_x_00_010_01_4" ]
+    [ "vector< X, 0 >", "class_m_r_1_1vector_3_01_x_00_010_01_4.html", "class_m_r_1_1vector_3_01_x_00_010_01_4" ],
+    [ "Voxel2Vector", "class_m_r_1_1_voxel2_vector.html", null ]
 ];

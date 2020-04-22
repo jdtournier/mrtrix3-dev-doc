@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC3_latest-86-gcc3600ed</div>
+   <div id="projectbrief">Version 3.0_RC4-882-gb3b8647f</div>
   </td>
  </tr>
  </tbody>
@@ -160,15 +160,15 @@ Error handling</h1>
 <div class="line">  ...</div>
 <div class="line">}</div>
 </div><!-- fragment --><p>The strings helper functions can be used to provide more useful information:</p>
-<div class="fragment"><div class="line"><span class="keywordtype">void</span> read_file (<span class="keyword">const</span> std::string&amp; filename, int64_t <a class="code" href="fixel_2loop_8h.html#a894bdfa2d603d8343f8ef01dda6fcd23">offset</a>)</div>
+<div class="fragment"><div class="line"><span class="keywordtype">void</span> read_file (<span class="keyword">const</span> std::string&amp; filename, int64_t <a class="code" href="fixel_2loop_8h.html#a3077ccdbc786a4a676068e68d379a3b8">offset</a>)</div>
 <div class="line">{</div>
 <div class="line">  std::ifstream in (filename.c_str());</div>
 <div class="line">  <span class="keywordflow">if</span> (!in)</div>
 <div class="line">    <span class="keywordflow">throw</span> Exception (<span class="stringliteral">&quot;error opening file \&quot;&quot;</span> + filename + <span class="stringliteral">&quot;\&quot;: &quot;</span> + strerror (errno));</div>
 <div class="line"> </div>
-<div class="line">  in.seekg (<a class="code" href="fixel_2loop_8h.html#a894bdfa2d603d8343f8ef01dda6fcd23">offset</a>);</div>
+<div class="line">  in.seekg (<a class="code" href="fixel_2loop_8h.html#a3077ccdbc786a4a676068e68d379a3b8">offset</a>);</div>
 <div class="line">  <span class="keywordflow">if</span> (!in.good())</div>
-<div class="line">    <span class="keywordflow">throw</span> Exception (<span class="stringliteral">&quot;error seeking to offset &quot;</span> + <a class="code" href="namespace_m_r.html#a7dcea37fdb5fba1961d121fca36c22c4">str</a>(<a class="code" href="fixel_2loop_8h.html#a894bdfa2d603d8343f8ef01dda6fcd23">offset</a>)</div>
+<div class="line">    <span class="keywordflow">throw</span> Exception (<span class="stringliteral">&quot;error seeking to offset &quot;</span> + <a class="code" href="namespace_m_r.html#a7dcea37fdb5fba1961d121fca36c22c4">str</a>(<a class="code" href="fixel_2loop_8h.html#a3077ccdbc786a4a676068e68d379a3b8">offset</a>)</div>
 <div class="line">       + <span class="stringliteral">&quot; in file \&quot;&quot;</span> + filename + <span class="stringliteral">&quot;\&quot;: &quot;</span> + strerror (errno));</div>
 <div class="line">  ...</div>
 <div class="line">  <span class="comment">// do something useful</span></div>
@@ -205,25 +205,25 @@ Header search path</h1>
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 <div class="ttc" id="aapp_8h_html_a2ef30c42cbc289d899a8be5d2d8f77d0"><div class="ttname"><a href="app_8h.html#a2ef30c42cbc289d899a8be5d2d8f77d0">usage</a></div><div class="ttdeci">void usage()</div></div>
+<div class="ttc" id="afixel_2loop_8h_html_a3077ccdbc786a4a676068e68d379a3b8"><div class="ttname"><a href="fixel_2loop_8h.html#a3077ccdbc786a4a676068e68d379a3b8">offset</a></div><div class="ttdeci">index_type offset</div><div class="ttdef"><b>Definition:</b> <a href="fixel_2loop_8h_source.html#l00033">loop.h:33</a></div></div>
 <div class="ttc" id="anamespace_m_r_1_1_app_html_a69da4bee5780dd73e5ee276353496db9"><div class="ttname"><a href="namespace_m_r_1_1_app.html#a69da4bee5780dd73e5ee276353496db9">MR::App::get_options</a></div><div class="ttdeci">const vector&lt; ParsedOption &gt; get_options(const std::string &amp;name)</div><div class="ttdoc">return all command-line options matching name</div></div>
 <div class="ttc" id="a_s_h_8h_html"><div class="ttname"><a href="_s_h_8h.html">SH.h</a></div></div>
 <div class="ttc" id="anamespace_m_r_1_1_app_html_a47e73afc38d3e364e0aab23e78e467f9"><div class="ttname"><a href="namespace_m_r_1_1_app.html#a47e73afc38d3e364e0aab23e78e467f9">MR::App::argument</a></div><div class="ttdeci">vector&lt; ParsedArgument &gt; argument</div><div class="ttdoc">the list of arguments parsed from the command-line</div></div>
 <div class="ttc" id="anamespace_m_r_1_1_app_html_a72d063b4ddbb21fcbd9dd6b1a897a9ee"><div class="ttname"><a href="namespace_m_r_1_1_app.html#a72d063b4ddbb21fcbd9dd6b1a897a9ee">MR::App::COPYRIGHT</a></div><div class="ttdeci">const char * COPYRIGHT</div><div class="ttdoc">set the copyright notice if different from that used in MRtrix</div></div>
 <div class="ttc" id="aapp_8h_html_a13a43e6d814de94978c515cb084873b1"><div class="ttname"><a href="app_8h.html#a13a43e6d814de94978c515cb084873b1">run</a></div><div class="ttdeci">void run()</div></div>
-<div class="ttc" id="anamespace_m_r_html_a7dcea37fdb5fba1961d121fca36c22c4"><div class="ttname"><a href="namespace_m_r.html#a7dcea37fdb5fba1961d121fca36c22c4">MR::str</a></div><div class="ttdeci">std::string str(const T &amp;value, int precision=0)</div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00079">mrtrix.h:79</a></div></div>
+<div class="ttc" id="anamespace_m_r_html_a7dcea37fdb5fba1961d121fca36c22c4"><div class="ttname"><a href="namespace_m_r.html#a7dcea37fdb5fba1961d121fca36c22c4">MR::str</a></div><div class="ttdeci">std::string str(const T &amp;value, int precision=0)</div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00205">mrtrix.h:205</a></div></div>
 <div class="ttc" id="acommand_8h_html"><div class="ttname"><a href="command_8h.html">command.h</a></div></div>
 <div class="ttc" id="anamespace_m_r_1_1_app_html_a90b52f988a728c86e793f645d3a4ef3a"><div class="ttname"><a href="namespace_m_r_1_1_app.html#a90b52f988a728c86e793f645d3a4ef3a">MR::App::DESCRIPTION</a></div><div class="ttdeci">Description DESCRIPTION</div><div class="ttdoc">additional description of the command over and above the synopsis</div></div>
-<div class="ttc" id="anamespace_m_r_html"><div class="ttname"><a href="namespace_m_r.html">MR</a></div><div class="ttdef"><b>Definition:</b> <a href="core_2adapter_2base_8h_source.html#l00021">base.h:21</a></div></div>
+<div class="ttc" id="anamespace_m_r_html"><div class="ttname"><a href="namespace_m_r.html">MR</a></div><div class="ttdef"><b>Definition:</b> <a href="core_2adapter_2base_8h_source.html#l00023">base.h:23</a></div></div>
 <div class="ttc" id="anamespace_m_r_1_1_app_html_aebb09da9ab1a53e73b575b2e52b4dbc0"><div class="ttname"><a href="namespace_m_r_1_1_app.html#aebb09da9ab1a53e73b575b2e52b4dbc0">MR::App::ARGUMENTS</a></div><div class="ttdeci">ArgumentList ARGUMENTS</div><div class="ttdoc">the arguments expected by the command</div></div>
 <div class="ttc" id="anamespace_m_r_1_1_app_html_a56b22fa8e19eb68dacf817b185d0b386"><div class="ttname"><a href="namespace_m_r_1_1_app.html#a56b22fa8e19eb68dacf817b185d0b386">MR::App::AUTHOR</a></div><div class="ttdeci">const char * AUTHOR</div><div class="ttdoc">set the author of the command</div></div>
-<div class="ttc" id="aexception_8h_html_a292ad803e75cf5ca00676b8595513ace"><div class="ttname"><a href="exception_8h.html#a292ad803e75cf5ca00676b8595513ace">FAIL</a></div><div class="ttdeci">#define FAIL(msg)</div><div class="ttdef"><b>Definition:</b> <a href="exception_8h_source.html#l00071">exception.h:71</a></div></div>
+<div class="ttc" id="aexception_8h_html_a292ad803e75cf5ca00676b8595513ace"><div class="ttname"><a href="exception_8h.html#a292ad803e75cf5ca00676b8595513ace">FAIL</a></div><div class="ttdeci">#define FAIL(msg)</div><div class="ttdef"><b>Definition:</b> <a href="exception_8h_source.html#l00072">exception.h:72</a></div></div>
 <div class="ttc" id="anamespace_m_r_1_1_app_html_a35c7c52f630a8bbc6ea7147c8860ec01"><div class="ttname"><a href="namespace_m_r_1_1_app.html#a35c7c52f630a8bbc6ea7147c8860ec01">MR::App::OPTIONS</a></div><div class="ttdeci">OptionList OPTIONS</div><div class="ttdoc">the options accepted by the command</div></div>
 <div class="ttc" id="amrtrix_8h_html"><div class="ttname"><a href="mrtrix_8h.html">mrtrix.h</a></div></div>
-<div class="ttc" id="afixel_2loop_8h_html_a894bdfa2d603d8343f8ef01dda6fcd23"><div class="ttname"><a href="fixel_2loop_8h.html#a894bdfa2d603d8343f8ef01dda6fcd23">offset</a></div><div class="ttdeci">uint32_t offset</div><div class="ttdef"><b>Definition:</b> <a href="fixel_2loop_8h_source.html#l00031">loop.h:31</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Apr 13 2020 22:01:54 for MRtrix by
+    <li class="footer">Generated on Wed Apr 22 2020 19:06:14 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

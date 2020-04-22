@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC3_latest-86-gcc3600ed</div>
+   <div id="projectbrief">Version 3.0_RC4-882-gb3b8647f</div>
   </td>
  </tr>
  </tbody>
@@ -121,10 +121,6 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:ae2aa3067c9af19f26cf322be5bfe46df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa266619a14b59c732d754fd1651a621"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume.html#aaa266619a14b59c732d754fd1651a621">get_clipintersectionmodestate</a> () const</td></tr>
 <tr class="separator:aaa266619a14b59c732d754fd1651a621"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d7b9f4c37e861f6094ec2ee0c9ee7e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume.html#a2d7b9f4c37e861f6094ec2ee0c9ee7e8">move_clip_planes_in_out</a> (<a class="el" href="class_m_r_1_1vector.html">vector</a>&lt; <a class="el" href="class_m_r_1_1_g_u_i_1_1_g_l_1_1vec4.html">GL::vec4</a> * &gt; &amp;<a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume.html#aa75a5bc563f4f98c1fe2bfa23f0a6d9d">clip</a>, float distance)</td></tr>
-<tr class="separator:a2d7b9f4c37e861f6094ec2ee0c9ee7e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7a9a3919a9e36ebcc46f57b9e0c11f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume.html#ac7a9a3919a9e36ebcc46f57b9e0c11f9">rotate_clip_planes</a> (<a class="el" href="class_m_r_1_1vector.html">vector</a>&lt; <a class="el" href="class_m_r_1_1_g_u_i_1_1_g_l_1_1vec4.html">GL::vec4</a> * &gt; &amp;<a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume.html#aa75a5bc563f4f98c1fe2bfa23f0a6d9d">clip</a>, const <a class="el" href="namespace_m_r_1_1_math.html#a55c2ae00d623e10238ce7e402ab88464">Math::Versorf</a> &amp;rot)</td></tr>
-<tr class="separator:ac7a9a3919a9e36ebcc46f57b9e0c11f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_base"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_base')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_base.html">MR::GUI::MRView::Mode::Base</a></td></tr>
 <tr class="memitem:a1a6b40ae5f82ff02a3ee3893fcbb2b0e inherit pro_methods_class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_base.html#a1a6b40ae5f82ff02a3ee3893fcbb2b0e">slice_move_event</a> (const <a class="el" href="class_m_r_1_1_g_u_i_1_1_model_view_projection.html">ModelViewProjection</a> &amp;proj, float x)</td></tr>
 <tr class="separator:a1a6b40ae5f82ff02a3ee3893fcbb2b0e inherit pro_methods_class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -292,78 +288,6 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a2d7b9f4c37e861f6094ec2ee0c9ee7e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d7b9f4c37e861f6094ec2ee0c9ee7e8">&#9670;&nbsp;</a></span>move_clip_planes_in_out()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MR::GUI::MRView::Mode::Volume::move_clip_planes_in_out </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_m_r_1_1vector.html">vector</a>&lt; <a class="el" href="class_m_r_1_1_g_u_i_1_1_g_l_1_1vec4.html">GL::vec4</a> * &gt; &amp;&#160;</td>
-          <td class="paramname"><em>clip</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>distance</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac7a9a3919a9e36ebcc46f57b9e0c11f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac7a9a3919a9e36ebcc46f57b9e0c11f9">&#9670;&nbsp;</a></span>rotate_clip_planes()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MR::GUI::MRView::Mode::Volume::rotate_clip_planes </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_m_r_1_1vector.html">vector</a>&lt; <a class="el" href="class_m_r_1_1_g_u_i_1_1_g_l_1_1vec4.html">GL::vec4</a> * &gt; &amp;&#160;</td>
-          <td class="paramname"><em>clip</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="namespace_m_r_1_1_math.html#a55c2ae00d623e10238ce7e402ab88464">Math::Versorf</a> &amp;&#160;</td>
-          <td class="paramname"><em>rot</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="aa75a5bc563f4f98c1fe2bfa23f0a6d9d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa75a5bc563f4f98c1fe2bfa23f0a6d9d">&#9670;&nbsp;</a></span>clip</h2>
@@ -385,7 +309,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mode_2volume_8h_source.html#l00056">56</a> of file <a class="el" href="mode_2volume_8h_source.html">volume.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mode_2volume_8h_source.html#l00052">52</a> of file <a class="el" href="mode_2volume_8h_source.html">volume.h</a>.</p>
 
 </div>
 </div>
@@ -409,7 +333,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mode_2volume_8h_source.html#l00055">55</a> of file <a class="el" href="mode_2volume_8h_source.html">volume.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mode_2volume_8h_source.html#l00051">51</a> of file <a class="el" href="mode_2volume_8h_source.html">volume.h</a>.</p>
 
 </div>
 </div>
@@ -455,7 +379,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mode_2volume_8h_source.html#l00054">54</a> of file <a class="el" href="mode_2volume_8h_source.html">volume.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mode_2volume_8h_source.html#l00050">50</a> of file <a class="el" href="mode_2volume_8h_source.html">volume.h</a>.</p>
 
 </div>
 </div>
@@ -479,7 +403,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mode_2volume_8h_source.html#l00053">53</a> of file <a class="el" href="mode_2volume_8h_source.html">volume.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mode_2volume_8h_source.html#l00049">49</a> of file <a class="el" href="mode_2volume_8h_source.html">volume.h</a>.</p>
 
 </div>
 </div>
@@ -503,7 +427,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mode_2volume_8h_source.html#l00053">53</a> of file <a class="el" href="mode_2volume_8h_source.html">volume.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mode_2volume_8h_source.html#l00049">49</a> of file <a class="el" href="mode_2volume_8h_source.html">volume.h</a>.</p>
 
 </div>
 </div>
@@ -516,7 +440,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_g_u_i.html">GUI</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_g_u_i_1_1_m_r_view.html">MRView</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode.html">Mode</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume.html">Volume</a></li>
-    <li class="footer">Generated on Mon Apr 13 2020 22:01:56 for MRtrix by
+    <li class="footer">Generated on Wed Apr 22 2020 19:06:16 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

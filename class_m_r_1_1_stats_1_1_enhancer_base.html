@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC3_latest-86-gcc3600ed</div>
+   <div id="projectbrief">Version 3.0_RC4-882-gb3b8647f</div>
   </td>
  </tr>
  </tbody>
@@ -85,6 +85,8 @@ $(document).ready(function(){initNavTree('class_m_r_1_1_stats_1_1_enhancer_base.
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-types">Protected Types</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="class_m_r_1_1_stats_1_1_enhancer_base-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">MR::Stats::EnhancerBase Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
@@ -99,7 +101,7 @@ Inheritance diagram for MR::Stats::EnhancerBase:</div>
   <img src="class_m_r_1_1_stats_1_1_enhancer_base.png" usemap="#MR::Stats::EnhancerBase_map" alt=""/>
   <map id="MR::Stats::EnhancerBase_map" name="MR::Stats::EnhancerBase_map">
 <area href="class_m_r_1_1_connectome_1_1_enhance_1_1_pass_through.html" alt="MR::Connectome::Enhance::PassThrough" shape="rect" coords="0,56,243,80"/>
-<area href="class_m_r_1_1_stats_1_1_c_f_e_1_1_enhancer.html" alt="MR::Stats::CFE::Enhancer" shape="rect" coords="253,56,496,80"/>
+<area href="class_m_r_1_1_stats_1_1_c_f_e.html" alt="MR::Stats::CFE" shape="rect" coords="253,56,496,80"/>
 <area href="class_m_r_1_1_stats_1_1_t_f_c_e_1_1_enhancer_base.html" alt="MR::Stats::TFCE::EnhancerBase" shape="rect" coords="506,56,749,80"/>
 <area href="class_m_r_1_1_stats_1_1_t_f_c_e_1_1_wrapper.html" alt="MR::Stats::TFCE::Wrapper" shape="rect" coords="759,56,1002,80"/>
 <area href="class_m_r_1_1_connectome_1_1_enhance_1_1_n_b_s.html" alt="MR::Connectome::Enhance::NBS" shape="rect" coords="379,112,622,136"/>
@@ -111,13 +113,74 @@ Inheritance diagram for MR::Stats::EnhancerBase:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a375809abc27128e6f91944dd683038ff"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_enhancer_base.html#a375809abc27128e6f91944dd683038ff">~EnhancerBase</a> ()</td></tr>
 <tr class="separator:a375809abc27128e6f91944dd683038ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e7c8b3b8b80975c0395a8a3b24fda53"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#a5e7ca9d7689e3c74384e428ec1d9d9a9">Math::Stats::value_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_enhancer_base.html#a8e7c8b3b8b80975c0395a8a3b24fda53">operator()</a> (const <a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#a8083580de5a3d0035b30fe5cf299bf0d">Math::Stats::vector_type</a> &amp;, <a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#a8083580de5a3d0035b30fe5cf299bf0d">Math::Stats::vector_type</a> &amp;) const =0</td></tr>
-<tr class="separator:a8e7c8b3b8b80975c0395a8a3b24fda53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73806a99e177b6a2fceda232631f712e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_enhancer_base.html#a73806a99e177b6a2fceda232631f712e">operator()</a> (const <a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">Math::Stats::matrix_type</a> &amp;input_statistics, <a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">Math::Stats::matrix_type</a> &amp;enhanced_statistics) const</td></tr>
+<tr class="separator:a73806a99e177b6a2fceda232631f712e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-types"></a>
+Protected Types</h2></td></tr>
+<tr class="memitem:a544648b632c3027feeeb010ebd118c8c"><td class="memItemLeft" align="right" valign="top">typedef Math::Stats::matrix_type::ConstColXpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_enhancer_base.html#a544648b632c3027feeeb010ebd118c8c">in_column_type</a></td></tr>
+<tr class="separator:a544648b632c3027feeeb010ebd118c8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcf47219aaf9521455b83ea07747df43"><td class="memItemLeft" align="right" valign="top">typedef Math::Stats::matrix_type::ColXpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_enhancer_base.html#abcf47219aaf9521455b83ea07747df43">out_column_type</a></td></tr>
+<tr class="separator:abcf47219aaf9521455b83ea07747df43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:ad6f1dcc69604f70dcdec47b83f5be75d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_stats_1_1_enhancer_base.html#ad6f1dcc69604f70dcdec47b83f5be75d">operator()</a> (<a class="el" href="class_m_r_1_1_stats_1_1_enhancer_base.html#a544648b632c3027feeeb010ebd118c8c">in_column_type</a>, <a class="el" href="class_m_r_1_1_stats_1_1_enhancer_base.html#abcf47219aaf9521455b83ea07747df43">out_column_type</a>) const =0</td></tr>
+<tr class="separator:ad6f1dcc69604f70dcdec47b83f5be75d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="stats_2enhance_8h_source.html#l00030">30</a> of file <a class="el" href="stats_2enhance_8h_source.html">enhance.h</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<p class="definition">Definition at line <a class="el" href="stats_2enhance_8h_source.html#l00031">31</a> of file <a class="el" href="stats_2enhance_8h_source.html">enhance.h</a>.</p>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="a544648b632c3027feeeb010ebd118c8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a544648b632c3027feeeb010ebd118c8c">&#9670;&nbsp;</a></span>in_column_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef Math::Stats::matrix_type::ConstColXpr <a class="el" href="class_m_r_1_1_stats_1_1_enhancer_base.html#a544648b632c3027feeeb010ebd118c8c">MR::Stats::EnhancerBase::in_column_type</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="stats_2enhance_8h_source.html#l00046">46</a> of file <a class="el" href="stats_2enhance_8h_source.html">enhance.h</a>.</p>
+
+</div>
+</div>
+<a id="abcf47219aaf9521455b83ea07747df43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcf47219aaf9521455b83ea07747df43">&#9670;&nbsp;</a></span>out_column_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef Math::Stats::matrix_type::ColXpr <a class="el" href="class_m_r_1_1_stats_1_1_enhancer_base.html#abcf47219aaf9521455b83ea07747df43">MR::Stats::EnhancerBase::out_column_type</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="stats_2enhance_8h_source.html#l00047">47</a> of file <a class="el" href="stats_2enhance_8h_source.html">enhance.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a375809abc27128e6f91944dd683038ff"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a375809abc27128e6f91944dd683038ff">&#9670;&nbsp;</a></span>~EnhancerBase()</h2>
 
@@ -141,13 +204,13 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="stats_2enhance_8h_source.html#l00033">33</a> of file <a class="el" href="stats_2enhance_8h_source.html">enhance.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="stats_2enhance_8h_source.html#l00034">34</a> of file <a class="el" href="stats_2enhance_8h_source.html">enhance.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a8e7c8b3b8b80975c0395a8a3b24fda53"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e7c8b3b8b80975c0395a8a3b24fda53">&#9670;&nbsp;</a></span>operator()()</h2>
+<a id="a73806a99e177b6a2fceda232631f712e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73806a99e177b6a2fceda232631f712e">&#9670;&nbsp;</a></span>operator()() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -156,15 +219,53 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#a5e7ca9d7689e3c74384e428ec1d9d9a9">Math::Stats::value_type</a> MR::Stats::EnhancerBase::operator() </td>
+          <td class="memname">void MR::Stats::EnhancerBase::operator() </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#a8083580de5a3d0035b30fe5cf299bf0d">Math::Stats::vector_type</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">Math::Stats::matrix_type</a> &amp;&#160;</td>
+          <td class="paramname"><em>input_statistics</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e">Math::Stats::matrix_type</a> &amp;&#160;</td>
+          <td class="paramname"><em>enhanced_statistics</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="stats_2enhance_8h_source.html#l00038">38</a> of file <a class="el" href="stats_2enhance_8h_source.html">enhance.h</a>.</p>
+
+</div>
+</div>
+<a id="ad6f1dcc69604f70dcdec47b83f5be75d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6f1dcc69604f70dcdec47b83f5be75d">&#9670;&nbsp;</a></span>operator()() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void MR::Stats::EnhancerBase::operator() </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_m_r_1_1_stats_1_1_enhancer_base.html#a544648b632c3027feeeb010ebd118c8c">in_column_type</a>&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespace_m_r_1_1_math_1_1_stats.html#a8083580de5a3d0035b30fe5cf299bf0d">Math::Stats::vector_type</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="class_m_r_1_1_stats_1_1_enhancer_base.html#abcf47219aaf9521455b83ea07747df43">out_column_type</a>&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -175,10 +276,12 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_m_r_1_1_stats_1_1_c_f_e.html#a4470a5894e6b4db4a64b88b2ff21a9c8">MR::Stats::CFE</a>, and <a class="el" href="class_m_r_1_1_stats_1_1_cluster_1_1_cluster_size.html#ae1e7e30a4b6486b04ca54938a55e588f">MR::Stats::Cluster::ClusterSize</a>.</p>
 
 </div>
 </div>
@@ -191,7 +294,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_stats.html">Stats</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_stats_1_1_enhancer_base.html">EnhancerBase</a></li>
-    <li class="footer">Generated on Mon Apr 13 2020 22:01:56 for MRtrix by
+    <li class="footer">Generated on Wed Apr 22 2020 19:06:16 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

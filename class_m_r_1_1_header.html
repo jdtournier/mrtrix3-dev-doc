@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC3_latest-86-gcc3600ed</div>
+   <div id="projectbrief">Version 3.0_RC4-882-gb3b8647f</div>
   </td>
  </tr>
  </tbody>
@@ -115,6 +115,7 @@ Inheritance diagram for MR::Header:</div>
 <area href="class_m_r_1_1_filter_1_1_optimal_threshold.html" title="a filter to compute the optimal threshold to mask a DataSet." alt="MR::Filter::OptimalThreshold" shape="rect" coords="212,616,414,640"/>
 <area href="class_m_r_1_1_filter_1_1_resize.html" alt="MR::Filter::Resize" shape="rect" coords="212,672,414,696"/>
 <area href="class_m_r_1_1_filter_1_1_smooth.html" alt="MR::Filter::Smooth" shape="rect" coords="212,728,414,752"/>
+<area href="class_m_r_1_1_filter_1_1_z_clean.html" alt="MR::Filter::ZClean" shape="rect" coords="212,784,414,808"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -122,8 +123,8 @@ Inheritance diagram for MR::Header:</div>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a31cba6fe131dcd7993755a7fc8c6d7fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_header.html#a31cba6fe131dcd7993755a7fc8c6d7fd">acquire_io</a> (<a class="el" href="class_m_r_1_1_header.html">Header</a> &amp;<a class="el" href="noise__estimator_8h.html#aaebed747e975509a9b8470c6d7ba93b3">H</a>)</td></tr>
 <tr class="separator:a31cba6fe131dcd7993755a7fc8c6d7fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a595411871bcb369a4ddfb03fb46ccc22"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_header.html#a595411871bcb369a4ddfb03fb46ccc22">merge</a> (const <a class="el" href="class_m_r_1_1_header.html">Header</a> &amp;<a class="el" href="noise__estimator_8h.html#aaebed747e975509a9b8470c6d7ba93b3">H</a>)</td></tr>
-<tr class="separator:a595411871bcb369a4ddfb03fb46ccc22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77406c3267d3b35fa0ba3478a17de2f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_header.html#a77406c3267d3b35fa0ba3478a17de2f4">check</a> (const <a class="el" href="class_m_r_1_1_header.html">Header</a> &amp;<a class="el" href="noise__estimator_8h.html#aaebed747e975509a9b8470c6d7ba93b3">H</a>) const</td></tr>
+<tr class="separator:a77406c3267d3b35fa0ba3478a17de2f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b256ae36e613be6cb7b3a5eaa08cd96"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_header.html#a5b256ae36e613be6cb7b3a5eaa08cd96">realign_transform</a> ()</td></tr>
 <tr class="memdesc:a5b256ae36e613be6cb7b3a5eaa08cd96"><td class="mdescLeft">&#160;</td><td class="mdescRight">realign transform to match RAS coordinate system as closely as possible  <a href="class_m_r_1_1_header.html#a5b256ae36e613be6cb7b3a5eaa08cd96">More...</a><br /></td></tr>
 <tr class="separator:a5b256ae36e613be6cb7b3a5eaa08cd96"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -142,8 +143,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a7b7c7e7434e462427dc7b5a6d3236f88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd66a1bbcebe340613c7071350c8fa1a"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_header.html#acd66a1bbcebe340613c7071350c8fa1a">name_</a></td></tr>
 <tr class="separator:acd66a1bbcebe340613c7071350c8fa1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad26cdf742faae1dc5e973a8b3e9b72c6"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_header.html#ad26cdf742faae1dc5e973a8b3e9b72c6">keyval_</a></td></tr>
-<tr class="separator:ad26cdf742faae1dc5e973a8b3e9b72c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac89e2c30c989117af69163249e8e120f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_m_r.html#a01bcb4e131953115cf3b1ca2cfd38f80">KeyValues</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_header.html#ac89e2c30c989117af69163249e8e120f">keyval_</a></td></tr>
+<tr class="separator:ac89e2c30c989117af69163249e8e120f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27249fa6fca3ae38915ae444814d4a41"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_header.html#a27249fa6fca3ae38915ae444814d4a41">format_</a></td></tr>
 <tr class="separator:a27249fa6fca3ae38915ae444814d4a41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c8a6e80166c0b95c5b27b70be963812"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="class_m_r_1_1_image_i_o_1_1_base.html">ImageIO::Base</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_header.html#a7c8a6e80166c0b95c5b27b70be963812">io</a></td></tr>
@@ -157,6 +158,10 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a1cb131a5932e3feac1770347b9b802cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b40e499f7baaf0cadab1e36db0d7a4c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_header.html#a6b40e499f7baaf0cadab1e36db0d7a4c">scale_</a></td></tr>
 <tr class="separator:a6b40e499f7baaf0cadab1e36db0d7a4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75f7c51ad1d53e9311cf3b0816850dad"><td class="memItemLeft" align="right" valign="top">std::array&lt; size_t, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_header.html#a75f7c51ad1d53e9311cf3b0816850dad">realign_perm_</a></td></tr>
+<tr class="separator:a75f7c51ad1d53e9311cf3b0816850dad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97bea28c466eb71019cea9c17ff2eb4e"><td class="memItemLeft" align="right" valign="top">std::array&lt; bool, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_header.html#a97bea28c466eb71019cea9c17ff2eb4e">realign_flip_</a></td></tr>
+<tr class="separator:a97bea28c466eb71019cea9c17ff2eb4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -166,7 +171,7 @@ Friends</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="header_8h_source.html#l00049">49</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="header_8h_source.html#l00048">48</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a31cba6fe131dcd7993755a7fc8c6d7fd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a31cba6fe131dcd7993755a7fc8c6d7fd">&#9670;&nbsp;</a></span>acquire_io()</h2>
@@ -192,12 +197,12 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="header_8h_source.html#l00358">358</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="header_8h_source.html#l00375">375</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
 
 </div>
 </div>
-<a id="a595411871bcb369a4ddfb03fb46ccc22"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a595411871bcb369a4ddfb03fb46ccc22">&#9670;&nbsp;</a></span>merge()</h2>
+<a id="a77406c3267d3b35fa0ba3478a17de2f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77406c3267d3b35fa0ba3478a17de2f4">&#9670;&nbsp;</a></span>check()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -206,11 +211,11 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void MR::Header::merge </td>
+          <td class="memname">void MR::Header::check </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_m_r_1_1_header.html">Header</a> &amp;&#160;</td>
           <td class="paramname"><em>H</em></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -272,7 +277,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="header_8h_source.html#l00366">366</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="header_8h_source.html#l00387">387</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
 
 </div>
 </div>
@@ -386,7 +391,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="header_8h_source.html#l00344">344</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="header_8h_source.html#l00361">361</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
 
 </div>
 </div>
@@ -412,7 +417,7 @@ Friends</h2></td></tr>
 
 <p>the type of the data as stored on file </p>
 
-<p class="definition">Definition at line <a class="el" href="header_8h_source.html#l00353">353</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="header_8h_source.html#l00370">370</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
 
 </div>
 </div>
@@ -436,7 +441,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="header_8h_source.html#l00348">348</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="header_8h_source.html#l00365">365</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
 
 </div>
 </div>
@@ -462,12 +467,12 @@ Friends</h2></td></tr>
 
 <p>additional information relevant for images stored on file </p>
 
-<p class="definition">Definition at line <a class="el" href="header_8h_source.html#l00351">351</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="header_8h_source.html#l00368">368</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
 
 </div>
 </div>
-<a id="ad26cdf742faae1dc5e973a8b3e9b72c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad26cdf742faae1dc5e973a8b3e9b72c6">&#9670;&nbsp;</a></span>keyval_</h2>
+<a id="ac89e2c30c989117af69163249e8e120f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac89e2c30c989117af69163249e8e120f">&#9670;&nbsp;</a></span>keyval_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -476,7 +481,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::map&lt;std::string, std::string&gt; MR::Header::keyval_</td>
+          <td class="memname"><a class="el" href="namespace_m_r.html#a01bcb4e131953115cf3b1ca2cfd38f80">KeyValues</a> MR::Header::keyval_</td>
         </tr>
       </table>
   </td>
@@ -486,7 +491,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="header_8h_source.html#l00347">347</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="header_8h_source.html#l00364">364</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
 
 </div>
 </div>
@@ -510,7 +515,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="header_8h_source.html#l00346">346</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="header_8h_source.html#l00363">363</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
 
 </div>
 </div>
@@ -536,7 +541,56 @@ Friends</h2></td></tr>
 
 <p>the values by which to scale the intensities </p>
 
-<p class="definition">Definition at line <a class="el" href="header_8h_source.html#l00355">355</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="header_8h_source.html#l00372">372</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
+
+</div>
+</div>
+<a id="a97bea28c466eb71019cea9c17ff2eb4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97bea28c466eb71019cea9c17ff2eb4e">&#9670;&nbsp;</a></span>realign_flip_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::array&lt;bool, 3&gt; MR::Header::realign_flip_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="header_8h_source.html#l00383">383</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
+
+</div>
+</div>
+<a id="a75f7c51ad1d53e9311cf3b0816850dad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75f7c51ad1d53e9311cf3b0816850dad">&#9670;&nbsp;</a></span>realign_perm_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::array&lt;size_t, 3&gt; MR::Header::realign_perm_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>store information about how image was realigned via <a class="el" href="class_m_r_1_1_header.html#a5b256ae36e613be6cb7b3a5eaa08cd96" title="realign transform to match RAS coordinate system as closely as possible">realign_transform()</a>. </p>
+
+<p class="definition">Definition at line <a class="el" href="header_8h_source.html#l00382">382</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
 
 </div>
 </div>
@@ -560,7 +614,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="header_8h_source.html#l00355">355</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="header_8h_source.html#l00372">372</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
 
 </div>
 </div>
@@ -584,7 +638,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="header_8h_source.html#l00345">345</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="header_8h_source.html#l00362">362</a> of file <a class="el" href="header_8h_source.html">header.h</a>.</p>
 
 </div>
 </div>
@@ -597,7 +651,7 @@ Friends</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_header.html">Header</a></li>
-    <li class="footer">Generated on Mon Apr 13 2020 22:01:54 for MRtrix by
+    <li class="footer">Generated on Wed Apr 22 2020 19:06:15 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

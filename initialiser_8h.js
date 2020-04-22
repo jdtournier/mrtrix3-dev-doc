@@ -15,9 +15,9 @@ var initialiser_8h =
     ] ],
     [ "initialise_using_FOD", "initialiser_8h.html#aeb677f14037b98c1bcf9fca33fa92ceb", null ],
     [ "initialise_using_image_centres", "initialiser_8h.html#ac1fbbe5b9a92dc81615a10f064b4c263", null ],
-    [ "initialise_using_image_mass", "initialiser_8h.html#ad0e95d46f6a67a43c27aa8c38f9e11f9", null ],
-    [ "initialise_using_image_moments", "initialiser_8h.html#a20ec23f05d86104654c83273fe4911a5", null ],
-    [ "initialise_using_rotation_search", "initialiser_8h.html#a354f218ba49886d559aebb9a9b904c7d", null ],
+    [ "initialise_using_image_mass", "initialiser_8h.html#a87f0af43917067a9b9a879a31dd29302", null ],
+    [ "initialise_using_image_moments", "initialiser_8h.html#a06c3f6dd71c7c2b2412c2120797b6134", null ],
+    [ "initialise_using_rotation_search", "initialiser_8h.html#a5456ba21af486d628a115545cf6d33f1", null ],
     [ "set_centre_via_image_centres", "initialiser_8h.html#a896056c6ae06cefe99412280726b398d", null ],
-    [ "set_centre_via_mass", "initialiser_8h.html#a2350e7964621930d2c67dc2080494614", null ]
+    [ "set_centre_via_mass", "initialiser_8h.html#af69c460153b1fec079cb75050beeac02", null ]
 ];

@@ -17,6 +17,6 @@ var class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_overlay =
     [ "opacity_slider", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_overlay.html#afd94eb0412d319dbe230f05676f2b73c", null ],
     [ "upper_threshold", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_overlay.html#a9574b2b72dc047277b800296fa2f7044", null ],
     [ "upper_threshold_check_box", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_overlay.html#ae3991a35dc10619ecf9614cc929ab4a7", null ],
-    [ "volume_label", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_overlay.html#a37ffaac20c687d952c8df0a9bbee5c75", null ],
-    [ "volume_selecter", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_overlay.html#a85fda25e9919c50491670f85ec567609", null ]
+    [ "volume_box", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_overlay.html#aff7f07bd2540cafed52aee2e6a2d88f0", null ],
+    [ "volume_index_layout", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_overlay.html#a1891064da67fb0ae67d65c55cb1a1511", null ]
 ];

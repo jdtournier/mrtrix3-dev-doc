@@ -8,5 +8,5 @@ var class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel =
     [ "overall_cost_function", "class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel.html#a801df4d0890d94d087e1bb83cb08437b", null ],
     [ "overall_gradient", "class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel.html#acb4d3d39251746cebbd40a769e509c82", null ],
     [ "params", "class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel.html#a4310d5787541212a35bbec6531002b45", null ],
-    [ "transform", "class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel.html#a17289e7e026d142c32988ea9d267b23f", null ]
+    [ "voxel2scanner", "class_m_r_1_1_registration_1_1_metric_1_1_thread_kernel.html#a9b9e13bfb086c5fe646dcb01b10a4188", null ]
 ];

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['quad_7330',['Quad',['../namespace_m_r_1_1_surface.html#ac01493851a8d1fad7e666b669f4da8b8',1,'MR::Surface']]],
-  ['quadlist_7331',['QuadList',['../namespace_m_r_1_1_surface.html#a68bf264a74f7c7f17a4e4d1d5dd80989',1,'MR::Surface']]],
-  ['quattype_7332',['QuatType',['../namespace_m_r_1_1_registration_1_1_rotation_search.html#a36b7395ecd0f37173c31160e8abaddd2',1,'MR::Registration::RotationSearch']]]
+  ['permutelabels_7838',['PermuteLabels',['../class_m_r_1_1_math_1_1_stats_1_1_shuffler.html#a8a470075492872cee9b1360c67763610',1,'MR::Math::Stats::Shuffler']]],
+  ['point_5ft_7839',['Point_t',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t.html#a9bb65262d80c12459def723732318f31',1,'MR::DWI::Tractography::GT']]],
+  ['point_5ftype_7840',['point_type',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_resampling.html#a8a227607cf0d263b3d0a29da0f459647',1,'MR::DWI::Tractography::Resampling']]]
 ];

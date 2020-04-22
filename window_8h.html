@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC3_latest-86-gcc3600ed</div>
+   <div id="projectbrief">Version 3.0_RC4-882-gb3b8647f</div>
   </td>
  </tr>
  </tbody>
@@ -85,20 +85,18 @@ $(document).ready(function(){initNavTree('window_8h.html',''); initResizable(); 
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#define-members">Macros</a>  </div>
+<a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle">
 <div class="title">window.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;image.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="memory_8h_source.html">memory.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="versor_8h_source.html">math/versor.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="cursor_8h_source.html">gui/cursor.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="gui_8h_source.html">gui/gui.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="gui__image_8h_source.html">gui/mrview/gui_image.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="font_8h_source.html">gui/opengl/font.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="colourmap_8h_source.html">gui/mrview/colourmap.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="colourbars_8h_source.html">gui/mrview/colourbars.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="colourmap__button_8h_source.html">gui/mrview/colourmap_button.h</a>&quot;</code><br />
 </div>
 <p><a href="window_8h_source.html">Go to the source code of this file.</a></p>
@@ -106,8 +104,6 @@ $(document).ready(function(){initNavTree('window_8h.html',''); initResizable(); 
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_window.html">MR::GUI::MRView::Window</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_grab_context.html">MR::GUI::MRView::GrabContext</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -124,36 +120,14 @@ Namespaces</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool.html">MR::GUI::MRView::Tool</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a499dec1b43303011a4eb55cbb37f75cb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="window_8h.html#a499dec1b43303011a4eb55cbb37f75cb">ASSERT_GL_MRVIEW_CONTEXT_IS_CURRENT</a>&#160;&#160;&#160;<a class="el" href="gui_8h.html#a4989148487f784996d780f0b03585c60">ASSERT_GL_CONTEXT_IS_CURRENT</a> (::<a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_window.html#a2ff8ca053d9408ab3b641c670eb04b41">MR::GUI::MRView::Window::main</a>-&gt;glwidget())</td></tr>
-<tr class="separator:a499dec1b43303011a4eb55cbb37f75cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a499dec1b43303011a4eb55cbb37f75cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a499dec1b43303011a4eb55cbb37f75cb">&#9670;&nbsp;</a></span>ASSERT_GL_MRVIEW_CONTEXT_IS_CURRENT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ASSERT_GL_MRVIEW_CONTEXT_IS_CURRENT&#160;&#160;&#160;<a class="el" href="gui_8h.html#a4989148487f784996d780f0b03585c60">ASSERT_GL_CONTEXT_IS_CURRENT</a> (::<a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_window.html#a2ff8ca053d9408ab3b641c670eb04b41">MR::GUI::MRView::Window::main</a>-&gt;glwidget())</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="window_8h_source.html#l00348">348</a> of file <a class="el" href="window_8h_source.html">window.h</a>.</p>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_99d0482cf009f9d97a0877749b817f19.html">gui</a></li><li class="navelem"><a class="el" href="dir_d1c552c4fd0ff8e8078b00303a982c35.html">mrview</a></li><li class="navelem"><a class="el" href="window_8h.html">window.h</a></li>
-    <li class="footer">Generated on Mon Apr 13 2020 22:01:54 for MRtrix by
+    <li class="footer">Generated on Wed Apr 22 2020 19:06:14 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

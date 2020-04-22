@@ -1,5 +1,6 @@
 var class_m_r_1_1_thread_1_1_queue_1_1_writer_1_1_item =
 [
+    [ "item_type", "class_m_r_1_1_thread_1_1_queue_1_1_writer_1_1_item.html#a1f719638bdfd07ff68d5fc211882dfa3", null ],
     [ "Item", "class_m_r_1_1_thread_1_1_queue_1_1_writer_1_1_item.html#a21a053b8c154747c4fc827dd50601d66", null ],
     [ "~Item", "class_m_r_1_1_thread_1_1_queue_1_1_writer_1_1_item.html#af1d7e9a597bb5a12842983d66c5ad90f", null ],
     [ "operator*", "class_m_r_1_1_thread_1_1_queue_1_1_writer_1_1_item.html#a5e8d2c5c07d0b150cf65d643fa3b2225", null ],

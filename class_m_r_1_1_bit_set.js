@@ -8,9 +8,11 @@ var class_m_r_1_1_bit_set =
     [ "clear", "class_m_r_1_1_bit_set.html#a4672d1304198c7163d7f155632637c9b", null ],
     [ "count", "class_m_r_1_1_bit_set.html#a17e0223c41aab6c8fc19d6a022688a69", null ],
     [ "empty", "class_m_r_1_1_bit_set.html#a2b0baeb5c8e38fe67b8189fad4682f65", null ],
+    [ "excess_bit_mask", "class_m_r_1_1_bit_set.html#a0389a7b8f55459f6969826f190ad6c20", null ],
     [ "excess_bits", "class_m_r_1_1_bit_set.html#a69f4c0b368962bd4d9722cf37593ad44", null ],
     [ "full", "class_m_r_1_1_bit_set.html#accb4ce518807e79904b8c679d0e950e1", null ],
     [ "get_data_ptr", "class_m_r_1_1_bit_set.html#a4b6a5d79b57beb808b26ea9dd2a946b9", null ],
+    [ "have_excess_bits", "class_m_r_1_1_bit_set.html#a1ac6360d971f34e99339367a5e161490", null ],
     [ "operator!=", "class_m_r_1_1_bit_set.html#aa999cd0307351dac9db7e85d2d2266c2", null ],
     [ "operator&", "class_m_r_1_1_bit_set.html#a5239a1bd23bc1e68e8d17d23243ab7b1", null ],
     [ "operator&=", "class_m_r_1_1_bit_set.html#ac014647e296157ac0bd372e5995cd43d", null ],
@@ -28,7 +30,7 @@ var class_m_r_1_1_bit_set =
     [ "set", "class_m_r_1_1_bit_set.html#a18b601e262c4aaabf1301c32b2a151cb", null ],
     [ "size", "class_m_r_1_1_bit_set.html#a4b9c3b1adef71dd4f1803404284b56fe", null ],
     [ "test", "class_m_r_1_1_bit_set.html#ac6cb202786959e1bc3f0d4ea1cf724d5", null ],
-    [ "operator<<", "class_m_r_1_1_bit_set.html#afc04e130acffeb6641fdd9d5e4695722", null ],
+    [ "operator<<", "class_m_r_1_1_bit_set.html#a906ed42baec41249cad20b244b98f278", null ],
     [ "bits", "class_m_r_1_1_bit_set.html#ad0a57bf42145e77ebccd2b50f245cb8a", null ],
     [ "bytes", "class_m_r_1_1_bit_set.html#ac60069bf1d91959f72deaaeb93590dbe", null ]
 ];

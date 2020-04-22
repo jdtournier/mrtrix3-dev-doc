@@ -1,6 +1,6 @@
 var class_m_r_1_1_file_1_1_dicom_1_1_quick_scan =
 [
-    [ "read", "class_m_r_1_1_file_1_1_dicom_1_1_quick_scan.html#aa765d922ecebfd50b9e25da46b439785", null ],
+    [ "read", "class_m_r_1_1_file_1_1_dicom_1_1_quick_scan.html#aeed270e6e8262968db3a66c1f04cea52", null ],
     [ "bits_alloc", "class_m_r_1_1_file_1_1_dicom_1_1_quick_scan.html#a0a3e5f0b651f6bf19bea0d32c7a109b4", null ],
     [ "data", "class_m_r_1_1_file_1_1_dicom_1_1_quick_scan.html#a6190ac9896a8e850e3eef8b04a44b8be", null ],
     [ "dim", "class_m_r_1_1_file_1_1_dicom_1_1_quick_scan.html#afbc12b26ebcc0c961b9672ee193a9a95", null ],

@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC3_latest-86-gcc3600ed</div>
+   <div id="projectbrief">Version 3.0_RC4-882-gb3b8647f</div>
   </td>
  </tr>
  </tbody>
@@ -110,25 +110,25 @@ class MR::Adapter::Warp&lt; Interpolator, ImageType, WarpType &gt;</h3>
 <div class="line"><span class="keyword">auto</span> warp = Header::open (<a class="code" href="namespace_m_r_1_1_app.html#a47e73afc38d3e364e0aab23e78e467f9">argument</a>[0]);</div>
 <div class="line"><span class="comment">// input data to be resliced:</span></div>
 <div class="line"><span class="keyword">auto</span> input = <a class="code" href="class_m_r_1_1_image.html#aab488a42d712e19da34e089333c14c15">Image&lt;float&gt;::open</a> (<a class="code" href="namespace_m_r_1_1_app.html#a47e73afc38d3e364e0aab23e78e467f9">argument</a>[1]);</div>
-<div class="line"><span class="keyword">auto</span> output = <a class="code" href="class_m_r_1_1_image.html#af3e84ff9ee40cdffa21ae551848b9573">Image&lt;float&gt;::create</a> (<a class="code" href="namespace_m_r_1_1_app.html#a47e73afc38d3e364e0aab23e78e467f9">argument</a>[2]);</div>
+<div class="line"><span class="keyword">auto</span> output = <a class="code" href="class_m_r_1_1_image.html#a4c1467312b584215ee597cc07fef16cc">Image&lt;float&gt;::create</a> (<a class="code" href="namespace_m_r_1_1_app.html#a47e73afc38d3e364e0aab23e78e467f9">argument</a>[2]);</div>
 <div class="line"><a class="code" href="namespace_m_r.html#acb0801c2d578f591c6cac1a9c6484200">threaded_copy</a> (interp, output);</div>
-</div><!-- fragment --><dl class="section see"><dt>See also</dt><dd><a class="el" href="namespace_m_r_1_1_filter.html#a542e5f3c693bb64bf4eca23468d42e1b" title="convenience function to warp one image onto another">Interp::warp()</a> </dd></dl>
+</div><!-- fragment --><dl class="section see"><dt>See also</dt><dd><a class="el" href="namespace_m_r_1_1_filter.html#a1e725bea7b4521e6d39ed785fac3b95b" title="convenience function to warp one image onto another">Interp::warp()</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="adapter_2warp_8h_source.html#l00050">50</a> of file <a class="el" href="adapter_2warp_8h_source.html">warp.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="adapter_2warp_8h_source.html#l00052">52</a> of file <a class="el" href="adapter_2warp_8h_source.html">warp.h</a>.</p>
 </div><hr/>The documentation for this class was generated from the following file:<ul>
 <li>core/adapter/<a class="el" href="adapter_2warp_8h_source.html">warp.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="aclass_m_r_1_1_image_html_aab488a42d712e19da34e089333c14c15"><div class="ttname"><a href="class_m_r_1_1_image.html#aab488a42d712e19da34e089333c14c15">MR::Image::open</a></div><div class="ttdeci">static Image open(const std::string &amp;image_name, bool read_write_if_existing=false)</div><div class="ttdef"><b>Definition:</b> <a href="image_8h_source.html#l00188">image.h:188</a></div></div>
+<div class="ttc" id="aclass_m_r_1_1_image_html_aab488a42d712e19da34e089333c14c15"><div class="ttname"><a href="class_m_r_1_1_image.html#aab488a42d712e19da34e089333c14c15">MR::Image::open</a></div><div class="ttdeci">static Image open(const std::string &amp;image_name, bool read_write_if_existing=false)</div><div class="ttdef"><b>Definition:</b> <a href="image_8h_source.html#l00189">image.h:189</a></div></div>
 <div class="ttc" id="anamespace_m_r_1_1_app_html_a47e73afc38d3e364e0aab23e78e467f9"><div class="ttname"><a href="namespace_m_r_1_1_app.html#a47e73afc38d3e364e0aab23e78e467f9">MR::App::argument</a></div><div class="ttdeci">vector&lt; ParsedArgument &gt; argument</div><div class="ttdoc">the list of arguments parsed from the command-line</div></div>
-<div class="ttc" id="aclass_m_r_1_1_image_html_af3e84ff9ee40cdffa21ae551848b9573"><div class="ttname"><a href="class_m_r_1_1_image.html#af3e84ff9ee40cdffa21ae551848b9573">MR::Image::create</a></div><div class="ttdeci">static Image create(const std::string &amp;image_name, const Header &amp;template_header)</div><div class="ttdef"><b>Definition:</b> <a href="image_8h_source.html#l00191">image.h:191</a></div></div>
-<div class="ttc" id="anamespace_m_r_html_acb0801c2d578f591c6cac1a9c6484200"><div class="ttname"><a href="namespace_m_r.html#acb0801c2d578f591c6cac1a9c6484200">MR::threaded_copy</a></div><div class="ttdeci">void threaded_copy(InputImageType &amp;source, OutputImageType &amp;destination, const vector&lt; size_t &gt; &amp;axes, size_t num_axes_in_thread=1)</div><div class="ttdef"><b>Definition:</b> <a href="threaded__copy_8h_source.html#l00042">threaded_copy.h:42</a></div></div>
+<div class="ttc" id="aclass_m_r_1_1_image_html_a4c1467312b584215ee597cc07fef16cc"><div class="ttname"><a href="class_m_r_1_1_image.html#a4c1467312b584215ee597cc07fef16cc">MR::Image::create</a></div><div class="ttdeci">static Image create(const std::string &amp;image_name, const Header &amp;template_header, bool add_to_command_history=true)</div><div class="ttdef"><b>Definition:</b> <a href="image_8h_source.html#l00192">image.h:192</a></div></div>
+<div class="ttc" id="anamespace_m_r_html_acb0801c2d578f591c6cac1a9c6484200"><div class="ttname"><a href="namespace_m_r.html#acb0801c2d578f591c6cac1a9c6484200">MR::threaded_copy</a></div><div class="ttdeci">void threaded_copy(InputImageType &amp;source, OutputImageType &amp;destination, const vector&lt; size_t &gt; &amp;axes, size_t num_axes_in_thread=1)</div><div class="ttdef"><b>Definition:</b> <a href="threaded__copy_8h_source.html#l00043">threaded_copy.h:43</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_adapter.html">Adapter</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_adapter_1_1_warp.html">Warp</a></li>
-    <li class="footer">Generated on Mon Apr 13 2020 22:01:55 for MRtrix by
+    <li class="footer">Generated on Wed Apr 22 2020 19:06:15 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

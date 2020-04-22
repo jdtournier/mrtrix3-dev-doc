@@ -1,10 +1,11 @@
 var core_2fixel_2helpers_8h =
 [
     [ "InvalidFixelDirectoryException", "class_m_r_1_1_invalid_fixel_directory_exception.html", "class_m_r_1_1_invalid_fixel_directory_exception" ],
-    [ "check_data_file", "core_2fixel_2helpers_8h.html#a4c770199c1390abe1d65de908701120a", null ],
+    [ "check", "core_2fixel_2helpers_8h.html#a58e93a87dd572e6758d4d938b4f2ae84", null ],
+    [ "check_data_file", "core_2fixel_2helpers_8h.html#a7ac84cd028846c9db7ed3f20cfcf72c9", null ],
     [ "check_fixel_directory", "core_2fixel_2helpers_8h.html#a1f247c0e63e755e6f02261e73a07814d", null ],
     [ "check_fixel_size", "core_2fixel_2helpers_8h.html#a7fe3fde2adb0caf08f95b92e7160279b", null ],
-    [ "check_index_image", "core_2fixel_2helpers_8h.html#adbea2706625ea3d8b2e172c7334311cf", null ],
+    [ "check_index_image", "core_2fixel_2helpers_8h.html#a1b82e6046df6cf6df37a7da07e2ab42f", null ],
     [ "copy_all_data_files", "core_2fixel_2helpers_8h.html#a4f94c55719a6be47565dd1167b50355d", null ],
     [ "copy_directions_file", "core_2fixel_2helpers_8h.html#a633cca756c004179677d7e6fea92575e", null ],
     [ "copy_fixel_file", "core_2fixel_2helpers_8h.html#ae0c74c28ef905ade8ce52bbbe4e31d5d", null ],
@@ -17,9 +18,11 @@ var core_2fixel_2helpers_8h =
     [ "find_index_header", "core_2fixel_2helpers_8h.html#a9f70435567f5fe7561d84aba198ec599", null ],
     [ "fixels_match", "core_2fixel_2helpers_8h.html#a021741f03136fc688322c96fab1c0ba8", null ],
     [ "get_fixel_directory", "core_2fixel_2helpers_8h.html#a23f5fbb4a5f3b63c618a850414e629e6", null ],
-    [ "get_number_of_fixels", "core_2fixel_2helpers_8h.html#ad07cd797204c057b7373c59c351cabf1", null ],
-    [ "is_data_file", "core_2fixel_2helpers_8h.html#aa21e9d655ddcdc588cde861e0fac71eb", null ],
-    [ "is_directions_file", "core_2fixel_2helpers_8h.html#ab71518e23b58fe9a7cc70eb4100cee5c", null ],
-    [ "is_index_image", "core_2fixel_2helpers_8h.html#a8a0769e57d89b124b257790f4a4fd7d4", null ],
+    [ "get_number_of_fixels", "core_2fixel_2helpers_8h.html#ad135580ad383c1b11b0089ebfb9d3b28", null ],
+    [ "is_data_file", "core_2fixel_2helpers_8h.html#ab599b0700f89451dc022b0a985cf6d15", null ],
+    [ "is_directions_file", "core_2fixel_2helpers_8h.html#a642c002bc22193c9011bb4b994dc05c5", null ],
+    [ "is_directions_filename", "core_2fixel_2helpers_8h.html#afd3ad73a2f0e7dfa3a4d6faba4599a70", null ],
+    [ "is_index_filename", "core_2fixel_2helpers_8h.html#a32bcdf0f18ef94166c8557b7969acaf3", null ],
+    [ "is_index_image", "core_2fixel_2helpers_8h.html#a202030e7dc58e817aeae06dc0cd24429", null ],
     [ "open_fixel_data_file", "core_2fixel_2helpers_8h.html#a6b79d88092c2cdc0fa1ba2d63e4f6a4e", null ]
 ];

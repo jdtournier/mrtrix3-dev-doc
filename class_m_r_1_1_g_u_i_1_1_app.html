@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC3_latest-86-gcc3600ed</div>
+   <div id="projectbrief">Version 3.0_RC4-882-gb3b8647f</div>
   </td>
  </tr>
  </tbody>
@@ -105,13 +105,13 @@ Inheritance diagram for MR::GUI::App:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a0d91eafdeecb5dc969aafb27f11d77c7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_g_u_i_1_1_app.html#a0d91eafdeecb5dc969aafb27f11d77c7">App</a> (int &amp;cmdline_argc, char **cmdline_argv)</td></tr>
 <tr class="separator:a0d91eafdeecb5dc969aafb27f11d77c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0c2f3857a205adacb764f7819bb2bc9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_g_u_i_1_1_app.html#ac0c2f3857a205adacb764f7819bb2bc9">~App</a> ()</td></tr>
-<tr class="separator:ac0c2f3857a205adacb764f7819bb2bc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29735daffef01853ec9e9bbb7499fca9"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_g_u_i_1_1_app.html#a29735daffef01853ec9e9bbb7499fca9">event</a> (QEvent *event) override</td></tr>
+<tr class="separator:a29735daffef01853ec9e9bbb7499fca9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:aa7628644ad33d55266f1e253d79d1937"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_g_u_i_1_1_app.html#aa7628644ad33d55266f1e253d79d1937">set_main_window</a> (QWidget *window)</td></tr>
-<tr class="separator:aa7628644ad33d55266f1e253d79d1937"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16eb2ea70227323741d9075678b9030b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_g_u_i_1_1_app.html#a16eb2ea70227323741d9075678b9030b">set_main_window</a> (QWidget *window, <a class="el" href="class_m_r_1_1_g_u_i_1_1_g_l_1_1_area.html">GL::Area</a> *glarea)</td></tr>
+<tr class="separator:a16eb2ea70227323741d9075678b9030b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -122,7 +122,7 @@ Static Public Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="gui_8h_source.html#l00054">54</a> of file <a class="el" href="gui_8h_source.html">gui.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gui_8h_source.html#l00034">34</a> of file <a class="el" href="gui_8h_source.html">gui.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a0d91eafdeecb5dc969aafb27f11d77c7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0d91eafdeecb5dc969aafb27f11d77c7">&#9670;&nbsp;</a></span>App()</h2>
@@ -152,8 +152,9 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ac0c2f3857a205adacb764f7819bb2bc9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac0c2f3857a205adacb764f7819bb2bc9">&#9670;&nbsp;</a></span>~App()</h2>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a29735daffef01853ec9e9bbb7499fca9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29735daffef01853ec9e9bbb7499fca9">&#9670;&nbsp;</a></span>event()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -162,26 +163,24 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">MR::GUI::App::~App </td>
+          <td class="memname">virtual bool MR::GUI::App::event </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">QEvent *&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gui_8h_source.html#l00060">60</a> of file <a class="el" href="gui_8h_source.html">gui.h</a>.</p>
-
 </div>
 </div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="aa7628644ad33d55266f1e253d79d1937"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7628644ad33d55266f1e253d79d1937">&#9670;&nbsp;</a></span>set_main_window()</h2>
+<a id="a16eb2ea70227323741d9075678b9030b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16eb2ea70227323741d9075678b9030b">&#9670;&nbsp;</a></span>set_main_window()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -193,16 +192,28 @@ Static Public Attributes</h2></td></tr>
           <td class="memname">static void MR::GUI::App::set_main_window </td>
           <td>(</td>
           <td class="paramtype">QWidget *&#160;</td>
-          <td class="paramname"><em>window</em></td><td>)</td>
+          <td class="paramname"><em>window</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="class_m_r_1_1_g_u_i_1_1_g_l_1_1_area.html">GL::Area</a> *&#160;</td>
+          <td class="paramname"><em>glarea</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="gui_8h_source.html#l00043">43</a> of file <a class="el" href="gui_8h_source.html">gui.h</a>.</p>
 
 </div>
 </div>
@@ -227,7 +238,7 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gui_8h_source.html#l00067">67</a> of file <a class="el" href="gui_8h_source.html">gui.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gui_8h_source.html#l00049">49</a> of file <a class="el" href="gui_8h_source.html">gui.h</a>.</p>
 
 </div>
 </div>
@@ -251,7 +262,7 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gui_8h_source.html#l00066">66</a> of file <a class="el" href="gui_8h_source.html">gui.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gui_8h_source.html#l00048">48</a> of file <a class="el" href="gui_8h_source.html">gui.h</a>.</p>
 
 </div>
 </div>
@@ -264,7 +275,7 @@ Static Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_g_u_i.html">GUI</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_g_u_i_1_1_app.html">App</a></li>
-    <li class="footer">Generated on Mon Apr 13 2020 22:01:55 for MRtrix by
+    <li class="footer">Generated on Wed Apr 22 2020 19:06:16 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

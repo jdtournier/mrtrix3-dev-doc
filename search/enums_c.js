@@ -1,8 +1,4 @@
 var searchData=
 [
-  ['tck_5fstat_5ft_7380',['tck_stat_t',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping.html#a3fa21a08c7f0bffb34976f520d129275',1,'MR::DWI::Tractography::Mapping']]],
-  ['term_5ft_7381',['term_t',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#a1c30c67185585a9f27b5a581050292f5',1,'MR::DWI::Tractography::Tracking']]],
-  ['trackcolourtype_7382',['TrackColourType',['../namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool.html#aaaad2794ce9a61c10224a1e448785ed7',1,'MR::GUI::MRView::Tool']]],
-  ['trackgeometrytype_7383',['TrackGeometryType',['../namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool.html#a7a0662dcf5a9af8c49e49b53c7b28d3e',1,'MR::GUI::MRView::Tool']]],
-  ['trackthresholdtype_7384',['TrackThresholdType',['../namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool.html#aea5cc47ce98f43fef58488de9f7fd608',1,'MR::GUI::MRView::Tool']]]
+  ['reject_5ft_7890',['reject_t',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#ad956382fab3ffe08fe6398044e9ae01a',1,'MR::DWI::Tractography::Tracking']]]
 ];

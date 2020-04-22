@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC3_latest-86-gcc3600ed</div>
+   <div id="projectbrief">Version 3.0_RC4-882-gb3b8647f</div>
   </td>
  </tr>
  </tbody>
@@ -176,7 +176,7 @@ Additional Inherited Members</h2></td></tr>
 class MR::Interp::SplineInterpBase&lt; ImageType, SplineType, PType &gt;</h3>
 
 <p>This class provides access to the voxel intensities of an image using cubic spline interpolation. </p>
-<p>Interpolation is only performed along the first 3 (spatial) axes. The (integer) position along the remaining axes should be set using the template DataSet class. The spatial coordinates can be set using the functions voxel(), image(), and scanner(). For example: </p><div class="fragment"><div class="line"><span class="keyword">auto</span> input = <a class="code" href="class_m_r_1_1_image.html#af3e84ff9ee40cdffa21ae551848b9573">Image&lt;float&gt;::create</a> (<a class="code" href="namespace_m_r_1_1_app.html#a47e73afc38d3e364e0aab23e78e467f9">argument</a>[0]);</div>
+<p>Interpolation is only performed along the first 3 (spatial) axes. The (integer) position along the remaining axes should be set using the template DataSet class. The spatial coordinates can be set using the functions voxel(), image(), and scanner(). For example: </p><div class="fragment"><div class="line"><span class="keyword">auto</span> input = <a class="code" href="class_m_r_1_1_image.html#a4c1467312b584215ee597cc07fef16cc">Image&lt;float&gt;::create</a> (<a class="code" href="namespace_m_r_1_1_app.html#a47e73afc38d3e364e0aab23e78e467f9">argument</a>[0]);</div>
 <div class="line"> </div>
 <div class="line"><span class="comment">// create an Interp::Cubic object using input as the parent data set:</span></div>
 <div class="line"><a class="code" href="namespace_m_r_1_1_interp.html#a12f10a3b8f086ce2d545047f769ad1fe">Interp::Cubic</a>&lt;decltype(input)&gt; interp (input);</div>
@@ -196,7 +196,7 @@ class MR::Interp::SplineInterpBase&lt; ImageType, SplineType, PType &gt;</h3>
 <div class="line"><span class="keywordtype">float</span> f = input.value();</div>
 <div class="line"><a class="code" href="namespace_m_r.html#a8445ea7a4001a6e8532def9abb86d59e">transform_type</a> M = input.transform(); <span class="comment">// a valid 4x4 transformation matrix</span></div>
 </div><!-- fragment --> 
-<p class="definition">Definition at line <a class="el" href="cubic_8h_source.html#l00071">71</a> of file <a class="el" href="cubic_8h_source.html">cubic.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cubic_8h_source.html#l00072">72</a> of file <a class="el" href="cubic_8h_source.html">cubic.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a96aeb56d7e3a03271ff51954d655bd22"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a96aeb56d7e3a03271ff51954d655bd22">&#9670;&nbsp;</a></span>clamp()</h2>
@@ -234,7 +234,7 @@ template&lt;class ImageType , class SplineType , Math::SplineProcessingType PTyp
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="cubic_8h_source.html#l00084">84</a> of file <a class="el" href="cubic_8h_source.html">cubic.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cubic_8h_source.html#l00085">85</a> of file <a class="el" href="cubic_8h_source.html">cubic.h</a>.</p>
 
 </div>
 </div>
@@ -261,7 +261,7 @@ template&lt;class ImageType , class SplineType , Math::SplineProcessingType PTyp
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="cubic_8h_source.html#l00081">81</a> of file <a class="el" href="cubic_8h_source.html">cubic.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cubic_8h_source.html#l00082">82</a> of file <a class="el" href="cubic_8h_source.html">cubic.h</a>.</p>
 
 </div>
 </div>
@@ -287,7 +287,7 @@ template&lt;class ImageType , class SplineType , Math::SplineProcessingType PTyp
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="cubic_8h_source.html#l00082">82</a> of file <a class="el" href="cubic_8h_source.html">cubic.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cubic_8h_source.html#l00083">83</a> of file <a class="el" href="cubic_8h_source.html">cubic.h</a>.</p>
 
 </div>
 </div>
@@ -297,15 +297,15 @@ template&lt;class ImageType , class SplineType , Math::SplineProcessingType PTyp
 </div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="anamespace_m_r_1_1_app_html_a47e73afc38d3e364e0aab23e78e467f9"><div class="ttname"><a href="namespace_m_r_1_1_app.html#a47e73afc38d3e364e0aab23e78e467f9">MR::App::argument</a></div><div class="ttdeci">vector&lt; ParsedArgument &gt; argument</div><div class="ttdoc">the list of arguments parsed from the command-line</div></div>
-<div class="ttc" id="agroup__spherical__harmonics_html_gac405578b4137cf1c22a0cf646d260b05"><div class="ttname"><a href="group__spherical__harmonics.html#gac405578b4137cf1c22a0cf646d260b05">MR::Math::SH::value</a></div><div class="ttdeci">VectorType::Scalar value(const VectorType &amp;coefs, typename VectorType::Scalar cos_elevation, typename VectorType::Scalar cos_azimuth, typename VectorType::Scalar sin_azimuth, int lmax)</div><div class="ttdef"><b>Definition:</b> <a href="_s_h_8h_source.html#l00196">SH.h:196</a></div></div>
-<div class="ttc" id="anamespace_m_r_html_a8445ea7a4001a6e8532def9abb86d59e"><div class="ttname"><a href="namespace_m_r.html#a8445ea7a4001a6e8532def9abb86d59e">MR::transform_type</a></div><div class="ttdeci">Eigen::Transform&lt; default_type, 3, Eigen::AffineCompact &gt; transform_type</div><div class="ttdoc">the type for the affine transform of an image:</div><div class="ttdef"><b>Definition:</b> <a href="src_2surface_2types_8h_source.html#l00231">types.h:231</a></div></div>
-<div class="ttc" id="anamespace_m_r_1_1_interp_html_a12f10a3b8f086ce2d545047f769ad1fe"><div class="ttname"><a href="namespace_m_r_1_1_interp.html#a12f10a3b8f086ce2d545047f769ad1fe">MR::Interp::Cubic</a></div><div class="ttdeci">SplineInterp&lt; ImageType, Math::HermiteSpline&lt; typename ImageType::value_type &gt;, Math::SplineProcessingType::Value &gt; Cubic</div><div class="ttdef"><b>Definition:</b> <a href="cubic_8h_source.html#l00521">cubic.h:521</a></div></div>
-<div class="ttc" id="aclass_m_r_1_1_image_html_af3e84ff9ee40cdffa21ae551848b9573"><div class="ttname"><a href="class_m_r_1_1_image.html#af3e84ff9ee40cdffa21ae551848b9573">MR::Image::create</a></div><div class="ttdeci">static Image create(const std::string &amp;image_name, const Header &amp;template_header)</div><div class="ttdef"><b>Definition:</b> <a href="image_8h_source.html#l00191">image.h:191</a></div></div>
+<div class="ttc" id="agroup__spherical__harmonics_html_gac405578b4137cf1c22a0cf646d260b05"><div class="ttname"><a href="group__spherical__harmonics.html#gac405578b4137cf1c22a0cf646d260b05">MR::Math::SH::value</a></div><div class="ttdeci">VectorType::Scalar value(const VectorType &amp;coefs, typename VectorType::Scalar cos_elevation, typename VectorType::Scalar cos_azimuth, typename VectorType::Scalar sin_azimuth, int lmax)</div><div class="ttdef"><b>Definition:</b> <a href="_s_h_8h_source.html#l00233">SH.h:233</a></div></div>
+<div class="ttc" id="aclass_m_r_1_1_image_html_a4c1467312b584215ee597cc07fef16cc"><div class="ttname"><a href="class_m_r_1_1_image.html#a4c1467312b584215ee597cc07fef16cc">MR::Image::create</a></div><div class="ttdeci">static Image create(const std::string &amp;image_name, const Header &amp;template_header, bool add_to_command_history=true)</div><div class="ttdef"><b>Definition:</b> <a href="image_8h_source.html#l00192">image.h:192</a></div></div>
+<div class="ttc" id="anamespace_m_r_html_a8445ea7a4001a6e8532def9abb86d59e"><div class="ttname"><a href="namespace_m_r.html#a8445ea7a4001a6e8532def9abb86d59e">MR::transform_type</a></div><div class="ttdeci">Eigen::Transform&lt; default_type, 3, Eigen::AffineCompact &gt; transform_type</div><div class="ttdoc">the type for the affine transform of an image:</div><div class="ttdef"><b>Definition:</b> <a href="src_2surface_2types_8h_source.html#l00234">types.h:234</a></div></div>
+<div class="ttc" id="anamespace_m_r_1_1_interp_html_a12f10a3b8f086ce2d545047f769ad1fe"><div class="ttname"><a href="namespace_m_r_1_1_interp.html#a12f10a3b8f086ce2d545047f769ad1fe">MR::Interp::Cubic</a></div><div class="ttdeci">SplineInterp&lt; ImageType, Math::HermiteSpline&lt; typename ImageType::value_type &gt;, Math::SplineProcessingType::Value &gt; Cubic</div><div class="ttdef"><b>Definition:</b> <a href="cubic_8h_source.html#l00522">cubic.h:522</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_interp.html">Interp</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_interp_1_1_spline_interp_base.html">SplineInterpBase</a></li>
-    <li class="footer">Generated on Mon Apr 13 2020 22:01:56 for MRtrix by
+    <li class="footer">Generated on Wed Apr 22 2020 19:06:16 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

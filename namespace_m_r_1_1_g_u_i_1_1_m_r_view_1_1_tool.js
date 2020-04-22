@@ -3,6 +3,7 @@ var namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool =
     [ "Action", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_action.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_action" ],
     [ "Base", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base" ],
     [ "BaseFixel", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_fixel.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_fixel" ],
+    [ "CameraInteractor", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_camera_interactor.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_camera_interactor" ],
     [ "Capture", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_capture.html", null ],
     [ "ClipPlane", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_clip_plane.html", null ],
     [ "Connectome", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_connectome.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_connectome" ],
@@ -42,5 +43,6 @@ var namespace_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool =
     [ "TrackScalarFileOptions", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file_options.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_track_scalar_file_options" ],
     [ "Tractogram", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractogram.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractogram" ],
     [ "Tractography", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_tractography" ],
+    [ "Transform", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform" ],
     [ "View", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_view.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_view" ]
 ];

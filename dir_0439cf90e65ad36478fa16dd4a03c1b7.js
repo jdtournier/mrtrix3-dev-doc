@@ -14,6 +14,7 @@ var dir_0439cf90e65ad36478fa16dd4a03c1b7 =
     [ "pipe.h", "pipe_8h.html", [
       [ "Pipe", "class_m_r_1_1_image_i_o_1_1_pipe.html", "class_m_r_1_1_image_i_o_1_1_pipe" ]
     ] ],
+    [ "png.h", "image__io_2png_8h.html", null ],
     [ "ram.h", "ram_8h.html", [
       [ "RAM", "class_m_r_1_1_image_i_o_1_1_r_a_m.html", "class_m_r_1_1_image_i_o_1_1_r_a_m" ]
     ] ],
@@ -23,5 +24,9 @@ var dir_0439cf90e65ad36478fa16dd4a03c1b7 =
     [ "sparse.h", "sparse_8h.html", [
       [ "SparseLegacy", "class_m_r_1_1_image_i_o_1_1_sparse_legacy.html", "class_m_r_1_1_image_i_o_1_1_sparse_legacy" ]
     ] ],
-    [ "tiff.h", "image__io_2tiff_8h.html", null ]
+    [ "tiff.h", "image__io_2tiff_8h.html", null ],
+    [ "variable_scaling.h", "variable__scaling_8h.html", [
+      [ "VariableScaling", "class_m_r_1_1_image_i_o_1_1_variable_scaling.html", "class_m_r_1_1_image_i_o_1_1_variable_scaling" ],
+      [ "ScaleFactor", "class_m_r_1_1_image_i_o_1_1_variable_scaling_1_1_scale_factor.html", "class_m_r_1_1_image_i_o_1_1_variable_scaling_1_1_scale_factor" ]
+    ] ]
 ];

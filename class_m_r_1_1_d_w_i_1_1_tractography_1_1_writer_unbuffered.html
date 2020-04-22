@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC3_latest-86-gcc3600ed</div>
+   <div id="projectbrief">Version 3.0_RC4-882-gb3b8647f</div>
   </td>
  </tr>
  </tbody>
@@ -166,7 +166,7 @@ class MR::DWI::Tractography::WriterUnbuffered&lt; ValueType &gt;</h3>
 <p>writes track header as specified in <em>properties</em> and individual tracks to the file specified in <em>file</em>. Writing individual tracks is done using the operator() method.</p>
 <p>This class re-opens the output file every time a new streamline is written. This may result in slow operation in some circumstances, and may lead to fragmentation on some file systems, but is necessary in use cases where a very large number of track files are being written at once. For most applications (where typically one track file is written at a time), the <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer.html" title="class to handle writing tracks to file, with RAM buffer">Writer</a> class is more appropriate. </p>
 
-<p class="definition">Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00212">212</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00204">204</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="ab36628e486a3b5bc375fa42ad1ff88be"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab36628e486a3b5bc375fa42ad1ff88be">&#9670;&nbsp;</a></span>vector_type</h2>
@@ -182,7 +182,7 @@ template&lt;class ValueType  = float&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00224">224</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00216">216</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
 
 </div>
 </div>
@@ -225,7 +225,7 @@ template&lt;class ValueType  = float&gt; </div>
 
 <p>create a new track file with the specified properties </p>
 
-<p class="definition">Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00227">227</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00219">219</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
 
 </div>
 </div>
@@ -287,7 +287,7 @@ template&lt;class ValueType  = float&gt; </div>
 
 <p>indicates end of data </p>
 
-<p class="definition">Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00295">295</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00288">288</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
 
 </div>
 </div>
@@ -330,7 +330,7 @@ template&lt;class ValueType  = float&gt; </div>
 <p>write track point data to file </p>
 <dl class="section note"><dt>Note</dt><dd><code>buffer</code> needs to be greater than <code>num_points</code> by one element to add the barrier. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00318">318</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00311">311</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
 
 </div>
 </div>
@@ -361,7 +361,7 @@ template&lt;class ValueType  = float&gt; </div>
 
 <p>indicates end of track and start of new track </p>
 
-<p class="definition">Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00293">293</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00286">286</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
 
 </div>
 </div>
@@ -403,7 +403,7 @@ template&lt;class ValueType  = float&gt; </div>
 
 <p>perform per-point byte-swapping if required </p>
 
-<p class="definition">Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00298">298</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00291">291</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
 
 </div>
 </div>
@@ -435,7 +435,7 @@ template&lt;class ValueType  = float&gt; </div>
 
 <p>append track to file </p>
 
-<p class="definition">Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00259">259</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00252">252</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
 
 </div>
 </div>
@@ -467,7 +467,7 @@ template&lt;class ValueType  = float&gt; </div>
 
 <p>set the path to the track weights </p>
 
-<p class="definition">Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00280">280</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00273">273</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
 
 </div>
 </div>
@@ -499,7 +499,7 @@ template&lt;class ValueType  = float&gt; </div>
 
 <p>write track weights data to file </p>
 
-<p class="definition">Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00307">307</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00300">300</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
 
 </div>
 </div>
@@ -526,7 +526,7 @@ template&lt;class ValueType  = float&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00290">290</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00283">283</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
 
 </div>
 </div>
@@ -552,7 +552,7 @@ template&lt;class ValueType  = float&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00289">289</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dwi_2tractography_2file_8h_source.html#l00282">282</a> of file <a class="el" href="dwi_2tractography_2file_8h_source.html">file.h</a>.</p>
 
 </div>
 </div>
@@ -565,7 +565,7 @@ template&lt;class ValueType  = float&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_d_w_i.html">DWI</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_d_w_i_1_1_tractography.html">Tractography</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer_unbuffered.html">WriterUnbuffered</a></li>
-    <li class="footer">Generated on Mon Apr 13 2020 22:01:55 for MRtrix by
+    <li class="footer">Generated on Wed Apr 22 2020 19:06:15 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

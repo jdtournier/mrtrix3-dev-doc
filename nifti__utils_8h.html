@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC3_latest-86-gcc3600ed</div>
+   <div id="projectbrief">Version 3.0_RC4-882-gb3b8647f</div>
   </td>
  </tr>
  </tbody>
@@ -92,6 +92,11 @@ $(document).ready(function(){initNavTree('nifti__utils_8h.html',''); initResizab
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;types.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="raw_8h_source.html">raw.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="header_8h_source.html">header.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="config_8h_source.html">file/config.h</a>&quot;</code><br />
+<code>#include &quot;file/nifti1.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="nifti2_8h_source.html">file/nifti2.h</a>&quot;</code><br />
 </div>
 <p><a href="nifti__utils_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -108,10 +113,24 @@ Namespaces</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:ae5cb54ed490b9eb45e9fc65738030fb8"><td class="memItemLeft" align="right" valign="top">transform_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_file_1_1_n_if_t_i.html#ae5cb54ed490b9eb45e9fc65738030fb8">MR::File::NIfTI::adjust_transform</a> (const Header &amp;<a class="el" href="noise__estimator_8h.html#aaebed747e975509a9b8470c6d7ba93b3">H</a>, vector&lt; size_t &gt; &amp;order)</td></tr>
 <tr class="separator:ae5cb54ed490b9eb45e9fc65738030fb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba4beeea54d587983247772634470123"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_file_1_1_n_if_t_i.html#aba4beeea54d587983247772634470123">MR::File::NIfTI::check</a> (Header &amp;<a class="el" href="noise__estimator_8h.html#aaebed747e975509a9b8470c6d7ba93b3">H</a>, const bool is_analyse)</td></tr>
-<tr class="separator:aba4beeea54d587983247772634470123"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5de35b2b33baa1a9be87257d11f73467"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_file_1_1_n_if_t_i.html#a5de35b2b33baa1a9be87257d11f73467">MR::File::NIfTI::version</a> (Header &amp;<a class="el" href="noise__estimator_8h.html#aaebed747e975509a9b8470c6d7ba93b3">H</a>)</td></tr>
-<tr class="separator:a5de35b2b33baa1a9be87257d11f73467"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa0fdb7b8cb97b3ffc82b2b8f2c8b98e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_file_1_1_n_if_t_i.html#aaa0fdb7b8cb97b3ffc82b2b8f2c8b98e">MR::File::NIfTI::check</a> (int VERSION, Header &amp;<a class="el" href="noise__estimator_8h.html#aaebed747e975509a9b8470c6d7ba93b3">H</a>, const size_t num_axes, const vector&lt; std::string &gt; &amp;suffixes)</td></tr>
+<tr class="separator:aaa0fdb7b8cb97b3ffc82b2b8f2c8b98e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acceafddcee2cf898b9c35992c1a7e1e7"><td class="memTemplParams" colspan="2">template&lt;int VERSION&gt; </td></tr>
+<tr class="memitem:acceafddcee2cf898b9c35992c1a7e1e7"><td class="memTemplItemLeft" align="right" valign="top">std::unique_ptr&lt; ImageIO::Base &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_file_1_1_n_if_t_i.html#acceafddcee2cf898b9c35992c1a7e1e7">MR::File::NIfTI::read</a> (Header &amp;<a class="el" href="noise__estimator_8h.html#aaebed747e975509a9b8470c6d7ba93b3">H</a>)</td></tr>
+<tr class="separator:acceafddcee2cf898b9c35992c1a7e1e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0944ff22e2b525834d28cecf92386b9"><td class="memTemplParams" colspan="2">template&lt;int VERSION&gt; </td></tr>
+<tr class="memitem:aa0944ff22e2b525834d28cecf92386b9"><td class="memTemplItemLeft" align="right" valign="top">std::unique_ptr&lt; ImageIO::Base &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_file_1_1_n_if_t_i.html#aa0944ff22e2b525834d28cecf92386b9">MR::File::NIfTI::read_gz</a> (Header &amp;<a class="el" href="noise__estimator_8h.html#aaebed747e975509a9b8470c6d7ba93b3">H</a>)</td></tr>
+<tr class="separator:aa0944ff22e2b525834d28cecf92386b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af381c749013b6185e0ca61649657705c"><td class="memTemplParams" colspan="2">template&lt;int VERSION&gt; </td></tr>
+<tr class="memitem:af381c749013b6185e0ca61649657705c"><td class="memTemplItemLeft" align="right" valign="top">std::unique_ptr&lt; ImageIO::Base &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_file_1_1_n_if_t_i.html#af381c749013b6185e0ca61649657705c">MR::File::NIfTI::create</a> (Header &amp;<a class="el" href="noise__estimator_8h.html#aaebed747e975509a9b8470c6d7ba93b3">H</a>)</td></tr>
+<tr class="separator:af381c749013b6185e0ca61649657705c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2fbcc265a70f300cc6d58d6f3a2ba91"><td class="memTemplParams" colspan="2">template&lt;int VERSION&gt; </td></tr>
+<tr class="memitem:ac2fbcc265a70f300cc6d58d6f3a2ba91"><td class="memTemplItemLeft" align="right" valign="top">std::unique_ptr&lt; ImageIO::Base &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_file_1_1_n_if_t_i.html#ac2fbcc265a70f300cc6d58d6f3a2ba91">MR::File::NIfTI::create_gz</a> (Header &amp;<a class="el" href="noise__estimator_8h.html#aaebed747e975509a9b8470c6d7ba93b3">H</a>)</td></tr>
+<tr class="separator:ac2fbcc265a70f300cc6d58d6f3a2ba91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac89e3df84a1e06b5be2b4636c69c44d3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_file_1_1_n_if_t_i.html#ac89e3df84a1e06b5be2b4636c69c44d3">MR::File::NIfTI::version</a> (Header &amp;<a class="el" href="noise__estimator_8h.html#aaebed747e975509a9b8470c6d7ba93b3">H</a>)</td></tr>
+<tr class="separator:ac89e3df84a1e06b5be2b4636c69c44d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e84c471a247bd483ec81dde064406c6"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_file_1_1_n_if_t_i.html#a7e84c471a247bd483ec81dde064406c6">MR::File::NIfTI::get_json_path</a> (const std::string &amp;nifti_path)</td></tr>
+<tr class="separator:a7e84c471a247bd483ec81dde064406c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -124,7 +143,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4270bfced15e0e73154b13468c7c9ad9.html">core</a></li><li class="navelem"><a class="el" href="dir_3cf79a01c77d233dd5dadaf9c60ce692.html">file</a></li><li class="navelem"><a class="el" href="nifti__utils_8h.html">nifti_utils.h</a></li>
-    <li class="footer">Generated on Mon Apr 13 2020 22:01:54 for MRtrix by
+    <li class="footer">Generated on Wed Apr 22 2020 19:06:14 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

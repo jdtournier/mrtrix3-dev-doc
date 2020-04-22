@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC3_latest-86-gcc3600ed</div>
+   <div id="projectbrief">Version 3.0_RC4-882-gb3b8647f</div>
   </td>
  </tr>
  </tbody>
@@ -138,18 +138,18 @@ Functions</h2></td></tr>
 <tr class="memitem:ga0f607ce91002c91228d8d17709ad0d5e"><td class="memTemplItemLeft" align="right" valign="top">__Batch&lt; Item &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__thread__queue.html#ga0f607ce91002c91228d8d17709ad0d5e">MR::Thread::batch</a> (const Item &amp;, size_t number=128)</td></tr>
 <tr class="memdesc:ga0f607ce91002c91228d8d17709ad0d5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">used to request batched processing of items  <a href="group__thread__queue.html#ga0f607ce91002c91228d8d17709ad0d5e">More...</a><br /></td></tr>
 <tr class="separator:ga0f607ce91002c91228d8d17709ad0d5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaad717471c1771f5e794d0d8907cc3efc"><td class="memTemplParams" colspan="2">template&lt;class Source , class Type , class Sink &gt; </td></tr>
-<tr class="memitem:gaad717471c1771f5e794d0d8907cc3efc"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__thread__queue.html#gaad717471c1771f5e794d0d8907cc3efc">MR::Thread::run_queue</a> (Source &amp;&amp;source, const Type &amp;item_type, Sink &amp;&amp;sink, size_t capacity=128)</td></tr>
-<tr class="memdesc:gaad717471c1771f5e794d0d8907cc3efc"><td class="mdescLeft">&#160;</td><td class="mdescRight">convenience function to set up and run a 2-stage multi-threaded pipeline.  <a href="group__thread__queue.html#gaad717471c1771f5e794d0d8907cc3efc">More...</a><br /></td></tr>
-<tr class="separator:gaad717471c1771f5e794d0d8907cc3efc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gafc6cce63581cb9be1e2e0c0910efb66b"><td class="memTemplParams" colspan="2">template&lt;class Source , class Type1 , class Pipe , class Type2 , class Sink &gt; </td></tr>
-<tr class="memitem:gafc6cce63581cb9be1e2e0c0910efb66b"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__thread__queue.html#gafc6cce63581cb9be1e2e0c0910efb66b">MR::Thread::run_queue</a> (Source &amp;&amp;source, const Type1 &amp;item_type1, Pipe &amp;&amp;pipe, const Type2 &amp;item_type2, Sink &amp;&amp;sink, size_t capacity=128)</td></tr>
-<tr class="memdesc:gafc6cce63581cb9be1e2e0c0910efb66b"><td class="mdescLeft">&#160;</td><td class="mdescRight">convenience functions to set up and run a 3-stage multi-threaded pipeline.  <a href="group__thread__queue.html#gafc6cce63581cb9be1e2e0c0910efb66b">More...</a><br /></td></tr>
-<tr class="separator:gafc6cce63581cb9be1e2e0c0910efb66b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1ccafaf26b4312b34de4da1ac0dfbf6f"><td class="memTemplParams" colspan="2">template&lt;class Source , class Type1 , class Pipe1 , class Type2 , class Pipe2 , class Type3 , class Sink &gt; </td></tr>
-<tr class="memitem:ga1ccafaf26b4312b34de4da1ac0dfbf6f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__thread__queue.html#ga1ccafaf26b4312b34de4da1ac0dfbf6f">MR::Thread::run_queue</a> (Source &amp;&amp;source, const Type1 &amp;item_type1, Pipe1 &amp;&amp;pipe1, const Type2 &amp;item_type2, Pipe2 &amp;&amp;pipe2, const Type3 &amp;item_type3, Sink &amp;&amp;sink, size_t capacity=128)</td></tr>
-<tr class="memdesc:ga1ccafaf26b4312b34de4da1ac0dfbf6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">convenience functions to set up and run a 4-stage multi-threaded pipeline.  <a href="group__thread__queue.html#ga1ccafaf26b4312b34de4da1ac0dfbf6f">More...</a><br /></td></tr>
-<tr class="separator:ga1ccafaf26b4312b34de4da1ac0dfbf6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga379ecfe538318b967e6d6fc74ab61b11"><td class="memTemplParams" colspan="2">template&lt;class Source , class Item , class Sink &gt; </td></tr>
+<tr class="memitem:ga379ecfe538318b967e6d6fc74ab61b11"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__thread__queue.html#ga379ecfe538318b967e6d6fc74ab61b11">MR::Thread::run_queue</a> (Source &amp;&amp;source, const Item &amp;<a class="el" href="ordered__thread__queue_8h.html#a372a2aab9def10f1f1a04135b1e949d8">item</a>, Sink &amp;&amp;sink, size_t capacity=128)</td></tr>
+<tr class="memdesc:ga379ecfe538318b967e6d6fc74ab61b11"><td class="mdescLeft">&#160;</td><td class="mdescRight">convenience function to set up and run a 2-stage multi-threaded pipeline.  <a href="group__thread__queue.html#ga379ecfe538318b967e6d6fc74ab61b11">More...</a><br /></td></tr>
+<tr class="separator:ga379ecfe538318b967e6d6fc74ab61b11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga77ad4e886a8d05904e9ef2d4beba621b"><td class="memTemplParams" colspan="2">template&lt;class Source , class Item1 , class Pipe , class Item2 , class Sink &gt; </td></tr>
+<tr class="memitem:ga77ad4e886a8d05904e9ef2d4beba621b"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__thread__queue.html#ga77ad4e886a8d05904e9ef2d4beba621b">MR::Thread::run_queue</a> (Source &amp;&amp;source, const Item1 &amp;item1, Pipe &amp;&amp;pipe, const Item2 &amp;item2, Sink &amp;&amp;sink, size_t capacity=128)</td></tr>
+<tr class="memdesc:ga77ad4e886a8d05904e9ef2d4beba621b"><td class="mdescLeft">&#160;</td><td class="mdescRight">convenience functions to set up and run a 3-stage multi-threaded pipeline.  <a href="group__thread__queue.html#ga77ad4e886a8d05904e9ef2d4beba621b">More...</a><br /></td></tr>
+<tr class="separator:ga77ad4e886a8d05904e9ef2d4beba621b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9952d15c6bbdf026520cfa654bbd090f"><td class="memTemplParams" colspan="2">template&lt;class Source , class Item1 , class Pipe1 , class Item2 , class Pipe2 , class Item3 , class Sink &gt; </td></tr>
+<tr class="memitem:ga9952d15c6bbdf026520cfa654bbd090f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__thread__queue.html#ga9952d15c6bbdf026520cfa654bbd090f">MR::Thread::run_queue</a> (Source &amp;&amp;source, const Item1 &amp;item1, Pipe1 &amp;&amp;pipe1, const Item2 &amp;item2, Pipe2 &amp;&amp;pipe2, const Item3 &amp;item3, Sink &amp;&amp;sink, size_t capacity=128)</td></tr>
+<tr class="memdesc:ga9952d15c6bbdf026520cfa654bbd090f"><td class="mdescLeft">&#160;</td><td class="mdescRight">convenience functions to set up and run a 4-stage multi-threaded pipeline.  <a href="group__thread__queue.html#ga9952d15c6bbdf026520cfa654bbd090f">More...</a><br /></td></tr>
+<tr class="separator:ga9952d15c6bbdf026520cfa654bbd090f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a62376d0ebde62dc99133121cec75e9bf"></a>
@@ -164,7 +164,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00027">27</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00028">28</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
 
 </div>
 </div>
@@ -180,7 +180,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00026">26</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="thread__queue_8h_source.html#l00027">27</a> of file <a class="el" href="thread__queue_8h_source.html">thread_queue.h</a>.</p>
 
 </div>
 </div>
@@ -190,7 +190,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4270bfced15e0e73154b13468c7c9ad9.html">core</a></li><li class="navelem"><a class="el" href="thread__queue_8h.html">thread_queue.h</a></li>
-    <li class="footer">Generated on Mon Apr 13 2020 22:01:54 for MRtrix by
+    <li class="footer">Generated on Wed Apr 22 2020 19:06:14 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

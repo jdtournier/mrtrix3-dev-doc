@@ -50,7 +50,7 @@ var class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_render_frame =
     [ "lod_computed", "class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_render_frame.html#a4fc46af86bfe3369d91560d11f07bfcb", null ],
     [ "mode", "class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_render_frame.html#a8cb14cfc731328ea34d43397745b571e", null ],
     [ "normalise", "class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_render_frame.html#abce4806eacbaa50c0d288cff287fde91", null ],
-    [ "orientation", "class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_render_frame.html#a260d5a63c93e220a093f0b2525b71917", null ],
+    [ "orientation", "class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_render_frame.html#a85c7140e2700d8c6420d3543b9f21e9b", null ],
     [ "OS", "class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_render_frame.html#a6bfb43c8bb0d28afc9e587c627a49689", null ],
     [ "OS_x", "class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_render_frame.html#a2ec29fc0b1243cc2a492652c206d0387", null ],
     [ "OS_y", "class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_render_frame.html#a9989409302c6ee94834d81905644c955", null ],

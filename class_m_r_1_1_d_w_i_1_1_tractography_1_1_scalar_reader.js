@@ -4,5 +4,5 @@ var class_m_r_1_1_d_w_i_1_1_tractography_1_1_scalar_reader =
     [ "ScalarReader", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_scalar_reader.html#a5558cacc7de343ee0e8ee045e7a355c9", null ],
     [ "ScalarReader", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_scalar_reader.html#add1e9d707d6aaba7eb96dc48a28e624a", null ],
     [ "get_next_scalar", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_scalar_reader.html#af9a1ebca1117aac49d8846a8047adfaa", null ],
-    [ "operator()", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_scalar_reader.html#aaad68a9da700018daa550bb38311a3da", null ]
+    [ "operator()", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_scalar_reader.html#a68152b5527592296ada2a8222bb2c633", null ]
 ];

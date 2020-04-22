@@ -2,7 +2,7 @@ var class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i =
 [
     [ "dropEvent", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html#aab906934d540da9ac352da7fad387a57", null ],
     [ "load", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html#ae6f54ef1232e9432495fbc21a0972422", null ],
-    [ "normal2axis", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html#acb43ce0e65881beb410705ac01933987", null ],
+    [ "normal2axis", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html#ad7b6b339f74028ecc903619c96b77513", null ],
     [ "save", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html#a2412200ab9d811e3c34be71ccaaac71c", null ],
     [ "update_undo_redo", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html#a0c50cbbba08c4f98f1755a67fd27fec7", null ],
     [ "updateGL", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html#a3606810ac800af077f9cfd710273e4d2", null ],

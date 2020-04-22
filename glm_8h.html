@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC3_latest-86-gcc3600ed</div>
+   <div id="projectbrief">Version 3.0_RC4-882-gb3b8647f</div>
   </td>
  </tr>
  </tbody>
@@ -86,19 +86,36 @@ $(document).ready(function(){initNavTree('glm_8h.html',''); initResizable(); });
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">glm.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="least__squares_8h_source.html">math/least_squares.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="app_8h_source.html">app.h</a>&quot;</code><br />
+<code>#include &quot;types.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="condition__number_8h_source.html">math/condition_number.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="least__squares_8h_source.html">math/least_squares.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="zstatistic_8h_source.html">math/zstatistic.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="import_8h_source.html">math/stats/import.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="typedefs_8h_source.html">math/stats/typedefs.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="bitset_8h_source.html">misc/bitset.h</a>&quot;</code><br />
 </div>
 <p><a href="glm_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_stats_1_1_g_l_m_t_test.html">MR::Math::Stats::GLMTTest</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_stats_1_1_g_l_m_1_1_hypothesis.html">MR::Math::Stats::GLM::Hypothesis</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_stats_1_1_g_l_m_1_1_test_base.html">MR::Math::Stats::GLM::TestBase</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_stats_1_1_g_l_m_1_1_test_fixed_homoscedastic.html">MR::Math::Stats::GLM::TestFixedHomoscedastic</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_stats_1_1_g_l_m_1_1_test_fixed_heteroscedastic.html">MR::Math::Stats::GLM::TestFixedHeteroscedastic</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_stats_1_1_g_l_m_1_1_test_variable_homoscedastic.html">MR::Math::Stats::GLM::TestVariableHomoscedastic</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_math_1_1_stats_1_1_g_l_m_1_1_test_variable_heteroscedastic.html">MR::Math::Stats::GLM::TestVariableHeteroscedastic</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -114,20 +131,37 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a271c2320c40cde1a7b2d8d7405317ee0"><td class="memItemLeft" align="right" valign="top">matrix_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_math_1_1_stats_1_1_g_l_m.html#a271c2320c40cde1a7b2d8d7405317ee0">MR::Math::Stats::GLM::scale_contrasts</a> (const matrix_type &amp;contrasts, const matrix_type &amp;design, const size_t degrees_of_freedom)</td></tr>
-<tr class="memdesc:a271c2320c40cde1a7b2d8d7405317ee0"><td class="mdescLeft">&#160;</td><td class="mdescRight">scale contrasts for use in t-test  <a href="namespace_m_r_1_1_math_1_1_stats_1_1_g_l_m.html#a271c2320c40cde1a7b2d8d7405317ee0">More...</a><br /></td></tr>
-<tr class="separator:a271c2320c40cde1a7b2d8d7405317ee0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a402b1c51d1c2f7b27f803ee8e942d4c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_math_1_1_stats_1_1_g_l_m.html#a402b1c51d1c2f7b27f803ee8e942d4c5">MR::Math::Stats::GLM::ttest</a> (matrix_type &amp;tvalues, const matrix_type &amp;design, const matrix_type &amp;pinv_design, const matrix_type &amp;measurements, const matrix_type &amp;scaled_contrasts, matrix_type &amp;betas, matrix_type &amp;residuals)</td></tr>
-<tr class="memdesc:a402b1c51d1c2f7b27f803ee8e942d4c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">generic <a class="el" href="namespace_m_r_1_1_math_1_1_stats_1_1_g_l_m.html">GLM</a> t-test  <a href="namespace_m_r_1_1_math_1_1_stats_1_1_g_l_m.html#a402b1c51d1c2f7b27f803ee8e942d4c5">More...</a><br /></td></tr>
-<tr class="separator:a402b1c51d1c2f7b27f803ee8e942d4c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2307c4d140641b7a454a31653b88fae"><td class="memItemLeft" align="right" valign="top">App::OptionGroup&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_math_1_1_stats_1_1_g_l_m.html#aa2307c4d140641b7a454a31653b88fae">MR::Math::Stats::GLM::glm_options</a> (const std::string &amp;element_name)</td></tr>
+<tr class="separator:aa2307c4d140641b7a454a31653b88fae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4292fd67e02b01b714640afbf9408583"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_math_1_1_stats_1_1_g_l_m.html#a4292fd67e02b01b714640afbf9408583">MR::Math::Stats::GLM::check_design</a> (const matrix_type &amp;, const bool)</td></tr>
+<tr class="separator:a4292fd67e02b01b714640afbf9408583"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52b1f07e5b1f7d34f004f6e7ae442116"><td class="memItemLeft" align="right" valign="top">index_array_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_math_1_1_stats_1_1_g_l_m.html#a52b1f07e5b1f7d34f004f6e7ae442116">MR::Math::Stats::GLM::load_variance_groups</a> (const size_t num_inputs)</td></tr>
+<tr class="separator:a52b1f07e5b1f7d34f004f6e7ae442116"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10e3509814245173b8e72548e8732839"><td class="memItemLeft" align="right" valign="top">vector&lt; Hypothesis &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_math_1_1_stats_1_1_g_l_m.html#a10e3509814245173b8e72548e8732839">MR::Math::Stats::GLM::load_hypotheses</a> (const std::string &amp;file_path)</td></tr>
+<tr class="separator:a10e3509814245173b8e72548e8732839"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga845666d29619462609302b219953022c"><td class="memItemLeft" align="right" valign="top">matrix_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___statistics.html#ga845666d29619462609302b219953022c">MR::Math::Stats::GLM::solve_betas</a> (const matrix_type &amp;measurements, const matrix_type &amp;design)</td></tr>
 <tr class="separator:ga845666d29619462609302b219953022c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa1423ce86ca3e337c908585889b3e608"><td class="memItemLeft" align="right" valign="top">matrix_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___statistics.html#gaa1423ce86ca3e337c908585889b3e608">MR::Math::Stats::GLM::abs_effect_size</a> (const matrix_type &amp;measurements, const matrix_type &amp;design, const matrix_type &amp;contrast)</td></tr>
-<tr class="separator:gaa1423ce86ca3e337c908585889b3e608"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa47890daa62c7abc29c500639cf60eac"><td class="memItemLeft" align="right" valign="top">vector_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___statistics.html#gaa47890daa62c7abc29c500639cf60eac">MR::Math::Stats::GLM::abs_effect_size</a> (const matrix_type &amp;measurements, const matrix_type &amp;design, const Hypothesis &amp;hypothesis)</td></tr>
+<tr class="separator:gaa47890daa62c7abc29c500639cf60eac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga091ec18190b7a90d51a71b7979b440f7"><td class="memItemLeft" align="right" valign="top">matrix_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___statistics.html#ga091ec18190b7a90d51a71b7979b440f7">MR::Math::Stats::GLM::abs_effect_size</a> (const matrix_type &amp;measurements, const matrix_type &amp;design, const vector&lt; Hypothesis &gt; &amp;hypotheses)</td></tr>
+<tr class="separator:ga091ec18190b7a90d51a71b7979b440f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gabb3e9dfaf5d8beca09b08977a3a9eaa3"><td class="memItemLeft" align="right" valign="top">matrix_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___statistics.html#gabb3e9dfaf5d8beca09b08977a3a9eaa3">MR::Math::Stats::GLM::stdev</a> (const matrix_type &amp;measurements, const matrix_type &amp;design)</td></tr>
 <tr class="separator:gabb3e9dfaf5d8beca09b08977a3a9eaa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabd2ec2a03b33239f336eb21a0834d6c4"><td class="memItemLeft" align="right" valign="top">matrix_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___statistics.html#gabd2ec2a03b33239f336eb21a0834d6c4">MR::Math::Stats::GLM::std_effect_size</a> (const matrix_type &amp;measurements, const matrix_type &amp;design, const matrix_type &amp;contrast)</td></tr>
-<tr class="separator:gabd2ec2a03b33239f336eb21a0834d6c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga91403a6f4eafd5127d974413acdb3a5b"><td class="memItemLeft" align="right" valign="top">matrix_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___statistics.html#ga91403a6f4eafd5127d974413acdb3a5b">MR::Math::Stats::GLM::stdev</a> (const matrix_type &amp;measurements, const matrix_type &amp;design, const index_array_type &amp;variance_groups)</td></tr>
+<tr class="separator:ga91403a6f4eafd5127d974413acdb3a5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf884d6f76189a27adc5865bb80345656"><td class="memItemLeft" align="right" valign="top">vector_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___statistics.html#gaf884d6f76189a27adc5865bb80345656">MR::Math::Stats::GLM::std_effect_size</a> (const matrix_type &amp;measurements, const matrix_type &amp;design, const Hypothesis &amp;hypothesis)</td></tr>
+<tr class="separator:gaf884d6f76189a27adc5865bb80345656"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga548db0364c011d1afc423678f8e52a25"><td class="memItemLeft" align="right" valign="top">matrix_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___statistics.html#ga548db0364c011d1afc423678f8e52a25">MR::Math::Stats::GLM::std_effect_size</a> (const matrix_type &amp;measurements, const matrix_type &amp;design, const vector&lt; Hypothesis &gt; &amp;hypotheses)</td></tr>
+<tr class="separator:ga548db0364c011d1afc423678f8e52a25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga340d3f3a0ae46db9e0460b1b4173ea1f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___statistics.html#ga340d3f3a0ae46db9e0460b1b4173ea1f">MR::Math::Stats::GLM::all_stats</a> (const matrix_type &amp;measurements, const matrix_type &amp;design, const vector&lt; Hypothesis &gt; &amp;hypotheses, const index_array_type &amp;variance_groups, matrix_type &amp;betas, matrix_type &amp;abs_effect_size, matrix_type &amp;std_effect_size, matrix_type &amp;stdev)</td></tr>
+<tr class="separator:ga340d3f3a0ae46db9e0460b1b4173ea1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga14f5205a2ab33d597e49b273e5c0b976"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___statistics.html#ga14f5205a2ab33d597e49b273e5c0b976">MR::Math::Stats::GLM::all_stats</a> (const matrix_type &amp;measurements, const matrix_type &amp;design, const vector&lt; CohortDataImport &gt; &amp;extra_columns, const vector&lt; Hypothesis &gt; &amp;hypotheses, const index_array_type &amp;variance_groups, vector_type &amp;cond, matrix_type &amp;betas, matrix_type &amp;abs_effect_size, matrix_type &amp;std_effect_size, matrix_type &amp;stdev)</td></tr>
+<tr class="separator:ga14f5205a2ab33d597e49b273e5c0b976"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a34a142ff0ecfc54059ee355dca4aae91"><td class="memItemLeft" align="right" valign="top">const char *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_math_1_1_stats_1_1_g_l_m.html#a34a142ff0ecfc54059ee355dca4aae91">MR::Math::Stats::GLM::column_ones_description</a></td></tr>
+<tr class="separator:a34a142ff0ecfc54059ee355dca4aae91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -135,7 +169,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4270bfced15e0e73154b13468c7c9ad9.html">core</a></li><li class="navelem"><a class="el" href="dir_e07ac01d65d17e829451634057f91345.html">math</a></li><li class="navelem"><a class="el" href="dir_b215b5c6e9d4b30871ba33d3063c71d6.html">stats</a></li><li class="navelem"><a class="el" href="glm_8h.html">glm.h</a></li>
-    <li class="footer">Generated on Mon Apr 13 2020 22:01:54 for MRtrix by
+    <li class="footer">Generated on Wed Apr 22 2020 19:06:14 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

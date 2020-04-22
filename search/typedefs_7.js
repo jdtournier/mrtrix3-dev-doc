@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['nifti_5f2_5fheader_7323',['nifti_2_header',['../nifti2_8h.html#adf89e3caf005cd3ca829b5fad2c3274e',1,'nifti2.h']]],
-  ['node_5ft_7324',['node_t',['../namespace_m_r_1_1_connectome.html#a23a914dedfa39663090d29972eb3950a',1,'MR::Connectome::node_t()'],['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome.html#a8c7b2504ca8d27e380264dcc142e2e74',1,'MR::DWI::Tractography::Connectome::node_t()']]],
-  ['nodepair_7325',['NodePair',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome.html#a25ce9f433c45fcf7c5d0adf8f69079c4',1,'MR::DWI::Tractography::Connectome']]],
-  ['norm_5fconnectivity_5fmatrix_5ftype_7326',['norm_connectivity_matrix_type',['../group___statistics.html#gad01fd43ff15d42419f267906b44feeec',1,'MR::Stats::CFE']]]
+  ['map_5ftype_7828',['map_type',['../class_m_r_1_1_connectome_1_1_l_u_t.html#a5157d3642f2c60f528fde613b3ba7a9f',1,'MR::Connectome::LUT']]],
+  ['mask_5ftype_7829',['mask_type',['../namespace_m_r_1_1_connectome.html#abd89ba0f629052a6c3e77a96f02da713',1,'MR::Connectome']]],
+  ['mask_5fvalue_5ftype_7830',['mask_value_type',['../class_m_r_1_1_filter_1_1_image_correlation_cost_function.html#a6ae2c75e610269c33f5add83f451947a',1,'MR::Filter::ImageCorrelationCostFunction']]],
+  ['matrix_5ftype_7831',['matrix_type',['../namespace_m_r_1_1_math_1_1_stats.html#ab2ff7634bcab80ba308522254376964e',1,'MR::Math::Stats::matrix_type()'],['../namespace_m_r_1_1_connectome.html#a7ec7f19b4d55540a4c954816500c1473',1,'MR::Connectome::matrix_type()'],['../namespace_m_r_1_1_stats_1_1_perm_test.html#a4fc2fcc80edf62f01e21b7e60a8cd4c7',1,'MR::Stats::PermTest::matrix_type()'],['../namespace_m_r_1_1_stats_1_1_t_f_c_e.html#a8cf9ff3d74d62464994b1585b72d3304',1,'MR::Stats::TFCE::matrix_type()']]],
+  ['mattype_7832',['MatType',['../namespace_m_r_1_1_registration_1_1_rotation_search.html#af8b963e5491e4305dec0313ae189690a',1,'MR::Registration::RotationSearch']]]
 ];

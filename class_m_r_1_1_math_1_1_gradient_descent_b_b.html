@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC3_latest-86-gcc3600ed</div>
+   <div id="projectbrief">Version 3.0_RC4-882-gb3b8647f</div>
   </td>
  </tr>
  </tbody>
@@ -92,7 +92,7 @@ $(document).ready(function(){initNavTree('class_m_r_1_1_math_1_1_gradient_descen
 </div><!--header-->
 <div class="contents">
 
-<p>Computes the minimum of a function using a Barzilai Borwein gradient descent approach.  
+<p>Computes the minimum of a function using a Barzilai Borwein gradient descent approach. ENH: implement stabilised version <a href="https://arxiv.org/abs/1907.06409">https://arxiv.org/abs/1907.06409</a>.  
  <a href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html#details">More...</a></p>
 
 <p><code>#include &quot;<a class="el" href="gradient__descent__bb_8h_source.html">math/gradient_descent_bb.h</a>&quot;</code></p>
@@ -143,9 +143,9 @@ Protected Attributes</h2></td></tr>
 <div class="textblock"><h3>template&lt;class Function, class UpdateFunctor = LinearUpdateBB&gt;<br />
 class MR::Math::GradientDescentBB&lt; Function, UpdateFunctor &gt;</h3>
 
-<p>Computes the minimum of a function using a Barzilai Borwein gradient descent approach. </p>
+<p>Computes the minimum of a function using a Barzilai Borwein gradient descent approach. ENH: implement stabilised version <a href="https://arxiv.org/abs/1907.06409">https://arxiv.org/abs/1907.06409</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00049">49</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00050">50</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a820f76c65de0e3de385e3068c15e6b80"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a820f76c65de0e3de385e3068c15e6b80">&#9670;&nbsp;</a></span>compute_normg_and_step()</h2>
@@ -172,7 +172,7 @@ template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00216">216</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00222">222</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
 
 </div>
 </div>
@@ -218,7 +218,7 @@ template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00203">203</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00209">209</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
 
 </div>
 </div>
@@ -245,7 +245,7 @@ template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00201">201</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00207">207</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
 
 </div>
 </div>
@@ -271,7 +271,7 @@ template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00197">197</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00203">203</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
 
 </div>
 </div>
@@ -297,7 +297,7 @@ template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00197">197</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00203">203</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
 
 </div>
 </div>
@@ -323,7 +323,7 @@ template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00194">194</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00200">200</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
 
 </div>
 </div>
@@ -349,7 +349,7 @@ template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00196">196</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00202">202</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
 
 </div>
 </div>
@@ -375,7 +375,7 @@ template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00196">196</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00202">202</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
 
 </div>
 </div>
@@ -401,7 +401,7 @@ template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00196">196</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00202">202</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
 
 </div>
 </div>
@@ -427,7 +427,7 @@ template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00198">198</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00204">204</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
 
 </div>
 </div>
@@ -453,7 +453,7 @@ template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00199">199</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00205">205</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
 
 </div>
 </div>
@@ -479,7 +479,7 @@ template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00197">197</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00203">203</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
 
 </div>
 </div>
@@ -505,7 +505,7 @@ template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00196">196</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00202">202</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
 
 </div>
 </div>
@@ -531,7 +531,7 @@ template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00195">195</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00201">201</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
 
 </div>
 </div>
@@ -557,7 +557,7 @@ template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00200">200</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00206">206</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
 
 </div>
 </div>
@@ -583,7 +583,7 @@ template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00196">196</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00202">202</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
 
 </div>
 </div>
@@ -609,7 +609,7 @@ template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00196">196</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00202">202</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
 
 </div>
 </div>
@@ -635,7 +635,7 @@ template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00196">196</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gradient__descent__bb_8h_source.html#l00202">202</a> of file <a class="el" href="gradient__descent__bb_8h_source.html">gradient_descent_bb.h</a>.</p>
 
 </div>
 </div>
@@ -648,7 +648,7 @@ template&lt;class Function , class UpdateFunctor  = LinearUpdateBB&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_math.html">Math</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_math_1_1_gradient_descent_b_b.html">GradientDescentBB</a></li>
-    <li class="footer">Generated on Mon Apr 13 2020 22:01:56 for MRtrix by
+    <li class="footer">Generated on Wed Apr 22 2020 19:06:16 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

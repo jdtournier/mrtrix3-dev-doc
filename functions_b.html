@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC3_latest-86-gcc3600ed</div>
+   <div id="projectbrief">Version 3.0_RC4-882-gb3b8647f</div>
   </td>
  </tr>
  </tbody>
@@ -120,12 +120,15 @@ $(document).ready(function(){initNavTree('functions_b.html',''); initResizable()
 <li>before
 : <a class="el" href="struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___undo_entry.html#a5088127eb0ca84cec0234dd466ffe54c">MR::GUI::MRView::Tool::ROI_UndoEntry</a>
 </li>
-<li>begin_render_colourbars()
-: <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_map_1_1_renderer.html#a586502526eaf6a8b7f472052dcb9bb68">MR::GUI::MRView::ColourMap::Renderer</a>
+<li>begin()
+: <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_bars.html#ab03d359f80449ec8d0b36880acbe486a">MR::GUI::MRView::ColourBars</a>
 </li>
 <li>beta
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_external_energy_computer.html#a00d5c6b08de1be29a712dc69c9f42c79">MR::DWI::Tractography::GT::ExternalEnergyComputer</a>
 , <a class="el" href="struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_properties.html#a99538d82bf759a7593b00f354db86e40">MR::DWI::Tractography::GT::Properties</a>
+</li>
+<li>bidirectional
+: <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_fixel.html#a17f774034538225eef6ce0528b9ae469">MR::GUI::MRView::Tool::Fixel</a>
 </li>
 <li>BigEndian
 : <a class="el" href="class_m_r_1_1_data_type.html#a670e05d31f5849f3eb5555cc4f1bc08f">MR::DataType</a>
@@ -157,8 +160,20 @@ $(document).ready(function(){initNavTree('functions_b.html',''); initResizable()
 <li>BitSet()
 : <a class="el" href="class_m_r_1_1_bit_set.html#ae7c318cd4270780d10e6c0957796e2d4">MR::BitSet</a>
 </li>
+<li>Bottom
+: <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_bars.html#a0ce109dc861fc272f74b14c8add1db15a8047c1c7174083e16ae71ee156a59500">MR::GUI::MRView::ColourBars</a>
+</li>
+<li>BottomLeft
+: <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_bars.html#a0ce109dc861fc272f74b14c8add1db15aeb60f31db7ee7a9a8d777b242f8a1933">MR::GUI::MRView::ColourBars</a>
+</li>
+<li>BottomRight
+: <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_colour_bars.html#a0ce109dc861fc272f74b14c8add1db15a4874a003b96ba63213d13d0c9ae24aa3">MR::GUI::MRView::ColourBars</a>
+</li>
 <li>bounds
 : <a class="el" href="class_m_r_1_1_interp_1_1_base.html#af087eda826cccad7cd645ab61de15d72">MR::Interp::Base&lt; ImageType &gt;</a>
+</li>
+<li>bridge
+: <a class="el" href="class_m_r_1_1_filter_1_1_z_clean.html#ae2a9e7804b0492ddede46a310909e86e">MR::Filter::ZClean</a>
 </li>
 <li>brush_button
 : <a class="el" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html#a266200783ed420f1840c6d6135b2acdf">MR::GUI::MRView::Tool::ROI</a>
@@ -175,7 +190,7 @@ $(document).ready(function(){initNavTree('functions_b.html',''); initResizable()
 , <a class="el" href="class_m_r_1_1_image.html#a809cf662d3a7449adcbc7c0af0e2b28d">MR::Image&lt; ValueType &gt;</a>
 </li>
 <li>Buffer()
-: <a class="el" href="class_m_r_1_1_image_1_1_buffer.html#adf1675c2f72bff384fcad4d1f01ca03f">MR::Image&lt; ValueType &gt;::Buffer</a>
+: <a class="el" href="class_m_r_1_1_image_1_1_buffer.html#ae612afaac3305e43c643bf032328dfa6">MR::Image&lt; ValueType &gt;::Buffer</a>
 </li>
 <li>buffer_capacity
 : <a class="el" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_scalar_writer.html#a18d6d14aa30230b634f10c35f4bf8fa5">MR::DWI::Tractography::ScalarWriter&lt; T &gt;</a>
@@ -202,7 +217,7 @@ $(document).ready(function(){initNavTree('functions_b.html',''); initResizable()
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Apr 13 2020 22:01:56 for MRtrix by
+    <li class="footer">Generated on Wed Apr 22 2020 19:06:16 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

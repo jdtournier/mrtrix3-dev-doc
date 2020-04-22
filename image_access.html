@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC3_latest-86-gcc3600ed</div>
+   <div id="projectbrief">Version 3.0_RC4-882-gb3b8647f</div>
   </td>
  </tr>
  </tbody>
@@ -102,14 +102,14 @@ An example application</h1>
 <div class="fragment"><div class="line"><span class="keywordtype">void</span> <a class="code" href="app_8h.html#a13a43e6d814de94978c515cb084873b1">run</a> () </div>
 <div class="line">{</div>
 <div class="line">  <span class="comment">// access the input image:</span></div>
-<div class="line">  <span class="keyword">auto</span> in = <a class="code" href="namespace_m_r_1_1_file.html#a2e718453e5ccddd5e2b80845a0c8407d">Image&lt;float&gt;::create</a> (<a class="code" href="namespace_m_r_1_1_app.html#a47e73afc38d3e364e0aab23e78e467f9">argument</a>[0]);</div>
+<div class="line">  <span class="keyword">auto</span> in = <a class="code" href="namespace_m_r_1_1_file_1_1_n_if_t_i.html#af381c749013b6185e0ca61649657705c">Image&lt;float&gt;::create</a> (<a class="code" href="namespace_m_r_1_1_app.html#a47e73afc38d3e364e0aab23e78e467f9">argument</a>[0]);</div>
 <div class="line"> </div>
 <div class="line">  <span class="comment">// obtain and modify the image header:</span></div>
 <div class="line">  Header header (in);</div>
 <div class="line">  header.datatype() = DataType::Float32;</div>
 <div class="line"> </div>
 <div class="line">  <span class="comment">// create the output image based on that header:</span></div>
-<div class="line">  <span class="keyword">auto</span> out = <a class="code" href="namespace_m_r_1_1_file.html#a2e718453e5ccddd5e2b80845a0c8407d">Image::create</a> (<a class="code" href="namespace_m_r_1_1_app.html#a47e73afc38d3e364e0aab23e78e467f9">argument</a>[1], header);</div>
+<div class="line">  <span class="keyword">auto</span> out = <a class="code" href="namespace_m_r_1_1_file_1_1_n_if_t_i.html#af381c749013b6185e0ca61649657705c">Image::create</a> (<a class="code" href="namespace_m_r_1_1_app.html#a47e73afc38d3e364e0aab23e78e467f9">argument</a>[1], header);</div>
 <div class="line"> </div>
 <div class="line">  <span class="comment">// create a Median adapter for the input voxel:</span></div>
 <div class="line">  std::vector&lt;int&gt; extent (1,3);</div>
@@ -143,7 +143,7 @@ Header</h1>
 <div class="line"> </div>
 <div class="line"><span class="comment">// create an output Header, according to the second argument.</span></div>
 <div class="line"><span class="comment">// this header is then ready to be accessed by an Image:</span></div>
-<div class="line"><span class="keyword">auto</span> header_out = <a class="code" href="namespace_m_r_1_1_file.html#a2e718453e5ccddd5e2b80845a0c8407d">Header::create</a> (<a class="code" href="namespace_m_r_1_1_app.html#a47e73afc38d3e364e0aab23e78e467f9">argument</a>[1], header);</div>
+<div class="line"><span class="keyword">auto</span> header_out = <a class="code" href="namespace_m_r_1_1_file_1_1_n_if_t_i.html#af381c749013b6185e0ca61649657705c">Header::create</a> (<a class="code" href="namespace_m_r_1_1_app.html#a47e73afc38d3e364e0aab23e78e467f9">argument</a>[1], header);</div>
 </div><!-- fragment --><h1><a class="anchor" id="image_class"></a>
 Image</h1>
 <p>The <a class="el" href="class_m_r_1_1_image.html">Image</a> class provides access to the image data, and most of the information provided by the <a class="el" href="class_m_r_1_1_header.html">Header</a>. This includes specifically:</p>
@@ -167,11 +167,11 @@ Image</h1>
 <div class="line"><span class="keyword">auto</span> mask = <a class="code" href="class_m_r_1_1_image.html#aab488a42d712e19da34e089333c14c15">Image&lt;bool&gt;::open</a> (<a class="code" href="namespace_m_r_1_1_app.html#a47e73afc38d3e364e0aab23e78e467f9">argument</a>[1]);</div>
 <div class="line"> </div>
 <div class="line"><span class="comment">// create output image based on input image&#39;s on-disk header:</span></div>
-<div class="line"><span class="keyword">auto</span> out = <a class="code" href="namespace_m_r_1_1_file.html#a2e718453e5ccddd5e2b80845a0c8407d">Image::create</a> (<a class="code" href="namespace_m_r_1_1_app.html#a47e73afc38d3e364e0aab23e78e467f9">argument</a>[2], header);</div>
+<div class="line"><span class="keyword">auto</span> out = <a class="code" href="namespace_m_r_1_1_file_1_1_n_if_t_i.html#af381c749013b6185e0ca61649657705c">Image::create</a> (<a class="code" href="namespace_m_r_1_1_app.html#a47e73afc38d3e364e0aab23e78e467f9">argument</a>[2], header);</div>
 <div class="line"> </div>
 <div class="line"><span class="comment">// create an output Header first, then the image.</span></div>
 <div class="line"><span class="comment">// this time, the output image uses the in-RAM header from the mask image:</span></div>
-<div class="line"><span class="keyword">auto</span> header_mask = <a class="code" href="namespace_m_r_1_1_file.html#a2e718453e5ccddd5e2b80845a0c8407d">Header::create</a> (arguemnt[3], mask);</div>
+<div class="line"><span class="keyword">auto</span> header_mask = <a class="code" href="namespace_m_r_1_1_file_1_1_n_if_t_i.html#af381c749013b6185e0ca61649657705c">Header::create</a> (arguemnt[3], mask);</div>
 <div class="line"><span class="keyword">auto</span> mask_out = header_out.get_image&lt;<span class="keywordtype">bool</span>&gt; (header_mask);</div>
 <div class="line"> </div>
 <div class="line"><span class="comment">// open another image with fast (direct) IO, with data contiguous along</span></div>
@@ -207,16 +207,16 @@ Iterator</h1>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
-<div class="ttc" id="aclass_m_r_1_1_image_html_aab488a42d712e19da34e089333c14c15"><div class="ttname"><a href="class_m_r_1_1_image.html#aab488a42d712e19da34e089333c14c15">MR::Image&lt; bool &gt;::open</a></div><div class="ttdeci">static Image open(const std::string &amp;image_name, bool read_write_if_existing=false)</div><div class="ttdef"><b>Definition:</b> <a href="image_8h_source.html#l00188">image.h:188</a></div></div>
+<div class="ttc" id="aclass_m_r_1_1_image_html_aab488a42d712e19da34e089333c14c15"><div class="ttname"><a href="class_m_r_1_1_image.html#aab488a42d712e19da34e089333c14c15">MR::Image&lt; bool &gt;::open</a></div><div class="ttdeci">static Image open(const std::string &amp;image_name, bool read_write_if_existing=false)</div><div class="ttdef"><b>Definition:</b> <a href="image_8h_source.html#l00189">image.h:189</a></div></div>
 <div class="ttc" id="anamespace_m_r_1_1_app_html_a47e73afc38d3e364e0aab23e78e467f9"><div class="ttname"><a href="namespace_m_r_1_1_app.html#a47e73afc38d3e364e0aab23e78e467f9">MR::App::argument</a></div><div class="ttdeci">vector&lt; ParsedArgument &gt; argument</div><div class="ttdoc">the list of arguments parsed from the command-line</div></div>
 <div class="ttc" id="aapp_8h_html_a13a43e6d814de94978c515cb084873b1"><div class="ttname"><a href="app_8h.html#a13a43e6d814de94978c515cb084873b1">run</a></div><div class="ttdeci">void run()</div></div>
-<div class="ttc" id="anamespace_m_r_html_af50699b8970ce7ee97fd9d13f3400844"><div class="ttname"><a href="namespace_m_r.html#af50699b8970ce7ee97fd9d13f3400844">MR::threaded_copy_with_progress_message</a></div><div class="ttdeci">void threaded_copy_with_progress_message(const std::string &amp;message, InputImageType &amp;source, OutputImageType &amp;destination, const vector&lt; size_t &gt; &amp;axes, size_t num_axes_in_thread=1)</div><div class="ttdef"><b>Definition:</b> <a href="threaded__copy_8h_source.html#l00068">threaded_copy.h:68</a></div></div>
-<div class="ttc" id="anamespace_m_r_1_1_file_html_a2e718453e5ccddd5e2b80845a0c8407d"><div class="ttname"><a href="namespace_m_r_1_1_file.html#a2e718453e5ccddd5e2b80845a0c8407d">MR::File::create</a></div><div class="ttdeci">void create(const std::string &amp;filename, int64_t size=0)</div><div class="ttdef"><b>Definition:</b> <a href="core_2file_2utils_8h_source.html#l00117">utils.h:117</a></div></div>
-<div class="ttc" id="anamespace_m_r_html_acb0801c2d578f591c6cac1a9c6484200"><div class="ttname"><a href="namespace_m_r.html#acb0801c2d578f591c6cac1a9c6484200">MR::threaded_copy</a></div><div class="ttdeci">void threaded_copy(InputImageType &amp;source, OutputImageType &amp;destination, const vector&lt; size_t &gt; &amp;axes, size_t num_axes_in_thread=1)</div><div class="ttdef"><b>Definition:</b> <a href="threaded__copy_8h_source.html#l00042">threaded_copy.h:42</a></div></div>
+<div class="ttc" id="anamespace_m_r_1_1_file_1_1_n_if_t_i_html_af381c749013b6185e0ca61649657705c"><div class="ttname"><a href="namespace_m_r_1_1_file_1_1_n_if_t_i.html#af381c749013b6185e0ca61649657705c">MR::File::NIfTI::create</a></div><div class="ttdeci">std::unique_ptr&lt; ImageIO::Base &gt; create(Header &amp;H)</div></div>
+<div class="ttc" id="anamespace_m_r_html_af50699b8970ce7ee97fd9d13f3400844"><div class="ttname"><a href="namespace_m_r.html#af50699b8970ce7ee97fd9d13f3400844">MR::threaded_copy_with_progress_message</a></div><div class="ttdeci">void threaded_copy_with_progress_message(const std::string &amp;message, InputImageType &amp;source, OutputImageType &amp;destination, const vector&lt; size_t &gt; &amp;axes, size_t num_axes_in_thread=1)</div><div class="ttdef"><b>Definition:</b> <a href="threaded__copy_8h_source.html#l00069">threaded_copy.h:69</a></div></div>
+<div class="ttc" id="anamespace_m_r_html_acb0801c2d578f591c6cac1a9c6484200"><div class="ttname"><a href="namespace_m_r.html#acb0801c2d578f591c6cac1a9c6484200">MR::threaded_copy</a></div><div class="ttdeci">void threaded_copy(InputImageType &amp;source, OutputImageType &amp;destination, const vector&lt; size_t &gt; &amp;axes, size_t num_axes_in_thread=1)</div><div class="ttdef"><b>Definition:</b> <a href="threaded__copy_8h_source.html#l00043">threaded_copy.h:43</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Apr 13 2020 22:01:54 for MRtrix by
+    <li class="footer">Generated on Wed Apr 22 2020 19:06:14 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

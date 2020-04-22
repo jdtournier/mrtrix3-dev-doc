@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['contrast_5ft_7356',['contrast_t',['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping.html#a6d8085a00765609c3f8ee435f8cdf31d',1,'MR::DWI::Tractography::Mapping']]]
+  ['bvaluescalingbehaviour_7865',['BValueScalingBehaviour',['../namespace_m_r_1_1_d_w_i.html#a6c9b799ad012a624b67c195a7e03e402',1,'MR::DWI']]]
 ];

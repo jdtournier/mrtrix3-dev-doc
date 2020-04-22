@@ -58,5 +58,6 @@ var class_m_r_1_1_file_1_1_dicom_1_1_element =
     [ "size", "class_m_r_1_1_file_1_1_dicom_1_1_element.html#a79b515dc6fb2261d20aaf2f966969702", null ],
     [ "start", "class_m_r_1_1_file_1_1_dicom_1_1_element.html#ab2a1f2737d0efa67e38192becb3488b4", null ],
     [ "transfer_syntax_supported", "class_m_r_1_1_file_1_1_dicom_1_1_element.html#a6d0c20461ae0d12a68a5fecc895b2d26", null ],
+    [ "type_as_str", "class_m_r_1_1_file_1_1_dicom_1_1_element.html#ab18e2578e922a89b72ae393e94546207", null ],
     [ "VR", "class_m_r_1_1_file_1_1_dicom_1_1_element.html#a13740d6f2c5a67940448889058302c08", null ]
 ];

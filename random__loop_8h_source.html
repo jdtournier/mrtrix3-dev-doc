@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0_RC3_latest-86-gcc3600ed</div>
+   <div id="projectbrief">Version 3.0_RC4-882-gb3b8647f</div>
   </td>
  </tr>
  </tbody>
@@ -87,253 +87,254 @@ $(document).ready(function(){initNavTree('random__loop_8h_source.html',''); init
 <div class="title">random_loop.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="random__loop_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * Copyright (c) 2008-2018 the MRtrix3 contributors.</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * This Source Code Form is subject to the terms of the Mozilla Public</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> * License, v. 2.0. If a copy of the MPL was not distributed with this</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> * file, you can obtain one at http://mozilla.org/MPL/2.0/</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"> * MRtrix3 is distributed in the hope that it will be useful,</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> * but WITHOUT ANY WARRANTY; without even the implied warranty</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"> * of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"> * For more details, see http://www.mrtrix.org/</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#ifndef __algo_random_loop_h__</span></div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#define __algo_random_loop_h__</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="apply_8h.html">apply.h</a>&quot;</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="progressbar_8h.html">progressbar.h</a>&quot;</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="stride_8h.html">stride.h</a>&quot;</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="image__helpers_8h.html">image_helpers.h</a>&quot;</span></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#include &lt;unordered_set&gt;</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#include &lt;algorithm&gt;</span>  <span class="comment">// std::shuffle</span></div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#include &lt;iterator&gt;</span></div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespace_m_r.html">MR</a></div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;{</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; <span class="keyword">template</span> &lt;<span class="keyword">class</span> ImageType, <span class="keyword">class</span> RandomEngine&gt;</div>
-<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="class_m_r_1_1_random__loop.html">   31</a></span>&#160;  <span class="keyword">class </span><a class="code" href="class_m_r_1_1_random__loop.html">Random_loop</a> { <a class="code" href="memory_8h.html#a5d1aa93e600a93cee8523d1d34c1ace5">NOMEMALIGN</a></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="class_m_r_1_1_random__loop.html#a402ef44c1d1ea9438fe2316255d9bc98">   33</a></span>&#160;      <a class="code" href="class_m_r_1_1_random__loop.html#a402ef44c1d1ea9438fe2316255d9bc98">Random_loop</a> (ImageType&amp; in,</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        RandomEngine&amp; random_engine,</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keyword">const</span> <span class="keywordtype">size_t</span>&amp; <a class="code" href="noise__estimator_8h.html#a884869744ebf14a092b339ae65c2af37">axis</a> = 0,</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keyword">const</span> <span class="keywordtype">size_t</span>&amp; number_iterations = std::numeric_limits&lt;ssize_t&gt;::max()):</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;          image (in),</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;          engine (random_engine),</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;          ax (<a class="code" href="noise__estimator_8h.html#a884869744ebf14a092b339ae65c2af37">axis</a>),</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;          idx(image.size(<a class="code" href="noise__estimator_8h.html#a884869744ebf14a092b339ae65c2af37">axis</a>)),</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;          max_cnt (number_iterations),</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;          status (true),</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;          cnt (0)</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;      {</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <a class="code" href="class_m_r_1_1_random__loop.html#a4346c2b550eaa26ccacc0f08f6916936">init</a>();</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <a class="code" href="class_m_r_1_1_random__loop.html#ad5285305d4c0faeb25782c9d0f1a83c0">set_next_index</a>();</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;      }</div>
-<div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="class_m_r_1_1_random__loop.html#a4346c2b550eaa26ccacc0f08f6916936">   48</a></span>&#160;      <span class="keywordtype">void</span> <a class="code" href="class_m_r_1_1_random__loop.html#a4346c2b550eaa26ccacc0f08f6916936">init</a>() {</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        std::iota (std::begin(idx), std::end(idx), 0);</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        std::shuffle(std::begin(idx), std::end(idx), engine);</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        cnt = 0;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        it = std::begin(idx);</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        stop = std::end(idx);</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;      }</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
-<div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="class_m_r_1_1_random__loop.html#ad5285305d4c0faeb25782c9d0f1a83c0">   56</a></span>&#160;      <span class="keywordtype">void</span> <a class="code" href="class_m_r_1_1_random__loop.html#ad5285305d4c0faeb25782c9d0f1a83c0">set_next_index</a>() {</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        ++cnt;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        image.index(ax) = *it;</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        it++;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;      }</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
-<div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="class_m_r_1_1_random__loop.html#ac5fb7fca253598d26262f1e7416327de">   62</a></span>&#160;      <span class="keywordtype">void</span> <a class="code" href="class_m_r_1_1_random__loop.html#ac5fb7fca253598d26262f1e7416327de">operator++ </a>()</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;      {</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <a class="code" href="class_m_r_1_1_random__loop.html#ad5285305d4c0faeb25782c9d0f1a83c0">set_next_index</a>();</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <span class="keywordflow">if</span> (cnt &gt; max_cnt or it == stop) {</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;          status = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        }</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;      }</div>
-<div class="line"><a name="l00069"></a><span class="lineno"><a class="line" href="class_m_r_1_1_random__loop.html#a9a337af06ec3251f5dd71bda15e471da">   69</a></span>&#160;      <span class="keyword">operator</span> bool()<span class="keyword"> const</span></div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="keyword">      </span>{</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <span class="keywordflow">return</span> status &amp;&amp; image.index(ax) &gt;= 0 &amp;&amp; image.index(ax) &lt; image.size(ax);</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;      }</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160; </div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;      ImageType&amp; image;</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;      RandomEngine&amp; engine;</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;      <span class="keywordtype">size_t</span> ax;</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;      <a class="code" href="class_m_r_1_1vector.html">vector&lt;size_t&gt;</a> idx;</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;      <a class="code" href="class_m_r_1_1vector.html">vector&lt;size_t&gt;::iterator</a> it;</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;      <a class="code" href="class_m_r_1_1vector.html">vector&lt;size_t&gt;::iterator</a> stop;</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;      <span class="keywordtype">size_t</span> max_cnt;</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;      <span class="keywordtype">bool</span> status;</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;      <span class="keywordtype">size_t</span> cnt;</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160; };</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160; </div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;  <span class="comment">// Random_sparse_loop: ok for VERY sparse loops, slows down significantly at higher density (&gt;5%)</span></div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">class</span> ImageType&gt;</div>
-<div class="line"><a name="l00088"></a><span class="lineno"><a class="line" href="class_m_r_1_1_random__sparse__loop.html">   88</a></span>&#160;    <span class="keyword">class </span><a class="code" href="class_m_r_1_1_random__sparse__loop.html">Random_sparse_loop</a> { <a class="code" href="memory_8h.html#a5d1aa93e600a93cee8523d1d34c1ace5">NOMEMALIGN</a></div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;      <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00090"></a><span class="lineno"><a class="line" href="class_m_r_1_1_random__sparse__loop.html#aa90c255406e0c66e4e8629a489674d25">   90</a></span>&#160;        <a class="code" href="class_m_r_1_1_random__sparse__loop.html#aa90c255406e0c66e4e8629a489674d25">Random_sparse_loop</a> (ImageType&amp; in,</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;          <span class="keyword">const</span> <span class="keywordtype">size_t</span>&amp; <a class="code" href="noise__estimator_8h.html#a884869744ebf14a092b339ae65c2af37">axis</a> = 0,</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;          <span class="keyword">const</span> <span class="keywordtype">size_t</span>&amp; number_iterations = std::numeric_limits&lt;ssize_t&gt;::max(),</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;          <span class="keyword">const</span> <span class="keywordtype">bool</span> repeat = <span class="keyword">false</span>,</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;          <span class="keyword">const</span> ssize_t&amp; min_index = 0,</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;          <span class="keyword">const</span> ssize_t&amp; max_index = std::numeric_limits&lt;ssize_t&gt;::max()):</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;            image (in),</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;            repeat_ (repeat),</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;            status (true),</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;            ax (<a class="code" href="noise__estimator_8h.html#a884869744ebf14a092b339ae65c2af37">axis</a>),</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;            cnt (0),</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;            min_idx (min_index)</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        {</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;          <span class="keywordflow">if</span> (max_index &lt; image.size(ax))</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;            range = max_index - min_idx + 1;</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;          <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;            range = image.size(ax) - min_idx;</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;          <span class="keywordflow">if</span> (number_iterations &lt; range)</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;            max_cnt = number_iterations;</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;          <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;            max_cnt = range;</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;          assert (range &gt;= 1);</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;          assert (max_cnt &gt;= 1);</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;          <span class="keywordflow">if</span> (repeat_)</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;            <a class="code" href="class_m_r_1_1_random__sparse__loop.html#add269ceebf6910ecabe3c24e447e2adb">set_next_index_with_repeat</a>();</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;          <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;            <a class="code" href="class_m_r_1_1_random__sparse__loop.html#a12bb9085e62e6516578eeb00aac1942a">set_next_index_no_repeat</a>();</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        }</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160; </div>
-<div class="line"><a name="l00119"></a><span class="lineno"><a class="line" href="class_m_r_1_1_random__sparse__loop.html#a12bb9085e62e6516578eeb00aac1942a">  119</a></span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_m_r_1_1_random__sparse__loop.html#a12bb9085e62e6516578eeb00aac1942a">set_next_index_no_repeat</a>() {</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;          <span class="keywordflow">while</span> (cnt &lt; max_cnt){</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;            index = rand() % range + min_idx;</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;            <span class="keywordflow">if</span> (!idx_done.count(index)){</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;              idx_done.insert(index);</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;              <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;            }</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;          }</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;          ++cnt;</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;          image.index(ax) = index;</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;          assert(idx_done.size() &lt; range);</div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        }</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160; </div>
-<div class="line"><a name="l00132"></a><span class="lineno"><a class="line" href="class_m_r_1_1_random__sparse__loop.html#add269ceebf6910ecabe3c24e447e2adb">  132</a></span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_m_r_1_1_random__sparse__loop.html#add269ceebf6910ecabe3c24e447e2adb">set_next_index_with_repeat</a>() {</div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;          index = rand() % range + min_idx;</div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;          ++cnt;</div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;          image.index(ax) = index;</div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;        }</div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160; </div>
-<div class="line"><a name="l00138"></a><span class="lineno"><a class="line" href="class_m_r_1_1_random__sparse__loop.html#ad402e194de6dc7d5bac40c4ce4eefc1b">  138</a></span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_m_r_1_1_random__sparse__loop.html#ad402e194de6dc7d5bac40c4ce4eefc1b">operator++ </a>()</div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        {</div>
-<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;          <span class="keywordflow">if</span> (repeat_)</div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;            <a class="code" href="class_m_r_1_1_random__sparse__loop.html#add269ceebf6910ecabe3c24e447e2adb">set_next_index_with_repeat</a>();</div>
-<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;          <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;            <a class="code" href="class_m_r_1_1_random__sparse__loop.html#a12bb9085e62e6516578eeb00aac1942a">set_next_index_no_repeat</a>();</div>
-<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;          <span class="keywordflow">if</span> (cnt &gt; max_cnt) {</div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;            status = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;          }</div>
-<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;        }</div>
-<div class="line"><a name="l00148"></a><span class="lineno"><a class="line" href="class_m_r_1_1_random__sparse__loop.html#aa83d2353abd0e9cf2a5535af9349dec1">  148</a></span>&#160;        <span class="keyword">operator</span> bool()<span class="keyword"> const</span></div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;<span class="keyword">        </span>{</div>
-<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;          <span class="keywordflow">return</span> status &amp;&amp; image.index(ax) &gt;= 0 &amp;&amp; image.index(ax) &lt; image.size(ax);</div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        }</div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160; </div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;      <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        ImageType&amp; image;</div>
-<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        <span class="keywordtype">bool</span> repeat_;</div>
-<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        <span class="keywordtype">bool</span> status;</div>
-<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;        <span class="keywordtype">size_t</span> ax;</div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;        <span class="keywordtype">size_t</span> cnt;</div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;        ssize_t min_idx;</div>
-<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        <span class="keywordtype">size_t</span> range;</div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;        <span class="keywordtype">size_t</span> max_cnt;</div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;        ssize_t index;</div>
-<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;        std::unordered_set&lt;ssize_t&gt; idx_done;</div>
-<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;   };</div>
-<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160; </div>
-<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">class</span> ImageType, <span class="keyword">class</span> IterType&gt;</div>
-<div class="line"><a name="l00167"></a><span class="lineno"><a class="line" href="class_m_r_1_1_iterator__loop.html">  167</a></span>&#160;    <span class="keyword">class </span><a class="code" href="class_m_r_1_1_iterator__loop.html">Iterator_loop</a> { <a class="code" href="memory_8h.html#a5d1aa93e600a93cee8523d1d34c1ace5">NOMEMALIGN</a></div>
-<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;      <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00169"></a><span class="lineno"><a class="line" href="class_m_r_1_1_iterator__loop.html#a3bad7c66b756fe29fce02573d474a97d">  169</a></span>&#160;        <a class="code" href="class_m_r_1_1_iterator__loop.html#a3bad7c66b756fe29fce02573d474a97d">Iterator_loop</a> (ImageType&amp; in,</div>
-<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;          IterType first,</div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;          IterType last,</div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;          <span class="keyword">const</span> <span class="keywordtype">size_t</span>&amp; <a class="code" href="noise__estimator_8h.html#a884869744ebf14a092b339ae65c2af37">axis</a> = 0,</div>
-<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;          <span class="keyword">const</span> <span class="keywordtype">size_t</span>&amp; number_iterations = std::numeric_limits&lt;ssize_t&gt;::max()):</div>
-<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;            image (in),</div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;            ax (<a class="code" href="noise__estimator_8h.html#a884869744ebf14a092b339ae65c2af37">axis</a>),</div>
-<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;            start (first),</div>
-<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;            stop (last),</div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;            max_cnt (number_iterations),</div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;            status (true),</div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;            cnt (0)</div>
-<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;        {</div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;          <a class="code" href="class_m_r_1_1_iterator__loop.html#a715a269fc32abd85e475e42adf5dd405">set_next_index</a>();</div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;        }</div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160; </div>
-<div class="line"><a name="l00185"></a><span class="lineno"><a class="line" href="class_m_r_1_1_iterator__loop.html#a715a269fc32abd85e475e42adf5dd405">  185</a></span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_m_r_1_1_iterator__loop.html#a715a269fc32abd85e475e42adf5dd405">set_next_index</a>() {</div>
-<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;          ++cnt;</div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;          image.index(ax) = *start;</div>
-<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;          start++;</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        }</div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160; </div>
-<div class="line"><a name="l00191"></a><span class="lineno"><a class="line" href="class_m_r_1_1_iterator__loop.html#a520ef8870990b096e3eecbd1e017fd84">  191</a></span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_m_r_1_1_iterator__loop.html#a520ef8870990b096e3eecbd1e017fd84">operator++ </a>()</div>
-<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        {</div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;          <a class="code" href="class_m_r_1_1_iterator__loop.html#a715a269fc32abd85e475e42adf5dd405">set_next_index</a>();</div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;          <span class="keywordflow">if</span> (cnt &gt; max_cnt or start == stop) {</div>
-<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;            status = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;          }</div>
-<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;        }</div>
-<div class="line"><a name="l00198"></a><span class="lineno"><a class="line" href="class_m_r_1_1_iterator__loop.html#adf5d3cbdf17e2b3e85309315a04c2f34">  198</a></span>&#160;        <span class="keyword">operator</span> bool()<span class="keyword"> const</span></div>
-<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;<span class="keyword">        </span>{</div>
-<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;          <span class="keywordflow">return</span> status &amp;&amp; image.index(ax) &gt;= 0 &amp;&amp; image.index(ax) &lt; image.size(ax);</div>
-<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;        }</div>
-<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160; </div>
-<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;      <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;        ImageType&amp; image;</div>
-<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;        <span class="keywordtype">size_t</span> ax;</div>
-<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;        IterType&amp; start;</div>
-<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;        IterType&amp; stop;</div>
-<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;        <span class="keywordtype">size_t</span> max_cnt;</div>
-<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;        <span class="keywordtype">bool</span> status;</div>
-<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;        <span class="keywordtype">size_t</span> cnt;</div>
-<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;   };</div>
-<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160; </div>
+<a href="random__loop_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/* Copyright (c) 2008-2019 the MRtrix3 contributors.</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> * This Source Code Form is subject to the terms of the Mozilla Public</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * License, v. 2.0. If a copy of the MPL was not distributed with this</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> * file, You can obtain one at http://mozilla.org/MPL/2.0/.</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> * Covered Software is provided under this License on an &quot;as is&quot;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"> * basis, without warranty of any kind, either expressed, implied, or</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> * statutory, including, without limitation, warranties that the</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"> * Covered Software is free of defects, merchantable, fit for a</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment"> * particular purpose or non-infringing.</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"> * See the Mozilla Public License v. 2.0 for more details.</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> * For more details, see http://www.mrtrix.org/.</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#ifndef __algo_random_loop_h__</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#define __algo_random_loop_h__</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="apply_8h.html">apply.h</a>&quot;</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="progressbar_8h.html">progressbar.h</a>&quot;</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="stride_8h.html">stride.h</a>&quot;</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="image__helpers_8h.html">image_helpers.h</a>&quot;</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#include &lt;unordered_set&gt;</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#include &lt;algorithm&gt;</span>  <span class="comment">// std::shuffle</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &lt;iterator&gt;</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespace_m_r.html">MR</a></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;{</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; <span class="keyword">template</span> &lt;<span class="keyword">class</span> ImageType, <span class="keyword">class</span> RandomEngine&gt;</div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="class_m_r_1_1_random__loop.html">   32</a></span>&#160;  <span class="keyword">class </span><a class="code" href="class_m_r_1_1_random__loop.html">Random_loop</a> { <a class="code" href="memory_8h.html#a5d1aa93e600a93cee8523d1d34c1ace5">NOMEMALIGN</a></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="class_m_r_1_1_random__loop.html#a402ef44c1d1ea9438fe2316255d9bc98">   34</a></span>&#160;      <a class="code" href="class_m_r_1_1_random__loop.html#a402ef44c1d1ea9438fe2316255d9bc98">Random_loop</a> (ImageType&amp; in,</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        RandomEngine&amp; random_engine,</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keyword">const</span> <span class="keywordtype">size_t</span>&amp; <a class="code" href="noise__estimator_8h.html#a884869744ebf14a092b339ae65c2af37">axis</a> = 0,</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="keyword">const</span> <span class="keywordtype">size_t</span>&amp; number_iterations = std::numeric_limits&lt;ssize_t&gt;::max()):</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;          image (in),</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;          engine (random_engine),</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;          ax (<a class="code" href="noise__estimator_8h.html#a884869744ebf14a092b339ae65c2af37">axis</a>),</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;          idx(image.size(<a class="code" href="noise__estimator_8h.html#a884869744ebf14a092b339ae65c2af37">axis</a>)),</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;          max_cnt (number_iterations),</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;          status (true),</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;          cnt (0)</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;      {</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <a class="code" href="class_m_r_1_1_random__loop.html#a4346c2b550eaa26ccacc0f08f6916936">init</a>();</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <a class="code" href="class_m_r_1_1_random__loop.html#ad5285305d4c0faeb25782c9d0f1a83c0">set_next_index</a>();</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;      }</div>
+<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="class_m_r_1_1_random__loop.html#a4346c2b550eaa26ccacc0f08f6916936">   49</a></span>&#160;      <span class="keywordtype">void</span> <a class="code" href="class_m_r_1_1_random__loop.html#a4346c2b550eaa26ccacc0f08f6916936">init</a>() {</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        std::iota (std::begin(idx), std::end(idx), 0);</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        std::shuffle(std::begin(idx), std::end(idx), engine);</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        cnt = 0;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        it = std::begin(idx);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        stop = std::end(idx);</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;      }</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
+<div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="class_m_r_1_1_random__loop.html#ad5285305d4c0faeb25782c9d0f1a83c0">   57</a></span>&#160;      <span class="keywordtype">void</span> <a class="code" href="class_m_r_1_1_random__loop.html#ad5285305d4c0faeb25782c9d0f1a83c0">set_next_index</a>() {</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        ++cnt;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        image.index(ax) = *it;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        it++;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;      }</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160; </div>
+<div class="line"><a name="l00063"></a><span class="lineno"><a class="line" href="class_m_r_1_1_random__loop.html#ac5fb7fca253598d26262f1e7416327de">   63</a></span>&#160;      <span class="keywordtype">void</span> <a class="code" href="class_m_r_1_1_random__loop.html#ac5fb7fca253598d26262f1e7416327de">operator++ </a>()</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;      {</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <a class="code" href="class_m_r_1_1_random__loop.html#ad5285305d4c0faeb25782c9d0f1a83c0">set_next_index</a>();</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <span class="keywordflow">if</span> (cnt &gt; max_cnt or it == stop) {</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;          status = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        }</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;      }</div>
+<div class="line"><a name="l00070"></a><span class="lineno"><a class="line" href="class_m_r_1_1_random__loop.html#a9a337af06ec3251f5dd71bda15e471da">   70</a></span>&#160;      <span class="keyword">operator</span> bool()<span class="keyword"> const</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="keyword">      </span>{</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <span class="keywordflow">return</span> status &amp;&amp; image.index(ax) &gt;= 0 &amp;&amp; image.index(ax) &lt; image.size(ax);</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;      }</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160; </div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;      ImageType&amp; image;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;      RandomEngine&amp; engine;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;      <span class="keywordtype">size_t</span> ax;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;      <a class="code" href="class_m_r_1_1vector.html">vector&lt;size_t&gt;</a> idx;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;      <a class="code" href="class_m_r_1_1vector.html">vector&lt;size_t&gt;::iterator</a> it;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;      <a class="code" href="class_m_r_1_1vector.html">vector&lt;size_t&gt;::iterator</a> stop;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;      <span class="keywordtype">size_t</span> max_cnt;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;      <span class="keywordtype">bool</span> status;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;      <span class="keywordtype">size_t</span> cnt;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160; };</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160; </div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;  <span class="comment">// Random_sparse_loop: ok for VERY sparse loops, slows down significantly at higher density (&gt;5%)</span></div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">class</span> ImageType&gt;</div>
+<div class="line"><a name="l00089"></a><span class="lineno"><a class="line" href="class_m_r_1_1_random__sparse__loop.html">   89</a></span>&#160;    <span class="keyword">class </span><a class="code" href="class_m_r_1_1_random__sparse__loop.html">Random_sparse_loop</a> { <a class="code" href="memory_8h.html#a5d1aa93e600a93cee8523d1d34c1ace5">NOMEMALIGN</a></div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;      <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00091"></a><span class="lineno"><a class="line" href="class_m_r_1_1_random__sparse__loop.html#aa90c255406e0c66e4e8629a489674d25">   91</a></span>&#160;        <a class="code" href="class_m_r_1_1_random__sparse__loop.html#aa90c255406e0c66e4e8629a489674d25">Random_sparse_loop</a> (ImageType&amp; in,</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;          <span class="keyword">const</span> <span class="keywordtype">size_t</span>&amp; <a class="code" href="noise__estimator_8h.html#a884869744ebf14a092b339ae65c2af37">axis</a> = 0,</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;          <span class="keyword">const</span> <span class="keywordtype">size_t</span>&amp; number_iterations = std::numeric_limits&lt;ssize_t&gt;::max(),</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;          <span class="keyword">const</span> <span class="keywordtype">bool</span> repeat = <span class="keyword">false</span>,</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;          <span class="keyword">const</span> ssize_t&amp; min_index = 0,</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;          <span class="keyword">const</span> ssize_t&amp; max_index = std::numeric_limits&lt;ssize_t&gt;::max()):</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;            image (in),</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;            repeat_ (repeat),</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;            status (true),</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;            ax (<a class="code" href="noise__estimator_8h.html#a884869744ebf14a092b339ae65c2af37">axis</a>),</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;            cnt (0),</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;            min_idx (min_index)</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        {</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;          <span class="keywordflow">if</span> (max_index &lt; image.size(ax))</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;            range = max_index - min_idx + 1;</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;          <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;            range = image.size(ax) - min_idx;</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;          <span class="keywordflow">if</span> (number_iterations &lt; range)</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;            max_cnt = number_iterations;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;          <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;            max_cnt = range;</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;          assert (range &gt;= 1);</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;          assert (max_cnt &gt;= 1);</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;          <span class="keywordflow">if</span> (repeat_)</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;            <a class="code" href="class_m_r_1_1_random__sparse__loop.html#add269ceebf6910ecabe3c24e447e2adb">set_next_index_with_repeat</a>();</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;          <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;            <a class="code" href="class_m_r_1_1_random__sparse__loop.html#a12bb9085e62e6516578eeb00aac1942a">set_next_index_no_repeat</a>();</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        }</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160; </div>
+<div class="line"><a name="l00120"></a><span class="lineno"><a class="line" href="class_m_r_1_1_random__sparse__loop.html#a12bb9085e62e6516578eeb00aac1942a">  120</a></span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_m_r_1_1_random__sparse__loop.html#a12bb9085e62e6516578eeb00aac1942a">set_next_index_no_repeat</a>() {</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;          <span class="keywordflow">while</span> (cnt &lt; max_cnt){</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;            index = rand() % range + min_idx;</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;            <span class="keywordflow">if</span> (!idx_done.count(index)){</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;              idx_done.insert(index);</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;              <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;            }</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;          }</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;          ++cnt;</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;          image.index(ax) = index;</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;          assert(idx_done.size() &lt; range);</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        }</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160; </div>
+<div class="line"><a name="l00133"></a><span class="lineno"><a class="line" href="class_m_r_1_1_random__sparse__loop.html#add269ceebf6910ecabe3c24e447e2adb">  133</a></span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_m_r_1_1_random__sparse__loop.html#add269ceebf6910ecabe3c24e447e2adb">set_next_index_with_repeat</a>() {</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;          index = rand() % range + min_idx;</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;          ++cnt;</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;          image.index(ax) = index;</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        }</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160; </div>
+<div class="line"><a name="l00139"></a><span class="lineno"><a class="line" href="class_m_r_1_1_random__sparse__loop.html#ad402e194de6dc7d5bac40c4ce4eefc1b">  139</a></span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_m_r_1_1_random__sparse__loop.html#ad402e194de6dc7d5bac40c4ce4eefc1b">operator++ </a>()</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;        {</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;          <span class="keywordflow">if</span> (repeat_)</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;            <a class="code" href="class_m_r_1_1_random__sparse__loop.html#add269ceebf6910ecabe3c24e447e2adb">set_next_index_with_repeat</a>();</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;          <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;            <a class="code" href="class_m_r_1_1_random__sparse__loop.html#a12bb9085e62e6516578eeb00aac1942a">set_next_index_no_repeat</a>();</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;          <span class="keywordflow">if</span> (cnt &gt; max_cnt) {</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;            status = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;          }</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        }</div>
+<div class="line"><a name="l00149"></a><span class="lineno"><a class="line" href="class_m_r_1_1_random__sparse__loop.html#aa83d2353abd0e9cf2a5535af9349dec1">  149</a></span>&#160;        <span class="keyword">operator</span> bool()<span class="keyword"> const</span></div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;<span class="keyword">        </span>{</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;          <span class="keywordflow">return</span> status &amp;&amp; image.index(ax) &gt;= 0 &amp;&amp; image.index(ax) &lt; image.size(ax);</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;        }</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160; </div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;      <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        ImageType&amp; image;</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        <span class="keywordtype">bool</span> repeat_;</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;        <span class="keywordtype">bool</span> status;</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;        <span class="keywordtype">size_t</span> ax;</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;        <span class="keywordtype">size_t</span> cnt;</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        ssize_t min_idx;</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;        <span class="keywordtype">size_t</span> range;</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;        <span class="keywordtype">size_t</span> max_cnt;</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;        ssize_t index;</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;        std::unordered_set&lt;ssize_t&gt; idx_done;</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;   };</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160; </div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">class</span> ImageType, <span class="keyword">class</span> IterType&gt;</div>
+<div class="line"><a name="l00168"></a><span class="lineno"><a class="line" href="class_m_r_1_1_iterator__loop.html">  168</a></span>&#160;    <span class="keyword">class </span><a class="code" href="class_m_r_1_1_iterator__loop.html">Iterator_loop</a> { <a class="code" href="memory_8h.html#a5d1aa93e600a93cee8523d1d34c1ace5">NOMEMALIGN</a></div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;      <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00170"></a><span class="lineno"><a class="line" href="class_m_r_1_1_iterator__loop.html#a3bad7c66b756fe29fce02573d474a97d">  170</a></span>&#160;        <a class="code" href="class_m_r_1_1_iterator__loop.html#a3bad7c66b756fe29fce02573d474a97d">Iterator_loop</a> (ImageType&amp; in,</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;          IterType first,</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;          IterType last,</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;          <span class="keyword">const</span> <span class="keywordtype">size_t</span>&amp; <a class="code" href="noise__estimator_8h.html#a884869744ebf14a092b339ae65c2af37">axis</a> = 0,</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;          <span class="keyword">const</span> <span class="keywordtype">size_t</span>&amp; number_iterations = std::numeric_limits&lt;ssize_t&gt;::max()):</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;            image (in),</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;            ax (<a class="code" href="noise__estimator_8h.html#a884869744ebf14a092b339ae65c2af37">axis</a>),</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;            start (first),</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;            stop (last),</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;            max_cnt (number_iterations),</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;            status (true),</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;            cnt (0)</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;        {</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;          <a class="code" href="class_m_r_1_1_iterator__loop.html#a715a269fc32abd85e475e42adf5dd405">set_next_index</a>();</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;        }</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160; </div>
+<div class="line"><a name="l00186"></a><span class="lineno"><a class="line" href="class_m_r_1_1_iterator__loop.html#a715a269fc32abd85e475e42adf5dd405">  186</a></span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_m_r_1_1_iterator__loop.html#a715a269fc32abd85e475e42adf5dd405">set_next_index</a>() {</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;          ++cnt;</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;          image.index(ax) = *start;</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;          start++;</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        }</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160; </div>
+<div class="line"><a name="l00192"></a><span class="lineno"><a class="line" href="class_m_r_1_1_iterator__loop.html#a520ef8870990b096e3eecbd1e017fd84">  192</a></span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_m_r_1_1_iterator__loop.html#a520ef8870990b096e3eecbd1e017fd84">operator++ </a>()</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;        {</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;          <a class="code" href="class_m_r_1_1_iterator__loop.html#a715a269fc32abd85e475e42adf5dd405">set_next_index</a>();</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;          <span class="keywordflow">if</span> (cnt &gt; max_cnt or start == stop) {</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;            status = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;          }</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;        }</div>
+<div class="line"><a name="l00199"></a><span class="lineno"><a class="line" href="class_m_r_1_1_iterator__loop.html#adf5d3cbdf17e2b3e85309315a04c2f34">  199</a></span>&#160;        <span class="keyword">operator</span> bool()<span class="keyword"> const</span></div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;<span class="keyword">        </span>{</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;          <span class="keywordflow">return</span> status &amp;&amp; image.index(ax) &gt;= 0 &amp;&amp; image.index(ax) &lt; image.size(ax);</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;        }</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160; </div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;      <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;        ImageType&amp; image;</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;        <span class="keywordtype">size_t</span> ax;</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;        IterType&amp; start;</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;        IterType&amp; stop;</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;        <span class="keywordtype">size_t</span> max_cnt;</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;        <span class="keywordtype">bool</span> status;</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;        <span class="keywordtype">size_t</span> cnt;</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;   };</div>
 <div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160; </div>
-<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;}</div>
-<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160; </div>
-<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160; </div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160; </div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;}</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160; </div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160; </div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160; </div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="aclass_m_r_1_1_random__loop_html_ad5285305d4c0faeb25782c9d0f1a83c0"><div class="ttname"><a href="class_m_r_1_1_random__loop.html#ad5285305d4c0faeb25782c9d0f1a83c0">MR::Random_loop::set_next_index</a></div><div class="ttdeci">void set_next_index()</div><div class="ttdef"><b>Definition:</b> <a href="random__loop_8h_source.html#l00056">random_loop.h:56</a></div></div>
+<div class="ttc" id="aclass_m_r_1_1_random__loop_html_ad5285305d4c0faeb25782c9d0f1a83c0"><div class="ttname"><a href="class_m_r_1_1_random__loop.html#ad5285305d4c0faeb25782c9d0f1a83c0">MR::Random_loop::set_next_index</a></div><div class="ttdeci">void set_next_index()</div><div class="ttdef"><b>Definition:</b> <a href="random__loop_8h_source.html#l00057">random_loop.h:57</a></div></div>
 <div class="ttc" id="aapply_8h_html"><div class="ttname"><a href="apply_8h.html">apply.h</a></div></div>
-<div class="ttc" id="aclass_m_r_1_1_iterator__loop_html_a715a269fc32abd85e475e42adf5dd405"><div class="ttname"><a href="class_m_r_1_1_iterator__loop.html#a715a269fc32abd85e475e42adf5dd405">MR::Iterator_loop::set_next_index</a></div><div class="ttdeci">void set_next_index()</div><div class="ttdef"><b>Definition:</b> <a href="random__loop_8h_source.html#l00185">random_loop.h:185</a></div></div>
-<div class="ttc" id="aclass_m_r_1_1_random__sparse__loop_html_ad402e194de6dc7d5bac40c4ce4eefc1b"><div class="ttname"><a href="class_m_r_1_1_random__sparse__loop.html#ad402e194de6dc7d5bac40c4ce4eefc1b">MR::Random_sparse_loop::operator++</a></div><div class="ttdeci">void operator++()</div><div class="ttdef"><b>Definition:</b> <a href="random__loop_8h_source.html#l00138">random_loop.h:138</a></div></div>
-<div class="ttc" id="anoise__estimator_8h_html_a884869744ebf14a092b339ae65c2af37"><div class="ttname"><a href="noise__estimator_8h.html#a884869744ebf14a092b339ae65c2af37">axis</a></div><div class="ttdeci">int axis</div><div class="ttdef"><b>Definition:</b> <a href="noise__estimator_8h_source.html#l00067">noise_estimator.h:67</a></div></div>
-<div class="ttc" id="aclass_m_r_1_1_random__loop_html"><div class="ttname"><a href="class_m_r_1_1_random__loop.html">MR::Random_loop</a></div><div class="ttdef"><b>Definition:</b> <a href="random__loop_8h_source.html#l00031">random_loop.h:31</a></div></div>
-<div class="ttc" id="aclass_m_r_1_1_random__loop_html_a4346c2b550eaa26ccacc0f08f6916936"><div class="ttname"><a href="class_m_r_1_1_random__loop.html#a4346c2b550eaa26ccacc0f08f6916936">MR::Random_loop::init</a></div><div class="ttdeci">void init()</div><div class="ttdef"><b>Definition:</b> <a href="random__loop_8h_source.html#l00048">random_loop.h:48</a></div></div>
-<div class="ttc" id="aclass_m_r_1_1_random__sparse__loop_html_a12bb9085e62e6516578eeb00aac1942a"><div class="ttname"><a href="class_m_r_1_1_random__sparse__loop.html#a12bb9085e62e6516578eeb00aac1942a">MR::Random_sparse_loop::set_next_index_no_repeat</a></div><div class="ttdeci">void set_next_index_no_repeat()</div><div class="ttdef"><b>Definition:</b> <a href="random__loop_8h_source.html#l00119">random_loop.h:119</a></div></div>
+<div class="ttc" id="aclass_m_r_1_1_iterator__loop_html_a715a269fc32abd85e475e42adf5dd405"><div class="ttname"><a href="class_m_r_1_1_iterator__loop.html#a715a269fc32abd85e475e42adf5dd405">MR::Iterator_loop::set_next_index</a></div><div class="ttdeci">void set_next_index()</div><div class="ttdef"><b>Definition:</b> <a href="random__loop_8h_source.html#l00186">random_loop.h:186</a></div></div>
+<div class="ttc" id="aclass_m_r_1_1_random__sparse__loop_html_ad402e194de6dc7d5bac40c4ce4eefc1b"><div class="ttname"><a href="class_m_r_1_1_random__sparse__loop.html#ad402e194de6dc7d5bac40c4ce4eefc1b">MR::Random_sparse_loop::operator++</a></div><div class="ttdeci">void operator++()</div><div class="ttdef"><b>Definition:</b> <a href="random__loop_8h_source.html#l00139">random_loop.h:139</a></div></div>
+<div class="ttc" id="anoise__estimator_8h_html_a884869744ebf14a092b339ae65c2af37"><div class="ttname"><a href="noise__estimator_8h.html#a884869744ebf14a092b339ae65c2af37">axis</a></div><div class="ttdeci">int axis</div><div class="ttdef"><b>Definition:</b> <a href="noise__estimator_8h_source.html#l00068">noise_estimator.h:68</a></div></div>
+<div class="ttc" id="aclass_m_r_1_1_random__loop_html"><div class="ttname"><a href="class_m_r_1_1_random__loop.html">MR::Random_loop</a></div><div class="ttdef"><b>Definition:</b> <a href="random__loop_8h_source.html#l00032">random_loop.h:32</a></div></div>
+<div class="ttc" id="aclass_m_r_1_1_random__loop_html_a4346c2b550eaa26ccacc0f08f6916936"><div class="ttname"><a href="class_m_r_1_1_random__loop.html#a4346c2b550eaa26ccacc0f08f6916936">MR::Random_loop::init</a></div><div class="ttdeci">void init()</div><div class="ttdef"><b>Definition:</b> <a href="random__loop_8h_source.html#l00049">random_loop.h:49</a></div></div>
+<div class="ttc" id="aclass_m_r_1_1_random__sparse__loop_html_a12bb9085e62e6516578eeb00aac1942a"><div class="ttname"><a href="class_m_r_1_1_random__sparse__loop.html#a12bb9085e62e6516578eeb00aac1942a">MR::Random_sparse_loop::set_next_index_no_repeat</a></div><div class="ttdeci">void set_next_index_no_repeat()</div><div class="ttdef"><b>Definition:</b> <a href="random__loop_8h_source.html#l00120">random_loop.h:120</a></div></div>
 <div class="ttc" id="aimage__helpers_8h_html"><div class="ttname"><a href="image__helpers_8h.html">image_helpers.h</a></div></div>
 <div class="ttc" id="astride_8h_html"><div class="ttname"><a href="stride_8h.html">stride.h</a></div></div>
-<div class="ttc" id="aclass_m_r_1_1_random__sparse__loop_html_add269ceebf6910ecabe3c24e447e2adb"><div class="ttname"><a href="class_m_r_1_1_random__sparse__loop.html#add269ceebf6910ecabe3c24e447e2adb">MR::Random_sparse_loop::set_next_index_with_repeat</a></div><div class="ttdeci">void set_next_index_with_repeat()</div><div class="ttdef"><b>Definition:</b> <a href="random__loop_8h_source.html#l00132">random_loop.h:132</a></div></div>
-<div class="ttc" id="anamespace_m_r_html"><div class="ttname"><a href="namespace_m_r.html">MR</a></div><div class="ttdef"><b>Definition:</b> <a href="core_2adapter_2base_8h_source.html#l00021">base.h:21</a></div></div>
-<div class="ttc" id="aclass_m_r_1_1_random__loop_html_ac5fb7fca253598d26262f1e7416327de"><div class="ttname"><a href="class_m_r_1_1_random__loop.html#ac5fb7fca253598d26262f1e7416327de">MR::Random_loop::operator++</a></div><div class="ttdeci">void operator++()</div><div class="ttdef"><b>Definition:</b> <a href="random__loop_8h_source.html#l00062">random_loop.h:62</a></div></div>
-<div class="ttc" id="aclass_m_r_1_1_random__sparse__loop_html"><div class="ttname"><a href="class_m_r_1_1_random__sparse__loop.html">MR::Random_sparse_loop</a></div><div class="ttdef"><b>Definition:</b> <a href="random__loop_8h_source.html#l00088">random_loop.h:88</a></div></div>
-<div class="ttc" id="aclass_m_r_1_1_iterator__loop_html_a3bad7c66b756fe29fce02573d474a97d"><div class="ttname"><a href="class_m_r_1_1_iterator__loop.html#a3bad7c66b756fe29fce02573d474a97d">MR::Iterator_loop::Iterator_loop</a></div><div class="ttdeci">Iterator_loop(ImageType &amp;in, IterType first, IterType last, const size_t &amp;axis=0, const size_t &amp;number_iterations=std::numeric_limits&lt; ssize_t &gt;::max())</div><div class="ttdef"><b>Definition:</b> <a href="random__loop_8h_source.html#l00169">random_loop.h:169</a></div></div>
+<div class="ttc" id="aclass_m_r_1_1_random__sparse__loop_html_add269ceebf6910ecabe3c24e447e2adb"><div class="ttname"><a href="class_m_r_1_1_random__sparse__loop.html#add269ceebf6910ecabe3c24e447e2adb">MR::Random_sparse_loop::set_next_index_with_repeat</a></div><div class="ttdeci">void set_next_index_with_repeat()</div><div class="ttdef"><b>Definition:</b> <a href="random__loop_8h_source.html#l00133">random_loop.h:133</a></div></div>
+<div class="ttc" id="anamespace_m_r_html"><div class="ttname"><a href="namespace_m_r.html">MR</a></div><div class="ttdef"><b>Definition:</b> <a href="core_2adapter_2base_8h_source.html#l00023">base.h:23</a></div></div>
+<div class="ttc" id="aclass_m_r_1_1_random__loop_html_ac5fb7fca253598d26262f1e7416327de"><div class="ttname"><a href="class_m_r_1_1_random__loop.html#ac5fb7fca253598d26262f1e7416327de">MR::Random_loop::operator++</a></div><div class="ttdeci">void operator++()</div><div class="ttdef"><b>Definition:</b> <a href="random__loop_8h_source.html#l00063">random_loop.h:63</a></div></div>
+<div class="ttc" id="aclass_m_r_1_1_random__sparse__loop_html"><div class="ttname"><a href="class_m_r_1_1_random__sparse__loop.html">MR::Random_sparse_loop</a></div><div class="ttdef"><b>Definition:</b> <a href="random__loop_8h_source.html#l00089">random_loop.h:89</a></div></div>
+<div class="ttc" id="aclass_m_r_1_1_iterator__loop_html_a3bad7c66b756fe29fce02573d474a97d"><div class="ttname"><a href="class_m_r_1_1_iterator__loop.html#a3bad7c66b756fe29fce02573d474a97d">MR::Iterator_loop::Iterator_loop</a></div><div class="ttdeci">Iterator_loop(ImageType &amp;in, IterType first, IterType last, const size_t &amp;axis=0, const size_t &amp;number_iterations=std::numeric_limits&lt; ssize_t &gt;::max())</div><div class="ttdef"><b>Definition:</b> <a href="random__loop_8h_source.html#l00170">random_loop.h:170</a></div></div>
 <div class="ttc" id="aprogressbar_8h_html"><div class="ttname"><a href="progressbar_8h.html">progressbar.h</a></div></div>
-<div class="ttc" id="aclass_m_r_1_1_iterator__loop_html_a520ef8870990b096e3eecbd1e017fd84"><div class="ttname"><a href="class_m_r_1_1_iterator__loop.html#a520ef8870990b096e3eecbd1e017fd84">MR::Iterator_loop::operator++</a></div><div class="ttdeci">void operator++()</div><div class="ttdef"><b>Definition:</b> <a href="random__loop_8h_source.html#l00191">random_loop.h:191</a></div></div>
+<div class="ttc" id="aclass_m_r_1_1_iterator__loop_html_a520ef8870990b096e3eecbd1e017fd84"><div class="ttname"><a href="class_m_r_1_1_iterator__loop.html#a520ef8870990b096e3eecbd1e017fd84">MR::Iterator_loop::operator++</a></div><div class="ttdeci">void operator++()</div><div class="ttdef"><b>Definition:</b> <a href="random__loop_8h_source.html#l00192">random_loop.h:192</a></div></div>
 <div class="ttc" id="aclass_m_r_1_1vector_html"><div class="ttname"><a href="class_m_r_1_1vector.html">MR::vector&lt; size_t &gt;</a></div></div>
-<div class="ttc" id="aclass_m_r_1_1_random__loop_html_a402ef44c1d1ea9438fe2316255d9bc98"><div class="ttname"><a href="class_m_r_1_1_random__loop.html#a402ef44c1d1ea9438fe2316255d9bc98">MR::Random_loop::Random_loop</a></div><div class="ttdeci">Random_loop(ImageType &amp;in, RandomEngine &amp;random_engine, const size_t &amp;axis=0, const size_t &amp;number_iterations=std::numeric_limits&lt; ssize_t &gt;::max())</div><div class="ttdef"><b>Definition:</b> <a href="random__loop_8h_source.html#l00033">random_loop.h:33</a></div></div>
-<div class="ttc" id="amemory_8h_html_a5d1aa93e600a93cee8523d1d34c1ace5"><div class="ttname"><a href="memory_8h.html#a5d1aa93e600a93cee8523d1d34c1ace5">NOMEMALIGN</a></div><div class="ttdeci">#define NOMEMALIGN</div><div class="ttdef"><b>Definition:</b> <a href="memory_8h_source.html#l00021">memory.h:21</a></div></div>
-<div class="ttc" id="aclass_m_r_1_1_iterator__loop_html"><div class="ttname"><a href="class_m_r_1_1_iterator__loop.html">MR::Iterator_loop</a></div><div class="ttdef"><b>Definition:</b> <a href="random__loop_8h_source.html#l00167">random_loop.h:167</a></div></div>
-<div class="ttc" id="aclass_m_r_1_1_random__sparse__loop_html_aa90c255406e0c66e4e8629a489674d25"><div class="ttname"><a href="class_m_r_1_1_random__sparse__loop.html#aa90c255406e0c66e4e8629a489674d25">MR::Random_sparse_loop::Random_sparse_loop</a></div><div class="ttdeci">Random_sparse_loop(ImageType &amp;in, const size_t &amp;axis=0, const size_t &amp;number_iterations=std::numeric_limits&lt; ssize_t &gt;::max(), const bool repeat=false, const ssize_t &amp;min_index=0, const ssize_t &amp;max_index=std::numeric_limits&lt; ssize_t &gt;::max())</div><div class="ttdef"><b>Definition:</b> <a href="random__loop_8h_source.html#l00090">random_loop.h:90</a></div></div>
+<div class="ttc" id="aclass_m_r_1_1_random__loop_html_a402ef44c1d1ea9438fe2316255d9bc98"><div class="ttname"><a href="class_m_r_1_1_random__loop.html#a402ef44c1d1ea9438fe2316255d9bc98">MR::Random_loop::Random_loop</a></div><div class="ttdeci">Random_loop(ImageType &amp;in, RandomEngine &amp;random_engine, const size_t &amp;axis=0, const size_t &amp;number_iterations=std::numeric_limits&lt; ssize_t &gt;::max())</div><div class="ttdef"><b>Definition:</b> <a href="random__loop_8h_source.html#l00034">random_loop.h:34</a></div></div>
+<div class="ttc" id="amemory_8h_html_a5d1aa93e600a93cee8523d1d34c1ace5"><div class="ttname"><a href="memory_8h.html#a5d1aa93e600a93cee8523d1d34c1ace5">NOMEMALIGN</a></div><div class="ttdeci">#define NOMEMALIGN</div><div class="ttdef"><b>Definition:</b> <a href="memory_8h_source.html#l00022">memory.h:22</a></div></div>
+<div class="ttc" id="aclass_m_r_1_1_iterator__loop_html"><div class="ttname"><a href="class_m_r_1_1_iterator__loop.html">MR::Iterator_loop</a></div><div class="ttdef"><b>Definition:</b> <a href="random__loop_8h_source.html#l00168">random_loop.h:168</a></div></div>
+<div class="ttc" id="aclass_m_r_1_1_random__sparse__loop_html_aa90c255406e0c66e4e8629a489674d25"><div class="ttname"><a href="class_m_r_1_1_random__sparse__loop.html#aa90c255406e0c66e4e8629a489674d25">MR::Random_sparse_loop::Random_sparse_loop</a></div><div class="ttdeci">Random_sparse_loop(ImageType &amp;in, const size_t &amp;axis=0, const size_t &amp;number_iterations=std::numeric_limits&lt; ssize_t &gt;::max(), const bool repeat=false, const ssize_t &amp;min_index=0, const ssize_t &amp;max_index=std::numeric_limits&lt; ssize_t &gt;::max())</div><div class="ttdef"><b>Definition:</b> <a href="random__loop_8h_source.html#l00091">random_loop.h:91</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4270bfced15e0e73154b13468c7c9ad9.html">core</a></li><li class="navelem"><a class="el" href="dir_2220cedab4ecc4510f0c7ae8221004de.html">algo</a></li><li class="navelem"><a class="el" href="random__loop_8h.html">random_loop.h</a></li>
-    <li class="footer">Generated on Mon Apr 13 2020 22:01:53 for MRtrix by
+    <li class="footer">Generated on Wed Apr 22 2020 19:06:13 for MRtrix by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

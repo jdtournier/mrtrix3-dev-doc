@@ -32,6 +32,7 @@ var src_2surface_2types_8h =
     [ "default_type", "src_2surface_2types_8h.html#a43bad69d4b870a61e1d93cd69b7b1270", null ],
     [ "float32", "src_2surface_2types_8h.html#af3c1623b01659ffb17b94e23a2b782e2", null ],
     [ "float64", "src_2surface_2types_8h.html#a5d3cd396aa9801b956008649607b663d", null ],
+    [ "KeyValues", "src_2surface_2types_8h.html#a01bcb4e131953115cf3b1ca2cfd38f80", null ],
     [ "label_vector_type", "src_2surface_2types_8h.html#a2d858ceb24b15517160883a85144876e", null ],
     [ "Quad", "src_2surface_2types_8h.html#ac01493851a8d1fad7e666b669f4da8b8", null ],
     [ "QuadList", "src_2surface_2types_8h.html#a68bf264a74f7c7f17a4e4d1d5dd80989", null ],
