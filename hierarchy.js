@@ -725,27 +725,24 @@ var hierarchy =
     [ "MR::Registration::Transform::Init::LinearInitialisationParams::RotationInit", "struct_m_r_1_1_registration_1_1_transform_1_1_init_1_1_linear_initialisation_params_1_1_rotation_init.html", null ],
     [ "MR::Helper::Row< ImageType >", "class_m_r_1_1_helper_1_1_row.html", null ],
     [ "MR::Fixel::LoopFixelsInVoxel::Run< DataType >", "struct_m_r_1_1_fixel_1_1_loop_fixels_in_voxel_1_1_run.html", null ],
-    [ "MR::LoopAlongSingleAxis::Run< ImageType >", "struct_m_r_1_1_loop_along_single_axis_1_1_run.html", null ],
     [ "MR::LoopAlongDynamicAxes::Run< ImageType >", "struct_m_r_1_1_loop_along_dynamic_axes_1_1_run.html", null ],
-    [ "MR::LoopAlongAxisRange::Run< ImageType >", "struct_m_r_1_1_loop_along_axis_range_1_1_run.html", null ],
+    [ "MR::LoopAlongSingleAxis::Run< ImageType >", "struct_m_r_1_1_loop_along_single_axis_1_1_run.html", null ],
     [ "MR::LoopAlongSingleAxisProgress::Run< ImageType >", "struct_m_r_1_1_loop_along_single_axis_progress_1_1_run.html", null ],
+    [ "MR::LoopAlongAxisRange::Run< ImageType >", "struct_m_r_1_1_loop_along_axis_range_1_1_run.html", null ],
     [ "MR::LoopAlongStaticAxes::Run< ImageType >", "struct_m_r_1_1_loop_along_static_axes_1_1_run.html", null ],
-    [ "MR::LoopAlongAxisRange::Run< ImageType... >", "struct_m_r_1_1_loop_along_axis_range_1_1_run.html", [
-      [ "MR::LoopAlongAxisRangeProgress::Run< ImageType >", "struct_m_r_1_1_loop_along_axis_range_progress_1_1_run.html", null ]
-    ] ],
     [ "MR::LoopAlongStaticAxes::Run< ImageType... >", "struct_m_r_1_1_loop_along_static_axes_1_1_run.html", [
       [ "MR::LoopAlongStaticAxesProgress::Run< ImageType >", "struct_m_r_1_1_loop_along_static_axes_progress_1_1_run.html", null ]
     ] ],
     [ "MR::LoopAlongDynamicAxes::Run< ImageType... >", "struct_m_r_1_1_loop_along_dynamic_axes_1_1_run.html", [
       [ "MR::LoopAlongDynamicAxesProgress::Run< ImageType >", "struct_m_r_1_1_loop_along_dynamic_axes_progress_1_1_run.html", null ]
     ] ],
+    [ "MR::LoopAlongAxisRange::Run< ImageType... >", "struct_m_r_1_1_loop_along_axis_range_1_1_run.html", [
+      [ "MR::LoopAlongAxisRangeProgress::Run< ImageType >", "struct_m_r_1_1_loop_along_axis_range_progress_1_1_run.html", null ]
+    ] ],
     [ "MR::ImageIO::VariableScaling::ScaleFactor", "class_m_r_1_1_image_i_o_1_1_variable_scaling_1_1_scale_factor.html", null ],
     [ "MR::DWI::FMLS::Segmenter", "class_m_r_1_1_d_w_i_1_1_f_m_l_s_1_1_segmenter.html", null ],
     [ "MR::DWI::Tractography::Connectome::Selector", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_selector.html", null ],
     [ "MR::File::Dicom::Sequence", "class_m_r_1_1_file_1_1_dicom_1_1_sequence.html", null ],
-    [ "MR::DWI::Directions::Set", "class_m_r_1_1_d_w_i_1_1_directions_1_1_set.html", [
-      [ "MR::DWI::Directions::FastLookupSet", "class_m_r_1_1_d_w_i_1_1_directions_1_1_fast_lookup_set.html", null ]
-    ] ],
     [ "set", null, [
       [ "MR::DWI::Tractography::Mapping::Gaussian::SetDixel", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_set_dixel.html", null ],
       [ "MR::DWI::Tractography::Mapping::Gaussian::SetVoxel", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_set_voxel.html", null ],
@@ -756,6 +753,9 @@ var hierarchy =
       [ "MR::DWI::Tractography::Mapping::SetVoxelDEC", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_voxel_d_e_c.html", null ],
       [ "MR::DWI::Tractography::Mapping::SetVoxelDir", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_voxel_dir.html", null ],
       [ "MR::DWI::Tractography::Mapping::SetVoxelTOD", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_voxel_t_o_d.html", null ]
+    ] ],
+    [ "MR::DWI::Directions::Set", "class_m_r_1_1_d_w_i_1_1_directions_1_1_set.html", [
+      [ "MR::DWI::Directions::FastLookupSet", "class_m_r_1_1_d_w_i_1_1_directions_1_1_fast_lookup_set.html", null ]
     ] ],
     [ "MR::DWI::Tractography::Mapping::SetVoxelExtras", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_set_voxel_extras.html", [
       [ "MR::DWI::Tractography::Mapping::Gaussian::SetDixel", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_set_dixel.html", null ],
