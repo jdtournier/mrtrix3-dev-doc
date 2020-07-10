@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['c_6641',['c',['../class_m_r_1_1_math_1_1_i_c_l_s_1_1_solver.html#a21da252ac0cd1af57b13e53ae965e8e5',1,'MR::Math::ICLS::Solver::c()'],['../group___statistics.html#ga79b5af821092cf49dd60a56ce7f3e3d6',1,'MR::Math::Stats::GLM::TestBase::c()'],['../class_m_r_1_1_stats_1_1_c_f_e.html#a0626094e641ace77b6974b3dccd75837',1,'MR::Stats::CFE::C()']]],
+  ['c_6641',['C',['../class_m_r_1_1_stats_1_1_c_f_e.html#a0626094e641ace77b6974b3dccd75837',1,'MR::Stats::CFE::C()'],['../class_m_r_1_1_math_1_1_i_c_l_s_1_1_solver.html#a21da252ac0cd1af57b13e53ae965e8e5',1,'MR::Math::ICLS::Solver::c()'],['../group___statistics.html#ga79b5af821092cf49dd60a56ce7f3e3d6',1,'MR::Math::Stats::GLM::TestBase::c()']]],
   ['c_5fu_6642',['c_u',['../class_m_r_1_1_math_1_1_i_c_l_s_1_1_solver.html#a76217a598470d2e99d99a4e91fc72074',1,'MR::Math::ICLS::Solver']]],
   ['cal_5fmax_6643',['cal_max',['../structnifti__2__header.html#aab02ee7a03ec7acf215657ec5a95495f',1,'nifti_2_header']]],
   ['cal_5fmin_6644',['cal_min',['../structnifti__2__header.html#ab7831bd363feb7a4de5faaf615f8fbe8',1,'nifti_2_header']]],

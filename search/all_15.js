@@ -13,7 +13,7 @@ var searchData=
   ['uint8_3528',['UInt8',['../class_m_r_1_1_data_type.html#af2d855fdd6eaf11f107e040b7dc0195b',1,'MR::DataType']]],
   ['unbind_3529',['unbind',['../class_m_r_1_1_g_u_i_1_1_g_l_1_1_frame_buffer.html#a0d9d05c45d70292b1cfb79232bd5d109',1,'MR::GUI::GL::FrameBuffer']]],
   ['uncorrected_5fpvalue_5fcounter_3530',['uncorrected_pvalue_counter',['../class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html#a97d4831adf38dba718973d76714fc997',1,'MR::Stats::PermTest::Processor']]],
-  ['undefined_3531',['Undefined',['../class_m_r_1_1_data_type.html#ab16a330a4621a6979b88da70355a9637',1,'MR::DataType::Undefined()'],['../class_m_r_1_1_data_type.html#adc025123d311cff2ea5f1253699c6ec3',1,'MR::DataType::undefined() const'],['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping.html#a89a945a433c16dd9dec81f827d6226b9a752f5817980e85fdb87743f4289f23e6',1,'MR::DWI::Tractography::Mapping::UNDEFINED()']]],
+  ['undefined_3531',['undefined',['../class_m_r_1_1_data_type.html#adc025123d311cff2ea5f1253699c6ec3',1,'MR::DataType::undefined() const'],['../class_m_r_1_1_data_type.html#ab16a330a4621a6979b88da70355a9637',1,'MR::DataType::Undefined()'],['../namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping.html#a89a945a433c16dd9dec81f827d6226b9a752f5817980e85fdb87743f4289f23e6',1,'MR::DWI::Tractography::Mapping::UNDEFINED()']]],
   ['undo_3532',['undo',['../struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i___undo_entry.html#a3bce1db70a3a2a5b395d9dfef6d15fa5',1,'MR::GUI::MRView::Tool::ROI_UndoEntry']]],
   ['undo_5fbutton_3533',['undo_button',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html#adb32a39eeefd9c921426a870b60d5ead',1,'MR::GUI::MRView::Tool::ROI']]],
   ['undoentry_2eh_3534',['undoentry.h',['../undoentry_8h.html',1,'']]],
