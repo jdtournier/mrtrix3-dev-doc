@@ -38,9 +38,6 @@ var dir_e07ac01d65d17e829451634057f91345 =
       [ "RNG", "class_m_r_1_1_math_1_1_r_n_g.html", "class_m_r_1_1_math_1_1_r_n_g" ],
       [ "Uniform", "class_m_r_1_1_math_1_1_r_n_g_1_1_uniform.html", "class_m_r_1_1_math_1_1_r_n_g_1_1_uniform" ],
       [ "Normal", "class_m_r_1_1_math_1_1_r_n_g_1_1_normal.html", "class_m_r_1_1_math_1_1_r_n_g_1_1_normal" ],
-      [ "Integer", "class_m_r_1_1_math_1_1_r_n_g_1_1_integer.html", "class_m_r_1_1_math_1_1_r_n_g_1_1_integer" ],
-      [ "Uniform", "class_m_r_1_1_math_1_1_r_n_g_1_1_uniform.html", "class_m_r_1_1_math_1_1_r_n_g_1_1_uniform" ],
-      [ "Normal", "class_m_r_1_1_math_1_1_r_n_g_1_1_normal.html", "class_m_r_1_1_math_1_1_r_n_g_1_1_normal" ],
       [ "Integer", "class_m_r_1_1_math_1_1_r_n_g_1_1_integer.html", "class_m_r_1_1_math_1_1_r_n_g_1_1_integer" ]
     ] ],
     [ "sech.h", "sech_8h.html", "sech_8h" ],

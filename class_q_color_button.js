@@ -9,5 +9,5 @@ var class_q_color_button =
     [ "paintEvent", "class_q_color_button.html#ab0b65e2fc41afed72dcc9e59365aa87d", null ],
     [ "setColor", "class_q_color_button.html#a44477cbfba48695dab4ed5dde9185498", null ],
     [ "sizeHint", "class_q_color_button.html#a814ac603f8e19427600857fc66d4e7ab", null ],
-    [ "color", "class_q_color_button.html#a25e50f994a0dd5716bb25aca8d600635", null ]
+    [ "color", "class_q_color_button.html#a060d868f012c4f1aa5498b512f977a32", null ]
 ];

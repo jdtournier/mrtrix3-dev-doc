@@ -1,6 +1,28 @@
 var namespace_m_r_1_1_d_w_i_1_1_directions =
 [
-    [ "FastLookupSet", "class_m_r_1_1_d_w_i_1_1_directions_1_1_fast_lookup_set.html", null ],
     [ "Mask", "class_m_r_1_1_d_w_i_1_1_directions_1_1_mask.html", "class_m_r_1_1_d_w_i_1_1_directions_1_1_mask" ],
-    [ "Set", "class_m_r_1_1_d_w_i_1_1_directions_1_1_set.html", "class_m_r_1_1_d_w_i_1_1_directions_1_1_set" ]
+    [ "Set", "class_m_r_1_1_d_w_i_1_1_directions_1_1_set.html", "class_m_r_1_1_d_w_i_1_1_directions_1_1_set" ],
+    [ "FastLookupSet", "class_m_r_1_1_d_w_i_1_1_directions_1_1_fast_lookup_set.html", null ],
+    [ "index_type", "namespace_m_r_1_1_d_w_i_1_1_directions.html#a9996f7dbbfde14c03775ecf6f1c70e97", null ],
+    [ "electrostatic_repulsion_300", "namespace_m_r_1_1_d_w_i_1_1_directions.html#a3d8051e0e5a9ba3cb76f7bcf5193818d", null ],
+    [ "electrostatic_repulsion_5000", "namespace_m_r_1_1_d_w_i_1_1_directions.html#ae48caa495898fa1c5364a8f53c4ce05f", null ],
+    [ "electrostatic_repulsion_60", "namespace_m_r_1_1_d_w_i_1_1_directions.html#aa6eaca19d7372d446aa057301037816d", null ],
+    [ "load_cartesian", "namespace_m_r_1_1_d_w_i_1_1_directions.html#a655944be9a1bb7d9be3284aabb81feb9", null ],
+    [ "load_spherical", "namespace_m_r_1_1_d_w_i_1_1_directions.html#a3a6a484c8f46a8d568245cbe4dcc38f2", null ],
+    [ "save", "namespace_m_r_1_1_d_w_i_1_1_directions.html#a8e1981071851965b8dec0298cc502c4d", null ],
+    [ "save_cartesian", "namespace_m_r_1_1_d_w_i_1_1_directions.html#a0918506ec3b5c25c486c42a3bccbb71b", null ],
+    [ "save_spherical", "namespace_m_r_1_1_d_w_i_1_1_directions.html#ad1deaabbd11849f6b55f92214f1a040e", null ],
+    [ "tesselation_1281", "namespace_m_r_1_1_d_w_i_1_1_directions.html#a4c902a15395491714fc0eba6cdb62b69", null ],
+    [ "tesselation_129", "namespace_m_r_1_1_d_w_i_1_1_directions.html#a201f4ae6fb040ea55c593cc2ab1e72bb", null ],
+    [ "tesselation_321", "namespace_m_r_1_1_d_w_i_1_1_directions.html#a87c3893e21fbd7ad135be27cd23a6ce6", null ],
+    [ "tesselation_469", "namespace_m_r_1_1_d_w_i_1_1_directions.html#ad7d56467ab2462a6bcb8df0fffeb2ffd", null ],
+    [ "tesselation_513", "namespace_m_r_1_1_d_w_i_1_1_directions.html#a9e51cc21f8561b8188a5933b28126ed4", null ],
+    [ "electrostatic_repulsion_300_data", "namespace_m_r_1_1_d_w_i_1_1_directions.html#a09d8c94be57b83eb01acd03a0b1f7bed", null ],
+    [ "electrostatic_repulsion_5000_data", "namespace_m_r_1_1_d_w_i_1_1_directions.html#aab937fe4883c9f24b6cfb024bfef2a86", null ],
+    [ "electrostatic_repulsion_60_data", "namespace_m_r_1_1_d_w_i_1_1_directions.html#a59beb5f5cadacf9163892cb80544d65a", null ],
+    [ "tesselation_1281_data", "namespace_m_r_1_1_d_w_i_1_1_directions.html#a0b819667e2777d64dbbcf13e784aaf1e", null ],
+    [ "tesselation_129_data", "namespace_m_r_1_1_d_w_i_1_1_directions.html#a8244c101f6e5adf973bf5dd12d770177", null ],
+    [ "tesselation_321_data", "namespace_m_r_1_1_d_w_i_1_1_directions.html#af1286cd44c0f8786c72b042babb931fc", null ],
+    [ "tesselation_469_data", "namespace_m_r_1_1_d_w_i_1_1_directions.html#a0ee41f1ac7a7107f531f1bd11e0c8b0b", null ],
+    [ "tesselation_513_data", "namespace_m_r_1_1_d_w_i_1_1_directions.html#af78a0bb3c1b34e73e4855468893c6e8a", null ]
 ];

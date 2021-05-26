@@ -1,18 +1,26 @@
 var namespace_m_r_1_1_formats =
 [
     [ "Base", "class_m_r_1_1_formats_1_1_base.html", "class_m_r_1_1_formats_1_1_base" ],
+    [ "Pipe", "class_m_r_1_1_formats_1_1_pipe.html", "class_m_r_1_1_formats_1_1_pipe" ],
     [ "DICOM", "class_m_r_1_1_formats_1_1_d_i_c_o_m.html", "class_m_r_1_1_formats_1_1_d_i_c_o_m" ],
-    [ "MGH", "class_m_r_1_1_formats_1_1_m_g_h.html", "class_m_r_1_1_formats_1_1_m_g_h" ],
-    [ "MGZ", "class_m_r_1_1_formats_1_1_m_g_z.html", "class_m_r_1_1_formats_1_1_m_g_z" ],
-    [ "MRI", "class_m_r_1_1_formats_1_1_m_r_i.html", "class_m_r_1_1_formats_1_1_m_r_i" ],
     [ "MRtrix", "class_m_r_1_1_formats_1_1_m_rtrix.html", "class_m_r_1_1_formats_1_1_m_rtrix" ],
     [ "MRtrix_GZ", "class_m_r_1_1_formats_1_1_m_rtrix___g_z.html", "class_m_r_1_1_formats_1_1_m_rtrix___g_z" ],
-    [ "MRtrix_sparse", "class_m_r_1_1_formats_1_1_m_rtrix__sparse.html", "class_m_r_1_1_formats_1_1_m_rtrix__sparse" ],
     [ "NIfTI1", "class_m_r_1_1_formats_1_1_n_if_t_i1.html", "class_m_r_1_1_formats_1_1_n_if_t_i1" ],
-    [ "NIfTI1_GZ", "class_m_r_1_1_formats_1_1_n_if_t_i1___g_z.html", "class_m_r_1_1_formats_1_1_n_if_t_i1___g_z" ],
     [ "NIfTI2", "class_m_r_1_1_formats_1_1_n_if_t_i2.html", "class_m_r_1_1_formats_1_1_n_if_t_i2" ],
+    [ "NIfTI1_GZ", "class_m_r_1_1_formats_1_1_n_if_t_i1___g_z.html", "class_m_r_1_1_formats_1_1_n_if_t_i1___g_z" ],
     [ "NIfTI2_GZ", "class_m_r_1_1_formats_1_1_n_if_t_i2___g_z.html", "class_m_r_1_1_formats_1_1_n_if_t_i2___g_z" ],
+    [ "MRI", "class_m_r_1_1_formats_1_1_m_r_i.html", "class_m_r_1_1_formats_1_1_m_r_i" ],
+    [ "XDS", "class_m_r_1_1_formats_1_1_x_d_s.html", "class_m_r_1_1_formats_1_1_x_d_s" ],
+    [ "MGH", "class_m_r_1_1_formats_1_1_m_g_h.html", "class_m_r_1_1_formats_1_1_m_g_h" ],
+    [ "MGZ", "class_m_r_1_1_formats_1_1_m_g_z.html", "class_m_r_1_1_formats_1_1_m_g_z" ],
     [ "PAR", "class_m_r_1_1_formats_1_1_p_a_r.html", "class_m_r_1_1_formats_1_1_p_a_r" ],
-    [ "Pipe", "class_m_r_1_1_formats_1_1_pipe.html", "class_m_r_1_1_formats_1_1_pipe" ],
-    [ "XDS", "class_m_r_1_1_formats_1_1_x_d_s.html", "class_m_r_1_1_formats_1_1_x_d_s" ]
+    [ "MRtrix_sparse", "class_m_r_1_1_formats_1_1_m_rtrix__sparse.html", "class_m_r_1_1_formats_1_1_m_rtrix__sparse" ],
+    [ "get_mrtrix_file_path", "namespace_m_r_1_1_formats.html#a08c176a16bf956ac913f77df218da338", null ],
+    [ "next_keyvalue", "namespace_m_r_1_1_formats.html#a1da38faf3682adb2795010fef29f6a21", null ],
+    [ "next_keyvalue", "namespace_m_r_1_1_formats.html#a4b7d896d9dce9eb5eba8868f228de3dd", null ],
+    [ "parse_axes", "namespace_m_r_1_1_formats.html#a66d600571043fa918e7c8d12d52334dc", null ],
+    [ "read_mrtrix_header", "namespace_m_r_1_1_formats.html#ad280cc12a8d2e213dc9683a3227e3b87", null ],
+    [ "write_mrtrix_header", "namespace_m_r_1_1_formats.html#aaaa9984e4b6c537eb25d4072cedd1c1c", null ],
+    [ "handlers", "namespace_m_r_1_1_formats.html#a219777c8829302025b2c1a3ad85f3e0c", null ],
+    [ "known_extensions", "namespace_m_r_1_1_formats.html#aa4616324e125e8d0e4f5f6bd76b03a26", null ]
 ];

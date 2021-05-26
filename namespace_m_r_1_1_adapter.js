@@ -1,8 +1,8 @@
 var namespace_m_r_1_1_adapter =
 [
     [ "Base", "class_m_r_1_1_adapter_1_1_base.html", "class_m_r_1_1_adapter_1_1_base" ],
-    [ "Extract", "class_m_r_1_1_adapter_1_1_extract.html", null ],
     [ "Extract1D", "class_m_r_1_1_adapter_1_1_extract1_d.html", "class_m_r_1_1_adapter_1_1_extract1_d" ],
+    [ "Extract", "class_m_r_1_1_adapter_1_1_extract.html", null ],
     [ "Gaussian1D", "class_m_r_1_1_adapter_1_1_gaussian1_d.html", "class_m_r_1_1_adapter_1_1_gaussian1_d" ],
     [ "Gradient1D", "class_m_r_1_1_adapter_1_1_gradient1_d.html", "class_m_r_1_1_adapter_1_1_gradient1_d" ],
     [ "Gradient3D", "class_m_r_1_1_adapter_1_1_gradient3_d.html", "class_m_r_1_1_adapter_1_1_gradient3_d" ],
@@ -15,5 +15,8 @@ var namespace_m_r_1_1_adapter =
     [ "Replicate", "class_m_r_1_1_adapter_1_1_replicate.html", "class_m_r_1_1_adapter_1_1_replicate" ],
     [ "Reslice", "class_m_r_1_1_adapter_1_1_reslice.html", null ],
     [ "Subset", "class_m_r_1_1_adapter_1_1_subset.html", "class_m_r_1_1_adapter_1_1_subset" ],
-    [ "Warp", "class_m_r_1_1_adapter_1_1_warp.html", null ]
+    [ "Warp", "class_m_r_1_1_adapter_1_1_warp.html", null ],
+    [ "make", "namespace_m_r_1_1_adapter.html#a600ee462ae872291abf25d28d112a442", null ],
+    [ "AutoOverSample", "namespace_m_r_1_1_adapter.html#af1180d3d2cff392bff8520a39772950f", null ],
+    [ "NoTransform", "namespace_m_r_1_1_adapter.html#aff8f6cc24ea8d699b1234f801db7502f", null ]
 ];

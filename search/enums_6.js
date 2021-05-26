@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['inittype_7876',['InitType',['../namespace_m_r_1_1_registration_1_1_transform_1_1_init.html#afa3a967714d843a5733b8bdc70eb5868',1,'MR::Registration::Transform::Init']]]
+  ['inittype_8091',['InitType',['../namespace_m_r_1_1_registration_1_1_transform_1_1_init.html#afa3a967714d843a5733b8bdc70eb5868',1,'MR::Registration::Transform::Init']]]
 ];

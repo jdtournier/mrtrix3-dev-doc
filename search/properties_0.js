@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['color_8033',['color',['../class_q_color_button.html#a25e50f994a0dd5716bb25aca8d600635',1,'QColorButton']]]
+  ['color_8253',['color',['../class_q_color_button.html#a060d868f012c4f1aa5498b512f977a32',1,'QColorButton']]]
 ];

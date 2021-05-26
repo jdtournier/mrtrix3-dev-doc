@@ -1,10 +1,58 @@
 var namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking =
 [
+    [ "Defaults", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_defaults.html", [
+      [ "angle_deterministic", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_defaults.html#a976d8d24b08005330cc64ed72a3913de", null ],
+      [ "angle_ifod1", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_defaults.html#a8c1b5f024ce894132650b26de628e23e", null ],
+      [ "angle_ifod2", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_defaults.html#a0d18bd025ae6ca7a77e8ef3d0feeaea2", null ],
+      [ "cutoff_act_multiplier", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_defaults.html#a52aa855d6e53d59bd9a1fb0d7b884d44", null ],
+      [ "cutoff_fa", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_defaults.html#a0f49085bbd4b8e63f6e510b06f51a6e7", null ],
+      [ "cutoff_fixel", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_defaults.html#ac2ba05b1ce77c74dedf1c8438d390b7e", null ],
+      [ "cutoff_fod", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_defaults.html#a49763b4802d949f97a24cf7b3ea92d91", null ],
+      [ "ifod2_nsamples", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_defaults.html#a27f83ab20487f29080fa55e8c5e1f961", null ],
+      [ "max_attempts_per_seed", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_defaults.html#aa155051a638df2290d3fed2bb2cca0af", null ],
+      [ "max_trials_per_step", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_defaults.html#a359249bf8e56f7846b88bba17fd5feb3", null ],
+      [ "maxlength_voxels", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_defaults.html#a6e9a39651f0d02f5ad4d3659dfcefd1e", null ],
+      [ "minlength_voxels_noact", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_defaults.html#a2b986bb21a534ea554fc2820d1fd4ade", null ],
+      [ "minlength_voxels_withact", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_defaults.html#af2d00ea7e90810dd2cc9b1dd5c12ae4c", null ],
+      [ "num_selected_tracks", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_defaults.html#ae24492f0bc4ea5353968eaa46dc49b44", null ],
+      [ "seed_to_select_ratio", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_defaults.html#abe2561a247fbbad80517f1a6ecfd8c9e", null ],
+      [ "stepsize_voxels_firstorder", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_defaults.html#aa5ac5e9aac05d655434981491d7601fd", null ],
+      [ "stepsize_voxels_ifod2", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_defaults.html#a1e57fa8232fdc7ff3b89ae8234a309b8", null ],
+      [ "stepsize_voxels_rk4", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_defaults.html#afcf63eeafb88e62b0134e0d8dc034ade", null ]
+    ] ],
     [ "EarlyExit", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_early_exit.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_early_exit" ],
     [ "Exec", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_exec.html", null ],
     [ "GeneratedTrack", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_generated_track.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_generated_track" ],
-    [ "Interpolator", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_interpolator.html", null ],
     [ "MethodBase", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_method_base.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_method_base" ],
     [ "SharedBase", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_shared_base.html", null ],
-    [ "WriteKernel", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_write_kernel.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_write_kernel" ]
+    [ "Interpolator", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_interpolator.html", null ],
+    [ "WriteKernel", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_write_kernel.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_write_kernel" ],
+    [ "reject_t", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#ad956382fab3ffe08fe6398044e9ae01a", [
+      [ "INVALID_SEED", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#ad956382fab3ffe08fe6398044e9ae01aa2acaab217db03031c902ec7b623147fa", null ],
+      [ "NO_PROPAGATION_FROM_SEED", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#ad956382fab3ffe08fe6398044e9ae01aadb02eb15e5c13335c1593cb74a494ec5", null ],
+      [ "TRACK_TOO_SHORT", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#ad956382fab3ffe08fe6398044e9ae01aa0754d23485a2ac2d2616e14debf5f993", null ],
+      [ "TRACK_TOO_LONG", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#ad956382fab3ffe08fe6398044e9ae01aaf97cf82fd334b4924a364f43c60cb757", null ],
+      [ "ENTER_EXCLUDE_REGION", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#ad956382fab3ffe08fe6398044e9ae01aa81d3e19b49229c733d59150913f11a39", null ],
+      [ "MISSED_INCLUDE_REGION", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#ad956382fab3ffe08fe6398044e9ae01aaa6e5c2f37d6a19dc5ce2930b42f80d76", null ],
+      [ "ACT_POOR_TERMINATION", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#ad956382fab3ffe08fe6398044e9ae01aaef14026f7b7875a6e2d7e8aac0879e03", null ],
+      [ "ACT_FAILED_WM_REQUIREMENT", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#ad956382fab3ffe08fe6398044e9ae01aad13a4cb971480a8a9055acd9683fd145", null ]
+    ] ],
+    [ "term_t", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#a1c30c67185585a9f27b5a581050292f5", [
+      [ "CONTINUE", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#a1c30c67185585a9f27b5a581050292f5ac24cc98373fa725c1bbbffc65732692c", null ],
+      [ "ENTER_CGM", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#a1c30c67185585a9f27b5a581050292f5a41476e5cbd2fd9b07edb6a532b273ceb", null ],
+      [ "CALIBRATOR", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#a1c30c67185585a9f27b5a581050292f5a77264fab7e191454f7ae9cd1d11a304c", null ],
+      [ "EXIT_IMAGE", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#a1c30c67185585a9f27b5a581050292f5aabadd272a0347e83a65f6125b9d403ac", null ],
+      [ "ENTER_CSF", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#a1c30c67185585a9f27b5a581050292f5ad9b7b45b949c70e2c1627c69f1cd4612", null ],
+      [ "MODEL", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#a1c30c67185585a9f27b5a581050292f5af93247a07036841db5fa29a6cd48c720", null ],
+      [ "HIGH_CURVATURE", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#a1c30c67185585a9f27b5a581050292f5a2c954b8e880f1b90f34fe6cbbdfcaedb", null ],
+      [ "LENGTH_EXCEED", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#a1c30c67185585a9f27b5a581050292f5aa9c048181e78e768e1d0ba4dbe47d987", null ],
+      [ "TERM_IN_SGM", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#a1c30c67185585a9f27b5a581050292f5a1eb2310a7998da4f8a297228b5be1393", null ],
+      [ "EXIT_SGM", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#a1c30c67185585a9f27b5a581050292f5aa848b265aba6446e2454c8262740ac47", null ],
+      [ "EXIT_MASK", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#a1c30c67185585a9f27b5a581050292f5ac22cdc8e9af290d32c1755f8805306c7", null ],
+      [ "ENTER_EXCLUDE", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#a1c30c67185585a9f27b5a581050292f5abec0556f0c620b426ac707278523450b", null ],
+      [ "TRAVERSE_ALL_INCLUDE", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#a1c30c67185585a9f27b5a581050292f5a763bf8bed07f3e965b6a3a054a48987f", null ]
+    ] ],
+    [ "load_streamline_properties_and_rois", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#a29255ba3d0b5b19d35adb57975b07d32", null ],
+    [ "term_add_to_tck", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#ae5152527c1230048300e584eeaea3b29", null ],
+    [ "TrackOption", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking.html#a81f5feaac85eccf848e0a63c7b43edd6", null ]
 ];

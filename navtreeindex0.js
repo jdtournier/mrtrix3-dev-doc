@@ -232,13 +232,12 @@ var NAVTREEINDEX0 =
 "check__gradient_8h.html#a71743717e36272ec0545f83d82b7af4d":[12,0,0,10,6,0],
 "check__gradient_8h_source.html":[12,0,0,10,6],
 "class____has__custom__new__operator.html":[11,0,1],
-"class____has__custom__new__operator.html#a5af4012ea253600555b8e629a7045ae4a7dd3a25dfe19a04ee15fd9e3e98b9c0a":[11,0,1,0],
 "class_m_r_1_1_adapter_1_1_base.html":[11,0,0,0,0],
 "class_m_r_1_1_adapter_1_1_base.html#a217cde397b590a0d4204e8d1512ff0d9":[11,0,0,0,0,1],
 "class_m_r_1_1_adapter_1_1_base.html#a537580ba5ea0570297668b0d042c9b0c":[11,0,0,0,0,0],
-"class_m_r_1_1_adapter_1_1_extract.html":[11,0,0,0,1],
-"class_m_r_1_1_adapter_1_1_extract1_d.html":[11,0,0,0,2],
-"class_m_r_1_1_adapter_1_1_extract1_d.html#af155b87cd599bf3ac6886fd0d9d252e7":[11,0,0,0,2,0],
+"class_m_r_1_1_adapter_1_1_extract.html":[11,0,0,0,2],
+"class_m_r_1_1_adapter_1_1_extract1_d.html":[11,0,0,0,1],
+"class_m_r_1_1_adapter_1_1_extract1_d.html#af155b87cd599bf3ac6886fd0d9d252e7":[11,0,0,0,1,0],
 "class_m_r_1_1_adapter_1_1_gaussian1_d.html":[11,0,0,0,3],
 "class_m_r_1_1_adapter_1_1_gaussian1_d.html#a1a66db90ccacea5fdcac577406585ee3":[11,0,0,0,3,2],
 "class_m_r_1_1_adapter_1_1_gaussian1_d.html#a7d4b82716a1090333bd2d7994ef12480":[11,0,0,0,3,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX0 =
 "class_m_r_1_1_adapter_1_1_gradient1_d.html":[11,0,0,0,4],
 "class_m_r_1_1_adapter_1_1_gradient1_d.html#a1c86c112d40892d58de50180c29f705d":[11,0,0,0,4,0],
 "class_m_r_1_1_adapter_1_1_gradient1_d.html#a22cf8f019507b3c1f22e7f0ef61e89ba":[11,0,0,0,4,1],
-"class_m_r_1_1_adapter_1_1_gradient1_d.html#a8d1f36fb18bed5a8db3594d479b24ff7":[11,0,0,0,4,4]
+"class_m_r_1_1_adapter_1_1_gradient1_d.html#a8d1f36fb18bed5a8db3594d479b24ff7":[11,0,0,0,4,4],
+"class_m_r_1_1_adapter_1_1_gradient1_d.html#aa73eeec454666741d1a1d52c8f39391a":[11,0,0,0,4,3]
 };

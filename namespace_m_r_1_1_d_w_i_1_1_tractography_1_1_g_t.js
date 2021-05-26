@@ -3,13 +3,16 @@ var namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t =
     [ "EnergyComputer", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_energy_computer.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_energy_computer" ],
     [ "EnergySumComputer", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_energy_sum_computer.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_energy_sum_computer" ],
     [ "ExternalEnergyComputer", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_external_energy_computer.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_external_energy_computer" ],
+    [ "Properties", "struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_properties.html", "struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_properties" ],
+    [ "Stats", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_stats.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_stats" ],
     [ "InternalEnergyComputer", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_internal_energy_computer.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_internal_energy_computer" ],
     [ "MHSampler", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_m_h_sampler.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_m_h_sampler" ],
     [ "Particle", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle" ],
     [ "ParticleEnd", "struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle_end.html", "struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle_end" ],
     [ "ParticleGrid", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle_grid.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle_grid" ],
     [ "ParticlePool", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle_pool.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_particle_pool" ],
-    [ "Properties", "struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_properties.html", "struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_properties" ],
     [ "SpatialLock", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_spatial_lock" ],
-    [ "Stats", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_stats.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_stats" ]
+    [ "Point_t", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t.html#a9bb65262d80c12459def723732318f31", null ],
+    [ "M_4PI", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t.html#ac0ce46647775ec2def73d597cfca511c", null ],
+    [ "M_sqrt4PI", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t.html#a0307aa703f12ee39be706059df87536f", null ]
 ];

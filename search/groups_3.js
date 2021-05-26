@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['elementary_20functions_8227',['Elementary Functions',['../group__elfun.html',1,'']]]
+  ['elementary_20functions_8447',['Elementary Functions',['../group__elfun.html',1,'']]]
 ];

@@ -1,8 +1,6 @@
 var src_2surface_2types_8h =
 [
-    [ "ConstRow", "class_m_r_1_1_helper_1_1_const_row.html", null ],
-    [ "Row", "class_m_r_1_1_helper_1_1_row.html", null ],
-    [ "__has_custom_new_operator", "class____has__custom__new__operator.html", "class____has__custom__new__operator" ],
+    [ "__has_custom_new_operator", "class____has__custom__new__operator.html", null ],
     [ "container_cast", "struct_m_r_1_1container__cast.html", "struct_m_r_1_1container__cast" ],
     [ "is_complex", "struct_m_r_1_1is__complex.html", null ],
     [ "is_complex< std::complex< ValueType > >", "struct_m_r_1_1is__complex_3_01std_1_1complex_3_01_value_type_01_4_01_4.html", null ],

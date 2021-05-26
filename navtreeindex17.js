@@ -1,6 +1,5 @@
 var NAVTREEINDEX17 =
 {
-"downsampler_8h_source.html":[12,0,1,2,2,6,1],
 "dwi_2directions_2file_8h.html":[12,0,1,2,0,0],
 "dwi_2directions_2file_8h.html#a0918506ec3b5c25c486c42a3bccbb71b":[12,0,1,2,0,0,3],
 "dwi_2directions_2file_8h.html#a3a6a484c8f46a8d568245cbe4dcc38f2":[12,0,1,2,0,0,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX17 =
 "functions_func_d.html":[11,3,1,4],
 "functions_func_e.html":[11,3,1,5],
 "functions_func_f.html":[11,3,1,6],
-"functions_func_g.html":[11,3,1,7]
+"functions_func_g.html":[11,3,1,7],
+"functions_func_h.html":[11,3,1,8]
 };

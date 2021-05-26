@@ -19,6 +19,11 @@ var group___filters =
       [ "erode", "class_m_r_1_1_filter_1_1_erode.html#a79c19d3fdfb79ccd9d572f99ac8f61ef", null ],
       [ "npass", "class_m_r_1_1_filter_1_1_erode.html#a63d590a9893eae9c474adf399a090161", null ]
     ] ],
+    [ "FFT", "class_m_r_1_1_filter_1_1_f_f_t.html", [
+      [ "axes_to_process", "group___filters.html#gac0c75f21c005120ca0f9061398294492", null ],
+      [ "centre_zero_", "group___filters.html#gae84875dbd80ed30a197d71214cde0d7b", null ],
+      [ "inverse", "group___filters.html#gab6be42cbdf4453e43842c1669a885178", null ]
+    ] ],
     [ "FFTKernel", "class_m_r_1_1_filter_1_1_f_f_t_1_1_f_f_t_kernel.html", [
       [ "axis", "group___filters.html#ga15c2544ccb4651aa0bed78a308175d72", null ],
       [ "data_in", "group___filters.html#gab3c714dbff5accf562beeb8ab7065ad6", null ],
@@ -26,11 +31,6 @@ var group___filters =
       [ "fft", "group___filters.html#gad87089e029799fc2c1312e8b9c99eed6", null ],
       [ "inverse", "group___filters.html#gac2efd3ac8c8b485bedacb3770556d84a", null ],
       [ "vox", "group___filters.html#gaac227bb2075e25db4ab646f35962c996", null ]
-    ] ],
-    [ "FFT", "class_m_r_1_1_filter_1_1_f_f_t.html", [
-      [ "axes_to_process", "group___filters.html#gac0c75f21c005120ca0f9061398294492", null ],
-      [ "centre_zero_", "group___filters.html#gae84875dbd80ed30a197d71214cde0d7b", null ],
-      [ "inverse", "group___filters.html#gab6be42cbdf4453e43842c1669a885178", null ]
     ] ],
     [ "Gradient", "class_m_r_1_1_filter_1_1_gradient.html", [
       [ "magnitude", "class_m_r_1_1_filter_1_1_gradient.html#a60a36290d03e5e26dfc63bc49b249072", null ],
