@@ -10,15 +10,15 @@ var dir_99d0482cf009f9d97a0877749b817f19 =
       [ "QColorButton", "class_q_color_button.html", "class_q_color_button" ]
     ] ],
     [ "crosshair.h", "crosshair_8h.html", [
-      [ "Crosshair", "class_m_r_1_1_g_u_i_1_1_crosshair.html", "class_m_r_1_1_g_u_i_1_1_crosshair" ]
+      [ "MR::GUI::Crosshair", "class_m_r_1_1_g_u_i_1_1_crosshair.html", "class_m_r_1_1_g_u_i_1_1_crosshair" ]
     ] ],
     [ "cursor.h", "cursor_8h.html", [
-      [ "Cursor", "class_m_r_1_1_g_u_i_1_1_cursor.html", "class_m_r_1_1_g_u_i_1_1_cursor" ]
+      [ "MR::GUI::Cursor", "class_m_r_1_1_g_u_i_1_1_cursor.html", "class_m_r_1_1_g_u_i_1_1_cursor" ]
     ] ],
     [ "gui.h", "gui_8h.html", "gui_8h" ],
     [ "lighting_dock.h", "lighting__dock_8h.html", [
-      [ "LightingSettings", "class_m_r_1_1_g_u_i_1_1_lighting_settings.html", "class_m_r_1_1_g_u_i_1_1_lighting_settings" ],
-      [ "LightingDock", "class_m_r_1_1_g_u_i_1_1_lighting_dock.html", "class_m_r_1_1_g_u_i_1_1_lighting_dock" ]
+      [ "MR::GUI::LightingSettings", "class_m_r_1_1_g_u_i_1_1_lighting_settings.html", "class_m_r_1_1_g_u_i_1_1_lighting_settings" ],
+      [ "MR::GUI::LightingDock", "class_m_r_1_1_g_u_i_1_1_lighting_dock.html", "class_m_r_1_1_g_u_i_1_1_lighting_dock" ]
     ] ],
     [ "projection.h", "projection_8h.html", "projection_8h" ]
 ];

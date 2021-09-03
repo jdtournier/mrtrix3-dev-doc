@@ -1,8 +1,8 @@
 var src_2gui_2mrview_2mode_2base_8h =
 [
-    [ "ModeGuiVisitor", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_mode_gui_visitor.html", null ],
-    [ "Base", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_base.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_base" ],
-    [ "Action", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_action.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_action" ],
+    [ "MR::GUI::MRView::Mode::ModeGuiVisitor", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_mode_gui_visitor.html", null ],
+    [ "MR::GUI::MRView::Mode::Base", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_base.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_base" ],
+    [ "MR::GUI::MRView::Mode::Action< T >", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_action.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_action" ],
     [ "MOVE_IN_OUT_FOV_MULTIPLIER", "src_2gui_2mrview_2mode_2base_8h.html#a08d8e96d624c1d2ce648318bfe726000", null ],
     [ "ROTATION_INC", "src_2gui_2mrview_2mode_2base_8h.html#a648b42eb3cac9079e831d083482128f2", null ],
     [ "FocusContrast", "src_2gui_2mrview_2mode_2base_8h.html#affa02e05313795d5fd0d47c87d806cc8", null ],

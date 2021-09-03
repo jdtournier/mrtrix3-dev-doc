@@ -1,6 +1,6 @@
 var tckfactor_8h =
 [
-    [ "TckFactor", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_tck_factor.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_tck_factor" ],
+    [ "MR::DWI::Tractography::SIFT2::TckFactor", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_tck_factor.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_tck_factor" ],
     [ "SIFT2_MAX_COEFF_DEFAULT", "tckfactor_8h.html#a294a6aa328fd0e2a961aa618331d595f", null ],
     [ "SIFT2_MAX_COEFF_STEP_DEFAULT", "tckfactor_8h.html#a2d2ca5642852965bcbf1e72cc001e570", null ],
     [ "SIFT2_MAX_ITERS_DEFAULT", "tckfactor_8h.html#a3462caa37aeae245f777817683e40c64", null ],

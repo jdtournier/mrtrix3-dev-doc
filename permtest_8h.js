@@ -1,7 +1,7 @@
 var permtest_8h =
 [
-    [ "PreProcessor", "class_m_r_1_1_stats_1_1_perm_test_1_1_pre_processor.html", "class_m_r_1_1_stats_1_1_perm_test_1_1_pre_processor" ],
-    [ "Processor", "class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html", "class_m_r_1_1_stats_1_1_perm_test_1_1_processor" ],
+    [ "MR::Stats::PermTest::PreProcessor", "class_m_r_1_1_stats_1_1_perm_test_1_1_pre_processor.html", "class_m_r_1_1_stats_1_1_perm_test_1_1_pre_processor" ],
+    [ "MR::Stats::PermTest::Processor", "class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html", "class_m_r_1_1_stats_1_1_perm_test_1_1_processor" ],
     [ "DEFAULT_NUMBER_PERMUTATIONS", "permtest_8h.html#a44eb350d25cc7d16b690ecdb69e41c09", null ],
     [ "DEFAULT_NUMBER_PERMUTATIONS_NONSTATIONARITY", "permtest_8h.html#a3e00c4eea8f017b1e6afda183592681c", null ],
     [ "count_matrix_type", "permtest_8h.html#a698f8c6d2b2871517cc6eaa349ce4242", null ],

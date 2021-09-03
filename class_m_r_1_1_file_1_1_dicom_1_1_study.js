@@ -1,7 +1,7 @@
 var class_m_r_1_1_file_1_1_dicom_1_1_study =
 [
     [ "Study", "class_m_r_1_1_file_1_1_dicom_1_1_study.html#aa816af18cbdab1afd378a9469381181a", null ],
-    [ "find", "class_m_r_1_1_file_1_1_dicom_1_1_study.html#a9391166ce455942fbf7c9bb0abb44d84", null ],
+    [ "find", "class_m_r_1_1_file_1_1_dicom_1_1_study.html#a19043ff52c844501edfaa3c9f02aac8c", null ],
     [ "date", "class_m_r_1_1_file_1_1_dicom_1_1_study.html#a97a003459ac19d9ed52a88ec4b7a618f", null ],
     [ "ID", "class_m_r_1_1_file_1_1_dicom_1_1_study.html#ac9b07f9329ba9d576c739abefcd6e194", null ],
     [ "name", "class_m_r_1_1_file_1_1_dicom_1_1_study.html#a0f4918a456617dd30342e34af95ef5e0", null ],

@@ -1,8 +1,8 @@
 var histogram_8h =
 [
-    [ "Calibrator", "class_m_r_1_1_algo_1_1_histogram_1_1_calibrator.html", null ],
-    [ "Data", "class_m_r_1_1_algo_1_1_histogram_1_1_data.html", "class_m_r_1_1_algo_1_1_histogram_1_1_data" ],
-    [ "Matcher", "class_m_r_1_1_algo_1_1_histogram_1_1_matcher.html", "class_m_r_1_1_algo_1_1_histogram_1_1_matcher" ],
+    [ "MR::Algo::Histogram::Calibrator", "class_m_r_1_1_algo_1_1_histogram_1_1_calibrator.html", null ],
+    [ "MR::Algo::Histogram::Data", "class_m_r_1_1_algo_1_1_histogram_1_1_data.html", "class_m_r_1_1_algo_1_1_histogram_1_1_data" ],
+    [ "MR::Algo::Histogram::Matcher", "class_m_r_1_1_algo_1_1_histogram_1_1_matcher.html", "class_m_r_1_1_algo_1_1_histogram_1_1_matcher" ],
     [ "calibrate", "histogram_8h.html#afb0a82587faa29c26114046869816f44", null ],
     [ "calibrate", "histogram_8h.html#a598dbfeeee9f71afb8e38f22f8c8be97", null ],
     [ "generate", "histogram_8h.html#a2649ec50ed234ddd20444224d974b32d", null ],

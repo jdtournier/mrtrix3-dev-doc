@@ -1,6 +1,6 @@
 var src_2dwi_2tractography_2tracking_2types_8h =
 [
-    [ "Interpolator", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_interpolator.html", null ],
+    [ "MR::DWI::Tractography::Tracking::Interpolator< ImageType >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_interpolator.html", null ],
     [ "REJECTION_REASON_COUNT", "src_2dwi_2tractography_2tracking_2types_8h.html#a8b24e73a0437a8c6b813f55548c68929", null ],
     [ "TERMINATION_REASON_COUNT", "src_2dwi_2tractography_2tracking_2types_8h.html#a869113fb71998652e5032c2aaf80acd0", null ],
     [ "reject_t", "src_2dwi_2tractography_2tracking_2types_8h.html#ad956382fab3ffe08fe6398044e9ae01a", [

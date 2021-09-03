@@ -12,11 +12,11 @@ var dir_6f8fcd489e430c1a1b22716f7655ad56 =
     [ "SIFT2", "dir_064427be24f44b9376c958649b0ab896.html", "dir_064427be24f44b9376c958649b0ab896" ],
     [ "tracking", "dir_e52cf29ec87f46add90075c2a6c67f9c.html", "dir_e52cf29ec87f46add90075c2a6c67f9c" ],
     [ "file.h", "dwi_2tractography_2file_8h.html", [
-      [ "ReaderInterface", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_reader_interface.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_reader_interface" ],
-      [ "WriterInterface", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer_interface.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer_interface" ],
-      [ "Reader", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_reader.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_reader" ],
-      [ "WriterUnbuffered", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer_unbuffered.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer_unbuffered" ],
-      [ "Writer", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer" ]
+      [ "MR::DWI::Tractography::ReaderInterface< ValueType >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_reader_interface.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_reader_interface" ],
+      [ "MR::DWI::Tractography::WriterInterface< ValueType >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer_interface.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer_interface" ],
+      [ "MR::DWI::Tractography::Reader< ValueType >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_reader.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_reader" ],
+      [ "MR::DWI::Tractography::WriterUnbuffered< ValueType >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer_unbuffered.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer_unbuffered" ],
+      [ "MR::DWI::Tractography::Writer< ValueType >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_writer" ]
     ] ],
     [ "file_base.h", "file__base_8h.html", null ],
     [ "properties.h", "properties_8h.html", "properties_8h" ],

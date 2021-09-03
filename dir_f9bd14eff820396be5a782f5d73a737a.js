@@ -8,21 +8,21 @@ var dir_f9bd14eff820396be5a782f5d73a737a =
     [ "base.h", "src_2gui_2mrview_2tool_2base_8h.html", "src_2gui_2mrview_2tool_2base_8h" ],
     [ "list.h", "src_2gui_2mrview_2tool_2list_8h.html", null ],
     [ "list_model_base.h", "list__model__base_8h.html", [
-      [ "ListModelBase", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_list_model_base.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_list_model_base" ]
+      [ "MR::GUI::MRView::Tool::ListModelBase", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_list_model_base.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_list_model_base" ]
     ] ],
     [ "overlay.h", "overlay_8h.html", [
-      [ "Overlay", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_overlay.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_overlay" ],
-      [ "InterpolateCheckBox", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_overlay_1_1_interpolate_check_box.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_overlay_1_1_interpolate_check_box" ]
+      [ "MR::GUI::MRView::Tool::Overlay", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_overlay.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_overlay" ],
+      [ "MR::GUI::MRView::Tool::Overlay::InterpolateCheckBox", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_overlay_1_1_interpolate_check_box.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_overlay_1_1_interpolate_check_box" ]
     ] ],
     [ "screen_capture.h", "screen__capture_8h.html", [
-      [ "Capture", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_capture.html", null ]
+      [ "MR::GUI::MRView::Tool::Capture", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_capture.html", null ]
     ] ],
     [ "transform.h", "src_2gui_2mrview_2tool_2transform_8h.html", [
-      [ "Transform", "class_m_r_1_1_transform.html", "class_m_r_1_1_transform" ],
-      [ "Transform", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform" ]
+      [ "MR::Transform", "class_m_r_1_1_transform.html", "class_m_r_1_1_transform" ],
+      [ "MR::GUI::MRView::Tool::Transform", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform" ]
     ] ],
     [ "view.h", "view_8h.html", [
-      [ "ClipPlane", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_clip_plane.html", null ],
-      [ "View", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_view.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_view" ]
+      [ "MR::GUI::MRView::Tool::ClipPlane", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_clip_plane.html", null ],
+      [ "MR::GUI::MRView::Tool::View", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_view.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_view" ]
     ] ]
 ];

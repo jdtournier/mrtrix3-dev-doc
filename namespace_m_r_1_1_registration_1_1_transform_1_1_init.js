@@ -1,7 +1,7 @@
 var namespace_m_r_1_1_registration_1_1_transform_1_1_init =
 [
-    [ "LinearInitialisationParams", "struct_m_r_1_1_registration_1_1_transform_1_1_init_1_1_linear_initialisation_params.html", "struct_m_r_1_1_registration_1_1_transform_1_1_init_1_1_linear_initialisation_params" ],
     [ "FODInitialiser", "class_m_r_1_1_registration_1_1_transform_1_1_init_1_1_f_o_d_initialiser.html", "class_m_r_1_1_registration_1_1_transform_1_1_init_1_1_f_o_d_initialiser" ],
+    [ "LinearInitialisationParams", "struct_m_r_1_1_registration_1_1_transform_1_1_init_1_1_linear_initialisation_params.html", "struct_m_r_1_1_registration_1_1_transform_1_1_init_1_1_linear_initialisation_params" ],
     [ "MomentsInitialiser", "class_m_r_1_1_registration_1_1_transform_1_1_init_1_1_moments_initialiser.html", "class_m_r_1_1_registration_1_1_transform_1_1_init_1_1_moments_initialiser" ],
     [ "InitType", "namespace_m_r_1_1_registration_1_1_transform_1_1_init.html#afa3a967714d843a5733b8bdc70eb5868", [
       [ "set_centre_mass", "namespace_m_r_1_1_registration_1_1_transform_1_1_init.html#afa3a967714d843a5733b8bdc70eb5868a6cd77be47d5a2e0d2fdace2d419a0d0a", null ],

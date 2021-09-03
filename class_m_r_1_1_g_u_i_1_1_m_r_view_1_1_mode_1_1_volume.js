@@ -1,11 +1,11 @@
 var class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume =
 [
     [ "Shader", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume_1_1_shader.html", null ],
-    [ "get_active_clip_planes", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume.html#a6a6683e78e14d83609b43d1871613619", null ],
-    [ "get_clip_planes_to_be_edited", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume.html#a81c9f517da00752ddae6b35abe3b0f11", null ],
+    [ "get_active_clip_planes", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume.html#a44b0149d00e7af424e2d376c06f01b43", null ],
+    [ "get_clip_planes_to_be_edited", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume.html#a5bc57e08c75c99312e8a9a8ca511183d", null ],
     [ "get_cliphighlightstate", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume.html#ae2aa3067c9af19f26cf322be5bfe46df", null ],
     [ "get_clipintersectionmodestate", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume.html#aaa266619a14b59c732d754fd1651a621", null ],
-    [ "get_view_tool", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume.html#af55baae1be3cede21f002c417634ec2f", null ],
+    [ "get_view_tool", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume.html#afc106ddc6b9d7aab9fd5627785e6484a", null ],
     [ "clip", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume.html#aa75a5bc563f4f98c1fe2bfa23f0a6d9d", null ],
     [ "depth_texture", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume.html#aaf9369ab0a4f7dff6ffbfe5046fa7824", null ],
     [ "volume_shader", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_volume.html#ae4b9153f390e4e1002e72536248c68bb", null ],

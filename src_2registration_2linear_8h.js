@@ -1,7 +1,7 @@
 var src_2registration_2linear_8h =
 [
-    [ "StageSetting", "struct_m_r_1_1_registration_1_1_stage_setting.html", "struct_m_r_1_1_registration_1_1_stage_setting" ],
-    [ "Linear", "class_m_r_1_1_registration_1_1_linear.html", "class_m_r_1_1_registration_1_1_linear" ],
+    [ "MR::Registration::StageSetting", "struct_m_r_1_1_registration_1_1_stage_setting.html", "struct_m_r_1_1_registration_1_1_stage_setting" ],
+    [ "MR::Registration::Linear", "class_m_r_1_1_registration_1_1_linear.html", "class_m_r_1_1_registration_1_1_linear" ],
     [ "LinearMetricType", "src_2registration_2linear_8h.html#a2128b8d3c4c2bd10f9a40be6b8fe0bc5", [
       [ "Diff", "src_2registration_2linear_8h.html#a2128b8d3c4c2bd10f9a40be6b8fe0bc5a2627cd6af7f4b56744218892fc3abc2f", null ],
       [ "NCC", "src_2registration_2linear_8h.html#a2128b8d3c4c2bd10f9a40be6b8fe0bc5a5baacf33ac2a0df4aa198263c8163d00", null ]

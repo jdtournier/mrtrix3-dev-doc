@@ -1,7 +1,7 @@
 var class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_overlay =
 [
     [ "InterpolateCheckBox", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_overlay_1_1_interpolate_check_box.html", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_overlay_1_1_interpolate_check_box" ],
-    [ "add_images", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_overlay.html#acd9037477d17ebd69840d36e6008d8c2", null ],
+    [ "add_images", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_overlay.html#a1cbe5acc6cd84ef4278496e23a71a62b", null ],
     [ "dropEvent", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_overlay.html#a5384849354d1d5735fec08c14724df66", null ],
     [ "update_selection", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_overlay.html#a903e48495962b683f9c8030482d70648", null ],
     [ "updateGL", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_overlay.html#ad84685e925dd75a3a4aa6e08e0c21669", null ],

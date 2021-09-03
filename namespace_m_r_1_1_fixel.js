@@ -3,8 +3,8 @@ var namespace_m_r_1_1_fixel =
     [ "Filter", "namespace_m_r_1_1_fixel_1_1_filter.html", "namespace_m_r_1_1_fixel_1_1_filter" ],
     [ "Legacy", "namespace_m_r_1_1_fixel_1_1_legacy.html", "namespace_m_r_1_1_fixel_1_1_legacy" ],
     [ "Matrix", "namespace_m_r_1_1_fixel_1_1_matrix.html", "namespace_m_r_1_1_fixel_1_1_matrix" ],
-    [ "LoopFixelsInVoxel", "struct_m_r_1_1_fixel_1_1_loop_fixels_in_voxel.html", "struct_m_r_1_1_fixel_1_1_loop_fixels_in_voxel" ],
     [ "IndexRemapper", "class_m_r_1_1_fixel_1_1_index_remapper.html", "class_m_r_1_1_fixel_1_1_index_remapper" ],
+    [ "LoopFixelsInVoxel", "struct_m_r_1_1_fixel_1_1_loop_fixels_in_voxel.html", "struct_m_r_1_1_fixel_1_1_loop_fixels_in_voxel" ],
     [ "index_type", "namespace_m_r_1_1_fixel.html#aa51e532e889581925b170022358db3b9", null ],
     [ "check_data_file", "namespace_m_r_1_1_fixel.html#a7ac84cd028846c9db7ed3f20cfcf72c9", null ],
     [ "check_fixel_directory", "namespace_m_r_1_1_fixel.html#a1f247c0e63e755e6f02261e73a07814d", null ],
@@ -17,7 +17,7 @@ var namespace_m_r_1_1_fixel =
     [ "copy_index_file", "namespace_m_r_1_1_fixel.html#aac00bd1659ff1b73d73afdae49efe593", null ],
     [ "data_header_from_index", "namespace_m_r_1_1_fixel.html#a545dc796e84f86cb86eacfd33b311fa3", null ],
     [ "directions_header_from_index", "namespace_m_r_1_1_fixel.html#a0a7490044cfce2f67e90841e2fe2f21a", null ],
-    [ "find_data_headers", "namespace_m_r_1_1_fixel.html#a4f7c5c2f8085e5eee2ebc454775b6d6c", null ],
+    [ "find_data_headers", "namespace_m_r_1_1_fixel.html#a4a8431c39bce599e0726ed7d403576c0", null ],
     [ "find_directions_header", "namespace_m_r_1_1_fixel.html#a8aa29e2784bb0baa6c81965d4acf779b", null ],
     [ "find_index_header", "namespace_m_r_1_1_fixel.html#a9f70435567f5fe7561d84aba198ec599", null ],
     [ "fixels_match", "namespace_m_r_1_1_fixel.html#a021741f03136fc688322c96fab1c0ba8", null ],
@@ -30,6 +30,6 @@ var namespace_m_r_1_1_fixel =
     [ "is_index_image", "namespace_m_r_1_1_fixel.html#a202030e7dc58e817aeae06dc0cd24429", null ],
     [ "Loop", "namespace_m_r_1_1_fixel.html#a3d27b0a7ab68330d9cbe35b3bf702275", null ],
     [ "n_fixels_key", "namespace_m_r_1_1_fixel.html#ae470ac8fe6aebdca7650859a5ec0fa25", null ],
-    [ "open_fixel_data_file", "namespace_m_r_1_1_fixel.html#a6b79d88092c2cdc0fa1ba2d63e4f6a4e", null ],
+    [ "open_fixel_data_file", "namespace_m_r_1_1_fixel.html#ab24349b6237c7cc4b62c091b5cf255e3", null ],
     [ "supported_sparse_formats", "namespace_m_r_1_1_fixel.html#aad26c2bdce29282757581e196400bc95", null ]
 ];

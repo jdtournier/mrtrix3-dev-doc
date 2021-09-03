@@ -2,7 +2,7 @@ var class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f =
 [
     [ "add_images", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#ac1cc0ba082e754f75b6e8abb35580c8b", null ],
     [ "closeEvent", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#a8444a20c7e1e6acc24182ccd03c21376", null ],
-    [ "get_image", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#afa4e68c17e5e3df6fb84ea3d7354a23b", null ],
+    [ "get_image", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#a18dd97df5313086ec16c59f5228a29ef", null ],
     [ "get_values", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#ac896c10d2f8087d530c385941e4820b4", null ],
     [ "setup_ODFtype_UI", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#a493ffaac196c1307f6d79ca23fb2059c", null ],
     [ "ODF_Preview", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_o_d_f.html#a8ec23f5296f87058e4912c1a78ec99c1", null ],

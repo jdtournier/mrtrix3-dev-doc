@@ -13,6 +13,6 @@ var class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_fixel =
     [ "get_orig_TD", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_fixel.html#a42ebb6246cfaa7ec15dbbedb135d457d", null ],
     [ "is_excluded", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_fixel.html#a54e592a64681cd38109a3b4b7ff39aa3", null ],
     [ "normalise_mean_coeff", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_fixel.html#a0b8bbbcc8c5d936085bfae4ddf31c56c", null ],
-    [ "operator+=", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_fixel.html#ad70a28de6b3bac0f1e9e2872fcbd552d", null ],
+    [ "operator+=", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_fixel.html#a8b49eb3481bac111dee531030d5730af", null ],
     [ "store_orig_TD", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_fixel.html#afe99c32e50883564478b689d7acffb1e", null ]
 ];

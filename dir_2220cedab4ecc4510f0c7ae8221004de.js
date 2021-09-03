@@ -7,9 +7,9 @@ var dir_2220cedab4ecc4510f0c7ae8221004de =
     [ "min_max.h", "min__max_8h.html", "min__max_8h" ],
     [ "neighbourhooditerator.h", "neighbourhooditerator_8h.html", null ],
     [ "random_loop.h", "random__loop_8h.html", [
-      [ "Random_loop", "class_m_r_1_1_random__loop.html", "class_m_r_1_1_random__loop" ],
-      [ "Random_sparse_loop", "class_m_r_1_1_random__sparse__loop.html", "class_m_r_1_1_random__sparse__loop" ],
-      [ "Iterator_loop", "class_m_r_1_1_iterator__loop.html", "class_m_r_1_1_iterator__loop" ]
+      [ "MR::Random_loop< ImageType, RandomEngine >", "class_m_r_1_1_random__loop.html", "class_m_r_1_1_random__loop" ],
+      [ "MR::Random_sparse_loop< ImageType >", "class_m_r_1_1_random__sparse__loop.html", "class_m_r_1_1_random__sparse__loop" ],
+      [ "MR::Iterator_loop< ImageType, IterType >", "class_m_r_1_1_iterator__loop.html", "class_m_r_1_1_iterator__loop" ]
     ] ],
     [ "random_threaded_loop.h", "random__threaded__loop_8h.html", "random__threaded__loop_8h" ],
     [ "stochastic_threaded_loop.h", "stochastic__threaded__loop_8h.html", "stochastic__threaded__loop_8h" ],

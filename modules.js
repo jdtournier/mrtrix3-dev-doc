@@ -10,7 +10,7 @@ var modules =
     [ "Spherical Harmonics", "group__spherical__harmonics.html", "group__spherical__harmonics" ],
     [ "Zonal Spherical Harmonics", "group__zonal__spherical__harmonics.html", "group__zonal__spherical__harmonics" ],
     [ "Memory management", "group___memory.html", null ],
-    [ "Binary access functions", "group___binary.html", null ],
+    [ "Binary access functions", "group___binary.html", "group___binary" ],
     [ "Variable-length array macros", "group___v_l_a.html", "group___v_l_a" ],
     [ "Interp", "group__interp.html", null ],
     [ "Filters", "group___filters.html", "group___filters" ],

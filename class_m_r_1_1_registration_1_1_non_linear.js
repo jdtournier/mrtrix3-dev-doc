@@ -1,7 +1,7 @@
 var class_m_r_1_1_registration_1_1_non_linear =
 [
     [ "has_negative_jacobians", "class_m_r_1_1_registration_1_1_non_linear.html#a792153eebac1da952b286f48cf7cc52c", null ],
-    [ "reslice", "class_m_r_1_1_registration_1_1_non_linear.html#a42eed90d9e4630f2fc8d2da2972f024f", null ],
+    [ "reslice", "class_m_r_1_1_registration_1_1_non_linear.html#ad752d34786652cd0ab1186540e9cc900", null ],
     [ "aPSF_directions", "class_m_r_1_1_registration_1_1_non_linear.html#a43b1fc6cf5295209ebfae2d9dfbf891a", null ],
     [ "cc_extent", "class_m_r_1_1_registration_1_1_non_linear.html#a53471f9899c3cbf6bb93b0923b6751c8", null ],
     [ "contrasts", "class_m_r_1_1_registration_1_1_non_linear.html#abb4b9a93ec6164b5903ce5196c87eece", null ],

@@ -1,9 +1,9 @@
 var namespace_m_r_1_1_registration_1_1_warp =
 [
-    [ "ComposeLinearDeformKernel", "class_m_r_1_1_registration_1_1_warp_1_1_compose_linear_deform_kernel.html", "class_m_r_1_1_registration_1_1_warp_1_1_compose_linear_deform_kernel" ],
-    [ "ComposeLinearDispKernel", "class_m_r_1_1_registration_1_1_warp_1_1_compose_linear_disp_kernel.html", "class_m_r_1_1_registration_1_1_warp_1_1_compose_linear_disp_kernel" ],
     [ "ComposeDispKernel", "class_m_r_1_1_registration_1_1_warp_1_1_compose_disp_kernel.html", "class_m_r_1_1_registration_1_1_warp_1_1_compose_disp_kernel" ],
     [ "ComposeHalfwayKernel", "class_m_r_1_1_registration_1_1_warp_1_1_compose_halfway_kernel.html", "class_m_r_1_1_registration_1_1_warp_1_1_compose_halfway_kernel" ],
+    [ "ComposeLinearDeformKernel", "class_m_r_1_1_registration_1_1_warp_1_1_compose_linear_deform_kernel.html", "class_m_r_1_1_registration_1_1_warp_1_1_compose_linear_deform_kernel" ],
+    [ "ComposeLinearDispKernel", "class_m_r_1_1_registration_1_1_warp_1_1_compose_linear_disp_kernel.html", "class_m_r_1_1_registration_1_1_warp_1_1_compose_linear_disp_kernel" ],
     [ "check_warp", "namespace_m_r_1_1_registration_1_1_warp.html#a826b0e7d4e9bf082265d4982fb08e5e0", null ],
     [ "check_warp_full", "namespace_m_r_1_1_registration_1_1_warp.html#abe413643bdfbdd7fafbc50e8f9c2e763", null ],
     [ "compose_linear_deformation", "namespace_m_r_1_1_registration_1_1_warp.html#adfb0e43a9dce687719cfd1ea539bf80f", null ],

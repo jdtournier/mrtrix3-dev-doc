@@ -1,17 +1,17 @@
 var group__spherical__harmonics =
 [
-    [ "Transform", "class_m_r_1_1_math_1_1_s_h_1_1_transform.html", [
+    [ "MR::Math::SH::Transform< ValueType >", "class_m_r_1_1_math_1_1_s_h_1_1_transform.html", [
       [ "iSHT", "class_m_r_1_1_math_1_1_s_h_1_1_transform.html#a090fc82b5df426e29a31cfe1d85cba72", null ],
       [ "SHT", "class_m_r_1_1_math_1_1_s_h_1_1_transform.html#a3f3e81061b4248a70e8ccca3c13fa903", null ]
     ] ],
-    [ "PrecomputedFraction", "class_m_r_1_1_math_1_1_s_h_1_1_precomputed_fraction.html", [
+    [ "MR::Math::SH::PrecomputedFraction< ValueType >", "class_m_r_1_1_math_1_1_s_h_1_1_precomputed_fraction.html", [
       [ "PrecomputedFraction", "class_m_r_1_1_math_1_1_s_h_1_1_precomputed_fraction.html#aae6e40afb9de8d1797b0b363b891e137", null ],
       [ "f1", "class_m_r_1_1_math_1_1_s_h_1_1_precomputed_fraction.html#a37ad42ae2b21d95dd7c78ec4157c13ec", null ],
       [ "f2", "class_m_r_1_1_math_1_1_s_h_1_1_precomputed_fraction.html#a1451b1b8c15f79fc827d649b8b08a307", null ],
       [ "p1", "class_m_r_1_1_math_1_1_s_h_1_1_precomputed_fraction.html#a436160f61b3c92f8857bc39877138aac", null ],
       [ "p2", "class_m_r_1_1_math_1_1_s_h_1_1_precomputed_fraction.html#a641595bdfbc4a2c80b8a947bda6a4d49", null ]
     ] ],
-    [ "PrecomputedAL", "class_m_r_1_1_math_1_1_s_h_1_1_precomputed_a_l.html", [
+    [ "MR::Math::SH::PrecomputedAL< ValueType >", "class_m_r_1_1_math_1_1_s_h_1_1_precomputed_a_l.html", [
       [ "value_type", "class_m_r_1_1_math_1_1_s_h_1_1_precomputed_a_l.html#a5200182a2011b5d515566206c19e7cf9", null ],
       [ "PrecomputedAL", "class_m_r_1_1_math_1_1_s_h_1_1_precomputed_a_l.html#a696f88bb74943bca452a577e66881ae2", null ],
       [ "PrecomputedAL", "class_m_r_1_1_math_1_1_s_h_1_1_precomputed_a_l.html#aad1616bf86f6cdaf3082883cb4587235", null ],
@@ -29,28 +29,28 @@ var group__spherical__harmonics =
       [ "nAL", "class_m_r_1_1_math_1_1_s_h_1_1_precomputed_a_l.html#a6a6119d535416f86f36e9727525edcdd", null ],
       [ "ndir", "class_m_r_1_1_math_1_1_s_h_1_1_precomputed_a_l.html#ae7c66cf90354d50a6ea0f7185baabf75", null ]
     ] ],
-    [ "aPSF", "class_m_r_1_1_math_1_1_s_h_1_1a_p_s_f.html", null ],
-    [ "check", "group__spherical__harmonics.html#ga02fbff506863d7c1a4b79eea0ac5660c", null ],
-    [ "delta", "group__spherical__harmonics.html#gae9a8ddabd463387e10a641f4fcd32858", null ],
-    [ "derivatives", "group__spherical__harmonics.html#ga3da04937bcc39217f2c49365eb286315", null ],
-    [ "get_peak", "group__spherical__harmonics.html#gab875ad53d217ba8e06a79749d3901f68", null ],
-    [ "index", "group__spherical__harmonics.html#ga12049806261f71471fea43484670d8f5", null ],
-    [ "index_mpos", "group__spherical__harmonics.html#ga5296aa18ca79b9a88a46cee00c47667a", null ],
-    [ "init_transform", "group__spherical__harmonics.html#ga26f3b0200dfcecf06b917680b3f96069", null ],
-    [ "init_transform_cart", "group__spherical__harmonics.html#ga0bc1f34eea3fb5ef1f8056ed8ba114a2", null ],
-    [ "invert", "group__spherical__harmonics.html#ga41841d8320883a03ce43a417c46e7fa1", null ],
-    [ "LforN", "group__spherical__harmonics.html#ga28d9e09433f42e5036ec45ed6e7806bf", null ],
-    [ "NforL", "group__spherical__harmonics.html#ga96a93012c20066bfbdb6c1a1ec1cfe15", null ],
-    [ "NforL_mpos", "group__spherical__harmonics.html#ga8bc0c976c67b9eb91e2dfd71bede4fe1", null ],
-    [ "scale_degrees_forward", "group__spherical__harmonics.html#ga301ff6a6409f78ce405d2ed51f2bdbde", null ],
-    [ "scale_degrees_inverse", "group__spherical__harmonics.html#ga24a1163b39e02424abbe3ed456bb0a1c", null ],
-    [ "sconv", "group__spherical__harmonics.html#ga5bf1dcd250252635f4faa97a1b732703", null ],
-    [ "sconv", "group__spherical__harmonics.html#ga6bc14abe263b2812d92454a199b30a03", null ],
-    [ "sconv_mat", "group__spherical__harmonics.html#gadd1b0a8f178118defedba11790946a74", null ],
-    [ "SH2RH", "group__spherical__harmonics.html#ga2832fa6af188bae8ca224b1dd261bc2d", null ],
-    [ "SH2RH", "group__spherical__harmonics.html#ga1edb8517a3781197c8b7dbdd3ec65ad1", null ],
-    [ "value", "group__spherical__harmonics.html#ga7516a6376d493b95726c8c41ee8ecd84", null ],
-    [ "value", "group__spherical__harmonics.html#gac405578b4137cf1c22a0cf646d260b05", null ],
-    [ "value", "group__spherical__harmonics.html#ga9a848ad288e26cd2bdf74da968ea14cd", null ],
-    [ "encoding_description", "group__spherical__harmonics.html#gaafe2e54ee9df648cfb1372aa7ae2fa6a", null ]
+    [ "MR::Math::SH::aPSF< ValueType >", "class_m_r_1_1_math_1_1_s_h_1_1a_p_s_f.html", null ],
+    [ "MR::Math::SH::check", "group__spherical__harmonics.html#ga02fbff506863d7c1a4b79eea0ac5660c", null ],
+    [ "MR::Math::SH::delta", "group__spherical__harmonics.html#ga52bc9df51a5f151972235a9a0df09c51", null ],
+    [ "MR::Math::SH::derivatives", "group__spherical__harmonics.html#ga3da04937bcc39217f2c49365eb286315", null ],
+    [ "MR::Math::SH::get_peak", "group__spherical__harmonics.html#gab875ad53d217ba8e06a79749d3901f68", null ],
+    [ "MR::Math::SH::index", "group__spherical__harmonics.html#ga12049806261f71471fea43484670d8f5", null ],
+    [ "MR::Math::SH::index_mpos", "group__spherical__harmonics.html#ga5296aa18ca79b9a88a46cee00c47667a", null ],
+    [ "MR::Math::SH::init_transform", "group__spherical__harmonics.html#gac81b86466a7e80070f5161be93cebd6a", null ],
+    [ "MR::Math::SH::init_transform_cart", "group__spherical__harmonics.html#ga38a57752a9e47b22f391d7952a24e91e", null ],
+    [ "MR::Math::SH::invert", "group__spherical__harmonics.html#gaf710913e46f5cbefa76894d6135aef4c", null ],
+    [ "MR::Math::SH::LforN", "group__spherical__harmonics.html#ga28d9e09433f42e5036ec45ed6e7806bf", null ],
+    [ "MR::Math::SH::NforL", "group__spherical__harmonics.html#ga96a93012c20066bfbdb6c1a1ec1cfe15", null ],
+    [ "MR::Math::SH::NforL_mpos", "group__spherical__harmonics.html#ga8bc0c976c67b9eb91e2dfd71bede4fe1", null ],
+    [ "MR::Math::SH::scale_degrees_forward", "group__spherical__harmonics.html#ga301ff6a6409f78ce405d2ed51f2bdbde", null ],
+    [ "MR::Math::SH::scale_degrees_inverse", "group__spherical__harmonics.html#ga24a1163b39e02424abbe3ed456bb0a1c", null ],
+    [ "MR::Math::SH::sconv", "group__spherical__harmonics.html#ga5ce9a41648fd661144c2abe953f3ff89", null ],
+    [ "MR::Math::SH::sconv", "group__spherical__harmonics.html#ga3f0ca8fb7a027f28cf4360d4c81cec04", null ],
+    [ "MR::Math::SH::sconv_mat", "group__spherical__harmonics.html#gaa0311aadd5154d4d23d2cdaa29532bac", null ],
+    [ "MR::Math::SH::SH2RH", "group__spherical__harmonics.html#gaac9cc994993087db75c3ac3af4afcbf9", null ],
+    [ "MR::Math::SH::SH2RH", "group__spherical__harmonics.html#gae4d9b83d1a1e715d2faebceaf79c559a", null ],
+    [ "MR::Math::SH::value", "group__spherical__harmonics.html#ga7516a6376d493b95726c8c41ee8ecd84", null ],
+    [ "MR::Math::SH::value", "group__spherical__harmonics.html#gac405578b4137cf1c22a0cf646d260b05", null ],
+    [ "MR::Math::SH::value", "group__spherical__harmonics.html#ga9a848ad288e26cd2bdf74da968ea14cd", null ],
+    [ "MR::Math::SH::encoding_description", "group__spherical__harmonics.html#gaafe2e54ee9df648cfb1372aa7ae2fa6a", null ]
 ];

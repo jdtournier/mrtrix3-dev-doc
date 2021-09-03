@@ -1,6 +1,6 @@
 var path_8h =
 [
-    [ "Dir", "class_m_r_1_1_path_1_1_dir.html", "class_m_r_1_1_path_1_1_dir" ],
+    [ "MR::Path::Dir", "class_m_r_1_1_path_1_1_dir.html", "class_m_r_1_1_path_1_1_dir" ],
     [ "HOME_ENV", "path_8h.html#ab48997083586c4b7c562db5e51a3d451", null ],
     [ "PATH_SEPARATORS", "path_8h.html#a9fd5ae353cc000a1069390064b2a4cb5", null ],
     [ "basename", "path_8h.html#a271a0f6e88f149cc7d645388ccabcca5", null ],

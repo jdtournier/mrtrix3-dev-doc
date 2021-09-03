@@ -16,13 +16,13 @@ var dir_4270bfced15e0e73154b13468c7c9ad9 =
     [ "apply.h", "apply_8h.html", "apply_8h" ],
     [ "axes.h", "axes_8h.html", "axes_8h" ],
     [ "cmdline_option.h", "cmdline__option_8h.html", [
-      [ "Argument", "class_m_r_1_1_app_1_1_argument.html", "class_m_r_1_1_app_1_1_argument" ],
-      [ "Option", "class_m_r_1_1_app_1_1_option.html", "class_m_r_1_1_app_1_1_option" ],
-      [ "OptionGroup", "class_m_r_1_1_app_1_1_option_group.html", "class_m_r_1_1_app_1_1_option_group" ]
+      [ "MR::App::Argument", "class_m_r_1_1_app_1_1_argument.html", "class_m_r_1_1_app_1_1_argument" ],
+      [ "MR::App::Option", "class_m_r_1_1_app_1_1_option.html", "class_m_r_1_1_app_1_1_option" ],
+      [ "MR::App::OptionGroup", "class_m_r_1_1_app_1_1_option_group.html", "class_m_r_1_1_app_1_1_option_group" ]
     ] ],
     [ "command.h", "command_8h.html", "command_8h" ],
     [ "datatype.h", "datatype_8h.html", [
-      [ "DataType", "class_m_r_1_1_data_type.html", "class_m_r_1_1_data_type" ]
+      [ "MR::DataType", "class_m_r_1_1_data_type.html", "class_m_r_1_1_data_type" ]
     ] ],
     [ "debug.h", "debug_8h.html", "debug_8h" ],
     [ "exception.h", "exception_8h.html", "exception_8h" ],

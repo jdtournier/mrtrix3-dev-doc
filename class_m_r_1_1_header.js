@@ -6,7 +6,7 @@ var class_m_r_1_1_header =
     [ "sanitise_strides", "class_m_r_1_1_header.html#af34351254cdd206df503df7f5b291ca7", null ],
     [ "sanitise_transform", "class_m_r_1_1_header.html#a09ffa13c640bd6f0e23fea13e9d5fae3", null ],
     [ "sanitise_voxel_sizes", "class_m_r_1_1_header.html#a53504d96988d46e0d4acfa3556ca2902", null ],
-    [ "operator<<", "class_m_r_1_1_header.html#a2cf83c5399020708f4d8418bbcde3462", null ],
+    [ "operator<<", "class_m_r_1_1_header.html#a3331fd64e8e6fb15e2c1087fea57bd80", null ],
     [ "axes_", "class_m_r_1_1_header.html#a77241ba37cc3d3e3ba7d50557fd3b810", null ],
     [ "datatype_", "class_m_r_1_1_header.html#a7c463859a41215b7c8fcd164ebf8c2a9", null ],
     [ "format_", "class_m_r_1_1_header.html#a27249fa6fca3ae38915ae444814d4a41", null ],

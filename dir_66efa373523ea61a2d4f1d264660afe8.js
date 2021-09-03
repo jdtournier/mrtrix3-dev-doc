@@ -2,9 +2,9 @@ var dir_66efa373523ea61a2d4f1d264660afe8 =
 [
     [ "base.h", "core_2filter_2base_8h.html", null ],
     [ "connected_components.h", "connected__components_8h.html", [
-      [ "Connector", "class_m_r_1_1_filter_1_1_connector.html", "class_m_r_1_1_filter_1_1_connector" ],
-      [ "Adjacency", "class_m_r_1_1_filter_1_1_connector_1_1_adjacency.html", "class_m_r_1_1_filter_1_1_connector_1_1_adjacency" ],
-      [ "Cluster", "class_m_r_1_1_filter_1_1_connector_1_1_cluster.html", "class_m_r_1_1_filter_1_1_connector_1_1_cluster" ]
+      [ "MR::Filter::Connector", "class_m_r_1_1_filter_1_1_connector.html", "class_m_r_1_1_filter_1_1_connector" ],
+      [ "MR::Filter::Connector::Adjacency", "class_m_r_1_1_filter_1_1_connector_1_1_adjacency.html", "class_m_r_1_1_filter_1_1_connector_1_1_adjacency" ],
+      [ "MR::Filter::Connector::Cluster", "class_m_r_1_1_filter_1_1_connector_1_1_cluster.html", "class_m_r_1_1_filter_1_1_connector_1_1_cluster" ]
     ] ],
     [ "dilate.h", "dilate_8h.html", null ],
     [ "dwi_brain_mask.h", "dwi__brain__mask_8h.html", null ],
@@ -20,6 +20,6 @@ var dir_66efa373523ea61a2d4f1d264660afe8 =
     [ "smooth.h", "core_2filter_2smooth_8h.html", null ],
     [ "warp.h", "filter_2warp_8h.html", "filter_2warp_8h" ],
     [ "zclean.h", "zclean_8h.html", [
-      [ "ZClean", "class_m_r_1_1_filter_1_1_z_clean.html", "class_m_r_1_1_filter_1_1_z_clean" ]
+      [ "MR::Filter::ZClean", "class_m_r_1_1_filter_1_1_z_clean.html", "class_m_r_1_1_filter_1_1_z_clean" ]
     ] ]
 ];

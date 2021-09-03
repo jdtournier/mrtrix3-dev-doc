@@ -1,9 +1,9 @@
 var compose_8h =
 [
-    [ "ComposeLinearDeformKernel", "class_m_r_1_1_registration_1_1_warp_1_1_compose_linear_deform_kernel.html", "class_m_r_1_1_registration_1_1_warp_1_1_compose_linear_deform_kernel" ],
-    [ "ComposeLinearDispKernel", "class_m_r_1_1_registration_1_1_warp_1_1_compose_linear_disp_kernel.html", "class_m_r_1_1_registration_1_1_warp_1_1_compose_linear_disp_kernel" ],
-    [ "ComposeDispKernel", "class_m_r_1_1_registration_1_1_warp_1_1_compose_disp_kernel.html", "class_m_r_1_1_registration_1_1_warp_1_1_compose_disp_kernel" ],
-    [ "ComposeHalfwayKernel", "class_m_r_1_1_registration_1_1_warp_1_1_compose_halfway_kernel.html", "class_m_r_1_1_registration_1_1_warp_1_1_compose_halfway_kernel" ],
+    [ "MR::Registration::Warp::ComposeLinearDeformKernel", "class_m_r_1_1_registration_1_1_warp_1_1_compose_linear_deform_kernel.html", "class_m_r_1_1_registration_1_1_warp_1_1_compose_linear_deform_kernel" ],
+    [ "MR::Registration::Warp::ComposeLinearDispKernel", "class_m_r_1_1_registration_1_1_warp_1_1_compose_linear_disp_kernel.html", "class_m_r_1_1_registration_1_1_warp_1_1_compose_linear_disp_kernel" ],
+    [ "MR::Registration::Warp::ComposeDispKernel", "class_m_r_1_1_registration_1_1_warp_1_1_compose_disp_kernel.html", "class_m_r_1_1_registration_1_1_warp_1_1_compose_disp_kernel" ],
+    [ "MR::Registration::Warp::ComposeHalfwayKernel< DeformationField1Type, DeformationField2Type >", "class_m_r_1_1_registration_1_1_warp_1_1_compose_halfway_kernel.html", "class_m_r_1_1_registration_1_1_warp_1_1_compose_halfway_kernel" ],
     [ "compose_linear_deformation", "compose_8h.html#adfb0e43a9dce687719cfd1ea539bf80f", null ],
     [ "compose_linear_displacement", "compose_8h.html#a5796ee7ec9f5807b8a2d0645f74297a2", null ],
     [ "compute_full_deformation", "compose_8h.html#ae59b92fea830e4bfbb3258e0da1c6d86", null ],

@@ -1,6 +1,6 @@
 var core_2fixel_2helpers_8h =
 [
-    [ "InvalidFixelDirectoryException", "class_m_r_1_1_invalid_fixel_directory_exception.html", "class_m_r_1_1_invalid_fixel_directory_exception" ],
+    [ "MR::InvalidFixelDirectoryException", "class_m_r_1_1_invalid_fixel_directory_exception.html", "class_m_r_1_1_invalid_fixel_directory_exception" ],
     [ "check", "core_2fixel_2helpers_8h.html#a58e93a87dd572e6758d4d938b4f2ae84", null ],
     [ "check_data_file", "core_2fixel_2helpers_8h.html#a7ac84cd028846c9db7ed3f20cfcf72c9", null ],
     [ "check_fixel_directory", "core_2fixel_2helpers_8h.html#a1f247c0e63e755e6f02261e73a07814d", null ],
@@ -13,7 +13,7 @@ var core_2fixel_2helpers_8h =
     [ "copy_index_file", "core_2fixel_2helpers_8h.html#aac00bd1659ff1b73d73afdae49efe593", null ],
     [ "data_header_from_index", "core_2fixel_2helpers_8h.html#a545dc796e84f86cb86eacfd33b311fa3", null ],
     [ "directions_header_from_index", "core_2fixel_2helpers_8h.html#a0a7490044cfce2f67e90841e2fe2f21a", null ],
-    [ "find_data_headers", "core_2fixel_2helpers_8h.html#a4f7c5c2f8085e5eee2ebc454775b6d6c", null ],
+    [ "find_data_headers", "core_2fixel_2helpers_8h.html#a4a8431c39bce599e0726ed7d403576c0", null ],
     [ "find_directions_header", "core_2fixel_2helpers_8h.html#a8aa29e2784bb0baa6c81965d4acf779b", null ],
     [ "find_index_header", "core_2fixel_2helpers_8h.html#a9f70435567f5fe7561d84aba198ec599", null ],
     [ "fixels_match", "core_2fixel_2helpers_8h.html#a021741f03136fc688322c96fab1c0ba8", null ],
@@ -24,5 +24,5 @@ var core_2fixel_2helpers_8h =
     [ "is_directions_filename", "core_2fixel_2helpers_8h.html#afd3ad73a2f0e7dfa3a4d6faba4599a70", null ],
     [ "is_index_filename", "core_2fixel_2helpers_8h.html#a32bcdf0f18ef94166c8557b7969acaf3", null ],
     [ "is_index_image", "core_2fixel_2helpers_8h.html#a202030e7dc58e817aeae06dc0cd24429", null ],
-    [ "open_fixel_data_file", "core_2fixel_2helpers_8h.html#a6b79d88092c2cdc0fa1ba2d63e4f6a4e", null ]
+    [ "open_fixel_data_file", "core_2fixel_2helpers_8h.html#ab24349b6237c7cc4b62c091b5cf255e3", null ]
 ];

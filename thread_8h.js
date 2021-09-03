@@ -1,14 +1,14 @@
 var thread_8h =
 [
-    [ "__Backend", "class_m_r_1_1_thread_1_1_____backend.html", "class_m_r_1_1_thread_1_1_____backend" ],
+    [ "MR::Thread::__Backend", "class_m_r_1_1_thread_1_1_____backend.html", "class_m_r_1_1_thread_1_1_____backend" ],
     [ "nthreads_t", "thread_8h.html#gaff2bf599166ff69fd4b6219269c96bdb", [
       [ "UNINITIALISED", "thread_8h.html#ggaff2bf599166ff69fd4b6219269c96bdba034100353265e344701d054b597a2770", null ],
       [ "EXPLICIT", "thread_8h.html#ggaff2bf599166ff69fd4b6219269c96bdba440806ada035e97a59ec9d2ca6796cb3", null ],
       [ "IMPLICIT", "thread_8h.html#ggaff2bf599166ff69fd4b6219269c96bdba12afe8f66c5af8e690fbf6ead4c55ab2", null ]
     ] ],
-    [ "multi", "thread_8h.html#gad614f2a6b5c31020d13e5ac510f2b315", null ],
+    [ "multi", "thread_8h.html#gac2729f481ca8ba513f34638cc2a7f85a", null ],
     [ "number_of_threads", "thread_8h.html#ga86984fa489ba954903690da0836a4f08", null ],
-    [ "run", "thread_8h.html#gaab961106219ef4fa4076d24edb123b48", null ],
+    [ "run", "thread_8h.html#ga0074f4774e16ee21a24b96b7f3aadf34", null ],
     [ "threads_to_execute", "thread_8h.html#ga48ca3b9de4d762dfc3697e2f7d78b8d6", null ],
     [ "type_nthreads", "thread_8h.html#ga635dcd8aac0bb5ea995a3dbf42423a10", null ],
     [ "functor", "thread_8h.html#aece92f5ed23ab311f706fc6069e61689", null ],

@@ -1,6 +1,6 @@
 var src_2dwi_2tractography_2connectome_2matrix_8h =
 [
-    [ "Matrix", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_matrix.html", null ],
+    [ "MR::DWI::Tractography::Connectome::Matrix< T >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_matrix.html", null ],
     [ "stat_edge", "src_2dwi_2tractography_2connectome_2matrix_8h.html#a697f57b7cbae2343c2932d9cd0f04a14", [
       [ "SUM", "src_2dwi_2tractography_2connectome_2matrix_8h.html#a697f57b7cbae2343c2932d9cd0f04a14a5934b5be59f95704d8164237b90d838e", null ],
       [ "MEAN", "src_2dwi_2tractography_2connectome_2matrix_8h.html#a697f57b7cbae2343c2932d9cd0f04a14a4276b3e42d0a2baef426b9cfde317329", null ],

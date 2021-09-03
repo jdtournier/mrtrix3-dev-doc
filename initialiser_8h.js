@@ -1,9 +1,9 @@
 var initialiser_8h =
 [
-    [ "LinearInitialisationParams", "struct_m_r_1_1_registration_1_1_transform_1_1_init_1_1_linear_initialisation_params.html", "struct_m_r_1_1_registration_1_1_transform_1_1_init_1_1_linear_initialisation_params" ],
-    [ "RotationInit", "struct_m_r_1_1_registration_1_1_transform_1_1_init_1_1_linear_initialisation_params_1_1_rotation_init.html", "struct_m_r_1_1_registration_1_1_transform_1_1_init_1_1_linear_initialisation_params_1_1_rotation_init" ],
-    [ "rot_search", "struct_m_r_1_1_registration_1_1_transform_1_1_init_1_1_linear_initialisation_params_1_1_rotation_init_1_1rot__search.html", "struct_m_r_1_1_registration_1_1_transform_1_1_init_1_1_linear_initialisation_params_1_1_rotation_init_1_1rot__search" ],
-    [ "global_search", "struct_m_r_1_1_registration_1_1_transform_1_1_init_1_1_linear_initialisation_params_1_1_rotation1359ce80abca0ed08d29084512a24159.html", "struct_m_r_1_1_registration_1_1_transform_1_1_init_1_1_linear_initialisation_params_1_1_rotation1359ce80abca0ed08d29084512a24159" ],
+    [ "MR::Registration::Transform::Init::LinearInitialisationParams", "struct_m_r_1_1_registration_1_1_transform_1_1_init_1_1_linear_initialisation_params.html", "struct_m_r_1_1_registration_1_1_transform_1_1_init_1_1_linear_initialisation_params" ],
+    [ "MR::Registration::Transform::Init::LinearInitialisationParams::RotationInit", "struct_m_r_1_1_registration_1_1_transform_1_1_init_1_1_linear_initialisation_params_1_1_rotation_init.html", "struct_m_r_1_1_registration_1_1_transform_1_1_init_1_1_linear_initialisation_params_1_1_rotation_init" ],
+    [ "MR::Registration::Transform::Init::LinearInitialisationParams::RotationInit::rot_search", "struct_m_r_1_1_registration_1_1_transform_1_1_init_1_1_linear_initialisation_params_1_1_rotation_init_1_1rot__search.html", "struct_m_r_1_1_registration_1_1_transform_1_1_init_1_1_linear_initialisation_params_1_1_rotation_init_1_1rot__search" ],
+    [ "MR::Registration::Transform::Init::LinearInitialisationParams::RotationInit::rot_search::global_search", "struct_m_r_1_1_registration_1_1_transform_1_1_init_1_1_linear_initialisation_params_1_1_rotation1359ce80abca0ed08d29084512a24159.html", "struct_m_r_1_1_registration_1_1_transform_1_1_init_1_1_linear_initialisation_params_1_1_rotation1359ce80abca0ed08d29084512a24159" ],
     [ "InitType", "initialiser_8h.html#afa3a967714d843a5733b8bdc70eb5868", [
       [ "set_centre_mass", "initialiser_8h.html#afa3a967714d843a5733b8bdc70eb5868a6cd77be47d5a2e0d2fdace2d419a0d0a", null ],
       [ "set_centre_geometric", "initialiser_8h.html#afa3a967714d843a5733b8bdc70eb5868a7017b29a1c5b606a4a755114ad20879b", null ],

@@ -6,7 +6,7 @@ var class_m_r_1_1_thread_1_1_queue =
     [ "Queue", "class_m_r_1_1_thread_1_1_queue.html#abe6cb3fec8186d524189ef8389ecef14", null ],
     [ "Queue", "class_m_r_1_1_thread_1_1_queue.html#a8d9b8153b33465cfbcda2a328c59f9aa", null ],
     [ "~Queue", "class_m_r_1_1_thread_1_1_queue.html#a10e77b98f99c23522a35614c421bee4e", null ],
-    [ "operator=", "class_m_r_1_1_thread_1_1_queue.html#a5e11b36de3f6f21b360e05880b81163b", null ],
-    [ "operator=", "class_m_r_1_1_thread_1_1_queue.html#add845653381ed5490dab6ee1e8666e58", null ],
+    [ "operator=", "class_m_r_1_1_thread_1_1_queue.html#a584df08b0445931cb69504aced9d7230", null ],
+    [ "operator=", "class_m_r_1_1_thread_1_1_queue.html#abfc90129d58c6cd9c06521e341eafda9", null ],
     [ "status", "class_m_r_1_1_thread_1_1_queue.html#a295dac9bf8d8f56e6c5caf2e10a98358", null ]
 ];

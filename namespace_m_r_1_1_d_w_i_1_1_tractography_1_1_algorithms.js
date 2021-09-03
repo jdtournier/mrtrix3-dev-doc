@@ -10,7 +10,7 @@ var namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms =
     [ "Tensor_Det", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_tensor___det.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_tensor___det" ],
     [ "Tensor_Prob", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_tensor___prob.html", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms_1_1_tensor___prob" ],
     [ "calibrate", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms.html#a9687c81fa921cb37581e74620fc4cf85", null ],
-    [ "direction_grid", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms.html#a9fab993082430928fb0ffffd53a1352b", null ],
+    [ "direction_grid", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms.html#ae4b1fbe15d2a16bb025e46e6f29b0025", null ],
     [ "load_iFOD2_options", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms.html#a17748322943ad6e339338dabf5cdb6f5", null ],
     [ "load_iFOD_options", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms.html#af10bfc8fbbccc576cb3169436d5752d5", null ],
     [ "iFOD2Options", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_algorithms.html#acfc8b6dbe2a50caa28924467e22f5fc2", null ],

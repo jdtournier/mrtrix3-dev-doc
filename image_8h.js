@@ -1,9 +1,9 @@
 var image_8h =
 [
-    [ "Image", "class_m_r_1_1_image.html", "class_m_r_1_1_image" ],
-    [ "Buffer", "class_m_r_1_1_image_1_1_buffer.html", "class_m_r_1_1_image_1_1_buffer" ],
-    [ "display", "image_8h.html#a36dacc02b4b40aa743306dd1d74f8852", null ],
-    [ "save", "image_8h.html#aa136508eba5f48d57c4706aa2130e55d", null ],
-    [ "save", "image_8h.html#a5bc88b71912a3270142a6fb239d09d92", null ],
+    [ "MR::Image< ValueType >", "class_m_r_1_1_image.html", "class_m_r_1_1_image" ],
+    [ "MR::Image< ValueType >::Buffer", "class_m_r_1_1_image_1_1_buffer.html", "class_m_r_1_1_image_1_1_buffer" ],
+    [ "display", "image_8h.html#a288e6565548291584048fbe5fcc218a7", null ],
+    [ "save", "image_8h.html#af45966711f85d38007f47df7500ca962", null ],
+    [ "save", "image_8h.html#a3b83bf984feffddab972b158abf1d037", null ],
     [ "SpatiallyContiguous", "image_8h.html#a07dc328a917f2f85bab60a53dc6bff6a", null ]
 ];

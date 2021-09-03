@@ -1,10 +1,10 @@
 var class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_fixel =
 [
     [ "IntPointHasher", "struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_fixel_1_1_int_point_hasher.html", "struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_fixel_1_1_int_point_hasher" ],
-    [ "current_fixel_colour_state", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_fixel.html#ad4ba5c1ed0d279f4903cf49f6d94767c", null ],
-    [ "current_fixel_threshold_state", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_fixel.html#af2d012af86edc60d63ac0eb27a241491", null ],
-    [ "current_fixel_value_state", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_fixel.html#abf256bb0141567a18d794f9ffd0b01af", null ],
-    [ "get_fixel_value", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_fixel.html#ab88a0d5295531d7413b13c7ad080dab2", null ],
+    [ "current_fixel_colour_state", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_fixel.html#a36c530de0f5fa5f8e7341308f4bc7df3", null ],
+    [ "current_fixel_threshold_state", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_fixel.html#a5094327b81781c7e5f37cd3d4a610594", null ],
+    [ "current_fixel_value_state", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_fixel.html#a4a2e8b8e0a3530d5cb0b8de4cd16cd09", null ],
+    [ "get_fixel_value", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_fixel.html#a26d5ba3e983ca256b966176fbfa8793a", null ],
     [ "load_image_buffer", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_fixel.html#a0553bc13a39ff2e0c10133034b868fbc", null ],
     [ "request_update_interp_image_buffer", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_fixel.html#a0953e6e4593e4b8668665a4c7da9dbac", null ],
     [ "update_image_buffers", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_fixel.html#a7bd55044104537af11dbaf88e98abfb6", null ],

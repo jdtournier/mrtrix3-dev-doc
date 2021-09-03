@@ -11,6 +11,6 @@ var class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_voxel_t_o_
     [ "normalize", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_voxel_t_o_d.html#a0cd3847ea7c380bc1cb84c56bac5c7e3", null ],
     [ "operator+=", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_voxel_t_o_d.html#abed5774ef515c8e31cbb569d0b7ef888", null ],
     [ "operator<", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_voxel_t_o_d.html#af7d346968d8d5b8c15f81351d31bface", null ],
-    [ "operator=", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_voxel_t_o_d.html#ae9c4c6f183937af68fdd81200b0856d2", null ],
+    [ "operator=", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_voxel_t_o_d.html#a5f7479f83a7001e130e61d1ad0aaa940", null ],
     [ "operator==", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_voxel_t_o_d.html#a39db29da3d654d47e1e740b02cdeff80", null ]
 ];

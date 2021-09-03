@@ -7,10 +7,10 @@ var namespace_m_r_1_1_thread =
       [ "EXPLICIT", "group__thread__basics.html#ggaff2bf599166ff69fd4b6219269c96bdba440806ada035e97a59ec9d2ca6796cb3", null ],
       [ "IMPLICIT", "group__thread__basics.html#ggaff2bf599166ff69fd4b6219269c96bdba12afe8f66c5af8e690fbf6ead4c55ab2", null ]
     ] ],
-    [ "batch", "group__thread__queue.html#ga0f607ce91002c91228d8d17709ad0d5e", null ],
-    [ "multi", "group__thread__basics.html#gad614f2a6b5c31020d13e5ac510f2b315", null ],
+    [ "batch", "group__thread__queue.html#gaff265d95de82bde0b453955d08114286", null ],
+    [ "multi", "group__thread__basics.html#gac2729f481ca8ba513f34638cc2a7f85a", null ],
     [ "number_of_threads", "group__thread__basics.html#ga86984fa489ba954903690da0836a4f08", null ],
-    [ "run", "group__thread__basics.html#gaab961106219ef4fa4076d24edb123b48", null ],
+    [ "run", "group__thread__basics.html#ga0074f4774e16ee21a24b96b7f3aadf34", null ],
     [ "run_ordered_queue", "namespace_m_r_1_1_thread.html#a51d0df44d48634a066bd756c1ecf6395", null ],
     [ "run_ordered_queue", "namespace_m_r_1_1_thread.html#a27253d09028745ddb585c7603e2b7f98", null ],
     [ "run_queue", "group__thread__queue.html#ga379ecfe538318b967e6d6fc74ab61b11", null ],

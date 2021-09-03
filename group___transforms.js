@@ -1,10 +1,10 @@
 var group___transforms =
 [
-    [ "Affine", "class_m_r_1_1_registration_1_1_transform_1_1_affine.html", [
+    [ "MR::Registration::Transform::Affine", "class_m_r_1_1_registration_1_1_transform_1_1_affine.html", [
       [ "gradient_descent_updator", "class_m_r_1_1_registration_1_1_transform_1_1_affine.html#a769849970116b2c982cd182da42d4f60", null ],
       [ "robust_estimator", "class_m_r_1_1_registration_1_1_transform_1_1_affine.html#a0ee529ade521fde4dc5abe0faf4f8fec", null ]
     ] ],
-    [ "Base", "class_m_r_1_1_registration_1_1_transform_1_1_base.html", [
+    [ "MR::Registration::Transform::Base", "class_m_r_1_1_registration_1_1_transform_1_1_base.html", [
       [ "compute_halfspace_transformations", "class_m_r_1_1_registration_1_1_transform_1_1_base.html#ada5ee9472c90a775718717286bf6b4a2", null ],
       [ "compute_offset", "class_m_r_1_1_registration_1_1_transform_1_1_base.html#a56d1a493806cee17c5dfd70dbdb19e79", null ],
       [ "centre", "class_m_r_1_1_registration_1_1_transform_1_1_base.html#ad646431fc91c490218e4ce73d9c591f9", null ],
@@ -15,7 +15,7 @@ var group___transforms =
       [ "trafo_half", "class_m_r_1_1_registration_1_1_transform_1_1_base.html#a8d74fbfb746701496d6cdff9cbdccb18", null ],
       [ "trafo_half_inverse", "class_m_r_1_1_registration_1_1_transform_1_1_base.html#a9dd58a699dfabefeeeed509dbba11dec", null ]
     ] ],
-    [ "Rigid", "class_m_r_1_1_registration_1_1_transform_1_1_rigid.html", [
+    [ "MR::Registration::Transform::Rigid", "class_m_r_1_1_registration_1_1_transform_1_1_rigid.html", [
       [ "gradient_descent_updator", "class_m_r_1_1_registration_1_1_transform_1_1_rigid.html#a0a84c9a23eb934802c4cf2523ac68054", null ],
       [ "robust_estimator", "class_m_r_1_1_registration_1_1_transform_1_1_rigid.html#a8ed66be0f471cf034b3bf8e21651a311", null ]
     ] ]

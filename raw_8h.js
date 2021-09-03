@@ -23,9 +23,9 @@ var raw_8h =
     [ "store_native", "raw_8h.html#a529148db9e0d4900e32f3918d6ca3228", null ],
     [ "store_native", "raw_8h.html#aa34ed5792e6e79a3e034a742fd4fe53d", null ],
     [ "swap", "raw_8h.html#a2a9c41437cf77d36b955eb2848adcd29", null ],
-    [ "swap", "raw_8h.html#a4179ee384fa8987ce3e3816227cf3873", null ],
-    [ "swap", "raw_8h.html#a553120256772768567981c19b9a6adea", null ],
-    [ "swap", "raw_8h.html#af0c12a541267c7d3f74b99ed8e3a8d28", null ],
-    [ "swap", "raw_8h.html#a50cc17a51219711493e44200056d4c86", null ],
-    [ "swap", "raw_8h.html#a2f744901cd2c0ca01a8b6ea8b1e3f3e5", null ]
+    [ "swap", "raw_8h.html#adff05fbc12ff8a1a5602d74ddc7c828a", null ],
+    [ "swap", "raw_8h.html#a5a401d3ef3dbb0b78f79e2b0ea80bba8", null ],
+    [ "swap", "raw_8h.html#a3251120adbe20c7ff459e4146c332de8", null ],
+    [ "swap", "raw_8h.html#a67fa9cf1c1f06b46a18052a64b4194c7", null ],
+    [ "swap", "raw_8h.html#ac2790af461220b399dde4cdeaace502d", null ]
 ];

@@ -10,6 +10,6 @@ var class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_streamline_stats =
     [ "get_nonzero", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_streamline_stats.html#a0eace24af8077ec8cfe1f0accec7b782", null ],
     [ "get_var", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_streamline_stats.html#a2a96a2766e15b9f366d047d546983902", null ],
     [ "normalise", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_streamline_stats.html#a5056e6049840e0157431103e98194507", null ],
-    [ "operator+=", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_streamline_stats.html#ac5a38d8182e6bd9ce3ab5b2e847ccdf3", null ],
-    [ "operator+=", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_streamline_stats.html#a833411afe80c5ee24f435e8127f7809e", null ]
+    [ "operator+=", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_streamline_stats.html#ad5f487cc6cad38430e1353025a6b45ac", null ],
+    [ "operator+=", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t2_1_1_streamline_stats.html#acc74598edb9538ddfe2b5f66c84c94d9", null ]
 ];

@@ -8,7 +8,7 @@ var class_m_r_1_1_g_u_i_1_1_g_l_1_1_vertex_buffer =
     [ "clear", "class_m_r_1_1_g_u_i_1_1_g_l_1_1_vertex_buffer.html#ac09150f253d36225965f4f991a35f975", null ],
     [ "gen", "class_m_r_1_1_g_u_i_1_1_g_l_1_1_vertex_buffer.html#a35615128675f337e4c6ee7b42f793cb3", null ],
     [ "operator GLuint", "class_m_r_1_1_g_u_i_1_1_g_l_1_1_vertex_buffer.html#aa6a08230afbf75f2d0fb25bb83fc7f7a", null ],
-    [ "operator=", "class_m_r_1_1_g_u_i_1_1_g_l_1_1_vertex_buffer.html#a35552839af82c1c7c2ebd1c518a55730", null ],
+    [ "operator=", "class_m_r_1_1_g_u_i_1_1_g_l_1_1_vertex_buffer.html#ab63eea48b70ab65497dd9afcafaca8d2", null ],
     [ "check_context", "class_m_r_1_1_g_u_i_1_1_g_l_1_1_vertex_buffer.html#a78483ca38d99468db4b2ce1b19916b82", null ],
     [ "id", "class_m_r_1_1_g_u_i_1_1_g_l_1_1_vertex_buffer.html#af4ccc081f676ab616a79a22cc80c6e40", null ]
 ];

@@ -13,7 +13,7 @@ var class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base =
     [ "draw", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base.html#a6bff14a2771e1e1b21733268de8ad97b", null ],
     [ "draw_colourbars", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base.html#a1ab10f856e0a8e4cfd2a9a91271edcbd", null ],
     [ "draw_tool_labels", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base.html#a491172beadcd05a77e192312ff20ba03", null ],
-    [ "get_cursor", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base.html#a9f521b5ab3be5b29180551a7edbd017b", null ],
+    [ "get_cursor", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base.html#ab86c5cc16dfca189e27803251699b31e", null ],
     [ "grab_focus", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base.html#a1ba896dd5d8fb547908455b5d2540618", null ],
     [ "mouse_move_event", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base.html#a7843f01bd0c637577fcefd277f08657c", null ],
     [ "mouse_press_event", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base.html#a9a3905b95b739146782bb295f6055ee2", null ],
@@ -24,6 +24,6 @@ var class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base =
     [ "sizeHint", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base.html#aa9736bc03c89de53511baad67c1411c7", null ],
     [ "update_cursor", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base.html#a49a6bc01fae5286d83e7e12a054a2270", null ],
     [ "visible_number_colourbars", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base.html#a0c8f34c205f35d062734c3444e05dd94", null ],
-    [ "window", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base.html#a4c02181cb5b9385eca1bb24df894f7f3", null ],
+    [ "window", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base.html#ade26a74fb7bd905157c432316f5d67ad", null ],
     [ "current_folder", "class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base.html#ad40a77483361b0c685f143e5798a5dd6", null ]
 ];

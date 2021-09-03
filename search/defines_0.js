@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['_5f_5fstr_8293',['__STR',['../src_2gui_2mrview_2tool_2base_8h.html#af3192660ce6b091819a6f5db69b8d54f',1,'base.h']]],
-  ['_5f_5fstr_5f_5f_8294',['__STR__',['../src_2gui_2mrview_2tool_2base_8h.html#ab1c719d72953053ecea4915641ad3567',1,'base.h']]]
+  ['_5f_5fstr_0',['__STR',['../src_2gui_2mrview_2tool_2base_8h.html#af3192660ce6b091819a6f5db69b8d54f',1,'base.h']]],
+  ['_5f_5fstr_5f_5f_1',['__STR__',['../src_2gui_2mrview_2tool_2base_8h.html#ab1c719d72953053ecea4915641ad3567',1,'base.h']]]
 ];

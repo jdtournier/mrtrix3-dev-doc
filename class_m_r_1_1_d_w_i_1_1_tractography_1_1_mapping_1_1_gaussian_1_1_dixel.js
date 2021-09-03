@@ -10,6 +10,6 @@ var class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_dixel =
     [ "normalize", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_dixel.html#a54390db4e4518eaf35cfe953920847ab", null ],
     [ "operator+=", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_dixel.html#a4a5cd6477b349fb460d257fe3e179008", null ],
     [ "operator<", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_dixel.html#ab327d40e748a5d7a741529a5c4d20baf", null ],
-    [ "operator=", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_dixel.html#a662809a32ed461c8336f24dc813c02c8", null ],
+    [ "operator=", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_dixel.html#a3647ccdf6d8af0161997e8d022941b05", null ],
     [ "operator==", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_gaussian_1_1_dixel.html#abc237f1ee535291c7c41f85943a9daf4", null ]
 ];

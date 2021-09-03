@@ -4,13 +4,13 @@ var dir_6da8e6f1bfdb5540a85bd819d2a13962 =
     [ "sdeconv", "dir_d4929246ada30bd6abe63c5309b3312d.html", "dir_d4929246ada30bd6abe63c5309b3312d" ],
     [ "tractography", "dir_6f8fcd489e430c1a1b22716f7655ad56.html", "dir_6f8fcd489e430c1a1b22716f7655ad56" ],
     [ "bootstrap.h", "bootstrap_8h.html", [
-      [ "Bootstrap", "class_m_r_1_1_d_w_i_1_1_bootstrap.html", "class_m_r_1_1_d_w_i_1_1_bootstrap" ]
+      [ "MR::DWI::Bootstrap< ImageType, Functor, NUM_VOX_PER_CHUNK >", "class_m_r_1_1_d_w_i_1_1_bootstrap.html", "class_m_r_1_1_d_w_i_1_1_bootstrap" ]
     ] ],
     [ "fixel_map.h", "fixel__map_8h.html", [
-      [ "Fixel_map", "class_m_r_1_1_d_w_i_1_1_fixel__map.html", "class_m_r_1_1_d_w_i_1_1_fixel__map" ],
-      [ "MapVoxel", "class_m_r_1_1_d_w_i_1_1_fixel__map_1_1_map_voxel.html", null ],
-      [ "Iterator", "class_m_r_1_1_d_w_i_1_1_fixel__map_1_1_iterator.html", "class_m_r_1_1_d_w_i_1_1_fixel__map_1_1_iterator" ],
-      [ "ConstIterator", "class_m_r_1_1_d_w_i_1_1_fixel__map_1_1_const_iterator.html", "class_m_r_1_1_d_w_i_1_1_fixel__map_1_1_const_iterator" ]
+      [ "MR::DWI::Fixel_map< Fixel >", "class_m_r_1_1_d_w_i_1_1_fixel__map.html", "class_m_r_1_1_d_w_i_1_1_fixel__map" ],
+      [ "MR::DWI::Fixel_map< Fixel >::MapVoxel", "class_m_r_1_1_d_w_i_1_1_fixel__map_1_1_map_voxel.html", null ],
+      [ "MR::DWI::Fixel_map< Fixel >::Iterator", "class_m_r_1_1_d_w_i_1_1_fixel__map_1_1_iterator.html", "class_m_r_1_1_d_w_i_1_1_fixel__map_1_1_iterator" ],
+      [ "MR::DWI::Fixel_map< Fixel >::ConstIterator", "class_m_r_1_1_d_w_i_1_1_fixel__map_1_1_const_iterator.html", "class_m_r_1_1_d_w_i_1_1_fixel__map_1_1_const_iterator" ]
     ] ],
     [ "fmls.h", "fmls_8h.html", "fmls_8h" ],
     [ "noise_estimator.h", "noise__estimator_8h.html", "noise__estimator_8h" ],

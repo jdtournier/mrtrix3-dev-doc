@@ -4,10 +4,10 @@ var namespace_m_r_1_1_registration =
     [ "RotationSearch", "namespace_m_r_1_1_registration_1_1_rotation_search.html", "namespace_m_r_1_1_registration_1_1_rotation_search" ],
     [ "Transform", "namespace_m_r_1_1_registration_1_1_transform.html", "namespace_m_r_1_1_registration_1_1_transform" ],
     [ "Warp", "namespace_m_r_1_1_registration_1_1_warp.html", "namespace_m_r_1_1_registration_1_1_warp" ],
-    [ "StageSetting", "struct_m_r_1_1_registration_1_1_stage_setting.html", "struct_m_r_1_1_registration_1_1_stage_setting" ],
     [ "Linear", "class_m_r_1_1_registration_1_1_linear.html", "class_m_r_1_1_registration_1_1_linear" ],
     [ "MultiContrastSetting", "struct_m_r_1_1_registration_1_1_multi_contrast_setting.html", "struct_m_r_1_1_registration_1_1_multi_contrast_setting" ],
     [ "NonLinear", "class_m_r_1_1_registration_1_1_non_linear.html", "class_m_r_1_1_registration_1_1_non_linear" ],
+    [ "StageSetting", "struct_m_r_1_1_registration_1_1_stage_setting.html", "struct_m_r_1_1_registration_1_1_stage_setting" ],
     [ "LinearMetricType", "namespace_m_r_1_1_registration.html#a2128b8d3c4c2bd10f9a40be6b8fe0bc5", [
       [ "Diff", "namespace_m_r_1_1_registration.html#a2128b8d3c4c2bd10f9a40be6b8fe0bc5a2627cd6af7f4b56744218892fc3abc2f", null ],
       [ "NCC", "namespace_m_r_1_1_registration.html#a2128b8d3c4c2bd10f9a40be6b8fe0bc5a5baacf33ac2a0df4aa198263c8163d00", null ]
@@ -26,7 +26,7 @@ var namespace_m_r_1_1_registration =
     [ "check_image_output", "namespace_m_r_1_1_registration.html#adcf4f8e187d98522924bd371fb69f267", null ],
     [ "multi_resolution_lmax", "namespace_m_r_1_1_registration.html#a272c6fb2078cf227ac1bc28963a568a7", null ],
     [ "multi_resolution_lmax", "namespace_m_r_1_1_registration.html#a65b5d802086e3590ab9998b44d01195c", null ],
-    [ "operator<<", "namespace_m_r_1_1_registration.html#a139844bc435d84e5f7c1e200b1a41c26", null ],
+    [ "operator<<", "namespace_m_r_1_1_registration.html#a56a7cb721f3e1e363d25614258510c40", null ],
     [ "parse_general_options", "namespace_m_r_1_1_registration.html#aa3e8f190d714f5bcb1daedba0cc30fb7", null ],
     [ "preload_data", "namespace_m_r_1_1_registration.html#a307f7d6032b46d9e2ed0cab7c79d647b", null ],
     [ "set_init_rotation_model_from_option", "namespace_m_r_1_1_registration.html#acccbb860a909b06d80834f6291109738", null ],
