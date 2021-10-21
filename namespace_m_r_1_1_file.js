@@ -12,6 +12,7 @@ var namespace_m_r_1_1_file =
     [ "KeyValue", "namespace_m_r_1_1_file_1_1_key_value.html", "namespace_m_r_1_1_file_1_1_key_value" ],
     [ "NIfTI", "namespace_m_r_1_1_file_1_1_n_if_t_i.html", [
       [ "adjust_transform", "namespace_m_r_1_1_file_1_1_n_if_t_i.html#ae5cb54ed490b9eb45e9fc65738030fb8", null ],
+      [ "axes_on_write", "namespace_m_r_1_1_file_1_1_n_if_t_i.html#a96d85280615dbfb727531d660ad1cdca", null ],
       [ "check", "namespace_m_r_1_1_file_1_1_n_if_t_i.html#aaa0fdb7b8cb97b3ffc82b2b8f2c8b98e", null ],
       [ "create", "namespace_m_r_1_1_file_1_1_n_if_t_i.html#a5e4a62f70077e67bcec6eb9ada27b7a5", null ],
       [ "create_gz", "namespace_m_r_1_1_file_1_1_n_if_t_i.html#a848a97cf703b564ca09ba343f9e429aa", null ],

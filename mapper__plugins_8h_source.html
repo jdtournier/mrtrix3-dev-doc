@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0.0-dirty</div>
+   <div id="projectbrief">Version 3.0.3-23-g193aa0ad</div>
   </td>
  </tr>
  </tbody>
@@ -87,7 +87,7 @@ $(document).ready(function(){initNavTree('mapper__plugins_8h_source.html',''); i
   <div class="headertitle"><div class="title">mapper_plugins.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="mapper__plugins_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/* Copyright (c) 2008-2019 the MRtrix3 contributors.</span></div>
+<a href="mapper__plugins_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/* Copyright (c) 2008-2021 the MRtrix3 contributors.</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment"> *</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment"> * This Source Code Form is subject to the terms of the Mozilla Public</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment"> * License, v. 2.0. If a copy of the MPL was not distributed with this</span></div>
@@ -134,7 +134,7 @@ $(document).ready(function(){initNavTree('mapper__plugins_8h_source.html',''); i
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>              dirs (directions) { }</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>            <a class="code hl_class" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_dixel_mapping_plugin.html">DixelMappingPlugin</a> (<span class="keyword">const</span> <a class="code hl_class" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_dixel_mapping_plugin.html">DixelMappingPlugin</a>&amp; that) :</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>              dirs (that.dirs) { }</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>            <a class="code hl_typedef" href="namespace_m_r_1_1_d_w_i_1_1_directions.html#a9996f7dbbfde14c03775ecf6f1c70e97">DWI::Directions::index_type</a> operator() (<span class="keyword">const</span> <a class="code hl_typedef" href="namespace_eigen.html#a614e7946e0926e533cf7d49a487ce245">Eigen::Vector3</a>&amp; d)<span class="keyword"> const </span>{ <span class="keywordflow">return</span> dirs.select_direction (d); }</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>            <a class="code hl_typedef" href="namespace_m_r_1_1_d_w_i_1_1_directions.html#a9996f7dbbfde14c03775ecf6f1c70e97">DWI::Directions::index_type</a> operator() (<span class="keyword">const</span> Eigen::Vector3d&amp; d)<span class="keyword"> const </span>{ <span class="keywordflow">return</span> dirs.select_direction (d); }</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>          <span class="keyword">private</span>:</div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>            <span class="keyword">const</span> <a class="code hl_class" href="class_m_r_1_1_d_w_i_1_1_directions_1_1_fast_lookup_set.html">DWI::Directions::FastLookupSet</a>&amp; dirs;</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        };</div>
@@ -350,7 +350,6 @@ $(document).ready(function(){initNavTree('mapper__plugins_8h_source.html',''); i
 <div class="ttc" id="acore_2interp_2linear_8h_html"><div class="ttname"><a href="core_2interp_2linear_8h.html">linear.h</a></div></div>
 <div class="ttc" id="agroup__spherical__harmonics_html_ga02fbff506863d7c1a4b79eea0ac5660c"><div class="ttname"><a href="group__spherical__harmonics.html#ga02fbff506863d7c1a4b79eea0ac5660c">MR::Math::SH::check</a></div><div class="ttdeci">void check(const ImageType &amp;H)</div><div class="ttdoc">convenience function to check if an input image can contain SH coefficients</div><div class="ttdef"><b>Definition:</b> <a href="_s_h_8h_source.html#l00745">SH.h:745</a></div></div>
 <div class="ttc" id="agroup__spherical__harmonics_html_ga28d9e09433f42e5036ec45ed6e7806bf"><div class="ttname"><a href="group__spherical__harmonics.html#ga28d9e09433f42e5036ec45ed6e7806bf">MR::Math::SH::LforN</a></div><div class="ttdeci">size_t LforN(int N)</div><div class="ttdoc">returns the largest lmax given N parameters</div><div class="ttdef"><b>Definition:</b> <a href="_s_h_8h_source.html#l00070">SH.h:70</a></div></div>
-<div class="ttc" id="anamespace_eigen_html_a614e7946e0926e533cf7d49a487ce245"><div class="ttname"><a href="namespace_eigen.html#a614e7946e0926e533cf7d49a487ce245">Eigen::Vector3</a></div><div class="ttdeci">Matrix&lt; MR::default_type, 3, 1 &gt; Vector3</div><div class="ttdef"><b>Definition:</b> <a href="src_2surface_2types_8h_source.html#l00326">types.h:326</a></div></div>
 <div class="ttc" id="anamespace_m_r_1_1_d_w_i_1_1_directions_html_a9996f7dbbfde14c03775ecf6f1c70e97"><div class="ttname"><a href="namespace_m_r_1_1_d_w_i_1_1_directions.html#a9996f7dbbfde14c03775ecf6f1c70e97">MR::DWI::Directions::index_type</a></div><div class="ttdeci">unsigned int index_type</div><div class="ttdef"><b>Definition:</b> <a href="set_8h_source.html#l00034">set.h:34</a></div></div>
 <div class="ttc" id="anamespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_html_a3fa21a08c7f0bffb34976f520d129275"><div class="ttname"><a href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping.html#a3fa21a08c7f0bffb34976f520d129275">MR::DWI::Tractography::Mapping::tck_stat_t</a></div><div class="ttdeci">tck_stat_t</div><div class="ttdef"><b>Definition:</b> <a href="twi__stats_8h_source.html#l00030">twi_stats.h:30</a></div></div>
 <div class="ttc" id="anamespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_html_a3fa21a08c7f0bffb34976f520d129275aee5a197b57738c2b0c86c779ad467f87"><div class="ttname"><a href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping.html#a3fa21a08c7f0bffb34976f520d129275aee5a197b57738c2b0c86c779ad467f87">MR::DWI::Tractography::Mapping::ENDS_CORR</a></div><div class="ttdeci">@ ENDS_CORR</div><div class="ttdef"><b>Definition:</b> <a href="twi__stats_8h_source.html#l00030">twi_stats.h:30</a></div></div>
@@ -364,7 +363,7 @@ $(document).ready(function(){initNavTree('mapper__plugins_8h_source.html',''); i
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_6da8e6f1bfdb5540a85bd819d2a13962.html">dwi</a></li><li class="navelem"><a class="el" href="dir_6f8fcd489e430c1a1b22716f7655ad56.html">tractography</a></li><li class="navelem"><a class="el" href="dir_babb133fdd3988d0466ad2e2cb845fda.html">mapping</a></li><li class="navelem"><a class="el" href="mapper__plugins_8h.html">mapper_plugins.h</a></li>
-    <li class="footer">Generated on Wed Oct 20 2021 13:48:27 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Thu Oct 21 2021 13:00:25 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

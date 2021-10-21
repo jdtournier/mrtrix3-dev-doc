@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0.0-dirty</div>
+   <div id="projectbrief">Version 3.0.3-23-g193aa0ad</div>
   </td>
  </tr>
  </tbody>
@@ -87,58 +87,61 @@ $(document).ready(function(){initNavTree('registration_2shared_8h_source.html','
   <div class="headertitle"><div class="title">shared.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="registration_2shared_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/* Copyright (c) 2008-2017 the MRtrix3 contributors</span></div>
+<a href="registration_2shared_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/* Copyright (c) 2008-2021 the MRtrix3 contributors.</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment"> *</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment"> * This Source Code Form is subject to the terms of the Mozilla Public</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment"> * License, v. 2.0. If a copy of the MPL was not distributed with this</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment"> * file, you can obtain one at http://mozilla.org/MPL/2.0/.</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment"> * file, You can obtain one at http://mozilla.org/MPL/2.0/.</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="comment"> *</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment"> * MRtrix is distributed in the hope that it will be useful,</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="comment"> * but WITHOUT ANY WARRANTY; without even the implied warranty</span></div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="comment"> * of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</span></div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="comment"> *</span></div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="comment"> * For more details, see http://www.mrtrix.org/.</span></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="comment"> */</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#ifndef __registration_shared_h__</span></div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#define __registration_shared_h__</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment"> * Covered Software is provided under this License on an &quot;as is&quot;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="comment"> * basis, without warranty of any kind, either expressed, implied, or</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="comment"> * statutory, including, without limitation, warranties that the</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="comment"> * Covered Software is free of defects, merchantable, fit for a</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="comment"> * particular purpose or non-infringing.</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="comment"> * See the Mozilla Public License v. 2.0 for more details.</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="comment"> *</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="comment"> * For more details, see http://www.mrtrix.org/.</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="comment"> */</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#include &quot;<a class="code" href="app_8h.html">app.h</a>&quot;</span></div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_m_r.html">MR</a></div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>{</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>  <span class="keyword">namespace </span>Registration</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>  {</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="keyword">using namespace </span><a class="code hl_namespace" href="namespace_m_r.html">MR</a>;</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keyword">using namespace </span>App;</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="namespace_m_r_1_1_registration.html#af8a485575833abb2c27be30ea90ace6e">   27</a></span>    <span class="keyword">const</span> <a class="code hl_class" href="class_m_r_1_1_app_1_1_option_group.html">OptionGroup</a> <a class="code hl_variable" href="namespace_m_r_1_1_registration.html#af8a485575833abb2c27be30ea90ace6e">multiContrastOptions</a> =</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>      <a class="code hl_class" href="class_m_r_1_1_app_1_1_option_group.html">OptionGroup</a> (<span class="stringliteral">&quot;Multi-contrast options&quot;</span>)</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>      + <a class="code hl_class" href="class_m_r_1_1_app_1_1_option.html">Option</a> (<span class="stringliteral">&quot;mc_weights&quot;</span>, <span class="stringliteral">&quot;relative weight of images used for multi-contrast registration. Default: 1.0 (equal weighting)&quot;</span>)</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>        + <a class="code hl_class" href="class_m_r_1_1_app_1_1_argument.html">Argument</a> (<span class="stringliteral">&quot;weights&quot;</span>).<a class="code hl_function" href="class_m_r_1_1_app_1_1_argument.html#a6a7d185baed96fddc7df2e47bd6cb718">type_sequence_float</a> ();</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="namespace_m_r_1_1_registration.html#ac8dc557373081edec651b16a73236779">   32</a></span>    <span class="keyword">const</span> <a class="code hl_class" href="class_m_r_1_1_app_1_1_option_group.html">OptionGroup</a> <a class="code hl_variable" href="namespace_m_r_1_1_registration.html#ac8dc557373081edec651b16a73236779">fod_options</a> =</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>          <a class="code hl_class" href="class_m_r_1_1_app_1_1_option_group.html">OptionGroup</a> (<span class="stringliteral">&quot;FOD registration options&quot;</span>)</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#ifndef __registration_shared_h__</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#define __registration_shared_h__</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#include &quot;<a class="code" href="app_8h.html">app.h</a>&quot;</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_m_r.html">MR</a></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>{</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>  <span class="keyword">namespace </span>Registration</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>  {</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <span class="keyword">using namespace </span><a class="code hl_namespace" href="namespace_m_r.html">MR</a>;</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="keyword">using namespace </span>App;</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="namespace_m_r_1_1_registration.html#af8a485575833abb2c27be30ea90ace6e">   30</a></span>    <span class="keyword">const</span> <a class="code hl_class" href="class_m_r_1_1_app_1_1_option_group.html">OptionGroup</a> <a class="code hl_variable" href="namespace_m_r_1_1_registration.html#af8a485575833abb2c27be30ea90ace6e">multiContrastOptions</a> =</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>      <a class="code hl_class" href="class_m_r_1_1_app_1_1_option_group.html">OptionGroup</a> (<span class="stringliteral">&quot;Multi-contrast options&quot;</span>)</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>      + <a class="code hl_class" href="class_m_r_1_1_app_1_1_option.html">Option</a> (<span class="stringliteral">&quot;mc_weights&quot;</span>, <span class="stringliteral">&quot;relative weight of images used for multi-contrast registration. Default: 1.0 (equal weighting)&quot;</span>)</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        + <a class="code hl_class" href="class_m_r_1_1_app_1_1_argument.html">Argument</a> (<span class="stringliteral">&quot;weights&quot;</span>).<a class="code hl_function" href="class_m_r_1_1_app_1_1_argument.html#a6a7d185baed96fddc7df2e47bd6cb718">type_sequence_float</a> ();</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>          + <a class="code hl_class" href="class_m_r_1_1_app_1_1_option.html">Option</a> (<span class="stringliteral">&quot;directions&quot;</span>, <span class="stringliteral">&quot;the directions used for FOD reorienation using apodised point spread functions (Default: 60 directions)&quot;</span>)</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>          + <a class="code hl_class" href="class_m_r_1_1_app_1_1_argument.html">Argument</a> (<span class="stringliteral">&quot;file&quot;</span>, <span class="stringliteral">&quot;a list of directions [az el] generated using the gendir command.&quot;</span>).<a class="code hl_function" href="class_m_r_1_1_app_1_1_argument.html#a4c901869cc80822295f2b5a30b91f3cc">type_file_in</a> ()</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="namespace_m_r_1_1_registration.html#ac8dc557373081edec651b16a73236779">   35</a></span>    <span class="keyword">const</span> <a class="code hl_class" href="class_m_r_1_1_app_1_1_option_group.html">OptionGroup</a> <a class="code hl_variable" href="namespace_m_r_1_1_registration.html#ac8dc557373081edec651b16a73236779">fod_options</a> =</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>          <a class="code hl_class" href="class_m_r_1_1_app_1_1_option_group.html">OptionGroup</a> (<span class="stringliteral">&quot;FOD registration options&quot;</span>)</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>          + <a class="code hl_class" href="class_m_r_1_1_app_1_1_option.html">Option</a> (<span class="stringliteral">&quot;noreorientation&quot;</span>, <span class="stringliteral">&quot;turn off FOD reorientation. Reorientation is on by default if the number &quot;</span></div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>                                       <span class="stringliteral">&quot;of volumes in the 4th dimension corresponds to the number of coefficients in an &quot;</span></div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>                                       <span class="stringliteral">&quot;antipodally symmetric spherical harmonic series (i.e. 6, 15, 28, 45, 66 etc&quot;</span>);</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>  }</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>}</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>          + <a class="code hl_class" href="class_m_r_1_1_app_1_1_option.html">Option</a> (<span class="stringliteral">&quot;directions&quot;</span>, <span class="stringliteral">&quot;the directions used for FOD reorienation using apodised point spread functions (Default: 60 directions)&quot;</span>)</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>          + <a class="code hl_class" href="class_m_r_1_1_app_1_1_argument.html">Argument</a> (<span class="stringliteral">&quot;file&quot;</span>, <span class="stringliteral">&quot;a list of directions [az el] generated using the gendir command.&quot;</span>).<a class="code hl_function" href="class_m_r_1_1_app_1_1_argument.html#a4c901869cc80822295f2b5a30b91f3cc">type_file_in</a> ()</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>          + <a class="code hl_class" href="class_m_r_1_1_app_1_1_option.html">Option</a> (<span class="stringliteral">&quot;noreorientation&quot;</span>, <span class="stringliteral">&quot;turn off FOD reorientation. Reorientation is on by default if the number &quot;</span></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>                                       <span class="stringliteral">&quot;of volumes in the 4th dimension corresponds to the number of coefficients in an &quot;</span></div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>                                       <span class="stringliteral">&quot;antipodally symmetric spherical harmonic series (i.e. 6, 15, 28, 45, 66 etc&quot;</span>);</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>  }</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>}</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aapp_8h_html"><div class="ttname"><a href="app_8h.html">app.h</a></div></div>
 <div class="ttc" id="aclass_m_r_1_1_app_1_1_argument_html"><div class="ttname"><a href="class_m_r_1_1_app_1_1_argument.html">MR::App::Argument</a></div><div class="ttdoc">A class to specify a command-line argument.</div><div class="ttdef"><b>Definition:</b> <a href="cmdline__option_8h_source.html#l00105">cmdline_option.h:105</a></div></div>
 <div class="ttc" id="aclass_m_r_1_1_app_1_1_argument_html_a4c901869cc80822295f2b5a30b91f3cc"><div class="ttname"><a href="class_m_r_1_1_app_1_1_argument.html#a4c901869cc80822295f2b5a30b91f3cc">MR::App::Argument::type_file_in</a></div><div class="ttdeci">Argument &amp; type_file_in()</div><div class="ttdoc">specifies that the argument should be an input file</div><div class="ttdef"><b>Definition:</b> <a href="cmdline__option_8h_source.html#l00234">cmdline_option.h:234</a></div></div>
 <div class="ttc" id="aclass_m_r_1_1_app_1_1_argument_html_a6a7d185baed96fddc7df2e47bd6cb718"><div class="ttname"><a href="class_m_r_1_1_app_1_1_argument.html#a6a7d185baed96fddc7df2e47bd6cb718">MR::App::Argument::type_sequence_float</a></div><div class="ttdeci">Argument &amp; type_sequence_float()</div><div class="ttdoc">specifies that the argument should be a sequence of comma-separated floating-point values.</div><div class="ttdef"><b>Definition:</b> <a href="cmdline__option_8h_source.html#l00269">cmdline_option.h:269</a></div></div>
 <div class="ttc" id="aclass_m_r_1_1_app_1_1_option_group_html"><div class="ttname"><a href="class_m_r_1_1_app_1_1_option_group.html">MR::App::OptionGroup</a></div><div class="ttdoc">a class to hold a named list of Option's</div><div class="ttdef"><b>Definition:</b> <a href="cmdline__option_8h_source.html#l00418">cmdline_option.h:418</a></div></div>
 <div class="ttc" id="aclass_m_r_1_1_app_1_1_option_html"><div class="ttname"><a href="class_m_r_1_1_app_1_1_option.html">MR::App::Option</a></div><div class="ttdoc">A class to specify a command-line option.</div><div class="ttdef"><b>Definition:</b> <a href="cmdline__option_8h_source.html#l00343">cmdline_option.h:343</a></div></div>
-<div class="ttc" id="anamespace_m_r_1_1_registration_html_ac8dc557373081edec651b16a73236779"><div class="ttname"><a href="namespace_m_r_1_1_registration.html#ac8dc557373081edec651b16a73236779">MR::Registration::fod_options</a></div><div class="ttdeci">const App::OptionGroup fod_options</div><div class="ttdef"><b>Definition:</b> <a href="registration_2shared_8h_source.html#l00032">shared.h:32</a></div></div>
-<div class="ttc" id="anamespace_m_r_1_1_registration_html_af8a485575833abb2c27be30ea90ace6e"><div class="ttname"><a href="namespace_m_r_1_1_registration.html#af8a485575833abb2c27be30ea90ace6e">MR::Registration::multiContrastOptions</a></div><div class="ttdeci">const OptionGroup multiContrastOptions</div><div class="ttdef"><b>Definition:</b> <a href="registration_2shared_8h_source.html#l00027">shared.h:27</a></div></div>
+<div class="ttc" id="anamespace_m_r_1_1_registration_html_ac8dc557373081edec651b16a73236779"><div class="ttname"><a href="namespace_m_r_1_1_registration.html#ac8dc557373081edec651b16a73236779">MR::Registration::fod_options</a></div><div class="ttdeci">const App::OptionGroup fod_options</div><div class="ttdef"><b>Definition:</b> <a href="registration_2shared_8h_source.html#l00035">shared.h:35</a></div></div>
+<div class="ttc" id="anamespace_m_r_1_1_registration_html_af8a485575833abb2c27be30ea90ace6e"><div class="ttname"><a href="namespace_m_r_1_1_registration.html#af8a485575833abb2c27be30ea90ace6e">MR::Registration::multiContrastOptions</a></div><div class="ttdeci">const OptionGroup multiContrastOptions</div><div class="ttdef"><b>Definition:</b> <a href="registration_2shared_8h_source.html#l00030">shared.h:30</a></div></div>
 <div class="ttc" id="anamespace_m_r_html"><div class="ttname"><a href="namespace_m_r.html">MR</a></div><div class="ttdef"><b>Definition:</b> <a href="core_2adapter_2base_8h_source.html#l00023">base.h:24</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -146,7 +149,7 @@ $(document).ready(function(){initNavTree('registration_2shared_8h_source.html','
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_2809abdae02e13f948aa32ba36e8b7d2.html">registration</a></li><li class="navelem"><a class="el" href="registration_2shared_8h.html">shared.h</a></li>
-    <li class="footer">Generated on Wed Oct 20 2021 13:48:27 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Thu Oct 21 2021 13:00:25 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

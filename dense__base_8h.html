@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0.0-dirty</div>
+   <div id="projectbrief">Version 3.0.3-23-g193aa0ad</div>
   </td>
  </tr>
  </tbody>
@@ -130,7 +130,7 @@ Functions</h2></td></tr>
 <div class="line">inline Derived&amp; <span class="keyword">operator</span> ARG (<span class="keyword">const</span> <a class="code hl_class" href="class_m_r_1_1_helper_1_1_const_row.html">MR::Helper::ConstRow&lt;ImageType&gt;</a>&amp; row) { \</div>
 <div class="line">  this-&gt;resize (row.image.size(row.axis),1); \</div>
 <div class="line">  for (row.image.index(row.axis) = 0; row.image.index (row.axis) &lt; row.image.size (row.axis); ++row.image.index (row.axis)) \</div>
-<div class="line">    this-&gt;operator() (row.image.index (row.axis), 0) ARG row.image.value(); \</div>
+<div class="line">    this-&gt;operator() (ssize_t (row.image.index (row.axis)), 0) ARG row.image.value(); \</div>
 <div class="line">  return derived(); \</div>
 <div class="line">}</div>
 <div class="ttc" id="aclass_m_r_1_1_helper_1_1_const_row_html"><div class="ttname"><a href="class_m_r_1_1_helper_1_1_const_row.html">MR::Helper::ConstRow</a></div><div class="ttdef"><b>Definition:</b> <a href="src_2surface_2types_8h_source.html#l00063">types.h:63</a></div></div>
@@ -236,7 +236,7 @@ template&lt;class ImageType &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4270bfced15e0e73154b13468c7c9ad9.html">core</a></li><li class="navelem"><a class="el" href="dir_7afe1cd4c65f9097aec3754989460876.html">eigen_plugins</a></li><li class="navelem"><a class="el" href="dense__base_8h.html">dense_base.h</a></li>
-    <li class="footer">Generated on Wed Oct 20 2021 13:48:27 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Thu Oct 21 2021 13:00:25 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

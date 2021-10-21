@@ -25,7 +25,7 @@ var namespace_m_r_1_1_registration =
     ] ],
     [ "check_image_output", "namespace_m_r_1_1_registration.html#adcf4f8e187d98522924bd371fb69f267", null ],
     [ "multi_resolution_lmax", "namespace_m_r_1_1_registration.html#a272c6fb2078cf227ac1bc28963a568a7", null ],
-    [ "multi_resolution_lmax", "namespace_m_r_1_1_registration.html#a65b5d802086e3590ab9998b44d01195c", null ],
+    [ "multi_resolution_lmax", "namespace_m_r_1_1_registration.html#a1733d4f82a6441cd14508a6fc17b5373", null ],
     [ "operator<<", "namespace_m_r_1_1_registration.html#a56a7cb721f3e1e363d25614258510c40", null ],
     [ "parse_general_options", "namespace_m_r_1_1_registration.html#aa3e8f190d714f5bcb1daedba0cc30fb7", null ],
     [ "preload_data", "namespace_m_r_1_1_registration.html#a307f7d6032b46d9e2ed0cab7c79d647b", null ],

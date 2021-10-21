@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0.0-dirty</div>
+   <div id="projectbrief">Version 3.0.3-23-g193aa0ad</div>
   </td>
  </tr>
  </tbody>
@@ -87,7 +87,7 @@ $(document).ready(function(){initNavTree('series_8h_source.html',''); initResiza
   <div class="headertitle"><div class="title">series.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="series_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/* Copyright (c) 2008-2019 the MRtrix3 contributors.</span></div>
+<a href="series_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/* Copyright (c) 2008-2021 the MRtrix3 contributors.</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment"> *</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment"> * This Source Code Form is subject to the terms of the Mozilla Public</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment"> * License, v. 2.0. If a copy of the MPL was not distributed with this</span></div>
@@ -122,8 +122,8 @@ $(document).ready(function(){initNavTree('series_8h_source.html',''); initResiza
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="class_m_r_1_1_file_1_1_dicom_1_1_series.html#a7ed5dcfe4918eff82796beb14d6e9601">   33</a></span>          <a class="code hl_function" href="class_m_r_1_1_file_1_1_dicom_1_1_series.html#a7ed5dcfe4918eff82796beb14d6e9601">Series</a> (<a class="code hl_class" href="class_m_r_1_1_file_1_1_dicom_1_1_study.html">Study</a>* parent, <span class="keyword">const</span> std::string&amp; series_name, <span class="keywordtype">size_t</span> series_number, <span class="keyword">const</span> std::string&amp; <a class="code hl_variable" href="class_m_r_1_1_file_1_1_dicom_1_1_series.html#a3a81d050968ab1a83023b4b84cca88e6">image_type</a>,</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>              <span class="keyword">const</span> std::string&amp; series_modality = <span class="stringliteral">&quot;&quot;</span>, <span class="keyword">const</span> std::string&amp; series_date = <span class="stringliteral">&quot;&quot;</span>, <span class="keyword">const</span> std::string&amp; series_time = <span class="stringliteral">&quot;&quot;</span>) :</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>            <a class="code hl_variable" href="class_m_r_1_1_file_1_1_dicom_1_1_series.html#aa256e4cbf9e98dcf9b798ab2eab566f8">study</a> (parent), <a class="code hl_variable" href="class_m_r_1_1_file_1_1_dicom_1_1_series.html#a35b7db081ace96d7ede53c7ef6c813fa">name</a> (series_name), <a class="code hl_variable" href="class_m_r_1_1_file_1_1_dicom_1_1_series.html#a3a81d050968ab1a83023b4b84cca88e6">image_type</a> (<a class="code hl_variable" href="class_m_r_1_1_file_1_1_dicom_1_1_series.html#a3a81d050968ab1a83023b4b84cca88e6">image_type</a>), <a class="code hl_variable" href="class_m_r_1_1_file_1_1_dicom_1_1_series.html#a49507c7d5dbb191db06a50ba6b9b87c4">modality</a> (series_modality),</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>            <a class="code hl_variable" href="class_m_r_1_1_file_1_1_dicom_1_1_series.html#a5d0be964dfbaf48975cd3e6501d0135a">date</a> (series_date), <a class="code hl_variable" href="class_m_r_1_1_file_1_1_dicom_1_1_series.html#aaa0986aa341afb5396bf415bade77f58">time</a> (series_time) { </div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>              <a class="code hl_variable" href="class_m_r_1_1_file_1_1_dicom_1_1_series.html#aaa981ef112cbd7cb62fd8f6d4d7d5e41">number</a> = series_number; </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>            <a class="code hl_variable" href="class_m_r_1_1_file_1_1_dicom_1_1_series.html#a5d0be964dfbaf48975cd3e6501d0135a">date</a> (series_date), <a class="code hl_variable" href="class_m_r_1_1_file_1_1_dicom_1_1_series.html#aaa0986aa341afb5396bf415bade77f58">time</a> (series_time) {</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>              <a class="code hl_variable" href="class_m_r_1_1_file_1_1_dicom_1_1_series.html#aaa981ef112cbd7cb62fd8f6d4d7d5e41">number</a> = series_number;</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>            }</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="class_m_r_1_1_file_1_1_dicom_1_1_series.html#aa256e4cbf9e98dcf9b798ab2eab566f8">   40</a></span>          <a class="code hl_class" href="class_m_r_1_1_file_1_1_dicom_1_1_study.html">Study</a>* <a class="code hl_variable" href="class_m_r_1_1_file_1_1_dicom_1_1_series.html#aa256e4cbf9e98dcf9b798ab2eab566f8">study</a>;</div>
@@ -136,29 +136,35 @@ $(document).ready(function(){initNavTree('series_8h_source.html',''); initResiza
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="class_m_r_1_1_file_1_1_dicom_1_1_series.html#ab72f0edc05fd668ba04678f856170f29">   47</a></span>          <span class="keywordtype">void</span> <a class="code hl_function" href="class_m_r_1_1_file_1_1_dicom_1_1_series.html#ab72f0edc05fd668ba04678f856170f29">read</a> () {</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>            <a class="code hl_class" href="class_m_r_1_1_progress_bar.html">ProgressBar</a> progress (<span class="stringliteral">&quot;reading DICOM series \&quot;&quot;</span> + <a class="code hl_variable" href="class_m_r_1_1_file_1_1_dicom_1_1_series.html#a35b7db081ace96d7ede53c7ef6c813fa">name</a> + <span class="stringliteral">&quot;\&quot;&quot;</span>, size());</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>            <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; size(); i++) {</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>              (*this)[i]-&gt;read(); </div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>              (*this)[i]-&gt;read();</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>              ++progress;</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>            }</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>          }</div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="class_m_r_1_1_file_1_1_dicom_1_1_series.html#a0fa9e81ffa0f17737c15b47476f2cdf7">   55</a></span>          <a class="code hl_class" href="class_m_r_1_1vector.html">vector&lt;int&gt;</a> <a class="code hl_function" href="class_m_r_1_1_file_1_1_dicom_1_1_series.html#a0fa9e81ffa0f17737c15b47476f2cdf7">count</a> () <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="class_m_r_1_1_file_1_1_dicom_1_1_series.html#a38db7aafd18764f53d9ab346cda8dbd5">   56</a></span>          <span class="keywordtype">bool</span> <a class="code hl_function" href="class_m_r_1_1_file_1_1_dicom_1_1_series.html#a38db7aafd18764f53d9ab346cda8dbd5">operator&lt; </a>(<span class="keyword">const</span> <a class="code hl_class" href="class_m_r_1_1_file_1_1_dicom_1_1_series.html">Series</a>&amp; s)<span class="keyword"> const </span>{</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="class_m_r_1_1_file_1_1_dicom_1_1_series.html#aaa981ef112cbd7cb62fd8f6d4d7d5e41">number</a> &lt; s.<a class="code hl_variable" href="class_m_r_1_1_file_1_1_dicom_1_1_series.html#aaa981ef112cbd7cb62fd8f6d4d7d5e41">number</a>;</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>          }</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="class_m_r_1_1_file_1_1_dicom_1_1_series.html#a1cd90170d61332bbff17304b713fe85f">   60</a></span>          <span class="keyword">friend</span> std::ostream&amp; <a class="code hl_friend" href="class_m_r_1_1_file_1_1_dicom_1_1_series.html#a1cd90170d61332bbff17304b713fe85f">operator&lt;&lt; </a>(std::ostream&amp; stream, <span class="keyword">const</span> <a class="code hl_class" href="class_m_r_1_1_file_1_1_dicom_1_1_series.html">Series</a>&amp; <a class="code hl_variable" href="ordered__thread__queue_8h.html#a372a2aab9def10f1f1a04135b1e949d8">item</a>);</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>      };</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    }</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>  }</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>}</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="class_m_r_1_1_file_1_1_dicom_1_1_series.html#aaa981ef112cbd7cb62fd8f6d4d7d5e41">number</a> != s.<a class="code hl_variable" href="class_m_r_1_1_file_1_1_dicom_1_1_series.html#aaa981ef112cbd7cb62fd8f6d4d7d5e41">number</a>)</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>              <span class="keywordflow">return</span> <a class="code hl_variable" href="class_m_r_1_1_file_1_1_dicom_1_1_series.html#aaa981ef112cbd7cb62fd8f6d4d7d5e41">number</a> &lt; s.<a class="code hl_variable" href="class_m_r_1_1_file_1_1_dicom_1_1_series.html#aaa981ef112cbd7cb62fd8f6d4d7d5e41">number</a>;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="class_m_r_1_1_file_1_1_dicom_1_1_series.html#a5d0be964dfbaf48975cd3e6501d0135a">date</a>.size() &amp;&amp; <a class="code hl_variable" href="class_m_r_1_1_file_1_1_dicom_1_1_series.html#a5d0be964dfbaf48975cd3e6501d0135a">date</a> != s.<a class="code hl_variable" href="class_m_r_1_1_file_1_1_dicom_1_1_series.html#a5d0be964dfbaf48975cd3e6501d0135a">date</a>)</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>              <span class="keywordflow">return</span> <a class="code hl_variable" href="class_m_r_1_1_file_1_1_dicom_1_1_series.html#a5d0be964dfbaf48975cd3e6501d0135a">date</a> &lt; s.<a class="code hl_variable" href="class_m_r_1_1_file_1_1_dicom_1_1_series.html#a5d0be964dfbaf48975cd3e6501d0135a">date</a>;</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="class_m_r_1_1_file_1_1_dicom_1_1_series.html#aaa0986aa341afb5396bf415bade77f58">time</a>.size() &amp;&amp; <a class="code hl_variable" href="class_m_r_1_1_file_1_1_dicom_1_1_series.html#aaa0986aa341afb5396bf415bade77f58">time</a> != s.<a class="code hl_variable" href="class_m_r_1_1_file_1_1_dicom_1_1_series.html#aaa0986aa341afb5396bf415bade77f58">time</a>)</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>              <span class="keywordflow">return</span> <a class="code hl_variable" href="class_m_r_1_1_file_1_1_dicom_1_1_series.html#aaa0986aa341afb5396bf415bade77f58">time</a> &lt; s.<a class="code hl_variable" href="class_m_r_1_1_file_1_1_dicom_1_1_series.html#aaa0986aa341afb5396bf415bade77f58">time</a>;</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="class_m_r_1_1_file_1_1_dicom_1_1_series.html#a3a81d050968ab1a83023b4b84cca88e6">image_type</a> &lt; s.<a class="code hl_variable" href="class_m_r_1_1_file_1_1_dicom_1_1_series.html#a3a81d050968ab1a83023b4b84cca88e6">image_type</a>;</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>          }</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="class_m_r_1_1_file_1_1_dicom_1_1_series.html#a1cd90170d61332bbff17304b713fe85f">   66</a></span>          <span class="keyword">friend</span> std::ostream&amp; <a class="code hl_friend" href="class_m_r_1_1_file_1_1_dicom_1_1_series.html#a1cd90170d61332bbff17304b713fe85f">operator&lt;&lt; </a>(std::ostream&amp; stream, <span class="keyword">const</span> <a class="code hl_class" href="class_m_r_1_1_file_1_1_dicom_1_1_series.html">Series</a>&amp; <a class="code hl_variable" href="ordered__thread__queue_8h.html#a372a2aab9def10f1f1a04135b1e949d8">item</a>);</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>      };</div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    }</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>  }</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>}</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
 <div class="ttc" id="aclass_m_r_1_1_file_1_1_dicom_1_1_series_html"><div class="ttname"><a href="class_m_r_1_1_file_1_1_dicom_1_1_series.html">MR::File::Dicom::Series</a></div><div class="ttdef"><b>Definition:</b> <a href="series_8h_source.html#l00031">series.h:31</a></div></div>
 <div class="ttc" id="aclass_m_r_1_1_file_1_1_dicom_1_1_series_html_a0fa9e81ffa0f17737c15b47476f2cdf7"><div class="ttname"><a href="class_m_r_1_1_file_1_1_dicom_1_1_series.html#a0fa9e81ffa0f17737c15b47476f2cdf7">MR::File::Dicom::Series::count</a></div><div class="ttdeci">vector&lt; int &gt; count() const</div></div>
 <div class="ttc" id="aclass_m_r_1_1_file_1_1_dicom_1_1_series_html_a1cd90170d61332bbff17304b713fe85f"><div class="ttname"><a href="class_m_r_1_1_file_1_1_dicom_1_1_series.html#a1cd90170d61332bbff17304b713fe85f">MR::File::Dicom::Series::operator&lt;&lt;</a></div><div class="ttdeci">friend std::ostream &amp; operator&lt;&lt;(std::ostream &amp;stream, const Series &amp;item)</div></div>
@@ -187,7 +193,7 @@ $(document).ready(function(){initNavTree('series_8h_source.html',''); initResiza
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4270bfced15e0e73154b13468c7c9ad9.html">core</a></li><li class="navelem"><a class="el" href="dir_3cf79a01c77d233dd5dadaf9c60ce692.html">file</a></li><li class="navelem"><a class="el" href="dir_a0e960ad71aca9da31cf4bd35c48c0bb.html">dicom</a></li><li class="navelem"><a class="el" href="series_8h.html">series.h</a></li>
-    <li class="footer">Generated on Wed Oct 20 2021 13:48:26 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Thu Oct 21 2021 13:00:24 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

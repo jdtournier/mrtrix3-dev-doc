@@ -1,6 +1,7 @@
 var nifti__utils_8h =
 [
     [ "adjust_transform", "nifti__utils_8h.html#ae5cb54ed490b9eb45e9fc65738030fb8", null ],
+    [ "axes_on_write", "nifti__utils_8h.html#a96d85280615dbfb727531d660ad1cdca", null ],
     [ "check", "nifti__utils_8h.html#aaa0fdb7b8cb97b3ffc82b2b8f2c8b98e", null ],
     [ "create", "nifti__utils_8h.html#a5e4a62f70077e67bcec6eb9ada27b7a5", null ],
     [ "create_gz", "nifti__utils_8h.html#a848a97cf703b564ca09ba343f9e429aa", null ],

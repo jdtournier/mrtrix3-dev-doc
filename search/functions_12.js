@@ -62,7 +62,7 @@ var searchData=
   ['reset_5fwindowing_59',['reset_windowing',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_mode_1_1_light_box.html#aa290e92e0372f10b7cdac02d74b89df1',1,'MR::GUI::MRView::Mode::LightBox']]],
   ['resize_60',['resize',['../class_m_r_1_1_bit_set.html#ad1725a390a29d7ae1550e30fe7be5940',1,'MR::BitSet::resize()'],['../namespace_m_r_1_1_file.html#a5aba912969fee7e5c00843c27170adb8',1,'MR::File::resize()']]],
   ['resizegl_61',['resizeGL',['../class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_render_frame.html#afd5cd81556f0afbfa47018ddafda7af1',1,'MR::GUI::DWI::RenderFrame']]],
-  ['reslice_62',['reslice',['../namespace_m_r_1_1_filter.html#aabd75ac4ad1d40a7969a505b1c14e958',1,'MR::Filter::reslice()'],['../class_m_r_1_1_registration_1_1_non_linear.html#ad752d34786652cd0ab1186540e9cc900',1,'MR::Registration::NonLinear::reslice()']]],
+  ['reslice_62',['reslice',['../namespace_m_r_1_1_filter.html#a6458ec6831a9076f678b03911703d117',1,'MR::Filter::reslice()'],['../class_m_r_1_1_registration_1_1_non_linear.html#ad752d34786652cd0ab1186540e9cc900',1,'MR::Registration::NonLinear::reslice()']]],
   ['response_5fslot_63',['response_slot',['../class_m_r_1_1_g_u_i_1_1_d_w_i_1_1_window.html#a8944506d1dd418ebaea521d647f3dcaa',1,'MR::GUI::DWI::Window']]],
   ['restore_64',['restore',['../namespace_m_r_1_1_g_u_i_1_1_g_l_1_1_context.html#a6421b1422198d0c7c0d65efb8bf365cb',1,'MR::GUI::GL::Context']]],
   ['rewind_65',['rewind',['../class_m_r_1_1_path_1_1_dir.html#a54815cf85383cdb5f171837d21ff1b1c',1,'MR::Path::Dir']]],

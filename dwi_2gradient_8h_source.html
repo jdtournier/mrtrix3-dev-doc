@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0.0-dirty</div>
+   <div id="projectbrief">Version 3.0.3-23-g193aa0ad</div>
   </td>
  </tr>
  </tbody>
@@ -87,7 +87,7 @@ $(document).ready(function(){initNavTree('dwi_2gradient_8h_source.html',''); ini
   <div class="headertitle"><div class="title">gradient.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="dwi_2gradient_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/* Copyright (c) 2008-2019 the MRtrix3 contributors.</span></div>
+<a href="dwi_2gradient_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/* Copyright (c) 2008-2021 the MRtrix3 contributors.</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment"> *</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment"> * This Source Code Form is subject to the terms of the Mozilla Public</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment"> * License, v. 2.0. If a copy of the MPL was not distributed with this</span></div>
@@ -391,10 +391,10 @@ $(document).ready(function(){initNavTree('dwi_2gradient_8h_source.html',''); ini
 <div class="ttc" id="anamespace_m_r_1_1_d_w_i_html_ae7cb4c23a01953166fddf8806ac3304a"><div class="ttname"><a href="namespace_m_r_1_1_d_w_i.html#ae7cb4c23a01953166fddf8806ac3304a">MR::DWI::check_DW_scheme</a></div><div class="ttdeci">void check_DW_scheme(const Header &amp;header, const MatrixType &amp;grad)</div><div class="ttdoc">check that the DW scheme matches the DWI data in header</div><div class="ttdef"><b>Definition:</b> <a href="dwi_2gradient_8h_source.html#l00050">gradient.h:50</a></div></div>
 <div class="ttc" id="anamespace_m_r_1_1_d_w_i_html_af50249cdb437b32a1bc57e68f1b9168b"><div class="ttname"><a href="namespace_m_r_1_1_d_w_i.html#af50249cdb437b32a1bc57e68f1b9168b">MR::DWI::gen_direction_matrix</a></div><div class="ttdeci">Eigen::MatrixXd gen_direction_matrix(const MatrixType &amp;grad, const IndexVectorType &amp;dwi)</div><div class="ttdoc">convert the DW encoding matrix in grad into a azimuth/elevation direction set, using only the DWI vol...</div><div class="ttdef"><b>Definition:</b> <a href="dwi_2gradient_8h_source.html#l00075">gradient.h:75</a></div></div>
 <div class="ttc" id="anamespace_m_r_1_1_math_1_1_sphere_html_ab3e3d2f0609036fc4bf1cd7202798417"><div class="ttname"><a href="namespace_m_r_1_1_math_1_1_sphere.html#ab3e3d2f0609036fc4bf1cd7202798417">MR::Math::Sphere::cartesian2spherical</a></div><div class="ttdeci">std::enable_if&lt; VectorType1::IsVectorAtCompileTime, void &gt;::type cartesian2spherical(const VectorType1 &amp;xyz, VectorType2 &amp;&amp;az_el_r)</div><div class="ttdoc">convert Cartesian coordinates to spherical coordinates</div><div class="ttdef"><b>Definition:</b> <a href="core_2math_2sphere_8h_source.html#l00083">sphere.h:83</a></div></div>
-<div class="ttc" id="anamespace_m_r_1_1_math_html_a19bfd86132cc6d27e8c3b75f5903cb34"><div class="ttname"><a href="namespace_m_r_1_1_math.html#a19bfd86132cc6d27e8c3b75f5903cb34">MR::Math::condition_number</a></div><div class="ttdeci">default_type condition_number(const M &amp;data)</div><div class="ttdef"><b>Definition:</b> <a href="condition__number_8h_source.html#l00029">condition_number.h:29</a></div></div>
+<div class="ttc" id="anamespace_m_r_1_1_math_html_a19bfd86132cc6d27e8c3b75f5903cb34"><div class="ttname"><a href="namespace_m_r_1_1_math.html#a19bfd86132cc6d27e8c3b75f5903cb34">MR::Math::condition_number</a></div><div class="ttdeci">default_type condition_number(const M &amp;data)</div><div class="ttdef"><b>Definition:</b> <a href="condition__number_8h_source.html#l00032">condition_number.h:32</a></div></div>
 <div class="ttc" id="anamespace_m_r_html"><div class="ttname"><a href="namespace_m_r.html">MR</a></div><div class="ttdef"><b>Definition:</b> <a href="core_2adapter_2base_8h_source.html#l00023">base.h:24</a></div></div>
 <div class="ttc" id="anamespace_m_r_html_a43bad69d4b870a61e1d93cd69b7b1270"><div class="ttname"><a href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">MR::default_type</a></div><div class="ttdeci">double default_type</div><div class="ttdoc">the default type used throughout MRtrix</div><div class="ttdef"><b>Definition:</b> <a href="src_2surface_2types_8h_source.html#l00228">types.h:228</a></div></div>
-<div class="ttc" id="anamespace_m_r_html_a7dcea37fdb5fba1961d121fca36c22c4"><div class="ttname"><a href="namespace_m_r.html#a7dcea37fdb5fba1961d121fca36c22c4">MR::str</a></div><div class="ttdeci">std::string str(const T &amp;value, int precision=0)</div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00205">mrtrix.h:205</a></div></div>
+<div class="ttc" id="anamespace_m_r_html_a7dcea37fdb5fba1961d121fca36c22c4"><div class="ttname"><a href="namespace_m_r.html#a7dcea37fdb5fba1961d121fca36c22c4">MR::str</a></div><div class="ttdeci">std::string str(const T &amp;value, int precision=0)</div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00247">mrtrix.h:247</a></div></div>
 <div class="ttc" id="anamespace_m_r_html_afc7aeb46632c4118c51cf643bd698d14"><div class="ttname"><a href="namespace_m_r.html#afc7aeb46632c4118c51cf643bd698d14">MR::add_line</a></div><div class="ttdeci">std::string &amp; add_line(std::string &amp;original, const std::string &amp;new_line)</div><div class="ttdoc">add a line to a string, taking care of inserting a newline if needed</div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00081">mrtrix.h:81</a></div></div>
 <div class="ttc" id="anoise__estimator_8h_html_a08aa81667d4e07024e07f1ab7f22f7eb"><div class="ttname"><a href="noise__estimator_8h.html#a08aa81667d4e07024e07f1ab7f22f7eb">dwi</a></div><div class="ttdeci">InputImageType dwi</div><div class="ttdef"><b>Definition:</b> <a href="noise__estimator_8h_source.html#l00063">noise_estimator.h:63</a></div></div>
 <div class="ttc" id="apath_8h_html"><div class="ttname"><a href="path_8h.html">path.h</a></div></div>
@@ -405,7 +405,7 @@ $(document).ready(function(){initNavTree('dwi_2gradient_8h_source.html',''); ini
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4270bfced15e0e73154b13468c7c9ad9.html">core</a></li><li class="navelem"><a class="el" href="dir_14fc28f4ff7470df2f0f64af7c508ca4.html">dwi</a></li><li class="navelem"><a class="el" href="dwi_2gradient_8h.html">gradient.h</a></li>
-    <li class="footer">Generated on Wed Oct 20 2021 13:48:26 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Thu Oct 21 2021 13:00:24 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

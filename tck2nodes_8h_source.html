@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0.0-dirty</div>
+   <div id="projectbrief">Version 3.0.3-23-g193aa0ad</div>
   </td>
  </tr>
  </tbody>
@@ -87,7 +87,7 @@ $(document).ready(function(){initNavTree('tck2nodes_8h_source.html',''); initRes
   <div class="headertitle"><div class="title">tck2nodes.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="tck2nodes_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/* Copyright (c) 2008-2019 the MRtrix3 contributors.</span></div>
+<a href="tck2nodes_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/* Copyright (c) 2008-2021 the MRtrix3 contributors.</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment"> *</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment"> * This Source Code Form is subject to the terms of the Mozilla Public</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment"> * License, v. 2.0. If a copy of the MPL was not distributed with this</span></div>
@@ -293,7 +293,7 @@ $(document).ready(function(){initNavTree('tck2nodes_8h_source.html',''); initRes
 <div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span>    <span class="keyword">const</span> <a class="code hl_typedef" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a> max_dist;</div>
 <div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span>    <span class="keyword">const</span> <a class="code hl_typedef" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a> angle_limit;</div>
 <div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span> </div>
-<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span>    <a class="code hl_typedef" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a> get_cf (<span class="keyword">const</span> <a class="code hl_typedef" href="namespace_eigen.html#a614e7946e0926e533cf7d49a487ce245">Eigen::Vector3</a>&amp;, <span class="keyword">const</span> <a class="code hl_typedef" href="namespace_eigen.html#a614e7946e0926e533cf7d49a487ce245">Eigen::Vector3</a>&amp;, <span class="keyword">const</span> <a class="code hl_class" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_tck2nodes__base_1_1voxel__type.html">voxel_type</a>&amp;) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span>    <a class="code hl_typedef" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a> get_cf (<span class="keyword">const</span> Eigen::Vector3d&amp;, <span class="keyword">const</span> Eigen::Vector3d&amp;, <span class="keyword">const</span> <a class="code hl_class" href="class_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_1_1_tck2nodes__base_1_1voxel__type.html">voxel_type</a>&amp;) <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span> </div>
 <div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span>};</div>
 <div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span> </div>
@@ -353,7 +353,6 @@ $(document).ready(function(){initNavTree('tck2nodes_8h_source.html',''); initRes
 <div class="ttc" id="adwi_2tractography_2connectome_2connectome_8h_html"><div class="ttname"><a href="dwi_2tractography_2connectome_2connectome_8h.html">connectome.h</a></div></div>
 <div class="ttc" id="agroup__elfun_html_ga8bf8967471ef09d762367a1844985db8"><div class="ttname"><a href="group__elfun.html#ga8bf8967471ef09d762367a1844985db8">MR::Math::pow2</a></div><div class="ttdeci">constexpr T pow2(const T &amp;v)</div><div class="ttdef"><b>Definition:</b> <a href="math_8h_source.html#l00053">math.h:53</a></div></div>
 <div class="ttc" id="agroup__mathconstants_html_gade1e5db355bd1a66a807d4296ca23d6b"><div class="ttname"><a href="group__mathconstants.html#gade1e5db355bd1a66a807d4296ca23d6b">MR::Math::pi_4</a></div><div class="ttdeci">constexpr double pi_4</div><div class="ttdef"><b>Definition:</b> <a href="math_8h_source.html#l00042">math.h:42</a></div></div>
-<div class="ttc" id="anamespace_eigen_html_a614e7946e0926e533cf7d49a487ce245"><div class="ttname"><a href="namespace_eigen.html#a614e7946e0926e533cf7d49a487ce245">Eigen::Vector3</a></div><div class="ttdeci">Matrix&lt; MR::default_type, 3, 1 &gt; Vector3</div><div class="ttdef"><b>Definition:</b> <a href="src_2surface_2types_8h_source.html#l00326">types.h:326</a></div></div>
 <div class="ttc" id="anamespace_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_html_a25ce9f433c45fcf7c5d0adf8f69079c4"><div class="ttname"><a href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome.html#a25ce9f433c45fcf7c5d0adf8f69079c4">MR::DWI::Tractography::Connectome::NodePair</a></div><div class="ttdeci">std::pair&lt; node_t, node_t &gt; NodePair</div><div class="ttdef"><b>Definition:</b> <a href="dwi_2tractography_2connectome_2connectome_8h_source.html#l00041">connectome.h:41</a></div></div>
 <div class="ttc" id="anamespace_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome_html_a8c7b2504ca8d27e380264dcc142e2e74"><div class="ttname"><a href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_connectome.html#a8c7b2504ca8d27e380264dcc142e2e74">MR::DWI::Tractography::Connectome::node_t</a></div><div class="ttdeci">MR::Connectome::node_t node_t</div><div class="ttdef"><b>Definition:</b> <a href="dwi_2tractography_2connectome_2connectome_8h_source.html#l00040">connectome.h:40</a></div></div>
 <div class="ttc" id="anamespace_m_r_1_1_d_w_i_1_1_tractography_html_af44b4a050c5cf7cfbf4007c60f6f73bc"><div class="ttname"><a href="namespace_m_r_1_1_d_w_i_1_1_tractography.html#af44b4a050c5cf7cfbf4007c60f6f73bc">MR::DWI::Tractography::length</a></div><div class="ttdeci">PointType::Scalar length(const vector&lt; PointType &gt; &amp;tck)</div><div class="ttdef"><b>Definition:</b> <a href="streamline_8h_source.html#l00134">streamline.h:134</a></div></div>
@@ -368,7 +367,7 @@ $(document).ready(function(){initNavTree('tck2nodes_8h_source.html',''); initRes
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_6da8e6f1bfdb5540a85bd819d2a13962.html">dwi</a></li><li class="navelem"><a class="el" href="dir_6f8fcd489e430c1a1b22716f7655ad56.html">tractography</a></li><li class="navelem"><a class="el" href="dir_b79783b9e4d142f865a2bc97583576b9.html">connectome</a></li><li class="navelem"><a class="el" href="tck2nodes_8h.html">tck2nodes.h</a></li>
-    <li class="footer">Generated on Wed Oct 20 2021 13:48:27 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Thu Oct 21 2021 13:00:25 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

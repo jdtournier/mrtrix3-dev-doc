@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0.0-dirty</div>
+   <div id="projectbrief">Version 3.0.3-23-g193aa0ad</div>
   </td>
  </tr>
  </tbody>
@@ -87,82 +87,85 @@ $(document).ready(function(){initNavTree('src_2gui_2mrview_2tool_2transform_8h_s
   <div class="headertitle"><div class="title">transform.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="src_2gui_2mrview_2tool_2transform_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/* Copyright (c) 2008-2017 the MRtrix3 contributors.</span></div>
+<a href="src_2gui_2mrview_2tool_2transform_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/* Copyright (c) 2008-2021 the MRtrix3 contributors.</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment"> *</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment"> * This Source Code Form is subject to the terms of the Mozilla Public</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment"> * License, v. 2.0. If a copy of the MPL was not distributed with this</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment"> * file, you can obtain one at http://mozilla.org/MPL/2.0/.</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment"> * file, You can obtain one at http://mozilla.org/MPL/2.0/.</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="comment"> *</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment"> * MRtrix is distributed in the hope that it will be useful,</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="comment"> * but WITHOUT ANY WARRANTY; without even the implied warranty</span></div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="comment"> * of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</span></div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="comment"> *</span></div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="comment"> * For more details, see http://www.mrtrix.org/.</span></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="comment"> */</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#ifndef __gui_mrview_tool_transform_h__</span></div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#define __gui_mrview_tool_transform_h__</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment"> * Covered Software is provided under this License on an &quot;as is&quot;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="comment"> * basis, without warranty of any kind, either expressed, implied, or</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="comment"> * statutory, including, without limitation, warranties that the</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="comment"> * Covered Software is free of defects, merchantable, fit for a</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="comment"> * particular purpose or non-infringing.</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="comment"> * See the Mozilla Public License v. 2.0 for more details.</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="comment"> *</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="comment"> * For more details, see http://www.mrtrix.org/.</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="comment"> */</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#include &quot;<a class="code" href="src_2gui_2mrview_2tool_2base_8h.html">gui/mrview/tool/base.h</a>&quot;</span></div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#include &quot;<a class="code" href="src_2gui_2mrview_2mode_2base_8h.html">gui/mrview/mode/base.h</a>&quot;</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#ifndef __gui_mrview_tool_transform_h__</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#define __gui_mrview_tool_transform_h__</span></div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_m_r.html">MR</a></div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>{</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>  <span class="keyword">namespace </span>GUI</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="class_m_r_1_1_transform.html#a46675779db6a28d38026ead4e96a7b8f">   24</a></span>  {</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keyword">namespace </span>MRView</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    {</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>      <span class="keyword">namespace </span>Tool</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="class_m_r_1_1_transform.html#a6e81d6f0eccd1572fabe11cc3c6cbdd4">   29</a></span>      {</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#include &quot;<a class="code" href="src_2gui_2mrview_2tool_2base_8h.html">gui/mrview/tool/base.h</a>&quot;</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#include &quot;<a class="code" href="src_2gui_2mrview_2mode_2base_8h.html">gui/mrview/mode/base.h</a>&quot;</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="class_m_r_1_1_transform.html#a46675779db6a28d38026ead4e96a7b8f">   24</a></span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_m_r.html">MR</a></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>{</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>  <span class="keyword">namespace </span>GUI</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>  {</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="keyword">namespace </span>MRView</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="class_m_r_1_1_transform.html#a6e81d6f0eccd1572fabe11cc3c6cbdd4">   29</a></span>    {</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform.html">   32</a></span>        <span class="keyword">class </span><a class="code hl_class" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform.html">Transform</a> : <span class="keyword">public</span> <a class="code hl_class" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base.html">Base</a>, <span class="keyword">public</span> <a class="code hl_class" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_camera_interactor.html">Tool::CameraInteractor</a></div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        { <a class="code hl_define" href="src_2surface_2types_8h.html#a11d7eae3ab5178ebcf0e62cae9c26cd4">MEMALIGN</a>(<a class="code hl_class" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform.html">Transform</a>)</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>          Q_OBJECT</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>          <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>            <a class="code hl_class" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform.html">Transform</a> (<a class="code hl_class" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_dock.html">Dock</a>* parent);</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="class_m_r_1_1_transform.html#a38f28f8fa252bdb569834838a0d6b4a1">   37</a></span> </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="class_m_r_1_1_transform.html#aa7f7f1468c4060de3fb929362afb6c34">   38</a></span>            <span class="keywordtype">bool</span> slice_move_event (<span class="keyword">const</span> ModelViewProjection&amp; projection, <span class="keywordtype">float</span> inc) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="class_m_r_1_1_transform.html#a9b178cf29fdae3bafaf675341176e824">   39</a></span>            <span class="keywordtype">bool</span> pan_event (<span class="keyword">const</span> ModelViewProjection&amp; projection) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="class_m_r_1_1_transform.html#ac01757cb25b91483879fa0ceb1bfe753">   40</a></span>            <span class="keywordtype">bool</span> panthrough_event (<span class="keyword">const</span> ModelViewProjection&amp; projection) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>            <span class="keywordtype">bool</span> tilt_event (<span class="keyword">const</span> ModelViewProjection&amp; projection) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="class_m_r_1_1_transform.html#aa3c1ba57f3d0ff387e1a635fe4b31486">   42</a></span>            <span class="keywordtype">bool</span> rotate_event (<span class="keyword">const</span> ModelViewProjection&amp; projection) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="class_m_r_1_1_transform.html#a785a7389facb5e605104d384ccd7722d">   43</a></span> </div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>          <span class="keyword">protected</span>:</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform.html#a156a961f6fa3386f95915b56d537a501">   45</a></span>            QPushButton *<a class="code hl_variable" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform.html#a156a961f6fa3386f95915b56d537a501">activate_button</a>;</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform.html#aa079557b49dee19b745400cc0240c0d7">   46</a></span>            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform.html#aa079557b49dee19b745400cc0240c0d7">showEvent</a> (QShowEvent* event) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform.html#a64d3968fa7a4151b84472f247ef4d97b">   47</a></span>            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform.html#a64d3968fa7a4151b84472f247ef4d97b">closeEvent</a> (QCloseEvent* event) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform.html#ad78a8aed443bd326afa78cc4b57eeff4">   48</a></span>            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform.html#ad78a8aed443bd326afa78cc4b57eeff4">hideEvent</a> (QHideEvent* event) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform.html#aa64a5f1650ec3891e3d254635d314bfe">   50</a></span>            <span class="keywordtype">void</span> <a class="code hl_function" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform.html#aa64a5f1650ec3891e3d254635d314bfe">setActive</a> (<span class="keywordtype">bool</span> onoff);</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>          <span class="keyword">protected</span> slots:</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform.html#a09e41b196a31ebe15836f14a763ffefd">   53</a></span>            <span class="keywordtype">void</span> <a class="code hl_slot" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform.html#a09e41b196a31ebe15836f14a763ffefd">onActivate</a> (<span class="keywordtype">bool</span>);</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>        };</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>      }</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    }</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>  }</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>}</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>      <span class="keyword">namespace </span>Tool</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>      {</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform.html">   35</a></span>        <span class="keyword">class </span><a class="code hl_class" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform.html">Transform</a> : <span class="keyword">public</span> <a class="code hl_class" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base.html">Base</a>, <span class="keyword">public</span> <a class="code hl_class" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_camera_interactor.html">Tool::CameraInteractor</a></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>        { <a class="code hl_define" href="src_2surface_2types_8h.html#a11d7eae3ab5178ebcf0e62cae9c26cd4">MEMALIGN</a>(<a class="code hl_class" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform.html">Transform</a>)</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="class_m_r_1_1_transform.html#a38f28f8fa252bdb569834838a0d6b4a1">   37</a></span>          Q_OBJECT</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="class_m_r_1_1_transform.html#aa7f7f1468c4060de3fb929362afb6c34">   38</a></span>          public:</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="class_m_r_1_1_transform.html#a9b178cf29fdae3bafaf675341176e824">   39</a></span>            <a class="code hl_class" href="class_m_r_1_1_transform.html">Transform</a> (Dock* parent);</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="class_m_r_1_1_transform.html#ac01757cb25b91483879fa0ceb1bfe753">   40</a></span> </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>            <span class="keywordtype">bool</span> slice_move_event (const ModelViewProjection&amp; projection, <span class="keywordtype">float</span> inc) override;</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="class_m_r_1_1_transform.html#aa3c1ba57f3d0ff387e1a635fe4b31486">   42</a></span>            <span class="keywordtype">bool</span> pan_event (const ModelViewProjection&amp; projection) override;</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="class_m_r_1_1_transform.html#a785a7389facb5e605104d384ccd7722d">   43</a></span>            <span class="keywordtype">bool</span> panthrough_event (const ModelViewProjection&amp; projection) override;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>            <span class="keywordtype">bool</span> tilt_event (const ModelViewProjection&amp; projection) override;</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>            <span class="keywordtype">bool</span> rotate_event (const ModelViewProjection&amp; projection) override;</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="class_m_r_1_1_transform.html#a7f3dc0b4e9e0e8230011a23468fa11c2">   47</a></span>          protected:</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform.html#a156a961f6fa3386f95915b56d537a501">   48</a></span>            QPushButton *<a class="code hl_variable" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform.html#a156a961f6fa3386f95915b56d537a501">activate_button</a>;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform.html#aa079557b49dee19b745400cc0240c0d7">   49</a></span>            virtual <span class="keywordtype">void</span> <a class="code hl_function" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform.html#aa079557b49dee19b745400cc0240c0d7">showEvent</a> (QShowEvent* event) override;</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform.html#a64d3968fa7a4151b84472f247ef4d97b">   50</a></span>            virtual <span class="keywordtype">void</span> <a class="code hl_function" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform.html#a64d3968fa7a4151b84472f247ef4d97b">closeEvent</a> (QCloseEvent* event) override;</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform.html#ad78a8aed443bd326afa78cc4b57eeff4">   51</a></span>            virtual <span class="keywordtype">void</span> <a class="code hl_function" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform.html#ad78a8aed443bd326afa78cc4b57eeff4">hideEvent</a> (QHideEvent* event) override;</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform.html#aa64a5f1650ec3891e3d254635d314bfe">   53</a></span>            <span class="keywordtype">void</span> <a class="code hl_function" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform.html#aa64a5f1650ec3891e3d254635d314bfe">setActive</a> (<span class="keywordtype">bool</span> onoff);</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>          protected slots:</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform.html#a09e41b196a31ebe15836f14a763ffefd">   56</a></span>            <span class="keywordtype">void</span> <a class="code hl_slot" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform.html#a09e41b196a31ebe15836f14a763ffefd">onActivate</a> (<span class="keywordtype">bool</span>);</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        };</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>      }</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    }</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>  }</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>}</div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
 <div class="ttc" id="aclass_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_html"><div class="ttname"><a href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base.html">MR::GUI::MRView::Tool::Base</a></div><div class="ttdef"><b>Definition:</b> <a href="src_2gui_2mrview_2tool_2base_8h_source.html#l00084">base.h:84</a></div></div>
 <div class="ttc" id="aclass_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_camera_interactor_html"><div class="ttname"><a href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_camera_interactor.html">MR::GUI::MRView::Tool::CameraInteractor</a></div><div class="ttdef"><b>Definition:</b> <a href="src_2gui_2mrview_2tool_2base_8h_source.html#l00046">base.h:47</a></div></div>
-<div class="ttc" id="aclass_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_dock_html"><div class="ttname"><a href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_dock.html">MR::GUI::MRView::Tool::Dock</a></div><div class="ttdef"><b>Definition:</b> <a href="src_2gui_2mrview_2tool_2base_8h_source.html#l00064">base.h:65</a></div></div>
-<div class="ttc" id="aclass_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform_html"><div class="ttname"><a href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform.html">MR::GUI::MRView::Tool::Transform</a></div><div class="ttdef"><b>Definition:</b> <a href="src_2gui_2mrview_2tool_2transform_8h_source.html#l00032">transform.h:33</a></div></div>
+<div class="ttc" id="aclass_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform_html"><div class="ttname"><a href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform.html">MR::GUI::MRView::Tool::Transform</a></div><div class="ttdef"><b>Definition:</b> <a href="src_2gui_2mrview_2tool_2transform_8h_source.html#l00035">transform.h:36</a></div></div>
 <div class="ttc" id="aclass_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform_html_a09e41b196a31ebe15836f14a763ffefd"><div class="ttname"><a href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform.html#a09e41b196a31ebe15836f14a763ffefd">MR::GUI::MRView::Tool::Transform::onActivate</a></div><div class="ttdeci">void onActivate(bool)</div></div>
-<div class="ttc" id="aclass_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform_html_a156a961f6fa3386f95915b56d537a501"><div class="ttname"><a href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform.html#a156a961f6fa3386f95915b56d537a501">MR::GUI::MRView::Tool::Transform::activate_button</a></div><div class="ttdeci">QPushButton * activate_button</div><div class="ttdef"><b>Definition:</b> <a href="src_2gui_2mrview_2tool_2transform_8h_source.html#l00045">transform.h:45</a></div></div>
+<div class="ttc" id="aclass_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform_html_a156a961f6fa3386f95915b56d537a501"><div class="ttname"><a href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform.html#a156a961f6fa3386f95915b56d537a501">MR::GUI::MRView::Tool::Transform::activate_button</a></div><div class="ttdeci">QPushButton * activate_button</div><div class="ttdef"><b>Definition:</b> <a href="src_2gui_2mrview_2tool_2transform_8h_source.html#l00048">transform.h:48</a></div></div>
 <div class="ttc" id="aclass_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform_html_a64d3968fa7a4151b84472f247ef4d97b"><div class="ttname"><a href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform.html#a64d3968fa7a4151b84472f247ef4d97b">MR::GUI::MRView::Tool::Transform::closeEvent</a></div><div class="ttdeci">virtual void closeEvent(QCloseEvent *event) override</div></div>
 <div class="ttc" id="aclass_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform_html_aa079557b49dee19b745400cc0240c0d7"><div class="ttname"><a href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform.html#aa079557b49dee19b745400cc0240c0d7">MR::GUI::MRView::Tool::Transform::showEvent</a></div><div class="ttdeci">virtual void showEvent(QShowEvent *event) override</div></div>
 <div class="ttc" id="aclass_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform_html_aa64a5f1650ec3891e3d254635d314bfe"><div class="ttname"><a href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform.html#aa64a5f1650ec3891e3d254635d314bfe">MR::GUI::MRView::Tool::Transform::setActive</a></div><div class="ttdeci">void setActive(bool onoff)</div></div>
 <div class="ttc" id="aclass_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform_html_ad78a8aed443bd326afa78cc4b57eeff4"><div class="ttname"><a href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_transform.html#ad78a8aed443bd326afa78cc4b57eeff4">MR::GUI::MRView::Tool::Transform::hideEvent</a></div><div class="ttdeci">virtual void hideEvent(QHideEvent *event) override</div></div>
+<div class="ttc" id="aclass_m_r_1_1_transform_html"><div class="ttname"><a href="class_m_r_1_1_transform.html">MR::Transform</a></div><div class="ttdef"><b>Definition:</b> <a href="src_2gui_2mrview_2tool_2transform_8h_source.html#l00024">transform.h:24</a></div></div>
 <div class="ttc" id="anamespace_m_r_html"><div class="ttname"><a href="namespace_m_r.html">MR</a></div><div class="ttdef"><b>Definition:</b> <a href="core_2adapter_2base_8h_source.html#l00023">base.h:24</a></div></div>
 <div class="ttc" id="asrc_2gui_2mrview_2mode_2base_8h_html"><div class="ttname"><a href="src_2gui_2mrview_2mode_2base_8h.html">base.h</a></div></div>
 <div class="ttc" id="asrc_2gui_2mrview_2tool_2base_8h_html"><div class="ttname"><a href="src_2gui_2mrview_2tool_2base_8h.html">base.h</a></div></div>
@@ -173,7 +176,7 @@ $(document).ready(function(){initNavTree('src_2gui_2mrview_2tool_2transform_8h_s
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_99d0482cf009f9d97a0877749b817f19.html">gui</a></li><li class="navelem"><a class="el" href="dir_d1c552c4fd0ff8e8078b00303a982c35.html">mrview</a></li><li class="navelem"><a class="el" href="dir_f9bd14eff820396be5a782f5d73a737a.html">tool</a></li><li class="navelem"><a class="el" href="src_2gui_2mrview_2tool_2transform_8h.html">transform.h</a></li>
-    <li class="footer">Generated on Wed Oct 20 2021 13:48:26 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Thu Oct 21 2021 13:00:25 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

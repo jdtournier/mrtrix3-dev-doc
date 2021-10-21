@@ -18,5 +18,5 @@ var voxel_8h =
     [ "operator<<", "voxel_8h.html#aa334509427a2abffd2b4a56efe728c61", null ],
     [ "operator<<", "voxel_8h.html#adef713e96971958f914043ecc6190a58", null ],
     [ "round", "voxel_8h.html#a3190521f3bff7165b23cf001df8ba83b", null ],
-    [ "vec2DEC", "voxel_8h.html#a01911edbff00378615a26186a4a19ccd", null ]
+    [ "vec2DEC", "voxel_8h.html#aba12a0edb61fab46d1cd37c8e04e9848", null ]
 ];

@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0.0-dirty</div>
+   <div id="projectbrief">Version 3.0.3-23-g193aa0ad</div>
   </td>
  </tr>
  </tbody>
@@ -87,7 +87,7 @@ $(document).ready(function(){initNavTree('csd_8h_source.html',''); initResizable
   <div class="headertitle"><div class="title">csd.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="csd_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/* Copyright (c) 2008-2019 the MRtrix3 contributors.</span></div>
+<a href="csd_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/* Copyright (c) 2008-2021 the MRtrix3 contributors.</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment"> *</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment"> * This Source Code Form is subject to the terms of the Mozilla Public</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment"> * License, v. 2.0. If a copy of the MPL was not distributed with this</span></div>
@@ -161,7 +161,7 @@ $(document).ready(function(){initNavTree('csd_8h_source.html',''); initResizable
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>              <span class="keyword">using namespace </span>App;</div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>              <span class="keyword">auto</span> opt = <a class="code hl_function" href="namespace_m_r_1_1_app.html#a0de6b1128ac7a2d2ce392191d3f61dad">get_options</a> (<span class="stringliteral">&quot;lmax&quot;</span>);</div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>              <span class="keywordflow">if</span> (opt.size()) {</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>                <span class="keyword">auto</span> list = <a class="code hl_function" href="namespace_m_r.html#a988114e152b296bd1749f349fa2dd124">parse_ints</a> (opt[0][0]);</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>                <span class="keyword">auto</span> list = parse_ints&lt;uint32_t&gt; (opt[0][0]);</div>
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>                <span class="keywordflow">if</span> (list.size() != 1)</div>
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>                  <span class="keywordflow">throw</span> <a class="code hl_class" href="class_m_r_1_1_exception.html">Exception</a> (<span class="stringliteral">&quot;CSD algorithm expects a single lmax to be specified&quot;</span>);</div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>                lmax_cmdline = list.front();</div>
@@ -212,7 +212,7 @@ $(document).ready(function(){initNavTree('csd_8h_source.html',''); initResizable
 <div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>              <span class="keywordflow">if</span> (lmax_response &lt;= 0)</div>
 <div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>                <span class="keywordflow">throw</span> <a class="code hl_class" href="class_m_r_1_1_exception.html">Exception</a> (<span class="stringliteral">&quot;response function does not contain anisotropic terms&quot;</span>);</div>
 <div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span> </div>
-<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>              lmax = ( lmax_cmdline ? lmax_cmdline : std::min (lmax_response, <a class="code hl_define" href="csd_8h.html#a5a3bcc543ee739052309f0e564216b25">DEFAULT_CSD_LMAX</a>) );</div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>              lmax = ( lmax_cmdline ? lmax_cmdline : std::min (lmax_response, uint32_t(<a class="code hl_define" href="csd_8h.html#a5a3bcc543ee739052309f0e564216b25">DEFAULT_CSD_LMAX</a>)) );</div>
 <div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span> </div>
 <div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>              <span class="keywordflow">if</span> (lmax &lt;= 0 || lmax % 2)</div>
 <div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>                <span class="keywordflow">throw</span> <a class="code hl_class" href="class_m_r_1_1_exception.html">Exception</a> (<span class="stringliteral">&quot;lmax must be a positive even integer&quot;</span>);</div>
@@ -295,7 +295,7 @@ $(document).ready(function(){initNavTree('csd_8h_source.html',''); initResizable
 <div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span>            Eigen::MatrixXd rconv, HR_trans, M, Mt_M;</div>
 <div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span>            <a class="code hl_typedef" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a> neg_lambda, norm_lambda, threshold;</div>
 <div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span>            <a class="code hl_class" href="class_m_r_1_1vector.html">vector&lt;size_t&gt;</a> dwis;</div>
-<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span>            <span class="keywordtype">int</span> lmax_response, lmax_data, lmax_cmdline, lmax;</div>
+<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span>            uint32_t lmax_response, lmax_data, lmax_cmdline, lmax;</div>
 <div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span>            <span class="keywordtype">size_t</span> niter;</div>
 <div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span>        };</div>
 <div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span> </div>
@@ -423,8 +423,7 @@ $(document).ready(function(){initNavTree('csd_8h_source.html',''); initResizable
 <div class="ttc" id="anamespace_m_r_html"><div class="ttname"><a href="namespace_m_r.html">MR</a></div><div class="ttdef"><b>Definition:</b> <a href="core_2adapter_2base_8h_source.html#l00023">base.h:24</a></div></div>
 <div class="ttc" id="anamespace_m_r_html_a3e84a7a2de70ab82e2fec610444cfcac"><div class="ttname"><a href="namespace_m_r.html#a3e84a7a2de70ab82e2fec610444cfcac">MR::load_matrix</a></div><div class="ttdeci">Eigen::Matrix&lt; ValueType, Eigen::Dynamic, Eigen::Dynamic &gt; load_matrix(const std::string &amp;filename)</div><div class="ttdoc">read matrix data into an Eigen::Matrix filename</div><div class="ttdef"><b>Definition:</b> <a href="math_8h_source.html#l00196">math.h:196</a></div></div>
 <div class="ttc" id="anamespace_m_r_html_a43bad69d4b870a61e1d93cd69b7b1270"><div class="ttname"><a href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">MR::default_type</a></div><div class="ttdeci">double default_type</div><div class="ttdoc">the default type used throughout MRtrix</div><div class="ttdef"><b>Definition:</b> <a href="src_2surface_2types_8h_source.html#l00228">types.h:228</a></div></div>
-<div class="ttc" id="anamespace_m_r_html_a7dcea37fdb5fba1961d121fca36c22c4"><div class="ttname"><a href="namespace_m_r.html#a7dcea37fdb5fba1961d121fca36c22c4">MR::str</a></div><div class="ttdeci">std::string str(const T &amp;value, int precision=0)</div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00205">mrtrix.h:205</a></div></div>
-<div class="ttc" id="anamespace_m_r_html_a988114e152b296bd1749f349fa2dd124"><div class="ttname"><a href="namespace_m_r.html#a988114e152b296bd1749f349fa2dd124">MR::parse_ints</a></div><div class="ttdeci">vector&lt; int &gt; parse_ints(const std::string &amp;spec, int last=std::numeric_limits&lt; int &gt;::max())</div></div>
+<div class="ttc" id="anamespace_m_r_html_a7dcea37fdb5fba1961d121fca36c22c4"><div class="ttname"><a href="namespace_m_r.html#a7dcea37fdb5fba1961d121fca36c22c4">MR::str</a></div><div class="ttdeci">std::string str(const T &amp;value, int precision=0)</div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00247">mrtrix.h:247</a></div></div>
 <div class="ttc" id="anamespace_m_r_html_aab032cc0e22ce81f928d062355743ca4"><div class="ttname"><a href="namespace_m_r.html#aab032cc0e22ce81f928d062355743ca4">MR::load_vector</a></div><div class="ttdeci">Eigen::Matrix&lt; ValueType, Eigen::Dynamic, 1 &gt; load_vector(const std::string &amp;filename)</div><div class="ttdoc">read the vector data from filename</div><div class="ttdef"><b>Definition:</b> <a href="math_8h_source.html#l00327">math.h:327</a></div></div>
 <div class="ttc" id="apredefined_8h_html"><div class="ttname"><a href="predefined_8h.html">predefined.h</a></div></div>
 <div class="ttc" id="asrc_2surface_2types_8h_html_a11d7eae3ab5178ebcf0e62cae9c26cd4"><div class="ttname"><a href="src_2surface_2types_8h.html#a11d7eae3ab5178ebcf0e62cae9c26cd4">MEMALIGN</a></div><div class="ttdeci">#define MEMALIGN(...)</div><div class="ttdef"><b>Definition:</b> <a href="src_2surface_2types_8h_source.html#l00185">types.h:185</a></div></div>
@@ -434,7 +433,7 @@ $(document).ready(function(){initNavTree('csd_8h_source.html',''); initResizable
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_6da8e6f1bfdb5540a85bd819d2a13962.html">dwi</a></li><li class="navelem"><a class="el" href="dir_d4929246ada30bd6abe63c5309b3312d.html">sdeconv</a></li><li class="navelem"><a class="el" href="csd_8h.html">csd.h</a></li>
-    <li class="footer">Generated on Wed Oct 20 2021 13:48:26 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Thu Oct 21 2021 13:00:25 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

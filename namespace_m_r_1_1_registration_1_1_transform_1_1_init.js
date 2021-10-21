@@ -12,7 +12,7 @@ var namespace_m_r_1_1_registration_1_1_transform_1_1_init =
       [ "rot_search", "namespace_m_r_1_1_registration_1_1_transform_1_1_init.html#afa3a967714d843a5733b8bdc70eb5868ae0a7cc2ca89c26ff4bdefaa0b9ca680e", null ],
       [ "none", "namespace_m_r_1_1_registration_1_1_transform_1_1_init.html#afa3a967714d843a5733b8bdc70eb5868acb1336894c619079ef113da38752ff40", null ]
     ] ],
-    [ "get_centre_of_mass", "namespace_m_r_1_1_registration_1_1_transform_1_1_init.html#ad3f3116054dd688483e8e33cea659cdb", null ],
+    [ "get_centre_of_mass", "namespace_m_r_1_1_registration_1_1_transform_1_1_init.html#ab81f80571ca6d3c642584781649cb71f", null ],
     [ "get_geometric_centre", "namespace_m_r_1_1_registration_1_1_transform_1_1_init.html#a9bb9d274f366e2ceef730d42f073a94a", null ],
     [ "get_sorted_eigen_vecs_vals", "namespace_m_r_1_1_registration_1_1_transform_1_1_init.html#a8c48da3b05bce637f984df3a8daf6972", null ],
     [ "initialise_using_FOD", "namespace_m_r_1_1_registration_1_1_transform_1_1_init.html#aeb677f14037b98c1bcf9fca33fa92ceb", null ],

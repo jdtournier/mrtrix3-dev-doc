@@ -10,7 +10,7 @@ var class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter =
     [ "output_selection", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html#a45ba974e343d674eebe397d1443818c9", null ],
     [ "perform_filtering", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html#ad7f22e1958aa51cd45358e3b667ecc48", null ],
     [ "set_csv_path", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html#af5fdceeb09d560021c2dbc57affd9d05", null ],
-    [ "set_regular_outputs", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html#a5f859e8120bdc026bce7b4bbd2481023", null ],
+    [ "set_regular_outputs", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html#a3a35b4e45222cec5c7e6b6e7ba2ca1eb", null ],
     [ "set_term_mu", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html#aedcf0ee66a2ed0e50802f46f5ea18ec8", null ],
     [ "set_term_number", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html#aaa4967e27a6f52d756792250cc0a8f2e", null ],
     [ "set_term_ratio", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html#a07a29a5468c4d25839ed88aca327a19e", null ],

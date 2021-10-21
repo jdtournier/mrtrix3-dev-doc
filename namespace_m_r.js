@@ -4,9 +4,9 @@ var namespace_m_r =
     [ "Algo", "namespace_m_r_1_1_algo.html", "namespace_m_r_1_1_algo" ],
     [ "App", "namespace_m_r_1_1_app.html", "namespace_m_r_1_1_app" ],
     [ "Axes", "namespace_m_r_1_1_axes.html", [
-      [ "dir2id", "namespace_m_r_1_1_axes.html#a0959908c92aef4dd9d67f3310130fa61", null ],
+      [ "dir2id", "namespace_m_r_1_1_axes.html#a7871251497ad5a2f0c17bb70a6e1d6b1", null ],
       [ "get_permutation_to_make_axial", "namespace_m_r_1_1_axes.html#a14c734ff26d359f33a2602f5c24e91dc", null ],
-      [ "id2dir", "namespace_m_r_1_1_axes.html#a2627a77e58548e742fa183010fd8d8f6", null ]
+      [ "id2dir", "namespace_m_r_1_1_axes.html#ad6aa74614f41d07acfe7a261a97d8845", null ]
     ] ],
     [ "ByteOrder", "namespace_m_r_1_1_byte_order.html", [
       [ "BE", "namespace_m_r_1_1_byte_order.html#a0e47ec66ab5d35bdc8a59e71d3ed09f6", null ],
@@ -35,19 +35,21 @@ var namespace_m_r =
       [ "check", "namespace_m_r_1_1_peaks.html#a58e93a87dd572e6758d4d938b4f2ae84", null ]
     ] ],
     [ "PhaseEncoding", "namespace_m_r_1_1_phase_encoding.html", [
-      [ "check", "namespace_m_r_1_1_phase_encoding.html#a2c143a3497e71b06ddaedc72b30886b6", null ],
       [ "check", "namespace_m_r_1_1_phase_encoding.html#aedac5d461f9a8dce66e18a54a7f26f40", null ],
+      [ "check", "namespace_m_r_1_1_phase_encoding.html#ab5ad111865add818c27d34509fcb9210", null ],
       [ "clear_scheme", "namespace_m_r_1_1_phase_encoding.html#a910d1722d7e7c8fb0f81e16ca592388d", null ],
       [ "eddy2scheme", "namespace_m_r_1_1_phase_encoding.html#ac8b6038e84ed8255766e5c42e98ccfa3", null ],
       [ "export_commandline", "namespace_m_r_1_1_phase_encoding.html#a9016b408c3204b1af51f2f916baacb71", null ],
       [ "get_scheme", "namespace_m_r_1_1_phase_encoding.html#a44f3129b91953a56c9a828142da00c58", null ],
-      [ "load", "namespace_m_r_1_1_phase_encoding.html#ad1264fcd2afdc9ad09e8bb53a9b9927f", null ],
-      [ "load_eddy", "namespace_m_r_1_1_phase_encoding.html#abb0cb6a58ca4527701c6c4ab4d292d24", null ],
+      [ "load", "namespace_m_r_1_1_phase_encoding.html#aba20779e4b6bd3ea4d381fa41c2e09e8", null ],
+      [ "load_eddy", "namespace_m_r_1_1_phase_encoding.html#adcb56327527cf3e83c124e1b6195a903", null ],
       [ "parse_scheme", "namespace_m_r_1_1_phase_encoding.html#a1296e1eb69266aacd8509680c2e9ddc9", null ],
-      [ "save", "namespace_m_r_1_1_phase_encoding.html#aed9dc8d78b533d1868299729ee60c5b8", null ],
-      [ "save_eddy", "namespace_m_r_1_1_phase_encoding.html#ad56e5f0cec31a928fe6abf57cde47c7c", null ],
+      [ "save", "namespace_m_r_1_1_phase_encoding.html#a0b1c60f9c77dfa15000a58f16efe6d91", null ],
+      [ "save_eddy", "namespace_m_r_1_1_phase_encoding.html#a05032f0acfbddfcc6133df407483f765", null ],
       [ "scheme2eddy", "namespace_m_r_1_1_phase_encoding.html#a2ae52eaa8f875533f3bd23d7e71bc9ce", null ],
       [ "set_scheme", "namespace_m_r_1_1_phase_encoding.html#afcc94a66e37aec4e3cc4ddb410d0286f", null ],
+      [ "transform_for_image_load", "namespace_m_r_1_1_phase_encoding.html#abcc6a56198bb0f826b4988aa991fdf7c", null ],
+      [ "transform_for_nifti_write", "namespace_m_r_1_1_phase_encoding.html#a82f419c9e210e268e3a4eb6db8c2e854", null ],
       [ "ExportOptions", "namespace_m_r_1_1_phase_encoding.html#a6e86aa1d4b2fb389b4c9f5e5a64524bc", null ],
       [ "ImportOptions", "namespace_m_r_1_1_phase_encoding.html#a9116894f2658423be0a03e8466548436", null ],
       [ "SelectOptions", "namespace_m_r_1_1_phase_encoding.html#afa879ccd4d573a30b6101b403d8c8d5a", null ]
@@ -72,9 +74,11 @@ var namespace_m_r =
     ] ],
     [ "Registration", "namespace_m_r_1_1_registration.html", "namespace_m_r_1_1_registration" ],
     [ "SignalHandler", "namespace_m_r_1_1_signal_handler.html", [
+      [ "cleanup_function_type", "namespace_m_r_1_1_signal_handler.html#ac2231fcf86262a55639efabb64956b45", null ],
       [ "init", "namespace_m_r_1_1_signal_handler.html#a1f3609dfd0b91eac6464d1899dc6367a", null ],
-      [ "mark_file_for_deletion", "namespace_m_r_1_1_signal_handler.html#a20f665a55420163caaeaaa0f00c60fe2", null ],
-      [ "unmark_file_for_deletion", "namespace_m_r_1_1_signal_handler.html#a97371958ec8c1d303c4d4f79cbd8795c", null ]
+      [ "mark_file_for_deletion", "namespace_m_r_1_1_signal_handler.html#af7312962ec58c796a7121603cbc26c80", null ],
+      [ "on_signal", "namespace_m_r_1_1_signal_handler.html#a1fc9052207fe180cd65ac909723123e2", null ],
+      [ "unmark_file_for_deletion", "namespace_m_r_1_1_signal_handler.html#a5b898c2fdec26ec9acd7b16ce4d8df8d", null ]
     ] ],
     [ "Stats", "namespace_m_r_1_1_stats.html", "namespace_m_r_1_1_stats" ],
     [ "Stride", "namespace_m_r_1_1_stride.html", [
@@ -167,6 +171,7 @@ var namespace_m_r =
     [ "abs", "namespace_m_r.html#ae343cc1a9282982ab47ea1c8ed4f9e76", null ],
     [ "add_line", "namespace_m_r.html#afc7aeb46632c4118c51cf643bd698d14", null ],
     [ "apply", "namespace_m_r.html#a15480a6dbbc2093c734f8493abb1af5c", null ],
+    [ "char_is_dash", "namespace_m_r.html#a8e75940652b457a97d2af800a8521709", null ],
     [ "check_app_exit_code", "namespace_m_r.html#adaecfed50c0051042f67bab7986d17e5", null ],
     [ "check_headers", "namespace_m_r.html#ac099defb422d96a74a405112037eb63b", null ],
     [ "check_images_abs", "namespace_m_r.html#acd906291d355958be565537a869348b2", null ],
@@ -180,6 +185,7 @@ var namespace_m_r =
     [ "compute_minimum_average_header", "namespace_m_r.html#a5fadd59ba502c089cdf4b64ef3f95c7d", null ],
     [ "compute_minimum_average_header", "namespace_m_r.html#ac8bc0f5de5e344ba4a9166ddbb0abeda", null ],
     [ "concatenate", "namespace_m_r.html#a04507f1fea2a63699d97588710174e55", null ],
+    [ "consume_dash", "namespace_m_r.html#a3af456658d69a887ab7b671a3e70ff6b", null ],
     [ "copy", "namespace_m_r.html#ab40acd6056af28c4a36450a0ebe8b916", null ],
     [ "copy_with_progress", "namespace_m_r.html#a115df39b25393feaac7d19814809e31d", null ],
     [ "copy_with_progress_message", "namespace_m_r.html#ad5789c69fa339ecce281f4cb0b42c37c", null ],
@@ -190,6 +196,7 @@ var namespace_m_r =
     [ "getline", "namespace_m_r.html#a5c420ad65f32fcea44d2d02c78899c03", null ],
     [ "headers_match", "namespace_m_r.html#a766cac11cb380726bce3bd75985be51a", null ],
     [ "images_match_abs", "namespace_m_r.html#a0dd08c18e24937d29a9bf407d5058e49", null ],
+    [ "is_dash", "namespace_m_r.html#ae141cd9c3ac7de9296471cd12f92764b", null ],
     [ "is_finite", "group__elfun.html#gadf6f80070282eaae4cd7bdf36182e9df", null ],
     [ "is_nan", "group__elfun.html#ga5de5c24270862b37e4e62ea94a962c9d", null ],
     [ "join", "namespace_m_r.html#aae0536aa0338b1a8ec230ef6666ae4c8", null ],
@@ -219,7 +226,7 @@ var namespace_m_r =
     [ "min_max", "namespace_m_r.html#aec713c2db36ecab69bc032c2ad0ce5a8", null ],
     [ "min_max", "namespace_m_r.html#af3e19a242b57db951549f0f90d93a789", null ],
     [ "parse_floats", "namespace_m_r.html#a439319adcbcb16a7b275a81bc77980b3", null ],
-    [ "parse_ints", "namespace_m_r.html#a988114e152b296bd1749f349fa2dd124", null ],
+    [ "parse_ints", "namespace_m_r.html#a9e4d01cca898c98f32ad7724febc78e3", null ],
     [ "parse_matrix", "namespace_m_r.html#ad9854575751ffb29df79628dbe49394d", null ],
     [ "printf", "namespace_m_r.html#abdf39e7ac1a9bf50af2a20eb69b0bb89", null ],
     [ "RandomThreadedLoop", "namespace_m_r.html#af115b0d065ca0d63a634f4a105dd9725", null ],

@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0.0-dirty</div>
+   <div id="projectbrief">Version 3.0.3-23-g193aa0ad</div>
   </td>
  </tr>
  </tbody>
@@ -159,12 +159,17 @@ Functions</h2></td></tr>
 <tr class="separator:ac80d780b99ec49bab99408d0c9771890"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab30e94ce86d9a12c5787d2bb42043649"><td class="memItemLeft" align="right" valign="top">vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#ab30e94ce86d9a12c5787d2bb42043649">MR::split_lines</a> (const std::string &amp;string, bool ignore_empty_fields=true, size_t <a class="el" href="thread_8h.html#a140d449f4eaaa9afc56f07abb4922597">num</a>=std::numeric_limits&lt; size_t &gt;::max())</td></tr>
 <tr class="separator:ab30e94ce86d9a12c5787d2bb42043649"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a439319adcbcb16a7b275a81bc77980b3"><td class="memItemLeft" align="right" valign="top">vector&lt; default_type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a439319adcbcb16a7b275a81bc77980b3">MR::parse_floats</a> (const std::string &amp;spec)</td></tr>
-<tr class="separator:a439319adcbcb16a7b275a81bc77980b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a988114e152b296bd1749f349fa2dd124"><td class="memItemLeft" align="right" valign="top">vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a988114e152b296bd1749f349fa2dd124">MR::parse_ints</a> (const std::string &amp;spec, int last=std::numeric_limits&lt; int &gt;::max())</td></tr>
-<tr class="separator:a988114e152b296bd1749f349fa2dd124"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6819d5032fcbb470b911e336d061287a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a6819d5032fcbb470b911e336d061287a">MR::match</a> (const std::string &amp;pattern, const std::string &amp;text, bool ignore_case=false)</td></tr>
 <tr class="separator:a6819d5032fcbb470b911e336d061287a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e75940652b457a97d2af800a8521709"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a8e75940652b457a97d2af800a8521709">MR::char_is_dash</a> (const char *arg)</td></tr>
+<tr class="memdesc:a8e75940652b457a97d2af800a8521709"><td class="mdescLeft">&#160;</td><td class="mdescRight">match a dash or any Unicode character that looks like one  <a href="namespace_m_r.html#a8e75940652b457a97d2af800a8521709">More...</a><br /></td></tr>
+<tr class="separator:a8e75940652b457a97d2af800a8521709"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae141cd9c3ac7de9296471cd12f92764b"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#ae141cd9c3ac7de9296471cd12f92764b">MR::is_dash</a> (const std::string &amp;arg)</td></tr>
+<tr class="memdesc:ae141cd9c3ac7de9296471cd12f92764b"><td class="mdescLeft">&#160;</td><td class="mdescRight">match whole string to a dash or any Unicode character that looks like one  <a href="namespace_m_r.html#ae141cd9c3ac7de9296471cd12f92764b">More...</a><br /></td></tr>
+<tr class="separator:ae141cd9c3ac7de9296471cd12f92764b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3af456658d69a887ab7b671a3e70ff6b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a3af456658d69a887ab7b671a3e70ff6b">MR::consume_dash</a> (const char *&amp;arg)</td></tr>
+<tr class="memdesc:a3af456658d69a887ab7b671a3e70ff6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">match current character to a dash or any Unicode character that looks like one  <a href="namespace_m_r.html#a3af456658d69a887ab7b671a3e70ff6b">More...</a><br /></td></tr>
+<tr class="separator:a3af456658d69a887ab7b671a3e70ff6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7dcea37fdb5fba1961d121fca36c22c4"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a7dcea37fdb5fba1961d121fca36c22c4"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a7dcea37fdb5fba1961d121fca36c22c4">MR::str</a> (const T &amp;value, int precision=0)</td></tr>
 <tr class="separator:a7dcea37fdb5fba1961d121fca36c22c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -186,6 +191,11 @@ Functions</h2></td></tr>
 <tr class="memitem:a3110479a6319030fd248dfcc3b277da6"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
 <tr class="memitem:a3110479a6319030fd248dfcc3b277da6"><td class="memTemplItemLeft" align="right" valign="top">cdouble&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a3110479a6319030fd248dfcc3b277da6">MR::to&lt; cdouble &gt;</a> (const std::string &amp;string)</td></tr>
 <tr class="separator:a3110479a6319030fd248dfcc3b277da6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a439319adcbcb16a7b275a81bc77980b3"><td class="memItemLeft" align="right" valign="top">vector&lt; default_type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a439319adcbcb16a7b275a81bc77980b3">MR::parse_floats</a> (const std::string &amp;spec)</td></tr>
+<tr class="separator:a439319adcbcb16a7b275a81bc77980b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e4d01cca898c98f32ad7724febc78e3"><td class="memTemplParams" colspan="2">template&lt;typename IntType &gt; </td></tr>
+<tr class="memitem:a9e4d01cca898c98f32ad7724febc78e3"><td class="memTemplItemLeft" align="right" valign="top">vector&lt; IntType &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a9e4d01cca898c98f32ad7724febc78e3">MR::parse_ints</a> (const std::string &amp;spec, const IntType last=std::numeric_limits&lt; IntType &gt;::max())</td></tr>
+<tr class="separator:a9e4d01cca898c98f32ad7724febc78e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a506fc895e0a464c01cb1b41f52a60b6e"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a506fc895e0a464c01cb1b41f52a60b6e">MR::join</a> (const vector&lt; std::string &gt; &amp;V, const std::string &amp;delimiter)</td></tr>
 <tr class="separator:a506fc895e0a464c01cb1b41f52a60b6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8607b8b09505f9a758b752358cd7930d"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
@@ -200,7 +210,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4270bfced15e0e73154b13468c7c9ad9.html">core</a></li><li class="navelem"><a class="el" href="mrtrix_8h.html">mrtrix.h</a></li>
-    <li class="footer">Generated on Wed Oct 20 2021 13:48:27 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Thu Oct 21 2021 13:00:26 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

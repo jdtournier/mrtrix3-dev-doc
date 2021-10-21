@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0.0-dirty</div>
+   <div id="projectbrief">Version 3.0.3-23-g193aa0ad</div>
   </td>
  </tr>
  </tbody>
@@ -166,7 +166,7 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_m_r_1_1container__cast.html">container_cast</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1container__value__type.html">container_value_type</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the underlying scalar value type for both std:: containers and <a class="el" href="namespace_eigen.html">Eigen</a>.  <a href="class_m_r_1_1container__value__type.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the underlying scalar value type for both std:: containers and Eigen.  <a href="class_m_r_1_1container__value__type.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1container__value__type_3_01_cont_00_01typename_01std_1_1enable__if_3_01is__eigen__t692f11ad51e37a7c24062a6b07049f0b.html">container_value_type&lt; Cont, typename std::enable_if&lt; is_eigen_type&lt; Cont &gt;::value, int &gt;::type &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -200,7 +200,7 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">check whether type is compatible with MRtrix3's file IO backend:  <a href="struct_m_r_1_1is__data__type.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1is__eigen__type.html">is_eigen_type</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">convenience functions for SFINAE on std:: / <a class="el" href="namespace_eigen.html">Eigen</a> containers  <a href="class_m_r_1_1is__eigen__type.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">convenience functions for SFINAE on std:: / Eigen containers  <a href="class_m_r_1_1is__eigen__type.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_iterator.html">Iterator</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">a dummy image to iterate over, useful for multi-threaded looping.  <a href="class_m_r_1_1_iterator.html#details">More...</a><br /></td></tr>
@@ -482,11 +482,11 @@ Functions</h2></td></tr>
 <tr class="separator:a5fadd59ba502c089cdf4b64ef3f95c7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gadf6f80070282eaae4cd7bdf36182e9df"><td class="memTemplParams" colspan="2">template&lt;typename Derived &gt; </td></tr>
 <tr class="memitem:gadf6f80070282eaae4cd7bdf36182e9df"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__elfun.html#gadf6f80070282eaae4cd7bdf36182e9df">is_finite</a> (const Eigen::MatrixBase&lt; Derived &gt; &amp;x)</td></tr>
-<tr class="memdesc:gadf6f80070282eaae4cd7bdf36182e9df"><td class="mdescLeft">&#160;</td><td class="mdescRight">check if all elements of an <a class="el" href="namespace_eigen.html">Eigen</a> MatrixBase object are finite  <a href="group__elfun.html#gadf6f80070282eaae4cd7bdf36182e9df">More...</a><br /></td></tr>
+<tr class="memdesc:gadf6f80070282eaae4cd7bdf36182e9df"><td class="mdescLeft">&#160;</td><td class="mdescRight">check if all elements of an Eigen MatrixBase object are finite  <a href="group__elfun.html#gadf6f80070282eaae4cd7bdf36182e9df">More...</a><br /></td></tr>
 <tr class="separator:gadf6f80070282eaae4cd7bdf36182e9df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga5de5c24270862b37e4e62ea94a962c9d"><td class="memTemplParams" colspan="2">template&lt;typename Derived &gt; </td></tr>
 <tr class="memitem:ga5de5c24270862b37e4e62ea94a962c9d"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__elfun.html#ga5de5c24270862b37e4e62ea94a962c9d">is_nan</a> (const Eigen::MatrixBase&lt; Derived &gt; &amp;x)</td></tr>
-<tr class="memdesc:ga5de5c24270862b37e4e62ea94a962c9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">check if all elements of an <a class="el" href="namespace_eigen.html">Eigen</a> MatrixBase object are a number  <a href="group__elfun.html#ga5de5c24270862b37e4e62ea94a962c9d">More...</a><br /></td></tr>
+<tr class="memdesc:ga5de5c24270862b37e4e62ea94a962c9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">check if all elements of an Eigen MatrixBase object are a number  <a href="group__elfun.html#ga5de5c24270862b37e4e62ea94a962c9d">More...</a><br /></td></tr>
 <tr class="separator:ga5de5c24270862b37e4e62ea94a962c9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae49a93cb8c5d162b2c14fa065a3c8c6f"><td class="memTemplParams" colspan="2">template&lt;class MatrixType &gt; </td></tr>
 <tr class="memitem:ae49a93cb8c5d162b2c14fa065a3c8c6f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#ae49a93cb8c5d162b2c14fa065a3c8c6f">save_matrix</a> (const MatrixType &amp;M, const std::string &amp;filename, const <a class="el" href="namespace_m_r.html#a01bcb4e131953115cf3b1ca2cfd38f80">KeyValues</a> &amp;keyvals=<a class="el" href="namespace_m_r.html#a01bcb4e131953115cf3b1ca2cfd38f80">KeyValues</a>(), const bool add_to_command_history=true)</td></tr>
@@ -554,12 +554,17 @@ Functions</h2></td></tr>
 <tr class="separator:ac80d780b99ec49bab99408d0c9771890"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab30e94ce86d9a12c5787d2bb42043649"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_r_1_1vector.html">vector</a>&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#ab30e94ce86d9a12c5787d2bb42043649">split_lines</a> (const std::string &amp;string, bool ignore_empty_fields=true, size_t <a class="el" href="thread_8h.html#a140d449f4eaaa9afc56f07abb4922597">num</a>=std::numeric_limits&lt; size_t &gt;::max())</td></tr>
 <tr class="separator:ab30e94ce86d9a12c5787d2bb42043649"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a439319adcbcb16a7b275a81bc77980b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_r_1_1vector.html">vector</a>&lt; <a class="el" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a439319adcbcb16a7b275a81bc77980b3">parse_floats</a> (const std::string &amp;spec)</td></tr>
-<tr class="separator:a439319adcbcb16a7b275a81bc77980b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a988114e152b296bd1749f349fa2dd124"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_r_1_1vector.html">vector</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a988114e152b296bd1749f349fa2dd124">parse_ints</a> (const std::string &amp;spec, int last=std::numeric_limits&lt; int &gt;::max())</td></tr>
-<tr class="separator:a988114e152b296bd1749f349fa2dd124"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6819d5032fcbb470b911e336d061287a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a6819d5032fcbb470b911e336d061287a">match</a> (const std::string &amp;pattern, const std::string &amp;text, bool ignore_case=false)</td></tr>
 <tr class="separator:a6819d5032fcbb470b911e336d061287a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e75940652b457a97d2af800a8521709"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a8e75940652b457a97d2af800a8521709">char_is_dash</a> (const char *arg)</td></tr>
+<tr class="memdesc:a8e75940652b457a97d2af800a8521709"><td class="mdescLeft">&#160;</td><td class="mdescRight">match a dash or any Unicode character that looks like one  <a href="namespace_m_r.html#a8e75940652b457a97d2af800a8521709">More...</a><br /></td></tr>
+<tr class="separator:a8e75940652b457a97d2af800a8521709"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae141cd9c3ac7de9296471cd12f92764b"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#ae141cd9c3ac7de9296471cd12f92764b">is_dash</a> (const std::string &amp;arg)</td></tr>
+<tr class="memdesc:ae141cd9c3ac7de9296471cd12f92764b"><td class="mdescLeft">&#160;</td><td class="mdescRight">match whole string to a dash or any Unicode character that looks like one  <a href="namespace_m_r.html#ae141cd9c3ac7de9296471cd12f92764b">More...</a><br /></td></tr>
+<tr class="separator:ae141cd9c3ac7de9296471cd12f92764b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3af456658d69a887ab7b671a3e70ff6b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a3af456658d69a887ab7b671a3e70ff6b">consume_dash</a> (const char *&amp;arg)</td></tr>
+<tr class="memdesc:a3af456658d69a887ab7b671a3e70ff6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">match current character to a dash or any Unicode character that looks like one  <a href="namespace_m_r.html#a3af456658d69a887ab7b671a3e70ff6b">More...</a><br /></td></tr>
+<tr class="separator:a3af456658d69a887ab7b671a3e70ff6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7dcea37fdb5fba1961d121fca36c22c4"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a7dcea37fdb5fba1961d121fca36c22c4"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a7dcea37fdb5fba1961d121fca36c22c4">str</a> (const T &amp;value, int precision=0)</td></tr>
 <tr class="separator:a7dcea37fdb5fba1961d121fca36c22c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -581,6 +586,11 @@ Functions</h2></td></tr>
 <tr class="memitem:a3110479a6319030fd248dfcc3b277da6"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
 <tr class="memitem:a3110479a6319030fd248dfcc3b277da6"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespace_m_r.html#a2715900485a01c915556cb5ca99f3c59">cdouble</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a3110479a6319030fd248dfcc3b277da6">to&lt; cdouble &gt;</a> (const std::string &amp;string)</td></tr>
 <tr class="separator:a3110479a6319030fd248dfcc3b277da6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a439319adcbcb16a7b275a81bc77980b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_r_1_1vector.html">vector</a>&lt; <a class="el" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a439319adcbcb16a7b275a81bc77980b3">parse_floats</a> (const std::string &amp;spec)</td></tr>
+<tr class="separator:a439319adcbcb16a7b275a81bc77980b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e4d01cca898c98f32ad7724febc78e3"><td class="memTemplParams" colspan="2">template&lt;typename IntType &gt; </td></tr>
+<tr class="memitem:a9e4d01cca898c98f32ad7724febc78e3"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_m_r_1_1vector.html">vector</a>&lt; IntType &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a9e4d01cca898c98f32ad7724febc78e3">parse_ints</a> (const std::string &amp;spec, const IntType last=std::numeric_limits&lt; IntType &gt;::max())</td></tr>
+<tr class="separator:a9e4d01cca898c98f32ad7724febc78e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a506fc895e0a464c01cb1b41f52a60b6e"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r.html#a506fc895e0a464c01cb1b41f52a60b6e">join</a> (const <a class="el" href="class_m_r_1_1vector.html">vector</a>&lt; std::string &gt; &amp;V, const std::string &amp;delimiter)</td></tr>
 <tr class="separator:a506fc895e0a464c01cb1b41f52a60b6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8607b8b09505f9a758b752358cd7930d"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
@@ -953,6 +963,37 @@ template&lt;class F , class T &gt; </div>
 <p>invoke <code>f(x)</code> for each entry in <code>t</code> </p>
 
 <p class="definition">Definition at line <a class="el" href="apply_8h_source.html#l00082">82</a> of file <a class="el" href="apply_8h_source.html">apply.h</a>.</p>
+
+</div>
+</div>
+<a id="a8e75940652b457a97d2af800a8521709" name="a8e75940652b457a97d2af800a8521709"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e75940652b457a97d2af800a8521709">&#9670;&nbsp;</a></span>char_is_dash()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t MR::char_is_dash </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>arg</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>match a dash or any Unicode character that looks like one </p>
+<dl class="section note"><dt>Note</dt><dd>This returns the number of bytes taken up by the matched UTF8 character, zero if no match. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="mrtrix_8h_source.html#l00205">205</a> of file <a class="el" href="mrtrix_8h_source.html">mrtrix.h</a>.</p>
 
 </div>
 </div>
@@ -1443,6 +1484,37 @@ template&lt;class ImageType1 , class ImageType2 &gt; </div>
 
 </div>
 </div>
+<a id="a3af456658d69a887ab7b671a3e70ff6b" name="a3af456658d69a887ab7b671a3e70ff6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3af456658d69a887ab7b671a3e70ff6b">&#9670;&nbsp;</a></span>consume_dash()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::consume_dash </td>
+          <td>(</td>
+          <td class="paramtype">const char *&amp;&#160;</td>
+          <td class="paramname"><em>arg</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>match current character to a dash or any Unicode character that looks like one </p>
+<dl class="section note"><dt>Note</dt><dd>If a match is found, this also advances the <em>arg</em> pointer to the next character in the string, which could be one or several bytes along depending on the width of the UTF8 character identified. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="mrtrix_8h_source.html#l00236">236</a> of file <a class="el" href="mrtrix_8h_source.html">mrtrix.h</a>.</p>
+
+</div>
+</div>
 <a id="ab40acd6056af28c4a36450a0ebe8b916" name="ab40acd6056af28c4a36450a0ebe8b916"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab40acd6056af28c4a36450a0ebe8b916">&#9670;&nbsp;</a></span>copy()</h2>
 
@@ -1758,7 +1830,7 @@ template&lt;class HeaderType1 , class HeaderType2 &gt; </div>
 
 <p>check image headers are the same (dimensions, spacing &amp; transform) </p>
 
-<p class="definition">Definition at line <a class="el" href="image__diff_8h_source.html#l00146">146</a> of file <a class="el" href="image__diff_8h_source.html">image_diff.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="image__diff_8h_source.html#l00158">158</a> of file <a class="el" href="image__diff_8h_source.html">image_diff.h</a>.</p>
 
 </div>
 </div>
@@ -1806,7 +1878,37 @@ template&lt;class ImageType1 , class ImageType2 &gt; </div>
 
 <p>check images are the same within a absolute tolerance </p>
 
-<p class="definition">Definition at line <a class="el" href="image__diff_8h_source.html#l00160">160</a> of file <a class="el" href="image__diff_8h_source.html">image_diff.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="image__diff_8h_source.html#l00172">172</a> of file <a class="el" href="image__diff_8h_source.html">image_diff.h</a>.</p>
+
+</div>
+</div>
+<a id="ae141cd9c3ac7de9296471cd12f92764b" name="ae141cd9c3ac7de9296471cd12f92764b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae141cd9c3ac7de9296471cd12f92764b">&#9670;&nbsp;</a></span>is_dash()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t MR::is_dash </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>arg</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>match whole string to a dash or any Unicode character that looks like one </p>
+
+<p class="definition">Definition at line <a class="el" href="mrtrix_8h_source.html#l00225">225</a> of file <a class="el" href="mrtrix_8h_source.html">mrtrix.h</a>.</p>
 
 </div>
 </div>
@@ -1844,7 +1946,7 @@ template&lt;class ImageType1 , class ImageType2 &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mrtrix_8h_source.html#l00399">399</a> of file <a class="el" href="mrtrix_8h_source.html">mrtrix.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mrtrix_8h_source.html#l00521">521</a> of file <a class="el" href="mrtrix_8h_source.html">mrtrix.h</a>.</p>
 
 </div>
 </div>
@@ -1882,7 +1984,7 @@ template&lt;class ImageType1 , class ImageType2 &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mrtrix_8h_source.html#l00376">376</a> of file <a class="el" href="mrtrix_8h_source.html">mrtrix.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mrtrix_8h_source.html#l00498">498</a> of file <a class="el" href="mrtrix_8h_source.html">mrtrix.h</a>.</p>
 
 </div>
 </div>
@@ -1922,7 +2024,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mrtrix_8h_source.html#l00388">388</a> of file <a class="el" href="mrtrix_8h_source.html">mrtrix.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mrtrix_8h_source.html#l00510">510</a> of file <a class="el" href="mrtrix_8h_source.html">mrtrix.h</a>.</p>
 
 </div>
 </div>
@@ -2342,14 +2444,16 @@ template&lt;class ImageType &gt; </div>
 
 </div>
 </div>
-<a id="a988114e152b296bd1749f349fa2dd124" name="a988114e152b296bd1749f349fa2dd124"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a988114e152b296bd1749f349fa2dd124">&#9670;&nbsp;</a></span>parse_ints()</h2>
+<a id="a9e4d01cca898c98f32ad7724febc78e3" name="a9e4d01cca898c98f32ad7724febc78e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e4d01cca898c98f32ad7724febc78e3">&#9670;&nbsp;</a></span>parse_ints()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename IntType &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_m_r_1_1vector.html">vector</a>&lt; int &gt; MR::parse_ints </td>
+          <td class="memname"><a class="el" href="class_m_r_1_1vector.html">vector</a>&lt; IntType &gt; MR::parse_ints </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>spec</em>, </td>
@@ -2357,8 +2461,8 @@ template&lt;class ImageType &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>last</em> = <code>std::numeric_limits&lt;&#160;int&#160;&gt;::max()</code>&#160;</td>
+          <td class="paramtype">const IntType&#160;</td>
+          <td class="paramname"><em>last</em> = <code>std::numeric_limits&lt;IntType&gt;::max()</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -2367,6 +2471,8 @@ template&lt;class ImageType &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="mrtrix_8h_source.html#l00422">422</a> of file <a class="el" href="mrtrix_8h_source.html">mrtrix.h</a>.</p>
 
 </div>
 </div>
@@ -3580,7 +3686,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mrtrix_8h_source.html#l00205">205</a> of file <a class="el" href="mrtrix_8h_source.html">mrtrix.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mrtrix_8h_source.html#l00247">247</a> of file <a class="el" href="mrtrix_8h_source.html">mrtrix.h</a>.</p>
 
 </div>
 </div>
@@ -3620,7 +3726,7 @@ template&lt;&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mrtrix_8h_source.html#l00311">311</a> of file <a class="el" href="mrtrix_8h_source.html">mrtrix.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mrtrix_8h_source.html#l00353">353</a> of file <a class="el" href="mrtrix_8h_source.html">mrtrix.h</a>.</p>
 
 </div>
 </div>
@@ -3660,7 +3766,7 @@ template&lt;&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mrtrix_8h_source.html#l00253">253</a> of file <a class="el" href="mrtrix_8h_source.html">mrtrix.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mrtrix_8h_source.html#l00295">295</a> of file <a class="el" href="mrtrix_8h_source.html">mrtrix.h</a>.</p>
 
 </div>
 </div>
@@ -4400,7 +4506,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mrtrix_8h_source.html#l00218">218</a> of file <a class="el" href="mrtrix_8h_source.html">mrtrix.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mrtrix_8h_source.html#l00260">260</a> of file <a class="el" href="mrtrix_8h_source.html">mrtrix.h</a>.</p>
 
 </div>
 </div>
@@ -4430,7 +4536,7 @@ template&lt;&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mrtrix_8h_source.html#l00243">243</a> of file <a class="el" href="mrtrix_8h_source.html">mrtrix.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mrtrix_8h_source.html#l00285">285</a> of file <a class="el" href="mrtrix_8h_source.html">mrtrix.h</a>.</p>
 
 </div>
 </div>
@@ -4460,7 +4566,7 @@ template&lt;&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mrtrix_8h_source.html#l00324">324</a> of file <a class="el" href="mrtrix_8h_source.html">mrtrix.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mrtrix_8h_source.html#l00366">366</a> of file <a class="el" href="mrtrix_8h_source.html">mrtrix.h</a>.</p>
 
 </div>
 </div>
@@ -4490,7 +4596,7 @@ template&lt;&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="mrtrix_8h_source.html#l00266">266</a> of file <a class="el" href="mrtrix_8h_source.html">mrtrix.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mrtrix_8h_source.html#l00308">308</a> of file <a class="el" href="mrtrix_8h_source.html">mrtrix.h</a>.</p>
 
 </div>
 </div>
@@ -4770,7 +4876,7 @@ template&lt;typename F , typename T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li>
-    <li class="footer">Generated on Wed Oct 20 2021 13:48:27 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Thu Oct 21 2021 13:00:26 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

@@ -378,6 +378,9 @@ var hierarchy =
     ] ],
     [ "MR::DWI::FMLS::IntegrationWeights", "class_m_r_1_1_d_w_i_1_1_f_m_l_s_1_1_integration_weights.html", null ],
     [ "MR::DWI::Tractography::Tracking::Interpolator< ImageType >", "class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_interpolator.html", null ],
+    [ "InterpType", null, [
+      [ "MR::Interp::Masked< InterpType >", "class_m_r_1_1_interp_1_1_masked.html", null ]
+    ] ],
     [ "MR::GUI::MRView::Tool::BaseFixel::IntPointHasher", "struct_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_fixel_1_1_int_point_hasher.html", null ],
     [ "MR::is_eigen_type< Cont >", "class_m_r_1_1is__eigen__type.html", null ],
     [ "MR::File::NameParser::Item", "class_m_r_1_1_file_1_1_name_parser_1_1_item.html", null ],

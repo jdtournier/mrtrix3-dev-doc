@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0.0-dirty</div>
+   <div id="projectbrief">Version 3.0.3-23-g193aa0ad</div>
   </td>
  </tr>
  </tbody>
@@ -95,6 +95,7 @@ $(document).ready(function(){initNavTree('phase__encoding_8h.html',''); initResi
 <code>#include &quot;<a class="el" href="app_8h_source.html">app.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="axes_8h_source.html">axes.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="header_8h_source.html">header.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="nifti__utils_8h_source.html">file/nifti_utils.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="ofstream_8h_source.html">file/ofstream.h</a>&quot;</code><br />
 </div>
 <p><a href="phase__encoding_8h_source.html">Go to the source code of this file.</a></p>
@@ -112,10 +113,10 @@ Functions</h2></td></tr>
 <tr class="memitem:aedac5d461f9a8dce66e18a54a7f26f40"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_phase_encoding.html#aedac5d461f9a8dce66e18a54a7f26f40">MR::PhaseEncoding::check</a> (const MatrixType &amp;PE)</td></tr>
 <tr class="memdesc:aedac5d461f9a8dce66e18a54a7f26f40"><td class="mdescLeft">&#160;</td><td class="mdescRight">check that a phase-encoding table is valid  <a href="namespace_m_r_1_1_phase_encoding.html#aedac5d461f9a8dce66e18a54a7f26f40">More...</a><br /></td></tr>
 <tr class="separator:aedac5d461f9a8dce66e18a54a7f26f40"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c143a3497e71b06ddaedc72b30886b6"><td class="memTemplParams" colspan="2">template&lt;class MatrixType &gt; </td></tr>
-<tr class="memitem:a2c143a3497e71b06ddaedc72b30886b6"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_phase_encoding.html#a2c143a3497e71b06ddaedc72b30886b6">MR::PhaseEncoding::check</a> (const Header &amp;header, const MatrixType &amp;PE)</td></tr>
-<tr class="memdesc:a2c143a3497e71b06ddaedc72b30886b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">check that the PE scheme matches the <a class="el" href="namespace_m_r_1_1_d_w_i.html">DWI</a> data in <em>header</em>  <a href="namespace_m_r_1_1_phase_encoding.html#a2c143a3497e71b06ddaedc72b30886b6">More...</a><br /></td></tr>
-<tr class="separator:a2c143a3497e71b06ddaedc72b30886b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5ad111865add818c27d34509fcb9210"><td class="memTemplParams" colspan="2">template&lt;class MatrixType , class HeaderType &gt; </td></tr>
+<tr class="memitem:ab5ad111865add818c27d34509fcb9210"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_phase_encoding.html#ab5ad111865add818c27d34509fcb9210">MR::PhaseEncoding::check</a> (const MatrixType &amp;PE, const HeaderType &amp;header)</td></tr>
+<tr class="memdesc:ab5ad111865add818c27d34509fcb9210"><td class="mdescLeft">&#160;</td><td class="mdescRight">check that the PE scheme matches the <a class="el" href="namespace_m_r_1_1_d_w_i.html">DWI</a> data in <em>header</em>  <a href="namespace_m_r_1_1_phase_encoding.html#ab5ad111865add818c27d34509fcb9210">More...</a><br /></td></tr>
+<tr class="separator:ab5ad111865add818c27d34509fcb9210"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afcc94a66e37aec4e3cc4ddb410d0286f"><td class="memTemplParams" colspan="2">template&lt;class MatrixType &gt; </td></tr>
 <tr class="memitem:afcc94a66e37aec4e3cc4ddb410d0286f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_phase_encoding.html#afcc94a66e37aec4e3cc4ddb410d0286f">MR::PhaseEncoding::set_scheme</a> (Header &amp;header, const MatrixType &amp;PE)</td></tr>
 <tr class="memdesc:afcc94a66e37aec4e3cc4ddb410d0286f"><td class="mdescLeft">&#160;</td><td class="mdescRight">store the phase encoding matrix in a header  <a href="namespace_m_r_1_1_phase_encoding.html#afcc94a66e37aec4e3cc4ddb410d0286f">More...</a><br /></td></tr>
@@ -134,24 +135,35 @@ Functions</h2></td></tr>
 <tr class="memdesc:a2ae52eaa8f875533f3bd23d7e71bc9ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a phase-encoding scheme into the EDDY config / indices format.  <a href="namespace_m_r_1_1_phase_encoding.html#a2ae52eaa8f875533f3bd23d7e71bc9ce">More...</a><br /></td></tr>
 <tr class="separator:a2ae52eaa8f875533f3bd23d7e71bc9ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8b6038e84ed8255766e5c42e98ccfa3"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_phase_encoding.html#ac8b6038e84ed8255766e5c42e98ccfa3">MR::PhaseEncoding::eddy2scheme</a> (const Eigen::MatrixXd &amp;, const Eigen::Array&lt; int, Eigen::Dynamic, 1 &gt; &amp;)</td></tr>
-<tr class="memdesc:ac8b6038e84ed8255766e5c42e98ccfa3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert phase-encoding informat from the EDDY config / indices format into a standard scheme.  <a href="namespace_m_r_1_1_phase_encoding.html#ac8b6038e84ed8255766e5c42e98ccfa3">More...</a><br /></td></tr>
+<tr class="memdesc:ac8b6038e84ed8255766e5c42e98ccfa3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert phase-encoding infor from the EDDY config / indices format into a standard scheme.  <a href="namespace_m_r_1_1_phase_encoding.html#ac8b6038e84ed8255766e5c42e98ccfa3">More...</a><br /></td></tr>
 <tr class="separator:ac8b6038e84ed8255766e5c42e98ccfa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed9dc8d78b533d1868299729ee60c5b8"><td class="memTemplParams" colspan="2">template&lt;class MatrixType &gt; </td></tr>
-<tr class="memitem:aed9dc8d78b533d1868299729ee60c5b8"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_phase_encoding.html#aed9dc8d78b533d1868299729ee60c5b8">MR::PhaseEncoding::save</a> (const MatrixType &amp;PE, const std::string &amp;path)</td></tr>
-<tr class="memdesc:aed9dc8d78b533d1868299729ee60c5b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save a phase-encoding scheme to file.  <a href="namespace_m_r_1_1_phase_encoding.html#aed9dc8d78b533d1868299729ee60c5b8">More...</a><br /></td></tr>
-<tr class="separator:aed9dc8d78b533d1868299729ee60c5b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad56e5f0cec31a928fe6abf57cde47c7c"><td class="memTemplParams" colspan="2">template&lt;class MatrixType &gt; </td></tr>
-<tr class="memitem:ad56e5f0cec31a928fe6abf57cde47c7c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_phase_encoding.html#ad56e5f0cec31a928fe6abf57cde47c7c">MR::PhaseEncoding::save_eddy</a> (const MatrixType &amp;PE, const std::string &amp;config_path, const std::string &amp;index_path)</td></tr>
-<tr class="memdesc:ad56e5f0cec31a928fe6abf57cde47c7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save a phase-encoding scheme to EDDY format config / index files.  <a href="namespace_m_r_1_1_phase_encoding.html#ad56e5f0cec31a928fe6abf57cde47c7c">More...</a><br /></td></tr>
-<tr class="separator:ad56e5f0cec31a928fe6abf57cde47c7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcc6a56198bb0f826b4988aa991fdf7c"><td class="memTemplParams" colspan="2">template&lt;class MatrixType , class HeaderType &gt; </td></tr>
+<tr class="memitem:abcc6a56198bb0f826b4988aa991fdf7c"><td class="memTemplItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_phase_encoding.html#abcc6a56198bb0f826b4988aa991fdf7c">MR::PhaseEncoding::transform_for_image_load</a> (const MatrixType &amp;pe_scheme, const HeaderType &amp;<a class="el" href="noise__estimator_8h.html#aaebed747e975509a9b8470c6d7ba93b3">H</a>)</td></tr>
+<tr class="memdesc:abcc6a56198bb0f826b4988aa991fdf7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modifies a phase encoding scheme if being imported alongside a non-RAS image.  <a href="namespace_m_r_1_1_phase_encoding.html#abcc6a56198bb0f826b4988aa991fdf7c">More...</a><br /></td></tr>
+<tr class="separator:abcc6a56198bb0f826b4988aa991fdf7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82f419c9e210e268e3a4eb6db8c2e854"><td class="memTemplParams" colspan="2">template&lt;class MatrixType , class HeaderType &gt; </td></tr>
+<tr class="memitem:a82f419c9e210e268e3a4eb6db8c2e854"><td class="memTemplItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_phase_encoding.html#a82f419c9e210e268e3a4eb6db8c2e854">MR::PhaseEncoding::transform_for_nifti_write</a> (const MatrixType &amp;pe_scheme, const HeaderType &amp;<a class="el" href="noise__estimator_8h.html#aaebed747e975509a9b8470c6d7ba93b3">H</a>)</td></tr>
+<tr class="memdesc:a82f419c9e210e268e3a4eb6db8c2e854"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modifies a phase encoding scheme if being exported alongside a NIfTI image.  <a href="namespace_m_r_1_1_phase_encoding.html#a82f419c9e210e268e3a4eb6db8c2e854">More...</a><br /></td></tr>
+<tr class="separator:a82f419c9e210e268e3a4eb6db8c2e854"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b1c60f9c77dfa15000a58f16efe6d91"><td class="memTemplParams" colspan="2">template&lt;class MatrixType , class HeaderType &gt; </td></tr>
+<tr class="memitem:a0b1c60f9c77dfa15000a58f16efe6d91"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_phase_encoding.html#a0b1c60f9c77dfa15000a58f16efe6d91">MR::PhaseEncoding::save</a> (const MatrixType &amp;PE, const HeaderType &amp;header, const std::string &amp;path)</td></tr>
+<tr class="memdesc:a0b1c60f9c77dfa15000a58f16efe6d91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save a phase-encoding scheme to file.  <a href="namespace_m_r_1_1_phase_encoding.html#a0b1c60f9c77dfa15000a58f16efe6d91">More...</a><br /></td></tr>
+<tr class="separator:a0b1c60f9c77dfa15000a58f16efe6d91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05032f0acfbddfcc6133df407483f765"><td class="memTemplParams" colspan="2">template&lt;class MatrixType , class HeaderType &gt; </td></tr>
+<tr class="memitem:a05032f0acfbddfcc6133df407483f765"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_phase_encoding.html#a05032f0acfbddfcc6133df407483f765">MR::PhaseEncoding::save_eddy</a> (const MatrixType &amp;PE, const HeaderType &amp;header, const std::string &amp;config_path, const std::string &amp;index_path)</td></tr>
+<tr class="memdesc:a05032f0acfbddfcc6133df407483f765"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save a phase-encoding scheme to EDDY format config / index files.  <a href="namespace_m_r_1_1_phase_encoding.html#a05032f0acfbddfcc6133df407483f765">More...</a><br /></td></tr>
+<tr class="separator:a05032f0acfbddfcc6133df407483f765"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9016b408c3204b1af51f2f916baacb71"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_phase_encoding.html#a9016b408c3204b1af51f2f916baacb71">MR::PhaseEncoding::export_commandline</a> (const Header &amp;)</td></tr>
 <tr class="memdesc:a9016b408c3204b1af51f2f916baacb71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save the phase-encoding scheme from a header to file depending on command-line options.  <a href="namespace_m_r_1_1_phase_encoding.html#a9016b408c3204b1af51f2f916baacb71">More...</a><br /></td></tr>
 <tr class="separator:a9016b408c3204b1af51f2f916baacb71"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1264fcd2afdc9ad09e8bb53a9b9927f"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_phase_encoding.html#ad1264fcd2afdc9ad09e8bb53a9b9927f">MR::PhaseEncoding::load</a> (const std::string &amp;)</td></tr>
-<tr class="memdesc:ad1264fcd2afdc9ad09e8bb53a9b9927f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load a phase-encoding scheme from either a matrix file, or an EDDY-format comfig / indices file pair.  <a href="namespace_m_r_1_1_phase_encoding.html#ad1264fcd2afdc9ad09e8bb53a9b9927f">More...</a><br /></td></tr>
-<tr class="separator:ad1264fcd2afdc9ad09e8bb53a9b9927f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb0cb6a58ca4527701c6c4ab4d292d24"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_phase_encoding.html#abb0cb6a58ca4527701c6c4ab4d292d24">MR::PhaseEncoding::load_eddy</a> (const std::string &amp;, const std::string &amp;)</td></tr>
-<tr class="separator:abb0cb6a58ca4527701c6c4ab4d292d24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba20779e4b6bd3ea4d381fa41c2e09e8"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
+<tr class="memitem:aba20779e4b6bd3ea4d381fa41c2e09e8"><td class="memTemplItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_phase_encoding.html#aba20779e4b6bd3ea4d381fa41c2e09e8">MR::PhaseEncoding::load</a> (const std::string &amp;path, const HeaderType &amp;header)</td></tr>
+<tr class="memdesc:aba20779e4b6bd3ea4d381fa41c2e09e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load a phase-encoding scheme from a matrix text file.  <a href="namespace_m_r_1_1_phase_encoding.html#aba20779e4b6bd3ea4d381fa41c2e09e8">More...</a><br /></td></tr>
+<tr class="separator:aba20779e4b6bd3ea4d381fa41c2e09e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcb56327527cf3e83c124e1b6195a903"><td class="memTemplParams" colspan="2">template&lt;class HeaderType &gt; </td></tr>
+<tr class="memitem:adcb56327527cf3e83c124e1b6195a903"><td class="memTemplItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_phase_encoding.html#adcb56327527cf3e83c124e1b6195a903">MR::PhaseEncoding::load_eddy</a> (const std::string &amp;config_path, const std::string &amp;index_path, const HeaderType &amp;header)</td></tr>
+<tr class="memdesc:adcb56327527cf3e83c124e1b6195a903"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load a phase-encoding scheme from an EDDY-format config / indices file pair.  <a href="namespace_m_r_1_1_phase_encoding.html#adcb56327527cf3e83c124e1b6195a903">More...</a><br /></td></tr>
+<tr class="separator:adcb56327527cf3e83c124e1b6195a903"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -168,7 +180,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4270bfced15e0e73154b13468c7c9ad9.html">core</a></li><li class="navelem"><a class="el" href="phase__encoding_8h.html">phase_encoding.h</a></li>
-    <li class="footer">Generated on Wed Oct 20 2021 13:48:27 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Thu Oct 21 2021 13:00:26 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

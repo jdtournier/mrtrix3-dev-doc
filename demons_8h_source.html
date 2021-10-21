@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0.0-dirty</div>
+   <div id="projectbrief">Version 3.0.3-23-g193aa0ad</div>
   </td>
  </tr>
  </tbody>
@@ -87,7 +87,7 @@ $(document).ready(function(){initNavTree('demons_8h_source.html',''); initResiza
   <div class="headertitle"><div class="title">demons.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="demons_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/* Copyright (c) 2008-2019 the MRtrix3 contributors.</span></div>
+<a href="demons_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/* Copyright (c) 2008-2021 the MRtrix3 contributors.</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment"> *</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment"> * This Source Code Form is subject to the terms of the Mozilla Public</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment"> * License, v. 2.0. If a copy of the MPL was not distributed with this</span></div>
@@ -207,8 +207,8 @@ $(document).ready(function(){initNavTree('demons_8h_source.html',''); initResiza
 <div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>              im1_update.row(3) = 0.0;</div>
 <div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>              im2_update.row(3) = 0.0;</div>
 <div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>            } <span class="keywordflow">else</span> {</div>
-<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>              im1_update.row(3) = <a class="code hl_typedef" href="namespace_eigen.html#a614e7946e0926e533cf7d49a487ce245">Eigen::Vector3</a> (speed * grad.array() / denominator);</div>
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>              im2_update.row(3) = -<a class="code hl_typedef" href="namespace_eigen.html#a614e7946e0926e533cf7d49a487ce245">Eigen::Vector3</a> (im1_update.row(3));</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>              im1_update.row(3) = Eigen::Vector3d (speed * grad.array() / denominator);</div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>              im2_update.row(3) = -Eigen::Vector3d (im1_update.row(3));</div>
 <div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>            }</div>
 <div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>          }</div>
 <div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span> </div>
@@ -253,7 +253,6 @@ $(document).ready(function(){initNavTree('demons_8h_source.html',''); initResiza
 <div class="ttc" id="agradient3_d_8h_html"><div class="ttname"><a href="gradient3_d_8h.html">gradient3D.h</a></div></div>
 <div class="ttc" id="agroup__mathconstants_html_ga4bded66901b06bc4f71952e3cd3185ea"><div class="ttname"><a href="group__mathconstants.html#ga4bded66901b06bc4f71952e3cd3185ea">MR::Math::e</a></div><div class="ttdeci">constexpr double e</div><div class="ttdef"><b>Definition:</b> <a href="math_8h_source.html#l00039">math.h:39</a></div></div>
 <div class="ttc" id="aimage__helpers_8h_html"><div class="ttname"><a href="image__helpers_8h.html">image_helpers.h</a></div></div>
-<div class="ttc" id="anamespace_eigen_html_a614e7946e0926e533cf7d49a487ce245"><div class="ttname"><a href="namespace_eigen.html#a614e7946e0926e533cf7d49a487ce245">Eigen::Vector3</a></div><div class="ttdeci">Matrix&lt; MR::default_type, 3, 1 &gt; Vector3</div><div class="ttdef"><b>Definition:</b> <a href="src_2surface_2types_8h_source.html#l00326">types.h:326</a></div></div>
 <div class="ttc" id="anamespace_m_r_1_1_math_1_1_stats_html_a5e7ca9d7689e3c74384e428ec1d9d9a9"><div class="ttname"><a href="namespace_m_r_1_1_math_1_1_stats.html#a5e7ca9d7689e3c74384e428ec1d9d9a9">MR::Math::Stats::value_type</a></div><div class="ttdeci">MR::default_type value_type</div><div class="ttdef"><b>Definition:</b> <a href="typedefs_8h_source.html#l00033">typedefs.h:33</a></div></div>
 <div class="ttc" id="anamespace_m_r_html"><div class="ttname"><a href="namespace_m_r.html">MR</a></div><div class="ttdef"><b>Definition:</b> <a href="core_2adapter_2base_8h_source.html#l00023">base.h:24</a></div></div>
 <div class="ttc" id="anamespace_m_r_html_a43bad69d4b870a61e1d93cd69b7b1270"><div class="ttname"><a href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">MR::default_type</a></div><div class="ttdeci">double default_type</div><div class="ttdoc">the default type used throughout MRtrix</div><div class="ttdef"><b>Definition:</b> <a href="src_2surface_2types_8h_source.html#l00228">types.h:228</a></div></div>
@@ -264,7 +263,7 @@ $(document).ready(function(){initNavTree('demons_8h_source.html',''); initResiza
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_2809abdae02e13f948aa32ba36e8b7d2.html">registration</a></li><li class="navelem"><a class="el" href="dir_86c75eeb87af5045e670a01dcdcd1bee.html">metric</a></li><li class="navelem"><a class="el" href="demons_8h.html">demons.h</a></li>
-    <li class="footer">Generated on Wed Oct 20 2021 13:48:27 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Thu Oct 21 2021 13:00:25 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

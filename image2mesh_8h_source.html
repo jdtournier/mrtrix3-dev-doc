@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0.0-dirty</div>
+   <div id="projectbrief">Version 3.0.3-23-g193aa0ad</div>
   </td>
  </tr>
  </tbody>
@@ -87,7 +87,7 @@ $(document).ready(function(){initNavTree('image2mesh_8h_source.html',''); initRe
   <div class="headertitle"><div class="title">image2mesh.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="image2mesh_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/* Copyright (c) 2008-2019 the MRtrix3 contributors.</span></div>
+<a href="image2mesh_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/* Copyright (c) 2008-2021 the MRtrix3 contributors.</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment"> *</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment"> * This Source Code Form is subject to the terms of the Mozilla Public</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment"> * License, v. 2.0. If a copy of the MPL was not distributed with this</span></div>
@@ -211,7 +211,7 @@ $(document).ready(function(){initNavTree('image2mesh_8h_source.html',''); initRe
 <div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>                    <span class="keyword">const</span> <span class="keyword">auto</span> existing = vox2vertindex.find (voxels[in_vertex]);</div>
 <div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>                    <span class="keywordflow">if</span> (existing == vox2vertindex.end()) {</div>
 <div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>                      triangle_vertices[out_vertex] = vertices.size();</div>
-<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>                      <a class="code hl_typedef" href="namespace_eigen.html#a614e7946e0926e533cf7d49a487ce245">Eigen::Vector3</a> pos_voxelspace (<a class="code hl_typedef" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a>(voxels[in_vertex][0]) - 0.5, <a class="code hl_typedef" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a>(voxels[in_vertex][1]) - 0.5, <a class="code hl_typedef" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a>(voxels[in_vertex][2]) - 0.5);</div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>                      Eigen::Vector3d pos_voxelspace (<a class="code hl_typedef" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a>(voxels[in_vertex][0]) - 0.5, <a class="code hl_typedef" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a>(voxels[in_vertex][1]) - 0.5, <a class="code hl_typedef" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a>(voxels[in_vertex][2]) - 0.5);</div>
 <div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>                      vertices.push_back (transform.<a class="code hl_variable" href="class_m_r_1_1_transform.html#a858a1ad33f11ba33eeeb5e3ad5b919bf">voxel2scanner</a> * pos_voxelspace);</div>
 <div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>                    } <span class="keywordflow">else</span> {</div>
 <div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>                      triangle_vertices[out_vertex] = existing-&gt;second;</div>
@@ -588,7 +588,7 @@ $(document).ready(function(){initNavTree('image2mesh_8h_source.html',''); initRe
 <div class="line"><a id="l00499" name="l00499"></a><span class="lineno">  499</span>                  <span class="comment">// Calculate the precise position of this vertex, based on the</span></div>
 <div class="line"><a id="l00500" name="l00500"></a><span class="lineno">  500</span>                  <span class="comment">//   image intensities in the two relevant voxels</span></div>
 <div class="line"><a id="l00501" name="l00501"></a><span class="lineno">  501</span>                  <span class="keyword">const</span> <a class="code hl_typedef" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a> alpha = (threshold - in_vertex_values[vertex_indices[0]]) / (in_vertex_values[vertex_indices[1]] - in_vertex_values[vertex_indices[0]]);</div>
-<div class="line"><a id="l00502" name="l00502"></a><span class="lineno">  502</span>                  <span class="keyword">const</span> <a class="code hl_typedef" href="namespace_m_r_1_1_surface.html#ad04bf2fae835e14457b713cc9c6b944b">Vertex</a> pos_voxelspace = vertex_positions[0].cast&lt;<a class="code hl_typedef" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a>&gt;() + (alpha * (vertex_positions[1] - vertex_positions[0]).cast&lt;<a class="code hl_typedef" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a>&gt;());</div>
+<div class="line"><a id="l00502" name="l00502"></a><span class="lineno">  502</span>                  <span class="keyword">const</span> <a class="code hl_typedef" href="namespace_m_r_1_1_surface.html#afc8b69d7b8083349c516102f242a144a">Vertex</a> pos_voxelspace = vertex_positions[0].cast&lt;<a class="code hl_typedef" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a>&gt;() + (alpha * (vertex_positions[1] - vertex_positions[0]).cast&lt;<a class="code hl_typedef" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a>&gt;());</div>
 <div class="line"><a id="l00503" name="l00503"></a><span class="lineno">  503</span>                  vertices.push_back (transform.<a class="code hl_variable" href="class_m_r_1_1_transform.html#a858a1ad33f11ba33eeeb5e3ad5b919bf">voxel2scanner</a> * pos_voxelspace);</div>
 <div class="line"><a id="l00504" name="l00504"></a><span class="lineno">  504</span>                } <span class="keywordflow">else</span> {</div>
 <div class="line"><a id="l00505" name="l00505"></a><span class="lineno">  505</span>                  edge_to_output_vertex[edge_index] = existing_zero-&gt;second;</div>
@@ -632,10 +632,9 @@ $(document).ready(function(){initNavTree('image2mesh_8h_source.html',''); initRe
 <div class="ttc" id="agroup__loop_html_ga2210102d90cf5ddfe7089fc025e7a3d8"><div class="ttname"><a href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">MR::Loop</a></div><div class="ttdeci">FORCE_INLINE LoopAlongAxes Loop()</div><div class="ttdef"><b>Definition:</b> <a href="algo_2loop_8h_source.html#l00419">loop.h:419</a></div></div>
 <div class="ttc" id="aimage__helpers_8h_html"><div class="ttname"><a href="image__helpers_8h.html">image_helpers.h</a></div></div>
 <div class="ttc" id="amesh_8h_html"><div class="ttname"><a href="mesh_8h.html">mesh.h</a></div></div>
-<div class="ttc" id="anamespace_eigen_html_a614e7946e0926e533cf7d49a487ce245"><div class="ttname"><a href="namespace_eigen.html#a614e7946e0926e533cf7d49a487ce245">Eigen::Vector3</a></div><div class="ttdeci">Matrix&lt; MR::default_type, 3, 1 &gt; Vector3</div><div class="ttdef"><b>Definition:</b> <a href="src_2surface_2types_8h_source.html#l00326">types.h:326</a></div></div>
 <div class="ttc" id="anamespace_m_r_1_1_surface_1_1_algo_html_a09dbdf50c7ab454a0e691cb2d9c79519"><div class="ttname"><a href="namespace_m_r_1_1_surface_1_1_algo.html#a09dbdf50c7ab454a0e691cb2d9c79519">MR::Surface::Algo::image2mesh_blocky</a></div><div class="ttdeci">void image2mesh_blocky(const ImageType &amp;input_image, Mesh &amp;out)</div><div class="ttdef"><b>Definition:</b> <a href="image2mesh_8h_source.html#l00044">image2mesh.h:44</a></div></div>
 <div class="ttc" id="anamespace_m_r_1_1_surface_1_1_algo_html_aefcb59ccaa62f0c3600a6d0888e5ae1b"><div class="ttname"><a href="namespace_m_r_1_1_surface_1_1_algo.html#aefcb59ccaa62f0c3600a6d0888e5ae1b">MR::Surface::Algo::image2mesh_mc</a></div><div class="ttdeci">void image2mesh_mc(const ImageType &amp;input_image, Mesh &amp;out, const default_type threshold)</div><div class="ttdef"><b>Definition:</b> <a href="image2mesh_8h_source.html#l00148">image2mesh.h:148</a></div></div>
-<div class="ttc" id="anamespace_m_r_1_1_surface_html_ad04bf2fae835e14457b713cc9c6b944b"><div class="ttname"><a href="namespace_m_r_1_1_surface.html#ad04bf2fae835e14457b713cc9c6b944b">MR::Surface::Vertex</a></div><div class="ttdeci">Eigen::Vector3 Vertex</div><div class="ttdef"><b>Definition:</b> <a href="src_2surface_2types_8h_source.html#l00032">types.h:32</a></div></div>
+<div class="ttc" id="anamespace_m_r_1_1_surface_html_afc8b69d7b8083349c516102f242a144a"><div class="ttname"><a href="namespace_m_r_1_1_surface.html#afc8b69d7b8083349c516102f242a144a">MR::Surface::Vertex</a></div><div class="ttdeci">Eigen::Vector3d Vertex</div><div class="ttdef"><b>Definition:</b> <a href="src_2surface_2types_8h_source.html#l00032">types.h:32</a></div></div>
 <div class="ttc" id="anamespace_m_r_html"><div class="ttname"><a href="namespace_m_r.html">MR</a></div><div class="ttdef"><b>Definition:</b> <a href="core_2adapter_2base_8h_source.html#l00023">base.h:24</a></div></div>
 <div class="ttc" id="anamespace_m_r_html_a43bad69d4b870a61e1d93cd69b7b1270"><div class="ttname"><a href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">MR::default_type</a></div><div class="ttdeci">double default_type</div><div class="ttdoc">the default type used throughout MRtrix</div><div class="ttdef"><b>Definition:</b> <a href="src_2surface_2types_8h_source.html#l00228">types.h:228</a></div></div>
 <div class="ttc" id="asrc_2surface_2types_8h_html"><div class="ttname"><a href="src_2surface_2types_8h.html">types.h</a></div></div>
@@ -645,7 +644,7 @@ $(document).ready(function(){initNavTree('image2mesh_8h_source.html',''); initRe
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_93b0d6a552827721ec9247642283aaa7.html">surface</a></li><li class="navelem"><a class="el" href="dir_37217f82187d576d9daaf5ef222a58af.html">algo</a></li><li class="navelem"><a class="el" href="image2mesh_8h.html">image2mesh.h</a></li>
-    <li class="footer">Generated on Wed Oct 20 2021 13:48:27 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Thu Oct 21 2021 13:00:25 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

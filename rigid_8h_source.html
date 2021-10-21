@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0.0-dirty</div>
+   <div id="projectbrief">Version 3.0.3-23-g193aa0ad</div>
   </td>
  </tr>
  </tbody>
@@ -87,7 +87,7 @@ $(document).ready(function(){initNavTree('rigid_8h_source.html',''); initResizab
   <div class="headertitle"><div class="title">rigid.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="rigid_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/* Copyright (c) 2008-2019 the MRtrix3 contributors.</span></div>
+<a href="rigid_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/* Copyright (c) 2008-2021 the MRtrix3 contributors.</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment"> *</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment"> * This Source Code Form is subject to the terms of the Mozilla Public</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment"> * License, v. 2.0. If a copy of the MPL was not distributed with this</span></div>
@@ -180,9 +180,9 @@ $(document).ready(function(){initNavTree('rigid_8h_source.html',''); initResizab
 <div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>            this-&gt;<a class="code hl_variable" href="class_m_r_1_1_registration_1_1_transform_1_1_base.html#afbb84a16d52a6887de5b281963cb9733">optimiser_weights</a> &lt;&lt; weights, weights, weights;</div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>          }</div>
 <div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span> </div>
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>          Eigen::Matrix&lt;default_type, 4, 1&gt; get_jacobian_vector_wrt_params (<span class="keyword">const</span> <a class="code hl_typedef" href="namespace_eigen.html#a614e7946e0926e533cf7d49a487ce245">Eigen::Vector3</a>&amp; p) <span class="keyword">const</span> ;</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>          Eigen::Matrix&lt;default_type, 4, 1&gt; get_jacobian_vector_wrt_params (<span class="keyword">const</span> Eigen::Vector3d&amp; p) <span class="keyword">const</span> ;</div>
 <div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span> </div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>          Eigen::MatrixXd get_jacobian_wrt_params (<span class="keyword">const</span> <a class="code hl_typedef" href="namespace_eigen.html#a614e7946e0926e533cf7d49a487ce245">Eigen::Vector3</a>&amp; p) <span class="keyword">const</span> ;</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>          Eigen::MatrixXd get_jacobian_wrt_params (<span class="keyword">const</span> Eigen::Vector3d&amp; p) <span class="keyword">const</span> ;</div>
 <div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span> </div>
 <div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>          <span class="keywordtype">void</span> set_parameter_vector (<span class="keyword">const</span> Eigen::Matrix&lt;ParameterType, Eigen::Dynamic, 1&gt;&amp; param_vector);</div>
 <div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span> </div>
@@ -221,7 +221,6 @@ $(document).ready(function(){initNavTree('rigid_8h_source.html',''); initResizab
 <div class="ttc" id="aclass_m_r_1_1_registration_1_1_transform_1_1_rigid_robust_estimator_html"><div class="ttname"><a href="class_m_r_1_1_registration_1_1_transform_1_1_rigid_robust_estimator.html">MR::Registration::Transform::RigidRobustEstimator</a></div><div class="ttdef"><b>Definition:</b> <a href="rigid_8h_source.html#l00069">rigid.h:69</a></div></div>
 <div class="ttc" id="aclass_m_r_1_1vector_html"><div class="ttname"><a href="class_m_r_1_1vector.html">MR::vector</a></div><div class="ttdef"><b>Definition:</b> <a href="src_2surface_2types_8h_source.html#l00253">types.h:253</a></div></div>
 <div class="ttc" id="amath_8h_html"><div class="ttname"><a href="math_8h.html">math.h</a></div></div>
-<div class="ttc" id="anamespace_eigen_html_a614e7946e0926e533cf7d49a487ce245"><div class="ttname"><a href="namespace_eigen.html#a614e7946e0926e533cf7d49a487ce245">Eigen::Vector3</a></div><div class="ttdeci">Matrix&lt; MR::default_type, 3, 1 &gt; Vector3</div><div class="ttdef"><b>Definition:</b> <a href="src_2surface_2types_8h_source.html#l00326">types.h:326</a></div></div>
 <div class="ttc" id="anamespace_m_r_1_1_math_html"><div class="ttname"><a href="namespace_m_r_1_1_math.html">MR::Math</a></div><div class="ttdef"><b>Definition:</b> <a href="average__space_8h_source.html#l00029">average_space.h:30</a></div></div>
 <div class="ttc" id="anamespace_m_r_html"><div class="ttname"><a href="namespace_m_r.html">MR</a></div><div class="ttdef"><b>Definition:</b> <a href="core_2adapter_2base_8h_source.html#l00023">base.h:24</a></div></div>
 <div class="ttc" id="anamespace_m_r_html_a43bad69d4b870a61e1d93cd69b7b1270"><div class="ttname"><a href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">MR::default_type</a></div><div class="ttdeci">double default_type</div><div class="ttdoc">the default type used throughout MRtrix</div><div class="ttdef"><b>Definition:</b> <a href="src_2surface_2types_8h_source.html#l00228">types.h:228</a></div></div>
@@ -233,7 +232,7 @@ $(document).ready(function(){initNavTree('rigid_8h_source.html',''); initResizab
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_2809abdae02e13f948aa32ba36e8b7d2.html">registration</a></li><li class="navelem"><a class="el" href="dir_c46313a679aed6c8a03f3be8eae3909f.html">transform</a></li><li class="navelem"><a class="el" href="rigid_8h.html">rigid.h</a></li>
-    <li class="footer">Generated on Wed Oct 20 2021 13:48:27 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Thu Oct 21 2021 13:00:25 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

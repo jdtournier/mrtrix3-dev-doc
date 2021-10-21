@@ -14,7 +14,7 @@ var searchData=
   ['undefined_11',['Undefined',['../class_m_r_1_1_data_type.html#ab16a330a4621a6979b88da70355a9637',1,'MR::DataType']]],
   ['undo_5fbutton_12',['undo_button',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_r_o_i.html#adb32a39eeefd9c921426a870b60d5ead',1,'MR::GUI::MRView::Tool::ROI']]],
   ['uniform_13',['uniform',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_tracking_1_1_method_base.html#a252f312f306502de24c98d4aee9ec417',1,'MR::DWI::Tractography::Tracking::MethodBase']]],
-  ['unit_5fvectors_14',['unit_vectors',['../class_m_r_1_1_d_w_i_1_1_directions_1_1_set.html#afca46e819b5faec66c645d40463cce34',1,'MR::DWI::Directions::Set']]],
+  ['unit_5fvectors_14',['unit_vectors',['../class_m_r_1_1_d_w_i_1_1_directions_1_1_set.html#a6b9c2d7204ec2dfcbb4caa50dd03bd35',1,'MR::DWI::Directions::Set']]],
   ['unmasked2_15',['unmasked2',['../struct_m_r_1_1_registration_1_1_transform_1_1_init_1_1_linear_initialisation_params_1_1_rotation_init.html#aba81a6c5509e1921d8bf48e014a9cc4d',1,'MR::Registration::Transform::Init::LinearInitialisationParams::RotationInit']]],
   ['unordered_16',['unordered',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_include_r_o_i_visitation.html#ad92af9aacce26f3e6a5aa348399e47b2',1,'MR::DWI::Tractography::IncludeROIVisitation']]],
   ['unused_5fstr_17',['unused_str',['../structnifti__2__header.html#a95f7383c56f4ea711b8eabc6664444a4',1,'nifti_2_header']]],

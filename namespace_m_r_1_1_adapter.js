@@ -17,6 +17,6 @@ var namespace_m_r_1_1_adapter =
     [ "Subset", "class_m_r_1_1_adapter_1_1_subset.html", "class_m_r_1_1_adapter_1_1_subset" ],
     [ "Warp", "class_m_r_1_1_adapter_1_1_warp.html", null ],
     [ "make", "namespace_m_r_1_1_adapter.html#aaf4defe69efc96145e9a0e29c8f95a49", null ],
-    [ "AutoOverSample", "namespace_m_r_1_1_adapter.html#af1180d3d2cff392bff8520a39772950f", null ],
+    [ "AutoOverSample", "namespace_m_r_1_1_adapter.html#ac4aafa9298930a8ce35d611133567a82", null ],
     [ "NoTransform", "namespace_m_r_1_1_adapter.html#aff8f6cc24ea8d699b1234f801db7502f", null ]
 ];

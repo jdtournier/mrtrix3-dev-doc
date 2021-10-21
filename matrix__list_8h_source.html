@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0.0-dirty</div>
+   <div id="projectbrief">Version 3.0.3-23-g193aa0ad</div>
   </td>
  </tr>
  </tbody>
@@ -87,7 +87,7 @@ $(document).ready(function(){initNavTree('matrix__list_8h_source.html',''); init
   <div class="headertitle"><div class="title">matrix_list.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="matrix__list_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/* Copyright (c) 2008-2019 the MRtrix3 contributors.</span></div>
+<a href="matrix__list_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/* Copyright (c) 2008-2021 the MRtrix3 contributors.</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment"> *</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment"> * This Source Code Form is subject to the terms of the Mozilla Public</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment"> * License, v. 2.0. If a copy of the MPL was not distributed with this</span></div>
@@ -137,18 +137,18 @@ $(document).ready(function(){initNavTree('matrix__list_8h_source.html',''); init
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>            <a class="code hl_class" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_matrix__list__model.html">Matrix_list_model</a> (<a class="code hl_class" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_connectome.html">Connectome</a>* parent);</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>            QVariant data (<span class="keyword">const</span> QModelIndex&amp; index, <span class="keywordtype">int</span> role)<span class="keyword"> const override </span>{</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>              <span class="keywordflow">if</span> (!<a class="code hl_variable" href="ordered__thread__queue_8h.html#a3f42f10d93f6edb91d7d3f6edad25921">index</a>.isValid()) <span class="keywordflow">return</span> QVariant();</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>              <span class="keywordflow">if</span> (role != Qt::DisplayRole) <span class="keywordflow">return</span> QVariant();</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>              <span class="keywordflow">if</span> (!<a class="code hl_variable" href="ordered__thread__queue_8h.html#a3f42f10d93f6edb91d7d3f6edad25921">index</a>.isValid()) <span class="keywordflow">return</span> {};</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>              <span class="keywordflow">if</span> (role != Qt::DisplayRole) <span class="keywordflow">return</span> {};</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>              <span class="keywordflow">return</span> <a class="code hl_function" href="namespace_m_r_1_1_g_u_i.html#a9b1b77877b492d7a1638364a3a94fc1b">qstr</a> (<a class="code hl_function" href="namespace_m_r.html#ab9d4ebe5d50262f04a41e66e030e3e16">shorten</a> (<a class="code hl_variable" href="class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_matrix__list__model.html#a861ad16dd06ea62edb14663f84cef6d1">items</a>[<a class="code hl_variable" href="ordered__thread__queue_8h.html#a3f42f10d93f6edb91d7d3f6edad25921">index</a>.row()].get_name().toStdString(), 35, 0));</div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>            }</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>            Qt::ItemFlags flags (<span class="keyword">const</span> QModelIndex&amp; <a class="code hl_variable" href="ordered__thread__queue_8h.html#a3f42f10d93f6edb91d7d3f6edad25921">index</a>)<span class="keyword"> const override </span>{</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>              <span class="keywordflow">if</span> (!<a class="code hl_variable" href="ordered__thread__queue_8h.html#a3f42f10d93f6edb91d7d3f6edad25921">index</a>.isValid()) <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>              <span class="keywordflow">if</span> (!<a class="code hl_variable" href="ordered__thread__queue_8h.html#a3f42f10d93f6edb91d7d3f6edad25921">index</a>.isValid()) <span class="keywordflow">return</span> {};</div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>              <span class="keywordflow">return</span> Qt::ItemIsEnabled | Qt::ItemIsSelectable;</div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>            }</div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>            QModelIndex parent (<span class="keyword">const</span> QModelIndex&amp;)<span class="keyword"> const override </span>{</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>              <span class="keywordflow">return</span> QModelIndex();</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>              <span class="keywordflow">return</span> {};</div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>            }</div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>            <span class="keywordtype">int</span> rowCount (<span class="keyword">const</span> QModelIndex&amp; parent = QModelIndex())<span class="keyword"> const override </span>{</div>
@@ -216,7 +216,7 @@ $(document).ready(function(){initNavTree('matrix__list_8h_source.html',''); init
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_99d0482cf009f9d97a0877749b817f19.html">gui</a></li><li class="navelem"><a class="el" href="dir_d1c552c4fd0ff8e8078b00303a982c35.html">mrview</a></li><li class="navelem"><a class="el" href="dir_f9bd14eff820396be5a782f5d73a737a.html">tool</a></li><li class="navelem"><a class="el" href="dir_0008c5cf4c08f712dec94cc304afebf9.html">connectome</a></li><li class="navelem"><a class="el" href="matrix__list_8h.html">matrix_list.h</a></li>
-    <li class="footer">Generated on Wed Oct 20 2021 13:48:27 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Thu Oct 21 2021 13:00:25 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0.0-dirty</div>
+   <div id="projectbrief">Version 3.0.3-23-g193aa0ad</div>
   </td>
  </tr>
  </tbody>
@@ -87,49 +87,51 @@ $(document).ready(function(){initNavTree('polynomial_8h_source.html',''); initRe
   <div class="headertitle"><div class="title">polynomial.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="polynomial_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/*</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment"> * Copyright (c) 2008-2018 the MRtrix3 contributors.</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment"> *</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment"> * This Source Code Form is subject to the terms of the Mozilla Public</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment"> * License, v. 2.0. If a copy of the MPL was not distributed with this</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="comment"> * file, you can obtain one at http://mozilla.org/MPL/2.0/</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment"> *</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="comment"> * MRtrix3 is distributed in the hope that it will be useful,</span></div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="comment"> * but WITHOUT ANY WARRANTY; without even the implied warranty</span></div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="comment"> * of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</span></div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="comment"> *</span></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="comment"> * For more details, see http://www.mrtrix.org/</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="comment"> */</span></div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &quot;<a class="code" href="math_8h.html">math/math.h</a>&quot;</span></div>
+<a href="polynomial_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/* Copyright (c) 2008-2021 the MRtrix3 contributors.</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment"> *</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment"> * This Source Code Form is subject to the terms of the Mozilla Public</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment"> * License, v. 2.0. If a copy of the MPL was not distributed with this</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment"> * file, You can obtain one at http://mozilla.org/MPL/2.0/.</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="comment"> *</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment"> * Covered Software is provided under this License on an &quot;as is&quot;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="comment"> * basis, without warranty of any kind, either expressed, implied, or</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="comment"> * statutory, including, without limitation, warranties that the</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="comment"> * Covered Software is free of defects, merchantable, fit for a</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="comment"> * particular purpose or non-infringing.</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="comment"> * See the Mozilla Public License v. 2.0 for more details.</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="comment"> *</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="comment"> * For more details, see http://www.mrtrix.org/.</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="comment"> */</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_m_r.html">MR</a></div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>{</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>  <span class="keyword">namespace </span>Math</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>  {</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keyword">template</span> &lt;<span class="keyword">class</span> Cont&gt;</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="namespace_m_r_1_1_math.html#af6395a1367e8eabfcf32950dc98d324d">   26</a></span>    <a class="code hl_typedef" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a> <a class="code hl_function" href="namespace_m_r_1_1_math.html#af6395a1367e8eabfcf32950dc98d324d">polynomial</a> (Cont&amp; coeffs, <span class="keyword">const</span> <a class="code hl_typedef" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a> x)</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    {</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>      <span class="keywordflow">if</span> (!coeffs.size())</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="namespace_m_r.html#ac8c755bf9a6bd0ee7dfe784c1aff7fcb">NaN</a>;</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>      <a class="code hl_typedef" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a> result = coeffs[coeffs.size()-1];</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>      <span class="keywordflow">for</span> (ssize_t i = coeffs.size() - 2; i &gt;= 0; --i) {</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>        result *= x;</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        result += <a class="code hl_typedef" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a>(coeffs[i]);</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>      }</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>      <span class="keywordflow">return</span> result;</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    }</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#include &quot;<a class="code" href="math_8h.html">math/math.h</a>&quot;</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_m_r.html">MR</a></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>{</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>  <span class="keyword">namespace </span>Math</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>  {</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <span class="keyword">template</span> &lt;<span class="keyword">class</span> Cont&gt;</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="namespace_m_r_1_1_math.html#af6395a1367e8eabfcf32950dc98d324d">   28</a></span>    <a class="code hl_typedef" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a> <a class="code hl_function" href="namespace_m_r_1_1_math.html#af6395a1367e8eabfcf32950dc98d324d">polynomial</a> (Cont&amp; coeffs, <span class="keyword">const</span> <a class="code hl_typedef" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a> x)</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    {</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>      <span class="keywordflow">if</span> (!coeffs.size())</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="namespace_m_r.html#ac8c755bf9a6bd0ee7dfe784c1aff7fcb">NaN</a>;</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>      <a class="code hl_typedef" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a> result = coeffs[coeffs.size()-1];</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>      <span class="keywordflow">for</span> (ssize_t i = coeffs.size() - 2; i &gt;= 0; --i) {</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>        result *= x;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        result += <a class="code hl_typedef" href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">default_type</a>(coeffs[i]);</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>      }</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>      <span class="keywordflow">return</span> result;</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    }</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>  }</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>}</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>  }</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>}</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
 <div class="ttc" id="amath_8h_html"><div class="ttname"><a href="math_8h.html">math.h</a></div></div>
-<div class="ttc" id="anamespace_m_r_1_1_math_html_af6395a1367e8eabfcf32950dc98d324d"><div class="ttname"><a href="namespace_m_r_1_1_math.html#af6395a1367e8eabfcf32950dc98d324d">MR::Math::polynomial</a></div><div class="ttdeci">default_type polynomial(Cont &amp;coeffs, const default_type x)</div><div class="ttdoc">Evaluate a polynomial expansion for a scalar term.</div><div class="ttdef"><b>Definition:</b> <a href="polynomial_8h_source.html#l00026">polynomial.h:26</a></div></div>
+<div class="ttc" id="anamespace_m_r_1_1_math_html_af6395a1367e8eabfcf32950dc98d324d"><div class="ttname"><a href="namespace_m_r_1_1_math.html#af6395a1367e8eabfcf32950dc98d324d">MR::Math::polynomial</a></div><div class="ttdeci">default_type polynomial(Cont &amp;coeffs, const default_type x)</div><div class="ttdoc">Evaluate a polynomial expansion for a scalar term.</div><div class="ttdef"><b>Definition:</b> <a href="polynomial_8h_source.html#l00028">polynomial.h:28</a></div></div>
 <div class="ttc" id="anamespace_m_r_html"><div class="ttname"><a href="namespace_m_r.html">MR</a></div><div class="ttdef"><b>Definition:</b> <a href="core_2adapter_2base_8h_source.html#l00023">base.h:24</a></div></div>
 <div class="ttc" id="anamespace_m_r_html_a43bad69d4b870a61e1d93cd69b7b1270"><div class="ttname"><a href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">MR::default_type</a></div><div class="ttdeci">double default_type</div><div class="ttdoc">the default type used throughout MRtrix</div><div class="ttdef"><b>Definition:</b> <a href="src_2surface_2types_8h_source.html#l00228">types.h:228</a></div></div>
 <div class="ttc" id="anamespace_m_r_html_ac8c755bf9a6bd0ee7dfe784c1aff7fcb"><div class="ttname"><a href="namespace_m_r.html#ac8c755bf9a6bd0ee7dfe784c1aff7fcb">MR::NaN</a></div><div class="ttdeci">constexpr default_type NaN</div><div class="ttdef"><b>Definition:</b> <a href="src_2surface_2types_8h_source.html#l00230">types.h:230</a></div></div>
@@ -139,7 +141,7 @@ $(document).ready(function(){initNavTree('polynomial_8h_source.html',''); initRe
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4270bfced15e0e73154b13468c7c9ad9.html">core</a></li><li class="navelem"><a class="el" href="dir_e07ac01d65d17e829451634057f91345.html">math</a></li><li class="navelem"><a class="el" href="polynomial_8h.html">polynomial.h</a></li>
-    <li class="footer">Generated on Wed Oct 20 2021 13:48:26 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Thu Oct 21 2021 13:00:25 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

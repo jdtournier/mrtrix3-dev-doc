@@ -25,6 +25,8 @@ var class_m_r_1_1_progress_bar =
     [ "data", "class_m_r_1_1_progress_bar.html#a00cf6188e9d2a0871d1781a44055740c", null ],
     [ "display_func", "class_m_r_1_1_progress_bar.html#a57e4975c2989e741c24feecc0d94c398", null ],
     [ "done_func", "class_m_r_1_1_progress_bar.html#ad2f5a897d4aca25784de51b0bb3e952f", null ],
+    [ "first_time", "class_m_r_1_1_progress_bar.html#a5d41f0c4c9e6e931c1c94b59cc439feb", null ],
+    [ "last_value", "class_m_r_1_1_progress_bar.html#a6ee25633784b3b1af18d165a252f7e70", null ],
     [ "mutex", "class_m_r_1_1_progress_bar.html#afa60e56d5b742d428787a769790cf085", null ],
     [ "notification_is_genuine", "class_m_r_1_1_progress_bar.html#a3783345c223e86b19a412dce4ae0fd41", null ],
     [ "notifier", "class_m_r_1_1_progress_bar.html#ad3e007e53ccdcd90b7d6851d759fa3dc", null ],

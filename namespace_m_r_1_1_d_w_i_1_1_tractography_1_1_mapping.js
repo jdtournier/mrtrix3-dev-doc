@@ -75,7 +75,7 @@ var namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping =
     [ "operator<<", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping.html#adef713e96971958f914043ecc6190a58", null ],
     [ "oversample_header", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping.html#afabe5f54fe3d0cd108e3bbd6612ea103", null ],
     [ "round", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping.html#a3190521f3bff7165b23cf001df8ba83b", null ],
-    [ "vec2DEC", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping.html#a01911edbff00378615a26186a4a19ccd", null ],
+    [ "vec2DEC", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping.html#aba12a0edb61fab46d1cd37c8e04e9848", null ],
     [ "contrasts", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping.html#aabab0b14dee9b810620d2afea898e964", null ],
     [ "track_statistics", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping.html#a444d7b584b553e99c45c2db2d64e5026", null ],
     [ "voxel_statistics", "namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping.html#a1bc27cc64ba468710dc6d893b026e7c7", null ],

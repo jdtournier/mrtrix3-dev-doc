@@ -1,5 +1,6 @@
 var class_m_r_1_1_exception =
 [
+    [ "Exception", "class_m_r_1_1_exception.html#ae8aa1871261396b7feb3c143893557cc", null ],
     [ "Exception", "class_m_r_1_1_exception.html#aefec3950c232df9e33c4f29f72b49c69", null ],
     [ "Exception", "class_m_r_1_1_exception.html#aa7a1c0ddea884168a8d3c2e69305ff21", null ],
     [ "display", "class_m_r_1_1_exception.html#a7d550d31f65ce6ca16f990d30edaad9e", null ],

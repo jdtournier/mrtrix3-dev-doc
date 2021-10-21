@@ -46,7 +46,7 @@ var searchData=
   ['index_5fimage_43',['index_image',['../class_m_r_1_1_fixel_1_1_matrix_1_1_reader.html#af588ec9e1d1b2ef1dcc213c9565eee1d',1,'MR::Fixel::Matrix::Reader']]],
   ['index_5finvalid_5flower_5fupper_44',['index_invalid_lower_upper',['../class_m_r_1_1_adapter_1_1_regrid.html#a4bc8d8c7003c2ccc1f203f826da03985',1,'MR::Adapter::Regrid']]],
   ['index_5frequires_5fbound_5fcheck_45',['index_requires_bound_check',['../class_m_r_1_1_adapter_1_1_regrid.html#a97f874bcc43a72b6756519cf22548db9',1,'MR::Adapter::Regrid']]],
-  ['indices_46',['indices',['../class_m_r_1_1_file_1_1_parsed_name.html#abc05696790449d3c91a30c798043862d',1,'MR::File::ParsedName']]],
+  ['indices_46',['indices',['../class_m_r_1_1_file_1_1_parsed_name.html#afc183fe91dd1b0bdc473c6909d69763d',1,'MR::File::ParsedName']]],
   ['inf_47',['Inf',['../namespace_m_r.html#a8dc392684a5a46072368904936029734',1,'MR']]],
   ['info_48',['info',['../class_m_r_1_1_g_u_i_1_1_lighting_settings.html#a1593a0834b8819e3dcdec43b37583ed3',1,'MR::GUI::LightingSettings::info()'],['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_1_1_track_mapper_base.html#a0512264e0ec2cdedb3fad3e8d34fe612',1,'MR::DWI::Tractography::Mapping::TrackMapperBase::info()'],['../class_m_r_1_1_algo_1_1_histogram_1_1_data.html#aa8a8a623c446bfde5b93d611a1a7c1da',1,'MR::Algo::Histogram::Data::info()']]],
   ['init_5ff_49',['init_F',['../class_m_r_1_1_d_w_i_1_1_s_deconv_1_1_c_s_d.html#a8991450c61a57389f062bd2f2998d155',1,'MR::DWI::SDeconv::CSD']]],

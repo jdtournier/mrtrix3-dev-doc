@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0.0-dirty</div>
+   <div id="projectbrief">Version 3.0.3-23-g193aa0ad</div>
   </td>
  </tr>
  </tbody>
@@ -87,7 +87,7 @@ $(document).ready(function(){initNavTree('writer_8h_source.html',''); initResiza
   <div class="headertitle"><div class="title">writer.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="writer_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/* Copyright (c) 2008-2019 the MRtrix3 contributors.</span></div>
+<a href="writer_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/* Copyright (c) 2008-2021 the MRtrix3 contributors.</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment"> *</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment"> * This Source Code Form is subject to the terms of the Mozilla Public</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment"> * License, v. 2.0. If a copy of the MPL was not distributed with this</span></div>
@@ -366,8 +366,8 @@ $(document).ready(function(){initNavTree('writer_8h_source.html',''); initResiza
 <div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span> </div>
 <div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span> </div>
 <div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span>          <span class="comment">// Convenience functions for Directionally-Encoded Colour processing</span></div>
-<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span>          <a class="code hl_typedef" href="namespace_eigen.html#a614e7946e0926e533cf7d49a487ce245">Eigen::Vector3</a> get_dec ();</div>
-<div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span>          <span class="keywordtype">void</span>           set_dec (<span class="keyword">const</span> <a class="code hl_typedef" href="namespace_eigen.html#a614e7946e0926e533cf7d49a487ce245">Eigen::Vector3</a>&amp;);</div>
+<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span>          Eigen::Vector3d get_dec ();</div>
+<div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span>          <span class="keywordtype">void</span>           set_dec (<span class="keyword">const</span> Eigen::Vector3d&amp;);</div>
 <div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span> </div>
 <div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span>          <span class="comment">// Convenience functions for Track Orientation Distribution processing</span></div>
 <div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span>          <span class="keywordtype">void</span> get_tod (      <a class="code hl_typedef" href="namespace_m_r_1_1_math_1_1_stats.html#a8083580de5a3d0035b30fe5cf299bf0d">VoxelTOD::vector_type</a>&amp;);</div>
@@ -547,10 +547,10 @@ $(document).ready(function(){initNavTree('writer_8h_source.html',''); initResiza
 <div class="line"><a id="l00458" name="l00458"></a><span class="lineno">  458</span> </div>
 <div class="line"><a id="l00459" name="l00459"></a><span class="lineno">  459</span> </div>
 <div class="line"><a id="l00460" name="l00460"></a><span class="lineno">  460</span>        <span class="keyword">template</span> &lt;<span class="keyword">typename</span> value_type&gt;</div>
-<div class="line"><a id="l00461" name="l00461"></a><span class="lineno">  461</span>          <a class="code hl_typedef" href="namespace_eigen.html#a614e7946e0926e533cf7d49a487ce245">Eigen::Vector3</a> MapWriter&lt;value_type&gt;::get_dec ()</div>
+<div class="line"><a id="l00461" name="l00461"></a><span class="lineno">  461</span>          Eigen::Vector3d MapWriter&lt;value_type&gt;::get_dec ()</div>
 <div class="line"><a id="l00462" name="l00462"></a><span class="lineno">  462</span>          {</div>
 <div class="line"><a id="l00463" name="l00463"></a><span class="lineno">  463</span>            assert (type == <a class="code hl_enumvalue" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping.html#a89a945a433c16dd9dec81f827d6226b9a6089739bde8a2ebf8ce94018a39c9bb7">DEC</a>);</div>
-<div class="line"><a id="l00464" name="l00464"></a><span class="lineno">  464</span>            <a class="code hl_typedef" href="namespace_eigen.html#a614e7946e0926e533cf7d49a487ce245">Eigen::Vector3</a> <a class="code hl_function" href="group__spherical__harmonics.html#gac405578b4137cf1c22a0cf646d260b05">value</a>;</div>
+<div class="line"><a id="l00464" name="l00464"></a><span class="lineno">  464</span>            Eigen::Vector3d <a class="code hl_function" href="group__spherical__harmonics.html#gac405578b4137cf1c22a0cf646d260b05">value</a>;</div>
 <div class="line"><a id="l00465" name="l00465"></a><span class="lineno">  465</span>            buffer.index(3) = 0; <a class="code hl_function" href="group__spherical__harmonics.html#gac405578b4137cf1c22a0cf646d260b05">value</a>[0] = buffer.value();</div>
 <div class="line"><a id="l00466" name="l00466"></a><span class="lineno">  466</span>            buffer.index(3)++;   <a class="code hl_function" href="group__spherical__harmonics.html#gac405578b4137cf1c22a0cf646d260b05">value</a>[1] = buffer.value();</div>
 <div class="line"><a id="l00467" name="l00467"></a><span class="lineno">  467</span>            buffer.index(3)++;   <a class="code hl_function" href="group__spherical__harmonics.html#gac405578b4137cf1c22a0cf646d260b05">value</a>[2] = buffer.value();</div>
@@ -558,7 +558,7 @@ $(document).ready(function(){initNavTree('writer_8h_source.html',''); initResiza
 <div class="line"><a id="l00469" name="l00469"></a><span class="lineno">  469</span>          }</div>
 <div class="line"><a id="l00470" name="l00470"></a><span class="lineno">  470</span> </div>
 <div class="line"><a id="l00471" name="l00471"></a><span class="lineno">  471</span>        <span class="keyword">template</span> &lt;<span class="keyword">typename</span> value_type&gt;</div>
-<div class="line"><a id="l00472" name="l00472"></a><span class="lineno">  472</span>          <span class="keywordtype">void</span> MapWriter&lt;value_type&gt;::set_dec (<span class="keyword">const</span> <a class="code hl_typedef" href="namespace_eigen.html#a614e7946e0926e533cf7d49a487ce245">Eigen::Vector3</a>&amp; <a class="code hl_function" href="group__spherical__harmonics.html#gac405578b4137cf1c22a0cf646d260b05">value</a>)</div>
+<div class="line"><a id="l00472" name="l00472"></a><span class="lineno">  472</span>          <span class="keywordtype">void</span> MapWriter&lt;value_type&gt;::set_dec (<span class="keyword">const</span> Eigen::Vector3d&amp; <a class="code hl_function" href="group__spherical__harmonics.html#gac405578b4137cf1c22a0cf646d260b05">value</a>)</div>
 <div class="line"><a id="l00473" name="l00473"></a><span class="lineno">  473</span>          {</div>
 <div class="line"><a id="l00474" name="l00474"></a><span class="lineno">  474</span>            assert (type == <a class="code hl_enumvalue" href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping.html#a89a945a433c16dd9dec81f827d6226b9a6089739bde8a2ebf8ce94018a39c9bb7">DEC</a>);</div>
 <div class="line"><a id="l00475" name="l00475"></a><span class="lineno">  475</span>            buffer.index(3) = 0; buffer.value() = <a class="code hl_function" href="group__spherical__harmonics.html#gac405578b4137cf1c22a0cf646d260b05">value</a>[0];</div>
@@ -633,7 +633,6 @@ $(document).ready(function(){initNavTree('writer_8h_source.html',''); initResiza
 <div class="ttc" id="agroup__loop_html_ga2210102d90cf5ddfe7089fc025e7a3d8"><div class="ttname"><a href="group__loop.html#ga2210102d90cf5ddfe7089fc025e7a3d8">MR::Loop</a></div><div class="ttdeci">FORCE_INLINE LoopAlongAxes Loop()</div><div class="ttdef"><b>Definition:</b> <a href="algo_2loop_8h_source.html#l00419">loop.h:419</a></div></div>
 <div class="ttc" id="agroup__spherical__harmonics_html_gac405578b4137cf1c22a0cf646d260b05"><div class="ttname"><a href="group__spherical__harmonics.html#gac405578b4137cf1c22a0cf646d260b05">MR::Math::SH::value</a></div><div class="ttdeci">VectorType::Scalar value(const VectorType &amp;coefs, typename VectorType::Scalar cos_elevation, typename VectorType::Scalar cos_azimuth, typename VectorType::Scalar sin_azimuth, int lmax)</div><div class="ttdef"><b>Definition:</b> <a href="_s_h_8h_source.html#l00233">SH.h:233</a></div></div>
 <div class="ttc" id="amemory_8h_html"><div class="ttname"><a href="memory_8h.html">memory.h</a></div></div>
-<div class="ttc" id="anamespace_eigen_html_a614e7946e0926e533cf7d49a487ce245"><div class="ttname"><a href="namespace_eigen.html#a614e7946e0926e533cf7d49a487ce245">Eigen::Vector3</a></div><div class="ttdeci">Matrix&lt; MR::default_type, 3, 1 &gt; Vector3</div><div class="ttdef"><b>Definition:</b> <a href="src_2surface_2types_8h_source.html#l00326">types.h:326</a></div></div>
 <div class="ttc" id="anamespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_html_a11697b8a24621d1aab532b3f6af729bb"><div class="ttname"><a href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping.html#a11697b8a24621d1aab532b3f6af729bb">MR::DWI::Tractography::Mapping::vox_stat_t</a></div><div class="ttdeci">vox_stat_t</div><div class="ttdef"><b>Definition:</b> <a href="twi__stats_8h_source.html#l00028">twi_stats.h:28</a></div></div>
 <div class="ttc" id="anamespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_html_a11697b8a24621d1aab532b3f6af729bba6361d77931494f095d10c63c069cd987"><div class="ttname"><a href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping.html#a11697b8a24621d1aab532b3f6af729bba6361d77931494f095d10c63c069cd987">MR::DWI::Tractography::Mapping::V_MAX</a></div><div class="ttdeci">@ V_MAX</div><div class="ttdef"><b>Definition:</b> <a href="twi__stats_8h_source.html#l00028">twi_stats.h:28</a></div></div>
 <div class="ttc" id="anamespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping_html_a11697b8a24621d1aab532b3f6af729bba6a371889661981da84b47550a804d1e7"><div class="ttname"><a href="namespace_m_r_1_1_d_w_i_1_1_tractography_1_1_mapping.html#a11697b8a24621d1aab532b3f6af729bba6a371889661981da84b47550a804d1e7">MR::DWI::Tractography::Mapping::V_SUM</a></div><div class="ttdeci">@ V_SUM</div><div class="ttdef"><b>Definition:</b> <a href="twi__stats_8h_source.html#l00028">twi_stats.h:28</a></div></div>
@@ -651,7 +650,7 @@ $(document).ready(function(){initNavTree('writer_8h_source.html',''); initResiza
 <div class="ttc" id="anamespace_m_r_1_1_stride_html_ad0d8a3bc4524bfcc4f0d89190079ffea"><div class="ttname"><a href="namespace_m_r_1_1_stride.html#ad0d8a3bc4524bfcc4f0d89190079ffea">MR::Stride::set</a></div><div class="ttdeci">void set(HeaderType &amp;header, const List &amp;stride)</div><div class="ttdoc">set the strides of header from a vector&lt;ssize_t&gt;</div><div class="ttdef"><b>Definition:</b> <a href="stride_8h_source.html#l00135">stride.h:135</a></div></div>
 <div class="ttc" id="anamespace_m_r_html"><div class="ttname"><a href="namespace_m_r.html">MR</a></div><div class="ttdef"><b>Definition:</b> <a href="core_2adapter_2base_8h_source.html#l00023">base.h:24</a></div></div>
 <div class="ttc" id="anamespace_m_r_html_a43bad69d4b870a61e1d93cd69b7b1270"><div class="ttname"><a href="namespace_m_r.html#a43bad69d4b870a61e1d93cd69b7b1270">MR::default_type</a></div><div class="ttdeci">double default_type</div><div class="ttdoc">the default type used throughout MRtrix</div><div class="ttdef"><b>Definition:</b> <a href="src_2surface_2types_8h_source.html#l00228">types.h:228</a></div></div>
-<div class="ttc" id="anamespace_m_r_html_a7dcea37fdb5fba1961d121fca36c22c4"><div class="ttname"><a href="namespace_m_r.html#a7dcea37fdb5fba1961d121fca36c22c4">MR::str</a></div><div class="ttdeci">std::string str(const T &amp;value, int precision=0)</div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00205">mrtrix.h:205</a></div></div>
+<div class="ttc" id="anamespace_m_r_html_a7dcea37fdb5fba1961d121fca36c22c4"><div class="ttname"><a href="namespace_m_r.html#a7dcea37fdb5fba1961d121fca36c22c4">MR::str</a></div><div class="ttdeci">std::string str(const T &amp;value, int precision=0)</div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00247">mrtrix.h:247</a></div></div>
 <div class="ttc" id="anamespace_m_r_html_af45966711f85d38007f47df7500ca962"><div class="ttname"><a href="namespace_m_r.html#af45966711f85d38007f47df7500ca962">MR::save</a></div><div class="ttdeci">std::enable_if&lt; is_adapter_type&lt; typenamestd::remove_reference&lt; ImageType &gt;::type &gt;::value, std::string &gt;::type save(ImageType &amp;&amp;x, const std::string &amp;filename, bool use_multi_threading=true)</div><div class="ttdoc">save contents of an existing image to file (for debugging only)</div><div class="ttdef"><b>Definition:</b> <a href="image_8h_source.html#l00523">image.h:523</a></div></div>
 <div class="ttc" id="aordered__thread__queue_8h_html_a3f42f10d93f6edb91d7d3f6edad25921"><div class="ttname"><a href="ordered__thread__queue_8h.html#a3f42f10d93f6edb91d7d3f6edad25921">index</a></div><div class="ttdeci">size_t index</div><div class="ttdef"><b>Definition:</b> <a href="ordered__thread__queue_8h_source.html#l00038">ordered_thread_queue.h:38</a></div></div>
 <div class="ttc" id="apath_8h_html"><div class="ttname"><a href="path_8h.html">path.h</a></div></div>
@@ -665,7 +664,7 @@ $(document).ready(function(){initNavTree('writer_8h_source.html',''); initResiza
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_6da8e6f1bfdb5540a85bd819d2a13962.html">dwi</a></li><li class="navelem"><a class="el" href="dir_6f8fcd489e430c1a1b22716f7655ad56.html">tractography</a></li><li class="navelem"><a class="el" href="dir_babb133fdd3988d0466ad2e2cb845fda.html">mapping</a></li><li class="navelem"><a class="el" href="writer_8h.html">writer.h</a></li>
-    <li class="footer">Generated on Wed Oct 20 2021 13:48:27 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Thu Oct 21 2021 13:00:25 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

@@ -25,7 +25,7 @@ var namespace_m_r_1_1_surface =
     [ "QuadList", "namespace_m_r_1_1_surface.html#a68bf264a74f7c7f17a4e4d1d5dd80989", null ],
     [ "Triangle", "namespace_m_r_1_1_surface.html#ae24f13149588ed2ea0467108dff41ad5", null ],
     [ "TriangleList", "namespace_m_r_1_1_surface.html#a272441be53f5e2e0bba824c14fdbaa0d", null ],
-    [ "Vertex", "namespace_m_r_1_1_surface.html#ad04bf2fae835e14457b713cc9c6b944b", null ],
+    [ "Vertex", "namespace_m_r_1_1_surface.html#afc8b69d7b8083349c516102f242a144a", null ],
     [ "VertexList", "namespace_m_r_1_1_surface.html#a049fa34ec8d800fe3a78da856998f506", null ],
     [ "area", "namespace_m_r_1_1_surface.html#aa401c8a21e86a47d52d030aa013b1f44", null ],
     [ "area", "namespace_m_r_1_1_surface.html#a9f8cad3a0205a69d8d9799a187da03c8", null ],

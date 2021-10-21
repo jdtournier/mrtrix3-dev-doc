@@ -45,21 +45,21 @@ var group___filters =
       [ "scale", "class_m_r_1_1_filter_1_1_mask_clean.html#ad06d12a61e47390928f581c15c78d9df", null ]
     ] ],
     [ "MR::Filter::Median", "class_m_r_1_1_filter_1_1_median.html", [
-      [ "extent", "class_m_r_1_1_filter_1_1_median.html#ae3cef8526dae6b6adce535b870e42198", null ]
+      [ "extent", "class_m_r_1_1_filter_1_1_median.html#a308038d8ad31c329aeada5e582dffbcd", null ]
     ] ],
     [ "MR::Filter::Normalise", "class_m_r_1_1_filter_1_1_normalise.html", [
-      [ "extent", "class_m_r_1_1_filter_1_1_normalise.html#adf221ae29daeb2c554bb0935108b35f3", null ]
+      [ "extent", "class_m_r_1_1_filter_1_1_normalise.html#ab662009a85139048c715c36d03804eab", null ]
     ] ],
     [ "MR::Filter::OptimalThreshold", "class_m_r_1_1_filter_1_1_optimal_threshold.html", null ],
     [ "MR::Filter::Resize", "class_m_r_1_1_filter_1_1_resize.html", [
       [ "interp_type", "class_m_r_1_1_filter_1_1_resize.html#a56ace62ecaa899ffd7b62dfda5997efb", null ],
       [ "out_of_bounds_value", "class_m_r_1_1_filter_1_1_resize.html#aa609b7a54b1c6610e3af3401f1276908", null ],
-      [ "oversampling", "class_m_r_1_1_filter_1_1_resize.html#a716bc0e1264a77b6a1cc7232f73b49c2", null ],
+      [ "oversampling", "class_m_r_1_1_filter_1_1_resize.html#a9c41eea9ba5a9575f1a9e1bd6e965a2b", null ],
       [ "transformation", "class_m_r_1_1_filter_1_1_resize.html#acf18004ad979ef68f68c43778a487f52", null ]
     ] ],
     [ "MR::Filter::Smooth", "class_m_r_1_1_filter_1_1_smooth.html", [
       [ "SmoothFunctor1D", "class_m_r_1_1_filter_1_1_smooth_1_1_smooth_functor1_d.html", null ],
-      [ "extent", "class_m_r_1_1_filter_1_1_smooth.html#a474cbabc419f3b8c466473e35d60d785", null ],
+      [ "extent", "class_m_r_1_1_filter_1_1_smooth.html#a60a181b7a060d4cb05ec1edf9e3df6c6", null ],
       [ "stdev", "class_m_r_1_1_filter_1_1_smooth.html#a0e22b50bfd51e7730ee33adae0e9b341", null ],
       [ "stride_order", "class_m_r_1_1_filter_1_1_smooth.html#aefcbd905a8ccc5665ad6958e0b7592d8", null ],
       [ "zero_boundary", "class_m_r_1_1_filter_1_1_smooth.html#ab230599a62e39e3b5d8668219b84baaa", null ]

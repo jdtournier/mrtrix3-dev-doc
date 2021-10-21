@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0.0-dirty</div>
+   <div id="projectbrief">Version 3.0.3-23-g193aa0ad</div>
   </td>
  </tr>
  </tbody>
@@ -87,7 +87,7 @@ $(document).ready(function(){initNavTree('progressbar_8h_source.html',''); initR
   <div class="headertitle"><div class="title">progressbar.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="progressbar_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/* Copyright (c) 2008-2019 the MRtrix3 contributors.</span></div>
+<a href="progressbar_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/* Copyright (c) 2008-2021 the MRtrix3 contributors.</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment"> *</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment"> * This Source Code Form is subject to the terms of the Mozilla Public</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment"> * License, v. 2.0. If a copy of the MPL was not distributed with this</span></div>
@@ -196,23 +196,23 @@ $(document).ready(function(){initNavTree('progressbar_8h_source.html',''); initR
 <div class="line"><a id="l00162" name="l00162"></a><span class="lineno"><a class="line" href="class_m_r_1_1_progress_bar.html#afa60e56d5b742d428787a769790cf085">  162</a></span>      <span class="keyword">static</span> std::mutex <a class="code hl_variable" href="class_m_r_1_1_progress_bar.html#afa60e56d5b742d428787a769790cf085">mutex</a>;;</div>
 <div class="line"><a id="l00163" name="l00163"></a><span class="lineno"><a class="line" href="class_m_r_1_1_progress_bar.html#a00cf6188e9d2a0871d1781a44055740c">  163</a></span>      <span class="keyword">static</span> <span class="keywordtype">void</span>* <a class="code hl_variable" href="class_m_r_1_1_progress_bar.html#a00cf6188e9d2a0871d1781a44055740c">data</a>;</div>
 <div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span> </div>
-<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>    <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span> </div>
-<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>      <span class="keyword">const</span> <span class="keywordtype">bool</span> show;</div>
-<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span>      std::string _text, _ellipsis;</div>
-<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>      <span class="keywordtype">size_t</span> _value, current_val, next_percent;</div>
-<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>      <span class="keywordtype">double</span> next_time;</div>
-<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>      <span class="keywordtype">float</span> _multiplier;</div>
-<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>      <a class="code hl_class" href="class_m_r_1_1_timer.html">Timer</a> timer;</div>
-<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>      <span class="keywordtype">bool</span> _text_has_been_modified;</div>
-<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span> </div>
-<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span>      <a class="code hl_define" href="src_2surface_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> <span class="keywordtype">void</span> display_now () { <a class="code hl_variable" href="class_m_r_1_1_progress_bar.html#a57e4975c2989e741c24feecc0d94c398">display_func</a> (*<span class="keyword">this</span>); }</div>
-<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span> </div>
-<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span>      <span class="keyword">static</span> <span class="keywordtype">bool</span> progressbar_active;</div>
-<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>  };</div>
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno"><a class="line" href="class_m_r_1_1_progress_bar.html#a5d41f0c4c9e6e931c1c94b59cc439feb">  165</a></span>      <span class="keyword">mutable</span> <span class="keywordtype">bool</span> <a class="code hl_variable" href="class_m_r_1_1_progress_bar.html#a5d41f0c4c9e6e931c1c94b59cc439feb">first_time</a>;</div>
+<div class="line"><a id="l00166" name="l00166"></a><span class="lineno"><a class="line" href="class_m_r_1_1_progress_bar.html#a6ee25633784b3b1af18d165a252f7e70">  166</a></span>      <span class="keyword">mutable</span> <span class="keywordtype">size_t</span> <a class="code hl_variable" href="class_m_r_1_1_progress_bar.html#a6ee25633784b3b1af18d165a252f7e70">last_value</a>;</div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span> </div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span>    <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span> </div>
+<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>      <span class="keyword">const</span> <span class="keywordtype">bool</span> show;</div>
+<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>      std::string _text, _ellipsis;</div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>      <span class="keywordtype">size_t</span> _value, current_val, next_percent;</div>
+<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>      <span class="keywordtype">double</span> next_time;</div>
+<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>      <span class="keywordtype">float</span> _multiplier;</div>
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span>      <a class="code hl_class" href="class_m_r_1_1_timer.html">Timer</a> timer;</div>
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span>      <span class="keywordtype">bool</span> _text_has_been_modified;</div>
+<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span> </div>
+<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>      <a class="code hl_define" href="src_2surface_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> <span class="keywordtype">void</span> display_now () { <a class="code hl_variable" href="class_m_r_1_1_progress_bar.html#a57e4975c2989e741c24feecc0d94c398">display_func</a> (*<span class="keyword">this</span>); }</div>
 <div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span> </div>
-<div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span> </div>
-<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span> </div>
+<div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span>      <span class="keyword">static</span> <span class="keywordtype">bool</span> progressbar_active;</div>
+<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span>  };</div>
 <div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span> </div>
 <div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span> </div>
 <div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span> </div>
@@ -220,169 +220,172 @@ $(document).ready(function(){initNavTree('progressbar_8h_source.html',''); initR
 <div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span> </div>
 <div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span> </div>
 <div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span> </div>
-<div class="line"><a id="l00189" name="l00189"></a><span class="lineno"><a class="line" href="class_m_r_1_1_progress_bar.html#af982fab36da9a8e803850408c028aea3">  189</a></span>  <a class="code hl_define" href="src_2surface_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> <a class="code hl_function" href="class_m_r_1_1_progress_bar.html#a006fd61d9af16cbf3d659815b0f3d5d9">ProgressBar::ProgressBar</a> (<span class="keyword">const</span> std::string&amp; text, <span class="keywordtype">size_t</span> target, <span class="keywordtype">int</span> <a class="code hl_variable" href="namespace_m_r_1_1_app.html#a0f9775805bffa71ef27062a5b74ca175">log_level</a>) :</div>
-<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>    show (<a class="code hl_namespace" href="namespacestd.html">std</a>::this_thread::get_id() == ::<a class="code hl_namespace" href="namespace_m_r.html">MR</a>::App::<a class="code hl_variable" href="namespace_m_r_1_1_app.html#ab663f38baa2c64a86e88e72f18fb8696">main_thread_ID</a> &amp;&amp; !progressbar_active &amp;&amp; App::<a class="code hl_variable" href="namespace_m_r_1_1_app.html#a0f9775805bffa71ef27062a5b74ca175">log_level</a> &gt;= <a class="code hl_variable" href="namespace_m_r_1_1_app.html#a0f9775805bffa71ef27062a5b74ca175">log_level</a>),</div>
-<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>    _text (text),</div>
-<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span>    _ellipsis (<span class="stringliteral">&quot;... &quot;</span>),</div>
-<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>    _value (0),</div>
-<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span>    current_val (0),</div>
-<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>    next_percent (0),</div>
-<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span>    next_time (0.0),</div>
-<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>    _multiplier (0.0),</div>
-<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span>    _text_has_been_modified (false) {</div>
-<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span>      <span class="keywordflow">if</span> (show) {</div>
-<div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span>        <a class="code hl_function" href="class_m_r_1_1_progress_bar.html#a9c16c60c517f29ad5adf827d1cf1c0c9">set_max</a> (target);</div>
-<div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span>        progressbar_active = <span class="keyword">true</span>;</div>
-<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span>      }</div>
-<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span>    }</div>
-<div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span> </div>
-<div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span> </div>
-<div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span> </div>
-<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span> </div>
-<div class="line"><a id="l00208" name="l00208"></a><span class="lineno"><a class="line" href="class_m_r_1_1_progress_bar.html#a9c16c60c517f29ad5adf827d1cf1c0c9">  208</a></span>  <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_m_r_1_1_progress_bar.html#a9c16c60c517f29ad5adf827d1cf1c0c9">ProgressBar::set_max</a> (<span class="keywordtype">size_t</span> target)</div>
-<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span>  {</div>
-<div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span>    <span class="keywordflow">if</span> (!show)</div>
-<div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span>      <span class="keywordflow">return</span>;</div>
-<div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span>    <span class="keywordflow">if</span> (target) {</div>
-<div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span>      _multiplier = 0.01 * target;</div>
-<div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span>      next_percent = _multiplier;</div>
-<div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span>      <span class="keywordflow">if</span> (!next_percent)</div>
-<div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span>        next_percent = 1;</div>
-<div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span>    }</div>
-<div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span>    <span class="keywordflow">else</span> {</div>
-<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span>      _multiplier = 0.0;</div>
-<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span>      next_time = <a class="code hl_define" href="progressbar_8h.html#a219c106f2e121ad5003ab58b121a98aa">BUSY_INTERVAL</a>;</div>
-<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span>      timer.<a class="code hl_function" href="class_m_r_1_1_timer.html#a0f0059cf7b4dba15a0b1505ca59c905d">start</a>();</div>
-<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>    }</div>
-<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>  }</div>
-<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span> </div>
+<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span> </div>
+<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span> </div>
+<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span> </div>
+<div class="line"><a id="l00192" name="l00192"></a><span class="lineno"><a class="line" href="class_m_r_1_1_progress_bar.html#af982fab36da9a8e803850408c028aea3">  192</a></span>  <a class="code hl_define" href="src_2surface_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> <a class="code hl_function" href="class_m_r_1_1_progress_bar.html#a006fd61d9af16cbf3d659815b0f3d5d9">ProgressBar::ProgressBar</a> (<span class="keyword">const</span> std::string&amp; text, <span class="keywordtype">size_t</span> target, <span class="keywordtype">int</span> <a class="code hl_variable" href="namespace_m_r_1_1_app.html#a0f9775805bffa71ef27062a5b74ca175">log_level</a>) :</div>
+<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>    first_time (true),</div>
+<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span>    last_value (0),</div>
+<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>    show (<a class="code hl_namespace" href="namespacestd.html">std</a>::this_thread::get_id() == ::<a class="code hl_namespace" href="namespace_m_r.html">MR</a>::App::<a class="code hl_variable" href="namespace_m_r_1_1_app.html#ab663f38baa2c64a86e88e72f18fb8696">main_thread_ID</a> &amp;&amp; !progressbar_active &amp;&amp; App::<a class="code hl_variable" href="namespace_m_r_1_1_app.html#a0f9775805bffa71ef27062a5b74ca175">log_level</a> &gt;= <a class="code hl_variable" href="namespace_m_r_1_1_app.html#a0f9775805bffa71ef27062a5b74ca175">log_level</a>),</div>
+<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span>    _text (text),</div>
+<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>    _ellipsis (<span class="stringliteral">&quot;...&quot;</span>),</div>
+<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span>    _value (0),</div>
+<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span>    current_val (0),</div>
+<div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span>    next_percent (0),</div>
+<div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span>    next_time (0.0),</div>
+<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span>    _multiplier (0.0),</div>
+<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span>    _text_has_been_modified (false) {</div>
+<div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span>      <span class="keywordflow">if</span> (show) {</div>
+<div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span>        <a class="code hl_function" href="class_m_r_1_1_progress_bar.html#a9c16c60c517f29ad5adf827d1cf1c0c9">set_max</a> (target);</div>
+<div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span>        progressbar_active = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span>      }</div>
+<div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span>    }</div>
+<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span> </div>
+<div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span> </div>
+<div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span> </div>
+<div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span> </div>
+<div class="line"><a id="l00213" name="l00213"></a><span class="lineno"><a class="line" href="class_m_r_1_1_progress_bar.html#a9c16c60c517f29ad5adf827d1cf1c0c9">  213</a></span>  <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_m_r_1_1_progress_bar.html#a9c16c60c517f29ad5adf827d1cf1c0c9">ProgressBar::set_max</a> (<span class="keywordtype">size_t</span> target)</div>
+<div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span>  {</div>
+<div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span>    <span class="keywordflow">if</span> (!show)</div>
+<div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span>      <span class="keywordflow">return</span>;</div>
+<div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span>    <span class="keywordflow">if</span> (target) {</div>
+<div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span>      _multiplier = 0.01 * target;</div>
+<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span>    }</div>
+<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span>    <span class="keywordflow">else</span> {</div>
+<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span>      _multiplier = 0.0;</div>
+<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>      timer.<a class="code hl_function" href="class_m_r_1_1_timer.html#a0f0059cf7b4dba15a0b1505ca59c905d">start</a>();</div>
+<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>    }</div>
+<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>  }</div>
 <div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span> </div>
 <div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span> </div>
-<div class="line"><a id="l00227" name="l00227"></a><span class="lineno"><a class="line" href="class_m_r_1_1_progress_bar.html#af0d8c9d39ce73ee7127b25bd381d2ed5">  227</a></span>  <a class="code hl_define" href="src_2surface_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> <span class="keywordtype">void</span> <a class="code hl_function" href="class_m_r_1_1_progress_bar.html#af0d8c9d39ce73ee7127b25bd381d2ed5">ProgressBar::set_text</a> (<span class="keyword">const</span> std::string&amp; new_text)</div>
-<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span>  {</div>
-<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span>    <span class="keywordflow">if</span> (!show)</div>
-<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span>      <span class="keywordflow">return</span>;</div>
-<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>    _text_has_been_modified = <span class="keyword">true</span>;</div>
-<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span>    <span class="keywordflow">if</span> (new_text.size()) {</div>
-<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span><span class="preprocessor">#ifdef MRTRIX_WINDOWS</span></div>
-<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span>      <span class="keywordtype">size_t</span> old_size = _text.size();</div>
-<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span>      _text = new_text;</div>
-<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span><span class="preprocessor">#ifdef MRTRIX_WINDOWS</span></div>
-<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span>      <span class="keywordflow">if</span> (_text.size() &lt; old_size)</div>
-<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span>        _text.resize (old_size, <span class="charliteral">&#39; &#39;</span>);</div>
-<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span>    }</div>
-<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>  }</div>
-<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span> </div>
+<div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span> </div>
+<div class="line"><a id="l00228" name="l00228"></a><span class="lineno"><a class="line" href="class_m_r_1_1_progress_bar.html#af0d8c9d39ce73ee7127b25bd381d2ed5">  228</a></span>  <a class="code hl_define" href="src_2surface_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> <span class="keywordtype">void</span> <a class="code hl_function" href="class_m_r_1_1_progress_bar.html#af0d8c9d39ce73ee7127b25bd381d2ed5">ProgressBar::set_text</a> (<span class="keyword">const</span> std::string&amp; new_text)</div>
+<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span>  {</div>
+<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span>    <span class="keywordflow">if</span> (!show)</div>
+<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>      <span class="keywordflow">return</span>;</div>
+<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span>    _text_has_been_modified = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span>    <span class="keywordflow">if</span> (new_text.size()) {</div>
+<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span><span class="preprocessor">#ifdef MRTRIX_WINDOWS</span></div>
+<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span>      <span class="keywordtype">size_t</span> old_size = _text.size();</div>
+<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span>      _text = new_text;</div>
+<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span><span class="preprocessor">#ifdef MRTRIX_WINDOWS</span></div>
+<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span>      <span class="keywordflow">if</span> (_text.size() &lt; old_size)</div>
+<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span>        _text.resize (old_size, <span class="charliteral">&#39; &#39;</span>);</div>
+<div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>    }</div>
+<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span>  }</div>
 <div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span> </div>
 <div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span> </div>
 <div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span> </div>
 <div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span> </div>
-<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span>  <span class="keyword">template</span> &lt;<span class="keyword">class</span> TextFunc&gt;</div>
-<div class="line"><a id="l00249" name="l00249"></a><span class="lineno"><a class="line" href="class_m_r_1_1_progress_bar.html#ade5483b0e6e611680b7cffa36ad227dc">  249</a></span>    <a class="code hl_define" href="src_2surface_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> <span class="keywordtype">void</span> <a class="code hl_function" href="class_m_r_1_1_progress_bar.html#ade5483b0e6e611680b7cffa36ad227dc">ProgressBar::update</a> (TextFunc&amp;&amp; text_func, <span class="keyword">const</span> <span class="keywordtype">bool</span> increment)</div>
-<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span>    {</div>
-<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span>      <span class="keywordflow">if</span> (!show)</div>
-<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span>        <span class="keywordflow">return</span>;</div>
-<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span>      <span class="keywordtype">double</span> time = timer.<a class="code hl_function" href="class_m_r_1_1_timer.html#a80438b68199bf2a6e9de2faf197546d1">elapsed</a>();</div>
-<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span>      <span class="keywordflow">if</span> (increment &amp;&amp; _multiplier) {</div>
-<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span>        <span class="keywordflow">if</span> (++current_val &gt;= next_percent) {</div>
-<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span>          <a class="code hl_function" href="class_m_r_1_1_progress_bar.html#af0d8c9d39ce73ee7127b25bd381d2ed5">set_text</a> (text_func());</div>
-<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span>          _ellipsis.clear();</div>
-<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span>          _value = <a class="code hl_function" href="group__elfun.html#gaeeb75e97de19514f44192b994b10f81f">std::round</a> (current_val / _multiplier);</div>
-<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span>          next_percent = <a class="code hl_function" href="group__elfun.html#ga929c0b6d5d5154833c7387b2c65b0775">std::ceil</a> ((_value+1) * _multiplier);</div>
-<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>          next_time = time;</div>
-<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span>          display_now();</div>
-<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span>          <span class="keywordflow">return</span>;</div>
-<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>        }</div>
-<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span>      }</div>
-<div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span>      <span class="keywordflow">if</span> (time &gt;= next_time) {</div>
-<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span>        <a class="code hl_function" href="class_m_r_1_1_progress_bar.html#af0d8c9d39ce73ee7127b25bd381d2ed5">set_text</a> (text_func());</div>
-<div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span>        _ellipsis.clear();</div>
-<div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span>        <span class="keywordflow">if</span> (_multiplier)</div>
-<div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span>          next_time = time + <a class="code hl_define" href="progressbar_8h.html#a219c106f2e121ad5003ab58b121a98aa">BUSY_INTERVAL</a>;</div>
-<div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span>        <span class="keywordflow">else</span> {</div>
-<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>          _value = time / <a class="code hl_define" href="progressbar_8h.html#a219c106f2e121ad5003ab58b121a98aa">BUSY_INTERVAL</a>;</div>
-<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span>          <span class="keywordflow">do</span> { next_time += <a class="code hl_define" href="progressbar_8h.html#a219c106f2e121ad5003ab58b121a98aa">BUSY_INTERVAL</a>; }</div>
-<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span>          <span class="keywordflow">while</span> (next_time &lt;= time);</div>
-<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span>        }</div>
-<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span>        display_now();</div>
-<div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span>      }</div>
-<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span>    }</div>
-<div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span> </div>
+<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span> </div>
+<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span>  <span class="keyword">template</span> &lt;<span class="keyword">class</span> TextFunc&gt;</div>
+<div class="line"><a id="l00250" name="l00250"></a><span class="lineno"><a class="line" href="class_m_r_1_1_progress_bar.html#ade5483b0e6e611680b7cffa36ad227dc">  250</a></span>    <a class="code hl_define" href="src_2surface_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> <span class="keywordtype">void</span> <a class="code hl_function" href="class_m_r_1_1_progress_bar.html#ade5483b0e6e611680b7cffa36ad227dc">ProgressBar::update</a> (TextFunc&amp;&amp; text_func, <span class="keyword">const</span> <span class="keywordtype">bool</span> increment)</div>
+<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span>    {</div>
+<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span>      <span class="keywordflow">if</span> (!show)</div>
+<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span>      <span class="keywordtype">double</span> time = timer.<a class="code hl_function" href="class_m_r_1_1_timer.html#a80438b68199bf2a6e9de2faf197546d1">elapsed</a>();</div>
+<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span>      <span class="keywordflow">if</span> (increment &amp;&amp; _multiplier) {</div>
+<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span>        <span class="keywordflow">if</span> (++current_val &gt;= next_percent) {</div>
+<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span>          <a class="code hl_function" href="class_m_r_1_1_progress_bar.html#af0d8c9d39ce73ee7127b25bd381d2ed5">set_text</a> (text_func());</div>
+<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span>          _ellipsis.clear();</div>
+<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span>          _value = <a class="code hl_function" href="group__elfun.html#gaeeb75e97de19514f44192b994b10f81f">std::round</a> (current_val / _multiplier);</div>
+<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>          next_percent = <a class="code hl_function" href="group__elfun.html#ga929c0b6d5d5154833c7387b2c65b0775">std::ceil</a> ((_value+1) * _multiplier);</div>
+<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span>          next_time = time;</div>
+<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span>          display_now();</div>
+<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>          <span class="keywordflow">return</span>;</div>
+<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span>        }</div>
+<div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span>      }</div>
+<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span>      <span class="keywordflow">if</span> (time &gt;= next_time) {</div>
+<div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span>        <a class="code hl_function" href="class_m_r_1_1_progress_bar.html#af0d8c9d39ce73ee7127b25bd381d2ed5">set_text</a> (text_func());</div>
+<div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span>        _ellipsis.clear();</div>
+<div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span>        <span class="keywordflow">if</span> (_multiplier)</div>
+<div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span>          next_time = time + <a class="code hl_define" href="progressbar_8h.html#a219c106f2e121ad5003ab58b121a98aa">BUSY_INTERVAL</a>;</div>
+<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>        <span class="keywordflow">else</span> {</div>
+<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span>          _value = time / <a class="code hl_define" href="progressbar_8h.html#a219c106f2e121ad5003ab58b121a98aa">BUSY_INTERVAL</a>;</div>
+<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span>          <span class="keywordflow">do</span> { next_time += <a class="code hl_define" href="progressbar_8h.html#a219c106f2e121ad5003ab58b121a98aa">BUSY_INTERVAL</a>; }</div>
+<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span>          <span class="keywordflow">while</span> (next_time &lt;= time);</div>
+<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span>        }</div>
+<div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span>        display_now();</div>
+<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span>      }</div>
+<div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span>    }</div>
 <div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span> </div>
 <div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span> </div>
 <div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span> </div>
-<div class="line"><a id="l00282" name="l00282"></a><span class="lineno"><a class="line" href="class_m_r_1_1_progress_bar.html#a380d74adc8f0f817e00df2674d10405f">  282</a></span>  <a class="code hl_define" href="src_2surface_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> <span class="keywordtype">void</span> <a class="code hl_function" href="class_m_r_1_1_progress_bar.html#a380d74adc8f0f817e00df2674d10405f">ProgressBar::operator++ </a>()</div>
-<div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span>  {</div>
-<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span>    <span class="keywordflow">if</span> (!show)</div>
-<div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span>      <span class="keywordflow">return</span>;</div>
-<div class="line"><a id="l00286" name="l00286"></a><span class="lineno">  286</span>    <span class="keywordflow">if</span> (_multiplier) {</div>
-<div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span>      <span class="keywordflow">if</span> (++current_val &gt;= next_percent) {</div>
-<div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span>        _value = <a class="code hl_function" href="group__elfun.html#gaeeb75e97de19514f44192b994b10f81f">std::round</a> (current_val / _multiplier);</div>
-<div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span>        next_percent = <a class="code hl_function" href="group__elfun.html#ga929c0b6d5d5154833c7387b2c65b0775">std::ceil</a> ((_value+1) * _multiplier);</div>
-<div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span>        display_now();</div>
-<div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span>      }</div>
-<div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span>    }</div>
-<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span>    <span class="keywordflow">else</span> {</div>
-<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span>      <span class="keywordtype">double</span> time = timer.<a class="code hl_function" href="class_m_r_1_1_timer.html#a80438b68199bf2a6e9de2faf197546d1">elapsed</a>();</div>
-<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span>      <span class="keywordflow">if</span> (time &gt;= next_time) {</div>
-<div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span>        _value = time / <a class="code hl_define" href="progressbar_8h.html#a219c106f2e121ad5003ab58b121a98aa">BUSY_INTERVAL</a>;</div>
-<div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span>        <span class="keywordflow">do</span> { next_time += <a class="code hl_define" href="progressbar_8h.html#a219c106f2e121ad5003ab58b121a98aa">BUSY_INTERVAL</a>; }</div>
-<div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span>        <span class="keywordflow">while</span> (next_time &lt;= time);</div>
-<div class="line"><a id="l00299" name="l00299"></a><span class="lineno">  299</span>        display_now();</div>
-<div class="line"><a id="l00300" name="l00300"></a><span class="lineno">  300</span>      }</div>
-<div class="line"><a id="l00301" name="l00301"></a><span class="lineno">  301</span>    }</div>
-<div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span>  }</div>
-<div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span> </div>
+<div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span> </div>
+<div class="line"><a id="l00283" name="l00283"></a><span class="lineno"><a class="line" href="class_m_r_1_1_progress_bar.html#a380d74adc8f0f817e00df2674d10405f">  283</a></span>  <a class="code hl_define" href="src_2surface_2types_8h.html#ac032d233a8ebfcd82fd49d0824eefb18">FORCE_INLINE</a> <span class="keywordtype">void</span> <a class="code hl_function" href="class_m_r_1_1_progress_bar.html#a380d74adc8f0f817e00df2674d10405f">ProgressBar::operator++ </a>()</div>
+<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span>  {</div>
+<div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span>    <span class="keywordflow">if</span> (!show)</div>
+<div class="line"><a id="l00286" name="l00286"></a><span class="lineno">  286</span>      <span class="keywordflow">return</span>;</div>
+<div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span>    <span class="keywordflow">if</span> (_multiplier) {</div>
+<div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span>      <span class="keywordflow">if</span> (++current_val &gt;= next_percent) {</div>
+<div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span>        _value = <a class="code hl_function" href="group__elfun.html#gaeeb75e97de19514f44192b994b10f81f">std::round</a> (current_val / _multiplier);</div>
+<div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span>        next_percent = <a class="code hl_function" href="group__elfun.html#ga929c0b6d5d5154833c7387b2c65b0775">std::ceil</a> ((_value+1) * _multiplier);</div>
+<div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span>        display_now();</div>
+<div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span>      }</div>
+<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span>    }</div>
+<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span>    <span class="keywordflow">else</span> {</div>
+<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span>      <span class="keywordtype">double</span> time = timer.<a class="code hl_function" href="class_m_r_1_1_timer.html#a80438b68199bf2a6e9de2faf197546d1">elapsed</a>();</div>
+<div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span>      <span class="keywordflow">if</span> (time &gt;= next_time) {</div>
+<div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span>        _value = time / <a class="code hl_define" href="progressbar_8h.html#a219c106f2e121ad5003ab58b121a98aa">BUSY_INTERVAL</a>;</div>
+<div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span>        <span class="keywordflow">do</span> { next_time += <a class="code hl_define" href="progressbar_8h.html#a219c106f2e121ad5003ab58b121a98aa">BUSY_INTERVAL</a>; }</div>
+<div class="line"><a id="l00299" name="l00299"></a><span class="lineno">  299</span>        <span class="keywordflow">while</span> (next_time &lt;= time);</div>
+<div class="line"><a id="l00300" name="l00300"></a><span class="lineno">  300</span>        display_now();</div>
+<div class="line"><a id="l00301" name="l00301"></a><span class="lineno">  301</span>      }</div>
+<div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span>    }</div>
+<div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span>  }</div>
 <div class="line"><a id="l00304" name="l00304"></a><span class="lineno">  304</span> </div>
 <div class="line"><a id="l00305" name="l00305"></a><span class="lineno">  305</span> </div>
 <div class="line"><a id="l00306" name="l00306"></a><span class="lineno">  306</span> </div>
 <div class="line"><a id="l00307" name="l00307"></a><span class="lineno">  307</span> </div>
-<div class="line"><a id="l00308" name="l00308"></a><span class="lineno">  308</span>  <span class="keyword">template</span> &lt;<span class="keyword">class</span> ThreadType&gt;</div>
-<div class="line"><a id="l00309" name="l00309"></a><span class="lineno"><a class="line" href="class_m_r_1_1_progress_bar.html#a51b79238848a49499bc86f6117483df2">  309</a></span>    <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_m_r_1_1_progress_bar.html#a51b79238848a49499bc86f6117483df2">ProgressBar::run_update_thread</a> (<span class="keyword">const</span> ThreadType&amp; <a class="code hl_variable" href="thread_8h.html#ae21df96104595c06d582080c7bb34fbe">threads</a>)<span class="keyword"> const</span></div>
-<div class="line"><a id="l00310" name="l00310"></a><span class="lineno">  310</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00311" name="l00311"></a><span class="lineno">  311</span>      <span class="keywordflow">if</span> (!show)</div>
-<div class="line"><a id="l00312" name="l00312"></a><span class="lineno">  312</span>        <span class="keywordflow">return</span>;</div>
-<div class="line"><a id="l00313" name="l00313"></a><span class="lineno">  313</span>      std::unique_lock&lt;std::mutex&gt; lock (<a class="code hl_variable" href="class_m_r_1_1_progress_bar.html#afa60e56d5b742d428787a769790cf085">mutex</a>);</div>
-<div class="line"><a id="l00314" name="l00314"></a><span class="lineno">  314</span>      <span class="keywordflow">while</span> (!<a class="code hl_variable" href="thread_8h.html#ae21df96104595c06d582080c7bb34fbe">threads</a>.finished()) {</div>
-<div class="line"><a id="l00315" name="l00315"></a><span class="lineno">  315</span>        <a class="code hl_variable" href="class_m_r_1_1_progress_bar.html#ad3e007e53ccdcd90b7d6851d759fa3dc">notifier</a>.wait_for (lock, std::chrono::milliseconds(1), []{ <span class="keywordflow">return</span> <a class="code hl_variable" href="class_m_r_1_1_progress_bar.html#a3783345c223e86b19a412dce4ae0fd41">notification_is_genuine</a>; });</div>
-<div class="line"><a id="l00316" name="l00316"></a><span class="lineno">  316</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="class_m_r_1_1_progress_bar.html#a3783345c223e86b19a412dce4ae0fd41">notification_is_genuine</a>) {</div>
-<div class="line"><a id="l00317" name="l00317"></a><span class="lineno">  317</span>          <a class="code hl_variable" href="class_m_r_1_1_progress_bar.html#a9013682940d07c83b0d235a3aa60330f">previous_display_func</a> (*<span class="keyword">this</span>);</div>
-<div class="line"><a id="l00318" name="l00318"></a><span class="lineno">  318</span>          <a class="code hl_variable" href="class_m_r_1_1_progress_bar.html#a3783345c223e86b19a412dce4ae0fd41">notification_is_genuine</a> = <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00319" name="l00319"></a><span class="lineno">  319</span>        }</div>
-<div class="line"><a id="l00320" name="l00320"></a><span class="lineno">  320</span>      }</div>
-<div class="line"><a id="l00321" name="l00321"></a><span class="lineno">  321</span>    }</div>
-<div class="line"><a id="l00322" name="l00322"></a><span class="lineno">  322</span> </div>
-<div class="line"><a id="l00323" name="l00323"></a><span class="lineno">  323</span>}</div>
-<div class="line"><a id="l00324" name="l00324"></a><span class="lineno">  324</span> </div>
-<div class="line"><a id="l00325" name="l00325"></a><span class="lineno">  325</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00326" name="l00326"></a><span class="lineno">  326</span> </div>
+<div class="line"><a id="l00308" name="l00308"></a><span class="lineno">  308</span> </div>
+<div class="line"><a id="l00309" name="l00309"></a><span class="lineno">  309</span>  <span class="keyword">template</span> &lt;<span class="keyword">class</span> ThreadType&gt;</div>
+<div class="line"><a id="l00310" name="l00310"></a><span class="lineno"><a class="line" href="class_m_r_1_1_progress_bar.html#a51b79238848a49499bc86f6117483df2">  310</a></span>    <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_m_r_1_1_progress_bar.html#a51b79238848a49499bc86f6117483df2">ProgressBar::run_update_thread</a> (<span class="keyword">const</span> ThreadType&amp; <a class="code hl_variable" href="thread_8h.html#ae21df96104595c06d582080c7bb34fbe">threads</a>)<span class="keyword"> const</span></div>
+<div class="line"><a id="l00311" name="l00311"></a><span class="lineno">  311</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00312" name="l00312"></a><span class="lineno">  312</span>      <span class="keywordflow">if</span> (!show)</div>
+<div class="line"><a id="l00313" name="l00313"></a><span class="lineno">  313</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><a id="l00314" name="l00314"></a><span class="lineno">  314</span>      std::unique_lock&lt;std::mutex&gt; lock (<a class="code hl_variable" href="class_m_r_1_1_progress_bar.html#afa60e56d5b742d428787a769790cf085">mutex</a>);</div>
+<div class="line"><a id="l00315" name="l00315"></a><span class="lineno">  315</span>      <span class="keywordflow">while</span> (!<a class="code hl_variable" href="thread_8h.html#ae21df96104595c06d582080c7bb34fbe">threads</a>.finished()) {</div>
+<div class="line"><a id="l00316" name="l00316"></a><span class="lineno">  316</span>        <a class="code hl_variable" href="class_m_r_1_1_progress_bar.html#ad3e007e53ccdcd90b7d6851d759fa3dc">notifier</a>.wait_for (lock, std::chrono::milliseconds(1), []{ <span class="keywordflow">return</span> <a class="code hl_variable" href="class_m_r_1_1_progress_bar.html#a3783345c223e86b19a412dce4ae0fd41">notification_is_genuine</a>; });</div>
+<div class="line"><a id="l00317" name="l00317"></a><span class="lineno">  317</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="class_m_r_1_1_progress_bar.html#a3783345c223e86b19a412dce4ae0fd41">notification_is_genuine</a>) {</div>
+<div class="line"><a id="l00318" name="l00318"></a><span class="lineno">  318</span>          <a class="code hl_variable" href="class_m_r_1_1_progress_bar.html#a9013682940d07c83b0d235a3aa60330f">previous_display_func</a> (*<span class="keyword">this</span>);</div>
+<div class="line"><a id="l00319" name="l00319"></a><span class="lineno">  319</span>          <a class="code hl_variable" href="class_m_r_1_1_progress_bar.html#a3783345c223e86b19a412dce4ae0fd41">notification_is_genuine</a> = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00320" name="l00320"></a><span class="lineno">  320</span>        }</div>
+<div class="line"><a id="l00321" name="l00321"></a><span class="lineno">  321</span>      }</div>
+<div class="line"><a id="l00322" name="l00322"></a><span class="lineno">  322</span>    }</div>
+<div class="line"><a id="l00323" name="l00323"></a><span class="lineno">  323</span> </div>
+<div class="line"><a id="l00324" name="l00324"></a><span class="lineno">  324</span>}</div>
+<div class="line"><a id="l00325" name="l00325"></a><span class="lineno">  325</span> </div>
+<div class="line"><a id="l00326" name="l00326"></a><span class="lineno">  326</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00327" name="l00327"></a><span class="lineno">  327</span> </div>
 <div class="ttc" id="aclass_m_r_1_1_progress_bar_html"><div class="ttname"><a href="class_m_r_1_1_progress_bar.html">MR::ProgressBar</a></div><div class="ttdoc">implements a progress meter to provide feedback to the user</div><div class="ttdef"><b>Definition:</b> <a href="progressbar_8h_source.html#l00058">progressbar.h:58</a></div></div>
 <div class="ttc" id="aclass_m_r_1_1_progress_bar_html_a006fd61d9af16cbf3d659815b0f3d5d9"><div class="ttname"><a href="class_m_r_1_1_progress_bar.html#a006fd61d9af16cbf3d659815b0f3d5d9">MR::ProgressBar::ProgressBar</a></div><div class="ttdeci">ProgressBar()</div><div class="ttdoc">Create an unusable ProgressBar.</div><div class="ttdef"><b>Definition:</b> <a href="progressbar_8h_source.html#l00062">progressbar.h:62</a></div></div>
 <div class="ttc" id="aclass_m_r_1_1_progress_bar_html_a00cf6188e9d2a0871d1781a44055740c"><div class="ttname"><a href="class_m_r_1_1_progress_bar.html#a00cf6188e9d2a0871d1781a44055740c">MR::ProgressBar::data</a></div><div class="ttdeci">static void * data</div><div class="ttdef"><b>Definition:</b> <a href="progressbar_8h_source.html#l00163">progressbar.h:162</a></div></div>
 <div class="ttc" id="aclass_m_r_1_1_progress_bar_html_a045d5b20a6506a1450da80d302b2f1f9"><div class="ttname"><a href="class_m_r_1_1_progress_bar.html#a045d5b20a6506a1450da80d302b2f1f9">MR::ProgressBar::~ProgressBar</a></div><div class="ttdeci">~ProgressBar()</div><div class="ttdef"><b>Definition:</b> <a href="progressbar_8h_source.html#l00066">progressbar.h:66</a></div></div>
 <div class="ttc" id="aclass_m_r_1_1_progress_bar_html_a1b154f80cabfbfca64259d832569d804"><div class="ttname"><a href="class_m_r_1_1_progress_bar.html#a1b154f80cabfbfca64259d832569d804">MR::ProgressBar::text_has_been_modified</a></div><div class="ttdeci">bool text_has_been_modified() const</div><div class="ttdef"><b>Definition:</b> <a href="progressbar_8h_source.html#l00097">progressbar.h:97</a></div></div>
 <div class="ttc" id="aclass_m_r_1_1_progress_bar_html_a3783345c223e86b19a412dce4ae0fd41"><div class="ttname"><a href="class_m_r_1_1_progress_bar.html#a3783345c223e86b19a412dce4ae0fd41">MR::ProgressBar::notification_is_genuine</a></div><div class="ttdeci">static bool notification_is_genuine</div><div class="ttdef"><b>Definition:</b> <a href="progressbar_8h_source.html#l00161">progressbar.h:161</a></div></div>
-<div class="ttc" id="aclass_m_r_1_1_progress_bar_html_a380d74adc8f0f817e00df2674d10405f"><div class="ttname"><a href="class_m_r_1_1_progress_bar.html#a380d74adc8f0f817e00df2674d10405f">MR::ProgressBar::operator++</a></div><div class="ttdeci">void operator++()</div><div class="ttdoc">increment the current value by one.</div><div class="ttdef"><b>Definition:</b> <a href="progressbar_8h_source.html#l00282">progressbar.h:282</a></div></div>
+<div class="ttc" id="aclass_m_r_1_1_progress_bar_html_a380d74adc8f0f817e00df2674d10405f"><div class="ttname"><a href="class_m_r_1_1_progress_bar.html#a380d74adc8f0f817e00df2674d10405f">MR::ProgressBar::operator++</a></div><div class="ttdeci">void operator++()</div><div class="ttdoc">increment the current value by one.</div><div class="ttdef"><b>Definition:</b> <a href="progressbar_8h_source.html#l00283">progressbar.h:283</a></div></div>
 <div class="ttc" id="aclass_m_r_1_1_progress_bar_html_a3e5f11ec10b0b3fbeaab8f9d8557df48"><div class="ttname"><a href="class_m_r_1_1_progress_bar.html#a3e5f11ec10b0b3fbeaab8f9d8557df48">MR::ProgressBar::done</a></div><div class="ttdeci">void done()</div><div class="ttdef"><b>Definition:</b> <a href="progressbar_8h_source.html#l00138">progressbar.h:138</a></div></div>
 <div class="ttc" id="aclass_m_r_1_1_progress_bar_html_a42385c2ae1be022665142e016e946263"><div class="ttname"><a href="class_m_r_1_1_progress_bar.html#a42385c2ae1be022665142e016e946263">MR::ProgressBar::operator!</a></div><div class="ttdeci">bool operator!() const</div><div class="ttdoc">returns whether the progress will be shown</div><div class="ttdef"><b>Definition:</b> <a href="progressbar_8h_source.html#l00090">progressbar.h:90</a></div></div>
 <div class="ttc" id="aclass_m_r_1_1_progress_bar_html_a45e7087d71f941a03959343371771eee"><div class="ttname"><a href="class_m_r_1_1_progress_bar.html#a45e7087d71f941a03959343371771eee">MR::ProgressBar::value</a></div><div class="ttdeci">size_t value() const</div><div class="ttdef"><b>Definition:</b> <a href="progressbar_8h_source.html#l00094">progressbar.h:94</a></div></div>
-<div class="ttc" id="aclass_m_r_1_1_progress_bar_html_a51b79238848a49499bc86f6117483df2"><div class="ttname"><a href="class_m_r_1_1_progress_bar.html#a51b79238848a49499bc86f6117483df2">MR::ProgressBar::run_update_thread</a></div><div class="ttdeci">void run_update_thread(const ThreadType &amp;threads) const</div><div class="ttdef"><b>Definition:</b> <a href="progressbar_8h_source.html#l00309">progressbar.h:309</a></div></div>
+<div class="ttc" id="aclass_m_r_1_1_progress_bar_html_a51b79238848a49499bc86f6117483df2"><div class="ttname"><a href="class_m_r_1_1_progress_bar.html#a51b79238848a49499bc86f6117483df2">MR::ProgressBar::run_update_thread</a></div><div class="ttdeci">void run_update_thread(const ThreadType &amp;threads) const</div><div class="ttdef"><b>Definition:</b> <a href="progressbar_8h_source.html#l00310">progressbar.h:310</a></div></div>
 <div class="ttc" id="aclass_m_r_1_1_progress_bar_html_a57e4975c2989e741c24feecc0d94c398"><div class="ttname"><a href="class_m_r_1_1_progress_bar.html#a57e4975c2989e741c24feecc0d94c398">MR::ProgressBar::display_func</a></div><div class="ttdeci">static void(* display_func)(const ProgressBar &amp;p)</div><div class="ttdef"><b>Definition:</b> <a href="progressbar_8h_source.html#l00156">progressbar.h:156</a></div></div>
+<div class="ttc" id="aclass_m_r_1_1_progress_bar_html_a5d41f0c4c9e6e931c1c94b59cc439feb"><div class="ttname"><a href="class_m_r_1_1_progress_bar.html#a5d41f0c4c9e6e931c1c94b59cc439feb">MR::ProgressBar::first_time</a></div><div class="ttdeci">bool first_time</div><div class="ttdef"><b>Definition:</b> <a href="progressbar_8h_source.html#l00165">progressbar.h:165</a></div></div>
 <div class="ttc" id="aclass_m_r_1_1_progress_bar_html_a5fde501e9922999a19fb02f18f55e28a"><div class="ttname"><a href="class_m_r_1_1_progress_bar.html#a5fde501e9922999a19fb02f18f55e28a">MR::ProgressBar::text</a></div><div class="ttdeci">const std::string &amp; text() const</div><div class="ttdef"><b>Definition:</b> <a href="progressbar_8h_source.html#l00098">progressbar.h:98</a></div></div>
+<div class="ttc" id="aclass_m_r_1_1_progress_bar_html_a6ee25633784b3b1af18d165a252f7e70"><div class="ttname"><a href="class_m_r_1_1_progress_bar.html#a6ee25633784b3b1af18d165a252f7e70">MR::ProgressBar::last_value</a></div><div class="ttdeci">size_t last_value</div><div class="ttdef"><b>Definition:</b> <a href="progressbar_8h_source.html#l00166">progressbar.h:166</a></div></div>
 <div class="ttc" id="aclass_m_r_1_1_progress_bar_html_a9013682940d07c83b0d235a3aa60330f"><div class="ttname"><a href="class_m_r_1_1_progress_bar.html#a9013682940d07c83b0d235a3aa60330f">MR::ProgressBar::previous_display_func</a></div><div class="ttdeci">static void(* previous_display_func)(const ProgressBar &amp;p)</div><div class="ttdef"><b>Definition:</b> <a href="progressbar_8h_source.html#l00158">progressbar.h:158</a></div></div>
 <div class="ttc" id="aclass_m_r_1_1_progress_bar_html_a90a179252af7a5c8b1a7a7b17d0dea30"><div class="ttname"><a href="class_m_r_1_1_progress_bar.html#a90a179252af7a5c8b1a7a7b17d0dea30">MR::ProgressBar::set_update_method</a></div><div class="ttdeci">static bool set_update_method()</div></div>
 <div class="ttc" id="aclass_m_r_1_1_progress_bar_html_a9ba2a201db742fc8fb8c6c6c75e49813"><div class="ttname"><a href="class_m_r_1_1_progress_bar.html#a9ba2a201db742fc8fb8c6c6c75e49813">MR::ProgressBar::count</a></div><div class="ttdeci">size_t count() const</div><div class="ttdef"><b>Definition:</b> <a href="progressbar_8h_source.html#l00095">progressbar.h:95</a></div></div>
-<div class="ttc" id="aclass_m_r_1_1_progress_bar_html_a9c16c60c517f29ad5adf827d1cf1c0c9"><div class="ttname"><a href="class_m_r_1_1_progress_bar.html#a9c16c60c517f29ad5adf827d1cf1c0c9">MR::ProgressBar::set_max</a></div><div class="ttdeci">void set_max(size_t new_target)</div><div class="ttdoc">set the maximum target value of the ProgressBar</div><div class="ttdef"><b>Definition:</b> <a href="progressbar_8h_source.html#l00208">progressbar.h:208</a></div></div>
+<div class="ttc" id="aclass_m_r_1_1_progress_bar_html_a9c16c60c517f29ad5adf827d1cf1c0c9"><div class="ttname"><a href="class_m_r_1_1_progress_bar.html#a9c16c60c517f29ad5adf827d1cf1c0c9">MR::ProgressBar::set_max</a></div><div class="ttdeci">void set_max(size_t new_target)</div><div class="ttdoc">set the maximum target value of the ProgressBar</div><div class="ttdef"><b>Definition:</b> <a href="progressbar_8h_source.html#l00213">progressbar.h:213</a></div></div>
 <div class="ttc" id="aclass_m_r_1_1_progress_bar_html_aa7db0053ba09bc6fd352eb71098982c3"><div class="ttname"><a href="class_m_r_1_1_progress_bar.html#aa7db0053ba09bc6fd352eb71098982c3">MR::ProgressBar::ProgressBar</a></div><div class="ttdeci">ProgressBar(const ProgressBar &amp;p)=delete</div></div>
 <div class="ttc" id="aclass_m_r_1_1_progress_bar_html_aac2fa07de2849e712eb22097b5ce9006"><div class="ttname"><a href="class_m_r_1_1_progress_bar.html#aac2fa07de2849e712eb22097b5ce9006">MR::ProgressBar::ellipsis</a></div><div class="ttdeci">const std::string &amp; ellipsis() const</div><div class="ttdef"><b>Definition:</b> <a href="progressbar_8h_source.html#l00099">progressbar.h:99</a></div></div>
 <div class="ttc" id="aclass_m_r_1_1_progress_bar_html_ad2f5a897d4aca25784de51b0bb3e952f"><div class="ttname"><a href="class_m_r_1_1_progress_bar.html#ad2f5a897d4aca25784de51b0bb3e952f">MR::ProgressBar::done_func</a></div><div class="ttdeci">static void(* done_func)(const ProgressBar &amp;p)</div><div class="ttdef"><b>Definition:</b> <a href="progressbar_8h_source.html#l00157">progressbar.h:157</a></div></div>
 <div class="ttc" id="aclass_m_r_1_1_progress_bar_html_ad3e007e53ccdcd90b7d6851d759fa3dc"><div class="ttname"><a href="class_m_r_1_1_progress_bar.html#ad3e007e53ccdcd90b7d6851d759fa3dc">MR::ProgressBar::notifier</a></div><div class="ttdeci">static std::condition_variable notifier</div><div class="ttdef"><b>Definition:</b> <a href="progressbar_8h_source.html#l00160">progressbar.h:160</a></div></div>
-<div class="ttc" id="aclass_m_r_1_1_progress_bar_html_ade5483b0e6e611680b7cffa36ad227dc"><div class="ttname"><a href="class_m_r_1_1_progress_bar.html#ade5483b0e6e611680b7cffa36ad227dc">MR::ProgressBar::update</a></div><div class="ttdeci">void update(TextFunc &amp;&amp;text_func, bool increment=true)</div><div class="ttdoc">update text displayed and optionally increment counter</div><div class="ttdef"><b>Definition:</b> <a href="progressbar_8h_source.html#l00249">progressbar.h:249</a></div></div>
+<div class="ttc" id="aclass_m_r_1_1_progress_bar_html_ade5483b0e6e611680b7cffa36ad227dc"><div class="ttname"><a href="class_m_r_1_1_progress_bar.html#ade5483b0e6e611680b7cffa36ad227dc">MR::ProgressBar::update</a></div><div class="ttdeci">void update(TextFunc &amp;&amp;text_func, bool increment=true)</div><div class="ttdoc">update text displayed and optionally increment counter</div><div class="ttdef"><b>Definition:</b> <a href="progressbar_8h_source.html#l00250">progressbar.h:250</a></div></div>
 <div class="ttc" id="aclass_m_r_1_1_progress_bar_html_ae57f15a396ddb4709c15c8c092fa2fc1"><div class="ttname"><a href="class_m_r_1_1_progress_bar.html#ae57f15a396ddb4709c15c8c092fa2fc1">MR::ProgressBar::ProgressBar</a></div><div class="ttdeci">ProgressBar(ProgressBar &amp;&amp;p)=default</div></div>
 <div class="ttc" id="aclass_m_r_1_1_progress_bar_html_aec9d527bcba65cae32b92f4c9a7bd948"><div class="ttname"><a href="class_m_r_1_1_progress_bar.html#aec9d527bcba65cae32b92f4c9a7bd948">MR::ProgressBar::show_percent</a></div><div class="ttdeci">bool show_percent() const</div><div class="ttdef"><b>Definition:</b> <a href="progressbar_8h_source.html#l00096">progressbar.h:96</a></div></div>
-<div class="ttc" id="aclass_m_r_1_1_progress_bar_html_af0d8c9d39ce73ee7127b25bd381d2ed5"><div class="ttname"><a href="class_m_r_1_1_progress_bar.html#af0d8c9d39ce73ee7127b25bd381d2ed5">MR::ProgressBar::set_text</a></div><div class="ttdeci">void set_text(const std::string &amp;new_text)</div><div class="ttdef"><b>Definition:</b> <a href="progressbar_8h_source.html#l00227">progressbar.h:227</a></div></div>
+<div class="ttc" id="aclass_m_r_1_1_progress_bar_html_af0d8c9d39ce73ee7127b25bd381d2ed5"><div class="ttname"><a href="class_m_r_1_1_progress_bar.html#af0d8c9d39ce73ee7127b25bd381d2ed5">MR::ProgressBar::set_text</a></div><div class="ttdeci">void set_text(const std::string &amp;new_text)</div><div class="ttdef"><b>Definition:</b> <a href="progressbar_8h_source.html#l00228">progressbar.h:228</a></div></div>
 <div class="ttc" id="aclass_m_r_1_1_progress_bar_html_afa60e56d5b742d428787a769790cf085"><div class="ttname"><a href="class_m_r_1_1_progress_bar.html#afa60e56d5b742d428787a769790cf085">MR::ProgressBar::mutex</a></div><div class="ttdeci">static std::mutex mutex</div><div class="ttdef"><b>Definition:</b> <a href="progressbar_8h_source.html#l00162">progressbar.h:162</a></div></div>
 <div class="ttc" id="aclass_m_r_1_1_timer_html"><div class="ttname"><a href="class_m_r_1_1_timer.html">MR::Timer</a></div><div class="ttdef"><b>Definition:</b> <a href="timer_8h_source.html#l00027">timer.h:27</a></div></div>
 <div class="ttc" id="aclass_m_r_1_1_timer_html_a0f0059cf7b4dba15a0b1505ca59c905d"><div class="ttname"><a href="class_m_r_1_1_timer.html#a0f0059cf7b4dba15a0b1505ca59c905d">MR::Timer::start</a></div><div class="ttdeci">void start()</div><div class="ttdef"><b>Definition:</b> <a href="timer_8h_source.html#l00033">timer.h:33</a></div></div>
@@ -410,7 +413,7 @@ $(document).ready(function(){initNavTree('progressbar_8h_source.html',''); initR
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4270bfced15e0e73154b13468c7c9ad9.html">core</a></li><li class="navelem"><a class="el" href="progressbar_8h.html">progressbar.h</a></li>
-    <li class="footer">Generated on Wed Oct 20 2021 13:48:26 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Thu Oct 21 2021 13:00:25 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

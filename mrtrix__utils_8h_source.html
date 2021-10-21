@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0.0-dirty</div>
+   <div id="projectbrief">Version 3.0.3-23-g193aa0ad</div>
   </td>
  </tr>
  </tbody>
@@ -87,7 +87,7 @@ $(document).ready(function(){initNavTree('mrtrix__utils_8h_source.html',''); ini
   <div class="headertitle"><div class="title">mrtrix_utils.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="mrtrix__utils_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/* Copyright (c) 2008-2019 the MRtrix3 contributors.</span></div>
+<a href="mrtrix__utils_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/* Copyright (c) 2008-2021 the MRtrix3 contributors.</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment"> *</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment"> * This Source Code Form is subject to the terms of the Mozilla Public</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment"> * License, v. 2.0. If a copy of the MPL was not distributed with this</span></div>
@@ -153,14 +153,14 @@ $(document).ready(function(){initNavTree('mrtrix__utils_8h_source.html',''); ini
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="namespace_m_r_1_1_formats.html#ad280cc12a8d2e213dc9683a3227e3b87">   64</a></span>      <span class="keywordtype">void</span> <a class="code hl_function" href="namespace_m_r_1_1_formats.html#ad280cc12a8d2e213dc9683a3227e3b87">read_mrtrix_header</a> (<a class="code hl_class" href="class_m_r_1_1_header.html">Header</a>&amp; <a class="code hl_variable" href="noise__estimator_8h.html#aaebed747e975509a9b8470c6d7ba93b3">H</a>, SourceType&amp; kv)</div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>      {</div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>        std::string dtype, layout;</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>        <a class="code hl_class" href="class_m_r_1_1vector.html">vector&lt;int&gt;</a> dim;</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>        <a class="code hl_class" href="class_m_r_1_1vector.html">vector&lt;uint64_t&gt;</a> dim;</div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>        <a class="code hl_class" href="class_m_r_1_1vector.html">vector&lt;default_type&gt;</a> vox, scaling;</div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>        <a class="code hl_class" href="class_m_r_1_1vector.html">vector&lt;vector&lt;default_type&gt;</a>&gt; transform;</div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>        std::string key, <a class="code hl_function" href="group__spherical__harmonics.html#gac405578b4137cf1c22a0cf646d260b05">value</a>;</div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>        <span class="keywordflow">while</span> (<a class="code hl_function" href="namespace_m_r_1_1_formats.html#a4b7d896d9dce9eb5eba8868f228de3dd">next_keyvalue</a> (kv, key, <a class="code hl_function" href="group__spherical__harmonics.html#gac405578b4137cf1c22a0cf646d260b05">value</a>)) {</div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>          <span class="keyword">const</span> std::string lkey = <a class="code hl_function" href="namespace_m_r.html#a9a772e12ea826bd1f7e871aaee86e736">lowercase</a> (key);</div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>          <span class="keywordflow">if</span> (lkey == <span class="stringliteral">&quot;dim&quot;</span>) dim = <a class="code hl_function" href="namespace_m_r.html#a988114e152b296bd1749f349fa2dd124">parse_ints</a> (<a class="code hl_function" href="group__spherical__harmonics.html#gac405578b4137cf1c22a0cf646d260b05">value</a>);</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>          <span class="keywordflow">if</span> (lkey == <span class="stringliteral">&quot;dim&quot;</span>) dim = parse_ints&lt;uint64_t&gt; (<a class="code hl_function" href="group__spherical__harmonics.html#gac405578b4137cf1c22a0cf646d260b05">value</a>);</div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>          <span class="keywordflow">else</span> <span class="keywordflow">if</span> (lkey == <span class="stringliteral">&quot;vox&quot;</span>) vox = <a class="code hl_function" href="namespace_m_r.html#a439319adcbcb16a7b275a81bc77980b3">parse_floats</a> (<a class="code hl_function" href="group__spherical__harmonics.html#gac405578b4137cf1c22a0cf646d260b05">value</a>);</div>
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>          <span class="keywordflow">else</span> <span class="keywordflow">if</span> (lkey == <span class="stringliteral">&quot;layout&quot;</span>) layout = <a class="code hl_function" href="group__spherical__harmonics.html#gac405578b4137cf1c22a0cf646d260b05">value</a>;</div>
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>          <span class="keywordflow">else</span> <span class="keywordflow">if</span> (lkey == <span class="stringliteral">&quot;datatype&quot;</span>) dtype = <a class="code hl_function" href="group__spherical__harmonics.html#gac405578b4137cf1c22a0cf646d260b05">value</a>;</div>
@@ -303,7 +303,6 @@ $(document).ready(function(){initNavTree('mrtrix__utils_8h_source.html',''); ini
 <div class="ttc" id="anamespace_m_r_html"><div class="ttname"><a href="namespace_m_r.html">MR</a></div><div class="ttdef"><b>Definition:</b> <a href="core_2adapter_2base_8h_source.html#l00023">base.h:24</a></div></div>
 <div class="ttc" id="anamespace_m_r_html_a439319adcbcb16a7b275a81bc77980b3"><div class="ttname"><a href="namespace_m_r.html#a439319adcbcb16a7b275a81bc77980b3">MR::parse_floats</a></div><div class="ttdeci">vector&lt; default_type &gt; parse_floats(const std::string &amp;spec)</div></div>
 <div class="ttc" id="anamespace_m_r_html_a72cf6689eb81a895e6b9f80a49d3732c"><div class="ttname"><a href="namespace_m_r.html#a72cf6689eb81a895e6b9f80a49d3732c">MR::abs</a></div><div class="ttdeci">constexpr std::enable_if&lt; std::is_arithmetic&lt; X &gt;::value &amp;&amp;std::is_unsigned&lt; X &gt;::value, X &gt;::type abs(X x)</div><div class="ttdef"><b>Definition:</b> <a href="src_2surface_2types_8h_source.html#l00297">types.h:297</a></div></div>
-<div class="ttc" id="anamespace_m_r_html_a988114e152b296bd1749f349fa2dd124"><div class="ttname"><a href="namespace_m_r.html#a988114e152b296bd1749f349fa2dd124">MR::parse_ints</a></div><div class="ttdeci">vector&lt; int &gt; parse_ints(const std::string &amp;spec, int last=std::numeric_limits&lt; int &gt;::max())</div></div>
 <div class="ttc" id="anamespace_m_r_html_a9a772e12ea826bd1f7e871aaee86e736"><div class="ttname"><a href="namespace_m_r.html#a9a772e12ea826bd1f7e871aaee86e736">MR::lowercase</a></div><div class="ttdeci">std::string lowercase(const std::string &amp;string)</div><div class="ttdoc">return lowercase version of string</div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00098">mrtrix.h:98</a></div></div>
 <div class="ttc" id="anamespace_m_r_html_ab30e94ce86d9a12c5787d2bb42043649"><div class="ttname"><a href="namespace_m_r.html#ab30e94ce86d9a12c5787d2bb42043649">MR::split_lines</a></div><div class="ttdeci">vector&lt; std::string &gt; split_lines(const std::string &amp;string, bool ignore_empty_fields=true, size_t num=std::numeric_limits&lt; size_t &gt;::max())</div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00179">mrtrix.h:179</a></div></div>
 <div class="ttc" id="anamespace_m_r_html_afc7aeb46632c4118c51cf643bd698d14"><div class="ttname"><a href="namespace_m_r.html#afc7aeb46632c4118c51cf643bd698d14">MR::add_line</a></div><div class="ttdeci">std::string &amp; add_line(std::string &amp;original, const std::string &amp;new_line)</div><div class="ttdoc">add a line to a string, taking care of inserting a newline if needed</div><div class="ttdef"><b>Definition:</b> <a href="mrtrix_8h_source.html#l00081">mrtrix.h:81</a></div></div>
@@ -316,7 +315,7 @@ $(document).ready(function(){initNavTree('mrtrix__utils_8h_source.html',''); ini
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4270bfced15e0e73154b13468c7c9ad9.html">core</a></li><li class="navelem"><a class="el" href="dir_9dbb9ff85b83ecaf5187a1f783aabfec.html">formats</a></li><li class="navelem"><a class="el" href="mrtrix__utils_8h.html">mrtrix_utils.h</a></li>
-    <li class="footer">Generated on Wed Oct 20 2021 13:48:26 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Thu Oct 21 2021 13:00:24 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

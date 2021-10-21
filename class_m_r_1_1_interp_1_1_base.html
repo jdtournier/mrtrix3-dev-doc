@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0.0-dirty</div>
+   <div id="projectbrief">Version 3.0.3-23-g193aa0ad</div>
   </td>
  </tr>
  </tbody>
@@ -118,12 +118,14 @@ Inheritance diagram for MR::Interp::Base&lt; ImageType &gt;:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a5ecd6913cbe3c19bd4e2c1640325a1aa"><td class="memTemplParams" colspan="2">template&lt;class VectorType &gt; </td></tr>
-<tr class="memitem:a5ecd6913cbe3c19bd4e2c1640325a1aa"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_interp_1_1_base.html#a5ecd6913cbe3c19bd4e2c1640325a1aa">is_out_of_bounds</a> (const VectorType &amp;pos) const</td></tr>
-<tr class="separator:a5ecd6913cbe3c19bd4e2c1640325a1aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af57e9f2db2cec87ed0918a08dc7c01ca"><td class="memTemplParams" colspan="2">template&lt;class VectorType &gt; </td></tr>
-<tr class="memitem:af57e9f2db2cec87ed0918a08dc7c01ca"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespace_eigen.html#a614e7946e0926e533cf7d49a487ce245">Eigen::Vector3</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_interp_1_1_base.html#af57e9f2db2cec87ed0918a08dc7c01ca">intravoxel_offset</a> (const VectorType &amp;pos)</td></tr>
-<tr class="separator:af57e9f2db2cec87ed0918a08dc7c01ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fcdafca5ccd19e8f2f6a1c89a35bf74"><td class="memTemplParams" colspan="2">template&lt;class VectorType &gt; </td></tr>
+<tr class="memitem:a6fcdafca5ccd19e8f2f6a1c89a35bf74"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_interp_1_1_base.html#a6fcdafca5ccd19e8f2f6a1c89a35bf74">set_out_of_bounds</a> (const VectorType &amp;pos)</td></tr>
+<tr class="separator:a6fcdafca5ccd19e8f2f6a1c89a35bf74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65eaca76178be91598644e0fc122f3d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_interp_1_1_base.html#a65eaca76178be91598644e0fc122f3d7">set_out_of_bounds</a> (const bool value)</td></tr>
+<tr class="separator:a65eaca76178be91598644e0fc122f3d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e2b84b7604e77881cb2338941483220"><td class="memTemplParams" colspan="2">template&lt;class VectorType &gt; </td></tr>
+<tr class="memitem:a1e2b84b7604e77881cb2338941483220"><td class="memTemplItemLeft" align="right" valign="top">Eigen::Vector3d&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_interp_1_1_base.html#a1e2b84b7604e77881cb2338941483220">intravoxel_offset</a> (const VectorType &amp;pos)</td></tr>
+<tr class="separator:a1e2b84b7604e77881cb2338941483220"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -201,8 +203,8 @@ class MR::Interp::Base&lt; ImageType &gt;</div><p >This class defines the interf
 </div><!-- fragment --> 
 <p class="definition">Definition at line <a class="el" href="core_2interp_2base_8h_source.html#l00069">69</a> of file <a class="el" href="core_2interp_2base_8h_source.html">base.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="af57e9f2db2cec87ed0918a08dc7c01ca" name="af57e9f2db2cec87ed0918a08dc7c01ca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af57e9f2db2cec87ed0918a08dc7c01ca">&#9670;&nbsp;</a></span>intravoxel_offset()</h2>
+<a id="a1e2b84b7604e77881cb2338941483220" name="a1e2b84b7604e77881cb2338941483220"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e2b84b7604e77881cb2338941483220">&#9670;&nbsp;</a></span>intravoxel_offset()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -215,7 +217,7 @@ template&lt;class VectorType &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespace_eigen.html#a614e7946e0926e533cf7d49a487ce245">Eigen::Vector3</a> <a class="el" href="class_m_r_1_1_interp_1_1_base.html">MR::Interp::Base</a>&lt; ImageType &gt;::intravoxel_offset </td>
+          <td class="memname">Eigen::Vector3d <a class="el" href="class_m_r_1_1_interp_1_1_base.html">MR::Interp::Base</a>&lt; ImageType &gt;::intravoxel_offset </td>
           <td>(</td>
           <td class="paramtype">const VectorType &amp;&#160;</td>
           <td class="paramname"><em>pos</em></td><td>)</td>
@@ -229,12 +231,42 @@ template&lt;class VectorType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="core_2interp_2base_8h_source.html#l00209">209</a> of file <a class="el" href="core_2interp_2base_8h_source.html">base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="core_2interp_2base_8h_source.html#l00211">211</a> of file <a class="el" href="core_2interp_2base_8h_source.html">base.h</a>.</p>
 
 </div>
 </div>
-<a id="a5ecd6913cbe3c19bd4e2c1640325a1aa" name="a5ecd6913cbe3c19bd4e2c1640325a1aa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5ecd6913cbe3c19bd4e2c1640325a1aa">&#9670;&nbsp;</a></span>is_out_of_bounds()</h2>
+<a id="a65eaca76178be91598644e0fc122f3d7" name="a65eaca76178be91598644e0fc122f3d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65eaca76178be91598644e0fc122f3d7">&#9670;&nbsp;</a></span>set_out_of_bounds() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ImageType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="class_m_r_1_1_interp_1_1_base.html">MR::Interp::Base</a>&lt; ImageType &gt;::set_out_of_bounds </td>
+          <td>(</td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="core_2interp_2base_8h_source.html#l00206">206</a> of file <a class="el" href="core_2interp_2base_8h_source.html">base.h</a>.</p>
+
+</div>
+</div>
+<a id="a6fcdafca5ccd19e8f2f6a1c89a35bf74" name="a6fcdafca5ccd19e8f2f6a1c89a35bf74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fcdafca5ccd19e8f2f6a1c89a35bf74">&#9670;&nbsp;</a></span>set_out_of_bounds() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -247,11 +279,11 @@ template&lt;class VectorType &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="class_m_r_1_1_interp_1_1_base.html">MR::Interp::Base</a>&lt; ImageType &gt;::is_out_of_bounds </td>
+          <td class="memname">bool <a class="el" href="class_m_r_1_1_interp_1_1_base.html">MR::Interp::Base</a>&lt; ImageType &gt;::set_out_of_bounds </td>
           <td>(</td>
           <td class="paramtype">const VectorType &amp;&#160;</td>
           <td class="paramname"><em>pos</em></td><td>)</td>
-          <td> const</td>
+          <td></td>
         </tr>
       </table>
   </td>
@@ -261,7 +293,7 @@ template&lt;class VectorType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="core_2interp_2base_8h_source.html#l00199">199</a> of file <a class="el" href="core_2interp_2base_8h_source.html">base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="core_2interp_2base_8h_source.html#l00200">200</a> of file <a class="el" href="core_2interp_2base_8h_source.html">base.h</a>.</p>
 
 </div>
 </div>
@@ -288,7 +320,7 @@ template&lt;class ImageType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="core_2interp_2base_8h_source.html#l00193">193</a> of file <a class="el" href="core_2interp_2base_8h_source.html">base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="core_2interp_2base_8h_source.html#l00194">194</a> of file <a class="el" href="core_2interp_2base_8h_source.html">base.h</a>.</p>
 
 </div>
 </div>
@@ -314,7 +346,7 @@ template&lt;class ImageType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="core_2interp_2base_8h_source.html#l00194">194</a> of file <a class="el" href="core_2interp_2base_8h_source.html">base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="core_2interp_2base_8h_source.html#l00195">195</a> of file <a class="el" href="core_2interp_2base_8h_source.html">base.h</a>.</p>
 
 </div>
 </div>
@@ -327,7 +359,7 @@ template&lt;class ImageType &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_interp.html">Interp</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_interp_1_1_base.html">Base</a></li>
-    <li class="footer">Generated on Wed Oct 20 2021 13:48:29 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Thu Oct 21 2021 13:00:27 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

@@ -6,6 +6,7 @@ var namespace_m_r_1_1_interp =
     [ "LinearInterp< ImageType, LinearInterpProcessingType::Value >", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_value_01_4.html", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_value_01_4" ],
     [ "LinearInterp< ImageType, LinearInterpProcessingType::ValueAndDerivative >", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_value_and_derivative_01_4.html", "class_m_r_1_1_interp_1_1_linear_interp_3_01_image_type_00_01_linear_interp_processing_type_1_1_value_and_derivative_01_4" ],
     [ "LinearInterpBase", "class_m_r_1_1_interp_1_1_linear_interp_base.html", "class_m_r_1_1_interp_1_1_linear_interp_base" ],
+    [ "Masked", "class_m_r_1_1_interp_1_1_masked.html", null ],
     [ "Nearest", "class_m_r_1_1_interp_1_1_nearest.html", null ],
     [ "Sinc", "class_m_r_1_1_interp_1_1_sinc.html", "class_m_r_1_1_interp_1_1_sinc" ],
     [ "SplineInterp", "class_m_r_1_1_interp_1_1_spline_interp.html", null ],

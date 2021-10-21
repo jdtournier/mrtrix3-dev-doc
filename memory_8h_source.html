@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0.0-dirty</div>
+   <div id="projectbrief">Version 3.0.3-23-g193aa0ad</div>
   </td>
  </tr>
  </tbody>
@@ -87,7 +87,7 @@ $(document).ready(function(){initNavTree('memory_8h_source.html',''); initResiza
   <div class="headertitle"><div class="title">memory.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="memory_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/* Copyright (c) 2008-2019 the MRtrix3 contributors.</span></div>
+<a href="memory_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/* Copyright (c) 2008-2021 the MRtrix3 contributors.</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment"> *</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment"> * This Source Code Form is subject to the terms of the Mozilla Public</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment"> * License, v. 2.0. If a copy of the MPL was not distributed with this</span></div>
@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('memory_8h_source.html',''); initResiza
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_m_r.html">MR</a></div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>{</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>  <span class="keyword">template</span>&lt;<span class="keyword">class</span> T, <span class="keyword">class</span> Deleter = std::default_delete&lt;T&gt;&gt; </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>  <span class="keyword">template</span>&lt;<span class="keyword">class</span> T, <span class="keyword">class</span> Deleter = std::default_delete&lt;T&gt;&gt;</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="class_m_r_1_1copy__ptr.html">   31</a></span>    <span class="keyword">class </span><a class="code hl_class" href="class_m_r_1_1copy__ptr.html">copy_ptr</a> : <span class="keyword">public</span> std::unique_ptr&lt;T, Deleter&gt;</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>  { <a class="code hl_define" href="memory_8h.html#a5d1aa93e600a93cee8523d1d34c1ace5">NOMEMALIGN</a></div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keyword">public</span>:</div>
@@ -131,12 +131,14 @@ $(document).ready(function(){initNavTree('memory_8h_source.html',''); initResiza
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="struct_m_r_1_1compare__ptr__contents.html">   45</a></span>  <span class="keyword">struct </span><a class="code hl_struct" href="struct_m_r_1_1compare__ptr__contents.html">compare_ptr_contents</a> { <a class="code hl_define" href="memory_8h.html#a5d1aa93e600a93cee8523d1d34c1ace5">NOMEMALIGN</a></div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="keyword">template</span> &lt;<span class="keyword">class</span> X&gt;</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="struct_m_r_1_1compare__ptr__contents.html#a836e6f17a7ac16eb68583f982e3df1a2">   47</a></span>      <span class="keywordtype">bool</span> <a class="code hl_function" href="struct_m_r_1_1compare__ptr__contents.html#a836e6f17a7ac16eb68583f982e3df1a2">operator() </a>(<span class="keyword">const</span> X&amp; a, <span class="keyword">const</span> X&amp; b)<span class="keyword"> const </span>{ <span class="keywordflow">return</span> *a &lt; *b; }</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>  };</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>}</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="keyword">template</span> &lt;<span class="keyword">class</span> X&gt;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="struct_m_r_1_1compare__ptr__contents.html#aa5d675351f8b8cd91e7aa944f380b5f9">   49</a></span>      <span class="keywordtype">bool</span> <a class="code hl_function" href="struct_m_r_1_1compare__ptr__contents.html#a836e6f17a7ac16eb68583f982e3df1a2">operator() </a>(<span class="keyword">const</span> std::shared_ptr&lt;X&gt;&amp; a, <span class="keyword">const</span> std::shared_ptr&lt;X&gt;&amp; b)<span class="keyword"> const </span>{ <span class="keywordflow">return</span> *a &lt; *b; }</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>  };</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>}</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
 <div class="ttc" id="aclass_m_r_1_1copy__ptr_html"><div class="ttname"><a href="class_m_r_1_1copy__ptr.html">MR::copy_ptr</a></div><div class="ttdef"><b>Definition:</b> <a href="memory_8h_source.html#l00031">memory.h:32</a></div></div>
 <div class="ttc" id="aclass_m_r_1_1copy__ptr_html_aa97d93577c813546c7dbd29ea927aa46"><div class="ttname"><a href="class_m_r_1_1copy__ptr.html#aa97d93577c813546c7dbd29ea927aa46">MR::copy_ptr::copy_ptr</a></div><div class="ttdeci">copy_ptr(copy_ptr&lt; U, E &gt; &amp;&amp;u) noexcept</div><div class="ttdef"><b>Definition:</b> <a href="memory_8h_source.html#l00040">memory.h:40</a></div></div>
 <div class="ttc" id="aclass_m_r_1_1copy__ptr_html_ab4752be0fa56ab46199cde48ae0639b7"><div class="ttname"><a href="class_m_r_1_1copy__ptr.html#ab4752be0fa56ab46199cde48ae0639b7">MR::copy_ptr::copy_ptr</a></div><div class="ttdeci">copy_ptr(T *p) noexcept</div><div class="ttdef"><b>Definition:</b> <a href="memory_8h_source.html#l00036">memory.h:36</a></div></div>
@@ -156,7 +158,7 @@ $(document).ready(function(){initNavTree('memory_8h_source.html',''); initResiza
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4270bfced15e0e73154b13468c7c9ad9.html">core</a></li><li class="navelem"><a class="el" href="memory_8h.html">memory.h</a></li>
-    <li class="footer">Generated on Wed Oct 20 2021 13:48:26 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Thu Oct 21 2021 13:00:25 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

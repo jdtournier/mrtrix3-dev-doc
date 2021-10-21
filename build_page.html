@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0.0-dirty</div>
+   <div id="projectbrief">Version 3.0.3-23-g193aa0ad</div>
   </td>
  </tr>
  </tbody>
@@ -103,7 +103,7 @@ Using the MRtrix build process</h1>
 </ul>
 <h1><a class="anchor" id="configure_section"></a>
 The configure script</h1>
-<p >The first step required for building the software is to run the <code>configure</code> script, which tailors various parameters to the specific system that it is run on. This includes checking that a compiler is available and behaves as expected, that other required packages are available (such as <a class="el" href="namespace_eigen.html">Eigen</a>), whether the system is a 64-bit machine, etc. It is also possible to create distinct co-existing configurations, for example to compile either release and debug code. For details, see <a class="el" href="configure_page.html">The configure script</a>.</p>
+<p >The first step required for building the software is to run the <code>configure</code> script, which tailors various parameters to the specific system that it is run on. This includes checking that a compiler is available and behaves as expected, that other required packages are available (such as Eigen), whether the system is a 64-bit machine, etc. It is also possible to create distinct co-existing configurations, for example to compile either release and debug code. For details, see <a class="el" href="configure_page.html">The configure script</a>.</p>
 <h1><a class="anchor" id="build_section"></a>
 The build script</h1>
 <p >This script is responsible for identifying the targets to be built, resolving all their dependencies, compiling all the necessary object files (if they are out of date), and linking them together in the correct order. This is done by first identifying the desired targets, then building a list of their dependencies, and treating these dependencies themselves as targets to be built first. A target can only be built once all its dependencies are satisfied (i.e. all its required dependencies have been built). At this point, the target is built only if one or more of its dependencies is more recent than it is itself (or if it doesn't yet exist). This is done by looking at the timestamps of the relevant files. In this way, the relevant files are regenerated only when and if required.</p>
@@ -156,7 +156,7 @@ Build rules for each target type</h4>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Oct 20 2021 13:48:27 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Thu Oct 21 2021 13:00:26 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

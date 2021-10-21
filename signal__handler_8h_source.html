@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0.0-dirty</div>
+   <div id="projectbrief">Version 3.0.3-23-g193aa0ad</div>
   </td>
  </tr>
  </tbody>
@@ -87,7 +87,7 @@ $(document).ready(function(){initNavTree('signal__handler_8h_source.html',''); i
   <div class="headertitle"><div class="title">signal_handler.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="signal__handler_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/* Copyright (c) 2008-2019 the MRtrix3 contributors.</span></div>
+<a href="signal__handler_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/* Copyright (c) 2008-2021 the MRtrix3 contributors.</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment"> *</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment"> * This Source Code Form is subject to the terms of the Mozilla Public</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment"> * License, v. 2.0. If a copy of the MPL was not distributed with this</span></div>
@@ -111,17 +111,23 @@ $(document).ready(function(){initNavTree('signal__handler_8h_source.html',''); i
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_m_r.html">MR</a></div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>{</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="namespace_m_r_1_1_signal_handler.html">   24</a></span>  <span class="keyword">namespace </span>SignalHandler</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>  { </div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="namespace_m_r_1_1_signal_handler.html#a1f3609dfd0b91eac6464d1899dc6367a">   26</a></span>      <span class="keywordtype">void</span> <a class="code hl_function" href="namespace_m_r_1_1_signal_handler.html#a1f3609dfd0b91eac6464d1899dc6367a">init</a>(); </div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="namespace_m_r_1_1_signal_handler.html#a20f665a55420163caaeaaa0f00c60fe2">   27</a></span>      <span class="keywordtype">void</span> <a class="code hl_function" href="namespace_m_r_1_1_signal_handler.html#a20f665a55420163caaeaaa0f00c60fe2">mark_file_for_deletion</a> (<span class="keyword">const</span> std::string&amp;);</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="namespace_m_r_1_1_signal_handler.html#a97371958ec8c1d303c4d4f79cbd8795c">   28</a></span>      <span class="keywordtype">void</span> <a class="code hl_function" href="namespace_m_r_1_1_signal_handler.html#a97371958ec8c1d303c4d4f79cbd8795c">unmark_file_for_deletion</a> (<span class="keyword">const</span> std::string&amp;);</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>  }</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>}</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="anamespace_m_r_1_1_signal_handler_html_a1f3609dfd0b91eac6464d1899dc6367a"><div class="ttname"><a href="namespace_m_r_1_1_signal_handler.html#a1f3609dfd0b91eac6464d1899dc6367a">MR::SignalHandler::init</a></div><div class="ttdeci">void init()</div></div>
-<div class="ttc" id="anamespace_m_r_1_1_signal_handler_html_a20f665a55420163caaeaaa0f00c60fe2"><div class="ttname"><a href="namespace_m_r_1_1_signal_handler.html#a20f665a55420163caaeaaa0f00c60fe2">MR::SignalHandler::mark_file_for_deletion</a></div><div class="ttdeci">void mark_file_for_deletion(const std::string &amp;)</div></div>
-<div class="ttc" id="anamespace_m_r_1_1_signal_handler_html_a97371958ec8c1d303c4d4f79cbd8795c"><div class="ttname"><a href="namespace_m_r_1_1_signal_handler.html#a97371958ec8c1d303c4d4f79cbd8795c">MR::SignalHandler::unmark_file_for_deletion</a></div><div class="ttdeci">void unmark_file_for_deletion(const std::string &amp;)</div></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>  {</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="namespace_m_r_1_1_signal_handler.html#ac2231fcf86262a55639efabb64956b45">   27</a></span>    <span class="keyword">using</span> <a class="code hl_typedef" href="namespace_m_r_1_1_signal_handler.html#ac2231fcf86262a55639efabb64956b45">cleanup_function_type</a> = void(*)();</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="namespace_m_r_1_1_signal_handler.html#a1f3609dfd0b91eac6464d1899dc6367a">   30</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="namespace_m_r_1_1_signal_handler.html#a1f3609dfd0b91eac6464d1899dc6367a">init</a>();</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="namespace_m_r_1_1_signal_handler.html#a1fc9052207fe180cd65ac909723123e2">   32</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="namespace_m_r_1_1_signal_handler.html#a1fc9052207fe180cd65ac909723123e2">on_signal</a> (<a class="code hl_typedef" href="namespace_m_r_1_1_signal_handler.html#ac2231fcf86262a55639efabb64956b45">cleanup_function_type</a> func);</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="namespace_m_r_1_1_signal_handler.html#af7312962ec58c796a7121603cbc26c80">   35</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="namespace_m_r_1_1_signal_handler.html#af7312962ec58c796a7121603cbc26c80">mark_file_for_deletion</a> (<span class="keyword">const</span> std::string&amp; filename);</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="namespace_m_r_1_1_signal_handler.html#a5b898c2fdec26ec9acd7b16ce4d8df8d">   37</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="namespace_m_r_1_1_signal_handler.html#a5b898c2fdec26ec9acd7b16ce4d8df8d">unmark_file_for_deletion</a> (<span class="keyword">const</span> std::string&amp; filename);</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>  }</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>}</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="anamespace_m_r_1_1_signal_handler_html_a1f3609dfd0b91eac6464d1899dc6367a"><div class="ttname"><a href="namespace_m_r_1_1_signal_handler.html#a1f3609dfd0b91eac6464d1899dc6367a">MR::SignalHandler::init</a></div><div class="ttdeci">void init()</div><div class="ttdoc">set up the signal handler</div></div>
+<div class="ttc" id="anamespace_m_r_1_1_signal_handler_html_a1fc9052207fe180cd65ac909723123e2"><div class="ttname"><a href="namespace_m_r_1_1_signal_handler.html#a1fc9052207fe180cd65ac909723123e2">MR::SignalHandler::on_signal</a></div><div class="ttdeci">void on_signal(cleanup_function_type func)</div><div class="ttdoc">add function to be run when a signal is received and at program exit</div></div>
+<div class="ttc" id="anamespace_m_r_1_1_signal_handler_html_a5b898c2fdec26ec9acd7b16ce4d8df8d"><div class="ttname"><a href="namespace_m_r_1_1_signal_handler.html#a5b898c2fdec26ec9acd7b16ce4d8df8d">MR::SignalHandler::unmark_file_for_deletion</a></div><div class="ttdeci">void unmark_file_for_deletion(const std::string &amp;filename)</div><div class="ttdoc">unmark the file from deletion</div></div>
+<div class="ttc" id="anamespace_m_r_1_1_signal_handler_html_ac2231fcf86262a55639efabb64956b45"><div class="ttname"><a href="namespace_m_r_1_1_signal_handler.html#ac2231fcf86262a55639efabb64956b45">MR::SignalHandler::cleanup_function_type</a></div><div class="ttdeci">void(*)() cleanup_function_type</div><div class="ttdoc">the type of function expected for on_signal()</div><div class="ttdef"><b>Definition:</b> <a href="signal__handler_8h_source.html#l00027">signal_handler.h:27</a></div></div>
+<div class="ttc" id="anamespace_m_r_1_1_signal_handler_html_af7312962ec58c796a7121603cbc26c80"><div class="ttname"><a href="namespace_m_r_1_1_signal_handler.html#af7312962ec58c796a7121603cbc26c80">MR::SignalHandler::mark_file_for_deletion</a></div><div class="ttdeci">void mark_file_for_deletion(const std::string &amp;filename)</div><div class="ttdoc">mark the file for deletion when a signal is received or at program exit</div></div>
 <div class="ttc" id="anamespace_m_r_html"><div class="ttname"><a href="namespace_m_r.html">MR</a></div><div class="ttdef"><b>Definition:</b> <a href="core_2adapter_2base_8h_source.html#l00023">base.h:24</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -129,7 +135,7 @@ $(document).ready(function(){initNavTree('signal__handler_8h_source.html',''); i
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4270bfced15e0e73154b13468c7c9ad9.html">core</a></li><li class="navelem"><a class="el" href="signal__handler_8h.html">signal_handler.h</a></li>
-    <li class="footer">Generated on Wed Oct 20 2021 13:48:26 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Thu Oct 21 2021 13:00:25 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0.0-dirty</div>
+   <div id="projectbrief">Version 3.0.3-23-g193aa0ad</div>
   </td>
  </tr>
  </tbody>
@@ -86,6 +86,7 @@ $(document).ready(function(){initNavTree('signal__handler_8h.html',''); initResi
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">signal_handler.h File Reference</div></div>
 </div><!--header-->
@@ -101,14 +102,26 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespace_m_r_1_1_signal_handler"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_signal_handler.html">MR::SignalHandler</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:ac2231fcf86262a55639efabb64956b45"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_signal_handler.html#ac2231fcf86262a55639efabb64956b45">MR::SignalHandler::cleanup_function_type</a> = void(*)()</td></tr>
+<tr class="memdesc:ac2231fcf86262a55639efabb64956b45"><td class="mdescLeft">&#160;</td><td class="mdescRight">the type of function expected for <a class="el" href="namespace_m_r_1_1_signal_handler.html#a1fc9052207fe180cd65ac909723123e2" title="add function to be run when a signal is received and at program exit">on_signal()</a>  <a href="namespace_m_r_1_1_signal_handler.html#ac2231fcf86262a55639efabb64956b45">More...</a><br /></td></tr>
+<tr class="separator:ac2231fcf86262a55639efabb64956b45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a1f3609dfd0b91eac6464d1899dc6367a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_signal_handler.html#a1f3609dfd0b91eac6464d1899dc6367a">MR::SignalHandler::init</a> ()</td></tr>
+<tr class="memdesc:a1f3609dfd0b91eac6464d1899dc6367a"><td class="mdescLeft">&#160;</td><td class="mdescRight">set up the signal handler  <a href="namespace_m_r_1_1_signal_handler.html#a1f3609dfd0b91eac6464d1899dc6367a">More...</a><br /></td></tr>
 <tr class="separator:a1f3609dfd0b91eac6464d1899dc6367a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20f665a55420163caaeaaa0f00c60fe2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_signal_handler.html#a20f665a55420163caaeaaa0f00c60fe2">MR::SignalHandler::mark_file_for_deletion</a> (const std::string &amp;)</td></tr>
-<tr class="separator:a20f665a55420163caaeaaa0f00c60fe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97371958ec8c1d303c4d4f79cbd8795c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_signal_handler.html#a97371958ec8c1d303c4d4f79cbd8795c">MR::SignalHandler::unmark_file_for_deletion</a> (const std::string &amp;)</td></tr>
-<tr class="separator:a97371958ec8c1d303c4d4f79cbd8795c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fc9052207fe180cd65ac909723123e2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_signal_handler.html#a1fc9052207fe180cd65ac909723123e2">MR::SignalHandler::on_signal</a> (cleanup_function_type func)</td></tr>
+<tr class="memdesc:a1fc9052207fe180cd65ac909723123e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">add function to be run when a signal is received and at program exit  <a href="namespace_m_r_1_1_signal_handler.html#a1fc9052207fe180cd65ac909723123e2">More...</a><br /></td></tr>
+<tr class="separator:a1fc9052207fe180cd65ac909723123e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7312962ec58c796a7121603cbc26c80"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_signal_handler.html#af7312962ec58c796a7121603cbc26c80">MR::SignalHandler::mark_file_for_deletion</a> (const std::string &amp;filename)</td></tr>
+<tr class="memdesc:af7312962ec58c796a7121603cbc26c80"><td class="mdescLeft">&#160;</td><td class="mdescRight">mark the file for deletion when a signal is received or at program exit  <a href="namespace_m_r_1_1_signal_handler.html#af7312962ec58c796a7121603cbc26c80">More...</a><br /></td></tr>
+<tr class="separator:af7312962ec58c796a7121603cbc26c80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b898c2fdec26ec9acd7b16ce4d8df8d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_m_r_1_1_signal_handler.html#a5b898c2fdec26ec9acd7b16ce4d8df8d">MR::SignalHandler::unmark_file_for_deletion</a> (const std::string &amp;filename)</td></tr>
+<tr class="memdesc:a5b898c2fdec26ec9acd7b16ce4d8df8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">unmark the file from deletion  <a href="namespace_m_r_1_1_signal_handler.html#a5b898c2fdec26ec9acd7b16ce4d8df8d">More...</a><br /></td></tr>
+<tr class="separator:a5b898c2fdec26ec9acd7b16ce4d8df8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -116,7 +129,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4270bfced15e0e73154b13468c7c9ad9.html">core</a></li><li class="navelem"><a class="el" href="signal__handler_8h.html">signal_handler.h</a></li>
-    <li class="footer">Generated on Wed Oct 20 2021 13:48:27 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Thu Oct 21 2021 13:00:26 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

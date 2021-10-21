@@ -20,6 +20,6 @@ var namespace_m_r_1_1_filter =
     [ "estimate_optimal_threshold", "namespace_m_r_1_1_filter.html#aed72e3f2dadb7b9986692b4395668ee9", null ],
     [ "estimate_optimal_threshold", "namespace_m_r_1_1_filter.html#a74ae818a10f569ef717ee268d103e3b2", null ],
     [ "fft", "group___filters.html#ga5924da72ae3f5fec7be0ac67f919c01c", null ],
-    [ "reslice", "namespace_m_r_1_1_filter.html#aabd75ac4ad1d40a7969a505b1c14e958", null ],
-    [ "warp", "namespace_m_r_1_1_filter.html#a1e725bea7b4521e6d39ed785fac3b95b", null ]
+    [ "reslice", "namespace_m_r_1_1_filter.html#a6458ec6831a9076f678b03911703d117", null ],
+    [ "warp", "namespace_m_r_1_1_filter.html#ade535e65522d297faf9ccd4db73d2eab", null ]
 ];
