@@ -20,10 +20,12 @@ var searchData=
   ['precomputedfraction_17',['PrecomputedFraction',['../class_m_r_1_1_math_1_1_s_h_1_1_precomputed_fraction.html',1,'MR::Math::SH']]],
   ['preprocessor_18',['PreProcessor',['../class_m_r_1_1_stats_1_1_perm_test_1_1_pre_processor.html',1,'MR::Stats::PermTest']]],
   ['problem_19',['Problem',['../class_m_r_1_1_math_1_1_i_c_l_s_1_1_problem.html',1,'MR::Math::ICLS']]],
-  ['processlock_20',['ProcessLock',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_sync_1_1_process_lock.html',1,'MR::GUI::MRView::Sync']]],
-  ['processor_21',['Processor',['../class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html',1,'MR::Stats::PermTest']]],
-  ['program_22',['Program',['../class_m_r_1_1_g_u_i_1_1_g_l_1_1_shader_1_1_program.html',1,'MR::GUI::GL::Shader']]],
-  ['progressbar_23',['ProgressBar',['../class_m_r_1_1_progress_bar.html',1,'MR']]],
-  ['projection_24',['Projection',['../class_m_r_1_1_g_u_i_1_1_projection.html',1,'MR::GUI']]],
-  ['properties_25',['Properties',['../struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_properties.html',1,'MR::DWI::Tractography::GT::Properties'],['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_properties.html',1,'MR::DWI::Tractography::Properties']]]
+  ['problem_3c_20double_20_3e_20',['Problem&lt; double &gt;',['../class_m_r_1_1_math_1_1_i_c_l_s_1_1_problem.html',1,'MR::Math::ICLS']]],
+  ['problem_3c_20value_5ftype_20_3e_21',['Problem&lt; value_type &gt;',['../class_m_r_1_1_math_1_1_i_c_l_s_1_1_problem.html',1,'MR::Math::ICLS']]],
+  ['processlock_22',['ProcessLock',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_sync_1_1_process_lock.html',1,'MR::GUI::MRView::Sync']]],
+  ['processor_23',['Processor',['../class_m_r_1_1_stats_1_1_perm_test_1_1_processor.html',1,'MR::Stats::PermTest']]],
+  ['program_24',['Program',['../class_m_r_1_1_g_u_i_1_1_g_l_1_1_shader_1_1_program.html',1,'MR::GUI::GL::Shader']]],
+  ['progressbar_25',['ProgressBar',['../class_m_r_1_1_progress_bar.html',1,'MR']]],
+  ['projection_26',['Projection',['../class_m_r_1_1_g_u_i_1_1_projection.html',1,'MR::GUI']]],
+  ['properties_27',['Properties',['../struct_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_properties.html',1,'MR::DWI::Tractography::GT::Properties'],['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_properties.html',1,'MR::DWI::Tractography::Properties']]]
 ];

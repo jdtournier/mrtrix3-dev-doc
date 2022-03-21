@@ -9,10 +9,16 @@ var searchData=
   ['grab_6',['Grab',['../struct_m_r_1_1_g_u_i_1_1_g_l_1_1_context_1_1_grab.html',1,'MR::GUI::GL::Context']]],
   ['gradient_7',['Gradient',['../class_m_r_1_1_filter_1_1_gradient.html',1,'MR::Filter']]],
   ['gradient1d_8',['Gradient1D',['../class_m_r_1_1_adapter_1_1_gradient1_d.html',1,'MR::Adapter']]],
-  ['gradient3d_9',['Gradient3D',['../class_m_r_1_1_adapter_1_1_gradient3_d.html',1,'MR::Adapter']]],
-  ['gradientdescent_10',['GradientDescent',['../class_m_r_1_1_math_1_1_gradient_descent.html',1,'MR::Math']]],
-  ['gradientdescentbb_11',['GradientDescentBB',['../class_m_r_1_1_math_1_1_gradient_descent_b_b.html',1,'MR::Math']]],
-  ['grid_5fper_5fvoxel_12',['Grid_per_voxel',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_seeding_1_1_grid__per__voxel.html',1,'MR::DWI::Tractography::Seeding']]],
-  ['gridlayout_13',['GridLayout',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_1_1_grid_layout.html',1,'MR::GUI::MRView::Tool::Base']]],
-  ['gz_14',['GZ',['../class_m_r_1_1_file_1_1_g_z.html',1,'MR::File::GZ'],['../class_m_r_1_1_image_i_o_1_1_g_z.html',1,'MR::ImageIO::GZ']]]
+  ['gradient1d_3c_20im1imagetype_20_3e_9',['Gradient1D&lt; Im1ImageType &gt;',['../class_m_r_1_1_adapter_1_1_gradient1_d.html',1,'MR::Adapter']]],
+  ['gradient1d_3c_20im2imagetype_20_3e_10',['Gradient1D&lt; Im2ImageType &gt;',['../class_m_r_1_1_adapter_1_1_gradient1_d.html',1,'MR::Adapter']]],
+  ['gradient1d_3c_20mr_3a_3aimage_3c_20default_5ftype_20_3e_20_3e_11',['Gradient1D&lt; MR::Image&lt; default_type &gt; &gt;',['../class_m_r_1_1_adapter_1_1_gradient1_d.html',1,'MR::Adapter']]],
+  ['gradient1d_3c_20warptype_20_3e_12',['Gradient1D&lt; WarpType &gt;',['../class_m_r_1_1_adapter_1_1_gradient1_d.html',1,'MR::Adapter']]],
+  ['gradient3d_13',['Gradient3D',['../class_m_r_1_1_adapter_1_1_gradient3_d.html',1,'MR::Adapter']]],
+  ['gradient3d_3c_20im1imagetype_20_3e_14',['Gradient3D&lt; Im1ImageType &gt;',['../class_m_r_1_1_adapter_1_1_gradient3_d.html',1,'MR::Adapter']]],
+  ['gradient3d_3c_20im2imagetype_20_3e_15',['Gradient3D&lt; Im2ImageType &gt;',['../class_m_r_1_1_adapter_1_1_gradient3_d.html',1,'MR::Adapter']]],
+  ['gradientdescent_16',['GradientDescent',['../class_m_r_1_1_math_1_1_gradient_descent.html',1,'MR::Math']]],
+  ['gradientdescentbb_17',['GradientDescentBB',['../class_m_r_1_1_math_1_1_gradient_descent_b_b.html',1,'MR::Math']]],
+  ['grid_5fper_5fvoxel_18',['Grid_per_voxel',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_seeding_1_1_grid__per__voxel.html',1,'MR::DWI::Tractography::Seeding']]],
+  ['gridlayout_19',['GridLayout',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_1_1_grid_layout.html',1,'MR::GUI::MRView::Tool::Base']]],
+  ['gz_20',['GZ',['../class_m_r_1_1_file_1_1_g_z.html',1,'MR::File::GZ'],['../class_m_r_1_1_image_i_o_1_1_g_z.html',1,'MR::ImageIO::GZ']]]
 ];
