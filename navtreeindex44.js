@@ -1,5 +1,7 @@
 var NAVTREEINDEX44 =
 {
+"twi__stats_8h.html#a3fa21a08c7f0bffb34976f520d129275aee5a197b57738c2b0c86c779ad467f87":[12,0,1,2,2,5,7,1,11],
+"twi__stats_8h.html#a444d7b584b553e99c45c2db2d64e5026":[12,0,1,2,2,5,7,4],
 "twi__stats_8h.html#a6d8085a00765609c3f8ee435f8cdf31d":[12,0,1,2,2,5,7,0],
 "twi__stats_8h.html#a6d8085a00765609c3f8ee435f8cdf31da0a4fa196233a71f576eb64fdec763693":[12,0,1,2,2,5,7,0,7],
 "twi__stats_8h.html#a6d8085a00765609c3f8ee435f8cdf31da20d64a752070d12cd531a1bc5961876f":[12,0,1,2,2,5,7,0,2],

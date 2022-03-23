@@ -1,5 +1,7 @@
 var NAVTREEINDEX31 =
 {
+"dwi_2tractography_2connectome_2connectome_8h.html":[12,0,1,2,2,2,0],
+"dwi_2tractography_2connectome_2connectome_8h.html#a057e0e51b55217bf51231d5979fa2084":[12,0,1,2,2,2,0,1],
 "dwi_2tractography_2connectome_2connectome_8h.html#a25ce9f433c45fcf7c5d0adf8f69079c4":[12,0,1,2,2,2,0,4],
 "dwi_2tractography_2connectome_2connectome_8h.html#a4b0286ffd8a79a1b4fc467bb9ea367b1":[12,0,1,2,2,2,0,7],
 "dwi_2tractography_2connectome_2connectome_8h.html#a8a8acf8ee8593cb09fc869334d80a3f6":[12,0,1,2,2,2,0,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX31 =
 "functions_vars.html":[11,3,2,0],
 "functions_vars_a.html":[11,3,2,1],
 "functions_vars_b.html":[11,3,2,2],
-"functions_vars_c.html":[11,3,2,3],
-"functions_vars_d.html":[11,3,2,4],
-"functions_vars_e.html":[11,3,2,5]
+"functions_vars_c.html":[11,3,2,3]
 };

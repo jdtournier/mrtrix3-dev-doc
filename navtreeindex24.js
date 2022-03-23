@@ -1,5 +1,7 @@
 var NAVTREEINDEX24 =
 {
+"class_m_r_1_1_image_i_o_1_1_g_z.html#ae06319aaa3329aa1b37dec77ede56b1f":[10,0,0,14,2,6],
+"class_m_r_1_1_image_i_o_1_1_g_z.html#aeb2ec16803e47d594106706a084bad6f":[10,0,0,14,2,2],
 "class_m_r_1_1_image_i_o_1_1_g_z.html#aeb2ec16803e47d594106706a084bad6f":[11,0,0,12,2,2],
 "class_m_r_1_1_image_i_o_1_1_g_z.html#aec6d7a33ef9333425371184acd609d5b":[10,0,0,14,2,1],
 "class_m_r_1_1_image_i_o_1_1_g_z.html#aec6d7a33ef9333425371184acd609d5b":[11,0,0,12,2,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX24 =
 "class_m_r_1_1_math_1_1_cubic_spline.html#ab295f287ce50d571a389aff3eca1f34c":[10,0,0,16,11,0],
 "class_m_r_1_1_math_1_1_cubic_spline.html#aba67b6e9fde3e0d7da995f0a544c062a":[10,0,0,16,11,3],
 "class_m_r_1_1_math_1_1_cubic_spline.html#aba67b6e9fde3e0d7da995f0a544c062a":[11,0,0,14,4,3],
-"class_m_r_1_1_math_1_1_cubic_spline.html#ada1d8a05121417df8c8399c7963b9011":[11,0,0,14,4,1],
-"class_m_r_1_1_math_1_1_cubic_spline.html#ada1d8a05121417df8c8399c7963b9011":[10,0,0,16,11,1],
-"class_m_r_1_1_math_1_1_gradient_descent.html":[10,0,0,16,12]
+"class_m_r_1_1_math_1_1_cubic_spline.html#ada1d8a05121417df8c8399c7963b9011":[11,0,0,14,4,1]
 };

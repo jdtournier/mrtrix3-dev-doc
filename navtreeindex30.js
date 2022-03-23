@@ -1,5 +1,7 @@
 var NAVTREEINDEX30 =
 {
+"core_2formats_2list_8h.html":[12,0,0,7,0],
+"core_2formats_2list_8h.html#a219777c8829302025b2c1a3ad85f3e0c":[12,0,0,7,0,16],
 "core_2formats_2list_8h.html#a55276c15d163652af34f4b28c2e023d0":[12,0,0,7,0,15],
 "core_2formats_2list_8h.html#aa4616324e125e8d0e4f5f6bd76b03a26":[12,0,0,7,0,17],
 "core_2formats_2list_8h_source.html":[12,0,0,7,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX30 =
 "dwi_2tractography_2_s_i_f_t_2fixel_8h.html":[12,0,1,2,2,8,0],
 "dwi_2tractography_2_s_i_f_t_2fixel_8h_source.html":[12,0,1,2,2,8,0],
 "dwi_2tractography_2_s_i_f_t_2model_8h.html":[12,0,1,2,2,8,2],
-"dwi_2tractography_2_s_i_f_t_2model_8h_source.html":[12,0,1,2,2,8,2],
-"dwi_2tractography_2connectome_2connectome_8h.html":[12,0,1,2,2,2,0],
-"dwi_2tractography_2connectome_2connectome_8h.html#a057e0e51b55217bf51231d5979fa2084":[12,0,1,2,2,2,0,1]
+"dwi_2tractography_2_s_i_f_t_2model_8h_source.html":[12,0,1,2,2,8,2]
 };

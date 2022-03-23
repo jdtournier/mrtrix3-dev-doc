@@ -220,7 +220,8 @@ var searchData=
   ['gt_2eh_217',['gt.h',['../gt_8h.html',1,'']]],
   ['gui_2eh_218',['gui.h',['../gui_8h.html',1,'']]],
   ['gui_5fimage_2eh_219',['gui_image.h',['../gui__image_8h.html',1,'']]],
-  ['gz_220',['gz',['../class_m_r_1_1_file_1_1_g_z.html#abd6fc408d208b328178ef90b72ed66a4',1,'MR::File::GZ']]],
-  ['gz_221',['GZ',['../class_m_r_1_1_image_i_o_1_1_g_z.html#aec6d7a33ef9333425371184acd609d5b',1,'MR::ImageIO::GZ::GZ(const Header &amp;header, size_t file_header_size, size_t file_tailer_size=0)'],['../class_m_r_1_1_image_i_o_1_1_g_z.html#a2c50a508ff4daa77c7b0170921081902',1,'MR::ImageIO::GZ::GZ(GZ &amp;&amp;)=default'],['../class_m_r_1_1_file_1_1_g_z.html#a6d6d1b2dd5132286ec7cff6307dce2b4',1,'MR::File::GZ::GZ(const std::string &amp;fname, const char *mode)'],['../class_m_r_1_1_file_1_1_g_z.html#a653ed9251bb40b3f86ab43c7312b9c49',1,'MR::File::GZ::GZ()'],['../class_m_r_1_1_file_1_1_g_z.html',1,'MR::File::GZ'],['../class_m_r_1_1_image_i_o_1_1_g_z.html',1,'MR::ImageIO::GZ']]],
-  ['gz_2eh_222',['gz.h',['../file_2gz_8h.html',1,'(Global Namespace)'],['../image__io_2gz_8h.html',1,'(Global Namespace)']]]
+  ['gz_220',['GZ',['../class_m_r_1_1_image_i_o_1_1_g_z.html#aec6d7a33ef9333425371184acd609d5b',1,'MR::ImageIO::GZ::GZ(const Header &amp;header, size_t file_header_size, size_t file_tailer_size=0)'],['../class_m_r_1_1_image_i_o_1_1_g_z.html#a2c50a508ff4daa77c7b0170921081902',1,'MR::ImageIO::GZ::GZ(GZ &amp;&amp;)=default'],['../class_m_r_1_1_file_1_1_g_z.html#a6d6d1b2dd5132286ec7cff6307dce2b4',1,'MR::File::GZ::GZ(const std::string &amp;fname, const char *mode)'],['../class_m_r_1_1_file_1_1_g_z.html#a653ed9251bb40b3f86ab43c7312b9c49',1,'MR::File::GZ::GZ()']]],
+  ['gz_221',['gz',['../class_m_r_1_1_file_1_1_g_z.html#abd6fc408d208b328178ef90b72ed66a4',1,'MR::File::GZ']]],
+  ['gz_222',['GZ',['../class_m_r_1_1_file_1_1_g_z.html',1,'MR::File::GZ'],['../class_m_r_1_1_image_i_o_1_1_g_z.html',1,'MR::ImageIO::GZ']]],
+  ['gz_2eh_223',['gz.h',['../file_2gz_8h.html',1,'(Global Namespace)'],['../image__io_2gz_8h.html',1,'(Global Namespace)']]]
 ];

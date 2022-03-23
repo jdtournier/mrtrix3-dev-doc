@@ -1,5 +1,7 @@
 var NAVTREEINDEX32 =
 {
+"functions_vars_d.html":[11,3,2,4],
+"functions_vars_e.html":[11,3,2,5],
 "functions_vars_f.html":[11,3,2,6],
 "functions_vars_g.html":[11,3,2,7],
 "functions_vars_h.html":[11,3,2,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX32 =
 "group__zonal__spherical__harmonics.html#ga8df7da8e0754a5e4e0cffb711d37c32c":[9,8,7],
 "group__zonal__spherical__harmonics.html#ga91d0c1c4376953a96dc8f66986326025":[9,8,6],
 "group__zonal__spherical__harmonics.html#ga9be2bfabf4a9cf7decca0d9a4855798b":[9,8,9],
-"group__zonal__spherical__harmonics.html#gaad2b065dfb17856d2d19dbfc02b542e0":[9,8,11],
-"group__zonal__spherical__harmonics.html#gaad663bad9cad5b0aaa3f5ccfcc5403b1":[9,8,12],
-"group__zonal__spherical__harmonics.html#gac82e336c373264a210657efd7916f38d":[9,8,5]
+"group__zonal__spherical__harmonics.html#gaad2b065dfb17856d2d19dbfc02b542e0":[9,8,11]
 };

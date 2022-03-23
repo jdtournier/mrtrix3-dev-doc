@@ -28,6 +28,7 @@ var class_m_r_1_1_file_1_1_dicom_1_1_element =
     [ "get_uint", "class_m_r_1_1_file_1_1_dicom_1_1_element.html#a9252a9026fbc564e965a252eb1dbb0f4", null ],
     [ "get_uint", "class_m_r_1_1_file_1_1_dicom_1_1_element.html#aaacbe8a2618b1b2df2a4ad2ada1741e2", null ],
     [ "get_VR_from_tag_name", "class_m_r_1_1_file_1_1_dicom_1_1_element.html#ac678e3de0fac70b612cebcfffe2ea548", null ],
+    [ "ignore_when_parsing", "class_m_r_1_1_file_1_1_dicom_1_1_element.html#a8517b248044c336a2f82317da17fed70", null ],
     [ "init_dict", "class_m_r_1_1_file_1_1_dicom_1_1_element.html#affbd049e7e8b57a7774fe6310420ae9b", null ],
     [ "is", "class_m_r_1_1_file_1_1_dicom_1_1_element.html#a968489613b3c478257e940a605a87841", null ],
     [ "is_big_endian", "class_m_r_1_1_file_1_1_dicom_1_1_element.html#a868cd8d81d9f049355516b4559d209fd", null ],

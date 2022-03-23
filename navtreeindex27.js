@@ -1,5 +1,7 @@
 var NAVTREEINDEX27 =
 {
+"class_m_r_1_1_registration_1_1_metric_1_1_demons4_d.html#afc3bfb6e22da2f2d886b8ca972143c91":[11,0,0,16,0,2,10],
+"class_m_r_1_1_registration_1_1_metric_1_1_demons4_d.html#afc3bfb6e22da2f2d886b8ca972143c91":[10,0,0,21,0,2,10],
 "class_m_r_1_1_registration_1_1_metric_1_1_demons_c_c.html":[11,0,0,16,0,3],
 "class_m_r_1_1_registration_1_1_metric_1_1_demons_c_c.html":[10,0,0,21,0,3],
 "class_m_r_1_1_registration_1_1_metric_1_1_demons_c_c.html#a111033eab5d179fa4254a6bd4bcfe505":[10,0,0,21,0,3,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX27 =
 "class_m_r_1_1_registration_1_1_transform_1_1_non_linear_kernel.html#af9e78b5a22f5d993124b9f8ff06167d5":[10,0,0,21,2,8,2],
 "class_m_r_1_1_registration_1_1_transform_1_1_non_linear_kernel_multi_contrast.html":[11,0,0,16,2,9],
 "class_m_r_1_1_registration_1_1_transform_1_1_non_linear_kernel_multi_contrast.html":[10,0,0,21,2,9],
-"class_m_r_1_1_registration_1_1_transform_1_1_non_linear_kernel_multi_contrast.html#a0d53f7dee5d27b130e63cac268b1027a":[10,0,0,21,2,9,3],
-"class_m_r_1_1_registration_1_1_transform_1_1_non_linear_kernel_multi_contrast.html#a0d53f7dee5d27b130e63cac268b1027a":[11,0,0,16,2,9,3],
-"class_m_r_1_1_registration_1_1_transform_1_1_non_linear_kernel_multi_contrast.html#a3c82a87d3cd9676896a0029e97652730":[11,0,0,16,2,9,6]
+"class_m_r_1_1_registration_1_1_transform_1_1_non_linear_kernel_multi_contrast.html#a0d53f7dee5d27b130e63cac268b1027a":[10,0,0,21,2,9,3]
 };
