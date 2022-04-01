@@ -14,10 +14,12 @@ var class_m_r_1_1_file_1_1_dicom_1_1_quick_scan =
     [ "series", "class_m_r_1_1_file_1_1_dicom_1_1_quick_scan.html#aa5e5ca6afa6964f15649d37215562509", null ],
     [ "series_date", "class_m_r_1_1_file_1_1_dicom_1_1_quick_scan.html#a4093869d672809407a533b2baca67213", null ],
     [ "series_number", "class_m_r_1_1_file_1_1_dicom_1_1_quick_scan.html#aacd0f58b5ac7d79e15ab10a89fdedcb0", null ],
+    [ "series_ref_UID", "class_m_r_1_1_file_1_1_dicom_1_1_quick_scan.html#a0a63a5aef2ae4721f9276a90db90ec07", null ],
     [ "series_time", "class_m_r_1_1_file_1_1_dicom_1_1_quick_scan.html#abbdeee04aad241a60c32d6798096a564", null ],
     [ "study", "class_m_r_1_1_file_1_1_dicom_1_1_quick_scan.html#a30580483d3168326738ff0145b32646a", null ],
     [ "study_date", "class_m_r_1_1_file_1_1_dicom_1_1_quick_scan.html#a5e162da5bff5b45dd4d07c54a60912af", null ],
     [ "study_ID", "class_m_r_1_1_file_1_1_dicom_1_1_quick_scan.html#ad199a2016f5b6708d718469ee5f54554", null ],
     [ "study_time", "class_m_r_1_1_file_1_1_dicom_1_1_quick_scan.html#a238f323e050e420735a3e6cbb58ab533", null ],
+    [ "study_UID", "class_m_r_1_1_file_1_1_dicom_1_1_quick_scan.html#a957bdef72b4cfe84ad5d8c693263ea00", null ],
     [ "transfer_syntax_supported", "class_m_r_1_1_file_1_1_dicom_1_1_quick_scan.html#a0b1a43c25429f40943413caf549945e9", null ]
 ];

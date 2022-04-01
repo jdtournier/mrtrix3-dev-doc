@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0.3-95-g188958a3</div>
+   <div id="projectbrief">Version 3.0.3-98-gb3409159</div>
   </td>
  </tr>
  </tbody>
@@ -120,8 +120,8 @@ $(document).ready(function(){initNavTree('tree_8h_source.html',''); initResizabl
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>        <span class="keyword">public</span>:</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="class_m_r_1_1_file_1_1_dicom_1_1_tree.html#a5d675d133088cb42e7d779245c0b7e2d">   32</a></span>          std::string <a class="code hl_variable" href="class_m_r_1_1_file_1_1_dicom_1_1_tree.html#a5d675d133088cb42e7d779245c0b7e2d">description</a>;</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="class_m_r_1_1_file_1_1_dicom_1_1_tree.html#adf2d1f678722dee5c685db77557028f9">   33</a></span>          <span class="keywordtype">void</span> <a class="code hl_function" href="class_m_r_1_1_file_1_1_dicom_1_1_tree.html#adf2d1f678722dee5c685db77557028f9">read</a> (<span class="keyword">const</span> std::string&amp; filename);</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="class_m_r_1_1_file_1_1_dicom_1_1_tree.html#aae9fdaa114c429199084a659be5222e8">   34</a></span>          std::shared_ptr&lt;Patient&gt; <a class="code hl_function" href="class_m_r_1_1_file_1_1_dicom_1_1_tree.html#aae9fdaa114c429199084a659be5222e8">find</a> (<span class="keyword">const</span> std::string&amp; patient_name, <span class="keyword">const</span> std::string&amp; patient_ID = <span class="stringliteral">&quot;&quot;</span>,</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>              <span class="keyword">const</span> std::string&amp; patient_DOB = <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="class_m_r_1_1_file_1_1_dicom_1_1_tree.html#ac367df3e847e500216246cf3f64daef7">   34</a></span>          std::shared_ptr&lt;Patient&gt; <a class="code hl_function" href="class_m_r_1_1_file_1_1_dicom_1_1_tree.html#ac367df3e847e500216246cf3f64daef7">find</a> (<span class="keyword">const</span> std::string&amp; patient_name, <span class="keyword">const</span> std::string&amp; patient_ID,</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>              <span class="keyword">const</span> std::string&amp; patient_DOB);</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="class_m_r_1_1_file_1_1_dicom_1_1_tree.html#a80ca248e4e7b583af9ebaafdc4da2945">   37</a></span>          <span class="keywordtype">void</span> <a class="code hl_function" href="class_m_r_1_1_file_1_1_dicom_1_1_tree.html#a80ca248e4e7b583af9ebaafdc4da2945">sort</a>() {</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>            std::sort (begin(), end(), <a class="code hl_struct" href="struct_m_r_1_1compare__ptr__contents.html">compare_ptr_contents</a>());</div>
@@ -154,7 +154,7 @@ $(document).ready(function(){initNavTree('tree_8h_source.html',''); initResizabl
 <div class="ttc" id="aclass_m_r_1_1_file_1_1_dicom_1_1_tree_html_a5d675d133088cb42e7d779245c0b7e2d"><div class="ttname"><a href="class_m_r_1_1_file_1_1_dicom_1_1_tree.html#a5d675d133088cb42e7d779245c0b7e2d">MR::File::Dicom::Tree::description</a></div><div class="ttdeci">std::string description</div><div class="ttdef"><b>Definition:</b> <a href="tree_8h_source.html#l00032">tree.h:32</a></div></div>
 <div class="ttc" id="aclass_m_r_1_1_file_1_1_dicom_1_1_tree_html_a80ca248e4e7b583af9ebaafdc4da2945"><div class="ttname"><a href="class_m_r_1_1_file_1_1_dicom_1_1_tree.html#a80ca248e4e7b583af9ebaafdc4da2945">MR::File::Dicom::Tree::sort</a></div><div class="ttdeci">void sort()</div><div class="ttdef"><b>Definition:</b> <a href="tree_8h_source.html#l00037">tree.h:37</a></div></div>
 <div class="ttc" id="aclass_m_r_1_1_file_1_1_dicom_1_1_tree_html_a952b3fc8615d84178c03c3b3d7142179"><div class="ttname"><a href="class_m_r_1_1_file_1_1_dicom_1_1_tree.html#a952b3fc8615d84178c03c3b3d7142179">MR::File::Dicom::Tree::read_dir</a></div><div class="ttdeci">void read_dir(const std::string &amp;filename, ProgressBar &amp;progress)</div></div>
-<div class="ttc" id="aclass_m_r_1_1_file_1_1_dicom_1_1_tree_html_aae9fdaa114c429199084a659be5222e8"><div class="ttname"><a href="class_m_r_1_1_file_1_1_dicom_1_1_tree.html#aae9fdaa114c429199084a659be5222e8">MR::File::Dicom::Tree::find</a></div><div class="ttdeci">std::shared_ptr&lt; Patient &gt; find(const std::string &amp;patient_name, const std::string &amp;patient_ID=&quot;&quot;, const std::string &amp;patient_DOB=&quot;&quot;)</div></div>
+<div class="ttc" id="aclass_m_r_1_1_file_1_1_dicom_1_1_tree_html_ac367df3e847e500216246cf3f64daef7"><div class="ttname"><a href="class_m_r_1_1_file_1_1_dicom_1_1_tree.html#ac367df3e847e500216246cf3f64daef7">MR::File::Dicom::Tree::find</a></div><div class="ttdeci">std::shared_ptr&lt; Patient &gt; find(const std::string &amp;patient_name, const std::string &amp;patient_ID, const std::string &amp;patient_DOB)</div></div>
 <div class="ttc" id="aclass_m_r_1_1_file_1_1_dicom_1_1_tree_html_adf2d1f678722dee5c685db77557028f9"><div class="ttname"><a href="class_m_r_1_1_file_1_1_dicom_1_1_tree.html#adf2d1f678722dee5c685db77557028f9">MR::File::Dicom::Tree::read</a></div><div class="ttdeci">void read(const std::string &amp;filename)</div></div>
 <div class="ttc" id="aclass_m_r_1_1_progress_bar_html"><div class="ttname"><a href="class_m_r_1_1_progress_bar.html">MR::ProgressBar</a></div><div class="ttdoc">implements a progress meter to provide feedback to the user</div><div class="ttdef"><b>Definition:</b> <a href="progressbar_8h_source.html#l00058">progressbar.h:58</a></div></div>
 <div class="ttc" id="aclass_m_r_1_1vector_html"><div class="ttname"><a href="class_m_r_1_1vector.html">MR::vector</a></div><div class="ttdef"><b>Definition:</b> <a href="src_2surface_2types_8h_source.html#l00253">types.h:253</a></div></div>
@@ -171,7 +171,7 @@ $(document).ready(function(){initNavTree('tree_8h_source.html',''); initResizabl
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4270bfced15e0e73154b13468c7c9ad9.html">core</a></li><li class="navelem"><a class="el" href="dir_3cf79a01c77d233dd5dadaf9c60ce692.html">file</a></li><li class="navelem"><a class="el" href="dir_a0e960ad71aca9da31cf4bd35c48c0bb.html">dicom</a></li><li class="navelem"><a class="el" href="tree_8h.html">tree.h</a></li>
-    <li class="footer">Generated on Wed Mar 23 2022 10:00:05 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+    <li class="footer">Generated on Fri Apr 1 2022 18:00:04 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
   </ul>
 </div>
 </body>

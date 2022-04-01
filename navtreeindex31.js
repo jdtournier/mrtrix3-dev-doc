@@ -1,5 +1,17 @@
 var NAVTREEINDEX31 =
 {
+"dwi_2gradient_8h.html#ae117dd90bf286df96d693fdf91c6d645":[12,0,0,2,0,2],
+"dwi_2gradient_8h.html#ae7cb4c23a01953166fddf8806ac3304a":[12,0,0,2,0,1],
+"dwi_2gradient_8h.html#af50249cdb437b32a1bc57e68f1b9168b":[12,0,0,2,0,6],
+"dwi_2gradient_8h_source.html":[12,0,0,2,0],
+"dwi_2tractography_2_a_c_t_2shared_8h.html":[12,0,1,2,2,0,3],
+"dwi_2tractography_2_a_c_t_2shared_8h_source.html":[12,0,1,2,2,0,3],
+"dwi_2tractography_2_s_i_f_t2_2fixel_8h.html":[12,0,1,2,2,9,1],
+"dwi_2tractography_2_s_i_f_t2_2fixel_8h_source.html":[12,0,1,2,2,9,1],
+"dwi_2tractography_2_s_i_f_t_2fixel_8h.html":[12,0,1,2,2,8,0],
+"dwi_2tractography_2_s_i_f_t_2fixel_8h_source.html":[12,0,1,2,2,8,0],
+"dwi_2tractography_2_s_i_f_t_2model_8h.html":[12,0,1,2,2,8,2],
+"dwi_2tractography_2_s_i_f_t_2model_8h_source.html":[12,0,1,2,2,8,2],
 "dwi_2tractography_2connectome_2connectome_8h.html":[12,0,1,2,2,2,0],
 "dwi_2tractography_2connectome_2connectome_8h.html#a057e0e51b55217bf51231d5979fa2084":[12,0,1,2,2,2,0,1],
 "dwi_2tractography_2connectome_2connectome_8h.html#a25ce9f433c45fcf7c5d0adf8f69079c4":[12,0,1,2,2,2,0,4],
@@ -237,17 +249,5 @@ var NAVTREEINDEX31 =
 "functions_o.html":[11,3,0,15],
 "functions_p.html":[11,3,0,16],
 "functions_prop.html":[11,3,6],
-"functions_q.html":[11,3,0,17],
-"functions_r.html":[11,3,0,18],
-"functions_rela.html":[11,3,7],
-"functions_s.html":[11,3,0,19],
-"functions_t.html":[11,3,0,20],
-"functions_type.html":[11,3,3],
-"functions_u.html":[11,3,0,21],
-"functions_v.html":[11,3,0,22],
-"functions_vars.html":[11,3,2],
-"functions_vars.html":[11,3,2,0],
-"functions_vars_a.html":[11,3,2,1],
-"functions_vars_b.html":[11,3,2,2],
-"functions_vars_c.html":[11,3,2,3]
+"functions_q.html":[11,3,0,17]
 };

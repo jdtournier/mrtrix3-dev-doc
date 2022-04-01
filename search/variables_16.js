@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['v_0',['v',['../class_m_r_1_1_g_u_i_1_1_g_l_1_1vec4.html#a554ecf36168a7f4698df0e30fc7e75e0',1,'MR::GUI::GL::vec4']]],
-  ['v_1',['V',['../class_m_r_1_1_file_1_1_key_value_1_1_reader.html#a88453757734e23645e73245561a4ff4b',1,'MR::File::KeyValue::Reader']]],
+  ['v_0',['V',['../class_m_r_1_1_file_1_1_key_value_1_1_reader.html#a88453757734e23645e73245561a4ff4b',1,'MR::File::KeyValue::Reader']]],
+  ['v_1',['v',['../class_m_r_1_1_g_u_i_1_1_g_l_1_1vec4.html#a554ecf36168a7f4698df0e30fc7e75e0',1,'MR::GUI::GL::vec4']]],
   ['value_2',['value',['../class_m_r_1_1is__eigen__type.html#a3d621af3dc0b6974d62408d1a110805b',1,'MR::is_eigen_type']]],
   ['value_5fbuffer_5fdirty_3',['value_buffer_dirty',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_fixel.html#a3dbfe0d150cecf52181cba6c0c3ed027',1,'MR::GUI::MRView::Tool::BaseFixel']]],
   ['value_5fimage_4',['value_image',['../class_m_r_1_1_fixel_1_1_matrix_1_1_reader.html#a2c82d581591b89ad1fd4d86305166456',1,'MR::Fixel::Matrix::Reader']]],
@@ -40,6 +40,6 @@ var searchData=
   ['voxel_5fto_5findices_5fmap_37',['voxel_to_indices_map',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_tool_1_1_base_fixel.html#a847149eaa2f099999667a4c0236bf991',1,'MR::GUI::MRView::Tool::BaseFixel']]],
   ['voxels_38',['voxels',['../class_m_r_1_1_d_w_i_1_1_bootstrap.html#a30d9544b03f3375e32c0e1c862b9c469',1,'MR::DWI::Bootstrap']]],
   ['voxelsize_39',['voxelsize',['../class_m_r_1_1_transform.html#aa3c1ba57f3d0ff387e1a635fe4b31486',1,'MR::Transform']]],
-  ['vr_40',['vr',['../class_m_r_1_1_file_1_1_dicom_1_1_c_s_a_entry.html#a0817613b4dd1ef5f9deca03c93cf19e1',1,'MR::File::Dicom::CSAEntry']]],
-  ['vr_41',['VR',['../class_m_r_1_1_file_1_1_dicom_1_1_element.html#a13740d6f2c5a67940448889058302c08',1,'MR::File::Dicom::Element']]]
+  ['vr_40',['VR',['../class_m_r_1_1_file_1_1_dicom_1_1_element.html#a13740d6f2c5a67940448889058302c08',1,'MR::File::Dicom::Element']]],
+  ['vr_41',['vr',['../class_m_r_1_1_file_1_1_dicom_1_1_c_s_a_entry.html#a0817613b4dd1ef5f9deca03c93cf19e1',1,'MR::File::Dicom::CSAEntry']]]
 ];

@@ -32,6 +32,7 @@ var class_m_r_1_1_file_1_1_dicom_1_1_element =
     [ "init_dict", "class_m_r_1_1_file_1_1_dicom_1_1_element.html#affbd049e7e8b57a7774fe6310420ae9b", null ],
     [ "is", "class_m_r_1_1_file_1_1_dicom_1_1_element.html#a968489613b3c478257e940a605a87841", null ],
     [ "is_big_endian", "class_m_r_1_1_file_1_1_dicom_1_1_element.html#a868cd8d81d9f049355516b4559d209fd", null ],
+    [ "is_in_series_ref_sequence", "class_m_r_1_1_file_1_1_dicom_1_1_element.html#a99ede461be349c6561d602e4f50f3578", null ],
     [ "is_new_sequence", "class_m_r_1_1_file_1_1_dicom_1_1_element.html#a1fb561294ef2d79c458fbaef21635f25", null ],
     [ "level", "class_m_r_1_1_file_1_1_dicom_1_1_element.html#a0b1834fed620f56466b16a0beeebc757", null ],
     [ "offset", "class_m_r_1_1_file_1_1_dicom_1_1_element.html#ab5517a2064953901a72875418c0d7825", null ],

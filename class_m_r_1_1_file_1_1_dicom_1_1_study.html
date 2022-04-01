@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0.3-95-g188958a3</div>
+   <div id="projectbrief">Version 3.0.3-98-gb3409159</div>
   </td>
  </tr>
  </tbody>
@@ -105,10 +105,10 @@ Inheritance diagram for MR::File::Dicom::Study:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aa816af18cbdab1afd378a9469381181a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_study.html#aa816af18cbdab1afd378a9469381181a">Study</a> (<a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_patient.html">Patient</a> *parent, const std::string &amp;study_name, const std::string &amp;study_ID=&quot;&quot;, const std::string &amp;study_date=&quot;&quot;, const std::string &amp;study_time=&quot;&quot;)</td></tr>
-<tr class="separator:aa816af18cbdab1afd378a9469381181a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19043ff52c844501edfaa3c9f02aac8c"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_series.html">Series</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_study.html#a19043ff52c844501edfaa3c9f02aac8c">find</a> (const std::string &amp;series_name, size_t series_number, const std::string &amp;image_type, const std::string &amp;series_modality=&quot;&quot;, const std::string &amp;series_date=&quot;&quot;, const std::string &amp;series_time=&quot;&quot;)</td></tr>
-<tr class="separator:a19043ff52c844501edfaa3c9f02aac8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affa3523413cebbb49aa8ddb391c9e188"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_study.html#affa3523413cebbb49aa8ddb391c9e188">Study</a> (<a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_patient.html">Patient</a> *parent, const std::string &amp;study_name, const std::string &amp;study_ID, const std::string &amp;study_UID, const std::string &amp;study_date, const std::string &amp;study_time)</td></tr>
+<tr class="separator:affa3523413cebbb49aa8ddb391c9e188"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6452eeb1d8e6030de2b1c485e4c103a0"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_series.html">Series</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_study.html#a6452eeb1d8e6030de2b1c485e4c103a0">find</a> (const std::string &amp;series_name, size_t series_number, const std::string &amp;image_type, const std::string &amp;series_ref_UID, const std::string &amp;series_modality, const std::string &amp;series_date, const std::string &amp;series_time)</td></tr>
+<tr class="separator:a6452eeb1d8e6030de2b1c485e4c103a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab969cbdc60022222b93dc672146ba5b3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_study.html#ab969cbdc60022222b93dc672146ba5b3">operator&lt;</a> (const <a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_study.html">Study</a> &amp;s) const</td></tr>
 <tr class="separator:ab969cbdc60022222b93dc672146ba5b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_m_r_1_1vector"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_m_r_1_1vector')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_m_r_1_1vector.html">MR::vector&lt; std::shared_ptr&lt; Series &gt; &gt;</a></td></tr>
@@ -123,6 +123,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a0f4918a456617dd30342e34af95ef5e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9b07f9329ba9d576c739abefcd6e194"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_study.html#ac9b07f9329ba9d576c739abefcd6e194">ID</a></td></tr>
 <tr class="separator:ac9b07f9329ba9d576c739abefcd6e194"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacf8d87c5b6c072d3547154bc7137fe8"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_study.html#aacf8d87c5b6c072d3547154bc7137fe8">UID</a></td></tr>
+<tr class="separator:aacf8d87c5b6c072d3547154bc7137fe8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a97a003459ac19d9ed52a88ec4b7a618f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_study.html#a97a003459ac19d9ed52a88ec4b7a618f">date</a></td></tr>
 <tr class="separator:a97a003459ac19d9ed52a88ec4b7a618f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc7b3112c0f9de6621a56540762abd93"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_study.html#acc7b3112c0f9de6621a56540762abd93">time</a></td></tr>
@@ -132,8 +134,8 @@ Public Attributes</h2></td></tr>
 <div class="textblock">
 <p class="definition">Definition at line <a class="el" href="study_8h_source.html#l00030">30</a> of file <a class="el" href="study_8h_source.html">study.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aa816af18cbdab1afd378a9469381181a" name="aa816af18cbdab1afd378a9469381181a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa816af18cbdab1afd378a9469381181a">&#9670;&nbsp;</a></span>Study()</h2>
+<a id="affa3523413cebbb49aa8ddb391c9e188" name="affa3523413cebbb49aa8ddb391c9e188"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affa3523413cebbb49aa8ddb391c9e188">&#9670;&nbsp;</a></span>Study()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -157,19 +159,25 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>study_ID</em> = <code>&quot;&quot;</code>, </td>
+          <td class="paramname"><em>study_ID</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>study_date</em> = <code>&quot;&quot;</code>, </td>
+          <td class="paramname"><em>study_UID</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>study_time</em> = <code>&quot;&quot;</code>&#160;</td>
+          <td class="paramname"><em>study_date</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>study_time</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -189,8 +197,8 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a19043ff52c844501edfaa3c9f02aac8c" name="a19043ff52c844501edfaa3c9f02aac8c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a19043ff52c844501edfaa3c9f02aac8c">&#9670;&nbsp;</a></span>find()</h2>
+<a id="a6452eeb1d8e6030de2b1c485e4c103a0" name="a6452eeb1d8e6030de2b1c485e4c103a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6452eeb1d8e6030de2b1c485e4c103a0">&#9670;&nbsp;</a></span>find()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -217,19 +225,25 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>series_modality</em> = <code>&quot;&quot;</code>, </td>
+          <td class="paramname"><em>series_ref_UID</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>series_date</em> = <code>&quot;&quot;</code>, </td>
+          <td class="paramname"><em>series_modality</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>series_time</em> = <code>&quot;&quot;</code>&#160;</td>
+          <td class="paramname"><em>series_date</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>series_time</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -265,7 +279,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="study_8h_source.html#l00043">43</a> of file <a class="el" href="study_8h_source.html">study.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="study_8h_source.html#l00045">45</a> of file <a class="el" href="study_8h_source.html">study.h</a>.</p>
 
 </div>
 </div>
@@ -350,6 +364,22 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aacf8d87c5b6c072d3547154bc7137fe8" name="aacf8d87c5b6c072d3547154bc7137fe8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aacf8d87c5b6c072d3547154bc7137fe8">&#9670;&nbsp;</a></span>UID</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string MR::File::Dicom::Study::UID</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="study_8h_source.html#l00038">38</a> of file <a class="el" href="study_8h_source.html">study.h</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>core/file/dicom/<a class="el" href="study_8h_source.html">study.h</a></li>
 </ul>
@@ -359,7 +389,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_file.html">File</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_file_1_1_dicom.html">Dicom</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_study.html">Study</a></li>
-    <li class="footer">Generated on Wed Mar 23 2022 10:00:07 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+    <li class="footer">Generated on Fri Apr 1 2022 18:00:07 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
   </ul>
 </div>
 </body>

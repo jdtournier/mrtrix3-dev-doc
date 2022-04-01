@@ -1,5 +1,17 @@
 var NAVTREEINDEX30 =
 {
+"core_2fixel_2helpers_8h.html#a9f70435567f5fe7561d84aba198ec599":[12,0,0,6,1,15],
+"core_2fixel_2helpers_8h.html#aac00bd1659ff1b73d73afdae49efe593":[12,0,0,6,1,10],
+"core_2fixel_2helpers_8h.html#ab24349b6237c7cc4b62c091b5cf255e3":[12,0,0,6,1,24],
+"core_2fixel_2helpers_8h.html#ab599b0700f89451dc022b0a985cf6d15":[12,0,0,6,1,19],
+"core_2fixel_2helpers_8h.html#ad135580ad383c1b11b0089ebfb9d3b28":[12,0,0,6,1,18],
+"core_2fixel_2helpers_8h.html#ae0c74c28ef905ade8ce52bbbe4e31d5d":[12,0,0,6,1,8],
+"core_2fixel_2helpers_8h.html#ae498a75fdf2be88727048d51fd95e749":[12,0,0,6,1,9],
+"core_2fixel_2helpers_8h.html#afd3ad73a2f0e7dfa3a4d6faba4599a70":[12,0,0,6,1,21],
+"core_2fixel_2helpers_8h_source.html":[12,0,0,6,1],
+"core_2fixel_2types_8h.html":[12,0,0,6,4],
+"core_2fixel_2types_8h.html#aa51e532e889581925b170022358db3b9":[12,0,0,6,4,0],
+"core_2fixel_2types_8h_source.html":[12,0,0,6,4],
 "core_2formats_2list_8h.html":[12,0,0,7,0],
 "core_2formats_2list_8h.html#a219777c8829302025b2c1a3ad85f3e0c":[12,0,0,7,0,16],
 "core_2formats_2list_8h.html#a55276c15d163652af34f4b28c2e023d0":[12,0,0,7,0,15],
@@ -237,17 +249,5 @@ var NAVTREEINDEX30 =
 "dwi_2gradient_8h.html#aafaebc442ab45b8a78dfa688d49010ca":[12,0,0,2,0,18],
 "dwi_2gradient_8h.html#aafb846be002815f88b4c941058af46f2":[12,0,0,2,0,4],
 "dwi_2gradient_8h.html#ad0872e317002026c152c9c190ebdf176":[12,0,0,2,0,8],
-"dwi_2gradient_8h.html#ad41fcb7f4fb99ba9616914f7c901319f":[12,0,0,2,0,10],
-"dwi_2gradient_8h.html#ae117dd90bf286df96d693fdf91c6d645":[12,0,0,2,0,2],
-"dwi_2gradient_8h.html#ae7cb4c23a01953166fddf8806ac3304a":[12,0,0,2,0,1],
-"dwi_2gradient_8h.html#af50249cdb437b32a1bc57e68f1b9168b":[12,0,0,2,0,6],
-"dwi_2gradient_8h_source.html":[12,0,0,2,0],
-"dwi_2tractography_2_a_c_t_2shared_8h.html":[12,0,1,2,2,0,3],
-"dwi_2tractography_2_a_c_t_2shared_8h_source.html":[12,0,1,2,2,0,3],
-"dwi_2tractography_2_s_i_f_t2_2fixel_8h.html":[12,0,1,2,2,9,1],
-"dwi_2tractography_2_s_i_f_t2_2fixel_8h_source.html":[12,0,1,2,2,9,1],
-"dwi_2tractography_2_s_i_f_t_2fixel_8h.html":[12,0,1,2,2,8,0],
-"dwi_2tractography_2_s_i_f_t_2fixel_8h_source.html":[12,0,1,2,2,8,0],
-"dwi_2tractography_2_s_i_f_t_2model_8h.html":[12,0,1,2,2,8,2],
-"dwi_2tractography_2_s_i_f_t_2model_8h_source.html":[12,0,1,2,2,8,2]
+"dwi_2gradient_8h.html#ad41fcb7f4fb99ba9616914f7c901319f":[12,0,0,2,0,10]
 };

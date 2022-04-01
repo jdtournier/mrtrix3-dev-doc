@@ -11,7 +11,7 @@ var searchData=
   ['fetch_5fnative_8',['fetch_native',['../namespace_m_r_1_1_raw.html#a4aefd679c91af363383594086a89b3ca',1,'MR::Raw']]],
   ['fft_9',['fft',['../group___filters.html#ga5924da72ae3f5fec7be0ac67f919c01c',1,'MR::Filter']]],
   ['fieldofviewchanged_10',['fieldOfViewChanged',['../class_m_r_1_1_g_u_i_1_1_m_r_view_1_1_window.html#ac67fbe206d7d1b0413f91cc193c77e20',1,'MR::GUI::MRView::Window']]],
-  ['find_11',['find',['../class_m_r_1_1_file_1_1_dicom_1_1_patient.html#a2dbc6d5d997730df89249f1ca7220ba7',1,'MR::File::Dicom::Patient::find()'],['../class_m_r_1_1_file_1_1_dicom_1_1_study.html#a19043ff52c844501edfaa3c9f02aac8c',1,'MR::File::Dicom::Study::find()'],['../class_m_r_1_1_file_1_1_dicom_1_1_tree.html#aae9fdaa114c429199084a659be5222e8',1,'MR::File::Dicom::Tree::find()']]],
+  ['find_11',['find',['../class_m_r_1_1_file_1_1_dicom_1_1_patient.html#a52e1b502eaa7b25db6719a47ec91b561',1,'MR::File::Dicom::Patient::find()'],['../class_m_r_1_1_file_1_1_dicom_1_1_study.html#a6452eeb1d8e6030de2b1c485e4c103a0',1,'MR::File::Dicom::Study::find()'],['../class_m_r_1_1_file_1_1_dicom_1_1_tree.html#ac367df3e847e500216246cf3f64daef7',1,'MR::File::Dicom::Tree::find()']]],
   ['find_5fdata_5fheaders_12',['find_data_headers',['../namespace_m_r_1_1_fixel.html#a4a8431c39bce599e0726ed7d403576c0',1,'MR::Fixel']]],
   ['find_5fdirections_5fheader_13',['find_directions_header',['../namespace_m_r_1_1_fixel.html#a8aa29e2784bb0baa6c81965d4acf779b',1,'MR::Fixel']]],
   ['find_5findex_5fheader_14',['find_index_header',['../namespace_m_r_1_1_fixel.html#a9f70435567f5fe7561d84aba198ec599',1,'MR::Fixel']]],

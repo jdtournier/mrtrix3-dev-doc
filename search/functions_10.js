@@ -23,7 +23,7 @@ var searchData=
   ['parse_5fspecial_5foptions_20',['parse_special_options',['../namespace_m_r_1_1_app.html#a87e40c7c05c9ec889d2ffd325729e3dd',1,'MR::App']]],
   ['parsedname_21',['ParsedName',['../class_m_r_1_1_file_1_1_parsed_name.html#a65d6e4efcfc0b4a37cf9069862f9b715',1,'MR::File::ParsedName']]],
   ['parsedoption_22',['ParsedOption',['../class_m_r_1_1_app_1_1_parsed_option.html#ad739b569b5793b59103c98532bf74f57',1,'MR::App::ParsedOption']]],
-  ['patient_23',['Patient',['../class_m_r_1_1_file_1_1_dicom_1_1_patient.html#a927cb8b6577ab70cb6f0fedc25ec82a6',1,'MR::File::Dicom::Patient']]],
+  ['patient_23',['Patient',['../class_m_r_1_1_file_1_1_dicom_1_1_patient.html#ae7e93927ada83aca65bb557e5ca48f85',1,'MR::File::Dicom::Patient']]],
   ['perform_5ffiltering_24',['perform_filtering',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_s_i_f_ter.html#ad7f22e1958aa51cd45358e3b667ecc48',1,'MR::DWI::Tractography::SIFT::SIFTer']]],
   ['perform_5ffod_5fsegmentation_25',['perform_FOD_segmentation',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_s_i_f_t_1_1_model_base.html#ad239571cbe2261c7c67ace7a62a73b90',1,'MR::DWI::Tractography::SIFT::ModelBase']]],
   ['pickneighbour_26',['pickNeighbour',['../class_m_r_1_1_d_w_i_1_1_tractography_1_1_g_t_1_1_internal_energy_computer.html#aa07c2feb4c5a884f889dbab641aa32da',1,'MR::DWI::Tractography::GT::InternalEnergyComputer']]],

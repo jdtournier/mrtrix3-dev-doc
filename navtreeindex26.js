@@ -1,5 +1,17 @@
 var NAVTREEINDEX26 =
 {
+"class_m_r_1_1_math_1_1_stats_1_1_g_l_m_1_1_test_variable_homoscedastic.html":[9,16,2],
+"class_m_r_1_1_math_1_1_stats_1_1_shuffle.html":[10,0,0,16,9,2],
+"class_m_r_1_1_math_1_1_stats_1_1_shuffle.html":[11,0,0,14,2,2],
+"class_m_r_1_1_math_1_1_stats_1_1_shuffle.html#a6e82ab7ab05e4421b1af8dc456b1a7d0":[11,0,0,14,2,2,0],
+"class_m_r_1_1_math_1_1_stats_1_1_shuffle.html#a6e82ab7ab05e4421b1af8dc456b1a7d0":[10,0,0,16,9,2,0],
+"class_m_r_1_1_math_1_1_stats_1_1_shuffle.html#aff9f64d5dc64e08afe1692d670c48a1b":[10,0,0,16,9,2,1],
+"class_m_r_1_1_math_1_1_stats_1_1_shuffle.html#aff9f64d5dc64e08afe1692d670c48a1b":[11,0,0,14,2,2,1],
+"class_m_r_1_1_math_1_1_stats_1_1_shuffler.html":[10,0,0,16,9,3],
+"class_m_r_1_1_math_1_1_stats_1_1_shuffler.html":[11,0,0,14,2,3],
+"class_m_r_1_1_math_1_1_stats_1_1_shuffler.html#a3c88ea9fe3c69cdb12709d160d271574":[11,0,0,14,2,3,3],
+"class_m_r_1_1_math_1_1_stats_1_1_shuffler.html#a3c88ea9fe3c69cdb12709d160d271574":[10,0,0,16,9,3,3],
+"class_m_r_1_1_math_1_1_stats_1_1_shuffler.html#a63057706fbc37c581e319ce0789709fa":[11,0,0,14,2,3,6],
 "class_m_r_1_1_math_1_1_stats_1_1_shuffler.html#a63057706fbc37c581e319ce0789709fa":[10,0,0,16,9,3,6],
 "class_m_r_1_1_math_1_1_stats_1_1_shuffler.html#a6fc09df4813d4e6a277fee43d02daab0":[11,0,0,14,2,3,4],
 "class_m_r_1_1_math_1_1_stats_1_1_shuffler.html#a6fc09df4813d4e6a277fee43d02daab0":[10,0,0,16,9,3,4],
@@ -237,17 +249,5 @@ var NAVTREEINDEX26 =
 "class_m_r_1_1_registration_1_1_metric_1_1_demons4_d.html#a8ebaf9a179631d18eb04607fc27e5cab":[11,0,0,16,0,2,11],
 "class_m_r_1_1_registration_1_1_metric_1_1_demons4_d.html#a8ebaf9a179631d18eb04607fc27e5cab":[10,0,0,21,0,2,11],
 "class_m_r_1_1_registration_1_1_metric_1_1_demons4_d.html#a95197377ab230c670b60c638e720a4e9":[10,0,0,21,0,2,3],
-"class_m_r_1_1_registration_1_1_metric_1_1_demons4_d.html#a95197377ab230c670b60c638e720a4e9":[11,0,0,16,0,2,3],
-"class_m_r_1_1_registration_1_1_metric_1_1_demons4_d.html#aa00945ce37fc48866724e2e0b68a8f8c":[10,0,0,21,0,2,7],
-"class_m_r_1_1_registration_1_1_metric_1_1_demons4_d.html#aa00945ce37fc48866724e2e0b68a8f8c":[11,0,0,16,0,2,7],
-"class_m_r_1_1_registration_1_1_metric_1_1_demons4_d.html#aa975fafeded31cff37ca74c09562dbf2":[11,0,0,16,0,2,19],
-"class_m_r_1_1_registration_1_1_metric_1_1_demons4_d.html#aa975fafeded31cff37ca74c09562dbf2":[10,0,0,21,0,2,19],
-"class_m_r_1_1_registration_1_1_metric_1_1_demons4_d.html#abc548b0b689b33c2b7bd6fe7bbc616ac":[10,0,0,21,0,2,4],
-"class_m_r_1_1_registration_1_1_metric_1_1_demons4_d.html#abc548b0b689b33c2b7bd6fe7bbc616ac":[11,0,0,16,0,2,4],
-"class_m_r_1_1_registration_1_1_metric_1_1_demons4_d.html#adfd030f1018bf8db82de3c4bab9704c9":[10,0,0,21,0,2,5],
-"class_m_r_1_1_registration_1_1_metric_1_1_demons4_d.html#adfd030f1018bf8db82de3c4bab9704c9":[11,0,0,16,0,2,5],
-"class_m_r_1_1_registration_1_1_metric_1_1_demons4_d.html#aebd94ec645165a5c7eb0123e5b650a09":[10,0,0,21,0,2,1],
-"class_m_r_1_1_registration_1_1_metric_1_1_demons4_d.html#aebd94ec645165a5c7eb0123e5b650a09":[11,0,0,16,0,2,1],
-"class_m_r_1_1_registration_1_1_metric_1_1_demons4_d.html#aedd5c1d2276fed0ebfc4ae5e6a23109f":[11,0,0,16,0,2,6],
-"class_m_r_1_1_registration_1_1_metric_1_1_demons4_d.html#aedd5c1d2276fed0ebfc4ae5e6a23109f":[10,0,0,21,0,2,6]
+"class_m_r_1_1_registration_1_1_metric_1_1_demons4_d.html#a95197377ab230c670b60c638e720a4e9":[11,0,0,16,0,2,3]
 };
