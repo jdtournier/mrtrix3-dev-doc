@@ -8,6 +8,7 @@ var class_m_r_1_1_file_1_1_dicom_1_1_element =
       [ "FLOAT", "class_m_r_1_1_file_1_1_dicom_1_1_element.html#ae9217c91240fb8e69f77bf9f6a973173a18ac584a987515994a0503baba900f2a", null ],
       [ "DATE", "class_m_r_1_1_file_1_1_dicom_1_1_element.html#ae9217c91240fb8e69f77bf9f6a973173a2a0f6e93b3e25ed30b5d1b25b909f6bb", null ],
       [ "TIME", "class_m_r_1_1_file_1_1_dicom_1_1_element.html#ae9217c91240fb8e69f77bf9f6a973173a37e94eb4eca143cac4a3d6f1ac86a1e8", null ],
+      [ "DATETIME", "class_m_r_1_1_file_1_1_dicom_1_1_element.html#ae9217c91240fb8e69f77bf9f6a973173ae291fe5fa39e74a800dfe186957e1833", null ],
       [ "STRING", "class_m_r_1_1_file_1_1_dicom_1_1_element.html#ae9217c91240fb8e69f77bf9f6a973173a2a5ee806d0c553c6d67c2cb8332a93a2", null ],
       [ "SEQ", "class_m_r_1_1_file_1_1_dicom_1_1_element.html#ae9217c91240fb8e69f77bf9f6a973173a0c12ec4fe3e31988aeb880e08fedd1a9", null ],
       [ "OTHER", "class_m_r_1_1_file_1_1_dicom_1_1_element.html#ae9217c91240fb8e69f77bf9f6a973173aa7231a47f65f351ee91c7bba994c8195", null ]
@@ -18,6 +19,7 @@ var class_m_r_1_1_file_1_1_dicom_1_1_element =
     [ "error_in_check_size", "class_m_r_1_1_file_1_1_dicom_1_1_element.html#a9665ecdcee79a91f0ccf514a09f764d4", null ],
     [ "error_in_get", "class_m_r_1_1_file_1_1_dicom_1_1_element.html#a819f1d6644b07783f5f1ada3e93026c9", null ],
     [ "get_date", "class_m_r_1_1_file_1_1_dicom_1_1_element.html#aec5df38ce79beca6c15dae42988e48cc", null ],
+    [ "get_datetime", "class_m_r_1_1_file_1_1_dicom_1_1_element.html#a90eb14a5df5960adbe83b27182df91ff", null ],
     [ "get_float", "class_m_r_1_1_file_1_1_dicom_1_1_element.html#a96a804f958264d6914955644f2e0e0fd", null ],
     [ "get_float", "class_m_r_1_1_file_1_1_dicom_1_1_element.html#a0720a0476be0642c44dca9b8f035c3d6", null ],
     [ "get_int", "class_m_r_1_1_file_1_1_dicom_1_1_element.html#ab1b9b9975a44c96a6e4b098ad3066fd4", null ],

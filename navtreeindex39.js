@@ -1,5 +1,9 @@
 var NAVTREEINDEX39 =
 {
+"normalise_8h_source.html":[12,0,0,5,9],
+"nulldist_8h.html":[12,0,1,2,2,1,4],
+"nulldist_8h_source.html":[12,0,1,2,2,1,4],
+"odf_2item_8h.html":[12,0,1,4,2,2,2,0],
 "odf_2item_8h_source.html":[12,0,1,4,2,2,2,0],
 "odf_8h.html":[12,0,1,4,2,2,2,2],
 "odf_8h_source.html":[12,0,1,4,2,2,2,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX39 =
 "robust__estimators_8h.html#a3b6944c8f6b2cb681a86fbc27d855023":[12,0,1,5,0,11,3],
 "robust__estimators_8h_source.html":[12,0,1,5,0,11],
 "roi__editor_2item_8h.html":[12,0,1,4,2,2,3,0],
-"roi__editor_2item_8h_source.html":[12,0,1,4,2,2,3,0],
-"scalar_8h.html":[12,0,1,7,6],
-"scalar_8h_source.html":[12,0,1,7,6],
-"scalar__file_8h.html":[12,0,1,2,2,16],
-"scalar__file_8h.html#a1ea4eaccf9c6496a051142d0e6924d28":[12,0,1,2,2,16,2]
+"roi__editor_2item_8h_source.html":[12,0,1,4,2,2,3,0]
 };

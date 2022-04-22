@@ -1,5 +1,9 @@
 var NAVTREEINDEX38 =
 {
+"namespace_m_r_1_1_registration_1_1_metric.html#ad9304a7702146c3c98cd3570e5bcf0a0":[10,0,0,21,0,23],
+"namespace_m_r_1_1_registration_1_1_rotation_search.html":[10,0,0,21,1],
+"namespace_m_r_1_1_registration_1_1_rotation_search.html#a36b7395ecd0f37173c31160e8abaddd2":[10,0,0,21,1,2],
+"namespace_m_r_1_1_registration_1_1_rotation_search.html#ac5a84006bd6f61ded34f0aa383019533":[10,0,0,21,1,3],
 "namespace_m_r_1_1_registration_1_1_rotation_search.html#ac73aa4f3c03aa789bc6c5c416ba80726":[10,0,0,21,1,4],
 "namespace_m_r_1_1_registration_1_1_rotation_search.html#af8b963e5491e4305dec0313ae189690a":[10,0,0,21,1,1],
 "namespace_m_r_1_1_registration_1_1_transform.html":[10,0,0,21,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX38 =
 "nonlinear_8h_source.html":[12,0,1,5,6],
 "normalise3_d_8h.html":[12,0,0,0,8],
 "normalise3_d_8h_source.html":[12,0,0,0,8],
-"normalise_8h.html":[12,0,0,5,9],
-"normalise_8h_source.html":[12,0,0,5,9],
-"nulldist_8h.html":[12,0,1,2,2,1,4],
-"nulldist_8h_source.html":[12,0,1,2,2,1,4],
-"odf_2item_8h.html":[12,0,1,4,2,2,2,0]
+"normalise_8h.html":[12,0,0,5,9]
 };

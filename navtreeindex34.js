@@ -1,5 +1,9 @@
 var NAVTREEINDEX34 =
 {
+"mask__clean_8h_source.html":[12,0,0,5,7],
+"masked_8h.html":[12,0,0,9,3],
+"masked_8h_source.html":[12,0,0,9,3],
+"mat2vec_8h.html":[12,0,1,0,3],
 "mat2vec_8h_source.html":[12,0,1,0,3],
 "math_2median_8h.html":[12,0,0,10,20],
 "math_2median_8h.html#a673b3d75a50ad4cc1d0a6a59e313355f":[12,0,0,10,20,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX34 =
 "namespace_m_r_1_1_algo_1_1_histogram.html#a6b08317b74b073cac8a9399c465faf9f":[10,0,0,1,0,9],
 "namespace_m_r_1_1_algo_1_1_histogram.html#a7f166a11bb3f13fe5faae97e8bb16631":[10,0,0,1,0,8],
 "namespace_m_r_1_1_algo_1_1_histogram.html#a9bd18f8ed3a8f30403edcf6eb76ca89b":[10,0,0,1,0,6],
-"namespace_m_r_1_1_algo_1_1_histogram.html#afb0a82587faa29c26114046869816f44":[10,0,0,1,0,3],
-"namespace_m_r_1_1_app.html":[10,0,0,2],
-"namespace_m_r_1_1_app.html#a0842c1db4881f89fe7fcdbbeb9fbf9f2":[10,0,0,2,12],
-"namespace_m_r_1_1_app.html#a0cf0c7526415ad944a79638153b1bbc3":[10,0,0,2,27],
-"namespace_m_r_1_1_app.html#a0de6b1128ac7a2d2ce392191d3f61dad":[10,0,0,2,14]
+"namespace_m_r_1_1_algo_1_1_histogram.html#afb0a82587faa29c26114046869816f44":[10,0,0,1,0,3]
 };

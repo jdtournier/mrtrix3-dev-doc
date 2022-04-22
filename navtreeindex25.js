@@ -1,5 +1,9 @@
 var NAVTREEINDEX25 =
 {
+"class_m_r_1_1_iterator__loop.html#adf5d3cbdf17e2b3e85309315a04c2f34":[10,0,0,48,1],
+"class_m_r_1_1_log_level_latch.html":[10,0,0,49],
+"class_m_r_1_1_log_level_latch.html":[11,0,0,42],
+"class_m_r_1_1_log_level_latch.html#a8836e05e97c2887dde903e985fecfe11":[11,0,0,42,0],
 "class_m_r_1_1_log_level_latch.html#a8836e05e97c2887dde903e985fecfe11":[10,0,0,49,0],
 "class_m_r_1_1_log_level_latch.html#ac060f6d526d65596994348265581726f":[11,0,0,42,1],
 "class_m_r_1_1_log_level_latch.html#ac060f6d526d65596994348265581726f":[10,0,0,49,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX25 =
 "class_m_r_1_1_math_1_1_stats_1_1_cohort_data_import.html#afe747271e51c4c35a849c09d2537d1c2":[10,0,0,16,9,1,4],
 "class_m_r_1_1_math_1_1_stats_1_1_g_l_m_1_1_hypothesis.html":[11,0,0,14,2,0,0],
 "class_m_r_1_1_math_1_1_stats_1_1_g_l_m_1_1_hypothesis.html":[10,0,0,16,9,0,0],
-"class_m_r_1_1_math_1_1_stats_1_1_g_l_m_1_1_test_base.html":[11,0,0,14,2,0,1],
-"class_m_r_1_1_math_1_1_stats_1_1_g_l_m_1_1_test_base.html":[10,0,0,16,9,0,1],
-"class_m_r_1_1_math_1_1_stats_1_1_g_l_m_1_1_test_fixed_heteroscedastic.html":[9,16,1],
-"class_m_r_1_1_math_1_1_stats_1_1_g_l_m_1_1_test_fixed_homoscedastic.html":[9,16,0],
-"class_m_r_1_1_math_1_1_stats_1_1_g_l_m_1_1_test_variable_heteroscedastic.html":[9,16,3]
+"class_m_r_1_1_math_1_1_stats_1_1_g_l_m_1_1_test_base.html":[11,0,0,14,2,0,1]
 };

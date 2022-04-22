@@ -28,7 +28,7 @@
   <td id="projectlogo"><a href=http://www.mrtrix.org><img alt="Logo" src="logo.png"/></a></td>
   <td id="projectalign" style="padding-left: 2em;">
    <div id="projectname">Developer documentation</div>
-   <div id="projectbrief">Version 3.0.3-98-gb3409159</div>
+   <div id="projectbrief">Version 3.0.3-103-g026e850d</div>
   </td>
  </tr>
  </tbody>
@@ -111,10 +111,11 @@ Public Types</h2></td></tr>
 , <br />
 &#160;&#160;<a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_element.html#ae9217c91240fb8e69f77bf9f6a973173a2a0f6e93b3e25ed30b5d1b25b909f6bb">DATE</a>
 , <a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_element.html#ae9217c91240fb8e69f77bf9f6a973173a37e94eb4eca143cac4a3d6f1ac86a1e8">TIME</a>
+, <a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_element.html#ae9217c91240fb8e69f77bf9f6a973173ae291fe5fa39e74a800dfe186957e1833">DATETIME</a>
 , <a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_element.html#ae9217c91240fb8e69f77bf9f6a973173a2a5ee806d0c553c6d67c2cb8332a93a2">STRING</a>
-, <a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_element.html#ae9217c91240fb8e69f77bf9f6a973173a0c12ec4fe3e31988aeb880e08fedd1a9">SEQ</a>
 , <br />
-&#160;&#160;<a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_element.html#ae9217c91240fb8e69f77bf9f6a973173aa7231a47f65f351ee91c7bba994c8195">OTHER</a>
+&#160;&#160;<a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_element.html#ae9217c91240fb8e69f77bf9f6a973173a0c12ec4fe3e31988aeb880e08fedd1a9">SEQ</a>
+, <a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_element.html#ae9217c91240fb8e69f77bf9f6a973173aa7231a47f65f351ee91c7bba994c8195">OTHER</a>
 <br />
  }</td></tr>
 <tr class="separator:ae9217c91240fb8e69f77bf9f6a973173"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -155,6 +156,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aec5df38ce79beca6c15dae42988e48cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3638243a5410bb4a610dd082f7d562d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_time.html">Time</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_element.html#a3638243a5410bb4a610dd082f7d562d3">get_time</a> () const</td></tr>
 <tr class="separator:a3638243a5410bb4a610dd082f7d562d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90eb14a5df5960adbe83b27182df91ff"><td class="memItemLeft" align="right" valign="top">std::pair&lt; <a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_date.html">Date</a>, <a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_time.html">Time</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_element.html#a90eb14a5df5960adbe83b27182df91ff">get_datetime</a> () const</td></tr>
+<tr class="separator:a90eb14a5df5960adbe83b27182df91ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab07c11711763459051c5a465fe73ef74"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_r_1_1vector.html">vector</a>&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_element.html#ab07c11711763459051c5a465fe73ef74">get_string</a> () const</td></tr>
 <tr class="separator:ab07c11711763459051c5a465fe73ef74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3038f61d33c82dd60778007a407d4ddb"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_element.html#a3038f61d33c82dd60778007a407d4ddb">get_int</a> (size_t idx, int32_t default_value=0) const</td></tr>
@@ -283,6 +286,7 @@ Friends</h2></td></tr>
 <tr><td class="fieldname"><a id="ae9217c91240fb8e69f77bf9f6a973173a18ac584a987515994a0503baba900f2a" name="ae9217c91240fb8e69f77bf9f6a973173a18ac584a987515994a0503baba900f2a"></a>FLOAT&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ae9217c91240fb8e69f77bf9f6a973173a2a0f6e93b3e25ed30b5d1b25b909f6bb" name="ae9217c91240fb8e69f77bf9f6a973173a2a0f6e93b3e25ed30b5d1b25b909f6bb"></a>DATE&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ae9217c91240fb8e69f77bf9f6a973173a37e94eb4eca143cac4a3d6f1ac86a1e8" name="ae9217c91240fb8e69f77bf9f6a973173a37e94eb4eca143cac4a3d6f1ac86a1e8"></a>TIME&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae9217c91240fb8e69f77bf9f6a973173ae291fe5fa39e74a800dfe186957e1833" name="ae9217c91240fb8e69f77bf9f6a973173ae291fe5fa39e74a800dfe186957e1833"></a>DATETIME&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ae9217c91240fb8e69f77bf9f6a973173a2a5ee806d0c553c6d67c2cb8332a93a2" name="ae9217c91240fb8e69f77bf9f6a973173a2a5ee806d0c553c6d67c2cb8332a93a2"></a>STRING&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ae9217c91240fb8e69f77bf9f6a973173a0c12ec4fe3e31988aeb880e08fedd1a9" name="ae9217c91240fb8e69f77bf9f6a973173a0c12ec4fe3e31988aeb880e08fedd1a9"></a>SEQ&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ae9217c91240fb8e69f77bf9f6a973173aa7231a47f65f351ee91c7bba994c8195" name="ae9217c91240fb8e69f77bf9f6a973173aa7231a47f65f351ee91c7bba994c8195"></a>OTHER&#160;</td><td class="fielddoc"></td></tr>
@@ -344,7 +348,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00209">209</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00211">211</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
 
 </div>
 </div>
@@ -384,7 +388,7 @@ template&lt;typename VectorType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00180">180</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00182">182</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
 
 </div>
 </div>
@@ -467,6 +471,23 @@ template&lt;typename VectorType &gt; </div>
 
 </div>
 </div>
+<a id="a90eb14a5df5960adbe83b27182df91ff" name="a90eb14a5df5960adbe83b27182df91ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90eb14a5df5960adbe83b27182df91ff">&#9670;&nbsp;</a></span>get_datetime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::pair&lt; <a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_date.html">Date</a>, <a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_time.html">Time</a> &gt; MR::File::Dicom::Element::get_datetime </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a96a804f958264d6914955644f2e0e0fd" name="a96a804f958264d6914955644f2e0e0fd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a96a804f958264d6914955644f2e0e0fd">&#9670;&nbsp;</a></span>get_float() <span class="overload">[1/2]</span></h2>
 
@@ -518,7 +539,7 @@ template&lt;typename VectorType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00165">165</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00167">167</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
 
 </div>
 </div>
@@ -573,7 +594,7 @@ template&lt;typename VectorType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00163">163</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00165">165</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
 
 </div>
 </div>
@@ -628,7 +649,7 @@ template&lt;typename VectorType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00166">166</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00168">168</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
 
 </div>
 </div>
@@ -700,7 +721,7 @@ template&lt;typename VectorType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00164">164</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00166">166</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
 
 </div>
 </div>
@@ -728,7 +749,7 @@ template&lt;typename VectorType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00198">198</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00200">200</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
 
 </div>
 </div>
@@ -808,7 +829,7 @@ template&lt;typename VectorType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00118">118</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00119">119</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
 
 </div>
 </div>
@@ -835,7 +856,7 @@ template&lt;typename VectorType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00145">145</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00146">146</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
 
 </div>
 </div>
@@ -879,7 +900,7 @@ template&lt;typename VectorType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00148">148</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00149">149</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
 
 </div>
 </div>
@@ -906,7 +927,7 @@ template&lt;typename VectorType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00170">170</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00172">172</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
 
 </div>
 </div>
@@ -934,7 +955,7 @@ template&lt;typename VectorType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00142">142</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00143">143</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
 
 </div>
 </div>
@@ -961,7 +982,7 @@ template&lt;typename VectorType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00173">173</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00175">175</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
 
 </div>
 </div>
@@ -1114,7 +1135,7 @@ template&lt;typename VectorType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00130">130</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00131">131</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
 
 </div>
 </div>
@@ -1141,7 +1162,7 @@ template&lt;typename VectorType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00124">124</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00125">125</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
 
 </div>
 </div>
@@ -1212,7 +1233,7 @@ template&lt;typename VectorType &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00111">111</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00112">112</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
 
 </div>
 </div>
@@ -1236,7 +1257,7 @@ template&lt;typename VectorType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00206">206</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00208">208</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
 
 </div>
 </div>
@@ -1252,7 +1273,7 @@ template&lt;typename VectorType &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00109">109</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00110">110</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
 
 </div>
 </div>
@@ -1276,7 +1297,7 @@ template&lt;typename VectorType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00195">195</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00197">197</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
 
 </div>
 </div>
@@ -1300,7 +1321,7 @@ template&lt;typename VectorType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00187">187</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00189">189</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
 
 </div>
 </div>
@@ -1316,7 +1337,7 @@ template&lt;typename VectorType &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00109">109</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00110">110</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
 
 </div>
 </div>
@@ -1340,7 +1361,7 @@ template&lt;typename VectorType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00193">193</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00195">195</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
 
 </div>
 </div>
@@ -1364,7 +1385,7 @@ template&lt;typename VectorType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00193">193</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00195">195</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
 
 </div>
 </div>
@@ -1388,7 +1409,7 @@ template&lt;typename VectorType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00193">193</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00195">195</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
 
 </div>
 </div>
@@ -1412,7 +1433,7 @@ template&lt;typename VectorType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00191">191</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00193">193</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
 
 </div>
 </div>
@@ -1428,7 +1449,7 @@ template&lt;typename VectorType &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00112">112</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00113">113</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
 
 </div>
 </div>
@@ -1444,7 +1465,7 @@ template&lt;typename VectorType &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00110">110</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00111">111</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
 
 </div>
 </div>
@@ -1468,7 +1489,7 @@ template&lt;typename VectorType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00192">192</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00194">194</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
 
 </div>
 </div>
@@ -1484,7 +1505,7 @@ template&lt;typename VectorType &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00113">113</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00114">114</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
 
 </div>
 </div>
@@ -1508,7 +1529,7 @@ template&lt;typename VectorType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00214">214</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00216">216</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
 
 </div>
 </div>
@@ -1524,7 +1545,7 @@ template&lt;typename VectorType &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00109">109</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="element_8h_source.html#l00110">110</a> of file <a class="el" href="element_8h_source.html">element.h</a>.</p>
 
 </div>
 </div>
@@ -1537,7 +1558,7 @@ template&lt;typename VectorType &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_m_r.html">MR</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_file.html">File</a></li><li class="navelem"><a class="el" href="namespace_m_r_1_1_file_1_1_dicom.html">Dicom</a></li><li class="navelem"><a class="el" href="class_m_r_1_1_file_1_1_dicom_1_1_element.html">Element</a></li>
-    <li class="footer">Generated on Fri Apr 1 2022 18:00:07 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+    <li class="footer">Generated on Fri Apr 22 2022 16:00:06 for MRtrix by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
   </ul>
 </div>
 </body>

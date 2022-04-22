@@ -1,5 +1,9 @@
 var NAVTREEINDEX33 =
 {
+"group__thread__queue.html#ga9952d15c6bbdf026520cfa654bbd090f":[9,1,2,4],
+"group__thread__queue.html#gaff265d95de82bde0b453955d08114286":[9,1,2,1],
+"group__zonal__spherical__harmonics.html":[9,8],
+"group__zonal__spherical__harmonics.html#ga035799977415554aaef1ba6eb7950ab3":[9,8,14],
 "group__zonal__spherical__harmonics.html#ga089431f50efa1f7ac0ca5e38e8bbaa22":[9,8,13],
 "group__zonal__spherical__harmonics.html#ga08c23193bee5994196f782d5a01631bf":[9,8,16],
 "group__zonal__spherical__harmonics.html#ga0faf14fe4f77bc398e155ff2b82ab008":[9,8,8],
@@ -245,9 +249,5 @@ var NAVTREEINDEX33 =
 "mapping_8h_source.html":[12,0,1,2,2,5,6],
 "mask_8h.html":[12,0,1,2,0,1],
 "mask_8h_source.html":[12,0,1,2,0,1],
-"mask__clean_8h.html":[12,0,0,5,7],
-"mask__clean_8h_source.html":[12,0,0,5,7],
-"masked_8h.html":[12,0,0,9,3],
-"masked_8h_source.html":[12,0,0,9,3],
-"mat2vec_8h.html":[12,0,1,0,3]
+"mask__clean_8h.html":[12,0,0,5,7]
 };
